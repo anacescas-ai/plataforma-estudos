@@ -3162,6 +3162,387 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q096",
+    numero: "Questão 96",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Relações Tróficas",
+    materiaCor: "emerald",
+    materiaIcone: "fa-frog",
+    titulo: "Sapos-Flecha e a Toxina que Vem da Dieta: Bioacumulação, não Produção Própria",
+    tags: ["Biologia", "Ecologia", "Toxinas Animais", "Bioacumulação", "Relações Tróficas", "Herpetologia"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Os sapinhos-ponta-de-flecha constituem um grupo de espécies encontradas na América Central e do Sul. Seus venenos são obtidos por meio do consumo de algumas formigas e cupins que se alimentam de plantas que contêm esses venenos. Esses anfíbios são usados para envenenar as flechas dos caçadores nativos. Quando capturados e criados em condições artificiais, ou quando nascidos em cativeiro, não são tóxicos.
+    <br><br>
+    BADIO, B. et al. Epibatidine: Discovery and Definition as a Potent Analgesic and Nicotinic Agonist. <strong>Med. Chem. Res.</strong>, n. 4, 1994 (adaptado).
+    <br><br>
+    A perda da capacidade de se obter a toxina nos nascidos em cativeiro é causada pela:`,
+
+    alternativas: [
+      { letra: "A", texto: "Diferença de umidade entre os ambientes.", correta: false },
+      { letra: "B", texto: "Ausência de alimentação natural.", correta: true },
+      { letra: "C", texto: "Adaptação ao novo ambiente.", correta: false },
+      { letra: "D", texto: "Mudança de comportamento.", correta: false },
+      { letra: "E", texto: "Variabilidade genética.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o mecanismo real da toxicidade dos sapos-flecha — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Quem são os sapos-ponta-de-flecha</h4>
+          <p>
+            A família Dendrobatidae reúne pequenos anfíbios da América Central e do Sul, famosos pelas cores vibrantes — vermelho, amarelo, azul intenso. Essas cores não são só estética: são <strong>aposematismo</strong>, um sinal de alerta visual que anuncia "sou tóxico, não me coma". Historicamente, povos indígenas usavam a secreção da pele desses sapos para envenenar pontas de flecha, daí o nome popular.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O mito mais comum: achar que o sapo "fabrica" o veneno</h4>
+          <p>
+            A intuição mais frequente é imaginar que a toxina é produzida pelo próprio metabolismo do sapo, como um veneno de cobra é sintetizado em glândulas especializadas a partir do próprio corpo do animal. <strong>Não é esse o caso aqui.</strong> O enunciado já entrega a explicação real na primeira frase: "Seus venenos são obtidos por meio do consumo de algumas formigas e cupins que se alimentam de plantas que contêm esses venenos".
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O mecanismo real: sequestro de toxina pela cadeia alimentar</h4>
+          <p>
+            O que acontece é um processo chamado <strong>sequestro de toxina</strong> (ou bioacumulação dietética): o sapo não sintetiza o alcaloide tóxico do zero, ele o <strong>acumula</strong> a partir do que come, seguindo uma cadeia de três elos:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">1. Planta</strong>
+              Produz alcaloides tóxicos como defesa contra herbivoria.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">2. Formigas e cupins</strong>
+              Se alimentam dessas plantas e acumulam os alcaloides em seu próprio corpo, sem serem afetados.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">3. Sapo-flecha</strong>
+              Come esses insetos e concentra os alcaloides nas glândulas granulares da própria pele.
+            </div>
+          </div>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Por isso a toxina é dieta-dependente:</strong> sem esse elo específico da cadeia alimentar (as formigas e cupins certos, que por sua vez comeram as plantas certas), não há alcaloide para acumular — não importa quão saudável ou bem alimentado o sapo esteja com outra dieta.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que sapos de cativeiro nascem "destoxicados"</h4>
+          <p>
+            Em criadouros e zoológicos, os sapos-flecha são alimentados com dieta padrão de terrário — grilos, moscas-das-frutas, larvas comerciais — que não contêm os alcaloides das formigas e cupins silvestres específicos da floresta tropical de origem. Como a fonte da toxina nunca chega até o sapo, ele simplesmente não tem o que acumular, mesmo sendo, geneticamente, a mesma espécie e (nos nascidos em cativeiro de pais selvagens) até parentes diretos de indivíduos tóxicos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Por que isso não é genético, comportamental ou ambiental-abiótico</h4>
+          <p>
+            O ponto mais importante da questão é diferenciar causas <strong>bióticas dietéticas</strong> de outras explicações que soam plausíveis:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Não é <strong>genética</strong>: o genoma do sapo de cativeiro não mudou. Ele tem a mesma capacidade herdada de armazenar o alcaloide nas glândulas — só não recebe o alcaloide para armazenar.</li>
+            <li>Não é <strong>umidade, temperatura ou outro fator abiótico</strong> do recinto: esses fatores afetam o bem-estar geral do animal, mas não fornecem (nem retiram) o composto químico específico da toxina.</li>
+            <li>Não é uma questão de <strong>comportamento</strong>: o sapo pode caçar e se alimentar normalmente em cativeiro — só não há a presa certa disponível.</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> Um padrão que se repete na natureza</h4>
+          <p>
+            O sequestro de toxina dietética não é exclusividade dos sapos-flecha. As borboletas-monarca acumulam cardenolídeos tóxicos ao se alimentarem, na fase de lagarta, de plantas do gênero <em>Asclepias</em>; muitos moluscos marinhos acumulam toxinas de algas que consomem. Em todos esses casos, o padrão é o mesmo: o animal não fabrica o veneno — ele o hospeda, obtido de um elo específico da cadeia alimentar.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Releia a primeira frase do enunciado.</strong> Ela já entrega o mecanismo: a toxina vem do consumo de formigas e cupins que comeram plantas tóxicas. A pergunta é só uma consequência lógica dessa frase.
+            <br><br>
+            <strong>Passo 2 — Pergunte: o que muda entre um sapo selvagem e um de cativeiro?</strong> Não é o genoma, nem o comportamento, nem a umidade — é exatamente a <strong>dieta</strong>: em cativeiro, ele nunca come as formigas e cupins que carregam o alcaloide.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Ausência de alimentação natural." O sapo em cativeiro não recebe as formigas e cupins que sequestraram o alcaloide de plantas tóxicas — sem esse elo específico da cadeia alimentar silvestre, não há toxina para acumular nas glândulas da pele.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — diferença de umidade entre os ambientes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que anfíbios são muito sensíveis à umidade e associar qualquer mudança fisiológica a esse fator.
+              <br>
+              <strong>Onde quebra:</strong> umidade afeta a pele e a respiração cutânea do sapo, mas não é a fonte química do alcaloide. O enunciado não menciona nada sobre condições de umidade — só sobre a dieta.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — adaptação ao novo ambiente</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> usar "adaptação" como explicação genérica para qualquer diferença entre populações selvagem e cativa.
+              <br>
+              <strong>Onde quebra:</strong> é vaga demais e não aponta a causa real. O sapo não "se adapta" a não ser tóxico — ele simplesmente não recebe o composto que tornaria sua pele tóxica.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — mudança de comportamento</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> supor que o sapo "decide" agir diferente em cativeiro e isso o torna não tóxico.
+              <br>
+              <strong>Onde quebra:</strong> o comportamento de se alimentar continua o mesmo; o que muda é o que está disponível para comer. A causa é a composição da dieta oferecida, não uma escolha comportamental do animal.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — variabilidade genética</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> assumir que qualquer diferença biológica entre indivíduos deve ter origem genética.
+              <br>
+              <strong>Onde quebra:</strong> o próprio enunciado contradiz essa ideia — sapos <em>capturados</em> (adultos selvagens, já geneticamente "programados" e antes tóxicos) também perdem a toxicidade em cativeiro. Se fosse genético, a captura sozinha não mudaria nada; a perda da toxina acontece porque a dieta muda, não o DNA.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As quatro alternativas erradas testam se você cai na armadilha de tratar a toxicidade como uma característica intrínseca do sapo (genética, comportamental, fisiológica). A informação decisiva está literalmente na primeira frase do enunciado: a toxina é <strong>obtida</strong> pela dieta, não produzida internamente.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-frog", titulo: "Sequestro de Toxina", text: "O animal acumula uma substância tóxica obtida da dieta, em vez de sintetizá-la no próprio corpo." },
+      { icone: "fa-utensils", titulo: "Cadeia Trófica da Toxina", text: "Planta tóxica → formiga/cupim que a consome e acumula → sapo que come o inseto e concentra o alcaloide." },
+      { icone: "fa-triangle-exclamation", titulo: "Aposematismo", text: "Cores vibrantes que sinalizam toxicidade a potenciais predadores." },
+      { icone: "fa-dna", titulo: "Não é genético", text: "O genoma do sapo de cativeiro é o mesmo; falta apenas a fonte dietética do alcaloide." },
+      { icone: "fa-leaf", titulo: "Exemplos análogos", text: "Borboletas-monarca sequestram cardenolídeos de Asclepias do mesmo jeito — padrão comum na natureza." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "A cadeia de três elos da toxina",
+        legenda: "O alcaloide nasce na planta, é acumulado pelo inseto que a consome, e concentrado na pele do sapo que come esse inseto.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <ellipse cx="80" cy="90" rx="50" ry="30" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="80" y="85" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Planta</text>
+            <text x="80" y="99" fill="#d1fae5" font-size="8" text-anchor="middle">(alcaloide)</text>
+            <line x1="130" y1="90" x2="165" y2="90" stroke="#64748b" stroke-width="2" marker-end="url(#pq96)"/>
+
+            <ellipse cx="230" cy="90" rx="50" ry="30" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+            <text x="230" y="85" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Formiga/cupim</text>
+            <text x="230" y="99" fill="#fde68a" font-size="8" text-anchor="middle">acumula</text>
+            <line x1="280" y1="90" x2="315" y2="90" stroke="#64748b" stroke-width="2" marker-end="url(#pq96)"/>
+
+            <ellipse cx="390" cy="90" rx="55" ry="30" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="390" y="85" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Sapo-flecha</text>
+            <text x="390" y="99" fill="#fca5a5" font-size="8" text-anchor="middle">concentra na pele</text>
+            <defs>
+              <marker id="pq96" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+                <path d="M0,0 L7,3.5 L0,7 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Selvagem x cativeiro: mesmo genoma, dieta diferente",
+        legenda: "O sapo de cativeiro é geneticamente igual ao selvagem — a única diferença real é não ter acesso à presa que carrega o alcaloide.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="20" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">Na natureza</text>
+            <circle cx="115" cy="80" r="40" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="115" y="76" fill="#d1fae5" font-size="9" text-anchor="middle">Sapo</text>
+            <text x="115" y="90" fill="#d1fae5" font-size="8" text-anchor="middle">TÓXICO</text>
+            <text x="115" y="135" fill="#94a3b8" font-size="8" text-anchor="middle">dieta: formigas/cupins com alcaloide</text>
+
+            <text x="345" y="20" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Em cativeiro</text>
+            <circle cx="345" cy="80" r="40" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="345" y="76" fill="#e2e8f0" font-size="9" text-anchor="middle">Sapo</text>
+            <text x="345" y="90" fill="#e2e8f0" font-size="8" text-anchor="middle">NÃO TÓXICO</text>
+            <text x="345" y="135" fill="#94a3b8" font-size="8" text-anchor="middle">dieta: grilos/moscas de terrário</text>
+
+            <text x="230" y="85" fill="#475569" font-size="16" text-anchor="middle">=</text>
+            <text x="230" y="105" fill="#64748b" font-size="7" text-anchor="middle">mesmo genoma</text>
+          </svg>`
+      },
+      {
+        titulo: "O que muda e o que não muda",
+        legenda: "Só um fator realmente varia entre os dois cenários — a origem do alimento. Genética, comportamento e ambiente físico permanecem comparáveis.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Fator</text>
+            <text x="330" y="15" fill="#94a3b8" font-size="9">Explica a perda da toxina?</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">Genoma do sapo</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕ (igual)</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">Comportamento de caça</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕ (igual)</text>
+
+            <rect x="15" y="80" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="98" fill="#6ee7b7" font-size="10" font-weight="bold">Origem da dieta (formiga/cupim c/ alcaloide)</text>
+            <text x="400" y="98" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓ muda</text>
+
+            <text x="30" y="124" fill="#e2e8f0" font-size="10">Umidade do recinto</text>
+            <text x="400" y="124" fill="#f87171" font-size="12" text-anchor="middle">✕ (irrelevante)</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a alternativa B aponta a causa real: a ausência da dieta natural que fornece o alcaloide.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Diferença de umidade</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="53" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="71" fill="#6ee7b7" font-size="10" font-weight="bold">B — Ausência de alimentação natural</text>
+            <text x="400" y="71" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="97" fill="#e2e8f0" font-size="10">C — Adaptação ao novo ambiente</text>
+            <text x="400" y="97" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="124" fill="#e2e8f0" font-size="10">D — Mudança de comportamento</text>
+            <text x="400" y="124" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Variabilidade genética</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a dieta do sapo e veja se ele fica tóxico",
+      descricao: "Escolha o que o sapo come e observe se a cadeia da toxina se completa. Só um caminho leva a um sapo tóxico.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Dieta oferecida ao sapo:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q96dieta" data-sim="dieta" value="natural" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Formigas e cupins silvestres (que comeram plantas tóxicas)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q96dieta" data-sim="dieta" value="terrario" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Grilos e moscas-das-frutas de terrário</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q96dieta" data-sim="dieta" value="misto" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Metade silvestre, metade terrário</span>
+            </label>
+            <p class="text-[10px] text-slate-500 pt-1"><i class="fa-solid fa-flask"></i> O genoma do sapo é sempre o mesmo — só a dieta muda entre os testes.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+              <div class="flex justify-between text-[11px] mb-1">
+                <span class="text-emerald-300 font-bold">Alcaloide acumulado na pele</span>
+                <span class="text-emerald-300 font-mono" data-out="nivel">100%</span>
+              </div>
+              <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                <div data-bar="nivel" class="h-full bg-emerald-500 transition-all" style="width:100%"></div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="dieta"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var dieta = 'natural';
+          radios.forEach(function (r) { if (r.checked) dieta = r.value; });
+
+          var nivel = dieta === 'natural' ? 100 : (dieta === 'misto' ? 50 : 0);
+
+          saida('nivel').textContent = nivel + '%';
+          barra('nivel').style.width = nivel + '%';
+
+          var v = saida('veredito');
+          if (nivel === 100) {
+            barra('nivel').className = 'h-full bg-emerald-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Sapo tóxico.</strong> A dieta completa a cadeia planta → inseto → sapo, e o alcaloide se acumula na pele.';
+          } else if (nivel === 0) {
+            barra('nivel').className = 'h-full bg-rose-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Sapo não tóxico.</strong> Sem a presa que carrega o alcaloide, não há nada para acumular — mesmo com o genoma intacto de um sapo tóxico.';
+          } else {
+            barra('nivel').className = 'h-full bg-amber-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Toxicidade parcial.</strong> Só a fração da dieta que veio da fonte silvestre contribui com alcaloide acumulado.';
+          }
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-frog"></i> Planta Tóxica → Formiga/Cupim → Sapo (toxina acumulada, não produzida)</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="110" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+          <text x="75" y="54" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Planta tóxica</text>
+          <text x="165" y="54" fill="#34d399" font-size="16" text-anchor="middle">→</text>
+          <rect x="185" y="30" width="110" height="40" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+          <text x="240" y="54" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Formiga/cupim</text>
+          <text x="330" y="54" fill="#34d399" font-size="16" text-anchor="middle">→</text>
+          <rect x="350" y="30" width="95" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="397" y="54" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Sapo-flecha</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
