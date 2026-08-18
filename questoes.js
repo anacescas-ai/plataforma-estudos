@@ -9496,6 +9496,354 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q115",
+    numero: "Questão 115",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Química Orgânica & Oxidação",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Do Borneol à Cânfora: Oxidação de Álcool Secundário e Fórmula Molecular",
+    tags: ["Química", "Química Orgânica", "Oxidação", "Álcoois Secundários", "Cetonas", "Fórmula Molecular", "Grau de Insaturação", "Terpenos"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em uma aula prática de química orgânica, um professor identificou os frascos de várias substâncias apenas por suas fórmulas moleculares. Em seguida, apresentou uma representação tridimensional da molécula do <strong>borneol</strong>, um álcool secundário, conforme a figura. Ele explicou que, quando oxidado, o borneol dá origem à <strong>cânfora</strong>, uma cetona usada desde a Antiguidade como incenso e no preparo de medicamentos. Finalmente, o professor solicitou que os alunos identificassem o frasco contendo a substância cânfora.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 300 200" class="w-full h-auto mx-auto max-w-xs">
+        <polygon points="150,40 190,70 175,120 125,120 110,70" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+        <line x1="150" y1="40" x2="175" y2="120" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="130" y1="55" x2="130" y2="20" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="118" y="14" fill="#e2e8f0" font-size="10" text-anchor="middle">H₃C</text>
+        <line x1="165" y1="55" x2="180" y2="25" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="188" y="18" fill="#e2e8f0" font-size="10" text-anchor="middle">CH₃</text>
+        <line x1="110" y1="70" x2="70" y2="80" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="55" y="84" fill="#e2e8f0" font-size="10" text-anchor="middle">H₃C</text>
+        <line x1="175" y1="120" x2="210" y2="140" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="225" y="146" fill="#7dd3fc" font-size="11" font-weight="bold" text-anchor="middle">OH</text>
+        <text x="150" y="175" fill="#94a3b8" font-size="9" font-style="italic" text-anchor="middle">Borneol</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">SANTOS, A. P. B. et al. Oxidação do borneol à cânfora com água sanitária: um experimento simples de baixo custo e limpo. <strong>Química Nova</strong>, n. 6, 2009 (adaptado).</p>
+    <br>
+    O frasco contendo cânfora apresenta a fórmula molecular:`,
+
+    alternativas: [
+      { letra: "A", texto: "C₉H₁₆O", correta: false },
+      { letra: "B", texto: "C₉H₁₇O", correta: false },
+      { letra: "C", texto: "C₁₀H₁₆O", correta: true },
+      { letra: "D", texto: "C₁₀H₁₆O₂", correta: false },
+      { letra: "E", texto: "C₁₀H₁₈O₂", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o que acontece, em termos de átomos, quando um álcool secundário é oxidado a cetona — e como usar o grau de insaturação para eliminar alternativas impossíveis sem decorar a fórmula do borneol.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Borneol: um álcool secundário bicíclico</h4>
+          <p>
+            O <strong>borneol</strong> é um monoterpeno bicíclico (dois anéis fundidos na estrutura) com um grupo <strong>–OH</strong> ligado a um carbono <strong>secundário</strong> (carbono ligado a exatamente dois outros carbonos). Sua fórmula molecular é <strong>C₁₀H₁₈O</strong> — típica de monoterpenos, que têm 10 carbonos (duas unidades de isopreno, C₅).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> O que muda na oxidação de álcool secundário a cetona</h4>
+          <p>
+            Álcoois <strong>secundários</strong> (R₂CH–OH), quando oxidados, formam <strong>cetonas</strong> (R₂C=O) — diferente dos álcoois primários (que formam aldeídos e depois ácidos carboxílicos) e dos álcoois terciários (que não sofrem esse tipo de oxidação, pois não há hidrogênio no carbono ligado à hidroxila).
+          </p>
+          <p>
+            Na reação R₂CH–OH → R₂C=O, o carbono perde o hidrogênio que estava ligado a ele e o hidrogênio da hidroxila também sai (removidos pelo agente oxidante, como o hipoclorito de sódio da água sanitária, citado no texto de referência). No balanço da molécula orgânica, isso significa <strong>perda líquida de 2 átomos de hidrogênio</strong>, mantendo o número de carbonos e de oxigênios inalterado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Aplicando ao borneol → cânfora</h4>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            Borneol (C₁₀H₁₈O) → Cânfora (C₁₀H₁₆O) + "2 H" (removidos pela oxidação)
+          </div>
+          <p>
+            Note que o número de carbonos (10) e de oxigênios (1) permanece o mesmo — só o número de hidrogênios cai de 18 para 16. Isso já é suficiente para prever a fórmula da cânfora sem precisar desenhar a estrutura completa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Confirmando com o grau de insaturação (GI)</h4>
+          <p>
+            O grau de insaturação conta quantos anéis e/ou ligações π (duplas/triplas) uma molécula tem, a partir da fórmula molecular CcHhOo (oxigênio não entra na conta):
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            GI = (2c + 2 − h) / 2
+          </div>
+          <p>
+            Para o borneol (C₁₀H₁₈O): GI = (2×10 + 2 − 18) / 2 = 4/2 = <strong>2</strong>. Isso bate com a estrutura bicíclica (2 anéis, 0 ligações duplas) — um álcool secundário saturado.
+          </p>
+          <p>
+            Para a cânfora (C₁₀H₁₆O): GI = (2×10 + 2 − 16) / 2 = 6/2 = <strong>3</strong>. Isso bate perfeitamente: os mesmos 2 anéis do borneol, mais 1 ligação dupla C=O nova (a carbonila da cetona) — exatamente o que se espera de uma oxidação que transforma –OH em C=O sem quebrar nenhum anel.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Um truque rápido: número de hidrogênios deve ser par</h4>
+          <p>
+            Para uma molécula orgânica neutra formada apenas por C, H e O (sem nitrogênio), o número total de átomos de hidrogênio precisa ser <strong>par</strong>. Isso decorre da valência do carbono e do oxigênio serem pares (4 e 2) — uma molécula com número ímpar de H exigiria um elétron desemparelhado, ou seja, seria um radical livre, não uma substância estável armazenada num frasco de laboratório.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-flask", titulo: "Oxidação de álcool secundário", text: "R₂CH-OH oxida a R₂C=O (cetona), com perda líquida de 2 átomos de hidrogênio da fórmula molecular." },
+      { icone: "fa-ring", titulo: "Borneol e cânfora: monoterpenos", text: "Ambos têm 10 carbonos (C₁₀) e a mesma estrutura bicíclica de anéis — só o grupo funcional muda." },
+      { icone: "fa-square-root-variable", titulo: "Grau de insaturação (GI)", text: "GI = (2c+2-h)/2 conta anéis + ligações π. Confirma que cânfora tem 1 grau a mais que borneol (a nova carbonila)." },
+      { icone: "fa-circle-half-stroke", titulo: "H sempre em número par", text: "Moléculas orgânicas neutras de C, H e O têm sempre um número par de hidrogênios — descarta fórmulas com H ímpar de cara." },
+      { icone: "fa-arrows-left-right", titulo: "O que muda e o que não muda", text: "Na oxidação, carbonos e oxigênios da molécula permanecem os mesmos; só o número de hidrogênios muda." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>Borneol (C₁₀H₁₈O) é oxidado a cânfora, perdendo 2 hidrogênios ao formar a carbonila da cetona: <strong>C₁₀H₁₆O</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Parta da fórmula do borneol.</strong> Como monoterpeno bicíclico C₁₀H₁₈O, com 10 carbonos e 1 oxigênio (do grupo –OH).</p>
+          <p><strong>Passo 2 — Aplique a regra da oxidação de álcool secundário a cetona.</strong> Carbonos e oxigênio não mudam; hidrogênios diminuem em 2 (–OH e o H do carbono viram C=O).</p>
+          <p><strong>Passo 3 — Escreva a fórmula da cânfora.</strong> C₁₀H₁₈O → C₁₀H₁₆O. Confira com o grau de insaturação: sobe de 2 (dois anéis) para 3 (dois anéis + a nova dupla C=O) — consistente.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) C₉H₁₆O — ERRADA</p>
+            <p class="text-xs">Tem apenas 9 carbonos — perdeu um carbono que não deveria sumir na oxidação. A cânfora, como o borneol, é um monoterpeno com 10 carbonos.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) C₉H₁₇O — ERRADA</p>
+            <p class="text-xs">Além do erro no número de carbonos, tem número <strong>ímpar</strong> de hidrogênios (17) — impossível para uma molécula neutra de C, H e O, que exigiria um elétron desemparelhado (seria um radical, não uma substância estável de frasco de laboratório).</p>
+          </div>
+
+          <div class="border border-cyan-500/40 bg-cyan-950/20 rounded-lg p-3">
+            <p class="font-bold text-cyan-300 text-xs mb-1">C) C₁₀H₁₆O — CORRETA</p>
+            <p class="text-xs">Mantém os 10 carbonos e o 1 oxigênio do borneol, com 2 hidrogênios a menos — exatamente o resultado esperado da oxidação de um álcool secundário a cetona, confirmado pelo grau de insaturação subindo de 2 para 3.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) C₁₀H₁₆O₂ — ERRADA</p>
+            <p class="text-xs">Número de carbonos e hidrogênios corretos, mas tem 2 oxigênios em vez de 1. A oxidação de –OH a C=O não adiciona um segundo átomo de oxigênio à molécula — o oxigênio original apenas muda de ligação simples (C–OH) para dupla (C=O).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) C₁₀H₁₈O₂ — ERRADA</p>
+            <p class="text-xs">Mantém os 18 hidrogênios do borneol (sem refletir a perda de 2H da oxidação) e ainda adiciona um segundo oxigênio inexistente. Nenhuma das duas mudanças esperadas está presente.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Borneol → Cânfora: o que muda na fórmula",
+        legenda: "10 carbonos e 1 oxigênio permanecem; apenas 2 hidrogênios são perdidos na oxidação.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="20" y="30" width="170" height="80" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="105" y="55" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">Borneol</text>
+            <text x="105" y="78" fill="#e0f2fe" font-size="12" font-family="monospace" text-anchor="middle">C₁₀H₁₈O</text>
+            <text x="105" y="98" fill="#7dd3fc" font-size="8" text-anchor="middle">(álcool secundário)</text>
+
+            <text x="225" y="75" fill="#67e8f9" font-size="16" text-anchor="middle">→</text>
+            <text x="225" y="92" fill="#94a3b8" font-size="7" text-anchor="middle">oxidação (−2H)</text>
+
+            <rect x="270" y="30" width="170" height="80" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="355" y="55" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">Cânfora</text>
+            <text x="355" y="78" fill="#d1fae5" font-size="12" font-family="monospace" text-anchor="middle">C₁₀H₁₆O</text>
+            <text x="355" y="98" fill="#a7f3d0" font-size="8" text-anchor="middle">(cetona)</text>
+          </svg>`
+      },
+      {
+        titulo: "Grau de insaturação confirma a resposta",
+        legenda: "GI = (2c+2−h)/2. O borneol tem GI=2 (2 anéis); a cânfora tem GI=3 (2 anéis + a nova carbonila).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="110" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <text x="120" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Borneol C₁₀H₁₈O</text>
+            <text x="120" y="65" fill="#94a3b8" font-size="9" font-family="monospace" text-anchor="middle">GI = (22-18)/2 = 2</text>
+            <text x="120" y="90" fill="#94a3b8" font-size="8" text-anchor="middle">2 anéis</text>
+            <text x="120" y="105" fill="#94a3b8" font-size="8" text-anchor="middle">0 ligações duplas</text>
+
+            <rect x="240" y="20" width="200" height="110" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="340" y="40" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Cânfora C₁₀H₁₆O</text>
+            <text x="340" y="65" fill="#a7f3d0" font-size="9" font-family="monospace" text-anchor="middle">GI = (22-16)/2 = 3</text>
+            <text x="340" y="90" fill="#a7f3d0" font-size="8" text-anchor="middle">2 anéis</text>
+            <text x="340" y="105" fill="#a7f3d0" font-size="8" text-anchor="middle">+ 1 ligação dupla C=O</text>
+          </svg>`
+      },
+      {
+        titulo: "Álcool secundário → cetona: o mecanismo em átomos",
+        legenda: "O carbono perde o H ligado a ele; a hidroxila perde seu H; juntos formam a ligação dupla C=O.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="90" cy="65" r="22" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="90" y="60" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">C</text>
+            <text x="90" y="74" fill="#94a3b8" font-size="7" text-anchor="middle">-H</text>
+            <line x1="112" y1="65" x2="150" y2="65" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="160" y="60" fill="#7dd3fc" font-size="9" font-weight="bold">O-H</text>
+
+            <text x="230" y="70" fill="#67e8f9" font-size="16" text-anchor="middle">→</text>
+            <text x="230" y="90" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">−2H (oxidante)</text>
+
+            <circle cx="320" cy="65" r="22" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="320" y="70" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">C</text>
+            <line x1="342" y1="60" x2="380" y2="60" stroke="#6ee7b7" stroke-width="1.5"/>
+            <line x1="342" y1="70" x2="380" y2="70" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="392" y="65" fill="#6ee7b7" font-size="9" font-weight="bold">O</text>
+          </svg>`
+      },
+      {
+        titulo: "As cinco alternativas, o que cada erro revela",
+        legenda: "Cada alternativa errada corresponde a um erro específico de contagem de átomos.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Fórmula</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Erro</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="9" font-family="monospace">A) C₉H₁₆O</text>
+            <text x="180" y="52" fill="#94a3b8" font-size="7">carbono a menos</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="9" font-family="monospace">B) C₉H₁₇O</text>
+            <text x="180" y="76" fill="#94a3b8" font-size="7">carbono a menos + H ímpar (radical, impossível)</text>
+
+            <rect x="10" y="84" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="101" fill="#6ee7b7" font-size="9" font-weight="bold" font-family="monospace">C) C₁₀H₁₆O ✓</text>
+            <text x="280" y="101" fill="#a7f3d0" font-size="7" font-weight="bold">correta</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="9" font-family="monospace">D) C₁₀H₁₆O₂</text>
+            <text x="180" y="126" fill="#94a3b8" font-size="7">oxigênio extra que não existe</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="9" font-family="monospace">E) C₁₀H₁₈O₂</text>
+            <text x="180" y="150" fill="#94a3b8" font-size="7">esqueceu de tirar os 2H + oxigênio extra</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a fórmula da cânfora a partir do borneol",
+      descricao: "Ajuste o número de hidrogênios e oxigênios removidos/adicionados na oxidação e veja se a fórmula resultante — e o grau de insaturação — fazem sentido quimicamente.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Hidrogênios removidos na oxidação</span><span class="text-cyan-300 font-bold" data-out="hrem">2</span>
+              </label>
+              <input type="range" data-sim="hrem" min="0" max="4" value="2" step="1" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Oxigênios adicionados</span><span class="text-cyan-300 font-bold" data-out="oadd">0</span>
+              </label>
+              <input type="range" data-sim="oadd" min="0" max="1" value="0" step="1" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500"><i class="fa-solid fa-flask"></i> Fórmula de partida: Borneol C₁₀H₁₈O.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Fórmula resultante:</p>
+              <div data-out="formula" class="text-xl font-mono text-cyan-300 font-bold"></div>
+              <p class="text-[11px] text-slate-400 pt-1">Grau de insaturação:</p>
+              <div data-out="gi" class="text-sm font-mono text-slate-200"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campoH = raiz.querySelector('[data-sim="hrem"]');
+        var campoO = raiz.querySelector('[data-sim="oadd"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var hrem = parseInt(campoH.value, 10);
+          var oadd = parseInt(campoO.value, 10);
+          var c = 10, h = 18 - hrem, o = 1 + oadd;
+
+          saida('hrem').textContent = hrem;
+          saida('oadd').textContent = oadd;
+          saida('formula').textContent = 'C' + c + 'H' + h + 'O' + (o > 1 ? o : '');
+
+          var gi = (2 * c + 2 - h) / 2;
+          saida('gi').textContent = 'GI = (2×' + c + '+2−' + h + ')/2 = ' + gi;
+
+          var v = saida('veredito');
+          if (h % 2 !== 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Impossível.</strong> Número ímpar de hidrogênios não corresponde a uma molécula neutra estável — seria um radical.';
+          } else if (hrem === 2 && oadd === 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Esse é o cenário real da questão!</strong> C₁₀H₁₆O — grau de insaturação 3, compatível com os 2 anéis do borneol mais a nova carbonila da cetona.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Formula quimicamente válida, mas não corresponde à oxidação real de álcool secundário a cetona (que remove exatamente 2 H e não adiciona oxigênio).';
+          }
+        }
+
+        campoH.addEventListener('input', atualizar);
+        campoO.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Borneol C₁₀H₁₈O (−2H, oxidação) → Cânfora C₁₀H₁₆O</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#bae6fd" font-size="11" font-family="monospace" font-weight="bold" text-anchor="middle">C₁₀H₁₈O</text>
+          <text x="230" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="300" y="20" width="140" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="370" y="50" fill="#d1fae5" font-size="11" font-family="monospace" font-weight="bold" text-anchor="middle">C₁₀H₁₆O</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
