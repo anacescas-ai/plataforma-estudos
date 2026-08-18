@@ -5418,6 +5418,359 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q103",
+    numero: "Questão 103",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Biologia Celular & Organelas",
+    materiaCor: "emerald",
+    materiaIcone: "fa-microscope",
+    titulo: "Lisossomos e a Doença do Depósito de Colesterol: Quando a Digestão Celular Falha",
+    tags: ["Biologia", "Biologia Celular", "Lisossomos", "Enzimas Digestivas", "Doenças de Depósito Lisossômico", "Organelas"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A deficiência da enzima lipase ácida causa uma doença em que o portador apresenta células que não degradam colesterol esterificado nem triglicerídeos, resultando no depósito desses compostos em diversos órgãos, principalmente no fígado.
+    <br><br>
+    ANDERSON, R. A. et al. In Situ Localization of the Genetic Locus Encoding [...]. <strong>Genomics</strong>, n. 1, jan. 1993 (adaptado).
+    <br><br>
+    Essa doença resulta da insuficiência funcional de qual estrutura celular?`,
+
+    alternativas: [
+      { letra: "A", texto: "Lisossomos.", correta: true },
+      { letra: "B", texto: "Ribossomos.", correta: false },
+      { letra: "C", texto: "Mitocôndrias.", correta: false },
+      { letra: "D", texto: "Peroxissomos.", correta: false },
+      { letra: "E", texto: "Retículo endoplasmático liso.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a função dos lisossomos e as doenças de depósito lisossômico cobradas no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que são lisossomos</h4>
+          <p>
+            Lisossomos são organelas membranosas, praticamente exclusivas de células animais, que funcionam como o <strong>"estômago" da célula</strong>. Seu interior é ácido (pH em torno de 5) e contém dezenas de <strong>enzimas hidrolíticas</strong> (hidrolases ácidas) especializadas em quebrar praticamente qualquer tipo de macromolécula: proteínas, ácidos nucleicos, carboidratos complexos e <strong>lipídeos</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A digestão intracelular de lipídeos: onde a lipase ácida atua</h4>
+          <p>
+            Entre as enzimas lisossômicas está a <strong>lipase ácida lisossômica</strong>, responsável por quebrar o colesterol esterificado (colesterol ligado a um ácido graxo) e os triglicerídeos que chegam à célula, por exemplo via endocitose de lipoproteínas (como o LDL). Essa quebra libera colesterol livre e ácidos graxos, que a célula pode reaproveitar em suas membranas ou vias metabólicas.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Ponto-chave:</strong> "lipase ácida" já é uma pista direta — enzimas que funcionam em meio ácido são a marca registrada dos lisossomos, cujo interior é mantido ácido justamente para essas hidrolases funcionarem.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Doenças de depósito lisossômico</h4>
+          <p>
+            Quando falta (ou funciona mal) uma enzima lisossômica específica, o substrato que ela deveria degradar simplesmente <strong>se acumula</strong> dentro dos lisossomos, sem ser processado. Esse grupo de doenças genéticas é chamado <strong>doenças de depósito lisossômico</strong>. A descrição do enunciado — falta de lipase ácida, acúmulo de colesterol esterificado e triglicerídeos, principalmente no fígado — corresponde exatamente a esse mecanismo, no caso relacionado à deficiência de lipase ácida lisossômica (as doenças de Wolman e de depósito de ésteres de colesterol, causadas por mutações no mesmo gene).
+          </p>
+          <p>
+            O fígado é um dos órgãos mais afetados porque processa grande quantidade de lipoproteínas e lipídeos circulantes — exatamente o tipo de material que passa pela via lisossômica de digestão.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Descartando as outras organelas</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Ribossomos</strong>
+              Sintetizam proteínas a partir do RNAm — não têm relação com degradação de lipídeos.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Mitocôndrias</strong>
+              Produzem ATP pela respiração celular; participam de outra via de metabolismo de gordura (beta-oxidação de ácidos graxos livres para gerar energia), mas não da digestão ácida de colesterol esterificado vinda de fora da célula.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Peroxissomos</strong>
+              Fazem beta-oxidação de ácidos graxos de cadeia muito longa e neutralizam peróxidos — uma via bioquímica distinta da lipase ácida lisossômica descrita.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Retículo endoplasmático liso</strong>
+              É o principal local de <strong>síntese</strong> de lipídeos e esteroides, e participa da desintoxicação — função oposta à de degradar colesterol esterificado recebido pela célula.
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Repare na palavra "ácida".</strong> Enzima que funciona em meio ácido é a assinatura das hidrolases lisossômicas.
+            <br><br>
+            <strong>Passo 2 — Reconheça o padrão "falta de enzima → acúmulo do substrato".</strong> Esse é o mecanismo clássico das doenças de depósito lisossômico, sempre ligado à organela onde a digestão intracelular acontece: o lisossomo.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Lisossomos." A lipase ácida é uma enzima hidrolítica lisossômica que degrada colesterol esterificado e triglicerídeos dentro do lisossomo. Sem ela, esses lipídeos se acumulam na própria organela, sobrecarregando as células — principalmente as do fígado — exatamente como descrito no enunciado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — ribossomos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar apenas "organela + enzima" e associar de forma genérica à maquinaria de síntese celular.
+              <br>
+              <strong>Onde quebra:</strong> ribossomos sintetizam proteínas; não têm qualquer papel na degradação de lipídeos. A doença descrita é de falha em digerir, não em produzir algo.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — mitocôndrias</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar "gordura" automaticamente a "mitocôndria", lembrando da beta-oxidação de ácidos graxos para gerar energia.
+              <br>
+              <strong>Onde quebra:</strong> a mitocôndria degrada ácidos graxos livres para produzir ATP, numa via bioquímica diferente da lipase ácida lisossômica, que degrada colesterol esterificado e triglicerídeos em ambiente ácido, dentro do lisossomo.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — peroxissomos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> peroxissomos também lidam com lipídeos, então parecem uma resposta plausível.
+              <br>
+              <strong>Onde quebra:</strong> peroxissomos processam ácidos graxos de cadeia muito longa e neutralizam peróxido de hidrogênio — uma via distinta, sem relação com a enzima lipase ácida especificamente citada no enunciado.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — retículo endoplasmático liso</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que o REL está envolvido no metabolismo de lipídeos, sem diferenciar síntese de degradação.
+              <br>
+              <strong>Onde quebra:</strong> o REL <strong>sintetiza</strong> lipídeos e esteroides — função oposta à de degradar colesterol esterificado já formado, que é o papel da lipase ácida lisossômica.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Todas as alternativas erradas citam organelas que, de alguma forma, também lidam com lipídeos — mas cada uma em uma via bioquímica diferente (síntese, produção de energia, oxidação de cadeias longas). A palavra "ácida" na enzima e o padrão "falta de enzima → depósito do substrato" são as pistas que apontam especificamente para o lisossomo.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-microscope", titulo: "Lisossomo", text: "Organela com interior ácido e enzimas hidrolíticas, responsável pela digestão intracelular." },
+      { icone: "fa-flask", titulo: "Lipase Ácida Lisossômica", text: "Enzima que degrada colesterol esterificado e triglicerídeos dentro do lisossomo." },
+      { icone: "fa-triangle-exclamation", titulo: "Doença de Depósito Lisossômico", text: "Falta de uma enzima lisossômica específica causa acúmulo do substrato não digerido na organela." },
+      { icone: "fa-liver", titulo: "Fígado como órgão-alvo", text: "Processa grande volume de lipoproteínas circulantes, por isso é um dos mais afetados nesse tipo de doença." },
+      { icone: "fa-shapes", titulo: "Outras organelas lipídicas", text: "Mitocôndria (energia), peroxissomo (cadeias longas) e REL (síntese) atuam em vias diferentes da lisossômica." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "O lisossomo como \"estômago\" da célula",
+        legenda: "Interior ácido, repleto de enzimas hidrolíticas prontas para degradar macromoléculas recebidas por endocitose ou autofagia.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <circle cx="230" cy="90" r="70" fill="#450a0a" opacity="0.25" stroke="#f87171" stroke-width="2.5"/>
+            <text x="230" y="35" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Lisossomo (pH ácido ≈ 5)</text>
+            <circle cx="200" cy="80" r="6" fill="#fbbf24"/>
+            <circle cx="240" cy="70" r="6" fill="#fbbf24"/>
+            <circle cx="260" cy="105" r="6" fill="#fbbf24"/>
+            <circle cx="210" cy="115" r="6" fill="#fbbf24"/>
+            <text x="230" y="145" fill="#fde68a" font-size="8" text-anchor="middle">enzimas hidrolíticas (inclui lipase ácida)</text>
+          </svg>`
+      },
+      {
+        titulo: "Degradação normal do colesterol esterificado",
+        legenda: "A lipase ácida quebra o colesterol esterificado e os triglicerídeos, liberando componentes que a célula reaproveita.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="40" width="130" height="50" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="85" y="60" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Colesterol</text>
+            <text x="85" y="74" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">esterificado</text>
+            <line x1="150" y1="65" x2="185" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq103)"/>
+            <text x="167" y="55" fill="#94a3b8" font-size="7" text-anchor="middle">lipase</text>
+            <text x="167" y="65" fill="#94a3b8" font-size="7" text-anchor="middle">ácida</text>
+
+            <rect x="190" y="40" width="80" height="50" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="230" y="68" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Lisossomo</text>
+            <line x1="270" y1="65" x2="305" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq103)"/>
+
+            <rect x="310" y="40" width="130" height="50" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="375" y="60" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">Colesterol livre +</text>
+            <text x="375" y="74" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">ácidos graxos</text>
+            <defs>
+              <marker id="pq103" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Sem a enzima: acúmulo dentro do lisossomo",
+        legenda: "Faltando lipase ácida, o colesterol esterificado e os triglicerídeos não são degradados e se acumulam na organela, sobrecarregando a célula — sobretudo no fígado.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <circle cx="230" cy="80" r="70" fill="#450a0a" opacity="0.35" stroke="#f87171" stroke-width="2.5"/>
+            <text x="230" y="25" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Lisossomo sem lipase ácida</text>
+            <rect x="190" y="55" width="20" height="16" rx="2" fill="#fde68a"/>
+            <rect x="220" y="65" width="20" height="16" rx="2" fill="#fde68a"/>
+            <rect x="250" y="50" width="20" height="16" rx="2" fill="#fde68a"/>
+            <rect x="205" y="90" width="20" height="16" rx="2" fill="#fde68a"/>
+            <rect x="245" y="95" width="20" height="16" rx="2" fill="#fde68a"/>
+            <text x="230" y="130" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">colesterol esterificado acumulado (não digerido)</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Todas as organelas erradas lidam com lipídeos de alguma forma, mas só o lisossomo abriga a via específica da lipase ácida.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Organela</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <rect x="15" y="30" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="48" fill="#6ee7b7" font-size="10" font-weight="bold">A — Lisossomos</text>
+            <text x="400" y="48" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="75" fill="#e2e8f0" font-size="10">B — Ribossomos</text>
+            <text x="400" y="75" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="101" fill="#e2e8f0" font-size="10">C — Mitocôndrias</text>
+            <text x="400" y="101" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="127" fill="#e2e8f0" font-size="10">D — Peroxissomos</text>
+            <text x="400" y="127" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="153" fill="#e2e8f0" font-size="10">E — Retículo endoplasmático liso</text>
+            <text x="400" y="153" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: teste a atividade da lipase ácida no lisossomo",
+      descricao: "Ajuste o quanto de lipase ácida funcional a célula tem e observe o acúmulo de colesterol esterificado dentro do lisossomo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Atividade da lipase ácida</span><span class="text-emerald-300 font-bold" data-out="atividade">80%</span>
+              </label>
+              <input type="range" data-sim="atividade" min="0" max="100" value="80" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> 0% = enzima ausente (doença); 100% = enzima totalmente funcional.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Lipídeos degradados</span>
+                  <span class="text-emerald-300 font-mono" data-out="degradado">80%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="degradado" class="h-full bg-emerald-500 transition-all" style="width:80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-rose-300 font-bold">Colesterol/triglicerídeos acumulados</span>
+                  <span class="text-rose-300 font-mono" data-out="acumulado">20%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="acumulado" class="h-full bg-rose-500 transition-all" style="width:20%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="atividade"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var at = parseFloat(campo.value);
+          var acumulado = 100 - at;
+
+          saida('atividade').textContent = at.toFixed(0) + '%';
+          saida('degradado').textContent = at.toFixed(0) + '%';
+          saida('acumulado').textContent = acumulado.toFixed(0) + '%';
+          barra('degradado').style.width = at + '%';
+          barra('acumulado').style.width = acumulado + '%';
+
+          var v = saida('veredito');
+          if (at >= 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Célula saudável.</strong> A lipase ácida degrada normalmente o colesterol esterificado e os triglicerídeos dentro do lisossomo.';
+          } else if (at >= 20) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Deficiência parcial.</strong> Parte dos lipídeos já começa a se acumular dentro do lisossomo, sobrecarregando a célula aos poucos.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Quadro da doença.</strong> Quase sem atividade enzimática, o colesterol esterificado e os triglicerídeos se acumulam maciçamente no lisossomo — exatamente o que ocorre no fígado dos pacientes descritos no enunciado.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-microscope"></i> Falta de Lipase Ácida → Sem Degradação → Depósito no Lisossomo (Fígado)</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="140" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="90" y="54" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Falta lipase ácida</text>
+          <text x="220" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <rect x="245" y="30" width="90" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="290" y="54" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Sem digestão</text>
+          <text x="395" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <text x="425" y="54" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Depósito</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
