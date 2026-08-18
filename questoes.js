@@ -6877,6 +6877,468 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q107",
+    numero: "Questão 107",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Genética",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Herança da Padronagem de Manchas em Joaninhas: Dominância Incompleta",
+    tags: ["Biologia", "Genética", "Dominância Incompleta", "Herança Intermediária", "Proporção Fenotípica", "Quadro de Punnett"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A figura apresenta a herança genética de uma característica a partir do cruzamento de insetos de uma mesma espécie.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-4">
+      <p class="text-center text-emerald-300 font-bold text-xs uppercase tracking-wide">Parentais</p>
+      <div class="flex items-center justify-center gap-6">
+        <div class="text-center">
+          <svg viewBox="0 0 80 70" class="w-16 h-14 mx-auto">
+            <ellipse cx="40" cy="40" rx="32" ry="24" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <ellipse cx="40" cy="16" rx="14" ry="12" fill="#0f172a"/>
+            <line x1="40" y1="16" x2="40" y2="64" stroke="#450a0a" stroke-width="1.5"/>
+            <circle cx="24" cy="30" r="4" fill="#0f172a"/><circle cx="56" cy="30" r="4" fill="#0f172a"/>
+            <circle cx="20" cy="45" r="4" fill="#0f172a"/><circle cx="60" cy="45" r="4" fill="#0f172a"/>
+            <circle cx="30" cy="55" r="4" fill="#0f172a"/><circle cx="50" cy="55" r="4" fill="#0f172a"/>
+            <circle cx="40" cy="48" r="4" fill="#0f172a"/>
+          </svg>
+          <span class="text-[10px] text-slate-400">Macho — muitas pintas pequenas</span>
+        </div>
+        <i class="fa-solid fa-xmark text-slate-500"></i>
+        <div class="text-center">
+          <svg viewBox="0 0 80 70" class="w-16 h-14 mx-auto">
+            <ellipse cx="40" cy="40" rx="32" ry="24" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <ellipse cx="40" cy="16" rx="14" ry="12" fill="#0f172a"/>
+            <line x1="40" y1="16" x2="40" y2="64" stroke="#450a0a" stroke-width="1.5"/>
+            <ellipse cx="30" cy="42" rx="5" ry="12" fill="#0f172a"/>
+            <ellipse cx="50" cy="42" rx="5" ry="12" fill="#0f172a"/>
+          </svg>
+          <span class="text-[10px] text-slate-400">Fêmea — poucas pintas grandes</span>
+        </div>
+      </div>
+      <p class="text-center text-emerald-300 font-bold text-xs uppercase tracking-wide pt-2 border-t border-slate-800">Primeira geração (F1)</p>
+      <div class="flex items-center justify-center gap-10">
+        <div class="text-center">
+          <svg viewBox="0 0 80 70" class="w-16 h-14 mx-auto">
+            <ellipse cx="40" cy="40" rx="32" ry="24" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <ellipse cx="40" cy="16" rx="14" ry="12" fill="#0f172a"/>
+            <line x1="40" y1="16" x2="40" y2="64" stroke="#450a0a" stroke-width="1.5"/>
+            <circle cx="26" cy="34" r="5" fill="#0f172a"/><circle cx="54" cy="34" r="5" fill="#0f172a"/>
+            <circle cx="24" cy="52" r="5" fill="#0f172a"/><circle cx="56" cy="52" r="5" fill="#0f172a"/>
+          </svg>
+          <span class="text-[10px] text-slate-400">Macho — padrão intermediário</span>
+        </div>
+        <div class="text-center">
+          <svg viewBox="0 0 80 70" class="w-16 h-14 mx-auto">
+            <ellipse cx="40" cy="40" rx="32" ry="24" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <ellipse cx="40" cy="16" rx="14" ry="12" fill="#0f172a"/>
+            <line x1="40" y1="16" x2="40" y2="64" stroke="#450a0a" stroke-width="1.5"/>
+            <circle cx="26" cy="34" r="5" fill="#0f172a"/><circle cx="54" cy="34" r="5" fill="#0f172a"/>
+            <circle cx="24" cy="52" r="5" fill="#0f172a"/><circle cx="56" cy="52" r="5" fill="#0f172a"/>
+          </svg>
+          <span class="text-[10px] text-slate-400">Fêmea — padrão intermediário</span>
+        </div>
+      </div>
+    </div>
+    <br>
+    Note que os indivíduos da primeira geração (F1), tanto macho quanto fêmea, não se parecem com nenhum dos dois parentais: eles exibem um padrão de manchas <strong>intermediário</strong> entre "muitas pintas pequenas" e "poucas pintas grandes".
+    <br><br>
+    Qual alternativa representa a proporção fenotípica da prole resultante do cruzamento entre indivíduos da primeira geração (F1 × F1)?`,
+
+    alternativas: [
+      { letra: "A", texto: "Todos os descendentes idênticos ao macho parental original, com muitas pintas pequenas.", correta: false },
+      { letra: "B", texto: "Todos os descendentes idênticos à fêmea parental original, com poucas pintas grandes.", correta: false },
+      { letra: "C", texto: "1 indivíduo com muitas pintas pequenas : 2 indivíduos com padrão intermediário (igual ao da F1) : 1 indivíduo com poucas pintas grandes — proporção 1:2:1.", correta: true },
+      { letra: "D", texto: "2 indivíduos com muitas pintas pequenas e 2 indivíduos com poucas pintas grandes, sem nenhum indivíduo de padrão intermediário — proporção 1:1.", correta: false },
+      { letra: "E", texto: "3 indivíduos com padrão intermediário e 1 indivíduo com poucas pintas grandes — proporção 3:1.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a diferença entre dominância completa e dominância incompleta — a chave para não confundir esta questão com um Mendel clássico de proporção 3:1.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Genótipo x Fenótipo: revisão rápida</h4>
+          <p>
+            <strong>Genótipo</strong> é a constituição alélica de um indivíduo para um gene (ex.: AA, Aa, aa). <strong>Fenótipo</strong> é a característica observável resultante da expressão desse genótipo (ex.: cor, forma, padrão de manchas). A relação entre genótipo e fenótipo depende de como os alelos interagem entre si — e é exatamente aí que mora a pegadinha desta questão.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Dominância completa (o "Mendel clássico")</h4>
+          <p>
+            Na herança com <strong>dominância completa</strong>, um dos alelos (o dominante, ex.: <strong>A</strong>) mascara totalmente o efeito do outro (o recessivo, ex.: <strong>a</strong>). Assim, o heterozigoto <strong>Aa</strong> tem exatamente a mesma aparência do homozigoto dominante <strong>AA</strong> — só existem <strong>dois fenótipos possíveis</strong> para três genótipos possíveis.
+          </p>
+          <p>
+            Cruzando dois heterozigotos (Aa × Aa), o quadro de Punnett dá genótipos na proporção <strong>1 AA : 2 Aa : 1 aa</strong>, mas como AA e Aa têm o mesmo fenótipo, a proporção fenotípica observada é <strong>3 (dominante) : 1 (recessivo)</strong>. É essa proporção 3:1 que a maioria dos estudantes decora — e é exatamente a armadilha que uma das alternativas desta questão explora.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Dominância incompleta: quando NÃO há proporção 3:1</h4>
+          <p>
+            Na <strong>dominância incompleta</strong> (também chamada de herança intermediária ou "sem dominância"), nenhum dos dois alelos consegue mascarar totalmente o outro. O heterozigoto exibe um <strong>fenótipo intermediário</strong>, distinto dos dois homozigotos — um "meio-termo" visível entre as duas características parentais. Aqui, cada genótipo corresponde a um fenótipo diferente: <strong>três genótipos, três fenótipos</strong>.
+          </p>
+          <p>
+            O exemplo clássico de livro-texto é a cor das flores de maravilha (<em>Mirabilis jalapa</em>): flor vermelha (VV) × flor branca (BB) gera F1 100% rosa (VB) — nem vermelha, nem branca, um verdadeiro intermediário. É exatamente esse padrão que a questão descreve para as joaninhas: os parentais têm padrões de manchas opostos (muitas pintas pequenas vs. poucas pintas grandes) e a F1 inteira exibe um padrão que não é igual a nenhum dos dois — um número e tamanho de pintas intermediário.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que o fenótipo da F1 já denuncia o tipo de herança</h4>
+          <p>
+            Esse é o pulo do gato para resolver a questão sem nem chegar ao cruzamento F1 × F1. Se a herança fosse de dominância completa, a F1 (heterozigota) teria o mesmo aspecto de um dos parentais — não um padrão novo. Como o enunciado mostra explicitamente que <strong>a F1 tem um padrão diferente dos dois parentais</strong>, isso identifica a herança como <strong>incompleta</strong> antes mesmo de montar qualquer quadro de Punnett.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Montando o cruzamento F1 × F1</h4>
+          <p>
+            Chame os alelos de <strong>M¹</strong> (muitas pintas pequenas) e <strong>M²</strong> (poucas pintas grandes), sem relação de dominância entre eles:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pl-2">
+            <li>Parentais: M¹M¹ (macho) × M²M² (fêmea)</li>
+            <li>F1: 100% M¹M² — fenótipo intermediário (bate com a figura)</li>
+            <li>F1 × F1: M¹M² × M¹M²</li>
+          </ul>
+          <p>
+            Cada progenitor F1 produz gametas M¹ e M² em proporções iguais (50%/50%). O quadro de Punnett 2×2 combina esses gametas e resulta em genótipos na proporção <strong>1 M¹M¹ : 2 M¹M² : 1 M²M²</strong> — a mesma proporção genotípica de sempre em um cruzamento heterozigoto × heterozigoto de um único gene.
+          </p>
+          <p>
+            A diferença crucial em relação à dominância completa é que, aqui, <strong>cada um desses três genótipos corresponde a um fenótipo visualmente distinto</strong>. Não há mascaramento — então a proporção <strong>fenotípica</strong> é idêntica à proporção <strong>genotípica</strong>: <strong>1 (muitas pintas pequenas) : 2 (padrão intermediário) : 1 (poucas pintas grandes)</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> Resumo comparativo</h4>
+          <p>
+            Dominância completa (Aa × Aa): genótipos 1:2:1, fenótipos <strong>3:1</strong> (2 fenótipos). Dominância incompleta (M¹M² × M¹M²): genótipos 1:2:1, fenótipos <strong>1:2:1</strong> (3 fenótipos, pois o heterozigoto tem cara própria). Memorize o gatilho: <strong>se o heterozigoto tem uma aparência própria, nova, a proporção fenotípica final também vira 1:2:1</strong> — nunca 3:1.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-dna", titulo: "Dominância incompleta", text: "Nenhum alelo mascara o outro; o heterozigoto tem fenótipo próprio, intermediário entre os dois homozigotos." },
+      { icone: "fa-shuffle", titulo: "Fenótipo intermediário", text: "É o sinal de alerta na F1: se ela não se parece com nenhum parental, a herança não é de dominância completa." },
+      { icone: "fa-table-cells", titulo: "Quadro de Punnett", text: "Ferramenta para combinar os gametas de dois heterozigotos e prever a proporção genotípica 1:2:1 da prole." },
+      { icone: "fa-chart-simple", titulo: "Proporção 1:2:1", text: "Na dominância incompleta, a proporção fenotípica reproduz exatamente a proporção genotípica — três fenótipos, não dois." },
+      { icone: "fa-triangle-exclamation", titulo: "Armadilha do 3:1", text: "A proporção 3:1 só existe quando há dominância completa (2 fenótipos). Aplicá-la aqui ignora que a F1 já mostrou um terceiro fenótipo." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>Proporção fenotípica 1:2:1 — 1 indivíduo igual ao macho parental (muitas pintas pequenas), 2 indivíduos iguais à F1 (padrão intermediário) e 1 indivíduo igual à fêmea parental (poucas pintas grandes).</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o tipo de herança pela F1.</strong> A figura mostra que a primeira geração (F1) não se parece com nenhum dos parentais: tem um padrão de manchas intermediário. Isso só acontece em <strong>dominância incompleta</strong> — se fosse dominância completa, a F1 heterozigota teria a cara de um dos parentais.</p>
+          <p><strong>Passo 2 — Monte o cruzamento F1 × F1.</strong> Chamando os alelos de M¹ (muitas pintas pequenas) e M² (poucas pintas grandes), a F1 é M¹M² × M¹M². O quadro de Punnett dá genótipos 1 M¹M¹ : 2 M¹M² : 1 M²M².</p>
+          <p><strong>Passo 3 — Converta genótipo em fenótipo.</strong> Como não há dominância, cada genótipo tem seu próprio fenótipo: M¹M¹ = muitas pintas pequenas, M¹M² = intermediário (igual à F1), M²M² = poucas pintas grandes. A proporção fenotípica final é, portanto, idêntica à genotípica: <strong>1:2:1</strong>.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Todos idênticos ao macho parental — ERRADA</p>
+            <p class="text-xs">Isso implicaria que todos os descendentes de F1 × F1 fossem M¹M¹. Mas cada progenitor F1 é heterozigoto (M¹M²) e produz gametas M¹ <em>e</em> M² em proporções iguais — é geneticamente impossível que 100% da prole herde só o alelo M¹ de ambos os pais.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Todos idênticos à fêmea parental — ERRADA</p>
+            <p class="text-xs">Mesmo erro da alternativa A, mas na direção oposta: assumir que toda a prole herda só M² também ignora que ambos os pais são heterozigotos e podem passar qualquer um dos dois alelos.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) Proporção 1:2:1 — CORRETA</p>
+            <p class="text-xs">É exatamente o resultado do quadro de Punnett para M¹M² × M¹M², reinterpretado sem qualquer mascaramento por dominância: 1 M¹M¹ (muitas pintas pequenas) : 2 M¹M² (intermediário) : 1 M²M² (poucas pintas grandes).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Proporção 1:1, sem intermediários — ERRADA</p>
+            <p class="text-xs">Essa alternativa erra ao eliminar a classe heterozigota (M¹M²) do resultado, como se só os genótipos homozigotos pudessem se formar. Mas o cruzamento M¹M² × M¹M² produz heterozigotos com probabilidade 50% (2 em 4 combinações do Punnett) — é a classe mais frequente, não a ausente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Proporção 3:1 — ERRADA (a armadilha clássica)</p>
+            <p class="text-xs">Essa é a proporção fenotípica esperada em <strong>dominância completa</strong> (onde AA e Aa têm o mesmo fenótipo, "fundindo" duas das quatro combinações do Punnett em uma só classe). Mas o próprio enunciado já mostrou que a F1 tem um padrão intermediário — ou seja, o heterozigoto NÃO se confunde com nenhum homozigoto, então as quatro combinações do Punnett geram três fenótipos distintos, e não dois. Usar 3:1 aqui significa ignorar a informação-chave dada pela figura.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Parentais e F1: o fenótipo intermediário denuncia a herança",
+        legenda: "A F1 não se parece com nenhum parental — sinal inequívoco de dominância incompleta, não de dominância completa.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <text x="230" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">PARENTAIS</text>
+            <ellipse cx="90" cy="55" rx="34" ry="26" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <circle cx="76" cy="42" r="4" fill="#0f172a"/><circle cx="104" cy="42" r="4" fill="#0f172a"/>
+            <circle cx="70" cy="58" r="4" fill="#0f172a"/><circle cx="110" cy="58" r="4" fill="#0f172a"/>
+            <circle cx="82" cy="68" r="4" fill="#0f172a"/><circle cx="98" cy="68" r="4" fill="#0f172a"/>
+            <text x="90" y="98" fill="#fca5a5" font-size="8" text-anchor="middle">M¹M¹ (macho)</text>
+
+            <text x="150" y="58" fill="#64748b" font-size="16" text-anchor="middle">×</text>
+
+            <ellipse cx="210" cy="55" rx="34" ry="26" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <ellipse cx="198" cy="58" rx="5" ry="13" fill="#0f172a"/>
+            <ellipse cx="222" cy="58" rx="5" ry="13" fill="#0f172a"/>
+            <text x="210" y="98" fill="#fca5a5" font-size="8" text-anchor="middle">M²M² (fêmea)</text>
+
+            <text x="260" y="58" fill="#64748b" font-size="14" text-anchor="middle">→</text>
+
+            <text x="370" y="16" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">F1 (INTERMEDIÁRIA)</text>
+            <ellipse cx="370" cy="55" rx="34" ry="26" fill="#dc2626" stroke="#450a0a" stroke-width="2"/>
+            <circle cx="356" cy="48" r="5" fill="#0f172a"/><circle cx="384" cy="48" r="5" fill="#0f172a"/>
+            <circle cx="354" cy="66" r="5" fill="#0f172a"/><circle cx="386" cy="66" r="5" fill="#0f172a"/>
+            <text x="370" y="98" fill="#6ee7b7" font-size="8" text-anchor="middle">M¹M² (100% da prole)</text>
+
+            <text x="230" y="130" fill="#94a3b8" font-size="8" text-anchor="middle">F1 não é igual a nenhum dos parentais → dominância incompleta</text>
+          </svg>`
+      },
+      {
+        titulo: "Quadro de Punnett: F1 × F1",
+        legenda: "M¹M² × M¹M² gera genótipos na proporção 1 M¹M¹ : 2 M¹M² : 1 M²M².",
+        svg: `
+          <svg viewBox="0 0 300 220" class="w-full h-auto">
+            <text x="150" y="14" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">M¹M² (♂) × M¹M² (♀)</text>
+            <line x1="90" y1="40" x2="270" y2="40" stroke="#475569" stroke-width="1.5"/>
+            <line x1="90" y1="40" x2="90" y2="200" stroke="#475569" stroke-width="1.5"/>
+            <text x="140" y="34" fill="#94a3b8" font-size="10" text-anchor="middle">M¹</text>
+            <text x="220" y="34" fill="#94a3b8" font-size="10" text-anchor="middle">M²</text>
+            <text x="70" y="80" fill="#94a3b8" font-size="10" text-anchor="middle">M¹</text>
+            <text x="70" y="160" fill="#94a3b8" font-size="10" text-anchor="middle">M²</text>
+            <line x1="180" y1="40" x2="180" y2="200" stroke="#334155" stroke-width="1"/>
+            <line x1="90" y1="120" x2="270" y2="120" stroke="#334155" stroke-width="1"/>
+
+            <rect x="90" y="40" width="90" height="80" fill="#450a0a" opacity="0.5"/>
+            <text x="135" y="85" fill="#fca5a5" font-size="12" font-weight="bold" text-anchor="middle">M¹M¹</text>
+            <rect x="180" y="40" width="90" height="80" fill="#064e3b" opacity="0.5"/>
+            <text x="225" y="85" fill="#6ee7b7" font-size="12" font-weight="bold" text-anchor="middle">M¹M²</text>
+            <rect x="90" y="120" width="90" height="80" fill="#064e3b" opacity="0.5"/>
+            <text x="135" y="165" fill="#6ee7b7" font-size="12" font-weight="bold" text-anchor="middle">M¹M²</text>
+            <rect x="180" y="120" width="90" height="80" fill="#1e293b" opacity="0.7"/>
+            <text x="225" y="165" fill="#cbd5e1" font-size="12" font-weight="bold" text-anchor="middle">M²M²</text>
+          </svg>`
+      },
+      {
+        titulo: "Proporção fenotípica final: 1:2:1",
+        legenda: "Como não há dominância, a proporção fenotípica é idêntica à genotípica — três fenótipos distintos na prole.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="60" y1="140" x2="420" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="60" y1="20" x2="60" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="52" y="26" fill="#94a3b8" font-size="8" text-anchor="end">nº de indivíduos</text>
+
+            <rect x="100" y="105" width="60" height="35" fill="#f87171"/>
+            <text x="130" y="98" fill="#fca5a5" font-size="11" font-weight="bold" text-anchor="middle">1</text>
+            <text x="130" y="155" fill="#94a3b8" font-size="7" text-anchor="middle">muitas pintas</text>
+            <text x="130" y="164" fill="#94a3b8" font-size="7" text-anchor="middle">pequenas (M¹M¹)</text>
+
+            <rect x="210" y="35" width="60" height="105" fill="#6ee7b7"/>
+            <text x="240" y="28" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">2</text>
+            <text x="240" y="155" fill="#94a3b8" font-size="7" text-anchor="middle">intermediário</text>
+            <text x="240" y="164" fill="#94a3b8" font-size="7" text-anchor="middle">(M¹M²)</text>
+
+            <rect x="320" y="105" width="60" height="35" fill="#93c5fd"/>
+            <text x="350" y="98" fill="#93c5fd" font-size="11" font-weight="bold" text-anchor="middle">1</text>
+            <text x="350" y="155" fill="#94a3b8" font-size="7" text-anchor="middle">poucas pintas</text>
+            <text x="350" y="164" fill="#94a3b8" font-size="7" text-anchor="middle">grandes (M²M²)</text>
+          </svg>`
+      },
+      {
+        titulo: "Dominância completa vs. incompleta, lado a lado",
+        legenda: "A mesma proporção genotípica (1:2:1) vira proporções fenotípicas diferentes, dependendo de como os alelos interagem.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <text x="230" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Genótipos (Aa × Aa): sempre 1 : 2 : 1</text>
+
+            <rect x="30" y="30" width="190" height="150" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="125" y="48" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Dominância COMPLETA</text>
+            <rect x="50" y="60" width="30" height="20" fill="#f87171"/>
+            <rect x="90" y="60" width="30" height="20" fill="#f87171"/><rect x="130" y="60" width="30" height="20" fill="#f87171"/>
+            <text x="125" y="90" fill="#fca5a5" font-size="8" text-anchor="middle">3 partes: fenótipo dominante</text>
+            <rect x="50" y="105" width="30" height="20" fill="#94a3b8"/>
+            <text x="65" y="140" fill="#cbd5e1" font-size="8" text-anchor="middle">1 parte: recessivo</text>
+            <text x="125" y="165" fill="white" font-size="11" font-weight="bold" text-anchor="middle">Fenótipos → 3 : 1</text>
+
+            <rect x="240" y="30" width="190" height="150" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="335" y="48" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Dominância INCOMPLETA</text>
+            <rect x="260" y="70" width="30" height="20" fill="#f87171"/>
+            <text x="275" y="100" fill="#fca5a5" font-size="7" text-anchor="middle">1: M¹M¹</text>
+            <rect x="320" y="60" width="30" height="20" fill="#6ee7b7"/><rect x="320" y="85" width="30" height="20" fill="#6ee7b7"/>
+            <text x="335" y="118" fill="#6ee7b7" font-size="7" text-anchor="middle">2: intermediário</text>
+            <rect x="380" y="70" width="30" height="20" fill="#93c5fd"/>
+            <text x="395" y="100" fill="#93c5fd" font-size="7" text-anchor="middle">1: M²M²</text>
+            <text x="335" y="165" fill="white" font-size="11" font-weight="bold" text-anchor="middle">Fenótipos → 1 : 2 : 1</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte o cruzamento e veja o quadro de Punnett",
+      descricao: "Escolha o tipo de herança e os genótipos dos dois pais. O simulador monta o quadro de Punnett e calcula a proporção fenotípica da prole em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Tipo de herança:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q107heranca" data-sim="heranca" value="incompleta" checked class="accent-emerald-500">
+                <span class="text-[11px] text-slate-200">Dominância incompleta (como nas joaninhas)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q107heranca" data-sim="heranca" value="completa" class="accent-emerald-500">
+                <span class="text-[11px] text-slate-200">Dominância completa (Mendel clássico)</span>
+              </label>
+            </div>
+
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Genótipo do pai:</p>
+              <select data-sim="pai" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="AA">Homozigoto 1 (M¹M¹ / AA)</option>
+                <option value="Aa" selected>Heterozigoto (M¹M² / Aa)</option>
+                <option value="aa">Homozigoto 2 (M²M² / aa)</option>
+              </select>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Genótipo da mãe:</p>
+              <select data-sim="mae" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="AA">Homozigoto 1 (M¹M¹ / AA)</option>
+                <option value="Aa" selected>Heterozigoto (M¹M² / Aa)</option>
+                <option value="aa">Homozigoto 2 (M²M² / aa)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+              <p class="text-[11px] text-slate-400 mb-2">Quadro de Punnett (genótipos da prole):</p>
+              <div data-out="punnett" class="grid grid-cols-2 gap-1 text-[10px] font-mono text-center"></div>
+            </div>
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Proporção fenotípica resultante:</p>
+              <div data-out="fenotipos" class="text-[12px] text-slate-100 font-bold"></div>
+              <div data-out="explicacao" class="text-[11px] text-slate-300 leading-relaxed"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="heranca"]');
+        var selPai = raiz.querySelector('[data-sim="pai"]');
+        var selMae = raiz.querySelector('[data-sim="mae"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function gametas(genotipo) {
+          if (genotipo === 'AA') return ['A', 'A'];
+          if (genotipo === 'aa') return ['a', 'a'];
+          return ['A', 'a'];
+        }
+
+        function atualizar() {
+          var heranca = raiz.querySelector('[data-sim="heranca"]:checked').value;
+          var gPai = gametas(selPai.value);
+          var gMae = selMae.value === 'AA' ? ['A', 'A'] : (selMae.value === 'aa' ? ['a', 'a'] : ['A', 'a']);
+
+          var combinacoes = [];
+          gPai.forEach(function (p) {
+            gMae.forEach(function (m) {
+              var gt = (p === 'A' && m === 'A') ? 'AA' : (p === 'a' && m === 'a') ? 'aa' : 'Aa';
+              combinacoes.push(gt);
+            });
+          });
+
+          var punnettHtml = '';
+          combinacoes.forEach(function (gt) {
+            var cor = gt === 'AA' ? 'bg-rose-950/40 text-rose-300 border-rose-500/30' : (gt === 'aa' ? 'bg-sky-950/40 text-sky-300 border-sky-500/30' : 'bg-emerald-950/40 text-emerald-300 border-emerald-500/30');
+            punnettHtml += '<div class="p-2 rounded border ' + cor + ' font-bold">' + gt + '</div>';
+          });
+          saida('punnett').innerHTML = punnettHtml;
+
+          var cont = { AA: 0, Aa: 0, aa: 0 };
+          combinacoes.forEach(function (gt) { cont[gt]++; });
+
+          var fenoTxt, explTxt;
+          if (heranca === 'incompleta') {
+            var partes = [];
+            if (cont.AA) partes.push(cont.AA + ' muitas pintas pequenas (M¹M¹)');
+            if (cont.Aa) partes.push(cont.Aa + ' padrão intermediário (M¹M²)');
+            if (cont.aa) partes.push(cont.aa + ' poucas pintas grandes (M²M²)');
+            fenoTxt = partes.join(' : ');
+            explTxt = 'Sem dominância, cada genótipo tem seu próprio fenótipo — a proporção fenotípica é idêntica à genotípica.';
+          } else {
+            var dominante = cont.AA + cont.Aa;
+            var recessivo = cont.aa;
+            fenoTxt = dominante + ' fenótipo dominante : ' + recessivo + ' fenótipo recessivo';
+            explTxt = 'Com dominância completa, AA e Aa têm o mesmo fenótipo — eles se fundem em uma única classe "dominante".';
+          }
+          saida('fenotipos').textContent = fenoTxt;
+          saida('explicacao').textContent = explTxt;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        selPai.addEventListener('change', atualizar);
+        selMae.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> M¹M² × M¹M² → 1 M¹M¹ : 2 M¹M² : 1 M²M² (fenótipos 1:2:1)</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <rect x="20" y="30" width="90" height="60" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+          <text x="65" y="65" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">1</text>
+          <text x="65" y="100" fill="#94a3b8" font-size="7" text-anchor="middle">muitas pintas</text>
+          <rect x="185" y="20" width="90" height="80" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="65" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">2</text>
+          <text x="230" y="110" fill="#94a3b8" font-size="7" text-anchor="middle">intermediário</text>
+          <rect x="350" y="30" width="90" height="60" fill="#0c4a6e" stroke="#93c5fd" stroke-width="1.5" rx="4"/>
+          <text x="395" y="65" fill="#93c5fd" font-size="9" font-weight="bold" text-anchor="middle">1</text>
+          <text x="395" y="100" fill="#94a3b8" font-size="7" text-anchor="middle">poucas pintas</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
