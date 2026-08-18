@@ -7339,6 +7339,387 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q109",
+    numero: "Questão 109",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Química Orgânica & Reações Orgânicas",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Descarboxilação do Ácido Anacárdico: Como o LCC Técnico é Produzido",
+    tags: ["Química", "Química Orgânica", "Reações Orgânicas", "Descarboxilação", "Ácidos Carboxílicos", "Fenóis", "LCC do Caju"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O fruto do cajueiro é um aquênio repleto de um líquido escuro, quase preto, cáustico e inflamável. Esse líquido da casca da castanha do caju (LCC) representa aproximadamente 25% da massa da castanha e é um subproduto do agronegócio do caju. Quando submetido a altas temperaturas, o ácido anacárdico presente no LCC é convertido a cardanol, que recebe a denominação de LCC técnico, conforme o esquema:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 460 160" class="w-full h-auto">
+        <polygon points="70,40 100,55 100,85 70,100 40,85 40,55" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+        <line x1="70" y1="40" x2="70" y2="20" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="70" y="14" fill="#e2e8f0" font-size="9" text-anchor="middle">OH</text>
+        <line x1="100" y1="55" x2="125" y2="42" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="140" y="38" fill="#e2e8f0" font-size="9" text-anchor="middle">COOH</text>
+        <line x1="70" y1="100" x2="70" y2="120" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="70" y="134" fill="#94a3b8" font-size="8" text-anchor="middle">C15H31</text>
+        <text x="70" y="150" fill="#94a3b8" font-size="8" font-style="italic" text-anchor="middle">Ácido anacárdico</text>
+
+        <text x="185" y="65" fill="#67e8f9" font-size="13" text-anchor="middle">Δ</text>
+        <line x1="160" y1="70" x2="215" y2="70" stroke="#67e8f9" stroke-width="2"/>
+        <polygon points="215,70 207,66 207,74" fill="#67e8f9"/>
+        <text x="187" y="86" fill="#94a3b8" font-size="7" text-anchor="middle">180 °C a 200 °C</text>
+
+        <polygon points="300,40 330,55 330,85 300,100 270,85 270,55" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+        <line x1="300" y1="40" x2="300" y2="20" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="300" y="14" fill="#e2e8f0" font-size="9" text-anchor="middle">OH</text>
+        <line x1="300" y1="100" x2="300" y2="120" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="300" y="134" fill="#94a3b8" font-size="8" text-anchor="middle">C15H31</text>
+        <text x="300" y="150" fill="#94a3b8" font-size="8" font-style="italic" text-anchor="middle">Cardanol</text>
+
+        <text x="360" y="68" fill="#94a3b8" font-size="14" text-anchor="middle">+</text>
+        <text x="410" y="68" fill="#fca5a5" font-size="12" font-weight="bold" text-anchor="middle">CO₂</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">MAZZETTO, S. E.; LOMONACO, D.; MELE, G. Óleo da castanha de caju: oportunidades e desafios no contexto do desenvolvimento e sustentabilidade industrial. <em>Química Nova</em>, n. 3, 2009 (adaptado).</p>
+    <br>
+    O LCC técnico é produzido por meio de uma reação orgânica do tipo`,
+
+    alternativas: [
+      { letra: "A", texto: "hidrólise.", correta: false },
+      { letra: "B", texto: "fenilação.", correta: false },
+      { letra: "C", texto: "esterificação.", correta: false },
+      { letra: "D", texto: "hidrogenação.", correta: false },
+      { letra: "E", texto: "descarboxilação.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre como reconhecer os principais tipos de reação orgânica comparando reagente e produto — a questão é, no fundo, um exercício de "antes e depois".
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O contexto: do LCC bruto ao LCC técnico</h4>
+          <p>
+            O <strong>LCC</strong> (Líquido da Casca da Castanha de Caju) é um subproduto abundante do agronegócio do caju, rico em <strong>ácido anacárdico</strong>: uma molécula com um anel aromático que carrega um grupo <strong>fenol</strong> (–OH ligado ao anel) e um grupo <strong>ácido carboxílico</strong> (–COOH), além de uma longa cadeia lateral (C15H31) que dá à molécula suas propriedades de óleo.
+          </p>
+          <p>
+            Quando aquecido entre 180 °C e 200 °C, o ácido anacárdico perde o grupo –COOH na forma de <strong>CO₂ (gás carbônico)</strong>, restando apenas o anel com o grupo –OH e a cadeia lateral: essa molécula resultante é o <strong>cardanol</strong>, também chamado de LCC técnico — hoje usado como matéria-prima renovável para resinas, tintas e biocombustíveis.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Ácidos carboxílicos: o grupo funcional -COOH</h4>
+          <p>
+            Um <strong>ácido carboxílico</strong> tem o grupo funcional –COOH: um carbono ligado a uma dupla ligação com oxigênio (carbonila) e a uma hidroxila (–OH), tudo no mesmo carbono. É esse grupo que confere o caráter ácido (cáustico, como descrito no enunciado) ao LCC bruto. No produto (cardanol), esse grupo desaparece por completo — restando só o fenol.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> As cinco reações candidatas, uma a uma</h4>
+          <p><strong>Hidrólise:</strong> quebra de uma ligação por adição de água (H₂O), geralmente dividindo uma molécula grande em duas menores (ex.: éster + água → ácido + álcool). Exige a <strong>entrada</strong> de água na equação — o esquema do enunciado não mostra água entrando em lugar nenhum.</p>
+          <p><strong>Fenilação:</strong> não é um tipo de reação orgânica reconhecido na nomenclatura padrão (não existe uma classe de reação com esse nome equivalente a hidrólise, esterificação etc.) — é uma alternativa fabricada para soar quimicamente plausível, mas vazia de significado técnico correto aqui.</p>
+          <p><strong>Esterificação:</strong> reação entre um ácido carboxílico e um álcool, formando um éster e liberando água (–COOH + HO– → –COO– + H₂O). Exigiria um álcool reagindo com o ácido anacárdico — não é isso que o esquema mostra: não há álcool envolvido, e o subproduto liberado é CO₂, não água.</p>
+          <p><strong>Hidrogenação:</strong> adição de hidrogênio (H₂) a uma ligação dupla C=C, saturando-a. Não há indicação de H₂ sendo adicionado nem de dupla ligação C=C sendo saturada nas estruturas do enunciado — a cadeia lateral (C15H31) e o anel aromático permanecem inalterados.</p>
+          <p><strong>Descarboxilação:</strong> perda do grupo –COOH de uma molécula na forma de CO₂ gasoso, deixando um átomo de hidrogênio no lugar onde estava a carboxila. É exatamente essa perda de CO₂, indicada explicitamente no esquema ("+ CO₂"), que caracteriza a transformação do ácido anacárdico em cardanol.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Como confirmar pela contagem de átomos</h4>
+          <p>
+            Compare reagente e produto: o ácido anacárdico tem o grupo –OH (fenol) <em>e</em> o grupo –COOH (ácido). O cardanol tem apenas o grupo –OH. O que sumiu foi exatamente o carbono da carboxila junto com dois de seus oxigênios — e é isso que reaparece do lado direito da equação como CO₂. Um produto sendo liberado como gás, com perda líquida de um átomo de carbono e dois de oxigênio da molécula orgânica, é a assinatura característica de uma <strong>descarboxilação</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Por que a temperatura (180–200 °C) reforça a resposta</h4>
+          <p>
+            Descarboxilações de ácidos carboxílicos aromáticos costumam exigir aquecimento — a ligação C–COOH se rompe termicamente, liberando CO₂ e deixando um hidrogênio em seu lugar no anel. A faixa de temperatura informada no enunciado (180 °C a 200 °C) é plenamente compatível com esse tipo de reação térmica, reforçando a interpretação de que o mecanismo é descarboxilação, e não uma reação que ocorreria à temperatura ambiente com um reagente adicional (como água, no caso de hidrólise, ou um álcool, no caso de esterificação).
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-fire", titulo: "Descarboxilação", text: "Perda térmica do grupo -COOH de uma molécula na forma de CO₂ gasoso, deixando um hidrogênio no lugar." },
+      { icone: "fa-flask", titulo: "Ácido carboxílico", text: "Grupo funcional -COOH; confere caráter ácido e é o grupo que desaparece na conversão para cardanol." },
+      { icone: "fa-ring", titulo: "Fenol", text: "Grupo -OH ligado diretamente a um anel aromático; permanece intacto do ácido anacárdico ao cardanol." },
+      { icone: "fa-cloud", titulo: "CO₂ como subproduto", text: "A liberação explícita de CO₂ no esquema é o principal indício de que a reação é uma descarboxilação." },
+      { icone: "fa-magnifying-glass", titulo: "Comparar reagente x produto", text: "Identificar o tipo de reação orgânica é, na prática, notar exatamente o que aparece e o que desaparece entre as duas estruturas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>O ácido anacárdico perde seu grupo -COOH na forma de CO₂ ao ser aquecido, restando apenas o fenol com a cadeia lateral (cardanol). Essa perda de um grupo carboxila como gás carbônico é, por definição, uma <strong>descarboxilação</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique os grupos funcionais em cada estrutura.</strong> O ácido anacárdico tem –OH (fenol) e –COOH (ácido carboxílico) no anel. O cardanol tem só –OH. Algo saiu da molécula.</p>
+          <p><strong>Passo 2 — Veja o que é liberado na equação.</strong> O esquema mostra explicitamente "+ CO₂" do lado dos produtos. Isso já aponta diretamente para a perda do grupo carboxila como gás carbônico.</p>
+          <p><strong>Passo 3 — Confirme que nenhum outro reagente entra na equação.</strong> Não há água entrando (descartando hidrólise), nem álcool reagindo (descartando esterificação), nem H₂ sendo adicionado a uma dupla ligação (descartando hidrogenação). A única mudança é a perda espontânea, por aquecimento, do grupo –COOH como CO₂ — a definição exata de descarboxilação.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Hidrólise — ERRADA</p>
+            <p class="text-xs">Hidrólise exige a <strong>adição</strong> de uma molécula de água para quebrar uma ligação. O esquema não mostra água entrando como reagente em lugar nenhum — o que sai é CO₂, não o que entra é H₂O.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Fenilação — ERRADA</p>
+            <p class="text-xs">Não corresponde a uma classe de reação orgânica com definição própria comparável às demais alternativas — é um nome que soa tecnicamente plausível, mas não descreve nenhuma transformação real observada aqui.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Esterificação — ERRADA</p>
+            <p class="text-xs">Esterificação uniria o ácido anacárdico a um <strong>álcool</strong>, formando um éster e liberando água. Não há álcool no esquema, e o subproduto liberado é CO₂ — não H₂O. Os dois ingredientes-chave da esterificação (um álcool reagente e água como subproduto) estão ausentes.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Hidrogenação — ERRADA</p>
+            <p class="text-xs">Hidrogenação satura uma ligação dupla C=C com H₂. O anel aromático e a cadeia C15H31 permanecem exatamente iguais do ácido anacárdico ao cardanol — nenhuma insaturação foi removida, e H₂ não aparece como reagente em nenhum ponto do esquema.</p>
+          </div>
+
+          <div class="border border-cyan-500/40 bg-cyan-950/20 rounded-lg p-3">
+            <p class="font-bold text-cyan-300 text-xs mb-1">E) Descarboxilação — CORRETA</p>
+            <p class="text-xs">É exatamente o que o esquema mostra: o grupo –COOH do ácido anacárdico é removido pelo aquecimento (180–200 °C) e liberado como CO₂, restando o cardanol com apenas o grupo fenol e a cadeia lateral intactos.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "O que muda: ácido anacárdico → cardanol",
+        legenda: "O grupo -OH (fenol) permanece; o grupo -COOH desaparece e reaparece do outro lado como CO₂.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="180" height="110" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="110" y="38" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Ácido anacárdico</text>
+            <text x="110" y="60" fill="#e0f2fe" font-size="9" text-anchor="middle">-OH (fenol)</text>
+            <text x="110" y="78" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">-COOH (ácido)</text>
+            <text x="110" y="96" fill="#e0f2fe" font-size="9" text-anchor="middle">-C15H31 (cadeia)</text>
+
+            <text x="230" y="80" fill="#67e8f9" font-size="16" text-anchor="middle">→</text>
+            <text x="230" y="95" fill="#94a3b8" font-size="7" text-anchor="middle">Δ 180-200°C</text>
+
+            <rect x="260" y="20" width="180" height="110" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="350" y="38" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Cardanol</text>
+            <text x="350" y="60" fill="#d1fae5" font-size="9" text-anchor="middle">-OH (fenol)</text>
+            <text x="350" y="78" fill="#64748b" font-size="9" text-decoration="line-through" text-anchor="middle">-COOH (removido)</text>
+            <text x="350" y="96" fill="#d1fae5" font-size="9" text-anchor="middle">-C15H31 (cadeia)</text>
+            <text x="350" y="116" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">+ CO₂ liberado</text>
+          </svg>`
+      },
+      {
+        titulo: "As cinco reações candidatas, o que cada uma exige",
+        legenda: "Só a descarboxilação bate exatamente com o que o esquema mostra: nada entra, CO₂ sai.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="120" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Reação</text>
+            <text x="300" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Exige / libera</text>
+            <text x="410" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Bate?</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="9">Hidrólise</text>
+            <text x="220" y="52" fill="#e2e8f0" font-size="8">adiciona H₂O</text>
+            <text x="410" y="52" fill="#f87171" font-size="10" text-anchor="middle">✗</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="9">Fenilação</text>
+            <text x="220" y="76" fill="#e2e8f0" font-size="8">não é reação-padrão</text>
+            <text x="410" y="76" fill="#f87171" font-size="10" text-anchor="middle">✗</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="9">Esterificação</text>
+            <text x="220" y="100" fill="#e2e8f0" font-size="8">precisa de álcool, libera H₂O</text>
+            <text x="410" y="100" fill="#f87171" font-size="10" text-anchor="middle">✗</text>
+
+            <text x="20" y="124" fill="#e2e8f0" font-size="9">Hidrogenação</text>
+            <text x="220" y="124" fill="#e2e8f0" font-size="8">adiciona H₂ a C=C</text>
+            <text x="410" y="124" fill="#f87171" font-size="10" text-anchor="middle">✗</text>
+
+            <rect x="10" y="140" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="157" fill="#6ee7b7" font-size="9" font-weight="bold">Descarboxilação</text>
+            <text x="220" y="157" fill="#6ee7b7" font-size="8" font-weight="bold">libera CO₂, sem reagente extra</text>
+            <text x="410" y="157" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">✓</text>
+          </svg>`
+      },
+      {
+        titulo: "Mecanismo simplificado da descarboxilação",
+        legenda: "O carbono da carboxila sai junto com dois oxigênios (como CO₂); um hidrogênio toma o lugar dele no anel.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <circle cx="80" cy="70" r="35" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="80" y="75" fill="#e2e8f0" font-size="8" text-anchor="middle">anel</text>
+            <line x1="115" y1="70" x2="150" y2="55" stroke="#f87171" stroke-width="2"/>
+            <text x="170" y="52" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">-COOH</text>
+
+            <text x="220" y="72" fill="#67e8f9" font-size="16" text-anchor="middle">⇌</text>
+            <text x="220" y="90" fill="#94a3b8" font-size="7" text-anchor="middle">calor</text>
+
+            <circle cx="320" cy="70" r="35" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="320" y="75" fill="#e2e8f0" font-size="8" text-anchor="middle">anel</text>
+            <line x1="355" y1="70" x2="385" y2="55" stroke="#94a3b8" stroke-width="2"/>
+            <text x="400" y="52" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">-H</text>
+
+            <text x="320" y="130" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">+ CO₂ ↑</text>
+          </svg>`
+      },
+      {
+        titulo: "Grupos funcionais: antes e depois, lado a lado",
+        legenda: "Fenol permanece intacto; ácido carboxílico é totalmente removido; cadeia alifática não é alterada.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="20" y="20" width="130" height="100" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="85" y="38" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Fenol -OH</text>
+            <text x="85" y="60" fill="#6ee7b7" font-size="8" text-anchor="middle">presente antes</text>
+            <text x="85" y="76" fill="#6ee7b7" font-size="8" text-anchor="middle">presente depois</text>
+            <text x="85" y="100" fill="#94a3b8" font-size="7" text-anchor="middle">→ inalterado</text>
+
+            <rect x="165" y="20" width="130" height="100" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="230" y="38" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">-COOH</text>
+            <text x="230" y="60" fill="#fca5a5" font-size="8" text-anchor="middle">presente antes</text>
+            <text x="230" y="76" fill="#64748b" font-size="8" text-anchor="middle">ausente depois</text>
+            <text x="230" y="100" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">→ saiu como CO₂</text>
+
+            <rect x="310" y="20" width="130" height="100" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="375" y="38" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Cadeia C15H31</text>
+            <text x="375" y="60" fill="#6ee7b7" font-size="8" text-anchor="middle">presente antes</text>
+            <text x="375" y="76" fill="#6ee7b7" font-size="8" text-anchor="middle">presente depois</text>
+            <text x="375" y="100" fill="#94a3b8" font-size="7" text-anchor="middle">→ inalterada</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: identifique o tipo de reação orgânica",
+      descricao: "Escolha um cenário de transformação química e tente identificar qual tipo de reação orgânica ele descreve — igual ao raciocínio usado para resolver a questão do LCC.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Cenário de transformação:</p>
+              <select data-sim="cenario" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="ester">Um ácido carboxílico reage com um álcool; libera-se água e forma-se uma nova ligação C(=O)-O-C.</option>
+                <option value="hidrol">Uma ligação éster é quebrada pela adição de água, regenerando o ácido e o álcool originais.</option>
+                <option value="descarb" selected>Um grupo -COOH é removido da molécula na forma de CO₂; o carbono que restou ganha um hidrogênio.</option>
+                <option value="hidrog">Uma ligação dupla C=C recebe átomos de H₂ e vira uma ligação simples C-C saturada.</option>
+              </select>
+            </div>
+            <p class="text-[11px] text-slate-400 pt-1">Sua resposta:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q109resp" data-sim="resp" value="hidrolise" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Hidrólise</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q109resp" data-sim="resp" value="esterificacao" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Esterificação</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q109resp" data-sim="resp" value="descarboxilacao" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Descarboxilação</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q109resp" data-sim="resp" value="hidrogenacao" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Hidrogenação</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="feedback" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-400">
+              Escolha uma resposta para ver o resultado.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selCenario = raiz.querySelector('[data-sim="cenario"]');
+        var radios = raiz.querySelectorAll('[data-sim="resp"]');
+        var fb = raiz.querySelector('[data-out="feedback"]');
+
+        var respostas = {
+          ester: 'esterificacao',
+          hidrol: 'hidrolise',
+          descarb: 'descarboxilacao',
+          hidrog: 'hidrogenacao'
+        };
+        var nomes = {
+          hidrolise: 'Hidrólise', esterificacao: 'Esterificação',
+          descarboxilacao: 'Descarboxilação', hidrogenacao: 'Hidrogenação'
+        };
+
+        function limparEscolha() {
+          radios.forEach(function (r) { r.checked = false; });
+          fb.className = 'p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-400';
+          fb.textContent = 'Escolha uma resposta para ver o resultado.';
+        }
+
+        function avaliar() {
+          var escolhido = raiz.querySelector('[data-sim="resp"]:checked');
+          if (!escolhido) return;
+          var correta = respostas[selCenario.value];
+          if (escolhido.value === correta) {
+            fb.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            fb.innerHTML = '<strong>Certo!</strong> Esse cenário descreve uma <strong>' + nomes[correta] + '</strong>.';
+          } else {
+            fb.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            fb.innerHTML = '<strong>Não é bem isso.</strong> O cenário descreve uma <strong>' + nomes[correta] + '</strong>, não uma ' + nomes[escolhido.value] + '.';
+          }
+        }
+
+        selCenario.addEventListener('change', limparEscolha);
+        radios.forEach(function (r) { r.addEventListener('change', avaliar); });
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Ácido anacárdico → Cardanol + CO₂ (descarboxilação térmica, 180-200 °C)</span>
+        <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
+          <rect x="20" y="20" width="120" height="70" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="80" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">-OH e -COOH</text>
+          <text x="80" y="66" fill="#bae6fd" font-size="8" text-anchor="middle">no anel</text>
+          <text x="200" y="55" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="240" y="20" width="120" height="70" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="300" y="50" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">só -OH</text>
+          <text x="300" y="66" fill="#d1fae5" font-size="8" text-anchor="middle">no anel</text>
+          <text x="410" y="55" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">+ CO₂</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
