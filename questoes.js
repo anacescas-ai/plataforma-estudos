@@ -1560,6 +1560,841 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q092",
+    numero: "Questão 92",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Genética & Biotecnologia",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Transplante do Relógio Circadiano entre Bactérias: O que Realmente Muda no Genoma do Organismo Modificado",
+    tags: ["Biologia", "Genética", "Engenharia Genética", "Transgênese", "Ciclo Circadiano", "Biotecnologia"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A maioria dos seres vivos tem um relógio biológico (ciclo circadiano), que regula as mudanças metabólicas e comportamentais de acordo com o ciclo de 24 horas de rotação da Terra. Em 2015, um artigo publicado na revista Science Advances mostrou ser possível a transferência dos genes do relógio circadiano da cianobactéria Synechococcus elongatus para o genoma da bactéria Escherichia coli, um organismo não circadiano.
+    <br><br>
+    CHEN, A. H. et al. Transplantability of a Circadian Lock to Noncircadian Organism. <strong>Science Advances</strong>, n. 1, 2015 (adaptado).
+    <br><br>
+    Estarão presentes no organismo geneticamente modificado os genes do:`,
+
+    alternativas: [
+      { letra: "A", texto: "Metabolismo de E. coli, apenas.", correta: false },
+      { letra: "B", texto: "Ciclo circadiano de E. coli, apenas.", correta: false },
+      { letra: "C", texto: "Metabolismo de S. elongatus e do ciclo circadiano de E. coli.", correta: false },
+      { letra: "D", texto: "Ciclo circadiano de S. elongatus e do metabolismo de E. coli.", correta: true },
+      { letra: "E", texto: "Ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre todo o raciocínio de transgênese cobrado no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Genoma é um conjunto de instruções, não uma identidade única</h4>
+          <p>
+            Todo ser vivo carrega no seu DNA milhares de genes, cada um funcionando como uma instrução para produzir uma proteína específica. A soma de todas essas instruções é o <strong>genoma</strong>. A grande maioria dos genes de uma bactéria cuida de tarefas de manutenção básica — produzir energia, montar a parede celular, replicar o próprio DNA, sintetizar aminoácidos. Esse conjunto é o que chamamos, de forma ampla, de genes do <strong>metabolismo</strong> do organismo.
+          </p>
+          <p>
+            Um organismo pode ter, além desses genes básicos, sistemas regulatórios inteiros dedicados a uma função específica — como um relógio biológico. Nem todo organismo tem esse sistema. É exatamente o caso descrito no enunciado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O que é "transplantar" um conjunto de genes</h4>
+          <p>
+            Engenharia genética permite isolar um trecho específico do DNA de uma espécie doadora — nesse caso, o conjunto de genes <em>kaiA</em>, <em>kaiB</em> e <em>kaiC</em>, responsáveis pelo relógio circadiano da cianobactéria <em>Synechococcus elongatus</em> — e inseri-lo no genoma de uma espécie receptora, a bactéria <em>Escherichia coli</em>.
+          </p>
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Ponto-chave:</strong> transplantar genes é um processo de <strong>adição</strong>, não de substituição. O receptor não perde o que já tinha só porque ganhou genes novos. Salvo edição deliberada (deleção), o genoma original do hospedeiro permanece intacto, e os genes transplantados se somam a ele.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Quem tinha o quê, antes do experimento</h4>
+          <p>
+            Antes da transgênese, cada bactéria tem seu próprio pacote de genes:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Synechococcus elongatus (doadora)</strong>
+              Tem genes de metabolismo próprios <em>e</em> o sistema circadiano completo (kaiA, kaiB, kaiC) — é uma cianobactéria fotossintetizante, e seu relógio interno sincroniza a fotossíntese com o dia e a noite.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Escherichia coli (receptora)</strong>
+              Tem genes de metabolismo próprios, mas <strong>não</strong> possui um relógio circadiano — o enunciado é explícito: "um organismo não circadiano". Ela nunca teve esses genes.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> O que muda depois do transplante</h4>
+          <p>
+            O experimento pega apenas o operon do relógio circadiano de <em>S. elongatus</em> — não o genoma inteiro da cianobactéria — e insere esse trecho no DNA da <em>E. coli</em>. O resultado é uma <em>E. coli</em> geneticamente modificada que:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Continua com <strong>todo o seu próprio metabolismo</strong> — ela ainda é, no fundo, uma <em>E. coli</em>, com todas as vias metabólicas que já tinha.</li>
+            <li>Passa a carregar, além disso, os <strong>genes do ciclo circadiano de S. elongatus</strong> — um sistema que ela nunca teve e que agora funciona dentro dela (foi isso que o artigo mostrou: o relógio "pegou" mesmo em um hospedeiro diferente).</li>
+            <li><strong>Não</strong> ganha genes de metabolismo da cianobactéria doadora — só o operon do relógio foi transferido, não o genoma inteiro dela.</li>
+            <li><strong>Não</strong> ganha um "ciclo circadiano de E. coli" — porque esse conjunto de genes nunca existiu nessa espécie. Não hánada para transplantar do que não existe.</li>
+          </ul>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Resumindo em uma frase:</strong> organismo final = metabolismo original do hospedeiro (E. coli) + sistema transplantado do doador (ciclo circadiano de S. elongatus). Nada é trocado; um sistema novo é somado ao que já existia.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> A armadilha da "mistura simétrica"</h4>
+          <p>
+            O erro mais comum nesse tipo de questão é imaginar que os dois organismos "trocam" pedaços de si um com o outro, ou que o resultado é uma mistura equilibrada de partes de cada um. Não é assim que a transgênese funciona: só o que foi deliberadamente isolado e inserido (aqui, o operon <em>kai</em>) muda de organismo. Todo o resto do genoma do doador fica onde estava, e todo o resto do genoma do receptor também.
+          </p>
+          <p>
+            Além disso, é impossível transplantar um sistema genético que não existe na espécie de origem daquele sistema — por isso "ciclo circadiano de E. coli" nunca pode aparecer como componente do organismo final: essa categoria de genes simplesmente não existe em nenhuma das duas bactérias antes do experimento, exceto na S. elongatus.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> Por que esse experimento importa</h4>
+          <p>
+            O resultado publicado em 2015 é relevante porque mostra que um sistema regulatório complexo — não um gene isolado, mas um conjunto de genes que interagem entre si para gerar um comportamento cíclico — pode ser transferido como um "módulo" funcional entre espécies bem distantes evolutivamente (uma cianobactéria fotossintetizante e uma bactéria heterotrófica do intestino). É um marco da biologia sintética: genomas podem ser pensados como coleções de módulos que se recombinam.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique quem é o doador e quem é o receptor.</strong> Doador: S. elongatus (cede os genes do relógio circadiano). Receptor: E. coli (recebe esses genes).
+            <br><br>
+            <strong>Passo 2 — Lembre que transgênese é adição, não troca.</strong> O receptor mantém tudo o que já tinha (seu metabolismo) e ganha só o que foi explicitamente transferido (o operon circadiano).
+            <br><br>
+            <strong>Passo 3 — Verifique se cada "conjunto de genes" citado na alternativa existe de verdade.</strong> "Ciclo circadiano de E. coli" não existe em nenhum momento da história — é uma categoria vazia, então qualquer alternativa que a cite está automaticamente errada.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Ciclo circadiano de S. elongatus e do metabolismo de E. coli." É exatamente a soma que o experimento descreve: o hospedeiro (E. coli) preserva integralmente seu próprio metabolismo, e recebe como acréscimo o sistema circadiano transplantado da cianobactéria doadora. Nenhum dos dois genomas originais é apagado; um módulo novo é inserido no genoma que já existia.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — metabolismo de E. coli, apenas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que a E. coli mantém seu metabolismo, mas esquecer que ela também recebeu genes novos.
+              <br>
+              <strong>Onde quebra:</strong> ignora o próprio ponto central do experimento — a transferência bem-sucedida do relógio circadiano. Se apenas o metabolismo da E. coli estivesse presente, não haveria nada de "geneticamente modificado" para relatar.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — ciclo circadiano de E. coli, apenas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> supor que, ao ganhar um relógio circadiano, esse relógio "pertence" à E. coli e é tratado como se sempre tivesse existido nela.
+              <br>
+              <strong>Onde quebra:</strong> o enunciado é categórico — E. coli é "um organismo não circadiano". O relógio que ela passa a ter veio de fora, de S. elongatus; não existe um "ciclo circadiano de E. coli" nativo para se manter sozinho, e o metabolismo dela — que continua existindo — nem é citado.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — metabolismo de S. elongatus e do ciclo circadiano de E. coli</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> inverter os papéis de doador e receptor — imaginar que o metabolismo "viaja" junto com o gene transplantado, e que o relógio "fica" com quem não o recebeu.
+              <br>
+              <strong>Onde quebra:</strong> dupla inversão. Só o operon circadiano foi transferido, não o metabolismo inteiro da cianobactéria; e o ciclo circadiano pertence à espécie doadora, não à receptora, que nunca teve esse sistema.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — ciclo circadiano de S. elongatus e do ciclo circadiano de E. coli</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> tentar "cobrir todas as bases" citando o ciclo circadiano das duas espécies, como se ambas tivessem um relógio próprio antes do experimento.
+              <br>
+              <strong>Onde quebra:</strong> cita uma categoria de genes que nunca existiu — E. coli não tem, e nunca teve, um ciclo circadiano próprio. Também deixa de fora o metabolismo da E. coli, que continua lá, intacto.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Os cinco pares de "genes de X e genes de Y" testam a mesma coisa: se você sabe separar com precisão o que <strong>permanece</strong> (o metabolismo do hospedeiro, sempre) do que é <strong>adicionado</strong> (o sistema transplantado do doador) — e se você percebe quando uma alternativa cita um conjunto de genes que, segundo o próprio enunciado, nunca existiu.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-dna", titulo: "Transgênese", text: "Inserção de um gene (ou conjunto de genes) de uma espécie doadora no genoma de uma espécie receptora." },
+      { icone: "fa-plus", titulo: "Adição, não troca", text: "O receptor mantém seu genoma original e soma os genes transplantados — nada é apagado." },
+      { icone: "fa-clock", titulo: "Operon kaiABC", text: "Conjunto de genes (kaiA, kaiB, kaiC) que gera o relógio circadiano em cianobactérias como S. elongatus." },
+      { icone: "fa-ban", titulo: "Categoria inexistente", text: "E. coli nunca teve ciclo circadiano próprio — essa categoria de genes não existe para ser citada." },
+      { icone: "fa-arrows-left-right", titulo: "Doador x Receptor", text: "Doador cede um módulo específico; receptor incorpora esse módulo mantendo o restante do seu genoma." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Antes do experimento: dois genomas separados",
+        legenda: "S. elongatus tem metabolismo próprio e o operon circadiano kaiABC. E. coli tem apenas o próprio metabolismo — nenhum gene de relógio biológico.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <circle cx="130" cy="100" r="75" fill="#052e2b" stroke="#34d399" stroke-width="2.5"/>
+            <text x="130" y="35" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">S. elongatus (doadora)</text>
+            <rect x="90" y="75" width="80" height="20" rx="4" fill="#065f46" stroke="#34d399" stroke-width="1.5"/>
+            <text x="130" y="89" fill="#d1fae5" font-size="9" text-anchor="middle">metabolismo próprio</text>
+            <rect x="95" y="110" width="70" height="20" rx="4" fill="#7c3aed" stroke="#c4b5fd" stroke-width="1.5"/>
+            <text x="130" y="124" fill="#ede9fe" font-size="9" text-anchor="middle">kaiA · kaiB · kaiC</text>
+
+            <circle cx="330" cy="100" r="75" fill="#1e293b" stroke="#64748b" stroke-width="2.5"/>
+            <text x="330" y="35" fill="#cbd5e1" font-size="11" font-weight="bold" text-anchor="middle">E. coli (receptora)</text>
+            <rect x="290" y="95" width="80" height="20" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="330" y="109" fill="#e2e8f0" font-size="9" text-anchor="middle">metabolismo próprio</text>
+            <text x="330" y="140" fill="#64748b" font-size="9" text-anchor="middle" font-style="italic">sem genes de relógio</text>
+
+            <text x="230" y="103" fill="#475569" font-size="18" text-anchor="middle">×</text>
+          </svg>`
+      },
+      {
+        titulo: "O transplante: só o operon circadiano é transferido",
+        legenda: "Apenas os genes kaiA, kaiB e kaiC são isolados e inseridos no genoma da E. coli. O metabolismo da S. elongatus não viaja junto.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <circle cx="110" cy="95" r="65" fill="#052e2b" stroke="#34d399" stroke-width="2" opacity="0.5"/>
+            <rect x="75" y="75" width="70" height="18" rx="4" fill="#065f46" stroke="#34d399" stroke-width="1" opacity="0.5"/>
+            <text x="110" y="87" fill="#6ee7b7" font-size="8" text-anchor="middle" opacity="0.6">metabolismo (fica)</text>
+            <rect x="78" y="105" width="64" height="18" rx="4" fill="#7c3aed" stroke="#c4b5fd" stroke-width="2"/>
+            <text x="110" y="117" fill="#ede9fe" font-size="8" text-anchor="middle" font-weight="bold">kaiA·kaiB·kaiC</text>
+
+            <line x1="150" y1="114" x2="290" y2="114" stroke="#a78bfa" stroke-width="3" marker-end="url(#pt2)"/>
+            <text x="220" y="102" fill="#c4b5fd" font-size="9" font-weight="bold" text-anchor="middle">transplante do operon</text>
+
+            <circle cx="350" cy="95" r="65" fill="#1e293b" stroke="#64748b" stroke-width="2.5"/>
+            <rect x="315" y="70" width="70" height="18" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="350" y="82" fill="#e2e8f0" font-size="8" text-anchor="middle">metabolismo próprio</text>
+            <rect x="315" y="105" width="70" height="18" rx="4" fill="#7c3aed" stroke="#c4b5fd" stroke-width="2"/>
+            <text x="350" y="117" fill="#ede9fe" font-size="8" text-anchor="middle" font-weight="bold">kaiA·kaiB·kaiC (novo)</text>
+
+            <defs>
+              <marker id="pt2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+                <path d="M0,0 L8,4 L0,8 Z" fill="#a78bfa"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Genoma final: soma, não substituição",
+        legenda: "A E. coli modificada carrega os dois blocos ao mesmo tempo. Repare que o bloco 'ciclo circadiano de E. coli' simplesmente não existe — não há nada ali para incluir.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="230" y="20" fill="#cbd5e1" font-size="11" font-weight="bold" text-anchor="middle">Escherichia coli geneticamente modificada</text>
+            <rect x="60" y="40" width="150" height="45" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="135" y="58" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">Metabolismo</text>
+            <text x="135" y="72" fill="#cbd5e1" font-size="9" text-anchor="middle">de E. coli (mantido)</text>
+
+            <text x="230" y="68" fill="#34d399" font-size="18" text-anchor="middle" font-weight="bold">+</text>
+
+            <rect x="250" y="40" width="150" height="45" rx="6" fill="#2e1065" stroke="#a78bfa" stroke-width="2"/>
+            <text x="325" y="58" fill="#ede9fe" font-size="10" font-weight="bold" text-anchor="middle">Ciclo circadiano</text>
+            <text x="325" y="72" fill="#ddd6fe" font-size="9" text-anchor="middle">de S. elongatus (novo)</text>
+
+            <rect x="120" y="110" width="220" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <text x="230" y="128" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">"Ciclo circadiano de E. coli"</text>
+            <text x="230" y="142" fill="#fca5a5" font-size="8" text-anchor="middle">categoria que nunca existiu — não entra na soma</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Cada alternativa combina dois blocos. Só a alternativa D combina dois blocos que realmente existem no organismo final.",
+        svg: `
+          <svg viewBox="0 0 460 210" class="w-full h-auto">
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <text x="330" y="15" fill="#94a3b8" font-size="9">Existe no organismo final?</text>
+
+            <text x="30" y="45" fill="#e2e8f0" font-size="10">A — só metabolismo E. coli</text>
+            <text x="400" y="45" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="72" fill="#e2e8f0" font-size="10">B — só ciclo circadiano E. coli</text>
+            <text x="400" y="72" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="99" fill="#e2e8f0" font-size="10">C — metab. S.elong. + circad. E.coli</text>
+            <text x="400" y="99" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="110" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="128" fill="#6ee7b7" font-size="10" font-weight="bold">D — circad. S.elong. + metab. E.coli</text>
+            <text x="400" y="128" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="154" fill="#e2e8f0" font-size="10">E — circad. S.elong. + circad. E.coli</text>
+            <text x="400" y="154" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte o genoma da bactéria geneticamente modificada",
+      descricao: "Ligue e desligue cada bloco de genes e veja se a combinação corresponde ao que o experimento realmente produziu. Um dos blocos é impossível de existir — tente descobrir qual antes de ligar tudo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Blocos de genes disponíveis:</p>
+
+            <label class="flex items-center justify-between p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <span class="text-[11px] text-slate-200">Metabolismo de <em>E. coli</em></span>
+              <input type="checkbox" data-sim="metabEcoli" checked class="accent-emerald-500 w-4 h-4">
+            </label>
+            <label class="flex items-center justify-between p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <span class="text-[11px] text-slate-200">Metabolismo de <em>S. elongatus</em></span>
+              <input type="checkbox" data-sim="metabSelong" class="accent-emerald-500 w-4 h-4">
+            </label>
+            <label class="flex items-center justify-between p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <span class="text-[11px] text-slate-200">Ciclo circadiano de <em>E. coli</em></span>
+              <input type="checkbox" data-sim="circadEcoli" class="accent-emerald-500 w-4 h-4">
+            </label>
+            <label class="flex items-center justify-between p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <span class="text-[11px] text-slate-200">Ciclo circadiano de <em>S. elongatus</em></span>
+              <input type="checkbox" data-sim="circadSelong" class="accent-emerald-500 w-4 h-4">
+            </label>
+
+            <p class="text-[10px] text-slate-500 pt-1"><i class="fa-solid fa-flask"></i> Tente reproduzir exatamente o organismo do experimento de 2015.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+              <p class="text-[11px] text-slate-400 mb-2">Organismo montado:</p>
+              <div data-out="lista" class="space-y-1 text-[11px]"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campos = {
+          metabEcoli: raiz.querySelector('[data-sim="metabEcoli"]'),
+          metabSelong: raiz.querySelector('[data-sim="metabSelong"]'),
+          circadEcoli: raiz.querySelector('[data-sim="circadEcoli"]'),
+          circadSelong: raiz.querySelector('[data-sim="circadSelong"]')
+        };
+        var lista = raiz.querySelector('[data-out="lista"]');
+        var veredito = raiz.querySelector('[data-out="veredito"]');
+
+        function linha(ligado, texto, impossivel) {
+          if (impossivel) {
+            return '<div class="flex items-center gap-2 text-slate-600"><i class="fa-solid fa-ban"></i><span class="line-through">' + texto + '</span><span class="text-[9px]">(nunca existiu)</span></div>';
+          }
+          if (ligado) {
+            return '<div class="flex items-center gap-2 text-emerald-300"><i class="fa-solid fa-check"></i><span>' + texto + '</span></div>';
+          }
+          return '<div class="flex items-center gap-2 text-slate-600"><i class="fa-solid fa-minus"></i><span>' + texto + '</span></div>';
+        }
+
+        function atualizar() {
+          var metabEcoli = campos.metabEcoli.checked;
+          var metabSelong = campos.metabSelong.checked;
+          var circadEcoli = campos.circadEcoli.checked;
+          var circadSelong = campos.circadSelong.checked;
+
+          lista.innerHTML =
+            linha(metabEcoli, 'Metabolismo de E. coli', false) +
+            linha(metabSelong, 'Metabolismo de S. elongatus', false) +
+            linha(circadEcoli, 'Ciclo circadiano de E. coli', true) +
+            linha(circadSelong, 'Ciclo circadiano de S. elongatus', false);
+
+          // ciclo circadiano de E. coli nunca existiu: força desligado e desabilita
+          if (campos.circadEcoli.checked) {
+            campos.circadEcoli.checked = false;
+          }
+
+          var correto = metabEcoli && !metabSelong && !circadEcoli && circadSelong;
+
+          if (correto) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            veredito.innerHTML = '<strong>Exatamente o organismo do experimento (alternativa D).</strong> Metabolismo original do hospedeiro preservado + operon circadiano transplantado do doador.';
+          } else if (metabSelong) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            veredito.innerHTML = '<strong>Isso não aconteceu.</strong> Só o operon do relógio circadiano foi transplantado — o metabolismo da S. elongatus nunca saiu dela.';
+          } else if (!metabEcoli) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            veredito.innerHTML = '<strong>Faltou o essencial.</strong> A transgênese não apaga o genoma do hospedeiro — o metabolismo da E. coli continua lá.';
+          } else if (!circadSelong) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-700 bg-slate-950 text-slate-300';
+            veredito.innerHTML = 'Ligue o ciclo circadiano de S. elongatus — foi exatamente esse bloco que os pesquisadores transplantaram para dentro da E. coli.';
+          } else {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-700 bg-slate-950 text-slate-300';
+            veredito.innerHTML = 'Ajuste os blocos para reproduzir o organismo final do experimento.';
+          }
+        }
+
+        Object.keys(campos).forEach(function (k) {
+          campos[k].addEventListener('change', atualizar);
+        });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Metabolismo de E. coli + Ciclo Circadiano de S. elongatus</span>
+        <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
+          <rect x="40" y="40" width="160" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="120" y="64" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">Metabolismo E. coli</text>
+          <text x="220" y="65" fill="#34d399" font-size="18" text-anchor="middle" font-weight="bold">+</text>
+          <rect x="260" y="40" width="160" height="40" rx="6" fill="#2e1065" stroke="#a78bfa" stroke-width="2"/>
+          <text x="340" y="64" fill="#ede9fe" font-size="11" font-weight="bold" text-anchor="middle">Ciclo circadiano S. elongatus</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q093",
+    numero: "Questão 93",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Zoologia & Adaptações",
+    materiaCor: "emerald",
+    materiaIcone: "fa-feather-pointed",
+    titulo: "Glândula Uropigial e a Impermeabilização das Penas: Por que Aves Aquáticas Afundam sem Ela",
+    tags: ["Biologia", "Zoologia", "Aves", "Adaptações", "Glândula Uropigial", "Impermeabilização"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Os funcionários de um zoológico observaram um aumento na taxa de mortalidade de aves aquáticas por afogamento. Um grupo de biólogos analisou o comportamento das aves por várias semanas e observou que elas apresentavam dificuldade de flutuação, por causa do encharcamento das penas com água.
+    <br><br>
+    O aumento na taxa de mortalidade dessas aves estava associado a uma redução na:`,
+
+    alternativas: [
+      { letra: "A", texto: "Dilatação do papo.", correta: false },
+      { letra: "B", texto: "Reposição de penas das asas.", correta: false },
+      { letra: "C", texto: "Secreção da glândula uropigial.", correta: true },
+      { letra: "D", texto: "Formação da membrana natatória.", correta: false },
+      { letra: "E", texto: "Largura das cavidades de ossos pneumáticos.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a fisiologia da impermeabilização de penas cobrada no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Por que flutuar não é automático para uma ave</h4>
+          <p>
+            Aves aquáticas (patos, cisnes, pinguins, aves marinhas em geral) dependem de três coisas trabalhando juntas para flutuar e nadar sem se molhar por dentro: penas bem estruturadas, penas <strong>impermeáveis</strong> e uma camada de ar retida entre elas. Retire qualquer uma dessas peças e o sistema falha — mesmo que as outras duas estejam perfeitas.
+          </p>
+          <p>
+            O enunciado já aponta exatamente qual peça falhou: "encharcamento das penas com água". Isso significa que a água passou a penetrar na plumagem em vez de escorregar por cima dela. O problema não é estrutural (a pena não se desfez) nem é falta de membrana — é a <strong>perda da propriedade impermeável</strong> da superfície da pena.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A anatomia da pena: barbas, bárbulas e o "velcro" natural</h4>
+          <p>
+            Uma pena de contorno tem um eixo central (raque) do qual saem as <strong>barbas</strong>, e de cada barba saem estruturas ainda menores, as <strong>bárbulas</strong>, equipadas com microganchos que se prendem nas bárbulas vizinhas. Esse entrelaçamento cria uma superfície contínua, quase uma "tela", que por si só já dificulta a passagem de água.
+          </p>
+          <p>
+            Só que essa estrutura, mesmo bem travada, ainda é feita de queratina — um material que absorve água ao longo do tempo se não for tratado. É aqui que entra a segunda camada de proteção.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> A glândula uropigial: a "fábrica de óleo" da ave</h4>
+          <p>
+            Na base da cauda da maioria das aves fica a <strong>glândula uropigial</strong> (também chamada glândula do óleo ou glândula sebácea das aves). Ela secreta uma substância oleosa e cerosa, rica em lipídios.
+          </p>
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">O comportamento que faz a diferença:</strong> durante o autoalisamento (preening), a ave usa o bico para espremer essa secreção da glândula e espalhá-la por toda a plumagem, pena por pena. É um comportamento diário, repetido, essencial — não é algo que acontece uma vez só.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que óleo impermeabiliza: a física por trás</h4>
+          <p>
+            O óleo da glândula uropigial é hidrofóbico (repele água). Espalhado sobre as bárbulas, ele reveste a superfície da pena e eleva sua tensão superficial em relação à água, fazendo as gotas escorregarem em vez de penetrar. É o mesmo princípio de uma capa impermeável encerada: a água "perla" e escoa, ao invés de ser absorvida.
+          </p>
+          <p>
+            Com a plumagem impermeabilizada, uma camada de ar fica retida entre as penas e a pele. Essa camada tem dupla função: <strong>flutuação</strong> (o ar é menos denso que a água, dando empuxo extra) e <strong>isolamento térmico</strong> (o ar parado é um péssimo condutor de calor, mantendo a ave aquecida na água fria).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> O que acontece quando a secreção cai</h4>
+          <p>
+            Se a glândula uropigial produz menos óleo (por doença, desnutrição, estresse, poluição por outros óleos que "sujam" a plumagem, ou simplesmente ausência de oportunidade/comportamento de autoalisamento), a queratina da pena passa a absorver água diretamente. A cadeia de eventos é direta:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Menos óleo → penas perdem a repelência à água.</li>
+            <li>Água penetra entre as barbas → a camada de ar retida é expulsa (encharcamento).</li>
+            <li>Sem a camada de ar → perde-se o empuxo extra → dificuldade de flutuação (exatamente o que o enunciado descreve).</li>
+            <li>Penas encharcadas ficam mais pesadas e perdem o isolamento térmico → hipotermia, exaustão ao tentar se manter na superfície → afogamento.</li>
+          </ul>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Ponte com o enunciado:</strong> "dificuldade de flutuação por causa do encharcamento das penas" é a descrição clínica exata da falha de impermeabilização — o sintoma aponta direto para a causa: menos óleo da glândula uropigial espalhado sobre a plumagem.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> Por que as outras estruturas citadas não explicam o sintoma</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Papo</strong>
+              Órgão de armazenamento temporário de alimento no trato digestivo. Não tem qualquer relação com impermeabilização de penas.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Reposição de penas (muda)</strong>
+              Renova penas desgastadas ou danificadas, mas uma pena nova, sem óleo espalhado sobre ela, encharca do mesmo jeito. O problema não é ter penas — é elas não estarem impermeabilizadas.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Membrana natatória</strong>
+              A pele entre os dedos ajuda a empurrar a água ao nadar (propulsão), não impede a água de encharcar a plumagem.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Ossos pneumáticos</strong>
+              Cavidades de ar dentro dos ossos reduzem o peso do esqueleto (importante para o voo) e contribuem um pouco para a flutuabilidade geral, mas não têm nenhuma relação com a queratina da pena absorver ou repelir água.
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Isole o sintoma exato.</strong> "Encharcamento das penas com água" é o problema central, não a mortalidade em si (que é a consequência final).
+            <br><br>
+            <strong>Passo 2 — Pergunte: o que normalmente impede esse encharcamento?</strong> A resposta é a camada de óleo espalhada pela ave a partir da glândula uropigial.
+            <br><br>
+            <strong>Passo 3 — Elimine alternativas que não têm relação com impermeabilização.</strong> Papo (digestão), membrana natatória (propulsão) e ossos pneumáticos (peso do voo) tratam de outras funções; reposição de penas resolve desgaste, não a falta de óleo.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A glândula uropigial produz o óleo hidrofóbico que a ave espalha pelas penas durante o autoalisamento. Uma redução nessa secreção deixa a plumagem sem a camada impermeabilizante, a água penetra entre as barbas, a camada de ar retida se perde, e a ave passa a ter dificuldade de flutuar — exatamente o quadro clínico descrito no enunciado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — dilatação do papo</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar qualquer estrutura anatômica de ave com o problema, sem verificar a função.
+              <br>
+              <strong>Onde quebra:</strong> o papo é uma bolsa do sistema digestório usada para armazenar alimento antes da digestão. Não participa da impermeabilização da plumagem nem da flutuação.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — reposição de penas das asas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> pensar que "problema com penas" tem que ser sobre ter ou não ter penas suficientes.
+              <br>
+              <strong>Onde quebra:</strong> a muda repõe penas gastas ou perdidas, mas isso é sobre quantidade e integridade estrutural, não sobre impermeabilização. Uma pena nova, sem receber o óleo da glândula uropigial, encharca exatamente como uma pena velha.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — formação da membrana natatória</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que "aves aquáticas" e "pés palmados" andam juntos na cabeça, e aplicar essa associação aqui.
+              <br>
+              <strong>Onde quebra:</strong> a membrana entre os dedos serve para empurrar água durante a natação (propulsão), não para impedir que a água penetre nas penas. O sintoma descrito é sobre flutuação por encharcamento, não sobre dificuldade de se impulsionar na água.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — largura das cavidades de ossos pneumáticos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que ossos pneumáticos ajudam aves a serem mais leves, e generalizar isso para "ajudam a flutuar".
+              <br>
+              <strong>Onde quebra:</strong> essas cavidades reduzem o peso do esqueleto para o voo e contribuem de forma secundária e constante para a flutuabilidade — não são algo que varia com o encharcamento observado, nem têm ligação com a queratina da pena absorvendo água.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As quatro alternativas erradas citam estruturas reais de aves aquáticas — mas cada uma cuida de uma função diferente (digestão, muda, propulsão, peso). Só a glândula uropigial está diretamente ligada à impermeabilização da pena, que é o elo exato entre o sintoma (encharcamento) e a causa (menos óleo espalhado).
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-droplet", titulo: "Glândula Uropigial", text: "Localizada na base da cauda; secreta óleo hidrofóbico espalhado pela ave durante o autoalisamento." },
+      { icone: "fa-feather", titulo: "Estrutura da Pena", text: "Raque, barbas e bárbulas com microganchos formam uma superfície entrelaçada, mas ainda absorvente sem óleo." },
+      { icone: "fa-water", titulo: "Camada de Ar Retida", text: "Penas impermeáveis prendem ar entre si e a pele, gerando empuxo extra e isolamento térmico." },
+      { icone: "fa-temperature-low", titulo: "Hipotermia por Encharcamento", text: "Penas molhadas perdem a capacidade isolante, expondo a ave ao frio da água." },
+      { icone: "fa-shoe-prints", titulo: "Membrana Natatória", text: "Pele entre os dedos usada para propulsão ao nadar — não impede a entrada de água nas penas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Localização da glândula uropigial",
+        legenda: "A glândula fica na base da cauda. Durante o autoalisamento, a ave pressiona o bico contra ela para retirar o óleo e espalhá-lo pela plumagem.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <ellipse cx="220" cy="110" rx="120" ry="60" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <circle cx="90" cy="90" r="30" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <polygon points="60,88 30,94 60,100" fill="#fbbf24" stroke="#d97706" stroke-width="1.5"/>
+            <polygon points="330,110 400,95 340,135" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <circle cx="345" cy="108" r="10" fill="#065f46" stroke="#34d399" stroke-width="2.5"/>
+            <text x="345" y="70" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">Glândula uropigial</text>
+            <line x1="345" y1="80" x2="345" y2="98" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="90" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">bico espalha o óleo</text>
+            <path d="M 80 60 Q 200 20 320 100" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#pt3)"/>
+            <defs>
+              <marker id="pt3" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+                <path d="M0,0 L7,3.5 L0,7 Z" fill="#fbbf24"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Bárbulas com e sem revestimento de óleo",
+        legenda: "Com óleo, as gotas escorregam pela superfície hidrofóbica. Sem óleo, a água penetra diretamente entre as bárbulas e é absorvida pela queratina.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="115" y="20" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">Com óleo (impermeável)</text>
+            <line x1="45" y1="60" x2="185" y2="60" stroke="#a78bfa" stroke-width="3"/>
+            <line x1="60" y1="60" x2="55" y2="90" stroke="#94a3b8" stroke-width="2"/>
+            <line x1="90" y1="60" x2="85" y2="95" stroke="#94a3b8" stroke-width="2"/>
+            <line x1="120" y1="60" x2="115" y2="90" stroke="#94a3b8" stroke-width="2"/>
+            <line x1="150" y1="60" x2="145" y2="95" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="70" cy="45" r="6" fill="#38bdf8" opacity="0.8"/>
+            <circle cx="130" cy="42" r="5" fill="#38bdf8" opacity="0.8"/>
+            <text x="115" y="120" fill="#6ee7b7" font-size="9" text-anchor="middle">gotas escorregam</text>
+
+            <text x="345" y="20" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Sem óleo (encharcada)</text>
+            <line x1="275" y1="60" x2="415" y2="60" stroke="#64748b" stroke-width="3"/>
+            <line x1="290" y1="60" x2="285" y2="90" stroke="#64748b" stroke-width="2"/>
+            <line x1="320" y1="60" x2="315" y2="95" stroke="#64748b" stroke-width="2"/>
+            <line x1="350" y1="60" x2="345" y2="90" stroke="#64748b" stroke-width="2"/>
+            <line x1="380" y1="60" x2="375" y2="95" stroke="#64748b" stroke-width="2"/>
+            <path d="M 285 60 Q 300 100 320 90 Q 340 110 360 90 Q 380 105 395 70" fill="#0c4a6e" opacity="0.6" stroke="#0ea5e9" stroke-width="1"/>
+            <text x="345" y="130" fill="#fca5a5" font-size="9" text-anchor="middle">água penetra e é absorvida</text>
+          </svg>`
+      },
+      {
+        titulo: "Efeito na flutuação",
+        legenda: "Impermeabilizada, a plumagem retém ar e a ave flutua alta. Encharcada, o ar escapa, o peso aumenta e a ave afunda progressivamente.",
+        svg: `
+          <svg viewBox="0 0 460 180" class="w-full h-auto">
+            <rect x="20" y="90" width="200" height="70" fill="#0c4a6e" opacity="0.5"/>
+            <line x1="20" y1="90" x2="220" y2="90" stroke="#38bdf8" stroke-width="2"/>
+            <ellipse cx="120" cy="80" rx="45" ry="22" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="120" y="35" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">flutua alto — ar retido nas penas</text>
+            <circle cx="100" cy="75" r="3" fill="#e2e8f0"/>
+            <circle cx="115" cy="70" r="3" fill="#e2e8f0"/>
+            <circle cx="130" cy="76" r="3" fill="#e2e8f0"/>
+
+            <rect x="240" y="90" width="200" height="70" fill="#0c4a6e" opacity="0.5"/>
+            <line x1="240" y1="90" x2="440" y2="90" stroke="#38bdf8" stroke-width="2"/>
+            <ellipse cx="340" cy="100" rx="40" ry="18" fill="#334155" stroke="#f87171" stroke-width="2"/>
+            <text x="340" y="35" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">afunda — penas encharcadas</text>
+            <path d="M 305 108 Q 340 130 375 108" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="3 3"/>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Cada estrutura cuida de uma função diferente. Só a glândula uropigial está diretamente ligada à impermeabilização das penas.",
+        svg: `
+          <svg viewBox="0 0 460 210" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Estrutura</text>
+            <text x="330" y="15" fill="#94a3b8" font-size="9">Explica o encharcamento?</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Papo</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Reposição de penas</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="80" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="98" fill="#6ee7b7" font-size="10" font-weight="bold">C — Glândula uropigial</text>
+            <text x="400" y="98" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="124" fill="#e2e8f0" font-size="10">D — Membrana natatória</text>
+            <text x="400" y="124" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Ossos pneumáticos</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: quanto óleo faz diferença na flutuação?",
+      descricao: "Mexa no nível de secreção da glândula uropigial e observe o efeito em cadeia sobre a impermeabilização, o ar retido e a flutuação da ave.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Secreção da glândula uropigial</span><span class="text-emerald-300 font-bold" data-out="secrecao">70%</span>
+              </label>
+              <input type="range" data-sim="secrecao" min="0" max="100" value="70" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> Este é o único fator que a questão faz variar — mexa nele e observe o resto.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">Impermeabilização da plumagem</span>
+                  <span class="text-sky-300 font-mono" data-out="imperm">70%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="imperm" class="h-full bg-sky-500 transition-all" style="width:70%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-purple-300 font-bold">Ar retido entre as penas</span>
+                  <span class="text-purple-300 font-mono" data-out="ar">70%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="ar" class="h-full bg-purple-500 transition-all" style="width:70%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Flutuação</span>
+                  <span class="text-emerald-300 font-mono" data-out="flut">70%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="flut" class="h-full bg-emerald-500 transition-all" style="width:70%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="secrecao"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var s = parseFloat(campo.value);
+          var imperm = s;
+          var ar = Math.max(0, s - 5);
+          var flut = Math.max(0, s - 10);
+
+          saida('secrecao').textContent = s.toFixed(0) + '%';
+          saida('imperm').textContent = imperm.toFixed(0) + '%';
+          saida('ar').textContent = ar.toFixed(0) + '%';
+          saida('flut').textContent = flut.toFixed(0) + '%';
+
+          barra('imperm').style.width = imperm + '%';
+          barra('ar').style.width = ar + '%';
+          barra('flut').style.width = flut + '%';
+
+          var v = saida('veredito');
+          if (s >= 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Plumagem impermeável.</strong> O óleo espalhado repele a água, o ar fica retido e a ave flutua normalmente.';
+          } else if (s >= 25) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Impermeabilização comprometida.</strong> As penas começam a encharcar, a camada de ar diminui e a flutuação já fica prejudicada — o quadro do enunciado.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Encharcamento severo.</strong> Sem óleo suficiente, a queratina absorve água livremente, o ar retido praticamente desaparece e a ave corre risco real de afogamento.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-droplet"></i> Glândula Uropigial → Óleo → Impermeabilização → Flutuação</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="15" y="35" width="100" height="35" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+          <text x="65" y="57" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Glândula uropigial</text>
+          <line x1="115" y1="52" x2="145" y2="52" stroke="#34d399" stroke-width="2" marker-end="url(#ptq93)"/>
+          <rect x="150" y="35" width="90" height="35" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="195" y="57" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Óleo nas penas</text>
+          <line x1="240" y1="52" x2="270" y2="52" stroke="#34d399" stroke-width="2" marker-end="url(#ptq93)"/>
+          <rect x="275" y="35" width="90" height="35" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+          <text x="320" y="57" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Impermeável</text>
+          <line x1="365" y1="52" x2="395" y2="52" stroke="#34d399" stroke-width="2" marker-end="url(#ptq93)"/>
+          <rect x="398" y="35" width="55" height="35" rx="6" fill="#1e3a8a" stroke="#93c5fd" stroke-width="2"/>
+          <text x="425" y="57" fill="#dbeafe" font-size="9" font-weight="bold" text-anchor="middle">Flutua</text>
+          <defs>
+            <marker id="ptq93" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+              <path d="M0,0 L7,3.5 L0,7 Z" fill="#34d399"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
