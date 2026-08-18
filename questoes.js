@@ -1002,6 +1002,564 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q091",
+    numero: "Questão 91",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Físico-Química — Adsorção e Porosidade",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Carvão Ativado: Por que a Porosidade Determina a Capacidade de Adsorção",
+    tags: ["Química", "Físico-Química", "Adsorção", "Carvão Ativado", "Porosidade", "Área Superficial"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A filtração em carvão é uma das mais antigas formas de purificação de água. O carvão ativado, diferentemente do carvão comum, é útil para ser empregado na remoção de material orgânico, cloro e outros contaminantes. Essa capacidade decorre de suas propriedades de adsorção. A origem do material utilizado para produzir o carvão ativado pode influenciar sua porosidade e, consequentemente, interferir na capacidade do material de remover impurezas. Na figura, é ilustrada esquematicamente a diferença entre as estruturas físicas do carvão comum e do carvão ativado.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 my-2">
+      <svg viewBox="0 0 560 280" class="w-full h-auto max-w-xl mx-auto">
+        <text x="120" y="22" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="bold">Carvão comum</text>
+        <circle cx="120" cy="150" r="90" fill="#1e293b" stroke="#64748b" stroke-width="2.5"/>
+        <circle cx="95" cy="115" r="13" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="145" cy="100" r="10" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="155" cy="150" r="12" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="90" cy="180" r="11" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+        <circle cx="140" cy="190" r="9" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="60" y1="72" x2="93" y2="108" stroke="#94a3b8" stroke-width="1.2"/>
+        <text x="35" y="66" fill="#cbd5e1" font-size="10">Macroporo</text>
+        <text x="120" y="255" text-anchor="middle" fill="#64748b" font-size="10">poucos poros grandes — pouca área interna</text>
+        <line x1="228" y1="150" x2="272" y2="150" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <text x="410" y="22" text-anchor="middle" fill="#a5f3fc" font-size="13" font-weight="bold">Carvão ativado</text>
+        <path d="M 320 150 C 320 95, 360 58, 410 58 C 465 58, 502 95, 502 150 C 502 205, 465 242, 410 242 C 358 242, 320 205, 320 150 Z" fill="#083344" stroke="#22d3ee" stroke-width="2.5"/>
+        <circle cx="360" cy="105" r="13" fill="#0e2a33" stroke="#38bdf8" stroke-width="2"/>
+        <circle cx="455" cy="185" r="12" fill="#0e2a33" stroke="#38bdf8" stroke-width="2"/>
+        <circle cx="345" cy="175" r="7" fill="#0e2a33" stroke="#34d399" stroke-width="2"/>
+        <circle cx="435" cy="105" r="7" fill="#0e2a33" stroke="#34d399" stroke-width="2"/>
+        <circle cx="395" cy="140" r="3.5" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+        <circle cx="420" cy="165" r="3" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+        <circle cx="380" cy="115" r="3" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+        <circle cx="396" cy="140" r="1.4" fill="#0f172a"/>
+        <circle cx="399" cy="142" r="1.2" fill="#0f172a"/>
+        <line x1="360" y1="70" x2="360" y2="94" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="360" y="60" text-anchor="middle" fill="#7dd3fc" font-size="9" font-weight="bold">Macroporo</text>
+        <line x1="330" y1="200" x2="343" y2="180" stroke="#34d399" stroke-width="1.2"/>
+        <text x="322" y="212" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Mesoporo</text>
+        <line x1="455" y1="145" x2="437" y2="108" stroke="#34d399" stroke-width="1.2"/>
+        <text x="470" y="150" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Mesoporo</text>
+        <line x1="410" y1="205" x2="398" y2="145" stroke="#fbbf24" stroke-width="1.2"/>
+        <text x="410" y="216" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="bold">Microporo</text>
+        <line x1="440" y1="70" x2="399" y2="139" stroke="#f87171" stroke-width="1.2"/>
+        <text x="452" y="62" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Impureza adsorvida</text>
+        <text x="410" y="255" text-anchor="middle" fill="#67e8f9" font-size="10">rede densa de poros — enorme área interna</text>
+      </svg>
+    </div>
+    <p class="text-slate-400 text-[11px] italic text-center">CORRÊA, M. A. Cosmetologia: ciência e técnica. São Paulo: Medfarma, 2012 (adaptado).</p>
+    <br>
+    Qual característica do carvão ativado explica a sua maior eficiência nesse processo?`,
+
+    alternativas: [
+      { letra: "A", texto: "Massa.", correta: false },
+      { letra: "B", texto: "Dureza.", correta: false },
+      { letra: "C", texto: "Densidade.", correta: false },
+      { letra: "D", texto: "Superfície.", correta: true },
+      { letra: "E", texto: "Condutividade.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA — a teoria inteira, não um resumo
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre adsorção, porosidade e área superficial — tudo o que o Enem cobra sobre carvão ativado.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Adsorção não é absorção</h4>
+          <p>
+            Os dois nomes parecem o mesmo fenômeno, mas descrevem coisas diferentes. Na <strong>absorção</strong>, uma substância penetra no <em>volume</em> de outra — como a água que entra numa esponja. Na <strong>adsorção</strong>, a substância fica retida apenas na <em>superfície</em> de um sólido, grudada na camada mais externa, sem penetrar sua estrutura interna.
+          </p>
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Consequência direta:</strong> como a adsorção é um fenômeno de superfície, a quantidade de substância retida depende diretamente de <strong>quanta superfície está disponível</strong> para o contato. É essa ideia que resolve a questão inteira.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Como se fabrica o carvão ativado</h4>
+          <p>
+            O processo tem duas etapas. Primeiro, a <strong>carbonização</strong>: um material orgânico rico em carbono (madeira, casca de coco, casca de arroz, ossos) é aquecido sem oxigênio, eliminando gases e líquidos e deixando um esqueleto de carbono. Depois, a <strong>ativação</strong> (física, com vapor d'água ou CO₂ quentes, ou química, com ácidos ou bases): esse tratamento "escava" o esqueleto de carbono, abrindo uma rede imensa de canais e cavidades internas.
+          </p>
+          <p>
+            É por isso que o enunciado diz que "a origem do material... pode influenciar sua porosidade": matérias-primas diferentes têm estruturas de fibras diferentes, e a ativação escava essas fibras de formas distintas, gerando redes de poros com tamanhos e distribuições diferentes.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> A anatomia dos poros</h4>
+          <p>
+            A IUPAC classifica os poros por diâmetro em três faixas:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-sky-500/30">
+              <strong class="text-sky-300 block mb-1">Macroporos</strong>
+              Diâmetro &gt; 50 nm. Funcionam como "corredores de acesso" para o interior do grão.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Mesoporos</strong>
+              Diâmetro entre 2 e 50 nm. Conectam os macroporos às regiões mais internas.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-amber-500/30">
+              <strong class="text-amber-300 block mb-1">Microporos</strong>
+              Diâmetro &lt; 2 nm. Respondem pela maior parte da área de adsorção do material.
+            </div>
+          </div>
+          <p>
+            Quanto mais fina e ramificada essa rede — especialmente a fração de microporos —, maior a quantidade de "parede interna" exposta ao contaminante.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que mais poros significam mais área</h4>
+          <p>
+            Pense em subdividir um cubo maciço em cubos menores, mantendo o volume total constante. A soma das áreas superficiais de todos os pedaços pequenos é muito maior do que a área do cubo original — porque cada corte cria duas novas faces expostas. Formalmente, para um volume fixo, a área superficial cresce quando o tamanho característico das partículas (ou dos poros) diminui:
+          </p>
+          $$A \\propto \\frac{1}{r}$$
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Números reais:</strong> um carvão comum tem área superficial de poucos m² por grama. Um bom carvão ativado chega a <strong>500–1500 m²/g</strong> — a área de uma quadra de tênis dobrada dentro de uma colher de sopa de material.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> A força por trás da adsorção</h4>
+          <p>
+            A retenção do contaminante na parede do poro é, na maioria dos casos, uma <strong>fisissorção</strong>: as moléculas do contaminante são atraídas para a superfície do carbono por <strong>forças de Van der Waals</strong>, interações fracas e de curto alcance. Não há formação de ligação química nova — nem o carvão, nem o contaminante mudam de composição. É um processo físico, reversível, que depende só de "quanta parede" está disponível para essas atrações fracas atuarem.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">6.</span> O que NÃO entra nessa equação</h4>
+          <p>
+            Nenhuma das outras propriedades citadas nas alternativas participa do mecanismo de adsorção:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li><strong>Massa:</strong> é apenas "quanto material existe", não descreve sua estrutura interna. Duas amostras de mesma massa podem ter capacidades de adsorção completamente diferentes.</li>
+            <li><strong>Dureza:</strong> propriedade mecânica, relacionada à resistência a risco e deformação — não tem relação com retenção de moléculas na superfície.</li>
+            <li><strong>Densidade:</strong> é uma <em>consequência</em> da porosidade (mais vazios internos, menor densidade), mas não é a <em>causa</em> da adsorção. O que retém o contaminante é a parede do poro, não o quanto o material "pesa por volume".</li>
+            <li><strong>Condutividade:</strong> propriedade elétrica, ligada à mobilidade de elétrons na estrutura do carbono — irrelevante para um fenômeno de forças intermoleculares fracas na superfície.</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">7.</span> Aplicações que usam esse mesmo princípio</h4>
+          <p>
+            O mesmo raciocínio — mais poros, mais área, mais adsorção — explica o uso do carvão ativado em filtros domésticos de água, em máscaras e respiradores contra gases, em purificadores de ar e até em produtos cosméticos (fonte da citação do enunciado), sempre buscando maximizar a área de contato disponível por grama de material.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA — todos os distratores, um a um
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-cyan-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique o fenômeno.</strong> O enunciado fala em "adsorção" — retenção na <em>superfície</em> do sólido, não no seu volume.
+            <br><br>
+            <strong>Passo 2 — Ligue porosidade a área.</strong> O enunciado diz que a origem do material "influencia sua porosidade" e, com isso, "a capacidade de remover impurezas". Mais poros (principalmente micro e mesoporos) significam mais parede interna exposta.
+            <br><br>
+            <strong>Passo 3 — Elimine propriedades que não descrevem área de contato.</strong> Massa, dureza, densidade e condutividade descrevem outros aspectos do material, não o quanto de "parede interna" ele oferece ao contaminante.
+          </p>
+        </div>
+
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A eficiência do carvão ativado vem da enorme <strong>área superficial</strong> gerada pela rede de macro, meso e microporos abertos na etapa de ativação. Como a adsorção ocorre pela atração das moléculas do contaminante à superfície do sólido (forças de Van der Waals), quanto maior essa área disponível, mais moléculas podem ficar retidas por grama de carvão. É exatamente a característica física destacada na figura do enunciado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Massa</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar "mais eficiente" a "mais quantidade de material", como se usar mais carvão (mais massa) explicasse a diferença entre o comum e o ativado.
+              <br>
+              <strong>Onde quebra:</strong> massa é só "quanto material existe", não descreve a estrutura interna do sólido. Duas amostras de mesma massa — uma de carvão comum, outra de ativado — têm capacidades de remoção completamente diferentes, porque o que muda é a organização interna (porosidade), não a quantidade.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Dureza</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> confundir uma propriedade mecânica do sólido com sua capacidade química de reter substâncias.
+              <br>
+              <strong>Onde quebra:</strong> dureza mede resistência a risco e deformação da estrutura — não tem qualquer relação com a área disponível para adsorção. Um material poroso pode ser mole ou duro; isso não altera o número de moléculas que sua superfície interna consegue reter.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Densidade</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> notar que o carvão ativado, sendo mais poroso, tende a ser menos denso, e concluir que "densidade menor" seria a explicação da eficiência.
+              <br>
+              <strong>Onde quebra:</strong> densidade baixa é uma <em>consequência</em> da porosidade, não a <em>causa</em> da adsorção. O que retém o contaminante é a parede interna dos poros — a área de contato —, não "o quanto o material pesa por unidade de volume". Este é o distrator mais sedutor, porque cita uma grandeza que de fato varia entre os dois carvões, só que aponta para o efeito, não para o mecanismo.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Condutividade</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que o carbono é usado como condutor em eletrodos e baterias, e misturar esse uso com a purificação de água.
+              <br>
+              <strong>Onde quebra:</strong> adsorção é um fenômeno de forças intermoleculares fracas na superfície do sólido; não depende de mobilidade de elétrons nem de corrente elétrica. O carvão ativado adsorve normalmente mesmo em situações onde nenhuma condução elétrica está envolvida.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As quatro alternativas erradas trocam a causa real do fenômeno — área superficial disponível para adsorção — por outras propriedades físicas do carvão que soam plausíveis (mecânicas, elétricas ou de "quantidade"), mas que não participam do mecanismo de fisissorção descrito no enunciado.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-magnet", titulo: "Adsorção", text: "Retenção de moléculas na SUPERFÍCIE de um sólido, por forças de Van der Waals — diferente de absorção, que penetra o volume." },
+      { icone: "fa-draw-polygon", titulo: "Porosidade", text: "Fração de vazios internos do material; mais poros = mais 'parede interna' exposta ao contaminante." },
+      { icone: "fa-ruler", titulo: "Classificação IUPAC dos poros", text: "Macroporos > 50 nm, mesoporos 2–50 nm, microporos < 2 nm. Os microporos respondem pela maior parte da área." },
+      { icone: "fa-expand", titulo: "Área superficial específica", text: "Pode chegar a 500–1500 m²/g no carvão ativado, contra poucos m²/g no carvão comum." },
+      { icone: "fa-fire", titulo: "Carbonização + Ativação", text: "Aquecimento sem O2 forma o esqueleto de carbono; a ativação (vapor, CO2 ou agentes químicos) escava a rede de poros." },
+      { icone: "fa-water", titulo: "Aplicação prática", text: "Filtros de água, máscaras de gás e purificadores de ar usam o mesmo princípio: maximizar área por grama." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Carvão comum × carvão ativado: comparação de porosidade",
+        legenda: "O carvão comum tem poucos poros grandes. A ativação abre uma rede densa de macro, meso e microporos, multiplicando a área interna disponível para reter contaminantes.",
+        svg: `
+          <svg viewBox="0 0 460 260" class="w-full h-auto">
+            <text x="110" y="22" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold">Carvão comum</text>
+            <circle cx="110" cy="145" r="85" fill="#1e293b" stroke="#64748b" stroke-width="2.5"/>
+            <circle cx="88" cy="112" r="12" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="132" cy="98" r="9" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="140" cy="145" r="11" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="85" cy="172" r="10" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="128" cy="180" r="8" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+            <text x="110" y="245" text-anchor="middle" fill="#64748b" font-size="9">área interna pequena</text>
+            <line x1="205" y1="145" x2="245" y2="145" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <text x="350" y="22" text-anchor="middle" fill="#a5f3fc" font-size="12" font-weight="bold">Carvão ativado</text>
+            <path d="M 270 145 C 270 92, 308 57, 350 57 C 397 57, 432 92, 432 145 C 432 197, 397 232, 350 232 C 308 232, 270 197, 270 145 Z" fill="#083344" stroke="#22d3ee" stroke-width="2.5"/>
+            <circle cx="305" cy="102" r="11" fill="#0e2a33" stroke="#38bdf8" stroke-width="2"/>
+            <circle cx="392" cy="175" r="10" fill="#0e2a33" stroke="#38bdf8" stroke-width="2"/>
+            <circle cx="292" cy="165" r="6" fill="#0e2a33" stroke="#34d399" stroke-width="2"/>
+            <circle cx="375" cy="102" r="6" fill="#0e2a33" stroke="#34d399" stroke-width="2"/>
+            <circle cx="338" cy="135" r="3" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+            <circle cx="360" cy="158" r="2.5" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+            <circle cx="322" cy="112" r="2.5" fill="#0e2a33" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="350" y="245" text-anchor="middle" fill="#67e8f9" font-size="9">área interna enorme</text>
+          </svg>`
+      },
+      {
+        titulo: "Escala dos poros segundo a IUPAC",
+        legenda: "Os poros são classificados por diâmetro. Os microporos são os menores, mas por serem numerosos, respondem pela maior fatia da área superficial total do carvão ativado.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="40" y1="90" x2="430" y2="90" stroke="#475569" stroke-width="3"/>
+            <circle cx="70" cy="90" r="5" fill="#083344" stroke="#fbbf24" stroke-width="2"/>
+            <text x="70" y="118" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="bold">Microporo</text>
+            <text x="70" y="132" text-anchor="middle" fill="#94a3b8" font-size="8">&lt; 2 nm</text>
+            <line x1="150" y1="90" x2="150" y2="70" stroke="#475569" stroke-width="1.5"/>
+            <circle cx="230" cy="90" r="11" fill="#083344" stroke="#34d399" stroke-width="2"/>
+            <text x="230" y="126" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Mesoporo</text>
+            <text x="230" y="140" text-anchor="middle" fill="#94a3b8" font-size="8">2 – 50 nm</text>
+            <line x1="320" y1="90" x2="320" y2="70" stroke="#475569" stroke-width="1.5"/>
+            <circle cx="390" cy="90" r="20" fill="#083344" stroke="#38bdf8" stroke-width="2"/>
+            <text x="390" y="134" text-anchor="middle" fill="#7dd3fc" font-size="9" font-weight="bold">Macroporo</text>
+            <text x="390" y="148" text-anchor="middle" fill="#94a3b8" font-size="8">&gt; 50 nm</text>
+            <text x="230" y="30" text-anchor="middle" fill="#cbd5e1" font-size="10" font-weight="bold">Diâmetro crescente →</text>
+            <rect x="40" y="150" width="390" height="16" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+            <text x="235" y="162" text-anchor="middle" fill="#94a3b8" font-size="8">os microporos, por serem numerosos, dominam a área total</text>
+          </svg>`
+      },
+      {
+        titulo: "Fisissorção: a molécula presa na parede do poro",
+        legenda: "Forças de Van der Waals atraem a molécula do contaminante para a parede interna do poro. Não há ligação química nova — é um processo físico, fraco e reversível, que só depende de haver superfície disponível.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <path d="M 40 30 L 40 160 L 130 160 L 130 90 L 210 90 L 210 160 L 300 160 L 300 70 L 380 70 L 380 160 L 420 160 L 420 30 Z" fill="#083344" stroke="#22d3ee" stroke-width="2.5"/>
+            <text x="230" y="20" text-anchor="middle" fill="#a5f3fc" font-size="10" font-weight="bold">parede interna do microporo (carbono)</text>
+            <circle cx="170" cy="70" r="9" fill="#fca5a5" stroke="#f87171" stroke-width="2"/>
+            <text x="170" y="55" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">contaminante</text>
+            <path d="M 165 78 Q 168 88 175 90" fill="none" stroke="#f87171" stroke-width="1.5" stroke-dasharray="2 2" marker-end="url(#pt91)"/>
+            <text x="340" y="45" text-anchor="middle" fill="#94a3b8" font-size="8">forças de Van der Waals</text>
+            <path d="M 330 50 Q 335 60 335 68" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2 2" marker-end="url(#pt91)"/>
+            <circle cx="335" cy="78" r="7" fill="#fca5a5" stroke="#f87171" stroke-width="2"/>
+            <defs>
+              <marker id="pt91" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="currentColor" class="text-slate-400"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Por que dividir aumenta a área (mesmo volume)",
+        legenda: "Um cubo maciço e o mesmo material dividido em 8 cubos menores têm exatamente o mesmo volume — mas a soma das áreas expostas dos cubos pequenos é o dobro da área do cubo original. É o mesmo princípio que faz um material poroso ter área imensa por grama.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <rect x="55" y="50" width="110" height="110" fill="#0f172a" stroke="#a78bfa" stroke-width="2.5"/>
+            <text x="110" y="35" text-anchor="middle" fill="#c4b5fd" font-size="10" font-weight="bold">1 cubo maciço</text>
+            <text x="110" y="180" text-anchor="middle" fill="#94a3b8" font-size="9">área total = 6 faces</text>
+            <line x1="205" y1="105" x2="245" y2="105" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 4"/>
+            <g transform="translate(280,50)">
+              <rect x="0" y="0" width="50" height="50" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+              <rect x="60" y="0" width="50" height="50" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+              <rect x="0" y="60" width="50" height="50" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+              <rect x="60" y="60" width="50" height="50" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+            </g>
+            <text x="335" y="35" text-anchor="middle" fill="#7dd3fc" font-size="10" font-weight="bold">4 cubos menores</text>
+            <text x="335" y="180" text-anchor="middle" fill="#67e8f9" font-size="9">mesmo volume, mais área exposta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: o que realmente aumenta a capacidade de adsorção?",
+      descricao: "Mexa nos controles e observe a barra de capacidade de adsorção. Ela só reage a dois deles — porosidade e tamanho médio dos poros. Massa, dureza e condutividade não mudam nada.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[10px] text-cyan-400/80 font-bold uppercase tracking-wide"><i class="fa-solid fa-flask"></i> Controles do experimento (afetam a área)</p>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Porosidade</span><span class="text-cyan-300 font-bold" data-out="porosidade">40%</span>
+              </label>
+              <input type="range" data-sim="porosidade" min="5" max="95" value="40" step="5" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Tamanho médio do poro</span><span class="text-cyan-300 font-bold" data-out="tamanhoPoro">10 nm</span>
+              </label>
+              <input type="range" data-sim="tamanhoPoro" min="1" max="50" value="10" step="1" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500 pt-1 border-t border-slate-800">Poros menores e mais numerosos = mais parede interna exposta.</p>
+
+            <p class="text-[10px] text-slate-500 font-bold uppercase tracking-wide pt-2">Distratores (não afetam a adsorção)</p>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Massa da amostra</span><span class="text-slate-300 font-bold" data-out="massa">1,0 g</span>
+              </label>
+              <input type="range" data-sim="massa" min="0.5" max="5" value="1" step="0.5" class="w-full accent-slate-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Dureza</span><span class="text-slate-300 font-bold" data-out="dureza">5</span>
+              </label>
+              <input type="range" data-sim="dureza" min="1" max="10" value="5" step="1" class="w-full accent-slate-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Condutividade</span><span class="text-slate-300 font-bold" data-out="condutividade">50 S/m</span>
+              </label>
+              <input type="range" data-sim="condutividade" min="0" max="100" value="50" step="5" class="w-full accent-slate-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-cyan-300 font-bold">Área superficial (m²/g)</span>
+                  <span class="text-cyan-300 font-mono" data-out="area">720</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="area" class="h-full bg-cyan-500 transition-all" style="width:48%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Capacidade de adsorção (mg/g)</span>
+                  <span class="text-emerald-300 font-mono" data-out="capacidade">360</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="capacidade" class="h-full bg-emerald-500 transition-all" style="width:48%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-slate-400 font-bold">Distratores (massa / dureza / condutividade)</span>
+                  <span class="text-slate-400 font-mono" data-out="distratorBarra">sem efeito</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="distrator" class="h-full bg-slate-600 transition-all" style="width:0%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+
+        <div class="mt-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+          <p class="text-[11px] text-slate-400 mb-2">
+            <i class="fa-solid fa-chart-line text-cyan-400"></i>
+            Área superficial em função do tamanho do poro, na porosidade atual.
+          </p>
+          <div class="h-56"><canvas data-sim="grafico"></canvas></div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campos = {
+          porosidade: raiz.querySelector('[data-sim="porosidade"]'),
+          tamanhoPoro: raiz.querySelector('[data-sim="tamanhoPoro"]'),
+          massa: raiz.querySelector('[data-sim="massa"]'),
+          dureza: raiz.querySelector('[data-sim="dureza"]'),
+          condutividade: raiz.querySelector('[data-sim="condutividade"]')
+        };
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+        var grafico = null;
+        var K = 3000;
+
+        function calcularArea(porosidade, tamanhoPoro) {
+          return (porosidade / 100) * (K / tamanhoPoro);
+        }
+
+        function calcular() {
+          var porosidade = parseFloat(campos.porosidade.value);
+          var tamanhoPoro = parseFloat(campos.tamanhoPoro.value);
+          var massa = parseFloat(campos.massa.value);
+          var dureza = parseFloat(campos.dureza.value);
+          var condutividade = parseFloat(campos.condutividade.value);
+
+          var area = calcularArea(porosidade, tamanhoPoro);
+          var capacidade = area * 0.5;
+
+          return { porosidade: porosidade, tamanhoPoro: tamanhoPoro, massa: massa, dureza: dureza, condutividade: condutividade, area: area, capacidade: capacidade };
+        }
+
+        function atualizar() {
+          var d = calcular();
+          var escalaArea = 1500;
+          var escalaCap = 750;
+
+          saida('porosidade').textContent = d.porosidade + '%';
+          saida('tamanhoPoro').textContent = d.tamanhoPoro + ' nm';
+          saida('massa').textContent = d.massa.toFixed(1).replace('.', ',') + ' g';
+          saida('dureza').textContent = d.dureza;
+          saida('condutividade').textContent = d.condutividade + ' S/m';
+          saida('area').textContent = d.area.toFixed(0);
+          saida('capacidade').textContent = d.capacidade.toFixed(0);
+
+          barra('area').style.width = Math.min(100, d.area / escalaArea * 100) + '%';
+          barra('capacidade').style.width = Math.min(100, d.capacidade / escalaCap * 100) + '%';
+          barra('distrator').style.width = '0%';
+
+          var v = saida('veredito');
+          if (d.area > 700) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Alta área superficial</strong> (' + d.area.toFixed(0) + ' m²/g). Mexa em massa, dureza ou condutividade: a área e a capacidade de adsorção não se movem — só porosidade e tamanho do poro importam.';
+          } else if (d.area > 200) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-700 bg-slate-950 text-slate-300';
+            v.innerHTML = '<strong>Área intermediária.</strong> Reduza o tamanho do poro ou aumente a porosidade para ver a capacidade de adsorção subir.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Área baixa, como no carvão comum</strong> (' + d.area.toFixed(0) + ' m²/g). Poucos poros e poros grandes deixam pouca parede interna exposta ao contaminante.';
+          }
+
+          if (grafico) {
+            var passos = grafico.data.labels.length;
+            var serieArea = [];
+            for (var i = 0; i < passos; i++) {
+              var t = 1 + i * (49 / (passos - 1));
+              serieArea.push(calcularArea(d.porosidade, t));
+            }
+            grafico.data.datasets[0].data = serieArea;
+            var idxAtual = Math.round((d.tamanhoPoro - 1) / (49 / (passos - 1)));
+            grafico.data.datasets[1].data = serieArea.map(function (v, i) { return i === idxAtual ? v : null; });
+            grafico.update('none');
+          }
+        }
+
+        var canvas = raiz.querySelector('[data-sim="grafico"]');
+        if (canvas && window.Chart) {
+          var rotulos = [];
+          for (var i = 0; i <= 20; i++) rotulos.push((1 + i * 2.45).toFixed(0));
+          grafico = new Chart(canvas.getContext('2d'), {
+            type: 'line',
+            data: {
+              labels: rotulos,
+              datasets: [
+                { label: 'Área superficial (m²/g)', data: [], borderColor: '#22d3ee', backgroundColor: 'transparent', borderWidth: 3, tension: 0.15, pointRadius: 0 },
+                { label: 'Ponto atual', data: [], borderColor: '#34d399', backgroundColor: '#34d399', borderWidth: 0, pointRadius: 5, showLine: false }
+              ]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              animation: false,
+              scales: {
+                y: { beginAtZero: true, grid: { color: '#1e293b' }, ticks: { color: '#94a3b8', font: { size: 10 } }, title: { display: true, text: 'Área (m²/g)', color: '#94a3b8', font: { size: 10 } } },
+                x: { grid: { color: '#1e293b' }, ticks: { color: '#94a3b8', font: { size: 10 } }, title: { display: true, text: 'tamanho do poro (nm)', color: '#94a3b8', font: { size: 10 } } }
+              },
+              plugins: { legend: { labels: { color: '#cbd5e1', font: { size: 11 }, boxWidth: 14 } } }
+            }
+          });
+        }
+
+        Object.keys(campos).forEach(function (k) {
+          campos[k].addEventListener('input', atualizar);
+        });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-draw-polygon"></i> Porosidade × Área Superficial × Capacidade de Adsorção</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <text x="80" y="18" fill="#94a3b8" font-size="9" text-anchor="middle">Carvão comum</text>
+          <rect x="40" y="80" width="80" height="10" rx="3" fill="#334155"/>
+          <text x="80" y="105" fill="#94a3b8" font-size="8" text-anchor="middle">~10 m²/g</text>
+          <line x1="150" y1="65" x2="180" y2="65" stroke="#475569" stroke-width="2" marker-end="url(#setaQ91)"/>
+          <text x="345" y="18" fill="#67e8f9" font-size="9" text-anchor="middle">Carvão ativado</text>
+          <rect x="200" y="55" width="220" height="35" rx="4" fill="#083344" stroke="#22d3ee" stroke-width="2"/>
+          <text x="310" y="77" fill="#a5f3fc" font-size="10" font-weight="bold" text-anchor="middle">até 1500 m²/g</text>
+          <text x="230" y="115" fill="#6ee7b7" font-size="9" text-anchor="middle">= mais superfície</text>
+          <text x="345" y="115" fill="#6ee7b7" font-size="9" text-anchor="middle">= mais adsorção</text>
+          <defs>
+            <marker id="setaQ91" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#475569"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
