@@ -9158,6 +9158,344 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q114",
+    numero: "Questão 114",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Ondulatória & Ressonância",
+    materiaCor: "purple",
+    materiaIcone: "fa-wave-square",
+    titulo: "Por que a Voz Quebra Taças de Cristal? Ressonância e Frequência, Não Intensidade",
+    tags: ["Física", "Ondulatória", "Ressonância", "Frequência", "Frequência Natural", "Ondas Sonoras", "Timbre"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A tirinha ilustra um processo físico em que uma onda sonora, produzida pela Mônica, causa a quebra das taças de cristal. O fenômeno ondulatório que provoca a quebra das taças só é possível em razão de uma característica da voz produzida pela Mônica naquele momento, que, diferentemente do que sugere a tirinha, <strong>não</strong> está relacionada à sua intensidade.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 460 130" class="w-full h-auto">
+        <rect x="10" y="10" width="440" height="110" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+        <text x="230" y="30" fill="#e2e8f0" font-size="10" text-anchor="middle" font-style="italic">"É QUEM ESTÁ GRITANDO MUITO?"</text>
+        <circle cx="90" cy="75" r="20" fill="#fbbf24"/>
+        <path d="M 78 82 Q 90 100 102 82" fill="none" stroke="#78350f" stroke-width="2.5"/>
+        <path d="M 115 60 Q 140 50 160 65" fill="none" stroke="#f87171" stroke-width="2"/>
+        <path d="M 115 75 Q 145 75 170 75" fill="none" stroke="#f87171" stroke-width="2"/>
+        <path d="M 115 90 Q 140 100 160 85" fill="none" stroke="#f87171" stroke-width="2"/>
+        <polygon points="320,55 335,105 305,105" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+        <line x1="308" y1="60" x2="332" y2="60" stroke="#f87171" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="320" y="118" fill="#94a3b8" font-size="7" text-anchor="middle">taça de cristal</text>
+        <path d="M 340 60 Q 355 70 340 80" fill="none" stroke="#fbbf24" stroke-width="2"/>
+        <text x="365" y="72" fill="#fde68a" font-size="7">vibra e</text>
+        <text x="365" y="82" fill="#fde68a" font-size="7">racha</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Disponível em: https://artedafisicapibid.blogspot.com. Acesso em: 23 nov. 2021 (adaptado).</p>
+    <br>
+    Esse fenômeno e a característica associada à voz da Mônica naquele momento são, respectivamente,`,
+
+    alternativas: [
+      { letra: "A", texto: "reflexão e comprimento de onda.", correta: false },
+      { letra: "B", texto: "ressonância e frequência.", correta: true },
+      { letra: "C", texto: "interferência e velocidade.", correta: false },
+      { letra: "D", texto: "ressonância e timbre.", correta: false },
+      { letra: "E", texto: "reflexão e amplitude.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a diferença entre <strong>frequência</strong>, <strong>amplitude/intensidade</strong> e <strong>timbre</strong> — as três grandezas que a questão usa para te confundir entre as alternativas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Frequência natural: todo objeto tem a sua</h4>
+          <p>
+            Qualquer objeto capaz de vibrar (uma corda, uma taça de cristal, uma ponte) tem uma ou mais <strong>frequências naturais de vibração</strong> — frequências nas quais ele "prefere" oscilar quando perturbado, determinadas por sua forma, material e rigidez. Bata de leve em uma taça de cristal e ela emite um som quase puro: essa é justamente sua frequência natural, a que você ouve como o "tim" característico do cristal.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> O que é ressonância</h4>
+          <p>
+            <strong>Ressonância</strong> ocorre quando um sistema é forçado a vibrar por uma fonte externa cuja frequência <strong>coincide</strong> com uma de suas frequências naturais. Nessa condição, cada novo ciclo da força externa entrega energia "no compasso certo" da vibração do objeto, fazendo a amplitude da vibração <strong>crescer progressivamente</strong> — às vezes até o ponto de ruptura, como no caso clássico da taça de cristal que racha com a voz de um cantor.
+          </p>
+          <p>
+            Se a frequência da fonte sonora <strong>não</strong> coincidir com a frequência natural da taça, a energia entregue em cada ciclo tende a se cancelar em parte com a vibração residual do ciclo anterior, e a amplitude não cresce de forma significativa — não importa o quão intenso (alto) seja o som.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Por que não é intensidade/amplitude</h4>
+          <p>
+            É senso comum (e é o que a tirinha sugere, de forma humorística) achar que basta "gritar muito alto" para quebrar um copo. Mas amplitude/intensidade sozinha não é suficiente: um som muito intenso, numa frequência qualquer, longe da frequência natural da taça, dissipa a maior parte de sua energia sem produzir vibração acumulada relevante. É a <strong>coincidência de frequências</strong> — não o volume — que faz a vibração crescer ciclo após ciclo até a ruptura.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Frequência x timbre: não confunda</h4>
+          <p>
+            <strong>Frequência</strong> é o número de oscilações por segundo (medida em Hz) — é ela que determina a "altura" percebida do som (grave ou agudo) e é ela que precisa coincidir com a frequência natural do objeto para haver ressonância.
+          </p>
+          <p>
+            <strong>Timbre</strong> é a qualidade que permite diferenciar duas fontes sonoras emitindo a <strong>mesma</strong> frequência fundamental (por exemplo, a mesma nota tocada num violino e num piano soa diferente) — resulta da mistura de harmônicos que acompanham a frequência fundamental. Timbre não é a grandeza que precisa "casar" com a frequência natural de um objeto para gerar ressonância; quem precisa coincidir é a frequência.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Por que não é reflexão nem interferência</h4>
+          <p>
+            <strong>Reflexão</strong> é o retorno de uma onda ao encontrar uma mudança de meio (como o eco de um som numa parede) — não é o mecanismo que causa vibração crescente e ruptura de um objeto. <strong>Interferência</strong> é a superposição de duas ou mais ondas, gerando reforço ou cancelamento — também não descreve o fenômeno de uma única fonte sonora fazendo um objeto vibrar até quebrar. O fenômeno correto, específico para esse cenário, é a <strong>ressonância</strong>.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-wave-square", titulo: "Frequência natural", text: "Frequência na qual um objeto (como uma taça de cristal) tende a vibrar quando perturbado — determinada por sua forma e material." },
+      { icone: "fa-circle-notch", titulo: "Ressonância", text: "Quando a frequência de uma força externa coincide com a frequência natural de um objeto, a amplitude da vibração cresce progressivamente." },
+      { icone: "fa-volume-high", titulo: "Amplitude/intensidade não é o fator-chave", text: "Um som muito alto, mas de frequência errada, não causa ressonância — o que importa é a frequência coincidir, não o volume." },
+      { icone: "fa-music", titulo: "Timbre ≠ frequência", text: "Timbre distingue fontes sonoras com a mesma frequência fundamental; não é a grandeza que precisa coincidir para haver ressonância." },
+      { icone: "fa-shapes", titulo: "Ressonância ≠ reflexão ≠ interferência", text: "Três fenômenos ondulatórios distintos: só a ressonância explica a vibração crescente até a ruptura de um objeto único." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>O fenômeno é a <strong>ressonância</strong>: a voz da Mônica atinge a <strong>frequência</strong> natural de vibração da taça, fazendo sua amplitude de vibração crescer até a ruptura — independente de quão intensa (alta) fosse a voz.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o fenômeno.</strong> Um objeto vibrando cada vez mais até se romper, por causa de uma onda sonora externa, é a assinatura clássica da <strong>ressonância</strong> — não de reflexão nem de interferência.</p>
+          <p><strong>Passo 2 — Elimine "intensidade/amplitude" como característica-chave.</strong> O próprio enunciado avisa: a quebra não está relacionada à intensidade da voz, ao contrário do que a tirinha sugere de forma cômica.</p>
+          <p><strong>Passo 3 — Identifique a característica correta da voz.</strong> Para haver ressonância, a <strong>frequência</strong> da voz precisa coincidir com a frequência natural de vibração da taça — não seu timbre, nem sua velocidade de propagação, nem seu comprimento de onda isoladamente.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Reflexão e comprimento de onda — ERRADA</p>
+            <p class="text-xs">Reflexão é o retorno de uma onda ao mudar de meio (eco) — não descreve uma taça vibrando cada vez mais até quebrar. E o comprimento de onda, embora relacionado à frequência, não é a grandeza citada nas explicações físicas do fenômeno de ressonância sonora.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Ressonância e frequência — CORRETA</p>
+            <p class="text-xs">A taça quebra porque a frequência da voz coincide com sua frequência natural de vibração, entrando em ressonância — a amplitude de vibração cresce ciclo após ciclo até a ruptura do material.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Interferência e velocidade — ERRADA</p>
+            <p class="text-xs">Interferência exige a superposição de duas ou mais ondas — não é o mecanismo de uma única fonte sonora causando vibração crescente em um objeto. Velocidade de propagação do som também não é a característica determinante aqui.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Ressonância e timbre — ERRADA (armadilha)</p>
+            <p class="text-xs">O fenômeno (ressonância) está certo, mas a característica está errada: timbre distingue fontes sonoras de mesma frequência fundamental — não é a grandeza que precisa coincidir com a frequência natural da taça. Quem precisa "casar" é a <strong>frequência</strong>, não o timbre.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Reflexão e amplitude — ERRADA</p>
+            <p class="text-xs">Reflexão não é o fenômeno correto (ver alternativa A). E o próprio enunciado já descarta explicitamente a amplitude/intensidade como a característica responsável pela quebra.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Ressonância: frequência da voz = frequência natural da taça",
+        legenda: "Quando as frequências coincidem, cada novo ciclo da onda sonora aumenta a amplitude de vibração da taça.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <path d="M 20 70 Q 45 40 70 70 T 120 70 T 170 70" fill="none" stroke="#a78bfa" stroke-width="2"/>
+            <text x="95" y="30" fill="#c4b5fd" font-size="9" font-weight="bold" text-anchor="middle">voz (frequência f)</text>
+            <text x="190" y="75" fill="#94a3b8" font-size="14" text-anchor="middle">=</text>
+            <polygon points="290,40 320,110 260,110" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="290" y="30" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">taça (freq. natural f₀)</text>
+            <text x="230" y="130" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">f = f₀ → ressonância → amplitude cresce → racha</text>
+          </svg>`
+      },
+      {
+        titulo: "Curva de resposta em ressonância",
+        legenda: "A amplitude de vibração é máxima quando a frequência aplicada coincide com a frequência natural — não quando o som é mais intenso.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="50" y1="140" x2="430" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="50" y1="20" x2="50" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="42" y="26" fill="#94a3b8" font-size="8" text-anchor="end">amplitude</text>
+            <text x="425" y="158" fill="#94a3b8" font-size="8" text-anchor="end">frequência aplicada</text>
+            <path d="M 60 135 Q 150 130 210 40 Q 240 20 270 40 Q 330 130 420 135" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+            <line x1="240" y1="20" x2="240" y2="140" stroke="#f87171" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="240" y="14" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">f₀ (frequência natural)</text>
+            <text x="240" y="155" fill="#fca5a5" font-size="7" text-anchor="middle">pico: racha aqui</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco fenômenos, uma resposta certa",
+        legenda: "Só a ressonância explica um único objeto vibrando cada vez mais até quebrar.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="120" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Fenômeno</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Explica a taça quebrando?</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">Reflexão</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">não — é o retorno de uma onda (eco)</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">Ressonância ✓</text>
+            <text x="230" y="77" fill="#a7f3d0" font-size="7" font-weight="bold">sim — frequência = frequência natural</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">Interferência</text>
+            <text x="230" y="102" fill="#94a3b8" font-size="7">não — exige duas ou mais ondas se somando</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">Difração</text>
+            <text x="230" y="126" fill="#94a3b8" font-size="7">não — é o contorno de obstáculos pela onda</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">Refração</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">não — é a mudança de direção ao trocar de meio</text>
+          </svg>`
+      },
+      {
+        titulo: "Frequência x timbre: grandezas diferentes",
+        legenda: "Duas vozes podem ter a mesma frequência com timbres diferentes — é a frequência que precisa coincidir com a da taça, não o timbre.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="100" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="120" y="38" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Mesma frequência</text>
+            <path d="M 35 65 Q 55 50 75 65 T 115 65 T 155 65 T 195 65" fill="none" stroke="#a78bfa" stroke-width="2"/>
+            <path d="M 35 95 Q 45 80 55 95 Q 65 110 75 95 T 115 95 T 155 95 T 195 95" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="120" y="112" fill="#94a3b8" font-size="7" text-anchor="middle">timbres diferentes, f igual</text>
+
+            <rect x="240" y="20" width="200" height="100" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="340" y="38" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">O que importa aqui</text>
+            <text x="340" y="65" fill="#a7f3d0" font-size="9" text-anchor="middle">Frequência da voz</text>
+            <text x="340" y="82" fill="#a7f3d0" font-size="9" text-anchor="middle">=</text>
+            <text x="340" y="99" fill="#a7f3d0" font-size="9" text-anchor="middle">Frequência natural da taça</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: encontre a frequência de ressonância da taça",
+      descricao: "Ajuste a frequência da voz e veja a amplitude de vibração da taça responder — repare que o volume (intensidade) sozinho não é o que importa.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Frequência da voz</span><span class="text-purple-300 font-bold" data-out="freq">300 Hz</span>
+              </label>
+              <input type="range" data-sim="freq" min="100" max="500" value="300" step="5" class="w-full accent-purple-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-wave-square"></i> A taça deste laboratório tem frequência natural de 300 Hz.</p>
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Intensidade (volume) da voz</span><span class="text-purple-300 font-bold" data-out="intensidade">60%</span>
+              </label>
+              <input type="range" data-sim="intensidade" min="10" max="100" value="60" step="5" class="w-full accent-purple-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-volume-high"></i> Aumentar o volume sozinho não garante a quebra.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-purple-300 font-bold">Amplitude de vibração da taça</span>
+                  <span class="text-purple-300 font-mono" data-out="amplitude">—</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="amplitude" class="h-full bg-purple-500 transition-all" style="width:10%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campoFreq = raiz.querySelector('[data-sim="freq"]');
+        var campoInt = raiz.querySelector('[data-sim="intensidade"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+        var f0 = 300;
+
+        function atualizar() {
+          var f = parseFloat(campoFreq.value);
+          var intensidade = parseFloat(campoInt.value);
+          var distancia = Math.abs(f - f0);
+          var fatorRessonancia = Math.max(0, 1 - distancia / 60);
+          var amplitude = fatorRessonancia * fatorRessonancia * (0.3 + 0.7 * (intensidade / 100)) * 100;
+
+          saida('freq').textContent = f.toFixed(0) + ' Hz';
+          saida('intensidade').textContent = intensidade.toFixed(0) + '%';
+          saida('amplitude').textContent = amplitude.toFixed(0) + '%';
+          barra('amplitude').style.width = Math.max(amplitude, 3) + '%';
+
+          var v = saida('veredito');
+          if (distancia <= 10 && amplitude > 55) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Ressonância! A taça racha.</strong> A frequência da voz (' + f.toFixed(0) + ' Hz) está muito próxima da frequência natural (300 Hz) — a amplitude de vibração dispara.';
+          } else if (distancia <= 25) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Quase lá.</strong> Chegue mais perto de 300 Hz para maximizar a amplitude de vibração — intensidade sozinha não resolve.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Mesmo com volume alto, longe da frequência natural (300 Hz) a taça vibra pouco. Ajuste a <strong>frequência</strong>, não o volume.';
+          }
+        }
+
+        campoFreq.addEventListener('input', atualizar);
+        campoInt.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-wave-square"></i> Frequência da voz = frequência natural da taça → ressonância → amplitude cresce → racha</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <path d="M 20 45 Q 45 20 70 45 T 120 45 T 170 45" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+          <text x="95" y="70" fill="#c4b5fd" font-size="8" text-anchor="middle">voz (f)</text>
+          <text x="220" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">=</text>
+          <polygon points="320,15 350,80 290,80" fill="none" stroke="#f87171" stroke-width="2"/>
+          <text x="320" y="8" fill="#fca5a5" font-size="8" text-anchor="middle">taça (f₀)</text>
+          <text x="400" y="50" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">racha!</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
