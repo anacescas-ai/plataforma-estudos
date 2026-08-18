@@ -5771,6 +5771,386 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q104",
+    numero: "Questão 104",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Ciclo do Carbono",
+    materiaCor: "emerald",
+    materiaIcone: "fa-tree",
+    titulo: "Remoção x Redução de Emissões: Por que Plantar Árvores é a Única Ação que Tira CO2 do Ar",
+    tags: ["Biologia", "Ecologia", "Ciclo do Carbono", "Mudanças Climáticas", "Fotossíntese", "Sequestro de Carbono"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A quantidade de CO2 na atmosfera da Terra aumentou 50%, e a temperatura está agora cerca de 1,2 °C mais quente em comparação ao século XIX. O ritmo de aumento da temperatura precisa diminuir se quisermos evitar as piores consequências das mudanças climáticas. Cientistas afirmam que o aquecimento global precisa ser mantido em 1,5°C até o ano 2100. No entanto, a menos que outras ações sejam tomadas, o planeta ainda pode aquecer mais de 2 °C até final deste século. Na prática, os países precisam enfrentar as mudanças climáticas com ações mitigadoras, que reduzam tanto as emissões quanto os níveis de CO2 na atmosfera.
+    <br><br>
+    Um guia rápido para entender as mudanças climáticas. Disponível em: www.bbc.com. Acesso em: 6 dez. 2021 (adaptado).
+    <br><br>
+    Qual ação mitigadora auxilia na remoção desse gás presente na atmosfera, reduzindo seus níveis?`,
+
+    alternativas: [
+      { letra: "A", texto: "Plantar mais árvores.", correta: true },
+      { letra: "B", texto: "Instalar mais usinas eólicas.", correta: false },
+      { letra: "C", texto: "Ampliar o uso de energia solar.", correta: false },
+      { letra: "D", texto: "Manter os combustíveis fósseis no solo.", correta: false },
+      { letra: "E", texto: "Produzir menos resíduos sólidos urbanos.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a diferença entre reduzir emissões e remover CO2 já presente na atmosfera — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Duas famílias de ação climática, o enunciado já as separa</h4>
+          <p>
+            O próprio texto do enunciado usa duas palavras diferentes de propósito: ações que <strong>"reduzam as emissões"</strong> e ações que reduzam <strong>"os níveis de CO2 na atmosfera"</strong>. São coisas distintas:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Reduzir emissões (evitar que entre)</strong>
+              Impede que <strong>novo</strong> CO2 seja lançado na atmosfera — por exemplo, trocando uma usina termelétrica a carvão por uma fonte que não queima combustível fóssil.
+            </div>
+            <div class="p-3 bg-emerald-950/30 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Remover CO2 (tirar o que já está lá)</strong>
+              Retira CO2 que <strong>já está</strong> na atmosfera, diminuindo o estoque acumulado — é isso que a pergunta pede especificamente.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A fotossíntese como mecanismo biológico de remoção</h4>
+          <p>
+            Plantas realizam fotossíntese, capturando CO2 atmosférico e convertendo-o em glicose e outras moléculas orgânicas que formam sua própria biomassa (tronco, raízes, folhas):
+          </p>
+          $$6\\,CO_2 + 6\\,H_2O + \\text{luz} \\rightarrow C_6H_{12}O_6 + 6\\,O_2$$
+          <p>
+            Cada árvore, ao crescer, fixa fisicamente carbono atmosférico em seu próprio corpo. Florestas funcionam, portanto, como <strong>sumidouros de carbono</strong> (carbon sinks): retiram CO2 do ar de forma ativa e contínua, e não apenas evitam que novo CO2 seja emitido.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">É por isso que plantar mais árvores responde exatamente à pergunta:</strong> é uma ação que remove CO2 já presente na atmosfera, reduzindo seus níveis — não apenas uma ação que evita emissões futuras.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que energia eólica e solar não removem CO2 do ar</h4>
+          <p>
+            Usinas eólicas e solares geram eletricidade sem queimar combustíveis fósseis. Isso é extremamente importante para o clima — mas o efeito é <strong>evitar que emissões futuras aconteçam</strong>, substituindo uma fonte poluente por uma limpa. Nenhuma delas retira uma molécula sequer de CO2 que já esteja na atmosfera.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que manter combustíveis fósseis no solo também é prevenção, não remoção</h4>
+          <p>
+            Se o petróleo, carvão ou gás natural permanecem no subsolo, o carbono neles armazenado nunca chega a ser queimado e liberado como CO2. É uma estratégia de <strong>evitar emissão futura</strong> — trata do carbono que ainda não está no ar, não do que já está.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Por que reduzir resíduos sólidos também é prevenção</h4>
+          <p>
+            Menos lixo em aterros significa menos decomposição orgânica gerando gases de efeito estufa (metano e CO2) no futuro. De novo, isso <strong>evita nova emissão</strong> — não retira o CO2 que já está acumulado na atmosfera desde o século XIX.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> A distinção que resolve a questão</h4>
+          <p>
+            Das cinco ações, quatro atuam na <strong>torneira</strong> (evitando que mais CO2 entre no sistema); apenas uma atua no <strong>ralo</strong> (retirando CO2 que já está no sistema). Fotossíntese em larga escala, via reflorestamento, é o mecanismo biológico responsável por essa remoção.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Grife a palavra "remoção" no enunciado.</strong> A pergunta não pede qualquer ação mitigadora — pede especificamente uma que retire CO2 já presente no ar.
+            <br><br>
+            <strong>Passo 2 — Para cada alternativa, pergunte: isso evita emissão futura, ou tira CO2 que já está lá?</strong> Só uma resposta realmente remove.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Plantar mais árvores." Por meio da fotossíntese, árvores capturam CO2 já presente na atmosfera e o fixam como biomassa. É a única alternativa que age diretamente sobre o estoque de CO2 já acumulado, reduzindo seus níveis — exatamente o que a pergunta pede.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — instalar mais usinas eólicas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> energia eólica é "verde" e ajuda o clima, então parece uma resposta óbvia.
+              <br>
+              <strong>Onde quebra:</strong> gera eletricidade sem emitir CO2 novo, mas não retira nada do CO2 já existente na atmosfera. É prevenção de emissão futura, não remoção.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — ampliar o uso de energia solar</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> mesma lógica da eólica — soa como uma solução climática direta.
+              <br>
+              <strong>Onde quebra:</strong> mesmo mecanismo da alternativa B: substitui uma fonte emissora, evitando emissões futuras, sem remover CO2 do estoque atmosférico atual.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — manter os combustíveis fósseis no solo</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> parece uma ação sobre "o carbono", então pode confundir com remoção.
+              <br>
+              <strong>Onde quebra:</strong> trata do carbono que ainda não foi liberado — impede uma emissão futura, mas não afeta o CO2 que já está na atmosfera desde o século XIX.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — produzir menos resíduos sólidos urbanos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lixo em decomposição libera gases de efeito estufa, então parece ligado ao CO2 atmosférico.
+              <br>
+              <strong>Onde quebra:</strong> reduz a geração futura de metano e CO2 pela decomposição — de novo, prevenção de emissão, não remoção do que já está no ar.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As quatro alternativas erradas são, todas, boas políticas climáticas reais — mas todas atuam evitando <strong>emissões futuras</strong>, não removendo o CO2 que já está na atmosfera. Só o reflorestamento, via fotossíntese, faz o caminho inverso: retira o gás do ar.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-tree", titulo: "Sumidouro de Carbono", text: "Floresta que captura e armazena CO2 atmosférico como biomassa, via fotossíntese." },
+      { icone: "fa-leaf", titulo: "Fotossíntese", text: "6CO2 + 6H2O + luz → C6H12O6 + 6O2 — o mecanismo biológico de fixação do carbono." },
+      { icone: "fa-faucet", titulo: "Redução de Emissão", text: "Evitar que novo CO2 entre na atmosfera (energias limpas, manter combustíveis no solo)." },
+      { icone: "fa-arrow-down", titulo: "Remoção de CO2", text: "Retirar CO2 já presente na atmosfera, reduzindo o estoque acumulado — só a reflorestação faz isso entre as opções." },
+      { icone: "fa-scale-balanced", titulo: "Torneira x Ralo", text: "Prevenção fecha a torneira de novas emissões; remoção abre o ralo do estoque já existente." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Torneira x ralo do CO2 atmosférico",
+        legenda: "Emissões enchem o estoque de CO2 (torneira); remoção biológica o esvazia (ralo). A maioria das ações climáticas fecha a torneira — só a reflorestação abre o ralo.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <rect x="150" y="30" width="160" height="90" fill="#0c4a6e" opacity="0.4" stroke="#38bdf8" stroke-width="2"/>
+            <text x="230" y="20" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Estoque de CO2 atmosférico</text>
+            <line x1="180" y1="10" x2="180" y2="30" stroke="#f87171" stroke-width="3" marker-end="url(#pq104)"/>
+            <text x="150" y="8" fill="#fca5a5" font-size="8" font-weight="bold">torneira: emissões</text>
+            <line x1="280" y1="120" x2="280" y2="150" stroke="#34d399" stroke-width="3" marker-end="url(#pq104)"/>
+            <text x="235" y="165" fill="#6ee7b7" font-size="8" font-weight="bold">ralo: remoção (árvores)</text>
+            <defs>
+              <marker id="pq104" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Fotossíntese fixando carbono na árvore",
+        legenda: "O CO2 atmosférico entra pelas folhas e é convertido em biomassa — tronco, raízes, galhos — retirando ativamente o gás do ar.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <circle cx="230" cy="60" r="45" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <rect x="220" y="95" width="20" height="55" fill="#78350f" stroke="#92400e" stroke-width="1.5"/>
+            <text x="90" y="45" fill="#fca5a5" font-size="9" font-weight="bold">CO2</text>
+            <line x1="110" y1="48" x2="185" y2="55" stroke="#f87171" stroke-width="2" marker-end="url(#pq104b)"/>
+            <text x="370" y="45" fill="#fde68a" font-size="9" font-weight="bold">O2</text>
+            <line x1="275" y1="55" x2="355" y2="48" stroke="#fbbf24" stroke-width="2" marker-end="url(#pq104b)"/>
+            <text x="230" y="150" fill="#6ee7b7" font-size="8" text-anchor="middle">carbono fixado como biomassa</text>
+            <defs>
+              <marker id="pq104b" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="currentColor"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Quatro ações de prevenção, uma de remoção",
+        legenda: "Eólica, solar, combustível no solo e menos resíduos evitam emissão futura. Só plantar árvores retira o CO2 que já está no ar.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="110" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="120" y="40" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Prevenção (evitam emissão)</text>
+            <text x="35" y="60" fill="#cbd5e1" font-size="8">• Usinas eólicas</text>
+            <text x="35" y="78" fill="#cbd5e1" font-size="8">• Energia solar</text>
+            <text x="35" y="96" fill="#cbd5e1" font-size="8">• Combustível fóssil no solo</text>
+            <text x="35" y="114" fill="#cbd5e1" font-size="8">• Menos resíduos sólidos</text>
+
+            <rect x="255" y="45" width="185" height="60" rx="8" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="347" y="65" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Remoção (tira o CO2 do ar)</text>
+            <text x="347" y="85" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Plantar mais árvores</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a alternativa A responde à pergunta específica sobre remoção de CO2 já presente na atmosfera.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <rect x="15" y="30" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="48" fill="#6ee7b7" font-size="10" font-weight="bold">A — Plantar mais árvores</text>
+            <text x="400" y="48" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="75" fill="#e2e8f0" font-size="10">B — Usinas eólicas</text>
+            <text x="400" y="75" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="101" fill="#e2e8f0" font-size="10">C — Energia solar</text>
+            <text x="400" y="101" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="127" fill="#e2e8f0" font-size="10">D — Combustível fóssil no solo</text>
+            <text x="400" y="127" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="153" fill="#e2e8f0" font-size="10">E — Menos resíduos sólidos</text>
+            <text x="400" y="153" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: prevenção x remoção de CO2",
+      descricao: "Escolha uma ação climática e veja se ela evita emissão futura ou remove CO2 já presente na atmosfera.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha a ação:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q104acao" data-sim="acao" value="arvores" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Plantar mais árvores</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q104acao" data-sim="acao" value="eolica" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Usinas eólicas</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q104acao" data-sim="acao" value="solar" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Energia solar</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q104acao" data-sim="acao" value="fossil" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Combustível fóssil no solo</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q104acao" data-sim="acao" value="residuos" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Menos resíduos sólidos</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">Evita emissão futura</span>
+                  <span class="text-sky-300 font-mono" data-out="prevencao">0%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="prevencao" class="h-full bg-sky-500 transition-all" style="width:0%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Remove CO2 já presente</span>
+                  <span class="text-emerald-300 font-mono" data-out="remocao">100%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="remocao" class="h-full bg-emerald-500 transition-all" style="width:100%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="acao"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        var dados = {
+          arvores: { prevencao: 0, remocao: 100, texto: 'Fotossíntese captura CO2 já presente no ar e o fixa como biomassa — remoção pura.' },
+          eolica: { prevencao: 100, remocao: 0, texto: 'Gera energia sem queimar combustível fóssil — evita emissão futura, não remove o que já está no ar.' },
+          solar: { prevencao: 100, remocao: 0, texto: 'Mesmo mecanismo da eólica: previne emissões futuras, não retira CO2 do estoque atual.' },
+          fossil: { prevencao: 100, remocao: 0, texto: 'O carbono nunca sai do solo, então nunca chega a ser emitido — prevenção, não remoção.' },
+          residuos: { prevencao: 100, remocao: 0, texto: 'Menos decomposição em aterros significa menos gases futuros — de novo, prevenção.' }
+        };
+
+        function atualizar() {
+          var acao = 'arvores';
+          radios.forEach(function (r) { if (r.checked) acao = r.value; });
+          var d = dados[acao];
+
+          saida('prevencao').textContent = d.prevencao + '%';
+          saida('remocao').textContent = d.remocao + '%';
+          barra('prevencao').style.width = d.prevencao + '%';
+          barra('remocao').style.width = d.remocao + '%';
+
+          var v = saida('veredito');
+          if (d.remocao > 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-sky-500/40 bg-sky-950/30 text-sky-200';
+          }
+          v.innerHTML = '<strong>' + (d.remocao > 0 ? 'Remoção: ' : 'Prevenção: ') + '</strong>' + d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-tree"></i> Fotossíntese: CO2 Atmosférico → Biomassa (Remoção Real)</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="140" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="90" y="54" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">CO2 na atmosfera</text>
+          <text x="220" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <rect x="245" y="30" width="90" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+          <text x="290" y="54" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">Fotossíntese</text>
+          <text x="395" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <text x="425" y="54" fill="#a3e635" font-size="9" font-weight="bold" text-anchor="middle">Biomassa</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
