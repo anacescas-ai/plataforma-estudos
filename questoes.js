@@ -8066,6 +8066,383 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q111",
+    numero: "Questão 111",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Sustentabilidade",
+    materiaCor: "emerald",
+    materiaIcone: "fa-recycle",
+    titulo: "Biodigestão de Resíduos Animais: Por Que o Destino do Adubo Evita a Eutrofização",
+    tags: ["Biologia", "Ecologia", "Biodigestão", "Eutrofização", "Sustentabilidade", "Ciclo de Nutrientes", "Fertilizante Orgânico"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O esquema apresenta as etapas do processo de biodigestão, uma forma de dar um destino sustentável a excrementos animais e restos de comida produzidos em áreas de criação de gado e porcos confinados.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-3 text-[11px]">
+        <div class="bg-slate-900 border border-slate-700 rounded-lg p-3">
+          <span class="text-emerald-400 font-bold">1</span>
+          <p class="text-slate-300 mt-1">Excrementos animais e restos de alimentos são misturados com água no alimentador do biodigestor.</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-700 rounded-lg p-3">
+          <span class="text-emerald-400 font-bold">2</span>
+          <p class="text-slate-300 mt-1">Dentro do biodigestor, a ação das bactérias decompõe os resíduos, transformando-os em gás metano e adubo.</p>
+        </div>
+        <div class="bg-slate-900 border border-slate-700 rounded-lg p-3">
+          <span class="text-emerald-400 font-bold">3</span>
+          <p class="text-slate-300 mt-1">O gás metano pode ser encanado para alimentar um gerador ou aquecedor.</p>
+        </div>
+        <div class="bg-slate-900 border border-emerald-500/40 rounded-lg p-3">
+          <span class="text-emerald-400 font-bold">4</span>
+          <p class="text-slate-300 mt-1"><strong>As sobras servem como fertilizante.</strong></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Disponível em: www.engquimicasantossp.com.br. Acesso em: 11 fev. 2015 (adaptado).</p>
+    <br>
+    Dar destino sustentável às sobras, conforme apresentado na etapa 4, ajuda a evitar a`,
+
+    alternativas: [
+      { letra: "A", texto: "bioacumulação de toxinas em plantas.", correta: false },
+      { letra: "B", texto: "eutrofização dos corpos de água.", correta: true },
+      { letra: "C", texto: "destruição da camada de ozônio.", correta: false },
+      { letra: "D", texto: "ocorrência de inversão térmica.", correta: false },
+      { letra: "E", texto: "produção de chuva ácida.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre para onde vão os nutrientes de dejetos animais quando não há um destino adequado — e por que isso, especificamente, causa eutrofização, e não os outros problemas ambientais listados nas alternativas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é biodigestão</h4>
+          <p>
+            A <strong>biodigestão anaeróbica</strong> é a decomposição de matéria orgânica (excrementos, restos de alimento) por bactérias, na ausência de oxigênio, dentro de um tanque fechado (o biodigestor). Esse processo gera dois produtos principais: <strong>biogás</strong> (rico em metano, CH₄, que pode ser queimado como combustível) e <strong>digestato</strong> (também chamado de biofertilizante ou "sobras" no esquema) — um lodo rico em nitrogênio, fósforo e outros nutrientes que sobra depois da decomposição.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Por que os dejetos animais, sem tratamento, são um problema</h4>
+          <p>
+            Grandes propriedades de criação confinada de gado e porcos produzem um volume enorme de excrementos, ricos em <strong>nitrogênio e fósforo</strong>. Se esses dejetos não recebem destino adequado — por exemplo, se escoam diretamente para rios, lagos ou lençóis freáticos — eles funcionam como um <strong>fertilizante descontrolado</strong> despejado na água.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Eutrofização: o que é e como começa</h4>
+          <p>
+            <strong>Eutrofização</strong> é o enriquecimento excessivo de um corpo d'água com nutrientes (principalmente nitrogênio e fósforo), causando uma explosão populacional de algas e cianobactérias (a chamada "floração"). Essa camada de algas bloqueia a luz solar, e quando morre, é decomposta por bactérias aeróbias que consomem grandes quantidades de oxigênio dissolvido — levando à <strong>morte de peixes por asfixia</strong> e ao colapso do ecossistema aquático.
+          </p>
+          <p>
+            O ponto-chave: eutrofização é causada por <strong>excesso de nutrientes</strong> chegando à água — exatamente o tipo de poluição que dejetos animais não tratados provocam quando escoam para rios e lagos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Como a etapa 4 (usar as sobras como fertilizante) resolve isso</h4>
+          <p>
+            Ao transformar o digestato em <strong>fertilizante aplicado de forma controlada no solo de plantações</strong>, o nitrogênio e o fósforo que antes escoariam sem controle para os corpos d'água passam a ser <strong>absorvidos pelas plantas</strong> como nutrientes — fechando o ciclo de forma sustentável, em vez de acumular na água. É esse manejo controlado, e não um descarte aleatório, que evita a eutrofização dos rios e lagos próximos à propriedade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Por que os outros problemas ambientais NÃO se aplicam aqui</h4>
+          <p>
+            <strong>Bioacumulação de toxinas:</strong> ocorre com substâncias persistentes (metais pesados, certos pesticidas sintéticos) que se acumulam ao longo da cadeia alimentar — não é o mecanismo associado a nutrientes orgânicos como N e P do digestato.
+          </p>
+          <p>
+            <strong>Destruição da camada de ozônio:</strong> causada por gases como CFCs (clorofluorcarbonos) reagindo com o ozônio estratosférico — sem relação com dejetos animais ou fertilizantes orgânicos.
+          </p>
+          <p>
+            <strong>Inversão térmica:</strong> é um fenômeno meteorológico (uma camada de ar quente sobre uma camada de ar frio perto do solo) que impede a dispersão de poluentes atmosféricos — não tem relação com resíduos sólidos ou líquidos aplicados ao solo.
+          </p>
+          <p>
+            <strong>Chuva ácida:</strong> resulta da emissão de óxidos de enxofre (SOₓ) e nitrogênio (NOₓ) principalmente pela queima de combustíveis fósseis, que reagem com a água da atmosfera formando ácidos — não é o destino de biofertilizante sólido/líquido aplicado ao solo que causa esse fenômeno atmosférico.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-recycle", titulo: "Biodigestão anaeróbica", text: "Decomposição de matéria orgânica por bactérias sem oxigênio, gerando biogás (metano) e digestato (adubo)." },
+      { icone: "fa-water", titulo: "Eutrofização", text: "Excesso de nutrientes (N e P) num corpo d'água causa floração de algas, que ao morrer consome o oxigênio dissolvido." },
+      { icone: "fa-seedling", titulo: "Digestato como fertilizante", text: "As 'sobras' do biodigestor, aplicadas de forma controlada no solo, devolvem nutrientes às plantas em vez de escoarem para a água." },
+      { icone: "fa-arrows-rotate", titulo: "Ciclo de nutrientes controlado", text: "Fechar o ciclo N/P entre dejeto → adubo → solo → planta evita que esses nutrientes se acumulem descontroladamente na água." },
+      { icone: "fa-triangle-exclamation", titulo: "Não confundir os problemas ambientais", text: "Bioacumulação, ozônio, inversão térmica e chuva ácida têm causas químicas/atmosféricas distintas — nenhuma é causada por excesso de N/P na água." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Usar as sobras do biodigestor (digestato) como fertilizante controlado impede que o nitrogênio e o fósforo dos dejetos animais escoem sem controle para rios e lagos, evitando a <strong>eutrofização dos corpos de água</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o que são as "sobras" da etapa 4.</strong> É o digestato: um lodo rico em nitrogênio e fósforo, subproduto da decomposição dos dejetos animais dentro do biodigestor.</p>
+          <p><strong>Passo 2 — Pergunte: o que aconteceria se essas sobras NÃO tivessem destino sustentável?</strong> Sem controle, esses nutrientes tenderiam a escoar para corpos d'água próximos (rios, lagos, córregos que recebem a drenagem da propriedade).</p>
+          <p><strong>Passo 3 — Associe excesso de N e P na água ao processo que ele desencadeia.</strong> Excesso de nutrientes na água é a causa direta de eutrofização — floração de algas seguida de consumo excessivo de oxigênio dissolvido. Usar as sobras como fertilizante no solo evita justamente esse escoamento descontrolado.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Bioacumulação de toxinas em plantas — ERRADA</p>
+            <p class="text-xs">Bioacumulação está associada a substâncias tóxicas persistentes (metais pesados, certos pesticidas), que se concentram progressivamente na cadeia alimentar. O digestato usado como adubo é rico em nutrientes orgânicos (N, P), não em toxinas persistentes — o mecanismo não se aplica.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Eutrofização dos corpos de água — CORRETA</p>
+            <p class="text-xs">É exatamente o problema evitado: nitrogênio e fósforo dos dejetos, quando escoam sem controle para a água, provocam eutrofização. Usar as sobras como fertilizante controlado no solo mantém esses nutrientes fora dos corpos d'água.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Destruição da camada de ozônio — ERRADA</p>
+            <p class="text-xs">É causada por gases halogenados (como CFCs) que reagem com o ozônio estratosférico. Nenhum composto emitido no manejo de dejetos animais ou biofertilizantes está associado a esse fenômeno.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Ocorrência de inversão térmica — ERRADA</p>
+            <p class="text-xs">Inversão térmica é um fenômeno atmosférico relacionado à estratificação de temperatura do ar, que aprisiona poluentes gasosos perto do solo — não tem relação com o destino de resíduos sólidos/líquidos como o digestato.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Produção de chuva ácida — ERRADA</p>
+            <p class="text-xs">Chuva ácida decorre da emissão atmosférica de óxidos de enxofre e nitrogênio, tipicamente da queima de combustíveis fósseis — um processo distinto do manejo de fertilizante orgânico no solo.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "As 4 etapas da biodigestão",
+        legenda: "Dejetos + água entram no biodigestor; bactérias anaeróbias geram biogás (etapa 3) e adubo/digestato (etapa 4).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="10" y="55" width="80" height="50" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="50" y="75" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">1. Dejetos</text>
+            <text x="50" y="90" fill="#94a3b8" font-size="7" text-anchor="middle">+ água</text>
+
+            <text x="100" y="85" fill="#64748b" font-size="14" text-anchor="middle">→</text>
+
+            <rect x="115" y="40" width="90" height="80" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="160" y="65" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">2. Biodigestor</text>
+            <text x="160" y="82" fill="#a7f3d0" font-size="7" text-anchor="middle">bactérias</text>
+            <text x="160" y="94" fill="#a7f3d0" font-size="7" text-anchor="middle">anaeróbias</text>
+
+            <text x="220" y="60" fill="#64748b" font-size="12" text-anchor="middle">↗</text>
+            <text x="220" y="105" fill="#64748b" font-size="12" text-anchor="middle">↘</text>
+
+            <rect x="235" y="15" width="100" height="45" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="285" y="35" fill="#bae6fd" font-size="8" font-weight="bold" text-anchor="middle">3. Biogás (CH₄)</text>
+            <text x="285" y="50" fill="#bae6fd" font-size="7" text-anchor="middle">gerador / aquecedor</text>
+
+            <rect x="235" y="95" width="100" height="45" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="285" y="115" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">4. Digestato</text>
+            <text x="285" y="130" fill="#fde68a" font-size="7" text-anchor="middle">fertilizante no solo</text>
+
+            <text x="360" y="122" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="375" y="95" width="75" height="45" rx="6" fill="#166534" stroke="#4ade80" stroke-width="1.5"/>
+            <text x="412" y="115" fill="#bbf7d0" font-size="8" font-weight="bold" text-anchor="middle">Plantação</text>
+            <text x="412" y="130" fill="#bbf7d0" font-size="7" text-anchor="middle">absorve N e P</text>
+          </svg>`
+      },
+      {
+        titulo: "Com destino sustentável x sem destino sustentável",
+        legenda: "A diferença entre aplicar o digestato como adubo controlado e deixá-lo escoar sem controle para a água.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="16" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">COM destino sustentável (etapa 4)</text>
+            <rect x="30" y="30" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.2" rx="4"/>
+            <text x="70" y="53" fill="#fde68a" font-size="7" text-anchor="middle">digestato</text>
+            <text x="115" y="60" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="70" height="40" fill="#166534" stroke="#4ade80" stroke-width="1.2" rx="4"/>
+            <text x="165" y="53" fill="#bbf7d0" font-size="7" text-anchor="middle">solo/planta</text>
+            <text x="115" y="90" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">✓ nutrientes ficam no ciclo terrestre</text>
+
+            <text x="345" y="16" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">SEM destino sustentável</text>
+            <rect x="260" y="105" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.2" rx="4"/>
+            <text x="300" y="128" fill="#fde68a" font-size="7" text-anchor="middle">dejeto</text>
+            <text x="345" y="135" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="360" y="105" width="80" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2" rx="4"/>
+            <text x="400" y="128" fill="#bae6fd" font-size="7" text-anchor="middle">rio / lago</text>
+            <text x="345" y="165" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">✗ excesso de N/P → eutrofização</text>
+          </svg>`
+      },
+      {
+        titulo: "A cascata da eutrofização evitada",
+        legenda: "Excesso de N/P → floração de algas → morte das algas → decomposição consome O₂ → mortandade de peixes.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="40" width="90" height="50" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+            <text x="55" y="60" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Excesso</text>
+            <text x="55" y="72" fill="#e2e8f0" font-size="7" text-anchor="middle">de N e P</text>
+            <text x="108" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="120" y="40" width="90" height="50" rx="5" fill="#166534" stroke="#4ade80" stroke-width="1.2"/>
+            <text x="165" y="60" fill="#bbf7d0" font-size="7" font-weight="bold" text-anchor="middle">Floração</text>
+            <text x="165" y="72" fill="#bbf7d0" font-size="7" text-anchor="middle">de algas</text>
+            <text x="218" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="230" y="40" width="90" height="50" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="1.2"/>
+            <text x="275" y="60" fill="#fde68a" font-size="7" font-weight="bold" text-anchor="middle">Decompositores</text>
+            <text x="275" y="72" fill="#fde68a" font-size="7" text-anchor="middle">consomem O₂</text>
+            <text x="328" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="340" y="40" width="110" height="50" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.2"/>
+            <text x="395" y="60" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">Mortandade</text>
+            <text x="395" y="72" fill="#fca5a5" font-size="7" text-anchor="middle">de peixes</text>
+            <text x="230" y="115" fill="#94a3b8" font-size="8" text-anchor="middle">Essa cascata é interrompida quando o N/P vira adubo no solo, não poluição na água</text>
+          </svg>`
+      },
+      {
+        titulo: "Um problema ambiental, cinco causas diferentes",
+        legenda: "As alternativas testam se você sabe distinguir causas de poluentes na água, no ar e na cadeia alimentar.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="130" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Problema ambiental</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Causa real</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) Bioacumulação</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">toxinas persistentes na cadeia alimentar</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">B) Eutrofização ✓</text>
+            <text x="230" y="77" fill="#a7f3d0" font-size="7" font-weight="bold">excesso de N/P escoando para a água</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">C) Destruição do ozônio</text>
+            <text x="230" y="102" fill="#94a3b8" font-size="7">gases halogenados (CFCs) na estratosfera</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">D) Inversão térmica</text>
+            <text x="230" y="126" fill="#94a3b8" font-size="7">estratificação de temperatura do ar</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) Chuva ácida</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">SOₓ/NOₓ da queima de combustíveis fósseis</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: destino das sobras do biodigestor",
+      descricao: "Escolha o destino do digestato (adubo) produzido na etapa 4 e veja o efeito sobre o nível de nutrientes e o oxigênio dissolvido no rio próximo à propriedade.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Destino das sobras (digestato):</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q111destino" data-sim="destino" value="adubo" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Aplicado como fertilizante controlado no solo (etapa 4)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q111destino" data-sim="destino" value="rio" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Descartado sem controle, escoando para o rio</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-amber-300 font-bold">N e P no rio</span>
+                  <span class="text-amber-300 font-mono" data-out="nutrientes">15%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="nutrientes" class="h-full bg-amber-500 transition-all" style="width:15%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">O₂ dissolvido no rio</span>
+                  <span class="text-sky-300 font-mono" data-out="o2">90%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="o2" class="h-full bg-sky-500 transition-all" style="width:90%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="destino"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var destino = raiz.querySelector('[data-sim="destino"]:checked').value;
+          var nutrientes = destino === 'adubo' ? 15 : 85;
+          var o2 = destino === 'adubo' ? 90 : 18;
+
+          saida('nutrientes').textContent = nutrientes + '%';
+          saida('o2').textContent = o2 + '%';
+          barra('nutrientes').style.width = nutrientes + '%';
+          barra('o2').style.width = o2 + '%';
+
+          var v = saida('veredito');
+          if (destino === 'adubo') {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Ciclo sustentável.</strong> O digestato vira adubo no solo, as plantas absorvem o N e o P, e o rio permanece com nutrientes e oxigênio em níveis saudáveis — sem eutrofização.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Eutrofização em curso.</strong> O excesso de nutrientes no rio provoca floração de algas; a decomposição delas consome o oxigênio dissolvido, ameaçando a vida aquática.';
+          }
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-recycle"></i> Etapa 4 (adubo no solo) fecha o ciclo de N/P e evita eutrofização dos corpos de água</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="25" width="100" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="70" y="55" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Digestato</text>
+          <text x="200" y="55" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="230" y="25" width="100" height="50" fill="#166534" stroke="#4ade80" stroke-width="1.5" rx="4"/>
+          <text x="280" y="55" fill="#bbf7d0" font-size="9" font-weight="bold" text-anchor="middle">Solo / planta</text>
+          <text x="360" y="55" fill="#94a3b8" font-size="9" text-anchor="middle">≠</text>
+          <rect x="380" y="25" width="60" height="50" fill="#0c4a6e" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4,3" rx="4"/>
+          <text x="410" y="55" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">rio</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
