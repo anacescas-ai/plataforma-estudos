@@ -4692,6 +4692,373 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q100",
+    numero: "Questão 100",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Separação de Misturas & Soluções",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Água Destilada: Por que Remover os Sais Torna a Água Imprópria para Beber",
+    tags: ["Química", "Substâncias Puras", "Destilação", "Purificação da Água", "Soluções", "Eletrólitos"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Existe um processo de purificação de água em que são removidos os sais dissolvidos. A água que passa por esse processo é muito utilizada em laboratórios de química, em indústrias (como solvente), em baterias de carros etc. Entretanto, esse tipo de água não é adequado para ingestão, pois pode causar problemas de saúde, como carência iônica e diarreia.
+    <br><br>
+    Essa água é chamada de:`,
+
+    alternativas: [
+      { letra: "A", texto: "Dura.", correta: false },
+      { letra: "B", texto: "Pesada.", correta: false },
+      { letra: "C", texto: "Sanitária.", correta: false },
+      { letra: "D", texto: "Destilada.", correta: true },
+      { letra: "E", texto: "Oxigenada.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre destilação e os diferentes "tipos de água" que costumam ser confundidos no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O que é destilação</h4>
+          <p>
+            Destilação é um método físico de separação de misturas homogêneas, baseado na diferença entre os <strong>pontos de ebulição</strong> dos componentes. No caso da água com sais dissolvidos: a mistura é aquecida, a água (volátil, ferve a 100°C ao nível do mar) evapora, esse vapor é conduzido para um condensador e volta ao estado líquido em outro recipiente — enquanto os sais (não voláteis, precisam de temperaturas muito mais altas para evaporar) permanecem no recipiente original.
+          </p>
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Resultado do processo:</strong> água quimicamente pura, praticamente livre de íons dissolvidos (Ca²⁺, Mg²⁺, Na⁺, Cl⁻ etc.) — é exatamente essa água que se chama <strong>água destilada</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Por que a água destilada é tão usada em laboratório e indústria</h4>
+          <p>
+            Sem íons dissolvidos, a água destilada não interfere em reações químicas sensíveis — é o solvente padrão de laboratório, usado para preparar soluções e lavar vidrarias sem introduzir contaminantes. Em baterias automotivas (baterias de chumbo-ácido), ela repõe o nível do eletrólito sem acrescentar sais que se depositariam nas placas internas, reduzindo a vida útil da bateria. Na indústria, funciona como solvente "neutro" para diversos processos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que não é recomendada para beber com frequência</h4>
+          <p>
+            A água potável comum contém pequenas quantidades de eletrólitos essenciais — sódio, potássio, cálcio, magnésio — que ajudam a manter o equilíbrio hídrico e iônico do corpo. A água destilada não tem nada disso.
+          </p>
+          <p>
+            Além de não fornecer esses eletrólitos, a água destilada é <strong>hipotônica</strong> em relação ao meio interno do corpo: por osmose, ela tende a "puxar" íons das células do trato intestinal na tentativa de equilibrar as concentrações, o que pode causar <strong>carência iônica</strong> (perda de eletrólitos) e, em consumo contínuo e significativo, distúrbios como diarreia.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Não confundir com outros "tipos de água" do vocabulário químico</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Água dura</strong>
+              O oposto conceitual: água com <strong>alta</strong> concentração de sais dissolvidos, principalmente de cálcio e magnésio (carbonatos, sulfatos). Forma incrustações em tubulações e reduz a espuma de sabões.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Água pesada</strong>
+              Óxido de deutério ($D_2O$): a água comum tem hidrogênio comum, a pesada tem o isótopo deutério (com nêutron extra). Usada como moderador em reatores nucleares — não tem relação com remoção de sais.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Água sanitária</strong>
+              Nome popular de uma solução aquosa de hipoclorito de sódio, usada como alvejante e desinfetante doméstico — um produto de limpeza, não um tipo de água purificada por destilação.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Água oxigenada</strong>
+              Solução aquosa de peróxido de hidrogênio ($H_2O_2$), usada como antisséptico e alvejante — outro produto químico distinto, sem relação com destilação.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Fechando a ideia</h4>
+          <p>
+            A descrição do enunciado — remoção de sais dissolvidos, uso em laboratório, indústria e baterias, e inadequação para consumo por causar carência iônica — bate exatamente com a definição de <strong>água destilada</strong>, o produto direto do processo de destilação.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-cyan-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique o processo descrito.</strong> "Remove os sais dissolvidos" é a definição-chave: aponta diretamente para destilação, não para qualquer outro tratamento.
+            <br><br>
+            <strong>Passo 2 — Confirme com os usos citados.</strong> Laboratório, indústria como solvente, baterias de carro e o efeito colateral de carência iônica ao beber — todos são características clássicas da água destilada, não de outras "águas" com nomes parecidos.
+          </p>
+        </div>
+
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Destilada." É a água obtida por destilação, praticamente isenta de sais e íons dissolvidos — por isso é o solvente padrão de laboratório e indústria, e por isso, ao ser ingerida continuamente, não repõe eletrólitos e pode até retirar íons do corpo por osmose, causando carência iônica e diarreia.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — dura</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar qualquer nome de água "diferente" ao enunciado, sem checar a definição.
+              <br>
+              <strong>Onde quebra:</strong> água dura tem <em>alta</em> concentração de sais (cálcio e magnésio) — o oposto exato do que o enunciado descreve (remoção de sais).
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — pesada</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar vagamente que "água pesada" é um termo técnico de química e presumir que tem relação com pureza.
+              <br>
+              <strong>Onde quebra:</strong> água pesada é definida pela substituição isotópica do hidrogênio por deutério ($D_2O$) — um conceito de física nuclear/química isotópica, sem qualquer relação com remoção de sais dissolvidos.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — sanitária</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> confundir "água sanitária" com "água tratada/purificada" pelo nome.
+              <br>
+              <strong>Onde quebra:</strong> água sanitária é uma solução de hipoclorito de sódio (alvejante/desinfetante) — um produto de limpeza doméstica, não uma água purificada por destilação, e nunca usada como solvente de laboratório.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — oxigenada</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar "oxigenada" a algo positivo ou "purificado".
+              <br>
+              <strong>Onde quebra:</strong> água oxigenada é uma solução de peróxido de hidrogênio ($H_2O_2$), usada como antisséptico — um composto químico completamente diferente, sem relação com remoção de sais por destilação.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-cyan-950/30 rounded-xl border border-cyan-500/30">
+          <strong class="text-cyan-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Todas as alternativas erradas são nomes reais de "águas" ou soluções aquosas da química do dia a dia — mas cada uma define um conceito totalmente diferente (excesso de sal, isótopo, alvejante, antisséptico). A prova está testando se você sabe a definição exata de cada termo, não só se reconhece a palavra "água" antes dele.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-vial", titulo: "Destilação", text: "Separação baseada na diferença de ponto de ebulição; remove sais e outras impurezas não voláteis da água." },
+      { icone: "fa-droplet", titulo: "Água Destilada", text: "Praticamente isenta de íons dissolvidos; usada em laboratório, indústria e baterias." },
+      { icone: "fa-bolt", titulo: "Carência Iônica", text: "Beber água destilada continuamente pode retirar eletrólitos do corpo por osmose." },
+      { icone: "fa-mountain", titulo: "Água Dura", text: "Tem alto teor de sais de cálcio e magnésio — o oposto da água destilada." },
+      { icone: "fa-flask-vial", titulo: "Não confundir nomes", text: "Pesada (D2O), sanitária (hipoclorito) e oxigenada (H2O2) são substâncias distintas, sem relação com destilação." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Aparelho de destilação simples",
+        legenda: "A água evapora e é conduzida para o condensador, onde retorna ao estado líquido livre de sais. Os sais, não voláteis, ficam retidos no balão de origem.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <ellipse cx="90" cy="140" rx="55" ry="35" fill="#0c4a6e" opacity="0.5" stroke="#38bdf8" stroke-width="2"/>
+            <text x="90" y="145" fill="#bae6fd" font-size="8" text-anchor="middle">água + sais</text>
+            <rect x="70" y="60" width="10" height="60" fill="#0c4a6e" opacity="0.3" stroke="#38bdf8" stroke-width="1.5"/>
+            <path d="M 80 80 Q 200 20 300 80" fill="none" stroke="#64748b" stroke-width="3"/>
+            <text x="200" y="45" fill="#94a3b8" font-size="8" text-anchor="middle">vapor de água</text>
+            <rect x="290" y="70" width="80" height="25" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+            <text x="330" y="87" fill="#cbd5e1" font-size="7" text-anchor="middle">condensador</text>
+            <line x1="330" y1="95" x2="330" y2="130" stroke="#38bdf8" stroke-width="3"/>
+            <ellipse cx="330" cy="155" rx="45" ry="25" fill="#065f46" opacity="0.5" stroke="#34d399" stroke-width="2"/>
+            <text x="330" y="160" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">água destilada</text>
+            <circle cx="70" cy="150" r="2.5" fill="#fbbf24"/>
+            <circle cx="85" cy="160" r="2.5" fill="#fbbf24"/>
+            <circle cx="100" cy="148" r="2.5" fill="#fbbf24"/>
+            <text x="90" y="180" fill="#fde68a" font-size="7" text-anchor="middle">sais ficam retidos aqui</text>
+          </svg>`
+      },
+      {
+        titulo: "Água comum x água destilada",
+        legenda: "A água potável comum carrega eletrólitos (Na+, K+, Ca2+, Mg2+). A destilada não tem nenhum deles.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Água comum</text>
+            <rect x="35" y="35" width="160" height="90" rx="6" fill="#0c4a6e" opacity="0.4" stroke="#38bdf8" stroke-width="2"/>
+            <text x="70" y="60" fill="#bae6fd" font-size="9" font-weight="bold">Na⁺</text>
+            <text x="140" y="75" fill="#bae6fd" font-size="9" font-weight="bold">Ca²⁺</text>
+            <text x="90" y="95" fill="#bae6fd" font-size="9" font-weight="bold">K⁺</text>
+            <text x="150" y="105" fill="#bae6fd" font-size="9" font-weight="bold">Mg²⁺</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Água destilada</text>
+            <rect x="265" y="35" width="160" height="90" rx="6" fill="#065f46" opacity="0.25" stroke="#34d399" stroke-width="2"/>
+            <text x="345" y="85" fill="#6ee7b7" font-size="9" text-anchor="middle" font-style="italic">sem íons</text>
+          </svg>`
+      },
+      {
+        titulo: "Por que beber água destilada causa carência iônica",
+        legenda: "Por osmose, a água hipotônica tende a puxar íons das células intestinais na tentativa de equilibrar as concentrações — causando perda de eletrólitos.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="150" y="30" width="160" height="90" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="230" y="50" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Célula intestinal</text>
+            <circle cx="200" cy="80" r="3" fill="#fbbf24"/>
+            <circle cx="230" cy="90" r="3" fill="#fbbf24"/>
+            <circle cx="260" cy="75" r="3" fill="#fbbf24"/>
+            <text x="230" y="110" fill="#fde68a" font-size="7" text-anchor="middle">íons intracelulares</text>
+
+            <line x1="150" y1="75" x2="90" y2="75" stroke="#f87171" stroke-width="2" marker-end="url(#pq100)"/>
+            <text x="60" y="65" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">íons saem</text>
+            <ellipse cx="50" cy="75" rx="35" ry="25" fill="#065f46" opacity="0.3" stroke="#34d399" stroke-width="2"/>
+            <text x="50" y="79" fill="#6ee7b7" font-size="7" text-anchor="middle">água destilada</text>
+            <defs>
+              <marker id="pq100" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#f87171"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Cada nome corresponde a uma substância química bem diferente — só a destilada bate com o processo de remoção de sais descrito.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Dura (excesso de sais)</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Pesada (D2O)</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — Sanitária (hipoclorito)</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="107" width="430" height="27" rx="5" fill="#0e7490" opacity="0.35"/>
+            <text x="30" y="125" fill="#67e8f9" font-size="10" font-weight="bold">D — Destilada (sem sais)</text>
+            <text x="400" y="125" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Oxigenada (H2O2)</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: identifique o tipo de água pela composição",
+      descricao: "Escolha um tipo de água e veja sua composição real, seus usos e se ela bate com a descrição do enunciado (remoção de sais).",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha o tipo de água:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q100agua" data-sim="agua" value="dura" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Água dura</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q100agua" data-sim="agua" value="pesada" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Água pesada</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q100agua" data-sim="agua" value="sanitaria" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Água sanitária</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q100agua" data-sim="agua" value="destilada" checked class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Água destilada</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q100agua" data-sim="agua" value="oxigenada" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Água oxigenada</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4" data-out="ficha">
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="agua"]');
+        var ficha = raiz.querySelector('[data-out="ficha"]');
+        var veredito = raiz.querySelector('[data-out="veredito"]');
+
+        var dados = {
+          dura: { composicao: 'Alta concentração de sais de Ca²⁺ e Mg²⁺', uso: 'Água de poço/torneira em regiões calcárias', bate: false },
+          pesada: { composicao: 'D₂O — hidrogênio substituído por deutério', uso: 'Moderador em reatores nucleares', bate: false },
+          sanitaria: { composicao: 'Solução de hipoclorito de sódio (NaClO)', uso: 'Alvejante e desinfetante doméstico', bate: false },
+          destilada: { composicao: 'Praticamente sem sais ou íons dissolvidos', uso: 'Laboratório, indústria, baterias de carro', bate: true },
+          oxigenada: { composicao: 'Solução de peróxido de hidrogênio (H₂O₂)', uso: 'Antisséptico e alvejante', bate: false }
+        };
+
+        function atualizar() {
+          var tipo = 'destilada';
+          radios.forEach(function (r) { if (r.checked) tipo = r.value; });
+          var d = dados[tipo];
+
+          ficha.innerHTML =
+            '<p class="text-[11px] text-slate-300"><strong class="text-cyan-300">Composição:</strong> ' + d.composicao + '</p>' +
+            '<p class="text-[11px] text-slate-300 mt-1"><strong class="text-cyan-300">Uso típico:</strong> ' + d.uso + '</p>';
+
+          if (d.bate) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            veredito.innerHTML = '<strong>Bate com o enunciado!</strong> Remove os sais, é usada em laboratório/indústria/baterias, e não deve ser bebida continuamente.';
+          } else {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            veredito.innerHTML = '<strong>Não bate com o enunciado.</strong> Essa substância tem composição e uso diferentes do que foi descrito.';
+          }
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Destilação: Água + Sais → Vapor Puro → Água Destilada (sais ficam retidos)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="25" width="140" height="40" rx="6" fill="#0c4a6e" opacity="0.5" stroke="#38bdf8" stroke-width="2"/>
+          <text x="90" y="49" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Água + sais</text>
+          <line x1="160" y1="45" x2="200" y2="45" stroke="#64748b" stroke-width="2" marker-end="url(#pq100d)"/>
+          <text x="180" y="37" fill="#94a3b8" font-size="7" text-anchor="middle">destila</text>
+          <rect x="205" y="25" width="230" height="40" rx="6" fill="#065f46" opacity="0.35" stroke="#34d399" stroke-width="2"/>
+          <text x="320" y="49" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Água destilada (sem sais)</text>
+          <defs>
+            <marker id="pq100d" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
