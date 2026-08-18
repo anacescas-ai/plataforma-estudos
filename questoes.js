@@ -9844,6 +9844,313 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q116",
+    numero: "Questão 116",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Evolução",
+    materiaCor: "emerald",
+    materiaIcone: "fa-mountain",
+    titulo: "Cangas de Ferro: Por Que Ambientes Extremos e Isolados Formam Espécies Endêmicas",
+    tags: ["Biologia", "Ecologia", "Evolução", "Seleção Natural", "Endemismo", "Especiação", "Cangas Ferruginosas"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `As <strong>cangas</strong> são ambientes resultantes da atuação, ao longo de milhões de anos, de chuvas, enxurradas, calor e ventos em rochas ricas em ferro. São compostas por até 90% de óxidos de ferro e contêm solos muito ácidos, rasos, com reduzidos índices de fertilidade e temperaturas que atingem quase 70 °C na superfície. Ao contrário do que se imagina, esse tipo de ambiente abriga comunidades de plantas e animais com elevado número de espécies e <strong>distribuição restrita</strong>.
+    <br><br>
+    <p class="text-[10px] text-slate-500">CARMO, F. F. et al. <strong>Ilhas de ferro estratégicas para a conservação</strong>. Disponível em: http://cienciahoje.org.br. Acesso em: 2 dez. 2018 (adaptado).</p>
+    <br>
+    A seleção adaptativa nesses ambientes favorece a ocorrência de espécies`,
+
+    alternativas: [
+      { letra: "A", texto: "exóticas.", correta: false },
+      { letra: "B", texto: "migratórias.", correta: false },
+      { letra: "C", texto: "endêmicas.", correta: true },
+      { letra: "D", texto: "dominantes.", correta: false },
+      { letra: "E", texto: "generalistas.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre por que ambientes extremos e isolados como as cangas funcionam como "ilhas" evolutivas — e por que isso produz exatamente o oposto de espécies generalistas ou exóticas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que são as cangas ferruginosas</h4>
+          <p>
+            Cangas são afloramentos rochosos ricos em óxido de ferro, formados ao longo de milhões de anos. São ambientes fisicamente hostis: solo raso e pobre em nutrientes, alta acidez, temperaturas de superfície próximas a 70 °C e forte exposição ao sol e ao vento. No Brasil, ocorrem principalmente em regiões de mineração de ferro, como o Quadrilátero Ferrífero (MG) e a Serra dos Carajás (PA) — daí o apelido "ilhas de ferro" usado no título do texto de referência.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Seleção adaptativa: o ambiente como filtro</h4>
+          <p>
+            A <strong>seleção natural (adaptativa)</strong> favorece, em cada ambiente, os indivíduos com características que aumentam sua sobrevivência e reprodução <em>naquelas condições específicas</em>. Num ambiente tão extremo quanto a canga — solo raso, calor intenso, acidez, escassez de nutrientes —, apenas organismos com adaptações muito específicas conseguem sobreviver. Esse ambiente funciona como um <strong>filtro seletivo forte</strong>, que exclui espécies generalistas (adaptadas a condições médias, comuns) e favorece linhagens altamente especializadas para aquele conjunto particular de condições.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O efeito "ilha": isolamento gera endemismo</h4>
+          <p>
+            As cangas são afloramentos isolados uns dos outros, cercados por outros tipos de vegetação (floresta, cerrado) que funcionam como "barreiras" — daí a analogia com <strong>ilhas</strong> no meio de um "mar" de vegetação diferente. Populações isoladas em cada afloramento evoluem separadamente, sob pressões seletivas muito específicas e sem troca genética significativa com outras populações. Ao longo de gerações, esse isolamento reprodutivo somado à seleção específica do ambiente favorece a formação de espécies que existem <strong>apenas naquele local</strong> (ou num conjunto restrito de locais semelhantes) — ou seja, espécies <strong>endêmicas</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Endemismo: a definição que bate com o enunciado</h4>
+          <p>
+            Uma espécie <strong>endêmica</strong> é aquela cuja distribuição geográfica natural está restrita a uma área específica, não sendo encontrada, de forma nativa, em nenhum outro lugar. O próprio enunciado já entrega a resposta ao descrever a comunidade das cangas como tendo "elevado número de espécies e <strong>distribuição restrita</strong>" — essa é exatamente a definição de endemismo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Por que as outras categorias não se encaixam</h4>
+          <p>
+            <strong>Espécies exóticas</strong> são introduzidas por ação humana em ambientes fora de sua distribuição natural — não é isso que a seleção natural nas cangas produz, e sim espécies nativas altamente adaptadas.
+          </p>
+          <p>
+            <strong>Espécies migratórias</strong> se deslocam regularmente entre diferentes áreas (geralmente sazonalmente) — o oposto de ficar restrita a um único afloramento isolado.
+          </p>
+          <p>
+            <strong>Espécies dominantes</strong> e <strong>generalistas</strong> costumam ser abundantes e amplamente distribuídas, tolerando uma ampla gama de condições ambientais — exatamente o oposto do padrão de "distribuição restrita" que caracteriza organismos adaptados a um ambiente tão específico e hostil quanto a canga.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-mountain", titulo: "Canga ferruginosa", text: "Afloramento rochoso rico em óxido de ferro, com solo raso, ácido, pobre em nutrientes e temperaturas extremas." },
+      { icone: "fa-filter", titulo: "Seleção adaptativa como filtro", text: "Condições extremas favorecem linhagens altamente especializadas, excluindo espécies generalistas." },
+      { icone: "fa-water", titulo: "Efeito ilha", text: "Afloramentos isolados por outros tipos de vegetação funcionam como ilhas, impedindo troca genética entre populações." },
+      { icone: "fa-map-pin", titulo: "Endemismo", text: "Espécie com distribuição geográfica natural restrita a uma área específica — não ocorre naturalmente em outro lugar." },
+      { icone: "fa-shuffle", titulo: "Endêmica ≠ exótica ≠ generalista", text: "Exótica é introduzida pelo homem; generalista/dominante tolera ampla gama de condições — o oposto do padrão observado nas cangas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>O ambiente extremo e isolado da canga seleciona espécies altamente especializadas e restritas a esses afloramentos — ou seja, espécies <strong>endêmicas</strong>, exatamente como o enunciado descreve ("distribuição restrita").</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a pista textual.</strong> O enunciado já entrega a resposta: "elevado número de espécies e distribuição restrita". "Distribuição restrita" é a própria definição de endemismo.</p>
+          <p><strong>Passo 2 — Conecte com o mecanismo de seleção adaptativa.</strong> Condições extremas (calor, acidez, solo raso) funcionam como filtro seletivo forte, favorecendo especialistas muito adaptados àquele ambiente específico, não generalistas.</p>
+          <p><strong>Passo 3 — Elimine as alternativas incompatíveis com "distribuição restrita".</strong> Exóticas, migratórias, dominantes e generalistas descrevem, cada uma à sua maneira, ampla distribuição ou origem externa — o oposto do que o texto descreve.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Exóticas — ERRADA</p>
+            <p class="text-xs">Espécies exóticas são introduzidas por ação humana fora de sua área de distribuição natural — a seleção natural num ambiente extremo favorece espécies nativas adaptadas, não introduzidas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Migratórias — ERRADA</p>
+            <p class="text-xs">Espécies migratórias se deslocam entre diferentes áreas regularmente — o oposto de ficarem restritas a um único afloramento isolado, como a canga exige de seus organismos especializados.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) Endêmicas — CORRETA</p>
+            <p class="text-xs">Distribuição geográfica restrita a um local específico é exatamente a definição de endemismo — e é exatamente o que o enunciado descreve para as comunidades das cangas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Dominantes — ERRADA</p>
+            <p class="text-xs">Espécies dominantes costumam ser numericamente abundantes e amplamente distribuídas em vários ambientes — não corresponde ao padrão de distribuição restrita e alta especialização das cangas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Generalistas — ERRADA</p>
+            <p class="text-xs">Espécies generalistas toleram ampla gama de condições ambientais e por isso costumam ter distribuição ampla — o oposto do que a seleção adaptativa produz num ambiente tão específico e hostil quanto a canga.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Perfil de um ambiente de canga",
+        legenda: "Solo raso, ácido, pobre em nutrientes, rico em óxido de ferro, com temperaturas de superfície próximas a 70 °C.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="30" y="90" width="400" height="40" fill="#7c2d12" stroke="#c2410c" stroke-width="1.5"/>
+            <text x="230" y="114" fill="#fed7aa" font-size="9" font-weight="bold" text-anchor="middle">Solo raso, ácido, rico em óxido de ferro</text>
+            <line x1="60" y1="30" x2="60" y2="90" stroke="#f87171" stroke-width="2"/><polygon points="60,30 55,42 65,42" fill="#f87171"/>
+            <text x="60" y="24" fill="#fca5a5" font-size="8" text-anchor="middle">~70°C</text>
+            <path d="M 150 30 Q 160 50 150 70" fill="none" stroke="#94a3b8" stroke-width="2"/>
+            <text x="150" y="20" fill="#94a3b8" font-size="8" text-anchor="middle">vento</text>
+            <circle cx="330" cy="45" r="18" fill="#fde047"/>
+            <text x="330" y="20" fill="#fde047" font-size="8" text-anchor="middle">sol forte</text>
+            <text x="230" y="145" fill="#94a3b8" font-size="8" text-anchor="middle">Ambiente hostil → forte filtro seletivo</text>
+          </svg>`
+      },
+      {
+        titulo: '"Ilhas de ferro": afloramentos isolados',
+        legenda: "Cangas isoladas por outros tipos de vegetação impedem troca genética — cada uma pode desenvolver espécies próprias.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="130" fill="#166534" rx="6"/>
+            <ellipse cx="110" cy="60" rx="55" ry="35" fill="#7c2d12" stroke="#c2410c" stroke-width="1.5"/>
+            <text x="110" y="64" fill="#fed7aa" font-size="8" font-weight="bold" text-anchor="middle">Canga A</text>
+            <text x="110" y="78" fill="#fed7aa" font-size="6" text-anchor="middle">espécie endêmica X</text>
+            <ellipse cx="330" cy="95" rx="55" ry="35" fill="#7c2d12" stroke="#c2410c" stroke-width="1.5"/>
+            <text x="330" y="99" fill="#fed7aa" font-size="8" font-weight="bold" text-anchor="middle">Canga B</text>
+            <text x="330" y="113" fill="#fed7aa" font-size="6" text-anchor="middle">espécie endêmica Y</text>
+            <text x="230" y="30" fill="#bbf7d0" font-size="8" font-weight="bold" text-anchor="middle">"mar" de vegetação diferente (floresta/cerrado)</text>
+            <text x="230" y="145" fill="#94a3b8" font-size="7" text-anchor="middle">Sem troca genética entre A e B → evolução separada → endemismo</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco tipos de distribuição, uma resposta certa",
+        legenda: "Só o endemismo descreve exatamente 'distribuição restrita' — a frase-chave do enunciado.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="110" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Categoria</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Padrão de distribuição</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) Exótica</text>
+            <text x="220" y="52" fill="#94a3b8" font-size="7">introduzida pelo homem, fora da área natural</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) Migratória</text>
+            <text x="220" y="76" fill="#94a3b8" font-size="7">desloca-se entre múltiplas áreas</text>
+
+            <rect x="10" y="84" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="101" fill="#6ee7b7" font-size="8" font-weight="bold">C) Endêmica ✓</text>
+            <text x="220" y="101" fill="#a7f3d0" font-size="7" font-weight="bold">distribuição restrita a uma área específica</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">D) Dominante</text>
+            <text x="220" y="126" fill="#94a3b8" font-size="7">abundante, amplamente distribuída</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) Generalista</text>
+            <text x="220" y="150" fill="#94a3b8" font-size="7">tolera ampla gama de condições, distribuição ampla</text>
+          </svg>`
+      },
+      {
+        titulo: "Da pressão seletiva ao endemismo",
+        legenda: "Condições extremas + isolamento geográfico convergem para espécies altamente especializadas e restritas.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="40" width="120" height="50" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+            <text x="70" y="60" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Ambiente</text>
+            <text x="70" y="72" fill="#e2e8f0" font-size="7" text-anchor="middle">extremo</text>
+            <text x="138" y="68" fill="#64748b" font-size="11" text-anchor="middle">+</text>
+            <rect x="150" y="40" width="120" height="50" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+            <text x="210" y="60" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Isolamento</text>
+            <text x="210" y="72" fill="#e2e8f0" font-size="7" text-anchor="middle">geográfico</text>
+            <text x="278" y="68" fill="#64748b" font-size="14" text-anchor="middle">→</text>
+            <rect x="290" y="40" width="160" height="50" rx="5" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="370" y="60" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">Espécies endêmicas</text>
+            <text x="370" y="75" fill="#a7f3d0" font-size="7" text-anchor="middle">distribuição restrita</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: associe o tipo de distribuição à definição correta",
+      descricao: "Escolha uma categoria e veja sua definição e se ela se encaixa no que o enunciado descreve para as cangas (elevado número de espécies com distribuição restrita).",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q116tipo" data-sim="tipo" value="exotica" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Exótica</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q116tipo" data-sim="tipo" value="migratoria" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Migratória</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q116tipo" data-sim="tipo" value="endemica" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Endêmica</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q116tipo" data-sim="tipo" value="dominante" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Dominante</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q116tipo" data-sim="tipo" value="generalista" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Generalista</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="tipo"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          exotica: { encaixa: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não se encaixa.</strong> Espécie exótica é introduzida por ação humana fora de sua área natural — a canga seleciona espécies nativas adaptadas, não introduzidas.' },
+          migratoria: { encaixa: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não se encaixa.</strong> Espécie migratória se desloca entre múltiplas áreas — o oposto de "distribuição restrita" a um único afloramento.' },
+          endemica: { encaixa: true, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200', texto: '<strong>É exatamente isso!</strong> Espécie endêmica tem distribuição geográfica restrita a uma área específica — a definição que bate com o "distribuição restrita" do enunciado.' },
+          dominante: { encaixa: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não se encaixa.</strong> Espécie dominante costuma ser abundante e amplamente distribuída — o oposto do padrão restrito das cangas.' },
+          generalista: { encaixa: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não se encaixa.</strong> Espécie generalista tolera ampla gama de condições e por isso tende a ter distribuição ampla — o oposto do que a seleção extrema da canga favorece.' }
+        };
+
+        function atualizar() {
+          var t = raiz.querySelector('[data-sim="tipo"]:checked').value;
+          var d = dados[t];
+          painel.className = d.classe;
+          painel.innerHTML = d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-mountain"></i> Ambiente extremo + isolado → seleção adaptativa → espécies endêmicas (distribuição restrita)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="25" width="120" height="50" fill="#7c2d12" stroke="#c2410c" stroke-width="1.5" rx="4"/>
+          <text x="80" y="55" fill="#fed7aa" font-size="9" font-weight="bold" text-anchor="middle">Canga extrema</text>
+          <text x="220" y="55" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="300" y="25" width="140" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="370" y="50" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Espécies endêmicas</text>
+          <text x="370" y="65" fill="#a7f3d0" font-size="7" text-anchor="middle">distribuição restrita</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
