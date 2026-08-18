@@ -8443,6 +8443,332 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q112",
+    numero: "Questão 112",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Bioquímica, Nutrição & Biotecnologia",
+    materiaCor: "emerald",
+    materiaIcone: "fa-wheat-awn",
+    titulo: "Arroz Dourado (Golden Rice): Betacaroteno, Vitamina A e Cegueira Noturna",
+    tags: ["Biologia", "Bioquímica", "Vitaminas", "Vitamina A", "Biotecnologia", "Transgenia", "Golden Rice"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `<em>Golden Rice</em>, ou arroz dourado, é uma variedade de arroz enriquecida em betacaroteno, precursor da vitamina A. Foi desenvolvida para ajudar a combater a doença decorrente da deficiência dessa vitamina. Para a obtenção dessa variedade de arroz, foram utilizados métodos de engenharia genética.
+    <br><br>
+    <p class="text-[10px] text-slate-500">BORÉM, A.; SANTOS, F. R. <strong>Entendendo a biotecnologia</strong>. Viçosa: UFV, 2008 (adaptado).</p>
+    <br>
+    Esse alimento contribui para diminuir a carência associada a qual doença?`,
+
+    alternativas: [
+      { letra: "A", texto: "Hemofilia.", correta: false },
+      { letra: "B", texto: "Escorbuto.", correta: false },
+      { letra: "C", texto: "Raquitismo.", correta: false },
+      { letra: "D", texto: "Cegueira noturna.", correta: true },
+      { letra: "E", texto: "Anemia perniciosa.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o papel da vitamina A no corpo humano e por que sua carência causa especificamente um problema de visão — a questão é, no fundo, associar corretamente vitamina → doença carencial.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é o Golden Rice e por que ele foi criado</h4>
+          <p>
+            O arroz comum tem endosperma (a parte comestível do grão) praticamente sem betacaroteno. Cientistas inseriram, por engenharia genética, genes de outros organismos (como narciso e uma bactéria) que codificam enzimas da via de síntese do betacaroteno, fazendo o endosperma do arroz acumular esse pigmento — daí a cor dourada/amarelada que dá nome à variedade.
+          </p>
+          <p>
+            O objetivo é nutricional: em regiões onde o arroz é alimento-base e a dieta é pobre em fontes de vitamina A, o Golden Rice oferece uma via alimentar simples e barata para reduzir a deficiência dessa vitamina em larga escala.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Betacaroteno: a pró-vitamina A</h4>
+          <p>
+            O <strong>betacaroteno</strong> é um pigmento carotenoide (presente também em cenoura, abóbora, manga) que o corpo humano converte enzimaticamente em <strong>retinol</strong>, a forma ativa da vitamina A. Por isso o betacaroteno é chamado de <strong>pró-vitamina A</strong>: não é a vitamina em si, mas seu precursor direto, absorvido no intestino e convertido no fígado e em outros tecidos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Para que serve a vitamina A no corpo</h4>
+          <p>
+            A vitamina A (retinol) tem dois papéis centrais bem estabelecidos: manutenção da integridade de tecidos epiteliais (pele, córnea, mucosas) e, crucialmente, a <strong>visão</strong>. Nos bastonetes da retina — as células fotorreceptoras responsáveis pela visão em condições de pouca luz — o retinol é convertido em <strong>retinal</strong>, componente essencial da <strong>rodopsina</strong>, o pigmento visual que capta luz em ambientes escuros.
+          </p>
+          <p>
+            Sem vitamina A suficiente, a regeneração da rodopsina fica comprometida, e a capacidade de enxergar em pouca luz piora progressivamente — esse é o quadro clínico conhecido como <strong>cegueira noturna (nictalopia)</strong>, um dos primeiros e mais característicos sinais de deficiência de vitamina A, podendo evoluir para xeroftalmia e cegueira permanente em casos graves e prolongados.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Mapa rápido: vitamina/nutriente → doença carencial</h4>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">Carência</th>
+                <th class="text-left py-1">Doença associada</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">Vitamina C</td><td>Escorbuto (sangramento de gengivas, má cicatrização)</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">Vitamina D</td><td>Raquitismo (crianças) / osteomalácia (adultos)</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">Vitamina B12</td><td>Anemia perniciosa</td></tr>
+              <tr class="border-b border-emerald-500/40 text-emerald-300 font-bold"><td class="py-1">Vitamina A</td><td>Cegueira noturna / xeroftalmia</td></tr>
+            </tbody>
+          </table>
+          <p>
+            Note que <strong>hemofilia</strong> não entra nessa tabela: não é uma doença carencial (causada por falta de nutriente), mas um <strong>distúrbio genético</strong> hereditário que afeta a coagulação sanguínea — categoria completamente diferente das demais alternativas.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-wheat-awn", titulo: "Golden Rice", text: "Arroz geneticamente modificado para acumular betacaroteno no endosperma, combatendo a deficiência de vitamina A." },
+      { icone: "fa-carrot", titulo: "Betacaroteno (pró-vitamina A)", text: "Pigmento carotenoide convertido pelo corpo em retinol, a forma ativa da vitamina A." },
+      { icone: "fa-eye", titulo: "Rodopsina e visão noturna", text: "Retinal (derivado da vitamina A) é componente essencial da rodopsina, o pigmento que permite enxergar em pouca luz." },
+      { icone: "fa-moon", titulo: "Cegueira noturna (nictalopia)", text: "Um dos primeiros sinais de deficiência de vitamina A — dificuldade progressiva de enxergar em ambientes escuros." },
+      { icone: "fa-table", titulo: "Vitamina ≠ doença genética", text: "Hemofilia é um distúrbio genético de coagulação, não uma doença causada por deficiência nutricional — categoria diferente das demais alternativas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>O Golden Rice fornece betacaroteno, precursor da vitamina A. A deficiência dessa vitamina prejudica a rodopsina dos bastonetes da retina, causando <strong>cegueira noturna</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a vitamina envolvida.</strong> O enunciado é direto: betacaroteno é "precursor da vitamina A". A pergunta é sobre a deficiência dessa vitamina especificamente.</p>
+          <p><strong>Passo 2 — Lembre-se da função biológica central da vitamina A.</strong> Além da manutenção de tecidos epiteliais, seu papel mais conhecido e cobrado é na visão: ela é componente da rodopsina dos bastonetes, essencial para enxergar em pouca luz.</p>
+          <p><strong>Passo 3 — Associe deficiência de vitamina A à doença correspondente.</strong> A falta de vitamina A leva à cegueira noturna (e, em casos graves, à xeroftalmia) — não às demais condições listadas, que estão associadas a outras vitaminas ou a um distúrbio genético.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Hemofilia — ERRADA</p>
+            <p class="text-xs">Não é uma doença carencial: é um distúrbio genético hereditário (ligado ao cromossomo X) que compromete fatores de coagulação sanguínea. Nenhuma vitamina, por si só, previne ou trata hemofilia.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Escorbuto — ERRADA</p>
+            <p class="text-xs">Escorbuto é causado por deficiência de <strong>vitamina C</strong> (ácido ascórbico), não de vitamina A. O betacaroteno do Golden Rice não tem relação com essa via.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Raquitismo — ERRADA</p>
+            <p class="text-xs">Raquitismo (em crianças) e osteomalácia (em adultos) resultam de deficiência de <strong>vitamina D</strong>, relacionada à absorção de cálcio e à mineralização óssea — um eixo bioquímico distinto do da vitamina A.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) Cegueira noturna — CORRETA</p>
+            <p class="text-xs">É exatamente a doença carencial associada à falta de vitamina A: sem retinol suficiente para regenerar a rodopsina dos bastonetes, a visão em pouca luz é a primeira função a ser comprometida.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Anemia perniciosa — ERRADA</p>
+            <p class="text-xs">Está associada à deficiência de <strong>vitamina B12</strong> (cobalamina), essencial para a formação de hemácias e para o sistema nervoso — sem relação direta com a via do betacaroteno/vitamina A.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Do betacaroteno à visão noturna",
+        legenda: "Betacaroteno (Golden Rice) → retinol → retinal → rodopsina nos bastonetes → visão em pouca luz.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="40" width="90" height="50" rx="5" fill="#78350f" stroke="#fbbf24" stroke-width="1.2"/>
+            <text x="55" y="60" fill="#fde68a" font-size="7" font-weight="bold" text-anchor="middle">Betacaroteno</text>
+            <text x="55" y="72" fill="#fde68a" font-size="7" text-anchor="middle">(Golden Rice)</text>
+            <text x="108" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="120" y="40" width="90" height="50" rx="5" fill="#166534" stroke="#4ade80" stroke-width="1.2"/>
+            <text x="165" y="60" fill="#bbf7d0" font-size="7" font-weight="bold" text-anchor="middle">Retinol</text>
+            <text x="165" y="72" fill="#bbf7d0" font-size="7" text-anchor="middle">(vitamina A)</text>
+            <text x="218" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="230" y="40" width="90" height="50" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2"/>
+            <text x="275" y="60" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">Retinal</text>
+            <text x="275" y="72" fill="#bae6fd" font-size="7" text-anchor="middle">+ opsina</text>
+            <text x="328" y="68" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="340" y="40" width="110" height="50" rx="5" fill="#312e81" stroke="#a5b4fc" stroke-width="1.2"/>
+            <text x="395" y="60" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">Rodopsina</text>
+            <text x="395" y="72" fill="#e0e7ff" font-size="7" text-anchor="middle">(bastonetes)</text>
+            <text x="230" y="115" fill="#94a3b8" font-size="8" text-anchor="middle">Sem retinol suficiente, a rodopsina não se regenera → cegueira noturna</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa vitamina/nutriente → doença carencial",
+        legenda: "Cada alternativa da questão corresponde a uma via bioquímica diferente — só a vitamina A liga-se ao Golden Rice.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="120" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Alternativa</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Via correta</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) Hemofilia</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">distúrbio genético (coagulação) — não é vitamina</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) Escorbuto</text>
+            <text x="230" y="76" fill="#94a3b8" font-size="7">deficiência de vitamina C</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) Raquitismo</text>
+            <text x="230" y="100" fill="#94a3b8" font-size="7">deficiência de vitamina D</text>
+
+            <rect x="10" y="108" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="125" fill="#6ee7b7" font-size="8" font-weight="bold">D) Cegueira noturna ✓</text>
+            <text x="230" y="125" fill="#a7f3d0" font-size="7" font-weight="bold">deficiência de vitamina A (Golden Rice)</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) Anemia perniciosa</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">deficiência de vitamina B12</text>
+          </svg>`
+      },
+      {
+        titulo: "Arroz comum x Golden Rice",
+        legenda: "Engenharia genética insere genes que fazem o endosperma acumular betacaroteno, dando a cor dourada característica.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <ellipse cx="110" cy="70" rx="70" ry="45" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+            <text x="110" y="75" fill="#334155" font-size="9" font-weight="bold" text-anchor="middle">Arroz comum</text>
+            <text x="110" y="120" fill="#94a3b8" font-size="7" text-anchor="middle">sem betacaroteno no endosperma</text>
+
+            <text x="220" y="75" fill="#64748b" font-size="16" text-anchor="middle">+ genes</text>
+            <text x="220" y="90" fill="#94a3b8" font-size="7" text-anchor="middle">(narciso/bactéria)</text>
+            <text x="220" y="55" fill="#64748b" font-size="16" text-anchor="middle">→</text>
+
+            <ellipse cx="350" cy="70" rx="70" ry="45" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+            <text x="350" y="75" fill="#78350f" font-size="9" font-weight="bold" text-anchor="middle">Golden Rice</text>
+            <text x="350" y="120" fill="#78350f" font-size="7" text-anchor="middle">endosperma rico em betacaroteno</text>
+          </svg>`
+      },
+      {
+        titulo: "Vitamina A: dois papéis principais no corpo",
+        legenda: "Manutenção de epitélios e visão noturna — é essa segunda função que a questão está testando.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="30" y="20" width="180" height="100" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="120" y="42" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Integridade epitelial</text>
+            <text x="120" y="65" fill="#94a3b8" font-size="7" text-anchor="middle">Pele, córnea e mucosas</text>
+            <text x="120" y="80" fill="#94a3b8" font-size="7" text-anchor="middle">saudáveis e íntegras</text>
+            <text x="120" y="102" fill="#64748b" font-size="7" text-anchor="middle">(não é o foco desta questão)</text>
+
+            <rect x="250" y="20" width="180" height="100" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="340" y="42" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Visão em pouca luz</text>
+            <text x="340" y="65" fill="#a7f3d0" font-size="7" text-anchor="middle">Retinal + opsina = rodopsina</text>
+            <text x="340" y="80" fill="#a7f3d0" font-size="7" text-anchor="middle">nos bastonetes da retina</text>
+            <text x="340" y="102" fill="#6ee7b7" font-size="7" font-weight="bold" text-anchor="middle">Deficiência → cegueira noturna</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: associe a vitamina à doença carencial",
+      descricao: "Escolha uma vitamina (ou o caso do distúrbio genético) e veja qual doença carencial está associada a ela — reforçando a distinção que a questão do Golden Rice exige.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q112vit" data-sim="vit" value="A" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Vitamina A (betacaroteno / Golden Rice)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q112vit" data-sim="vit" value="C" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Vitamina C</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q112vit" data-sim="vit" value="D" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Vitamina D</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q112vit" data-sim="vit" value="B12" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Vitamina B12</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q112vit" data-sim="vit" value="genetico" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">(Não é vitamina) Distúrbio genético</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="vit"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          A: { doenca: 'Cegueira noturna (nictalopia)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200', texto: 'A vitamina A é essencial para a rodopsina dos bastonetes. Sem ela, a visão em pouca luz é comprometida — exatamente o problema que o Golden Rice ajuda a combater.' },
+          C: { doenca: 'Escorbuto', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200', texto: 'A vitamina C é essencial para a síntese de colágeno. Sua falta causa sangramento de gengivas, má cicatrização e fraqueza — nada a ver com a via do betacaroteno.' },
+          D: { doenca: 'Raquitismo (crianças) / osteomalácia (adultos)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-sky-500/40 bg-sky-950/30 text-sky-200', texto: 'A vitamina D regula a absorção de cálcio e a mineralização óssea. Sua falta compromete os ossos — um eixo bioquímico distinto do da vitamina A.' },
+          B12: { doenca: 'Anemia perniciosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: 'A vitamina B12 é essencial para a formação de hemácias e a saúde do sistema nervoso. Sua falta causa anemia perniciosa — sem relação com o betacaroteno.' },
+          genetico: { doenca: 'Hemofilia', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-slate-500/40 bg-slate-800/30 text-slate-300', texto: 'Hemofilia não é causada por falta de nutriente — é um distúrbio genético hereditário que compromete a coagulação sanguínea. Nenhuma vitamina previne ou trata hemofilia.' }
+        };
+
+        function atualizar() {
+          var v = raiz.querySelector('[data-sim="vit"]:checked').value;
+          var d = dados[v];
+          painel.className = d.classe;
+          painel.innerHTML = '<strong>' + d.doenca + '</strong><br><br>' + d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-wheat-awn"></i> Golden Rice → betacaroteno → vitamina A → rodopsina → previne cegueira noturna</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="25" width="100" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="70" y="55" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Golden Rice</text>
+          <text x="200" y="55" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="230" y="25" width="100" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="280" y="55" fill="#bbf7d0" font-size="9" font-weight="bold" text-anchor="middle">Vitamina A</text>
+          <text x="360" y="55" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+          <rect x="380" y="25" width="60" height="50" fill="#312e81" stroke="#a5b4fc" stroke-width="1.5" rx="4"/>
+          <text x="410" y="50" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">visão</text>
+          <text x="410" y="62" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">noturna</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
