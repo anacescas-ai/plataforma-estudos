@@ -8769,6 +8769,395 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q113",
+    numero: "Questão 113",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Eletromagnetismo & Força Elétrica",
+    materiaCor: "purple",
+    materiaIcone: "fa-tv",
+    titulo: "Tubo de Imagem (CRT): Desvio do Feixe de Elétrons por Campo Elétrico",
+    tags: ["Física", "Eletromagnetismo", "Campo Elétrico", "Força Elétrica", "Carga Negativa", "Tubo de Imagem", "CRT"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A Figura 1 apresenta o esquema de um tubo de imagem em que um filamento, na posição A, libera elétrons por efeito termiônico. Esses elétrons formam um feixe estreito, que é acelerado por campos elétricos em direção à parte interna da tela. Nesse caminho, o feixe de elétrons passa por outro campo elétrico, na região B, atingindo, em seguida, a parte interna da tela do tubo, a qual é recoberta por um material que emite luz ao receber o impacto dos elétrons.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <p class="text-center text-purple-300 font-bold text-xs uppercase tracking-wide mb-2">Figura 1</p>
+      <svg viewBox="0 0 460 200" class="w-full h-auto">
+        <rect x="20" y="80" width="70" height="40" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+        <rect x="25" y="85" width="8" height="30" fill="#0f172a"/>
+        <text x="40" y="75" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">A</text>
+        <line x1="90" y1="100" x2="150" y2="100" stroke="#a78bfa" stroke-width="2" stroke-dasharray="3,2"/>
+        <rect x="150" y="88" width="35" height="24" fill="none" stroke="#e2e8f0" stroke-width="1.5"/>
+        <text x="167" y="82" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">B</text>
+        <polygon points="185,100 320,30 320,170" fill="#0f172a" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="330" y="24" fill="#e2e8f0" font-size="10" font-weight="bold">Tela</text>
+        <line x1="185" y1="100" x2="320" y2="40" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="326" y="42" fill="#c4b5fd" font-size="10" font-weight="bold">1</text>
+        <line x1="185" y1="100" x2="320" y2="80" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="300" y="94" fill="#c4b5fd" font-size="10" font-weight="bold">4</text>
+        <line x1="185" y1="100" x2="320" y2="100" stroke="#f87171" stroke-width="1.3" stroke-dasharray="2,2"/>
+        <text x="308" y="98" fill="#fca5a5" font-size="10" font-weight="bold">5</text>
+        <text x="326" y="106" fill="#fca5a5" font-size="10" font-weight="bold">3</text>
+        <line x1="185" y1="100" x2="320" y2="150" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2"/>
+        <text x="308" y="156" fill="#c4b5fd" font-size="10" font-weight="bold">2</text>
+      </svg>
+    </div>
+    <br>
+    Na Figura 2, a carga negativa representa o feixe de elétrons que é acelerado e, posteriormente, atinge um ponto da tela. O campo elétrico na região B apresenta a seguinte configuração:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <p class="text-center text-purple-300 font-bold text-xs uppercase tracking-wide mb-2">Figura 2</p>
+      <svg viewBox="0 0 320 130" class="w-full h-auto mx-auto max-w-sm">
+        <line x1="40" y1="20" x2="40" y2="110" stroke="#38bdf8" stroke-width="2"/><polygon points="40,20 36,28 44,28" fill="#38bdf8"/>
+        <line x1="90" y1="20" x2="90" y2="110" stroke="#38bdf8" stroke-width="2"/><polygon points="90,20 86,28 94,28" fill="#38bdf8"/>
+        <line x1="140" y1="20" x2="140" y2="110" stroke="#38bdf8" stroke-width="2"/><polygon points="140,20 136,28 144,28" fill="#38bdf8"/>
+        <line x1="190" y1="20" x2="190" y2="110" stroke="#38bdf8" stroke-width="2"/><polygon points="190,20 186,28 194,28" fill="#38bdf8"/>
+        <line x1="240" y1="20" x2="240" y2="110" stroke="#38bdf8" stroke-width="2"/><polygon points="240,20 236,28 244,28" fill="#38bdf8"/>
+        <circle cx="65" cy="65" r="14" fill="#fbbf24" stroke="#78350f" stroke-width="1.5"/>
+        <text x="65" y="70" fill="#78350f" font-size="14" font-weight="bold" text-anchor="middle">−</text>
+        <line x1="85" y1="65" x2="120" y2="65" stroke="#fbbf24" stroke-width="2.5"/><polygon points="120,65 112,60 112,70" fill="#fbbf24"/>
+        <text x="102" y="55" fill="#fde68a" font-size="11" font-weight="bold" text-anchor="middle">v</text>
+        <text x="270" y="65" fill="#7dd3fc" font-size="13" font-weight="bold" text-anchor="middle">E</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Grupo de Reelaboração do Ensino de Física. <strong>Física 3: eletromagnetismo</strong>. São Paulo: Edusp, 2000 (adaptado).</p>
+    <br>
+    Nessa situação, qual ponto da tela será atingido pelo feixe de elétrons?`,
+
+    alternativas: [
+      { letra: "A", texto: "1", correta: false },
+      { letra: "B", texto: "2", correta: true },
+      { letra: "C", texto: "3", correta: false },
+      { letra: "D", texto: "4", correta: false },
+      { letra: "E", texto: "5", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a regra mais importante do eletromagnetismo para esta questão: a força elétrica sobre uma carga <strong>negativa</strong> aponta no sentido <strong>oposto</strong> ao campo elétrico.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Como funciona um tubo de imagem (CRT)</h4>
+          <p>
+            No filamento (posição A), elétrons são liberados por <strong>efeito termiônico</strong> (aquecimento libera elétrons da superfície do metal). Campos elétricos aceleram esse feixe estreito de elétrons em direção à tela. No caminho, o feixe passa pela região B, onde outro campo elétrico pode <strong>desviar</strong> o feixe verticalmente (ou horizontalmente) antes de ele atingir a tela — é assim que, em uma TV de tubo antiga, o feixe varre a tela ponto a ponto para formar a imagem.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Força elétrica: F = qE</h4>
+          <p>
+            A força elétrica sobre uma carga <code>q</code> imersa em um campo elétrico <code>E</code> é dada por <code>F = qE</code>. O vetor força tem a mesma direção do campo <code>E</code>, mas o <strong>sentido</strong> depende do sinal da carga:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pl-2">
+            <li>Carga <strong>positiva</strong>: força no <strong>mesmo sentido</strong> de E.</li>
+            <li>Carga <strong>negativa</strong>: força em sentido <strong>oposto</strong> a E.</li>
+          </ul>
+          <p>
+            O elétron tem carga negativa. Portanto, a força elétrica sobre ele aponta sempre na direção contrária à do campo <code>E</code> aplicado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Lendo a Figura 2</h4>
+          <p>
+            O elétron entra na região B com velocidade horizontal <code>v</code>, apontando para a direita. O campo elétrico <code>E</code> na região B aponta <strong>para cima</strong> (setas verticais ascendentes). Como a carga do elétron é negativa, a força elétrica sobre ele aponta para <strong>baixo</strong> — sentido oposto ao de E.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Analogia com lançamento horizontal</h4>
+          <p>
+            A trajetória do elétron dentro da região B é análoga a um lançamento horizontal sob gravidade: o elétron mantém sua velocidade horizontal constante (<code>v</code>) enquanto ganha velocidade vertical <strong>para baixo</strong> devido à força elétrica constante. O resultado é uma trajetória parabólica que se curva para baixo — assim como uma bola lançada horizontalmente cai por causa da gravidade, mas aqui quem "puxa" o elétron para baixo é a força elétrica, não o peso.
+          </p>
+          <p>
+            Depois de sair da região B (onde o campo já não atua), o elétron segue em <strong>linha reta</strong>, na direção que ganhou até ali, até atingir a tela — um pouco abaixo da linha central (não desviada) por onde passaria se não houvesse campo elétrico em B.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Relacionando com os pontos da tela</h4>
+          <p>
+            Na Figura 1, a linha central (sem desvio) sairia de B em direção ao ponto <strong>3</strong>, na borda da tela, alinhado horizontalmente com a saída do feixe. Como o feixe é desviado <strong>para baixo</strong>, ele atinge um ponto <strong>abaixo</strong> dessa linha central — que é o ponto <strong>2</strong>. Os pontos 1 e 4, acima da linha central, corresponderiam a um desvio para <strong>cima</strong>, que ocorreria apenas se a força sobre o elétron apontasse no mesmo sentido de E — o que não é o caso para uma carga negativa.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-square-root-variable", titulo: "F = qE", text: "A força elétrica sobre uma carga é o produto da carga pelo campo elétrico no ponto onde ela está." },
+      { icone: "fa-arrow-down", titulo: "Carga negativa → força oposta a E", text: "Para cargas negativas (como o elétron), a força elétrica aponta em sentido contrário ao do campo elétrico aplicado." },
+      { icone: "fa-chart-line", titulo: "Trajetória parabólica", text: "Velocidade horizontal constante + força vertical constante geram uma trajetória curva, análoga a um lançamento horizontal sob gravidade." },
+      { icone: "fa-tv", titulo: "Tubo de imagem (CRT)", text: "Elétrons liberados por efeito termiônico são acelerados e desviados por campos elétricos até atingir a tela, formando a imagem." },
+      { icone: "fa-bolt", titulo: "Efeito termiônico", text: "Aquecimento de um filamento libera elétrons de sua superfície — a fonte do feixe de elétrons no tubo de imagem." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Como o elétron tem carga negativa e o campo E aponta para cima, a força elétrica sobre ele aponta para baixo. O feixe se desvia para baixo e atinge o ponto <strong>2</strong>, abaixo da linha central (ponto 3).</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Determine o sentido da força elétrica.</strong> F = qE. Como a carga do elétron é negativa e E aponta para cima, a força aponta para baixo (sentido oposto a E).</p>
+          <p><strong>Passo 2 — Visualize a trajetória.</strong> O elétron entra com velocidade horizontal e sofre uma força vertical constante para baixo — trajetória parabólica que se curva para baixo, como um lançamento horizontal sob gravidade.</p>
+          <p><strong>Passo 3 — Identifique o ponto na tela.</strong> A linha central (sem desvio) apontaria para o ponto 3. Como o desvio é para baixo, o feixe atinge o ponto imediatamente abaixo dessa linha: o ponto 2.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Ponto 1 — ERRADA</p>
+            <p class="text-xs">É o ponto mais alto, exigiria um desvio para cima muito maior do que o esperado, além de estar no sentido errado (força é para baixo, não para cima).</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Ponto 2 — CORRETA</p>
+            <p class="text-xs">É o ponto abaixo da linha central, compatível com uma força elétrica para baixo sobre a carga negativa — exatamente o resultado de F = qE com q negativo e E apontando para cima.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Ponto 3 — ERRADA</p>
+            <p class="text-xs">É o ponto que seria atingido se <strong>não houvesse</strong> desvio nenhum — ou seja, ignora completamente a existência do campo elétrico na região B, que o próprio enunciado afirma estar presente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Ponto 4 — ERRADA</p>
+            <p class="text-xs">Está acima da linha central, o que corresponderia a uma força para cima — o erro típico de esquecer o sinal negativo da carga e tratar o elétron como se a força fosse no mesmo sentido de E.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Ponto 5 — ERRADA</p>
+            <p class="text-xs">Está próximo da linha central mas ainda acima ou alinhado a ela, sem representar o desvio para baixo esperado — não é compatível com a força elétrica calculada para uma carga negativa neste campo.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Regra do sinal: força sobre carga negativa é oposta a E",
+        legenda: "F = qE. Com q negativo, o vetor força aponta no sentido contrário ao do campo elétrico.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Carga POSITIVA</text>
+            <line x1="115" y1="40" x2="115" y2="90" stroke="#38bdf8" stroke-width="2.5"/><polygon points="115,40 110,50 120,50" fill="#38bdf8"/>
+            <text x="140" y="65" fill="#7dd3fc" font-size="10" font-weight="bold">E</text>
+            <circle cx="115" cy="110" r="12" fill="#f87171"/><text x="115" y="115" fill="white" font-size="12" font-weight="bold" text-anchor="middle">+</text>
+            <line x1="115" y1="95" x2="115" y2="65" stroke="#fbbf24" stroke-width="2" stroke-dasharray="3,2"/>
+            <text x="90" y="70" fill="#fde68a" font-size="8" text-anchor="middle">F (mesmo sentido)</text>
+
+            <text x="345" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Carga NEGATIVA (elétron)</text>
+            <line x1="345" y1="40" x2="345" y2="90" stroke="#38bdf8" stroke-width="2.5"/><polygon points="345,40 340,50 350,50" fill="#38bdf8"/>
+            <text x="370" y="65" fill="#7dd3fc" font-size="10" font-weight="bold">E</text>
+            <circle cx="345" cy="60" r="12" fill="#fbbf24"/><text x="345" y="65" fill="#78350f" font-size="12" font-weight="bold" text-anchor="middle">−</text>
+            <line x1="345" y1="75" x2="345" y2="105" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
+            <polygon points="345,110 340,100 350,100" fill="#f87171"/>
+            <text x="380" y="105" fill="#fca5a5" font-size="8" text-anchor="middle">F (sentido oposto)</text>
+          </svg>`
+      },
+      {
+        titulo: "Trajetória do elétron na região B",
+        legenda: "Velocidade horizontal constante + força vertical para baixo = trajetória curva descendente (análoga a um lançamento horizontal).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <line x1="40" y1="20" x2="40" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="40,20 36,28 44,28" fill="#38bdf8"/>
+            <line x1="110" y1="20" x2="110" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="110,20 106,28 114,28" fill="#38bdf8"/>
+            <line x1="180" y1="20" x2="180" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="180,20 176,28 184,28" fill="#38bdf8"/>
+            <line x1="250" y1="20" x2="250" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="250,20 246,28 254,28" fill="#38bdf8"/>
+            <line x1="20" y1="60" x2="300" y2="60" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="10" y="64" fill="#64748b" font-size="7" text-anchor="end">reta</text>
+            <path d="M 20 60 Q 150 65 300 110" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+            <circle cx="20" cy="60" r="8" fill="#fbbf24"/><text x="20" y="64" fill="#78350f" font-size="9" font-weight="bold" text-anchor="middle">−</text>
+            <text x="330" y="115" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">desvio para baixo</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa dos pontos na tela",
+        legenda: "3 é a linha central (sem desvio); 1 e 4 estão acima (desvio para cima); 2 está abaixo (desvio para baixo) — o resultado correto.",
+        svg: `
+          <svg viewBox="0 0 300 200" class="w-full h-auto">
+            <line x1="20" y1="100" x2="260" y2="100" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="10" y="104" fill="#64748b" font-size="7" text-anchor="end">B</text>
+
+            <circle cx="260" cy="30" r="8" fill="#334155"/><text x="260" y="34" fill="#cbd5e1" font-size="9" font-weight="bold" text-anchor="middle">1</text>
+            <text x="260" y="16" fill="#94a3b8" font-size="7" text-anchor="middle">↑↑ desvio forte p/ cima</text>
+
+            <circle cx="260" cy="60" r="8" fill="#334155"/><text x="260" y="64" fill="#cbd5e1" font-size="9" font-weight="bold" text-anchor="middle">4</text>
+            <text x="260" y="76" fill="#94a3b8" font-size="7" text-anchor="middle">↑ desvio p/ cima</text>
+
+            <circle cx="260" cy="100" r="9" fill="#334155" stroke="#64748b"/><text x="260" y="104" fill="#cbd5e1" font-size="10" font-weight="bold" text-anchor="middle">3</text>
+            <text x="200" y="118" fill="#94a3b8" font-size="7" text-anchor="middle">linha central (sem campo)</text>
+
+            <circle cx="260" cy="140" r="11" fill="#166534" stroke="#4ade80" stroke-width="2"/><text x="260" y="145" fill="#bbf7d0" font-size="11" font-weight="bold" text-anchor="middle">2</text>
+            <text x="260" y="160" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">✓ resposta correta</text>
+
+            <circle cx="260" cy="90" r="0" fill="none"/>
+          </svg>`
+      },
+      {
+        titulo: "Analogia: elétron em campo E ↔ projétil na gravidade",
+        legenda: "Assim como a gravidade curva a trajetória de um projétil lançado horizontalmente, a força elétrica curva a trajetória do elétron.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="10" y="10" width="210" height="120" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="115" y="30" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Projétil sob gravidade</text>
+            <path d="M 30 50 Q 100 55 200 110" fill="none" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="30" cy="50" r="6" fill="#94a3b8"/>
+            <text x="115" y="120" fill="#94a3b8" font-size="7" text-anchor="middle">força peso, sempre para baixo</text>
+
+            <rect x="240" y="10" width="210" height="120" rx="6" fill="#312e81" stroke="#a5b4fc" stroke-width="1.5"/>
+            <text x="345" y="30" fill="#e0e7ff" font-size="9" font-weight="bold" text-anchor="middle">Elétron no campo E</text>
+            <path d="M 260 50 Q 330 55 430 110" fill="none" stroke="#fbbf24" stroke-width="2"/>
+            <circle cx="260" cy="50" r="6" fill="#fbbf24"/>
+            <text x="345" y="120" fill="#e0e7ff" font-size="7" text-anchor="middle">força elétrica, oposta a E (E aponta p/ cima)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: desvio do elétron em um campo elétrico",
+      descricao: "Escolha o sinal da carga e o sentido do campo elétrico E e observe para onde a força — e, portanto, o desvio da trajetória — aponta.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sinal da carga:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q113carga" data-sim="carga" value="neg" checked class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Negativa (elétron)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q113carga" data-sim="carga" value="pos" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Positiva</span>
+              </label>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sentido do campo E:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q113campo" data-sim="campo" value="cima" checked class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Para cima (como na questão)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q113campo" data-sim="campo" value="baixo" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Para baixo</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 flex items-center justify-center">
+              <svg viewBox="0 0 220 140" class="w-full h-auto max-w-[220px]">
+                <line x1="30" y1="15" x2="30" y2="125" stroke="#38bdf8" stroke-width="1.5" data-svg="e1"/>
+                <line x1="80" y1="15" x2="80" y2="125" stroke="#38bdf8" stroke-width="1.5" data-svg="e2"/>
+                <line x1="130" y1="15" x2="130" y2="125" stroke="#38bdf8" stroke-width="1.5" data-svg="e3"/>
+                <line x1="180" y1="15" x2="180" y2="125" stroke="#38bdf8" stroke-width="1.5" data-svg="e4"/>
+                <circle cx="55" cy="70" r="12" data-svg="carga" fill="#fbbf24"/>
+                <text x="55" y="75" data-svg="sinal" fill="#78350f" font-size="13" font-weight="bold" text-anchor="middle">−</text>
+                <line x1="70" y1="70" x2="100" y2="70" stroke="#94a3b8" stroke-width="2"/><polygon points="100,70 93,65 93,75" fill="#94a3b8"/>
+                <line x1="55" y1="70" x2="55" y2="70" data-svg="forca" stroke="#f87171" stroke-width="3"/>
+              </svg>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radiosCarga = raiz.querySelectorAll('[data-sim="carga"]');
+        var radiosCampo = raiz.querySelectorAll('[data-sim="campo"]');
+        var setas = raiz.querySelectorAll('[data-svg="e1"],[data-svg="e2"],[data-svg="e3"],[data-svg="e4"]');
+        var forca = raiz.querySelector('[data-svg="forca"]');
+        var sinalEl = raiz.querySelector('[data-svg="sinal"]');
+        var cargaEl = raiz.querySelector('[data-svg="carga"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var carga = raiz.querySelector('[data-sim="carga"]:checked').value;
+          var campo = raiz.querySelector('[data-sim="campo"]:checked').value;
+
+          setas.forEach(function (s) {
+            var x = s.getAttribute('x1');
+            if (campo === 'cima') {
+              s.setAttribute('x1', x); s.setAttribute('y1', '125'); s.setAttribute('y2', '15');
+            } else {
+              s.setAttribute('y1', '15'); s.setAttribute('y2', '125');
+            }
+          });
+
+          sinalEl.textContent = carga === 'neg' ? '−' : '+';
+          cargaEl.setAttribute('fill', carga === 'neg' ? '#fbbf24' : '#f87171');
+          sinalEl.setAttribute('fill', carga === 'neg' ? '#78350f' : 'white');
+
+          var forcaParaCima = (carga === 'pos' && campo === 'cima') || (carga === 'neg' && campo === 'baixo');
+          if (forcaParaCima) {
+            forca.setAttribute('y1', '70'); forca.setAttribute('y2', '40');
+          } else {
+            forca.setAttribute('y1', '70'); forca.setAttribute('y2', '100');
+          }
+
+          var v = saida('veredito');
+          var direcao = forcaParaCima ? 'para CIMA' : 'para BAIXO';
+          var pontoTela = forcaParaCima ? 'acima da linha central (pontos 1 ou 4)' : 'abaixo da linha central (ponto 2, como na questão)';
+          v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-purple-500/40 bg-purple-950/30 text-purple-200';
+          v.innerHTML = 'Com carga <strong>' + (carga === 'neg' ? 'negativa' : 'positiva') + '</strong> e campo apontando para <strong>' + campo + '</strong>, a força elétrica aponta <strong>' + direcao + '</strong> — o feixe atingiria um ponto ' + pontoTela + '.';
+        }
+
+        radiosCarga.forEach(function (r) { r.addEventListener('change', atualizar); });
+        radiosCampo.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-tv"></i> Carga negativa + E para cima → Força para baixo → feixe atinge o ponto 2</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <line x1="60" y1="15" x2="60" y2="75" stroke="#38bdf8" stroke-width="2"/><polygon points="60,15 55,25 65,25" fill="#38bdf8"/>
+          <text x="60" y="10" fill="#7dd3fc" font-size="9" text-anchor="middle">E</text>
+          <circle cx="180" cy="45" r="14" fill="#fbbf24"/><text x="180" y="50" fill="#78350f" font-size="12" font-weight="bold" text-anchor="middle">−</text>
+          <line x1="200" y1="45" x2="240" y2="45" stroke="#94a3b8" stroke-width="2"/><polygon points="240,45 232,40 232,50" fill="#94a3b8"/>
+          <line x1="180" y1="60" x2="180" y2="80" stroke="#f87171" stroke-width="2.5"/><polygon points="180,84 175,74 185,74" fill="#f87171"/>
+          <text x="180" y="20" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">F para baixo</text>
+          <text x="400" y="50" fill="#6ee7b7" font-size="12" font-weight="bold" text-anchor="middle">Ponto 2</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
