@@ -6151,6 +6151,362 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q105",
+    numero: "Questão 105",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Físico-Química & Solubilidade de Gases",
+    materiaCor: "cyan",
+    materiaIcone: "fa-temperature-high",
+    titulo: "Poluição Térmica em Usinas Nucleares: Por que Água Mais Quente Dissolve Menos Oxigênio",
+    tags: ["Química", "Físico-Química", "Solubilidade de Gases", "Poluição Térmica", "Termoquímica", "Ecossistemas Aquáticos"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `As usinas termonucleares são aquelas que produzem energia elétrica a partir da geração de energia térmica proveniente das reações nucleares. Normalmente, essas usinas funcionam por meio de dois circuitos, denominados circuito primário (vaso de pressão, pressurizador e bomba) e circuito secundário (gerador de vapor, turbina, condensador, tanque de alimentação e bombas), além de um sistema de água de refrigeração, formado por uma bomba ligada a uma fonte hídrica natural.
+    <br><br>
+    Durante a operação da usina, se o sistema de água de refrigeração funcionar de forma ineficiente pode causar poluição térmica, comprometendo a vida no ecossistema aquático.
+    <br><br>
+    Disponível em: www.eletronuclear.gov.br. Acesso em: 29 nov. 2021 (adaptado).
+    <br><br>
+    Para o ecossistema aquático, a ineficiência do sistema de água de refrigeração tem como consequência a:`,
+
+    alternativas: [
+      { letra: "A", texto: "Diminuição do pH.", correta: false },
+      { letra: "B", texto: "Liberação de gases poluentes.", correta: false },
+      { letra: "C", texto: "Contaminação por combustíveis.", correta: false },
+      { letra: "D", texto: "Liberação de elementos radioativos.", correta: false },
+      { letra: "E", texto: "Diminuição da solubilidade do gás oxigênio.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a relação entre temperatura e solubilidade de gases cobrada no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Como funciona (por fora) uma usina termonuclear</h4>
+          <p>
+            O <strong>circuito primário</strong> troca calor diretamente com o reator nuclear. Esse calor é transferido, através de um gerador de vapor, para o <strong>circuito secundário</strong>: a água vira vapor, o vapor move a turbina (que gera eletricidade), e depois precisa ser resfriado e condensado de volta a líquido para reiniciar o ciclo. É aí que entra o <strong>sistema de água de refrigeração</strong>: ele retira calor do condensador do circuito secundário usando água de uma fonte natural (rio, lago, mar), e depois devolve essa água — agora mais quente — de volta ao ambiente.
+          </p>
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Ponto crucial de isolamento:</strong> a água de refrigeração troca calor pelas paredes do condensador — ela não entra em contato direto com o reator nem com material radioativo do circuito primário. Fisicamente, ela só recebe <strong>calor</strong>, nada mais.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> O que é poluição térmica</h4>
+          <p>
+            Se o sistema de refrigeração funciona mal (por exemplo, vazão insuficiente ou falha em dissipar o calor), a água devolvida ao corpo hídrico natural fica <strong>mais quente</strong> do que deveria. Esse aumento artificial de temperatura no ambiente aquático é chamado de <strong>poluição térmica</strong> — um tipo de poluição que não envolve substâncias químicas estranhas, apenas excesso de energia térmica.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que água mais quente dissolve menos gás</h4>
+          <p>
+            Para a maioria dos <strong>sólidos</strong> dissolvidos em água, aumentar a temperatura aumenta a solubilidade. Mas para <strong>gases</strong> dissolvidos em líquidos, a relação é o contrário: a solubilidade <strong>diminui</strong> com o aumento da temperatura.
+          </p>
+          <p>
+            A explicação está na energia cinética das moléculas: com mais calor, as moléculas do gás dissolvido ganham energia cinética suficiente para escapar mais facilmente da fase líquida, retornando à fase gasosa. É o mesmo motivo pelo qual um refrigerante gelado mantém o gás carbônico dissolvido (mais "gaseificado"), enquanto um refrigerante quente perde as bolhas rapidamente.
+          </p>
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Aplicando ao caso:</strong> água mais quente no rio ou lago dissolve <strong>menos oxigênio</strong> (O2) do ar. Isso reduz o oxigênio disponível para peixes e outros organismos aquáticos respirarem, comprometendo a vida no ecossistema.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Um paralelo útil: o mesmo efeito final, causas diferentes</h4>
+          <p>
+            Note a semelhança com a questão da eutrofização (queda de oxigênio dissolvido por consumo de decompositores): o efeito final — menos O2 para os organismos aquáticos — é parecido, mas a <strong>causa física</strong> aqui é totalmente diferente. Não há decomposição nem consumo biológico de oxigênio; é a própria física da solubilidade que muda com a temperatura.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Por que não é vazamento radioativo, químico ou de pH</h4>
+          <p>
+            O enunciado descreve uma falha específica: o <strong>sistema de água de refrigeração</strong> funcionando mal — não uma falha no circuito primário nem um vazamento de material radioativo ou combustível nuclear. Sem contato com esses materiais, a água de refrigeração não pode transportá-los para o ambiente. O único efeito físico direto de uma refrigeração ineficiente é o excesso de calor liberado — e sua consequência químico-física mais direta é justamente a queda de solubilidade de gases, incluindo o oxigênio.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-cyan-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique exatamente qual sistema falhou.</strong> É a refrigeração (troca de calor), não o reator nem o circuito primário. Isso já limita a consequência a algo térmico, não radioativo ou químico.
+            <br><br>
+            <strong>Passo 2 — Lembre a regra de solubilidade de gases em líquidos.</strong> Mais temperatura = menos gás dissolvido. Aplique isso ao oxigênio da água.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa E — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Diminuição da solubilidade do gás oxigênio." A poluição térmica eleva a temperatura da água natural. Como a solubilidade de gases em líquidos cai com o aumento da temperatura, menos O2 fica dissolvido — comprometendo diretamente a respiração dos organismos aquáticos, exatamente como o enunciado descreve.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — diminuição do pH</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar qualquer "poluição" a acidificação da água.
+              <br>
+              <strong>Onde quebra:</strong> a água de refrigeração não introduz ácidos nem espécies químicas novas — o efeito é puramente térmico. Não há mecanismo direto ligando o aumento de temperatura, por si só, a uma queda de pH nesse cenário.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — liberação de gases poluentes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que usinas em geral (termelétricas a combustível fóssil) liberam gases poluentes na queima.
+              <br>
+              <strong>Onde quebra:</strong> usinas nucleares não queimam combustível fóssil, e o sistema de refrigeração aqui descrito só troca calor — não gera nem libera gases poluentes.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — contaminação por combustíveis</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> imaginar vazamento de combustível nuclear junto com a água de resfriamento.
+              <br>
+              <strong>Onde quebra:</strong> o combustível nuclear fica isolado no circuito primário, sem contato com a água de refrigeração — a falha descrita é de troca de calor, não de contenção do combustível.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — liberação de elementos radioativos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> é a associação mais intuitiva com "usina nuclear" — muita gente marca essa por medo/preconceito com o tema, sem checar o mecanismo.
+              <br>
+              <strong>Onde quebra:</strong> o sistema de água de refrigeração é fisicamente separado do circuito primário radioativo; ele não tem contato com material radioativo. Uma falha nele causa aquecimento da água, não contaminação radioativa.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-cyan-950/30 rounded-xl border border-cyan-500/30">
+          <strong class="text-cyan-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As alternativas erradas exploram associações emocionais ou genéricas com "usina nuclear" e "poluição" (radioatividade, combustível, gases, acidez), sem verificar qual sistema específico falhou. A leitura cuidadosa do enunciado isola o problema em um único fenômeno físico: excesso de calor, que reduz a solubilidade de gases.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-temperature-high", titulo: "Poluição Térmica", text: "Aumento artificial da temperatura de um corpo d'água, sem introdução de substâncias químicas estranhas." },
+      { icone: "fa-droplet", titulo: "Solubilidade de Gases", text: "Ao contrário dos sólidos, a solubilidade de gases em líquidos diminui com o aumento da temperatura." },
+      { icone: "fa-fish", titulo: "Hipóxia por Aquecimento", text: "Menos O2 dissolvido em água mais quente prejudica a respiração de organismos aquáticos." },
+      { icone: "fa-shield-halved", titulo: "Isolamento entre Circuitos", text: "A água de refrigeração troca só calor com o condensador — não tem contato com material radioativo." },
+      { icone: "fa-arrows-split-up-and-left", titulo: "Circuito Primário x Secundário", text: "Primário troca calor com o reator; secundário gera vapor para a turbina; refrigeração resfria o secundário." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Os três sistemas da usina, isolados entre si",
+        legenda: "Circuito primário (radioativo, fechado), circuito secundário (gera vapor) e sistema de refrigeração (só troca calor com fonte hídrica externa).",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="20" y="30" width="120" height="80" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="80" y="55" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Circuito</text>
+            <text x="80" y="68" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">primário</text>
+            <text x="80" y="90" fill="#fca5a5" font-size="7" text-anchor="middle">(radioativo, fechado)</text>
+
+            <rect x="170" y="30" width="120" height="80" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="230" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Circuito</text>
+            <text x="230" y="68" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">secundário</text>
+            <text x="230" y="90" fill="#e2e8f0" font-size="7" text-anchor="middle">(vapor → turbina)</text>
+
+            <rect x="320" y="30" width="120" height="80" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+            <text x="380" y="55" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Refrigeração</text>
+            <text x="380" y="90" fill="#bae6fd" font-size="7" text-anchor="middle">(só troca calor)</text>
+
+            <text x="155" y="75" fill="#64748b" font-size="14" text-anchor="middle">|</text>
+            <text x="305" y="75" fill="#64748b" font-size="14" text-anchor="middle">|</text>
+          </svg>`
+      },
+      {
+        titulo: "Solubilidade do O2 em função da temperatura",
+        legenda: "Quanto mais quente a água, menos oxigênio ela consegue manter dissolvido — o oposto do que ocorre com a maioria dos sais sólidos.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="55" y1="140" x2="435" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="20" x2="55" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="48" y="26" fill="#94a3b8" font-size="8" text-anchor="end">O2 dissolvido</text>
+            <text x="430" y="158" fill="#94a3b8" font-size="8" text-anchor="end">temperatura</text>
+            <polyline points="65,45 150,60 240,85 330,110 425,130" fill="none" stroke="#38bdf8" stroke-width="3"/>
+            <circle cx="120" cy="65" r="4" fill="#34d399"/>
+            <text x="120" y="50" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">água natural</text>
+            <circle cx="360" cy="118" r="4" fill="#f87171"/>
+            <text x="360" y="105" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">água aquecida</text>
+          </svg>`
+      },
+      {
+        titulo: "Efeito na vida aquática",
+        legenda: "Com menos O2 dissolvido, peixes e outros organismos aquáticos têm dificuldade para respirar — mesmo sem qualquer substância tóxica na água.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="30" y="30" width="180" height="80" fill="#0c4a6e" opacity="0.4" stroke="#38bdf8" stroke-width="2"/>
+            <text x="120" y="20" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Água natural (fria)</text>
+            <circle cx="70" cy="60" r="3" fill="#e2e8f0"/>
+            <circle cx="95" cy="75" r="3" fill="#e2e8f0"/>
+            <circle cx="130" cy="55" r="3" fill="#e2e8f0"/>
+            <circle cx="160" cy="80" r="3" fill="#e2e8f0"/>
+            <circle cx="180" cy="60" r="3" fill="#e2e8f0"/>
+            <text x="120" y="100" fill="#bae6fd" font-size="8" text-anchor="middle">peixes respiram bem</text>
+
+            <rect x="250" y="30" width="180" height="80" fill="#450a0a" opacity="0.3" stroke="#f87171" stroke-width="2"/>
+            <text x="340" y="20" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Água aquecida</text>
+            <circle cx="290" cy="70" r="3" fill="#e2e8f0"/>
+            <circle cx="380" cy="65" r="3" fill="#e2e8f0"/>
+            <text x="340" y="100" fill="#fca5a5" font-size="8" text-anchor="middle">poucos peixes, hipóxia</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a solubilidade do oxigênio se relaciona diretamente com o mecanismo físico de uma refrigeração ineficiente.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Diminuição do pH</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Gases poluentes</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — Contaminação por combustíveis</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="123" fill="#e2e8f0" font-size="10">D — Elementos radioativos</text>
+            <text x="400" y="123" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="134" width="430" height="27" rx="5" fill="#0e7490" opacity="0.35"/>
+            <text x="30" y="152" fill="#67e8f9" font-size="10" font-weight="bold">E — Diminuição da solubilidade do O2</text>
+            <text x="400" y="152" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: temperatura da água x oxigênio dissolvido",
+      descricao: "Controle a eficiência da refrigeração e observe o efeito sobre a temperatura da água descartada e o oxigênio disponível para a vida aquática.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Eficiência da refrigeração</span><span class="text-cyan-300 font-bold" data-out="eficiencia">80%</span>
+              </label>
+              <input type="range" data-sim="eficiencia" min="0" max="100" value="80" step="5" class="w-full accent-cyan-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> 100% = refrigeração ideal; 0% = falha total, água devolvida muito quente.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-rose-300 font-bold">Temperatura da água descartada</span>
+                  <span class="text-rose-300 font-mono" data-out="temp">28°C</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="temp" class="h-full bg-rose-500 transition-all" style="width:20%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">O2 dissolvido disponível</span>
+                  <span class="text-sky-300 font-mono" data-out="o2">85%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="o2" class="h-full bg-sky-500 transition-all" style="width:85%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="eficiencia"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var ef = parseFloat(campo.value);
+          var temp = 20 + (100 - ef) * 0.3;
+          var o2 = Math.max(5, ef);
+
+          saida('eficiencia').textContent = ef.toFixed(0) + '%';
+          saida('temp').textContent = temp.toFixed(0) + '°C';
+          saida('o2').textContent = o2.toFixed(0) + '%';
+          barra('temp').style.width = Math.min(100, (temp - 20) / 30 * 100) + '%';
+          barra('o2').style.width = o2 + '%';
+
+          var v = saida('veredito');
+          if (ef >= 70) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Refrigeração eficiente.</strong> Água devolvida próxima da temperatura natural — oxigênio dissolvido em nível seguro para a vida aquática.';
+          } else if (ef >= 30) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Poluição térmica moderada.</strong> A água sai mais quente, e a solubilidade do O2 já começa a cair — estresse para organismos aquáticos.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Poluição térmica severa.</strong> Água muito mais quente que o natural, solubilidade do oxigênio despenca — risco real de hipóxia para peixes e outros organismos.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-temperature-high"></i> Refrigeração Ineficiente → Água Mais Quente → Menos O2 Dissolvido</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="140" height="40" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+          <text x="90" y="54" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Refrigeração falha</text>
+          <text x="220" y="54" fill="#22d3ee" font-size="14" text-anchor="middle">→</text>
+          <rect x="245" y="30" width="90" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="290" y="54" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Água + quente</text>
+          <text x="395" y="54" fill="#22d3ee" font-size="14" text-anchor="middle">→</text>
+          <text x="425" y="54" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">↓ O2</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
