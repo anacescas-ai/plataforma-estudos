@@ -5059,6 +5059,365 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q101",
+    numero: "Questão 101",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Fisiologia Sensorial & Visão",
+    materiaCor: "emerald",
+    materiaIcone: "fa-eye",
+    titulo: "Efeito Olho Vermelho: Como a Dilatação da Pupila no Escuro Revela os Vasos Sanguíneos da Retina",
+    tags: ["Biologia", "Fisiologia Sensorial", "Visão", "Pupila", "Retina", "Óptica do Olho"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `<strong>Por que os olhos ficam vermelhos em algumas fotografias?</strong>
+    <br><br>
+    Em fotos tiradas com câmeras fotográficas antigas, por vezes as pessoas aparecem com os olhos vermelhos. Isso ocorre porque a luz do flash da câmera incide diretamente no globo ocular, sendo refletida por uma região repleta de vasos sanguíneos.
+    <br><br>
+    Disponível em: www.uol.com.br. Acesso em: 14 jun. 2017 (adaptado).
+    <br><br>
+    Esse efeito é mais comum à noite ou em lugares pouco iluminados porque, com a pupila:`,
+
+    alternativas: [
+      { letra: "A", texto: "Dilatada, chega mais luz à retina.", correta: true },
+      { letra: "B", texto: "Retraída, chega mais luz vermelha à retina.", correta: false },
+      { letra: "C", texto: "Retraída, chega mais luz vermelha aos bastonetes.", correta: false },
+      { letra: "D", texto: "Dilatada, chegam menos luzes azul e verde aos cones.", correta: false },
+      { letra: "E", texto: "Dilatada, chegam menos luzes azul e verde aos bastonetes.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a anatomia do olho e o reflexo pupilar cobrados no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> A pupila como uma "abertura de câmera" viva</h4>
+          <p>
+            A <strong>pupila</strong> é o orifício central da íris por onde a luz entra no olho. A íris, através de músculos, controla o diâmetro da pupila em resposta à quantidade de luz disponível — exatamente como o diafragma de uma câmera fotográfica controla a abertura da lente.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Ambiente claro</strong>
+              A pupila se contrai (<strong>miose</strong>), diminuindo de diâmetro, para reduzir a quantidade de luz que entra e evitar ofuscamento.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Ambiente escuro</strong>
+              A pupila se dilata (<strong>midríase</strong>), aumentando de diâmetro, para captar o máximo de luz possível e permitir enxergar em condições de pouca luminosidade.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A retina e por que ela reflete vermelho</h4>
+          <p>
+            A <strong>retina</strong> é a camada fotossensível no fundo do olho, onde a luz é convertida em sinais nervosos. Logo atrás dela fica a <strong>coroide</strong>, uma camada extremamente rica em vasos sanguíneos, que nutre a retina com oxigênio e nutrientes. Quando um flash de luz forte incide diretamente sobre essa região, parte da luz é refletida de volta para fora do olho — e, ao passar por essa camada cheia de sangue, a luz refletida assume a coloração avermelhada característica do efeito "olho vermelho".
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que o efeito é mais forte no escuro</h4>
+          <p>
+            Em ambientes pouco iluminados, a pupila já está dilatada (midríase) tentando captar mais luz. Quando o flash da câmera dispara de repente, ele encontra uma "abertura" muito maior do que encontraria em um ambiente claro (onde a pupila estaria contraída). Uma pupila maior deixa entrar <strong>mais luz do flash</strong> até a retina — e, na volta, deixa sair <strong>mais luz refletida</strong> pela coroide vascularizada, tornando o reflexo vermelho muito mais visível na fotografia.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Resumo da causa-efeito:</strong> escuro → pupila dilata → mais luz do flash entra e atinge a retina → mais luz reflete de volta pela camada vascularizada → efeito olho vermelho mais intenso.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Cones e bastonetes: papéis diferentes, sem relação direta com o efeito</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Cones</strong>
+              Fotorreceptores responsáveis pela visão de cores e pela nitidez, funcionam melhor com luz intensa (visão fotópica).
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Bastonetes</strong>
+              Fotorreceptores muito mais sensíveis à luz fraca, responsáveis pela visão em ambientes escuros (visão escotópica) — mas <strong>não distinguem cores</strong>, só captam intensidade luminosa.
+            </div>
+          </div>
+          <p>
+            Esses fotorreceptores são responsáveis por gerar o sinal nervoso da visão — não são a causa da reflexão vermelha, que é um fenômeno óptico ligado à coroide vascularizada, não à ativação de cones ou bastonetes.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Lembre a direção correta do reflexo pupilar.</strong> No escuro, a pupila dilata (não retrai) para captar mais luz — isso já elimina B e C de cara.
+            <br><br>
+            <strong>Passo 2 — Ligue "pupila maior" a "mais luz alcançando a retina".</strong> O próprio texto do enunciado já explica que a cor vem da reflexão em uma região vascularizada (a retina/coroide) — a explicação mais direta é que mais luz chega até lá.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Dilatada, chega mais luz à retina." No escuro, a pupila se dilata para captar o máximo de luz possível. Quando o flash dispara, essa abertura maior permite que mais luz atinja a retina (e a coroide vascularizada logo atrás dela), aumentando a quantidade de luz refletida de volta — e, com ela, a intensidade do reflexo avermelhado captado pela câmera.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — retraída, chega mais luz vermelha à retina</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> confundir a direção do reflexo pupilar, ou associar "retraída" a algum tipo de foco mais preciso.
+              <br>
+              <strong>Onde quebra:</strong> em ambientes escuros a pupila se <strong>dilata</strong>, não retrai. Uma pupila retraída (contraída) deixaria passar <em>menos</em> luz, o que tornaria o efeito menos intenso, não mais.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — retraída, chega mais luz vermelha aos bastonetes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> misturar "bastonetes" (que realmente predominam na visão noturna) com a direção errada do reflexo pupilar.
+              <br>
+              <strong>Onde quebra:</strong> mesma falha da alternativa B quanto à pupila retraída, além de atribuir a "luz vermelha" chegando aos bastonetes um papel que não é o mecanismo do efeito fotográfico descrito.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — dilatada, chegam menos luzes azul e verde aos cones</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> acertar a direção da pupila (dilatada), mas inventar uma explicação sobre filtragem seletiva de cores pelos cones.
+              <br>
+              <strong>Onde quebra:</strong> o efeito olho vermelho não depende de os cones receberem mais ou menos luz azul/verde — é um fenômeno de reflexão física na coroide vascularizada, não de processamento de cor pelos fotorreceptores.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — dilatada, chegam menos luzes azul e verde aos bastonetes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> mesma lógica da alternativa D, mas trocando cones por bastonetes.
+              <br>
+              <strong>Onde quebra:</strong> além de não ser o mecanismo do efeito, os bastonetes nem sequer distinguem cores — não faz sentido biológico falar em "luz azul e verde chegando aos bastonetes" de forma seletiva, já que eles só captam intensidade luminosa, não comprimento de onda.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Duas alternativas erram a direção do reflexo pupilar (retraída em vez de dilatada); as outras duas acertam a direção, mas inventam um mecanismo de filtragem de cor por cones ou bastonetes que não existe nesse fenômeno. A explicação real é a mais simples: pupila maior, mais luz entra e sai, reflexo mais visível.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-eye", titulo: "Midríase e Miose", text: "Dilatação (midríase, no escuro) e contração (miose, na claridade) da pupila, controladas pela íris." },
+      { icone: "fa-circle-dot", titulo: "Retina e Coroide", text: "A retina capta a luz; a coroide, logo atrás, é rica em vasos sanguíneos e reflete a coloração avermelhada." },
+      { icone: "fa-bolt-lightning", titulo: "Flash + Pupila Dilatada", text: "No escuro, a pupila maior deixa entrar e refletir mais luz, intensificando o efeito olho vermelho." },
+      { icone: "fa-palette", titulo: "Cones", text: "Fotorreceptores da visão de cor, ativos em luz intensa — não são a causa do reflexo vermelho." },
+      { icone: "fa-moon", titulo: "Bastonetes", text: "Fotorreceptores sensíveis à luz fraca, mas sem discriminação de cor — dominam a visão noturna." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Pupila contraída x dilatada",
+        legenda: "No escuro, a pupila se dilata para captar mais luz — como abrir mais o diafragma de uma câmera.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Ambiente claro</text>
+            <circle cx="115" cy="90" r="60" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="115" cy="90" r="55" fill="none" stroke="#38bdf8" stroke-width="8"/>
+            <circle cx="115" cy="90" r="15" fill="#0f172a"/>
+            <text x="115" y="145" fill="#94a3b8" font-size="8" text-anchor="middle">pupila pequena (miose)</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Ambiente escuro</text>
+            <circle cx="345" cy="90" r="60" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="345" cy="90" r="55" fill="none" stroke="#38bdf8" stroke-width="8"/>
+            <circle cx="345" cy="90" r="35" fill="#0f172a"/>
+            <text x="345" y="145" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">pupila grande (midríase)</text>
+          </svg>`
+      },
+      {
+        titulo: "Trajeto da luz do flash até a retina e de volta",
+        legenda: "Com a pupila dilatada, mais luz do flash entra, atinge a retina/coroide vascularizada, e mais luz refletida sai — intensificando o vermelho na foto.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="30" y="55" width="60" height="40" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="60" y="78" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Flash</text>
+            <line x1="90" y1="75" x2="200" y2="75" stroke="#fde68a" stroke-width="3" marker-end="url(#pq101)"/>
+
+            <circle cx="280" cy="75" r="55" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <circle cx="280" cy="75" r="30" fill="#0f172a"/>
+            <path d="M 250 75 A 30 30 0 1 1 310 75" stroke="#f87171" stroke-width="6" fill="none"/>
+            <text x="280" y="130" fill="#94a3b8" font-size="8" text-anchor="middle">retina/coroide vascularizada</text>
+
+            <line x1="230" y1="55" x2="140" y2="35" stroke="#f87171" stroke-width="3" marker-end="url(#pq101)"/>
+            <text x="180" y="30" fill="#fca5a5" font-size="8" font-weight="bold">reflexo vermelho na câmera</text>
+            <defs>
+              <marker id="pq101" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+                <path d="M0,0 L7,3.5 L0,7 Z" fill="#fde68a"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Cones x bastonetes: papéis diferentes",
+        legenda: "Cones enxergam cor sob luz forte; bastonetes enxergam em preto e branco sob luz fraca. Nenhum dos dois é a causa do reflexo vermelho.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Cones</text>
+            <rect x="40" y="35" width="150" height="70" rx="6" fill="#450a0a" opacity="0.3" stroke="#f87171" stroke-width="2"/>
+            <circle cx="80" cy="65" r="8" fill="#f87171"/>
+            <circle cx="115" cy="65" r="8" fill="#34d399"/>
+            <circle cx="150" cy="65" r="8" fill="#38bdf8"/>
+            <text x="115" y="90" fill="#fca5a5" font-size="8" text-anchor="middle">visão de cor, luz forte</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Bastonetes</text>
+            <rect x="270" y="35" width="150" height="70" rx="6" fill="#1e293b" stroke="#94a3b8" stroke-width="2"/>
+            <circle cx="345" cy="65" r="8" fill="#cbd5e1"/>
+            <text x="345" y="90" fill="#cbd5e1" font-size="8" text-anchor="middle">preto e branco, luz fraca</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Duas erram a direção da pupila; duas acertam a pupila dilatada mas inventam um mecanismo de cor que não existe nesse fenômeno.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <rect x="15" y="30" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="48" fill="#6ee7b7" font-size="10" font-weight="bold">A — Dilatada, mais luz à retina</text>
+            <text x="400" y="48" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="75" fill="#e2e8f0" font-size="10">B — Retraída, mais luz vermelha</text>
+            <text x="400" y="75" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="101" fill="#e2e8f0" font-size="10">C — Retraída, luz aos bastonetes</text>
+            <text x="400" y="101" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="127" fill="#e2e8f0" font-size="10">D — Dilatada, menos cor aos cones</text>
+            <text x="400" y="127" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="153" fill="#e2e8f0" font-size="10">E — Dilatada, menos cor aos bastonetes</text>
+            <text x="400" y="153" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: ajuste a luminosidade e veja o efeito no olho vermelho",
+      descricao: "Controle o quão escuro está o ambiente e observe o diâmetro da pupila mudar — e, com ele, a intensidade do reflexo vermelho ao disparar o flash.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Luminosidade do ambiente</span><span class="text-emerald-300 font-bold" data-out="luz">30%</span>
+              </label>
+              <input type="range" data-sim="luz" min="0" max="100" value="30" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> 0% = escuro total, 100% = ambiente bem iluminado.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 flex items-center justify-center">
+              <svg viewBox="0 0 200 200" class="w-32 h-32">
+                <circle cx="100" cy="100" r="90" fill="#f1f5f9" stroke="#94a3b8" stroke-width="3"/>
+                <circle cx="100" cy="100" r="80" fill="none" stroke="#38bdf8" stroke-width="12"/>
+                <circle data-out="pupilaSvg" cx="100" cy="100" r="40" fill="#0f172a"/>
+              </svg>
+            </div>
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+              <div class="flex justify-between text-[11px] mb-1">
+                <span class="text-rose-300 font-bold">Intensidade do reflexo vermelho</span>
+                <span class="text-rose-300 font-mono" data-out="reflexo">55%</span>
+              </div>
+              <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                <div data-bar="reflexo" class="h-full bg-rose-500 transition-all" style="width:55%"></div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="luz"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+        var pupila = raiz.querySelector('[data-out="pupilaSvg"]');
+
+        function atualizar() {
+          var luz = parseFloat(campo.value);
+          var raioPupila = 15 + (100 - luz) * 0.35;
+          var reflexo = Math.max(5, 100 - luz);
+
+          saida('luz').textContent = luz.toFixed(0) + '%';
+          saida('reflexo').textContent = reflexo.toFixed(0) + '%';
+          barra('reflexo').style.width = reflexo + '%';
+          pupila.setAttribute('r', raioPupila.toFixed(0));
+
+          var v = saida('veredito');
+          if (luz >= 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Ambiente claro.</strong> Pupila contraída — pouco espaço para o flash entrar e refletir, efeito olho vermelho quase imperceptível.';
+          } else if (luz >= 25) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Penumbra.</strong> Pupila já dilatando — o reflexo começa a ficar visível nas fotos com flash.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Ambiente escuro.</strong> Pupila bem dilatada — máxima entrada e saída de luz do flash pela retina vascularizada, efeito olho vermelho no auge.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-eye"></i> Escuro → Pupila Dilata → Mais Luz na Retina → Mais Reflexo Vermelho</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="15" y="30" width="100" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+          <text x="65" y="54" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Escuro</text>
+          <text x="130" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <rect x="150" y="30" width="110" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="205" y="54" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Pupila dilata</text>
+          <text x="275" y="54" fill="#34d399" font-size="14" text-anchor="middle">→</text>
+          <rect x="295" y="30" width="150" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="370" y="54" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Mais reflexo vermelho</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
