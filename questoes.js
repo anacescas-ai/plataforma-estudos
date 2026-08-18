@@ -4313,6 +4313,385 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q099",
+    numero: "Questão 99",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Evolução Convergente",
+    materiaCor: "emerald",
+    materiaIcone: "fa-map-location-dot",
+    titulo: "Convergência Evolutiva e Biomas Análogos: Por que Procurar o Monstro-de-Gila Brasileiro na Caatinga",
+    tags: ["Biologia", "Ecologia", "Evolução Convergente", "Biomas Brasileiros", "Adaptação", "Biogeografia"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O monstro de gila, um lagarto encontrado em um deserto dos Estados Unidos, apresenta adaptações à falta de alimento nesse ambiente. Esse lagarto possui um hormônio que controla os níveis de açúcar em seu próprio sangue. Foi observado que esse hormônio também controla os níveis de açúcar no sangue de pessoas diabéticas.
+    <br><br>
+    RUSSELL, C. Ozempic e outros remédios inspirados em veneno de animais. Disponível em: www.bbc.com. Acesso em: 6 dez. 2024 (adaptado).
+    <br><br>
+    Considerando que animais de um mesmo grupo taxonômico podem apresentar características adaptativas semelhantes em ambientes similares, onde seria mais provável encontrar lagartos com essas características adaptativas no território brasileiro?`,
+
+    alternativas: [
+      { letra: "A", texto: "Cerrado.", correta: false },
+      { letra: "B", texto: "Pampas.", correta: false },
+      { letra: "C", texto: "Caatinga.", correta: true },
+      { letra: "D", texto: "Restinga.", correta: false },
+      { letra: "E", texto: "Pantanal.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre convergência evolutiva e a comparação entre biomas brasileiros cobrada no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Quem é o monstro-de-gila e por que ele importa para a medicina</h4>
+          <p>
+            O monstro-de-gila (<em>Heloderma suspectum</em>) é um lagarto peçonhento de desertos da América do Norte. Em ambientes desérticos, o alimento é escasso e imprevisível — o animal pode passar longos períodos sem se alimentar. Uma das adaptações fisiológicas a essa escassez envolve um hormônio (a exendina-4, presente em sua saliva/veneno) que regula os níveis de açúcar no sangue de forma muito eficiente. Cientistas usaram esse hormônio como base para desenvolver medicamentos análogos ao GLP-1 (como o Ozempic), usados no tratamento de diabetes em humanos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Convergência evolutiva: mesma pressão, adaptação parecida</h4>
+          <p>
+            A questão não pergunta sobre a espécie exata do monstro-de-gila (que não ocorre no Brasil), mas usa um princípio ecológico-evolutivo importante: quando animais de um mesmo grupo taxonômico amplo (aqui, "lagartos") enfrentam <strong>pressões ambientais semelhantes</strong> — como escassez extrema e imprevisível de alimento — em lugares diferentes do planeta, é comum que evoluam <strong>soluções adaptativas parecidas</strong>, mesmo sem parentesco próximo. Isso é <strong>convergência evolutiva</strong>.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Tradução da pergunta:</strong> "em qual bioma brasileiro o ambiente se parece mais com um deserto, a ponto de favorecer, em lagartos locais, adaptações metabólicas parecidas com as do monstro-de-gila?"
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O que caracteriza um ambiente "tipo deserto"</h4>
+          <p>
+            O elemento central do habitat do monstro-de-gila não é a temperatura em si, mas a <strong>escassez e imprevisibilidade de água e alimento</strong>. Um bioma brasileiro funcionalmente parecido precisa ter chuvas escassas e irregulares, vegetação adaptada à seca (xerófita) e produtividade biológica baixa boa parte do ano.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Comparando os biomas brasileiros citados</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-emerald-950/30 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Caatinga</strong>
+              Único bioma exclusivamente brasileiro. Clima semiárido, chuvas escassas e muito irregulares, longos períodos de seca, vegetação xerófita (cactos, arbustos espinhosos, plantas caducifólias). É o bioma brasileiro mais próximo, em termos funcionais, de um deserto.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Cerrado</strong>
+              Savana tropical com estação seca bem definida, mas também estação chuvosa regular e razoável disponibilidade de água no subsolo (raízes profundas). Seco, mas não no mesmo nível de escassez extrema.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Pampas</strong>
+              Campos do Sul do Brasil, clima subtropical, chuvas bem distribuídas ao longo do ano, solos férteis — ambiente úmido, não escasso.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Restinga</strong>
+              Ecossistema costeiro sobre solo arenoso, mas com lençol freático raso e forte influência da umidade marinha — apesar da aparência de solo pobre, não é um ambiente de escassez hídrica como um deserto.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Pantanal</strong>
+              Planície sazonalmente inundável, com grande disponibilidade de água na maior parte do ano — o oposto de um ambiente desértico.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> A conclusão biogeográfica</h4>
+          <p>
+            Entre as opções, a <strong>Caatinga</strong> é, de longe, o bioma brasileiro com o regime de escassez de água e alimento mais parecido com o de um deserto. É lá que a pressão seletiva por adaptações metabólicas de resistência à fome prolongada — como um hormônio eficiente de controle glicêmico — seria mais provável de evoluir em lagartos locais, por convergência evolutiva com o monstro-de-gila.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique a pressão ambiental central.</strong> Não é "calor" nem "areia" — é escassez extrema e imprevisível de alimento e água.
+            <br><br>
+            <strong>Passo 2 — Compare os cinco biomas quanto a essa mesma pressão.</strong> O que mais se parece com um deserto nesse critério vence, independentemente de outras semelhanças superficiais (como solo arenoso na restinga).
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Caatinga." É o único bioma exclusivamente brasileiro com clima semiárido, chuvas escassas e irregulares e vegetação adaptada à seca extrema — o ambiente mais próximo de um deserto entre as opções, e por isso o mais provável de favorecer, por convergência evolutiva, lagartos com adaptações metabólicas semelhantes às do monstro-de-gila.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Cerrado</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que o Cerrado tem estação seca e vegetação retorcida, associando isso a "ambiente árido".
+              <br>
+              <strong>Onde quebra:</strong> o Cerrado tem estação chuvosa regular e bem definida, além de lençol freático acessível por raízes profundas — a escassez é sazonal e previsível, bem menos severa que num deserto.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Pampas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> confundir "campos abertos" com "ambiente árido".
+              <br>
+              <strong>Onde quebra:</strong> os Pampas têm clima subtropical úmido, chuvas bem distribuídas e solos férteis — é um dos biomas brasileiros menos parecidos com um deserto.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Restinga</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar solo arenoso a "deserto" pela aparência visual.
+              <br>
+              <strong>Onde quebra:</strong> apesar do solo arenoso, a restinga fica sobre lençol freático raso e recebe forte influência de umidade marinha — não há a escassez hídrica severa característica de um deserto.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Pantanal</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> nenhum sinal óbvio de erro à primeira vista, mas é a alternativa mais distante logicamente.
+              <br>
+              <strong>Onde quebra:</strong> o Pantanal é uma planície sazonalmente inundável, com grande disponibilidade de água na maior parte do ano — é praticamente o oposto de um ambiente desértico.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Cada bioma errado tem alguma característica que pode lembrar superficialmente um ambiente árido (vegetação retorcida, campos abertos, solo arenoso), mas nenhum reproduz a escassez hídrica extrema e crônica de um deserto como a Caatinga reproduz. Questões de convergência evolutiva pedem sempre para comparar a <strong>pressão ambiental real</strong>, não a aparência do bioma.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-dna", titulo: "Convergência Evolutiva", text: "Espécies não aparentadas desenvolvem adaptações semelhantes ao enfrentar pressões ambientais parecidas." },
+      { icone: "fa-droplet-slash", titulo: "Escassez como pressão seletiva", text: "Ambientes com alimento e água escassos e imprevisíveis favorecem adaptações metabólicas de resistência à fome." },
+      { icone: "fa-map", titulo: "Caatinga", text: "Único bioma exclusivamente brasileiro; clima semiárido, o mais próximo de um deserto entre os biomas do país." },
+      { icone: "fa-hand-holding-medical", titulo: "Do veneno ao remédio", text: "A exendina-4 do monstro-de-gila inspirou medicamentos análogos ao GLP-1 usados no tratamento de diabetes." },
+      { icone: "fa-scale-balanced", titulo: "Pressão real x aparência", text: "Compare o mecanismo ecológico (escassez de recursos), não semelhanças visuais superficiais entre biomas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Convergência evolutiva: mesma pressão, lugares diferentes",
+        legenda: "O monstro-de-gila, no deserto americano, e um lagarto hipotético na Caatinga enfrentam a mesma pressão de escassez de alimento — e podem evoluir soluções metabólicas parecidas.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Deserto (EUA)</text>
+            <ellipse cx="115" cy="90" rx="90" ry="45" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+            <text x="115" y="85" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Monstro-de-gila</text>
+            <text x="115" y="100" fill="#fde68a" font-size="8" text-anchor="middle">hormônio de controle glicêmico</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Caatinga (Brasil)</text>
+            <ellipse cx="345" cy="90" rx="90" ry="45" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="345" y="85" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">Lagarto local</text>
+            <text x="345" y="100" fill="#d1fae5" font-size="8" text-anchor="middle">adaptação metabólica análoga?</text>
+
+            <text x="230" y="95" fill="#64748b" font-size="14" text-anchor="middle">≈</text>
+            <text x="230" y="112" fill="#64748b" font-size="7" text-anchor="middle">mesma pressão:</text>
+            <text x="230" y="123" fill="#64748b" font-size="7" text-anchor="middle">escassez de alimento</text>
+          </svg>`
+      },
+      {
+        titulo: "Disponibilidade de água ao longo do ano",
+        legenda: "A Caatinga se destaca pela escassez crônica e irregular de chuva — muito mais próxima do regime de um deserto que os demais biomas citados.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <line x1="55" y1="160" x2="435" y2="160" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="20" x2="55" y2="160" stroke="#64748b" stroke-width="2"/>
+            <text x="48" y="26" fill="#94a3b8" font-size="8" text-anchor="end">água</text>
+
+            <rect x="75" y="70" width="50" height="90" fill="#0d9488"/>
+            <text x="100" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">Cerrado</text>
+
+            <rect x="145" y="45" width="50" height="115" fill="#0891b2"/>
+            <text x="170" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">Pampas</text>
+
+            <rect x="215" y="125" width="50" height="35" fill="#84cc16"/>
+            <text x="240" y="175" fill="#a3e635" font-size="8" font-weight="bold" text-anchor="middle">Caatinga</text>
+
+            <rect x="285" y="55" width="50" height="105" fill="#38bdf8"/>
+            <text x="310" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">Restinga</text>
+
+            <rect x="355" y="30" width="50" height="130" fill="#0ea5e9"/>
+            <text x="380" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">Pantanal</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa dos biomas brasileiros citados",
+        legenda: "Posição aproximada de cada bioma no território brasileiro — útil para lembrar que a Caatinga concentra-se no semiárido nordestino.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <path d="M 120 20 L 340 20 L 380 80 L 360 160 L 260 190 L 140 180 L 90 100 Z" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <ellipse cx="290" cy="70" rx="55" ry="35" fill="#84cc16" opacity="0.7"/>
+            <text x="290" y="74" fill="#1a2e05" font-size="9" font-weight="bold" text-anchor="middle">Caatinga</text>
+            <ellipse cx="220" cy="120" rx="55" ry="35" fill="#0d9488" opacity="0.6"/>
+            <text x="220" y="124" fill="#f0fdfa" font-size="9" font-weight="bold" text-anchor="middle">Cerrado</text>
+            <ellipse cx="330" cy="140" rx="35" ry="25" fill="#0ea5e9" opacity="0.6"/>
+            <text x="330" y="144" fill="#f0f9ff" font-size="8" font-weight="bold" text-anchor="middle">Pantanal</text>
+            <ellipse cx="180" cy="175" rx="35" ry="20" fill="#0891b2" opacity="0.6"/>
+            <text x="180" y="178" fill="#f0f9ff" font-size="8" font-weight="bold" text-anchor="middle">Pampas</text>
+            <text x="365" y="100" fill="#38bdf8" font-size="8" font-weight="bold">Restinga →</text>
+            <text x="365" y="112" fill="#94a3b8" font-size="7">(faixa costeira)</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a Caatinga combina escassez crônica de água e alimento, comparável à pressão ambiental do deserto do monstro-de-gila.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Bioma</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Cerrado</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Pampas</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="80" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="98" fill="#6ee7b7" font-size="10" font-weight="bold">C — Caatinga</text>
+            <text x="400" y="98" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="124" fill="#e2e8f0" font-size="10">D — Restinga</text>
+            <text x="400" y="124" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Pantanal</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: compare a escassez hídrica dos biomas",
+      descricao: "Escolha um bioma brasileiro e veja o quanto seu regime de água e alimento se parece com o de um deserto — quanto mais parecido, maior a chance de convergência evolutiva com o monstro-de-gila.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha um bioma:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q99bioma" data-sim="bioma" value="cerrado" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Cerrado</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q99bioma" data-sim="bioma" value="pampas" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Pampas</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q99bioma" data-sim="bioma" value="caatinga" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Caatinga</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q99bioma" data-sim="bioma" value="restinga" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Restinga</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q99bioma" data-sim="bioma" value="pantanal" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Pantanal</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+              <div class="flex justify-between text-[11px] mb-1">
+                <span class="text-amber-300 font-bold">Semelhança com regime desértico</span>
+                <span class="text-amber-300 font-mono" data-out="semelhanca">85%</span>
+              </div>
+              <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                <div data-bar="semelhanca" class="h-full bg-amber-500 transition-all" style="width:85%"></div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="bioma"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        var valores = {
+          cerrado: { pct: 40, texto: 'Estação seca definida, mas com chuvas regulares e raízes que alcançam água profunda. Escassez moderada e previsível.' },
+          pampas: { pct: 10, texto: 'Clima subtropical úmido, chuvas bem distribuídas. Um dos ambientes menos parecidos com deserto entre os citados.' },
+          caatinga: { pct: 85, texto: 'Semiárido, chuvas escassas e irregulares, vegetação xerófita. O bioma brasileiro mais próximo funcionalmente de um deserto.' },
+          restinga: { pct: 20, texto: 'Solo arenoso, mas lençol freático raso e umidade marinha constante — a aparência engana, não há escassez hídrica severa.' },
+          pantanal: { pct: 5, texto: 'Planície sazonalmente inundável, com grande disponibilidade de água na maior parte do ano. Praticamente o oposto de um deserto.' }
+        };
+
+        function atualizar() {
+          var bioma = 'caatinga';
+          radios.forEach(function (r) { if (r.checked) bioma = r.value; });
+          var d = valores[bioma];
+
+          saida('semelhanca').textContent = d.pct + '%';
+          barra('semelhanca').style.width = d.pct + '%';
+
+          var v = saida('veredito');
+          if (bioma === 'caatinga') {
+            barra('semelhanca').className = 'h-full bg-emerald-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+          } else if (d.pct >= 35) {
+            barra('semelhanca').className = 'h-full bg-amber-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+          } else {
+            barra('semelhanca').className = 'h-full bg-rose-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+          }
+          v.innerHTML = '<strong>' + bioma.charAt(0).toUpperCase() + bioma.slice(1) + ':</strong> ' + d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-map-location-dot"></i> Mesma Pressão de Escassez → Adaptação Metabólica Convergente</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="140" height="40" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+          <text x="90" y="54" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Deserto (EUA)</text>
+          <text x="220" y="54" fill="#34d399" font-size="14" text-anchor="middle">≈</text>
+          <rect x="245" y="30" width="90" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="290" y="54" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Escassez</text>
+          <text x="395" y="54" fill="#34d399" font-size="14" text-anchor="middle">≈</text>
+          <text x="420" y="54" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Caatinga</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
