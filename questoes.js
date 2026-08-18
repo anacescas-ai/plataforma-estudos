@@ -7720,6 +7720,352 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q110",
+    numero: "Questão 110",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Química Nuclear & Radioatividade",
+    materiaCor: "cyan",
+    materiaIcone: "fa-radiation",
+    titulo: "Decaimento Radioativo do Cobalto-60: Meia-Vida ao Longo de 26,5 Anos",
+    tags: ["Química", "Química Nuclear", "Radioatividade", "Meia-Vida", "Decaimento Exponencial", "Cobalto-60"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A química nuclear é uma importante ferramenta na produção de substâncias utilizadas na área da saúde humana. A radiação emitida pelo cobalto-60 é utilizada na medicina como ferramenta de diagnóstico e no tratamento do câncer. No entanto, esse radioisótopo tem um tempo de armazenamento limitado, pois seu tempo de meia-vida é de <strong>5,3 anos</strong>. Considere um frasco com uma amostra contendo <strong>2,00 mg</strong> de cobalto-60, armazenado durante um período de <strong>26,5 anos</strong>.
+    <br><br>
+    A massa de cobalto-60, em miligrama, que restará ao final desse tempo é mais próxima de`,
+
+    alternativas: [
+      { letra: "A", texto: "2,00 mg.", correta: false },
+      { letra: "B", texto: "1,00 mg.", correta: false },
+      { letra: "C", texto: "0,40 mg.", correta: false },
+      { letra: "D", texto: "0,13 mg.", correta: false },
+      { letra: "E", texto: "0,06 mg.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre como funciona a meia-vida e por que decaimento radioativo é <strong>exponencial</strong>, não linear — essa é a confusão que a maioria das alternativas erradas explora.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O que é meia-vida (t½)</h4>
+          <p>
+            <strong>Meia-vida</strong> é o tempo necessário para que <strong>metade</strong> dos átomos de uma amostra radioativa decaia (se transforme em outro elemento/isótopo, emitindo radiação). É uma propriedade fixa de cada radioisótopo: não importa quanto material você tem — depois de um intervalo igual à meia-vida, sempre resta exatamente metade da massa (ou da quantidade de átomos) que havia antes.
+          </p>
+          <p>
+            O cobalto-60, usado em radioterapia contra o câncer e em irradiadores industriais, tem meia-vida de <strong>5,3 anos</strong>. Isso significa: a cada 5,3 anos que passam, a quantidade de cobalto-60 ativo na amostra cai pela metade — não importa se você começou com 2 mg ou 2 kg.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Por que é uma queda exponencial, não linear</h4>
+          <p>
+            O erro mais comum é pensar que a massa cai em "fatias iguais" ao longo do tempo — como se em cada meia-vida a amostra perdesse sempre a mesma quantidade de miligramas. Isso está errado: o que se mantém constante é a <strong>fração</strong> que sobra (metade), não a quantidade absoluta perdida.
+          </p>
+          <p>
+            Por isso a massa remanescente segue uma <strong>curva exponencial decrescente</strong>: cai rápido no início (em termos absolutos) e cada vez mais devagar depois, porque a cada passo você está tirando a metade de uma quantidade já menor.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> A fórmula da meia-vida</h4>
+          <p>
+            A massa remanescente após um tempo <code>t</code> é dada por:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            m(t) = m₀ × (1/2)<sup>t / t½</sup>
+          </div>
+          <p>
+            Onde <code>m₀</code> é a massa inicial, <code>t</code> é o tempo decorrido e <code>t½</code> é a meia-vida. O expoente <code>t / t½</code> é simplesmente <strong>quantas meias-vidas se passaram</strong> — e é esse número inteiro (ou fracionário) que você eleva o fator 1/2.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Contando as meias-vidas do cobalto-60</h4>
+          <p>
+            Tempo decorrido: 26,5 anos. Meia-vida: 5,3 anos. Número de meias-vidas:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n = 26,5 / 5,3 = 5
+          </div>
+          <p>
+            Passaram-se exatamente <strong>5 meias-vidas</strong> — um número redondo, o que é a pista de que a questão foi desenhada para se resolver por halvings sucessivos, sem precisar de calculadora científica.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Aplicando as 5 divisões por 2, uma a uma</h4>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">Meia-vida nº</th>
+                <th class="text-left py-1">Tempo acumulado</th>
+                <th class="text-right py-1">Massa restante</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">0</td><td>0 anos</td><td class="text-right">2,00 mg</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">1</td><td>5,3 anos</td><td class="text-right">1,00 mg</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">2</td><td>10,6 anos</td><td class="text-right">0,50 mg</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">3</td><td>15,9 anos</td><td class="text-right">0,25 mg</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">4</td><td>21,2 anos</td><td class="text-right">0,125 mg</td></tr>
+              <tr class="border-b border-cyan-500/40 text-cyan-300 font-bold"><td class="py-1">5</td><td>26,5 anos</td><td class="text-right">0,0625 mg ≈ 0,06 mg</td></tr>
+            </tbody>
+          </table>
+          <p>
+            Cada linha divide a massa da linha anterior por 2. Depois de 5 divisões sucessivas, 2,00 mg vira 0,0625 mg — que arredonda para <strong>0,06 mg</strong>, a alternativa E.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-radiation", titulo: "Meia-vida (t½)", text: "Tempo necessário para metade dos átomos de uma amostra radioativa decair — fixo para cada radioisótopo." },
+      { icone: "fa-chart-line", titulo: "Decaimento exponencial", text: "A massa cai pela metade a cada meia-vida — não em quantidades absolutas iguais, mas em fração constante." },
+      { icone: "fa-square-root-variable", titulo: "Fórmula m(t) = m₀(1/2)ᵗ/ᵗ½", text: "O expoente t/t½ é o número de meias-vidas decorridas; eleva-se o fator 1/2 a essa potência." },
+      { icone: "fa-hourglass-half", titulo: "Contar meias-vidas", text: "26,5 anos ÷ 5,3 anos = 5 meias-vidas — um número inteiro, resolvível por halvings sucessivos." },
+      { icone: "fa-hospital", titulo: "Cobalto-60 na medicina", text: "Usado em radioterapia contra câncer; seu tempo de armazenamento é limitado justamente pelo decaimento contínuo." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>26,5 anos ÷ 5,3 anos = 5 meias-vidas. Massa restante = 2,00 mg × (1/2)⁵ = 2,00 mg × 1/32 = 0,0625 mg ≈ <strong>0,06 mg</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule quantas meias-vidas se passaram.</strong> n = tempo decorrido / meia-vida = 26,5 / 5,3 = 5.</p>
+          <p><strong>Passo 2 — Aplique o fator (1/2) elevado a n.</strong> (1/2)⁵ = 1/32 = 0,03125.</p>
+          <p><strong>Passo 3 — Multiplique pela massa inicial.</strong> 2,00 mg × 0,03125 = 0,0625 mg, que arredonda para 0,06 mg.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 2,00 mg — ERRADA</p>
+            <p class="text-xs">Corresponde a ignorar completamente o decaimento, como se nenhum tempo tivesse passado. Mas 26,5 anos é justamente 5 meias-vidas inteiras — massa suficiente decaiu para reduzir a amostra a uma fração pequena do valor original.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 1,00 mg — ERRADA</p>
+            <p class="text-xs">É o resultado de aplicar <strong>apenas uma</strong> meia-vida (2,00 mg ÷ 2), como se 26,5 anos correspondesse a um único período de 5,3 anos. Ignora que o tempo total é cinco vezes maior que uma meia-vida.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 0,40 mg — ERRADA</p>
+            <p class="text-xs">É o que se obtém dividindo a massa inicial <strong>linearmente</strong> pelo número de meias-vidas (2,00 mg ÷ 5 = 0,40 mg), tratando o decaimento como se fosse proporcional ao tempo, e não exponencial. Essa é exatamente a armadilha "decaimento linear" descrita na teoria.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 0,13 mg — ERRADA</p>
+            <p class="text-xs">É o resultado de aplicar apenas <strong>4</strong> meias-vidas em vez de 5 (2,00 mg × (1/2)⁴ = 0,125 mg ≈ 0,13 mg) — um erro de contagem por um período a menos, parando em 21,2 anos em vez de completar os 26,5 anos informados.</p>
+          </div>
+
+          <div class="border border-cyan-500/40 bg-cyan-950/20 rounded-lg p-3">
+            <p class="font-bold text-cyan-300 text-xs mb-1">E) 0,06 mg — CORRETA</p>
+            <p class="text-xs">Resultado de aplicar corretamente as 5 meias-vidas completas: 2,00 mg × (1/2)⁵ = 0,0625 mg, arredondado para 0,06 mg — o valor mais próximo entre as opções.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Curva de decaimento exponencial do cobalto-60",
+        legenda: "A massa cai rápido no início e cada vez mais devagar — sempre pela metade a cada 5,3 anos.",
+        svg: `
+          <svg viewBox="0 0 460 180" class="w-full h-auto">
+            <line x1="55" y1="150" x2="435" y2="150" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="20" x2="55" y2="150" stroke="#64748b" stroke-width="2"/>
+            <text x="48" y="26" fill="#94a3b8" font-size="8" text-anchor="end">massa (mg)</text>
+            <text x="430" y="168" fill="#94a3b8" font-size="8" text-anchor="end">tempo (anos)</text>
+            <polyline points="55,20 130,86 205,118 280,134 355,142 430,146" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+            <circle cx="55" cy="20" r="3.5" fill="#67e8f9"/><text x="55" y="14" fill="#67e8f9" font-size="7" text-anchor="middle">2,00</text>
+            <circle cx="130" cy="86" r="3.5" fill="#67e8f9"/><text x="130" y="80" fill="#67e8f9" font-size="7" text-anchor="middle">1,00</text>
+            <circle cx="205" cy="118" r="3.5" fill="#67e8f9"/><text x="205" y="112" fill="#67e8f9" font-size="7" text-anchor="middle">0,50</text>
+            <circle cx="280" cy="134" r="3.5" fill="#67e8f9"/><text x="280" y="128" fill="#67e8f9" font-size="7" text-anchor="middle">0,25</text>
+            <circle cx="355" cy="142" r="3.5" fill="#67e8f9"/><text x="355" y="136" fill="#67e8f9" font-size="7" text-anchor="middle">0,125</text>
+            <circle cx="430" cy="146" r="4" fill="#6ee7b7"/><text x="410" y="130" fill="#6ee7b7" font-size="7" font-weight="bold" text-anchor="middle">0,0625</text>
+            <text x="55" y="163" fill="#64748b" font-size="7">0</text>
+            <text x="130" y="163" fill="#64748b" font-size="7">5,3</text>
+            <text x="205" y="163" fill="#64748b" font-size="7">10,6</text>
+            <text x="280" y="163" fill="#64748b" font-size="7">15,9</text>
+            <text x="355" y="163" fill="#64748b" font-size="7">21,2</text>
+            <text x="425" y="163" fill="#6ee7b7" font-size="7" font-weight="bold">26,5</text>
+          </svg>`
+      },
+      {
+        titulo: "As 5 divisões por 2, passo a passo",
+        legenda: "Cada meia-vida divide a massa restante ao meio — nunca subtrai uma quantidade fixa.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="10" y="30" width="60" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="40" y="58" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">2,00</text>
+            <text x="82" y="58" fill="#64748b" font-size="12" text-anchor="middle">÷2</text>
+            <rect x="100" y="38" width="52" height="34" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2" rx="4"/>
+            <text x="126" y="59" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">1,00</text>
+            <text x="160" y="58" fill="#64748b" font-size="11" text-anchor="middle">÷2</text>
+            <rect x="176" y="44" width="44" height="24" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" rx="3"/>
+            <text x="198" y="60" fill="#bae6fd" font-size="8" font-weight="bold" text-anchor="middle">0,50</text>
+            <text x="228" y="58" fill="#64748b" font-size="10" text-anchor="middle">÷2</text>
+            <rect x="240" y="48" width="38" height="18" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" rx="3"/>
+            <text x="259" y="60" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">0,25</text>
+            <text x="288" y="58" fill="#64748b" font-size="9" text-anchor="middle">÷2</text>
+            <rect x="298" y="51" width="32" height="13" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" rx="2"/>
+            <text x="314" y="60" fill="#bae6fd" font-size="6" font-weight="bold" text-anchor="middle">0,125</text>
+            <text x="340" y="58" fill="#64748b" font-size="9" text-anchor="middle">÷2</text>
+            <rect x="352" y="53" width="26" height="9" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.2" rx="2"/>
+            <text x="405" y="45" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">0,0625 mg</text>
+            <text x="405" y="58" fill="#6ee7b7" font-size="7" text-anchor="middle">≈ 0,06 mg</text>
+          </svg>`
+      },
+      {
+        titulo: "A fórmula aplicada ao caso do cobalto-60",
+        legenda: "n = t/t½ = 5; (1/2)⁵ = 1/32; 2,00 mg × 1/32 = 0,0625 mg.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="420" height="110" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <text x="230" y="45" fill="#67e8f9" font-size="13" font-family="monospace" text-anchor="middle">m(t) = m₀ × (1/2)^(t / t½)</text>
+            <text x="230" y="72" fill="#e2e8f0" font-size="11" font-family="monospace" text-anchor="middle">m(26,5) = 2,00 × (1/2)^(26,5 / 5,3)</text>
+            <text x="230" y="96" fill="#e2e8f0" font-size="11" font-family="monospace" text-anchor="middle">m(26,5) = 2,00 × (1/2)⁵ = 2,00 × 1/32</text>
+            <text x="230" y="120" fill="#6ee7b7" font-size="13" font-weight="bold" font-family="monospace" text-anchor="middle">m(26,5) = 0,0625 mg ≈ 0,06 mg</text>
+          </svg>`
+      },
+      {
+        titulo: "Exponencial x linear: a armadilha da alternativa C",
+        legenda: "Dividir 2,00 mg por 5 (linear) dá 0,40 mg — errado. O correto é dividir por 2, cinco vezes seguidas (exponencial).",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="55" y1="140" x2="435" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="20" x2="55" y2="140" stroke="#64748b" stroke-width="2"/>
+            <polyline points="55,20 130,52 205,84 280,116 355,132 430,140" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="4,3"/>
+            <text x="355" y="122" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">linear (errado)</text>
+            <text x="430" y="130" fill="#fca5a5" font-size="7" text-anchor="middle">0,40</text>
+            <polyline points="55,20 130,86 205,118 280,134 355,142 430,146" fill="none" stroke="#6ee7b7" stroke-width="2.5"/>
+            <text x="330" y="158" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">exponencial (correto)</text>
+            <text x="430" y="152" fill="#6ee7b7" font-size="7" text-anchor="middle">0,06</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: decaimento do cobalto-60 ao longo do tempo",
+      descricao: "Arraste o tempo decorrido e veja a massa de cobalto-60 restante cair exponencialmente, meia-vida após meia-vida.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Tempo decorrido</span><span class="text-cyan-300 font-bold" data-out="tempo">26,5 anos</span>
+              </label>
+              <input type="range" data-sim="tempo" min="0" max="42.4" value="26.5" step="1.325" class="w-full accent-cyan-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-hourglass-half"></i> Meia-vida do cobalto-60 = 5,3 anos. Cada passo do slider representa 1/4 de meia-vida.</p>
+            </div>
+            <div class="text-[11px] text-slate-400" data-out="nMeias"></div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-cyan-300 font-bold">Massa de cobalto-60 restante</span>
+                  <span class="text-cyan-300 font-mono" data-out="massa">2,00 mg</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="massa" class="h-full bg-cyan-500 transition-all" style="width:100%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="tempo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+        var t_half = 5.3;
+        var m0 = 2.00;
+
+        function atualizar() {
+          var t = parseFloat(campo.value);
+          var n = t / t_half;
+          var massa = m0 * Math.pow(0.5, n);
+          var pct = (massa / m0) * 100;
+
+          saida('tempo').textContent = t.toFixed(1) + ' anos';
+          saida('nMeias').textContent = 'Meias-vidas decorridas: ' + n.toFixed(2) + ' (26,5 ÷ 5,3 = 5 é o valor exato da questão)';
+          saida('massa').textContent = massa.toFixed(3) + ' mg';
+          barra('massa').style.width = Math.max(pct, 1) + '%';
+
+          var v = saida('veredito');
+          if (n < 1) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-cyan-500/40 bg-cyan-950/30 text-cyan-200';
+            v.innerHTML = '<strong>Ainda não completou uma meia-vida.</strong> A massa está caindo, mas ainda não chegou à metade do valor inicial.';
+          } else if (n < 5) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>' + Math.floor(n) + ' meia(s)-vida(s) completa(s).</strong> Continue arrastando até 26,5 anos (5 meias-vidas) para chegar ao cenário exato da questão.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>5 meias-vidas completas (26,5 anos).</strong> Restam 0,0625 mg ≈ 0,06 mg — exatamente o cenário da questão, alternativa E.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-radiation"></i> 26,5 anos ÷ 5,3 anos = 5 meias-vidas → 2,00 mg × (1/2)⁵ = 0,06 mg</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <text x="60" y="45" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">2,00</text>
+          <text x="60" y="65" fill="#64748b" font-size="7" text-anchor="middle">0 anos</text>
+          <text x="130" y="45" fill="#94a3b8" font-size="10" text-anchor="middle">1,00</text>
+          <text x="200" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">0,50</text>
+          <text x="270" y="45" fill="#94a3b8" font-size="8" text-anchor="middle">0,25</text>
+          <text x="340" y="45" fill="#94a3b8" font-size="7" text-anchor="middle">0,125</text>
+          <text x="410" y="45" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">0,06</text>
+          <text x="410" y="65" fill="#6ee7b7" font-size="7" font-weight="bold" text-anchor="middle">26,5 anos</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
