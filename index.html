@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Estudos — Simulado Interativo</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], displayMath: [['$$', '$$'], ['\\[', '\\]']] },
+      svg: { fontCache: 'global' },
+      startup: { typeset: false }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <style>
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #090d16; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #334155; }
+    :focus-visible { outline: 2px solid #a855f7; outline-offset: 2px; }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col">
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col md:flex-row items-center justify-between gap-4">
+
+      <div class="flex items-center space-x-3">
+        <div class="p-2.5 bg-gradient-to-br from-emerald-500 via-blue-600 to-purple-600 rounded-xl text-white shadow-lg shadow-emerald-950/40">
+          <i class="fa-solid fa-book-open-reader text-xl"></i>
+        </div>
+        <div>
+          <h1 class="text-lg font-bold text-white tracking-wide">Simulado Interativo</h1>
+          <p class="text-xs text-slate-400">Responda • Veja a resolução completa • Anote o que aprendeu</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 text-xs">
+        <!-- Placar de desempenho -->
+        <div class="flex items-center gap-3 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="text-emerald-400 font-bold"><i class="fa-solid fa-check"></i> <span id="placarAcertos">0</span></span>
+          <span class="text-rose-400 font-bold"><i class="fa-solid fa-xmark"></i> <span id="placarErros">0</span></span>
+          <button onclick="zerarProgresso()" class="text-slate-500 hover:text-slate-300" title="Zerar progresso">
+            <i class="fa-solid fa-rotate-left"></i>
+          </button>
+        </div>
+
+        <div id="statusBadge" class="flex items-center gap-2 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
+          <span class="relative flex h-2.5 w-2.5">
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500" id="statusDot"></span>
+          </span>
+          <span id="statusText" class="text-slate-300 font-medium">Salvo neste dispositivo</span>
+        </div>
+
+        <div class="flex items-center gap-1.5 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
+          <i class="fa-solid fa-calendar-days text-slate-400"></i>
+          <select id="selectAno" onchange="renderizarLista()" class="bg-transparent text-white font-bold focus:outline-none cursor-pointer">
+            <option value="todos" selected>Todas as edições</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Filtro de matérias: gerado a partir dos dados -->
+    <div class="border-t border-slate-800/80 bg-slate-950/80 px-4 py-2">
+      <div class="max-w-7xl mx-auto flex items-center gap-2 overflow-x-auto text-xs py-1">
+        <span class="text-slate-500 font-bold uppercase tracking-wider text-[10px] flex items-center gap-1 shrink-0 mr-1">
+          <i class="fa-solid fa-book-open text-purple-400"></i> Matérias:
+        </span>
+        <div id="filtroMaterias" class="flex items-center gap-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================ LAYOUT ============================ -->
+  <div class="flex-1 max-w-7xl w-full mx-auto px-4 py-6 flex flex-col md:flex-row gap-6">
+
+    <!-- SIDEBAR -->
+    <aside class="w-full md:w-80 flex-shrink-0 space-y-4">
+      <div class="bg-slate-900 p-4 rounded-xl border border-slate-800 space-y-3">
+        <div class="flex justify-between items-center text-xs">
+          <span class="font-bold text-slate-300 uppercase tracking-wider">Acervo Didático</span>
+          <span id="contadorQuestoes" class="px-2 py-0.5 rounded-full bg-purple-500/20 text-purple-300 font-mono font-bold">0 itens</span>
+        </div>
+        <div class="relative">
+          <input type="text" id="campoBusca" oninput="renderizarLista()" placeholder="Buscar por tema, matéria ou palavra-chave..."
+                 class="w-full bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-lg pl-8 pr-3 py-2 focus:border-purple-500 focus:outline-none"/>
+          <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-slate-500 text-xs"></i>
+        </div>
+      </div>
+
+      <div id="listaQuestoes" class="space-y-2 max-h-[calc(100vh-270px)] overflow-y-auto pr-1"></div>
+    </aside>
+
+    <!-- WORKSPACE -->
+    <main class="flex-1 bg-slate-900 rounded-2xl border border-slate-800 p-6 md:p-8 space-y-8 flex flex-col justify-between">
+      <div id="painelQuestao"></div>
+
+      <div class="pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-lightbulb text-amber-400"></i>
+          <span>Responda, estude a matéria completa, veja os esquemas e teste no laboratório.</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <span class="inline-flex items-center gap-1 text-purple-400"><i class="fa-solid fa-book-open"></i> Resoluções completas</span>
+          <span class="inline-flex items-center gap-1 text-emerald-400"><i class="fa-solid fa-floppy-disk"></i> Anotações salvas</span>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- ============================ DADOS ============================ -->
+  <script src="questoes.js"></script>
+
+  <!-- ============================ LÓGICA ============================ -->
+  <script>
+  /* -------------------------------------------------------------------
+     CAMADA DE PERSISTÊNCIA
+     Hoje: localStorage. Para plugar Firebase depois, basta reescrever
+     estas três funções — o resto do app não muda em nada.
+     ------------------------------------------------------------------- */
+  const Store = {
+    chave: 'plataforma-estudos-v1',
+    dados: { notas: {}, respostas: {} },
+
+    carregar() {
+      try {
+        const bruto = localStorage.getItem(this.chave);
+        if (bruto) this.dados = JSON.parse(bruto);
+      } catch (e) {
+        avisarStatus('Salvamento indisponível neste modo', false);
+      }
+      return this.dados;
+    },
+
+    salvar() {
+      try {
+        localStorage.setItem(this.chave, JSON.stringify(this.dados));
+        avisarStatus('Salvo neste dispositivo', true);
+      } catch (e) {
+        avisarStatus('Não foi possível salvar', false);
+      }
+    },
+
+    limpar() {
+      this.dados = { notas: {}, respostas: {} };
+      this.salvar();
+    }
+  };
+
+  function avisarStatus(texto, ok) {
+    document.getElementById('statusText').textContent = texto;
+    document.getElementById('statusDot').className =
+      'relative inline-flex rounded-full h-2.5 w-2.5 ' + (ok ? 'bg-emerald-500' : 'bg-amber-500');
+  }
+
+  /* -------------------------------------------------------------------
+     ESTADO DA INTERFACE
+     ------------------------------------------------------------------- */
+  let materiaAtiva = 'todas';
+  let questaoAtiva = null;
+  let temporizadorNotas = null;
+
+  /* Mapa de cores por matéria: classes escritas por extenso porque o
+     Tailwind via CDN não gera classes montadas por concatenação. */
+  const CORES = {
+    emerald: { texto: 'text-emerald-400', borda: 'border-emerald-500', fundo: 'bg-emerald-500/10', anel: 'hover:border-emerald-500 hover:text-emerald-400' },
+    cyan:    { texto: 'text-cyan-400',    borda: 'border-cyan-500',    fundo: 'bg-cyan-500/10',    anel: 'hover:border-cyan-500 hover:text-cyan-400' },
+    purple:  { texto: 'text-purple-400',  borda: 'border-purple-500',  fundo: 'bg-purple-500/10',  anel: 'hover:border-purple-500 hover:text-purple-400' },
+    blue:    { texto: 'text-blue-400',    borda: 'border-blue-500',    fundo: 'bg-blue-500/10',    anel: 'hover:border-blue-500 hover:text-blue-400' },
+    amber:   { texto: 'text-amber-400',   borda: 'border-amber-500',   fundo: 'bg-amber-500/10',   anel: 'hover:border-amber-500 hover:text-amber-400' },
+    lime:    { texto: 'text-lime-400',    borda: 'border-lime-500',    fundo: 'bg-lime-500/10',    anel: 'hover:border-lime-500 hover:text-lime-400' },
+    red:     { texto: 'text-red-400',     borda: 'border-red-500',     fundo: 'bg-red-500/10',     anel: 'hover:border-red-500 hover:text-red-400' },
+    pink:    { texto: 'text-pink-400',    borda: 'border-pink-500',    fundo: 'bg-pink-500/10',    anel: 'hover:border-pink-500 hover:text-pink-400' },
+    violet:  { texto: 'text-violet-400',  borda: 'border-violet-500',  fundo: 'bg-violet-500/10',  anel: 'hover:border-violet-500 hover:text-violet-400' }
+  };
+  const cor = (c) => CORES[c] || CORES.purple;
+
+  /* -------------------------------------------------------------------
+     MONTAGEM DOS FILTROS A PARTIR DOS DADOS
+     ------------------------------------------------------------------- */
+  function montarFiltros() {
+    const materias = [];
+    questaoDatabase.forEach(q => {
+      if (!materias.some(m => m.id === q.materiaId)) {
+        materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+      }
+    });
+
+    const alvo = document.getElementById('filtroMaterias');
+    alvo.innerHTML =
+      `<button onclick="filtrarMateria('todas')" data-mat="todas"
+         class="shrink-0 px-3 py-1 rounded-full border transition font-medium flex items-center gap-1.5">
+         <i class="fa-solid fa-cubes"></i> Todas
+       </button>` +
+      materias.map(m => `
+        <button onclick="filtrarMateria('${m.id}')" data-mat="${m.id}"
+          class="shrink-0 px-3 py-1 rounded-full border transition font-medium flex items-center gap-1.5">
+          <i class="fa-solid ${m.icone} ${cor(m.cor).texto}"></i> ${m.nome}
+        </button>`).join('');
+
+    // Anos disponíveis
+    const anos = [...new Set(questaoDatabase.map(q => q.ano))].sort().reverse();
+    const select = document.getElementById('selectAno');
+    select.innerHTML = '<option value="todos">Todas as edições</option>' +
+      anos.map(a => `<option value="${a}">Edição ${a}</option>`).join('');
+
+    pintarFiltros();
+  }
+
+  function pintarFiltros() {
+    document.querySelectorAll('#filtroMaterias button').forEach(b => {
+      const ativo = b.dataset.mat === materiaAtiva;
+      b.className = 'shrink-0 px-3 py-1 rounded-full border transition font-medium flex items-center gap-1.5 ' +
+        (ativo ? 'bg-purple-600 text-white border-purple-500 shadow-sm'
+               : 'border-slate-800 text-slate-300 hover:border-purple-500');
+    });
+  }
+
+  function filtrarMateria(id) {
+    materiaAtiva = id;
+    pintarFiltros();
+    renderizarLista();
+  }
+
+  /* -------------------------------------------------------------------
+     LISTA LATERAL
+     ------------------------------------------------------------------- */
+  function questoesFiltradas() {
+    const busca = document.getElementById('campoBusca').value.toLowerCase().trim();
+    const ano = document.getElementById('selectAno').value;
+
+    return questaoDatabase.filter(q => {
+      if (materiaAtiva !== 'todas' && q.materiaId !== materiaAtiva) return false;
+      if (ano !== 'todos' && q.ano !== ano) return false;
+      if (!busca) return true;
+      const texto = (q.titulo + ' ' + q.materia + ' ' + q.numero + ' ' + q.tags.join(' ')).toLowerCase();
+      return texto.includes(busca);
+    });
+  }
+
+  function renderizarLista() {
+    const lista = questoesFiltradas();
+    document.getElementById('contadorQuestoes').textContent =
+      lista.length + (lista.length === 1 ? ' item' : ' itens');
+
+    const alvo = document.getElementById('listaQuestoes');
+
+    if (lista.length === 0) {
+      alvo.innerHTML = `
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 text-center space-y-2">
+          <i class="fa-solid fa-magnifying-glass text-slate-600 text-2xl"></i>
+          <p class="text-xs text-slate-400">Nenhuma questão com esse filtro.</p>
+          <button onclick="limparFiltros()" class="text-xs text-purple-400 font-bold hover:underline">Limpar filtros</button>
+        </div>`;
+      return;
+    }
+
+    alvo.innerHTML = lista.map(q => {
+      const c = cor(q.materiaCor);
+      const resposta = Store.dados.respostas[q.id];
+      const selo = resposta
+        ? (resposta.acertou
+            ? '<i class="fa-solid fa-circle-check text-emerald-400"></i>'
+            : '<i class="fa-solid fa-circle-xmark text-rose-400"></i>')
+        : '<i class="fa-regular fa-circle text-slate-600"></i>';
+      const ativa = questaoAtiva && questaoAtiva.id === q.id;
+
+      return `
+        <button onclick="abrirQuestao('${q.id}')"
+          class="w-full text-left p-3 rounded-xl border transition ${ativa ? c.borda + ' ' + c.fundo : 'border-slate-800 bg-slate-900 hover:border-slate-700'}">
+          <div class="flex items-center justify-between mb-1">
+            <span class="text-[10px] font-bold uppercase tracking-wider ${c.texto}">
+              <i class="fa-solid ${q.materiaIcone}"></i> ${q.materia.split(' / ')[0]}
+            </span>
+            <span class="text-[10px] text-slate-500">${selo} ${q.numero}</span>
+          </div>
+          <p class="text-xs text-slate-300 leading-snug line-clamp-3">${q.titulo}</p>
+          <div class="flex gap-1.5 mt-1.5 text-[9px] text-slate-600">
+            ${q.materiaCompleta ? '<span title="Matéria completa"><i class="fa-solid fa-book"></i></span>' : ''}
+            ${q.galeria && q.galeria.length ? `<span title="${q.galeria.length} esquemas"><i class="fa-solid fa-images"></i> ${q.galeria.length}</span>` : ''}
+            ${q.simulador ? '<span title="Laboratório interativo" class="text-purple-500"><i class="fa-solid fa-flask"></i></span>' : ''}
+          </div>
+        </button>`;
+    }).join('');
+  }
+
+  function limparFiltros() {
+    document.getElementById('campoBusca').value = '';
+    document.getElementById('selectAno').value = 'todos';
+    materiaAtiva = 'todas';
+    pintarFiltros();
+    renderizarLista();
+  }
+
+  /* -------------------------------------------------------------------
+     PAINEL DA QUESTÃO
+     ------------------------------------------------------------------- */
+  function abrirQuestao(id) {
+    questaoAtiva = questaoDatabase.find(q => q.id === id);
+    abaAtiva = 'questao';
+    renderizarLista();
+    renderizarQuestao();
+  }
+
+  /* Abas do painel: só aparecem as que a questão realmente tem. */
+  let abaAtiva = 'questao';
+
+  function abasDisponiveis(q) {
+    const abas = [{ id: 'questao', nome: 'Questão', icone: 'fa-file-lines' }];
+    if (q.materiaCompleta) abas.push({ id: 'materia', nome: 'Matéria completa', icone: 'fa-book' });
+    abas.push({ id: 'resolucao', nome: 'Resolução comentada', icone: 'fa-book-open' });
+    if (q.galeria && q.galeria.length) abas.push({ id: 'galeria', nome: 'Galeria', icone: 'fa-images' });
+    if (q.simulador) abas.push({ id: 'lab', nome: 'Laboratório', icone: 'fa-flask' });
+    return abas;
+  }
+
+  function trocarAba(id) {
+    abaAtiva = id;
+    renderizarQuestao();
+  }
+
+  function renderizarQuestao() {
+    const q = questaoAtiva;
+    const alvo = document.getElementById('painelQuestao');
+
+    if (!q) {
+      alvo.innerHTML = `
+        <div class="h-full flex flex-col items-center justify-center text-center py-16 space-y-3">
+          <i class="fa-solid fa-hand-pointer text-slate-700 text-4xl"></i>
+          <p class="text-sm text-slate-400 font-medium">Escolha uma questão na lista ao lado para começar.</p>
+          <p class="text-xs text-slate-600">${questaoDatabase.length} questões disponíveis no acervo.</p>
+        </div>`;
+      return;
+    }
+
+    const c = cor(q.materiaCor);
+    const resposta = Store.dados.respostas[q.id];
+    const nota = Store.dados.notas[q.id] || '';
+    const abas = abasDisponiveis(q);
+    if (!abas.some(a => a.id === abaAtiva)) abaAtiva = 'questao';
+
+    alvo.innerHTML = `
+      <div class="space-y-6">
+
+        <div class="space-y-3">
+          <div class="flex flex-wrap items-center gap-2 text-[10px]">
+            <span class="px-2 py-1 rounded-lg border ${c.borda} ${c.fundo} ${c.texto} font-bold uppercase tracking-wider">
+              <i class="fa-solid ${q.materiaIcone}"></i> ${q.materia}
+            </span>
+            <span class="px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-400">${q.numero} · ${q.ano}</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-400">${q.areaNome}</span>
+            <span class="px-2 py-1 rounded-lg bg-slate-950 border border-slate-800 text-slate-500">${q.caderno}</span>
+          </div>
+          <h2 class="text-lg font-bold text-white leading-snug">${q.titulo}</h2>
+        </div>
+
+        <div class="flex flex-wrap gap-1.5 border-b border-slate-800 pb-3">
+          ${abas.map(a => `
+            <button onclick="trocarAba('${a.id}')"
+              class="px-3 py-1.5 rounded-lg text-xs font-bold transition flex items-center gap-2 ${
+                abaAtiva === a.id
+                  ? 'bg-purple-600 text-white'
+                  : 'bg-slate-950 text-slate-400 border border-slate-800 hover:text-slate-200 hover:border-slate-700'
+              }">
+              <i class="fa-solid ${a.icone}"></i> ${a.nome}
+            </button>`).join('')}
+        </div>
+
+        <div id="conteudoAba">${montarAba(q, resposta)}</div>
+
+        <div class="space-y-2 pt-2">
+          <label for="campoNotas" class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+            <i class="fa-solid fa-pen-to-square text-amber-400"></i> Minhas anotações
+          </label>
+          <textarea id="campoNotas" rows="4" oninput="salvarNota()"
+            placeholder="O que você quer lembrar dessa questão? Onde errou? Que fórmula revisar?"
+            class="w-full bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-xl p-3 focus:border-amber-500 focus:outline-none resize-y">${nota}</textarea>
+          <p id="avisoNota" class="text-[10px] text-slate-600 h-3"></p>
+        </div>
+      </div>`;
+
+    if (abaAtiva === 'lab' && q.simulador && typeof q.simulador.init === 'function') {
+      try {
+        q.simulador.init(document.getElementById('painelLaboratorio'));
+      } catch (e) {
+        document.getElementById('painelLaboratorio').insertAdjacentHTML('afterbegin',
+          '<p class="text-xs text-rose-400 mb-2">O laboratório desta questão não pôde ser carregado.</p>');
+      }
+    }
+
+    typesetMath(alvo);
+  }
+
+  function montarAba(q, resposta) {
+    if (abaAtiva === 'materia') {
+      return `<div class="bg-slate-950 border border-slate-800 rounded-xl p-5">${q.materiaCompleta}</div>`;
+    }
+
+    if (abaAtiva === 'resolucao') {
+      if (!resposta) {
+        return `
+          <div class="space-y-4">
+            <div class="p-4 rounded-xl border border-amber-500/40 bg-amber-950/20 text-xs text-amber-200 flex items-start gap-3">
+              <i class="fa-solid fa-lightbulb text-amber-400 text-lg mt-0.5"></i>
+              <span>Você ainda não respondeu. Tentar antes de ler faz a resolução render muito mais — mas a escolha é sua.</span>
+            </div>
+            <button onclick="liberarResolucao()"
+              class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-2">
+              <i class="fa-solid fa-eye"></i> Ver a resolução mesmo assim
+            </button>
+          </div>`;
+      }
+      return `<div class="space-y-5">${q.diagramaHtml || ''}${q.resolucaoHtml || ''}${montarConceitos(q)}</div>`;
+    }
+
+    if (abaAtiva === 'galeria') {
+      return `
+        <div class="space-y-4">
+          ${q.galeria.map((img, i) => `
+            <figure class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <figcaption class="flex items-center gap-2 text-xs font-bold text-slate-200">
+                <span class="w-5 h-5 rounded bg-purple-600 text-white text-[10px] flex items-center justify-center font-mono">${i + 1}</span>
+                ${img.titulo}
+              </figcaption>
+              <div class="bg-slate-900/60 rounded-lg p-2">${img.svg}</div>
+              <p class="text-[11px] text-slate-400 leading-relaxed border-l-2 border-slate-700 pl-3">${img.legenda}</p>
+            </figure>`).join('')}
+        </div>`;
+    }
+
+    if (abaAtiva === 'lab') {
+      return `
+        <div class="space-y-3">
+          <div class="space-y-1">
+            <h3 class="text-sm font-bold text-white flex items-center gap-2">
+              <i class="fa-solid fa-flask text-purple-400"></i> ${q.simulador.titulo}
+            </h3>
+            <p class="text-xs text-slate-400 leading-relaxed">${q.simulador.descricao}</p>
+          </div>
+          <div id="painelLaboratorio">${q.simulador.html}</div>
+        </div>`;
+    }
+
+    // Aba padrão: enunciado + alternativas + feedback
+    return `
+      <div class="space-y-6">
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 text-sm text-slate-200 leading-relaxed">
+          ${q.enunciado}
+        </div>
+
+        <div class="space-y-2">
+          ${q.alternativas.map(a => montarAlternativa(q, a, resposta)).join('')}
+        </div>
+
+        ${resposta ? montarFeedback(q, resposta) : ''}
+
+        ${resposta ? `
+        <div class="flex flex-wrap gap-2">
+          <button onclick="trocarAba('resolucao')"
+            class="px-4 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold transition flex items-center gap-2">
+            <i class="fa-solid fa-book-open"></i> Ver resolução comentada
+          </button>
+          <button onclick="refazerQuestao()"
+            class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-2">
+            <i class="fa-solid fa-rotate-left"></i> Responder de novo
+          </button>
+        </div>` : ''}
+      </div>`;
+  }
+
+  function liberarResolucao() {
+    const q = questaoAtiva;
+    const alvo = document.getElementById('conteudoAba');
+    alvo.innerHTML = `<div class="space-y-5">${q.diagramaHtml || ''}${q.resolucaoHtml || ''}${montarConceitos(q)}</div>`;
+    typesetMath(alvo);
+  }
+
+  function montarAlternativa(q, a, resposta) {
+    let estilo = 'border-slate-800 bg-slate-950 hover:border-slate-600';
+    let icone = `<span class="w-6 h-6 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center text-[11px] font-bold text-slate-400">${a.letra}</span>`;
+
+    if (resposta) {
+      if (a.correta) {
+        estilo = 'border-emerald-500 bg-emerald-500/10';
+        icone = `<span class="w-6 h-6 rounded-lg bg-emerald-500 flex items-center justify-center text-[11px] font-bold text-white">${a.letra}</span>`;
+      } else if (a.letra === resposta.letra) {
+        estilo = 'border-rose-500 bg-rose-500/10';
+        icone = `<span class="w-6 h-6 rounded-lg bg-rose-500 flex items-center justify-center text-[11px] font-bold text-white">${a.letra}</span>`;
+      } else {
+        estilo = 'border-slate-800 bg-slate-950 opacity-50';
+      }
+    }
+
+    return `
+      <button ${resposta ? 'disabled' : `onclick="responder('${a.letra}')"`}
+        class="w-full text-left p-3 rounded-xl border transition flex items-start gap-3 ${estilo}">
+        ${icone}
+        <span class="text-xs text-slate-200 leading-relaxed pt-1">${a.texto}</span>
+      </button>`;
+  }
+
+  function montarFeedback(q, resposta) {
+    return resposta.acertou
+      ? `<div class="p-4 rounded-xl border border-emerald-500/40 bg-emerald-950/40 text-xs text-emerald-200 flex items-center gap-3">
+           <i class="fa-solid fa-circle-check text-emerald-400 text-lg"></i>
+           <span><strong>Acertou.</strong> Vale abrir a resolução mesmo assim: confira se o seu raciocínio foi o mesmo.</span>
+         </div>`
+      : `<div class="p-4 rounded-xl border border-rose-500/40 bg-rose-950/40 text-xs text-rose-200 flex items-center gap-3">
+           <i class="fa-solid fa-circle-xmark text-rose-400 text-lg"></i>
+           <span>Você marcou <strong>${resposta.letra}</strong>; o gabarito é <strong>${q.alternativaCorreta}</strong>. A resolução explica onde o caminho se separa.</span>
+         </div>`;
+  }
+
+  function montarConceitos(q) {
+    if (!q.conceitos || !q.conceitos.length) return '';
+    const c = cor(q.materiaCor);
+    return `
+      <div class="space-y-2">
+        <span class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+          <i class="fa-solid fa-lightbulb ${c.texto}"></i> Conceitos-chave
+        </span>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+          ${q.conceitos.map(k => `
+            <div class="p-3 bg-slate-950 rounded-xl border border-slate-800 space-y-1">
+              <span class="text-[11px] font-bold ${c.texto} flex items-center gap-1.5">
+                <i class="fa-solid ${k.icone}"></i> ${k.titulo}
+              </span>
+              <p class="text-[11px] text-slate-400 leading-relaxed">${k.text}</p>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  }
+
+  /* -------------------------------------------------------------------
+     AÇÕES
+     ------------------------------------------------------------------- */
+  function responder(letra) {
+    const q = questaoAtiva;
+    Store.dados.respostas[q.id] = { letra: letra, acertou: letra === q.alternativaCorreta };
+    Store.salvar();
+    atualizarPlacar();
+    // Errou: a resolução comentada abre sozinha, que é quando ela mais rende.
+    if (letra !== q.alternativaCorreta) abaAtiva = 'resolucao';
+    renderizarQuestao();
+    renderizarLista();
+  }
+
+  function refazerQuestao() {
+    delete Store.dados.respostas[questaoAtiva.id];
+    Store.salvar();
+    atualizarPlacar();
+    renderizarQuestao();
+    renderizarLista();
+  }
+
+  function salvarNota() {
+    const texto = document.getElementById('campoNotas').value;
+    const aviso = document.getElementById('avisoNota');
+    aviso.textContent = 'Salvando...';
+    clearTimeout(temporizadorNotas);
+    temporizadorNotas = setTimeout(() => {
+      Store.dados.notas[questaoAtiva.id] = texto;
+      Store.salvar();
+      aviso.textContent = 'Anotação salva.';
+      setTimeout(() => { aviso.textContent = ''; }, 2000);
+    }, 600);
+  }
+
+  function atualizarPlacar() {
+    const r = Object.values(Store.dados.respostas);
+    document.getElementById('placarAcertos').textContent = r.filter(x => x.acertou).length;
+    document.getElementById('placarErros').textContent = r.filter(x => !x.acertou).length;
+  }
+
+  function zerarProgresso() {
+    Store.limpar();
+    atualizarPlacar();
+    renderizarLista();
+    renderizarQuestao();
+  }
+
+  /* MathJax só renderiza o que foi injetado depois do carregamento se
+     for chamado explicitamente. */
+  function typesetMath(elemento) {
+    if (window.MathJax && window.MathJax.typesetPromise) {
+      window.MathJax.typesetPromise([elemento]).catch(() => {});
+    }
+  }
+
+  /* -------------------------------------------------------------------
+     INICIALIZAÇÃO
+     ------------------------------------------------------------------- */
+  (function iniciar() {
+    if (typeof questaoDatabase === 'undefined' || !questaoDatabase.length) {
+      document.getElementById('painelQuestao').innerHTML =
+        '<p class="text-sm text-rose-400">O arquivo questoes.js não foi carregado. Confira se ele está na mesma pasta deste index.html.</p>';
+      return;
+    }
+    Store.carregar();
+    montarFiltros();
+    renderizarLista();
+    renderizarQuestao();
+    atualizarPlacar();
+  })();
+  </script>
+</body>
+</html>
