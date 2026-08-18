@@ -547,7 +547,7 @@ const questaoDatabase = [
     simuladorType: null
   },
 
-  {
+    {
     id: "q095",
     numero: "Questão 95",
     ano: "2025",
@@ -563,9 +563,11 @@ const questaoDatabase = [
     alternativaCorreta: "D",
     userNotes: "",
     userCustomImage: null,
+
     enunciado: `Um lago situado próximo a uma área agrícola passou a receber, ao longo de vários anos, a água da chuva que escoa das lavouras vizinhas, carregada de fertilizantes ricos em nitrato e fosfato. Moradores relataram que a superfície do lago ficou coberta por uma densa camada esverdeada e que, semanas depois, grande quantidade de peixes apareceu morta às margens.
     <br><br>
     A mortandade dos peixes descrita é explicada principalmente pelo(a):`,
+
     alternativas: [
       { letra: "A", texto: "Toxicidade direta dos íons nitrato e fosfato sobre as brânquias dos peixes.", correta: false },
       { letra: "B", texto: "Elevação da temperatura da água provocada pela absorção de luz pelas algas.", correta: false },
@@ -573,43 +575,354 @@ const questaoDatabase = [
       { letra: "D", texto: "Consumo do oxigênio dissolvido pelos decompositores aeróbios que degradam a matéria orgânica.", correta: true },
       { letra: "E", texto: "Redução do gás carbônico disponível na água em razão da intensa fotossíntese das algas.", correta: false }
     ],
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            1. <strong>Entrada de nutrientes:</strong> nitrato ($NO_3^-$) e fosfato ($PO_4^{3-}$) são fatores limitantes do crescimento de produtores aquáticos. Quando chegam em excesso, deixam de limitar — e a população de algas e cianobactérias explode. Esse é o processo de <strong>eutrofização artificial</strong>.
-            <br><br>
-            2. <strong>A camada esverdeada:</strong> a floração cobre a superfície e bloqueia a passagem de luz. As algas das camadas mais profundas, sem luz, param de fotossintetizar e morrem, gerando um grande volume de matéria orgânica.
-            <br><br>
-            3. <strong>O passo decisivo:</strong> bactérias e fungos decompositores <strong>aeróbios</strong> degradam essa matéria orgânica e, para isso, respiram:
-            $$C_6H_{12}O_6 + 6\\,O_2 \\rightarrow 6\\,CO_2 + 6\\,H_2O + \\text{energia}$$
-            O oxigênio dissolvido despenca. Instala-se a <strong>anoxia</strong>, e os peixes — que dependem do $O_2$ dissolvido captado pelas brânquias — morrem asfixiados (<strong>Alternativa D</strong>).
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre toda a cadeia de eventos da eutrofização cobrada no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é eutrofização</h4>
+          <p>
+            Eutrofização é o enriquecimento de um corpo de água com nutrientes — principalmente compostos de <strong>nitrogênio</strong> (nitrato, $NO_3^-$) e <strong>fósforo</strong> (fosfato, $PO_4^{3-}$). Ela pode ser natural e lenta (um lago envelhecendo ao longo de milênios) ou <strong>artificial e rápida</strong>, causada por esgoto doméstico ou, como no enunciado, pelo escoamento de fertilizantes agrícolas — a chamada eutrofização antrópica.
           </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
-          <div class="p-3 bg-slate-950 rounded border border-slate-800">
-            <strong class="text-rose-400">A) Incorreta:</strong> nas concentrações típicas de escoamento agrícola, nitrato e fosfato são nutrientes, não venenos. O dano é indireto, via cadeia trófica.
-          </div>
-          <div class="p-3 bg-slate-950 rounded border border-slate-800">
-            <strong class="text-rose-400">B) Incorreta:</strong> a variação térmica existe, mas é pequena demais para causar mortandade em massa.
-          </div>
-          <div class="p-3 bg-slate-950 rounded border border-slate-800">
-            <strong class="text-rose-400">C) Incorreta:</strong> algas são produtoras, não competem por alimento com peixes — muitas até servem de base da cadeia alimentar.
-          </div>
-          <div class="p-3 bg-slate-950 rounded border border-slate-800">
-            <strong class="text-emerald-400">Dica ENEM:</strong> em toda questão de eutrofização, o vilão final é sempre a <strong>queda do oxigênio dissolvido</strong> pela decomposição aeróbia.
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Por que nitrogênio e fósforo disparam o crescimento das algas</h4>
+          <p>
+            Em ecossistemas aquáticos naturais, o crescimento de produtores primários (algas e cianobactérias) costuma ser limitado pela escassez de nitrogênio e fósforo — são os chamados <strong>fatores limitantes</strong>. Quando fertilizantes agrícolas chegam em grande quantidade, esses nutrientes deixam de ser escassos, e a população de algas cresce de forma explosiva. Esse crescimento descontrolado é chamado de <strong>floração de algas</strong> (algal bloom) — é a "densa camada esverdeada" que os moradores observaram.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O bloqueio de luz e a morte em cascata</h4>
+          <p>
+            A camada de algas na superfície bloqueia a passagem de luz para as camadas mais profundas do lago. Sem luz, as algas e plantas aquáticas submersas não conseguem fotossintetizar e morrem. Some a isso as próprias algas da superfície, que têm ciclo de vida curto e morrem em massa depois da floração. O resultado é um grande volume de <strong>matéria orgânica morta</strong> acumulada na água.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> O papel decisivo dos decompositores aeróbios</h4>
+          <p>
+            Bactérias e fungos decompositores <strong>aeróbios</strong> se multiplicam para degradar essa matéria orgânica extra. Para isso, eles respiram, consumindo oxigênio dissolvido na água:
+          </p>
+          $$C_6H_{12}O_6 + 6\\,O_2 \\rightarrow 6\\,CO_2 + 6\\,H_2O + \\text{energia}$$
+          <p>
+            Quanto mais matéria orgânica para decompor, mais decompositores atuam, e mais oxigênio dissolvido é consumido — muito mais rápido do que ele consegue ser reposto (pela fotossíntese remanescente ou pela troca com o ar).
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">O ponto-chave da questão:</strong> o oxigênio despenca não porque algo o consome diretamente nos peixes, mas porque um exército de decompositores, alimentado pela morte das algas, o consome no processo de decomposição.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Anóxia e asfixia dos peixes</h4>
+          <p>
+            Com o oxigênio dissolvido próximo de zero (condição chamada <strong>anóxia</strong>, ou hipóxia quando parcial), os peixes — que dependem do $O_2$ dissolvido captado pelas brânquias para respirar — não conseguem mais obter oxigênio suficiente e morrem asfixiados. É esse mecanismo, e não uma toxina, que explica a mortandade em massa observada semanas depois da floração.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">6.</span> Descartando as explicações concorrentes</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Toxicidade direta</strong>
+              Nas concentrações típicas de escoamento agrícola, nitrato e fosfato são nutrientes, não venenos para peixes. O dano é indireto, via oxigênio.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Aumento de temperatura</strong>
+              Existe uma pequena absorção extra de luz pelas algas, mas essa variação térmica é insuficiente para explicar mortandade em massa.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Competição por alimento</strong>
+              Algas são produtoras primárias; muitas espécies de peixe até se alimentam delas ou de organismos que delas dependem — não é uma disputa direta por comida.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Redução de CO2</strong>
+              A fotossíntese intensa de fato consome CO2, mas peixes não dependem de CO2 dissolvido para respirar — dependem de O2. Essa alternativa troca o gás errado.
+            </div>
           </div>
         </div>
       </div>
     `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique a cadeia de eventos.</strong> Fertilizante → floração de algas → bloqueio de luz → morte de algas → decomposição → consumo de O2 → morte dos peixes.
+            <br><br>
+            <strong>Passo 2 — Localize o elo que mata os peixes.</strong> Peixes respiram O2 dissolvido pelas brânquias; o elo fatal é a queda desse oxigênio, não uma toxina.
+            <br><br>
+            <strong>Passo 3 — Identifique quem consome o oxigênio.</strong> Os decompositores aeróbios, ao degradar a matéria orgânica das algas mortas, respiram e consomem o O2 da água.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Consumo do oxigênio dissolvido pelos decompositores aeróbios que degradam a matéria orgânica." É exatamente o elo causal: mais nutrientes → mais algas → mais matéria orgânica morta → mais decomposição aeróbia → menos O2 dissolvido → peixes asfixiados. O intervalo de "semanas depois" no enunciado bate com o tempo que leva para a floração morrer e ser decomposta.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — toxicidade direta de nitrato e fosfato</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> assumir que, por virem de fertilizantes ("produtos químicos"), nitrato e fosfato devem ser venenosos.
+              <br>
+              <strong>Onde quebra:</strong> nas concentrações do escoamento agrícola, esses íons são nutrientes que estimulam o crescimento vegetal — não toxinas para peixes. O dano é indireto, mediado pela queda de oxigênio.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — elevação de temperatura</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que superfícies escuras (a camada verde de algas) absorvem mais luz solar e aquecem.
+              <br>
+              <strong>Onde quebra:</strong> esse efeito térmico é real, mas pequeno demais para causar mortandade em massa — e não é o mecanismo central de uma floração de algas seguida de mortandade, que é sempre associada à queda de oxigênio.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — competição por alimento</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> tratar "mais algas" como sinônimo de "menos comida disponível para os peixes".
+              <br>
+              <strong>Onde quebra:</strong> algas são a base da cadeia alimentar aquática — sua explosão populacional não retira alimento dos peixes, muito pelo contrário. O problema nunca foi escassez de comida.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — redução de CO2</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> perceber corretamente que a fotossíntese das algas consome CO2 em excesso, e presumir que isso afeta a respiração dos peixes.
+              <br>
+              <strong>Onde quebra:</strong> troca o gás relevante. Peixes captam <strong>O2</strong> dissolvido pelas brânquias para respirar — não dependem de CO2 disponível. O gás que realmente cai a níveis letais, pela decomposição, é o oxigênio.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Cada alternativa errada pega um fato real do cenário (fertilizante, luz absorvida, mais algas, fotossíntese) e o conecta ao efeito errado. Em toda questão de eutrofização, o vilão final é sempre a <strong>queda do oxigênio dissolvido</strong> pela decomposição aeróbia — decore esse elo e a maioria dos distratores cai sozinha.
+          </p>
+        </div>
+      </div>
+    `,
+
     conceitos: [
       { icone: "fa-seedling", titulo: "Fator Limitante", text: "Nitrogênio e fósforo limitam a produtividade primária; em excesso, disparam a floração de algas." },
       { icone: "fa-bacterium", titulo: "Decomposição Aeróbia", text: "Decompositores consomem O2 dissolvido ao degradar a matéria orgânica morta." },
-      { icone: "fa-fish", titulo: "Anoxia", text: "Ambiente com O2 dissolvido próximo de zero; inviabiliza a respiração de peixes e invertebrados." }
+      { icone: "fa-fish", titulo: "Anoxia", text: "Ambiente com O2 dissolvido próximo de zero; inviabiliza a respiração de peixes e invertebrados." },
+      { icone: "fa-sun", titulo: "Bloqueio de luz", text: "A camada de algas na superfície impede a fotossíntese em profundidade, matando produtores submersos." },
+      { icone: "fa-arrow-down-wide-short", titulo: "Cadeia causal", text: "Fertilizante → floração → morte das algas → decomposição → queda de O2 → morte dos peixes." }
     ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "A cadeia completa de eventos",
+        legenda: "Do fertilizante à mortandade: cada elo depende do anterior. O elo que mata os peixes é sempre a queda de oxigênio, nunca uma toxina direta.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="45" width="80" height="35" rx="5" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="50" y="66" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Fertilizante</text>
+            <line x1="90" y1="62" x2="108" y2="62" stroke="#64748b" stroke-width="2" marker-end="url(#pq95)"/>
+
+            <rect x="112" y="45" width="80" height="35" rx="5" fill="#065f46" stroke="#34d399" stroke-width="1.5"/>
+            <text x="152" y="60" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">Floração de</text>
+            <text x="152" y="72" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">algas</text>
+            <line x1="192" y1="62" x2="210" y2="62" stroke="#64748b" stroke-width="2" marker-end="url(#pq95)"/>
+
+            <rect x="214" y="45" width="80" height="35" rx="5" fill="#422006" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="254" y="60" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">Morte das</text>
+            <text x="254" y="72" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">algas</text>
+            <line x1="294" y1="62" x2="312" y2="62" stroke="#64748b" stroke-width="2" marker-end="url(#pq95)"/>
+
+            <rect x="316" y="45" width="66" height="35" rx="5" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="349" y="58" fill="#ede9fe" font-size="8" font-weight="bold" text-anchor="middle">Decompo-</text>
+            <text x="349" y="70" fill="#ede9fe" font-size="8" font-weight="bold" text-anchor="middle">sição</text>
+            <line x1="382" y1="62" x2="400" y2="62" stroke="#64748b" stroke-width="2" marker-end="url(#pq95)"/>
+
+            <rect x="404" y="45" width="50" height="35" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="429" y="58" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">↓ O2</text>
+            <text x="429" y="70" fill="#fca5a5" font-size="7" text-anchor="middle">peixes</text>
+            <defs>
+              <marker id="pq95" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Corte transversal do lago",
+        legenda: "A camada de algas bloqueia a luz. Abaixo dela, sem fotossíntese e cheia de matéria orgânica em decomposição, forma-se a zona anóxica.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="30" y="30" width="400" height="140" fill="#0c4a6e" opacity="0.4"/>
+            <rect x="30" y="30" width="400" height="22" fill="#065f46"/>
+            <text x="230" y="46" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Floração de algas bloqueia a luz</text>
+            <circle cx="80" cy="100" r="4" fill="#334155"/>
+            <circle cx="150" cy="120" r="4" fill="#334155"/>
+            <circle cx="230" cy="90" r="4" fill="#334155"/>
+            <circle cx="300" cy="130" r="4" fill="#334155"/>
+            <circle cx="370" cy="105" r="4" fill="#334155"/>
+            <text x="230" y="160" fill="#f87171" font-size="10" font-weight="bold" text-anchor="middle">Zona anóxica: O₂ ≈ 0 — matéria orgânica em decomposição</text>
+          </svg>`
+      },
+      {
+        titulo: "Oxigênio dissolvido ao longo do tempo",
+        legenda: "Nas primeiras semanas o O2 se mantém; conforme a decomposição avança, ele despenca — coincidindo com o momento em que os peixes começam a morrer.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <line x1="55" y1="150" x2="435" y2="150" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="25" x2="55" y2="150" stroke="#64748b" stroke-width="2"/>
+            <text x="48" y="32" fill="#94a3b8" font-size="9" text-anchor="end">O₂</text>
+            <text x="430" y="168" fill="#94a3b8" font-size="9" text-anchor="end">tempo</text>
+            <polyline points="55,55 150,58 230,70 300,105 370,135 430,144" fill="none" stroke="#f87171" stroke-width="3"/>
+            <circle cx="230" cy="70" r="4" fill="#fbbf24"/>
+            <text x="230" y="55" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">floração morre</text>
+            <circle cx="370" cy="135" r="4" fill="#f87171"/>
+            <text x="370" y="120" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">peixes começam a morrer</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Cada alternativa erra por trocar o mecanismo real (queda de O2 pela decomposição) por outro efeito plausível, mas insuficiente ou incorreto.",
+        svg: `
+          <svg viewBox="0 0 460 210" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Toxicidade direta</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Aumento de temperatura</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — Competição por alimento</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="107" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="125" fill="#6ee7b7" font-size="10" font-weight="bold">D — Consumo de O2 pelos decompositores</text>
+            <text x="400" y="125" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Redução de CO2</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: quanto fertilizante leva à mortandade de peixes?",
+      descricao: "Aumente a entrada de nutrientes (nitrato e fosfato) e acompanhe o efeito em cadeia: mais algas, mais matéria orgânica morta, mais decomposição, menos oxigênio.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Entrada de fertilizante (N e P)</span><span class="text-emerald-300 font-bold" data-out="fert">40%</span>
+              </label>
+              <input type="range" data-sim="fert" min="0" max="100" value="40" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> Este é o único fator que a questão faz variar — mexa nele e observe o resto da cadeia.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Floração de algas</span>
+                  <span class="text-emerald-300 font-mono" data-out="algas">40%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="algas" class="h-full bg-emerald-500 transition-all" style="width:40%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-amber-300 font-bold">Matéria orgânica morta</span>
+                  <span class="text-amber-300 font-mono" data-out="materia">40%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="materia" class="h-full bg-amber-500 transition-all" style="width:40%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">Oxigênio dissolvido</span>
+                  <span class="text-sky-300 font-mono" data-out="o2">60%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="o2" class="h-full bg-sky-500 transition-all" style="width:60%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="fert"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var fert = parseFloat(campo.value);
+          var algas = fert;
+          var materia = fert;
+          var o2 = Math.max(0, 100 - fert * 1.1);
+
+          saida('fert').textContent = fert.toFixed(0) + '%';
+          saida('algas').textContent = algas.toFixed(0) + '%';
+          saida('materia').textContent = materia.toFixed(0) + '%';
+          saida('o2').textContent = o2.toFixed(0) + '%';
+
+          barra('algas').style.width = algas + '%';
+          barra('materia').style.width = materia + '%';
+          barra('o2').style.width = o2 + '%';
+
+          var v = saida('veredito');
+          if (o2 >= 55) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Lago saudável.</strong> Oxigênio dissolvido em nível seguro para os peixes respirarem normalmente.';
+          } else if (o2 >= 20) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Hipóxia em andamento.</strong> A decomposição da floração já está consumindo oxigênio mais rápido do que ele é reposto — peixes começam a sofrer.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Anóxia — risco de mortandade.</strong> Oxigênio dissolvido próximo de zero. É esse consumo pelos decompositores aeróbios que explica a morte dos peixes, não uma toxina.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
     diagramaHtml: `
       <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-water"></i> Cascata da Eutrofização e Queda do Oxigênio Dissolvido</span>
