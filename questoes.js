@@ -3543,6 +3543,398 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q097",
+    numero: "Questão 97",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Imunologia & Vacinas",
+    materiaCor: "emerald",
+    materiaIcone: "fa-syringe",
+    titulo: "Vacinas de Tecnologia Tradicional: Como o Antígeno Induz a Produção de Anticorpos Neutralizantes",
+    tags: ["Biologia", "Imunologia", "Vacinas", "Antígenos", "Anticorpos", "Resposta Imune"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A produção de vacinas exige uma sequência de procedimentos, além do cumprimento estrito de verificações de segurança. No esquema, estão demonstradas as etapas básicas realizadas para a fabricação de uma vacina utilizando a tecnologia tradicional e o efeito dela no organismo.
+    <br><br>
+    <strong>Esquema:</strong> 1) Isolamento dos vírus → 2) Inativação dos vírus pelo calor ou por ação química (a partir de cultura de células infectadas com vírus) → 3) Aplicação da vacina → 4) Efeito no organismo.
+    <br><br>
+    O antígeno utilizado na vacina causa um efeito protetor contra o vírus porque:`,
+
+    alternativas: [
+      { letra: "A", texto: "Mata o vírus pela ligação.", correta: false },
+      { letra: "B", texto: "Aglutina o vírus por associação.", correta: false },
+      { letra: "C", texto: "Contém imunoglobulinas de defesa.", correta: false },
+      { letra: "D", texto: "Induz a produção de proteínas neutralizantes.", correta: true },
+      { letra: "E", texto: "Mantém a quantidade de anticorpos preexistentes.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a lógica das vacinas de tecnologia tradicional e a resposta imune adaptativa cobradas no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é um antígeno</h4>
+          <p>
+            Um <strong>antígeno</strong> é qualquer molécula ou partícula capaz de ser reconhecida pelo sistema imune como estranha, disparando uma resposta de defesa. Em uma vacina de vírus inativado, o antígeno é o próprio vírus — mas um vírus <strong>tratado para não conseguir mais infectar células</strong>. Ele ainda "parece" um vírus para o sistema imune (mantém as proteínas de superfície que o identificam), mas não tem mais capacidade de causar doença.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> As etapas da vacina de tecnologia tradicional</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">1. Isolamento do vírus</strong>
+              O vírus-alvo é obtido e cultivado em laboratório, geralmente infectando culturas de células, para se produzir grande quantidade dele.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">2. Inativação (calor ou ação química)</strong>
+              O vírus é tratado para perder a capacidade de se replicar e infectar — mas sua estrutura de superfície (que o sistema imune reconhece) permanece preservada.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">3. Aplicação da vacina</strong>
+              O antígeno inativado é injetado no organismo, que o reconhece como corpo estranho, sem risco de causar a doença.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">4. Efeito no organismo</strong>
+              O sistema imune monta uma resposta específica contra aquele antígeno, incluindo a produção de anticorpos e células de memória.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> A resposta imune adaptativa, passo a passo</h4>
+          <p>
+            Quando o antígeno entra no corpo, células apresentadoras de antígeno o processam e o exibem para linfócitos T auxiliares, que por sua vez ativam <strong>linfócitos B</strong> específicos para aquele antígeno. Os linfócitos B ativados se diferenciam em plasmócitos, que passam a produzir e secretar <strong>anticorpos</strong> — proteínas também chamadas imunoglobulinas — moldadas para se ligar exatamente àquele antígeno.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">O ponto central da questão:</strong> a vacina não entrega anticorpos prontos nem mata o vírus diretamente. Ela apresenta o antígeno para que o <strong>próprio organismo produza</strong> os anticorpos, que ficarão disponíveis (junto com células de memória) para agir rapidamente numa exposição futura ao vírus real.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que os anticorpos são chamados "neutralizantes"</h4>
+          <p>
+            Um anticorpo neutralizante se liga a regiões específicas da superfície do vírus (por exemplo, a proteína que ele usa para entrar em uma célula), bloqueando fisicamente essa capacidade de infecção. O vírus não é "morto" no sentido de destruído quimicamente pelo anticorpo — ele é <strong>impedido de funcionar</strong>, e depois eliminado por outros mecanismos do sistema imune (fagocitose, complemento, etc.).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Antígeno x anticorpo: não confundir os dois papéis</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Antígeno (na vacina)</strong>
+              É o estímulo — a molécula estranha que o organismo reconhece. Não tem função de defesa por si só.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Anticorpo (produzido pelo organismo)</strong>
+              É a resposta — a proteína de defesa, produzida pelos plasmócitos após o reconhecimento do antígeno.
+            </div>
+          </div>
+          <p>
+            Essa distinção elimina de cara qualquer alternativa que atribua ao antígeno funções que só o anticorpo, produzido depois, é capaz de exercer.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Separe quem é o antígeno e quem é o anticorpo.</strong> O antígeno é o vírus inativado da vacina; o anticorpo é a proteína de defesa que o organismo produz em resposta.
+            <br><br>
+            <strong>Passo 2 — Pergunte o que o antígeno FAZ, e não o que ele CONTÉM.</strong> Ele não mata, não aglutina, não carrega imunoglobulinas prontas — ele apenas dispara, no organismo, a produção das proteínas de defesa.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Induz a produção de proteínas neutralizantes." O antígeno inativado é reconhecido pelo sistema imune, que ativa linfócitos B e os diferencia em plasmócitos produtores de anticorpos específicos. Esses anticorpos se ligam ao vírus real numa exposição futura e neutralizam sua capacidade de infectar — é exatamente o efeito protetor da vacina.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — mata o vírus pela ligação</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> imaginar o antígeno como um agente ativo que ataca e destrói o vírus diretamente, como se fosse um remédio antiviral.
+              <br>
+              <strong>Onde quebra:</strong> o antígeno não age contra o vírus — ele é o estímulo que faz o organismo produzir as proteínas de defesa. Quem eventualmente neutraliza o vírus real é o anticorpo, produzido depois, não o antígeno em si.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — aglutina o vírus por associação</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar que anticorpos podem causar aglutinação (agrupar partículas virais) e atribuir esse efeito ao antígeno da vacina.
+              <br>
+              <strong>Onde quebra:</strong> aglutinação é uma propriedade de anticorpos ligando múltiplos vírus entre si — de novo, uma função do anticorpo produzido, não do antígeno injetado. Além disso, não é o mecanismo protetor central descrito no esquema.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — contém imunoglobulinas de defesa</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> confundir o conteúdo da vacina (vírus inativado) com o produto final da resposta imune (anticorpos/imunoglobulinas).
+              <br>
+              <strong>Onde quebra:</strong> a vacina tradicional não contém anticorpos prontos — ela contém o antígeno que vai <em>estimular</em> a produção deles pelo próprio corpo. Confundir estímulo com resposta é o erro central desta alternativa.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — mantém a quantidade de anticorpos preexistentes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> supor que a pessoa já tinha anticorpos contra aquele vírus e que a vacina só "conserva" esse nível.
+              <br>
+              <strong>Onde quebra:</strong> antes da vacinação, geralmente não há anticorpos específicos suficientes contra aquele patógeno (é justamente por isso que a pessoa é vulnerável). O efeito da vacina é <strong>induzir a produção de novos</strong> anticorpos específicos, não manter algo que já existia.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Quatro das cinco alternativas atribuem ao <strong>antígeno</strong> capacidades que, na realidade, pertencem ao <strong>anticorpo</strong> produzido posteriormente pelo organismo (matar, aglutinar, conter imunoglobulinas, manter defesa). A vacina não age — ela <em>induz</em> o organismo a agir.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-syringe", titulo: "Vacina de vírus inativado", text: "Vírus tratado por calor ou ação química para perder infectividade, preservando a estrutura reconhecida pelo sistema imune." },
+      { icone: "fa-shapes", titulo: "Antígeno", text: "Molécula ou partícula reconhecida como estranha, que dispara a resposta imune — não age diretamente contra o patógeno." },
+      { icone: "fa-y", titulo: "Anticorpo (Imunoglobulina)", text: "Proteína produzida por plasmócitos, específica para um antígeno, capaz de neutralizá-lo em exposições futuras." },
+      { icone: "fa-brain", titulo: "Memória Imunológica", text: "Células B e T de memória permanecem no organismo, permitindo resposta mais rápida numa infecção real." },
+      { icone: "fa-arrows-turn-right", titulo: "Estímulo x Resposta", text: "O antígeno é o estímulo; a produção de anticorpos pelo organismo é a resposta protetora." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Etapas da vacina de tecnologia tradicional",
+        legenda: "Isolamento → inativação → aplicação → resposta imune. O antígeno inativado não infecta, mas ainda é reconhecido pelo organismo.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="10" y="35" width="95" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="57" y="58" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">1. Isolamento</text>
+            <line x1="105" y1="55" x2="122" y2="55" stroke="#64748b" stroke-width="2" marker-end="url(#pq97)"/>
+
+            <rect x="126" y="35" width="95" height="40" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="173" y="52" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">2. Inativação</text>
+            <text x="173" y="64" fill="#fde68a" font-size="7" text-anchor="middle">(calor/química)</text>
+            <line x1="221" y1="55" x2="238" y2="55" stroke="#64748b" stroke-width="2" marker-end="url(#pq97)"/>
+
+            <rect x="242" y="35" width="95" height="40" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="289" y="58" fill="#bae6fd" font-size="8" font-weight="bold" text-anchor="middle">3. Aplicação</text>
+            <line x1="337" y1="55" x2="354" y2="55" stroke="#64748b" stroke-width="2" marker-end="url(#pq97)"/>
+
+            <rect x="358" y="35" width="95" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="1.5"/>
+            <text x="405" y="52" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">4. Produção de</text>
+            <text x="405" y="64" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">anticorpos</text>
+            <defs>
+              <marker id="pq97" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Antígeno ativa linfócito B, que vira fábrica de anticorpos",
+        legenda: "O antígeno não age sozinho: ele é reconhecido, e a célula B ativada se transforma em plasmócito, produzindo os anticorpos que farão a defesa.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <circle cx="70" cy="80" r="30" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="70" y="75" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Antígeno</text>
+            <text x="70" y="88" fill="#fca5a5" font-size="7" text-anchor="middle">(vacina)</text>
+            <line x1="100" y1="80" x2="140" y2="80" stroke="#64748b" stroke-width="2" marker-end="url(#pq97b)"/>
+
+            <circle cx="200" cy="80" r="35" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="200" y="75" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Linfócito B</text>
+            <text x="200" y="88" fill="#e2e8f0" font-size="7" text-anchor="middle">reconhece</text>
+            <line x1="235" y1="80" x2="275" y2="80" stroke="#64748b" stroke-width="2" marker-end="url(#pq97b)"/>
+
+            <circle cx="345" cy="80" r="35" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+            <text x="345" y="75" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">Plasmócito</text>
+            <text x="345" y="88" fill="#d1fae5" font-size="7" text-anchor="middle">produz anticorpos</text>
+            <text x="345" y="130" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">↓ secreta</text>
+            <text x="345" y="145" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Y Y Y (anticorpos)</text>
+            <defs>
+              <marker id="pq97b" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Anticorpo neutralizando o vírus real",
+        legenda: "Numa exposição futura, o anticorpo produzido se liga à proteína de superfície do vírus e bloqueia sua entrada na célula — isso é neutralização.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <circle cx="140" cy="75" r="35" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="140" y="70" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Vírus real</text>
+            <path d="M 165 60 L 178 50" stroke="#f87171" stroke-width="2"/>
+            <path d="M 168 75 L 182 75" stroke="#f87171" stroke-width="2"/>
+            <path d="M 165 90 L 178 100" stroke="#f87171" stroke-width="2"/>
+
+            <path d="M 260 55 L 240 70 L 260 85" fill="none" stroke="#34d399" stroke-width="3"/>
+            <text x="260" y="45" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">anticorpo</text>
+            <text x="260" y="105" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">bloqueia</text>
+
+            <rect x="330" y="45" width="100" height="60" rx="6" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="380" y="80" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Célula</text>
+            <text x="380" y="118" fill="#94a3b8" font-size="8" text-anchor="middle">infecção impedida</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Quatro alternativas atribuem ao antígeno funções que, na verdade, pertencem ao anticorpo produzido depois pelo organismo.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Mata o vírus por ligação</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Aglutina o vírus</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — Contém imunoglobulinas</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="107" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="125" fill="#6ee7b7" font-size="10" font-weight="bold">D — Induz produção de proteínas neutralizantes</text>
+            <text x="400" y="125" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Mantém anticorpos preexistentes</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: simule a resposta imune após a vacinação",
+      descricao: "Avance o tempo depois da aplicação da vacina e acompanhe o antígeno sendo reconhecido e a produção de anticorpos crescendo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Dias após a aplicação da vacina</span><span class="text-emerald-300 font-bold" data-out="dias">7 dias</span>
+              </label>
+              <input type="range" data-sim="dias" min="0" max="21" value="7" step="1" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> O antígeno não muda — o que evolui com o tempo é a resposta do organismo.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-rose-300 font-bold">Antígeno presente (vírus inativado)</span>
+                  <span class="text-rose-300 font-mono" data-out="antigeno">80%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="antigeno" class="h-full bg-rose-500 transition-all" style="width:80%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Anticorpos neutralizantes produzidos</span>
+                  <span class="text-emerald-300 font-mono" data-out="anticorpo">30%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="anticorpo" class="h-full bg-emerald-500 transition-all" style="width:30%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="dias"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var d = parseFloat(campo.value);
+          var antigeno = Math.max(0, 100 - d * 6);
+          var anticorpo = Math.min(100, d * 5.5);
+
+          saida('dias').textContent = d + (d === 1 ? ' dia' : ' dias');
+          saida('antigeno').textContent = antigeno.toFixed(0) + '%';
+          saida('anticorpo').textContent = anticorpo.toFixed(0) + '%';
+          barra('antigeno').style.width = antigeno + '%';
+          barra('anticorpo').style.width = anticorpo + '%';
+
+          var v = saida('veredito');
+          if (d === 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-700 bg-slate-950 text-slate-300';
+            v.innerHTML = 'Vacina recém-aplicada: o antígeno acaba de ser reconhecido, a produção de anticorpos ainda não começou.';
+          } else if (anticorpo < 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Resposta em construção.</strong> Linfócitos B ativados estão se diferenciando em plasmócitos — os anticorpos ainda estão sendo produzidos.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Proteção estabelecida.</strong> O antígeno já foi eliminado, mas os anticorpos neutralizantes — e a memória imunológica — permanecem, prontos para uma exposição real ao vírus.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-syringe"></i> Antígeno (estímulo) → Organismo Produz Anticorpos (proteção)</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="30" y="30" width="150" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="105" y="54" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Antígeno (vacina)</text>
+          <line x1="180" y1="50" x2="220" y2="50" stroke="#34d399" stroke-width="2" marker-end="url(#pq97c)"/>
+          <text x="200" y="42" fill="#6ee7b7" font-size="8" text-anchor="middle">induz</text>
+          <rect x="225" y="30" width="205" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+          <text x="327" y="54" fill="#d1fae5" font-size="10" font-weight="bold" text-anchor="middle">Produção de anticorpos neutralizantes</text>
+          <defs>
+            <marker id="pq97c" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+              <path d="M0,0 L7,3.5 L0,7 Z" fill="#34d399"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
