@@ -6507,6 +6507,376 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q106",
+    numero: "Questão 106",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / História da Química & Fórmulas",
+    materiaCor: "cyan",
+    materiaIcone: "fa-atom",
+    titulo: "Notação Química de 1909: Decifrando Fórmulas Antigas com Azoto e Números Sobrescritos",
+    tags: ["Química", "História da Química", "Fórmulas Químicas", "Nomenclatura", "Notação Científica", "Estequiometria"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.
+    <br><br>
+    <div class="bg-slate-900 border border-slate-700 rounded-lg p-3 font-mono text-xs text-slate-300 my-2">
+      AzO + O = AzO²<br>
+      SO² + H²O = H²SO³<br>
+      2 H²SO³ + O² = 2 H²SO⁴<br>
+      2 HCl + MgO²H² = MgCl² + 2 H²O
+    </div>
+    Disponível em: www.novomilenio.inf.br. Acesso em: 29 ago. 2014 (adaptado).
+    <br><br>
+    O nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO²). Analogamente, o nitrato de sódio era representado por NaAzO³.
+    <br><br>
+    Em 1909, as representações das substâncias ácido nítrico e cloreto de cálcio, tendo por base essas informações e seguindo a mesma lógica, seriam, respectivamente:`,
+
+    alternativas: [
+      { letra: "A", texto: "HAzO³ e CaCl²", correta: true },
+      { letra: "B", texto: "HAz³O e Ca²Cl", correta: false },
+      { letra: "C", texto: "H³AzO⁴ e CaCl", correta: false },
+      { letra: "D", texto: "HAz³O e KCl²", correta: false },
+      { letra: "E", texto: "HAzO² e KCl", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre como "traduzir" uma notação química antiga para a moderna — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> "Azoto": o nome antigo do nitrogênio</h4>
+          <p>
+            Antes da nomenclatura química se padronizar internacionalmente, o nitrogênio era comumente chamado de <strong>azoto</strong> (do grego "sem vida", porque não sustenta a combustão nem a respiração sozinho) — nome que ainda sobrevive em outras línguas (francês <em>azote</em>, italiano <em>azoto</em>, português de Portugal). Na fórmula antiga, o símbolo usado era <strong>Az</strong>, no lugar do atual <strong>N</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Os números na posição de cima, não embaixo</h4>
+          <p>
+            Repare nas equações da lousa: onde hoje escrevemos $H_2O$ (índice/subscrito), em 1909 se escrevia <strong>H²O</strong> (número na posição de cima, como um sobrescrito). É só uma diferença de <strong>estilo gráfico</strong> — o número representa exatamente a mesma coisa: a quantidade de átomos daquele elemento na fórmula. A química por trás é idêntica; muda apenas onde o número é escrito.
+          </p>
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Regra de tradução:</strong> "elemento moderno" → substitua pelo nome antigo se ele mudou (nitrogênio → Az); "número subscrito moderno" → reescreva como sobrescrito, mantendo o mesmo valor.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Conferindo a regra com os exemplos dados</h4>
+          <p>
+            O próprio enunciado fornece duas "chaves de tradução" para testar a regra:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-cyan-300 block mb-1">AzO + O = AzO²</strong>
+              Monóxido de nitrogênio ($NO$) + oxigênio atômico → dióxido de nitrogênio ($NO_2$). Bate exatamente: Az = N, e o "²" sobrescrito é o mesmo "2" subscrito moderno.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-cyan-300 block mb-1">NaAzO³ = nitrato de sódio</strong>
+              Nitrato de sódio moderno é $NaNO_3$. De novo: Az = N, "³" sobrescrito = "3" subscrito. A regra se confirma duas vezes.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Aplicando a regra ao ácido nítrico</h4>
+          <p>
+            A fórmula moderna do ácido nítrico é $HNO_3$. Seguindo a mesma lógica:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>H permanece H (não muda de nome).</li>
+            <li>N vira Az (mesma substituição confirmada nos exemplos).</li>
+            <li>O permanece O.</li>
+            <li>O subscrito 3 vira sobrescrito ³.</li>
+          </ul>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Resultado:</strong> $HNO_3 \\rightarrow$ <strong>HAzO³</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Aplicando a regra ao cloreto de cálcio</h4>
+          <p>
+            A fórmula moderna do cloreto de cálcio é $CaCl_2$. Nem o cálcio (Ca) nem o cloro (Cl) tiveram seu nome/símbolo alterado nessa notação antiga (isso já se confirma na última equação da lousa, onde $MgCl_2$ aparece como <strong>MgCl²</strong> — Mg e Cl mantêm os símbolos modernos). Então:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Ca permanece Ca.</li>
+            <li>Cl permanece Cl.</li>
+            <li>O subscrito 2 vira sobrescrito ².</li>
+          </ul>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Resultado:</strong> $CaCl_2 \\rightarrow$ <strong>CaCl²</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">6.</span> A resposta completa</h4>
+          <p>
+            Juntando as duas traduções: ácido nítrico e cloreto de cálcio em 1909 seriam escritos, respectivamente, como <strong>HAzO³</strong> e <strong>CaCl²</strong> — exatamente as mesmas proporções atômicas de hoje, só com o nome antigo do nitrogênio e os números na posição de sobrescrito.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-cyan-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Escreva as fórmulas modernas primeiro.</strong> Ácido nítrico = $HNO_3$; cloreto de cálcio = $CaCl_2$.
+            <br><br>
+            <strong>Passo 2 — Troque N por Az.</strong> Confirmado pelos dois exemplos do enunciado (AzO2 e NaAzO3).
+            <br><br>
+            <strong>Passo 3 — Reescreva os números subscritos como sobrescritos, sem mudar o valor.</strong> $HNO_3 \\to HAzO^3$; $CaCl_2 \\to CaCl^2$.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "HAzO³ e CaCl²." Aplica corretamente as duas regras extraídas do enunciado: substituir N por Az, e reescrever os subscritos modernos (3 no ácido nítrico, 2 no cloreto de cálcio) como sobrescritos — sem alterar nenhuma proporção atômica real.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — HAz³O e Ca²Cl</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> colocar o número "3" no elemento errado (Az em vez de O), e inventar um "2" no cálcio.
+              <br>
+              <strong>Onde quebra:</strong> no ácido nítrico há 1 nitrogênio e 3 oxigênios — o número pertence ao O, não ao Az. E no cloreto de cálcio moderno ($CaCl_2$) o índice 2 pertence ao cloro, não ao cálcio.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — H³AzO⁴ e CaCl</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> inventar proporções (3 hidrogênios, 4 oxigênios) que não correspondem à fórmula real do ácido nítrico, e esquecer o índice 2 no cloreto de cálcio.
+              <br>
+              <strong>Onde quebra:</strong> $HNO_3$ tem 1 H, 1 N e 3 O — não 3 H e 4 O. E $CaCl_2$ precisa do sobrescrito ² para manter a proporção 1 cálcio : 2 cloros.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — HAz³O e KCl²</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> mesma troca de posição do número (B), além de confundir o elemento cálcio (Ca) com potássio (K) na segunda substância.
+              <br>
+              <strong>Onde quebra:</strong> a questão pede cloreto de <strong>cálcio</strong>, não cloreto de potássio — troca o elemento errado, não apenas a formatação.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — HAzO² e KCl</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> usar o número 2 (talvez confundindo com o dióxido de nitrogênio do exemplo AzO²) em vez do número correto (3) para o ácido nítrico, além de trocar cálcio por potássio de novo.
+              <br>
+              <strong>Onde quebra:</strong> ácido nítrico tem 3 oxigênios, não 2 (2 oxigênios seria outro composto, como o ácido nitroso). E, de novo, o cátion pedido é cálcio, não potássio.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-cyan-950/30 rounded-xl border border-cyan-500/30">
+          <strong class="text-cyan-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Os erros combinam três tipos de armadilha: colocar o número no elemento errado, inventar proporções que não existem na fórmula real, e trocar o elemento pedido (cálcio) por outro parecido na tabela periódica (potássio). A chave é sempre partir da fórmula moderna correta antes de "traduzir" a notação.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-atom", titulo: "Azoto = Nitrogênio", text: "Nome histórico do nitrogênio (N), representado pelo símbolo Az na notação de 1909." },
+      { icone: "fa-arrow-up-9-1", titulo: "Sobrescrito x Subscrito", text: "A notação antiga escrevia os números de átomos acima da linha; hoje escrevemos abaixo — mesmo valor, posição diferente." },
+      { icone: "fa-flask", titulo: "Ácido Nítrico (HNO3)", text: "1 hidrogênio, 1 nitrogênio (Az), 3 oxigênios — vira HAzO³ na notação antiga." },
+      { icone: "fa-cubes", titulo: "Cloreto de Cálcio (CaCl2)", text: "Ca e Cl mantêm os símbolos modernos; só o índice 2 muda de posição, virando CaCl²." },
+      { icone: "fa-magnifying-glass", titulo: "Usar os exemplos como chave", text: "As equações da lousa (AzO2, NaAzO3) confirmam as regras de tradução antes de aplicá-las." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Tradução moderno → 1909",
+        legenda: "Duas regras simples: trocar N por Az, e mover o número de baixo (subscrito) para cima (sobrescrito), mantendo o mesmo valor.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Notação moderna</text>
+            <rect x="30" y="35" width="170" height="50" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="115" y="66" fill="#e2e8f0" font-size="16" font-weight="bold" text-anchor="middle">HNO₃</text>
+
+            <text x="230" y="65" fill="#22d3ee" font-size="16" text-anchor="middle">→</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Notação de 1909</text>
+            <rect x="260" y="35" width="170" height="50" rx="6" fill="#0e7490" opacity="0.3" stroke="#22d3ee" stroke-width="2"/>
+            <text x="345" y="66" fill="#67e8f9" font-size="16" font-weight="bold" text-anchor="middle">HAzO³</text>
+          </svg>`
+      },
+      {
+        titulo: "Confirmando a regra com os exemplos do enunciado",
+        legenda: "As duas equações da lousa funcionam como chave: Az=N e o número sobrescrito equivale ao subscrito moderno.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="120" y="45" fill="#cbd5e1" font-size="11" font-family="monospace" text-anchor="middle">AzO + O = AzO²</text>
+            <text x="240" y="45" fill="#94a3b8" font-size="12" text-anchor="middle">=</text>
+            <rect x="260" y="20" width="180" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="350" y="45" fill="#cbd5e1" font-size="11" font-family="monospace" text-anchor="middle">NO + O = NO₂</text>
+
+            <rect x="20" y="75" width="200" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="120" y="100" fill="#cbd5e1" font-size="11" font-family="monospace" text-anchor="middle">NaAzO³</text>
+            <text x="240" y="100" fill="#94a3b8" font-size="12" text-anchor="middle">=</text>
+            <rect x="260" y="75" width="180" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="350" y="100" fill="#cbd5e1" font-size="11" font-family="monospace" text-anchor="middle">NaNO₃</text>
+          </svg>`
+      },
+      {
+        titulo: "As duas respostas lado a lado",
+        legenda: "Ácido nítrico e cloreto de cálcio, cada um seguindo a mesma lógica de tradução aplicada aos exemplos do enunciado.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="115" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Ácido nítrico</text>
+            <rect x="30" y="35" width="170" height="50" rx="6" fill="#0e7490" opacity="0.3" stroke="#22d3ee" stroke-width="2"/>
+            <text x="115" y="66" fill="#67e8f9" font-size="16" font-weight="bold" text-anchor="middle">HAzO³</text>
+
+            <text x="345" y="20" fill="#94a3b8" font-size="10" font-weight="bold" text-anchor="middle">Cloreto de cálcio</text>
+            <rect x="260" y="35" width="170" height="50" rx="6" fill="#0e7490" opacity="0.3" stroke="#22d3ee" stroke-width="2"/>
+            <text x="345" y="66" fill="#67e8f9" font-size="16" font-weight="bold" text-anchor="middle">CaCl²</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a alternativa A aplica corretamente as duas regras de tradução a ambas as substâncias pedidas.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <rect x="15" y="30" width="430" height="27" rx="5" fill="#0e7490" opacity="0.35"/>
+            <text x="30" y="48" fill="#67e8f9" font-size="10" font-weight="bold">A — HAzO³ e CaCl²</text>
+            <text x="400" y="48" fill="#22d3ee" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="75" fill="#e2e8f0" font-size="10">B — HAz³O e Ca²Cl</text>
+            <text x="400" y="75" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="101" fill="#e2e8f0" font-size="10">C — H³AzO⁴ e CaCl</text>
+            <text x="400" y="101" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="127" fill="#e2e8f0" font-size="10">D — HAz³O e KCl²</text>
+            <text x="400" y="127" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="153" fill="#e2e8f0" font-size="10">E — HAzO² e KCl</text>
+            <text x="400" y="153" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: tradutor de fórmulas de 1909",
+      descricao: "Escolha uma substância moderna e veja, passo a passo, como ela seria escrita na notação de 1909.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha a substância:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q106sub" data-sim="sub" value="hno3" checked class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Ácido nítrico (HNO₃)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q106sub" data-sim="sub" value="cacl2" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Cloreto de cálcio (CaCl₂)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q106sub" data-sim="sub" value="no2" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Dióxido de nitrogênio (NO₂)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q106sub" data-sim="sub" value="nano3" class="accent-cyan-500">
+              <span class="text-[11px] text-slate-200">Nitrato de sódio (NaNO₃)</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center">
+              <p class="text-[10px] text-slate-500 mb-1">Notação moderna</p>
+              <p class="text-lg font-bold text-slate-200" data-out="moderna">HNO₃</p>
+              <p class="text-cyan-400 text-lg my-1">↓</p>
+              <p class="text-[10px] text-slate-500 mb-1">Notação de 1909</p>
+              <p class="text-lg font-bold text-cyan-300" data-out="antiga">HAzO³</p>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="sub"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var dados = {
+          hno3: { moderna: 'HNO₃', antiga: 'HAzO³', texto: 'N vira Az; o subscrito 3 do oxigênio vira sobrescrito.' },
+          cacl2: { moderna: 'CaCl₂', antiga: 'CaCl²', texto: 'Ca e Cl não mudam de símbolo; só o subscrito 2 vira sobrescrito.' },
+          no2: { moderna: 'NO₂', antiga: 'AzO²', texto: 'Exatamente o exemplo do enunciado — confirma a regra de tradução.' },
+          nano3: { moderna: 'NaNO₃', antiga: 'NaAzO³', texto: 'O outro exemplo dado no enunciado — Na não muda, N vira Az, 3 vira sobrescrito.' }
+        };
+
+        function atualizar() {
+          var sub = 'hno3';
+          radios.forEach(function (r) { if (r.checked) sub = r.value; });
+          var d = dados[sub];
+
+          saida('moderna').textContent = d.moderna;
+          saida('antiga').textContent = d.antiga;
+
+          var v = saida('veredito');
+          v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-cyan-500/40 bg-cyan-950/30 text-cyan-200';
+          v.innerHTML = '<strong>Tradução:</strong> ' + d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-atom"></i> HNO₃ + CaCl₂ (moderno) → HAzO³ + CaCl² (notação de 1909)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="30" y="25" width="150" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="105" y="50" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">HNO₃ + CaCl₂</text>
+          <text x="220" y="50" fill="#22d3ee" font-size="16" text-anchor="middle">→</text>
+          <rect x="255" y="25" width="175" height="40" rx="6" fill="#0e7490" opacity="0.3" stroke="#22d3ee" stroke-width="2"/>
+          <text x="342" y="50" fill="#67e8f9" font-size="11" font-weight="bold" text-anchor="middle">HAzO³ + CaCl²</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
