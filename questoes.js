@@ -3935,6 +3935,384 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q098",
+    numero: "Questão 98",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia & Espécies Invasoras",
+    materiaCor: "emerald",
+    materiaIcone: "fa-seedling",
+    titulo: "Capim-Gordura no Cerrado: Como uma Espécie Invasora Reduz a Biodiversidade Nativa",
+    tags: ["Biologia", "Ecologia", "Espécies Invasoras", "Biodiversidade", "Cerrado", "Competição Interespecífica"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O bioma Cerrado é caracterizado por apresentar ampla e natural diversidade de espécies vegetais. Nos últimos tempos, o homem vem modificando esse cenário pela inserção de plantas exóticas nesse ambiente. Exemplo disso é o cultivo do capim-gordura, nativo do continente africano e utilizado nesse tipo de ecossistema como forma de pastagem. É importante ressaltar que essa espécie vegetal é capaz de se espalhar por grandes áreas, devido à sua agressividade e poder competitivo.
+    <br><br>
+    CARLOS JR., L. A.; BARBOSA, N. P. U.; FERNANDES, G. W. O capim-gordura e as invasões no Cerrado brasileiro. <strong>Jornal do Biólogo</strong>, mar-jun. 2008 (adaptado).
+    <br><br>
+    Em longo prazo, essa ação do homem pode gerar qual consequência?`,
+
+    alternativas: [
+      { letra: "A", texto: "Diversificar nichos ecológicos.", correta: false },
+      { letra: "B", texto: "Assorear as nascentes do bioma.", correta: false },
+      { letra: "C", texto: "Dificultar a infiltração de água na terra.", correta: false },
+      { letra: "D", texto: "Diminuir as espécies nativas do bioma.", correta: true },
+      { letra: "E", texto: "Contribuir com a redução das queimadas.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o mecanismo das invasões biológicas cobrado no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é uma espécie exótica invasora</h4>
+          <p>
+            Uma espécie é <strong>exótica</strong> quando introduzida, por ação humana, fora de sua área de ocorrência natural. Ela se torna <strong>invasora</strong> quando, além de se estabelecer, consegue se espalhar de forma agressiva pelo novo ambiente, competindo com sucesso contra as espécies nativas — que não coevoluíram com ela e não têm defesas específicas contra sua presença.
+          </p>
+          <p>
+            O capim-gordura (<em>Melinis minutiflora</em>) é um exemplo clássico: nativo da África, foi trazido ao Brasil deliberadamente como forrageira (planta de pastagem) para o gado, e depois escapou do controle, se espalhando pelo Cerrado nativo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Por que essa gramínea é tão "agressiva e competitiva"</h4>
+          <p>
+            O próprio enunciado usa essas palavras — agressividade e poder competitivo — que resumem um conjunto de características biológicas típicas de plantas invasoras de sucesso:
+          </p>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Crescimento rápido e produção abundante de sementes, colonizando áreas abertas ou perturbadas rapidamente.</li>
+            <li>Tolerância a solos pobres em nutrientes — exatamente o tipo de solo típico do Cerrado.</li>
+            <li>Formação de touceiras densas que sombreiam e sufocam plântulas de espécies nativas, monopolizando luz, água e nutrientes do solo.</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Exclusão competitiva: o mecanismo central</h4>
+          <p>
+            Quando duas espécies competem pelos mesmos recursos limitados (luz, água, nutrientes, espaço) em um mesmo nicho, a espécie mais eficiente tende a suprimir a outra — esse é o princípio da <strong>exclusão competitiva</strong>. Uma planta invasora com crescimento mais rápido e maior capacidade de dispersão consegue ocupar o espaço antes das nativas, reduzindo drasticamente sua capacidade de se reproduzir e se manter na população.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Consequência em longo prazo:</strong> áreas antes ricas em dezenas de espécies vegetais nativas podem se tornar, com o tempo, dominadas quase exclusivamente pela gramínea invasora — um fenômeno chamado <strong>monodominância</strong>, com perda direta de biodiversidade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Um efeito colateral importante: o capim-gordura e o fogo</h4>
+          <p>
+            Vale destacar (porque aparece como pegadinha em uma das alternativas): o capim-gordura é uma planta altamente inflamável e produz grande quantidade de biomassa seca. Sua presença no Cerrado <strong>aumenta</strong> a intensidade e a frequência das queimadas — o oposto de "reduzir" incêndios. Esse ciclo de fogo mais intenso ainda prejudica mais as espécies nativas (que toleram o regime natural de fogo do Cerrado, mas não esse regime intensificado), reforçando a perda de biodiversidade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Por que as outras alternativas não descrevem o efeito principal</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Diversificar nichos</strong>
+              O oposto do que ocorre: a invasão tende a homogeneizar a vegetação, não diversificá-la.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Assorear nascentes</strong>
+              Assoreamento está ligado a erosão e transporte de sedimentos para corpos d'água — não é o mecanismo central de uma invasão por gramínea competitiva.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Dificultar infiltração de água</strong>
+              Não é a consequência ecológica destacada pelo texto, que fala especificamente de competição entre espécies vegetais, não de compactação ou impermeabilização do solo.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Reduzir queimadas</strong>
+              Contraria o que se sabe sobre essa espécie: ela aumenta, não reduz, o risco e a intensidade de incêndios no Cerrado.
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 2 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Extraia as palavras-chave do enunciado.</strong> "Agressividade" e "poder competitivo" apontam diretamente para exclusão competitiva entre espécies vegetais.
+            <br><br>
+            <strong>Passo 2 — Pergunte quem perde nessa competição.</strong> Se a invasora se espalha "por grandes áreas", ela ocupa espaço que era das espécies nativas — a consequência lógica de longo prazo é a redução delas.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            "Diminuir as espécies nativas do bioma." O capim-gordura compete com sucesso por luz, água, nutrientes e espaço, suprimindo a regeneração e a permanência das espécies vegetais nativas do Cerrado — exatamente o que "agressividade e poder competitivo" descrevem em termos ecológicos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — diversificar nichos ecológicos</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> associar "nova espécie chegando" com "mais diversidade".
+              <br>
+              <strong>Onde quebra:</strong> é o inverso. Espécies invasoras agressivas tendem a homogeneizar o ambiente, formando extensas áreas de monocultura natural (só a espécie invasora), reduzindo a diversidade em vez de aumentá-la.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — assorear as nascentes</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> lembrar de impactos ambientais genéricos ligados a alteração de vegetação, sem verificar se é o que o texto descreve.
+              <br>
+              <strong>Onde quebra:</strong> assoreamento envolve erosão e sedimentação em corpos d'água — um processo distinto, não citado nem implícito na descrição de uma gramínea competitiva se espalhando por área terrestre.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — dificultar a infiltração de água</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> imaginar que uma gramínea densa "sela" o solo como uma superfície impermeável.
+              <br>
+              <strong>Onde quebra:</strong> o texto foca exclusivamente na competição entre plantas por recursos, não em propriedades físicas do solo como infiltração — essa alternativa muda de assunto.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — reduzir as queimadas</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> supor que mais vegetação (mesmo invasora) significa menos risco de fogo.
+              <br>
+              <strong>Onde quebra:</strong> é o contrário do que a ecologia registra sobre essa espécie — o capim-gordura é altamente inflamável e <strong>aumenta</strong> a intensidade das queimadas no Cerrado, agravando ainda mais a perda de espécies nativas.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As alternativas erradas trocam o mecanismo central (competição entre plantas por recursos) por processos ambientais parecidos, mas diferentes — erosão, infiltração de água, ou até invertem o efeito real sobre o fogo. Em toda questão de espécie invasora, a consequência de longo prazo mais cobrada no Enem é a <strong>perda de biodiversidade nativa por exclusão competitiva</strong>.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-seedling", titulo: "Espécie Exótica Invasora", text: "Espécie introduzida fora de sua área natural que se espalha agressivamente, competindo com as nativas." },
+      { icone: "fa-people-arrows", titulo: "Exclusão Competitiva", text: "Quando duas espécies disputam o mesmo recurso limitado, a mais eficiente tende a suprimir a outra." },
+      { icone: "fa-layer-group", titulo: "Monodominância", text: "Área antes diversa passa a ser dominada quase exclusivamente pela espécie invasora." },
+      { icone: "fa-fire", titulo: "Capim-gordura e fogo", text: "Planta altamente inflamável que aumenta a intensidade das queimadas no Cerrado — não reduz." },
+      { icone: "fa-globe", titulo: "Introdução Antrópica", text: "O capim-gordura foi trazido da África deliberadamente como forrageira para pastagem." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "De pastagem controlada a invasão descontrolada",
+        legenda: "O capim-gordura foi introduzido para uso agrícola, mas escapou do cultivo e se espalhou pelo Cerrado nativo por sua alta capacidade competitiva.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="15" y="35" width="120" height="60" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="75" y="60" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Introduzido</text>
+            <text x="75" y="75" fill="#e2e8f0" font-size="8" text-anchor="middle">como pastagem</text>
+            <line x1="135" y1="65" x2="165" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq98)"/>
+
+            <rect x="170" y="35" width="120" height="60" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+            <text x="230" y="60" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Escapa do</text>
+            <text x="230" y="75" fill="#fde68a" font-size="8" text-anchor="middle">cultivo</text>
+            <line x1="290" y1="65" x2="320" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq98)"/>
+
+            <rect x="325" y="35" width="120" height="60" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="385" y="60" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Invade o</text>
+            <text x="385" y="75" fill="#fca5a5" font-size="8" text-anchor="middle">Cerrado nativo</text>
+            <defs>
+              <marker id="pq98" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Antes e depois da invasão",
+        legenda: "Uma área originalmente diversa, com muitas espécies nativas, pode se tornar dominada quase exclusivamente pelo capim-gordura ao longo do tempo.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="20" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">Antes: Cerrado diverso</text>
+            <rect x="30" y="35" width="170" height="110" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+            <circle cx="60" cy="70" r="10" fill="#065f46"/>
+            <circle cx="100" cy="90" r="14" fill="#047857"/>
+            <circle cx="145" cy="65" r="9" fill="#0d9488"/>
+            <circle cx="175" cy="110" r="11" fill="#059669"/>
+            <circle cx="70" cy="120" r="8" fill="#0891b2"/>
+            <circle cx="130" cy="120" r="10" fill="#0d9488"/>
+
+            <text x="345" y="20" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Depois: monodominância</text>
+            <rect x="260" y="35" width="170" height="110" fill="#1a2e1a" stroke="#475569" stroke-width="2"/>
+            <path d="M 270 145 Q 275 90 270 45 M 280 145 Q 285 95 280 45 M 292 145 Q 297 90 292 45 M 305 145 Q 310 95 305 45 M 318 145 Q 323 90 318 45 M 330 145 Q 335 95 330 45 M 343 145 Q 348 90 343 45 M 356 145 Q 361 95 356 45 M 369 145 Q 374 90 369 45 M 382 145 Q 387 95 382 45 M 395 145 Q 400 90 395 45 M 408 145 Q 413 95 408 45 M 420 145 Q 425 90 420 45" stroke="#84cc16" stroke-width="2" fill="none"/>
+            <text x="345" y="160" fill="#a3e635" font-size="8" text-anchor="middle">só capim-gordura</text>
+          </svg>`
+      },
+      {
+        titulo: "Competição por recursos limitados",
+        legenda: "Luz, água, nutrientes e espaço são finitos. A gramínea invasora, mais eficiente, ocupa o recurso antes das plântulas nativas conseguirem se estabelecer.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="40" y="20" width="380" height="30" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <text x="230" y="40" fill="#94a3b8" font-size="9" text-anchor="middle">Recursos disponíveis: luz, água, nutrientes, espaço</text>
+            <line x1="230" y1="50" x2="150" y2="85" stroke="#84cc16" stroke-width="2" marker-end="url(#pq98b)"/>
+            <line x1="230" y1="50" x2="310" y2="85" stroke="#64748b" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#pq98b)"/>
+            <ellipse cx="130" cy="105" rx="55" ry="30" fill="#365314" stroke="#84cc16" stroke-width="2"/>
+            <text x="130" y="102" fill="#d9f99d" font-size="8" font-weight="bold" text-anchor="middle">Capim-gordura</text>
+            <text x="130" y="115" fill="#d9f99d" font-size="7" text-anchor="middle">absorve rápido, cresce mais</text>
+            <ellipse cx="330" cy="105" rx="55" ry="30" fill="#1e293b" stroke="#64748b" stroke-width="2" opacity="0.6"/>
+            <text x="330" y="102" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Espécie nativa</text>
+            <text x="330" y="115" fill="#94a3b8" font-size="7" text-anchor="middle">sombreada, suprimida</text>
+            <defs>
+              <marker id="pq98b" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "Só a alternativa D descreve o mecanismo ecológico central: a redução das espécies nativas por competição.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — Diversificar nichos</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — Assorear nascentes</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — Dificultar infiltração</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="107" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="125" fill="#6ee7b7" font-size="10" font-weight="bold">D — Diminuir espécies nativas</text>
+            <text x="400" y="125" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — Reduzir queimadas</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: avance o tempo da invasão no Cerrado",
+      descricao: "Controle o quanto o capim-gordura já se espalhou pela área e observe o efeito sobre a diversidade de espécies nativas e o risco de queimadas.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Cobertura de capim-gordura na área</span><span class="text-emerald-300 font-bold" data-out="cobertura">30%</span>
+              </label>
+              <input type="range" data-sim="cobertura" min="0" max="100" value="30" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-flask"></i> Este é o fator que avança com o tempo — mexa e observe as duas barras.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-emerald-300 font-bold">Espécies nativas remanescentes</span>
+                  <span class="text-emerald-300 font-mono" data-out="nativas">70%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="nativas" class="h-full bg-emerald-500 transition-all" style="width:70%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-rose-300 font-bold">Risco de queimada intensa</span>
+                  <span class="text-rose-300 font-mono" data-out="fogo">30%</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="fogo" class="h-full bg-rose-500 transition-all" style="width:30%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="cobertura"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var cob = parseFloat(campo.value);
+          var nativas = Math.max(0, 100 - cob);
+          var fogo = cob;
+
+          saida('cobertura').textContent = cob.toFixed(0) + '%';
+          saida('nativas').textContent = nativas.toFixed(0) + '%';
+          saida('fogo').textContent = fogo.toFixed(0) + '%';
+          barra('nativas').style.width = nativas + '%';
+          barra('fogo').style.width = fogo + '%';
+
+          var v = saida('veredito');
+          if (cob < 30) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Invasão inicial.</strong> A maior parte da diversidade nativa ainda está preservada.';
+          } else if (cob < 70) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Exclusão competitiva em curso.</strong> O capim-gordura já domina parte considerável da área, suprimindo espécies nativas e elevando o risco de queimadas mais intensas.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Monodominância.</strong> A área está quase tomada pela invasora — pouquíssimas espécies nativas restam, e o risco de queimadas intensas é alto.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-seedling"></i> Espécie Invasora Agressiva → Exclusão Competitiva → Menos Espécies Nativas</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="20" y="30" width="140" height="40" rx="6" fill="#365314" stroke="#84cc16" stroke-width="2"/>
+          <text x="90" y="54" fill="#d9f99d" font-size="9" font-weight="bold" text-anchor="middle">Capim-gordura</text>
+          <text x="220" y="54" fill="#34d399" font-size="16" text-anchor="middle">→</text>
+          <rect x="245" y="30" width="90" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+          <text x="290" y="54" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Competição</text>
+          <text x="395" y="54" fill="#34d399" font-size="16" text-anchor="middle">→</text>
+          <text x="425" y="54" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">↓ nativas</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
