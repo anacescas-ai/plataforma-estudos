@@ -2395,6 +2395,460 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q094",
+    numero: "Questão 94",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Eletrodinâmica & Potência Elétrica",
+    materiaCor: "purple",
+    materiaIcone: "fa-plug",
+    titulo: "Corrente Elétrica em Réguas: Somando Potências para não Queimar o Fusível",
+    tags: ["Física", "Eletrodinâmica", "Potência Elétrica", "Corrente Elétrica", "Circuitos em Paralelo", "Consumo Doméstico"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Réguas elétricas são dispositivos que permitem a ligação segura e simultânea de dois ou mais aparelhos eletroeletrônicos à rede elétrica. Uma estudante comprou uma régua com seis tomadas, conforme a figura. Essa régua suporta uma intensidade máxima de corrente elétrica igual a 20 A. Acima desse valor, o fusível de segurança da régua se rompe, inutilizando-a até que um novo fusível seja instalado. Considere as potências nominais de alguns aparelhos eletroeletrônicos apresentados no quadro.
+    <br><br>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead>
+        <tr class="bg-slate-800 text-slate-200">
+          <th class="border border-slate-700 p-2 text-left">Aparelho</th>
+          <th class="border border-slate-700 p-2 text-left">Potência (watt)</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-300">
+        <tr><td class="border border-slate-700 p-2">Luminária de LED</td><td class="border border-slate-700 p-2">5</td></tr>
+        <tr><td class="border border-slate-700 p-2">Computador</td><td class="border border-slate-700 p-2">250</td></tr>
+        <tr><td class="border border-slate-700 p-2">Impressora a laser</td><td class="border border-slate-700 p-2">660</td></tr>
+        <tr><td class="border border-slate-700 p-2">Secador de cabelos</td><td class="border border-slate-700 p-2">750</td></tr>
+        <tr><td class="border border-slate-700 p-2">Cafeteira</td><td class="border border-slate-700 p-2">900</td></tr>
+        <tr><td class="border border-slate-700 p-2">Condicionador de ar portátil</td><td class="border border-slate-700 p-2">1.100</td></tr>
+      </tbody>
+    </table>
+    <br>
+    Em um dia quente, a estudante mantém o computador e o condicionador de ar portátil ligados à régua permanentemente. Nessa situação, ela tenta realizar algumas atividades, uma de cada vez, utilizando a mesma régua, na seguinte ordem:
+    <br><br>
+    1º – imprimir um trabalho escolar;<br>
+    2º – fazer um café com a cafeteira;<br>
+    3º – ligar a luminária;<br>
+    4º – secar os cabelos.
+    <br><br>
+    Sabe-se que a régua foi ligada à tensão elétrica de 110 V, adequada para o funcionamento desses aparelhos.
+    <br><br>
+    Considerando a ordem das tentativas, quantas atividades a estudante conseguiu realizar sem queimar o fusível?`,
+
+    alternativas: [
+      { letra: "A", texto: "4", correta: false },
+      { letra: "B", texto: "3", correta: false },
+      { letra: "C", texto: "2", correta: false },
+      { letra: "D", texto: "1", correta: true },
+      { letra: "E", texto: "0", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre toda a relação entre potência, tensão e corrente cobrada no Enem — a questão é só a aplicação final.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> A relação entre potência, tensão e corrente</h4>
+          <p>
+            Todo aparelho elétrico converte energia elétrica em outra forma de energia (calor, luz, movimento) a uma taxa chamada <strong>potência</strong>, medida em watts (W). Essa potência se relaciona com a tensão da rede (V, em volts) e a corrente que o aparelho puxa (I, em ampères) pela equação:
+          </p>
+          $$P = V \\cdot I \\quad \\Rightarrow \\quad I = \\frac{P}{V}$$
+          <p>
+            Quanto maior a potência de um aparelho, mais corrente ele exige da rede, para uma mesma tensão.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Por que as correntes se somam numa régua</h4>
+          <p>
+            Uma régua elétrica liga todos os aparelhos em <strong>paralelo</strong> à mesma rede. Em uma associação em paralelo, todos os ramos têm a mesma tensão, mas cada aparelho puxa sua própria corrente — e a corrente total que passa pelo fio principal (e pelo fusível) é a <strong>soma</strong> das correntes de todos os aparelhos ligados naquele instante:
+          </p>
+          $$I_{total} = I_1 + I_2 + I_3 + \\ldots = \\frac{P_1 + P_2 + P_3 + \\ldots}{V}$$
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            <strong class="text-purple-300">Atalho útil:</strong> como a tensão é a mesma para todos os aparelhos da régua (110 V), basta somar as <strong>potências</strong> de tudo o que está ligado ao mesmo tempo e comparar com a potência máxima que o fusível suporta — não precisa calcular corrente aparelho por aparelho.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> O papel do fusível</h4>
+          <p>
+            O fusível é um elo de segurança dimensionado para uma corrente máxima — aqui, 20 A. Se a corrente total ultrapassa esse valor, o fusível se rompe (queima) para proteger o circuito de superaquecimento. A partir desse momento, a régua fica <strong>inutilizada</strong>, sem passar mais corrente nenhuma, até que o fusível seja fisicamente trocado.
+          </p>
+          <p class="bg-purple-950/30 border border-purple-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-purple-300">Consequência que decide a questão:</strong> uma vez queimado, o fusível não se conserta sozinho. Todas as tentativas seguintes, depois da que rompeu o fusível, automaticamente falham — não porque excedam a corrente de novo, mas porque a régua já não funciona.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Traduzindo a potência máxima em corrente máxima</h4>
+          <p>
+            Com $V = 110\\text{ V}$ e $I_{max} = 20\\text{ A}$:
+          </p>
+          $$P_{max} = V \\cdot I_{max} = 110 \\times 20 = 2200\\text{ W}$$
+          <p>
+            Ou seja: a régua pode carregar, ao mesmo tempo, no máximo 2200 W somados de todos os aparelhos ligados. Qualquer combinação que ultrapasse isso rompe o fusível.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Separando o que é fixo do que é testado</h4>
+          <p>
+            O enunciado distingue dois grupos de aparelhos: o computador e o condicionador de ar portátil ficam ligados <strong>o tempo todo</strong> (carga fixa, ou "baseline"); os outros quatro aparelhos são testados <strong>um de cada vez</strong>, em uma ordem específica. Isso significa que, a cada tentativa, a régua carrega: carga fixa + um único aparelho extra.
+          </p>
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            Carga fixa: $250\\text{ W (computador)} + 1100\\text{ W (ar-condicionado)} = 1350\\text{ W}$, sempre presente, em toda tentativa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">6.</span> A lógica de "testar até quebrar"</h4>
+          <p>
+            Esse tipo de questão pede para simular, passo a passo, uma sequência de eventos até encontrar o ponto de falha. A cada tentativa: some a carga fixa com o aparelho da vez, compare com 2200 W. Se couber, a atividade é bem-sucedida e a contagem de sucesso aumenta; a próxima tentativa começa normalmente. Se estourar, o fusível queima ali mesmo, e <strong>nenhuma tentativa posterior</strong> pode ser realizada, mesmo que sozinha ela coubesse tranquilamente dentro do limite.
+          </p>
+        </div>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. RESOLUÇÃO COMENTADA
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-purple-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Calcule a potência máxima.</strong> $P_{max} = 110 \\times 20 = 2200\\text{ W}$.
+            <br><br>
+            <strong>Passo 2 — Fixe a carga permanente.</strong> Computador (250 W) + ar-condicionado (1100 W) = 1350 W, presente em toda tentativa.
+            <br><br>
+            <strong>Passo 3 — Teste cada atividade, na ordem, até estourar 2200 W.</strong> No momento em que estourar, a régua para de funcionar — pare de contar sucessos ali.
+          </p>
+        </div>
+
+        <div class="bg-purple-950/40 p-4 rounded-xl border border-purple-500/40 space-y-3">
+          <h4 class="font-bold text-purple-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Simulação tentativa a tentativa
+          </h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <div class="p-3 bg-emerald-950/30 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">1ª tentativa — Imprimir (660 W)</strong>
+              <span class="text-slate-300">$1350 + 660 = 2010\\text{ W}$ → $2010 < 2200$ ✓ Funciona.</span>
+            </div>
+            <div class="p-3 bg-rose-950/30 rounded-lg border border-rose-500/30">
+              <strong class="text-rose-300 block mb-1">2ª tentativa — Cafeteira (900 W)</strong>
+              <span class="text-slate-300">$1350 + 900 = 2250\\text{ W}$ → $2250 > 2200$ ✗ Fusível queima aqui.</span>
+            </div>
+            <div class="p-3 bg-slate-900 rounded-lg border border-slate-700 opacity-60">
+              <strong class="text-slate-400 block mb-1">3ª tentativa — Luminária (5 W)</strong>
+              <span class="text-slate-400">Régua já inutilizada. Nem chega a ser testada de verdade — não há mais corrente nenhuma passando.</span>
+            </div>
+            <div class="p-3 bg-slate-900 rounded-lg border border-slate-700 opacity-60">
+              <strong class="text-slate-400 block mb-1">4ª tentativa — Secador (750 W)</strong>
+              <span class="text-slate-400">Mesma situação: fusível já rompido, régua fora de uso.</span>
+            </div>
+          </div>
+          <p class="text-slate-200 leading-relaxed pt-1">
+            Resultado: apenas <strong>1 atividade</strong> (imprimir) foi concluída antes do fusível queimar. <strong>Alternativa D.</strong>
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — 4</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> assumir que, como cada aparelho é usado "um de cada vez" e depois desligado, nunca há acúmulo suficiente para queimar o fusível.
+              <br>
+              <strong>Onde quebra:</strong> ignora que a carga fixa (1350 W) já ocupa boa parte do limite de 2200 W antes mesmo do primeiro teste. A folga real é de só 850 W, insuficiente para a cafeteira (900 W).
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — 3</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> testar as quatro atividades isoladamente contra o limite de 2200 W, sem somar a carga fixa (ou esquecendo de parar depois da falha).
+              <br>
+              <strong>Onde quebra:</strong> a cafeteira sozinha (900 W) cabe tranquilamente nos 2200 W, mas ela nunca está sozinha — sempre soma com os 1350 W fixos.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — 2</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> calcular corretamente que a 2ª tentativa (cafeteira) estoura o limite, mas achar que ela "conta" como sucesso por engano, ou que a régua se recupera sozinha para a tentativa seguinte.
+              <br>
+              <strong>Onde quebra:</strong> a 2ª tentativa é exatamente a que rompe o fusível — ela não é um sucesso, e depois dela nada mais funciona.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — 0</strong>
+            <p class="text-slate-300 leading-relaxed">
+              <strong>Raciocínio que leva ao erro:</strong> supor que a carga fixa sozinha (1350 W) já é suficiente para queimar o fusível, ou confundir o limite de 20 A com um valor de potência diretamente (sem multiplicar pela tensão).
+              <br>
+              <strong>Onde quebra:</strong> 1350 W é bem menor que 2200 W — a régua funciona normalmente com só o computador e o ar-condicionado. A primeira atividade (impressora, 660 W) soma 2010 W e ainda cabe no limite.
+            </p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> O padrão por trás dos distratores</strong>
+          <p class="text-slate-300 leading-relaxed">
+            As alternativas erradas surgem de três descuidos típicos: esquecer de somar a carga fixa, contar a tentativa que queima o fusível como sucesso, e não perceber que, depois do rompimento, a régua fica permanentemente fora de uso — nenhuma tentativa seguinte pode ser sequer testada.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-bolt", titulo: "P = V · I", text: "Potência é o produto entre tensão e corrente; corrente = potência dividida pela tensão." },
+      { icone: "fa-plug", titulo: "Paralelo numa régua", text: "Todos os aparelhos têm a mesma tensão; as correntes (e as potências) se somam no fio principal." },
+      { icone: "fa-shield-halved", titulo: "Fusível", text: "Rompe ao ultrapassar a corrente máxima e deixa o circuito inutilizado até ser trocado." },
+      { icone: "fa-calculator", titulo: "Potência máxima", text: "P_max = V · I_max = 110 × 20 = 2200 W neste circuito." },
+      { icone: "fa-layer-group", titulo: "Carga fixa + variável", text: "Some sempre a carga permanente à carga testada antes de comparar com o limite." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. GALERIA DE ESQUEMAS
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Aparelhos em paralelo na régua",
+        legenda: "Computador e ar-condicionado ficam ligados o tempo todo. As correntes de todos os aparelhos ativos se somam no fio principal, onde está o fusível.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="30" y="80" width="400" height="20" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+            <text x="230" y="65" fill="#94a3b8" font-size="9" text-anchor="middle">fio principal (fusível 20 A)</text>
+            <rect x="200" y="82" width="24" height="16" fill="#7c3aed" stroke="#c4b5fd" stroke-width="1.5"/>
+            <text x="212" y="115" fill="#c4b5fd" font-size="8" text-anchor="middle">fusível</text>
+
+            <line x1="80" y1="80" x2="80" y2="50" stroke="#64748b" stroke-width="2"/>
+            <rect x="55" y="20" width="50" height="30" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+            <text x="80" y="39" fill="#e2e8f0" font-size="8" text-anchor="middle">PC 250W</text>
+
+            <line x1="150" y1="80" x2="150" y2="50" stroke="#64748b" stroke-width="2"/>
+            <rect x="120" y="20" width="60" height="30" rx="4" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+            <text x="150" y="39" fill="#bae6fd" font-size="8" text-anchor="middle">Ar-cond. 1100W</text>
+
+            <line x1="320" y1="100" x2="320" y2="130" stroke="#64748b" stroke-width="2" stroke-dasharray="4 3"/>
+            <rect x="280" y="130" width="80" height="30" rx="4" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+            <text x="320" y="149" fill="#fde68a" font-size="8" text-anchor="middle">Aparelho testado</text>
+
+            <text x="80" y="118" fill="#94a3b8" font-size="8" text-anchor="middle">sempre ligado</text>
+            <text x="150" y="118" fill="#94a3b8" font-size="8" text-anchor="middle">sempre ligado</text>
+          </svg>`
+      },
+      {
+        titulo: "Quanto de folga sobra para testar",
+        legenda: "O limite é 2200 W. A carga fixa já consome 1350 W, deixando só 850 W de folga para o aparelho testado em cada tentativa.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <rect x="40" y="30" width="380" height="40" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+            <rect x="40" y="30" width="233" height="40" fill="#334155"/>
+            <text x="156" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Carga fixa: 1350 W</text>
+            <rect x="273" y="30" width="147" height="40" fill="#422006" opacity="0.5"/>
+            <text x="346" y="55" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Folga: 850 W</text>
+            <line x1="420" y1="15" x2="420" y2="85" stroke="#f87171" stroke-width="2"/>
+            <text x="420" y="10" fill="#fca5a5" font-size="8" text-anchor="middle">2200 W (limite)</text>
+            <text x="40" y="95" fill="#64748b" font-size="8">0 W</text>
+          </svg>`
+      },
+      {
+        titulo: "Potência acumulada em cada tentativa",
+        legenda: "A impressora cabe na folga (2010 W). A cafeteira não cabe (2250 W) e rompe o fusível ali mesmo — o gráfico para nesse ponto.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <line x1="55" y1="160" x2="435" y2="160" stroke="#64748b" stroke-width="2"/>
+            <line x1="55" y1="20" x2="55" y2="160" stroke="#64748b" stroke-width="2"/>
+            <text x="48" y="26" fill="#94a3b8" font-size="9" text-anchor="end">P (W)</text>
+            <line x1="55" y1="45" x2="435" y2="45" stroke="#f87171" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <text x="440" y="49" fill="#fca5a5" font-size="8">2200 W</text>
+
+            <rect x="90" y="88" width="50" height="72" fill="#475569"/>
+            <text x="115" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">base</text>
+            <text x="115" y="82" fill="#e2e8f0" font-size="8" text-anchor="middle">1350</text>
+
+            <rect x="170" y="70" width="50" height="90" fill="#34d399"/>
+            <text x="195" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">+impress.</text>
+            <text x="195" y="64" fill="#6ee7b7" font-size="8" text-anchor="middle">2010</text>
+
+            <rect x="260" y="43" width="50" height="117" fill="#f43f5e"/>
+            <text x="285" y="175" fill="#cbd5e1" font-size="8" text-anchor="middle">+café</text>
+            <text x="285" y="37" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">2250 ✕</text>
+
+            <rect x="340" y="43" width="80" height="117" fill="#1e293b" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+            <text x="380" y="105" fill="#475569" font-size="8" text-anchor="middle">fusível já</text>
+            <text x="380" y="118" fill="#475569" font-size="8" text-anchor="middle">rompido</text>
+          </svg>`
+      },
+      {
+        titulo: "Mapa das cinco alternativas",
+        legenda: "A régua realiza só a primeira atividade antes do fusível romper na segunda tentativa.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="30" y="15" fill="#94a3b8" font-size="9">Alternativa</text>
+            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
+
+            <text x="30" y="42" fill="#e2e8f0" font-size="10">A — 4 atividades</text>
+            <text x="400" y="42" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="69" fill="#e2e8f0" font-size="10">B — 3 atividades</text>
+            <text x="400" y="69" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <text x="30" y="96" fill="#e2e8f0" font-size="10">C — 2 atividades</text>
+            <text x="400" y="96" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+
+            <rect x="15" y="107" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
+            <text x="30" y="125" fill="#6ee7b7" font-size="10" font-weight="bold">D — 1 atividade (imprimir)</text>
+            <text x="400" y="125" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
+
+            <text x="30" y="151" fill="#e2e8f0" font-size="10">E — 0 atividades</text>
+            <text x="400" y="151" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       4. LABORATÓRIO INTERATIVO DEDICADO
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a régua e veja quando o fusível queima",
+      descricao: "Computador e ar-condicionado já vêm ligados (carga fixa). Ligue os outros aparelhos, um de cada vez, e observe a corrente total contra o limite de 20 A.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Carga fixa (sempre ligada):</p>
+            <div class="flex items-center justify-between p-2 rounded-lg border border-slate-800 opacity-70">
+              <span class="text-[11px] text-slate-300">Computador — 250 W</span>
+              <i class="fa-solid fa-lock text-slate-500"></i>
+            </div>
+            <div class="flex items-center justify-between p-2 rounded-lg border border-slate-800 opacity-70 mb-2">
+              <span class="text-[11px] text-slate-300">Condicionador de ar — 1100 W</span>
+              <i class="fa-solid fa-lock text-slate-500"></i>
+            </div>
+
+            <p class="text-[11px] text-slate-400 mb-1">Aparelho testado (escolha um):</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q94aparelho" data-sim="ap" value="0" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Nenhum</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q94aparelho" data-sim="ap" value="660" checked class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Impressora a laser — 660 W</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q94aparelho" data-sim="ap" value="900" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Cafeteira — 900 W</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q94aparelho" data-sim="ap" value="5" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Luminária de LED — 5 W</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q94aparelho" data-sim="ap" value="750" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Secador de cabelos — 750 W</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-purple-300 font-bold">Potência total</span>
+                  <span class="text-purple-300 font-mono" data-out="potencia">2010 W</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="potencia" class="h-full bg-purple-500 transition-all" style="width:91%"></div>
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-between text-[11px] mb-1">
+                  <span class="text-sky-300 font-bold">Corrente total</span>
+                  <span class="text-sky-300 font-mono" data-out="corrente">18,3 A</span>
+                </div>
+                <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+                  <div data-bar="corrente" class="h-full bg-sky-500 transition-all" style="width:91%"></div>
+                </div>
+              </div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var V = 110;
+        var Imax = 20;
+        var Pmax = V * Imax;
+        var cargaFixa = 250 + 1100;
+        var radios = raiz.querySelectorAll('[data-sim="ap"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function atualizar() {
+          var ap = 0;
+          radios.forEach(function (r) { if (r.checked) ap = parseFloat(r.value); });
+
+          var potencia = cargaFixa + ap;
+          var corrente = potencia / V;
+          var pct = Math.min(100, potencia / Pmax * 100);
+
+          saida('potencia').textContent = potencia.toFixed(0) + ' W';
+          saida('corrente').textContent = corrente.toFixed(1).replace('.', ',') + ' A';
+          barra('potencia').style.width = pct + '%';
+          barra('corrente').style.width = pct + '%';
+
+          var v = saida('veredito');
+          if (corrente > Imax) {
+            barra('potencia').className = 'h-full bg-rose-500 transition-all';
+            barra('corrente').className = 'h-full bg-rose-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Fusível rompido!</strong> ' + corrente.toFixed(1).replace('.', ',') + ' A ultrapassa os 20 A. A régua fica inutilizada até trocar o fusível — nenhum aparelho seguinte funcionaria.';
+          } else {
+            barra('potencia').className = 'h-full bg-emerald-500 transition-all';
+            barra('corrente').className = 'h-full bg-emerald-500 transition-all';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Dentro do limite.</strong> ' + corrente.toFixed(1).replace('.', ',') + ' A é menor que 20 A — a régua funciona normalmente com essa combinação.';
+          }
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plug"></i> 1350 W (fixo) + aparelho testado, contra o limite de 2200 W</span>
+        <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
+          <rect x="30" y="35" width="400" height="35" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+          <rect x="30" y="35" width="245" height="35" fill="#334155"/>
+          <text x="152" y="57" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">1350 W fixos</text>
+          <rect x="275" y="35" width="87" height="35" fill="#065f46"/>
+          <text x="318" y="57" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">+660 (imprime)</text>
+          <line x1="430" y1="20" x2="430" y2="85" stroke="#f87171" stroke-width="2"/>
+          <text x="430" y="15" fill="#fca5a5" font-size="8" text-anchor="middle">2200 W</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
