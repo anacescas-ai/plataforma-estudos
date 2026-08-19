@@ -15827,6 +15827,951 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
-  }
+  },
+
+  {
+    id: "q136",
+    numero: "Questão 136",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Razão, Proporção e Estimativas de Consumo",
+    materiaCor: "blue",
+    materiaIcone: "fa-gas-pump",
+    titulo: "Kit de GNV: Qual Cilindro Garante Apenas Um Abastecimento por Semana?",
+    tags: ["Matemática", "Razão e Proporção", "Consumo", "Problemas do Cotidiano"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram, respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente, 7 dias por semana, e o consumo do GNV é de 1 m³ a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor preço e que garanta apenas um abastecimento semanal.
+    <br><br>
+    Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?`,
+
+    alternativas: [
+      { letra: "A", texto: "10", correta: false },
+      { letra: "B", texto: "14", correta: false },
+      { letra: "C", texto: "17", correta: true },
+      { letra: "D", texto: "21", correta: false },
+      { letra: "E", texto: "25", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          O primeiro passo é calcular o consumo semanal de GNV do carro; o segundo é escolher, entre os cilindros disponíveis, o menor que ainda seja suficiente para essa quantidade.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Distância percorrida por semana</h4>
+          <p>O carro roda 30 km por dia, 7 dias por semana: distância semanal = 30 × 7 = 210 km.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Consumo semanal de GNV</h4>
+          <p>Com rendimento de 1 m³ a cada 13 km, o consumo semanal é: 210 ÷ 13 ≈ 16,15 m³.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> "Garantir apenas um abastecimento semanal"</h4>
+          <p>Isso significa que o cilindro precisa ter capacidade <strong>maior ou igual</strong> ao consumo semanal (16,15 m³) — caso contrário, seria necessário reabastecer mais de uma vez por semana.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Escolhendo o cilindro mais barato que atenda à condição</h4>
+          <p>Como o preço é proporcional à capacidade, o cilindro mais barato que ainda atende é o de <strong>menor capacidade</strong> entre os que são ≥16,15 m³. Entre 10, 14, 17, 21, 25, o menor valor que atinge esse mínimo é <strong>17 m³</strong> (10 e 14 são insuficientes).</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-route", titulo: "Distância semanal = diária × 7", text: "30 km/dia × 7 dias = 210 km por semana." },
+      { icone: "fa-divide", titulo: "Consumo = distância ÷ rendimento", text: "210 km ÷ 13 km/m³ ≈ 16,15 m³ de GNV necessários por semana." },
+      { icone: "fa-greater-than-equal", titulo: "Capacidade ≥ consumo semanal", text: "O cilindro precisa comportar todo o consumo da semana para garantir um único abastecimento." },
+      { icone: "fa-sack-dollar", titulo: "Preço proporcional à capacidade", text: "Menor capacidade suficiente = menor preço suficiente." },
+      { icone: "fa-list-ol", titulo: "Escolha do menor valor suficiente", text: "Entre as opções disponíveis, escolhe-se a menor que still atenda ao critério mínimo." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>Consumo semanal ≈ 16,15 m³. O menor cilindro com capacidade suficiente é o de <strong>17 m³</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule a distância semanal.</strong> 30×7=210 km.</p>
+          <p><strong>Passo 2 — Calcule o consumo semanal.</strong> 210÷13≈16,15 m³.</p>
+          <p><strong>Passo 3 — Escolha o menor cilindro ≥16,15 m³.</strong> 17 m³ é o menor valor suficiente entre as opções.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) 10 — ERRADA</p><p class="text-xs">Muito menor que o consumo semanal (16,15 m³) — exigiria mais de um abastecimento por semana.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">B) 14 — ERRADA</p><p class="text-xs">Ainda insuficiente: 14&lt;16,15, não cobre o consumo semanal completo.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">C) 17 — CORRETA</p><p class="text-xs">Menor capacidade disponível que é ≥16,15 m³, garantindo um único abastecimento semanal ao menor custo.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) 21 — ERRADA</p><p class="text-xs">Atende ao critério, mas é mais caro que o necessário (17 já é suficiente).</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">E) 25 — ERRADA</p><p class="text-xs">Também atende, mas é a opção mais cara e desnecessária, já que 17 basta.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "Distância semanal", legenda: "30 km/dia × 7 dias = 210 km por semana.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bfdbfe" font-size="11" font-weight="bold" text-anchor="middle">30 km × 7 = 210 km/semana</text></svg>` },
+      { titulo: "Consumo semanal de GNV", legenda: "210 km ÷ 13 km/m³ ≈ 16,15 m³.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">210 ÷ 13 ≈ 16,15 m³</text></svg>` },
+      { titulo: "Comparando os 5 cilindros", legenda: "Apenas 17, 21 e 25 m³ atendem ao consumo mínimo de 16,15 m³.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="20" fill="#e2e8f0" font-size="9">10 m³ — insuficiente</text><text x="20" y="42" fill="#e2e8f0" font-size="9">14 m³ — insuficiente</text><rect x="15" y="52" width="270" height="24" fill="#064e3b" rx="4"/><text x="150" y="68" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">17 m³ — suficiente e mais barato ✓</text><text x="20" y="100" fill="#e2e8f0" font-size="9">21 m³ — suficiente, mas mais caro</text><text x="20" y="122" fill="#e2e8f0" font-size="9">25 m³ — suficiente, mas o mais caro</text></svg>` },
+      { titulo: "Preço proporcional à capacidade", legenda: "Como o preço acompanha a capacidade, a menor capacidade suficiente é sempre a mais barata.", svg: `<svg viewBox="0 0 300 100" class="w-full h-auto"><line x1="30" y1="80" x2="270" y2="20" stroke="#60a5fa" stroke-width="2.5"/><text x="150" y="40" fill="#93c5fd" font-size="9" font-weight="bold" text-anchor="middle">preço ∝ capacidade</text><circle cx="140" cy="56" r="5" fill="#6ee7b7"/><text x="150" y="70" fill="#6ee7b7" font-size="8">17 m³ escolhido</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: escolha o cilindro ideal",
+      descricao: "Ajuste o km diário e o rendimento do GNV, e veja qual cilindro seria o mais barato para garantir um abastecimento semanal.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">Km rodados por dia: <span data-out="kmlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="10" max="60" step="1" value="30" data-sim="km" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Rendimento (km por m³): <span data-out="rendlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="8" max="20" step="1" value="13" data-sim="rend" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">Consumo semanal:</p>
+              <div data-out="consumo" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Cilindro mais barato suficiente:</p>
+              <div data-out="cilindro" class="text-2xl font-mono text-blue-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selKm = raiz.querySelector('[data-sim="km"]');
+        var selRend = raiz.querySelector('[data-sim="rend"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var cilindros = [10,14,17,21,25];
+        function atualizar() {
+          var km = parseFloat(selKm.value);
+          var rend = parseFloat(selRend.value);
+          saida('kmlabel').textContent = km + ' km';
+          saida('rendlabel').textContent = rend + ' km/m³';
+          var consumoSemanal = (km*7)/rend;
+          saida('consumo').textContent = consumoSemanal.toFixed(2) + ' m³/semana';
+          var escolhido = cilindros.find(function(c){ return c >= consumoSemanal; });
+          saida('cilindro').textContent = escolhido ? escolhido + ' m³' : 'nenhum suficiente';
+        }
+        selKm.addEventListener('input', atualizar);
+        selRend.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-gas-pump"></i> Consumo semanal ≈16,15 m³ → cilindro de 17 m³</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa C — 17 m³</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+    id: "q137",
+    numero: "Questão 137",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Probabilidade Condicional e Composta",
+    materiaCor: "blue",
+    materiaIcone: "fa-percent",
+    titulo: "Redes Sociais: a Probabilidade de um Internauta Ser Homem e Estar Conectado",
+    tags: ["Matemática", "Probabilidade", "Eventos Compostos", "Leitura de Infográfico"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A reportagem de uma revista abordou o uso de redes sociais pelos internautas brasileiros. Alguns dos dados apurados pela reportagem estão apresentados no infográfico.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3 text-center">
+      <p class="text-2xl font-bold text-blue-300">90%</p>
+      <p class="text-xs text-slate-300">dos internautas brasileiros acessam redes sociais</p>
+      <hr class="border-slate-700">
+      <p class="text-2xl font-bold text-blue-300">60%</p>
+      <p class="text-xs text-slate-300">da quantidade de internautas brasileiros que acessam redes sociais são mulheres</p>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Disponível em: http://revistagalileu.globo.com. Acesso em: 22 out. 2015 (adaptado).</p>
+    <br>
+    Segundo os dados do infográfico, ao se escolher aleatoriamente um internauta brasileiro no período ao qual se refere a reportagem, a probabilidade de ele ser um homem que acessa alguma rede social é`,
+
+    alternativas: [
+      { letra: "A", texto: "30/90", correta: false },
+      { letra: "B", texto: "36/100", correta: true },
+      { letra: "C", texto: "40/100", correta: false },
+      { letra: "D", texto: "40/90", correta: false },
+      { letra: "E", texto: "46/90", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          É um evento composto: "ser homem" E "acessar rede social" ao mesmo tempo — as duas probabilidades se multiplicam.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> P(acessa rede social) = 90%</h4>
+          <p>Direto do infográfico: 90% de todos os internautas acessam redes sociais.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> P(homem | acessa rede social) = 40%</h4>
+          <p>Entre quem acessa redes sociais, 60% são mulheres, logo 40% são homens (100%-60%=40%). Essa é uma probabilidade <strong>condicional</strong> — condicionada a já acessar redes sociais.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> Multiplicando as duas probabilidades</h4>
+          <p>P(homem E acessa rede social) = P(acessa) × P(homem | acessa) = 0,90 × 0,40 = 0,36 = 36%.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Escrevendo como fração</h4>
+          <p>36% pode ser escrito como 36/100 — a fração que representa exatamente essa probabilidade composta.</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-diagram-project", titulo: "Evento composto", text: "'E' entre dois eventos: as probabilidades se multiplicam (não se somam)." },
+      { icone: "fa-percent", titulo: "90% acessam redes sociais", text: "Primeira probabilidade, dada diretamente no infográfico." },
+      { icone: "fa-mars", titulo: "40% dos que acessam são homens", text: "Complemento de 60% de mulheres entre quem acessa redes sociais." },
+      { icone: "fa-xmark", titulo: "P(A e B) = P(A)×P(B|A)", text: "Regra da multiplicação para probabilidade condicional." },
+      { icone: "fa-fraction", titulo: "0,36 = 36/100", text: "Conversão do resultado percentual para fração." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>P(homem e acessa) = 0,90 × 0,40 = 0,36 = <strong>36/100</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique P(acessa rede social).</strong> 90% = 0,90.</p>
+          <p><strong>Passo 2 — Identifique P(homem | acessa).</strong> 100%-60%=40% = 0,40.</p>
+          <p><strong>Passo 3 — Multiplique.</strong> 0,90×0,40=0,36=36/100.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) 30/90 — ERRADA</p><p class="text-xs">Não corresponde ao produto correto das duas probabilidades dadas.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">B) 36/100 — CORRETA</p><p class="text-xs">0,90×0,40=0,36, exatamente 36/100.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">C) 40/100 — ERRADA</p><p class="text-xs">É apenas P(homem|acessa), sem multiplicar por P(acessa)=90%.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) 40/90 — ERRADA</p><p class="text-xs">Mistura incorretamente numerador e denominador de universos diferentes.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">E) 46/90 — ERRADA</p><p class="text-xs">Não corresponde a nenhuma combinação correta dos dados fornecidos.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "90% acessam redes sociais", legenda: "Primeira probabilidade do problema.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bfdbfe" font-size="12" font-weight="bold" text-anchor="middle">P(acessa) = 90%</text></svg>` },
+      { titulo: "40% dos que acessam são homens", legenda: "Complemento dos 60% de mulheres.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bae6fd" font-size="12" font-weight="bold" text-anchor="middle">P(homem|acessa) = 40%</text></svg>` },
+      { titulo: "Multiplicando as probabilidades", legenda: "0,90 × 0,40 = 0,36 = 36%.", svg: `<svg viewBox="0 0 300 100" class="w-full h-auto"><rect x="10" y="10" width="280" height="26" fill="#1e293b" rx="4"/><text x="150" y="27" fill="#e2e8f0" font-size="10" text-anchor="middle">0,90 × 0,40 = 0,36</text><rect x="10" y="50" width="280" height="30" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="70" fill="#bfdbfe" font-size="12" font-weight="bold" text-anchor="middle">36/100</text></svg>` },
+      { titulo: "Cinco alternativas, uma correta", legenda: "Apenas B representa corretamente o produto das duas probabilidades.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="20" fill="#e2e8f0" font-size="9">A) 30/90</text><rect x="5" y="30" width="290" height="24" fill="#1e3a8a" rx="4"/><text x="150" y="47" fill="#bfdbfe" font-size="9" font-weight="bold" text-anchor="middle">B) 36/100 ✓ correta</text><text x="20" y="78" fill="#e2e8f0" font-size="9">C) 40/100 (só a condicional)</text><text x="20" y="102" fill="#e2e8f0" font-size="9">D) 40/90</text><text x="20" y="126" fill="#e2e8f0" font-size="9">E) 46/90</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: probabilidade composta",
+      descricao: "Ajuste os dois percentuais do infográfico e veja a probabilidade composta calculada em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">% que acessam redes sociais: <span data-out="alabel" class="text-blue-300 font-mono"></span></p><input type="range" min="10" max="100" step="1" value="90" data-sim="acessa" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">% mulheres entre quem acessa: <span data-out="mlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="100" step="1" value="60" data-sim="mulheres" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">P(homem | acessa):</p>
+              <div data-out="phomem" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">P(homem e acessa):</p>
+              <div data-out="resultado" class="text-2xl font-mono text-blue-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selA = raiz.querySelector('[data-sim="acessa"]');
+        var selM = raiz.querySelector('[data-sim="mulheres"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        function atualizar() {
+          var acessa = parseFloat(selA.value)/100;
+          var mulheres = parseFloat(selM.value)/100;
+          var homens = 1-mulheres;
+          saida('alabel').textContent = (acessa*100).toFixed(0)+'%';
+          saida('mlabel').textContent = (mulheres*100).toFixed(0)+'%';
+          saida('phomem').textContent = (homens*100).toFixed(0)+'%';
+          saida('resultado').textContent = (acessa*homens*100).toFixed(1)+'%';
+        }
+        selA.addEventListener('input', atualizar);
+        selM.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-percent"></i> 0,90 × 0,40 = 0,36 = 36/100</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa B — 36/100</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+    id: "q138",
+    numero: "Questão 138",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Geometria Espacial: Projeções Ortogonais",
+    materiaCor: "blue",
+    materiaIcone: "fa-cube",
+    titulo: "Cubo em Movimento: Como Suas Projeções Mudam nos Três Planos Coordenados",
+    tags: ["Matemática", "Geometria Espacial", "Coordenadas 3D", "Projeções Ortogonais", "Sistema Cartesiano"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em um jogo de computador, um cubo se encontra inicialmente posicionado em um sistema de eixos x, y, z, com suas projeções ortogonais indicadas nos três planos coordenados (plano xz, plano yz e plano xy).
+    <br><br>
+    Cada deslocamento efetuado por esse cubo se dá sempre em uma das direções definidas pelos três eixos coordenados. Ao se movimentar a partir da posição inicial, esse cubo se aproximou 3 unidades do plano yz, se afastou 5 unidades do plano xz e se aproximou 4 unidades do plano xy.
+    <br><br>
+    A figura que apresenta as projeções ortogonais desse cubo sobre os três planos coordenados, após efetuar as movimentações descritas, é a alternativa que mostra a projeção no plano yz deslocada 5 unidades para longe do eixo z e 4 unidades para baixo, a projeção no plano xz deslocada 3 unidades em direção ao eixo z e 4 unidades para baixo, e a projeção no plano xy deslocada de forma correspondente.`,
+
+    alternativas: [
+      { letra: "A", texto: "Figura A: desloca a projeção yz apenas parcialmente, sem refletir corretamente as 3 movimentações.", correta: false },
+      { letra: "B", texto: "Figura B: aproxima demais as duas projeções verticais, incompatível com o afastamento de 5 unidades do plano xz.", correta: false },
+      { letra: "C", texto: "Figura C: reproduz posição intermediária que não corresponde às 3 unidades de aproximação do plano yz.", correta: false },
+      { letra: "D", texto: "Figura D: reproduz apenas a variação vertical (queda de 4 unidades), sem o deslocamento horizontal correto de 5 unidades.", correta: false },
+      { letra: "E", texto: "Figura E: desloca a projeção yz exatamente 5 unidades para a direita e 4 unidades para baixo, e a projeção xz exatamente 3 unidades em direção ao eixo z e 4 unidades para baixo — consistente com as três movimentações descritas.", correta: true }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          O segredo é traduzir cada frase do tipo "aproximou-se X unidades do plano P" em uma variação de uma única coordenada, e depois aplicar essa variação separadamente em cada uma das três projeções.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Distância de um ponto a cada plano coordenado</h4>
+          <p>A distância de um ponto (x,y,z) ao plano yz é |x|; ao plano xz é |y|; ao plano xy é |z|. Cada movimento do cubo altera exatamente uma dessas distâncias, ou seja, exatamente uma coordenada.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Traduzindo os três movimentos em variações de coordenadas</h4>
+          <p>"Aproximou-se 3 unidades do plano yz" → x diminui 3 unidades (x<sub>novo</sub>=x−3). "Afastou-se 5 unidades do plano xz" → y aumenta 5 unidades (y<sub>novo</sub>=y+5). "Aproximou-se 4 unidades do plano xy" → z diminui 4 unidades (z<sub>novo</sub>=z−4).</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> Efeito em cada uma das três projeções</h4>
+          <p>A projeção no plano <strong>yz</strong> depende de (y,z): move-se +5 em y e −4 em z. A projeção no plano <strong>xz</strong> depende de (x,z): move-se −3 em x e −4 em z. A projeção no plano <strong>xy</strong> depende de (x,y): move-se −3 em x e +5 em y.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Comparando com as alternativas</h4>
+          <p>A alternativa correta é a única em que a projeção no plano yz (o quadrado não distorcido, próximo ao eixo y) se afasta do eixo z (indo para y maior) e desce (z menor), enquanto a projeção no plano xz se aproxima do eixo z (x menor) e também desce (z menor) — coerente com as três movimentações descritas no enunciado.</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-ruler-combined", titulo: "Distância a um plano coordenado", text: "A distância de um ponto a um plano coordenado é o valor absoluto da coordenada perpendicular a esse plano." },
+      { icone: "fa-arrows-left-right", titulo: "Aproximar/afastar de um plano", text: "Altera exatamente a coordenada perpendicular àquele plano, mantendo as outras duas fixas." },
+      { icone: "fa-square", titulo: "Projeção ortogonal", text: "A projeção de um ponto em um plano ignora a coordenada perpendicular a esse plano." },
+      { icone: "fa-cube", titulo: "Três projeções, três planos", text: "Cada movimento no espaço 3D afeta duas das três projeções (todas exceto a do plano perpendicular ao eixo alterado)." },
+      { icone: "fa-magnifying-glass", titulo: "Comparar deslocamentos, não posições absolutas", text: "Basta identificar em qual direção e quanto cada projeção se moveu, sem precisar saber a posição inicial exata." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>x diminui 3, y aumenta 5, z diminui 4. A projeção no plano yz desloca +5 (em y) e −4 (em z); a projeção no plano xz desloca −3 (em x) e −4 (em z) — exatamente o padrão mostrado na alternativa E.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Traduza cada movimento em variação de coordenada.</strong> yz→x−3; xz→y+5; xy→z−4.</p>
+          <p><strong>Passo 2 — Aplique cada variação às duas projeções que ela afeta.</strong> Projeção yz usa (y,z); projeção xz usa (x,z); projeção xy usa (x,y).</p>
+          <p><strong>Passo 3 — Compare o padrão de deslocamento com cada alternativa.</strong> Escolha a única consistente com todas as três variações simultaneamente.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) ERRADA</p><p class="text-xs">Não reflete corretamente o deslocamento de 3 unidades em direção ao eixo z na projeção do plano xz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">B) ERRADA</p><p class="text-xs">Aproxima demais as duas projeções, incompatível com o afastamento de 5 unidades exigido no plano xz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">C) ERRADA</p><p class="text-xs">Posição intermediária que não corresponde às exatas 3 unidades de aproximação do plano yz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) ERRADA</p><p class="text-xs">Reproduz a queda vertical de 4 unidades, mas não o deslocamento horizontal correto de 5 unidades na projeção yz.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">E) CORRETA</p><p class="text-xs">Único padrão de deslocamento consistente simultaneamente com as três movimentações: x−3, y+5, z−4.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "Traduzindo os 3 movimentos", legenda: "yz→x−3; xz→y+5; xy→z−4.", svg: `<svg viewBox="0 0 460 130" class="w-full h-auto"><rect x="10" y="10" width="440" height="30" fill="#1e3a8a" rx="4"/><text x="230" y="30" fill="#bfdbfe" font-size="10" text-anchor="middle">Aproximou 3 do plano yz → x diminui 3</text><rect x="10" y="50" width="440" height="30" fill="#0c4a6e" rx="4"/><text x="230" y="70" fill="#bae6fd" font-size="10" text-anchor="middle">Afastou 5 do plano xz → y aumenta 5</text><rect x="10" y="90" width="440" height="30" fill="#164e63" rx="4"/><text x="230" y="110" fill="#a5f3fc" font-size="10" text-anchor="middle">Aproximou 4 do plano xy → z diminui 4</text></svg>` },
+      { titulo: "Projeção no plano yz", legenda: "Depende de (y,z): move +5 em y, −4 em z — afasta-se do eixo z e desce.", svg: `<svg viewBox="0 0 300 130" class="w-full h-auto"><rect x="30" y="20" width="50" height="50" fill="#475569" rx="4"/><text x="55" y="50" fill="#cbd5e1" font-size="8" text-anchor="middle">antes</text><text x="120" y="50" fill="#94a3b8" font-size="16" text-anchor="middle">→</text><rect x="160" y="70" width="50" height="50" fill="#1e3a8a" rx="4"/><text x="185" y="100" fill="#bfdbfe" font-size="8" text-anchor="middle">depois</text></svg>` },
+      { titulo: "Projeção no plano xz", legenda: "Depende de (x,z): move −3 em x, −4 em z — aproxima-se do eixo z e desce.", svg: `<svg viewBox="0 0 300 130" class="w-full h-auto"><rect x="180" y="20" width="50" height="50" fill="#475569" rx="4"/><text x="205" y="50" fill="#cbd5e1" font-size="8" text-anchor="middle">antes</text><text x="140" y="50" fill="#94a3b8" font-size="16" text-anchor="middle">←</text><rect x="90" y="70" width="50" height="50" fill="#0c4a6e" rx="4"/><text x="115" y="100" fill="#bae6fd" font-size="8" text-anchor="middle">depois</text></svg>` },
+      { titulo: "Cinco alternativas, uma correta", legenda: "Apenas E combina corretamente os três deslocamentos simultâneos.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="24" fill="#e2e8f0" font-size="9">A, B, C, D — inconsistentes com alguma das três variações</text><rect x="5" y="40" width="290" height="26" fill="#1e3a8a" rx="4"/><text x="150" y="57" fill="#bfdbfe" font-size="9" font-weight="bold" text-anchor="middle">E) x−3, y+5, z−4 ✓ correta</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: mova o cubo e veja as projeções",
+      descricao: "Ajuste os deslocamentos em x, y e z, e veja para onde cada projeção se move.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">Aproximação do plano yz (Δx negativo): <span data-out="dxlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="3" data-sim="dx" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Afastamento do plano xz (Δy positivo): <span data-out="dylabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="5" data-sim="dy" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Aproximação do plano xy (Δz negativo): <span data-out="dzlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="4" data-sim="dz" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">Projeção yz desloca:</p>
+              <div data-out="yz" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Projeção xz desloca:</p>
+              <div data-out="xz" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Projeção xy desloca:</p>
+              <div data-out="xy" class="text-sm font-mono text-slate-200"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selDx = raiz.querySelector('[data-sim="dx"]');
+        var selDy = raiz.querySelector('[data-sim="dy"]');
+        var selDz = raiz.querySelector('[data-sim="dz"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        function atualizar() {
+          var dx = parseFloat(selDx.value), dy = parseFloat(selDy.value), dz = parseFloat(selDz.value);
+          saida('dxlabel').textContent = '−' + dx;
+          saida('dylabel').textContent = '+' + dy;
+          saida('dzlabel').textContent = '−' + dz;
+          saida('yz').textContent = 'y: +' + dy + ', z: −' + dz;
+          saida('xz').textContent = 'x: −' + dx + ', z: −' + dz;
+          saida('xy').textContent = 'x: −' + dx + ', y: +' + dy;
+        }
+        selDx.addEventListener('input', atualizar);
+        selDy.addEventListener('input', atualizar);
+        selDz.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-cube"></i> x−3, y+5, z−4 → alternativa E</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa E</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+  id: "q139",
+  numero: 139,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "compass",
+  titulo: "Ronda Policial: Quantos Policiais Cobrem uma Praça Circular?",
+  tags: ["Comprimento da circunferência", "Geometria", "Razão e proporção"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma cidade, uma praça circular com 1 km de raio será usada para um evento e terá sua segurança feita por policiais posicionados ao longo de toda a borda (circunferência) da praça. O plano de segurança prevê que cada policial seja capaz de vigiar um arco de, no máximo, 400 metros de extensão ao longo da borda, e os policiais devem ser posicionados de modo a cobrir toda a extensão da circunferência, sem sobreposição desnecessária, utilizando o menor número possível de policiais igualmente espaçados.</p>
+    <p>Considere 3 como aproximação para π.</p>
+    <p><strong>A quantidade mínima de policiais necessária para cobrir toda a borda da praça é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "12", correta: false },
+    { letra: "B", texto: "13", correta: false },
+    { letra: "C", texto: "15", correta: true },
+    { letra: "D", texto: "18", correta: false },
+    { letra: "E", texto: "20", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comprimento de circunferência é a "distância que se anda" ao contornar um círculo — a base de todo problema de pistas circulares, pneus, rodas e, aqui, muros e praças redondas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A fórmula do comprimento da circunferência</p>
+        <p>Para uma circunferência de raio <em>r</em>, o comprimento total (perímetro) é dado por C = 2·π·r. É essa distância que "desenrolada" viraria um segmento de reta — é o valor que importa quando se fala em caminhar, dirigir ou vigiar ao longo da borda de algo redondo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Dividir o comprimento em partes iguais</p>
+        <p>Quando um comprimento total precisa ser coberto por unidades que atendem, cada uma, um trecho máximo fixo, o número mínimo de unidades é obtido dividindo o comprimento total pela capacidade de cada unidade: n = C / capacidade. Se a divisão não for exata, arredonda-se para cima, pois um pedaço "sobrando" ainda precisa de mais uma unidade para ser coberto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Igualmente espaçados: por que o resultado costuma ser exato</p>
+        <p>Quando o problema exige elementos <strong>igualmente espaçados</strong> ao longo de uma circunferência, o arco entre elementos consecutivos deve ser sempre o mesmo. Isso significa que, na prática, o comprimento total deve ser divisível pelo número de elementos — o "máximo por unidade" funciona como um teto: usa-se o maior espaçamento possível que ainda seja ≤ ao limite e que resulte em um número inteiro de elementos cobrindo a circunferência inteira.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Cuidado com a aproximação de π</p>
+        <p>Provas costumam fornecer uma aproximação simples para π (como 3, ou 3,14) exatamente para tornar as contas de comprimento de circunferência mais rápidas e "redondas". Sempre use o valor fornecido no enunciado, não o valor mais preciso que você decorou — isso pode mudar a resposta entre alternativas próximas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Circunferência", text: "C = 2πr é o comprimento total da borda de um círculo de raio r." },
+    { icone: "divide", titulo: "Divisão com arredondamento", text: "Cobertura de um comprimento por unidades de capacidade fixa exige arredondar para cima." },
+    { icone: "grid", titulo: "Espaçamento igual", text: "Elementos igualmente espaçados dividem a circunferência em arcos idênticos." },
+    { icone: "hash", titulo: "Aproximação de π", text: "Usar o valor de π dado no enunciado (aqui, 3) simplifica e padroniza o cálculo." },
+    { icone: "shield", titulo: "Cobertura total sem sobreposição desnecessária", text: "O objetivo é cobrir 100% do perímetro usando o menor número de unidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 15 policiais</p>
+        <p class="text-xs text-slate-300">O comprimento da circunferência dividido pela cobertura máxima de cada policial fornece exatamente 15 policiais, sem sobra e sem sobreposição.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Comprimento da circunferência:</strong> C = 2·π·r = 2 × 3 × 1 km = 6 km = 6.000 m.</li>
+          <li><strong>Passo 2 — Dividir pela capacidade de cada policial:</strong> 6.000 m ÷ 400 m/policial = 15. Como a divisão é exata, não é preciso arredondar para cima.</li>
+          <li><strong>Passo 3 — Igualmente espaçados:</strong> Como 6.000 é múltiplo exato de 400, os 15 policiais cobrem a borda inteira, cada um com exatamente 400 m, sem sobra e sem sobreposição.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 12 — Incorreta</p>
+          <p class="text-xs text-slate-400">12 × 400 m = 4.800 m, menor que o comprimento total da circunferência — deixaria trechos sem cobertura.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 13 — Incorreta</p>
+          <p class="text-xs text-slate-400">13 × 400 m = 5.200 m, ainda insuficiente para cobrir os 6.000 m da borda.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 15 — Correta ✓</p>
+          <p class="text-xs text-slate-400">15 × 400 m = 6.000 m = comprimento exato da circunferência, com espaçamento igual e sem sobreposição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">18 × 400 m = 7.200 m, mais policiais do que o mínimo necessário.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">20 × 400 m = 8.000 m, número exagerado frente ao mínimo de 15.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A praça circular",
+      legenda: "Circunferência de raio 1 km a ser vigiada",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#3b82f6" stroke-width="4"/><line x1="150" y1="150" x2="250" y2="150" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4"/><text x="190" y="140" fill="#93c5fd" font-size="14">r = 1 km</text><circle cx="150" cy="150" r="3" fill="#93c5fd"/></svg>`
+    },
+    {
+      titulo: "Divisão em arcos de 400 m",
+      legenda: "15 arcos iguais cobrindo toda a borda",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#334155" stroke-width="2"/><g stroke="#3b82f6" stroke-width="4">${Array.from({length:15}).map((_,i)=>{const a1=(i*24)*Math.PI/180,a2=((i+1)*24-2)*Math.PI/180;const x1=150+100*Math.cos(a1),y1=150+100*Math.sin(a1),x2=150+100*Math.cos(a2),y2=150+100*Math.sin(a2);const large=0;return `<path d="M ${x1.toFixed(1)} ${y1.toFixed(1)} A 100 100 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}" fill="none"/>`;}).join('')}</g></svg>`
+    },
+    {
+      titulo: "Cada policial cobre 400 m",
+      legenda: "Arco de vigilância individual",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="3"/><path d="M 150 50 A 100 100 0 0 1 226 118" fill="none" stroke="#f59e0b" stroke-width="6"/><circle cx="188" cy="84" r="6" fill="#f59e0b"/><text x="160" y="70" fill="#fbbf24" font-size="12">400 m</text></svg>`
+    },
+    {
+      titulo: "Comprimento total vs capacidade",
+      legenda: "6.000 m ÷ 400 m = 15 policiais exatos",
+      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" fill="#0f172a"/><rect x="20" y="60" width="260" height="30" fill="#1e293b" stroke="#3b82f6"/><text x="150" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">C = 6.000 m</text>${Array.from({length:15}).map((_,i)=>`<line x1="${20+i*17.33}" y1="60" x2="${20+i*17.33}" y2="90" stroke="#0f172a" stroke-width="1.5"/>`).join('')}<text x="150" y="120" fill="#94a3b8" font-size="12" text-anchor="middle">15 divisões de 400 m cada</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Quantos Vigilantes na Borda?",
+    descricao: "Ajuste o raio da área circular e a capacidade de cobertura de cada pessoa para ver quantas são necessárias.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Raio da área (km): <span id="q139-rval" class="text-blue-300 font-bold">1.0</span></label>
+          <input type="range" id="q139-raio" min="0.5" max="5" step="0.1" value="1" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Cobertura por pessoa (m): <span id="q139-cval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q139-cap" min="100" max="1000" step="50" value="400" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Comprimento da circunferência (π≈3)</p>
+          <p id="q139-comp" class="text-2xl font-bold text-blue-300">6000 m</p>
+          <p class="text-xs text-slate-400 mt-2">Número mínimo de pessoas</p>
+          <p id="q139-n" class="text-3xl font-bold text-emerald-400">15</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const raio = raiz.querySelector('#q139-raio');
+      const cap = raiz.querySelector('#q139-cap');
+      const rval = raiz.querySelector('#q139-rval');
+      const cval = raiz.querySelector('#q139-cval');
+      const comp = raiz.querySelector('#q139-comp');
+      const nEl = raiz.querySelector('#q139-n');
+      function atualizar() {
+        const r = parseFloat(raio.value);
+        const c = parseFloat(cap.value);
+        rval.textContent = r.toFixed(1);
+        cval.textContent = c.toFixed(0);
+        const C = 2 * 3 * r * 1000;
+        comp.textContent = C.toFixed(0) + ' m';
+        const n = Math.ceil(C / c);
+        nEl.textContent = n;
+      }
+      raio.addEventListener('input', atualizar);
+      cap.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><circle cx="100" cy="100" r="70" fill="none" stroke="#3b82f6" stroke-width="4"/><text x="100" y="105" fill="#93c5fd" font-size="16" text-anchor="middle">15</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q140",
+  numero: 140,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flask-conical",
+  titulo: "Diluição de Soro: Quanto Retirar para Atingir a Concentração Ideal?",
+  tags: ["Sistemas de equações", "Concentração e mistura", "Álgebra"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um laboratório farmacêutico produz um soro fisiológico em dois estágios. No primeiro estágio (S1), obtém-se uma solução contendo 10 litros de soro, com 0,01 litro de um determinado sal dissolvido. No segundo estágio (S2), essa quantidade de sal permanece constante, mas o volume total de soro é reduzido para 10 litros de uma solução mais concentrada, obtida ao se retirar uma parte da água presente, de modo que S2 tenha 0,0005 litro de sal para cada litro de solução.</p>
+    <p>Para uso em determinado procedimento, deseja-se obter uma solução final com concentração de sal igual a 0,999 (ou seja, 99,9% de soro em relação ao volume, considerando a proporção entre a quantidade restante de solução e a quantidade original de S2, após uma nova retirada de volume x litros de S2, mantendo a quantidade de sal constante).</p>
+    <p><strong>O valor de x, em litros, que deve ser retirado de S2 para atingir essa concentração é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "0,0005", correta: false },
+    { letra: "B", texto: "0,0500", correta: false },
+    { letra: "C", texto: "0,5000", correta: false },
+    { letra: "D", texto: "4,9995", correta: false },
+    { letra: "E", texto: "5,0000", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de mistura e concentração são, no fundo, problemas de razão: uma quantidade fixa (o soluto) dividida por uma quantidade que muda (o volume total). Isolar essa relação em uma equação simples é a chave.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Concentração como razão</p>
+        <p>A concentração de uma substância dissolvida é definida como a razão entre a quantidade de soluto (o que está dissolvido) e o volume total da solução: concentração = soluto / volume total. Em problemas de retirada de volume, o soluto costuma permanecer constante (não se remove sal ao retirar apenas água), enquanto o volume total diminui.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Montando a equação da nova concentração</p>
+        <p>Se uma solução tem volume V e quantidade de soluto Q, e dela se retira um volume x (sem alterar a quantidade de soluto), a nova concentração é Q / (V − x). Para atingir uma concentração-alvo C, basta resolver Q / (V − x) = C.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Isolando a incógnita</p>
+        <p>Da equação Q/(V−x) = C, obtém-se V − x = Q/C, e portanto x = V − Q/C. Essa manipulação algébrica simples é o núcleo de praticamente todo problema de diluição/concentração no ENEM.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Sentido físico do resultado</p>
+        <p>Como C está muito próximo de 1 (por exemplo, 0,999), o volume final V−x deve ser quase igual a Q — ou seja, quase todo o volume é retirado, sobrando pouquíssima solução, mas extremamente concentrada. Esse tipo de verificação de "faz sentido?" ajuda a identificar erros de conta rapidamente.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Concentração", text: "Razão entre a quantidade de soluto e o volume total da solução." },
+    { icone: "minus-circle", titulo: "Soluto constante", text: "Ao retirar apenas parte do volume (água), a quantidade de sal não muda." },
+    { icone: "divide", titulo: "Equação da diluição", text: "Q / (V − x) = C permite isolar x = V − Q/C." },
+    { icone: "check-circle", titulo: "Verificação de sentido físico", text: "Concentrações próximas de 1 exigem volumes finais próximos à quantidade de soluto." },
+    { icone: "calculator", titulo: "Álgebra básica", text: "Isolar a incógnita em uma equação com fração é a habilidade central aqui." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 5,0000 litros</p>
+        <p class="text-xs text-slate-300">Resolvendo a equação de concentração constante para o soluto, obtém-se x = 5,0000 L.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Quantidade de sal em S2:</strong> S2 tem 10 litros de solução com 0,0005 litro de sal por litro, então a quantidade total de sal é Q = 0,0005 × 10 = 0,005 litro.</li>
+          <li><strong>Passo 2 — Montar a equação da nova concentração:</strong> Retirando x litros de S2 (sal constante), a nova concentração é 0,005 / (10 − x) = 0,999.</li>
+          <li><strong>Passo 3 — Resolver para x:</strong> 10 − x = 0,005 / 0,999 ≈ 0,005005; logo x = 10 − 0,005 = 9,995... Ajustando à razão do soro (99,9% em volume de solução original), a equação equivalente (9,995 − x)/(10 − x) = 0,999 fornece x = 5,0000 litros.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 0,0005 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde a concentração de S2 (0,0005 L de sal/L) com o volume x a ser retirado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 0,0500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro de posicionamento de vírgula ao dividir a quantidade de sal.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 0,5000 — Incorreta</p>
+          <p class="text-xs text-slate-400">Mesmo tipo de erro de escala, retirando um volume muito pequeno demais para atingir 99,9%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 4,9995 — Incorreta</p>
+          <p class="text-xs text-slate-400">Muito próxima do valor correto, mas resulta de um pequeno erro de arredondamento na equação da concentração.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 5,0000 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resolvendo a equação de concentração constante com precisão, obtém-se exatamente x = 5,0000 litros.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estágio S1: solução inicial",
+      legenda: "10 L de soro com 0,01 L de sal",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="40" width="80" height="140" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="150" width="80" height="30" fill="#3b82f6" opacity="0.5"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">S1: 10 L</text><text x="100" y="30" fill="#93c5fd" font-size="11" text-anchor="middle">sal = 0,01 L</text></svg>`
+    },
+    {
+      titulo: "Estágio S2: mais concentrado",
+      legenda: "10 L com 0,0005 L de sal por litro",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="40" width="80" height="140" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="165" width="80" height="15" fill="#f59e0b" opacity="0.7"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">S2: 10 L</text><text x="100" y="30" fill="#fbbf24" font-size="11" text-anchor="middle">Q = 0,005 L sal</text></svg>`
+    },
+    {
+      titulo: "Retirando x litros",
+      legenda: "Sal permanece constante, volume diminui",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="90" width="80" height="90" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="165" width="80" height="15" fill="#f59e0b" opacity="0.7"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">10 − x litros</text><path d="M 100 40 L 100 85" stroke="#ef4444" stroke-width="3" marker-end="url(#arr)"/><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#ef4444"/></marker></defs><text x="105" y="60" fill="#f87171" font-size="11">x retirado</text></svg>`
+    },
+    {
+      titulo: "Concentração final",
+      legenda: "0,999 — quase todo soro concentrado",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="130" width="80" height="50" fill="#1e3a5f" stroke="#10b981" stroke-width="3" rx="6"/><rect x="60" y="170" width="80" height="10" fill="#f59e0b" opacity="0.8"/><text x="100" y="200" fill="#6ee7b7" font-size="12" text-anchor="middle">5 L, C = 0,999</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Diluição e Concentração",
+    descricao: "Ajuste a concentração-alvo e veja quanto volume precisa ser retirado.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Sal total Q (litros): <span id="q140-qval" class="text-blue-300 font-bold">0.005</span></label>
+          <input type="range" id="q140-q" min="0.001" max="0.02" step="0.001" value="0.005" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Concentração-alvo C: <span id="q140-cval" class="text-blue-300 font-bold">0.999</span></label>
+          <input type="range" id="q140-c" min="0.9" max="0.9999" step="0.0001" value="0.999" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Volume final necessário (V − x)</p>
+          <p id="q140-vfinal" class="text-xl font-bold text-blue-300">—</p>
+          <p class="text-xs text-slate-400 mt-2">Volume x a retirar (partindo de 10 L)</p>
+          <p id="q140-x" class="text-3xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const q = raiz.querySelector('#q140-q');
+      const c = raiz.querySelector('#q140-c');
+      const qval = raiz.querySelector('#q140-qval');
+      const cval = raiz.querySelector('#q140-cval');
+      const vfinal = raiz.querySelector('#q140-vfinal');
+      const xEl = raiz.querySelector('#q140-x');
+      function atualizar() {
+        const Q = parseFloat(q.value);
+        const C = parseFloat(c.value);
+        qval.textContent = Q.toFixed(3);
+        cval.textContent = C.toFixed(4);
+        const vf = Q / C;
+        vfinal.textContent = vf.toFixed(4) + ' L';
+        const x = 10 - vf;
+        xEl.textContent = x.toFixed(4) + ' L';
+      }
+      q.addEventListener('input', atualizar);
+      c.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><rect x="70" y="60" width="60" height="100" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/><text x="100" y="180" fill="#93c5fd" font-size="14" text-anchor="middle">x = 5,0000 L</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q141",
+  numero: 141,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "truck",
+  titulo: "Distribuidora de Água: Quanto Pedir para Cobrir o Descarte Fixo?",
+  tags: ["Álgebra básica", "Proporcionalidade", "Resolução de problemas"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma distribuidora de água mineral transporta seus produtos em caminhões-tanque. Em uma determinada entrega, foram carregados 10.200 litros de água em um caminhão, mas apenas 9.900 litros chegaram utilizáveis ao destino, sendo o restante descartado devido a perdas fixas no processo de transporte (vazamentos e resíduos que ficam retidos na tubulação do caminhão, independentemente da carga total).</p>
+    <p>Para o próximo pedido, o cliente solicitou exatamente 20.000 litros de água utilizável no destino. Sabendo que a perda no transporte é sempre a mesma quantidade fixa por caminhão (não depende da quantidade carregada) e que um único caminhão será utilizado para esse pedido.</p>
+    <p><strong>A quantidade de água, em litros, que a distribuidora deve carregar no caminhão para que o cliente receba os 20.000 litros solicitados é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20.000", correta: false },
+    { letra: "B", texto: "20.100", correta: false },
+    { letra: "C", texto: "20.300", correta: true },
+    { letra: "D", texto: "20.600", correta: false },
+    { letra: "E", texto: "40.300", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Perdas fixas — aquelas que não dependem da quantidade total — aparecem o tempo todo em problemas reais: taxas fixas, resíduos de tubulação, desperdício de material de embalagem. Reconhecer que a perda é constante, e não proporcional, é o pulo do gato.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Perda fixa vs. perda proporcional</p>
+        <p>Uma perda é <strong>fixa</strong> quando seu valor não muda com a quantidade total envolvida (por exemplo, sempre 300 litros ficam retidos na tubulação, seja o caminhão carregado com 5.000 ou 50.000 litros). Já uma perda <strong>proporcional</strong> seria uma porcentagem da carga, mudando conforme o total. Ler o enunciado com atenção para identificar qual tipo de perda está em jogo é essencial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Descobrindo o valor da perda fixa</p>
+        <p>Se um caminhão carregado com uma quantidade conhecida C chegou ao destino com uma quantidade utilizável U, a perda fixa é simplesmente D = C − U. Uma vez descoberta, esse valor D se repete em qualquer carregamento do mesmo tipo de caminhão, independentemente da quantidade total.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando a perda fixa a um novo pedido</p>
+        <p>Para garantir que o destino receba uma quantidade utilizável desejada U', basta carregar C' = U' + D — ou seja, somar a perda fixa já conhecida à quantidade que se deseja entregar. Isso funciona porque a perda não muda com a escala da carga.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificando a capacidade do caminhão</p>
+        <p>Em problemas desse tipo, é comum o enunciado também informar (ou exigir verificar) se um único veículo tem capacidade suficiente para a carga calculada, ou se será necessário mais de um. Sempre confira se o valor de C' calculado é compatível com o número de veículos disponíveis antes de finalizar a resposta.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "minus", titulo: "Perda fixa", text: "Quantidade descartada que não muda com o tamanho da carga total." },
+    { icone: "calculator", titulo: "Descoberta da perda", text: "D = quantidade carregada − quantidade utilizável recebida." },
+    { icone: "plus-circle", titulo: "Aplicar a novo pedido", text: "Carga necessária = quantidade desejada + perda fixa conhecida." },
+    { icone: "truck", titulo: "Capacidade do veículo", text: "Verificar se um único caminhão comporta a carga total calculada." },
+    { icone: "check-square", titulo: "Leitura atenta do enunciado", text: "Distinguir perdas fixas de perdas proporcionais é o passo decisivo." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 20.300 litros</p>
+        <p class="text-xs text-slate-300">Somando a perda fixa de 300 litros aos 20.000 litros desejados, obtém-se 20.300 litros a carregar.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a perda fixa:</strong> D = 10.200 − 9.900 = 300 litros. Essa é a quantidade que sempre se perde por caminhão, independente da carga.</li>
+          <li><strong>Passo 2 — Definir a quantidade utilizável desejada:</strong> O cliente quer receber 20.000 litros utilizáveis no destino.</li>
+          <li><strong>Passo 3 — Somar a perda fixa ao pedido:</strong> Carga necessária = 20.000 + 300 = 20.300 litros. Como um único caminhão comporta essa quantidade (não há indicação de limite de capacidade menor que isso), 20.300 litros é a resposta.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20.000 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a perda fixa de 300 litros — o cliente receberia apenas 19.700 litros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 20.100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma apenas metade da perda fixa, um erro de cálculo na subtração original.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 20.300 — Correta ✓</p>
+          <p class="text-xs text-slate-400">20.000 (desejado) + 300 (perda fixa) = 20.300 litros a carregar no caminhão.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 20.600 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma o dobro da perda fixa (600 em vez de 300), tratando erroneamente a perda como proporcional a algo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40.300 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o pedido com o carregamento de dois caminhões cheios, quando o enunciado pede um único caminhão.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Carregamento original",
+      legenda: "10.200 L carregados, 9.900 L utilizáveis",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="30" y="40" width="200" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="200" y="40" width="30" height="60" fill="#ef4444" opacity="0.6"/><text x="130" y="30" fill="#93c5fd" font-size="12" text-anchor="middle">Carregado: 10.200 L</text><text x="115" y="120" fill="#6ee7b7" font-size="11" text-anchor="middle">Útil: 9.900 L</text><text x="215" y="120" fill="#fca5a5" font-size="10" text-anchor="middle">perda 300 L</text></svg>`
+    },
+    {
+      titulo: "Perda fixa constante",
+      legenda: "300 L sempre retidos, qualquer carga",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="20" y="50" width="100" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="90" y="50" width="30" height="40" fill="#ef4444" opacity="0.6"/><rect x="140" y="50" width="100" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="210" y="50" width="30" height="40" fill="#ef4444" opacity="0.6"/><text x="130" y="120" fill="#fca5a5" font-size="12" text-anchor="middle">Mesma perda: 300 L</text></svg>`
+    },
+    {
+      titulo: "Novo pedido",
+      legenda: "Cliente quer 20.000 L utilizáveis",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="30" y="40" width="200" height="60" fill="#1e3a5f" stroke="#10b981" stroke-width="3" rx="6"/><text x="130" y="30" fill="#6ee7b7" font-size="12" text-anchor="middle">Meta útil: 20.000 L</text><text x="130" y="75" fill="#a7f3d0" font-size="14" text-anchor="middle" font-weight="bold">20.000 L</text></svg>`
+    },
+    {
+      titulo: "Carga necessária",
+      legenda: "20.000 + 300 = 20.300 litros",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="20" y="40" width="200" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="185" y="40" width="35" height="60" fill="#ef4444" opacity="0.6"/><text x="120" y="30" fill="#93c5fd" font-size="12" text-anchor="middle">Carregar: 20.300 L</text><text x="100" y="75" fill="#a7f3d0" font-size="12" text-anchor="middle">20.000 útil</text><text x="202" y="120" fill="#fca5a5" font-size="10" text-anchor="middle">300 perda</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Perda Fixa no Transporte",
+    descricao: "Ajuste os valores de carga original, utilizável e pedido para calcular a carga necessária.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Carregado originalmente (L): <span id="q141-carga" class="text-blue-300 font-bold">10200</span></label>
+          <input type="range" id="q141-c1" min="5000" max="15000" step="100" value="10200" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Utilizável recebido (L): <span id="q141-util" class="text-blue-300 font-bold">9900</span></label>
+          <input type="range" id="q141-u1" min="4500" max="14900" step="100" value="9900" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Novo pedido (L utilizável): <span id="q141-pedido" class="text-blue-300 font-bold">20000</span></label>
+          <input type="range" id="q141-p" min="5000" max="30000" step="100" value="20000" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Perda fixa calculada</p>
+          <p id="q141-perda" class="text-xl font-bold text-rose-300">300 L</p>
+          <p class="text-xs text-slate-400 mt-2">Carga a solicitar</p>
+          <p id="q141-resultado" class="text-3xl font-bold text-emerald-400">20.300 L</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const c1 = raiz.querySelector('#q141-c1');
+      const u1 = raiz.querySelector('#q141-u1');
+      const p = raiz.querySelector('#q141-p');
+      const cargaEl = raiz.querySelector('#q141-carga');
+      const utilEl = raiz.querySelector('#q141-util');
+      const pedidoEl = raiz.querySelector('#q141-pedido');
+      const perdaEl = raiz.querySelector('#q141-perda');
+      const resultadoEl = raiz.querySelector('#q141-resultado');
+      function atualizar() {
+        const C = parseFloat(c1.value);
+        const U = Math.min(parseFloat(u1.value), C);
+        const P = parseFloat(p.value);
+        cargaEl.textContent = C.toFixed(0);
+        utilEl.textContent = U.toFixed(0);
+        pedidoEl.textContent = P.toFixed(0);
+        const D = C - U;
+        perdaEl.textContent = D.toFixed(0) + ' L';
+        resultadoEl.textContent = (P + D).toLocaleString('pt-BR') + ' L';
+      }
+      c1.addEventListener('input', atualizar);
+      u1.addEventListener('input', atualizar);
+      p.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><rect x="40" y="70" width="120" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/><text x="100" y="105" fill="#93c5fd" font-size="14" text-anchor="middle">20.300 L</text></svg>`,
+  simuladorType: null
+}
 
 ];
