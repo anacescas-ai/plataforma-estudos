@@ -12334,6 +12334,942 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q124",
+    numero: "Questão 124",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Eletroquímica & Potenciais-Padrão",
+    materiaCor: "cyan",
+    materiaIcone: "fa-bolt",
+    titulo: "Limpeza de Objetos de Prata: Potenciais-Padrão do Escurecimento e do Clareamento",
+    tags: ["Química", "Eletroquímica", "Potencial-Padrão de Redução", "Pilhas", "Oxirredução", "Prata"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Objetos de prata escurecem em contato com compostos contendo enxofre por causa da formação de uma fina camada de sulfeto de prata. Um método simples para clarear o objeto consiste em forrar um recipiente com papel alumínio, adicionar ao recipiente uma solução aquosa de cloreto de sódio e, enfim, mergulhar o objeto de prata enegrecido. Em cerca de três minutos, a prata volta à coloração original. As seguintes semirreações e os respectivos potenciais-padrão de redução são úteis para a compreensão dos fenômenos ocorridos.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2 font-mono text-sm text-cyan-300">
+      <div class="flex justify-between"><span>Ag₂S (s) + 2 e⁻ → 2 Ag (s) + S²⁻ (aq)</span><span>−0,69 V</span></div>
+      <div class="flex justify-between"><span>O₂ (g) + 4 H⁺ (aq) + 4 e⁻ → 2 H₂O (l)</span><span>+1,23 V</span></div>
+      <div class="flex justify-between"><span>Al³⁺ (aq) + 3 e⁻ → Al (s)</span><span>−1,68 V</span></div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">SARTORI, E. R.; BATISTA, E. F.; FATIBELLO-FILHO, O. Escurecimento e limpeza de objetos de prata: um experimento simples e de fácil execução envolvendo reações de oxidação-redução. <strong>Química Nova na Escola</strong>, n. 30, 2008 (adaptado).</p>
+    <br>
+    Os valores das diferenças de potencial-padrão das reações que representam o escurecimento e o clareamento do objeto de prata são, respectivamente,`,
+
+    alternativas: [
+      { letra: "A", texto: "+0,54 V e +2,37 V.", correta: false },
+      { letra: "B", texto: "+1,92 V e +0,99 V.", correta: true },
+      { letra: "C", texto: "−0,15 V e +5,43 V.", correta: false },
+      { letra: "D", texto: "+2,61 V e +1,29 V.", correta: false },
+      { letra: "E", texto: "+0,15 V e −1,29 V.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre como montar duas reações completas (escurecimento e clareamento) a partir das três semirreações dadas, usando ΔE° = E°<sub>catodo</sub> − E°<sub>anodo</sub>.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Escurecimento: prata oxidada por oxigênio na presença de enxofre</h4>
+          <p>
+            O escurecimento é a formação de Ag₂S a partir da prata metálica, num processo em que a prata é <strong>oxidada</strong> (perde elétrons) enquanto o oxigênio do ar é <strong>reduzido</strong>. Isso significa usar a semirreação da prata <em>ao contrário</em> (como oxidação, anodo) e a semirreação do oxigênio como está (redução, catodo).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            Catodo (redução): O₂ + 4H⁺ + 4e⁻ → 2H₂O &nbsp; E° = +1,23 V<br>
+            Anodo (oxidação): 2Ag + S²⁻ → Ag₂S + 2e⁻ &nbsp; (E°<sub>redução</sub> = −0,69 V)
+          </div>
+          <p>
+            ΔE°<sub>escurecimento</sub> = E°<sub>catodo</sub> − E°<sub>anodo</sub> = (+1,23) − (−0,69) = <strong>+1,92 V</strong>
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Clareamento: alumínio reduz o Ag₂S de volta a prata metálica</h4>
+          <p>
+            No clareamento, o alumínio do papel-alumínio é <strong>oxidado</strong> (perde elétrons, viram Al³⁺), enquanto o Ag₂S é <strong>reduzido</strong> de volta a prata metálica (Ag). O alumínio funciona como agente redutor "sacrificial" — mais fácil de oxidar do que a prata, ele "puxa" os elétrons de volta para o Ag₂S.
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            Catodo (redução): Ag₂S + 2e⁻ → 2Ag + S²⁻ &nbsp; E° = −0,69 V<br>
+            Anodo (oxidação): Al → Al³⁺ + 3e⁻ &nbsp; (E°<sub>redução</sub> = −1,68 V)
+          </div>
+          <p>
+            ΔE°<sub>clareamento</sub> = E°<sub>catodo</sub> − E°<sub>anodo</sub> = (−0,69) − (−1,68) = <strong>+0,99 V</strong>
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que o NaCl (aq) é necessário</h4>
+          <p>
+            A solução de NaCl fornece íons que aumentam a condutividade elétrica da solução, funcionando como uma "ponte" que permite a transferência de elétrons entre o alumínio e o objeto de prata em contato — essencialmente transformando o sistema num tipo de célula eletroquímica improvisada, permitindo que a reação de clareamento ocorra de forma eficiente.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Regra geral: ΔE° = E°<sub>catodo</sub> − E°<sub>anodo</sub></h4>
+          <p>
+            Para qualquer reação redox espontânea, identifique qual semirreação ocorre como <strong>redução</strong> (catodo, usada como está na tabela) e qual ocorre como <strong>oxidação</strong> (anodo, invertida em relação à tabela, mas o valor de E° usado na subtração continua sendo o de <em>redução</em> tabelado). A diferença de potencial-padrão da pilha (ΔE°) é sempre E°<sub>catodo</sub> menos E°<sub>anodo</sub>, e deve dar um valor positivo para uma reação espontânea, como as duas descritas aqui.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-bolt", titulo: "ΔE° = E°catodo − E°anodo", text: "Fórmula para calcular a diferença de potencial-padrão de qualquer reação redox espontânea a partir de duas semirreações." },
+      { icone: "fa-arrow-down", titulo: "Escurecimento: Ag oxidada por O₂", text: "Prata perde elétrons (oxidação) para o oxigênio do ar (redução), formando Ag₂S. ΔE°=+1,92V." },
+      { icone: "fa-arrow-up", titulo: "Clareamento: Al reduz o Ag₂S", text: "Alumínio se oxida, doando elétrons que reduzem o Ag₂S de volta a prata metálica. ΔE°=+0,99V." },
+      { icone: "fa-shield", titulo: "Alumínio como redutor sacrificial", text: "Por ter potencial de redução mais negativo (−1,68V) que a prata, o Al se oxida preferencialmente, protegendo/regenerando a prata." },
+      { icone: "fa-water", titulo: "Papel da solução de NaCl", text: "Aumenta a condutividade elétrica, funcionando como eletrólito que viabiliza a transferência de elétrons entre alumínio e prata." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Escurecimento: ΔE° = 1,23 − (−0,69) = <strong>+1,92 V</strong>. Clareamento: ΔE° = (−0,69) − (−1,68) = <strong>+0,99 V</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique catodo e anodo do escurecimento.</strong> O₂ é reduzido (catodo, +1,23V); Ag é oxidada (anodo, usa o E° tabelado de −0,69V mesmo invertendo a equação).</p>
+          <p><strong>Passo 2 — Calcule ΔE° do escurecimento.</strong> 1,23 − (−0,69) = 1,92 V.</p>
+          <p><strong>Passo 3 — Repita para o clareamento.</strong> Ag₂S é reduzido (catodo, −0,69V); Al é oxidado (anodo, −1,68V). ΔE° = (−0,69) − (−1,68) = 0,99 V.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) +0,54 V e +2,37 V — ERRADA</p>
+            <p class="text-xs">Não corresponde à subtração correta E°catodo−E°anodo para nenhuma das duas reações com os valores dados.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) +1,92 V e +0,99 V — CORRETA</p>
+            <p class="text-xs">Exatamente os valores calculados: 1,23−(−0,69)=1,92V para o escurecimento e (−0,69)−(−1,68)=0,99V para o clareamento.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) −0,15 V e +5,43 V — ERRADA</p>
+            <p class="text-xs">Um ΔE° negativo indicaria reação não espontânea — mas o escurecimento da prata é um processo espontâneo observado na prática, então esse valor não pode estar correto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) +2,61 V e +1,29 V — ERRADA</p>
+            <p class="text-xs">Valores não batem com a subtração correta dos potenciais-padrão fornecidos.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) +0,15 V e −1,29 V — ERRADA</p>
+            <p class="text-xs">Um ΔE° negativo para o clareamento contradiria o fato observado de que a reação ocorre espontaneamente em poucos minutos.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Escurecimento: Ag oxidada, O₂ reduzido",
+        legenda: "ΔE° = E°(O₂/H₂O) − E°(Ag₂S/Ag) = 1,23 − (−0,69) = +1,92 V.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="180" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Catodo: O₂ + 4H⁺ + 4e⁻ → 2H₂O</text>
+            <text x="110" y="68" fill="#7dd3fc" font-size="8" text-anchor="middle">E° = +1,23 V</text>
+            <rect x="260" y="30" width="180" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="350" y="50" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Anodo: 2Ag+S²⁻→Ag₂S+2e⁻</text>
+            <text x="350" y="68" fill="#fca5a5" font-size="8" text-anchor="middle">E°(red.) = −0,69 V</text>
+          </svg>`
+      },
+      {
+        titulo: "Clareamento: Al oxidado, Ag₂S reduzido",
+        legenda: "ΔE° = E°(Ag₂S/Ag) − E°(Al³⁺/Al) = (−0,69) − (−1,68) = +0,99 V.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="180" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Catodo: Ag₂S+2e⁻→2Ag+S²⁻</text>
+            <text x="110" y="68" fill="#7dd3fc" font-size="8" text-anchor="middle">E° = −0,69 V</text>
+            <rect x="260" y="30" width="180" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="350" y="50" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Anodo: Al → Al³⁺+3e⁻</text>
+            <text x="350" y="68" fill="#fde68a" font-size="8" text-anchor="middle">E°(red.) = −1,68 V</text>
+          </svg>`
+      },
+      {
+        titulo: "Escada de potenciais-padrão",
+        legenda: "Quanto maior a distância vertical entre catodo e anodo na escada, maior o ΔE° da pilha formada.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <line x1="230" y1="20" x2="230" y2="170" stroke="#64748b" stroke-width="2"/>
+            <circle cx="230" cy="35" r="5" fill="#38bdf8"/><text x="245" y="39" fill="#7dd3fc" font-size="8" text-anchor="start">O₂/H₂O: +1,23V</text>
+            <circle cx="230" cy="95" r="5" fill="#f87171"/><text x="245" y="99" fill="#fca5a5" font-size="8" text-anchor="start">Ag₂S/Ag: −0,69V</text>
+            <circle cx="230" cy="155" r="5" fill="#fbbf24"/><text x="245" y="159" fill="#fde68a" font-size="8" text-anchor="start">Al³⁺/Al: −1,68V</text>
+            <text x="30" y="65" fill="#94a3b8" font-size="7" text-anchor="middle">escurecimento</text>
+            <text x="30" y="125" fill="#94a3b8" font-size="7" text-anchor="middle">clareamento</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco pares de valores, um correto",
+        legenda: "Apenas B reproduz corretamente as duas subtrações E°catodo − E°anodo.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="140" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Escurecimento</text>
+            <text x="340" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Clareamento</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) +0,54 V</text>
+            <text x="270" y="52" fill="#e2e8f0" font-size="8">+2,37 V</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">B) +1,92 V ✓</text>
+            <text x="270" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">+0,99 V ✓</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">C) −0,15 V</text>
+            <text x="270" y="102" fill="#e2e8f0" font-size="8">+5,43 V</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">D) +2,61 V</text>
+            <text x="270" y="126" fill="#e2e8f0" font-size="8">+1,29 V</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) +0,15 V</text>
+            <text x="270" y="150" fill="#e2e8f0" font-size="8">−1,29 V</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a pilha e calcule ΔE°",
+      descricao: "Escolha quais semirreações atuam como catodo e anodo e veja o ΔE° calculado automaticamente.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Catodo (redução):</p>
+              <select data-sim="catodo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="1.23">O₂/H₂O (+1,23 V)</option>
+                <option value="-0.69">Ag₂S/Ag (−0,69 V)</option>
+                <option value="-1.68">Al³⁺/Al (−1,68 V)</option>
+              </select>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Anodo (oxidação):</p>
+              <select data-sim="anodo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="-0.69" selected>Ag₂S/Ag (−0,69 V)</option>
+                <option value="1.23">O₂/H₂O (+1,23 V)</option>
+                <option value="-1.68">Al³⁺/Al (−1,68 V)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">ΔE° = E°catodo − E°anodo:</p>
+              <div data-out="deltae" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selCat = raiz.querySelector('[data-sim="catodo"]');
+        var selAn = raiz.querySelector('[data-sim="anodo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var cat = parseFloat(selCat.value);
+          var an = parseFloat(selAn.value);
+          var deltaE = cat - an;
+
+          saida('deltae').textContent = (deltaE >= 0 ? '+' : '') + deltaE.toFixed(2) + ' V';
+
+          var v = saida('veredito');
+          if (cat === an) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Catodo e anodo são a mesma semirreação — escolha duas diferentes para formar uma pilha real.';
+          } else if (deltaE > 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Reação espontânea!</strong> ΔE° positivo indica que essa combinação ocorreria espontaneamente — como o escurecimento (+1,92V) ou o clareamento (+0,99V) da prata.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Reação não espontânea.</strong> ΔE° negativo significa que essa combinação de catodo/anodo não ocorreria espontaneamente nesse sentido.';
+          }
+        }
+
+        selCat.addEventListener('change', atualizar);
+        selAn.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-bolt"></i> Escurecimento: +1,92 V &nbsp;|&nbsp; Clareamento: +0,99 V</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="180" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+          <text x="110" y="50" fill="#fca5a5" font-size="11" font-weight="bold" text-anchor="middle">+1,92 V (escurece)</text>
+          <rect x="260" y="20" width="180" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="350" y="50" fill="#a7f3d0" font-size="11" font-weight="bold" text-anchor="middle">+0,99 V (clareia)</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q125",
+    numero: "Questão 125",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estequiometria & Gases Ideais",
+    materiaCor: "cyan",
+    materiaIcone: "fa-flask",
+    titulo: "O Bolo da Chefe: Estequiometria do Bicarbonato de Amônio e Lei dos Gases Ideais",
+    tags: ["Química", "Estequiometria", "Gases Ideais", "Rendimento de Reação", "Decomposição Térmica"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Apaixonada por culinária e química, uma chefe de cozinha calculou que, para promover o crescimento adequado da massa durante o cozimento de um bolo a 180 °C (453 K) e 1,00 atm, ela precisaria utilizar uma quantidade de fermento químico suficiente para produzir um volume de gás igual a 4,00 L. Com esse objetivo, ela escolheu utilizar o bicarbonato de amônio, um composto que, sob aquecimento, se degrada em três gases distintos, que são os responsáveis pelo crescimento da massa. A decomposição do bicarbonato de amônio ocorre conforme a equação química apresentada e, nas condições do cozimento, seu rendimento é de 80%.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-cyan-300">
+      NH₄HCO₃ (s) → NH₃ (g) + CO₂ (g) + H₂O (g)
+    </div>
+    <br>
+    Considere que a mistura dos gases se comporta como gás ideal nas condições de cozimento utilizadas pela chefe.
+    <br><br>
+    Dados: Massa molar do NH₄HCO₃ = 79 g·mol⁻¹ e R = 0,082 atm·L·mol⁻¹·K⁻¹.
+    <br><br>
+    A massa, em grama, de bicarbonato de amônio que ela deve utilizar é mais próxima de`,
+
+    alternativas: [
+      { letra: "A", texto: "2,3 g.", correta: false },
+      { letra: "B", texto: "3,5 g.", correta: true },
+      { letra: "C", texto: "5,9 g.", correta: false },
+      { letra: "D", texto: "6,8 g.", correta: false },
+      { letra: "E", texto: "8,9 g.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Esta questão combina dois assuntos: a lei dos gases ideais (para achar quantos mols de gás são necessários) e estequiometria com rendimento (para converter isso em massa de reagente sólido).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A proporção estequiométrica: 1 mol de sólido gera 3 mols de gás</h4>
+          <p>
+            A equação NH₄HCO₃ (s) → NH₃ (g) + CO₂ (g) + H₂O (g) mostra que <strong>cada mol</strong> de bicarbonato de amônio sólido que se decompõe produz <strong>3 mols</strong> de gases (1 mol de NH₃ + 1 mol de CO₂ + 1 mol de H₂O, todos gasosos nas condições do forno). Essa proporção 1:3 é o elo entre "quantidade de gás produzido" e "quantidade de sólido consumido".
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Lei dos gases ideais: quantos mols de gás são precisos?</h4>
+          <p>
+            A chefe quer um volume de gás V = 4,00 L, nas condições T = 453 K e P = 1,00 atm. Usando PV = nRT:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>gás</sub> = PV / RT = (1,00 × 4,00) / (0,082 × 453) ≈ 0,1077 mol de gás (total, somando os 3 gases)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Convertendo mols de gás em mols de NH₄HCO₃ (sem considerar rendimento ainda)</h4>
+          <p>
+            Como cada mol de NH₄HCO₃ gera 3 mols de gás, a quantidade <em>teórica</em> (100% de rendimento) de bicarbonato de amônio necessária é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>NH₄HCO₃, teórico</sub> = n<sub>gás</sub> / 3 = 0,1077 / 3 ≈ 0,0359 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Ajustando pelo rendimento de 80%</h4>
+          <p>
+            Rendimento de 80% significa que, de todo o NH₄HCO₃ colocado no forno, apenas 80% de fato se decompõe da forma esperada (produzindo o gás útil). Para obter os 0,0359 mol teóricos de "gás útil equivalente", a chefe precisa colocar <strong>mais</strong> reagente do que o valor teórico — ela deve <em>dividir</em> pelo rendimento (não multiplicar), pois vai "desperdiçar" 20%:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>NH₄HCO₃, real</sub> = n<sub>teórico</sub> / 0,80 = 0,0359 / 0,80 ≈ 0,0449 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Convertendo mol em massa</h4>
+          <p>
+            m = n × M = 0,0449 mol × 79 g/mol ≈ <strong>3,5 g</strong>.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-flask", titulo: "PV = nRT", text: "Lei dos gases ideais: relaciona pressão, volume, quantidade de matéria e temperatura de um gás." },
+      { icone: "fa-diagram-project", titulo: "Proporção estequiométrica 1:3", text: "Cada mol de NH₄HCO₃ sólido decomposto gera 3 mols de gás (NH₃ + CO₂ + H₂O)." },
+      { icone: "fa-percent", titulo: "Rendimento de 80%", text: "Como nem todo reagente se converte com sucesso, é preciso usar mais reagente (dividir pelo rendimento) do que o valor teórico." },
+      { icone: "fa-temperature-half", titulo: "Atenção às unidades", text: "T deve estar em Kelvin (453 K, não 180 °C) para usar corretamente R = 0,082 atm·L·mol⁻¹·K⁻¹." },
+      { icone: "fa-scale-balanced", titulo: "m = n × M", text: "Conversão final de mols de bicarbonato de amônio para massa, usando a massa molar dada (79 g/mol)." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>n<sub>gás</sub> = PV/RT ≈ 0,1077 mol → n<sub>NH₄HCO₃ teórico</sub> = 0,1077/3 ≈ 0,0359 mol → n<sub>real</sub> = 0,0359/0,80 ≈ 0,0449 mol → m = 0,0449 × 79 ≈ <strong>3,5 g</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Ache os mols de gás necessários.</strong> PV=nRT com T em Kelvin (453 K): n<sub>gás</sub>=(1,00×4,00)/(0,082×453)≈0,1077 mol.</p>
+          <p><strong>Passo 2 — Divida por 3 (estequiometria) e depois por 0,80 (rendimento).</strong> n<sub>real</sub>=(0,1077/3)/0,80≈0,0449 mol de NH₄HCO₃.</p>
+          <p><strong>Passo 3 — Converta para massa.</strong> m=n×M=0,0449×79≈3,5 g.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 2,3 g — ERRADA</p>
+            <p class="text-xs">Valor próximo do que se obtém ao esquecer o ajuste pelo rendimento (usando apenas o valor teórico de ≈0,0359 mol × 79 ≈ 2,8 g, sem dividir por 0,80). Ignora que nem todo o reagente se decompõe com sucesso.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 3,5 g — CORRETA</p>
+            <p class="text-xs">Resultado de aplicar corretamente PV=nRT (com T=453K), dividir por 3 (estequiometria) e depois por 0,80 (rendimento), multiplicando por 79 g/mol no final.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 5,9 g — ERRADA</p>
+            <p class="text-xs">Pode surgir de um erro de conversão de unidades intermediário (por exemplo, usar mal a proporção estequiométrica junto ao ajuste de rendimento), quase o dobro do valor correto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 6,8 g — ERRADA</p>
+            <p class="text-xs">Consistente com esquecer de dividir por 3 (tratando 1 mol de sólido como se gerasse apenas 1 mol de gás) e ainda assim aplicar o rendimento incorretamente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 8,9 g — ERRADA</p>
+            <p class="text-xs">Valor obtido ao esquecer de converter 180 °C para Kelvin (usando T=180 em vez de T=453 na equação dos gases ideais), o que infla bastante o número de mols de gás calculado e, por consequência, a massa final.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Equação e proporção molar 1:3",
+        legenda: "Cada mol de NH₄HCO₃ sólido decomposto libera 3 mols de gás (NH₃ + CO₂ + H₂O).",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="90" y="58" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">1 mol NH₄HCO₃ (s)</text>
+            <text x="190" y="58" fill="#94a3b8" font-size="16" text-anchor="middle">→</text>
+            <rect x="220" y="30" width="220" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="330" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">1 NH₃(g) + 1 CO₂(g) + 1 H₂O(g)</text>
+            <text x="330" y="68" fill="#7dd3fc" font-size="9" text-anchor="middle">= 3 mols de gás</text>
+          </svg>`
+      },
+      {
+        titulo: "Lei dos gases ideais: PV = nRT",
+        legenda: "Com P=1,00 atm, V=4,00 L, T=453 K e R=0,082, obtém-se n(gás) ≈ 0,1077 mol.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="15" width="420" height="34" fill="#082f49" stroke="#0ea5e9" stroke-width="1.5" rx="4"/>
+            <text x="230" y="37" fill="#7dd3fc" font-size="13" font-weight="bold" text-anchor="middle">n = PV / RT</text>
+            <rect x="20" y="60" width="420" height="55" fill="#0f172a" stroke="#334155" stroke-width="1" rx="4"/>
+            <text x="230" y="82" fill="#cbd5e1" font-size="9" text-anchor="middle">n = (1,00 atm × 4,00 L) / (0,082 × 453 K)</text>
+            <text x="230" y="102" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">n ≈ 0,1077 mol de gás</text>
+          </svg>`
+      },
+      {
+        titulo: "Teórico → real: efeito do rendimento de 80%",
+        legenda: "Como só 80% do reagente reage com sucesso, é preciso colocar mais massa do que o valor teórico prevê.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="20" y="25" fill="#94a3b8" font-size="9">n(teórico) = n(gás)/3 ≈ 0,0359 mol</text>
+            <rect x="20" y="35" width="180" height="26" fill="#1e293b" rx="4"/>
+            <rect x="20" y="35" width="144" height="26" fill="#0ea5e9" rx="4"/>
+            <text x="110" y="53" fill="#0f172a" font-size="9" font-weight="bold" text-anchor="middle">80% útil</text>
+
+            <text x="20" y="90" fill="#94a3b8" font-size="9">n(real) = n(teórico) / 0,80 ≈ 0,0449 mol</text>
+            <rect x="20" y="100" width="225" height="26" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" rx="4"/>
+            <text x="132" y="118" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">massa real necessária (maior)</text>
+          </svg>`
+      },
+      {
+        titulo: "Fluxo completo do cálculo",
+        legenda: "Do volume de gás desejado até a massa final de bicarbonato de amônio: 4,00 L → 0,1077 mol gás → 0,0359 mol teórico → 0,0449 mol real → 3,5 g.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">V = 4,00 L, T = 453 K, P = 1,00 atm</text>
+            <text x="230" y="48" fill="#64748b" font-size="12" text-anchor="middle">↓ PV=nRT</text>
+            <rect x="10" y="55" width="440" height="26" fill="#0c4a6e" rx="4"/>
+            <text x="230" y="72" fill="#bae6fd" font-size="9" text-anchor="middle">n(gás) ≈ 0,1077 mol</text>
+            <text x="230" y="93" fill="#64748b" font-size="12" text-anchor="middle">↓ ÷3 (estequiometria)</text>
+            <rect x="10" y="100" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="117" fill="#e2e8f0" font-size="9" text-anchor="middle">n(NH₄HCO₃ teórico) ≈ 0,0359 mol</text>
+            <text x="230" y="138" fill="#64748b" font-size="12" text-anchor="middle">↓ ÷0,80 (rendimento) → ×79 g/mol</text>
+            <rect x="10" y="145" width="440" height="30" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="230" y="165" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">m ≈ 3,5 g</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: da lei dos gases à massa de reagente",
+      descricao: "Ajuste o volume de gás desejado e o rendimento da reação, e veja como a massa necessária de NH₄HCO₃ muda em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Volume de gás desejado (L): <span data-out="vlabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="1" max="8" step="0.1" value="4.0" data-sim="volume" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Rendimento da reação (%): <span data-out="rlabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="30" max="100" step="1" value="80" data-sim="rendimento" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500">T = 453 K, P = 1,00 atm, R = 0,082 atm·L·mol⁻¹·K⁻¹, M(NH₄HCO₃) = 79 g/mol (fixos, como no enunciado).</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">n(gás) = PV/RT:</p>
+              <div data-out="ngas" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">n(NH₄HCO₃ real):</p>
+              <div data-out="nreal" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Massa necessária:</p>
+              <div data-out="massa" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selV = raiz.querySelector('[data-sim="volume"]');
+        var selR = raiz.querySelector('[data-sim="rendimento"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var P = 1.00, T = 453, R = 0.082, M = 79;
+
+        function atualizar() {
+          var V = parseFloat(selV.value);
+          var rendimento = parseFloat(selR.value) / 100;
+
+          saida('vlabel').textContent = V.toFixed(1) + ' L';
+          saida('rlabel').textContent = (rendimento * 100).toFixed(0) + '%';
+
+          var nGas = (P * V) / (R * T);
+          var nTeorico = nGas / 3;
+          var nReal = nTeorico / rendimento;
+          var massa = nReal * M;
+
+          saida('ngas').textContent = nGas.toFixed(4) + ' mol';
+          saida('nreal').textContent = nReal.toFixed(4) + ' mol';
+          saida('massa').textContent = massa.toFixed(2) + ' g';
+        }
+
+        selV.addEventListener('input', atualizar);
+        selR.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-flask"></i> 4,00 L de gás → 0,1077 mol → ÷3 → ÷0,80 → 3,5 g de NH₄HCO₃</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">m ≈ 3,5 g de bicarbonato de amônio</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q126",
+    numero: "Questão 126",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Cinemática Vetorial 3D",
+    materiaCor: "purple",
+    materiaIcone: "fa-plane",
+    titulo: "Avião, Vento e o Princípio da Independência dos Movimentos, em Três Dimensões",
+    tags: ["Física", "Cinemática Vetorial", "Composição de Velocidades", "Princípio de Galileu", "Vetores 3D"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Segundo o princípio da independência dos movimentos, de Galileu, sempre que a velocidade resultante de um corpo puder ser decomposta em duas ou mais componentes perpendiculares entre si, cada um desses movimentos poderá ser analisado separadamente como se os outros não existissem. Esse princípio é muito útil para a simplificação de alguns problemas reais, em três dimensões.
+    <br><br>
+    Considere um avião que, ao decolar, é instruído pela torre a atingir, em 6 minutos, uma posição de 20 km a Leste, 20 km a Norte e 1 km de altitude em relação ao ponto de decolagem, conforme a figura (fora de escala). No entanto, no instante da decolagem, começa a soprar um vento cujo vetor velocidade tem componentes 30 km/h para Leste, 20 km/h para Sul e 1 km/h de cima para baixo.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 320 260" class="w-full h-auto max-w-xs mx-auto">
+        <line x1="20" y1="200" x2="300" y2="200" stroke="#64748b" stroke-width="1.5"/>
+        <text x="305" y="204" fill="#94a3b8" font-size="11">Leste</text>
+        <text x="8" y="204" fill="#94a3b8" font-size="11">Oeste</text>
+        <line x1="160" y1="250" x2="160" y2="20" stroke="#64748b" stroke-width="1.5"/>
+        <text x="160" y="16" fill="#94a3b8" font-size="11" text-anchor="middle">Norte</text>
+        <text x="160" y="262" fill="#94a3b8" font-size="11" text-anchor="middle">Sul</text>
+        <line x1="160" y1="200" x2="245" y2="60" stroke="#a78bfa" stroke-width="2" marker-end="url(#seta126)"/>
+        <text x="250" y="55" fill="#c4b5fd" font-size="10" font-weight="bold">v̄</text>
+        <line x1="245" y1="60" x2="280" y2="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <line x1="280" y1="90" x2="280" y2="115" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <text x="285" y="80" fill="#7dd3fc" font-size="8">Posição a</text>
+        <text x="285" y="92" fill="#7dd3fc" font-size="8">ser atingida</text>
+        <defs>
+          <marker id="seta126" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a78bfa"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+    <br>
+    Durante a ação do vento, a velocidade v̄ que o piloto deve estabelecer em relação ao ar para que o avião chegue à posição esperada no tempo indicado tem as componentes`,
+
+    alternativas: [
+      { letra: "A", texto: "230 km/h para Leste, 180 km/h para Sul e 9 km/h para baixo.", correta: false },
+      { letra: "B", texto: "230 km/h para Leste, 180 km/h para Norte e 9 km/h para cima.", correta: false },
+      { letra: "C", texto: "200 km/h para Oeste, 200 km/h para Norte e 10 km/h para baixo.", correta: false },
+      { letra: "D", texto: "170 km/h para Leste, 220 km/h para Norte e 11 km/h para cima.", correta: true },
+      { letra: "E", texto: "170 km/h para Leste, 180 km/h para Norte e 11 km/h para cima.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O truque desta questão é tratar Leste-Oeste, Norte-Sul e cima-baixo como três eixos independentes (x, y, z) e resolver cada um separadamente — exatamente o que o princípio de Galileu permite.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> O princípio da independência dos movimentos</h4>
+          <p>
+            Quando um movimento pode ser decomposto em componentes perpendiculares entre si, cada componente evolui <strong>de forma independente</strong> das outras — o movimento em Leste-Oeste não afeta o movimento em Norte-Sul, que não afeta o movimento vertical. Isso permite resolver um problema 3D complicado como três problemas 1D simples, um por eixo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> A velocidade resultante desejada (em relação ao solo)</h4>
+          <p>
+            O avião precisa percorrer, em relação ao solo, 20 km a Leste, 20 km a Norte e 1 km de altitude, em 6 minutos = 0,1 h. Dividindo cada deslocamento pelo tempo, a <strong>velocidade resultante</strong> (a que realmente aparece "riscada no chão") é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>resultante</sub> = (20/0,1 ; 20/0,1 ; 1/0,1) = (200 km/h Leste ; 200 km/h Norte ; 10 km/h para cima)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Como o vento se soma à velocidade do avião</h4>
+          <p>
+            A velocidade que aparece em relação ao solo é a <strong>soma vetorial</strong> da velocidade do avião em relação ao ar (o que o piloto de fato controla) com a velocidade do vento:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>resultante</sub> = V<sub>avião/ar</sub> + V<sub>vento</sub> &nbsp;&nbsp;⟹&nbsp;&nbsp; V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub>
+          </div>
+          <p>
+            Ou seja, para compensar o vento e ainda assim chegar ao destino no tempo certo, o piloto precisa "mirar" numa velocidade (em relação ao ar) diferente da velocidade resultante desejada — subtraindo o efeito do vento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Cuidado com os sinais: Sul é "Norte negativo", "baixo" é "cima negativo"</h4>
+          <p>
+            O vento tem componentes 30 km/h para <strong>Leste</strong>, 20 km/h para <strong>Sul</strong> e 1 km/h <strong>de cima para baixo</strong>. Adotando Leste e Norte e "para cima" como sentidos positivos, isso significa: componente Leste = +30, componente Norte = −20 (porque é para o Sul), componente vertical = −1 (porque é para baixo).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Calculando cada componente de V<sub>avião/ar</sub></h4>
+          <p>
+            Aplicando V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub> em cada eixo:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 font-mono text-purple-300 text-sm space-y-1">
+            <div>Leste: 200 − (+30) = <strong>170 km/h Leste</strong></div>
+            <div>Norte: 200 − (−20) = <strong>220 km/h Norte</strong></div>
+            <div>Vertical: 10 − (−1) = <strong>11 km/h para cima</strong></div>
+          </div>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-arrows-split-up-and-left", titulo: "Independência dos movimentos", text: "Componentes perpendiculares de um movimento evoluem de forma independente — permite resolver eixo por eixo." },
+      { icone: "fa-route", titulo: "Velocidade resultante = deslocamento/tempo", text: "A velocidade em relação ao solo é o deslocamento total dividido pelo tempo total, decomposta em cada eixo." },
+      { icone: "fa-wind", titulo: "V(resultante) = V(avião/ar) + V(vento)", text: "A velocidade em relação ao solo é a soma vetorial da velocidade do avião em relação ao ar com a velocidade do vento." },
+      { icone: "fa-cube", titulo: "Três eixos perpendiculares", text: "Leste-Oeste, Norte-Sul e vertical (cima-baixo) são tratados como três problemas 1D independentes." },
+      { icone: "fa-plus-minus", titulo: "Atenção aos sinais opostos", text: "Sul é o sentido negativo de Norte; 'para baixo' é o sentido negativo de 'para cima' — inverter esses sinais é o erro mais comum." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>V<sub>resultante</sub> = (200 Leste, 200 Norte, 10 cima). V<sub>vento</sub> = (30 Leste, −20 Norte, −1 cima). V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub> = <strong>(170 Leste, 220 Norte, 11 cima)</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule a velocidade resultante desejada.</strong> Deslocamento ÷ tempo (0,1 h) em cada eixo: 200 km/h Leste, 200 km/h Norte, 10 km/h para cima.</p>
+          <p><strong>Passo 2 — Escreva o vento com sinais corretos.</strong> Leste=+30, Norte=−20 (é Sul), vertical=−1 (é para baixo).</p>
+          <p><strong>Passo 3 — Subtraia o vento da resultante, eixo por eixo.</strong> V<sub>avião/ar</sub>=V<sub>resultante</sub>−V<sub>vento</sub>: 200−30=170 (Leste); 200−(−20)=220 (Norte); 10−(−1)=11 (cima).</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 230 km/h Leste, 180 km/h Sul, 9 km/h para baixo — ERRADA</p>
+            <p class="text-xs">Resulta de somar (em vez de subtrair) o vento à resultante, mas mantendo as direções originais do vento (Sul, para baixo) em vez de convertê-las corretamente em componentes Norte/cima negativas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 230 km/h Leste, 180 km/h Norte, 9 km/h para cima — ERRADA</p>
+            <p class="text-xs">É exatamente V<sub>resultante</sub> + V<sub>vento</sub> (200+30=230; 200+(−20)=180; 10+(−1)=9) — o erro clássico de somar o vento em vez de subtraí-lo para achar a velocidade em relação ao ar.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 200 km/h Oeste, 200 km/h Norte, 10 km/h para baixo — ERRADA</p>
+            <p class="text-xs">Ignora o vento por completo (usa diretamente a velocidade resultante) e ainda erra o sentido de dois eixos (Leste virou Oeste, cima virou baixo).</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) 170 km/h Leste, 220 km/h Norte, 11 km/h para cima — CORRETA</p>
+            <p class="text-xs">Subtração vetorial correta, eixo por eixo, com os sinais do vento devidamente convertidos (Sul = Norte negativo; para baixo = cima negativo).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 170 km/h Leste, 180 km/h Norte, 11 km/h para cima — ERRADA</p>
+            <p class="text-xs">Os eixos Leste e vertical estão certos, mas o eixo Norte tem um erro de sinal: usar 200−20=180 em vez de 200−(−20)=220, ou seja, não converter "20 km/h para Sul" em "−20 km/h no eixo Norte" antes de subtrair.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Velocidade resultante desejada",
+        legenda: "Deslocamento (20 km L, 20 km N, 1 km cima) dividido por 0,1 h = (200 L, 200 N, 10 cima) km/h.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="85" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Leste</text>
+            <text x="85" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">20 km / 0,1h</text>
+            <text x="85" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 200 km/h</text>
+            <rect x="165" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Norte</text>
+            <text x="230" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">20 km / 0,1h</text>
+            <text x="230" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 200 km/h</text>
+            <rect x="310" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="375" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Vertical</text>
+            <text x="375" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">1 km / 0,1h</text>
+            <text x="375" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 10 km/h cima</text>
+          </svg>`
+      },
+      {
+        titulo: "Composição vetorial: V(resultante) = V(avião) + V(vento)",
+        legenda: "Para achar V(avião/ar), o piloto precisa subtrair o vetor vento da velocidade resultante desejada.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="20" y="35" width="130" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="85" y="55" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">V(resultante)</text>
+            <text x="85" y="72" fill="#a7f3d0" font-size="8" text-anchor="middle">desejada no solo</text>
+            <text x="165" y="65" fill="#94a3b8" font-size="16" text-anchor="middle">=</text>
+            <rect x="190" y="35" width="130" height="50" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="255" y="55" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">V(avião/ar)</text>
+            <text x="255" y="72" fill="#e9d5ff" font-size="8" text-anchor="middle">o que o piloto ajusta</text>
+            <text x="335" y="65" fill="#94a3b8" font-size="16" text-anchor="middle">+</text>
+            <rect x="355" y="35" width="90" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="400" y="55" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">V(vento)</text>
+            <text x="400" y="72" fill="#bae6fd" font-size="8" text-anchor="middle">30L,20S,1baixo</text>
+          </svg>`
+      },
+      {
+        titulo: "Cálculo eixo por eixo",
+        legenda: "V(avião/ar) = V(resultante) − V(vento), com os sinais de Sul e 'para baixo' já convertidos.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Eixo — Resultante − Vento = Avião/ar</text>
+
+            <rect x="10" y="42" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="61" fill="#e2e8f0" font-size="9" text-anchor="middle">Leste: 200 − (+30) = 170 km/h Leste</text>
+
+            <rect x="10" y="78" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="97" fill="#e2e8f0" font-size="9" text-anchor="middle">Norte: 200 − (−20) = 220 km/h Norte</text>
+
+            <rect x="10" y="114" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="133" fill="#e2e8f0" font-size="9" text-anchor="middle">Vertical: 10 − (−1) = 11 km/h para cima</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas D aplica corretamente a subtração vetorial com todos os sinais convertidos.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="20" y="24" fill="#e2e8f0" font-size="8">A) 230 L, 180 Sul, 9 baixo</text>
+            <text x="20" y="48" fill="#e2e8f0" font-size="8">B) 230 L, 180 N, 9 cima (soma, não subtrai)</text>
+            <text x="20" y="72" fill="#e2e8f0" font-size="8">C) 200 Oeste, 200 N, 10 baixo (ignora vento)</text>
+
+            <rect x="10" y="82" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="230" y="99" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">D) 170 L, 220 N, 11 cima ✓ correta</text>
+
+            <text x="20" y="132" fill="#e2e8f0" font-size="8">E) 170 L, 180 N, 11 cima (erro de sinal no eixo Norte)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: subtraia o vento, eixo por eixo",
+      descricao: "Ajuste os componentes do vento e veja como a velocidade que o piloto deve manter em relação ao ar muda em cada eixo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Velocidade resultante desejada (fixa, do enunciado): <span class="text-purple-300 font-mono">200 Leste, 200 Norte, 10 cima</span> km/h.</p>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente Leste (km/h): <span data-out="vlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="60" step="1" value="30" data-sim="vLeste" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente Sul (km/h): <span data-out="slabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="60" step="1" value="20" data-sim="vSul" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente para baixo (km/h): <span data-out="dlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="5" step="0.5" value="1" data-sim="vBaixo" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Velocidade que o piloto deve manter em relação ao ar (V<sub>resultante</sub> − V<sub>vento</sub>):</p>
+              <div data-out="resultado" class="font-mono text-purple-300 text-sm leading-relaxed"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selL = raiz.querySelector('[data-sim="vLeste"]');
+        var selS = raiz.querySelector('[data-sim="vSul"]');
+        var selB = raiz.querySelector('[data-sim="vBaixo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var resLeste = 200, resNorte = 200, resCima = 10;
+
+        function atualizar() {
+          var vLeste = parseFloat(selL.value);
+          var vSul = parseFloat(selS.value);
+          var vBaixo = parseFloat(selB.value);
+
+          saida('vlabel').textContent = vLeste.toFixed(0) + ' km/h';
+          saida('slabel').textContent = vSul.toFixed(0) + ' km/h';
+          saida('dlabel').textContent = vBaixo.toFixed(1) + ' km/h';
+
+          var vVentoNorte = -vSul;
+          var vVentoCima = -vBaixo;
+
+          var aviaoLeste = resLeste - vLeste;
+          var aviaoNorte = resNorte - vVentoNorte;
+          var aviaoCima = resCima - vVentoCima;
+
+          saida('resultado').innerHTML =
+            'Leste: ' + aviaoLeste.toFixed(1) + ' km/h<br>' +
+            (aviaoNorte >= 0 ? 'Norte: ' + aviaoNorte.toFixed(1) : 'Sul: ' + Math.abs(aviaoNorte).toFixed(1)) + ' km/h<br>' +
+            (aviaoCima >= 0 ? 'Para cima: ' + aviaoCima.toFixed(1) : 'Para baixo: ' + Math.abs(aviaoCima).toFixed(1)) + ' km/h';
+        }
+
+        selL.addEventListener('input', atualizar);
+        selS.addEventListener('input', atualizar);
+        selB.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plane"></i> V(avião/ar) = V(resultante) − V(vento) = 170 Leste, 220 Norte, 11 cima</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">170 km/h L, 220 km/h N, 11 km/h para cima</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
