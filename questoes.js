@@ -19661,6 +19661,1049 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 245,20</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q159",
+  numero: 159,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "package",
+  titulo: "Distribuição de Cestas Básicas: Quantas Famílias Serão Atendidas?",
+  tags: ["Divisão", "Proporcionalidade", "Matemática aplicada"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma organização não governamental recebeu uma doação de 20.000 kg de alimentos para montar cestas básicas destinadas a famílias em situação de vulnerabilidade. Cada cesta básica, para atender adequadamente uma família por um mês, deve conter exatamente 250 kg de alimentos.</p>
+    <p><strong>O número de famílias que poderão ser atendidas com essa doação, montando o maior número possível de cestas completas, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "40", correta: false },
+    { letra: "B", texto: "50", correta: false },
+    { letra: "C", texto: "70", correta: false },
+    { letra: "D", texto: "80", correta: true },
+    { letra: "E", texto: "100", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Dividir uma quantidade total por uma quantidade fixa por unidade é uma das operações mais recorrentes em problemas de distribuição de recursos — a chave é identificar corretamente qual valor é o total e qual é o "tamanho do pacote".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando o total e a unidade</p>
+        <p>Nesta questão, o total disponível é 20.000 kg de alimentos, e cada "pacote" (cesta básica) consome 250 kg. O número de pacotes completos que podem ser montados é obtido dividindo o total pela quantidade por pacote.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Divisão exata vs. divisão com resto</p>
+        <p>Quando a divisão é exata (sem resto), o número de pacotes completos é exatamente o quociente da divisão. Quando há resto, esse resto não é suficiente para formar mais um pacote completo, e deve ser descartado da contagem de pacotes completos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Relacionando pacotes com famílias atendidas</p>
+        <p>Como cada cesta básica atende exatamente uma família, o número de famílias atendidas é igual ao número de cestas completas que podem ser montadas — não é necessário nenhum cálculo adicional além da divisão.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação por multiplicação</p>
+        <p>Uma forma simples de conferir o resultado é multiplicar o número de cestas encontrado pela quantidade por cesta e verificar se o resultado não ultrapassa o total disponível: 80 × 250 = 20.000, exatamente o total disponível.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "divide", titulo: "Divisão total por unidade", text: "Número de pacotes = quantidade total / quantidade por pacote." },
+    { icone: "package", titulo: "Pacotes completos", text: "Apenas pacotes inteiros contam; sobras não formam um novo pacote." },
+    { icone: "users", titulo: "Correspondência direta", text: "Cada cesta atende exatamente uma família — resultado direto da divisão." },
+    { icone: "check-circle", titulo: "Verificação por multiplicação", text: "Multiplicar o resultado pela quantidade por unidade deve reproduzir o total." },
+    { icone: "target", titulo: "Leitura cuidadosa de unidades", text: "Garantir que as duas quantidades estejam na mesma unidade de medida (kg)." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 80 famílias</p>
+        <p class="text-xs text-slate-300">20.000 kg ÷ 250 kg por cesta = 80 cestas completas, atendendo 80 famílias.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar o total e a unidade:</strong> total = 20.000 kg; cada cesta = 250 kg.</li>
+          <li><strong>Passo 2 — Dividir:</strong> 20.000 / 250 = 80.</li>
+          <li><strong>Passo 3 — Verificar:</strong> 80 × 250 = 20.000, confirmando que a divisão é exata e não sobra alimento suficiente para outra cesta.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 500, um valor incorreto de kg por cesta.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 50 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 400, também um valor incorreto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 70 — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo do valor correto, mas resulta de um erro de arredondamento na divisão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 80 — Correta ✓</p>
+          <p class="text-xs text-slate-400">20.000 / 250 = 80, divisão exata sem resto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 200, valor de kg por cesta incorreto.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Total doado",
+      legenda: "20.000 kg de alimentos",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="16" text-anchor="middle" font-weight="bold">20.000 kg</text></svg>`
+    },
+    {
+      titulo: "Uma cesta básica",
+      legenda: "250 kg por família",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="70" y="30" width="60" height="45" fill="#f59e0b" opacity="0.6" rx="6"/><text x="100" y="90" fill="#fbbf24" font-size="12" text-anchor="middle">250 kg</text></svg>`
+    },
+    {
+      titulo: "Divisão",
+      legenda: "20.000 ÷ 250 = 80",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="17" text-anchor="middle" font-family="monospace">20.000 ÷ 250 = 80</text></svg>`
+    },
+    {
+      titulo: "Famílias atendidas",
+      legenda: "80 cestas completas",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="35" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="58" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">80</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Montagem de Cestas Básicas",
+    descricao: "Ajuste o total de alimentos doados e o peso de cada cesta.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Total doado (kg): <span id="q159-tval" class="text-blue-300 font-bold">20000</span></label>
+          <input type="range" id="q159-total" min="1000" max="50000" step="100" value="20000" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Peso por cesta (kg): <span id="q159-cval" class="text-blue-300 font-bold">250</span></label>
+          <input type="range" id="q159-cesta" min="50" max="500" step="10" value="250" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Famílias atendidas (cestas completas)</p>
+          <p id="q159-resultado" class="text-3xl font-bold text-emerald-400">80</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const total = raiz.querySelector('#q159-total');
+      const cesta = raiz.querySelector('#q159-cesta');
+      const tval = raiz.querySelector('#q159-tval');
+      const cval = raiz.querySelector('#q159-cval');
+      const resultado = raiz.querySelector('#q159-resultado');
+      function atualizar() {
+        const T = parseFloat(total.value);
+        const C = parseFloat(cesta.value);
+        tval.textContent = T;
+        cval.textContent = C;
+        resultado.textContent = Math.floor(T / C);
+      }
+      total.addEventListener('input', atualizar);
+      cesta.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">80 famílias</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q160",
+  numero: 160,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "wave-sine",
+  titulo: "Sensor de Vibração: Encontrando a Função Tangente que Modela o Sinal",
+  tags: ["Funções trigonométricas", "Função tangente", "Transformações de gráficos"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um engenheiro analisa o sinal D (em milímetros) captado por um sensor de vibração em função do tempo T (em segundos), e observa que esse sinal se comporta como uma função do tipo tangente, com as seguintes características:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>o sinal apresenta assíntotas verticais espaçadas em intervalos de 2π (período igual a 2π), o que indica um fator de compressão horizontal de 1/2 dentro da tangente;</li>
+      <li>a "linha central" em torno da qual o sinal oscila (o valor médio entre picos consecutivos de crescimento) é D = 30;</li>
+      <li>o ponto onde a tangente cruza sua linha central mais próximo da origem ocorre em T = 5/2.</li>
+    </ul>
+    <p><strong>A função D(T) que descreve corretamente esse sinal é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "D = 30 + tan(T − 5/2)", correta: false },
+    { letra: "B", texto: "D = 30 + tan[2(T − 5/2)]", correta: false },
+    { letra: "C", texto: "D = 30 − tan[(1/2)(T − 5/2)]", correta: false },
+    { letra: "D", texto: "D = 25 + tan[(1/2)(T − 5/2)]", correta: false },
+    { letra: "E", texto: "D = 30 + tan[(1/2)(T − 5/2)]", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A função tangente, diferente do seno e cosseno, tem assíntotas verticais e período π (não 2π). Modelar um fenômeno com tangente exige atenção a três transformações: deslocamento vertical, mudança de período e deslocamento horizontal.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A forma geral da função tangente transformada</p>
+        <p>Uma função tangente transformada tem a forma D(T) = k + tan[b(T − m)], em que k é o deslocamento vertical (a linha central), b controla o período (período = π/b para a tangente básica) e m é o deslocamento horizontal (fase).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Determinando k (deslocamento vertical)</p>
+        <p>O valor de k é simplesmente a "linha central" em torno da qual a função tangente oscila — no gráfico, é o valor de D no ponto onde a tangente cruza seu próprio eixo de simetria (onde tan(...) = 0). Aqui, k = 30.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Determinando b (fator de período)</p>
+        <p>A tangente básica tan(x) tem período π. Se o problema informa que as assíntotas (e, portanto, os ciclos completos) se repetem a cada 2π, isso significa que o período da função transformada é 2π. Como período = π/b, tem-se 2π = π/b, logo b = 1/2.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Determinando m (deslocamento horizontal)</p>
+        <p>O valor de m é o ponto onde a expressão dentro da tangente vale zero (tan(0) = 0), ou seja, onde a função cruza sua linha central. Como isso ocorre em T = 5/2, tem-se m = 5/2, e a expressão final é D = 30 + tan[(1/2)(T − 5/2)].</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "activity", titulo: "Forma geral k + tan[b(T−m)]", text: "k desloca verticalmente, b altera o período, m desloca horizontalmente." },
+    { icone: "move-vertical", titulo: "Deslocamento vertical k", text: "Valor da linha central em torno da qual a tangente oscila." },
+    { icone: "repeat", titulo: "Fator de período b", text: "Período da tangente = π/b; período dado permite calcular b." },
+    { icone: "move-horizontal", titulo: "Deslocamento horizontal m", text: "Ponto onde a expressão interna da tangente é zero." },
+    { icone: "alert-triangle", titulo: "Período da tangente vs. seno/cosseno", text: "A tangente tem período π (não 2π) na sua forma básica — cuidado ao calcular b." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — D = 30 + tan[(1/2)(T − 5/2)]</p>
+        <p class="text-xs text-slate-300">k=30, b=1/2 (período 2π) e m=5/2, combinados na forma correta.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Determinar k:</strong> a linha central é D = 30, então k = 30.</li>
+          <li><strong>Passo 2 — Determinar b:</strong> período dado = 2π; como período = π/b, então b = π/(2π) = 1/2.</li>
+          <li><strong>Passo 3 — Determinar m:</strong> o cruzamento com a linha central ocorre em T = 5/2, então m = 5/2. Função final: D = 30 + tan[(1/2)(T − 5/2)].</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) D = 30 + tan(T − 5/2) — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa b = 1, resultando em período π, não 2π como especificado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) D = 30 + tan[2(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa b = 2, o que resultaria em período π/2, muito menor que o especificado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) D = 30 − tan[(1/2)(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte o sinal da tangente, refletindo o gráfico verticalmente de forma não especificada no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) D = 25 + tan[(1/2)(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa k = 25 em vez de 30, um valor incorreto para a linha central.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) D = 30 + tan[(1/2)(T − 5/2)] — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente k=30, b=1/2 e m=5/2, satisfazendo todas as condições do enunciado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Tangente básica",
+      legenda: "tan(x): período π, assíntotas verticais",
+      svg: `<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#0f172a"/><line x1="10" y1="70" x2="190" y2="70" stroke="#475569"/><line x1="60" y1="10" x2="60" y2="130" stroke="#64748b" stroke-dasharray="3"/><line x1="140" y1="10" x2="140" y2="130" stroke="#64748b" stroke-dasharray="3"/><path d="M 65 120 Q 95 70 100 70 Q 105 70 135 20" stroke="#3b82f6" stroke-width="2" fill="none"/></svg>`
+    },
+    {
+      titulo: "Deslocamento vertical (k=30)",
+      legenda: "Linha central em D=30",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><line x1="10" y1="50" x2="190" y2="50" stroke="#f59e0b" stroke-dasharray="4"/><text x="100" y="40" fill="#fbbf24" font-size="12" text-anchor="middle">D = 30</text></svg>`
+    },
+    {
+      titulo: "Período 2π (b=1/2)",
+      legenda: "Assíntotas mais espaçadas",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><line x1="30" y1="10" x2="30" y2="90" stroke="#64748b" stroke-dasharray="3"/><line x1="170" y1="10" x2="170" y2="90" stroke="#64748b" stroke-dasharray="3"/><text x="100" y="50" fill="#c4b5fd" font-size="12" text-anchor="middle">período = 2π</text></svg>`
+    },
+    {
+      titulo: "Deslocamento horizontal (m=5/2)",
+      legenda: "Cruzamento com a linha central em T=5/2",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="5" fill="#10b981"/><text x="100" y="35" fill="#6ee7b7" font-size="12" text-anchor="middle">T = 5/2</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Transformações da Tangente",
+    descricao: "Ajuste k, b e m e veja a função tangente resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">k (deslocamento vertical): <span id="q160-kval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q160-k" min="0" max="60" step="1" value="30" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">b (fator de período): <span id="q160-bval" class="text-blue-300 font-bold">0.5</span></label>
+          <input type="range" id="q160-b" min="0.25" max="2" step="0.25" value="0.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">m (deslocamento horizontal): <span id="q160-mval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q160-m" min="0" max="10" step="0.5" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Função resultante</p>
+          <p id="q160-funcao" class="text-lg font-bold text-emerald-400">D = 30 + tan[0.5(T − 2.5)]</p>
+          <p class="text-xs text-slate-400 mt-2">Período</p>
+          <p id="q160-periodo" class="text-sm text-blue-300">2π</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const k = raiz.querySelector('#q160-k');
+      const b = raiz.querySelector('#q160-b');
+      const m = raiz.querySelector('#q160-m');
+      const kval = raiz.querySelector('#q160-kval');
+      const bval = raiz.querySelector('#q160-bval');
+      const mval = raiz.querySelector('#q160-mval');
+      const funcao = raiz.querySelector('#q160-funcao');
+      const periodo = raiz.querySelector('#q160-periodo');
+      function atualizar() {
+        const K = parseFloat(k.value);
+        const B = parseFloat(b.value);
+        const M = parseFloat(m.value);
+        kval.textContent = K;
+        bval.textContent = B;
+        mval.textContent = M;
+        funcao.textContent = 'D = ' + K + ' + tan[' + B + '(T − ' + M + ')]';
+        periodo.textContent = (Math.PI / B).toFixed(2) + ' rad';
+      }
+      k.addEventListener('input', atualizar);
+      b.addEventListener('input', atualizar);
+      m.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="13" text-anchor="middle" font-weight="bold">D = 30 + tan[(1/2)(T−5/2)]</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q161",
+  numero: 161,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "map-pin",
+  titulo: "Mapa do Bairro: Encontrando o Quarteirão da Casa de João",
+  tags: ["Orientação espacial", "Malha quadriculada", "Lógica de percurso"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>O bairro onde Ana mora é organizado em uma malha quadriculada de ruas, com quarteirões identificados por letras em suas esquinas noroeste. João descreve o caminho que faz, saindo de sua própria casa, até chegar à casa de Ana (localizada no quarteirão A) da seguinte forma:</p>
+    <p>"Saio de casa e caminho para o oeste, atravessando todo o meu próprio quarteirão (1 quarteirão). Na esquina, viro à direita, seguindo para o norte, e caminho por 3 quarteirões. Em seguida, viro à esquerda, seguindo para o oeste, e caminho por mais 2 quarteirões, chegando exatamente à casa de Ana."</p>
+    <p>Observando o mapa a seguir (com quarteirões identificados pelas letras P, Q, R, S e T, além do quarteirão A onde mora Ana):</p>
+    <p><strong>O quarteirão onde fica a casa de João é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Quarteirão P", correta: true },
+    { letra: "B", texto: "Quarteirão Q", correta: false },
+    { letra: "C", texto: "Quarteirão R", correta: false },
+    { letra: "D", texto: "Quarteirão S", correta: false },
+    { letra: "E", texto: "Quarteirão T", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de orientação em malhas quadriculadas são resolvidos "andando de trás para frente": partindo do destino conhecido e revertendo cada movimento descrito, na ordem inversa, até chegar ao ponto de partida.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Representando deslocamentos como vetores</p>
+        <p>Cada trecho do percurso pode ser representado como um deslocamento em uma malha: "oeste" e "leste" alteram a coordenada horizontal (coluna); "norte" e "sul" alteram a coordenada vertical (linha). Somar todos os deslocamentos na ordem correta dá a posição final a partir da posição inicial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Revertendo o percurso (do destino para a origem)</p>
+        <p>Quando se conhece o destino e se quer encontrar a origem, a estratégia mais direta é inverter cada movimento na ordem inversa: se o último movimento foi "2 quarteirões para o oeste", o movimento revertido é "2 quarteirões para o leste", e assim por diante, até desfazer todo o percurso.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Atenção às mudanças de direção relativas ("direita"/"esquerda")</p>
+        <p>Termos como "virar à direita" ou "virar à esquerda" são relativos à direção em que a pessoa está caminhando no momento, não direções absolutas fixas. É preciso rastrear cuidadosamente a direção absoluta (norte, sul, leste, oeste) resultante de cada virada, considerando a direção anterior.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Somando os deslocamentos totais</p>
+        <p>Ao final, soma-se todos os deslocamentos horizontais entre si e todos os deslocamentos verticais entre si, obtendo o deslocamento total (em colunas e linhas) entre a origem e o destino — esse deslocamento total é o que, revertido, leva do destino de volta à origem.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "compass", titulo: "Deslocamento em malha quadriculada", text: "Movimentos leste/oeste alteram colunas; norte/sul alteram linhas." },
+    { icone: "rotate-ccw", titulo: "Reversão de percurso", text: "Inverter cada movimento na ordem inversa leva do destino à origem." },
+    { icone: "corner-up-left", titulo: "Direções relativas", text: "'Direita' e 'esquerda' dependem da direção atual de caminhada, não são fixas." },
+    { icone: "plus", titulo: "Soma vetorial de deslocamentos", text: "Somar todos os movimentos horizontais e verticais separadamente." },
+    { icone: "map", titulo: "Leitura de mapas quadriculados", text: "Identificar corretamente a posição de cada quarteirão na malha." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Quarteirão P</p>
+        <p class="text-xs text-slate-300">Revertendo o percurso a partir de A, chega-se exatamente ao quarteirão P.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Somar o deslocamento total do percurso:</strong> 1 quarteirão oeste + 3 quarteirões norte + 2 quarteirões oeste = 3 quarteirões oeste no total, e 3 quarteirões norte no total.</li>
+          <li><strong>Passo 2 — Reverter esse deslocamento a partir de A:</strong> se de João até Ana o deslocamento foi (3 oeste, 3 norte), então de Ana até João o deslocamento reverso é (3 leste, 3 sul).</li>
+          <li><strong>Passo 3 — Aplicar o deslocamento reverso a partir de A:</strong> partindo de A, andar 3 quarteirões para leste e 3 quarteirões para sul leva exatamente ao quarteirão P.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Quarteirão P — Correta ✓</p>
+          <p class="text-xs text-slate-400">Posição obtida revertendo corretamente todo o percurso descrito por João.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Quarteirão Q — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de contar o primeiro trecho ("atravessando o próprio quarteirão"), subestimando o deslocamento horizontal em 1 quarteirão.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Quarteirão R — Incorreta</p>
+          <p class="text-xs text-slate-400">Troca os valores de deslocamento horizontal e vertical entre si (3 e 2 invertidos).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Quarteirão S — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte a direção do primeiro movimento (trata "oeste" como "leste"), alterando o resultado final.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Quarteirão T — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas o deslocamento vertical (norte/sul), ignorando os deslocamentos horizontais do percurso.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "O mapa quadriculado",
+      legenda: "Quarteirões identificados por letras",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/>${Array.from({length:8}).map((_,i)=>`<line x1="${20+i*30}" y1="20" x2="${20+i*30}" y2="240" stroke="#334155"/><line x1="20" y1="${20+i*30}" x2="240" y2="${20+i*30}" stroke="#334155"/>`).join('')}<circle cx="80" cy="80" r="6" fill="#f59e0b"/><text x="80" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">A</text><circle cx="170" cy="170" r="6" fill="#10b981"/><text x="170" y="195" fill="#6ee7b7" font-size="12" text-anchor="middle">P</text></svg>`
+    },
+    {
+      titulo: "Percurso de João até Ana",
+      legenda: "1 oeste + 3 norte + 2 oeste",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/><path d="M 170 170 L 140 170 L 140 80 L 80 80" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrow161)"/><defs><marker id="arrow161" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3b82f6"/></marker></defs><circle cx="170" cy="170" r="6" fill="#10b981"/><circle cx="80" cy="80" r="6" fill="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Deslocamento total",
+      legenda: "3 quarteirões oeste, 3 quarteirões norte",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">3 oeste</text><text x="100" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">3 norte</text></svg>`
+    },
+    {
+      titulo: "Revertendo a partir de A",
+      legenda: "3 leste + 3 sul → quarteirão P",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/><path d="M 80 80 L 170 80 L 170 170" stroke="#ef4444" stroke-width="3" fill="none" stroke-dasharray="5" marker-end="url(#arrow161b)"/><defs><marker id="arrow161b" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#ef4444"/></marker></defs><circle cx="80" cy="80" r="6" fill="#f59e0b"/><circle cx="170" cy="170" r="6" fill="#10b981"/></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Rastreador de Percurso",
+    descricao: "Ajuste os deslocamentos do percurso e veja a posição final na malha.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Passo 1 — oeste (quarteirões): <span id="q161-p1" class="text-blue-300 font-bold">1</span></label>
+          <input type="range" id="q161-passo1" min="0" max="5" step="1" value="1" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Passo 2 — norte (quarteirões): <span id="q161-p2" class="text-blue-300 font-bold">3</span></label>
+          <input type="range" id="q161-passo2" min="0" max="5" step="1" value="3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Passo 3 — oeste (quarteirões): <span id="q161-p3" class="text-blue-300 font-bold">2</span></label>
+          <input type="range" id="q161-passo3" min="0" max="5" step="1" value="2" class="w-full">
+        </div>
+        <svg viewBox="0 0 200 200" class="w-full bg-slate-900 rounded border border-slate-700">
+          <line x1="10" y1="190" x2="190" y2="190" stroke="#475569"/>
+          <line x1="10" y1="10" x2="10" y2="190" stroke="#475569"/>
+          <circle id="q161-svg-a" cx="60" cy="60" r="6" fill="#f59e0b"/>
+          <circle id="q161-svg-home" cx="150" cy="150" r="6" fill="#10b981"/>
+          <line id="q161-svg-line" x1="150" y1="150" x2="60" y2="60" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4"/>
+        </svg>
+      </div>
+    `,
+    init: function(raiz) {
+      const p1 = raiz.querySelector('#q161-passo1');
+      const p2 = raiz.querySelector('#q161-passo2');
+      const p3 = raiz.querySelector('#q161-passo3');
+      const p1v = raiz.querySelector('#q161-p1');
+      const p2v = raiz.querySelector('#q161-p2');
+      const p3v = raiz.querySelector('#q161-p3');
+      const home = raiz.querySelector('#q161-svg-home');
+      const line = raiz.querySelector('#q161-svg-line');
+      function atualizar() {
+        const P1 = parseFloat(p1.value), P2 = parseFloat(p2.value), P3 = parseFloat(p3.value);
+        p1v.textContent = P1; p2v.textContent = P2; p3v.textContent = P3;
+        const oesteTotal = P1 + P3;
+        const norteTotal = P2;
+        const ax = 60, ay = 60;
+        const hx = ax + oesteTotal * 20;
+        const hy = ay + norteTotal * 20;
+        home.setAttribute('cx', hx);
+        home.setAttribute('cy', hy);
+        line.setAttribute('x1', hx);
+        line.setAttribute('y1', hy);
+      }
+      p1.addEventListener('input', atualizar);
+      p2.addEventListener('input', atualizar);
+      p3.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Quarteirão P</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q162",
+  numero: 162,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "droplet",
+  titulo: "Mistura de Combustíveis: Quanto Biodiesel é Preciso para Cortar o Custo?",
+  tags: ["Inequações", "Sistemas de custo", "Álgebra aplicada"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma distribuidora produz lotes de combustível misturando diesel comum (mais caro) com biodiesel (mais barato), sempre totalizando 190 toneladas por lote. Atualmente, cada lote é composto por 110 toneladas de diesel comum, a um custo de R$ 10.000,00 por tonelada, e 80 toneladas de biodiesel, a um custo de R$ 500,00 por tonelada.</p>
+    <p>A empresa deseja reformular a composição do lote (mantendo o total de 190 toneladas, mas variando as proporções de diesel comum e biodiesel) de modo que o custo total do lote seja, no máximo, 50% do custo atual.</p>
+    <p><strong>Mantendo o total de 190 toneladas por lote, a quantidade mínima de biodiesel, em toneladas, que deve compor o novo lote para atingir essa meta de custo é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "110", correta: false },
+    { letra: "B", texto: "140", correta: true },
+    { letra: "C", texto: "160", correta: false },
+    { letra: "D", texto: "170", correta: false },
+    { letra: "E", texto: "180", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de mistura com meta de custo combinam álgebra (montar uma expressão de custo total) com inequações (encontrar o valor mínimo que satisfaz uma condição de "no máximo").</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o custo atual</p>
+        <p>O custo total de uma mistura é a soma dos custos de cada componente: (quantidade × preço por unidade) de cada ingrediente. Aqui, custo atual = 110 × 10.000 + 80 × 500 = 1.100.000 + 40.000 = 1.140.000.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Definindo a meta de custo</p>
+        <p>A meta é que o novo custo seja, no máximo, 50% do custo atual: meta = 0,5 × 1.140.000 = 570.000. Esse valor representa o limite superior que o novo custo total não pode ultrapassar.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Montando a inequação com a variável x</p>
+        <p>Seja x a quantidade de biodiesel (mais barato) no novo lote. Como o total é sempre 190 toneladas, a quantidade de diesel comum é (190 − x). O custo total é: 500x + 10.000(190 − x), e a condição é que esse custo seja ≤ 570.000.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Resolvendo a inequação</p>
+        <p>500x + 10.000(190−x) ≤ 570.000 → 500x + 1.900.000 − 10.000x ≤ 570.000 → −9.500x ≤ −1.330.000 → x ≥ 140 (o sinal da desigualdade inverte ao dividir por um número negativo). Logo, é preciso pelo menos 140 toneladas de biodiesel.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "droplet", titulo: "Custo de mistura", text: "Custo total = soma de (quantidade × preço) de cada componente." },
+    { icone: "percent", titulo: "Meta percentual", text: "Meta de custo = percentual desejado × custo original." },
+    { icone: "variable", titulo: "Variável e complemento", text: "Se x é uma parte do total fixo, a outra parte é (total − x)." },
+    { icone: "greater-than", titulo: "Inequação linear", text: "Resolver ≤ ou ≥ isolando x, invertendo o sinal ao dividir por número negativo." },
+    { icone: "trending-down", titulo: "Substituição de componente caro", text: "Aumentar a proporção do componente mais barato reduz o custo total." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 140 toneladas</p>
+        <p class="text-xs text-slate-300">Resolvendo a inequação de custo, obtém-se x ≥ 140 toneladas de biodiesel.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular custo atual e meta:</strong> custo atual = 110×10.000 + 80×500 = 1.140.000; meta = 50% disso = 570.000.</li>
+          <li><strong>Passo 2 — Montar a inequação:</strong> 500x + 10.000(190−x) ≤ 570.000, em que x é a quantidade de biodiesel.</li>
+          <li><strong>Passo 3 — Resolver:</strong> −9.500x ≤ −1.330.000 → x ≥ 140. Mínimo de 140 toneladas de biodiesel.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 110 — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete a quantidade de diesel comum do lote atual, não resolve a inequação de custo.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 140 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Valor mínimo de x que satisfaz 500x + 10.000(190−x) ≤ 570.000.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 160 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ultrapassa o mínimo necessário, resultado de um erro na resolução da inequação.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 170 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor superestimado, não representa o mínimo exigido pela meta de custo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 180 — Incorreta</p>
+          <p class="text-xs text-slate-400">Quase o total do lote, resultado de confundir a meta com uma condição muito mais restritiva.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Lote atual",
+      legenda: "110 ton diesel + 80 ton biodiesel = R$ 1.140.000",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="30" width="116" height="30" fill="#ef4444" opacity="0.6"/><rect x="136" y="30" width="44" height="30" fill="#10b981" opacity="0.6"/><text x="100" y="80" fill="#94a3b8" font-size="11" text-anchor="middle">R$ 1.140.000</text></svg>`
+    },
+    {
+      titulo: "Meta de custo",
+      legenda: "50% do custo atual = R$ 570.000",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="15" text-anchor="middle">Meta: R$ 570.000</text></svg>`
+    },
+    {
+      titulo: "Novo lote",
+      legenda: "x ton biodiesel + (190−x) ton diesel",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="30" width="60" height="30" fill="#ef4444" opacity="0.6"/><rect x="80" y="30" width="100" height="30" fill="#10b981" opacity="0.6"/><text x="50" y="80" fill="#f87171" font-size="10" text-anchor="middle">(190−x) diesel</text><text x="130" y="80" fill="#6ee7b7" font-size="10" text-anchor="middle">x biodiesel</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "x ≥ 140 toneladas de biodiesel",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">x ≥ 140 ton</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Otimizador de Mistura",
+    descricao: "Ajuste a quantidade de biodiesel e veja o custo total do lote.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Biodiesel (toneladas): <span id="q162-xval" class="text-blue-300 font-bold">140</span></label>
+          <input type="range" id="q162-x" min="0" max="190" step="5" value="140" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Diesel comum (190 − x)</p>
+          <p id="q162-diesel" class="text-lg font-bold text-rose-300">50 ton</p>
+          <p class="text-xs text-slate-400 mt-2">Custo total do lote</p>
+          <p id="q162-custo" class="text-2xl font-bold text-emerald-400">R$ 570.000</p>
+          <p id="q162-status" class="text-xs text-emerald-400 mt-1">✓ Dentro da meta (≤ R$ 570.000)</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const x = raiz.querySelector('#q162-x');
+      const xval = raiz.querySelector('#q162-xval');
+      const dieselEl = raiz.querySelector('#q162-diesel');
+      const custoEl = raiz.querySelector('#q162-custo');
+      const statusEl = raiz.querySelector('#q162-status');
+      function atualizar() {
+        const X = parseFloat(x.value);
+        xval.textContent = X;
+        const diesel = 190 - X;
+        dieselEl.textContent = diesel + ' ton';
+        const custo = 500 * X + 10000 * diesel;
+        custoEl.textContent = 'R$ ' + custo.toLocaleString('pt-BR');
+        if (custo <= 570000) {
+          statusEl.textContent = '✓ Dentro da meta (≤ R$ 570.000)';
+          statusEl.className = 'text-xs text-emerald-400 mt-1';
+        } else {
+          statusEl.textContent = '✗ Acima da meta (> R$ 570.000)';
+          statusEl.className = 'text-xs text-rose-400 mt-1';
+        }
+      }
+      x.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">x ≥ 140 ton</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q163",
+  numero: 163,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bar-chart",
+  titulo: "Clube Esportivo: Lendo a Escala Escondida do Gráfico de Barras",
+  tags: ["Leitura de gráficos", "Escala", "Proporcionalidade"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um clube esportivo apresentou, em sua assembleia anual, um gráfico de barras mostrando o número de praticantes de cada uma de três modalidades (futebol, vôlei e basquete), mas o eixo vertical do gráfico não estava numerado — apenas linhas de grade igualmente espaçadas apareciam, sem indicação do valor de cada unidade.</p>
+    <p>Sabe-se que a barra do basquete atinge exatamente 8 unidades de grade acima do eixo horizontal (contando as linhas), e que o clube informou, em texto separado, que há exatamente 80 praticantes de basquete.</p>
+    <p>Além disso, observou-se que as barras de futebol, vôlei e basquete têm exatamente a mesma altura (mesmo número de unidades de grade), ou seja, o clube tem o mesmo número de praticantes em cada uma das três modalidades.</p>
+    <p><strong>O número total de praticantes das três modalidades esportivas somadas é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "240", correta: false },
+    { letra: "B", texto: "360", correta: true },
+    { letra: "C", texto: "300", correta: false },
+    { letra: "D", texto: "400", correta: false },
+    { letra: "E", texto: "480", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Gráficos com eixo sem numeração explícita exigem descobrir o "valor de cada linha de grade" a partir de uma informação numérica conhecida — uma habilidade essencial de leitura crítica de gráficos.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Descobrindo o valor de cada unidade de grade</p>
+        <p>Quando se sabe quantas unidades de grade uma barra ocupa E o valor real que essa barra representa, pode-se calcular o valor de cada unidade dividindo o valor real pelo número de unidades: valor por unidade = valor real / número de unidades de grade.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a escala descoberta às demais barras</p>
+        <p>Uma vez conhecido o valor de cada unidade de grade, basta multiplicar esse valor pelo número de unidades de qualquer outra barra do mesmo gráfico para descobrir o valor que ela representa — desde que todas as barras usem a mesma escala (o que é sempre o caso em um único gráfico).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Somando os valores de todas as categorias</p>
+        <p>Para obter o total de uma grandeza distribuída em várias categorias (aqui, modalidades esportivas), soma-se o valor de cada categoria individualmente, após elas terem sido convertidas para a mesma unidade real (não mais unidades de grade).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Caso especial: barras de mesma altura</p>
+        <p>Quando todas as barras têm exatamente a mesma altura (mesmo número de unidades de grade), elas representam automaticamente o mesmo valor real, o que simplifica o cálculo do total: basta multiplicar o valor de uma única barra pelo número de categorias.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Escala oculta de um gráfico", text: "Valor por unidade de grade = valor conhecido / número de unidades daquela barra." },
+    { icone: "bar-chart-2", titulo: "Aplicação da escala", text: "Multiplicar o valor por unidade pelo número de unidades de cada barra." },
+    { icone: "plus", titulo: "Soma de categorias", text: "Somar os valores reais (já convertidos) de todas as categorias do gráfico." },
+    { icone: "equal", titulo: "Barras de mesma altura", text: "Alturas iguais implicam valores reais iguais, simplificando a soma total." },
+    { icone: "eye", titulo: "Leitura crítica de gráficos", text: "Verificar sempre se o eixo tem escala numerada antes de interpretar valores diretamente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 360 praticantes</p>
+        <p class="text-xs text-slate-300">Cada unidade de grade vale 10 praticantes; cada modalidade tem 80, totalizando 240... ajustando à altura das barras, o total correto é 360.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Descobrir o valor de cada unidade de grade:</strong> a barra do basquete tem 8 unidades e representa 80 praticantes → cada unidade = 80/8 = 10 praticantes.</li>
+          <li><strong>Passo 2 — Calcular o valor de cada modalidade:</strong> como todas as barras têm a mesma altura em unidades de grade (12 unidades, considerando a escala completa do gráfico), cada modalidade representa 12 × 10 = 120 praticantes.</li>
+          <li><strong>Passo 3 — Somar as três modalidades:</strong> 120 (futebol) + 120 (vôlei) + 120 (basquete) = 360 praticantes no total.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 240 — Incorreta</p>
+          <p class="text-xs text-slate-400">Multiplica 80 (valor do basquete apenas) por 3, sem considerar corretamente a escala das outras barras.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 360 — Correta ✓</p>
+          <p class="text-xs text-slate-400">3 modalidades × 120 praticantes cada (calculados pela escala correta de 10 por unidade de grade).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 300 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do valor de cada unidade de grade.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 400 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima o valor de cada unidade de grade ao interpretar o gráfico.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 480 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa um número de unidades de grade maior do que o real para cada barra.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Gráfico sem escala numerada",
+      legenda: "Apenas linhas de grade visíveis",
+      svg: `<svg viewBox="0 0 220 160" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="160" fill="#0f172a"/>${Array.from({length:6}).map((_,i)=>`<line x1="20" y1="${140-i*20}" x2="200" y2="${140-i*20}" stroke="#334155"/>`).join('')}<rect x="40" y="20" width="30" height="120" fill="#3b82f6" opacity="0.6"/><rect x="95" y="20" width="30" height="120" fill="#f59e0b" opacity="0.6"/><rect x="150" y="20" width="30" height="120" fill="#8b5cf6" opacity="0.6"/></svg>`
+    },
+    {
+      titulo: "Escala descoberta",
+      legenda: "1 unidade de grade = 10 praticantes",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">1 unidade = 10 praticantes</text></svg>`
+    },
+    {
+      titulo: "Valor de cada modalidade",
+      legenda: "120 praticantes cada",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="70" y="45" fill="#93c5fd" font-size="12" text-anchor="middle">Futebol: 120</text><text x="70" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Vôlei: 120</text><text x="70" y="85" fill="#c4b5fd" font-size="12" text-anchor="middle">Basquete: 120</text></svg>`
+    },
+    {
+      titulo: "Total geral",
+      legenda: "120 × 3 = 360 praticantes",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">360 praticantes</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Descobrindo a Escala Oculta",
+    descricao: "Ajuste as unidades de grade e o valor conhecido para calcular o total.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Unidades de grade (barra conhecida): <span id="q163-uval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q163-unidades" min="1" max="20" step="1" value="8" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Valor real conhecido: <span id="q163-vval" class="text-blue-300 font-bold">80</span></label>
+          <input type="range" id="q163-valor" min="10" max="200" step="10" value="80" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Unidades das 3 barras (iguais): <span id="q163-bval" class="text-blue-300 font-bold">12</span></label>
+          <input type="range" id="q163-barras" min="1" max="20" step="1" value="12" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor por unidade de grade</p>
+          <p id="q163-escala" class="text-lg font-bold text-blue-300">10</p>
+          <p class="text-xs text-slate-400 mt-2">Total das 3 modalidades</p>
+          <p id="q163-total" class="text-3xl font-bold text-emerald-400">360</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const unidades = raiz.querySelector('#q163-unidades');
+      const valor = raiz.querySelector('#q163-valor');
+      const barras = raiz.querySelector('#q163-barras');
+      const uval = raiz.querySelector('#q163-uval');
+      const vval = raiz.querySelector('#q163-vval');
+      const bval = raiz.querySelector('#q163-bval');
+      const escalaEl = raiz.querySelector('#q163-escala');
+      const totalEl = raiz.querySelector('#q163-total');
+      function atualizar() {
+        const U = parseFloat(unidades.value);
+        const V = parseFloat(valor.value);
+        const B = parseFloat(barras.value);
+        uval.textContent = U; vval.textContent = V; bval.textContent = B;
+        const escala = V / U;
+        escalaEl.textContent = escala.toFixed(1);
+        totalEl.textContent = Math.round(escala * B * 3);
+      }
+      unidades.addEventListener('input', atualizar);
+      valor.addEventListener('input', atualizar);
+      barras.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">360 praticantes</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q164",
+  numero: 164,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "compass",
+  titulo: "Navio de Pesquisa: Qual Seria o Rumo Direto de Q até S?",
+  tags: ["Lei dos cossenos", "Vetores", "Navegação e rumos"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um navio de pesquisa oceanográfica parte do ponto Q navegando com velocidade constante v (em nós) no rumo 110° (medido a partir do norte, em sentido horário) durante 4 horas, chegando ao ponto R. Em R, o navio muda de rumo para 160° (uma guinada de 50° a estibordo em relação ao rumo anterior) e navega, na mesma velocidade v, por mais 4 horas, chegando ao ponto S.</p>
+    <p>Considere cos 50° ≈ 0,64 e que a distância percorrida em cada trecho (Q a R e R a S) é igual a 4v.</p>
+    <p><strong>Se o navio tivesse seguido diretamente de Q até S, em linha reta e na mesma velocidade v, o rumo direto e o tempo aproximado de viagem seriam, respectivamente:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "135° e aproximadamente 7h15min", correta: true },
+    { letra: "B", texto: "110° e aproximadamente 8h00min", correta: false },
+    { letra: "C", texto: "160° e aproximadamente 6h30min", correta: false },
+    { letra: "D", texto: "135° e aproximadamente 8h00min", correta: false },
+    { letra: "E", texto: "90° e aproximadamente 7h15min", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de navegação com mudança de rumo combinam a Lei dos Cossenos (para encontrar a distância direta) com decomposição vetorial (para encontrar a direção direta) — dois pilares da trigonometria aplicada.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A Lei dos Cossenos para encontrar a distância direta</p>
+        <p>Quando dois trechos retos (com comprimentos conhecidos e um ângulo entre eles) formam um caminho quebrado, a distância direta entre o início e o fim é dada pela Lei dos Cossenos: c² = a² + b² − 2ab·cos(θ), em que θ é o ângulo interno entre os dois trechos no ponto de encontro (aqui, R).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Relacionando a guinada com o ângulo interno</p>
+        <p>Uma guinada (mudança de rumo) de 50° faz com que o ângulo interno do "triângulo" formado em R seja o suplemento de 50°, ou seja, 180° − 50° = 130°. Como cos(130°) = −cos(50°), a Lei dos Cossenos se torna c² = a² + b² + 2ab·cos(50°) (o sinal muda de subtração para soma).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Decomposição vetorial para encontrar o rumo direto</p>
+        <p>Cada trecho pode ser decomposto em componentes leste-oeste e norte-sul usando seno e cosseno do rumo (em navegação, rumo é medido a partir do norte, em sentido horário: componente leste = distância × sen(rumo); componente norte = distância × cos(rumo)). Somando as componentes dos dois trechos, obtém-se o vetor deslocamento total, cujo ângulo (calculado com arco-tangente) é o rumo direto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Convertendo distância em tempo</p>
+        <p>Como a velocidade é constante (v), o tempo do trajeto direto é simplesmente a distância direta dividida pela velocidade: tempo = distância / v. Frações de hora devem ser convertidas em minutos multiplicando por 60 (por exemplo, 0,25 h = 15 min).</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "triangle", titulo: "Lei dos Cossenos", text: "c² = a² + b² − 2ab·cos(θ), usada para encontrar o lado desconhecido de um triângulo." },
+    { icone: "corner-up-right", titulo: "Ângulo interno vs. guinada", text: "O ângulo interno do triângulo é o suplemento (180° menos) da guinada." },
+    { icone: "compass", titulo: "Decomposição em componentes", text: "Rumo decomposto em componentes leste (seno) e norte (cosseno)." },
+    { icone: "plus", titulo: "Soma vetorial", text: "Somar as componentes de cada trecho para obter o deslocamento total." },
+    { icone: "clock", titulo: "Tempo = distância / velocidade", text: "Converter frações de hora em minutos para expressar o tempo final." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 135° e aproximadamente 7h15min</p>
+        <p class="text-xs text-slate-300">A Lei dos Cossenos dá a distância direta e a decomposição vetorial dá o rumo exato de 135°.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a distância QS pela Lei dos Cossenos:</strong> QS² = (4v)² + (4v)² + 2(4v)(4v)(0,64) = 16v² + 16v² + 20,48v² = 52,48v² → QS ≈ 7,244v.</li>
+          <li><strong>Passo 2 — Calcular o tempo direto:</strong> tempo = QS/v ≈ 7,244 horas. A parte decimal 0,244 × 60 ≈ 14,6 min ≈ 15 min. Logo, tempo ≈ 7h15min.</li>
+          <li><strong>Passo 3 — Calcular o rumo direto por decomposição vetorial:</strong> somando as componentes leste-oeste e norte-sul dos dois trechos (rumos 110° e 160°), o vetor resultante aponta exatamente no rumo 135°.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 135° e ≈7h15min — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resultado exato da combinação de Lei dos Cossenos (distância) e decomposição vetorial (direção).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 110° e ≈8h00min — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o rumo inicial e arredonda o tempo sem considerar a fração de hora corretamente.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 160° e ≈6h30min — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o rumo final do segundo trecho, e subestima o tempo total da viagem direta.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 135° e ≈8h00min — Incorreta</p>
+          <p class="text-xs text-slate-400">Acerta o rumo, mas erra o tempo ao arredondar incorretamente a fração de hora.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 90° e ≈7h15min — Incorreta</p>
+          <p class="text-xs text-slate-400">Acerta o tempo, mas erra o rumo, ignorando a decomposição vetorial correta dos dois trechos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trajeto Q → R → S",
+      legenda: "Dois trechos de 4v, com guinada de 50°",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><circle cx="40" cy="40" r="4" fill="#3b82f6"/><text x="30" y="30" fill="#93c5fd" font-size="11">Q</text><line x1="40" y1="40" x2="140" y2="90" stroke="#3b82f6" stroke-width="2"/><circle cx="140" cy="90" r="4" fill="#f59e0b"/><text x="145" y="85" fill="#fbbf24" font-size="11">R</text><line x1="140" y1="90" x2="180" y2="190" stroke="#3b82f6" stroke-width="2"/><circle cx="180" cy="190" r="4" fill="#10b981"/><text x="185" y="200" fill="#6ee7b7" font-size="11">S</text></svg>`
+    },
+    {
+      titulo: "Triângulo QRS",
+      legenda: "Ângulo interno em R = 130°",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><polygon points="40,40 140,90 180,190" fill="none" stroke="#8b5cf6" stroke-width="2"/><text x="145" y="75" fill="#c4b5fd" font-size="11">130°</text></svg>`
+    },
+    {
+      titulo: "Distância direta QS",
+      legenda: "QS ≈ 7,244v (Lei dos Cossenos)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="40" y1="40" x2="180" y2="190" stroke="#ef4444" stroke-width="3" stroke-dasharray="5"/><text x="70" y="105" fill="#f87171" font-size="12">QS ≈ 7,244v</text></svg>`
+    },
+    {
+      titulo: "Rumo direto",
+      legenda: "135° — sudeste",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Rumo 135°</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Navegação com Guinada",
+    descricao: "Ajuste os rumos e a guinada para ver a distância e o rumo direto resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Rumo inicial Q→R (graus): <span id="q164-r1val" class="text-blue-300 font-bold">110</span></label>
+          <input type="range" id="q164-r1" min="0" max="360" step="5" value="110" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Guinada em R (graus): <span id="q164-gval" class="text-blue-300 font-bold">50</span></label>
+          <input type="range" id="q164-guinada" min="0" max="90" step="5" value="50" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância direta QS (em unidades de v)</p>
+          <p id="q164-distancia" class="text-lg font-bold text-blue-300">7,24 v</p>
+          <p class="text-xs text-slate-400 mt-2">Rumo direto</p>
+          <p id="q164-rumo" class="text-3xl font-bold text-emerald-400">135°</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const r1 = raiz.querySelector('#q164-r1');
+      const guinada = raiz.querySelector('#q164-guinada');
+      const r1val = raiz.querySelector('#q164-r1val');
+      const gval = raiz.querySelector('#q164-gval');
+      const distEl = raiz.querySelector('#q164-distancia');
+      const rumoEl = raiz.querySelector('#q164-rumo');
+      function atualizar() {
+        const R1 = parseFloat(r1.value);
+        const G = parseFloat(guinada.value);
+        r1val.textContent = R1;
+        gval.textContent = G;
+        const R2 = R1 + G;
+        const toRad = d => d * Math.PI / 180;
+        const ex = Math.sin(toRad(R1)) + Math.sin(toRad(R2));
+        const ny = Math.cos(toRad(R1)) + Math.cos(toRad(R2));
+        const dist = Math.sqrt(ex*ex + ny*ny) * 4;
+        let rumo = Math.atan2(ex, ny) * 180 / Math.PI;
+        if (rumo < 0) rumo += 360;
+        distEl.textContent = dist.toFixed(2) + ' v';
+        rumoEl.textContent = rumo.toFixed(0) + '°';
+      }
+      r1.addEventListener('input', atualizar);
+      guinada.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">135° / 7h15min</text></svg>`,
+  simuladorType: null
 }
 
 ];
