@@ -11037,6 +11037,380 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q120",
+    numero: "Questão 120",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Cinemática & Sistemas de Segurança",
+    materiaCor: "purple",
+    materiaIcone: "fa-shield-halved",
+    titulo: "Sensor de Barreira: Tempo de Resposta para Detectar um Invasor em Movimento",
+    tags: ["Física", "Cinemática", "Velocidade Média", "Tempo de Resposta", "Sensores", "Sistemas de Segurança"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A figura ilustra as informações contidas no manual de um sistema de alarme que utiliza transmissores e receptores de radiação eletromagnética para a detecção de movimento. O receptor é regulado pelo tempo de resposta, que corresponde ao intervalo de tempo necessário para o corpo do invasor atravessar completamente o feixe, de diâmetro <strong>d = 15 cm</strong>. Considere que a menor porção do corpo do invasor é a sua posição de perfil, cuja espessura típica é <strong>20 cm</strong>. São indicados cinco possíveis movimentos de um invasor e suas velocidades típicas, que devem ser observadas para a escolha do tempo de resposta.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 460 160" class="w-full h-auto">
+        <rect x="20" y="60" width="40" height="40" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="40" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Transmissor</text>
+        <rect x="400" y="60" width="40" height="40" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="420" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Receptor</text>
+        <line x1="60" y1="80" x2="400" y2="80" stroke="#a78bfa" stroke-width="6" opacity="0.5"/>
+        <text x="230" y="105" fill="#c4b5fd" font-size="8" text-anchor="middle">feixe, d = 15 cm</text>
+
+        <g transform="translate(120,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">0,5 m/s</text>
+        </g>
+        <g transform="translate(180,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">0,7 m/s</text>
+        </g>
+        <g transform="translate(240,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">1,0 m/s</text>
+        </g>
+        <g transform="translate(300,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">2,0 m/s</text>
+        </g>
+        <g transform="translate(360,20)">
+          <circle cx="0" cy="10" r="8" fill="#f87171"/><rect x="-6" y="18" width="12" height="30" fill="#f87171"/>
+          <text x="0" y="60" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">5,0 m/s</text>
+        </g>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Manual de referência e instalação: sensor de barreira ativo. Disponível em: cs.ind.br. Acesso em: 2 dez. 2021 (adaptado).</p>
+    <br>
+    Nesse sistema, o menor tempo de resposta, em milissegundo, que garante a detecção de um possível invasor é mais próximo de`,
+
+    alternativas: [
+      { letra: "A", texto: "30 ms.", correta: false },
+      { letra: "B", texto: "70 ms.", correta: true },
+      { letra: "C", texto: "300 ms.", correta: false },
+      { letra: "D", texto: "400 ms.", correta: false },
+      { letra: "E", texto: "700 ms.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre duas armadilhas clássicas desta questão: (1) a distância percorrida não é só o diâmetro do feixe, e (2) o "pior caso" para um sensor de segurança é o invasor mais <strong>rápido</strong>, não o mais lento.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Como funciona o sensor de barreira</h4>
+          <p>
+            Um transmissor emite um feixe estreito de radiação eletromagnética até um receptor. Quando um corpo interrompe esse feixe por tempo suficiente, o sistema interpreta como uma invasão e dispara o alarme. O <strong>tempo de resposta</strong> é o parâmetro que define quão rápido o sistema precisa reagir: se o corpo atravessa o feixe mais rápido do que o tempo de resposta configurado, o sensor pode não detectar a invasão.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> A distância real percorrida: feixe + corpo (armadilha nº 1)</h4>
+          <p>
+            "Atravessar completamente o feixe" não significa apenas percorrer o diâmetro do feixe (d = 15 cm). É preciso que o corpo <strong>inteiro</strong> passe pelo feixe — do instante em que a borda frontal do corpo toca o feixe até o instante em que a borda traseira do corpo sai dele. Isso é análogo ao clássico problema do "trem atravessando uma ponte": a distância total percorrida é a <strong>soma</strong> do comprimento do trem com o comprimento da ponte.
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            distância total = espessura do corpo + diâmetro do feixe = 20 cm + 15 cm = 35 cm = 0,35 m
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> MRU: tempo = distância / velocidade</h4>
+          <p>
+            Considerando movimento retilíneo uniforme (velocidade constante durante a travessia), o tempo necessário para cruzar essa distância de 0,35 m é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            t = d<sub>total</sub> / v
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que o invasor mais rápido é o "pior caso" (armadilha nº 2)</h4>
+          <p>
+            Quanto <strong>maior</strong> a velocidade do invasor, <strong>menor</strong> o tempo que ele passa cruzando o feixe. Para garantir que o sistema detecte <em>qualquer</em> um dos cinco movimentos possíveis — inclusive o mais rápido — o tempo de resposta precisa ser igual ou menor do que o <strong>menor</strong> tempo de travessia entre todos os casos. Ou seja, é o invasor mais <strong>rápido</strong> (5,0 m/s) que determina o requisito mais exigente do sistema — não o mais lento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Calculando os 5 tempos de travessia</h4>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">Velocidade</th>
+                <th class="text-right py-1">t = 0,35 / v</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">0,5 m/s</td><td class="text-right">700 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">0,7 m/s</td><td class="text-right">500 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">1,0 m/s</td><td class="text-right">350 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">2,0 m/s</td><td class="text-right">175 ms</td></tr>
+              <tr class="border-b border-purple-500/40 text-purple-300 font-bold"><td class="py-1">5,0 m/s (mais rápido)</td><td class="text-right">70 ms (menor tempo → caso crítico)</td></tr>
+            </tbody>
+          </table>
+          <p>
+            O menor entre todos esses tempos é 70 ms — esse é o tempo de resposta que o sistema precisa ter para garantir que capture até mesmo o invasor mais veloz.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-shield-halved", titulo: "Sensor de barreira", text: "Detecta interrupção de um feixe entre transmissor e receptor; o tempo de resposta define a sensibilidade do sistema." },
+      { icone: "fa-ruler-horizontal", titulo: "Distância = corpo + feixe", text: "Atravessar completamente o feixe exige somar a espessura do corpo ao diâmetro do feixe — não usar só um dos dois." },
+      { icone: "fa-gauge-high", titulo: "Velocidade máxima = pior caso", text: "Quanto mais rápido o invasor, menor o tempo de travessia — é a velocidade mais alta que exige o menor (mais rigoroso) tempo de resposta." },
+      { icone: "fa-square-root-variable", titulo: "t = d/v (MRU)", text: "Tempo de travessia é a distância total dividida pela velocidade do invasor." },
+      { icone: "fa-table", titulo: "Cinco cenários, um crítico", text: "Calcular todos os tempos e escolher o menor garante que o sistema funcione para todos os movimentos, inclusive o mais rápido." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Distância total = 20 cm + 15 cm = 0,35 m. Com o invasor mais rápido (5,0 m/s): t = 0,35 / 5,0 = 0,07 s = <strong>70 ms</strong> — o tempo de resposta mais exigente entre os 5 cenários.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Some a espessura do corpo ao diâmetro do feixe.</strong> distância = 20 cm + 15 cm = 35 cm = 0,35 m — a "travessia completa" inclui o corpo inteiro passando pelo feixe.</p>
+          <p><strong>Passo 2 — Identifique o pior caso: a velocidade mais alta.</strong> É o invasor de 5,0 m/s que passa pelo feixe no menor tempo, sendo o mais difícil de detectar.</p>
+          <p><strong>Passo 3 — Calcule t = d/v para esse caso.</strong> t = 0,35 / 5,0 = 0,07 s = 70 ms. Esse é o tempo de resposta necessário para garantir a detecção de qualquer um dos cinco movimentos.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 30 ms — ERRADA</p>
+            <p class="text-xs">Usa a velocidade correta (5,0 m/s, o pior caso), mas esquece de somar a espessura do corpo: 0,15 m / 5,0 m/s = 0,03 s = 30 ms — considera só o diâmetro do feixe, ignorando que o corpo inteiro precisa atravessar.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 70 ms — CORRETA</p>
+            <p class="text-xs">Usa a distância completa (corpo + feixe = 0,35 m) e a velocidade mais alta (5,0 m/s, o pior caso): 0,35 / 5,0 = 0,07 s = 70 ms.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 300 ms — ERRADA</p>
+            <p class="text-xs">Combina dois erros: usa só o diâmetro do feixe (0,15 m, esquecendo o corpo) <em>e</em> a velocidade mais lenta (0,5 m/s, em vez da mais rápida): 0,15 / 0,5 = 0,3 s = 300 ms.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 400 ms — ERRADA</p>
+            <p class="text-xs">Usa só a espessura do corpo (0,20 m, esquecendo o feixe) com a velocidade mais lenta (0,5 m/s): 0,20 / 0,5 = 0,4 s = 400 ms — dois erros somados.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 700 ms — ERRADA</p>
+            <p class="text-xs">Usa a distância total corretamente (0,35 m), mas com a velocidade mais lenta (0,5 m/s) em vez da mais rápida: 0,35 / 0,5 = 0,7 s = 700 ms — inverte qual velocidade representa o "pior caso" para um sensor de segurança.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Distância total: corpo + feixe (analogia do trem na ponte)",
+        legenda: "Do instante em que a frente do corpo toca o feixe até a traseira sair dele, a distância percorrida é a soma dos dois comprimentos.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="150" y="40" width="60" height="50" fill="#a78bfa" opacity="0.4"/>
+            <text x="180" y="30" fill="#c4b5fd" font-size="8" font-weight="bold" text-anchor="middle">feixe (15 cm)</text>
+            <rect x="100" y="45" width="40" height="40" fill="#fbbf24" opacity="0.9"/>
+            <text x="120" y="100" fill="#fde68a" font-size="7" text-anchor="middle">corpo (20 cm)</text>
+            <line x1="100" y1="115" x2="210" y2="115" stroke="#6ee7b7" stroke-width="2"/>
+            <text x="155" y="128" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">distância total = 35 cm</text>
+          </svg>`
+      },
+      {
+        titulo: "Quanto mais rápido, menos tempo dentro do feixe",
+        legenda: "O invasor de 5,0 m/s (linha vermelha) passa pela mesma distância no menor tempo — o caso mais difícil de detectar.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="50" y1="140" x2="430" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="50" y1="20" x2="50" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="42" y="26" fill="#94a3b8" font-size="8" text-anchor="end">tempo (ms)</text>
+            <text x="425" y="158" fill="#94a3b8" font-size="8" text-anchor="end">velocidade (m/s)</text>
+            <path d="M 70 30 Q 200 60 420 132" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+            <circle cx="70" cy="30" r="4" fill="#fbbf24"/><text x="70" y="20" fill="#fde68a" font-size="7" text-anchor="middle">0,5: 700ms</text>
+            <circle cx="420" cy="132" r="5" fill="#f87171"/><text x="400" y="150" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">5,0: 70ms (crítico)</text>
+          </svg>`
+      },
+      {
+        titulo: "Tabela dos 5 cenários",
+        legenda: "O menor tempo entre os cinco (70 ms) é o que define o tempo de resposta necessário.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="130" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Velocidade</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Tempo de travessia</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">0,5 m/s</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="8">700 ms</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">0,7 m/s</text>
+            <text x="230" y="76" fill="#94a3b8" font-size="8">500 ms</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">1,0 m/s</text>
+            <text x="230" y="100" fill="#94a3b8" font-size="8">350 ms</text>
+
+            <text x="20" y="124" fill="#e2e8f0" font-size="8">2,0 m/s</text>
+            <text x="230" y="124" fill="#94a3b8" font-size="8">175 ms</text>
+
+            <rect x="10" y="132" width="440" height="26" fill="#450a0a" rx="4"/>
+            <text x="20" y="149" fill="#fca5a5" font-size="8" font-weight="bold">5,0 m/s</text>
+            <text x="230" y="149" fill="#fca5a5" font-size="8" font-weight="bold">70 ms ← menor (resposta)</text>
+          </svg>`
+      },
+      {
+        titulo: "A matriz de erros das alternativas",
+        legenda: "Cada alternativa errada combina uma escolha incorreta de distância com uma escolha incorreta de velocidade.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="70" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Distância usada</text>
+            <text x="220" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Velocidade usada</text>
+            <text x="380" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Resultado</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="7">A) só feixe (15cm)</text>
+            <text x="190" y="52" fill="#e2e8f0" font-size="7">5,0 m/s (correta)</text>
+            <text x="370" y="52" fill="#fca5a5" font-size="7">30 ms</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">B) corpo+feixe (35cm) ✓</text>
+            <text x="220" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">5,0 m/s (correta) ✓</text>
+            <text x="370" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">70 ms</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="7">C) só feixe (15cm)</text>
+            <text x="190" y="102" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="102" fill="#fca5a5" font-size="7">300 ms</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="7">D) só corpo (20cm)</text>
+            <text x="190" y="126" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="126" fill="#fca5a5" font-size="7">400 ms</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="7">E) corpo+feixe (35cm)</text>
+            <text x="190" y="150" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="150" fill="#fca5a5" font-size="7">700 ms</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte o cálculo do tempo de resposta",
+      descricao: "Escolha qual distância usar e qual velocidade testar, e veja o tempo de travessia resultante — e se ele corresponde à resposta correta da questão.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Distância considerada:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="15" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Só o feixe (15 cm)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="20" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Só o corpo (20 cm)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="35" checked class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Corpo + feixe (35 cm)</span>
+              </label>
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Velocidade do invasor</span><span class="text-purple-300 font-bold" data-out="vel">5,0 m/s</span>
+              </label>
+              <input type="range" data-sim="vel" min="0.5" max="5" value="5" step="0.1" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Tempo de travessia calculado:</p>
+              <div data-out="tempo" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radiosDist = raiz.querySelectorAll('[data-sim="dist"]');
+        var campoVel = raiz.querySelector('[data-sim="vel"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var dist = parseFloat(raiz.querySelector('[data-sim="dist"]:checked').value) / 100;
+          var vel = parseFloat(campoVel.value);
+          var t = dist / vel;
+          var tms = t * 1000;
+
+          saida('vel').textContent = vel.toFixed(1) + ' m/s';
+          saida('tempo').textContent = tms.toFixed(0) + ' ms';
+
+          var v = saida('veredito');
+          if (dist === 0.35 && Math.abs(vel - 5.0) < 0.05) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Esse é o cenário correto da questão!</strong> Distância completa (corpo+feixe) e velocidade mais rápida (pior caso) → 70 ms, a resposta certa.';
+          } else if (dist === 0.35) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Distância correta, mas essa velocidade não é o pior caso. Arraste até 5,0 m/s (a mais rápida) para achar o tempo de resposta mínimo necessário.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = 'Essa distância está incompleta — "atravessar completamente o feixe" exige somar a espessura do corpo (20 cm) ao diâmetro do feixe (15 cm) = 35 cm.';
+          }
+        }
+
+        radiosDist.forEach(function (r) { r.addEventListener('change', atualizar); });
+        campoVel.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-shield-halved"></i> (20cm + 15cm) ÷ 5,0 m/s = 70 ms — o tempo de resposta necessário</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <text x="80" y="50" fill="#e2e8f0" font-size="12" font-family="monospace" text-anchor="middle">0,35 m</text>
+          <text x="180" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">÷</text>
+          <text x="260" y="50" fill="#fca5a5" font-size="12" font-family="monospace" font-weight="bold" text-anchor="middle">5,0 m/s</text>
+          <text x="340" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">=</text>
+          <text x="420" y="50" fill="#6ee7b7" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">70 ms</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
