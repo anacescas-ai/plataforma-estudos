@@ -10427,6 +10427,281 @@ const questaoDatabase = [
       }
     },
     simuladorType: null
+  },
+
+  {
+    id: "q118",
+    numero: "Questão 118",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Hidrostática & Pressão de Coluna",
+    materiaCor: "purple",
+    materiaIcone: "fa-boxes-stacked",
+    titulo: "Altura Máxima de Empilhamento em um Depósito: Pressão de uma Coluna de Produto",
+    tags: ["Física", "Hidrostática", "Pressão", "Densidade", "Peso Específico", "Empilhamento"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A laje de um depósito de bebidas tem $50\\ m^2$ de área útil de armazenamento e foi projetada para suportar pressões de até $10^4\\ Pa$. O gerente do estabelecimento pretende armazenar um produto cuja densidade é $1\\,250\\ kg/m^3$. Considere a aceleração da gravidade igual a $10\\ m/s^2$.
+    <br><br>
+    A altura máxima, em metro, de empilhamento do produto que essa laje é capaz de suportar é`,
+
+    alternativas: [
+      { letra: "A", texto: "0,16 m.", correta: false },
+      { letra: "B", texto: "0,50 m.", correta: false },
+      { letra: "C", texto: "0,80 m.", correta: true },
+      { letra: "D", texto: "1,60 m.", correta: false },
+      { letra: "E", texto: "8,00 m.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela mostra por que uma pilha de caixas empilhadas se comporta, para efeito de pressão sobre o chão, exatamente como uma coluna de líquido — e por que a área da laje, apesar de aparecer no enunciado, não entra na conta.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Pressão é força dividida por área</h4>
+          <p>
+            A definição de pressão é $P = \\dfrac{F}{A}$. Quando um produto empilhado pressiona a laje, a força $F$ é o <strong>peso</strong> de toda a coluna de produto apoiada sobre aquela área: $F = P_{eso} = m \\cdot g$.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Escrevendo a massa em função da altura</h4>
+          <p>
+            A massa do produto empilhado é $m = \\rho \\cdot V$, e o volume de uma coluna de área $A$ e altura $h$ é $V = A \\cdot h$. Substituindo:
+          </p>
+          <p class="text-center">$$F = \\rho \\cdot A \\cdot h \\cdot g$$</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> A área desaparece da fórmula</h4>
+          <p>
+            Voltando à definição de pressão:
+          </p>
+          <p class="text-center">$$P = \\frac{F}{A} = \\frac{\\rho \\cdot A \\cdot h \\cdot g}{A} = \\rho \\cdot g \\cdot h$$</p>
+          <p>
+            A área $A$ aparece no numerador (peso total da coluna) e no denominador (definição de pressão) e se cancela. Esse é exatamente o mesmo resultado da <strong>pressão hidrostática</strong> ($P = \\rho g h$), e vale para qualquer coluna de material empilhado, não só para líquidos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que os $50\\ m^2$ do enunciado são irrelevantes</h4>
+          <p>
+            Como a área se cancela na fórmula $P = \\rho g h$, o valor de $50\\ m^2$ dado no enunciado <strong>não é necessário</strong> para calcular a altura máxima — ele influenciaria apenas o volume ou a massa <em>total</em> que a laje suporta, não a altura da coluna. Esse é um clássico "dado a mais" de prova, colocado para testar se o estudante sabe identificar o que realmente importa na fórmula.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Isolando a altura</h4>
+          <p>
+            Isolando $h$ na fórmula $P = \\rho g h$:
+          </p>
+          <p class="text-center">$$h = \\frac{P}{\\rho \\cdot g}$$</p>
+          <p>
+            Basta substituir os valores numéricos do enunciado — a pressão máxima suportada, a densidade do produto e a gravidade — para chegar à altura máxima de empilhamento.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-arrows-up-down", titulo: "Pressão: P = F/A", text: "Força perpendicular à superfície, dividida pela área sobre a qual ela atua." },
+      { icone: "fa-layer-group", titulo: "Pressão de coluna: P = ρ·g·h", text: "Vale para qualquer coluna de material empilhado (não só líquidos) e depende apenas da densidade e da altura — não da área da base." },
+      { icone: "fa-weight-hanging", titulo: "Densidade: ρ = m/V", text: "Relaciona massa e volume; junto com g, converte altura de coluna em pressão exercida na base." },
+      { icone: "fa-ban", titulo: "Área da laje: dado irrelevante aqui", text: "A área aparece no peso total (F) e na definição de pressão (F/A) e se cancela — não é usada para achar a altura máxima." },
+      { icone: "fa-ruler-vertical", titulo: "Isolando a altura", text: "h = P / (ρ·g). Basta substituir a pressão máxima, a densidade do produto e a gravidade." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>Usando $P = \\rho \\cdot g \\cdot h$: $h = \\dfrac{10^4}{1\\,250 \\times 10} = \\dfrac{10\\,000}{12\\,500} = 0,80\\ m$. A área de $50\\ m^2$ é um dado extra, que não entra nessa conta.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Reconheça o modelo físico.</strong> Uma coluna de produto empilhado pressiona a laje do mesmo jeito que uma coluna de líquido: $P = \\rho g h$. A área da base <em>não</em> aparece nessa fórmula.</p>
+          <p><strong>Passo 2 — Isole a altura.</strong> $h = \\dfrac{P}{\\rho g}$.</p>
+          <p><strong>Passo 3 — Substitua os valores do enunciado.</strong> $P = 10^4\\ Pa$, $\\rho = 1\\,250\\ kg/m^3$, $g = 10\\ m/s^2$: $h = \\dfrac{10^4}{1\\,250 \\times 10} = 0,80\\ m$.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 0,16 m — ERRADA</p>
+            <p class="text-xs">Sai de usar a área do enunciado no lugar da gravidade: $\\dfrac{10^4}{1\\,250 \\times 50} = 0,16\\ m$. É a "pegadinha" clássica — usar um dado irrelevante (a área) em vez do dado certo (a gravidade).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 0,50 m — ERRADA</p>
+            <p class="text-xs">Não corresponde à aplicação direta de $P = \\rho g h$ com os valores do enunciado — costuma vir de um erro de conta ao combinar densidade, gravidade e pressão.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) 0,80 m — CORRETA</p>
+            <p class="text-xs">$h = \\dfrac{P}{\\rho g} = \\dfrac{10^4}{1\\,250 \\times 10} = 0,80\\ m$ — a única conta que usa exatamente pressão máxima, densidade e gravidade, do jeito certo.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 1,60 m — ERRADA</p>
+            <p class="text-xs">É o dobro do valor correto — costuma vir de usar metade da densidade informada (ex.: $625\\ kg/m^3$ em vez de $1\\,250\\ kg/m^3$): $\\dfrac{10^4}{625 \\times 10} = 1,60\\ m$.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 8,00 m — ERRADA</p>
+            <p class="text-xs">Sai de esquecer a gravidade e dividir só pela densidade: $\\dfrac{10^4}{1\\,250} = 8,00\\ m$ — dez vezes o valor correto, por não multiplicar $\\rho$ por $g$.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Por que a área da laje se cancela",
+        legenda: "Duas colunas de mesma altura e mesma densidade — mas áreas diferentes — exercem exatamente a mesma pressão na base.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <rect x="40" y="40" width="70" height="100" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="75" y="30" fill="#c4b5fd" font-size="8" font-weight="bold" text-anchor="middle">Coluna A pequena</text>
+            <text x="75" y="150" fill="#a78bfa" font-size="7" text-anchor="middle">h = 0,80 m</text>
+            <rect x="260" y="40" width="160" height="100" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="340" y="30" fill="#c4b5fd" font-size="8" font-weight="bold" text-anchor="middle">Coluna B larga</text>
+            <text x="340" y="150" fill="#a78bfa" font-size="7" text-anchor="middle">h = 0,80 m</text>
+            <text x="190" y="95" fill="#facc15" font-size="10" font-weight="bold" text-anchor="middle">mesma P!</text>
+            <line x1="20" y1="155" x2="440" y2="155" stroke="#475569" stroke-width="2"/>
+            <text x="230" y="167" fill="#94a3b8" font-size="7" text-anchor="middle">laje (a área não altera a pressão, só a altura importa)</text>
+          </svg>`
+      },
+      {
+        titulo: "Do enunciado ao resultado",
+        legenda: "P = ρ·g·h, isolando h e substituindo os valores dados.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="10" y="35" width="120" height="45" rx="6" fill="#2e1065" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="70" y="55" fill="#ddd6fe" font-size="9" font-weight="bold" text-anchor="middle">P = 10⁴ Pa</text>
+            <text x="70" y="70" fill="#c4b5fd" font-size="7" text-anchor="middle">limite da laje</text>
+            <line x1="135" y1="57" x2="160" y2="57" stroke="#64748b" stroke-width="2" marker-end="url(#setaQ118a)"/>
+            <rect x="165" y="35" width="130" height="45" rx="6" fill="#2e1065" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="230" y="52" fill="#ddd6fe" font-size="9" font-weight="bold" text-anchor="middle">h = P/(ρ·g)</text>
+            <text x="230" y="67" fill="#c4b5fd" font-size="7" text-anchor="middle">ρ=1250, g=10</text>
+            <line x1="300" y1="57" x2="325" y2="57" stroke="#64748b" stroke-width="2" marker-end="url(#setaQ118a)"/>
+            <rect x="330" y="35" width="110" height="45" rx="6" fill="#3b0764" stroke="#c4b5fd" stroke-width="2"/>
+            <text x="385" y="63" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">0,80 m</text>
+            <defs>
+              <marker id="setaQ118a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      }
+    ],
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-boxes-stacked"></i> Pressão de uma coluna empilhada: P = ρ·g·h</span>
+        <svg viewBox="0 0 460 100" class="w-full h-28 mx-auto">
+          <rect x="180" y="15" width="100" height="55" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5" rx="3"/>
+          <text x="230" y="45" fill="#ddd6fe" font-size="9" font-weight="bold" text-anchor="middle">produto</text>
+          <text x="230" y="58" fill="#c4b5fd" font-size="7" text-anchor="middle">h = 0,80 m</text>
+          <line x1="20" y1="80" x2="440" y2="80" stroke="#94a3b8" stroke-width="3"/>
+          <text x="230" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">laje (suporta até 10⁴ Pa)</text>
+        </svg>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       5. LABORATÓRIO (simulador interativo)
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "A laje aguenta essa altura de empilhamento?",
+      descricao: "Ajuste a altura da coluna de produto empilhado e veja, em tempo real, se a pressão exercida ultrapassa o limite de 10⁴ Pa da laje.",
+      html: `
+        <div class="space-y-4" data-sim="raiz-q118">
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <label class="text-[11px] text-slate-400 flex justify-between">
+              <span>Altura de empilhamento (h)</span><span class="text-purple-300 font-bold" data-out="altura">0,80 m</span>
+            </label>
+            <input type="range" data-sim="altura" min="0" max="1.6" value="0.8" step="0.02" class="w-full accent-purple-500">
+          </div>
+
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+            <div class="flex justify-between text-[11px] mb-1">
+              <span class="font-bold" data-out="corTexto">Pressão exercida</span>
+              <span class="font-mono" data-out="pressao">10 000 Pa</span>
+            </div>
+            <div class="h-3 bg-slate-900 rounded-full overflow-hidden">
+              <div data-bar="pressao" class="h-full transition-all" style="width:100%"></div>
+            </div>
+            <p class="text-[10px] text-slate-500">Limite da laje: 10 000 Pa (10⁴ Pa)</p>
+          </div>
+
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+        </div>
+      `,
+      init(raiz) {
+        var rho = 1250, g = 10, limite = 10000;
+        var slider = raiz.querySelector('[data-sim="altura"]');
+        var saidaAltura = raiz.querySelector('[data-out="altura"]');
+        var saidaPressao = raiz.querySelector('[data-out="pressao"]');
+        var corTexto = raiz.querySelector('[data-out="corTexto"]');
+        var barra = raiz.querySelector('[data-bar="pressao"]');
+        var veredito = raiz.querySelector('[data-out="veredito"]');
+
+        function atualizar() {
+          var h = parseFloat(slider.value);
+          var p = rho * g * h;
+          var pct = Math.min(100, (p / limite) * 100);
+          var estourou = p > limite + 1;
+          var noLimite = Math.abs(h - 0.8) < 0.01;
+
+          saidaAltura.textContent = h.toFixed(2).replace('.', ',') + ' m';
+          saidaPressao.textContent = Math.round(p).toLocaleString('pt-BR') + ' Pa';
+          barra.style.width = pct + '%';
+          barra.className = 'h-full transition-all ' + (estourou ? 'bg-rose-500' : 'bg-emerald-500');
+          corTexto.className = 'font-bold ' + (estourou ? 'text-rose-300' : 'text-emerald-300');
+
+          if (estourou) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            veredito.innerHTML = '<strong>A laje não aguenta!</strong> Com h = ' + h.toFixed(2).replace('.', ',') + ' m, a pressão ultrapassa os 10 000 Pa suportados.';
+          } else if (noLimite) {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            veredito.innerHTML = '<strong>Este é o limite exato!</strong> h = 0,80 m é a altura máxima de empilhamento — a resposta da questão (alternativa C).';
+          } else {
+            veredito.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-700 bg-slate-900 text-slate-300';
+            veredito.innerHTML = 'A laje aguenta essa altura, com margem de segurança até chegar em 0,80 m.';
+          }
+        }
+
+        slider.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+    simuladorType: null
   }
 
 ];
