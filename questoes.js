@@ -13270,6 +13270,2563 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q127",
+    numero: "Questão 127",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Cinética Enzimática",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Catálise Enzimática: o Diagrama de Energia da Reação A → B",
+    tags: ["Biologia", "Bioquímica", "Enzimas", "Cinética Química", "Energia de Ativação"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Nos processos de transformação e reciclagem de recursos naturais, as velocidades das reações químicas são estudadas pela cinética química. Uma reação A → B é realizada na presença e na ausência de uma enzima, com todas as demais condições permanecendo inalteradas. Considere que, no gráfico da variação de energia ao longo dessa reação, a linha contínua representa o avanço da reação na ausência da enzima, e a linha pontilhada, na presença da enzima.
+    <br><br>
+    O gráfico que representa a situação descrita é:`,
+
+    alternativas: [
+      { letra: "A", texto: "Ambas as curvas partem de níveis de energia A diferentes; a linha pontilhada tem pico mais alto e termina em B mais alto que a linha contínua.", correta: false },
+      { letra: "B", texto: "As curvas partem do mesmo A, mas terminam em valores de B diferentes; a pontilhada tem pico mais alto que a contínua.", correta: false },
+      { letra: "C", texto: "As curvas partem do mesmo nível de energia A e terminam no mesmo nível de energia B; a linha pontilhada (com enzima) tem um pico de energia mais baixo que a linha contínua (sem enzima).", correta: true },
+      { letra: "D", texto: "As curvas partem do mesmo A e terminam no mesmo B, mas a linha pontilhada tem pico mais alto que a contínua.", correta: false },
+      { letra: "E", texto: "As curvas partem de níveis A diferentes e terminam em níveis B diferentes, com picos parecidos.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          A ideia central aqui é distinguir o que uma enzima muda (a velocidade, via energia de ativação) do que ela NÃO muda (a energia final e inicial dos reagentes/produtos).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é um catalisador (e uma enzima é um catalisador biológico)</h4>
+          <p>
+            Uma enzima é uma proteína (ou, em alguns casos, RNA) que atua como <strong>catalisador biológico</strong>: ela acelera uma reação química sem ser consumida no processo e sem alterar o equilíbrio termodinâmico da reação. Isso significa que a energia dos reagentes (A) e dos produtos (B) permanece exatamente a mesma, com ou sem enzima.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O que a enzima muda: a energia de ativação (Ea)</h4>
+          <p>
+            A energia de ativação é a "barreira" energética que os reagentes precisam superar para se transformarem em produtos — corresponde ao <strong>pico</strong> do gráfico de energia versus progresso da reação. Uma enzima funciona estabilizando o "estado de transição" dessa barreira, <strong>diminuindo</strong> a energia de ativação necessária, o que torna a reação mais rápida (mais moléculas conseguem "pular" a barreira mais baixa por unidade de tempo).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O que a enzima NÃO muda: ΔE (variação de energia) da reação</h4>
+          <p>
+            Como a enzima não altera a natureza termodinâmica da reação (só a via/mecanismo pelo qual ela ocorre), o ponto de partida (energia de A) e o ponto de chegada (energia de B) devem ser <strong>idênticos</strong> nas duas curvas — com ou sem enzima. A única diferença visual entre as duas curvas deve estar na altura do pico no meio do gráfico.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Traduzindo para o gráfico correto</h4>
+          <p>
+            O gráfico correto deve mostrar: (i) as duas curvas — contínua (sem enzima) e pontilhada (com enzima) — começando exatamente no mesmo ponto A; (ii) terminando exatamente no mesmo ponto B; (iii) a curva pontilhada (com enzima) tendo um <strong>pico mais baixo</strong> que a curva contínua (sem enzima), pois a enzima reduz a energia de ativação.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-dna", titulo: "Enzima = catalisador biológico", text: "Acelera reações sem ser consumida e sem alterar a termodinâmica (energias inicial e final) da reação." },
+      { icone: "fa-mountain", titulo: "Energia de ativação (Ea)", text: "É a altura do pico no gráfico de energia — a 'barreira' que precisa ser superada para a reação ocorrer." },
+      { icone: "fa-arrow-trend-down", titulo: "Enzima diminui a Ea", text: "Estabiliza o estado de transição, baixando o pico de energia e tornando a reação mais rápida." },
+      { icone: "fa-equals", titulo: "A e B permanecem iguais", text: "As energias inicial (reagente A) e final (produto B) são idênticas nas curvas com e sem enzima." },
+      { icone: "fa-chart-line", titulo: "Só a via muda, não o destino", text: "A enzima muda o 'caminho' (mecanismo, mais rápido), não o ponto de partida nem o de chegada da reação." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>As duas curvas devem começar no mesmo A e terminar no mesmo B; a curva pontilhada (com enzima) deve ter pico mais baixo, pois a enzima reduz a energia de ativação sem mudar a termodinâmica da reação.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Lembre o que um catalisador NÃO muda.</strong> A energia dos reagentes (A) e dos produtos (B) é a mesma, com ou sem enzima — elimine qualquer gráfico com pontos de partida ou chegada diferentes entre as duas curvas.</p>
+          <p><strong>Passo 2 — Lembre o que um catalisador muda.</strong> A energia de ativação (o pico) diminui com o catalisador — a curva pontilhada deve ter pico mais baixo que a contínua.</p>
+          <p><strong>Passo 3 — Combine os dois critérios.</strong> Procure o único gráfico com A e B iguais nas duas curvas E pico da pontilhada menor que o da contínua.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Pontos de partida A diferentes — ERRADA</p>
+            <p class="text-xs">Viola o princípio de que a enzima não altera a energia dos reagentes — o ponto A deve ser idêntico nas duas curvas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Pontos de chegada B diferentes — ERRADA</p>
+            <p class="text-xs">Viola o princípio de que a enzima não altera a energia dos produtos — o ponto B deve ser idêntico nas duas curvas.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) Mesmo A, mesmo B, pico da pontilhada mais baixo — CORRETA</p>
+            <p class="text-xs">É exatamente o que se espera: a enzima só diminui a energia de ativação (o pico), sem mudar as energias inicial e final.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Mesmo A, mesmo B, mas pico da pontilhada mais alto — ERRADA</p>
+            <p class="text-xs">Inverte o efeito da enzima: um catalisador reduz a energia de ativação, não aumenta.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) A e B diferentes nas duas curvas — ERRADA</p>
+            <p class="text-xs">Novamente viola o princípio de que a termodinâmica da reação (energias inicial e final) não muda com o catalisador.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Reação sem enzima (linha contínua)",
+        legenda: "Energia de ativação alta: o pico entre A e B é elevado, tornando a reação mais lenta.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+            <text x="30" y="120" fill="#94a3b8" font-size="10">A</text>
+            <text x="430" y="128" fill="#94a3b8" font-size="10">B</text>
+            <text x="200" y="18" fill="#f87171" font-size="9" text-anchor="middle" font-weight="bold">Ea alta (sem enzima)</text>
+          </svg>`
+      },
+      {
+        titulo: "Reação com enzima (linha pontilhada)",
+        legenda: "Energia de ativação mais baixa: mesmo A e mesmo B, mas o caminho passa por um pico menor.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <polyline points="30,100 100,100 200,60 320,110 430,110" fill="none" stroke="#6ee7b7" stroke-width="2.5" stroke-dasharray="6,4"/>
+            <text x="30" y="120" fill="#94a3b8" font-size="10">A</text>
+            <text x="430" y="128" fill="#94a3b8" font-size="10">B</text>
+            <text x="200" y="52" fill="#34d399" font-size="9" text-anchor="middle" font-weight="bold">Ea baixa (com enzima)</text>
+          </svg>`
+      },
+      {
+        titulo: "Sobreposição: o que muda e o que não muda",
+        legenda: "Mesmos pontos A e B nas duas curvas — só a altura do pico (Ea) é diferente.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+            <polyline points="30,100 100,100 200,60 320,110 430,110" fill="none" stroke="#6ee7b7" stroke-width="2.5" stroke-dasharray="6,4"/>
+            <circle cx="30" cy="100" r="4" fill="#fbbf24"/>
+            <circle cx="430" cy="110" r="4" fill="#fbbf24"/>
+            <text x="30" y="120" fill="#fde68a" font-size="9">A (igual)</text>
+            <text x="380" y="128" fill="#fde68a" font-size="9">B (igual)</text>
+            <line x1="200" y1="25" x2="200" y2="60" stroke="#f87171" stroke-width="1" stroke-dasharray="2,2"/>
+            <text x="215" y="45" fill="#fca5a5" font-size="8">ΔEa</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas C mantém A e B fixos nas duas curvas, com pico menor apenas na pontilhada (com enzima).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="20" y="22" fill="#e2e8f0" font-size="8">A) A diferentes entre as curvas</text>
+            <text x="20" y="44" fill="#e2e8f0" font-size="8">B) B diferentes entre as curvas</text>
+            <rect x="10" y="54" width="440" height="24" fill="#064e3b" rx="4"/>
+            <text x="230" y="70" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">C) Mesmo A e B, pico pontilhado menor ✓</text>
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">D) Mesmo A e B, mas pico pontilhado maior (invertido)</text>
+            <text x="20" y="122" fill="#e2e8f0" font-size="8">E) A e B diferentes nas duas curvas</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: ajuste a energia de ativação",
+      descricao: "Arraste o controle para simular o efeito de uma enzima sobre a energia de ativação da reação A → B.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Energia de ativação com enzima (kJ/mol): <span data-out="ealabel" class="text-emerald-300 font-mono"></span></p>
+              <input type="range" min="10" max="90" step="1" value="35" data-sim="ea" class="w-full accent-emerald-500">
+            </div>
+            <p class="text-[10px] text-slate-500">A energia de ativação sem enzima está fixa em 90 kJ/mol. A e B (energias inicial e final) nunca mudam.</p>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 300 150" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <polyline points="20,110 70,110 150,20 260,120 280,120" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+              <polyline data-sim="curvaEnzima" points="20,110 70,110 150,80 260,120 280,120" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="5,3"/>
+              <text x="15" y="128" fill="#94a3b8" font-size="9">A</text>
+              <text x="270" y="135" fill="#94a3b8" font-size="9">B</text>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selEa = raiz.querySelector('[data-sim="ea"]');
+        var curva = raiz.querySelector('[data-sim="curvaEnzima"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var ea = parseFloat(selEa.value);
+          saida('ealabel').textContent = ea + ' kJ/mol';
+
+          var yBase = 110;
+          var yTopoSemEnzima = 20;
+          var alturaMax = yBase - yTopoSemEnzima;
+          var fracao = ea / 90;
+          var yPico = yBase - alturaMax * fracao;
+
+          curva.setAttribute('points', '20,110 70,110 150,' + yPico.toFixed(1) + ' 260,120 280,120');
+
+          var v = saida('veredito');
+          if (ea < 40) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Boa enzima!</strong> Ea bem menor que a via sem enzima (90 kJ/mol) — a reação seria muito mais rápida.';
+          } else if (ea < 75) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Ea reduzida moderadamente — a enzima acelera a reação, mas não tanto quanto poderia.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = 'Ea quase igual à via sem enzima — pouco efeito catalítico. Note que A e B nunca mudam, só o pico.';
+          }
+        }
+
+        selEa.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Mesmo A, mesmo B — só o pico (Ea) diminui com a enzima</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <polyline points="30,70 100,70 230,20 360,75 430,75" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+          <polyline points="30,70 100,70 230,45 360,75 430,75" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="5,3"/>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q128",
+    numero: "Questão 128",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Sensores de Temperatura e Sensibilidade",
+    materiaCor: "purple",
+    materiaIcone: "fa-thermometer-half",
+    titulo: "Termômetro de Resistência de Platina: Qual Sensor é Mais Sensível?",
+    tags: ["Física", "Termometria", "Resistência Elétrica", "Sensibilidade de Sensores", "Análise de Gráficos"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A resistência de um fio de platina pode ser usada para medir temperaturas entre 0 °C e 100 °C e já foi utilizada como referência para a escala internacional de temperatura. Para um sensor feito de platina, a relação entre a resistência e a temperatura pode ser descrita por uma equação do tipo R(T) = A + BT, em que T é a temperatura e A e B são constantes. O gráfico apresenta a dependência da resistência em função da temperatura para cinco diferentes sensores.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 420 300" class="w-full h-auto max-w-sm mx-auto">
+        <line x1="50" y1="260" x2="400" y2="260" stroke="#64748b" stroke-width="1.5"/>
+        <line x1="50" y1="20" x2="50" y2="260" stroke="#64748b" stroke-width="1.5"/>
+        <text x="225" y="285" fill="#94a3b8" font-size="10" text-anchor="middle">Temperatura (°C)</text>
+        <text x="20" y="140" fill="#94a3b8" font-size="10" text-anchor="middle" transform="rotate(-90 20 140)">Resistência (ohm)</text>
+        <text x="50" y="275" fill="#64748b" font-size="8" text-anchor="middle">-100</text>
+        <text x="140" y="275" fill="#64748b" font-size="8" text-anchor="middle">0</text>
+        <text x="230" y="275" fill="#64748b" font-size="8" text-anchor="middle">150</text>
+        <text x="320" y="275" fill="#64748b" font-size="8" text-anchor="middle">300</text>
+        <line x1="60" y1="80" x2="390" y2="75" stroke="#f97316" stroke-width="2"/>
+        <text x="330" y="65" fill="#fb923c" font-size="9" font-weight="bold">Sensor 1</text>
+        <line x1="60" y1="220" x2="390" y2="65" stroke="#22c55e" stroke-width="2"/>
+        <text x="330" y="95" fill="#4ade80" font-size="9" font-weight="bold">Sensor 2</text>
+        <line x1="60" y1="150" x2="390" y2="115" stroke="#a78bfa" stroke-width="2"/>
+        <text x="330" y="120" fill="#c4b5fd" font-size="9" font-weight="bold">Sensor 3</text>
+        <line x1="60" y1="205" x2="390" y2="150" stroke="#38bdf8" stroke-width="2"/>
+        <text x="330" y="160" fill="#7dd3fc" font-size="9" font-weight="bold">Sensor 4</text>
+        <line x1="60" y1="230" x2="390" y2="150" stroke="#e879f9" stroke-width="2"/>
+        <text x="330" y="205" fill="#f0abfc" font-size="9" font-weight="bold">Sensor 5</text>
+      </svg>
+    </div>
+    <br>
+    Os sensores que apresentam maior sensibilidade são`,
+
+    alternativas: [
+      { letra: "A", texto: "1 e 2.", correta: false },
+      { letra: "B", texto: "1 e 3.", correta: false },
+      { letra: "C", texto: "2 e 3.", correta: false },
+      { letra: "D", texto: "2 e 4.", correta: false },
+      { letra: "E", texto: "2 e 5.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Sensibilidade aqui é sinônimo de inclinação (coeficiente angular) da reta R(T) = A + BT: quanto maior o |B|, mais a resistência varia por grau de temperatura, e mais "sensível" é o sensor.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> R(T) = A + BT é a equação de uma reta</h4>
+          <p>
+            Comparando com y = a + bx, A é o valor de resistência em T=0 (o "intercepto") e B é o <strong>coeficiente angular</strong> — o quanto R varia para cada grau de variação em T. B é justamente a <strong>sensibilidade</strong> do sensor: ΔR/ΔT.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Sensibilidade = inclinação da reta no gráfico</h4>
+          <p>
+            No gráfico R × T, uma reta mais <strong>inclinada</strong> (mais "em pé", subindo rápido) representa um sensor com maior B, ou seja, maior sensibilidade. Uma reta quase horizontal (como a do Sensor 1, praticamente constante) tem B próximo de zero — a resistência quase não muda com a temperatura, tornando esse sensor <strong>pouco útil</strong> como termômetro.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Como comparar inclinações visualmente</h4>
+          <p>
+            Para cada reta, observe a variação total de resistência (eixo vertical) dividida pela variação total de temperatura (eixo horizontal) coberta pelo gráfico. Quanto maior essa razão ΔR/ΔT, mais inclinada é a reta e maior a sensibilidade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Ranking de sensibilidade dos cinco sensores</h4>
+          <p>
+            Observando as inclinações no gráfico: o <strong>Sensor 2</strong> tem a subida mais acentuada (a reta mais "em pé") — maior sensibilidade de todas. Em seguida vem o <strong>Sensor 5</strong>, com a segunda maior inclinação. Os Sensores 3 e 4 têm inclinações intermediárias/menores, e o <strong>Sensor 1</strong> é praticamente horizontal — a menor sensibilidade (quase nula).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Por que isso importa na prática</h4>
+          <p>
+            Um bom sensor de temperatura precisa que pequenas mudanças de T produzam mudanças de R fáceis de medir — ou seja, precisa de alta sensibilidade (B grande). Um sensor com B próximo de zero (como o Sensor 1) seria inútil como termômetro, mesmo que sua resistência absoluta seja "razoável", porque não conseguiríamos distinguir temperaturas diferentes pela resistência medida.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-chart-line", titulo: "R(T) = A + BT", text: "Equação linear: A é a resistência em T=0, B é o coeficiente angular (sensibilidade)." },
+      { icone: "fa-arrow-trend-up", titulo: "Sensibilidade = inclinação", text: "Quanto mais inclinada a reta no gráfico R×T, maior o B e maior a sensibilidade do sensor." },
+      { icone: "fa-ruler", titulo: "ΔR/ΔT", text: "Para comparar sensores, compare a variação de R dividida pela variação de T ao longo do gráfico." },
+      { icone: "fa-minus", titulo: "Reta quase horizontal = baixa sensibilidade", text: "Se R quase não muda com T, o sensor é ruim para medir temperatura, mesmo tendo valores de R razoáveis." },
+      { icone: "fa-magnifying-glass-chart", titulo: "Comparação visual de inclinações", text: "Identificar as duas retas mais 'em pé' no gráfico é o caminho mais rápido para resolver essa questão." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>Os Sensores 2 e 5 apresentam as retas mais inclinadas do gráfico — ou seja, o maior coeficiente angular B — logo, a maior sensibilidade.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Relacione sensibilidade com o coeficiente B.</strong> Em R(T)=A+BT, B é a inclinação da reta, e representa quanto R varia por grau de T.</p>
+          <p><strong>Passo 2 — Compare visualmente as inclinações.</strong> Observe qual reta sobe mais rapidamente (mais "em pé") no gráfico R×T.</p>
+          <p><strong>Passo 3 — Identifique as duas retas mais inclinadas.</strong> Sensor 2 é claramente a mais inclinada; entre as demais, o Sensor 5 tem a segunda maior inclinação.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 1 e 2 — ERRADA</p>
+            <p class="text-xs">O Sensor 1 é a reta mais horizontal do gráfico (quase constante) — tem a MENOR sensibilidade, não a maior.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 1 e 3 — ERRADA</p>
+            <p class="text-xs">Novamente inclui o Sensor 1, cuja inclinação é praticamente nula — o oposto de alta sensibilidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 2 e 3 — ERRADA</p>
+            <p class="text-xs">O Sensor 2 está correto, mas o Sensor 3 tem inclinação menor que o Sensor 5 — não é o segundo mais sensível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 2 e 4 — ERRADA</p>
+            <p class="text-xs">O Sensor 2 está correto, mas o Sensor 4 tem inclinação menor que o Sensor 5 — não é o segundo mais sensível.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) 2 e 5 — CORRETA</p>
+            <p class="text-xs">São as duas retas com maior inclinação (maior |B|) no gráfico R×T, logo os dois sensores mais sensíveis.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "R(T) = A + BT: uma reta",
+        legenda: "A é o intercepto (R em T=0); B é o coeficiente angular — a sensibilidade do sensor.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="280" y2="120" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="90" x2="260" y2="30" stroke="#a78bfa" stroke-width="2.5"/>
+            <circle cx="30" cy="90" r="3" fill="#fbbf24"/>
+            <text x="38" y="88" fill="#fde68a" font-size="8">A (T=0)</text>
+            <text x="150" y="55" fill="#c4b5fd" font-size="9" font-weight="bold">inclinação = B</text>
+          </svg>`
+      },
+      {
+        titulo: "Alta sensibilidade vs baixa sensibilidade",
+        legenda: "Reta inclinada (alto B) responde muito a variações de T; reta quase horizontal (B≈0) quase não responde.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="280" y2="120" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="100" x2="260" y2="30" stroke="#4ade80" stroke-width="2.5"/>
+            <text x="200" y="45" fill="#86efac" font-size="8" font-weight="bold">alta sensibilidade</text>
+            <line x1="30" y1="70" x2="260" y2="65" stroke="#fb923c" stroke-width="2.5"/>
+            <text x="200" y="80" fill="#fdba74" font-size="8" font-weight="bold">baixa sensibilidade</text>
+          </svg>`
+      },
+      {
+        titulo: "Ranking de inclinações dos 5 sensores",
+        legenda: "Sensor 2 é o mais inclinado; Sensor 5 é o segundo mais inclinado.",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <text x="10" y="20" fill="#4ade80" font-size="9" font-weight="bold">1º Sensor 2 — inclinação alta</text>
+            <rect x="10" y="26" width="220" height="14" fill="#166534" rx="2"/>
+            <text x="10" y="50" fill="#f0abfc" font-size="9" font-weight="bold">2º Sensor 5 — inclinação média-alta</text>
+            <rect x="10" y="56" width="150" height="14" fill="#86198f" rx="2"/>
+            <text x="10" y="80" fill="#7dd3fc" font-size="9">3º Sensor 4</text>
+            <rect x="10" y="86" width="100" height="14" fill="#075985" rx="2"/>
+            <text x="10" y="110" fill="#c4b5fd" font-size="9">4º Sensor 3</text>
+            <rect x="10" y="116" width="55" height="14" fill="#5b21b6" rx="2"/>
+            <text x="10" y="140" fill="#fdba74" font-size="9">5º Sensor 1 — quase nula</text>
+            <rect x="10" y="146" width="10" height="14" fill="#9a3412" rx="2"/>
+          </svg>`
+      },
+      {
+        titulo: "Cinco combinações, uma correta",
+        legenda: "Apenas a alternativa E reúne os dois sensores de maior inclinação: 2 e 5.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="9">A) 1 e 2 (inclui o mais horizontal)</text>
+            <text x="10" y="50" fill="#e2e8f0" font-size="9">B) 1 e 3 (inclui o mais horizontal)</text>
+            <text x="10" y="76" fill="#e2e8f0" font-size="9">C) 2 e 3 (3 não é o 2º mais inclinado)</text>
+            <text x="10" y="102" fill="#e2e8f0" font-size="9">D) 2 e 4 (4 não é o 2º mais inclinado)</text>
+            <rect x="5" y="112" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="129" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) 2 e 5 ✓ as duas mais inclinadas</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: compare a sensibilidade de dois sensores",
+      descricao: "Ajuste o coeficiente B (sensibilidade) de dois sensores hipotéticos e veja como as retas R(T) se comparam.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sensor X — coeficiente B (Ω/°C): <span data-out="bxlabel" class="text-emerald-300 font-mono"></span></p>
+              <input type="range" min="0" max="1" step="0.02" value="0.5" data-sim="bx" class="w-full accent-emerald-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sensor Y — coeficiente B (Ω/°C): <span data-out="bylabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="1" step="0.02" value="0.15" data-sim="by" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 300 150" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <line x1="20" y1="130" x2="280" y2="130" stroke="#475569" stroke-width="1"/>
+              <line x1="20" y1="130" x2="20" y2="10" stroke="#475569" stroke-width="1"/>
+              <line data-sim="linhaX" x1="20" y1="100" x2="270" y2="100" stroke="#4ade80" stroke-width="2.5"/>
+              <line data-sim="linhaY" x1="20" y1="100" x2="270" y2="100" stroke="#a78bfa" stroke-width="2.5"/>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selBx = raiz.querySelector('[data-sim="bx"]');
+        var selBy = raiz.querySelector('[data-sim="by"]');
+        var linhaX = raiz.querySelector('[data-sim="linhaX"]');
+        var linhaY = raiz.querySelector('[data-sim="linhaY"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var bx = parseFloat(selBx.value);
+          var by = parseFloat(selBy.value);
+          saida('bxlabel').textContent = bx.toFixed(2) + ' Ω/°C';
+          saida('bylabel').textContent = by.toFixed(2) + ' Ω/°C';
+
+          var yBase = 100;
+          var escala = 90;
+          var yFimX = yBase - bx * escala;
+          var yFimY = yBase - by * escala;
+
+          linhaX.setAttribute('y2', yFimX.toFixed(1));
+          linhaY.setAttribute('y2', yFimY.toFixed(1));
+
+          var v = saida('veredito');
+          if (bx > by) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Sensor X é mais sensível</strong> — sua reta é mais inclinada, então a resistência varia mais para cada grau de temperatura.';
+          } else if (by > bx) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-purple-500/40 bg-purple-950/30 text-purple-200';
+            v.innerHTML = '<strong>Sensor Y é mais sensível</strong> — sua reta é mais inclinada que a do Sensor X.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Os dois sensores têm a mesma sensibilidade (mesmo B) — retas paralelas.';
+          }
+        }
+
+        selBx.addEventListener('input', atualizar);
+        selBy.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-thermometer-half"></i> Sensores 2 e 5: as retas mais inclinadas do gráfico R×T</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Maior sensibilidade = maior inclinação = maior B</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q129",
+    numero: "Questão 129",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Controle de Vetores e Ciclos Parasitários",
+    materiaCor: "emerald",
+    materiaIcone: "fa-virus",
+    titulo: "Ácido Úsnico e o Controle da Esquistossomose via Hospedeiro Intermediário",
+    tags: ["Biologia", "Parasitologia", "Esquistossomose", "Controle Biológico", "Líquens"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O ácido úsnico é retirado de liquens e foi testado contra diversas espécies, conforme o quadro.
+    <br><br>
+    <table class="w-full text-xs border-collapse">
+      <thead>
+        <tr class="bg-emerald-900/40">
+          <th class="border border-slate-700 p-2 text-left text-emerald-200">Teste</th>
+          <th class="border border-slate-700 p-2 text-left text-emerald-200">Resultado</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-200">
+        <tr><td class="border border-slate-700 p-2"><em>Aedes aegypti</em> (larvas)</td><td class="border border-slate-700 p-2">Baixa eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Bacilo de Koch</td><td class="border border-slate-700 p-2">Média eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Moluscos aquáticos (adultos)</td><td class="border border-slate-700 p-2">Alta eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Pernilongo (larvas)</td><td class="border border-slate-700 p-2">Média eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Vermes platelmintos</td><td class="border border-slate-700 p-2">Ineficiente</td></tr>
+      </tbody>
+    </table>
+    <br>
+    O ácido úsnico mostrou-se mais indicado para o controle da`,
+
+    alternativas: [
+      { letra: "A", texto: "esquistossomose.", correta: true },
+      { letra: "B", texto: "febre amarela.", correta: false },
+      { letra: "C", texto: "coqueluche.", correta: false },
+      { letra: "D", texto: "tuberculose.", correta: false },
+      { letra: "E", texto: "dengue.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          A pegadinha desta questão é lembrar que controlar uma doença nem sempre significa atacar o patógeno diretamente — às vezes, o alvo mais eficiente é o hospedeiro intermediário do ciclo de vida do parasita.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O ciclo de vida do <em>Schistosoma mansoni</em> (esquistossomose)</h4>
+          <p>
+            A esquistossomose (também chamada de "barriga d'água") é causada pelo verme platelminto <em>Schistosoma mansoni</em>. O ciclo de vida desse parasita <strong>depende obrigatoriamente</strong> de um hospedeiro intermediário: caramujos aquáticos do gênero <em>Biomphalaria</em>. As larvas do verme (miracídios) infectam o caramujo, se multiplicam dentro dele, e saem na forma de cercárias, que então infectam humanos que entram em contato com a água contaminada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Interpretando os dados: "Moluscos aquáticos (adultos) — Alta eficiência"</h4>
+          <p>
+            Os caramujos do gênero <em>Biomphalaria</em> são <strong>moluscos aquáticos</strong>. O quadro mostra que o ácido úsnico tem <strong>alta eficiência</strong> contra moluscos aquáticos adultos — ou seja, ele é um bom molusquicida. Isso é exatamente o que se precisa para controlar a esquistossomose: eliminar o hospedeiro intermediário (o caramujo) interrompe o ciclo de transmissão da doença, mesmo sem atacar o próprio Schistosoma.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que "Vermes platelmintos — Ineficiente" não invalida a resposta</h4>
+          <p>
+            O <em>Schistosoma mansoni</em> em si é um platelminto, e a tabela mostra baixa eficiência do ácido úsnico contra vermes platelmintos diretamente. Mas isso não impede o controle da esquistossomose: como o parasita <strong>depende</strong> do caramujo para completar seu ciclo, eliminar o caramujo (onde o ácido úsnico é altamente eficiente) já é suficiente para interromper a transmissão da doença, mesmo que o verme adulto em si seja resistente à substância.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que as outras doenças não se encaixam</h4>
+          <p>
+            Febre amarela e dengue são transmitidas por mosquitos (<em>Aedes aegypti</em>), mas a tabela mostra <strong>baixa eficiência</strong> contra as larvas desse mosquito. Coqueluche e tuberculose são causadas por bactérias (Bordetella pertussis e Bacilo de Koch, respectivamente); a tabela mostra apenas <strong>média eficiência</strong> contra o Bacilo de Koch, e nenhum dado sobre a bactéria da coqueluche — nenhuma dessas quatro atinge o nível de "alta eficiência" mostrado para os moluscos aquáticos.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-water", titulo: "Hospedeiro intermediário", text: "Organismo necessário para completar o ciclo de vida de um parasita — atacá-lo pode interromper a transmissão da doença." },
+      { icone: "fa-worm", titulo: "Schistosoma mansoni", text: "Platelminto causador da esquistossomose, cujo ciclo depende do caramujo aquático Biomphalaria." },
+      { icone: "fa-shield-virus", titulo: "Molusquicida como estratégia de controle", text: "Eliminar o caramujo hospedeiro é uma forma indireta, mas eficaz, de controlar a esquistossomose." },
+      { icone: "fa-table", titulo: "Ler a tabela com atenção ao alvo certo", text: "'Alta eficiência' contra moluscos aquáticos aponta para esquistossomose, mesmo o verme em si sendo pouco afetado." },
+      { icone: "fa-mosquito", titulo: "Doenças transmitidas por mosquito não se encaixam", text: "Dengue e febre amarela dependem do Aedes aegypti, contra o qual a tabela mostra baixa eficiência." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>Alta eficiência contra moluscos aquáticos = ataque ao caramujo hospedeiro intermediário do Schistosoma mansoni, controlando a esquistossomose.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o resultado de "alta eficiência" na tabela.</strong> É contra moluscos aquáticos adultos — os únicos organismos com esse nível de eficiência.</p>
+          <p><strong>Passo 2 — Relacione moluscos aquáticos a alguma doença.</strong> Caramujos aquáticos (Biomphalaria) são o hospedeiro intermediário do Schistosoma mansoni, causador da esquistossomose.</p>
+          <p><strong>Passo 3 — Confirme que as demais doenças não se encaixam.</strong> Dengue/febre amarela dependem do Aedes aegypti (baixa eficiência); tuberculose/coqueluche são bacterianas (no máximo média eficiência).</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) Esquistossomose — CORRETA</p>
+            <p class="text-xs">O ácido úsnico é altamente eficiente contra moluscos aquáticos — o hospedeiro intermediário do Schistosoma mansoni, cuja eliminação interrompe o ciclo da esquistossomose.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Febre amarela — ERRADA</p>
+            <p class="text-xs">Transmitida pelo Aedes aegypti, contra o qual a tabela mostra apenas baixa eficiência.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Coqueluche — ERRADA</p>
+            <p class="text-xs">Causada pela bactéria Bordetella pertussis, que nem consta diretamente na tabela — não há dado de alta eficiência associado a ela.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Tuberculose — ERRADA</p>
+            <p class="text-xs">Causada pelo Bacilo de Koch, contra o qual a tabela mostra apenas média eficiência — não a maior eficiência registrada.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Dengue — ERRADA</p>
+            <p class="text-xs">Assim como a febre amarela, transmitida pelo Aedes aegypti, contra o qual a eficiência registrada é baixa.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Eficiência do ácido úsnico por alvo",
+        legenda: "Moluscos aquáticos adultos: o único alvo com alta eficiência registrada.",
+        svg: `
+          <svg viewBox="0 0 460 180" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="9">Aedes aegypti (larvas)</text>
+            <rect x="230" y="10" width="40" height="14" fill="#7f1d1d" rx="2"/>
+            <text x="10" y="46" fill="#e2e8f0" font-size="9">Bacilo de Koch</text>
+            <rect x="230" y="36" width="110" height="14" fill="#78350f" rx="2"/>
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="9" font-weight="bold">Moluscos aquáticos (adultos) — ALTA eficiência</text>
+            <text x="10" y="112" fill="#e2e8f0" font-size="9">Pernilongo (larvas)</text>
+            <rect x="230" y="102" width="110" height="14" fill="#78350f" rx="2"/>
+            <text x="10" y="138" fill="#e2e8f0" font-size="9">Vermes platelmintos</text>
+            <rect x="230" y="128" width="15" height="14" fill="#7f1d1d" rx="2"/>
+          </svg>`
+      },
+      {
+        titulo: "Ciclo do Schistosoma mansoni",
+        legenda: "O parasita depende do caramujo aquático (Biomphalaria) para completar seu ciclo de vida antes de infectar humanos.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="40" width="120" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="80" y="60" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Caramujo</text>
+            <text x="80" y="76" fill="#a7f3d0" font-size="8" text-anchor="middle">(Biomphalaria)</text>
+            <text x="165" y="70" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="185" y="40" width="120" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="245" y="60" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Cercárias</text>
+            <text x="245" y="76" fill="#e2e8f0" font-size="8" text-anchor="middle">na água</text>
+            <text x="330" y="70" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="350" y="40" width="90" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="395" y="60" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Humano</text>
+            <text x="395" y="76" fill="#fca5a5" font-size="8" text-anchor="middle">infectado</text>
+          </svg>`
+      },
+      {
+        titulo: "Atacar o elo mais fraco do ciclo",
+        legenda: "Mesmo sendo pouco eficaz contra o verme adulto, atacar o caramujo interrompe toda a cadeia de transmissão.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="2" rx="4"/>
+            <text x="90" y="52" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Caramujo</text>
+            <text x="90" y="68" fill="#a7f3d0" font-size="8" text-anchor="middle">ácido úsnico: ALTA eficiência</text>
+            <text x="185" y="60" fill="#f87171" font-size="16" text-anchor="middle">✕</text>
+            <rect x="220" y="30" width="220" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4" stroke-dasharray="4,3"/>
+            <text x="330" y="52" fill="#94a3b8" font-size="9" text-anchor="middle">Ciclo de transmissão interrompido</text>
+            <text x="330" y="68" fill="#94a3b8" font-size="8" text-anchor="middle">esquistossomose controlada</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco doenças, uma correta",
+        legenda: "Apenas a esquistossomose depende de um alvo com alta eficiência (moluscos aquáticos) segundo a tabela.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="230" y="27" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">A) Esquistossomose — molusco, alta eficiência ✓</text>
+            <text x="20" y="60" fill="#e2e8f0" font-size="8">B) Febre amarela — Aedes aegypti, baixa eficiência</text>
+            <text x="20" y="84" fill="#e2e8f0" font-size="8">C) Coqueluche — bactéria não testada diretamente</text>
+            <text x="20" y="108" fill="#e2e8f0" font-size="8">D) Tuberculose — Bacilo de Koch, média eficiência</text>
+            <text x="20" y="132" fill="#e2e8f0" font-size="8">E) Dengue — Aedes aegypti, baixa eficiência</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: escolha o alvo e veja a doença controlada",
+      descricao: "Selecione um organismo-alvo testado com ácido úsnico e veja a que doença ele está associado, e se o nível de eficiência é suficiente para controle.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha o alvo testado:</p>
+            <select data-sim="alvo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="aedes">Aedes aegypti (larvas) — baixa eficiência</option>
+              <option value="koch">Bacilo de Koch — média eficiência</option>
+              <option value="molusco" selected>Moluscos aquáticos (adultos) — alta eficiência</option>
+              <option value="pernilongo">Pernilongo (larvas) — média eficiência</option>
+              <option value="platelminto">Vermes platelmintos — ineficiente</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="alvo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var info = {
+          aedes: { nivel: 'baixa', doenca: 'dengue/febre amarela', ok: false },
+          koch: { nivel: 'média', doenca: 'tuberculose', ok: false },
+          molusco: { nivel: 'alta', doenca: 'esquistossomose (via hospedeiro intermediário)', ok: true },
+          pernilongo: { nivel: 'média', doenca: 'malária', ok: false },
+          platelminto: { nivel: 'ineficiente', doenca: 'infecções por vermes platelmintos em geral', ok: false }
+        };
+
+        function atualizar() {
+          var v = saida('veredito');
+          var dados = info[sel.value];
+          if (dados.ok) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Eficiência ' + dados.nivel + '!</strong> Esse é o alvo certo: atacar o hospedeiro intermediário (caramujo) é suficiente para controlar a ' + dados.doenca + '.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Eficiência ' + dados.nivel + '.</strong> Esse nível não seria suficiente para um controle eficaz de doenças relacionadas a ' + dados.doenca + '.';
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-virus"></i> Alta eficiência contra moluscos → controle da esquistossomose</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="12" font-weight="bold" text-anchor="middle">Alternativa A — Esquistossomose</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q130",
+    numero: "Questão 130",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Circuitos Elétricos e Resistores de Proteção",
+    materiaCor: "purple",
+    materiaIcone: "fa-plug",
+    titulo: "Resistor de Proteção: Adaptando uma Fonte com Tensão 20% Maior",
+    tags: ["Física", "Eletrodinâmica", "Circuitos Elétricos", "Resistores em Série", "Divisor de Tensão"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essas fontes sem levar em conta a tensão, a corrente ou a potência elétrica de saída.
+    <br><br>
+    Considere um equipamento de resistência elétrica R<sub>C</sub> que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão 20% superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção R<sub>P</sub>, de potência adequada, se faz necessária.
+    <br><br>
+    A configuração adequada do circuito e o valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:`,
+
+    alternativas: [
+      { letra: "A", texto: "R_C em paralelo com R_P, sendo R_P = 0,2 R_C.", correta: false },
+      { letra: "B", texto: "R_C em paralelo com R_P, sendo R_P = 1,2 R_C.", correta: false },
+      { letra: "C", texto: "R_C em série com R_P, sendo R_P = 1,2 R_C.", correta: false },
+      { letra: "D", texto: "R_C em série com R_P, sendo R_P = 2,2 R_C.", correta: false },
+      { letra: "E", texto: "R_C em série com R_P, sendo R_P = 0,2 R_C.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          A chave é lembrar que um resistor em série "consome" parte da tensão da fonte (divisor de tensão), enquanto um resistor em paralelo não reduz a tensão sobre o equipamento — apenas divide a corrente.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> O problema: tensão da fonte maior que a recomendada</h4>
+          <p>
+            O equipamento precisa de uma tensão V (a recomendada) para funcionar corretamente. A fonte disponível fornece uma tensão 20% maior, ou seja, <strong>1,2V</strong>. Precisamos "perder" esse excesso de tensão antes que ele chegue ao equipamento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Por que a associação deve ser em série (não em paralelo)</h4>
+          <p>
+            Em um circuito em <strong>paralelo</strong>, a tensão é a mesma sobre os dois resistores — ou seja, o equipamento continuaria recebendo a tensão total da fonte (1,2V), sem qualquer redução. Isso não resolve o problema. Já em um circuito em <strong>série</strong>, a tensão da fonte se divide entre R<sub>P</sub> e R<sub>C</sub>, de modo que o equipamento recebe apenas uma <em>parte</em> da tensão total — exatamente o que precisamos para "abaixar" a tensão até o valor recomendado V.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Montando a equação do divisor de tensão</h4>
+          <p>
+            Em série, a mesma corrente I percorre R<sub>P</sub> e R<sub>C</sub>. A tensão sobre o equipamento é V<sub>C</sub> = I·R<sub>C</sub>, e a tensão total da fonte é 1,2V = I·(R<sub>P</sub>+R<sub>C</sub>). Queremos que V<sub>C</sub> seja igual à tensão recomendada V. Dividindo as duas equações:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>C</sub> / (1,2V) = R<sub>C</sub> / (R<sub>P</sub>+R<sub>C</sub>) &nbsp;⟹&nbsp; V / (1,2V) = R<sub>C</sub> / (R<sub>P</sub>+R<sub>C</sub>)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Resolvendo para R<sub>P</sub></h4>
+          <p>
+            Simplificando o V da esquerda: 1/1,2 = R<sub>C</sub>/(R<sub>P</sub>+R<sub>C</sub>), então R<sub>P</sub>+R<sub>C</sub> = 1,2·R<sub>C</sub>, logo:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            R<sub>P</sub> = 1,2·R<sub>C</sub> − R<sub>C</sub> = <strong>0,2·R<sub>C</sub></strong>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Conclusão</h4>
+          <p>
+            A configuração correta é R<sub>C</sub> em <strong>série</strong> com um resistor de proteção R<sub>P</sub> = <strong>0,2·R<sub>C</sub></strong> — um resistor relativamente pequeno em comparação ao equipamento, suficiente para "absorver" o excedente de 20% na tensão da fonte.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-link", titulo: "Resistores em série dividem tensão", text: "Em série, a mesma corrente percorre os resistores, e a tensão total se divide proporcionalmente a cada resistência." },
+      { icone: "fa-code-branch", titulo: "Resistores em paralelo NÃO dividem tensão", text: "Em paralelo, a tensão é igual sobre os dois resistores — não ajudaria a reduzir a tensão sobre o equipamento." },
+      { icone: "fa-percent", titulo: "Excesso de 20% = fator 1,2", text: "Tensão da fonte é 1,2V, sendo V a tensão recomendada para o equipamento." },
+      { icone: "fa-divide", titulo: "Divisor de tensão", text: "V_C/(V_total) = R_C/(R_P+R_C) é a equação-chave para achar o valor do resistor de proteção." },
+      { icone: "fa-shield", titulo: "R_P = 0,2 R_C", text: "Resultado da equação do divisor de tensão: um resistor relativamente pequeno resolve o excesso de 20% na tensão." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>R<sub>C</sub> em série com R<sub>P</sub>, sendo R<sub>P</sub> = 0,2·R<sub>C</sub> — resultado do divisor de tensão para "absorver" o excesso de 20% na tensão da fonte.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Decida série ou paralelo.</strong> Só uma associação em série reduz a tensão sobre o equipamento; em paralelo, a tensão continuaria a mesma (1,2V) sobre R_C.</p>
+          <p><strong>Passo 2 — Monte a equação do divisor de tensão.</strong> V/(1,2V) = R_C/(R_P+R_C), isolando R_P.</p>
+          <p><strong>Passo 3 — Resolva algebricamente.</strong> R_P + R_C = 1,2 R_C ⟹ R_P = 0,2 R_C.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Paralelo, R_P=0,2R_C — ERRADA</p>
+            <p class="text-xs">Mesmo com o valor numérico correto, a configuração em paralelo não reduziria a tensão sobre o equipamento — ele continuaria recebendo 1,2V.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Paralelo, R_P=1,2R_C — ERRADA</p>
+            <p class="text-xs">Além do valor numérico não corresponder à equação do divisor de tensão, a configuração em paralelo não resolve o problema de excesso de tensão.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Série, R_P=1,2R_C — ERRADA</p>
+            <p class="text-xs">A configuração em série está correta, mas o valor não bate: com R_P=1,2R_C, a tensão sobre R_C seria V·R_C/(2,2R_C), reduzindo demais a tensão, abaixo do necessário.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Série, R_P=2,2R_C — ERRADA</p>
+            <p class="text-xs">Valor de R_P exagerado, reduziria a tensão sobre o equipamento muito abaixo da recomendada.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) Série, R_P=0,2R_C — CORRETA</p>
+            <p class="text-xs">Configuração em série (necessária para reduzir a tensão) com o valor exato obtido da equação do divisor de tensão.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Paralelo não resolve: tensão continua 1,2V",
+        legenda: "Em paralelo, R_C recebe a tensão total da fonte — nenhuma redução ocorre.",
+        svg: `
+          <svg viewBox="0 0 300 130" class="w-full h-auto">
+            <rect x="20" y="30" width="100" height="70" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="70" y="60" fill="#e2e8f0" font-size="9" text-anchor="middle">Fonte</text>
+            <text x="70" y="76" fill="#e2e8f0" font-size="9" text-anchor="middle">1,2V</text>
+            <rect x="160" y="20" width="60" height="35" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="190" y="41" fill="#fca5a5" font-size="9" text-anchor="middle">R_P</text>
+            <rect x="160" y="65" width="60" height="35" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="190" y="86" fill="#bae6fd" font-size="9" text-anchor="middle">R_C</text>
+            <text x="230" y="88" fill="#fca5a5" font-size="8">recebe 1,2V ✕</text>
+          </svg>`
+      },
+      {
+        titulo: "Série resolve: tensão se divide entre R_P e R_C",
+        legenda: "Em série, a tensão da fonte se reparte proporcionalmente entre R_P e R_C.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="10" y="30" width="70" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="45" y="54" fill="#e2e8f0" font-size="9" text-anchor="middle">Fonte 1,2V</text>
+            <rect x="95" y="30" width="75" height="40" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="132" y="54" fill="#fca5a5" font-size="9" text-anchor="middle">R_P=0,2R_C</text>
+            <rect x="185" y="30" width="75" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="222" y="54" fill="#a7f3d0" font-size="9" text-anchor="middle">R_C recebe V ✓</text>
+          </svg>`
+      },
+      {
+        titulo: "Dedução algébrica do divisor de tensão",
+        legenda: "V/(1,2V) = R_C/(R_P+R_C) leva a R_P = 0,2 R_C.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">V / (1,2V) = R_C / (R_P + R_C)</text>
+            <rect x="10" y="45" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="62" fill="#e2e8f0" font-size="9" text-anchor="middle">R_P + R_C = 1,2 · R_C</text>
+            <rect x="10" y="80" width="440" height="30" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="100" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">R_P = 0,2 · R_C</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas E combina a configuração certa (série) com o valor certo (0,2 R_C).",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) Paralelo, 0,2R_C (config. errada)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) Paralelo, 1,2R_C (config. e valor errados)</text>
+            <text x="10" y="72" fill="#e2e8f0" font-size="8">C) Série, 1,2R_C (valor errado)</text>
+            <text x="10" y="96" fill="#e2e8f0" font-size="8">D) Série, 2,2R_C (valor errado)</text>
+            <rect x="5" y="106" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="123" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) Série, 0,2R_C ✓ correta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: dimensione o resistor de proteção",
+      descricao: "Ajuste o excesso percentual de tensão da fonte e veja o valor de R_P (em relação a R_C) necessário para proteger o equipamento.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Excesso de tensão da fonte (%): <span data-out="elabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="100" step="1" value="20" data-sim="excesso" class="w-full accent-purple-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Configuração fixa: R_P em série com R_C (a única que reduz a tensão sobre o equipamento).</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">R_P necessário:</p>
+              <div data-out="rp" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selE = raiz.querySelector('[data-sim="excesso"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var excesso = parseFloat(selE.value) / 100;
+          saida('elabel').textContent = (excesso * 100).toFixed(0) + '%';
+          var rp = excesso;
+          saida('rp').textContent = rp.toFixed(2) + ' × R_C';
+        }
+
+        selE.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plug"></i> R_C em série com R_P = 0,2 R_C</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Alternativa E</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q131",
+    numero: "Questão 131",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estequiometria com Excesso de Reagente",
+    materiaCor: "cyan",
+    materiaIcone: "fa-industry",
+    titulo: "Produção de Nióbio pela Redução Aluminotérmica do Nb₂O₅, com Excesso de Alumínio",
+    tags: ["Química", "Estequiometria", "Reagente em Excesso", "Aluminotermia", "Metalurgia"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g·mol⁻¹), metal utilizado na fabricação de vários tipos de aço: automotivos, estruturais e inoxidáveis. O processo utilizado na produção do nióbio é a redução aluminotérmica de Nb₂O₅ com excesso de 10% de Al (massa molar = 27 g·mol⁻¹), em relação à quantidade estequiométrica da reação, representada pela equação química:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-cyan-300">
+      3 Nb₂O₅ (s) + 10 Al (s) → 6 Nb (s) + 5 Al₂O₃ (s)
+    </div>
+    <br>
+    Uma engenheira metalúrgica estimou a massa de alumínio necessária para produzir 9,3 kg de nióbio, nas condições descritas, para a produção de um lote de peças de aço encomendado por uma indústria, considerando um rendimento de 100%.
+    <br><br>
+    <p class="text-[10px] text-slate-500">Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado).</p>
+    <br>
+    A massa de alumínio, em quilograma, estimada pela engenheira é mais próxima de`,
+
+    alternativas: [
+      { letra: "A", texto: "2,7 kg.", correta: false },
+      { letra: "B", texto: "3,0 kg.", correta: false },
+      { letra: "C", texto: "4,1 kg.", correta: false },
+      { letra: "D", texto: "4,5 kg.", correta: false },
+      { letra: "E", texto: "5,0 kg.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Esta é uma estequiometria em duas etapas: primeiro achar a quantidade estequiométrica exata de Al, depois adicionar os 10% de excesso especificados no enunciado.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A proporção estequiométrica da equação</h4>
+          <p>
+            A equação 3 Nb₂O₅ + 10 Al → 6 Nb + 5 Al₂O₃ mostra que <strong>10 mols de Al</strong> reagem para produzir <strong>6 mols de Nb</strong>. Essa proporção 10:6 (ou 5:3) é o elo entre a massa de nióbio desejada e a massa de alumínio necessária.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Convertendo a massa de Nb desejada em mols</h4>
+          <p>
+            A engenheira quer produzir 9,3 kg = 9300 g de Nb. Com massa molar do Nb = 93 g/mol:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Nb) = 9300 / 93 = 100 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Mols de Al na proporção estequiométrica (sem excesso)</h4>
+          <p>
+            Usando a proporção 10 mol Al : 6 mol Nb:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Al)<sub>estequiométrico</sub> = 100 × (10/6) ≈ 166,7 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Aplicando o excesso de 10%</h4>
+          <p>
+            O enunciado pede a massa considerando <strong>10% de excesso</strong> de Al em relação à quantidade estequiométrica. Isso significa multiplicar por 1,10:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Al)<sub>real</sub> = 166,7 × 1,10 ≈ 183,3 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Convertendo para massa</h4>
+          <p>
+            m(Al) = n × M = 183,3 mol × 27 g/mol ≈ 4950 g ≈ <strong>5,0 kg</strong>.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-industry", titulo: "Redução aluminotérmica", text: "Processo em que o alumínio (agente redutor) reduz um óxido metálico (Nb₂O₅) a metal puro." },
+      { icone: "fa-diagram-project", titulo: "Proporção estequiométrica 10:6", text: "10 mols de Al reagem com 3 mols de Nb₂O₅ para produzir 6 mols de Nb, segundo a equação balanceada." },
+      { icone: "fa-percent", titulo: "Excesso de 10%", text: "Multiplicar a quantidade estequiométrica de Al por 1,10 para obter a quantidade real usada no processo." },
+      { icone: "fa-scale-balanced", titulo: "n = m/M e m = n×M", text: "Conversões entre massa e mols usando as massas molares fornecidas (Nb=93, Al=27 g/mol)." },
+      { icone: "fa-list-check", titulo: "Duas etapas, não uma só", text: "Primeiro calcule o valor estequiométrico exato, só depois aplique o excesso — inverter a ordem não muda o resultado, mas esquecer uma etapa muda." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>n(Nb)=100 mol → n(Al) estequiométrico=100×10/6≈166,7 mol → com 10% de excesso: 166,7×1,10≈183,3 mol → m(Al)=183,3×27≈<strong>5,0 kg</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Converta a massa de Nb desejada em mols.</strong> n(Nb)=9300/93=100 mol.</p>
+          <p><strong>Passo 2 — Use a proporção 10:6 para achar Al estequiométrico.</strong> n(Al)=100×(10/6)≈166,7 mol.</p>
+          <p><strong>Passo 3 — Aplique o excesso de 10% e converta para massa.</strong> 166,7×1,10≈183,3 mol; m=183,3×27≈4950 g ≈5,0 kg.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 2,7 kg — ERRADA</p>
+            <p class="text-xs">Valor muito abaixo do necessário — consistente com usar a proporção estequiométrica invertida (6:10 em vez de 10:6) ou esquecer completamente o excesso.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 3,0 kg — ERRADA</p>
+            <p class="text-xs">Próximo do valor obtido ao tratar a proporção Al:Nb como 1:1 em vez de 10:6, sem considerar o excesso corretamente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 4,1 kg — ERRADA</p>
+            <p class="text-xs">Valor próximo do estequiométrico puro sem aplicar o excesso de 10% (166,7×27≈4500g≈4,5kg seria o valor exato sem excesso — 4,1kg fica ainda abaixo disso, sugerindo algum erro adicional de arredondamento).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 4,5 kg — ERRADA</p>
+            <p class="text-xs">Esse é exatamente o valor estequiométrico SEM o excesso de 10% (166,7 mol × 27 g/mol ≈ 4500 g = 4,5 kg) — o erro clássico de esquecer de aplicar o excesso pedido no enunciado.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) 5,0 kg — CORRETA</p>
+            <p class="text-xs">Valor estequiométrico (166,7 mol) multiplicado corretamente pelo fator de excesso de 10% (×1,10), depois convertido para massa: ≈4950g≈5,0kg.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Equação balanceada e proporção Al:Nb",
+        legenda: "10 mols de Al reagem com 3 mols de Nb₂O₅ para produzir 6 mols de Nb.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="130" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="75" y="54" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">3 Nb₂O₅ + 10 Al</text>
+            <text x="170" y="54" fill="#94a3b8" font-size="16" text-anchor="middle">→</text>
+            <rect x="200" y="30" width="120" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="260" y="54" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">6 Nb + 5 Al₂O₃</text>
+            <text x="360" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">proporção-chave:</text>
+            <text x="360" y="62" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">10 Al : 6 Nb</text>
+          </svg>`
+      },
+      {
+        titulo: "De massa de Nb a mols de Al estequiométrico",
+        legenda: "9,3 kg de Nb → 100 mol de Nb → ≈166,7 mol de Al (proporção 10:6).",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">m(Nb) = 9300 g → n(Nb) = 9300/93 = 100 mol</text>
+            <text x="230" y="48" fill="#64748b" font-size="12" text-anchor="middle">↓ × (10 Al / 6 Nb)</text>
+            <rect x="10" y="55" width="440" height="30" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="230" y="75" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">n(Al) estequiométrico ≈ 166,7 mol</text>
+          </svg>`
+      },
+      {
+        titulo: "Aplicando o excesso de 10%",
+        legenda: "166,7 mol × 1,10 ≈ 183,3 mol de Al realmente usados no processo.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="20" width="180" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="44" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">166,7 mol (estequiométrico)</text>
+            <text x="220" y="44" fill="#94a3b8" font-size="14" text-anchor="middle">×1,10</text>
+            <rect x="260" y="20" width="180" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="350" y="44" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">183,3 mol (com excesso)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas E aplica corretamente a estequiometria E o excesso de 10%.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) 2,7 kg (proporção invertida ou sem excesso)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) 3,0 kg (proporção 1:1 incorreta)</text>
+            <text x="10" y="72" fill="#e2e8f0" font-size="8">C) 4,1 kg (erro de arredondamento)</text>
+            <text x="10" y="96" fill="#e2e8f0" font-size="8">D) 4,5 kg (esquece o excesso de 10%)</text>
+            <rect x="5" y="106" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="123" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) 5,0 kg ✓ correta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: da massa de nióbio à massa de alumínio",
+      descricao: "Ajuste a massa de Nb desejada e o percentual de excesso de Al, e veja a massa de alumínio necessária calculada em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Massa de Nb desejada (kg): <span data-out="nblabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="1" max="20" step="0.1" value="9.3" data-sim="massaNb" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Excesso de Al (%): <span data-out="elabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="0" max="50" step="1" value="10" data-sim="excesso" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Proporção fixa: 10 mol Al : 6 mol Nb. M(Nb)=93 g/mol, M(Al)=27 g/mol.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">n(Al) estequiométrico:</p>
+              <div data-out="nesteq" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">n(Al) real (com excesso):</p>
+              <div data-out="nreal" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Massa de Al necessária:</p>
+              <div data-out="massa" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selNb = raiz.querySelector('[data-sim="massaNb"]');
+        var selE = raiz.querySelector('[data-sim="excesso"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var M_Nb = 93, M_Al = 27;
+
+        function atualizar() {
+          var massaNb = parseFloat(selNb.value) * 1000;
+          var excesso = parseFloat(selE.value) / 100;
+
+          saida('nblabel').textContent = (massaNb / 1000).toFixed(1) + ' kg';
+          saida('elabel').textContent = (excesso * 100).toFixed(0) + '%';
+
+          var nNb = massaNb / M_Nb;
+          var nAlEsteq = nNb * (10 / 6);
+          var nAlReal = nAlEsteq * (1 + excesso);
+          var massaAl = nAlReal * M_Al;
+
+          saida('nesteq').textContent = nAlEsteq.toFixed(1) + ' mol';
+          saida('nreal').textContent = nAlReal.toFixed(1) + ' mol';
+          saida('massa').textContent = (massaAl / 1000).toFixed(2) + ' kg';
+        }
+
+        selNb.addEventListener('input', atualizar);
+        selE.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-industry"></i> 100 mol Nb → 166,7 mol Al (estequiométrico) → 183,3 mol (com 10% excesso) → 5,0 kg</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">m(Al) ≈ 5,0 kg</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q132",
+    numero: "Questão 132",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Acústica e Escala Logarítmica de Decibéis",
+    materiaCor: "purple",
+    materiaIcone: "fa-volume-high",
+    titulo: "O Grito de 10 000 Torcedores: Soma de Intensidades Sonoras em Decibéis",
+    tags: ["Física", "Acústica", "Escala Logarítmica", "Nível Sonoro", "Decibéis"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O nível sonoro, em decibel (dB), é calculado pela expressão:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-purple-300">
+      n = 10 log₁₀ (I / I₀)
+    </div>
+    <br>
+    Uma conversa normal entre duas pessoas gera sons de níveis sonoros entre 50 e 60 dB, enquanto pessoas gritando podem gerar sons de níveis superiores a 100 dB. Supondo que, no centro de um estádio de futebol, foram realizadas medidas para avaliar o ruído médio de uma pessoa gritando a palavra "gol" em diferentes posições das arquibancadas. O valor médio obtido, considerando um grande número de medidas, foi de 100 dB. Com esse dado, estimou-se o ruído sonoro produzido por 10 000 pessoas, distribuídas aleatoriamente nas arquibancadas, enquanto gritavam, simultaneamente, a palavra "gol".
+    <br><br>
+    O valor médio estimado para o ruído produzido por essas pessoas, na posição central desse estádio hipotético, foi de`,
+
+    alternativas: [
+      { letra: "A", texto: "60 dB.", correta: false },
+      { letra: "B", texto: "104 dB.", correta: false },
+      { letra: "C", texto: "140 dB.", correta: true },
+      { letra: "D", texto: "400 dB.", correta: false },
+      { letra: "E", texto: "800 dB.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O ponto-chave aqui é que a escala de decibéis é logarítmica — multiplicar a intensidade sonora NÃO multiplica o valor em dB pelo mesmo fator; em vez disso, soma-se um valor fixo (10·log₁₀ do fator de multiplicação) ao nível original.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> A escala de decibéis é logarítmica, não linear</h4>
+          <p>
+            A fórmula n = 10 log₁₀(I/I₀) relaciona o nível sonoro n (em dB) com a intensidade física I do som, comparada a uma intensidade de referência I₀. Como há um logaritmo na fórmula, <strong>dobrar a intensidade não dobra o valor em dB</strong> — o efeito é bem menor, porque o logaritmo "comprime" grandes variações de intensidade em pequenas variações de dB.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Isolando a intensidade I de uma pessoa gritando</h4>
+          <p>
+            Para uma pessoa: 100 = 10 log₁₀(I₁/I₀), ou seja, log₁₀(I₁/I₀) = 10, então I₁ = I₀ × 10¹⁰. Cada pessoa gritando produz essa mesma intensidade I₁ (em média).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Somando as intensidades de 10 000 pessoas</h4>
+          <p>
+            Quando várias fontes sonoras independentes tocam ao mesmo tempo, são as <strong>intensidades</strong> (não os decibéis!) que se somam diretamente, pois intensidade é uma grandeza física real (energia por área), enquanto dB é uma escala logarítmica de comparação. Para N=10 000 pessoas gritando simultaneamente:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            I<sub>total</sub> = N × I₁ = 10 000 × I₁ = 10⁴ × I₁
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Calculando o novo nível em decibéis</h4>
+          <p>
+            n<sub>total</sub> = 10 log₁₀(I<sub>total</sub>/I₀) = 10 log₁₀(10⁴ × I₁/I₀) = 10 [log₁₀(10⁴) + log₁₀(I₁/I₀)] = 10 [4 + 10] = 10 × 14 = <strong>140 dB</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> A regra prática: cada fator 10× na intensidade soma 10 dB</h4>
+          <p>
+            Essa questão ilustra uma regra útil da escala logarítmica: multiplicar a intensidade por 10 sempre <strong>soma</strong> (não multiplica) 10 dB ao nível sonoro. Como 10 000 pessoas correspondem a um fator 10⁴ (10 mil vezes mais intensidade), isso soma 10×4=40 dB ao valor original de 100 dB, resultando em 140 dB.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-volume-high", titulo: "n = 10 log₁₀(I/I₀)", text: "Fórmula do nível sonoro em decibéis, uma escala logarítmica em relação a uma intensidade de referência I₀." },
+      { icone: "fa-chart-simple", titulo: "Escala logarítmica ≠ linear", text: "Multiplicar a intensidade não multiplica o dB pelo mesmo fator — o logaritmo comprime a variação." },
+      { icone: "fa-users", titulo: "Intensidades se somam, dB não", text: "Fontes sonoras independentes somam suas intensidades físicas (I), não seus valores em decibéis diretamente." },
+      { icone: "fa-plus", titulo: "Fator 10× soma 10 dB", text: "Cada vez que a intensidade é multiplicada por 10, o nível sonoro aumenta em 10 dB (soma, não multiplicação)." },
+      { icone: "fa-calculator", titulo: "10 000 = 10⁴ → +40 dB", text: "10 mil pessoas correspondem a um fator 10⁴ na intensidade, somando 40 dB ao nível de uma pessoa: 100+40=140 dB." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>I<sub>total</sub>=10⁴×I₁ → n<sub>total</sub>=10log₁₀(10⁴)+n₁=40+100=<strong>140 dB</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Lembre que intensidades se somam, não os dB.</strong> Para N fontes idênticas, I_total = N × I₁.</p>
+          <p><strong>Passo 2 — Separe o logaritmo do produto.</strong> n_total = 10log₁₀(N×I₁/I₀) = 10log₁₀(N) + 10log₁₀(I₁/I₀) = 10log₁₀(N) + n₁.</p>
+          <p><strong>Passo 3 — Substitua N=10 000=10⁴.</strong> 10log₁₀(10⁴)=40. n_total=40+100=140 dB.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 60 dB — ERRADA</p>
+            <p class="text-xs">Valor menor que o nível de uma única pessoa gritando (100 dB) — não faz sentido que juntar mais pessoas diminua o ruído.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 104 dB — ERRADA</p>
+            <p class="text-xs">Seria o resultado de somar apenas 4 dB (como se 10 000 correspondesse a 10⁰,⁴, um raciocínio incorreto) — não aplica corretamente a relação logarítmica.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) 140 dB — CORRETA</p>
+            <p class="text-xs">Resultado de somar 10log₁₀(10⁴)=40 dB ao nível original de 100 dB — a forma correta de combinar 10 000 fontes sonoras idênticas em decibéis.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 400 dB — ERRADA</p>
+            <p class="text-xs">Resulta do erro clássico de multiplicar o nível em dB diretamente por 4 (100×4=400), tratando a escala como se fosse linear em vez de logarítmica.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 800 dB — ERRADA</p>
+            <p class="text-xs">Resulta de multiplicar o nível em dB diretamente pelo fator 10 000/... um erro ainda maior de tratar a escala logarítmica como linear (por exemplo, 100×8, sem lógica física real).</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Uma pessoa: n = 100 dB",
+        legenda: "n = 10 log₁₀(I₁/I₀) = 100 dB é o nível sonoro médio de uma pessoa gritando 'gol'.",
+        svg: `
+          <svg viewBox="0 0 300 90" class="w-full h-auto">
+            <rect x="60" y="20" width="180" height="50" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="150" y="42" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">1 pessoa gritando</text>
+            <text x="150" y="60" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">n₁ = 100 dB</text>
+          </svg>`
+      },
+      {
+        titulo: "As intensidades se somam (não os dB)",
+        legenda: "I(total) = N × I₁, com N=10 000 pessoas gritando simultaneamente.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="20" y="30" width="120" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="80" y="54" fill="#e2e8f0" font-size="9" text-anchor="middle">I₁ (1 pessoa)</text>
+            <text x="160" y="54" fill="#94a3b8" font-size="14" text-anchor="middle">×10 000</text>
+            <rect x="230" y="30" width="210" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="335" y="54" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">I(total) = 10⁴ × I₁</text>
+          </svg>`
+      },
+      {
+        titulo: "Fator 10× em intensidade = +10 dB",
+        legenda: "10log₁₀(10⁴)=40 dB — regra prática da escala logarítmica de decibéis.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">n(total) = 10log₁₀(10⁴ × I₁/I₀) = 10[log₁₀(10⁴) + log₁₀(I₁/I₀)]</text>
+            <rect x="10" y="45" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="62" fill="#e2e8f0" font-size="9" text-anchor="middle">n(total) = 10×4 + 100 = 40 + 100</text>
+            <rect x="10" y="80" width="440" height="30" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="100" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">n(total) = 140 dB</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas C aplica corretamente a soma logarítmica das intensidades de 10 000 fontes.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) 60 dB (menor que uma só pessoa — impossível)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) 104 dB (soma incorreta de apenas 4 dB)</text>
+            <rect x="5" y="58" width="280" height="26" fill="#3b0764" rx="4"/>
+            <text x="145" y="75" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">C) 140 dB ✓ correta</text>
+            <text x="10" y="106" fill="#e2e8f0" font-size="8">D) 400 dB (multiplica dB por 4, escala linear errada)</text>
+            <text x="10" y="130" fill="#e2e8f0" font-size="8">E) 800 dB (erro ainda maior de escala linear)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: some fontes sonoras em decibéis",
+      descricao: "Ajuste o nível sonoro de uma fonte e o número de fontes idênticas somadas, e veja o nível total calculado corretamente pela escala logarítmica.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Nível de uma fonte (dB): <span data-out="n1label" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="40" max="120" step="1" value="100" data-sim="n1" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Número de fontes idênticas (potência de 10): <span data-out="nlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="6" step="1" value="4" data-sim="expoente" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Nível sonoro total:</p>
+              <div data-out="ntotal" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selN1 = raiz.querySelector('[data-sim="n1"]');
+        var selExp = raiz.querySelector('[data-sim="expoente"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var n1 = parseFloat(selN1.value);
+          var expoente = parseInt(selExp.value, 10);
+          var N = Math.pow(10, expoente);
+
+          saida('n1label').textContent = n1.toFixed(0) + ' dB';
+          saida('nlabel').textContent = N.toLocaleString('pt-BR') + ' fontes (10^' + expoente + ')';
+
+          var nTotal = n1 + 10 * expoente;
+          saida('ntotal').textContent = nTotal.toFixed(0) + ' dB';
+        }
+
+        selN1.addEventListener('input', atualizar);
+        selExp.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-volume-high"></i> 10 000 pessoas: 100 dB + 40 dB = 140 dB</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="13" font-weight="bold" text-anchor="middle">n(total) = 140 dB</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q133",
+    numero: "Questão 133",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Materiais e Interações Intermoleculares",
+    materiaCor: "cyan",
+    materiaIcone: "fa-layer-group",
+    titulo: "Filtro Multicamadas para Separação de Óleo e Água: Onde o Óleo é Retido?",
+    tags: ["Química", "Interações Intermoleculares", "Materiais", "Polaridade", "Nanotecnologia"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O despejo acidental de óleo nos oceanos tem ocasionado incontáveis prejuízos à vida marinha e à economia de regiões costeiras. Métodos tradicionais de tratamento do despejo geram resíduos de difícil descarte e nem sempre são eficazes. Por isso, pesquisadores desenvolveram um filtro capaz de separar óleo e água. O dispositivo é montado sobre uma malha de aço com uma sequência de camadas. A primeira camada é formada por um polímero de carga positiva, a segunda é composta por nanopartículas de sílica (SiO₂), a terceira é formada pelo mesmo polímero e a última é um surfactante, conforme apresentado na figura.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center">
+      <p class="text-[11px] text-slate-400 mb-3 font-bold">Representação esquemática do dispositivo (de baixo para cima)</p>
+      <svg viewBox="0 0 380 220" class="w-full h-auto max-w-sm mx-auto">
+        <rect x="40" y="185" width="300" height="18" fill="#475569" stroke="#94a3b8" stroke-width="1"/>
+        <text x="350" y="198" fill="#94a3b8" font-size="9">Malha de aço</text>
+
+        <rect x="40" y="160" width="300" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="350" y="174" fill="#7dd3fc" font-size="9">Camada inferior de polímero</text>
+
+        <rect x="40" y="130" width="300" height="25" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+        <text x="350" y="146" fill="#fde68a" font-size="9">Nanopartículas de sílica</text>
+
+        <rect x="40" y="105" width="300" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="350" y="119" fill="#7dd3fc" font-size="9">Camada superior de polímero</text>
+
+        <rect x="40" y="70" width="300" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+        <text x="350" y="89" fill="#fca5a5" font-size="9" font-weight="bold">Surfactante</text>
+
+        <text x="15" y="90" fill="#f87171" font-size="16" text-anchor="middle">🛢</text>
+        <text x="15" y="185" fill="#38bdf8" font-size="16" text-anchor="middle">💧</text>
+      </svg>
+      <p class="text-[10px] text-slate-500 mt-2">BROWN, P. S.; BHUSHAN, B. Mechanically durable, superoleophobic coatings prepared by layer-by-layer technique for anti-smudge and oil-water separation. <strong>Scientific Reports</strong>, v. 5, mar. 2015 (adaptado).</p>
+    </div>
+    <br>
+    Na utilização desse dispositivo, a retenção do óleo ocorre`,
+
+    alternativas: [
+      { letra: "A", texto: "no surfactante.", correta: true },
+      { letra: "B", texto: "na camada superior de polímero.", correta: false },
+      { letra: "C", texto: "nas nanopartículas de sílica.", correta: false },
+      { letra: "D", texto: "na camada inferior de polímero.", correta: false },
+      { letra: "E", texto: "na malha de aço.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          A chave é entender que a camada externa (a que entra em contato direto com o óleo primeiro) é a responsável por "decidir" se o óleo passa ou não — e essa camada é o surfactante.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O que é um dispositivo "superoleofóbico"</h4>
+          <p>
+            O artigo citado descreve um revestimento "superoleofóbico" — ou seja, um material que <strong>repele fortemente o óleo</strong> (oleofóbico = "medo de óleo"), enquanto permite a passagem de água (hidrofílico). Essa é a propriedade central que permite separar óleo de água: o óleo é bloqueado na superfície, e a água atravessa o dispositivo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> A camada mais externa é a que entra em contato com o óleo</h4>
+          <p>
+            Observando a estrutura de baixo para cima: malha de aço → camada inferior de polímero → nanopartículas de sílica → camada superior de polímero → <strong>surfactante</strong>. O surfactante é a última camada, ou seja, a <strong>mais externa</strong> — a primeira superfície que qualquer líquido (óleo ou água) encontra ao tentar atravessar o dispositivo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que o surfactante retém o óleo</h4>
+          <p>
+            Um surfactante é uma molécula com uma parte polar (hidrofílica) e uma parte apolar (hidrofóbica/oleofílica), organizada de forma estratégica na superfície do dispositivo. Nesse tipo de revestimento superoleofóbico, a orientação e a organização das moléculas de surfactante na superfície criam uma <strong>repulsão específica ao óleo</strong> (baixa energia superficial para líquidos apolares), impedindo que o óleo penetre nas camadas internas do filtro. A água, sendo polar, consegue interagir favoravelmente e atravessar essa camada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> As camadas internas (polímero e sílica) têm outra função</h4>
+          <p>
+            As camadas de polímero (com carga positiva) e as nanopartículas de sílica formam a <strong>estrutura de suporte</strong> do dispositivo — elas dão robustez mecânica e ajudam a criar a rugosidade em nanoescala necessária para a propriedade superoleofóbica funcionar bem na superfície, mas não são a barreira principal de retenção do óleo, já que o óleo é barrado antes de alcançá-las, na camada de surfactante.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> O papel da malha de aço</h4>
+          <p>
+            A malha de aço é apenas o <strong>suporte estrutural</strong> de todo o sistema — ela tem poros grandes o suficiente para permitir a passagem de líquidos, e serve de base física sobre a qual as camadas funcionais (polímero, sílica, surfactante) são depositadas.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-tint-slash", titulo: "Superoleofóbico", text: "Material que repele fortemente o óleo, permitindo a passagem seletiva de água." },
+      { icone: "fa-layer-group", titulo: "Camada mais externa = primeiro contato", text: "O surfactante, por ser a última camada depositada, é o primeiro ponto de contato do óleo com o dispositivo." },
+      { icone: "fa-flask", titulo: "Surfactante: parte polar e parte apolar", text: "Sua organização na superfície cria a repulsão seletiva que bloqueia o óleo e permite a passagem da água." },
+      { icone: "fa-cubes", titulo: "Polímero e sílica: suporte estrutural", text: "Dão robustez mecânica e rugosidade nanométrica, mas não são a principal barreira contra o óleo." },
+      { icone: "fa-border-all", titulo: "Malha de aço: base física", text: "Sustenta todas as camadas funcionais, com poros grandes o bastante para não impedir a passagem de líquidos." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>O surfactante é a camada mais externa do dispositivo — a propriedade superoleofóbica descrita no enunciado bloqueia o óleo logo nessa primeira superfície de contato.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a ordem das camadas.</strong> De baixo para cima: malha → polímero → sílica → polímero → surfactante (a mais externa).</p>
+          <p><strong>Passo 2 — Lembre o que "superoleofóbico" significa.</strong> Repele o óleo na superfície, permitindo a passagem da água.</p>
+          <p><strong>Passo 3 — Conecte: a camada externa é onde o contato (e a retenção) acontece primeiro.</strong> Como é o surfactante que está exposto, é nele que o óleo é barrado.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) No surfactante — CORRETA</p>
+            <p class="text-xs">É a camada mais externa, responsável pela propriedade superoleofóbica que bloqueia o óleo antes que ele alcance as camadas internas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Na camada superior de polímero — ERRADA</p>
+            <p class="text-xs">Essa camada fica abaixo do surfactante, ou seja, o óleo nem chegaria até ela, pois já teria sido barrado antes.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Nas nanopartículas de sílica — ERRADA</p>
+            <p class="text-xs">Camada ainda mais interna, com função estrutural (rugosidade), não é a barreira principal para o óleo.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Na camada inferior de polímero — ERRADA</p>
+            <p class="text-xs">Uma das camadas mais internas do dispositivo, distante do ponto de primeiro contato com o óleo.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Na malha de aço — ERRADA</p>
+            <p class="text-xs">É apenas o suporte estrutural de base, com poros grandes o suficiente para não funcionar como barreira seletiva.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Estrutura de camadas do dispositivo",
+        legenda: "De baixo para cima: malha de aço, polímero, sílica, polímero, surfactante (camada mais externa).",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <rect x="30" y="160" width="240" height="20" fill="#475569" stroke="#94a3b8" stroke-width="1"/>
+            <text x="150" y="174" fill="#e2e8f0" font-size="8" text-anchor="middle">Malha de aço</text>
+            <rect x="30" y="135" width="240" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+            <text x="150" y="149" fill="#bae6fd" font-size="8" text-anchor="middle">Polímero (inferior)</text>
+            <rect x="30" y="105" width="240" height="25" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+            <text x="150" y="121" fill="#fde68a" font-size="8" text-anchor="middle">Sílica (SiO₂)</text>
+            <rect x="30" y="80" width="240" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+            <text x="150" y="94" fill="#bae6fd" font-size="8" text-anchor="middle">Polímero (superior)</text>
+            <rect x="30" y="45" width="240" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="64" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante ← externa</text>
+          </svg>`
+      },
+      {
+        titulo: "Óleo bloqueado na superfície",
+        legenda: "A propriedade superoleofóbica do surfactante impede que o óleo penetre nas camadas internas.",
+        svg: `
+          <svg viewBox="0 0 300 110" class="w-full h-auto">
+            <rect x="20" y="45" width="260" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="64" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante</text>
+            <circle cx="60" cy="25" r="10" fill="#78350f" stroke="#fbbf24"/>
+            <text x="60" y="29" fill="#fde68a" font-size="10" text-anchor="middle">🛢</text>
+            <text x="90" y="30" fill="#f87171" font-size="16">✕</text>
+            <rect x="20" y="80" width="260" height="20" fill="#1e293b" stroke="#64748b" stroke-width="1" stroke-dasharray="3,2"/>
+            <text x="150" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">camadas internas (protegidas)</text>
+          </svg>`
+      },
+      {
+        titulo: "Água atravessa, óleo não",
+        legenda: "Sendo polar, a água interage bem com a superfície e passa; o óleo apolar é repelido.",
+        svg: `
+          <svg viewBox="0 0 300 130" class="w-full h-auto">
+            <rect x="20" y="20" width="260" height="25" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="37" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante</text>
+            <text x="60" y="15" fill="#94a3b8" font-size="8" text-anchor="middle">óleo ✕</text>
+            <text x="230" y="15" fill="#7dd3fc" font-size="8" text-anchor="middle">água ✓</text>
+            <line x1="230" y1="18" x2="230" y2="100" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,3"/>
+            <text x="230" y="112" fill="#7dd3fc" font-size="8" text-anchor="middle">↓ atravessa</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas o surfactante, a camada mais externa, é responsável pela retenção do óleo.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <rect x="5" y="10" width="290" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="27" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">A) Surfactante ✓ correta</text>
+            <text x="10" y="60" fill="#e2e8f0" font-size="8">B) Camada superior de polímero (interna demais)</text>
+            <text x="10" y="84" fill="#e2e8f0" font-size="8">C) Nanopartículas de sílica (estrutural)</text>
+            <text x="10" y="108" fill="#e2e8f0" font-size="8">D) Camada inferior de polímero (interna demais)</text>
+            <text x="10" y="132" fill="#e2e8f0" font-size="8">E) Malha de aço (suporte, não barreira)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: explore as camadas do filtro",
+      descricao: "Clique em cada camada do dispositivo, de fora para dentro, e veja sua função e se ela retém o óleo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha a camada (de fora para dentro):</p>
+            <select data-sim="camada" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="surfactante" selected>Surfactante (mais externa)</option>
+              <option value="polimeroSup">Camada superior de polímero</option>
+              <option value="silica">Nanopartículas de sílica</option>
+              <option value="polimeroInf">Camada inferior de polímero</option>
+              <option value="malha">Malha de aço (mais interna)</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="camada"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var info = {
+          surfactante: { retem: true, texto: 'Esta é a camada externa e superoleofóbica: o óleo é bloqueado aqui, enquanto a água consegue atravessar.' },
+          polimeroSup: { retem: false, texto: 'Camada interna de suporte estrutural. O óleo, se chegasse até aqui, já teria sido barrado pelo surfactante — na prática, essa camada não vê o óleo.' },
+          silica: { retem: false, texto: 'As nanopartículas de sílica dão rugosidade em nanoescala à superfície, ajudando o efeito superoleofóbico do surfactante, mas não retêm o óleo diretamente.' },
+          polimeroInf: { retem: false, texto: 'Camada interna de suporte estrutural, distante do ponto de contato inicial com o óleo.' },
+          malha: { retem: false, texto: 'Apenas a base física do dispositivo — tem poros grandes o suficiente para não impedir a passagem de líquidos.' }
+        };
+
+        function atualizar() {
+          var v = saida('veredito');
+          var dados = info[sel.value];
+          if (dados.retem) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Aqui o óleo é retido!</strong> ' + dados.texto;
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = dados.texto;
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-layer-group"></i> O óleo é retido no surfactante — a camada mais externa</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#fca5a5" font-size="13" font-weight="bold" text-anchor="middle">Alternativa A — Surfactante</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q134",
+    numero: "Questão 134",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estrutura Molecular e Polaridade",
+    materiaCor: "cyan",
+    materiaIcone: "fa-pills",
+    titulo: "Hormônios Esteroides no Ambiente: Qual Tem Maior Solubilidade em Água?",
+    tags: ["Química", "Polaridade", "Grupos Funcionais", "Solubilidade", "Hormônios Esteroides"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Alguns hormônios sexuais têm ganhado notável atenção nos últimos anos por suas concentrações cada vez maiores no solo e na água em todo o mundo. O motivo da preocupação é porque, em níveis poluentes, eles têm sido associados ao câncer de mama e ao câncer de próstata, além de perturbarem a fisiologia dos peixes, podendo, ainda, afetarem o desenvolvimento reprodutivo de animais domésticos e selvagens. Assim, o descarte inadequado desses hormônios representa uma séria ameaça ao solo, plantas, recursos hídricos e humanos. De baixa polaridade, eles apresentam uma solubilidade pequena e variável em água, dependendo dos grupos presentes em suas estruturas, representando um grande risco para os ambientes aquáticos. As figuras a seguir apresentam as estruturas de alguns desses hormônios.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estradiol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + 2 grupos −OH (um fenólico, um secundário)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estriol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + <strong>3 grupos −OH</strong> (fenólico + dois secundários vicinais)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estrona</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + 1 grupo −OH (fenólico) + 1 grupo cetona (C=O)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Novestrol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + −OH fenólico + −OH terciário + grupo etinil (C≡CH)</p>
+      </div>
+      <div class="sm:col-span-2">
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Noretindrona</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + cetona (C=O) + CH₃ + −OH terciário + grupo etinil (C≡CH)</p>
+      </div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">MUHAMMAD, A. et al. Environmental Impact of Estrogens on Human, Animal and Plant Life: a Critical Review. <strong>Environment International</strong>, n. 99, 2017 (adaptado).</p>
+    <br>
+    Do ponto de vista das interações químicas, qual desses hormônios apresenta maior solubilidade em ambientes aquáticos?`,
+
+    alternativas: [
+      { letra: "A", texto: "Estradiol.", correta: false },
+      { letra: "B", texto: "Estriol.", correta: true },
+      { letra: "C", texto: "Estrona.", correta: false },
+      { letra: "D", texto: "Novestrol.", correta: false },
+      { letra: "E", texto: "Noretindrona.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Todos esses hormônios compartilham o mesmo "esqueleto" apolar (o núcleo esteroide, com quatro anéis fundidos). A diferença de solubilidade em água vem inteiramente dos grupos funcionais polares (principalmente −OH) presentes em cada estrutura.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> "Semelhante dissolve semelhante"</h4>
+          <p>
+            A regra básica de solubilidade é que substâncias polares se dissolvem bem em solventes polares (como a água), enquanto substâncias apolares se dissolvem mal em água. O núcleo esteroide (os quatro anéis fundidos, ricos em ligações C–C e C–H) é fortemente <strong>apolar</strong> e hidrofóbico em todos os cinco hormônios — por isso, nenhum deles é muito solúvel em água, mas alguns são mais solúveis que outros.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> O que aumenta a solubilidade em água: grupos −OH</h4>
+          <p>
+            O grupo hidroxila (−OH) é <strong>polar</strong> e forma ligações de hidrogênio com a água — quanto <strong>mais grupos −OH</strong> uma molécula tiver, maior sua capacidade de interagir favoravelmente com moléculas de água, e maior sua solubilidade (mesmo que o resto da molécula seja apolar).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Comparando o número de grupos −OH de cada hormônio</h4>
+          <p>
+            Contando os grupos hidroxila de cada estrutura descrita: Estradiol tem 2 grupos −OH; <strong>Estriol tem 3 grupos −OH</strong> (o maior número entre os cinco); Estrona tem apenas 1 grupo −OH (e uma cetona, que também é polar, mas faz ligações de hidrogênio mais fracas que o −OH); Novestrol tem 2 grupos −OH (um fenólico, um terciário) mais um grupo etinil apolar; Noretindrona tem 1 grupo −OH mais uma cetona e um grupo etinil apolar.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que o Estriol se destaca</h4>
+          <p>
+            Com <strong>3 grupos −OH</strong> distribuídos em sua estrutura, o Estriol tem a maior capacidade de formar ligações de hidrogênio com moléculas de água entre os cinco hormônios apresentados — cada grupo −OH adicional aumenta a interação favorável com o solvente polar. Por isso, do ponto de vista das interações químicas, o Estriol é o mais solúvel em ambientes aquáticos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> O papel dos grupos etinil (C≡CH) e cetona</h4>
+          <p>
+            Grupos como o etinil (−C≡CH), presentes no Novestrol e na Noretindrona, são <strong>apolares</strong> e não contribuem para a solubilidade em água — na verdade, aumentam o caráter hidrofóbico geral da molécula. Já a cetona (C=O), presente na Estrona e na Noretindrona, é polar e pode fazer ligação de hidrogênio como aceptora, mas de forma mais fraca que o −OH (que atua tanto como doador quanto como aceptor de hidrogênio).
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-droplet", titulo: "Semelhante dissolve semelhante", text: "Grupos polares interagem bem com a água (polar); grupos apolares não." },
+      { icone: "fa-circle-nodes", titulo: "Núcleo esteroide é apolar", text: "Comum a todos os hormônios da questão — a diferença de solubilidade vem dos grupos funcionais extras." },
+      { icone: "fa-link", titulo: "−OH faz ligação de hidrogênio", text: "Cada grupo hidroxila adicional aumenta a interação favorável com moléculas de água." },
+      { icone: "fa-sort-numeric-up", titulo: "Contar os grupos −OH", text: "Estriol tem 3 grupos −OH, o maior número entre os cinco hormônios apresentados." },
+      { icone: "fa-ban", titulo: "Grupos etinil (C≡CH) são apolares", text: "Presentes no Novestrol e na Noretindrona, não ajudam na solubilidade em água — pelo contrário." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>O Estriol tem 3 grupos −OH (o maior número entre os cinco hormônios), maximizando as ligações de hidrogênio com a água e, portanto, a solubilidade.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Reconheça o núcleo comum apolar.</strong> Todos compartilham o mesmo esqueleto esteroide hidrofóbico.</p>
+          <p><strong>Passo 2 — Conte os grupos polares (−OH) de cada estrutura.</strong> Estradiol: 2; Estriol: 3; Estrona: 1; Novestrol: 2; Noretindrona: 1.</p>
+          <p><strong>Passo 3 — Escolha o de maior número de −OH.</strong> Estriol, com 3 grupos hidroxila, tem a maior capacidade de ligação de hidrogênio com a água.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Estradiol — ERRADA</p>
+            <p class="text-xs">Tem 2 grupos −OH — menos que o Estriol (3), portanto menor capacidade de ligação de hidrogênio com água.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Estriol — CORRETA</p>
+            <p class="text-xs">Com 3 grupos −OH, é o hormônio com maior número de sítios para ligação de hidrogênio com a água, logo, a maior solubilidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Estrona — ERRADA</p>
+            <p class="text-xs">Tem apenas 1 grupo −OH (mais uma cetona) — bem menos grupos polares que o Estriol.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Novestrol — ERRADA</p>
+            <p class="text-xs">Tem 2 grupos −OH, mas também um grupo etinil apolar que não contribui para a solubilidade — inferior ao Estriol.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Noretindrona — ERRADA</p>
+            <p class="text-xs">Tem apenas 1 grupo −OH, além de um grupo etinil apolar — a estrutura com menor potencial de interação com a água entre as cinco.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Núcleo esteroide comum (apolar)",
+        legenda: "Todos os cinco hormônios compartilham o mesmo esqueleto de quatro anéis fundidos, hidrofóbico.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="20" y="30" width="260" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="150" y="46" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Núcleo esteroide (4 anéis fundidos)</text>
+            <text x="150" y="62" fill="#94a3b8" font-size="8" text-anchor="middle">apolar / hidrofóbico — comum a todos</text>
+          </svg>`
+      },
+      {
+        titulo: "Contagem de grupos −OH por hormônio",
+        legenda: "Estriol tem o maior número: 3 grupos hidroxila.",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="9">Estradiol</text>
+            <rect x="130" y="10" width="60" height="14" fill="#0c4a6e" rx="2"/>
+            <text x="160" y="21" fill="#bae6fd" font-size="8" text-anchor="middle">2 −OH</text>
+            <rect x="10" y="36" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="53" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Estriol — 3 −OH (maior!)</text>
+            <text x="10" y="88" fill="#e2e8f0" font-size="9">Estrona</text>
+            <rect x="130" y="78" width="30" height="14" fill="#78350f" rx="2"/>
+            <text x="145" y="89" fill="#fde68a" font-size="8" text-anchor="middle">1 −OH</text>
+            <text x="10" y="122" fill="#e2e8f0" font-size="9">Novestrol</text>
+            <rect x="130" y="112" width="60" height="14" fill="#0c4a6e" rx="2"/>
+            <text x="160" y="123" fill="#bae6fd" font-size="8" text-anchor="middle">2 −OH +etinil</text>
+            <text x="10" y="156" fill="#e2e8f0" font-size="9">Noretindrona</text>
+            <rect x="130" y="146" width="30" height="14" fill="#78350f" rx="2"/>
+            <text x="145" y="157" fill="#fde68a" font-size="8" text-anchor="middle">1 −OH +etinil</text>
+          </svg>`
+      },
+      {
+        titulo: "Ligações de hidrogênio com a água",
+        legenda: "Cada grupo −OH forma ligações de hidrogênio com moléculas de água — mais grupos, mais interação favorável.",
+        svg: `
+          <svg viewBox="0 0 300 120" class="w-full h-auto">
+            <rect x="20" y="40" width="100" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="70" y="64" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Estriol (3 −OH)</text>
+            <text x="140" y="30" fill="#7dd3fc" font-size="8">H₂O</text>
+            <text x="140" y="60" fill="#7dd3fc" font-size="8">H₂O</text>
+            <text x="140" y="90" fill="#7dd3fc" font-size="8">H₂O</text>
+            <line x1="120" y1="50" x2="150" y2="32" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+            <line x1="120" y1="60" x2="150" y2="60" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+            <line x1="120" y1="70" x2="150" y2="88" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+          </svg>`
+      },
+      {
+        titulo: "Cinco hormônios, um mais solúvel",
+        legenda: "O Estriol, com 3 grupos −OH, é o de maior solubilidade em ambientes aquáticos.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="8">A) Estradiol — 2 grupos −OH</text>
+            <rect x="5" y="30" width="290" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="47" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">B) Estriol — 3 −OH ✓ mais solúvel</text>
+            <text x="10" y="80" fill="#e2e8f0" font-size="8">C) Estrona — 1 −OH + cetona</text>
+            <text x="10" y="104" fill="#e2e8f0" font-size="8">D) Novestrol — 2 −OH + etinil apolar</text>
+            <text x="10" y="128" fill="#e2e8f0" font-size="8">E) Noretindrona — 1 −OH + etinil apolar</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: compare a solubilidade pelos grupos −OH",
+      descricao: "Escolha um hormônio e veja quantos grupos −OH ele tem e como isso afeta sua solubilidade relativa em água.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha o hormônio:</p>
+            <select data-sim="hormonio" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="estradiol">Estradiol</option>
+              <option value="estriol" selected>Estriol</option>
+              <option value="estrona">Estrona</option>
+              <option value="novestrol">Novestrol</option>
+              <option value="noretindrona">Noretindrona</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Grupos −OH:</p>
+              <div data-out="oh" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+              <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed mt-2"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="hormonio"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var dados = {
+          estradiol: { oh: 2, extra: 'nenhum grupo apolar extra' },
+          estriol: { oh: 3, extra: 'nenhum grupo apolar extra — o maior número de −OH' },
+          estrona: { oh: 1, extra: 'uma cetona (C=O)' },
+          novestrol: { oh: 2, extra: 'um grupo etinil apolar (C≡CH)' },
+          noretindrona: { oh: 1, extra: 'uma cetona e um grupo etinil apolar' }
+        };
+
+        function atualizar() {
+          var d = dados[sel.value];
+          saida('oh').textContent = d.oh + ' grupo(s) −OH';
+
+          var v = saida('veredito');
+          if (d.oh === 3) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Maior solubilidade do grupo!</strong> Com ' + d.oh + ' grupos −OH e ' + d.extra + ', este é o hormônio com mais capacidade de ligação de hidrogênio com a água.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Com ' + d.oh + ' grupo(s) −OH e ' + d.extra + ', este hormônio é menos solúvel em água do que o Estriol (3 grupos −OH).';
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-pills"></i> Estriol: 3 grupos −OH → maior solubilidade em água</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">Alternativa B — Estriol</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q135",
+    numero: "Questão 135",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Óptica: Frequência, Comprimento de Onda e Espectros",
+    materiaCor: "purple",
+    materiaIcone: "fa-baby",
+    titulo: "Sensor de Fototerapia para Icterícia: Para Onde o Espectro se Desloca?",
+    tags: ["Física", "Óptica", "Espectro Eletromagnético", "Frequência e Comprimento de Onda", "Fotoluminescência"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com um método de fototerapia conhecido como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento.
+    <br><br>
+    O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor, colado na fralda do bebê, luminesce na região do vermelho-laranja (~600 nm). A figura seguinte apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <p class="text-[11px] text-slate-400 mb-2 text-center">Espectro no início do tratamento</p>
+        <svg viewBox="0 0 260 150" class="w-full h-auto">
+          <line x1="30" y1="120" x2="240" y2="120" stroke="#64748b" stroke-width="1"/>
+          <line x1="30" y1="120" x2="30" y2="20" stroke="#64748b" stroke-width="1"/>
+          <text x="130" y="140" fill="#94a3b8" font-size="8" text-anchor="middle">Comprimento de onda (nm)</text>
+          <polyline points="30,110 90,105 130,30 170,105 240,115" fill="none" stroke="#f97316" stroke-width="2"/>
+          <text x="130" y="22" fill="#fb923c" font-size="8" text-anchor="middle">~600 nm (vermelho-laranja)</text>
+        </svg>
+      </div>
+      <div>
+        <p class="text-[11px] text-slate-400 mb-2 text-center">Evolução: frequência aumenta com o tempo</p>
+        <svg viewBox="0 0 260 150" class="w-full h-auto">
+          <text x="30" y="20" fill="#4ade80" font-size="9">12h</text>
+          <text x="30" y="50" fill="#a3e635" font-size="9">9h</text>
+          <text x="30" y="80" fill="#fb923c" font-size="9">6h</text>
+          <text x="30" y="110" fill="#f87171" font-size="9">3h</text>
+          <text x="30" y="140" fill="#991b1b" font-size="9">0h (início)</text>
+          <line x1="70" y1="140" x2="70" y2="15" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#seta135)"/>
+          <text x="90" y="80" fill="#94a3b8" font-size="8" transform="rotate(-90 90 80)">Frequência ↑</text>
+          <defs><marker id="seta135" markerWidth="8" markerHeight="8" refX="4" refY="0" orient="auto"><path d="M0,8 L4,0 L8,8 Z" fill="#94a3b8"/></marker></defs>
+        </svg>
+      </div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">SILVA, M. M. et al. Fabricação de sensor orgânico flexível para aplicação em terapia com luz azul. <strong>Tecnol. Metal. Mater. Miner.</strong>, n. 3, jul.-set. 2011 (adaptado).</p>
+    <br>
+    Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico. Qual gráfico representa corretamente a mudança de coloração do sensor ao longo do tratamento?`,
+
+    alternativas: [
+      { letra: "A", texto: "A curva do final do tratamento tem pico deslocado para um comprimento de onda MENOR (à esquerda) que a curva do início, com amplitude também menor.", correta: true },
+      { letra: "B", texto: "A curva do final do tratamento tem pico deslocado para um comprimento de onda MAIOR (à direita) que a curva do início.", correta: false },
+      { letra: "C", texto: "As duas curvas são praticamente idênticas, com pico no mesmo comprimento de onda (~600 nm) e amplitudes semelhantes.", correta: false },
+      { letra: "D", texto: "As duas curvas coincidem quase totalmente, com a curva final ligeiramente mais alta que a inicial, no mesmo comprimento de onda.", correta: false },
+      { letra: "E", texto: "As duas curvas se sobrepõem exatamente, sem qualquer deslocamento ou mudança de amplitude.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O núcleo físico da questão é a relação inversa entre frequência e comprimento de onda: se a frequência da luz emitida AUMENTA, o comprimento de onda correspondente DIMINUI.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> A relação entre frequência e comprimento de onda</h4>
+          <p>
+            Para qualquer onda eletromagnética, v = λf, onde v é a velocidade da luz (constante no vácuo/ar), λ é o comprimento de onda e f é a frequência. Como v é constante, λ e f são <strong>inversamente proporcionais</strong>: se a frequência aumenta, o comprimento de onda diminui, e vice-versa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> O que o enunciado diz sobre a evolução do sensor</h4>
+          <p>
+            O texto afirma diretamente: "a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul" — e a Figura 2 mostra a cor evoluindo de vermelho (0h) para verde (12h), consistente com o espectro visível, em que o verde tem frequência mais alta (e comprimento de onda mais curto) que o vermelho-laranja.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Traduzindo "frequência aumenta" para o gráfico de comprimento de onda</h4>
+          <p>
+            Como o eixo horizontal do gráfico é o <strong>comprimento de onda</strong> (não a frequência), um aumento de frequência corresponde a um <strong>deslocamento do pico para a esquerda</strong> no gráfico — ou seja, para valores <strong>menores</strong> de comprimento de onda. Esse fenômeno é chamado de <strong>desvio para o azul</strong> (blueshift), na direção oposta ao "desvio para o vermelho" (redshift).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que o gráfico correto também mostra amplitude menor</h4>
+          <p>
+            Ao longo do tratamento, o material do sensor é <strong>oxidado</strong> pela radiação, alterando sua composição química — é razoável (e consistente com o comportamento típico desses sensores orgânicos) que a intensidade de fotoluminescência também se altere (tipicamente diminuindo) à medida que a composição do material muda, além do pico se deslocar para um comprimento de onda menor.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Resumindo o critério de escolha do gráfico correto</h4>
+          <p>
+            O gráfico correto deve mostrar a curva tracejada ("final do tratamento") com o pico deslocado para a <strong>esquerda</strong> (menor comprimento de onda) em relação à curva contínua ("início do tratamento", pico em ~600 nm) — qualquer gráfico que mostre sobreposição exata, deslocamento para a direita, ou nenhum deslocamento, contradiz a informação central do enunciado.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-wave-square", titulo: "v = λf (velocidade da luz constante)", text: "Frequência e comprimento de onda são inversamente proporcionais para uma dada velocidade de propagação." },
+      { icone: "fa-arrow-up", titulo: "Frequência aumenta com o tempo", text: "Informação central do enunciado: a cor do sensor evolui de vermelho (baixa f) para verde (alta f)." },
+      { icone: "fa-arrow-left", titulo: "Frequência ↑ = comprimento de onda ↓", text: "No gráfico, isso significa que o pico se desloca para a ESQUERDA (menor λ)." },
+      { icone: "fa-palette", titulo: "Vermelho → Verde no espectro visível", text: "O verde tem frequência mais alta e comprimento de onda mais curto que o vermelho-laranja." },
+      { icone: "fa-chart-area", titulo: "Amplitude também muda", text: "A oxidação do material altera sua composição, tipicamente reduzindo a intensidade de fotoluminescência ao longo do tempo." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>Frequência aumenta ⟹ comprimento de onda diminui (v=λf constante) ⟹ pico do espectro final desloca-se para a ESQUERDA (menor λ) em relação ao pico inicial (~600 nm), com amplitude também menor.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Leia a informação-chave do enunciado.</strong> "A frequência da luz emitida por ele aumenta em função do tempo de exposição."</p>
+          <p><strong>Passo 2 — Converta frequência em comprimento de onda.</strong> Como v=λf é constante, frequência maior significa comprimento de onda menor (desvio para o azul).</p>
+          <p><strong>Passo 3 — Escolha o gráfico com o pico final deslocado para a esquerda.</strong> Elimine qualquer opção com sobreposição total ou deslocamento para a direita.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) Pico final em menor comprimento de onda — CORRETA</p>
+            <p class="text-xs">Consistente com o aumento de frequência descrito no enunciado (v=λf): frequência maior implica comprimento de onda menor.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Pico final em maior comprimento de onda — ERRADA</p>
+            <p class="text-xs">Representa o oposto do que o enunciado descreve — um deslocamento para maior λ corresponderia a uma DIMINUIÇÃO da frequência, contrariando o texto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Curvas idênticas em posição e amplitude — ERRADA</p>
+            <p class="text-xs">Não mostra nenhuma mudança, contrariando a premissa central de que o sensor muda de cor (e portanto de frequência/comprimento de onda) ao longo do tratamento.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Mesma posição, apenas amplitude maior — ERRADA</p>
+            <p class="text-xs">Não representa nenhum deslocamento no comprimento de onda do pico, ignorando a mudança de frequência (e cor) descrita no enunciado.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Sobreposição exata — ERRADA</p>
+            <p class="text-xs">Como a opção C/D, ignora completamente a informação de que a frequência (e a cor) do sensor muda ao longo do tratamento.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "v = λf: relação inversa",
+        legenda: "Com v constante, frequência maior implica comprimento de onda menor, e vice-versa.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="20" y="30" width="120" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="80" y="54" fill="#e9d5ff" font-size="10" font-weight="bold" text-anchor="middle">v = λ × f</text>
+            <text x="160" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">f ↑</text>
+            <text x="160" y="60" fill="#94a3b8" font-size="9" text-anchor="middle">λ ↓</text>
+            <text x="220" y="52" fill="#c4b5fd" font-size="8" text-anchor="middle">(inversamente proporcionais)</text>
+          </svg>`
+      },
+      {
+        titulo: "Evolução da cor: vermelho → verde",
+        legenda: "No espectro visível, o verde tem frequência mais alta (λ menor) que o vermelho-laranja.",
+        svg: `
+          <svg viewBox="0 0 300 90" class="w-full h-auto">
+            <rect x="20" y="20" width="80" height="40" fill="#7f1d1d" rx="4"/>
+            <text x="60" y="44" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Início (~600nm)</text>
+            <text x="115" y="45" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="140" y="20" width="80" height="40" fill="#14532d" rx="4"/>
+            <text x="180" y="44" fill="#86efac" font-size="9" font-weight="bold" text-anchor="middle">Final (λ menor)</text>
+            <text x="240" y="45" fill="#4ade80" font-size="8">f maior</text>
+          </svg>`
+      },
+      {
+        titulo: "Deslocamento do pico no gráfico",
+        legenda: "O pico da curva final se move para a ESQUERDA (menor λ), com amplitude também menor.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="270" y2="120" stroke="#64748b" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#64748b" stroke-width="1"/>
+            <polyline points="30,110 100,105 150,30 200,105 270,115" fill="none" stroke="#f97316" stroke-width="2"/>
+            <text x="150" y="20" fill="#fb923c" font-size="8" text-anchor="middle">início (~600nm)</text>
+            <polyline points="30,112 70,108 110,55 150,108 270,116" fill="none" stroke="#4ade80" stroke-width="2" stroke-dasharray="5,3"/>
+            <text x="90" y="45" fill="#86efac" font-size="8" text-anchor="middle">final (λ menor)</text>
+            <text x="150" y="135" fill="#94a3b8" font-size="8" text-anchor="middle">← desvio para o azul (blueshift)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas A mostra o pico final deslocado para menor comprimento de onda, como o texto descreve.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <rect x="5" y="10" width="290" height="26" fill="#3b0764" rx="4"/>
+            <text x="150" y="27" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">A) Pico final em λ menor ✓ correta</text>
+            <text x="10" y="60" fill="#e2e8f0" font-size="8">B) Pico final em λ maior (direção invertida)</text>
+            <text x="10" y="84" fill="#e2e8f0" font-size="8">C) Curvas idênticas (sem deslocamento)</text>
+            <text x="10" y="108" fill="#e2e8f0" font-size="8">D) Mesma posição, só amplitude maior</text>
+            <text x="10" y="132" fill="#e2e8f0" font-size="8">E) Sobreposição exata (sem mudança)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: frequência, comprimento de onda e o espectro",
+      descricao: "Ajuste o tempo de exposição e veja como o pico do espectro de fotoluminescência se desloca, seguindo v=λf.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Tempo de exposição (h): <span data-out="tlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="12" step="0.5" value="0" data-sim="tempo" class="w-full accent-purple-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Conforme o tempo aumenta, a frequência da luz emitida aumenta, e o comprimento de onda do pico diminui.</p>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 280 140" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <line x1="20" y1="120" x2="260" y2="120" stroke="#475569" stroke-width="1"/>
+              <line x1="20" y1="120" x2="20" y2="15" stroke="#475569" stroke-width="1"/>
+              <polyline points="20,110 70,105 110,30 150,105 260,113" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="2,2"/>
+              <polyline data-sim="curva" points="20,110 70,105 110,30 150,105 260,113" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selT = raiz.querySelector('[data-sim="tempo"]');
+        var curva = raiz.querySelector('[data-sim="curva"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var t = parseFloat(selT.value);
+          saida('tlabel').textContent = t.toFixed(1) + ' h';
+
+          var deslocamento = (t / 12) * 55;
+          var xPico = 110 - deslocamento;
+          var amplitude = 30 + (t / 12) * 55;
+
+          curva.setAttribute('points', '20,110 ' + (xPico - 40) + ',105 ' + xPico + ',' + amplitude + ' ' + (xPico + 40) + ',105 260,113');
+
+          var v = saida('veredito');
+          if (t === 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Início do tratamento: sensor vermelho-laranja, pico em ~600 nm.';
+          } else if (t < 12) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Frequência aumentando, pico se deslocando para comprimentos de onda menores (desvio para o azul).';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Fim do tratamento!</strong> Sensor verde — frequência máxima, comprimento de onda mínimo entre os pontos observados.';
+          }
+        }
+
+        selT.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-baby"></i> Frequência aumenta → comprimento de onda diminui (desvio para o azul)</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Alternativa A — pico desloca para menor λ</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
