@@ -22649,6 +22649,865 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="26" text-anchor="middle" font-weight="bold">300</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q176",
+  numero: 176,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "running",
+  titulo: "Corrida com Prorrogação: Qual a Distância Total Percorrida?",
+  tags: ["Velocidade constante", "Razão e proporção", "Matemática aplicada"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma prova de corrida de revezamento por tempo, um atleta percorre 4,5 km em 45 minutos, mantendo velocidade constante durante todo o percurso. Por causa de uma pane no cronômetro oficial, os organizadores decidem conceder uma prorrogação de 30 minutos extras, durante os quais o atleta continua correndo na mesma velocidade constante.</p>
+    <p><strong>A distância total percorrida pelo atleta, somando o percurso original e a prorrogação, em quilômetros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4,5", correta: false },
+    { letra: "B", texto: "6,0", correta: false },
+    { letra: "C", texto: "7,5", correta: true },
+    { letra: "D", texto: "9,0", correta: false },
+    { letra: "E", texto: "10,5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Velocidade constante significa que a razão entre distância e tempo é sempre a mesma — uma vez descoberta essa razão, ela pode ser aplicada a qualquer novo intervalo de tempo para prever a distância correspondente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando a velocidade constante</p>
+        <p>Velocidade é a razão entre distância percorrida e tempo gasto: v = d/t. Com os dados originais (4,5 km em 45 min), calcula-se v = 4,5/45 = 0,1 km/min.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a velocidade ao tempo extra</p>
+        <p>Como a velocidade permanece constante durante a prorrogação, a distância percorrida nesse período extra é: d_extra = v × t_extra = 0,1 km/min × 30 min = 3 km.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Somando as distâncias</p>
+        <p>A distância total é a soma da distância original com a distância percorrida durante a prorrogação: d_total = 4,5 + 3 = 7,5 km.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atalho: usando razão de tempos</p>
+        <p>Como a prorrogação (30 min) é exatamente 2/3 do tempo original (45 min), a distância extra também será 2/3 da distância original: (2/3) × 4,5 = 3 km — confirmando o resultado obtido pela velocidade.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "gauge", titulo: "Velocidade constante", text: "v = d/t, a mesma razão se aplica a qualquer intervalo de tempo." },
+    { icone: "x", titulo: "Distância a partir da velocidade", text: "d = v × t, aplicando a velocidade constante ao novo tempo." },
+    { icone: "plus", titulo: "Soma de distâncias parciais", text: "Distância total = distância original + distância do período extra." },
+    { icone: "divide", titulo: "Atalho por razão de tempos", text: "A proporção entre os tempos determina a proporção entre as distâncias." },
+    { icone: "check-circle", titulo: "Verificação cruzada", text: "Confirmar o resultado por dois métodos diferentes aumenta a confiança na resposta." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 7,5 km</p>
+        <p class="text-xs text-slate-300">Com velocidade constante de 0,1 km/min, os 30 minutos extras somam 3 km, totalizando 7,5 km.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a velocidade:</strong> v = 4,5 km / 45 min = 0,1 km/min.</li>
+          <li><strong>Passo 2 — Calcular a distância extra:</strong> 0,1 km/min × 30 min = 3 km.</li>
+          <li><strong>Passo 3 — Somar:</strong> 4,5 + 3 = 7,5 km.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a distância percorrida durante a prorrogação.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 6,0 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula a distância extra incorretamente, usando uma velocidade errada.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 7,5 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Soma correta da distância original (4,5 km) com a distância extra (3 km).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 9,0 — Incorreta</p>
+          <p class="text-xs text-slate-400">Dobra a distância original, ignorando a proporção correta entre os tempos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 10,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima a distância extra, tratando os 30 minutos como se fossem 60 minutos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Percurso original",
+      legenda: "4,5 km em 45 minutos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="14" text-anchor="middle">4,5 km / 45 min</text></svg>`
+    },
+    {
+      titulo: "Velocidade constante",
+      legenda: "v = 0,1 km/min",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">v = 0,1 km/min</text></svg>`
+    },
+    {
+      titulo: "Prorrogação",
+      legenda: "30 min extras = 3 km",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="14" text-anchor="middle">+30 min = +3 km</text></svg>`
+    },
+    {
+      titulo: "Distância total",
+      legenda: "4,5 + 3 = 7,5 km",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">7,5 km</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Distância com Tempo Extra",
+    descricao: "Ajuste a distância e o tempo originais, e o tempo extra, para calcular a distância total.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Distância original (km): <span id="q176-dval" class="text-blue-300 font-bold">4.5</span></label>
+          <input type="range" id="q176-dist" min="1" max="20" step="0.5" value="4.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo original (min): <span id="q176-tval" class="text-blue-300 font-bold">45</span></label>
+          <input type="range" id="q176-tempo" min="5" max="120" step="5" value="45" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo extra (min): <span id="q176-eval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q176-extra" min="0" max="60" step="5" value="30" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância total</p>
+          <p id="q176-resultado" class="text-3xl font-bold text-emerald-400">7,5 km</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const dist = raiz.querySelector('#q176-dist');
+      const tempo = raiz.querySelector('#q176-tempo');
+      const extra = raiz.querySelector('#q176-extra');
+      const dval = raiz.querySelector('#q176-dval');
+      const tval = raiz.querySelector('#q176-tval');
+      const eval_ = raiz.querySelector('#q176-eval');
+      const resultado = raiz.querySelector('#q176-resultado');
+      function atualizar() {
+        const D = parseFloat(dist.value);
+        const T = parseFloat(tempo.value);
+        const E = parseFloat(extra.value);
+        dval.textContent = D.toFixed(1);
+        tval.textContent = T;
+        eval_.textContent = E;
+        const v = D / T;
+        const total = D + v * E;
+        resultado.textContent = total.toFixed(2).replace('.', ',') + ' km';
+      }
+      dist.addEventListener('input', atualizar);
+      tempo.addEventListener('input', atualizar);
+      extra.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">7,5 km</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q177",
+  numero: 177,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "medal",
+  titulo: "Medalhas Olímpicas: Quanto Ouro é Necessário para 100 Peças?",
+  tags: ["Volume de cilindro", "Volume de prisma", "Geometria espacial"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma fábrica de medalhas produz peças em formato de disco cilíndrico com 3 cm de raio e 0,3 cm de espessura. Para economizar ouro (material caro), apenas a região entre a borda circular da medalha e um núcleo central em formato de prisma quadrado (com o quadrado inscrito exatamente na circunferência da medalha, e mesma espessura de 0,3 cm) é banhada e preenchida com ouro maciço — o núcleo central é feito de um metal mais barato.</p>
+    <p>Considere π ≈ 3,1 e √2 ≈ 1,41 para os cálculos.</p>
+    <p><strong>A quantidade de ouro, em cm³, necessária para produzir 100 medalhas é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "270", correta: false },
+    { letra: "B", texto: "297", correta: true },
+    { letra: "C", texto: "324", correta: false },
+    { letra: "D", texto: "540", correta: false },
+    { letra: "E", texto: "837", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando uma peça é composta por duas regiões geométricas diferentes (aqui, um cilindro com um prisma "vazado" dentro), o volume do material de interesse é a diferença entre os dois volumes — não a soma nem um dos dois isoladamente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Volume do cilindro completo (a medalha inteira)</p>
+        <p>O volume de um cilindro é V = π r² h. Com r = 3 cm e h = 0,3 cm, e π ≈ 3,1: V = 3,1 × 9 × 0,3 = 8,37 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Volume do prisma quadrado inscrito (o núcleo central)</p>
+        <p>Um quadrado inscrito em uma circunferência de raio r tem diagonal igual a 2r (o diâmetro). Se a diagonal é d = 2r = 6 cm, o lado do quadrado é d/√2 = 6/1,41 ≈ 4,26 cm, e a área do quadrado é lado² ≈ 18 cm² (podendo também ser calculada diretamente como (2r)²/2 = 36/2 = 18 cm²). O volume do prisma é V = área × h = 18 × 0,3 = 5,4 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Volume de ouro por medalha (a diferença)</p>
+        <p>Como o ouro preenche apenas a região entre o cilindro e o prisma central, o volume de ouro por medalha é: V_ouro = V_cilindro − V_prisma = 8,37 − 5,4 = 2,97 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Escalando para 100 medalhas</p>
+        <p>Para 100 medalhas idênticas, o volume total de ouro necessário é simplesmente 100 vezes o volume de uma única medalha: 100 × 2,97 = 297 cm³.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Volume do cilindro", text: "V = π r² h, o volume total do disco da medalha." },
+    { icone: "square", titulo: "Quadrado inscrito na circunferência", text: "A diagonal do quadrado é igual ao diâmetro da circunferência; área = (2r)²/2." },
+    { icone: "minus", titulo: "Volume por diferença", text: "Volume da região de interesse = volume maior − volume do núcleo removido." },
+    { icone: "x", titulo: "Escalonamento para múltiplas peças", text: "Multiplicar o volume de uma peça pela quantidade total de peças." },
+    { icone: "gem", titulo: "Aplicação prática em manufatura", text: "Cálculo de material necessário evitando desperdício em peças compostas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 297 cm³</p>
+        <p class="text-xs text-slate-300">Cada medalha usa 2,97 cm³ de ouro; para 100 medalhas, são necessários 297 cm³.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Volume do cilindro:</strong> V = 3,1 × 3² × 0,3 = 3,1 × 9 × 0,3 = 8,37 cm³.</li>
+          <li><strong>Passo 2 — Volume do prisma quadrado inscrito:</strong> área do quadrado = (2×3)²/2 = 18 cm²; V = 18 × 0,3 = 5,4 cm³.</li>
+          <li><strong>Passo 3 — Volume de ouro por medalha e total:</strong> 8,37 − 5,4 = 2,97 cm³ por medalha; × 100 = 297 cm³.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 270 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um pequeno erro no cálculo da área do quadrado inscrito.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 297 — Correta ✓</p>
+          <p class="text-xs text-slate-400">100 × (8,37 − 5,4) = 100 × 2,97 = 297 cm³.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 324 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa uma área de quadrado incorreta, superestimando o núcleo removido.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 540 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula apenas o volume do prisma × 100, ignorando a subtração do cilindro.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 837 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula o volume do cilindro completo × 100, sem descontar o núcleo central.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Medalha cilíndrica completa",
+      legenda: "r=3cm, h=0,3cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="#f59e0b" opacity="0.3" stroke="#fbbf24" stroke-width="3"/></svg>`
+    },
+    {
+      titulo: "Prisma quadrado inscrito",
+      legenda: "Núcleo central (metal mais barato)",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4"/><rect x="37.6" y="37.6" width="84.8" height="84.8" fill="#64748b" opacity="0.6" stroke="#94a3b8" stroke-width="2"/></svg>`
+    },
+    {
+      titulo: "Região de ouro",
+      legenda: "Entre o círculo e o quadrado",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="#fbbf24" opacity="0.5"/><rect x="37.6" y="37.6" width="84.8" height="84.8" fill="#0f172a"/></svg>`
+    },
+    {
+      titulo: "Total para 100 medalhas",
+      legenda: "297 cm³ de ouro",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">297 cm³</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Volume de Ouro nas Medalhas",
+    descricao: "Ajuste raio, espessura e quantidade de medalhas para calcular o ouro necessário.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Raio (cm): <span id="q177-rval" class="text-blue-300 font-bold">3</span></label>
+          <input type="range" id="q177-raio" min="1" max="8" step="0.5" value="3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Espessura (cm): <span id="q177-hval" class="text-blue-300 font-bold">0.3</span></label>
+          <input type="range" id="q177-espessura" min="0.1" max="1" step="0.05" value="0.3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Quantidade de medalhas: <span id="q177-qval" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q177-qtd" min="1" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Ouro por medalha</p>
+          <p id="q177-porMedalha" class="text-lg font-bold text-blue-300">2,97 cm³</p>
+          <p class="text-xs text-slate-400 mt-2">Ouro total</p>
+          <p id="q177-total" class="text-3xl font-bold text-emerald-400">297 cm³</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const raio = raiz.querySelector('#q177-raio');
+      const esp = raiz.querySelector('#q177-espessura');
+      const qtd = raiz.querySelector('#q177-qtd');
+      const rval = raiz.querySelector('#q177-rval');
+      const hval = raiz.querySelector('#q177-hval');
+      const qval = raiz.querySelector('#q177-qval');
+      const porMedalha = raiz.querySelector('#q177-porMedalha');
+      const total = raiz.querySelector('#q177-total');
+      function atualizar() {
+        const R = parseFloat(raio.value);
+        const H = parseFloat(esp.value);
+        const Q = parseFloat(qtd.value);
+        rval.textContent = R;
+        hval.textContent = H.toFixed(2);
+        qval.textContent = Q;
+        const vCilindro = 3.1 * R * R * H;
+        const areaQuadrado = (2 * R) * (2 * R) / 2;
+        const vPrisma = areaQuadrado * H;
+        const vOuro = vCilindro - vPrisma;
+        porMedalha.textContent = vOuro.toFixed(2) + ' cm³';
+        total.textContent = (vOuro * Q).toFixed(1) + ' cm³';
+      }
+      raio.addEventListener('input', atualizar);
+      esp.addEventListener('input', atualizar);
+      qtd.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">297 cm³</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q178",
+  numero: 178,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "dices",
+  titulo: "Jogo de Dados: Quem Tem Mais Chance de Vencer, João ou Artur?",
+  tags: ["Probabilidade condicional", "Probabilidade total", "Jogos de azar"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>João e Artur criaram o seguinte jogo com dados honestos de 6 faces: primeiro, lança-se um dado para determinar um número j (de 1 a 6), que será usado como "limite" da rodada. Em seguida, dois outros dados são lançados simultaneamente.</p>
+    <p>João vence a rodada se AMBOS os dois dados lançados na segunda etapa mostrarem um valor menor ou igual a j. Caso contrário (ou seja, se pelo menos um dos dois dados mostrar um valor maior que j), Artur vence a rodada.</p>
+    <p><strong>Considerando todas as possibilidades para o valor de j, é correto afirmar que:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "João tem mais chances de vencer, com probabilidade 125/216", correta: false },
+    { letra: "B", texto: "Os dois têm exatamente a mesma probabilidade de vencer", correta: false },
+    { letra: "C", texto: "Artur tem mais chances de vencer, com probabilidade 91/216", correta: false },
+    { letra: "D", texto: "João tem mais chances de vencer, com probabilidade 91/216", correta: false },
+    { letra: "E", texto: "Artur tem mais chances de vencer, com probabilidade 125/216", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando um evento depende de uma etapa aleatória anterior (aqui, o valor de j), a probabilidade total é calculada somando, para cada valor possível da etapa anterior, o produto de sua probabilidade pela probabilidade condicional do evento de interesse — a chamada Lei da Probabilidade Total.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Probabilidade condicional de João vencer, dado j</p>
+        <p>Se j é conhecido, a probabilidade de um único dado mostrar valor ≤ j é j/6 (pois há j valores favoráveis entre 6 possíveis). Como os dois dados são independentes, a probabilidade de AMBOS mostrarem valor ≤ j é (j/6)².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a Lei da Probabilidade Total</p>
+        <p>Como j é escolhido uniformemente entre 1 e 6 (probabilidade 1/6 para cada valor), a probabilidade total de João vencer é a média das probabilidades condicionais: P(João vence) = (1/6) × Σ_{j=1}^{6} (j/6)².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a soma</p>
+        <p>Σ_{j=1}^{6} j² = 1+4+9+16+25+36 = 91. Logo, P(João vence) = (1/6) × (91/36) = 91/216.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Calculando a probabilidade de Artur vencer (evento complementar)</p>
+        <p>Como Artur vence exatamente quando João não vence, P(Artur vence) = 1 − P(João vence) = 1 − 91/216 = 125/216. Como 125/216 > 91/216, Artur tem mais chances de vencer o jogo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Probabilidade condicional", text: "P(ambos ≤ j | j) = (j/6)², usando independência dos dois dados." },
+    { icone: "sigma", titulo: "Lei da probabilidade total", text: "Somar (probabilidade de cada j) × (probabilidade condicional), para todos os j possíveis." },
+    { icone: "hash", titulo: "Soma de quadrados", text: "Σj² de 1 a 6 = 91, um valor útil para várias questões de probabilidade com dados." },
+    { icone: "minus", titulo: "Evento complementar", text: "P(Artur vence) = 1 − P(João vence), pois os eventos são complementares." },
+    { icone: "trophy", titulo: "Comparação de probabilidades", text: "Comparar as frações finais para determinar quem tem mais chances." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — Artur vence com probabilidade 125/216</p>
+        <p class="text-xs text-slate-300">P(João) = 91/216 e P(Artur) = 125/216, então Artur tem mais chances.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Probabilidade condicional para cada j:</strong> P(João vence | j) = (j/6)², para j = 1,...,6.</li>
+          <li><strong>Passo 2 — Média sobre todos os valores de j:</strong> P(João vence) = (1/6)Σ(j/6)² = (1/216)Σj² = 91/216.</li>
+          <li><strong>Passo 3 — Complementar para Artur:</strong> P(Artur vence) = 1 − 91/216 = 125/216, maior que a de João.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) João, 125/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Atribui a probabilidade correta de Artur (125/216) ao jogador errado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Mesma probabilidade — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que 91/216 ≠ 125/216 — as probabilidades não são iguais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Artur, 91/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o vencedor certo, mas atribui a probabilidade de João (91/216) a Artur.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) João, 91/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula corretamente a probabilidade de João, mas erra ao afirmar que ele tem mais chances.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) Artur, 125/216 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente o vencedor mais provável com sua probabilidade exata.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Etapa 1: sorteio de j",
+      legenda: "Um dado determina o limite j",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="80" y="30" width="40" height="40" fill="#3b82f6" opacity="0.6" rx="6"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle">j</text></svg>`
+    },
+    {
+      titulo: "Etapa 2: dois dados",
+      legenda: "João vence se ambos ≤ j",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="60" y="30" width="35" height="35" fill="#10b981" opacity="0.6" rx="4"/><rect x="105" y="30" width="35" height="35" fill="#10b981" opacity="0.6" rx="4"/><text x="100" y="85" fill="#6ee7b7" font-size="11" text-anchor="middle">ambos ≤ j → João vence</text></svg>`
+    },
+    {
+      titulo: "Probabilidade de João",
+      legenda: "P = Σ(j/6)²/6 = 91/216",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="16" text-anchor="middle">91/216</text></svg>`
+    },
+    {
+      titulo: "Probabilidade de Artur",
+      legenda: "P = 1 − 91/216 = 125/216",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Artur: 125/216</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Jogo de Dados de João e Artur",
+    descricao: "Simule rodadas do jogo e veja a proporção de vitórias de cada jogador.",
+    html: `
+      <div class="space-y-4">
+        <button id="q178-jogar" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded">Jogar 100 rodadas</button>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Vitórias de João / Artur (simulação)</p>
+          <p id="q178-resultado" class="text-lg font-bold text-blue-300">— / —</p>
+          <p class="text-xs text-slate-400 mt-2">Probabilidades teóricas</p>
+          <p class="text-sm text-emerald-400">João: 91/216 ≈ 42,1% | Artur: 125/216 ≈ 57,9%</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const btn = raiz.querySelector('#q178-jogar');
+      const resultado = raiz.querySelector('#q178-resultado');
+      let seed = 12345;
+      function pseudoRandom() {
+        seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+        return seed / 0x7fffffff;
+      }
+      btn.addEventListener('click', () => {
+        let joaoWins = 0, arturWins = 0;
+        for (let i = 0; i < 100; i++) {
+          const j = Math.floor(pseudoRandom() * 6) + 1;
+          const d1 = Math.floor(pseudoRandom() * 6) + 1;
+          const d2 = Math.floor(pseudoRandom() * 6) + 1;
+          if (d1 <= j && d2 <= j) joaoWins++;
+          else arturWins++;
+        }
+        resultado.textContent = joaoWins + ' / ' + arturWins;
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Artur: 125/216</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q179",
+  numero: 179,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "sun",
+  titulo: "Telas de TV: Qual Unidade Mede o Brilho (Luminância)?",
+  tags: ["Unidades de medida", "Grandezas físicas", "Interpretação técnica"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Ao comparar especificações técnicas de televisores em uma loja, um consumidor lê, na ficha técnica de dois modelos, a grandeza "luminância máxima", que indica o quão brilhante a tela pode ficar. Essa grandeza é definida como a intensidade luminosa emitida por unidade de área da superfície emissora (a tela), em uma determinada direção.</p>
+    <p><strong>A unidade de medida em que a luminância é corretamente expressa é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "candela por metro quadrado (cd/m²)", correta: true },
+    { letra: "B", texto: "watt por metro quadrado (W/m²)", correta: false },
+    { letra: "C", texto: "lúmen por metro quadrado (lm/m²)", correta: false },
+    { letra: "D", texto: "candela por metro (cd/m)", correta: false },
+    { letra: "E", texto: "watt por candela (W/cd)", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Grandezas físicas são definidas por uma combinação específica de unidades base, e essa combinação não é arbitrária — ela reflete exatamente a definição matemática da grandeza (uma razão, um produto, etc.).</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Entendendo a definição de luminância</p>
+        <p>Luminância é definida como "intensidade luminosa por unidade de área". Intensidade luminosa é medida em candela (cd), a unidade-base do Sistema Internacional para essa grandeza. Área é medida em metro quadrado (m²).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Construindo a unidade a partir da definição</p>
+        <p>Como luminância = intensidade luminosa / área, sua unidade é obtida dividindo a unidade de intensidade luminosa pela unidade de área: cd / m², ou candela por metro quadrado.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Diferenciando de grandezas parecidas</p>
+        <p>É comum confundir luminância com outras grandezas luminosas: fluxo luminoso é medido em lúmen (lm); iluminância (quanto de luz "chega" a uma superfície) é medida em lux (lm/m²); irradiância (potência de radiação por área) é medida em W/m². Cada uma dessas grandezas mede um aspecto diferente da luz.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que a unidade "faz sentido" fisicamente</p>
+        <p>A unidade cd/m² captura exatamente o que se espera de "brilho percebido": quanto mais intensa a luz emitida por uma área menor, mais concentrado (e brilhante) o efeito visual — daí dividir intensidade por área, e não multiplicar ou usar outra combinação.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "sun", titulo: "Definição de luminância", text: "Intensidade luminosa emitida por unidade de área, em uma direção específica." },
+    { icone: "divide", titulo: "Construção da unidade", text: "Unidade = unidade da grandeza no numerador / unidade da grandeza no denominador." },
+    { icone: "layers", titulo: "Candela (cd)", text: "Unidade-base do SI para intensidade luminosa." },
+    { icone: "alert-triangle", titulo: "Diferenciação de grandezas luminosas", text: "Luminância, iluminância e fluxo luminoso medem aspectos diferentes da luz." },
+    { icone: "check-circle", titulo: "Consistência física da unidade", text: "A unidade escolhida deve refletir corretamente a definição matemática da grandeza." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — candela por metro quadrado (cd/m²)</p>
+        <p class="text-xs text-slate-300">A unidade de luminância é diretamente construída a partir de sua definição: intensidade luminosa (cd) dividida por área (m²).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar a grandeza no numerador:</strong> intensidade luminosa, medida em candela (cd).</li>
+          <li><strong>Passo 2 — Identificar a grandeza no denominador:</strong> área, medida em metro quadrado (m²).</li>
+          <li><strong>Passo 3 — Combinar as unidades conforme a definição:</strong> luminância = cd/m².</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) cd/m² — Correta ✓</p>
+          <p class="text-xs text-slate-400">Unidade correta de luminância, obtida diretamente da definição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) W/m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Essa é a unidade de irradiância (potência de radiação por área), não de luminância.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) lm/m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Essa é a unidade de iluminância (lux), que mede luz recebida, não emitida por área.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) cd/m — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa área linear (metro) em vez de área quadrada (metro quadrado), incompatível com a definição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) W/cd — Incorreta</p>
+          <p class="text-xs text-slate-400">Combina unidades de grandezas diferentes (potência e intensidade luminosa) de forma incompatível com a definição de luminância.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Definição de luminância",
+      legenda: "Intensidade luminosa por unidade de área",
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">Intensidade / Área</text></svg>`
+    },
+    {
+      titulo: "Candela (cd)",
+      legenda: "Unidade-base de intensidade luminosa",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">cd</text></svg>`
+    },
+    {
+      titulo: "Metro quadrado (m²)",
+      legenda: "Unidade de área",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">m²</text></svg>`
+    },
+    {
+      titulo: "Unidade final",
+      legenda: "cd/m² — candela por metro quadrado",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">cd/m²</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Construtor de Unidades Físicas",
+    descricao: "Escolha a grandeza do numerador e do denominador para construir a unidade correta.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Grandeza no numerador:</label>
+          <select id="q179-num" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+            <option value="cd">Intensidade luminosa (cd)</option>
+            <option value="lm">Fluxo luminoso (lm)</option>
+            <option value="W">Potência (W)</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Grandeza no denominador:</label>
+          <select id="q179-den" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+            <option value="m2">Área (m²)</option>
+            <option value="m">Comprimento (m)</option>
+            <option value="cd">Intensidade luminosa (cd)</option>
+          </select>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Unidade resultante</p>
+          <p id="q179-resultado" class="text-2xl font-bold text-blue-300">cd/m²</p>
+          <p id="q179-nome" class="text-sm text-emerald-400 mt-1">Luminância ✓</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const num = raiz.querySelector('#q179-num');
+      const den = raiz.querySelector('#q179-den');
+      const resultado = raiz.querySelector('#q179-resultado');
+      const nome = raiz.querySelector('#q179-nome');
+      const nomes = {
+        'cd_m2': 'Luminância ✓',
+        'lm_m2': 'Iluminância (lux)',
+        'W_m2': 'Irradiância',
+        'cd_m': 'Sem nome físico padrão',
+        'lm_m': 'Sem nome físico padrão',
+        'W_m': 'Sem nome físico padrão',
+        'cd_cd': 'Adimensional',
+        'lm_cd': 'Ângulo sólido (esferorradiano)',
+        'W_cd': 'Sem nome físico padrão'
+      };
+      function atualizar() {
+        const N = num.value;
+        const D = den.value;
+        const unidadeLabel = { cd: 'cd', lm: 'lm', W: 'W', m2: 'm²', m: 'm' };
+        resultado.textContent = unidadeLabel[N] + '/' + unidadeLabel[D];
+        const key = N + '_' + D;
+        nome.textContent = nomes[key] || 'Combinação não padrão';
+      }
+      num.addEventListener('change', atualizar);
+      den.addEventListener('change', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">cd/m²</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q180",
+  numero: 180,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "coins",
+  titulo: "Jogo de Fichas: Qual a Fórmula para a Quantidade Após n Rodadas?",
+  tags: ["Progressão aritmética", "Sequências", "Modelagem algébrica"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um jogo de tabuleiro, cada jogador ocupa uma posição numerada e acumula fichas ao longo das rodadas. O jogador que ocupa a posição 1 começa o jogo com 100 fichas. A cada rodada completa do jogo, esse jogador segue uma regra fixa: envia exatamente 1 ficha para o jogador da posição 2, e recebe exatamente 4 fichas do jogador da posição 3 (essas trocas são regras fixas do jogo, repetidas identicamente a cada rodada).</p>
+    <p><strong>Supondo que o jogador da posição 1 sempre tenha fichas suficientes para enviar, a quantidade de fichas que ele possui após n rodadas completas, em função de n, é dada por:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "100 + n", correta: false },
+    { letra: "B", texto: "100 − 3n", correta: false },
+    { letra: "C", texto: "100 × 3n", correta: false },
+    { letra: "D", texto: "100 + 3n", correta: true },
+    { letra: "E", texto: "103n", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando uma quantidade muda pela mesma diferença fixa a cada passo (rodada, mês, ano), ela segue uma progressão aritmética — e sua fórmula geral é sempre "valor inicial + razão × número de passos".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando a variação líquida por rodada</p>
+        <p>Em cada rodada, o jogador da posição 1 envia 1 ficha (perde 1) e recebe 4 fichas (ganha 4). A variação líquida (o "saldo") por rodada é: −1 + 4 = +3 fichas. Ou seja, ele termina cada rodada com 3 fichas a mais do que começou.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Reconhecendo uma progressão aritmética</p>
+        <p>Como a variação por rodada é sempre a mesma (constante, +3), a quantidade de fichas ao longo das rodadas forma uma progressão aritmética, com termo inicial a1 = 100 e razão r = 3.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Fórmula do termo geral de uma PA</p>
+        <p>O termo geral de uma progressão aritmética após n passos (a partir do valor inicial) é dado por: valor = valor inicial + razão × n. Isso porque cada uma das n rodadas adiciona exatamente a razão (+3) ao total.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Aplicando ao problema</p>
+        <p>Substituindo os valores: fichas após n rodadas = 100 + 3×n = 100 + 3n. Essa fórmula permite calcular a quantidade de fichas para qualquer número de rodadas completas, sem precisar somar rodada por rodada.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "plus-minus", titulo: "Variação líquida por rodada", text: "Soma algébrica de tudo que é ganho e perdido em cada rodada." },
+    { icone: "trending-up", titulo: "Progressão aritmética (PA)", text: "Sequência em que a diferença entre termos consecutivos é sempre constante." },
+    { icone: "function-square", titulo: "Termo geral da PA", text: "valor = valor inicial + razão × número de passos." },
+    { icone: "repeat", titulo: "Repetição de regra fixa", text: "A mesma troca de fichas ocorre identicamente a cada rodada." },
+    { icone: "calculator", titulo: "Modelagem algébrica de jogos", text: "Traduzir regras de um jogo em uma fórmula matemática geral." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 100 + 3n</p>
+        <p class="text-xs text-slate-300">Com saldo de +3 fichas por rodada, a fórmula é o valor inicial (100) mais a razão (3) vezes o número de rodadas (n).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o saldo líquido por rodada:</strong> −1 (enviado) + 4 (recebido) = +3 fichas por rodada.</li>
+          <li><strong>Passo 2 — Reconhecer a progressão aritmética:</strong> a1 = 100 (fichas iniciais), razão r = 3.</li>
+          <li><strong>Passo 3 — Aplicar a fórmula do termo geral:</strong> fichas(n) = 100 + 3n.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 100 + n — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa razão 1 em vez de 3, ignorando o efeito completo das trocas de fichas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 100 − 3n — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte o sinal do saldo, tratando a troca como perda líquida em vez de ganho.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 100 × 3n — Incorreta</p>
+          <p class="text-xs text-slate-400">Trata a progressão como multiplicativa (geométrica), quando na verdade é aditiva (aritmética).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 100 + 3n — Correta ✓</p>
+          <p class="text-xs text-slate-400">Fórmula correta do termo geral da progressão aritmética, com a1=100 e r=3.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 103n — Incorreta</p>
+          <p class="text-xs text-slate-400">Combina incorretamente o valor inicial e a razão em um único fator multiplicativo.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trocas por rodada",
+      legenda: "Envia 1, recebe 4",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#f87171" font-size="13" text-anchor="middle">−1 (enviada)</text><text x="100" y="65" fill="#6ee7b7" font-size="13" text-anchor="middle">+4 (recebida)</text></svg>`
+    },
+    {
+      titulo: "Saldo líquido",
+      legenda: "+3 fichas por rodada",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="18" text-anchor="middle" font-weight="bold">+3 por rodada</text></svg>`
+    },
+    {
+      titulo: "Progressão aritmética",
+      legenda: "100, 103, 106, 109, ...",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/>${[100,103,106,109,112].map((v,i)=>`<circle cx="${30+i*40}" cy="50" r="4" fill="#3b82f6"/><text x="${30+i*40}" y="70" fill="#93c5fd" font-size="9" text-anchor="middle">${v}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Fórmula geral",
+      legenda: "fichas(n) = 100 + 3n",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">100 + 3n</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Fichas ao Longo das Rodadas",
+    descricao: "Ajuste o número de rodadas e veja quantas fichas o jogador da posição 1 acumula.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Fichas iniciais: <span id="q180-ival" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q180-inicial" min="10" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Número de rodadas (n): <span id="q180-nval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q180-n" min="0" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Fichas após n rodadas</p>
+          <p id="q180-resultado" class="text-3xl font-bold text-emerald-400">130</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const inicial = raiz.querySelector('#q180-inicial');
+      const n = raiz.querySelector('#q180-n');
+      const ival = raiz.querySelector('#q180-ival');
+      const nval = raiz.querySelector('#q180-nval');
+      const resultado = raiz.querySelector('#q180-resultado');
+      function atualizar() {
+        const I = parseFloat(inicial.value);
+        const N = parseFloat(n.value);
+        ival.textContent = I;
+        nval.textContent = N;
+        resultado.textContent = I + 3 * N;
+      }
+      inicial.addEventListener('input', atualizar);
+      n.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">100 + 3n</text></svg>`,
+  simuladorType: null
 }
 
 ];
