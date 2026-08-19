@@ -20704,6 +20704,1075 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">135° / 7h15min</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q165",
+  numero: 165,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "activity",
+  titulo: "Controle de Qualidade: Qual Grupo de Peças é Mais Confiável?",
+  tags: ["Desvio padrão", "Estatística", "Dispersão de dados"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma fábrica produz peças metálicas que devem ter, idealmente, 25 mm de espessura. Para avaliar 5 lotes de produção diferentes, um engenheiro de qualidade calculou a média e o desvio padrão da espessura das peças de cada lote (em mm), obtendo os seguintes resultados:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Grupo</th><th class="border border-slate-600 p-2">Média (mm)</th><th class="border border-slate-600 p-2">Desvio padrão (mm)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">1</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">4</td></tr>
+        <tr><td class="border border-slate-600 p-2">2</td><td class="border border-slate-600 p-2">23</td><td class="border border-slate-600 p-2">1</td></tr>
+        <tr><td class="border border-slate-600 p-2">3</td><td class="border border-slate-600 p-2">27</td><td class="border border-slate-600 p-2">2</td></tr>
+        <tr><td class="border border-slate-600 p-2">4</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">1</td></tr>
+        <tr><td class="border border-slate-600 p-2">5</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">3</td></tr>
+      </tbody>
+    </table>
+    <p>O engenheiro deseja identificar o grupo cujas peças, com maior confiança, estão em sua grande maioria dentro do intervalo de 20 a 30 mm de espessura, considerando tanto a proximidade da média ao valor ideal (25 mm) quanto a menor dispersão possível dos valores em torno dessa média.</p>
+    <p><strong>O grupo que melhor atende a esses dois critérios simultaneamente é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Grupo 1", correta: false },
+    { letra: "B", texto: "Grupo 2", correta: false },
+    { letra: "C", texto: "Grupo 3", correta: false },
+    { letra: "D", texto: "Grupo 4", correta: true },
+    { letra: "E", texto: "Grupo 5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Média e desvio padrão, juntos, contam uma história mais completa que qualquer um dos dois isoladamente: a média diz "onde está o centro", e o desvio padrão diz "quão espalhados os dados estão em torno desse centro".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O que a média representa</p>
+        <p>A média é o valor central em torno do qual os dados de um grupo se distribuem. Quanto mais próxima a média estiver do valor ideal desejado, melhor o grupo atende ao alvo — mas a média sozinha não diz nada sobre o quão dispersos (variados) estão os valores individuais.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O que o desvio padrão representa</p>
+        <p>O desvio padrão mede a dispersão (variabilidade) dos dados em torno da média. Um desvio padrão pequeno indica que os valores individuais estão concentrados perto da média (mais consistência); um desvio padrão grande indica que os valores estão mais espalhados (menos consistência).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Combinando os dois critérios</p>
+        <p>Para identificar o grupo mais confiável em relação a um valor ideal, é preciso considerar SIMULTANEAMENTE: (1) a média deve estar próxima (idealmente igual) ao valor-alvo, e (2) o desvio padrão deve ser o menor possível, garantindo que a maioria dos valores individuais também esteja próxima do alvo, não apenas a média.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que um grupo com média certa mas desvio grande não é ideal</p>
+        <p>Um grupo pode ter média exatamente igual ao valor ideal, mas se o desvio padrão for grande, isso significa que muitos valores individuais estão distantes da média — alguns muito acima, outros muito abaixo. Portanto, média correta sozinha não garante confiabilidade; é preciso também baixa dispersão.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "target", titulo: "Média como centro", text: "Quanto mais próxima do valor ideal, melhor o grupo atende ao alvo." },
+    { icone: "activity", titulo: "Desvio padrão como dispersão", text: "Mede o quão espalhados os valores estão em torno da média." },
+    { icone: "check-circle", titulo: "Combinação de critérios", text: "Confiabilidade exige média correta E baixa dispersão simultaneamente." },
+    { icone: "alert-triangle", titulo: "Média não garante consistência", text: "Média ideal com desvio grande ainda pode ter muitos valores fora do padrão." },
+    { icone: "layers", titulo: "Comparação entre grupos", text: "Avaliar cada grupo pelos dois critérios antes de escolher o mais confiável." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — Grupo 4</p>
+        <p class="text-xs text-slate-300">Único grupo com média exatamente igual a 25 mm E o menor desvio padrão (1 mm) entre todos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Filtrar grupos com média = 25 (valor ideal):</strong> Grupo 1 (25), Grupo 4 (25) e Grupo 5 (25) atendem a esse critério.</li>
+          <li><strong>Passo 2 — Entre esses, comparar o desvio padrão:</strong> Grupo 1 tem desvio 4, Grupo 4 tem desvio 1, Grupo 5 tem desvio 3.</li>
+          <li><strong>Passo 3 — Escolher o menor desvio entre os que têm média ideal:</strong> Grupo 4, com desvio padrão de apenas 1 mm, é o mais concentrado e confiável.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Grupo 1 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média ideal (25), mas desvio padrão alto (4), indicando peças muito dispersas em torno da média.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Grupo 2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Desvio padrão baixo (1), mas média distante do ideal (23 em vez de 25).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Grupo 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média distante do ideal (27) e desvio padrão moderado (2).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) Grupo 4 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina média ideal (25) com o menor desvio padrão entre todos os grupos (1 mm).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Grupo 5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média ideal (25), mas desvio padrão maior (3) que o do Grupo 4.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Médias dos 5 grupos",
+      legenda: "Distância em relação ao valor ideal (25 mm)",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/><line x1="20" y1="50" x2="240" y2="50" stroke="#475569"/>${[['1',25,'#10b981'],['2',23,'#ef4444'],['3',27,'#ef4444'],['4',25,'#10b981'],['5',25,'#10b981']].map((d,i)=>`<circle cx="${40+i*40}" cy="${50-(d[1]-25)*5}" r="5" fill="${d[2]}"/><text x="${40+i*40}" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">G${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Desvios padrão",
+      legenda: "Dispersão dos dados de cada grupo",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[['1',4],['2',1],['3',2],['4',1],['5',3]].map((d,i)=>`<rect x="${30+i*45}" y="${80-d[1]*15}" width="25" height="${d[1]*15}" fill="#3b82f6" opacity="0.6"/><text x="${42+i*45}" y="95" fill="#94a3b8" font-size="10" text-anchor="middle">G${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Grupos com média ideal",
+      legenda: "Grupos 1, 4 e 5 têm média = 25",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">Grupos 1, 4 e 5: média = 25</text></svg>`
+    },
+    {
+      titulo: "Grupo vencedor",
+      legenda: "Grupo 4: média 25, desvio 1",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="35" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="58" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Grupo 4</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Confiabilidade",
+    descricao: "Ajuste a média e o desvio padrão de um grupo hipotético e veja o quão confiável ele seria.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Média do grupo (mm): <span id="q165-mval" class="text-blue-300 font-bold">25</span></label>
+          <input type="range" id="q165-media" min="15" max="35" step="1" value="25" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Desvio padrão (mm): <span id="q165-dval" class="text-blue-300 font-bold">1</span></label>
+          <input type="range" id="q165-desvio" min="0" max="6" step="0.5" value="1" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância da média ao ideal (25)</p>
+          <p id="q165-distancia" class="text-lg font-bold text-blue-300">0 mm</p>
+          <p class="text-xs text-slate-400 mt-2">Avaliação de confiabilidade</p>
+          <p id="q165-avaliacao" class="text-xl font-bold text-emerald-400">Excelente</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const media = raiz.querySelector('#q165-media');
+      const desvio = raiz.querySelector('#q165-desvio');
+      const mval = raiz.querySelector('#q165-mval');
+      const dval = raiz.querySelector('#q165-dval');
+      const distEl = raiz.querySelector('#q165-distancia');
+      const avalEl = raiz.querySelector('#q165-avaliacao');
+      function atualizar() {
+        const M = parseFloat(media.value);
+        const D = parseFloat(desvio.value);
+        mval.textContent = M;
+        dval.textContent = D;
+        const dist = Math.abs(M - 25);
+        distEl.textContent = dist + ' mm';
+        let aval, cor;
+        if (dist === 0 && D <= 1) { aval = 'Excelente'; cor = '#6ee7b7'; }
+        else if (dist <= 1 && D <= 2) { aval = 'Boa'; cor = '#fbbf24'; }
+        else { aval = 'Baixa confiabilidade'; cor = '#f87171'; }
+        avalEl.textContent = aval;
+        avalEl.style.color = cor;
+      }
+      media.addEventListener('input', atualizar);
+      desvio.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Grupo 4</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q166",
+  numero: 166,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "timer",
+  titulo: "Corrida de 5 km: Quanto Mais Rápido Correr o Último Quilômetro?",
+  tags: ["Tempos parciais", "Ritmo médio", "Subtração de intervalos"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um corredor está participando de uma prova de 5 km e cronometra seus tempos parciais a cada quilômetro completado. Ao completar o 3º quilômetro, o cronômetro marcava 14min04s (844 segundos desde a largada); ao completar o 4º quilômetro, marcava 18min52s (1.132 segundos desde a largada).</p>
+    <p>Seu treinador estabeleceu como meta finalizar os 5 km inteiros com um ritmo médio de 281 segundos por quilômetro (ou seja, tempo total da prova = 5 × 281 segundos).</p>
+    <p><strong>Para atingir exatamente essa meta, o corredor precisará correr o 5º quilômetro quantos segundos mais rápido do que correu o 4º quilômetro?</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "5 segundos", correta: false },
+    { letra: "B", texto: "8 segundos", correta: false },
+    { letra: "C", texto: "10 segundos", correta: false },
+    { letra: "D", texto: "12 segundos", correta: false },
+    { letra: "E", texto: "15 segundos", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Tempos parciais (cronometrados a cada trecho) e tempo total seguem uma lógica simples: cada trecho individual é a diferença entre os tempos cumulativos de seu início e fim.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Tempo de um trecho a partir de tempos cumulativos</p>
+        <p>Quando se conhece o tempo cumulativo (desde a largada) em dois pontos consecutivos de uma prova, o tempo gasto no trecho entre esses dois pontos é a diferença entre os dois valores cumulativos: tempo do trecho = tempo cumulativo final − tempo cumulativo inicial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando o tempo total desejado a partir do ritmo médio</p>
+        <p>Se a meta é um ritmo médio constante de x segundos por quilômetro ao longo de toda a prova, o tempo total desejado é x multiplicado pelo número total de quilômetros da prova.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Descobrindo o tempo necessário para o último trecho</p>
+        <p>Uma vez conhecido o tempo total desejado e o tempo cumulativo já registrado até o penúltimo quilômetro, o tempo necessário para o último quilômetro é a diferença entre esses dois valores: tempo do último trecho = tempo total desejado − tempo cumulativo até o penúltimo quilômetro.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Comparando o tempo necessário com o tempo do trecho anterior</p>
+        <p>Para responder "quanto mais rápido", basta subtrair o tempo necessário do último trecho do tempo já registrado no trecho anterior. Um resultado positivo indica que o corredor precisa ser mais rápido; um resultado negativo indicaria que ele já pode manter (ou até reduzir) o ritmo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "clock", titulo: "Tempo de trecho por subtração", text: "Tempo do trecho = tempo cumulativo final − tempo cumulativo inicial." },
+    { icone: "target", titulo: "Tempo total a partir do ritmo médio", text: "Tempo total desejado = ritmo médio × número total de quilômetros." },
+    { icone: "flag", titulo: "Tempo necessário para o trecho restante", text: "Tempo total desejado menos o tempo já cumulativo até o ponto anterior." },
+    { icone: "minus", titulo: "Comparação entre trechos", text: "Subtrair o tempo necessário do tempo do trecho anterior para saber a diferença de ritmo." },
+    { icone: "trending-down", titulo: "Interpretação do resultado", text: "Diferença positiva significa que é preciso correr mais rápido no último trecho." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 15 segundos</p>
+        <p class="text-xs text-slate-300">O 4º km levou 288s; o 5º km precisa ser feito em 273s para atingir a meta — uma diferença de 15s.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o tempo do 4º quilômetro:</strong> 1.132 − 844 = 288 segundos.</li>
+          <li><strong>Passo 2 — Calcular o tempo total desejado e o tempo necessário para o 5º km:</strong> tempo total = 5 × 281 = 1.405 s; tempo do 5º km = 1.405 − 1.132 = 273 segundos.</li>
+          <li><strong>Passo 3 — Comparar os dois trechos:</strong> 288 − 273 = 15 segundos mais rápido no 5º km em relação ao 4º km.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 5 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Subestima a diferença, possivelmente por um erro no cálculo do tempo do 4º km.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 8 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro na subtração dos tempos cumulativos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 10 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo, mas não corresponde ao cálculo exato dos tempos parciais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 12 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um pequeno erro de arredondamento no tempo total desejado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 15 segundos — Correta ✓</p>
+          <p class="text-xs text-slate-400">288 (tempo do 4º km) − 273 (tempo necessário no 5º km) = 15 segundos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Tempos cumulativos registrados",
+      legenda: "3 km: 844s | 4 km: 1.132s",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">3 km: 844s</text><text x="110" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">4 km: 1.132s</text></svg>`
+    },
+    {
+      titulo: "Tempo do 4º km",
+      legenda: "1.132 − 844 = 288 segundos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">4º km: 288s</text></svg>`
+    },
+    {
+      titulo: "Tempo necessário no 5º km",
+      legenda: "1.405 − 1.132 = 273 segundos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">5º km: 273s</text></svg>`
+    },
+    {
+      titulo: "Diferença de ritmo",
+      legenda: "288 − 273 = 15 segundos mais rápido",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">15 segundos</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Ritmo de Corrida",
+    descricao: "Ajuste os tempos cumulativos e a meta de ritmo médio.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Tempo cumulativo aos 3km (s): <span id="q166-t3v" class="text-blue-300 font-bold">844</span></label>
+          <input type="range" id="q166-t3" min="600" max="1000" step="1" value="844" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo cumulativo aos 4km (s): <span id="q166-t4v" class="text-blue-300 font-bold">1132</span></label>
+          <input type="range" id="q166-t4" min="900" max="1300" step="1" value="1132" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Ritmo médio meta (s/km): <span id="q166-rv" class="text-blue-300 font-bold">281</span></label>
+          <input type="range" id="q166-ritmo" min="200" max="350" step="1" value="281" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Tempo do 4º km / Tempo necessário no 5º km</p>
+          <p id="q166-comparacao" class="text-lg font-bold text-blue-300">288s / 273s</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q166-diferenca" class="text-3xl font-bold text-emerald-400">15s</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const t3 = raiz.querySelector('#q166-t3');
+      const t4 = raiz.querySelector('#q166-t4');
+      const ritmo = raiz.querySelector('#q166-ritmo');
+      const t3v = raiz.querySelector('#q166-t3v');
+      const t4v = raiz.querySelector('#q166-t4v');
+      const rv = raiz.querySelector('#q166-rv');
+      const comp = raiz.querySelector('#q166-comparacao');
+      const dif = raiz.querySelector('#q166-diferenca');
+      function atualizar() {
+        const T3 = parseFloat(t3.value);
+        const T4 = parseFloat(t4.value);
+        const R = parseFloat(ritmo.value);
+        t3v.textContent = T3; t4v.textContent = T4; rv.textContent = R;
+        const trecho4 = T4 - T3;
+        const total = 5 * R;
+        const trecho5 = total - T4;
+        comp.textContent = trecho4 + 's / ' + trecho5 + 's';
+        dif.textContent = (trecho4 - trecho5) + 's';
+      }
+      t3.addEventListener('input', atualizar);
+      t4.addEventListener('input', atualizar);
+      ritmo.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">15 segundos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q167",
+  numero: 167,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "fuel",
+  titulo: "GNV vs Gasolina: Qual é a Economia em uma Viagem de 120 km?",
+  tags: ["Leitura de gráficos", "Razão e proporção", "Matemática financeira"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um motorista de aplicativo está avaliando se compensa converter seu carro para rodar a gás natural veicular (GNV) além da gasolina. Um gráfico do manual do fabricante mostra o rendimento (autonomia) de cada combustível em função da velocidade constante do veículo. Na velocidade de 60 km/h, o gráfico indica:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>rendimento do GNV: 10 km por metro cúbico (m³) de gás;</li>
+      <li>rendimento da gasolina: 8 km por litro.</li>
+    </ul>
+    <p>Sabe-se que o preço do metro cúbico de GNV é R$ 2,00, e o preço do litro de gasolina é R$ 3,00. Considere uma viagem de 120 km, realizada a 60 km/h constantes.</p>
+    <p><strong>A diferença entre o custo da viagem usando gasolina e o custo usando GNV, em reais, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 9,00", correta: false },
+    { letra: "B", texto: "R$ 12,00", correta: false },
+    { letra: "C", texto: "R$ 18,00", correta: false },
+    { letra: "D", texto: "R$ 21,00", correta: true },
+    { letra: "E", texto: "R$ 24,00", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar o custo de dois combustíveis diferentes exige primeiro calcular quanto de cada um é consumido para a mesma distância, e só depois multiplicar pelo preço — misturar essas etapas é a fonte mais comum de erro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o consumo total a partir do rendimento</p>
+        <p>Se um veículo rende r km por unidade de combustível (litro ou m³), o consumo total de combustível para percorrer uma distância D é dado por: consumo = D / r. Essa é a divisão inversa do rendimento.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando o custo total de cada combustível</p>
+        <p>Uma vez calculado o consumo total, o custo é obtido multiplicando o consumo pelo preço por unidade: custo = consumo × preço por unidade. Repita esse processo separadamente para cada tipo de combustível.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Comparando os dois custos</p>
+        <p>A diferença entre os custos é simplesmente a subtração entre o maior e o menor valor calculado: diferença = custo do combustível mais caro − custo do combustível mais barato.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Cuidado com unidades diferentes</p>
+        <p>GNV é medido em metros cúbicos (m³) e gasolina em litros (L) — unidades diferentes que não podem ser comparadas diretamente. Somente após converter cada consumo em custo (reais) é que a comparação direta faz sentido, já que reais é uma unidade comum a ambos.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "gauge", titulo: "Rendimento e consumo", text: "Consumo total = distância percorrida / rendimento (km por unidade)." },
+    { icone: "dollar-sign", titulo: "Custo total", text: "Custo = consumo total × preço por unidade de combustível." },
+    { icone: "minus", titulo: "Comparação de custos", text: "Diferença = custo do combustível mais caro − custo do mais barato." },
+    { icone: "alert-triangle", titulo: "Unidades diferentes", text: "m³ (GNV) e litros (gasolina) só são comparáveis após conversão para reais." },
+    { icone: "bar-chart", titulo: "Leitura de gráficos técnicos", text: "Extrair corretamente o valor de rendimento na velocidade especificada." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — R$ 21,00</p>
+        <p class="text-xs text-slate-300">Gasolina custa R$ 45,00 na viagem, GNV custa R$ 24,00 — diferença de R$ 21,00.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o consumo e custo do GNV:</strong> consumo = 120/10 = 12 m³; custo = 12 × 2,00 = R$ 24,00.</li>
+          <li><strong>Passo 2 — Calcular o consumo e custo da gasolina:</strong> consumo = 120/8 = 15 L; custo = 15 × 3,00 = R$ 45,00.</li>
+          <li><strong>Passo 3 — Calcular a diferença:</strong> 45,00 − 24,00 = R$ 21,00.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 9,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do consumo de um dos combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) R$ 12,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o custo do GNV com a diferença entre os dois combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) R$ 18,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de trocar os preços por unidade entre os dois combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) R$ 21,00 — Correta ✓</p>
+          <p class="text-xs text-slate-400">45,00 (gasolina) − 24,00 (GNV) = 21,00, a diferença correta de custo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 24,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde a diferença pedida com o custo total do GNV.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Rendimento a 60 km/h",
+      legenda: "GNV: 10 km/m³ | Gasolina: 8 km/L",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="12" text-anchor="middle">GNV: 10 km/m³</text><text x="110" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Gasolina: 8 km/L</text></svg>`
+    },
+    {
+      titulo: "Consumo em 120 km",
+      legenda: "GNV: 12 m³ | Gasolina: 15 L",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="12" text-anchor="middle">GNV: 12 m³</text><text x="110" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Gasolina: 15 L</text></svg>`
+    },
+    {
+      titulo: "Custo total",
+      legenda: "GNV: R$ 24,00 | Gasolina: R$ 45,00",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><rect x="30" y="30" width="24" height="60" fill="#10b981" opacity="0.6"/><rect x="120" y="10" width="24" height="80" fill="#f59e0b" opacity="0.6"/><text x="42" y="105" fill="#6ee7b7" font-size="10" text-anchor="middle">R$24</text><text x="132" y="105" fill="#fbbf24" font-size="10" text-anchor="middle">R$45</text></svg>`
+    },
+    {
+      titulo: "Diferença de custo",
+      legenda: "R$ 45,00 − R$ 24,00 = R$ 21,00",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 21,00</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Custo de Combustível",
+    descricao: "Ajuste rendimentos, preços e distância para comparar GNV e gasolina.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Distância (km): <span id="q167-dval" class="text-blue-300 font-bold">120</span></label>
+          <input type="range" id="q167-dist" min="20" max="300" step="10" value="120" class="w-full">
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <label class="text-xs text-slate-400">Rend. GNV (km/m³): <span id="q167-rgval" class="text-blue-300 font-bold">10</span></label>
+            <input type="range" id="q167-rgnv" min="4" max="20" step="1" value="10" class="w-full">
+          </div>
+          <div>
+            <label class="text-xs text-slate-400">Rend. gasolina (km/L): <span id="q167-rgaval" class="text-blue-300 font-bold">8</span></label>
+            <input type="range" id="q167-rgas" min="4" max="20" step="1" value="8" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Custo GNV / Custo gasolina</p>
+          <p id="q167-custos" class="text-lg font-bold text-blue-300">R$ 24,00 / R$ 45,00</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q167-diferenca" class="text-3xl font-bold text-emerald-400">R$ 21,00</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const dist = raiz.querySelector('#q167-dist');
+      const rgnv = raiz.querySelector('#q167-rgnv');
+      const rgas = raiz.querySelector('#q167-rgas');
+      const dval = raiz.querySelector('#q167-dval');
+      const rgval = raiz.querySelector('#q167-rgval');
+      const rgaval = raiz.querySelector('#q167-rgaval');
+      const custos = raiz.querySelector('#q167-custos');
+      const dif = raiz.querySelector('#q167-diferenca');
+      function atualizar() {
+        const D = parseFloat(dist.value);
+        const RG = parseFloat(rgnv.value);
+        const RGA = parseFloat(rgas.value);
+        dval.textContent = D; rgval.textContent = RG; rgaval.textContent = RGA;
+        const custoGnv = (D / RG) * 2;
+        const custoGas = (D / RGA) * 3;
+        custos.textContent = 'R$ ' + custoGnv.toFixed(2) + ' / R$ ' + custoGas.toFixed(2);
+        dif.textContent = 'R$ ' + Math.abs(custoGas - custoGnv).toFixed(2);
+      }
+      dist.addEventListener('input', atualizar);
+      rgnv.addEventListener('input', atualizar);
+      rgas.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">R$ 21,00</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q168",
+  numero: 168,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "clipboard-list",
+  titulo: "Orçamentos de Reforma: Qual Fornecedor Oferece o Menor Custo Total?",
+  tags: ["Multiplicação e soma", "Comparação de orçamentos", "Matemática financeira"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Para reformar um cômodo de sua casa, uma pessoa solicitou orçamentos a três fornecedores (I, II e III) para a compra de cimento e tinta. Cada fornecedor cobra um preço diferente por saco de cimento e por lata de tinta, conforme a tabela abaixo:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Fornecedor</th><th class="border border-slate-600 p-2">Preço/saco cimento</th><th class="border border-slate-600 p-2">Preço/lata tinta</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">I</td><td class="border border-slate-600 p-2">R$ 30,00</td><td class="border border-slate-600 p-2">R$ 140,00</td></tr>
+        <tr><td class="border border-slate-600 p-2">II</td><td class="border border-slate-600 p-2">R$ 20,00</td><td class="border border-slate-600 p-2">R$ 150,00</td></tr>
+        <tr><td class="border border-slate-600 p-2">III</td><td class="border border-slate-600 p-2">R$ 10,00</td><td class="border border-slate-600 p-2">R$ 160,00</td></tr>
+      </tbody>
+    </table>
+    <p>A reforma exige exatamente 10 sacos de cimento e 8 latas de tinta, independentemente do fornecedor escolhido.</p>
+    <p><strong>O fornecedor que oferece o menor custo total para essa compra é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Fornecedor I, com custo de R$ 1.420,00", correta: false },
+    { letra: "B", texto: "Fornecedor II, com custo de R$ 1.400,00", correta: false },
+    { letra: "C", texto: "Fornecedor III, com custo de R$ 1.400,00", correta: false },
+    { letra: "D", texto: "Fornecedor I, com custo de R$ 1.380,00", correta: false },
+    { letra: "E", texto: "Fornecedor III, com custo de R$ 1.380,00", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar orçamentos de múltiplos fornecedores exige calcular o custo TOTAL de cada um (não apenas comparar preços unitários isoladamente), pois um fornecedor pode ser mais barato em um item e mais caro em outro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o custo de cada item separadamente</p>
+        <p>Para cada fornecedor, o custo de um item é o preço unitário multiplicado pela quantidade necessária: custo do item = preço unitário × quantidade. Esse cálculo deve ser feito para cada item (cimento e tinta) separadamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Somando os custos para obter o total</p>
+        <p>O custo total de um fornecedor é a soma dos custos de todos os itens necessários: custo total = custo do cimento + custo da tinta. Esse é o valor que realmente deve ser comparado entre os fornecedores, não os preços unitários isolados.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que comparar apenas o preço unitário pode enganar</p>
+        <p>Um fornecedor pode ter o cimento mais barato, mas a tinta mais cara — o que pode resultar em um custo total maior ou menor, dependendo das quantidades envolvidas. Somente o cálculo do total revela qual opção é realmente mais econômica.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Identificando o menor valor entre os totais</p>
+        <p>Após calcular o custo total de cada fornecedor, basta compará-los diretamente e escolher o menor valor — esse é o fornecedor mais vantajoso financeiramente para a compra completa.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "x", titulo: "Custo por item", text: "Custo do item = preço unitário × quantidade necessária." },
+    { icone: "plus", titulo: "Custo total do fornecedor", text: "Soma dos custos de todos os itens necessários." },
+    { icone: "alert-triangle", titulo: "Cuidado com comparação parcial", text: "Comparar apenas um item pode levar a conclusões erradas sobre o total." },
+    { icone: "trophy", titulo: "Identificação do menor total", text: "Comparar os totais calculados, não os preços unitários isolados." },
+    { icone: "table", titulo: "Organização de dados em tabela", text: "Sistematizar os cálculos por fornecedor evita erros de comparação." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — Fornecedor III, R$ 1.380,00</p>
+        <p class="text-xs text-slate-300">Apesar de ter a tinta mais cara, o Fornecedor III tem o menor custo total entre os três, graças ao cimento muito mais barato.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o custo de cada fornecedor para 10 sacos de cimento e 8 latas de tinta:</strong> Fornecedor I: 10×30 + 8×140 = 300+1.120 = 1.420; Fornecedor II: 10×20 + 8×150 = 200+1.200 = 1.400; Fornecedor III: 10×10 + 8×160 = 100+1.280 = 1.380.</li>
+          <li><strong>Passo 2 — Comparar os totais calculados:</strong> I = R$ 1.420,00; II = R$ 1.400,00; III = R$ 1.380,00.</li>
+          <li><strong>Passo 3 — Identificar o menor valor:</strong> R$ 1.380,00, do Fornecedor III, é o menor entre os três totais, mesmo tendo a tinta mais cara.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Fornecedor I, R$ 1.420,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">O valor de R$ 1.420,00 está correto para o Fornecedor I, mas é o maior total entre os três, não o menor.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Fornecedor II, R$ 1.400,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">R$ 1.400,00 é o custo correto do Fornecedor II, mas ainda maior que o do Fornecedor III.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Fornecedor III, R$ 1.400,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o fornecedor certo, mas com o valor de custo total errado (na verdade, R$ 1.380,00, e não R$ 1.400,00, que é o total do Fornecedor II).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Fornecedor I, R$ 1.380,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">O valor de R$ 1.380,00 está correto, mas pertence ao Fornecedor III, não ao Fornecedor I.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) Fornecedor III, R$ 1.380,00 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente o fornecedor e o valor total mais baixo entre os três orçamentos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Preços unitários por fornecedor",
+      legenda: "Cimento e tinta têm preços diferentes em cada um",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="30" fill="#93c5fd" font-size="11" text-anchor="middle">I: cim R$30, tinta R$140</text><text x="110" y="55" fill="#fbbf24" font-size="11" text-anchor="middle">II: cim R$20, tinta R$150</text><text x="110" y="80" fill="#c4b5fd" font-size="11" text-anchor="middle">III: cim R$10, tinta R$160</text></svg>`
+    },
+    {
+      titulo: "Quantidade necessária",
+      legenda: "10 sacos de cimento, 8 latas de tinta",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="14" text-anchor="middle">10 cimento + 8 tinta</text></svg>`
+    },
+    {
+      titulo: "Custos totais",
+      legenda: "I: R$1.420 | II: R$1.400 | III: R$1.380",
+      svg: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="140" fill="#0f172a"/><rect x="30" y="30" width="30" height="90" fill="#3b82f6" opacity="0.6"/><rect x="90" y="45" width="30" height="75" fill="#f59e0b" opacity="0.6"/><rect x="150" y="55" width="30" height="65" fill="#10b981" opacity="0.6"/><text x="45" y="130" fill="#93c5fd" font-size="10" text-anchor="middle">I</text><text x="105" y="130" fill="#fbbf24" font-size="10" text-anchor="middle">II</text><text x="165" y="130" fill="#6ee7b7" font-size="10" text-anchor="middle">III</text></svg>`
+    },
+    {
+      titulo: "Fornecedor vencedor",
+      legenda: "III — o mais econômico, R$ 1.380,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">Fornecedor III</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Orçamentos",
+    descricao: "Ajuste os preços unitários e as quantidades para comparar os três fornecedores.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Sacos de cimento: <span id="q168-qcval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q168-qc" min="1" max="30" step="1" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Latas de tinta: <span id="q168-qtval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q168-qt" min="1" max="20" step="1" value="8" class="w-full">
+        </div>
+        <div id="q168-resultados" class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-xs space-y-1"></div>
+      </div>
+    `,
+    init: function(raiz) {
+      const qc = raiz.querySelector('#q168-qc');
+      const qt = raiz.querySelector('#q168-qt');
+      const qcval = raiz.querySelector('#q168-qcval');
+      const qtval = raiz.querySelector('#q168-qtval');
+      const resultados = raiz.querySelector('#q168-resultados');
+      const fornecedores = [
+        { nome: 'I', cimento: 30, tinta: 140 },
+        { nome: 'II', cimento: 20, tinta: 150 },
+        { nome: 'III', cimento: 10, tinta: 160 }
+      ];
+      function atualizar() {
+        const QC = parseFloat(qc.value);
+        const QT = parseFloat(qt.value);
+        qcval.textContent = QC;
+        qtval.textContent = QT;
+        const totais = fornecedores.map(f => ({ nome: f.nome, total: f.cimento * QC + f.tinta * QT }));
+        const menor = totais.reduce((a, b) => a.total < b.total ? a : b);
+        resultados.innerHTML = totais.map(t =>
+          '<div class="flex justify-between ' + (t.nome === menor.nome ? 'text-emerald-400 font-bold' : 'text-slate-300') + '">' +
+          '<span>Fornecedor ' + t.nome + '</span><span>R$ ' + t.total.toFixed(2) + '</span></div>'
+        ).join('');
+      }
+      qc.addEventListener('input', atualizar);
+      qt.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Fornecedor III: R$1.380</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q169",
+  numero: 169,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "wheat",
+  titulo: "Cooperativa Agrícola: Calculando a Produção Estimada de 5 Talhões",
+  tags: ["Aplicação de fórmulas", "Multiplicação", "Interpretação de tabelas"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma cooperativa agrícola usa a seguinte fórmula, estabelecida por seu departamento técnico, para estimar a produção de grãos (em toneladas) de cada talhão de cultivo, já descontando perdas médias esperadas na colheita:</p>
+    <p class="text-center font-mono bg-slate-800/60 p-2 rounded">Produção (ton) = Área (ha) × Produtividade (sacas/ha) × 0,05</p>
+    <p>A tabela a seguir apresenta a área e a produtividade registradas em 5 talhões da cooperativa:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Talhão</th><th class="border border-slate-600 p-2">Área (ha)</th><th class="border border-slate-600 p-2">Produtividade (sacas/ha)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">1</td><td class="border border-slate-600 p-2">400</td><td class="border border-slate-600 p-2">20</td></tr>
+        <tr><td class="border border-slate-600 p-2">2</td><td class="border border-slate-600 p-2">300</td><td class="border border-slate-600 p-2">22</td></tr>
+        <tr><td class="border border-slate-600 p-2">3</td><td class="border border-slate-600 p-2">450</td><td class="border border-slate-600 p-2">25</td></tr>
+        <tr><td class="border border-slate-600 p-2">4</td><td class="border border-slate-600 p-2">375</td><td class="border border-slate-600 p-2">30</td></tr>
+        <tr><td class="border border-slate-600 p-2">5</td><td class="border border-slate-600 p-2">400</td><td class="border border-slate-600 p-2">25</td></tr>
+      </tbody>
+    </table>
+    <p><strong>A sequência que apresenta corretamente a produção estimada (em toneladas), na ordem dos talhões 1 a 5, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "400 | 330 | 562,5 | 562,5 | 500", correta: true },
+    { letra: "B", texto: "400 | 330 | 550 | 550 | 500", correta: false },
+    { letra: "C", texto: "420 | 330 | 562,5 | 562,5 | 500", correta: false },
+    { letra: "D", texto: "400 | 300 | 562,5 | 562,5 | 500", correta: false },
+    { letra: "E", texto: "400 | 330 | 562,5 | 600 | 500", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Aplicar uma fórmula dada literalmente a múltiplas linhas de uma tabela é um exercício de atenção e repetição cuidadosa — o risco não é entender a fórmula, mas errar a multiplicação em uma linha específica sem perceber.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Aplicando a fórmula literalmente</p>
+        <p>Quando um problema fornece uma fórmula pronta, o primeiro passo é identificar exatamente quais valores da tabela correspondem a cada variável da fórmula, e então substituir e calcular, exatamente como escrito — sem tentar "simplificar" ou reinterpretar a fórmula.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Multiplicação em cadeia</p>
+        <p>Aqui, a fórmula envolve três fatores multiplicados: área, produtividade e a constante 0,05. A ordem da multiplicação não importa (propriedade comutativa), mas é importante não esquecer nenhum dos três fatores durante o cálculo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Repetindo o processo para cada linha</p>
+        <p>Como a tabela tem 5 talhões, a fórmula deve ser aplicada 5 vezes, uma para cada linha, com os valores específicos de área e produtividade daquele talhão. Um erro comum é usar valores de uma linha errada ao calcular outra.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Conferindo resultados com casas decimais</p>
+        <p>Alguns resultados podem não ser números inteiros (como 562,5). É importante manter a precisão decimal correta e não arredondar prematuramente, pois isso pode fazer o resultado final não bater com nenhuma das alternativas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "function-square", titulo: "Aplicação literal de fórmula", text: "Substituir cada variável pelo valor correspondente da tabela e calcular." },
+    { icone: "x", titulo: "Multiplicação em cadeia", text: "Multiplicar três fatores (área, produtividade, constante) na fórmula dada." },
+    { icone: "repeat", titulo: "Repetição sistemática", text: "Aplicar a mesma fórmula a cada linha da tabela, sem trocar valores entre linhas." },
+    { icone: "hash", titulo: "Precisão decimal", text: "Manter casas decimais exatas (como 562,5) sem arredondar antes da hora." },
+    { icone: "table", titulo: "Leitura cuidadosa de tabelas", text: "Associar corretamente cada valor da tabela à linha e variável correspondente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 400 | 330 | 562,5 | 562,5 | 500</p>
+        <p class="text-xs text-slate-300">Aplicando a fórmula a cada talhão, obtém-se exatamente essa sequência de valores.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Aplicar a fórmula ao Talhão 1:</strong> 400 × 20 × 0,05 = 400 toneladas.</li>
+          <li><strong>Passo 2 — Aplicar aos Talhões 2, 3 e 4:</strong> Talhão 2: 300×22×0,05=330; Talhão 3: 450×25×0,05=562,5; Talhão 4: 375×30×0,05=562,5.</li>
+          <li><strong>Passo 3 — Aplicar ao Talhão 5:</strong> 400×25×0,05=500. Sequência final: 400, 330, 562,5, 562,5, 500.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 400 | 330 | 562,5 | 562,5 | 500 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Todos os cinco valores calculados corretamente pela fórmula fornecida.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 400 | 330 | 550 | 550 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra os Talhões 3 e 4, arredondando incorretamente 562,5 para 550.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 420 | 330 | 562,5 | 562,5 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 1, calculando 420 em vez de 400 (erro na multiplicação).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 400 | 300 | 562,5 | 562,5 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 2, esquecendo de multiplicar pela produtividade corretamente (usa só a área).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 400 | 330 | 562,5 | 600 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 4, calculando um valor incorreto (600 em vez de 562,5).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A fórmula da cooperativa",
+      legenda: "Produção = Área × Produtividade × 0,05",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="monospace">Área × Produtividade × 0,05</text></svg>`
+    },
+    {
+      titulo: "Dados dos 5 talhões",
+      legenda: "Área e produtividade de cada um",
+      svg: `<svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="140" fill="#0f172a"/>${[['1',400,20],['2',300,22],['3',450,25],['4',375,30],['5',400,25]].map((d,i)=>`<text x="10" y="${25+i*24}" fill="#93c5fd" font-size="10">T${d[0]}: ${d[1]}ha × ${d[2]}sc/ha</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Produção calculada",
+      legenda: "400, 330, 562,5, 562,5, 500 toneladas",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[400,330,562.5,562.5,500].map((v,i)=>`<rect x="${20+i*45}" y="${90-v/8}" width="30" height="${v/8}" fill="#10b981" opacity="0.6"/>`).join('')}</svg>`
+    },
+    {
+      titulo: "Sequência final",
+      legenda: "400 | 330 | 562,5 | 562,5 | 500",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#6ee7b7" font-size="13" text-anchor="middle" font-weight="bold">400,330,562.5,562.5,500</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Produção Agrícola",
+    descricao: "Ajuste área e produtividade de um talhão para calcular a produção estimada.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Área (ha): <span id="q169-aval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q169-area" min="50" max="600" step="25" value="400" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Produtividade (sacas/ha): <span id="q169-pval" class="text-blue-300 font-bold">20</span></label>
+          <input type="range" id="q169-produtividade" min="5" max="50" step="1" value="20" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Produção estimada</p>
+          <p id="q169-resultado" class="text-3xl font-bold text-emerald-400">400 ton</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const area = raiz.querySelector('#q169-area');
+      const prod = raiz.querySelector('#q169-produtividade');
+      const aval = raiz.querySelector('#q169-aval');
+      const pval = raiz.querySelector('#q169-pval');
+      const resultado = raiz.querySelector('#q169-resultado');
+      function atualizar() {
+        const A = parseFloat(area.value);
+        const P = parseFloat(prod.value);
+        aval.textContent = A;
+        pval.textContent = P;
+        const producao = A * P * 0.05;
+        resultado.textContent = producao.toLocaleString('pt-BR', {maximumFractionDigits: 1}) + ' ton';
+      }
+      area.addEventListener('input', atualizar);
+      prod.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">400,330,562.5,562.5,500</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q170",
+  numero: 170,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flask-round",
+  titulo: "Aquário Escolar: Quantas Garrafas Podem Ser Enchidas Sem Prejudicar os Peixes?",
+  tags: ["Inequações", "Volume", "Matemática aplicada"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um professor de ciências mantém um aquário na sala de aula e, ao medir o nível da água com uma régua, constata que ela está na marca de 2 dm de altura, o que corresponde a um volume de 7,5 litros de água no aquário.</p>
+    <p>Para um experimento, os alunos precisam retirar água do aquário, enchendo pequenas garrafas de exatamente 0,3 litro cada. Por questões de segurança dos peixes, o volume de água no aquário não pode ficar abaixo de 5 litros em nenhum momento.</p>
+    <p><strong>O número máximo de garrafas de 0,3 litro que podem ser enchidas com a água do aquário, sem que o volume fique abaixo de 5 litros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "7", correta: false },
+    { letra: "B", texto: "8", correta: true },
+    { letra: "C", texto: "9", correta: false },
+    { letra: "D", texto: "10", correta: false },
+    { letra: "E", texto: "25", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de "quantas vezes posso retirar uma quantidade fixa sem ultrapassar um limite" são resolvidos com uma inequação simples — e a resposta final deve respeitar que o número de vezes é sempre um número inteiro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Montando a inequação do problema</p>
+        <p>Se o volume inicial é V0, cada garrafa retira uma quantidade fixa c, e o volume não pode ficar abaixo de um limite L após n garrafas, a condição é: V0 − c×n ≥ L, em que n é o número de garrafas cheias.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a variável n</p>
+        <p>Reorganizando a inequação: V0 − L ≥ c×n, e portanto n ≤ (V0 − L) / c. Essa manipulação algébrica isola o número máximo de garrafas permitido pela condição de segurança.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Arredondando para baixo (não é possível garrafa "fracionada")</p>
+        <p>Como o número de garrafas deve ser um número inteiro, e a inequação permite até um valor decimal (por exemplo, 8,33), o número máximo real de garrafas é o maior inteiro menor ou igual a esse valor — ou seja, arredondar para baixo, não para o inteiro mais próximo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificando o resultado</p>
+        <p>Uma boa prática é verificar se o número encontrado realmente satisfaz a condição original: com o número máximo de garrafas, o volume restante deve ser ≥ ao limite; com uma garrafa a mais, o volume restante deve ficar abaixo do limite.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "droplet", titulo: "Inequação de volume", text: "Volume inicial menos (quantidade × número de retiradas) deve respeitar um limite mínimo." },
+    { icone: "divide", titulo: "Isolamento da variável", text: "n ≤ (volume inicial − limite) / quantidade retirada por vez." },
+    { icone: "arrow-down", titulo: "Arredondamento para baixo", text: "O número de garrafas deve ser inteiro; arredondar sempre para baixo em problemas de 'no máximo'." },
+    { icone: "check-circle", titulo: "Verificação do limite", text: "Confirmar que o número encontrado não ultrapassa a condição de segurança." },
+    { icone: "flask-conical", titulo: "Aplicação prática de inequações", text: "Cenários de segurança ou limite mínimo/máximo se traduzem naturalmente em inequações." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 8 garrafas</p>
+        <p class="text-xs text-slate-300">Resolvendo a inequação 7,5 − 0,3n ≥ 5, obtém-se n ≤ 8,33, então o máximo inteiro é 8.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Montar a inequação:</strong> 7,5 − 0,3n ≥ 5, em que n é o número de garrafas.</li>
+          <li><strong>Passo 2 — Isolar n:</strong> 7,5 − 5 ≥ 0,3n → 2,5 ≥ 0,3n → n ≤ 2,5/0,3 ≈ 8,33.</li>
+          <li><strong>Passo 3 — Arredondar para baixo:</strong> como n deve ser inteiro, o máximo é 8 garrafas. Verificação: 7,5 − 0,3×8 = 7,5 − 2,4 = 5,1 L (≥5, válido); com 9 garrafas: 7,5 − 2,7 = 4,8 L (abaixo do limite).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 7 — Incorreta</p>
+          <p class="text-xs text-slate-400">Subestima o número máximo de garrafas — ainda seria possível encher mais uma sem violar o limite.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 8 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Máximo número inteiro de garrafas que mantém o volume restante ≥ 5 litros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 9 — Incorreta</p>
+          <p class="text-xs text-slate-400">Arredonda incorretamente para cima (de 8,33 para 9), violando a condição de segurança.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de ignorar completamente a inequação e usar apenas parte do cálculo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 25 — Incorreta</p>
+          <p class="text-xs text-slate-400">Divide o volume total (7,5) pela quantidade por garrafa (0,3) sem considerar o limite mínimo de segurança.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Volume inicial do aquário",
+      legenda: "7,5 litros na marca de 2 dm",
+      svg: `<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="180" fill="#0f172a"/><rect x="30" y="20" width="100" height="140" fill="none" stroke="#3b82f6" stroke-width="2"/><rect x="30" y="60" width="100" height="100" fill="#3b82f6" opacity="0.4"/><text x="80" y="45" fill="#93c5fd" font-size="12" text-anchor="middle">7,5 L</text></svg>`
+    },
+    {
+      titulo: "Limite mínimo de segurança",
+      legenda: "5 litros — não pode ficar abaixo",
+      svg: `<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="180" fill="#0f172a"/><rect x="30" y="20" width="100" height="140" fill="none" stroke="#3b82f6" stroke-width="2"/><line x1="30" y1="93" x2="130" y2="93" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/><text x="80" y="85" fill="#f87171" font-size="11" text-anchor="middle">limite: 5 L</text></svg>`
+    },
+    {
+      titulo: "Inequação",
+      legenda: "7,5 − 0,3n ≥ 5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">7,5 − 0,3n ≥ 5</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "n ≤ 8,33 → máximo 8 garrafas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">8 garrafas</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Limite de Retiradas do Aquário",
+    descricao: "Ajuste volume inicial, quantidade por garrafa e limite mínimo para calcular o máximo de garrafas.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Volume inicial (L): <span id="q170-vval" class="text-blue-300 font-bold">7.5</span></label>
+          <input type="range" id="q170-volume" min="3" max="20" step="0.5" value="7.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Volume por garrafa (L): <span id="q170-gval" class="text-blue-300 font-bold">0.3</span></label>
+          <input type="range" id="q170-garrafa" min="0.1" max="1" step="0.05" value="0.3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Limite mínimo (L): <span id="q170-lval" class="text-blue-300 font-bold">5</span></label>
+          <input type="range" id="q170-limite" min="1" max="15" step="0.5" value="5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Número máximo de garrafas</p>
+          <p id="q170-resultado" class="text-3xl font-bold text-emerald-400">8</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const volume = raiz.querySelector('#q170-volume');
+      const garrafa = raiz.querySelector('#q170-garrafa');
+      const limite = raiz.querySelector('#q170-limite');
+      const vval = raiz.querySelector('#q170-vval');
+      const gval = raiz.querySelector('#q170-gval');
+      const lval = raiz.querySelector('#q170-lval');
+      const resultado = raiz.querySelector('#q170-resultado');
+      function atualizar() {
+        const V = parseFloat(volume.value);
+        const G = parseFloat(garrafa.value);
+        const L = parseFloat(limite.value);
+        vval.textContent = V.toFixed(2);
+        gval.textContent = G.toFixed(2);
+        lval.textContent = L.toFixed(1);
+        const n = Math.max(0, Math.floor((V - L) / G + 1e-9));
+        resultado.textContent = n;
+      }
+      volume.addEventListener('input', atualizar);
+      garrafa.addEventListener('input', atualizar);
+      limite.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">8 garrafas</text></svg>`,
+  simuladorType: null
 }
 
 ];
