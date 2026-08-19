@@ -10151,6 +10151,282 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q117",
+    numero: "Questão 117",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Equilíbrio Químico & Princípio de Le Chatelier",
+    materiaCor: "cyan",
+    materiaIcone: "fa-scale-balanced",
+    titulo: "Cloração do Dióxido de Titânio: Deslocando o Equilíbrio a Favor do TiCl₄",
+    tags: ["Química", "Equilíbrio Químico", "Princípio de Le Chatelier", "Pressão Parcial", "Reação Endotérmica", "Sólidos em Equilíbrio"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Para a produção de titânio metálico ou dióxido de titânio puros, é necessário fazer a cloração do minério que contém dióxido de titânio, com o objetivo de separar esse óxido de outras substâncias presentes no minério. A principal reação química de cloração é representada por:
+    <br><br>
+    $$TiO_{2(s)} + 2\\,Cl_{2(g)} \\rightleftharpoons TiCl_{4(g)} + O_{2(g)} \\qquad \\Delta H = +175\\ kJ/mol$$
+    <br>
+    Depois da cloração, o tetracloreto de titânio é condensado e convertido, novamente, a dióxido de titânio.
+    <br><br>
+    Após o sistema atingir o equilíbrio químico, como a formação do $TiCl_4$ pode ser favorecida?`,
+
+    alternativas: [
+      { letra: "A", texto: "Aumentando a pressão total do sistema.", correta: false },
+      { letra: "B", texto: "Diminuindo a temperatura do sistema.", correta: false },
+      { letra: "C", texto: "Aumentando a pressão parcial de O₂.", correta: false },
+      { letra: "D", texto: "Aumentando a pressão parcial de Cl₂.", correta: true },
+      { letra: "E", texto: "Variando a quantidade de TiO₂.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela explica por que dá para "empurrar" um equilíbrio químico para o lado que você quer — mudando concentração, pressão parcial ou temperatura — e por que nem toda mudança tem efeito.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O que é um equilíbrio químico</h4>
+          <p>
+            A seta dupla ($\\rightleftharpoons$) indica que a reação é <strong>reversível</strong>: TiO₂ e Cl₂ reagem para formar TiCl₄ e O₂, ao mesmo tempo em que TiCl₄ e O₂ reagem para regenerar TiO₂ e Cl₂. No <strong>equilíbrio</strong>, as velocidades das reações direta e inversa se igualam, e as quantidades de cada substância param de variar — mas as reações continuam acontecendo (equilíbrio <em>dinâmico</em>, não parado).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Princípio de Le Chatelier</h4>
+          <p>
+            Quando um sistema em equilíbrio sofre uma perturbação (mudança de concentração, pressão ou temperatura), ele se desloca no sentido que <strong>minimiza</strong> essa perturbação. Na prática: aumentar a quantidade de um <strong>reagente</strong> desloca o equilíbrio para a <strong>direita</strong> (mais produtos); aumentar a quantidade de um <strong>produto</strong> desloca para a <strong>esquerda</strong> (mais reagentes).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Pressão parcial funciona como concentração</h4>
+          <p>
+            Para um gás, aumentar sua <strong>pressão parcial</strong> equivale a aumentar sua concentração no sistema. Como $Cl_2$ é reagente, aumentar a pressão parcial de $Cl_2$ desloca o equilíbrio para a direita, favorecendo a formação de $TiCl_4$. Já $O_2$ é produto: aumentar a pressão parcial de $O_2$ faz o efeito contrário, deslocando o equilíbrio para a esquerda.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Pressão total só importa se o nº de mols de gás muda</h4>
+          <p>
+            Aumentar a <strong>pressão total</strong> do sistema (comprimindo o volume) desloca o equilíbrio para o lado com <strong>menos mols de gás</strong>. Aqui, os reagentes gasosos somam 2 mol ($2\\,Cl_2$) e os produtos gasosos também somam 2 mol ($TiCl_4 + O_2$) — o $TiO_2$ é sólido e não conta. Como $\\Delta n_{gás} = 0$, mudar a pressão total <strong>não desloca</strong> esse equilíbrio para nenhum lado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Temperatura em reação endotérmica</h4>
+          <p>
+            Com $\\Delta H = +175\\ kJ/mol$, a reação direta (formação de $TiCl_4$) é <strong>endotérmica</strong> — absorve calor. Pense no calor como se fosse mais um "reagente": aumentar a temperatura desloca o equilíbrio para a direita (mais $TiCl_4$); <strong>diminuir</strong> a temperatura desloca para a esquerda, ou seja, atrapalha a formação de $TiCl_4$.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">6.</span> Sólidos puros não entram na "conta" do equilíbrio</h4>
+          <p>
+            $TiO_2$ é um sólido puro. A concentração (ou "atividade") de um sólido puro é constante e, por convenção, não aparece na expressão da constante de equilíbrio. Por isso, aumentar ou diminuir a quantidade de $TiO_2$ sólido presente <strong>não altera a posição do equilíbrio</strong>, desde que ainda haja sólido suficiente para a reação ocorrer.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-scale-balanced", titulo: "Princípio de Le Chatelier", text: "Uma perturbação no equilíbrio (concentração, pressão parcial ou temperatura) desloca o sistema no sentido que minimiza essa perturbação." },
+      { icone: "fa-wind", titulo: "Pressão parcial de reagente vs. produto", text: "Aumentar a pressão parcial de um reagente desloca para os produtos; aumentar a de um produto desloca para os reagentes." },
+      { icone: "fa-compress", titulo: "Pressão total e Δn de gás", text: "Só desloca o equilíbrio se o número de mols de gás for diferente entre reagentes e produtos. Aqui, Δn = 0 (2 mol de cada lado)." },
+      { icone: "fa-temperature-high", titulo: "Temperatura em reação endotérmica", text: "Com ΔH positivo, aumentar a temperatura favorece os produtos; diminuir a temperatura favorece os reagentes." },
+      { icone: "fa-cube", titulo: "Sólidos puros", text: "Não entram na expressão de Kc/Kp — variar a quantidade de um sólido puro não desloca o equilíbrio." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/40 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>Aumentar a pressão parcial de $Cl_2$ — um reagente — desloca o equilíbrio para a direita, favorecendo a formação de $TiCl_4$, conforme o Princípio de Le Chatelier.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique reagentes, produtos e fases.</strong> Reagentes: $TiO_{2(s)}$ e $Cl_{2(g)}$. Produtos: $TiCl_{4(g)}$ e $O_{2(g)}$. Note que $TiO_2$ é sólido — isso já elimina a alternativa E.</p>
+          <p><strong>Passo 2 — Conte os mols de gás de cada lado.</strong> Reagentes gasosos: 2 mol ($2\\,Cl_2$). Produtos gasosos: 2 mol ($TiCl_4 + O_2$). Como são iguais, mudar a pressão total não desloca o equilíbrio — isso elimina a alternativa A.</p>
+          <p><strong>Passo 3 — Aplique Le Chatelier em cada alternativa restante.</strong> $\\Delta H > 0$ (endotérmica direta): esfriar atrapalha a formação de $TiCl_4$ (elimina B). Aumentar pressão parcial de $O_2$ (produto) desloca para a esquerda (elimina C). Só resta D: aumentar pressão parcial de $Cl_2$ (reagente) desloca para a direita — favorece $TiCl_4$.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Aumentar a pressão total — ERRADA</p>
+            <p class="text-xs">Reagentes e produtos gasosos somam 2 mol de cada lado ($\\Delta n_{gás} = 0$). Sem diferença no número de mols de gás, mudar a pressão total não desloca esse equilíbrio para nenhum sentido.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Diminuir a temperatura — ERRADA</p>
+            <p class="text-xs">A reação direta é endotérmica ($\\Delta H = +175\\ kJ/mol$). Diminuir a temperatura desloca o equilíbrio no sentido exotérmico (para os reagentes), reduzindo — e não favorecendo — a formação de $TiCl_4$.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Aumentar a pressão parcial de O₂ — ERRADA</p>
+            <p class="text-xs">$O_2$ é um produto. Aumentar a concentração/pressão parcial de um produto desloca o equilíbrio para o lado dos reagentes, consumindo (e não formando) mais $TiCl_4$.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) Aumentar a pressão parcial de Cl₂ — CORRETA</p>
+            <p class="text-xs">$Cl_2$ é reagente. Aumentar sua pressão parcial desloca o equilíbrio para a direita, na direção de formação de $TiCl_4$ e $O_2$ — exatamente o que a pergunta pede.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Variar a quantidade de TiO₂ — ERRADA</p>
+            <p class="text-xs">$TiO_2$ é um sólido puro: sua concentração (atividade) é constante e não entra na expressão do equilíbrio. Variar a quantidade de sólido presente não desloca a posição do equilíbrio.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Reação de cloração do TiO₂ e o efeito de cada fator",
+        legenda: "Cl₂ e TiCl₄/O₂ estão em pé de igualdade (2 mol de gás de cada lado) — só concentração/pressão parcial e temperatura deslocam esse equilíbrio.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="15" y="45" width="150" height="60" rx="6" fill="#083344" stroke="#22d3ee" stroke-width="1.5"/>
+            <text x="90" y="68" fill="#a5f3fc" font-size="9" font-weight="bold" text-anchor="middle">TiO₂(s) + 2 Cl₂(g)</text>
+            <text x="90" y="84" fill="#67e8f9" font-size="7" text-anchor="middle">reagentes · 2 mol gás</text>
+            <text x="90" y="98" fill="#67e8f9" font-size="7" text-anchor="middle">(TiO₂ é sólido, não conta)</text>
+            <text x="225" y="68" fill="#facc15" font-size="16" text-anchor="middle">⇌</text>
+            <text x="225" y="88" fill="#94a3b8" font-size="7" text-anchor="middle">ΔH = +175 kJ/mol</text>
+            <rect x="285" y="45" width="160" height="60" rx="6" fill="#083344" stroke="#22d3ee" stroke-width="1.5"/>
+            <text x="365" y="68" fill="#a5f3fc" font-size="9" font-weight="bold" text-anchor="middle">TiCl₄(g) + O₂(g)</text>
+            <text x="365" y="84" fill="#67e8f9" font-size="7" text-anchor="middle">produtos · 2 mol gás</text>
+            <text x="365" y="98" fill="#67e8f9" font-size="7" text-anchor="middle">(alvo: favorecer este lado)</text>
+            <text x="225" y="130" fill="#94a3b8" font-size="7" text-anchor="middle">Δn gás = 2 − 2 = 0 → pressão total não desloca o equilíbrio</text>
+          </svg>`
+      },
+      {
+        titulo: "Resumo dos 5 fatores de Le Chatelier nesta questão",
+        legenda: "Só a alternativa D empurra o equilíbrio para a formação de TiCl₄.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Alternativa</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Efeito sobre a formação de TiCl₄</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) ↑ pressão total</text>
+            <text x="220" y="52" fill="#94a3b8" font-size="7">nenhum efeito (Δn gás = 0)</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) ↓ temperatura</text>
+            <text x="220" y="76" fill="#94a3b8" font-size="7">atrapalha (reação direta é endotérmica)</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) ↑ pressão parcial de O₂</text>
+            <text x="220" y="100" fill="#94a3b8" font-size="7">atrapalha (produto em excesso)</text>
+
+            <rect x="10" y="108" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="125" fill="#6ee7b7" font-size="8" font-weight="bold">D) ↑ pressão parcial de Cl₂ ✓</text>
+            <text x="330" y="125" fill="#a7f3d0" font-size="7" font-weight="bold" text-anchor="middle">favorece (reagente em excesso)</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) variar quantidade de TiO₂</text>
+            <text x="220" y="150" fill="#94a3b8" font-size="7">nenhum efeito (sólido puro)</text>
+          </svg>`
+      }
+    ],
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-scale-balanced"></i> Reagente em excesso empurra o equilíbrio para os produtos</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="25" width="140" height="50" fill="#083344" stroke="#22d3ee" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#a5f3fc" font-size="9" font-weight="bold" text-anchor="middle">↑ Cl₂ (reagente)</text>
+          <text x="90" y="65" fill="#67e8f9" font-size="7" text-anchor="middle">pressão parcial maior</text>
+          <text x="230" y="55" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <rect x="300" y="25" width="140" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="370" y="50" fill="#d1fae5" font-size="9" font-weight="bold" text-anchor="middle">↑ TiCl₄ + O₂</text>
+          <text x="370" y="65" fill="#a7f3d0" font-size="7" text-anchor="middle">formação favorecida</text>
+        </svg>
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       5. LABORATÓRIO (simulador interativo)
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Qual fator favorece a formação de TiCl₄?",
+      descricao: "Escolha uma das cinco mudanças propostas na questão e veja se ela favorece, atrapalha ou não afeta a formação de TiCl₄ no equilíbrio.",
+      html: `
+        <div class="space-y-3" data-sim="raiz-q117">
+          <div class="grid grid-cols-1 gap-2 text-xs">
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 hover:border-cyan-500 cursor-pointer">
+              <input type="radio" name="fatorQ117" value="pressaoTotal" data-sim="tipo">
+              <span>A) Aumentar a pressão total do sistema</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 hover:border-cyan-500 cursor-pointer">
+              <input type="radio" name="fatorQ117" value="temperatura" data-sim="tipo">
+              <span>B) Diminuir a temperatura do sistema</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 hover:border-cyan-500 cursor-pointer">
+              <input type="radio" name="fatorQ117" value="pressaoO2" data-sim="tipo">
+              <span>C) Aumentar a pressão parcial de O₂</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 hover:border-cyan-500 cursor-pointer">
+              <input type="radio" name="fatorQ117" value="pressaoCl2" data-sim="tipo">
+              <span>D) Aumentar a pressão parcial de Cl₂</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 hover:border-cyan-500 cursor-pointer">
+              <input type="radio" name="fatorQ117" value="quantidadeTiO2" data-sim="tipo">
+              <span>E) Variar a quantidade de TiO₂</span>
+            </label>
+          </div>
+          <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-950 text-slate-400">
+            Escolha uma alternativa acima para ver o efeito sobre o equilíbrio.
+          </div>
+        </div>
+      `,
+      init(raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="tipo"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          pressaoTotal: { favorece: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200', texto: '<strong>Sem efeito.</strong> Reagentes e produtos gasosos somam 2 mol de cada lado (Δn gás = 0) — mudar a pressão total não desloca esse equilíbrio.' },
+          temperatura: { favorece: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Atrapalha.</strong> A reação direta é endotérmica (ΔH = +175 kJ/mol) — diminuir a temperatura desloca o equilíbrio para os reagentes, reduzindo a formação de TiCl₄.' },
+          pressaoO2: { favorece: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Atrapalha.</strong> O₂ é produto. Aumentar sua pressão parcial desloca o equilíbrio para os reagentes, consumindo TiCl₄ em vez de formá-lo.' },
+          pressaoCl2: { favorece: true, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200', texto: '<strong>É exatamente isso!</strong> Cl₂ é reagente. Aumentar sua pressão parcial desloca o equilíbrio para a direita, favorecendo a formação de TiCl₄ — esta é a resposta da questão.' },
+          quantidadeTiO2: { favorece: false, classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200', texto: '<strong>Sem efeito.</strong> TiO₂ é sólido puro: sua concentração não entra na expressão do equilíbrio, então variar sua quantidade não desloca a posição do equilíbrio.' }
+        };
+
+        function atualizar() {
+          var checked = raiz.querySelector('[data-sim="tipo"]:checked');
+          if (!checked) return;
+          var d = dados[checked.value];
+          painel.className = d.classe;
+          painel.innerHTML = d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+      }
+    },
+    simuladorType: null
   }
 
 ];
