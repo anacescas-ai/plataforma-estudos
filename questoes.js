@@ -17608,6 +17608,1023 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">R$ 0,42</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q147",
+  numero: 147,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "languages",
+  titulo: "Escola de Idiomas: Quantos Alunos Estudam Francês em 2025?",
+  tags: ["Porcentagem", "Proporcionalidade", "Interpretação de dados"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma escola de idiomas oferece cursos de inglês, espanhol e francês. Em 2024, a escola teve um total de 400 alunos matriculados nesses três cursos. Em 2025, o número total de alunos permaneceu o mesmo (400), mas a distribuição percentual entre os cursos mudou: agora, 10% dos alunos estão matriculados no curso de francês.</p>
+    <p><strong>O número de alunos matriculados no curso de francês em 2025 é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4", correta: false },
+    { letra: "B", texto: "10", correta: false },
+    { letra: "C", texto: "20", correta: false },
+    { letra: "D", texto: "30", correta: false },
+    { letra: "E", texto: "40", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Calcular "x% de um total" é uma das operações mais recorrentes do dia a dia e do ENEM: converter a porcentagem em fração ou decimal e multiplicar pelo total.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Porcentagem como fração de 100</p>
+        <p>Uma porcentagem p% representa a fração p/100. Assim, "10% de um total T" significa (10/100) × T, ou equivalentemente 0,10 × T.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Identificando o total correto</p>
+        <p>É essencial identificar sobre qual total a porcentagem está sendo aplicada. Nesta questão, o total de alunos (400) permaneceu constante entre os anos, então a porcentagem de 2025 se aplica a esse mesmo total de 400 alunos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando o cálculo</p>
+        <p>Uma vez identificados o percentual (10%) e o total (400), basta multiplicar: 0,10 × 400 = 40 alunos matriculados em francês em 2025.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atalho mental para porcentagens "redondas"</p>
+        <p>Para calcular 10% de qualquer número, basta dividir esse número por 10 (deslocar a vírgula uma casa para a esquerda). Esse atalho é útil para verificar rapidamente resultados de questões de porcentagem em provas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Porcentagem como fração", text: "p% = p/100, aplicado multiplicando pelo total de referência." },
+    { icone: "target", titulo: "Identificar o total correto", text: "Verificar sobre qual quantidade a porcentagem está sendo calculada." },
+    { icone: "divide", titulo: "Atalho de 10%", text: "10% de um número é obtido dividindo esse número por 10." },
+    { icone: "calendar", titulo: "Comparação entre anos", text: "O total permanece constante; apenas a distribuição percentual muda." },
+    { icone: "calculator", titulo: "Multiplicação direta", text: "Percentual em decimal × total = quantidade correspondente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 40 alunos</p>
+        <p class="text-xs text-slate-300">10% de 400 alunos = 40 alunos matriculados em francês em 2025.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar o total:</strong> 400 alunos matriculados na escola em 2025.</li>
+          <li><strong>Passo 2 — Converter a porcentagem:</strong> 10% = 10/100 = 0,10.</li>
+          <li><strong>Passo 3 — Multiplicar:</strong> 0,10 × 400 = 40 alunos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 1% de 400, não 10%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o percentual (10%) com o próprio número de alunos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 5% de 400 em vez de 10%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 7,5% de 400, um erro no valor do percentual usado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 40 — Correta ✓</p>
+          <p class="text-xs text-slate-400">0,10 × 400 = 40 alunos matriculados em francês.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Total de alunos",
+      legenda: "400 alunos matriculados em 2025",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="140" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="100" y="65" fill="#93c5fd" font-size="16" text-anchor="middle" font-weight="bold">400 alunos</text></svg>`
+    },
+    {
+      titulo: "10% em francês",
+      legenda: "Fração destacada do total",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="140" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="30" y="30" width="14" height="60" fill="#f59e0b" opacity="0.8"/><text x="100" y="105" fill="#fbbf24" font-size="11" text-anchor="middle">10% = francês</text></svg>`
+    },
+    {
+      titulo: "Cálculo direto",
+      legenda: "0,10 × 400 = 40",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">0,10 × 400 = 40</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "40 alunos em francês",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><circle cx="100" cy="55" r="40" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="63" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">40</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Porcentagem",
+    descricao: "Ajuste o total de alunos e o percentual para calcular a quantidade correspondente.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Total de alunos: <span id="q147-tval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q147-total" min="50" max="1000" step="10" value="400" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Percentual em francês (%): <span id="q147-pval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q147-perc" min="1" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Alunos matriculados em francês</p>
+          <p id="q147-resultado" class="text-3xl font-bold text-emerald-400">40</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const total = raiz.querySelector('#q147-total');
+      const perc = raiz.querySelector('#q147-perc');
+      const tval = raiz.querySelector('#q147-tval');
+      const pval = raiz.querySelector('#q147-pval');
+      const resultado = raiz.querySelector('#q147-resultado');
+      function atualizar() {
+        const T = parseFloat(total.value);
+        const P = parseFloat(perc.value);
+        tval.textContent = T;
+        pval.textContent = P;
+        resultado.textContent = Math.round(T * P / 100);
+      }
+      total.addEventListener('input', atualizar);
+      perc.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="26" text-anchor="middle" font-weight="bold">40 alunos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q148",
+  numero: 148,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "ruler",
+  titulo: "Maquete Arquitetônica: Qual Trecho é o Mais Longo na Realidade?",
+  tags: ["Escala", "Proporcionalidade", "Conversão de unidades"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um arquiteto construiu uma maquete de um conjunto habitacional na escala 1:300 (cada 1 cm na maquete corresponde a 300 cm na realidade). Ele mediu, na maquete, cinco trechos de calçada (I, II, III, IV e V) que serão pavimentados, obtendo os seguintes comprimentos:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Trecho</th><th class="border border-slate-600 p-2">Comprimento na maquete (cm)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">I</td><td class="border border-slate-600 p-2">3</td></tr>
+        <tr><td class="border border-slate-600 p-2">II</td><td class="border border-slate-600 p-2">5</td></tr>
+        <tr><td class="border border-slate-600 p-2">III</td><td class="border border-slate-600 p-2">10</td></tr>
+        <tr><td class="border border-slate-600 p-2">IV</td><td class="border border-slate-600 p-2">7</td></tr>
+        <tr><td class="border border-slate-600 p-2">V</td><td class="border border-slate-600 p-2">6,67</td></tr>
+      </tbody>
+    </table>
+    <p><strong>O trecho que corresponde, na realidade, ao maior comprimento é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "I", correta: false },
+    { letra: "B", texto: "II", correta: false },
+    { letra: "C", texto: "III", correta: true },
+    { letra: "D", texto: "IV", correta: false },
+    { letra: "E", texto: "V", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Escalas transformam medidas pequenas (mapas, maquetes, plantas) em medidas reais através de uma simples multiplicação. Entender a razão de escala é essencial para interpretar corretamente qualquer representação em miniatura.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O que significa uma escala 1:300</p>
+        <p>Uma escala 1:300 indica que 1 unidade de medida na representação (maquete, mapa, planta) corresponde a 300 unidades da mesma grandeza na realidade. Ou seja, todo comprimento medido na maquete deve ser multiplicado por 300 para se obter o comprimento real.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando o fator de escala</p>
+        <p>Comprimento real = comprimento na maquete × fator de escala. Como a multiplicação por uma constante positiva preserva a ordem (não inverte "maior" e "menor"), o trecho com maior comprimento na maquete também será o de maior comprimento na realidade — não é necessário calcular todos os valores reais para responder, basta comparar os valores na maquete.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que a ordem se preserva</p>
+        <p>Se a > b (ambos positivos) e k é uma constante positiva, então k×a > k×b. Esse princípio matemático simples é o que permite comparar diretamente os valores na maquete sem precisar convertê-los para a escala real — uma economia de tempo importante em prova.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Quando é preciso calcular o valor real</p>
+        <p>Calcular o valor real completo só é necessário quando o problema pede o valor numérico específico (por exemplo, "quantos metros mede o trecho III na realidade?"), e não apenas uma comparação de qual é maior ou menor.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "ruler", titulo: "Escala 1:300", text: "Cada unidade na representação corresponde a 300 unidades reais." },
+    { icone: "arrow-up-right", titulo: "Multiplicação por fator de escala", text: "Valor real = valor na maquete × fator de escala." },
+    { icone: "trending-up", titulo: "Preservação de ordem", text: "Multiplicar por uma constante positiva não inverte comparações de maior/menor." },
+    { icone: "zap", titulo: "Atalho de comparação", text: "Para saber qual é maior na realidade, basta comparar os valores na maquete." },
+    { icone: "calculator", titulo: "Cálculo do valor real", text: "Necessário apenas quando se pede o valor numérico exato, não a comparação." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — Trecho III</p>
+        <p class="text-xs text-slate-300">O trecho III tem o maior comprimento na maquete (10 cm), logo também é o maior na realidade (3.000 cm = 30 m).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Comparar diretamente os valores na maquete:</strong> I=3, II=5, III=10, IV=7, V=6,67. O maior valor é o do trecho III.</li>
+          <li><strong>Passo 2 — Confirmar com o cálculo real (opcional):</strong> multiplicando cada um por 300: I=900cm, II=1.500cm, III=3.000cm, IV=2.100cm, V=2.001cm.</li>
+          <li><strong>Passo 3 — Identificar o maior:</strong> 3.000 cm (III) é o maior valor entre todos, confirmando a comparação direta feita no Passo 1.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) I — Incorreta</p>
+          <p class="text-xs text-slate-400">3 cm na maquete = 900 cm na realidade, o menor valor entre os cinco trechos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) II — Incorreta</p>
+          <p class="text-xs text-slate-400">5 cm na maquete = 1.500 cm na realidade, menor que o trecho III.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) III — Correta ✓</p>
+          <p class="text-xs text-slate-400">10 cm na maquete = 3.000 cm (30 m) na realidade, o maior valor entre os cinco trechos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) IV — Incorreta</p>
+          <p class="text-xs text-slate-400">7 cm na maquete = 2.100 cm na realidade, próximo mas ainda menor que o trecho III.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) V — Incorreta</p>
+          <p class="text-xs text-slate-400">6,67 cm na maquete = 2.001 cm na realidade, também menor que o trecho III.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Comprimentos na maquete",
+      legenda: "Valores medidos em centímetros",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['I',3],['II',5],['III',10],['IV',7],['V',6.67]].map((d,i)=>`<rect x="${30+i*44}" y="${140-d[1]*10}" width="30" height="${d[1]*10}" fill="${d[0]==='III'?'#10b981':'#3b82f6'}" opacity="0.7"/><text x="${45+i*44}" y="155" fill="#94a3b8" font-size="11" text-anchor="middle">${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Fator de escala 1:300",
+      legenda: "Multiplicação para obter valor real",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">1 cm → 300 cm</text></svg>`
+    },
+    {
+      titulo: "Comprimentos reais",
+      legenda: "Valores convertidos em cm",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['I',900],['II',1500],['III',3000],['IV',2100],['V',2001]].map((d,i)=>`<rect x="30" y="${20+i*26}" width="${d[1]/3000*180}" height="18" fill="${d[0]==='III'?'#10b981':'#3b82f6'}" opacity="0.7"/><text x="15" y="${33+i*26}" fill="#94a3b8" font-size="10">${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Trecho vencedor",
+      legenda: "III = 3.000 cm (30 m) na realidade",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><circle cx="100" cy="55" r="40" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="50" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">III</text><text x="100" y="68" fill="#6ee7b7" font-size="11" text-anchor="middle">30 m</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Conversor de Escala",
+    descricao: "Ajuste o fator de escala e o comprimento na maquete para ver o valor real.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Fator de escala (1:X): <span id="q148-fval" class="text-blue-300 font-bold">300</span></label>
+          <input type="range" id="q148-fator" min="50" max="1000" step="10" value="300" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Comprimento na maquete (cm): <span id="q148-mval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q148-maquete" min="1" max="20" step="0.1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Comprimento real</p>
+          <p id="q148-real" class="text-2xl font-bold text-emerald-400">30,00 m</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fator = raiz.querySelector('#q148-fator');
+      const maquete = raiz.querySelector('#q148-maquete');
+      const fval = raiz.querySelector('#q148-fval');
+      const mval = raiz.querySelector('#q148-mval');
+      const realEl = raiz.querySelector('#q148-real');
+      function atualizar() {
+        const F = parseFloat(fator.value);
+        const M = parseFloat(maquete.value);
+        fval.textContent = F;
+        mval.textContent = M.toFixed(1);
+        const realCm = M * F;
+        realEl.textContent = (realCm / 100).toFixed(2) + ' m';
+      }
+      fator.addEventListener('input', atualizar);
+      maquete.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Trecho III</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q149",
+  numero: 149,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shapes",
+  titulo: "Sólido de Johnson: Quantos Vértices Tem Essa Peça de Design?",
+  tags: ["Geometria espacial", "Relação de Euler", "Poliedros"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um designer de objetos está criando uma peça decorativa baseada em um poliedro convexo pouco comum, formado pela combinação de faces triangulares, quadradas e pentagonais, de modo que todas as faces sejam polígonos regulares, mas o sólido não seja nem um dos cinco sólidos platônicos nem um sólido de Arquimedes clássico. Consultando um catálogo técnico, o designer verifica que essa peça é classificada como um sólido de Johnson, com 32 faces (12 triangulares, 15 quadradas e mais algumas pentagonais) e 55 arestas.</p>
+    <p>Sabendo que todo poliedro convexo satisfaz a Relação de Euler (V − A + F = 2, em que V é o número de vértices, A o número de arestas e F o número de faces):</p>
+    <p><strong>O número de vértices desse sólido é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20", correta: false },
+    { letra: "B", texto: "25", correta: true },
+    { letra: "C", texto: "30", correta: false },
+    { letra: "D", texto: "35", correta: false },
+    { letra: "E", texto: "40", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A Relação de Euler é uma das fórmulas mais elegantes da geometria: para qualquer poliedro convexo, o número de vértices menos o número de arestas mais o número de faces é sempre igual a 2 — não importa o formato específico do sólido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A Relação de Euler</p>
+        <p>Para todo poliedro convexo: V − A + F = 2, em que V é o número de vértices, A é o número de arestas e F é o número de faces. Essa relação vale para prismas, pirâmides, sólidos platônicos, sólidos de Arquimedes, sólidos de Johnson — qualquer poliedro convexo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a incógnita desejada</p>
+        <p>Quando o número de arestas (A) e o número de faces (F) são conhecidos, basta isolar V na fórmula: V = 2 − F + A = 2 + A − F. Essa é uma simples manipulação algébrica da relação original.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Sólidos de Johnson: o que são</p>
+        <p>Sólidos de Johnson são poliedros convexos cujas faces são todas polígonos regulares, mas que não se enquadram nem nos 5 sólidos platônicos nem nos 13 sólidos de Arquimedes clássicos. Existem 92 sólidos de Johnson catalogados, cada um com uma combinação específica de faces triangulares, quadradas, pentagonais, etc.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Não é preciso "ver" o sólido para calcular V</p>
+        <p>Um dos pontos mais úteis da Relação de Euler é que ela permite calcular o número de vértices sem precisar visualizar ou desenhar o sólido complexo — basta ter os valores de arestas e faces, informações que costumam ser dadas diretamente no enunciado ou calculáveis a partir da contagem de faces por tipo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "hexagon", titulo: "Relação de Euler", text: "V − A + F = 2, válida para qualquer poliedro convexo." },
+    { icone: "corner-up-right", titulo: "Isolamento algébrico", text: "V = 2 + A − F, obtido reorganizando a fórmula original." },
+    { icone: "box", titulo: "Sólidos de Johnson", text: "Poliedros com faces regulares que não são platônicos nem arquimedianos." },
+    { icone: "list", titulo: "Contagem de faces", text: "F é a soma de todos os tipos de faces (triangulares, quadradas, pentagonais)." },
+    { icone: "check-circle", titulo: "Independência da forma visual", text: "A relação permite calcular V sem necessidade de visualizar o sólido." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 25 vértices</p>
+        <p class="text-xs text-slate-300">Aplicando V = 2 + A − F com A = 55 e F = 32, obtém-se V = 25.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar os dados conhecidos:</strong> F = 32 faces (total), A = 55 arestas.</li>
+          <li><strong>Passo 2 — Isolar V na Relação de Euler:</strong> V − A + F = 2 → V = 2 + A − F.</li>
+          <li><strong>Passo 3 — Substituir e calcular:</strong> V = 2 + 55 − 32 = 25 vértices.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro de sinal na Relação de Euler (ex.: V = A − F em vez de 2 + A − F).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 25 — Correta ✓</p>
+          <p class="text-xs text-slate-400">2 + 55 − 32 = 25, valor correto aplicando corretamente a fórmula de Euler.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de subtrair o valor de F, calculando apenas 2 + A − algo incorreto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 35 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o papel de A e F na fórmula, trocando os valores na subtração.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a subtração de F, somando apenas 2 + A + algo.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "O sólido de Johnson",
+      legenda: "32 faces, 55 arestas, formato complexo",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="100,30 150,60 150,120 100,150 50,120 50,60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><polygon points="100,30 150,60 100,90" fill="#3b82f6" opacity="0.4"/><polygon points="50,60 100,30 100,90" fill="#60a5fa" opacity="0.3"/><polygon points="100,90 150,120 100,150" fill="#3b82f6" opacity="0.5"/><text x="100" y="180" fill="#93c5fd" font-size="11" text-anchor="middle">sólido de Johnson</text></svg>`
+    },
+    {
+      titulo: "Relação de Euler",
+      legenda: "V − A + F = 2",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="20" text-anchor="middle" font-family="monospace">V − A + F = 2</text></svg>`
+    },
+    {
+      titulo: "Dados conhecidos",
+      legenda: "F = 32, A = 55",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#fbbf24" font-size="16" text-anchor="middle">F = 32 faces</text><text x="100" y="70" fill="#fbbf24" font-size="16" text-anchor="middle">A = 55 arestas</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "V = 2 + 55 − 32 = 25",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">V = 25 vértices</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Relação de Euler",
+    descricao: "Ajuste o número de arestas e faces para calcular vértices automaticamente.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Arestas (A): <span id="q149-aval" class="text-blue-300 font-bold">55</span></label>
+          <input type="range" id="q149-a" min="6" max="100" step="1" value="55" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Faces (F): <span id="q149-fval" class="text-blue-300 font-bold">32</span></label>
+          <input type="range" id="q149-f" min="4" max="60" step="1" value="32" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Vértices calculados (V = 2 + A − F)</p>
+          <p id="q149-v" class="text-3xl font-bold text-emerald-400">25</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const a = raiz.querySelector('#q149-a');
+      const f = raiz.querySelector('#q149-f');
+      const aval = raiz.querySelector('#q149-aval');
+      const fval = raiz.querySelector('#q149-fval');
+      const vEl = raiz.querySelector('#q149-v');
+      function atualizar() {
+        const A = parseFloat(a.value);
+        const F = parseFloat(f.value);
+        aval.textContent = A;
+        fval.textContent = F;
+        vEl.textContent = 2 + A - F;
+      }
+      a.addEventListener('input', atualizar);
+      f.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">V = 25</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q150",
+  numero: 150,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "hammer",
+  titulo: "Olaria: Quantos Tijolos a Nova Equipe Produz?",
+  tags: ["Grandezas diretamente proporcionais", "Regra de três composta", "Produtividade"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma olaria, uma equipe de 3 funcionários, trabalhando 6 horas por dia, produz 720 tijolos por dia. Considere que a produtividade de cada funcionário é constante e que o número de tijolos produzidos é diretamente proporcional tanto ao número de funcionários quanto ao número de horas trabalhadas.</p>
+    <p><strong>Se uma nova equipe de 5 funcionários trabalhar 9 horas por dia, a quantidade de tijolos que ela produzirá em um dia é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1.080", correta: false },
+    { letra: "B", texto: "1.200", correta: false },
+    { letra: "C", texto: "1.500", correta: false },
+    { letra: "D", texto: "1.800", correta: true },
+    { letra: "E", texto: "2.160", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Regra de três composta é a ferramenta para relacionar três ou mais grandezas proporcionais ao mesmo tempo — aqui, produção, número de trabalhadores e horas trabalhadas variam juntas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Taxa de produção por trabalhador-hora</p>
+        <p>Quando produção é diretamente proporcional tanto ao número de trabalhadores quanto às horas trabalhadas, é útil calcular a taxa de produção "por trabalhador por hora" — uma unidade que combina as duas grandezas em uma constante fixa.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando a taxa a partir dos dados iniciais</p>
+        <p>Taxa = produção total / (número de trabalhadores × horas trabalhadas). Essa taxa representa quantos tijolos, em média, um único trabalhador produz em uma única hora, mantendo a produtividade constante entre todos os funcionários.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando a taxa à nova situação</p>
+        <p>Uma vez conhecida a taxa por trabalhador-hora, a nova produção é obtida multiplicando essa taxa pelo novo número de trabalhadores e pelo novo número de horas: nova produção = taxa × novos trabalhadores × novas horas.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação de sentido físico</p>
+        <p>Como tanto o número de trabalhadores quanto as horas aumentaram em relação à situação original, espera-se que a nova produção seja maior que a original (720). Esse tipo de verificação rápida ajuda a descartar alternativas menores que 720.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "users", titulo: "Regra de três composta", text: "Relaciona múltiplas grandezas diretamente proporcionais simultaneamente." },
+    { icone: "clock", titulo: "Taxa por trabalhador-hora", text: "Produção total dividida pelo produto de trabalhadores × horas." },
+    { icone: "trending-up", titulo: "Proporcionalidade direta", text: "Aumentar trabalhadores ou horas aumenta a produção proporcionalmente." },
+    { icone: "calculator", titulo: "Multiplicação final", text: "Nova produção = taxa × novos trabalhadores × novas horas." },
+    { icone: "check-circle", titulo: "Verificação de sentido", text: "Mais trabalhadores e mais horas devem gerar produção maior que a original." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 1.800 tijolos</p>
+        <p class="text-xs text-slate-300">Com taxa de 40 tijolos por trabalhador-hora, a nova equipe produz 5 × 9 × 40 = 1.800 tijolos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a taxa por trabalhador-hora:</strong> 720 / (3 × 6) = 720 / 18 = 40 tijolos por trabalhador por hora.</li>
+          <li><strong>Passo 2 — Multiplicar pela nova quantidade de trabalhadores e horas:</strong> 40 × 5 × 9.</li>
+          <li><strong>Passo 3 — Calcular o resultado final:</strong> 40 × 45 = 1.800 tijolos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1.080 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa apenas o aumento no número de trabalhadores (5/3), ignorando o aumento nas horas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1.200 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula apenas o efeito do aumento de horas (9/6), sem considerar os trabalhadores extras.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1.500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de uma taxa por trabalhador-hora calculada incorretamente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 1.800 — Correta ✓</p>
+          <p class="text-xs text-slate-400">40 tijolos/trabalhador-hora × 5 trabalhadores × 9 horas = 1.800 tijolos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 2.160 — Incorreta</p>
+          <p class="text-xs text-slate-400">Multiplica os fatores de aumento (5/3 × 9/6) diretamente pela produção original de forma incorreta.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Situação original",
+      legenda: "3 funcionários, 6h, 720 tijolos",
+      svg: `<svg viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="130" fill="#0f172a"/><text x="100" y="35" fill="#93c5fd" font-size="13" text-anchor="middle">3 funcionários</text><text x="100" y="60" fill="#93c5fd" font-size="13" text-anchor="middle">6 horas/dia</text><text x="100" y="95" fill="#fbbf24" font-size="16" text-anchor="middle" font-weight="bold">720 tijolos</text></svg>`
+    },
+    {
+      titulo: "Taxa por trabalhador-hora",
+      legenda: "720 / (3×6) = 40",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">720 / 18 = 40</text></svg>`
+    },
+    {
+      titulo: "Nova equipe",
+      legenda: "5 funcionários, 9h/dia",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">5 funcionários</text><text x="100" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">9 horas/dia</text></svg>`
+    },
+    {
+      titulo: "Nova produção",
+      legenda: "40 × 5 × 9 = 1.800 tijolos",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">1.800 tijolos</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Produtividade da Olaria",
+    descricao: "Ajuste trabalhadores e horas para ver a produção resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Funcionários: <span id="q150-fval" class="text-blue-300 font-bold">5</span></label>
+          <input type="range" id="q150-func" min="1" max="15" step="1" value="5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Horas por dia: <span id="q150-hval" class="text-blue-300 font-bold">9</span></label>
+          <input type="range" id="q150-horas" min="1" max="14" step="1" value="9" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Taxa fixa: 40 tijolos/trabalhador-hora</p>
+          <p class="text-xs text-slate-400 mt-2">Produção estimada</p>
+          <p id="q150-resultado" class="text-3xl font-bold text-emerald-400">1.800</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const func = raiz.querySelector('#q150-func');
+      const horas = raiz.querySelector('#q150-horas');
+      const fval = raiz.querySelector('#q150-fval');
+      const hval = raiz.querySelector('#q150-hval');
+      const resultado = raiz.querySelector('#q150-resultado');
+      function atualizar() {
+        const F = parseFloat(func.value);
+        const H = parseFloat(horas.value);
+        fval.textContent = F;
+        hval.textContent = H;
+        resultado.textContent = (F * H * 40).toLocaleString('pt-BR');
+      }
+      func.addEventListener('input', atualizar);
+      horas.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">1.800 tijolos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q151",
+  numero: 151,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "hash",
+  titulo: "Código de Identificação: Montando o Crachá de um Funcionário",
+  tags: ["Sistema de numeração", "Codificação", "Lógica"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa utiliza um sistema de código de identificação de 7 dígitos para os crachás de seus funcionários, estruturado da seguinte forma:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>1º dígito: número do andar onde o funcionário trabalha (0 a 9);</li>
+      <li>2º e 3º dígitos: número do setor dentro do andar (01 a 99);</li>
+      <li>4º, 5º e 6º dígitos: número de matrícula do funcionário dentro do setor (001 a 999);</li>
+      <li>7º dígito: turno de trabalho (0 = manhã, 1 = tarde, 2 = noite).</li>
+    </ul>
+    <p>Um novo funcionário foi contratado para trabalhar no 2º andar, no setor 08, e recebeu a matrícula 109 dentro desse setor, para atuar no turno da manhã.</p>
+    <p><strong>O código de identificação de 7 dígitos desse funcionário é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "2081091", correta: false },
+    { letra: "B", texto: "0820910", correta: false },
+    { letra: "C", texto: "8021090", correta: false },
+    { letra: "D", texto: "2081090", correta: true },
+    { letra: "E", texto: "2180910", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Sistemas de codificação estruturados são usados o tempo todo no mundo real — CPF, CEP, códigos de barras. A habilidade central é seguir rigorosamente a ordem e o número de dígitos de cada campo definido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Estrutura posicional do código</p>
+        <p>Em um código estruturado, cada posição (ou grupo de posições) tem um significado fixo e predefinido. Diferente de um número comum, a ordem dos dígitos aqui não representa valor numérico total, mas sim informações categóricas específicas (andar, setor, matrícula, turno).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Preenchimento com zeros à esquerda</p>
+        <p>Quando um campo tem um número fixo de dígitos (por exemplo, 3 dígitos para a matrícula), valores menores devem ser completados com zeros à esquerda para preencher exatamente essa quantidade de posições — por exemplo, matrícula "9" em um campo de 3 dígitos se torna "009".</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Montando o código passo a passo</p>
+        <p>A estratégia mais segura é preencher cada campo separadamente, respeitando seu número de dígitos, e depois concatenar (juntar) todos os campos na ordem especificada pelo enunciado, sem trocar a posição de nenhum grupo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação da quantidade total de dígitos</p>
+        <p>Ao final, é importante conferir se o código resultante tem exatamente o número total de dígitos especificado (neste caso, 7) — um código com dígitos a mais ou a menos indica erro no preenchimento de algum campo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Codificação posicional", text: "Cada posição do código representa uma informação categórica fixa." },
+    { icone: "hash", titulo: "Zeros à esquerda", text: "Completar campos com zeros para atingir o número exato de dígitos exigido." },
+    { icone: "link", titulo: "Concatenação ordenada", text: "Juntar os campos na ordem exata especificada pelo enunciado." },
+    { icone: "check-square", titulo: "Verificação de tamanho", text: "Conferir se o código final tem o número total de dígitos correto." },
+    { icone: "list", titulo: "Leitura atenta de regras", text: "Seguir rigorosamente a definição de cada campo do código." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 2081090</p>
+        <p class="text-xs text-slate-300">Andar 2, setor 08, matrícula 109, turno manhã (0), concatenados na ordem correta.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Preencher cada campo:</strong> andar = "2" (1 dígito); setor = "08" (2 dígitos); matrícula = "109" (3 dígitos); turno = "0" (manhã, 1 dígito).</li>
+          <li><strong>Passo 2 — Concatenar na ordem especificada:</strong> andar + setor + matrícula + turno = "2" + "08" + "109" + "0".</li>
+          <li><strong>Passo 3 — Resultado final:</strong> 2081090, com exatamente 7 dígitos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 2081091 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa "1" (tarde) como último dígito em vez de "0" (manhã), trocando o turno.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 0820910 — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte a ordem dos campos, colocando o setor antes do andar.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 8021090 — Incorreta</p>
+          <p class="text-xs text-slate-400">Embaralha completamente a ordem dos campos definidos no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 2081090 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Segue exatamente a ordem e o número de dígitos de cada campo: 2 | 08 | 109 | 0.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 2180910 — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte os dígitos do setor (18 em vez de 08) e desorganiza a matrícula.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estrutura do código",
+      legenda: "7 dígitos: andar | setor | matrícula | turno",
+      svg: `<svg viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="100" fill="#0f172a"/><rect x="10" y="30" width="30" height="40" fill="#3b82f6" opacity="0.5"/><rect x="45" y="30" width="60" height="40" fill="#f59e0b" opacity="0.5"/><rect x="110" y="30" width="90" height="40" fill="#8b5cf6" opacity="0.5"/><rect x="205" y="30" width="30" height="40" fill="#10b981" opacity="0.5"/><text x="25" y="85" fill="#93c5fd" font-size="9" text-anchor="middle">andar</text><text x="75" y="85" fill="#fbbf24" font-size="9" text-anchor="middle">setor</text><text x="155" y="85" fill="#c4b5fd" font-size="9" text-anchor="middle">matrícula</text><text x="220" y="85" fill="#6ee7b7" font-size="9" text-anchor="middle">turno</text></svg>`
+    },
+    {
+      titulo: "Dados do funcionário",
+      legenda: "Andar 2, setor 08, matrícula 109, manhã",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/><text x="20" y="30" fill="#93c5fd" font-size="12">Andar: 2</text><text x="20" y="50" fill="#fbbf24" font-size="12">Setor: 08</text><text x="20" y="70" fill="#c4b5fd" font-size="12">Matrícula: 109</text><text x="20" y="90" fill="#6ee7b7" font-size="12">Turno: manhã (0)</text></svg>`
+    },
+    {
+      titulo: "Concatenação",
+      legenda: "2 + 08 + 109 + 0",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">"2"+"08"+"109"+"0"</text></svg>`
+    },
+    {
+      titulo: "Código final",
+      legenda: "2081090",
+      svg: `<svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="90" fill="#0f172a"/><text x="130" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold" font-family="monospace">2081090</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Gerador de Código",
+    descricao: "Ajuste andar, setor, matrícula e turno para montar o código de 7 dígitos.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Andar (0-9): <span id="q151-andarval" class="text-blue-300 font-bold">2</span></label>
+          <input type="range" id="q151-andar" min="0" max="9" step="1" value="2" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Setor (1-99): <span id="q151-setorval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q151-setor" min="1" max="99" step="1" value="8" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Matrícula (1-999): <span id="q151-matval" class="text-blue-300 font-bold">109</span></label>
+          <input type="range" id="q151-mat" min="1" max="999" step="1" value="109" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Turno: <span id="q151-turnoval" class="text-blue-300 font-bold">Manhã</span></label>
+          <input type="range" id="q151-turno" min="0" max="2" step="1" value="0" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Código gerado</p>
+          <p id="q151-codigo" class="text-2xl font-bold text-emerald-400 font-mono">2081090</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const andar = raiz.querySelector('#q151-andar');
+      const setor = raiz.querySelector('#q151-setor');
+      const mat = raiz.querySelector('#q151-mat');
+      const turno = raiz.querySelector('#q151-turno');
+      const andarval = raiz.querySelector('#q151-andarval');
+      const setorval = raiz.querySelector('#q151-setorval');
+      const matval = raiz.querySelector('#q151-matval');
+      const turnoval = raiz.querySelector('#q151-turnoval');
+      const codigo = raiz.querySelector('#q151-codigo');
+      const turnos = ['Manhã', 'Tarde', 'Noite'];
+      function atualizar() {
+        const A = andar.value;
+        const S = setor.value.padStart(2, '0');
+        const M = mat.value.padStart(3, '0');
+        const T = turno.value;
+        andarval.textContent = A;
+        setorval.textContent = setor.value;
+        matval.textContent = mat.value;
+        turnoval.textContent = turnos[parseInt(T)];
+        codigo.textContent = A + S + M + T;
+      }
+      andar.addEventListener('input', atualizar);
+      setor.addEventListener('input', atualizar);
+      mat.addEventListener('input', atualizar);
+      turno.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold" font-family="monospace">2081090</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q152",
+  numero: 152,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shuffle",
+  titulo: "Fila do Show: Qual a Chance de Sentar na Ordem Certa?",
+  tags: ["Probabilidade", "Análise combinatória", "Permutação"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Quatro amigos — Ana, Bruno, Carla e Diego — compraram ingressos para um show e vão se sentar aleatoriamente em 4 cadeiras lado a lado, numeradas de 1 a 4. Cada um dos quatro amigos tem a mesma probabilidade de se sentar em qualquer uma das cadeiras, e cada arranjo de assentos é igualmente provável.</p>
+    <p><strong>A probabilidade de que os quatro amigos se sentem exatamente na ordem Ana, Bruno, Carla, Diego (da cadeira 1 até a cadeira 4, nessa sequência específica) é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1/4", correta: false },
+    { letra: "B", texto: "1/6", correta: false },
+    { letra: "C", texto: "1/12", correta: false },
+    { letra: "D", texto: "1/24", correta: true },
+    { letra: "E", texto: "1/16", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando se pergunta a probabilidade de UMA ordem específica entre várias pessoas ou objetos, a resposta está diretamente ligada ao número total de permutações possíveis — quantas formas diferentes existem de organizá-los.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Contando o total de arranjos possíveis</p>
+        <p>O número total de maneiras de organizar n pessoas (ou objetos) em n posições distintas é dado pelo fatorial de n: n! = n × (n−1) × (n−2) × ... × 2 × 1. Para 4 pessoas, o total de arranjos é 4! = 4×3×2×1 = 24.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Contando os arranjos favoráveis</p>
+        <p>Quando se pede a probabilidade de UMA ordem específica (por exemplo, exatamente "Ana, Bruno, Carla, Diego"), existe apenas 1 arranjo favorável entre todos os possíveis — a ordem exata pedida.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a probabilidade</p>
+        <p>Probabilidade = (número de casos favoráveis) / (número total de casos possíveis) = 1 / 4! = 1/24. Esse é o princípio básico da probabilidade clássica aplicado a um problema de permutação.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que cada arranjo é igualmente provável</p>
+        <p>Como o enunciado afirma que os amigos se sentam aleatoriamente e cada arranjo tem a mesma probabilidade, isso garante que a probabilidade clássica (casos favoráveis / casos totais) pode ser aplicada diretamente, sem necessidade de ponderação adicional.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "shuffle", titulo: "Permutação simples", text: "n! é o número de formas de organizar n elementos distintos em ordem." },
+    { icone: "target", titulo: "Caso favorável único", text: "Uma ordem específica corresponde a exatamente 1 dos arranjos possíveis." },
+    { icone: "divide", titulo: "Probabilidade clássica", text: "P = casos favoráveis / casos possíveis." },
+    { icone: "check-circle", titulo: "Equiprobabilidade", text: "Todos os arranjos têm a mesma chance de ocorrer, condição essencial para o cálculo direto." },
+    { icone: "hash", titulo: "Fatorial", text: "4! = 4×3×2×1 = 24, o total de permutações de 4 elementos." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 1/24</p>
+        <p class="text-xs text-slate-300">Existe apenas 1 ordem favorável entre as 4! = 24 permutações possíveis dos quatro amigos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o total de arranjos possíveis:</strong> 4! = 4×3×2×1 = 24 formas diferentes de sentar os 4 amigos nas 4 cadeiras.</li>
+          <li><strong>Passo 2 — Identificar os arranjos favoráveis:</strong> apenas 1 arranjo corresponde exatamente à ordem "Ana, Bruno, Carla, Diego".</li>
+          <li><strong>Passo 3 — Calcular a probabilidade:</strong> P = 1/24.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1/4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas a probabilidade de uma pessoa específica sentar em uma cadeira específica, não a ordem completa de 4 pessoas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1/6 — Incorreta</p>
+          <p class="text-xs text-slate-400">Corresponde a 3! (permutação de apenas 3 elementos), esquecendo um dos quatro amigos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1/12 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um cálculo incompleto do fatorial, considerando apenas parte das permutações possíveis.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 1/24 — Correta ✓</p>
+          <p class="text-xs text-slate-400">1 caso favorável entre 4! = 24 casos possíveis: P = 1/24.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 1/16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde com 4² (arranjos com repetição), quando o problema trata de pessoas distintas sem repetição.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "As 4 cadeiras",
+      legenda: "Numeradas de 1 a 4",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[1,2,3,4].map((n,i)=>`<rect x="${20+i*55}" y="30" width="40" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="${40+i*55}" y="55" fill="#93c5fd" font-size="14" text-anchor="middle">${n}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Ordem favorável",
+      legenda: "Ana, Bruno, Carla, Diego",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${['Ana','Bruno','Carla','Diego'].map((n,i)=>`<rect x="${20+i*55}" y="30" width="40" height="40" fill="#065f46" opacity="0.5" stroke="#10b981" stroke-width="2"/><text x="${40+i*55}" y="55" fill="#6ee7b7" font-size="9" text-anchor="middle">${n}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Total de permutações",
+      legenda: "4! = 24 arranjos possíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="monospace">4! = 24</text></svg>`
+    },
+    {
+      titulo: "Probabilidade final",
+      legenda: "1 favorável entre 24 possíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1/24</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Embaralhador de Amigos",
+    descricao: "Gere arranjos aleatórios e veja quantas tentativas até acertar a ordem exata.",
+    html: `
+      <div class="space-y-4">
+        <button id="q152-sortear" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded">Sortear novo arranjo</button>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Arranjo sorteado</p>
+          <p id="q152-arranjo" class="text-lg font-bold text-blue-300">—</p>
+          <p class="text-xs text-slate-400 mt-2">Tentativas até acertar</p>
+          <p id="q152-tentativas" class="text-2xl font-bold text-emerald-400">0</p>
+          <p class="text-xs text-slate-500 mt-2">Probabilidade teórica: 1/24 ≈ 4,17%</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const btn = raiz.querySelector('#q152-sortear');
+      const arranjoEl = raiz.querySelector('#q152-arranjo');
+      const tentativasEl = raiz.querySelector('#q152-tentativas');
+      let tentativas = 0;
+      const nomes = ['Ana', 'Bruno', 'Carla', 'Diego'];
+      function embaralhar(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+      btn.addEventListener('click', () => {
+        tentativas++;
+        const arranjo = embaralhar(nomes);
+        arranjoEl.textContent = arranjo.join(', ');
+        tentativasEl.textContent = tentativas;
+        if (arranjo.join(',') === nomes.join(',')) {
+          arranjoEl.style.color = '#6ee7b7';
+        } else {
+          arranjoEl.style.color = '#93c5fd';
+        }
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1/24</text></svg>`,
+  simuladorType: null
 }
 
 ];
