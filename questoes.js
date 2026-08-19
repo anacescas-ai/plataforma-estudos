@@ -11411,6 +11411,929 @@ const questaoDatabase = [
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "q121",
+    numero: "Questão 121",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Ácidos, Bases & Química Ambiental",
+    materiaCor: "cyan",
+    materiaIcone: "fa-skull-crossbones",
+    titulo: "Vazamento de Dimetilamina na Rodovia: Neutralização Ácido-Base para Reduzir a Volatilização",
+    tags: ["Química", "Ácidos e Bases", "Neutralização", "Química Ambiental", "Aminas", "Volatilidade", "Ponto de Ebulição"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A <strong>dimetilamina</strong> é uma substância de elevada toxidez que entra em ebulição a <strong>7 °C</strong>. Na madrugada de um dia frio, essa substância se espalhou por uma rodovia após um acidente de trânsito envolvendo um caminhão que transportava esse produto. Para minimizar a agressão ao meio ambiente, bem como evitar a evaporação da dimetilamina com a elevação da temperatura ao longo do dia, um químico considerou o uso de algumas substâncias ou misturas como água, vinagre, óleo de soja, sal de cozinha e bicarbonato de sódio.
+    <br><br>
+    Dentre as opções apresentadas, o tratamento correto para minimizar esse problema é usar`,
+
+    alternativas: [
+      { letra: "A", texto: "água.", correta: false },
+      { letra: "B", texto: "vinagre.", correta: true },
+      { letra: "C", texto: "óleo de soja.", correta: false },
+      { letra: "D", texto: "sal de cozinha.", correta: false },
+      { letra: "E", texto: "bicarbonato de sódio.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre por que a dimetilamina é uma <strong>base</strong> — e por que isso significa que o protocolo de neutralização de derramamentos é o oposto do que se usa para um ácido.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Dimetilamina: uma base fraca volátil</h4>
+          <p>
+            A dimetilamina, (CH₃)₂NH, é uma <strong>amina</strong>: uma molécula orgânica derivada da amônia (NH₃), em que hidrogênios foram substituídos por grupos metila. Como a amônia, o átomo de nitrogênio da amina tem um par de elétrons não compartilhado, capaz de aceitar um próton (H⁺) — isso faz da dimetilamina uma <strong>base fracamente básica</strong> em solução aquosa, exatamente como a amônia.
+          </p>
+          <p>
+            Com ponto de ebulição de apenas 7 °C, a dimetilamina líquida evapora rapidamente à temperatura ambiente — daí a preocupação do enunciado com a elevação de temperatura ao longo do dia aumentando a evaporação (e, portanto, a exposição por inalação) do produto tóxico derramado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Neutralização ácido-base: por que reduz a volatilidade</h4>
+          <p>
+            Quando uma <strong>base</strong> (como a dimetilamina, neutra e molecular) reage com um <strong>ácido</strong>, forma-se um <strong>sal</strong> — uma espécie iônica. Diferente da amina neutra, que é uma molécula pequena e volátil, o sal formado é constituído por íons com fortes atrações eletrostáticas entre si, o que reduz drasticamente sua tendência a evaporar. Em outras palavras: transformar a dimetilamina líquida em um sal a torna muito menos volátil e, ao mesmo tempo, menos perigosa (mais fácil de conter e limpar).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            (CH₃)₂NH (base, volátil) + ácido → (CH₃)₂NH₂⁺ + ânion (sal, não volátil)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Protocolo padrão para derramamentos: ácido neutraliza base, base neutraliza ácido</h4>
+          <p>
+            Em segurança química, a regra prática para conter derramamentos corrosivos é usar um neutralizante <strong>fraco</strong> e de sentido oposto: derramamento de <strong>ácido</strong> forte se neutraliza com uma <strong>base fraca</strong> (como bicarbonato de sódio); derramamento de <strong>base</strong> se neutraliza com um <strong>ácido fraco</strong> (como o ácido acético do vinagre). Usar um neutralizante fraco evita reações violentas ou exotérmicas descontroladas, ao mesmo tempo em que garante a neutralização eficaz.
+          </p>
+          <p>
+            Como a dimetilamina é uma base, o neutralizante correto é um <strong>ácido fraco</strong> — e entre as opções, o <strong>vinagre</strong> (solução aquosa de ácido acético, CH₃COOH) é exatamente isso.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que as outras opções não funcionam</h4>
+          <p>
+            <strong>Água</strong> dilui a dimetilamina, mas não a neutraliza quimicamente — a amina continua volátil e tóxica, apenas mais espalhada, o que pode até aumentar a área de evaporação.
+          </p>
+          <p>
+            <strong>Óleo de soja</strong> não reage com a amina; poderia, no máximo, formar uma barreira física temporária, sem alterar a volatilidade química da substância.
+          </p>
+          <p>
+            <strong>Sal de cozinha (NaCl)</strong> é quimicamente inerte frente à dimetilamina — não há reação ácido-base possível, então não há neutralização.
+          </p>
+          <p>
+            <strong>Bicarbonato de sódio</strong> é ele próprio uma <strong>base fraca</strong> (usado para neutralizar ácidos). Aplicá-lo sobre outra base (a dimetilamina) não gera neutralização — as duas substâncias básicas simplesmente coexistiriam, sem reação de formação de sal.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-flask", titulo: "Dimetilamina: base fraca volátil", text: "Amina com par de elétrons livre no nitrogênio, capaz de aceitar H⁺ — comporta-se como base fraca." },
+      { icone: "fa-arrows-turn-to-dots", titulo: "Base + ácido → sal", text: "A neutralização converte a amina volátil em um sal iônico, muito menos volátil e mais fácil de conter." },
+      { icone: "fa-shield-halved", titulo: "Regra de segurança em derramamentos", text: "Ácido se neutraliza com base fraca; base se neutraliza com ácido fraco — nunca com um reagente forte, para evitar reações violentas." },
+      { icone: "fa-lemon", titulo: "Vinagre = ácido acético fraco", text: "Ácido fraco ideal para neutralizar uma base fraca como a dimetilamina, formando um sal não volátil." },
+      { icone: "fa-ban", titulo: "Por que bicarbonato não serve aqui", text: "Bicarbonato de sódio é uma base — não neutraliza outra base. Ele é o neutralizante certo para ácidos, não para aminas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>A dimetilamina é uma base. O vinagre (ácido acético, ácido fraco) reage com ela formando um sal não volátil, reduzindo tanto a evaporação quanto a toxicidade do derramamento.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Classifique a dimetilamina.</strong> É uma amina, com nitrogênio de par de elétrons livre — portanto, uma base fraca.</p>
+          <p><strong>Passo 2 — Aplique a regra de neutralização de derramamentos.</strong> Base se neutraliza com ácido fraco (não com outra base, nem com um reagente inerte).</p>
+          <p><strong>Passo 3 — Identifique o ácido fraco entre as opções.</strong> Vinagre é uma solução de ácido acético — o único ácido fraco disponível na lista.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Água — ERRADA</p>
+            <p class="text-xs">Apenas dilui, sem neutralizar quimicamente. A amina continua volátil e tóxica, potencialmente com maior área de evaporação.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Vinagre — CORRETA</p>
+            <p class="text-xs">Ácido fraco (ácido acético) que reage com a base dimetilamina, formando um sal iônico não volátil — reduz evaporação e toxicidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Óleo de soja — ERRADA</p>
+            <p class="text-xs">Não reage quimicamente com a amina; não altera sua volatilidade nem sua basicidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Sal de cozinha — ERRADA</p>
+            <p class="text-xs">NaCl é inerte frente à dimetilamina — não há reação ácido-base possível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Bicarbonato de sódio — ERRADA (armadilha)</p>
+            <p class="text-xs">É o neutralizante clássico para <strong>ácidos</strong> — mas a dimetilamina é uma <strong>base</strong>. Duas bases não reagem entre si para neutralização.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Dimetilamina: uma base fraca, volátil a 7 °C",
+        legenda: "O par de elétrons livre no nitrogênio torna a molécula básica; o baixo ponto de ebulição a torna altamente volátil.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="150" cy="65" r="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+            <text x="150" y="70" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">N</text>
+            <text x="150" y="35" fill="#7dd3fc" font-size="9" text-anchor="middle">par livre :</text>
+            <line x1="130" y1="65" x2="90" y2="65" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="70" y="70" fill="#e2e8f0" font-size="9" text-anchor="middle">CH₃</text>
+            <line x1="170" y1="65" x2="210" y2="65" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="230" y="70" fill="#e2e8f0" font-size="9" text-anchor="middle">CH₃</text>
+            <line x1="150" y1="85" x2="150" y2="105" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="150" y="118" fill="#e2e8f0" font-size="9" text-anchor="middle">H</text>
+            <text x="330" y="60" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Ebulição: 7 °C</text>
+            <text x="330" y="78" fill="#fca5a5" font-size="8" text-anchor="middle">(altamente volátil)</text>
+          </svg>`
+      },
+      {
+        titulo: "Neutralização: base volátil → sal não volátil",
+        legenda: "Ácido acético (vinagre) protona o nitrogênio, formando um cátion amônio substituído — um sal iônico.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="90" y="52" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">(CH₃)₂NH</text>
+            <text x="90" y="68" fill="#7dd3fc" font-size="7" text-anchor="middle">base, volátil</text>
+            <text x="180" y="60" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="200" y="30" width="120" height="50" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="260" y="52" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">CH₃COOH</text>
+            <text x="260" y="68" fill="#fde68a" font-size="7" text-anchor="middle">vinagre</text>
+            <text x="335" y="60" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+            <rect x="350" y="30" width="100" height="50" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="400" y="52" fill="#a7f3d0" font-size="8" font-weight="bold" text-anchor="middle">sal iônico</text>
+            <text x="400" y="68" fill="#a7f3d0" font-size="7" text-anchor="middle">não volátil</text>
+          </svg>`
+      },
+      {
+        titulo: "Regra de ouro: ácido neutraliza base, base neutraliza ácido",
+        legenda: "Usar um reagente do mesmo tipo da substância derramada não gera reação de neutralização.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="190" height="90" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="115" y="42" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Derramamento ÁCIDO</text>
+            <text x="115" y="65" fill="#fecaca" font-size="9" text-anchor="middle">neutralizar com</text>
+            <text x="115" y="85" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">base fraca (bicarbonato)</text>
+
+            <rect x="250" y="20" width="190" height="90" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="345" y="42" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Derramamento BASE</text>
+            <text x="345" y="65" fill="#e0f2fe" font-size="9" text-anchor="middle">neutralizar com</text>
+            <text x="345" y="85" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">ácido fraco (vinagre) ✓</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco opções, uma reage corretamente",
+        legenda: "Só o vinagre tem a natureza química (ácido fraco) necessária para neutralizar a base dimetilamina.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Substância</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Natureza química</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">Água</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">neutra — só dilui</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">Vinagre ✓</text>
+            <text x="230" y="77" fill="#a7f3d0" font-size="7" font-weight="bold">ácido fraco — neutraliza a base</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">Óleo de soja</text>
+            <text x="230" y="102" fill="#94a3b8" font-size="7">inerte — sem reação</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">Sal de cozinha</text>
+            <text x="230" y="126" fill="#94a3b8" font-size="7">inerte — sem reação</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">Bicarbonato de sódio</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">base fraca — não neutraliza outra base</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: escolha o neutralizante certo para o derramamento",
+      descricao: "Escolha o tipo de substância derramada e o neutralizante a aplicar, e veja se a reação de neutralização ocorre.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Substância derramada:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121subst" data-sim="subst" value="base" checked class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Dimetilamina (base fraca)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121subst" data-sim="subst" value="acido" class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Ácido sulfúrico (ácido forte)</span>
+              </label>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Neutralizante escolhido:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121neutr" data-sim="neutr" value="vinagre" checked class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Vinagre (ácido fraco)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121neutr" data-sim="neutr" value="bicarbonato" class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Bicarbonato de sódio (base fraca)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radiosSubst = raiz.querySelectorAll('[data-sim="subst"]');
+        var radiosNeutr = raiz.querySelectorAll('[data-sim="neutr"]');
+        var v = raiz.querySelector('[data-out="veredito"]');
+
+        function atualizar() {
+          var subst = raiz.querySelector('[data-sim="subst"]:checked').value;
+          var neutr = raiz.querySelector('[data-sim="neutr"]:checked').value;
+          var funciona = (subst === 'base' && neutr === 'vinagre') || (subst === 'acido' && neutr === 'bicarbonato');
+
+          if (funciona) {
+            v.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Neutralização ocorre!</strong> Reagente de natureza oposta à substância derramada forma um sal, reduzindo a periculosidade e a volatilidade.';
+          } else {
+            v.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Sem neutralização.</strong> Substâncias de mesma natureza (base+base, ou ácido+ácido fraco insuficiente para ácido forte) não reagem para formar um sal — escolha o neutralizante de natureza oposta.';
+          }
+        }
+
+        radiosSubst.forEach(function (r) { r.addEventListener('change', atualizar); });
+        radiosNeutr.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-skull-crossbones"></i> Dimetilamina (base) + vinagre (ácido fraco) → sal não volátil</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">Dimetilamina</text>
+          <text x="230" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">+</text>
+          <rect x="270" y="20" width="90" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="315" y="50" fill="#fde68a" font-size="10" font-weight="bold" text-anchor="middle">Vinagre</text>
+          <text x="410" y="50" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">→ sal</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q122",
+    numero: "Questão 122",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Eletromagnetismo & Indução",
+    materiaCor: "purple",
+    materiaIcone: "fa-magnet",
+    titulo: "Fogão de Indução: Como o Campo Magnético Variável Aquece a Panela",
+    tags: ["Física", "Eletromagnetismo", "Indução Eletromagnética", "Correntes Parasitas", "Efeito Joule", "Fogão de Indução"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O aquecimento em fogões por indução utiliza bobinas para produzir um campo magnético variável. Essa bobina se localiza abaixo do vidro cerâmico sobre o qual a panela se apoia. O mecanismo aquece apenas a panela que se encontra na zona de cozimento, o que é uma das principais vantagens em relação ao uso do fogão a gás ou de resistência elétrica.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 320 220" class="w-full h-auto mx-auto max-w-xs">
+        <ellipse cx="160" cy="60" rx="90" ry="20" fill="#0f172a" stroke="#94a3b8" stroke-width="1.8"/>
+        <rect x="70" y="45" width="180" height="30" fill="#1e3a5f" opacity="0.5"/>
+        <path d="M 100 65 Q 130 80 160 90 Q 190 100 200 85" fill="none" stroke="#7dd3fc" stroke-width="3"/>
+        <text x="160" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Conteúdo aquecido</text>
+        <text x="270" y="65" fill="#94a3b8" font-size="8" text-anchor="middle">Panela</text>
+        <rect x="60" y="95" width="200" height="10" fill="#475569"/>
+        <text x="270" y="100" fill="#94a3b8" font-size="8" text-anchor="middle">Vidro cerâmico</text>
+        <ellipse cx="160" cy="150" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <ellipse cx="160" cy="135" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <ellipse cx="160" cy="165" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <path d="M 100 150 Q 90 130 100 115" fill="none" stroke="#fca5a5" stroke-width="1.5"/><polygon points="100,115 95,122 105,120" fill="#fca5a5"/>
+        <path d="M 220 150 Q 230 130 220 115" fill="none" stroke="#fca5a5" stroke-width="1.5"/><polygon points="220,115 215,122 225,120" fill="#fca5a5"/>
+        <text x="270" y="150" fill="#fca5a5" font-size="8" text-anchor="middle">Bobina de indução</text>
+        <text x="160" y="200" fill="#94a3b8" font-size="8" text-anchor="middle">Campo magnético criado por bobina de indução</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">PEREIRA, A. B. et al. <strong>Fogões de indução</strong>: montagem e testes de um circuito disponível. Disponível em: https://publicacoes.fatecsertaozinho.edu.br. Acesso em: 21 maio 2025 (adaptado).</p>
+    <br>
+    O uso do campo magnético variável tem a finalidade de`,
+
+    alternativas: [
+      { letra: "A", texto: "imantar o material da panela por indução.", correta: false },
+      { letra: "B", texto: "movimentar os átomos de ferro concentrados no fundo da panela.", correta: false },
+      { letra: "C", texto: "emitir radiação eletromagnética, aquecendo a panela através do vidro cerâmico.", correta: false },
+      { letra: "D", texto: "induzir corrente elétrica na parte inferior da panela, aquecendo-a por efeito Joule.", correta: true },
+      { letra: "E", texto: "gerar um fluxo de corrente de convecção no ar contido entre a região da bobina e o vidro cerâmico.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a lei de indução de Faraday e o efeito Joule — os dois fenômenos físicos que, juntos, explicam por que um fogão de indução esquenta a panela sem esquentar o vidro ao redor.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Indução eletromagnética: campo variável gera corrente</h4>
+          <p>
+            A <strong>Lei de Faraday-Lenz</strong> estabelece que um campo magnético <strong>variável no tempo</strong> atravessando um condutor induz uma <strong>força eletromotriz</strong> (e, portanto, uma corrente elétrica) nesse condutor. No fogão de indução, a bobina abaixo do vidro cerâmico é alimentada por corrente alternada de alta frequência, criando um campo magnético que varia rapidamente.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Correntes parasitas (correntes de Foucault) na panela</h4>
+          <p>
+            Quando esse campo magnético variável atravessa o fundo <strong>metálico e ferromagnético</strong> da panela (aço ou ferro fundido), ele induz, dentro do próprio metal, <strong>correntes elétricas circulares</strong> chamadas <strong>correntes parasitas</strong> (ou correntes de Foucault/eddy currents). Note que a corrente é induzida diretamente <em>na panela</em>, não em algum outro meio intermediário como o ar ou o vidro.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Efeito Joule: de corrente elétrica a calor</h4>
+          <p>
+            O metal da panela tem uma resistência elétrica pequena, mas não nula. Ao circular por esse material resistivo, as correntes parasitas dissipam energia na forma de calor — o <strong>efeito Joule</strong> (P = R·I²). É esse aquecimento resistivo, gerado <em>dentro do próprio metal da panela</em>, que aquece o alimento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que só a panela esquenta (e não o vidro ao redor)</h4>
+          <p>
+            O vidro cerâmico não é condutor elétrico nem ferromagnético — o campo magnético passa por ele sem induzir correntes significativas, então ele não aquece por indução (só indiretamente, por contato com a panela quente). Fora da "zona de cozimento" (onde não há bobina ativa abaixo), não há campo magnético variável suficiente para induzir corrente em nenhuma panela ali colocada — por isso o fogão de indução só aquece o que está exatamente sobre a bobina ligada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Encadeamento completo do fenômeno</h4>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            corrente na bobina → campo magnético variável → corrente induzida na panela (Faraday-Lenz) → calor por efeito Joule (P=RI²)
+          </div>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-magnet", titulo: "Lei de Faraday-Lenz", text: "Um campo magnético variável no tempo induz corrente elétrica em um condutor próximo." },
+      { icone: "fa-arrows-spin", titulo: "Correntes parasitas (Foucault)", text: "Correntes circulares induzidas diretamente dentro do metal da panela pelo campo magnético variável da bobina." },
+      { icone: "fa-fire", titulo: "Efeito Joule (P = R·I²)", text: "A resistência elétrica do metal dissipa a energia da corrente induzida na forma de calor, aquecendo a panela." },
+      { icone: "fa-layer-group", titulo: "Vidro cerâmico não aquece por indução", text: "Por não ser condutor nem ferromagnético, o vidro não sofre indução significativa — só esquenta por contato com a panela quente." },
+      { icone: "fa-bullseye", titulo: "Zona de cozimento localizada", text: "Só onde há campo magnético variável ativo (sobre a bobina ligada) ocorre indução — por isso o aquecimento é restrito à panela ali colocada." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>O campo magnético variável induz correntes elétricas (parasitas) diretamente na parte inferior metálica da panela; a resistência do metal dissipa essa corrente como calor por <strong>efeito Joule</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a lei física envolvida.</strong> Campo magnético variável + condutor próximo = indução eletromagnética (Lei de Faraday-Lenz).</p>
+          <p><strong>Passo 2 — Determine onde a corrente é induzida.</strong> Diretamente no metal condutor da panela (não no ar, não no vidro).</p>
+          <p><strong>Passo 3 — Conecte corrente induzida a aquecimento.</strong> A corrente circulando num condutor resistivo dissipa energia como calor — efeito Joule. É esse calor gerado dentro da própria panela que cozinha o alimento.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Imantar o material da panela — ERRADA</p>
+            <p class="text-xs">A panela precisa ser ferromagnética para o funcionamento do sistema, mas simplesmente "imantar" o material não gera calor — o aquecimento vem da corrente elétrica induzida e dissipada por efeito Joule, não da magnetização em si.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Movimentar átomos de ferro — ERRADA</p>
+            <p class="text-xs">O mecanismo físico correto envolve o movimento de <strong>elétrons</strong> (corrente elétrica induzida), não o deslocamento de átomos de ferro na estrutura do material.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Emitir radiação eletromagnética através do vidro — ERRADA</p>
+            <p class="text-xs">A indução eletromagnética funciona por campo magnético de proximidade (indução), não por emissão e absorção de radiação eletromagnética propagante — o vidro não "transporta" radiação de aquecimento nesse mecanismo.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) Induzir corrente elétrica, aquecendo por efeito Joule — CORRETA</p>
+            <p class="text-xs">Descreve exatamente a cadeia física: indução de corrente parasita na panela seguida de dissipação de calor por efeito Joule dentro do próprio metal.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Convecção no ar entre a bobina e o vidro — ERRADA</p>
+            <p class="text-xs">O aquecimento não ocorre por convecção de ar nem depende do espaço entre bobina e vidro — o mecanismo é eletromagnético (indução), com o calor gerado dentro do metal da panela.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Cadeia causal do aquecimento por indução",
+        legenda: "Corrente na bobina → campo magnético variável → corrente induzida na panela → calor por efeito Joule.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="100" height="40" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+            <text x="60" y="53" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Corrente na bobina</text>
+            <text x="118" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="100" height="40" rx="5" fill="#312e81" stroke="#a78bfa" stroke-width="1.2"/>
+            <text x="180" y="53" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">Campo B variável</text>
+            <text x="238" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="250" y="30" width="100" height="40" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2"/>
+            <text x="300" y="53" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">Corrente na panela</text>
+            <text x="358" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="370" y="30" width="80" height="40" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.2"/>
+            <text x="410" y="53" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">Calor (Joule)</text>
+          </svg>`
+      },
+      {
+        titulo: "Correntes parasitas no fundo da panela",
+        legenda: "O campo magnético variável induz correntes circulares (Foucault) dentro do metal condutor da panela.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="130" y="70" width="200" height="20" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="230" y="105" fill="#94a3b8" font-size="8" text-anchor="middle">fundo metálico da panela</text>
+            <ellipse cx="180" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <ellipse cx="230" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <ellipse cx="280" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <line x1="150" y1="20" x2="150" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="150,60 145,50 155,50" fill="#a78bfa"/>
+            <line x1="230" y1="20" x2="230" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="230,60 225,50 235,50" fill="#a78bfa"/>
+            <line x1="310" y1="20" x2="310" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="310,60 305,50 315,50" fill="#a78bfa"/>
+            <text x="230" y="15" fill="#c4b5fd" font-size="8" text-anchor="middle">campo magnético variável (da bobina)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco explicações, uma correta",
+        legenda: "Só a alternativa D descreve corretamente a cadeia física: indução → corrente → efeito Joule.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Mecanismo proposto</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) Imantar o material</text>
+            <text x="270" y="52" fill="#94a3b8" font-size="7">não gera calor por si só</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) Movimentar átomos de ferro</text>
+            <text x="270" y="76" fill="#94a3b8" font-size="7">o que se move são elétrons, não átomos</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) Emitir radiação eletromagnética</text>
+            <text x="270" y="100" fill="#94a3b8" font-size="7">indução ≠ radiação propagante</text>
+
+            <rect x="10" y="108" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="125" fill="#6ee7b7" font-size="8" font-weight="bold">D) Induzir corrente + efeito Joule ✓</text>
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) Convecção no ar</text>
+            <text x="270" y="150" fill="#94a3b8" font-size="7">mecanismo é eletromagnético, não térmico-fluido</text>
+          </svg>`
+      },
+      {
+        titulo: "Por que só a panela esquenta",
+        legenda: "Vidro cerâmico não é condutor nem ferromagnético — não sofre indução significativa.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="70" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="45" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Panela (metal ferromagnético)</text>
+            <text x="120" y="70" fill="#a7f3d0" font-size="8" text-anchor="middle">sofre indução → esquenta</text>
+
+            <rect x="250" y="20" width="200" height="70" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="350" y="45" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Vidro cerâmico</text>
+            <text x="350" y="70" fill="#94a3b8" font-size="8" text-anchor="middle">não conduz nem induz → não esquenta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a cadeia física do fogão de indução",
+      descricao: "Coloque os elos da cadeia causal na ordem correta e veja se o raciocínio bate com o fenômeno real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione o material sobre a bobina:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="ferro" checked class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Panela de ferro/aço (ferromagnética)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="vidro" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Recipiente de vidro (não condutor)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="aluminio" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Panela de alumínio (condutor, não ferromagnético)</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="mat"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          ferro: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200', texto: '<strong>Aquece bem!</strong> Sendo ferromagnética e condutora, a panela permite indução eficiente de correntes parasitas, que se dissipam como calor por efeito Joule.' },
+          vidro: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não aquece por indução.</strong> Vidro não é condutor elétrico — não há corrente induzida, logo não há efeito Joule nele.' },
+          aluminio: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200', texto: '<strong>Aquecimento fraco ou nulo.</strong> Alumínio conduz eletricidade, mas não é ferromagnético — o acoplamento com o campo magnético da bobina é muito mais fraco, por isso a maioria dos fogões de indução exige panelas ferromagnéticas.' }
+        };
+
+        function atualizar() {
+          var m = raiz.querySelector('[data-sim="mat"]:checked').value;
+          var d = dados[m];
+          painel.className = d.classe;
+          painel.innerHTML = d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-magnet"></i> Campo variável → corrente induzida na panela → calor por efeito Joule (P=RI²)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <text x="80" y="50" fill="#c4b5fd" font-size="10" font-weight="bold" text-anchor="middle">Campo B(t)</text>
+          <text x="180" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <text x="260" y="50" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">Corrente I</text>
+          <text x="340" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <text x="420" y="50" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Calor Q</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q123",
+    numero: "Questão 123",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Fisiologia Vegetal & Fotossíntese",
+    materiaCor: "emerald",
+    materiaIcone: "fa-leaf",
+    titulo: "Fotossíntese Oxigênica x Anoxigênica: o Papel Análogo da Água e do Gás Sulfídrico",
+    tags: ["Biologia", "Fotossíntese", "Bioquímica", "ATP", "NADPH", "Fotossíntese Anoxigênica", "Doadores de Elétrons"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Plantas e algas realizam <strong>fotossíntese oxigênica</strong> para síntese de matéria orgânica e, para isso, utilizam trifosfato de adenosina (ATP) e nicotinamida adenina dinucleotídeo fosfato reduzido (NADPH). Já algumas bactérias fotossintetizantes não apresentam cloroplasto e clorofila, mas o pigmento denominado bacterioclorofila. Esses procariotos realizam a <strong>fotossíntese anoxigênica</strong>, um processo de síntese de matéria orgânica utilizando o gás carbônico (CO₂) e o gás sulfídrico (H₂S).
+    <br><br>
+    Na fotossíntese oxigênica, qual composto desempenha função análoga à do H₂S?`,
+
+    alternativas: [
+      { letra: "A", texto: "ATP.", correta: false },
+      { letra: "B", texto: "NADPH.", correta: false },
+      { letra: "C", texto: "Oxigênio.", correta: false },
+      { letra: "D", texto: "Clorofila.", correta: false },
+      { letra: "E", texto: "Água.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o papel específico do H₂S na fotossíntese anoxigênica — o de <strong>doador de elétrons</strong> — e por que é isso, não sua fórmula química, que define a qual molécula ele deve ser comparado na fotossíntese oxigênica.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> A estrutura geral da fotossíntese: duas etapas</h4>
+          <p>
+            Toda fotossíntese tem duas fases funcionais: (1) uma <strong>fase clara/luminosa</strong>, em que a energia da luz é captada por pigmentos e usada para produzir ATP e um poder redutor (NADPH, ou equivalentes), retirando elétrons de uma molécula doadora; e (2) uma <strong>fase de fixação de carbono</strong>, em que esse ATP e poder redutor são usados para transformar CO₂ em matéria orgânica (açúcares).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Fotossíntese oxigênica: a água como doadora de elétrons</h4>
+          <p>
+            Em plantas, algas e cianobactérias, a fase luminosa quebra moléculas de <strong>água (H₂O)</strong>, retirando seus elétrons para alimentar a cadeia fotossintética de transporte de elétrons (que gera ATP e NADPH). Como subproduto dessa quebra da água, é liberado <strong>gás oxigênio (O₂)</strong> — daí o nome "fotossíntese <em>oxigênica</em>".
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-emerald-300 text-sm">
+            H₂O → 2 e⁻ + 2 H⁺ + ½ O₂ (fase luminosa oxigênica)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Fotossíntese anoxigênica: o H₂S no lugar da água</h4>
+          <p>
+            Bactérias fotossintetizantes anoxigênicas (como as bactérias sulfurosas verdes e púrpuras) usam bacterioclorofila em vez de clorofila, e não têm a maquinaria capaz de quebrar a água. Em vez disso, retiram elétrons de outra molécula doadora — o <strong>gás sulfídrico (H₂S)</strong>. Como subproduto dessa oxidação, em vez de O₂, é liberado <strong>enxofre elementar (S)</strong> — por isso "fotossíntese <em>anoxigênica</em>" (não produz oxigênio).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-emerald-300 text-sm">
+            H₂S → 2 e⁻ + 2 H⁺ + S (fase luminosa anoxigênica)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Identificando a "função análoga"</h4>
+          <p>
+            "Função análoga" significa: qual molécula desempenha, na fotossíntese oxigênica, o <strong>mesmo papel</strong> que o H₂S desempenha na anoxigênica? O papel do H₂S é ser o <strong>doador de elétrons</strong> que é oxidado na fase luminosa, "alimentando" a cadeia de transporte de elétrons que gera ATP e poder redutor. Na fotossíntese oxigênica, quem desempenha exatamente esse papel é a <strong>água</strong>.
+          </p>
+          <p>
+            Repare que ATP e NADPH não são doadores de elétrons — são <strong>produtos</strong> da fase luminosa, usados depois na fixação de carbono. O oxigênio é um <strong>subproduto liberado</strong> (análogo ao enxofre elementar liberado na fotossíntese anoxigênica, não ao H₂S que é consumido). E a clorofila é um <strong>pigmento captador de luz</strong>, análoga à bacterioclorofila — não à molécula doadora de elétrons.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-leaf", titulo: "Fotossíntese oxigênica", text: "Plantas, algas e cianobactérias usam água como doadora de elétrons, liberando O₂ como subproduto." },
+      { icone: "fa-bacteria", titulo: "Fotossíntese anoxigênica", text: "Algumas bactérias usam H₂S (ou outros doadores) em vez de água, liberando enxofre em vez de O₂." },
+      { icone: "fa-right-left", titulo: "Doador de elétrons", text: "A molécula que é oxidada na fase luminosa, cedendo elétrons para a cadeia fotossintética — H₂O e H₂S desempenham esse mesmo papel." },
+      { icone: "fa-battery-full", titulo: "ATP e NADPH são produtos, não doadores", text: "Resultam da fase luminosa e alimentam a fixação de carbono — não devem ser confundidos com a molécula doadora de elétrons." },
+      { icone: "fa-recycle", titulo: "Subproduto liberado", text: "O₂ (oxigênica) e S (anoxigênica) são os subprodutos liberados a partir da oxidação do doador de elétrons — não o próprio doador." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>A água é a molécula doadora de elétrons na fotossíntese oxigênica — exatamente o mesmo papel que o H₂S desempenha na fotossíntese anoxigênica.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o papel funcional do H₂S.</strong> O texto diz que a bactéria usa CO₂ e H₂S para sintetizar matéria orgânica — H₂S é o doador de elétrons da fase luminosa anoxigênica.</p>
+          <p><strong>Passo 2 — Pergunte: quem doa elétrons na fotossíntese oxigênica?</strong> É a água, quebrada na fase luminosa para alimentar a cadeia de transporte de elétrons.</p>
+          <p><strong>Passo 3 — Elimine as opções que não são doadoras de elétrons.</strong> ATP, NADPH, O₂ e clorofila desempenham papéis diferentes (produto, produto, subproduto liberado, pigmento) — nenhum deles é a molécula "consumida" que cede elétrons como o H₂S.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) ATP — ERRADA</p>
+            <p class="text-xs">É um <strong>produto</strong> da fase luminosa (não um doador de elétrons), usado depois na fixação de carbono — papel bem diferente do H₂S.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) NADPH — ERRADA</p>
+            <p class="text-xs">Também é um <strong>produto</strong> (poder redutor) gerado na fase luminosa a partir dos elétrons cedidos pelo doador — não é ele próprio o doador de elétrons.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Oxigênio — ERRADA (armadilha)</p>
+            <p class="text-xs">O oxigênio é o <strong>subproduto liberado</strong> pela oxidação da água — análogo ao enxofre elementar liberado pela oxidação do H₂S, não ao próprio H₂S (que é a molécula consumida, não o resíduo liberado).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Clorofila — ERRADA</p>
+            <p class="text-xs">É o <strong>pigmento captador de luz</strong>, análogo à bacterioclorofila da bactéria anoxigênica — não à molécula doadora de elétrons (H₂S).</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) Água — CORRETA</p>
+            <p class="text-xs">É a molécula oxidada (doadora de elétrons) na fase luminosa da fotossíntese oxigênica — exercendo exatamente a mesma função que o H₂S exerce na fotossíntese anoxigênica.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Dois processos, o mesmo papel funcional",
+        legenda: "Água e H₂S ocupam a mesma posição no esquema: doadores de elétrons oxidados na fase luminosa.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="16" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Fotossíntese OXIGÊNICA</text>
+            <rect x="30" y="30" width="80" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="70" y="53" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">H₂O</text>
+            <text x="118" y="55" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="80" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="170" y="53" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">e⁻ + O₂</text>
+
+            <text x="345" y="16" fill="#fbbf24" font-size="9" font-weight="bold" text-anchor="middle">Fotossíntese ANOXIGÊNICA</text>
+            <rect x="260" y="30" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="300" y="53" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">H₂S</text>
+            <text x="348" y="55" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="360" y="30" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="400" y="53" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">e⁻ + S</text>
+
+            <text x="230" y="110" fill="#94a3b8" font-size="8" text-anchor="middle">H₂O e H₂S ocupam a MESMA posição funcional: doador de elétrons</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco opções, um único papel funcional buscado",
+        legenda: "Só a água desempenha o papel de doadora de elétrons — as demais são produtos, subprodutos ou pigmentos.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Molécula</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Papel real na fotossíntese</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) ATP</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">produto da fase luminosa</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) NADPH</text>
+            <text x="230" y="76" fill="#94a3b8" font-size="7">produto (poder redutor)</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) Oxigênio</text>
+            <text x="230" y="100" fill="#94a3b8" font-size="7">subproduto liberado (≈ enxofre)</text>
+
+            <text x="20" y="124" fill="#e2e8f0" font-size="8">D) Clorofila</text>
+            <text x="230" y="124" fill="#94a3b8" font-size="7">pigmento (≈ bacterioclorofila)</text>
+
+            <rect x="10" y="132" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="149" fill="#6ee7b7" font-size="8" font-weight="bold">E) Água ✓</text>
+            <text x="230" y="149" fill="#a7f3d0" font-size="7" font-weight="bold">doador de elétrons (≈ H₂S)</text>
+          </svg>`
+      },
+      {
+        titulo: "De onde vem cada nome: oxigênica x anoxigênica",
+        legenda: "O nome do processo reflete o subproduto liberado pela oxidação do doador de elétrons.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="30" y="20" width="180" height="80" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="42" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Doador: H₂O</text>
+            <text x="120" y="65" fill="#a7f3d0" font-size="9" text-anchor="middle">Subproduto: O₂</text>
+            <text x="120" y="85" fill="#a7f3d0" font-size="8" font-weight="bold" text-anchor="middle">→ "oxigênica"</text>
+
+            <rect x="250" y="20" width="180" height="80" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="340" y="42" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Doador: H₂S</text>
+            <text x="340" y="65" fill="#fde68a" font-size="9" text-anchor="middle">Subproduto: S</text>
+            <text x="340" y="85" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">→ "anoxigênica" (sem O₂)</text>
+          </svg>`
+      },
+      {
+        titulo: "A fase luminosa em contexto: da luz ao poder redutor",
+        legenda: "O doador de elétrons alimenta a cadeia de transporte de elétrons, que gera ATP e NADPH para a fixação de carbono.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="100" height="40" rx="5" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.2"/>
+            <text x="60" y="53" fill="#a7f3d0" font-size="7" font-weight="bold" text-anchor="middle">Doador (H₂O/H₂S)</text>
+            <text x="118" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="100" height="40" rx="5" fill="#1e293b" stroke="#94a3b8" stroke-width="1.2"/>
+            <text x="180" y="53" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Cadeia de elétrons</text>
+            <text x="238" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="250" y="30" width="100" height="40" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2"/>
+            <text x="300" y="53" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">ATP + NADPH</text>
+            <text x="358" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="370" y="30" width="80" height="40" rx="5" fill="#312e81" stroke="#a78bfa" stroke-width="1.2"/>
+            <text x="410" y="53" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">Fixação CO₂</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: identifique o papel de cada molécula",
+      descricao: "Escolha uma molécula e veja qual papel ela desempenha na fotossíntese — e se esse papel é análogo ao do H₂S na fotossíntese anoxigênica.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="atp" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">ATP</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="nadph" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">NADPH</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="oxigenio" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Oxigênio</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="clorofila" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Clorofila</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="agua" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Água</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="mol"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          atp: { analoga: false, papel: 'Produto da fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          nadph: { analoga: false, papel: 'Produto (poder redutor) da fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          oxigenio: { analoga: false, papel: 'Subproduto liberado (análogo ao enxofre, não ao H₂S)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          clorofila: { analoga: false, papel: 'Pigmento captador de luz (análogo à bacterioclorofila)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          agua: { analoga: true, papel: 'Doadora de elétrons na fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200' }
+        };
+
+        function atualizar() {
+          var m = raiz.querySelector('[data-sim="mol"]:checked').value;
+          var d = dados[m];
+          painel.className = d.classe;
+          painel.innerHTML = '<strong>Papel real:</strong> ' + d.papel + '.<br><br>' + (d.analoga ? '<strong>É análogo ao H₂S!</strong> Ambos são oxidados como doadores de elétrons na fase luminosa.' : '<strong>Não é análogo ao H₂S</strong> — o H₂S é especificamente o doador de elétrons, não um produto, subproduto ou pigmento.');
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-leaf"></i> Água (oxigênica) e H₂S (anoxigênica) desempenham o mesmo papel: doador de elétrons</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">H₂O</text>
+          <text x="230" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">≈</text>
+          <rect x="300" y="20" width="140" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="370" y="50" fill="#fde68a" font-size="11" font-weight="bold" text-anchor="middle">H₂S</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
