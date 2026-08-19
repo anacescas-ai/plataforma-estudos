@@ -16772,6 +16772,842 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><rect x="40" y="70" width="120" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/><text x="100" y="105" fill="#93c5fd" font-size="14" text-anchor="middle">20.300 L</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q142",
+  numero: 142,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bar-chart-2",
+  titulo: "Consumo de Energia: Encontrando a Mediana de 10 Residências",
+  tags: ["Estatística", "Medidas de tendência central", "Mediana"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma concessionária de energia elétrica registrou o consumo mensal, em kWh, de 10 residências de um mesmo bairro, com o objetivo de definir uma nova faixa tarifária. Os valores registrados foram:</p>
+    <p class="font-mono bg-slate-800/60 p-2 rounded text-center">390, 320, 400, 380, 340, 360, 390, 350, 390, 400</p>
+    <p>A concessionária deseja utilizar a mediana desses valores como referência para o cálculo da nova tarifa.</p>
+    <p><strong>O valor da mediana do consumo mensal, em kWh, dessas residências é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "360", correta: false },
+    { letra: "B", texto: "370", correta: false },
+    { letra: "C", texto: "380", correta: true },
+    { letra: "D", texto: "390", correta: false },
+    { letra: "E", texto: "400", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A mediana é o valor que "divide ao meio" um conjunto de dados ordenado — metade dos valores fica abaixo dela, metade acima. Diferente da média, ela não é influenciada por valores extremos, o que a torna útil em contextos como tarifas e salários.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O primeiro passo: ordenar os dados</p>
+        <p>Para calcular a mediana, é indispensável primeiro colocar todos os valores em ordem crescente (ou decrescente). Esse passo é frequentemente esquecido, mas é a causa mais comum de erro nesse tipo de questão — a mediana NÃO é o valor do meio na ordem em que os dados foram apresentados.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Quantidade par de valores</p>
+        <p>Quando há um número par de valores (como 10, no caso desta questão), não existe um único "valor do meio". A mediana é calculada como a média aritmética dos dois valores centrais da lista ordenada — nesse caso, o 5º e o 6º valores.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Quantidade ímpar de valores</p>
+        <p>Já quando há um número ímpar de valores, a mediana é simplesmente o valor que ocupa a posição central da lista ordenada, sem necessidade de fazer média entre dois valores.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que usar mediana em vez de média?</p>
+        <p>A mediana é menos sensível a valores muito altos ou muito baixos (outliers) do que a média. Por isso é frequentemente preferida em contextos como definição de tarifas, salários típicos ou preços de imóveis, onde alguns valores extremos poderiam distorcer a média para cima ou para baixo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "list-ordered", titulo: "Ordenação dos dados", text: "Sempre organizar os valores em ordem crescente antes de calcular a mediana." },
+    { icone: "divide", titulo: "Quantidade par", text: "Com n par, a mediana é a média dos dois valores centrais (posições n/2 e n/2+1)." },
+    { icone: "hash", titulo: "Quantidade ímpar", text: "Com n ímpar, a mediana é o valor exatamente na posição central." },
+    { icone: "shield", titulo: "Resistência a outliers", text: "A mediana não é distorcida por valores extremos, ao contrário da média." },
+    { icone: "trending-up", titulo: "Aplicação prática", text: "Usada para definir tarifas, salários típicos e outras referências robustas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 380 kWh</p>
+        <p class="text-xs text-slate-300">Ordenando os 10 valores e fazendo a média dos dois centrais (5º e 6º), obtém-se 380.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Ordenar os valores:</strong> 320, 340, 350, 360, 380, 380, 390, 390, 390, 400.</li>
+          <li><strong>Passo 2 — Identificar as posições centrais:</strong> Com 10 valores (par), as posições centrais são a 5ª e a 6ª: ambas valem 380.</li>
+          <li><strong>Passo 3 — Calcular a média das posições centrais:</strong> (380 + 380) / 2 = 380 kWh.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 360 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o 4º valor da lista ordenada, não a mediana (posição errada).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 370 — Incorreta</p>
+          <p class="text-xs text-slate-400">Seria a média entre 360 e 380 (4º e 5º valores), posições centrais erradas para 10 dados.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 380 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Média exata entre o 5º e o 6º valores da lista ordenada (380 e 380).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 390 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor mais frequente (moda), não a mediana — confusão comum entre as duas medidas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 400 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor máximo do conjunto, não a mediana.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Dados originais (desordenados)",
+      legenda: "Como aparecem no enunciado",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="monospace">390,320,400,380,340,360,390,350,390,400</text></svg>`
+    },
+    {
+      titulo: "Dados ordenados",
+      legenda: "Em ordem crescente",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="monospace">320,340,350,360,380,380,390,390,390,400</text></svg>`
+    },
+    {
+      titulo: "Posições centrais destacadas",
+      legenda: "5º e 6º valores = 380 e 380",
+      svg: `<svg viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg"><rect width="320" height="100" fill="#0f172a"/>${['320','340','350','360','380','380','390','390','390','400'].map((v,i)=>`<rect x="${10+i*30}" y="30" width="26" height="30" fill="${i===4||i===5?'#10b981':'#1e3a5f'}" stroke="#3b82f6"/><text x="${23+i*30}" y="50" fill="#e2e8f0" font-size="9" text-anchor="middle">${v}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Cálculo da mediana",
+      legenda: "(380 + 380) / 2 = 380",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">(380 + 380) / 2 = 380 kWh</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Mediana",
+    descricao: "Digite 10 valores separados por vírgula e veja a mediana calculada passo a passo.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valores (separados por vírgula):</label>
+          <input type="text" id="q142-input" value="390,320,400,380,340,360,390,350,390,400" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+          <p class="text-xs text-slate-400">Ordenados</p>
+          <p id="q142-ordenados" class="text-sm font-mono text-blue-300 mb-2">—</p>
+          <p class="text-xs text-slate-400">Mediana</p>
+          <p id="q142-mediana" class="text-3xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const input = raiz.querySelector('#q142-input');
+      const ordenadosEl = raiz.querySelector('#q142-ordenados');
+      const medianaEl = raiz.querySelector('#q142-mediana');
+      function atualizar() {
+        const nums = input.value.split(',').map(s => parseFloat(s.trim())).filter(n => !isNaN(n));
+        if (nums.length === 0) return;
+        const sorted = [...nums].sort((a,b) => a-b);
+        ordenadosEl.textContent = sorted.join(', ');
+        let mediana;
+        const n = sorted.length;
+        if (n % 2 === 0) {
+          mediana = (sorted[n/2 - 1] + sorted[n/2]) / 2;
+        } else {
+          mediana = sorted[Math.floor(n/2)];
+        }
+        medianaEl.textContent = mediana.toFixed(1);
+      }
+      input.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="105" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">380</text><text x="100" y="130" fill="#94a3b8" font-size="12" text-anchor="middle">mediana (kWh)</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q143",
+  numero: 143,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shopping-bag",
+  titulo: "Rótulos Nutricionais: Qual Salgadinho Tem Menos Sódio por Pacote?",
+  tags: ["Proporcionalidade", "Leitura de tabelas", "Matemática aplicada à saúde"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma nutricionista está orientando um paciente a reduzir o consumo de sódio e, para isso, analisa os rótulos nutricionais de cinco tipos de salgadinhos industrializados. A tabela abaixo apresenta a quantidade de sódio por porção (indicada no rótulo) e o número de porções por pacote de cada produto:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Produto</th><th class="border border-slate-600 p-2">Sódio por porção (mg)</th><th class="border border-slate-600 p-2">Porções por pacote</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">Batata chips</td><td class="border border-slate-600 p-2">170</td><td class="border border-slate-600 p-2">3</td></tr>
+        <tr><td class="border border-slate-600 p-2">Palitos de milho</td><td class="border border-slate-600 p-2">334</td><td class="border border-slate-600 p-2">6</td></tr>
+        <tr><td class="border border-slate-600 p-2">Multigrãos</td><td class="border border-slate-600 p-2">352</td><td class="border border-slate-600 p-2">6</td></tr>
+        <tr><td class="border border-slate-600 p-2">Polvilho</td><td class="border border-slate-600 p-2">210</td><td class="border border-slate-600 p-2">5</td></tr>
+        <tr><td class="border border-slate-600 p-2">Água e sal</td><td class="border border-slate-600 p-2">166</td><td class="border border-slate-600 p-2">5</td></tr>
+      </tbody>
+    </table>
+    <p>O paciente costuma consumir o pacote inteiro de uma só vez, em cada ocasião.</p>
+    <p><strong>Para reduzir ao máximo o consumo de sódio por ocasião, o paciente deve escolher o salgadinho:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Batata chips", correta: true },
+    { letra: "B", texto: "Palitos de milho", correta: false },
+    { letra: "C", texto: "Multigrãos", correta: false },
+    { letra: "D", texto: "Polvilho", correta: false },
+    { letra: "E", texto: "Água e sal", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Rótulos nutricionais informam valores "por porção", mas decisões do mundo real muitas vezes envolvem o pacote inteiro. Multiplicar corretamente porção por quantidade de porções é o que transforma uma tabela de rótulo em uma decisão útil.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Valor "por porção" não é o valor total</p>
+        <p>Rótulos de alimentos apresentam informações nutricionais com base em uma porção — uma fração padronizada do produto, não o pacote inteiro. Para saber o total consumido ao comer o pacote todo, é preciso multiplicar o valor por porção pelo número de porções contidas no pacote.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Multiplicação simples como ferramenta de decisão</p>
+        <p>Total por pacote = (quantidade por porção) × (número de porções por pacote). Essa multiplicação básica é o que permite comparar produtos de forma justa quando o tamanho da porção e o número de porções variam de um produto para outro.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Cuidado com armadilhas de comparação direta</p>
+        <p>Um erro comum é comparar apenas o valor "por porção" entre produtos, ignorando quantas porções cada pacote contém. Um produto pode ter menos sódio por porção, mas mais porções no pacote, resultando em mais sódio total — por isso o cálculo do total é indispensável.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Interpretação em contexto de saúde</p>
+        <p>Em decisões de saúde (como redução de sódio, açúcar ou calorias), o que importa geralmente é o total efetivamente consumido em uma ocasião, não apenas o valor "por porção" do rótulo — daí a importância de sempre calcular o total antes de comparar produtos.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "table", titulo: "Leitura de rótulos", text: "Rótulos informam valores por porção, não o total do pacote." },
+    { icone: "x", titulo: "Multiplicação total", text: "Total = valor por porção × número de porções no pacote." },
+    { icone: "alert-triangle", titulo: "Armadilha da comparação direta", text: "Comparar apenas 'por porção' pode levar a conclusões erradas." },
+    { icone: "heart", titulo: "Contexto de saúde", text: "Decisões de consumo devem considerar o total real ingerido por ocasião." },
+    { icone: "list", titulo: "Organização de dados", text: "Calcular o total para cada produto antes de decidir qual é o menor." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Batata chips</p>
+        <p class="text-xs text-slate-300">Calculando o total de sódio por pacote de cada produto, a batata chips tem o menor valor: 510 mg.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Multiplicar sódio por porção × porções por pacote para cada produto:</strong> Batata chips: 170×3=510; Palitos: 334×6=2.004; Multigrãos: 352×6=2.112; Polvilho: 210×5=1.050; Água e sal: 166×5=830.</li>
+          <li><strong>Passo 2 — Comparar os totais:</strong> 510 (batata chips) &lt; 830 (água e sal) &lt; 1.050 (polvilho) &lt; 2.004 (palitos) &lt; 2.112 (multigrãos).</li>
+          <li><strong>Passo 3 — Identificar o menor:</strong> Batata chips tem o menor total de sódio por pacote (510 mg), sendo a melhor escolha para reduzir o consumo.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Batata chips — Correta ✓</p>
+          <p class="text-xs text-slate-400">170 × 3 = 510 mg de sódio por pacote — o menor total entre todos os produtos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Palitos de milho — Incorreta</p>
+          <p class="text-xs text-slate-400">334 × 6 = 2.004 mg — quase 4 vezes mais sódio que a batata chips.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Multigrãos — Incorreta</p>
+          <p class="text-xs text-slate-400">352 × 6 = 2.112 mg — o maior total de sódio entre os cinco produtos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Polvilho — Incorreta</p>
+          <p class="text-xs text-slate-400">210 × 5 = 1.050 mg — mais que o dobro do total da batata chips.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Água e sal — Incorreta</p>
+          <p class="text-xs text-slate-400">166 × 5 = 830 mg — menor sódio por porção que a batata chips, mas o total do pacote é maior, pois tem mais porções.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Rótulo: sódio por porção",
+      legenda: "Valor informado individualmente por produto",
+      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="160" fill="#0f172a"/>${['Batata:170','Palitos:334','Multigrãos:352','Polvilho:210','Água/sal:166'].map((t,i)=>`<text x="20" y="${30+i*26}" fill="#93c5fd" font-size="12">${t} mg/porção</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Porções por pacote",
+      legenda: "Quantidade que varia por produto",
+      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="160" fill="#0f172a"/>${['Batata:3','Palitos:6','Multigrãos:6','Polvilho:5','Água/sal:5'].map((t,i)=>`<text x="20" y="${30+i*26}" fill="#fbbf24" font-size="12">${t} porções</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Total de sódio por pacote",
+      legenda: "Multiplicação: porção × número de porções",
+      svg: `<svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="180" fill="#0f172a"/>${[['Batata',510,'#10b981'],['Palitos',2004,'#ef4444'],['Multigrãos',2112,'#ef4444'],['Polvilho',1050,'#f59e0b'],['Água/sal',830,'#f59e0b']].map((d,i)=>`<rect x="90" y="${15+i*32}" width="${d[1]/2112*180}" height="24" fill="${d[2]}" opacity="0.7"/><text x="10" y="${32+i*32}" fill="#e2e8f0" font-size="11">${d[0]}</text><text x="${95+d[1]/2112*180}" y="${32+i*32}" fill="#e2e8f0" font-size="10">${d[1]}mg</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Vencedor: menor sódio total",
+      legenda: "Batata chips — 510 mg por pacote",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><circle cx="100" cy="70" r="50" fill="#10b981" opacity="0.2" stroke="#10b981" stroke-width="3"/><text x="100" y="65" fill="#6ee7b7" font-size="14" text-anchor="middle" font-weight="bold">Batata</text><text x="100" y="85" fill="#6ee7b7" font-size="14" text-anchor="middle" font-weight="bold">chips</text><text x="100" y="140" fill="#94a3b8" font-size="12" text-anchor="middle">510 mg/pacote</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Sódio Total",
+    descricao: "Ajuste sódio por porção e número de porções para calcular o total do pacote de cada produto.",
+    html: `
+      <div class="space-y-3">
+        <div id="q143-produtos"></div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Produto com menor sódio total</p>
+          <p id="q143-vencedor" class="text-xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const produtos = [
+        { nome: 'Batata chips', porcao: 170, porcoes: 3 },
+        { nome: 'Palitos de milho', porcao: 334, porcoes: 6 },
+        { nome: 'Multigrãos', porcao: 352, porcoes: 6 },
+        { nome: 'Polvilho', porcao: 210, porcoes: 5 },
+        { nome: 'Água e sal', porcao: 166, porcoes: 5 }
+      ];
+      const container = raiz.querySelector('#q143-produtos');
+      const vencedorEl = raiz.querySelector('#q143-vencedor');
+      produtos.forEach((p, i) => {
+        const div = document.createElement('div');
+        div.className = 'text-xs text-slate-300 flex justify-between border-b border-slate-700 py-1';
+        div.innerHTML = '<span>' + p.nome + '</span><span class="font-mono" id="q143-total-' + i + '">' + (p.porcao * p.porcoes) + ' mg</span>';
+        container.appendChild(div);
+      });
+      function atualizar() {
+        let menor = produtos[0];
+        produtos.forEach((p, i) => {
+          const total = p.porcao * p.porcoes;
+          const el = raiz.querySelector('#q143-total-' + i);
+          if (el) el.textContent = total + ' mg';
+          if (total < menor.porcao * menor.porcoes) menor = p;
+        });
+        vencedorEl.textContent = menor.nome + ' (' + (menor.porcao * menor.porcoes) + ' mg)';
+      }
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="100" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">Batata chips</text><text x="100" y="125" fill="#94a3b8" font-size="13" text-anchor="middle">510 mg/pacote</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q144",
+  numero: 144,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "box",
+  titulo: "Escultura Geométrica: Quantas Cores Diferentes Ela Precisa?",
+  tags: ["Geometria espacial", "Prismas e troncos", "Visualização espacial"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um artista está construindo uma escultura formada pela junção de dois sólidos geométricos: um prisma hexagonal regular na base e, sobre ele, um tronco de pirâmide hexagonal regular (frustum), de modo que a face hexagonal maior do tronco coincida exatamente com a face hexagonal superior do prisma (ficando, portanto, "escondida" e não visível de fora).</p>
+    <p>O artista deseja pintar a escultura de modo que:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>faces congruentes entre si recebam a mesma cor;</li>
+      <li>faces não congruentes recebam cores diferentes;</li>
+      <li>apenas as faces externas visíveis da escultura sejam pintadas (a face de junção entre os dois sólidos não é pintada, pois fica interna/oculta).</li>
+    </ul>
+    <p><strong>O número mínimo de cores diferentes que o artista precisará utilizar é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "2", correta: false },
+    { letra: "B", texto: "3", correta: false },
+    { letra: "C", texto: "6", correta: false },
+    { letra: "D", texto: "4", correta: true },
+    { letra: "E", texto: "5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Questões de "quantas cores" em sólidos geométricos testam a capacidade de visualizar quais faces são congruentes entre si e quais faces ficam ocultas na junção de dois sólidos — uma combinação de geometria espacial com raciocínio lógico.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando as faces de um prisma hexagonal</p>
+        <p>Um prisma hexagonal regular tem duas bases hexagonais (topo e fundo, congruentes entre si) e 6 faces laterais retangulares (todas congruentes entre si, se o prisma for reto e regular). Isso já dá, isoladamente, até 2 grupos de faces congruentes.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Identificando as faces de um tronco de pirâmide (frustum)</p>
+        <p>Um tronco de pirâmide hexagonal regular tem duas bases hexagonais de tamanhos diferentes (a maior e a menor, não congruentes entre si) e 6 faces laterais trapezoidais (todas congruentes entre si, se o tronco for regular).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. O que desaparece na junção</p>
+        <p>Ao unir os dois sólidos face a face (a base superior do prisma com a base maior do tronco), essa face de junção fica completamente interna à escultura — não é mais uma face externa e, portanto, não precisa (nem pode) ser pintada.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Contando os grupos de cores necessários</p>
+        <p>Após remover a face de junção, resta contar quantos grupos de faces congruentes distintas existem entre TODAS as faces externas restantes (de ambos os sólidos), lembrando que faces de sólidos diferentes só são "a mesma cor" se forem geometricamente congruentes entre si, não apenas por pertencerem à mesma categoria.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "hexagon", titulo: "Bases hexagonais", text: "Prisma tem duas bases congruentes; tronco tem duas bases diferentes (maior e menor)." },
+    { icone: "square", titulo: "Faces laterais", text: "Prisma: 6 retângulos congruentes. Tronco: 6 trapézios congruentes." },
+    { icone: "eye-off", titulo: "Face oculta na junção", text: "A face de encontro entre os dois sólidos fica interna e não é pintada." },
+    { icone: "palette", titulo: "Congruência define a cor", text: "Só recebem a mesma cor faces geometricamente congruentes entre si." },
+    { icone: "layers", titulo: "Contagem de grupos", text: "Contar quantos grupos distintos de faces congruentes restam após a junção." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 4 cores</p>
+        <p class="text-xs text-slate-300">Existem 4 grupos de faces congruentes visíveis: base do prisma, laterais do prisma, base menor do tronco, laterais do tronco.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Listar as faces do prisma:</strong> base inferior (hexágono, visível), base superior (hexágono, oculta pela junção), 6 laterais retangulares congruentes (visíveis).</li>
+          <li><strong>Passo 2 — Listar as faces do tronco:</strong> base maior (hexágono, oculta pela junção — coincide com o topo do prisma), base menor (hexágono, visível, não congruente à base maior), 6 laterais trapezoidais congruentes (visíveis).</li>
+          <li><strong>Passo 3 — Agrupar as faces visíveis por congruência:</strong> (1) hexágono da base do prisma, (2) 6 retângulos do prisma, (3) hexágono menor do tronco (diferente do hexágono do prisma), (4) 6 trapézios do tronco. Total: 4 grupos = 4 cores.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que a base do prisma e a base do tronco não são congruentes, e que faces laterais dos dois sólidos também não são congruentes entre si.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Agrupa incorretamente duas das quatro categorias de faces que, na verdade, não são congruentes entre si.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 6 — Incorreta</p>
+          <p class="text-xs text-slate-400">Trata cada face lateral individualmente como uma cor distinta, ignorando que faces congruentes recebem a mesma cor.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 4 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Base do prisma, laterais do prisma, base menor do tronco e laterais do tronco formam 4 grupos distintos de faces congruentes.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima a contagem, tratando como distintas faces que na verdade são congruentes dentro de um mesmo sólido.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A escultura completa",
+      legenda: "Prisma hexagonal + tronco de pirâmide hexagonal",
+      svg: `<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="260" fill="#0f172a"/><polygon points="60,160 140,160 160,180 140,200 60,200 40,180" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="60" y="120" width="80" height="40" fill="#1e40af" opacity="0.4" stroke="#3b82f6"/><polygon points="70,60 130,60 145,80 130,100 70,100 55,80" fill="#f59e0b" opacity="0.5" stroke="#fbbf24" stroke-width="2"/><polygon points="60,100 140,100 130,120 70,120" fill="#334155" opacity="0.6" stroke="#3b82f6" stroke-dasharray="3"/><text x="100" y="230" fill="#94a3b8" font-size="11" text-anchor="middle">Prisma + Tronco</text></svg>`
+    },
+    {
+      titulo: "Faces do prisma (base)",
+      legenda: "Base hexagonal + 6 retângulos laterais",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="60,120 140,120 160,140 140,160 60,160 40,140" fill="none" stroke="#10b981" stroke-width="3"/><rect x="60" y="60" width="80" height="60" fill="#3b82f6" opacity="0.4" stroke="#60a5fa"/><text x="100" y="180" fill="#6ee7b7" font-size="11" text-anchor="middle">Cor 1: base | Cor 2: laterais</text></svg>`
+    },
+    {
+      titulo: "Faces do tronco (topo)",
+      legenda: "Base menor + 6 trapézios laterais",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="75,60 125,60 138,75 125,90 75,90 62,75" fill="none" stroke="#f59e0b" stroke-width="3"/><polygon points="55,90 145,90 125,150 75,150" fill="#f59e0b" opacity="0.3" stroke="#fbbf24"/><text x="100" y="180" fill="#fbbf24" font-size="11" text-anchor="middle">Cor 3: base menor | Cor 4: trapézios</text></svg>`
+    },
+    {
+      titulo: "Face oculta na junção",
+      legenda: "Não é pintada — fica interna",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><polygon points="60,70 140,70 160,90 140,110 60,110 40,90" fill="#475569" opacity="0.5" stroke="#64748b" stroke-width="2" stroke-dasharray="4"/><text x="100" y="130" fill="#94a3b8" font-size="11" text-anchor="middle">face de junção (oculta)</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Contador de Grupos de Cores",
+    descricao: "Explore como cada face da escultura se agrupa por congruência.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <button id="q144-btn0" class="bg-emerald-700/40 border border-emerald-500 rounded px-2 py-2 text-emerald-200">Base do prisma</button>
+          <button id="q144-btn1" class="bg-blue-700/40 border border-blue-500 rounded px-2 py-2 text-blue-200">Laterais do prisma (×6)</button>
+          <button id="q144-btn2" class="bg-amber-700/40 border border-amber-500 rounded px-2 py-2 text-amber-200">Base menor do tronco</button>
+          <button id="q144-btn3" class="bg-purple-700/40 border border-purple-500 rounded px-2 py-2 text-purple-200">Laterais do tronco (×6)</button>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p id="q144-desc" class="text-xs text-slate-300">Clique em um grupo para ver detalhes.</p>
+        </div>
+        <p class="text-center text-sm text-slate-400">Total de cores necessárias: <span class="text-emerald-400 font-bold text-lg">4</span></p>
+      </div>
+    `,
+    init: function(raiz) {
+      const descs = [
+        'A base hexagonal inferior do prisma é a única face desse tipo visível — a base superior está oculta pela junção.',
+        'As 6 faces retangulares laterais do prisma são todas congruentes entre si — mesma cor para todas.',
+        'A base menor do tronco (hexágono no topo da escultura) não é congruente à base do prisma — precisa de cor própria.',
+        'As 6 faces trapezoidais laterais do tronco são congruentes entre si, mas diferentes dos retângulos do prisma.'
+      ];
+      descs.forEach((d, i) => {
+        const btn = raiz.querySelector('#q144-btn' + i);
+        if (btn) btn.addEventListener('click', () => {
+          raiz.querySelector('#q144-desc').textContent = d;
+        });
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="105" fill="#6ee7b7" font-size="28" text-anchor="middle" font-weight="bold">4</text><text x="100" y="130" fill="#94a3b8" font-size="12" text-anchor="middle">cores necessárias</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q145b",
+  numero: 145,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "activity",
+  titulo: "Frequência Cardíaca: Qual Gráfico Representa a Recuperação do Atleta?",
+  tags: ["Leitura de gráficos", "Funções", "Análise de comportamento"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um fisiologista do esporte monitora a frequência cardíaca de um atleta durante um período de recuperação após um exercício intenso. A partir do instante t0, imediatamente após o esforço, a frequência cardíaca começa a diminuir progressivamente. Em um instante t1, o atleta realiza uma breve caminhada leve, o que faz a frequência cardíaca continuar a diminuir, mas de forma mais lenta que antes. A partir de um instante t2, o atleta entra em repouso completo (sentado, sem se mover), e a frequência cardíaca se estabiliza, permanecendo praticamente constante a partir desse ponto.</p>
+    <p><strong>O gráfico que melhor representa a frequência cardíaca do atleta em função do tempo, desde t0 até um instante posterior a t2, é aquele em que a curva:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "aumenta até t1, diminui até t2, depois aumenta novamente", correta: false },
+    { letra: "B", texto: "diminui em linha reta constante do início ao fim, sem mudança de inclinação", correta: false },
+    { letra: "C", texto: "permanece constante até t1, depois diminui abruptamente até t2, depois constante", correta: false },
+    { letra: "D", texto: "diminui até t2 (com uma mudança de inclinação em t1, ficando mais suave), depois permanece constante", correta: true },
+    { letra: "E", texto: "diminui até t1, aumenta entre t1 e t2, depois permanece constante", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Ler um gráfico a partir de uma descrição textual do comportamento de uma grandeza ao longo do tempo é uma habilidade central: cada trecho do texto ("diminui", "mais devagar", "se estabiliza") corresponde a uma característica visual específica da curva.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Traduzindo palavras em inclinação de curva</p>
+        <p>Quando uma grandeza "diminui", a curva tem inclinação negativa (desce da esquerda para a direita). Quando "diminui mais devagar", a inclinação continua negativa, mas menos acentuada (a curva fica mais "achatada", ainda descendo, mas com menos intensidade). Quando a grandeza "se estabiliza" ou fica "constante", a curva se torna horizontal (inclinação zero).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Continuidade nos pontos de transição</p>
+        <p>Em fenômenos físicos contínuos (como frequência cardíaca), não há "saltos" bruscos no valor da grandeza nos instantes de transição (t1, t2) — o que muda é a inclinação da curva (a taxa de variação), não o valor em si. Ou seja, a curva deve ser contínua, mas pode ter "quebras" na inclinação (pontos onde a curva muda de comportamento sem descontinuidade de valor).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Identificando os três trechos do problema</p>
+        <p>Trecho 1 (t0 a t1): frequência cardíaca diminui de forma mais acentuada (esforço intenso recém-terminado). Trecho 2 (t1 a t2): continua diminuindo, mas mais lentamente (caminhada leve reduz a taxa de queda). Trecho 3 (a partir de t2): permanece constante (repouso completo, corpo estabilizado).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Erros comuns de interpretação</p>
+        <p>Um erro frequente é confundir "diminui mais devagar" com "aumenta" — a grandeza continua diminuindo, apenas com menor intensidade, não muda de direção. Outro erro é achar que, ao atingir t2, a curva deveria "zerar" — na verdade, ela se estabiliza no valor que tinha alcançado, não necessariamente em zero.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-down", titulo: "Inclinação negativa", text: "Grandeza diminuindo corresponde a uma curva com inclinação negativa." },
+    { icone: "minus", titulo: "Estabilização", text: "Grandeza constante corresponde a um trecho horizontal na curva." },
+    { icone: "git-commit", titulo: "Continuidade com quebra de inclinação", text: "A curva não salta de valor, mas pode mudar de taxa de variação nos pontos de transição." },
+    { icone: "layers", titulo: "Trechos do fenômeno", text: "Identificar cada intervalo de tempo e sua taxa de variação correspondente." },
+    { icone: "alert-triangle", titulo: "Cuidado com inversões", text: "'Diminuir mais devagar' não é o mesmo que 'aumentar'." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D</p>
+        <p class="text-xs text-slate-300">A curva diminui do início até t2 (ficando mais suave após t1) e depois permanece constante — exatamente o comportamento descrito.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Trecho t0 a t1:</strong> "diminui progressivamente" → curva descendente com inclinação negativa considerável.</li>
+          <li><strong>Passo 2 — Trecho t1 a t2:</strong> "continua a diminuir, mas mais lentamente" → curva ainda descendente, porém com inclinação menos acentuada (mais próxima de horizontal, mas ainda negativa).</li>
+          <li><strong>Passo 3 — Trecho a partir de t2:</strong> "se estabiliza, permanecendo praticamente constante" → curva horizontal, sem mais queda.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Incorreta</p>
+          <p class="text-xs text-slate-400">Descreve um aumento inicial, que não corresponde a nenhum trecho do enunciado — a frequência só diminui e depois estabiliza.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora a mudança de inclinação em t1 e a estabilização após t2 — trata tudo como uma única queda uniforme.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Incorreta</p>
+          <p class="text-xs text-slate-400">Descreve uma queda abrupta (descontínua na taxa de forma extrema) entre t1 e t2, quando na verdade a queda apenas desacelera suavemente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) Correta ✓</p>
+          <p class="text-xs text-slate-400">Captura exatamente os três trechos: queda acentuada, queda suave, depois estabilização constante.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Incorreta</p>
+          <p class="text-xs text-slate-400">Inclui um trecho de aumento entre t1 e t2, que contradiz "continua a diminuir" do enunciado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trecho 1: queda acentuada",
+      legenda: "De t0 a t1 — esforço recém-terminado",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 30 30 L 100 100" stroke="#3b82f6" stroke-width="3" fill="none"/><text x="65" y="20" fill="#93c5fd" font-size="11">queda forte</text><text x="30" y="145" fill="#94a3b8" font-size="10">t0</text><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text></svg>`
+    },
+    {
+      titulo: "Trecho 2: queda suave",
+      legenda: "De t1 a t2 — caminhada leve",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 100 100 L 170 115" stroke="#f59e0b" stroke-width="3" fill="none"/><text x="110" y="90" fill="#fbbf24" font-size="11">queda suave</text><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    },
+    {
+      titulo: "Trecho 3: estabilização",
+      legenda: "Após t2 — repouso completo",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 170 115 L 220 115" stroke="#10b981" stroke-width="3" fill="none"/><text x="175" y="105" fill="#6ee7b7" font-size="11">constante</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    },
+    {
+      titulo: "Curva completa (gabarito D)",
+      legenda: "Os três trechos combinados",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 30 30 L 100 100 L 170 115 L 220 115" stroke="#8b5cf6" stroke-width="3" fill="none"/><circle cx="100" cy="100" r="3" fill="#fbbf24"/><circle cx="170" cy="115" r="3" fill="#6ee7b7"/><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Desenhe a Curva de Recuperação",
+    descricao: "Ajuste as inclinações de cada trecho e veja a curva de frequência cardíaca se formar.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Queda no trecho 1 (t0→t1): <span id="q145-i1" class="text-blue-300 font-bold">70</span></label>
+          <input type="range" id="q145-s1" min="20" max="100" step="5" value="70" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Queda no trecho 2 (t1→t2): <span id="q145-i2" class="text-blue-300 font-bold">15</span></label>
+          <input type="range" id="q145-s2" min="0" max="60" step="5" value="15" class="w-full">
+        </div>
+        <svg id="q145-svg" viewBox="0 0 260 160" class="w-full bg-slate-900 rounded border border-slate-700">
+          <line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/>
+          <line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/>
+          <path id="q145-path" d="" stroke="#8b5cf6" stroke-width="3" fill="none"/>
+        </svg>
+      </div>
+    `,
+    init: function(raiz) {
+      const s1 = raiz.querySelector('#q145-s1');
+      const s2 = raiz.querySelector('#q145-s2');
+      const i1 = raiz.querySelector('#q145-i1');
+      const i2 = raiz.querySelector('#q145-i2');
+      const path = raiz.querySelector('#q145-path');
+      function atualizar() {
+        const q1 = parseFloat(s1.value);
+        const q2 = parseFloat(s2.value);
+        i1.textContent = q1;
+        i2.textContent = q2;
+        const y0 = 30, y1 = y0 + q1, y2 = y1 + q2;
+        const d = 'M 30 ' + y0 + ' L 100 ' + y1 + ' L 170 ' + y2 + ' L 220 ' + y2;
+        path.setAttribute('d', d);
+      }
+      s1.addEventListener('input', atualizar);
+      s2.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><path d="M 30 30 L 90 90 L 140 105 L 180 105" stroke="#8b5cf6" stroke-width="3" fill="none"/></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q146",
+  numero: 146,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "coins",
+  titulo: "Troco na Padaria: Quanto Sobrou Depois da Compra?",
+  tags: ["Operações com decimais", "Matemática financeira básica", "Subtração"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma cliente foi a uma padaria comprar pães e pagou com uma nota de R$ 10,00. O valor total da compra foi de R$ 9,58.</p>
+    <p><strong>O valor do troco que a cliente deve receber, em reais, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 0,32", correta: false },
+    { letra: "B", texto: "R$ 0,42", correta: true },
+    { letra: "C", texto: "R$ 0,48", correta: false },
+    { letra: "D", texto: "R$ 0,52", correta: false },
+    { letra: "E", texto: "R$ 1,42", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Subtração de números decimais é uma das operações mais usadas no dia a dia — calcular troco é o exemplo mais direto disso, e pequenos deslizes no alinhamento de casas decimais são a fonte mais comum de erro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Alinhando as casas decimais</p>
+        <p>Ao subtrair dois valores em reais, é fundamental alinhar corretamente a vírgula decimal: unidades com unidades, décimos com décimos, centavos com centavos. Um erro comum é "desalinhar" os números e obter um resultado com a ordem de grandeza errada.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Pedindo emprestado entre casas decimais</p>
+        <p>Assim como na subtração de números inteiros, ao subtrair centavos pode ser necessário "pedir emprestado" da casa dos décimos (ou até das unidades), quando o algarismo do minuendo é menor que o do subtraendo naquela posição.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Verificação por adição</p>
+        <p>Uma forma simples e confiável de conferir um cálculo de troco é somar o valor do troco ao valor da compra e verificar se o resultado é igual ao valor pago. Se R$ 9,58 + troco = R$ 10,00, o troco está correto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Sentido prático do resultado</p>
+        <p>Como o valor pago (R$ 10,00) é pouco maior que o valor da compra (R$ 9,58), espera-se que o troco seja pequeno — um valor menor que R$ 1,00. Essa verificação de "faz sentido" ajuda a descartar rapidamente alternativas com ordem de grandeza incompatível.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "align-right", titulo: "Alinhamento decimal", text: "Alinhar corretamente unidades, décimos e centavos antes de subtrair." },
+    { icone: "arrow-left-right", titulo: "Empréstimo entre casas", text: "Pedir emprestado da casa vizinha quando o algarismo do minuendo é menor." },
+    { icone: "check-circle", titulo: "Verificação por soma", text: "Somar o troco ao valor da compra deve reproduzir o valor pago." },
+    { icone: "banknote", titulo: "Matemática financeira cotidiana", text: "Cálculo de troco é aplicação direta de subtração decimal." },
+    { icone: "target", titulo: "Estimativa de ordem de grandeza", text: "Verificar se o resultado é plausível antes de finalizar a resposta." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — R$ 0,42</p>
+        <p class="text-xs text-slate-300">10,00 − 9,58 = 0,42.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Escrever os valores alinhados:</strong> 10,00 (pago) menos 9,58 (compra).</li>
+          <li><strong>Passo 2 — Subtrair os centavos com empréstimo:</strong> 00 − 58 exige emprestar: 100 − 58 = 42 centavos, com ajuste na casa dos décimos/unidades.</li>
+          <li><strong>Passo 3 — Completar a subtração das unidades:</strong> 9 (após os empréstimos) − 9 = 0 reais inteiros; resultado final: R$ 0,42.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 0,32 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no processo de empréstimo entre as casas decimais.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) R$ 0,42 — Correta ✓</p>
+          <p class="text-xs text-slate-400">10,00 − 9,58 = 0,42, verificável por 9,58 + 0,42 = 10,00.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) R$ 0,48 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erro de subtração ao lidar com o algarismo dos centavos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) R$ 0,52 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde 9,58 com 9,48 durante a subtração.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 1,42 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erro de uma unidade inteira, resultado incompatível com a estimativa de troco pequeno.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Valor pago",
+      legenda: "Nota de R$ 10,00",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="35" width="140" height="50" rx="6" fill="#166534" stroke="#22c55e" stroke-width="2"/><text x="100" y="66" fill="#bbf7d0" font-size="18" text-anchor="middle" font-weight="bold">R$ 10,00</text></svg>`
+    },
+    {
+      titulo: "Valor da compra",
+      legenda: "Total dos pães: R$ 9,58",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="35" width="140" height="50" rx="6" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="100" y="66" fill="#93c5fd" font-size="18" text-anchor="middle" font-weight="bold">R$ 9,58</text></svg>`
+    },
+    {
+      titulo: "Subtração alinhada",
+      legenda: "10,00 − 9,58",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><text x="140" y="45" fill="#e2e8f0" font-size="18" text-anchor="end" font-family="monospace">10,00</text><text x="140" y="70" fill="#e2e8f0" font-size="18" text-anchor="end" font-family="monospace">− 9,58</text><line x1="60" y1="80" x2="140" y2="80" stroke="#64748b" stroke-width="2"/></svg>`
+    },
+    {
+      titulo: "Troco final",
+      legenda: "R$ 0,42",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="40" y="35" width="120" height="50" rx="6" fill="#065f46" stroke="#10b981" stroke-width="2"/><text x="100" y="66" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 0,42</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Troco",
+    descricao: "Ajuste o valor pago e o valor da compra para calcular o troco.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valor pago (R$): <span id="q146-pval" class="text-blue-300 font-bold">10,00</span></label>
+          <input type="range" id="q146-pago" min="5" max="20" step="0.5" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Valor da compra (R$): <span id="q146-cval" class="text-blue-300 font-bold">9,58</span></label>
+          <input type="range" id="q146-compra" min="0" max="20" step="0.01" value="9.58" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Troco</p>
+          <p id="q146-troco" class="text-3xl font-bold text-emerald-400">R$ 0,42</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const pago = raiz.querySelector('#q146-pago');
+      const compra = raiz.querySelector('#q146-compra');
+      const pval = raiz.querySelector('#q146-pval');
+      const cval = raiz.querySelector('#q146-cval');
+      const trocoEl = raiz.querySelector('#q146-troco');
+      function fmt(v) { return v.toFixed(2).replace('.', ','); }
+      function atualizar() {
+        const P = parseFloat(pago.value);
+        const C = parseFloat(compra.value);
+        pval.textContent = fmt(P);
+        cval.textContent = fmt(C);
+        const troco = Math.max(0, P - C);
+        trocoEl.textContent = 'R$ ' + fmt(troco);
+      }
+      pago.addEventListener('input', atualizar);
+      compra.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">R$ 0,42</text></svg>`,
+  simuladorType: null
 }
 
 ];
