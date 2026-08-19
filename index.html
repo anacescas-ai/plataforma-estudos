@@ -347,6 +347,16 @@
           </select>
         </div>
 
+        <button onclick="mostrarEstudo()" id="botaoAbaEstudo"
+          class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-book-open-reader"></i> Estudar
+        </button>
+
+        <button onclick="mostrarProgresso()" id="botaoAbaProgresso"
+          class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-chart-pie"></i> Meu progresso
+        </button>
+
         <button onclick="alternarTema()" id="botaoTema"
           class="flex items-center justify-center w-8 h-8 rounded-lg bg-slate-950 border border-slate-800 text-slate-300 hover:text-white transition"
           title="Alternar entre modo claro e escuro">
@@ -366,8 +376,8 @@
     </div>
   </header>
 
-  <!-- ============================ LAYOUT ============================ -->
-  <div class="flex-1 max-w-7xl w-full mx-auto px-4 py-6 flex flex-col md:flex-row gap-6">
+  <!-- ============================ LAYOUT: ESTUDO ============================ -->
+  <div id="viewEstudo" class="flex-1 max-w-7xl w-full mx-auto px-4 py-6 flex flex-col md:flex-row gap-6">
 
     <!-- SIDEBAR -->
     <aside class="w-full md:w-80 flex-shrink-0 space-y-4">
@@ -401,6 +411,11 @@
         </div>
       </div>
     </main>
+  </div>
+
+  <!-- ============================ LAYOUT: MEU PROGRESSO ============================ -->
+  <div id="viewProgresso" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 py-6 space-y-6">
+    <div id="progressoConteudo"></div>
   </div>
 
   <!-- ============================ DADOS ============================ -->
@@ -466,6 +481,7 @@
     const claro = document.documentElement.classList.toggle('light');
     try { localStorage.setItem('plataforma-estudos-tema', claro ? 'light' : 'dark'); } catch (e) {}
     aplicarIconeTema();
+    if (typeof painelAtivo !== 'undefined' && painelAtivo === 'progresso') renderizarProgresso();
   }
 
   /* -------------------------------------------------------------------
@@ -900,6 +916,246 @@
     atualizarPlacar();
     renderizarLista();
     renderizarQuestao();
+    if (painelAtivo === 'progresso') renderizarProgresso();
+  }
+
+  /* -------------------------------------------------------------------
+     MEU PROGRESSO
+     Painel separado com estatísticas gerais, por matéria e por edição
+     (simulado), em porcentagem, com gráficos (Chart.js) pra comparar.
+     ------------------------------------------------------------------- */
+  let painelAtivo = 'estudo';
+  let chartGeralInst = null, chartMateriaInst = null, chartEdicaoInst = null;
+
+  const CORES_HEX = {
+    emerald: '#34d399', cyan: '#22d3ee', purple: '#c084fc', blue: '#60a5fa',
+    amber: '#fbbf24', lime: '#a3e635', red: '#f87171', pink: '#f472b6', violet: '#a78bfa'
+  };
+
+  function pintarAbasPrincipais() {
+    const estudoAtivo = painelAtivo === 'estudo';
+    const ativa = 'bg-blue-600 text-white border-blue-500';
+    const inativa = 'border-slate-800 text-slate-300 hover:border-blue-500 hover:text-blue-400';
+    document.getElementById('botaoAbaEstudo').className =
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (estudoAtivo ? ativa : inativa);
+    document.getElementById('botaoAbaProgresso').className =
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (!estudoAtivo ? ativa : inativa);
+  }
+
+  function mostrarEstudo() {
+    painelAtivo = 'estudo';
+    document.getElementById('viewEstudo').classList.remove('hidden');
+    document.getElementById('viewProgresso').classList.add('hidden');
+    pintarAbasPrincipais();
+  }
+
+  function mostrarProgresso() {
+    painelAtivo = 'progresso';
+    document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewProgresso').classList.remove('hidden');
+    pintarAbasPrincipais();
+    renderizarProgresso();
+  }
+
+  function calcularEstatisticas() {
+    const total = questaoDatabase.length;
+    const respostas = Store.dados.respostas;
+    const idsRespondidos = Object.keys(respostas);
+    const respondidas = idsRespondidos.length;
+    const acertos = idsRespondidos.filter(id => respostas[id].acertou).length;
+    const erros = respondidas - acertos;
+
+    const porMateriaMapa = {};
+    const porEdicaoMapa = {};
+
+    questaoDatabase.forEach(q => {
+      if (!porMateriaMapa[q.materiaId]) {
+        porMateriaMapa[q.materiaId] = { nome: q.materia.split(' / ')[0], cor: q.materiaCor, total: 0, respondidas: 0, acertos: 0 };
+      }
+      const m = porMateriaMapa[q.materiaId];
+      m.total++;
+
+      const chaveEdicao = q.ano;
+      if (!porEdicaoMapa[chaveEdicao]) {
+        porEdicaoMapa[chaveEdicao] = { nome: 'Edição ' + chaveEdicao, total: 0, respondidas: 0, acertos: 0 };
+      }
+      const ed = porEdicaoMapa[chaveEdicao];
+      ed.total++;
+
+      const r = respostas[q.id];
+      if (r) {
+        m.respondidas++;
+        ed.respondidas++;
+        if (r.acertou) { m.acertos++; ed.acertos++; }
+      }
+    });
+
+    return {
+      total, respondidas, acertos, erros,
+      percConclusao: total ? Math.round(respondidas / total * 100) : 0,
+      percAcerto: respondidas ? Math.round(acertos / respondidas * 100) : 0,
+      porMateria: Object.values(porMateriaMapa).sort((a, b) => b.total - a.total),
+      porEdicao: Object.values(porEdicaoMapa).sort((a, b) => String(a.nome).localeCompare(String(b.nome)))
+    };
+  }
+
+  function cartaoStat(rotulo, valor, icone, corClasse) {
+    return `
+      <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 space-y-1">
+        <span class="text-[10px] font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1.5">
+          <i class="fa-solid ${icone} ${corClasse}"></i> ${rotulo}
+        </span>
+        <p class="text-xl font-bold text-white">${valor}</p>
+      </div>`;
+  }
+
+  function linhaProgresso(item) {
+    const c = cor(item.cor || 'blue');
+    const percConclusao = item.total ? Math.round(item.respondidas / item.total * 100) : 0;
+    const percAcerto = item.respondidas ? Math.round(item.acertos / item.respondidas * 100) : 0;
+    return `
+      <div class="space-y-1">
+        <div class="flex items-center justify-between text-xs">
+          <span class="font-bold text-slate-200">${item.nome}</span>
+          <span class="text-slate-500">${item.respondidas}/${item.total} respondidas · ${percAcerto}% de acerto</span>
+        </div>
+        <div class="h-2 rounded-full bg-slate-800 overflow-hidden">
+          <div class="h-full ${c.fundo.replace('/10', '')} rounded-full" style="width:${percConclusao}%"></div>
+        </div>
+      </div>`;
+  }
+
+  function corEixoGrafico() {
+    return document.documentElement.classList.contains('light') ? '#334155' : '#cbd5e1';
+  }
+  function corGradeGrafico() {
+    return document.documentElement.classList.contains('light') ? '#e2e8f0' : '#1e293b';
+  }
+
+  function renderizarProgresso() {
+    const e = calcularEstatisticas();
+    const alvo = document.getElementById('progressoConteudo');
+
+    if (e.total === 0) {
+      alvo.innerHTML = '<p class="text-sm text-slate-400">Nenhuma questão no acervo ainda.</p>';
+      return;
+    }
+
+    alvo.innerHTML = `
+      <div>
+        <h2 class="text-xl font-bold text-white flex items-center gap-2">
+          <i class="fa-solid fa-chart-pie text-blue-400"></i> Meu progresso
+        </h2>
+        <p class="text-xs text-slate-400 mt-1">O quanto você já estudou e sua taxa de acerto — no geral, por matéria e por edição.</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        ${cartaoStat('Questões no acervo', e.total, 'fa-layer-group', 'text-slate-300')}
+        ${cartaoStat('Respondidas', e.respondidas + ' (' + e.percConclusao + '%)', 'fa-pen', 'text-blue-400')}
+        ${cartaoStat('Acertos', e.acertos, 'fa-circle-check', 'text-emerald-400')}
+        ${cartaoStat('Taxa de acerto', e.percAcerto + '%', 'fa-bullseye', 'text-purple-400')}
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div class="lg:col-span-1 bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Geral: acertos x erros x pendentes</h3>
+          <canvas id="graficoGeral" height="220"></canvas>
+        </div>
+        <div class="lg:col-span-2 bg-slate-900 border border-slate-800 rounded-2xl p-5">
+          <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Taxa de acerto por matéria</h3>
+          <canvas id="graficoMateria" height="220"></canvas>
+        </div>
+      </div>
+
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5">
+        <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider mb-3">Taxa de acerto por edição (simulado)</h3>
+        <canvas id="graficoEdicao" height="180"></canvas>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-3">
+          <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider">Detalhe por matéria</h3>
+          ${e.porMateria.map(m => linhaProgresso(m)).join('')}
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 space-y-3">
+          <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider">Detalhe por edição</h3>
+          ${e.porEdicao.map(ed => linhaProgresso(ed)).join('')}
+        </div>
+      </div>
+    `;
+
+    desenharGraficos(e);
+  }
+
+  function desenharGraficos(e) {
+    if (typeof Chart === 'undefined') return; // CDN do Chart.js indisponível
+    const eixoCor = corEixoGrafico();
+    const gradeCor = corGradeGrafico();
+
+    if (chartGeralInst) chartGeralInst.destroy();
+    const ctxGeral = document.getElementById('graficoGeral');
+    if (ctxGeral) {
+      const pendentes = e.total - e.respondidas;
+      chartGeralInst = new Chart(ctxGeral, {
+        type: 'doughnut',
+        data: {
+          labels: ['Acertos', 'Erros', 'Não respondidas'],
+          datasets: [{ data: [e.acertos, e.erros, pendentes], backgroundColor: ['#34d399', '#fb7185', '#475569'], borderWidth: 0 }]
+        },
+        options: {
+          plugins: { legend: { position: 'bottom', labels: { color: eixoCor, boxWidth: 12, font: { size: 11 } } } }
+        }
+      });
+    }
+
+    if (chartMateriaInst) chartMateriaInst.destroy();
+    const ctxMateria = document.getElementById('graficoMateria');
+    if (ctxMateria) {
+      chartMateriaInst = new Chart(ctxMateria, {
+        type: 'bar',
+        data: {
+          labels: e.porMateria.map(m => m.nome),
+          datasets: [{
+            label: '% de acerto',
+            data: e.porMateria.map(m => m.respondidas ? Math.round(m.acertos / m.respondidas * 100) : 0),
+            backgroundColor: e.porMateria.map(m => CORES_HEX[m.cor] || CORES_HEX.blue),
+            borderRadius: 6
+          }]
+        },
+        options: {
+          scales: {
+            y: { min: 0, max: 100, ticks: { color: eixoCor, callback: v => v + '%' }, grid: { color: gradeCor } },
+            x: { ticks: { color: eixoCor }, grid: { display: false } }
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
+
+    if (chartEdicaoInst) chartEdicaoInst.destroy();
+    const ctxEdicao = document.getElementById('graficoEdicao');
+    if (ctxEdicao) {
+      chartEdicaoInst = new Chart(ctxEdicao, {
+        type: 'bar',
+        data: {
+          labels: e.porEdicao.map(ed => ed.nome),
+          datasets: [{
+            label: '% de acerto',
+            data: e.porEdicao.map(ed => ed.respondidas ? Math.round(ed.acertos / ed.respondidas * 100) : 0),
+            backgroundColor: '#60a5fa',
+            borderRadius: 6
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          scales: {
+            x: { min: 0, max: 100, ticks: { color: eixoCor, callback: v => v + '%' }, grid: { color: gradeCor } },
+            y: { ticks: { color: eixoCor }, grid: { display: false } }
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
   }
 
   /* MathJax só renderiza o que foi injetado depois do carregamento se
@@ -925,6 +1181,7 @@
     renderizarLista();
     renderizarQuestao();
     atualizarPlacar();
+    pintarAbasPrincipais();
   })();
   </script>
 </body>
