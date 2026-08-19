@@ -18625,6 +18625,1042 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1/24</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q153",
+  numero: 153,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "square",
+  titulo: "Terreno Quadrado: Encontrando a Equação da Cerca Diagonal",
+  tags: ["Geometria analítica", "Equação da reta", "Retas perpendiculares"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um projeto de paisagismo, um terreno tem o formato de um quadrado, com um de seus vértices localizado no ponto S = (6, 2) de um plano cartesiano (coordenadas em metros). Sabe-se que dois outros vértices adjacentes a S, chamados T e V, estão localizados nos pontos T = (2, 4) e V = (8, 6).</p>
+    <p>O paisagista deseja instalar uma cerca reta que passe exatamente pelo ponto médio do segmento TV e que seja perpendicular a esse segmento (essa cerca vai dividir o quadrado ao longo de sua diagonal, passando também pelo vértice S).</p>
+    <p><strong>A equação dessa reta é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "y = −3x + 20", correta: true },
+    { letra: "B", texto: "y = 3x − 16", correta: false },
+    { letra: "C", texto: "y = (1/3)x + 3", correta: false },
+    { letra: "D", texto: "y = −(1/3)x + 7", correta: false },
+    { letra: "E", texto: "y = 2x − 10", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Retas perpendiculares no plano cartesiano têm uma relação simples e poderosa entre seus coeficientes angulares: o produto dos coeficientes de duas retas perpendiculares é sempre igual a −1.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o coeficiente angular de um segmento</p>
+        <p>O coeficiente angular (inclinação) de uma reta que passa por dois pontos (x1,y1) e (x2,y2) é dado por m = (y2−y1)/(x2−x1). Esse valor mede o quanto a reta "sobe" ou "desce" para cada unidade que avança horizontalmente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Condição de perpendicularidade</p>
+        <p>Duas retas com coeficientes angulares m1 e m2 são perpendiculares entre si se, e somente se, m1 × m2 = −1. Isso significa que o coeficiente da reta perpendicular é o "inverso com sinal trocado" (oposto do recíproco) do coeficiente da reta original.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Ponto médio de um segmento</p>
+        <p>O ponto médio de um segmento com extremidades (x1,y1) e (x2,y2) é dado por M = ((x1+x2)/2, (y1+y2)/2). Esse ponto é fundamental quando se busca uma reta que "divide ao meio" um segmento, como uma mediatriz.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Montando a equação da reta com ponto e coeficiente</p>
+        <p>Conhecendo um ponto (x0,y0) pelo qual a reta passa e seu coeficiente angular m, a equação da reta é y − y0 = m(x − x0), que pode ser reorganizada na forma y = mx + b isolando y.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-up", titulo: "Coeficiente angular", text: "m = (y2−y1)/(x2−x1), mede a inclinação de uma reta." },
+    { icone: "corner-down-right", titulo: "Perpendicularidade", text: "m1 × m2 = −1 é a condição para duas retas serem perpendiculares." },
+    { icone: "circle", titulo: "Ponto médio", text: "M = ((x1+x2)/2, (y1+y2)/2), o centro exato de um segmento." },
+    { icone: "edit-3", titulo: "Equação ponto-inclinação", text: "y − y0 = m(x − x0), usada para montar a equação da reta." },
+    { icone: "check-circle", titulo: "Verificação com ponto conhecido", text: "Confirmar que o ponto S também satisfaz a equação encontrada." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — y = −3x + 20</p>
+        <p class="text-xs text-slate-300">A reta perpendicular a TV, passando pelo ponto médio (5,5), tem coeficiente −3 e também passa por S=(6,2).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o ponto médio de TV e o coeficiente de TV:</strong> M = ((2+8)/2, (4+6)/2) = (5,5); m(TV) = (6−4)/(8−2) = 2/6 = 1/3.</li>
+          <li><strong>Passo 2 — Encontrar o coeficiente perpendicular:</strong> m(perpendicular) × (1/3) = −1 → m(perpendicular) = −3.</li>
+          <li><strong>Passo 3 — Montar a equação passando por M(5,5):</strong> y − 5 = −3(x − 5) → y = −3x + 15 + 5 → y = −3x + 20. Verificação: substituindo S=(6,2): 2 = −3(6)+20 = −18+20 = 2 ✓.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) y = −3x + 20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Coeficiente −3 (perpendicular a 1/3), passando por (5,5) e por S=(6,2), como esperado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) y = 3x − 16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa coeficiente 3 em vez de −3, um erro de sinal na condição de perpendicularidade.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) y = (1/3)x + 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o coeficiente angular do próprio segmento TV, em vez de calcular o perpendicular.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) y = −(1/3)x + 7 — Incorreta</p>
+          <p class="text-xs text-slate-400">Troca o coeficiente perpendicular por −1/3, quando deveria ser o inverso (−3), não apenas o oposto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) y = 2x − 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa um coeficiente arbitrário que não satisfaz a condição de perpendicularidade com TV.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Pontos T, V e S",
+      legenda: "T(2,4), V(8,6), S(6,2)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="10" y1="200" x2="210" y2="200" stroke="#475569"/><line x1="10" y1="10" x2="10" y2="200" stroke="#475569"/><circle cx="50" cy="120" r="4" fill="#3b82f6"/><text x="55" y="115" fill="#93c5fd" font-size="11">T(2,4)</text><circle cx="170" cy="80" r="4" fill="#3b82f6"/><text x="175" y="75" fill="#93c5fd" font-size="11">V(8,6)</text><circle cx="130" cy="160" r="4" fill="#f59e0b"/><text x="135" y="175" fill="#fbbf24" font-size="11">S(6,2)</text></svg>`
+    },
+    {
+      titulo: "Segmento TV e ponto médio",
+      legenda: "M = (5,5)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="50" y1="120" x2="170" y2="80" stroke="#3b82f6" stroke-width="2"/><circle cx="110" cy="100" r="4" fill="#10b981"/><text x="115" y="95" fill="#6ee7b7" font-size="11">M(5,5)</text></svg>`
+    },
+    {
+      titulo: "Reta perpendicular",
+      legenda: "Coeficiente −3, passando por M e S",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="50" y1="120" x2="170" y2="80" stroke="#3b82f6" stroke-width="2" opacity="0.4"/><line x1="150" y1="30" x2="90" y2="190" stroke="#ef4444" stroke-width="2"/><circle cx="110" cy="100" r="4" fill="#10b981"/><circle cx="130" cy="160" r="4" fill="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Equação final",
+      legenda: "y = −3x + 20",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">y = −3x + 20</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Retas Perpendiculares",
+    descricao: "Ajuste os pontos T e V e veja a reta perpendicular pelo ponto médio se atualizar.",
+    html: `
+      <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Tx: <span id="q153-tx" class="text-blue-300">2</span></label>
+            <input type="range" id="q153-txr" min="-5" max="10" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Ty: <span id="q153-ty" class="text-blue-300">4</span></label>
+            <input type="range" id="q153-tyr" min="-5" max="10" step="1" value="4" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Vx: <span id="q153-vx" class="text-blue-300">8</span></label>
+            <input type="range" id="q153-vxr" min="-5" max="10" step="1" value="8" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Vy: <span id="q153-vy" class="text-blue-300">6</span></label>
+            <input type="range" id="q153-vyr" min="-5" max="10" step="1" value="6" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Equação da reta perpendicular</p>
+          <p id="q153-eq" class="text-xl font-bold text-emerald-400">y = −3x + 20</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const txr = raiz.querySelector('#q153-txr');
+      const tyr = raiz.querySelector('#q153-tyr');
+      const vxr = raiz.querySelector('#q153-vxr');
+      const vyr = raiz.querySelector('#q153-vyr');
+      const tx = raiz.querySelector('#q153-tx');
+      const ty = raiz.querySelector('#q153-ty');
+      const vx = raiz.querySelector('#q153-vx');
+      const vy = raiz.querySelector('#q153-vy');
+      const eq = raiz.querySelector('#q153-eq');
+      function atualizar() {
+        const Tx = parseFloat(txr.value), Ty = parseFloat(tyr.value);
+        const Vx = parseFloat(vxr.value), Vy = parseFloat(vyr.value);
+        tx.textContent = Tx; ty.textContent = Ty; vx.textContent = Vx; vy.textContent = Vy;
+        if (Vx === Tx) { eq.textContent = 'x = ' + Tx + ' (vertical)'; return; }
+        const mTV = (Vy - Ty) / (Vx - Tx);
+        if (mTV === 0) { eq.textContent = 'x = ' + ((Tx+Vx)/2) + ' (vertical)'; return; }
+        const mPerp = -1 / mTV;
+        const Mx = (Tx + Vx) / 2, My = (Ty + Vy) / 2;
+        const b = My - mPerp * Mx;
+        eq.textContent = 'y = ' + mPerp.toFixed(2) + 'x + ' + b.toFixed(2);
+      }
+      [txr,tyr,vxr,vyr].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">y = −3x + 20</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q154",
+  numero: 154,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "book-open",
+  titulo: "Livraria: Qual Gênero Não Vai Suprir a Demanda do Mês?",
+  tags: ["Leitura de tabelas", "Comparação de dados", "Matemática aplicada"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma livraria organiza seu estoque mensal de livros por gênero, distribuído entre duas prateleiras (A e B) na loja. A demanda estimada para o próximo mês, calculada a partir do histórico de vendas, também é conhecida para cada gênero. A tabela a seguir apresenta essas informações:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Gênero</th><th class="border border-slate-600 p-2">Estoque prateleira A</th><th class="border border-slate-600 p-2">Estoque prateleira B</th><th class="border border-slate-600 p-2">Demanda estimada</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">Ficção</td><td class="border border-slate-600 p-2">120</td><td class="border border-slate-600 p-2">80</td><td class="border border-slate-600 p-2">160</td></tr>
+        <tr><td class="border border-slate-600 p-2">Autoajuda</td><td class="border border-slate-600 p-2">70</td><td class="border border-slate-600 p-2">60</td><td class="border border-slate-600 p-2">140</td></tr>
+        <tr><td class="border border-slate-600 p-2">Romance</td><td class="border border-slate-600 p-2">85</td><td class="border border-slate-600 p-2">60</td><td class="border border-slate-600 p-2">145</td></tr>
+        <tr><td class="border border-slate-600 p-2">Biografia</td><td class="border border-slate-600 p-2">50</td><td class="border border-slate-600 p-2">45</td><td class="border border-slate-600 p-2">80</td></tr>
+      </tbody>
+    </table>
+    <p><strong>O gênero cujo estoque total (somando as duas prateleiras) não será suficiente para atender à demanda estimada do próximo mês é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Ficção", correta: false },
+    { letra: "B", texto: "Romance", correta: false },
+    { letra: "C", texto: "Autoajuda", correta: true },
+    { letra: "D", texto: "Biografia", correta: false },
+    { letra: "E", texto: "Todos os gêneros têm estoque suficiente", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar totais somados de diferentes fontes com uma demanda-alvo é uma tarefa comum em gestão de estoque: somar corretamente antes de comparar evita conclusões precipitadas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Somando valores de múltiplas fontes</p>
+        <p>Quando um recurso está distribuído em mais de um local (aqui, duas prateleiras), o total disponível é a soma simples dos valores em cada local. Esse total é o que deve ser comparado com a demanda, não os valores individuais de cada prateleira isoladamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Comparando estoque total com demanda</p>
+        <p>Um gênero terá estoque insuficiente se o total somado (estoque A + estoque B) for MENOR que a demanda estimada. Caso o total seja igual ou maior que a demanda, o estoque é considerado suficiente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Verificando cada linha da tabela sistematicamente</p>
+        <p>A estratégia mais segura é percorrer cada gênero da tabela, calcular seu total somado, e comparar diretamente com a demanda correspondente — evitando comparar apenas visualmente ou "de memória", o que pode levar a erros.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atenção a valores "quase iguais"</p>
+        <p>Tabelas de prova costumam incluir casos em que o estoque total é exatamente igual à demanda (como Romance, 145=145) para testar se o estudante realmente soma e compara com atenção, em vez de estimar visualmente.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "plus", titulo: "Soma de estoques", text: "Total disponível = soma dos valores em todas as prateleiras/fontes." },
+    { icone: "scale", titulo: "Comparação com demanda", text: "Estoque insuficiente ocorre quando o total é menor que a demanda." },
+    { icone: "table", titulo: "Verificação sistemática", text: "Percorrer cada linha da tabela calculando e comparando, sem pular etapas." },
+    { icone: "equal", titulo: "Casos de igualdade", text: "Estoque igual à demanda é considerado suficiente (não insuficiente)." },
+    { icone: "alert-circle", titulo: "Atenção aos detalhes", text: "Diferenças pequenas entre estoque e demanda exigem cálculo exato, não estimativa." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — Autoajuda</p>
+        <p class="text-xs text-slate-300">Estoque total de autoajuda (130) é menor que a demanda estimada (140).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Somar o estoque total de cada gênero:</strong> Ficção: 120+80=200; Autoajuda: 70+60=130; Romance: 85+60=145; Biografia: 50+45=95.</li>
+          <li><strong>Passo 2 — Comparar com a demanda estimada:</strong> Ficção: 200 vs 160 (suficiente); Autoajuda: 130 vs 140 (INSUFICIENTE); Romance: 145 vs 145 (suficiente, exatamente igual); Biografia: 95 vs 80 (suficiente).</li>
+          <li><strong>Passo 3 — Identificar o único caso de insuficiência:</strong> apenas Autoajuda tem estoque total (130) menor que a demanda (140).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Ficção — Incorreta</p>
+          <p class="text-xs text-slate-400">200 (estoque total) &gt; 160 (demanda) — estoque suficiente, com folga de 40 unidades.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Romance — Incorreta</p>
+          <p class="text-xs text-slate-400">145 (estoque total) = 145 (demanda) — exatamente suficiente, não insuficiente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) Autoajuda — Correta ✓</p>
+          <p class="text-xs text-slate-400">130 (estoque total) &lt; 140 (demanda) — faltam 10 unidades para suprir a demanda.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Biografia — Incorreta</p>
+          <p class="text-xs text-slate-400">95 (estoque total) &gt; 80 (demanda) — estoque suficiente, com folga de 15 unidades.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Todos suficientes — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora o caso de Autoajuda, que apresenta déficit de estoque em relação à demanda.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estoques por prateleira",
+      legenda: "Prateleira A e B para cada gênero",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['Ficção',120,80],['Autoajuda',70,60],['Romance',85,60],['Biografia',50,45]].map((d,i)=>`<text x="10" y="${30+i*30}" fill="#94a3b8" font-size="10">${d[0]}: A=${d[1]} B=${d[2]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Estoque total vs demanda",
+      legenda: "Comparação lado a lado",
+      svg: `<svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="180" fill="#0f172a"/>${[['Ficção',200,160,'#10b981'],['Autoajuda',130,140,'#ef4444'],['Romance',145,145,'#f59e0b'],['Biografia',95,80,'#10b981']].map((d,i)=>`<text x="10" y="${25+i*40}" fill="#e2e8f0" font-size="11">${d[0]}</text><rect x="10" y="${30+i*40}" width="${d[1]/2}" height="10" fill="${d[3]}" opacity="0.7"/><rect x="10" y="${43+i*40}" width="${d[2]/2}" height="6" fill="#64748b"/>`).join('')}</svg>`
+    },
+    {
+      titulo: "Déficit da autoajuda",
+      legenda: "130 estoque vs 140 demanda = faltam 10",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="65" height="30" fill="#f59e0b" opacity="0.6"/><rect x="30" y="70" width="70" height="30" fill="#ef4444" opacity="0.6"/><text x="100" y="50" fill="#fbbf24" font-size="11">estoque: 130</text><text x="105" y="90" fill="#f87171" font-size="11">demanda: 140</text></svg>`
+    },
+    {
+      titulo: "Gênero em déficit",
+      legenda: "Autoajuda precisa de reposição",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#f87171" font-size="18" text-anchor="middle" font-weight="bold">Autoajuda</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Estoque vs Demanda",
+    descricao: "Ajuste os estoques de cada prateleira e a demanda para ver se há déficit.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-3 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Prateleira A: <span id="q154-a" class="text-blue-300">70</span></label>
+            <input type="range" id="q154-ar" min="0" max="200" step="5" value="70" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Prateleira B: <span id="q154-b" class="text-blue-300">60</span></label>
+            <input type="range" id="q154-br" min="0" max="200" step="5" value="60" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Demanda: <span id="q154-d" class="text-blue-300">140</span></label>
+            <input type="range" id="q154-dr" min="0" max="300" step="5" value="140" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Estoque total</p>
+          <p id="q154-total" class="text-xl font-bold text-blue-300">130</p>
+          <p id="q154-status" class="text-lg font-bold text-rose-400 mt-2">Insuficiente (faltam 10)</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const ar = raiz.querySelector('#q154-ar');
+      const br = raiz.querySelector('#q154-br');
+      const dr = raiz.querySelector('#q154-dr');
+      const a = raiz.querySelector('#q154-a');
+      const b = raiz.querySelector('#q154-b');
+      const d = raiz.querySelector('#q154-d');
+      const total = raiz.querySelector('#q154-total');
+      const status = raiz.querySelector('#q154-status');
+      function atualizar() {
+        const A = parseFloat(ar.value), B = parseFloat(br.value), D = parseFloat(dr.value);
+        a.textContent = A; b.textContent = B; d.textContent = D;
+        const T = A + B;
+        total.textContent = T;
+        if (T < D) {
+          status.textContent = 'Insuficiente (faltam ' + (D - T) + ')';
+          status.className = 'text-lg font-bold text-rose-400 mt-2';
+        } else {
+          status.textContent = 'Suficiente (folga de ' + (T - D) + ')';
+          status.className = 'text-lg font-bold text-emerald-400 mt-2';
+        }
+      }
+      [ar,br,dr].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#f87171" font-size="18" text-anchor="middle" font-weight="bold">Autoajuda: déficit</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q155",
+  numero: 155,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "users",
+  titulo: "Comissão de Formatura: Escolhendo 3 Cargos Sem Repetir Casais",
+  tags: ["Análise combinatória", "Princípio multiplicativo", "Restrições"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma turma de formandos, composta por 20 pessoas (10 casais), precisa eleger uma comissão de formatura com 3 cargos distintos: presidente, tesoureiro e secretário. Cada pessoa pode ocupar no máximo um cargo, e nenhuma pessoa pode ser escolhida para um cargo se seu cônjuge (parceiro do casal) já tiver sido escolhido para outro cargo — ou seja, no máximo uma pessoa de cada casal pode fazer parte da comissão.</p>
+    <p><strong>O número de maneiras distintas de se formar essa comissão, respeitando essas condições, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20 × 19 × 18", correta: false },
+    { letra: "B", texto: "20 × 18 × 16", correta: true },
+    { letra: "C", texto: "20 × 17 × 14", correta: false },
+    { letra: "D", texto: "10 × 9 × 8", correta: false },
+    { letra: "E", texto: "20 × 18 × 17", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de contagem com restrições exigem atenção redobrada: cada escolha pode "eliminar" mais de uma opção para a próxima etapa, e é preciso rastrear exatamente quantas opções restam a cada passo.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Princípio multiplicativo básico</p>
+        <p>Quando um cargo é escolhido após outro, e as escolhas são feitas em sequência, o número total de possibilidades é o produto do número de opções disponíveis em cada etapa — desde que as etapas sejam independentes ou que se ajuste corretamente as opções restantes a cada passo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O efeito da restrição de casais</p>
+        <p>Ao escolher uma pessoa para um cargo, não apenas essa pessoa fica indisponível para os próximos cargos, mas também seu cônjuge, pois a regra proíbe que ambos os membros de um casal estejam na comissão. Isso significa que cada escolha remove DUAS pessoas do total disponível para a próxima etapa (a pessoa escolhida e seu par).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Contando as opções etapa por etapa</p>
+        <p>Para o 1º cargo (presidente): 20 pessoas disponíveis. Para o 2º cargo (tesoureiro): das 20 pessoas, removem-se a que já foi escolhida e seu cônjuge, restando 18. Para o 3º cargo (secretário): removem-se as duas pessoas já escolhidas e seus respectivos cônjuges, restando 16.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Diferença para o caso sem restrição</p>
+        <p>Sem a restrição de casais, o cálculo seria simplesmente 20×19×18 (cada cargo removendo apenas 1 pessoa). A restrição de casal torna o problema mais complexo, pois cada escolha remove 2 pessoas do total disponível, não apenas 1.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "x", titulo: "Princípio multiplicativo", text: "Multiplicar o número de opções disponíveis em cada etapa sequencial." },
+    { icone: "users", titulo: "Restrição de pares", text: "Escolher uma pessoa também remove seu cônjuge das opções seguintes." },
+    { icone: "minus-circle", titulo: "Redução de 2 em 2", text: "Cada cargo preenchido remove 2 pessoas (a escolhida e seu par) do total disponível." },
+    { icone: "list-ordered", titulo: "Cargos distintos", text: "Presidente, tesoureiro e secretário são posições diferentes — a ordem de escolha importa." },
+    { icone: "alert-triangle", titulo: "Cuidado com contagem simples", text: "Ignorar a restrição de casais leva ao cálculo incorreto 20×19×18." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 20 × 18 × 16</p>
+        <p class="text-xs text-slate-300">Cada escolha remove a pessoa e seu cônjuge, reduzindo as opções de 2 em 2 a cada cargo preenchido.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Escolher o presidente:</strong> 20 pessoas disponíveis (nenhuma restrição ainda).</li>
+          <li><strong>Passo 2 — Escolher o tesoureiro:</strong> das 20 pessoas, removem-se o presidente e seu cônjuge → 18 pessoas disponíveis.</li>
+          <li><strong>Passo 3 — Escolher o secretário:</strong> removem-se também o tesoureiro e seu cônjuge → 16 pessoas disponíveis. Total: 20 × 18 × 16.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20 × 19 × 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a restrição de casais, removendo apenas 1 pessoa por etapa.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 20 × 18 × 16 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Reduz corretamente as opções de 2 em 2 a cada cargo, respeitando a restrição de casais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 20 × 17 × 14 — Incorreta</p>
+          <p class="text-xs text-slate-400">Reduz as opções de forma excessiva, removendo mais pessoas do que a regra realmente exige.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10 × 9 × 8 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas 10 pessoas (um representante por casal) desde o início, quando na verdade as 20 pessoas podem ser escolhidas para o 1º cargo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 20 × 18 × 17 — Incorreta</p>
+          <p class="text-xs text-slate-400">Aplica a restrição de casal apenas na segunda etapa, esquecendo de removê-la também na terceira.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "20 pessoas, 10 casais",
+      legenda: "Situação inicial",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${Array.from({length:10}).map((_,i)=>`<circle cx="${20+i*24}" cy="40" r="8" fill="#3b82f6" opacity="0.7"/><circle cx="${20+i*24}" cy="60" r="8" fill="#8b5cf6" opacity="0.7"/>`).join('')}<text x="130" y="90" fill="#94a3b8" font-size="10" text-anchor="middle">10 casais = 20 pessoas</text></svg>`
+    },
+    {
+      titulo: "Escolha do presidente",
+      legenda: "20 opções disponíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="18" text-anchor="middle" font-weight="bold">20 opções</text></svg>`
+    },
+    {
+      titulo: "Escolha do tesoureiro",
+      legenda: "Presidente e cônjuge removidos → 18",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#fbbf24" font-size="18" text-anchor="middle" font-weight="bold">18 opções</text></svg>`
+    },
+    {
+      titulo: "Escolha do secretário",
+      legenda: "Mais 2 removidos → 16 opções",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">16 opções</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Contagem com Restrição de Casais",
+    descricao: "Ajuste o número de casais e veja como o total de combinações muda.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Número de casais: <span id="q155-cval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q155-casais" min="3" max="20" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Cálculo</p>
+          <p id="q155-calculo" class="text-lg font-mono text-blue-300">20 × 18 × 16</p>
+          <p class="text-xs text-slate-400 mt-2">Total de comissões possíveis</p>
+          <p id="q155-total" class="text-2xl font-bold text-emerald-400">5.760</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const casais = raiz.querySelector('#q155-casais');
+      const cval = raiz.querySelector('#q155-cval');
+      const calculo = raiz.querySelector('#q155-calculo');
+      const totalEl = raiz.querySelector('#q155-total');
+      function atualizar() {
+        const C = parseFloat(casais.value);
+        cval.textContent = C;
+        const P = 2 * C;
+        const opts = [P, P-2, P-4];
+        calculo.textContent = opts.join(' × ');
+        totalEl.textContent = (opts[0]*opts[1]*opts[2]).toLocaleString('pt-BR');
+      }
+      casais.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">20 × 18 × 16</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q156",
+  numero: 156,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "map",
+  titulo: "Planta Baixa: Qual é a Escala Real do Desenho?",
+  tags: ["Escala", "Conversão de unidades", "Razão"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um engenheiro civil está analisando a planta baixa de uma casa. Ele mede, com uma régua, o comprimento de uma parede no desenho e obtém 20 cm. Consultando a planta da obra, ele descobre que essa mesma parede, na construção real, mede 30 metros.</p>
+    <p><strong>A escala utilizada nessa planta baixa (representada na forma 1:n) é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1:15", correta: false },
+    { letra: "B", texto: "1:30", correta: false },
+    { letra: "C", texto: "1:50", correta: false },
+    { letra: "D", texto: "1:100", correta: false },
+    { letra: "E", texto: "1:150", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Determinar a escala de um desenho a partir de uma medida no desenho e a correspondente medida real é o processo inverso de "aplicar" uma escala — e exige atenção redobrada à conversão de unidades.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Definição de escala</p>
+        <p>Uma escala 1:n significa que 1 unidade de medida no desenho corresponde a n unidades da mesma medida na realidade. A escala é, portanto, uma razão entre o comprimento no desenho e o comprimento real, sempre nas MESMAS unidades.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Uniformizando as unidades antes de dividir</p>
+        <p>Antes de calcular a razão da escala, é fundamental converter ambas as medidas para a mesma unidade. Como a medida no desenho está em centímetros e a medida real está em metros, é preciso converter uma delas — o mais comum é converter a medida real para centímetros.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a razão n</p>
+        <p>Uma vez com as unidades uniformizadas, n = (medida real) / (medida no desenho). Esse valor de n representa quantas vezes a medida real é maior que a medida no desenho — ou seja, o fator de ampliação da escala.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Erros comuns de conversão</p>
+        <p>Um erro frequente é esquecer de converter metros para centímetros (ou vice-versa) antes de dividir, o que produz um valor de n mil vezes menor ou maior que o correto. Sempre verificar as unidades antes de finalizar o cálculo evita esse tipo de erro.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "ruler", titulo: "Escala como razão", text: "1:n significa 1 unidade no desenho = n unidades na realidade." },
+    { icone: "refresh-cw", titulo: "Conversão de unidades", text: "Converter metros para centímetros (1m = 100cm) antes de calcular a razão." },
+    { icone: "divide", titulo: "Cálculo de n", text: "n = medida real (na mesma unidade) / medida no desenho." },
+    { icone: "alert-triangle", titulo: "Erro comum de conversão", text: "Esquecer de uniformizar unidades produz resultados incorretos por fatores de 10, 100 ou 1000." },
+    { icone: "check-circle", titulo: "Verificação do resultado", text: "Confirmar que n × medida no desenho = medida real, nas mesmas unidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 1:150</p>
+        <p class="text-xs text-slate-300">20 cm no desenho correspondem a 3.000 cm na realidade; 3.000/20 = 150.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Converter a medida real para centímetros:</strong> 30 m = 30 × 100 = 3.000 cm.</li>
+          <li><strong>Passo 2 — Calcular a razão n:</strong> n = medida real / medida no desenho = 3.000 / 20 = 150.</li>
+          <li><strong>Passo 3 — Escrever a escala:</strong> 1:150 (1 cm no desenho = 150 cm na realidade).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1:15 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece completamente de converter metros para centímetros, usando 30/20 diretamente.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1:30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o valor da medida real (30 m) diretamente com o fator de escala.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1:50 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de uma conversão parcial ou incorreta entre metros e centímetros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 1:100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Uma escala comum em plantas, mas não corresponde aos valores específicos desta questão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 1:150 — Correta ✓</p>
+          <p class="text-xs text-slate-400">3.000 cm (real) / 20 cm (desenho) = 150, confirmando a escala 1:150.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Medida no desenho",
+      legenda: "Parede: 20 cm na planta",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="40" y="45" width="120" height="10" fill="#3b82f6"/><text x="100" y="35" fill="#93c5fd" font-size="12" text-anchor="middle">20 cm</text></svg>`
+    },
+    {
+      titulo: "Medida real",
+      legenda: "Parede: 30 m na construção",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="45" width="160" height="14" fill="#f59e0b" opacity="0.7"/><text x="100" y="35" fill="#fbbf24" font-size="12" text-anchor="middle">30 m = 3.000 cm</text></svg>`
+    },
+    {
+      titulo: "Conversão de unidades",
+      legenda: "30 m × 100 = 3.000 cm",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="15" text-anchor="middle" font-family="monospace">30 × 100 = 3000</text></svg>`
+    },
+    {
+      titulo: "Escala calculada",
+      legenda: "1:150",
+      svg: `<svg viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="90" fill="#0f172a"/><text x="100" y="50" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1:150</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Escala",
+    descricao: "Ajuste as medidas no desenho e na realidade para calcular a escala.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Medida no desenho (cm): <span id="q156-dval" class="text-blue-300 font-bold">20</span></label>
+          <input type="range" id="q156-desenho" min="1" max="50" step="1" value="20" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Medida real (m): <span id="q156-rval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q156-real" min="1" max="100" step="1" value="30" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Escala calculada</p>
+          <p id="q156-escala" class="text-3xl font-bold text-emerald-400">1:150</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const desenho = raiz.querySelector('#q156-desenho');
+      const real = raiz.querySelector('#q156-real');
+      const dval = raiz.querySelector('#q156-dval');
+      const rval = raiz.querySelector('#q156-rval');
+      const escalaEl = raiz.querySelector('#q156-escala');
+      function atualizar() {
+        const D = parseFloat(desenho.value);
+        const R = parseFloat(real.value);
+        dval.textContent = D;
+        rval.textContent = R;
+        const n = Math.round((R * 100) / D);
+        escalaEl.textContent = '1:' + n;
+      }
+      desenho.addEventListener('input', atualizar);
+      real.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1:150</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q157",
+  numero: 157,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flag",
+  titulo: "Torre e Farol: Interpretando uma Razão Entre Alturas",
+  tags: ["Razão e proporção", "Interpretação de texto matemático", "Leitura de dados"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma cidade litorânea, há uma torre de telecomunicações (T) e um farol histórico (F). Um estudo de patrimônio urbano descreve a relação entre as alturas das duas estruturas da seguinte forma: "a altura da torre de telecomunicações é 1,59 vezes a altura do farol histórico".</p>
+    <p><strong>Considerando T a altura da torre e F a altura do farol, a razão T/F descrita nesse estudo é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "T/F = 0,63", correta: false },
+    { letra: "B", texto: "T/F = 1,00", correta: false },
+    { letra: "C", texto: "T/F = 1,59", correta: true },
+    { letra: "D", texto: "T/F = 1,90", correta: false },
+    { letra: "E", texto: "T/F = 2,59", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Traduzir uma frase do tipo "A é k vezes B" para uma razão matemática é uma habilidade de interpretação fundamental — e a ordem das palavras na frase determina exatamente qual grandeza vai no numerador e qual vai no denominador.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Traduzindo "A é k vezes B" em uma equação</p>
+        <p>Quando um texto afirma que "A é k vezes B", isso se traduz matematicamente como A = k × B. Essa é a forma mais direta e literal de converter a frase em uma relação numérica.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a razão pedida</p>
+        <p>A partir de A = k × B, pode-se isolar a razão A/B dividindo ambos os lados por B: A/B = k. Ou seja, a razão entre A e B é exatamente o valor de k mencionado na frase — nenhum cálculo adicional é necessário além dessa manipulação direta.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Atenção à ordem da razão pedida</p>
+        <p>É fundamental verificar qual razão está sendo pedida (T/F ou F/T), pois elas são recíprocas (uma é o inverso da outra) e não têm o mesmo valor. Confundir a ordem é o erro mais comum nesse tipo de questão.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação por substituição de valores</p>
+        <p>Uma forma de checar o raciocínio é imaginar valores concretos: se o farol (F) mede 10 m, a torre (T) mede 1,59 × 10 = 15,9 m. Logo, T/F = 15,9/10 = 1,59 — confirmando que a razão pedida é diretamente o valor mencionado no enunciado.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "arrow-right", titulo: "Tradução de frase para equação", text: "'A é k vezes B' se traduz em A = k × B." },
+    { icone: "divide", titulo: "Isolamento da razão", text: "A/B = k é obtido diretamente dividindo ambos os lados por B." },
+    { icone: "arrow-left-right", titulo: "Razão vs. razão inversa", text: "T/F e F/T são recíprocas — atenção à ordem pedida." },
+    { icone: "check-circle", titulo: "Verificação por substituição", text: "Testar com valores concretos confirma a interpretação da razão." },
+    { icone: "book-open", titulo: "Interpretação de texto matemático", text: "Ler com atenção qual grandeza é comparada a qual." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — T/F = 1,59</p>
+        <p class="text-xs text-slate-300">A frase "T é 1,59 vezes F" se traduz diretamente em T/F = 1,59.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Traduzir a frase:</strong> "T é 1,59 vezes F" → T = 1,59 × F.</li>
+          <li><strong>Passo 2 — Isolar a razão T/F:</strong> dividindo ambos os lados por F: T/F = 1,59.</li>
+          <li><strong>Passo 3 — Confirmar com um exemplo numérico:</strong> se F = 10, então T = 15,9, e T/F = 15,9/10 = 1,59. ✓</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) T/F = 0,63 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor de F/T (o inverso de 1,59), não T/F como pedido.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) T/F = 1,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Sugere que as alturas são iguais, contradizendo a informação do enunciado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) T/F = 1,59 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Tradução direta e literal da frase "T é 1,59 vezes F".</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) T/F = 1,90 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor arbitrário que não corresponde ao número mencionado no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) T/F = 2,59 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma incorretamente 1 ao valor de 1,59, um erro de manipulação da relação.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A torre e o farol",
+      legenda: "T = torre, F = farol",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><rect x="40" y="30" width="20" height="110" fill="#3b82f6" opacity="0.7"/><rect x="120" y="70" width="30" height="70" fill="#f59e0b" opacity="0.7"/><text x="50" y="150" fill="#93c5fd" font-size="11" text-anchor="middle">T</text><text x="135" y="150" fill="#fbbf24" font-size="11" text-anchor="middle">F</text></svg>`
+    },
+    {
+      titulo: "Frase do estudo",
+      legenda: '"T é 1,59 vezes F"',
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#e2e8f0" font-size="13" text-anchor="middle">T = 1,59 × F</text></svg>`
+    },
+    {
+      titulo: "Isolando a razão",
+      legenda: "T/F = 1,59",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">T/F = 1,59</text></svg>`
+    },
+    {
+      titulo: "Verificação com exemplo",
+      legenda: "F=10 → T=15,9 → T/F=1,59",
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#94a3b8" font-size="12" text-anchor="middle">F=10, T=15,9 → 15,9/10=1,59</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Razão Entre Alturas",
+    descricao: "Ajuste a altura do farol e o fator multiplicativo para ver a altura da torre e a razão.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Altura do farol F (m): <span id="q157-fval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q157-farol" min="1" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Fator (T é k vezes F): <span id="q157-kval" class="text-blue-300 font-bold">1.59</span></label>
+          <input type="range" id="q157-fator" min="0.5" max="3" step="0.01" value="1.59" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Altura da torre T</p>
+          <p id="q157-torre" class="text-lg font-bold text-blue-300">15,90 m</p>
+          <p class="text-xs text-slate-400 mt-2">Razão T/F</p>
+          <p id="q157-razao" class="text-3xl font-bold text-emerald-400">1,59</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const farol = raiz.querySelector('#q157-farol');
+      const fator = raiz.querySelector('#q157-fator');
+      const fval = raiz.querySelector('#q157-fval');
+      const kval = raiz.querySelector('#q157-kval');
+      const torreEl = raiz.querySelector('#q157-torre');
+      const razaoEl = raiz.querySelector('#q157-razao');
+      function atualizar() {
+        const F = parseFloat(farol.value);
+        const K = parseFloat(fator.value);
+        fval.textContent = F;
+        kval.textContent = K.toFixed(2);
+        const T = F * K;
+        torreEl.textContent = T.toFixed(2) + ' m';
+        razaoEl.textContent = (T / F).toFixed(2);
+      }
+      farol.addEventListener('input', atualizar);
+      fator.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">T/F = 1,59</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q158",
+  numero: 158,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bus",
+  titulo: "Van Escolar: Recalculando a Mensalidade Após o Novo Seguro",
+  tags: ["Matemática financeira", "Custos fixos e variáveis", "Equação de preço"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa de transporte escolar atende 120 alunos com sua frota de vans. As despesas mensais da empresa são compostas por um custo fixo de R$ 14.240,00 (combustível, manutenção, salários dos motoristas) somado a um custo de seguro de R$ 36,00 por aluno transportado.</p>
+    <p>A seguradora reajustou o valor do seguro por aluno para R$ 43,20. Para manter um lucro mensal de R$ 10.000,00, a empresa decidiu recalcular a mensalidade cobrada por aluno, dividindo igualmente entre os 120 alunos o valor total necessário para cobrir as novas despesas mais o lucro desejado.</p>
+    <p><strong>O novo valor da mensalidade por aluno, em reais, deve ser:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 154,67", correta: false },
+    { letra: "B", texto: "R$ 202,00", correta: false },
+    { letra: "C", texto: "R$ 245,20", correta: true },
+    { letra: "D", texto: "R$ 280,00", correta: false },
+    { letra: "E", texto: "R$ 322,53", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Precificar um serviço dividido entre vários clientes exige somar corretamente custos fixos, custos variáveis e a margem de lucro desejada, para então dividir o total pelo número de clientes.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Custos fixos vs. custos variáveis</p>
+        <p>Custos fixos não dependem da quantidade de clientes atendidos (ex.: combustível, salários). Custos variáveis mudam proporcionalmente ao número de clientes (ex.: seguro por aluno). O custo variável total é obtido multiplicando o custo por unidade pela quantidade de unidades.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando a despesa total</p>
+        <p>Despesa total = custo fixo + (custo variável por unidade × número de unidades). Essa soma representa tudo o que a empresa precisa cobrir apenas para não ter prejuízo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Incluindo a margem de lucro desejada</p>
+        <p>Para obter o valor total que precisa ser arrecadado (receita necessária), soma-se o lucro desejado à despesa total: receita necessária = despesa total + lucro desejado.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Dividindo igualmente entre os clientes</p>
+        <p>O valor da mensalidade por aluno é obtido dividindo a receita necessária pelo número de alunos: mensalidade = receita necessária / número de alunos. Esse valor garante que a soma de todas as mensalidades cobre exatamente as despesas e o lucro planejado.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "layers", titulo: "Custo fixo vs. variável", text: "Fixo não muda com a quantidade; variável é proporcional ao número de unidades." },
+    { icone: "plus", titulo: "Despesa total", text: "Custo fixo + (custo variável por unidade × quantidade de unidades)." },
+    { icone: "trending-up", titulo: "Margem de lucro", text: "Receita necessária = despesa total + lucro desejado." },
+    { icone: "divide", titulo: "Divisão igualitária", text: "Mensalidade por cliente = receita necessária / número de clientes." },
+    { icone: "calculator", titulo: "Precificação de serviços", text: "Aplicação direta de matemática financeira ao cálculo de mensalidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — R$ 245,20</p>
+        <p class="text-xs text-slate-300">Somando despesas fixas, variáveis (com o novo seguro) e o lucro desejado, e dividindo por 120 alunos, obtém-se R$ 245,20.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a nova despesa total:</strong> 14.240 + (43,20 × 120) = 14.240 + 5.184 = 19.424.</li>
+          <li><strong>Passo 2 — Somar o lucro desejado:</strong> receita necessária = 19.424 + 10.000 = 29.424.</li>
+          <li><strong>Passo 3 — Dividir pelos 120 alunos:</strong> 29.424 / 120 = 245,20.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 154,67 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de incluir o lucro desejado na receita necessária.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) R$ 202,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa o valor antigo do seguro (R$ 36,00) em vez do valor reajustado (R$ 43,20).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) R$ 245,20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">(14.240 + 43,20×120 + 10.000) / 120 = 29.424 / 120 = 245,20.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) R$ 280,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima o custo fixo ou o lucro desejado durante o cálculo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 322,53 — Incorreta</p>
+          <p class="text-xs text-slate-400">Divide a receita necessária por um número de alunos menor que 120, inflando o resultado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Custo fixo mensal",
+      legenda: "R$ 14.240,00 (independe do nº de alunos)",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="15" text-anchor="middle">Fixo: R$ 14.240</text></svg>`
+    },
+    {
+      titulo: "Custo variável (seguro)",
+      legenda: "43,20 × 120 = R$ 5.184,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">43,20 × 120</text><text x="100" y="68" fill="#fbbf24" font-size="14" text-anchor="middle">= R$ 5.184</text></svg>`
+    },
+    {
+      titulo: "Receita necessária",
+      legenda: "Despesas + lucro = R$ 29.424,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="13" text-anchor="middle">19.424 + 10.000</text><text x="100" y="68" fill="#c4b5fd" font-size="14" text-anchor="middle">= R$ 29.424</text></svg>`
+    },
+    {
+      titulo: "Mensalidade por aluno",
+      legenda: "29.424 / 120 = R$ 245,20",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 245,20</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Mensalidade",
+    descricao: "Ajuste custo fixo, seguro por aluno, lucro desejado e número de alunos.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Custo fixo (R$): <span id="q158-fval" class="text-blue-300 font-bold">14240</span></label>
+          <input type="range" id="q158-fixo" min="5000" max="30000" step="100" value="14240" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Seguro por aluno (R$): <span id="q158-sval" class="text-blue-300 font-bold">43.20</span></label>
+          <input type="range" id="q158-seguro" min="10" max="100" step="0.1" value="43.2" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Lucro desejado (R$): <span id="q158-lval" class="text-blue-300 font-bold">10000</span></label>
+          <input type="range" id="q158-lucro" min="0" max="30000" step="500" value="10000" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Número de alunos: <span id="q158-nval" class="text-blue-300 font-bold">120</span></label>
+          <input type="range" id="q158-alunos" min="10" max="300" step="5" value="120" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Mensalidade por aluno</p>
+          <p id="q158-resultado" class="text-3xl font-bold text-emerald-400">R$ 245,20</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fixo = raiz.querySelector('#q158-fixo');
+      const seguro = raiz.querySelector('#q158-seguro');
+      const lucro = raiz.querySelector('#q158-lucro');
+      const alunos = raiz.querySelector('#q158-alunos');
+      const fval = raiz.querySelector('#q158-fval');
+      const sval = raiz.querySelector('#q158-sval');
+      const lval = raiz.querySelector('#q158-lval');
+      const nval = raiz.querySelector('#q158-nval');
+      const resultado = raiz.querySelector('#q158-resultado');
+      function atualizar() {
+        const F = parseFloat(fixo.value);
+        const S = parseFloat(seguro.value);
+        const L = parseFloat(lucro.value);
+        const N = parseFloat(alunos.value);
+        fval.textContent = F.toFixed(0);
+        sval.textContent = S.toFixed(2);
+        lval.textContent = L.toFixed(0);
+        nval.textContent = N.toFixed(0);
+        const receita = F + S * N + L;
+        resultado.textContent = 'R$ ' + (receita / N).toFixed(2).replace('.', ',');
+      }
+      [fixo,seguro,lucro,alunos].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 245,20</text></svg>`,
+  simuladorType: null
 }
 
 ];
