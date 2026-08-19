@@ -21773,6 +21773,882 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">8 garrafas</text></svg>`,
   simuladorType: null
+},
+
+  {
+  id: "q171",
+  numero: 171,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "square",
+  titulo: "Moldura Quadrada: Quanto Cresce o Perímetro com a Nova Borda?",
+  tags: ["Perímetro", "Álgebra básica", "Geometria plana"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um artesão produz molduras quadradas para quadros. A moldura original é um quadrado cujo perímetro é de 14 cm. O artesão decide adicionar uma borda decorativa de 2,5 cm de largura ao redor de toda a moldura, aumentando o lado do quadrado em 2,5 cm de cada um dos quatro lados (ou seja, 5 cm a mais na medida total de cada dimensão).</p>
+    <p><strong>A diferença entre o novo perímetro (com a borda adicionada) e o perímetro original, em centímetros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4", correta: false },
+    { letra: "B", texto: "8", correta: false },
+    { letra: "C", texto: "12", correta: false },
+    { letra: "D", texto: "16", correta: false },
+    { letra: "E", texto: "20", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Adicionar uma borda uniforme ao redor de uma figura quadrada aumenta o lado em duas vezes a largura da borda (uma vez de cada lado) — um detalhe que muda completamente o cálculo do novo perímetro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Relação entre lado e perímetro de um quadrado</p>
+        <p>O perímetro de um quadrado de lado L é P = 4L. Conhecendo o perímetro, pode-se encontrar o lado dividindo por 4: L = P/4.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O efeito de uma borda em todo o contorno</p>
+        <p>Quando se adiciona uma borda de largura w ao redor de um quadrado, o lado aumenta em 2w (a borda se soma dos dois lados opostos da figura — esquerda e direita, ou cima e baixo). O novo lado é L' = L + 2w.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando o novo perímetro</p>
+        <p>Com o novo lado L' = L + 2w, o novo perímetro é P' = 4L' = 4(L + 2w) = 4L + 8w = P + 8w. Ou seja, o perímetro aumenta em 8 vezes a largura da borda, não apenas 4 vezes.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Calculando a diferença de perímetros</p>
+        <p>A diferença entre o novo e o antigo perímetro é simplesmente P' − P = 8w. Esse resultado mostra que a diferença não depende do tamanho original do quadrado, apenas da largura da borda adicionada.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "square", titulo: "Perímetro do quadrado", text: "P = 4L, em que L é o lado do quadrado." },
+    { icone: "plus-square", titulo: "Efeito de uma borda uniforme", text: "O lado aumenta em 2w (duas vezes a largura da borda) ao redor da figura." },
+    { icone: "trending-up", titulo: "Novo perímetro", text: "P' = P + 8w, pois cada lado aumenta 2w e há 4 lados." },
+    { icone: "minus", titulo: "Diferença de perímetros", text: "P' − P = 8w, independente do tamanho original do quadrado." },
+    { icone: "calculator", titulo: "Álgebra aplicada à geometria", text: "Expressar relações geométricas como equações simplifica o cálculo." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 20 cm</p>
+        <p class="text-xs text-slate-300">Com a borda de 2,5 cm, o novo perímetro é 34 cm; a diferença em relação aos 14 cm originais é 20 cm.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Encontrar o lado original:</strong> P = 14 cm → L = 14/4 = 3,5 cm.</li>
+          <li><strong>Passo 2 — Calcular o novo lado e o novo perímetro:</strong> L' = 3,5 + 2×2,5 = 8,5 cm; P' = 4×8,5 = 34 cm.</li>
+          <li><strong>Passo 3 — Calcular a diferença:</strong> 34 − 14 = 20 cm (equivalente a 8w = 8×2,5 = 20).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas o aumento em um único lado da moldura, não no perímetro completo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 8 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula o aumento considerando a borda em apenas dois lados da moldura.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 12 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no fator multiplicativo aplicado à largura da borda.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo do valor correto, mas não considera a espessura total da borda em ambos os lados de cada dimensão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Diferença exata entre o perímetro novo (34 cm) e o original (14 cm).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Moldura original",
+      legenda: "Lado 3,5 cm, perímetro 14 cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="50" y="50" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="3"/><text x="80" y="130" fill="#93c5fd" font-size="12" text-anchor="middle">P = 14 cm</text></svg>`
+    },
+    {
+      titulo: "Borda adicionada",
+      legenda: "2,5 cm de largura ao redor",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="30" y="30" width="100" height="100" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="4"/><rect x="50" y="50" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="3"/></svg>`
+    },
+    {
+      titulo: "Nova moldura",
+      legenda: "Novo perímetro: 34 cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="30" y="30" width="100" height="100" fill="none" stroke="#10b981" stroke-width="3"/><text x="80" y="150" fill="#6ee7b7" font-size="12" text-anchor="middle">P' = 34 cm</text></svg>`
+    },
+    {
+      titulo: "Diferença de perímetro",
+      legenda: "34 − 14 = 20 cm",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">20 cm</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Moldura com Borda",
+    descricao: "Ajuste o lado original e a largura da borda para calcular a diferença de perímetro.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Lado original (cm): <span id="q171-lval" class="text-blue-300 font-bold">3.5</span></label>
+          <input type="range" id="q171-lado" min="1" max="20" step="0.5" value="3.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Largura da borda (cm): <span id="q171-wval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q171-borda" min="0.5" max="5" step="0.5" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Perímetro original / novo</p>
+          <p id="q171-perimetros" class="text-lg font-bold text-blue-300">14 cm / 34 cm</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q171-diferenca" class="text-3xl font-bold text-emerald-400">20 cm</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const lado = raiz.querySelector('#q171-lado');
+      const borda = raiz.querySelector('#q171-borda');
+      const lval = raiz.querySelector('#q171-lval');
+      const wval = raiz.querySelector('#q171-wval');
+      const perimetros = raiz.querySelector('#q171-perimetros');
+      const diferenca = raiz.querySelector('#q171-diferenca');
+      function atualizar() {
+        const L = parseFloat(lado.value);
+        const W = parseFloat(borda.value);
+        lval.textContent = L;
+        wval.textContent = W;
+        const P = 4 * L;
+        const Pnovo = 4 * (L + 2 * W);
+        perimetros.textContent = P.toFixed(1) + ' cm / ' + Pnovo.toFixed(1) + ' cm';
+        diferenca.textContent = (Pnovo - P).toFixed(1) + ' cm';
+      }
+      lado.addEventListener('input', atualizar);
+      borda.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">20 cm</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q172",
+  numero: 172,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "microscope",
+  titulo: "Cultura de Bactérias: Qual o Maior Valor Permitido para a Constante K?",
+  tags: ["Função quadrática", "Logaritmos", "Valor máximo"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um experimento de laboratório, o número de bactérias N(t) em uma cultura, t horas após o início da observação (com t variando de 0 a 10 horas), é modelado por N(t) = K · f(t), em que K é uma constante de proporcionalidade positiva (que depende das condições iniciais) e f(t) = −(t+1)(t−19).</p>
+    <p>Por uma norma de segurança do laboratório, o número de bactérias na cultura não pode, em nenhum momento do intervalo [0,10], fazer com que log₁₀[N(t)] ultrapasse 2,5.</p>
+    <p><strong>O maior valor que a constante K pode assumir, satisfazendo essa condição de segurança em todo o intervalo, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "10^0,5", correta: true },
+    { letra: "B", texto: "10^1", correta: false },
+    { letra: "C", texto: "10^1,5", correta: false },
+    { letra: "D", texto: "10^2", correta: false },
+    { letra: "E", texto: "10^2,5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas que combinam função quadrática com uma restrição logarítmica exigem duas etapas independentes: primeiro encontrar o valor MÁXIMO da função no intervalo, depois aplicar a restrição logarítmica a esse valor máximo (o "pior caso").</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Encontrando o vértice da parábola</p>
+        <p>Para f(t) = −(t+1)(t−19), as raízes são t=−1 e t=19. O vértice de uma parábola (ponto de máximo, já que o coeficiente de t² é negativo) está exatamente no ponto médio das raízes: t_vértice = (−1+19)/2 = 9.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Verificando se o vértice está no intervalo de interesse</p>
+        <p>Como o intervalo do problema é [0,10] e o vértice está em t=9, que pertence a esse intervalo, o valor máximo de f(t) no intervalo realmente ocorre no vértice — não é preciso analisar as extremidades do intervalo separadamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando o valor máximo de f(t)</p>
+        <p>f(9) = −(9+1)(9−19) = −(10)(−10) = 100. Esse é o maior valor que f(t) assume no intervalo [0,10], e portanto o maior valor de N(t) = K·f(t) também ocorre em t=9, sendo igual a 100K.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Aplicando a restrição logarítmica ao pior caso</p>
+        <p>A condição log₁₀[N(t)] ≤ 2,5 deve valer para TODO t no intervalo — inclusive (e principalmente) no ponto de máximo. Substituindo: log₁₀(100K) ≤ 2,5 → 100K ≤ 10^2,5 → K ≤ 10^2,5/100 = 10^2,5/10² = 10^0,5.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-up", titulo: "Vértice de uma parábola", text: "Ponto médio das raízes, onde ocorre o valor máximo (concavidade para baixo)." },
+    { icone: "check-square", titulo: "Verificação do domínio", text: "Confirmar que o vértice pertence ao intervalo de interesse antes de usá-lo." },
+    { icone: "arrow-up", titulo: "Valor máximo da função", text: "Substituir o t do vértice na função para encontrar o valor máximo." },
+    { icone: "hash", titulo: "Propriedades de logaritmo", text: "log₁₀(N) ≤ 2,5 equivale a N ≤ 10^2,5, usando a definição de logaritmo." },
+    { icone: "shield", titulo: "Restrição no pior caso", text: "A condição deve valer para o valor máximo da função, o caso mais crítico." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 10^0,5</p>
+        <p class="text-xs text-slate-300">A restrição aplicada ao valor máximo de f(t) (que é 100, em t=9) dá K ≤ 10^0,5.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Encontrar o valor máximo de f(t) no intervalo [0,10]:</strong> vértice em t=9 (ponto médio das raízes −1 e 19), com f(9) = −(10)(−10) = 100.</li>
+          <li><strong>Passo 2 — Montar a restrição no pior caso:</strong> log₁₀[K×100] ≤ 2,5.</li>
+          <li><strong>Passo 3 — Resolver para K:</strong> 100K ≤ 10^2,5 → K ≤ 10^2,5 / 10² = 10^(2,5−2) = 10^0,5.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 10^0,5 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resultado exato da divisão de potências: 10^2,5 / 10² = 10^0,5.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 10^1 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro na subtração dos expoentes (2,5−2).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 10^1,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora o fator 100 (valor máximo de f(t)) na restrição logarítmica.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10^2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o valor máximo de f(t) (100=10²) com o valor de K procurado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 10^2,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa diretamente o limite da restrição sem dividir pelo valor máximo de f(t).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Gráfico de f(t)",
+      legenda: "Parábola com raízes em t=−1 e t=19",
+      svg: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="140" fill="#0f172a"/><line x1="10" y1="120" x2="210" y2="120" stroke="#475569"/><path d="M 20 120 Q 110 20 200 120" stroke="#3b82f6" stroke-width="2" fill="none"/><circle cx="110" cy="30" r="4" fill="#10b981"/><text x="110" y="20" fill="#6ee7b7" font-size="10" text-anchor="middle">t=9, f=100</text></svg>`
+    },
+    {
+      titulo: "Intervalo de interesse",
+      legenda: "[0,10] — vértice t=9 está dentro",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><line x1="20" y1="50" x2="200" y2="50" stroke="#475569"/><rect x="30" y="45" width="150" height="10" fill="#3b82f6" opacity="0.4"/><circle cx="165" cy="50" r="4" fill="#10b981"/><text x="165" y="35" fill="#6ee7b7" font-size="10" text-anchor="middle">t=9</text></svg>`
+    },
+    {
+      titulo: "Restrição logarítmica",
+      legenda: "log₁₀[100K] ≤ 2,5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="14" text-anchor="middle">log₁₀(100K) ≤ 2,5</text></svg>`
+    },
+    {
+      titulo: "Valor máximo de K",
+      legenda: "K ≤ 10^0,5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">K ≤ 10^0,5</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Restrição Logarítmica de K",
+    descricao: "Ajuste o valor máximo de f(t) e o limite logarítmico para calcular o K máximo permitido.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valor máximo de f(t): <span id="q172-fval" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q172-fmax" min="10" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Limite do log₁₀ (expoente): <span id="q172-lval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q172-limite" min="1" max="5" step="0.1" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor máximo de K</p>
+          <p id="q172-resultado" class="text-2xl font-bold text-emerald-400">10^0.50</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fmax = raiz.querySelector('#q172-fmax');
+      const limite = raiz.querySelector('#q172-limite');
+      const fval = raiz.querySelector('#q172-fval');
+      const lval = raiz.querySelector('#q172-lval');
+      const resultado = raiz.querySelector('#q172-resultado');
+      function atualizar() {
+        const F = parseFloat(fmax.value);
+        const L = parseFloat(limite.value);
+        fval.textContent = F;
+        lval.textContent = L.toFixed(1);
+        const expoenteF = Math.log10(F);
+        const expoenteK = L - expoenteF;
+        resultado.textContent = '10^' + expoenteK.toFixed(2);
+      }
+      fmax.addEventListener('input', atualizar);
+      limite.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">K ≤ 10^0,5</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q173",
+  numero: 173,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flower",
+  titulo: "Projeto de Jardim: Qual Formato Usa Menos Área de Grama?",
+  tags: ["Área de semicírculo", "Geometria plana", "Comparação de áreas"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um paisagista apresenta dois projetos de jardim para uma área residencial, ambos usando exclusivamente formas semicirculares de grama, mas organizadas de maneira diferente:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li><strong>Projeto 1:</strong> combina dois semicírculos de grama, um com raio de 6 metros e outro com raio de 3 metros;</li>
+      <li><strong>Projeto 2:</strong> usa um único semicírculo de grama, com raio de 9 metros.</li>
+    </ul>
+    <p>Considere π ≈ 3 para os cálculos.</p>
+    <p><strong>O projeto que utiliza a menor área total de grama, e o valor dessa área, são, respectivamente:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Projeto 1, com 67,5 m²", correta: true },
+    { letra: "B", texto: "Projeto 1, com 121,5 m²", correta: false },
+    { letra: "C", texto: "Projeto 2, com 67,5 m²", correta: false },
+    { letra: "D", texto: "Projeto 2, com 121,5 m²", correta: false },
+    { letra: "E", texto: "Os dois projetos usam a mesma área", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A área de um círculo cresce com o QUADRADO do raio, não linearmente — por isso, "dividir" uma forma grande em formas menores quase sempre resulta em uma área total menor, mesmo que o "tamanho geral" pareça parecido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Área de um semicírculo</p>
+        <p>A área de um círculo completo é A = π r². Como um semicírculo é exatamente metade de um círculo, sua área é A = (π r²)/2. Com π ≈ 3, essa fórmula se simplifica para A ≈ 1,5 × r².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Somando áreas de múltiplos semicírculos</p>
+        <p>Quando um projeto combina mais de um semicírculo, a área total é a soma das áreas individuais de cada um, calculadas separadamente com a fórmula do semicírculo, cada um com seu próprio raio.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que dividir em partes menores reduz a área total</p>
+        <p>Como a área depende do QUADRADO do raio, dois semicírculos menores somados quase sempre têm área total menor que um único semicírculo maior "equivalente" (mesmo que a soma dos raios seja igual). Isso ocorre porque (r1)² + (r2)² é menor que (r1+r2)² sempre que r1 e r2 são ambos positivos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação numérica da desigualdade</p>
+        <p>No caso desta questão: 6² + 3² = 36 + 9 = 45, enquanto 9² = 81. Como 45 é bem menor que 81, fica claro por que dividir o semicírculo de raio 9 em dois semicírculos de raios 6 e 3 resulta em uma área total significativamente menor.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Área do semicírculo", text: "A = (π r²)/2 ≈ 1,5r², usando π ≈ 3." },
+    { icone: "plus", titulo: "Soma de áreas", text: "Área total de múltiplas formas = soma das áreas individuais." },
+    { icone: "trending-down", titulo: "Efeito do quadrado do raio", text: "Dividir uma forma em partes menores reduz a área total, pois a área cresce com r²." },
+    { icone: "not-equal", titulo: "(r1)²+(r2)² ≠ (r1+r2)²", text: "A soma dos quadrados é sempre menor que o quadrado da soma (para valores positivos)." },
+    { icone: "calculator", titulo: "Comparação numérica direta", text: "Calcular ambas as áreas e comparar os valores finais." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Projeto 1, com 67,5 m²</p>
+        <p class="text-xs text-slate-300">O Projeto 1 (dois semicírculos) usa menos área que o Projeto 2 (um semicírculo único).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a área do Projeto 1:</strong> semicírculo r=6: 1,5×36=54 m²; semicírculo r=3: 1,5×9=13,5 m²; total: 54+13,5=67,5 m².</li>
+          <li><strong>Passo 2 — Calcular a área do Projeto 2:</strong> semicírculo r=9: 1,5×81=121,5 m².</li>
+          <li><strong>Passo 3 — Comparar:</strong> 67,5 m² (Projeto 1) é menor que 121,5 m² (Projeto 2).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Projeto 1, 67,5 m² — Correta ✓</p>
+          <p class="text-xs text-slate-400">Soma correta das áreas dos dois semicírculos menores, resultando na menor área total.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Projeto 1, 121,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o projeto certo, mas usa o valor de área do Projeto 2.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Projeto 2, 67,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa o valor de área correto, mas atribui ao projeto errado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Projeto 2, 121,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula corretamente a área do Projeto 2, mas esse não é o menor entre os dois.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Mesma área — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que a área cresce com o quadrado do raio, não linearmente — as áreas são bem diferentes.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Projeto 1",
+      legenda: "Dois semicírculos: raios 6m e 3m",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><line x1="10" y1="100" x2="210" y2="100" stroke="#475569"/><path d="M 20 100 A 60 60 0 0 1 140 100" fill="#10b981" opacity="0.4" stroke="#10b981"/><path d="M 140 100 A 30 30 0 0 1 200 100" fill="#3b82f6" opacity="0.4" stroke="#3b82f6"/></svg>`
+    },
+    {
+      titulo: "Projeto 2",
+      legenda: "Um semicírculo único: raio 9m",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><line x1="10" y1="100" x2="210" y2="100" stroke="#475569"/><path d="M 20 100 A 90 90 0 0 1 200 100" fill="#f59e0b" opacity="0.4" stroke="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Cálculo das áreas",
+      legenda: "54+13,5=67,5 vs 121,5",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#6ee7b7" font-size="13" text-anchor="middle">Projeto 1: 67,5 m²</text><text x="100" y="65" fill="#fbbf24" font-size="13" text-anchor="middle">Projeto 2: 121,5 m²</text></svg>`
+    },
+    {
+      titulo: "Projeto vencedor",
+      legenda: "Projeto 1 — menos área de grama",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">Projeto 1</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Áreas Semicirculares",
+    descricao: "Ajuste os raios dos semicírculos e compare as áreas totais.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Raio 1 (Projeto 1): <span id="q173-r1v" class="text-blue-300">6</span></label>
+            <input type="range" id="q173-r1" min="1" max="10" step="1" value="6" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Raio 2 (Projeto 1): <span id="q173-r2v" class="text-blue-300">3</span></label>
+            <input type="range" id="q173-r2" min="1" max="10" step="1" value="3" class="w-full">
+          </div>
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Raio único (Projeto 2): <span id="q173-r3v" class="text-blue-300 font-bold">9</span></label>
+          <input type="range" id="q173-r3" min="1" max="15" step="1" value="9" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Área Projeto 1 / Área Projeto 2</p>
+          <p id="q173-areas" class="text-lg font-bold text-blue-300">67,5 m² / 121,5 m²</p>
+          <p id="q173-vencedor" class="text-xl font-bold text-emerald-400 mt-2">Projeto 1 usa menos área</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const r1 = raiz.querySelector('#q173-r1');
+      const r2 = raiz.querySelector('#q173-r2');
+      const r3 = raiz.querySelector('#q173-r3');
+      const r1v = raiz.querySelector('#q173-r1v');
+      const r2v = raiz.querySelector('#q173-r2v');
+      const r3v = raiz.querySelector('#q173-r3v');
+      const areas = raiz.querySelector('#q173-areas');
+      const vencedor = raiz.querySelector('#q173-vencedor');
+      function atualizar() {
+        const R1 = parseFloat(r1.value), R2 = parseFloat(r2.value), R3 = parseFloat(r3.value);
+        r1v.textContent = R1; r2v.textContent = R2; r3v.textContent = R3;
+        const area1 = 1.5 * (R1*R1 + R2*R2);
+        const area2 = 1.5 * R3 * R3;
+        areas.textContent = area1.toFixed(1) + ' m² / ' + area2.toFixed(1) + ' m²';
+        vencedor.textContent = area1 < area2 ? 'Projeto 1 usa menos área' : (area2 < area1 ? 'Projeto 2 usa menos área' : 'Áreas iguais');
+      }
+      r1.addEventListener('input', atualizar);
+      r2.addEventListener('input', atualizar);
+      r3.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Projeto 1: 67,5 m²</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q174",
+  numero: 174,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "users",
+  titulo: "Viagem de Formatura: Quantos Alunos Fecharam o Grupo Original?",
+  tags: ["Equação do 2º grau", "Divisão proporcional", "Modelagem algébrica"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um grupo de alunos está organizando uma viagem de formatura que custará, ao todo, R$ 60.000,00, valor que será dividido igualmente entre todos os participantes. Inicialmente, n alunos confirmaram participação, e cada um pagaria R$ 60.000,00/n.</p>
+    <p>Depois, mais 6 alunos decidiram entrar no grupo, o que reduziu o valor pago por pessoa em R$ 500,00 (mantendo o custo total da viagem em R$ 60.000,00, agora dividido entre n+6 pessoas).</p>
+    <p><strong>O número original de alunos n que haviam confirmado participação é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "18", correta: false },
+    { letra: "B", texto: "24", correta: true },
+    { letra: "C", texto: "30", correta: false },
+    { letra: "D", texto: "36", correta: false },
+    { letra: "E", texto: "40", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de divisão de custo com mudança no número de participantes frequentemente resultam em equações do 2º grau — a chave é montar corretamente a equação antes de resolver.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Expressando o valor por pessoa em cada situação</p>
+        <p>Se o custo total é C e há n pessoas, o valor por pessoa é C/n. Com n+6 pessoas, o valor por pessoa passa a ser C/(n+6). A diferença entre essas duas expressões é o valor da redução mencionada no problema.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Montando a equação da redução</p>
+        <p>A condição do problema se traduz em: C/n − C/(n+6) = 500 (a redução no valor por pessoa). Alternativamente, pode-se escrever (n+6) × (C/n − 500) = C, isolando o novo valor por pessoa multiplicado pelo novo número de pessoas.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Transformando em uma equação do 2º grau</p>
+        <p>Expandindo a equação (n+6)(60.000/n − 500) = 60.000 e multiplicando por n para eliminar a fração, obtém-se uma equação quadrática em n: 60.000n + 360.000 − 500n² − 3.000n = 60.000n, que se simplifica para n² + 6n − 720 = 0.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Resolvendo a equação quadrática</p>
+        <p>Usando a fórmula de Bhaskara em n² + 6n − 720 = 0: n = [−6 ± √(36+2880)]/2 = [−6 ± √2916]/2 = [−6 ± 54]/2. Como n deve ser positivo, n = 48/2 = 24.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "divide", titulo: "Valor por pessoa", text: "Custo total dividido pelo número de participantes." },
+    { icone: "minus", titulo: "Equação da redução", text: "Diferença entre os valores por pessoa antes e depois é igual à redução dada." },
+    { icone: "x-square", titulo: "Equação do 2º grau", text: "Expandir e simplificar a equação resulta em uma equação quadrática em n." },
+    { icone: "calculator", titulo: "Fórmula de Bhaskara", text: "n = [−b ± √(b²−4ac)] / 2a, aplicada para resolver a equação." },
+    { icone: "check-circle", titulo: "Escolha da raiz válida", text: "Descartar raízes negativas, já que n representa um número de pessoas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 24 alunos</p>
+        <p class="text-xs text-slate-300">Resolvendo a equação quadrática n² + 6n − 720 = 0, obtém-se n = 24.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Montar a equação:</strong> (n+6)(60.000/n − 500) = 60.000.</li>
+          <li><strong>Passo 2 — Expandir e simplificar:</strong> multiplicando e reorganizando os termos, obtém-se n² + 6n − 720 = 0.</li>
+          <li><strong>Passo 3 — Resolver com Bhaskara:</strong> n = [−6 ± √2916]/2 = [−6 ± 54]/2. A raiz positiva é n = 24.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">Não satisfaz a equação quadrática original; resulta de um erro na montagem da equação.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 24 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Verificação: 60.000/24=2.500; 60.000/30=2.000; diferença=500, exatamente como no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde n com n+6 (o novo número de participantes após a entrada dos 6 alunos).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 36 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do discriminante da equação quadrática.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor que não satisfaz a equação original ao ser testado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Situação inicial",
+      legenda: "n alunos, R$ 60.000/n cada",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="14" text-anchor="middle">n alunos</text><text x="100" y="68" fill="#93c5fd" font-size="12" text-anchor="middle">R$60.000/n cada</text></svg>`
+    },
+    {
+      titulo: "6 alunos a mais",
+      legenda: "n+6 alunos, valor reduzido em R$500",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">n+6 alunos</text><text x="100" y="68" fill="#fbbf24" font-size="12" text-anchor="middle">− R$500 por pessoa</text></svg>`
+    },
+    {
+      titulo: "Equação quadrática",
+      legenda: "n² + 6n − 720 = 0",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">n² + 6n − 720 = 0</text></svg>`
+    },
+    {
+      titulo: "Solução",
+      legenda: "n = 24 alunos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">n = 24</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Divisão de Custo com Novos Participantes",
+    descricao: "Ajuste o custo total, a quantidade extra de pessoas e a redução para ver o número original de alunos.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Número de alunos (n): <span id="q174-nval" class="text-blue-300 font-bold">24</span></label>
+          <input type="range" id="q174-n" min="5" max="50" step="1" value="24" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor por pessoa (n alunos) / (n+6 alunos)</p>
+          <p id="q174-valores" class="text-lg font-bold text-blue-300">R$ 2.500,00 / R$ 2.000,00</p>
+          <p class="text-xs text-slate-400 mt-2">Redução real</p>
+          <p id="q174-reducao" class="text-2xl font-bold text-emerald-400">R$ 500,00</p>
+          <p id="q174-status" class="text-xs mt-1 text-emerald-400">✓ Corresponde à meta de R$ 500,00</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const n = raiz.querySelector('#q174-n');
+      const nval = raiz.querySelector('#q174-nval');
+      const valores = raiz.querySelector('#q174-valores');
+      const reducao = raiz.querySelector('#q174-reducao');
+      const status = raiz.querySelector('#q174-status');
+      function atualizar() {
+        const N = parseFloat(n.value);
+        nval.textContent = N;
+        const v1 = 60000 / N;
+        const v2 = 60000 / (N + 6);
+        valores.textContent = 'R$ ' + v1.toFixed(2) + ' / R$ ' + v2.toFixed(2);
+        const red = v1 - v2;
+        reducao.textContent = 'R$ ' + red.toFixed(2);
+        if (Math.abs(red - 500) < 1) {
+          status.textContent = '✓ Corresponde à meta de R$ 500,00';
+          status.className = 'text-xs mt-1 text-emerald-400';
+        } else {
+          status.textContent = '✗ Não corresponde à meta de R$ 500,00';
+          status.className = 'text-xs mt-1 text-rose-400';
+        }
+      }
+      n.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">n = 24</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q175",
+  numero: 175,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "gift",
+  titulo: "Premiação Corporativa: De Quantas Formas Distribuir os Prêmios?",
+  tags: ["Combinação simples", "Princípio multiplicativo", "Análise combinatória"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa vai premiar três diretores (A, B e C) ao final do ano, cada um recebendo prêmios de um catálogo diferente e específico para seu cargo:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>o Diretor A receberá exatamente 1 prêmio, escolhido entre 2 opções especiais do catálogo Ouro;</li>
+      <li>o Diretor B receberá exatamente 2 prêmios (diferentes entre si), escolhidos entre 6 opções do catálogo Prata;</li>
+      <li>o Diretor C receberá exatamente 2 prêmios (diferentes entre si), escolhidos entre 5 opções do catálogo Bronze.</li>
+    </ul>
+    <p>Os três catálogos são completamente independentes entre si (nenhum item aparece em mais de um catálogo), e a ordem dos prêmios recebidos por cada diretor não importa.</p>
+    <p><strong>O número total de maneiras diferentes de realizar essa distribuição de prêmios é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "60", correta: false },
+    { letra: "B", texto: "150", correta: false },
+    { letra: "C", texto: "300", correta: true },
+    { letra: "D", texto: "450", correta: false },
+    { letra: "E", texto: "600", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando escolhas independentes acontecem em paralelo (não uma depois da outra do mesmo conjunto), o princípio multiplicativo se aplica diretamente ao número de possibilidades de cada escolha, calculado separadamente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Combinação simples: escolher sem se importar com a ordem</p>
+        <p>Quando se escolhem k itens de um total de n itens distintos, sem que a ordem da escolha importe, o número de possibilidades é dado pela combinação C(n,k) = n! / [k!(n−k)!].</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando cada escolha separadamente</p>
+        <p>Como os catálogos são independentes, cada diretor tem seu próprio conjunto de opções, sem interferência entre eles. O número de formas de escolher o prêmio (ou prêmios) de cada diretor é calculado isoladamente: C(2,1) para o Diretor A, C(6,2) para o Diretor B, C(5,2) para o Diretor C.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando o princípio multiplicativo</p>
+        <p>Como as três escolhas acontecem de forma independente (uma não afeta as opções da outra), o total de combinações possíveis para o cenário completo é o PRODUTO do número de possibilidades de cada escolha individual.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Diferença entre pools independentes e pools compartilhados</p>
+        <p>É importante notar que, neste problema, os catálogos são independentes — nenhum item é compartilhado ou removido de um catálogo para afetar outro. Se os catálogos fossem um único pool compartilhado, o cálculo exigiria escolhas sequenciais com pools decrescentes, o que tornaria o problema mais complexo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Combinação simples", text: "C(n,k) = n!/[k!(n−k)!], para escolhas sem importância de ordem." },
+    { icone: "layers", titulo: "Pools independentes", text: "Catálogos separados não compartilham itens nem afetam as escolhas uns dos outros." },
+    { icone: "x", titulo: "Princípio multiplicativo", text: "Multiplicar o número de possibilidades de cada escolha independente." },
+    { icone: "user", titulo: "Escolha de 1 entre n", text: "C(n,1) = n, o número de formas de escolher exatamente 1 item." },
+    { icone: "check-circle", titulo: "Identificação de independência", text: "Reconhecer quando pools são independentes simplifica o cálculo combinatório." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 300</p>
+        <p class="text-xs text-slate-300">2 × 15 × 10 = 300, multiplicando as possibilidades independentes de cada diretor.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular as possibilidades do Diretor A:</strong> C(2,1) = 2 formas de escolher 1 prêmio entre 2 opções.</li>
+          <li><strong>Passo 2 — Calcular as possibilidades dos Diretores B e C:</strong> C(6,2) = 15 formas para o Diretor B; C(5,2) = 10 formas para o Diretor C.</li>
+          <li><strong>Passo 3 — Multiplicar todas as possibilidades:</strong> 2 × 15 × 10 = 300.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 60 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de incluir uma das três combinações no produto final.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 150 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa C(2,1)=2 corretamente, mas calcula errado uma das outras combinações.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 300 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Produto correto das três combinações independentes: 2 × 15 × 10.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 450 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo de C(6,2) ou C(5,2).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 600 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera a ordem dos prêmios como relevante (arranjo em vez de combinação), inflando o resultado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Catálogo Ouro — Diretor A",
+      legenda: "C(2,1) = 2 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">C(2,1) = 2</text></svg>`
+    },
+    {
+      titulo: "Catálogo Prata — Diretor B",
+      legenda: "C(6,2) = 15 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="16" text-anchor="middle">C(6,2) = 15</text></svg>`
+    },
+    {
+      titulo: "Catálogo Bronze — Diretor C",
+      legenda: "C(5,2) = 10 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">C(5,2) = 10</text></svg>`
+    },
+    {
+      titulo: "Total combinado",
+      legenda: "2 × 15 × 10 = 300",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">300</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Combinações Independentes",
+    descricao: "Ajuste os tamanhos dos catálogos e as quantidades escolhidas para cada diretor.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Catálogo A (total): <span id="q175-nav" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-na" min="1" max="10" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos A: <span id="q175-kav" class="text-blue-300">1</span></label>
+            <input type="range" id="q175-ka" min="0" max="5" step="1" value="1" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Catálogo B (total): <span id="q175-nbv" class="text-blue-300">6</span></label>
+            <input type="range" id="q175-nb" min="1" max="12" step="1" value="6" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos B: <span id="q175-kbv" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-kb" min="0" max="6" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Catálogo C (total): <span id="q175-ncv" class="text-blue-300">5</span></label>
+            <input type="range" id="q175-nc" min="1" max="12" step="1" value="5" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos C: <span id="q175-kcv" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-kc" min="0" max="6" step="1" value="2" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Total de combinações possíveis</p>
+          <p id="q175-total" class="text-3xl font-bold text-emerald-400">300</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      function comb(n, k) {
+        if (k < 0 || k > n) return 0;
+        let r = 1;
+        for (let i = 0; i < k; i++) r = r * (n - i) / (i + 1);
+        return Math.round(r);
+      }
+      const ids = ['na','ka','nb','kb','nc','kc'];
+      const els = {};
+      ids.forEach(id => { els[id] = raiz.querySelector('#q175-' + id); });
+      const vals = {};
+      ids.forEach(id => { vals[id] = raiz.querySelector('#q175-' + id + 'v'); });
+      const total = raiz.querySelector('#q175-total');
+      function atualizar() {
+        const v = {};
+        ids.forEach(id => { v[id] = parseFloat(els[id].value); vals[id].textContent = v[id]; });
+        const cA = comb(v.na, v.ka);
+        const cB = comb(v.nb, v.kb);
+        const cC = comb(v.nc, v.kc);
+        total.textContent = (cA * cB * cC).toLocaleString('pt-BR');
+      }
+      ids.forEach(id => els[id].addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="26" text-anchor="middle" font-weight="bold">300</text></svg>`,
+  simuladorType: null
 }
 
 ];
