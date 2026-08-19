@@ -10702,6 +10702,341 @@ const questaoDatabase = [
       }
     },
     simuladorType: null
+  },
+
+  {
+    id: "q119",
+    numero: "Questão 119",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Eletrodinâmica & Geradores Não Ideais",
+    materiaCor: "purple",
+    materiaIcone: "fa-solar-panel",
+    titulo: "Placas Fotovoltaicas em Série: Dimensionando um Gerador Não Ideal para uma Bomba-d'Água Rural",
+    tags: ["Física", "Eletrodinâmica", "Gerador Não Ideal", "Força Eletromotriz", "Resistência Interna", "Energia Solar", "Associação em Série"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em uma comunidade rural, os moradores utilizam uma bomba-d'água alimentada por <strong>100 V</strong> de tensão contínua, podendo variar em até <strong>5 V</strong>. Um eletrotécnico pretende instalar placas fotovoltaicas para alimentar essa bomba. As placas são idênticas e cada uma apresenta tensão de operação igual a <strong>34 V</strong> com corrente de <strong>7,5 A</strong>. Além disso, cada placa apresenta <strong>40 V</strong> de tensão elétrica quando em circuito aberto. Assim, considerando que a placa descrita é um gerador não ideal, em circuito aberto ela pode ser representada conforme a figura:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 260 110" class="w-full h-auto mx-auto max-w-xs">
+        <line x1="30" y1="55" x2="60" y2="55" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="60" y1="35" x2="60" y2="75" stroke="#e2e8f0" stroke-width="3"/>
+        <line x1="72" y1="42" x2="72" y2="68" stroke="#e2e8f0" stroke-width="1.5"/>
+        <text x="45" y="30" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">−</text>
+        <text x="80" y="30" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">+</text>
+        <text x="66" y="20" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">ε = 40 V</text>
+        <line x1="80" y1="55" x2="110" y2="55" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="110" y="42" width="50" height="26" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="135" y="60" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">r</text>
+        <line x1="160" y1="55" x2="200" y2="55" stroke="#94a3b8" stroke-width="2"/>
+      </svg>
+    </div>
+    <br>
+    O eletrotécnico construiu um circuito que permite à bomba-d'água operar corretamente com o menor número possível de placas conectadas. Para isso, desenhou um diagrama no qual todas essas placas são representadas como um único gerador não ideal, com a especificação das correspondentes características elétricas.
+    <br><br>
+    O diagrama que representa o circuito construído pelo eletrotécnico é:`,
+
+    alternativas: [
+      { letra: "A", texto: "136 V, 3,2 Ω", correta: false },
+      { letra: "B", texto: "120 V, 2,4 Ω", correta: true },
+      { letra: "C", texto: "120 V, 5,3 Ω", correta: false },
+      { letra: "D", texto: "102 V, 2,4 Ω", correta: false },
+      { letra: "E", texto: "102 V, 5,3 Ω", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o modelo de gerador não ideal (V = ε − rI) e como associar vários geradores em série — as duas ferramentas que resolvem esta questão sem precisar testar as cinco alternativas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Gerador não ideal: V = ε − rI</h4>
+          <p>
+            Todo gerador real (bateria, placa fotovoltaica) tem uma <strong>força eletromotriz (ε)</strong> — a tensão que ele forneceria em circuito aberto, sem corrente circulando — e uma <strong>resistência interna (r)</strong>, que causa uma "queda" de tensão proporcional à corrente fornecida. A tensão nos terminais do gerador, quando ele está fornecendo corrente <code>I</code> a um circuito, é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V = ε − r·I
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Encontrando a resistência interna de uma placa</h4>
+          <p>
+            O enunciado dá dois pontos de operação da mesma placa: em circuito aberto (sem corrente), ε = 40 V; em operação normal, V = 34 V com I = 7,5 A. Substituindo na equação:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            34 = 40 − r × 7,5 &nbsp;⟹&nbsp; r = 6 / 7,5 = 0,8 Ω
+          </div>
+          <p>
+            Cada placa fotovoltaica, portanto, se comporta como um gerador não ideal com ε = 40 V e r = 0,8 Ω.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Associação de geradores em série</h4>
+          <p>
+            Para alimentar a bomba (100 V ± 5 V, ou seja, entre 95 V e 105 V), uma única placa (34 V operando, 40 V em vazio) é muito pouco. É preciso <strong>elevar a tensão</strong> — e isso se faz associando geradores em <strong>série</strong>, onde:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pl-2">
+            <li>As forças eletromotrizes <strong>se somam</strong>: ε<sub>eq</sub> = n × ε</li>
+            <li>As resistências internas <strong>se somam</strong>: r<sub>eq</sub> = n × r</li>
+            <li>A corrente é a <strong>mesma</strong> em todos os elementos da série (igual à corrente de operação de cada placa individual)</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Testando o menor número de placas que atende à bomba</h4>
+          <p>
+            Com <code>n</code> placas em série, a tensão nos terminais (na corrente de operação de 7,5 A) é: V<sub>n</sub> = n × 34 V (soma direta das tensões de operação individuais, já que a corrente é a mesma em toda a série).
+          </p>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">n placas</th>
+                <th class="text-left py-1">ε<sub>eq</sub> = 40n</th>
+                <th class="text-left py-1">r<sub>eq</sub> = 0,8n</th>
+                <th class="text-right py-1">V operando = 34n</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">2</td><td>80 V</td><td>1,6 Ω</td><td class="text-right">68 V (insuficiente)</td></tr>
+              <tr class="border-b border-purple-500/40 text-purple-300 font-bold"><td class="py-1">3</td><td>120 V</td><td>2,4 Ω</td><td class="text-right">102 V (dentro de 95–105 V)</td></tr>
+              <tr><td class="py-1">4</td><td>160 V</td><td>3,2 Ω</td><td class="text-right">136 V (excesso, mais placas do que o necessário)</td></tr>
+            </tbody>
+          </table>
+          <p>
+            Com <strong>3 placas em série</strong>, a tensão de operação (102 V) já cai dentro da faixa aceitável pela bomba (95 V a 105 V) — usar apenas 2 placas não seria suficiente (68 V), e usar 4 seria desperdiçar uma placa a mais do que o necessário. Esse é, portanto, o menor número de placas que atende ao requisito.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-square-root-variable", titulo: "V = ε − rI", text: "Equação do gerador não ideal: a tensão nos terminais cai proporcionalmente à corrente fornecida, devido à resistência interna." },
+      { icone: "fa-solar-panel", titulo: "ε e r de cada placa", text: "Com ε=40V (circuito aberto) e V=34V, I=7,5A (operação), calcula-se r = 0,8 Ω por placa." },
+      { icone: "fa-link", titulo: "Associação em série", text: "EMFs e resistências internas se somam diretamente: ε_eq = nε, r_eq = nr, com a mesma corrente em toda a série." },
+      { icone: "fa-ruler", titulo: "Faixa de tensão aceitável", text: "A bomba opera entre 95 V e 105 V (100 V ± 5 V) — o critério que define quantas placas são necessárias." },
+      { icone: "fa-layer-group", titulo: "Menor número de placas", text: "3 placas em série entregam 102 V em operação — dentro da faixa exigida, sem usar mais placas do que o necessário." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>3 placas em série: ε<sub>eq</sub> = 3 × 40 V = 120 V; r<sub>eq</sub> = 3 × 0,8 Ω = 2,4 Ω. Em operação (I = 7,5 A), a tensão nos terminais é 120 − 2,4×7,5 = <strong>102 V</strong>, dentro da faixa de 95 V a 105 V exigida pela bomba.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule r de uma placa.</strong> V = ε − rI → 34 = 40 − r(7,5) → r = 0,8 Ω.</p>
+          <p><strong>Passo 2 — Teste números crescentes de placas em série.</strong> Com n placas: ε_eq = 40n, r_eq = 0,8n, e a tensão de operação é 34n. Procure o menor n cuja tensão de operação caia entre 95 V e 105 V.</p>
+          <p><strong>Passo 3 — Confirme o menor n válido.</strong> n=2 dá 68 V (baixo demais); n=3 dá 102 V (dentro da faixa); portanto n=3 é o menor número que atende, com ε_eq=120 V e r_eq=2,4 Ω.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 136 V, 3,2 Ω — ERRADA</p>
+            <p class="text-xs">Corresponde a 4 placas em série (ε=160V) somado a algum erro de cálculo — não é múltiplo direto de 40 (ε) nem de 0,8 (r) de forma consistente com n inteiro, e usaria mais placas do que o mínimo necessário de qualquer forma.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 120 V, 2,4 Ω — CORRETA</p>
+            <p class="text-xs">É exatamente 3 placas em série: 3×40=120V e 3×0,8=2,4Ω. Verificado que entrega 102 V em operação — dentro da faixa exigida pela bomba, com o menor número de placas possível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 120 V, 5,3 Ω — ERRADA</p>
+            <p class="text-xs">O valor de ε está correto (120V, compatível com 3 placas), mas a resistência interna está errada — 5,3 Ω não corresponde a 3×0,8Ω=2,4Ω. Um erro no cálculo ou na associação da resistência interna.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 102 V, 2,4 Ω — ERRADA (armadilha)</p>
+            <p class="text-xs">A resistência interna (2,4 Ω) está correta para 3 placas, mas 102 V é a <strong>tensão de operação sob carga</strong> — não a força eletromotriz (ε) do gerador equivalente. No modelo de gerador não ideal, ε deve ser o valor em circuito aberto (120 V), não o valor já com a queda de tensão da resistência interna aplicada.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 102 V, 5,3 Ω — ERRADA</p>
+            <p class="text-xs">Combina os dois erros anteriores: usa a tensão de operação (102V) no lugar de ε, e uma resistência interna (5,3Ω) que não corresponde a 3×0,8Ω.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Uma placa: encontrando r a partir de dois pontos de operação",
+        legenda: "Circuito aberto (I=0, V=ε=40V) e operação normal (I=7,5A, V=34V) determinam r = 0,8 Ω.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <line x1="60" y1="140" x2="420" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="60" y1="20" x2="60" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="52" y="26" fill="#94a3b8" font-size="8" text-anchor="end">V (V)</text>
+            <text x="415" y="155" fill="#94a3b8" font-size="8" text-anchor="end">I (A)</text>
+            <circle cx="60" cy="40" r="4" fill="#c4b5fd"/><text x="45" y="44" fill="#c4b5fd" font-size="8" text-anchor="end">40</text>
+            <circle cx="250" cy="75" r="4" fill="#c4b5fd"/><text x="250" y="68" fill="#c4b5fd" font-size="8" text-anchor="middle">(7,5 ; 34)</text>
+            <line x1="60" y1="40" x2="300" y2="90" stroke="#a78bfa" stroke-width="2"/>
+            <text x="230" y="130" fill="#94a3b8" font-size="8" text-anchor="middle">inclinação = −r = −0,8 Ω</text>
+          </svg>`
+      },
+      {
+        titulo: "Associação de 3 placas em série",
+        legenda: "As EMFs se somam (40+40+40=120V) e as resistências internas se somam (0,8+0,8+0,8=2,4Ω).",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="20" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="75" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 1</text>
+            <text x="75" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="140" y="55" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="150" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="205" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 2</text>
+            <text x="205" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="270" y="55" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="280" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="335" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 3</text>
+            <text x="335" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="230" y="90" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Equivalente: 120 V, 2,4 Ω</text>
+          </svg>`
+      },
+      {
+        titulo: "Faixa de tensão aceitável pela bomba",
+        legenda: "102 V (3 placas em operação) cai dentro da faixa de 95 V a 105 V.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <line x1="30" y1="60" x2="430" y2="60" stroke="#64748b" stroke-width="2"/>
+            <rect x="180" y="45" width="100" height="30" fill="#166534" opacity="0.4"/>
+            <text x="230" y="40" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">faixa aceitável: 95–105 V</text>
+            <line x1="60" y1="50" x2="60" y2="70" stroke="#f87171" stroke-width="2"/>
+            <text x="60" y="85" fill="#fca5a5" font-size="7" text-anchor="middle">2 placas: 68V</text>
+            <circle cx="250" cy="60" r="5" fill="#6ee7b7"/>
+            <text x="250" y="85" fill="#6ee7b7" font-size="7" font-weight="bold" text-anchor="middle">3 placas: 102V ✓</text>
+            <line x1="400" y1="50" x2="400" y2="70" stroke="#fbbf24" stroke-width="2"/>
+            <text x="400" y="85" fill="#fde68a" font-size="7" text-anchor="middle">4 placas: 136V</text>
+          </svg>`
+      },
+      {
+        titulo: "Não confunda ε (circuito aberto) com V (operação)",
+        legenda: "A alternativa D usa 102V (tensão de operação) no lugar de ε — o erro conceitual mais comum desta questão.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="90" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="42" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">ε (circuito aberto)</text>
+            <text x="120" y="65" fill="#a7f3d0" font-size="14" font-weight="bold" text-anchor="middle">120 V</text>
+            <text x="120" y="88" fill="#a7f3d0" font-size="7" text-anchor="middle">usado no diagrama do gerador</text>
+
+            <rect x="240" y="20" width="200" height="90" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="340" y="42" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">V (sob carga, I=7,5A)</text>
+            <text x="340" y="65" fill="#fca5a5" font-size="14" font-weight="bold" text-anchor="middle">102 V</text>
+            <text x="340" y="88" fill="#fca5a5" font-size="7" text-anchor="middle">NÃO é o ε do gerador equivalente</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: quantas placas em série a bomba precisa?",
+      descricao: "Ajuste o número de placas conectadas em série e veja a EMF equivalente, a resistência interna equivalente e a tensão de operação resultante.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Número de placas em série</span><span class="text-purple-300 font-bold" data-out="n">3</span>
+              </label>
+              <input type="range" data-sim="n" min="1" max="5" value="3" step="1" class="w-full accent-purple-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-solar-panel"></i> Cada placa: ε=40V, r=0,8Ω, opera em 34V/7,5A.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">EMF equivalente (ε_eq)</span><span class="text-purple-300 font-mono" data-out="eeq"></span></div>
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">Resistência interna (r_eq)</span><span class="text-purple-300 font-mono" data-out="req"></span></div>
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">Tensão em operação (7,5 A)</span><span class="text-purple-300 font-mono" data-out="vop"></span></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campoN = raiz.querySelector('[data-sim="n"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var n = parseInt(campoN.value, 10);
+          var eeq = n * 40;
+          var req = n * 0.8;
+          var vop = n * 34;
+
+          saida('n').textContent = n;
+          saida('eeq').textContent = eeq + ' V';
+          saida('req').textContent = req.toFixed(1) + ' Ω';
+          saida('vop').textContent = vop + ' V';
+
+          var v = saida('veredito');
+          if (vop < 95) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Tensão insuficiente.</strong> ' + vop + ' V está abaixo dos 95 V mínimos exigidos pela bomba — ela não funcionará corretamente.';
+          } else if (vop <= 105) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Dentro da faixa!</strong> ' + vop + ' V está entre 95 V e 105 V.' + (n === 3 ? ' Este é o menor número de placas que atende ao requisito — a resposta da questão (n=3, 120V, 2,4Ω).' : ' Mas note que um número menor de placas também pode funcionar — teste n=3.');
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Tensão excessiva.</strong> ' + vop + ' V está acima de 105 V — placas demais para o que a bomba precisa (desperdício).';
+          }
+        }
+
+        campoN.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-solar-panel"></i> 3 placas em série: ε_eq = 120 V, r_eq = 2,4 Ω → 102 V em operação (dentro de 95-105 V)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <line x1="30" y1="45" x2="60" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <line x1="60" y1="25" x2="60" y2="65" stroke="#e2e8f0" stroke-width="3"/>
+          <text x="60" y="18" fill="#c4b5fd" font-size="10" font-weight="bold" text-anchor="middle">120 V</text>
+          <line x1="60" y1="45" x2="110" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <rect x="110" y="32" width="60" height="26" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+          <text x="140" y="50" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">2,4 Ω</text>
+          <line x1="170" y1="45" x2="230" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <rect x="230" y="20" width="90" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="275" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Bomba</text>
+          <text x="400" y="45" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">102 V ✓</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
   }
 
 ];
