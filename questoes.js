@@ -532,7 +532,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-draw-polygon"></i> Decomposição de Forças e Gráfico da Força de Atrito</span>
         <svg viewBox="0 0 460 160" class="w-full h-36 mx-auto">
           <polygon points="40,140 240,140 240,50" fill="#1e293b" stroke="#475569" stroke-width="2"/>
@@ -924,7 +924,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-water"></i> Cascata da Eutrofização e Queda do Oxigênio Dissolvido</span>
         <svg viewBox="0 0 460 170" class="w-full h-40 mx-auto">
           <rect x="20" y="30" width="240" height="120" fill="#0f172a" stroke="#475569" stroke-width="2" rx="4"/>
@@ -1015,7 +1015,7 @@ const questaoDatabase = [
       { icone: "fa-droplet", titulo: "Neutralização", text: "Ácido + base formam sal e água; no ponto de equivalência, mols de H+ igualam mols de OH-." }
     ],
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-arrow-right-arrow-left"></i> Caminho do Cálculo Estequiométrico</span>
         <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
           <rect x="10" y="40" width="95" height="40" rx="6" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
@@ -1111,7 +1111,7 @@ const questaoDatabase = [
       { icone: "fa-arrows-left-right", titulo: "Mudança de Base", text: "Cada percentual incide sobre um valor diferente, por isso não há simetria entre subir e descer." }
     ],
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-chart-column"></i> Trajetória do Preço: R$ 2.000 → R$ 2.400 → R$ 1.920</span>
         <svg viewBox="0 0 460 150" class="w-full h-36 mx-auto">
           <line x1="40" y1="125" x2="440" y2="125" stroke="#64748b" stroke-width="2"/>
@@ -1197,7 +1197,7 @@ const questaoDatabase = [
       { icone: "fa-hand-holding-heart", titulo: "Outorga x Conquista", text: "Direitos apresentados como dádiva do Estado, e não como resultado da luta operária." }
     ],
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-amber-300 block"><i class="fa-solid fa-scale-unbalanced"></i> As Duas Faces da Política Trabalhista Varguista</span>
         <svg viewBox="0 0 460 150" class="w-full h-36 mx-auto">
           <rect x="20" y="25" width="185" height="100" rx="8" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
@@ -1287,7 +1287,7 @@ const questaoDatabase = [
       { icone: "fa-triangle-exclamation", titulo: "Anomia", text: "Estado de enfraquecimento das normas que regulam a conduta e a integração social." }
     ],
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-pink-300 block"><i class="fa-solid fa-circle-nodes"></i> Dois Tipos de Coesão Social em Durkheim</span>
         <svg viewBox="0 0 460 160" class="w-full h-36 mx-auto">
           <text x="112" y="22" fill="#f9a8d4" font-size="10" font-weight="bold" text-anchor="middle">Mecânica: coesão pela semelhança</text>
@@ -1852,7 +1852,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-draw-polygon"></i> Porosidade × Área Superficial × Capacidade de Adsorção</span>
         <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
           <text x="80" y="18" fill="#94a3b8" font-size="9" text-anchor="middle">Carvão comum</text>
@@ -2278,7 +2278,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Metabolismo de E. coli + Ciclo Circadiano de S. elongatus</span>
         <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
           <rect x="40" y="40" width="160" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
@@ -2685,7 +2685,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-droplet"></i> Glândula Uropigial → Óleo → Impermeabilização → Flutuação</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="15" y="35" width="100" height="35" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
@@ -3148,7 +3148,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plug"></i> 1350 W (fixo) + aparelho testado, contra o limite de 2200 W</span>
         <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
           <rect x="30" y="35" width="400" height="35" fill="#0f172a" stroke="#475569" stroke-width="2"/>
@@ -3528,7 +3528,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-frog"></i> Planta Tóxica → Formiga/Cupim → Sapo (toxina acumulada, não produzida)</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="110" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
@@ -3917,7 +3917,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-syringe"></i> Antígeno (estímulo) → Organismo Produz Anticorpos (proteção)</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="30" y="30" width="150" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
@@ -4299,7 +4299,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-seedling"></i> Espécie Invasora Agressiva → Exclusão Competitiva → Menos Espécies Nativas</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="140" height="40" rx="6" fill="#365314" stroke="#84cc16" stroke-width="2"/>
@@ -4678,7 +4678,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-map-location-dot"></i> Mesma Pressão de Escassez → Adaptação Metabólica Convergente</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="140" height="40" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
@@ -5041,7 +5041,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Destilação: Água + Sais → Vapor Puro → Água Destilada (sais ficam retidos)</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="25" width="140" height="40" rx="6" fill="#0c4a6e" opacity="0.5" stroke="#38bdf8" stroke-width="2"/>
@@ -5403,7 +5403,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-eye"></i> Escuro → Pupila Dilata → Mais Luz na Retina → Mais Reflexo Vermelho</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="15" y="30" width="100" height="40" rx="6" fill="#1e293b" stroke="#475569" stroke-width="2"/>
@@ -5697,7 +5697,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-microscope"></i> Falta de Lipase Ácida → Sem Degradação → Depósito no Lisossomo (Fígado)</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="140" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
@@ -6077,7 +6077,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-tree"></i> Fotossíntese: CO2 Atmosférico → Biomassa (Remoção Real)</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="140" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
@@ -6433,7 +6433,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-temperature-high"></i> Refrigeração Ineficiente → Água Mais Quente → Menos O2 Dissolvido</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="30" width="140" height="40" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
@@ -6805,7 +6805,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-atom"></i> HNO₃ + CaCl₂ (moderno) → HAzO³ + CaCl² (notação de 1909)</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="30" y="25" width="150" height="40" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
@@ -7263,7 +7263,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> M¹M² × M¹M² → 1 M¹M¹ : 2 M¹M² : 1 M²M² (fenótipos 1:2:1)</span>
         <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
           <rect x="20" y="30" width="90" height="60" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
@@ -7645,7 +7645,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Ácido anacárdico → Cardanol + CO₂ (descarboxilação térmica, 180-200 °C)</span>
         <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
           <rect x="20" y="20" width="120" height="70" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
@@ -7991,7 +7991,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-radiation"></i> 26,5 anos ÷ 5,3 anos = 5 meias-vidas → 2,00 mg × (1/2)⁵ = 0,06 mg</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <text x="60" y="45" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">2,00</text>
@@ -8368,7 +8368,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-recycle"></i> Etapa 4 (adubo no solo) fecha o ciclo de N/P e evita eutrofização dos corpos de água</span>
         <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
           <rect x="20" y="25" width="100" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
@@ -8693,7 +8693,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-wheat-awn"></i> Golden Rice → betacaroteno → vitamina A → rodopsina → previne cegueira noturna</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="25" width="100" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
@@ -9026,7 +9026,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-tv"></i> Carga negativa + E para cima → Força para baixo → feixe atinge o ponto 2</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <line x1="60" y1="15" x2="60" y2="75" stroke="#38bdf8" stroke-width="2"/><polygon points="60,15 55,25 65,25" fill="#38bdf8"/>
@@ -9365,7 +9365,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-wave-square"></i> Frequência da voz = frequência natural da taça → ressonância → amplitude cresce → racha</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <path d="M 20 45 Q 45 20 70 45 T 120 45 T 170 45" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
@@ -9714,7 +9714,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-vial"></i> Borneol C₁₀H₁₈O (−2H, oxidação) → Cânfora C₁₀H₁₆O</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
@@ -10020,7 +10020,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-mountain"></i> Ambiente extremo + isolado → seleção adaptativa → espécies endêmicas (distribuição restrita)</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="25" width="120" height="50" fill="#7c2d12" stroke="#c2410c" stroke-width="1.5" rx="4"/>
@@ -10236,7 +10236,7 @@ const questaoDatabase = [
     ],
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-scale-balanced"></i> Reagente em excesso empurra o equilíbrio para os produtos</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="25" width="140" height="50" fill="#083344" stroke="#22d3ee" stroke-width="1.5" rx="4"/>
@@ -10504,7 +10504,7 @@ const questaoDatabase = [
     ],
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-boxes-stacked"></i> Pressão de uma coluna empilhada: P = ρ·g·h</span>
         <svg viewBox="0 0 460 100" class="w-full h-28 mx-auto">
           <rect x="180" y="15" width="100" height="55" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5" rx="3"/>
@@ -10902,7 +10902,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-solar-panel"></i> 3 placas em série: ε_eq = 120 V, r_eq = 2,4 Ω → 102 V em operação (dentro de 95-105 V)</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <line x1="30" y1="45" x2="60" y2="45" stroke="#94a3b8" stroke-width="2"/>
@@ -11281,7 +11281,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-shield-halved"></i> (20cm + 15cm) ÷ 5,0 m/s = 70 ms — o tempo de resposta necessário</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <text x="80" y="50" fill="#e2e8f0" font-size="12" font-family="monospace" text-anchor="middle">0,35 m</text>
@@ -11594,7 +11594,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-skull-crossbones"></i> Dimetilamina (base) + vinagre (ácido fraco) → sal não volátil</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
@@ -11898,7 +11898,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-magnet"></i> Campo variável → corrente induzida na panela → calor por efeito Joule (P=RI²)</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <text x="80" y="50" fill="#c4b5fd" font-size="10" font-weight="bold" text-anchor="middle">Campo B(t)</text>
@@ -12204,7 +12204,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-leaf"></i> Água (oxigênica) e H₂S (anoxigênica) desempenham o mesmo papel: doador de elétrons</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
@@ -12511,7 +12511,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-bolt"></i> Escurecimento: +1,92 V &nbsp;|&nbsp; Clareamento: +0,99 V</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <rect x="20" y="20" width="180" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
@@ -12808,7 +12808,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-flask"></i> 4,00 L de gás → 0,1077 mol → ÷3 → ÷0,80 → 3,5 g de NH₄HCO₃</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
@@ -13143,7 +13143,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plane"></i> V(avião/ar) = V(resultante) − V(vento) = 170 Leste, 220 Norte, 11 cima</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
@@ -13407,7 +13407,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Mesmo A, mesmo B — só o pico (Ea) diminui com a enzima</span>
         <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
           <polyline points="30,70 100,70 230,20 360,75 430,75" fill="none" stroke="#e2e8f0" stroke-width="2"/>
@@ -13714,7 +13714,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-thermometer-half"></i> Sensores 2 e 5: as retas mais inclinadas do gráfico R×T</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
@@ -13996,7 +13996,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-virus"></i> Alta eficiência contra moluscos → controle da esquistossomose</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
@@ -14256,7 +14256,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plug"></i> R_C em série com R_P = 0,2 R_C</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
@@ -14544,7 +14544,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-industry"></i> 100 mol Nb → 166,7 mol Al (estequiométrico) → 183,3 mol (com 10% excesso) → 5,0 kg</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
@@ -14809,7 +14809,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-volume-high"></i> 10 000 pessoas: 100 dB + 40 dB = 140 dB</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
@@ -15101,7 +15101,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-layer-group"></i> O óleo é retido no surfactante — a camada mais externa</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
@@ -15401,7 +15401,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-pills"></i> Estriol: 3 grupos −OH → maior solubilidade em água</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
@@ -15700,7 +15700,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-baby"></i> Frequência aumenta → comprimento de onda diminui (desvio para o azul)</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
           <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
@@ -15843,7 +15843,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-gas-pump"></i> Consumo semanal ≈16,15 m³ → cilindro de 17 m³</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa C — 17 m³</text></svg>
       </div>
@@ -15989,7 +15989,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-percent"></i> 0,90 × 0,40 = 0,36 = 36/100</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa B — 36/100</text></svg>
       </div>
@@ -16133,7 +16133,7 @@ const questaoDatabase = [
     },
 
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-cube"></i> x−3, y+5, z−4 → alternativa E</span>
         <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa E</text></svg>
       </div>
@@ -35045,20 +35045,20 @@ const questaoDatabase = [
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-    <rect x="0" y="0" width="200" height="100" fill="#faf5ff"/>
+    <rect x="0" y="0" width="200" height="100" fill="#1e1b3a"/>
     <circle cx="40" cy="30" r="14" fill="#7c3aed"/>
     <text x="40" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 1</text>
-    <path d="M54 30 L86 30" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrowD)"/>
-    <text x="70" y="24" text-anchor="middle" font-size="8" fill="#b91c1c" font-weight="bold">daí</text>
+    <path d="M54 30 L86 30" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowD)"/>
+    <text x="70" y="24" text-anchor="middle" font-size="8" fill="#f87171" font-weight="bold">daí</text>
     <circle cx="100" cy="30" r="14" fill="#7c3aed"/>
     <text x="100" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 2</text>
-    <path d="M114 30 L146 30" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrowD)"/>
-    <text x="130" y="24" text-anchor="middle" font-size="8" fill="#b91c1c" font-weight="bold">daí</text>
+    <path d="M114 30 L146 30" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowD)"/>
+    <text x="130" y="24" text-anchor="middle" font-size="8" fill="#f87171" font-weight="bold">daí</text>
     <circle cx="160" cy="30" r="14" fill="#7c3aed"/>
     <text x="160" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 3</text>
-    <text x="100" y="70" text-anchor="middle" font-size="10" fill="#4c1d95" font-weight="bold">"daí" = estratégia da fala</text>
-    <text x="100" y="86" text-anchor="middle" font-size="9" fill="#4c1d95">encadeia eventos na narrativa oral</text>
-    <defs><marker id="arrowD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker></defs>
+    <text x="100" y="70" text-anchor="middle" font-size="10" fill="#e9d5ff" font-weight="bold">"daí" = estratégia da fala</text>
+    <text x="100" y="86" text-anchor="middle" font-size="9" fill="#e9d5ff">encadeia eventos na narrativa oral</text>
+    <defs><marker id="arrowD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a78bfa"/></marker></defs>
   </svg>`,
   simuladorType: null
 },
@@ -35399,15 +35399,15 @@ const questaoDatabase = [
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-    <rect width="200" height="100" fill="#faf5ff"/>
-    <rect x="10" y="20" width="70" height="35" rx="6" fill="#ede9fe" stroke="#8b5cf6"/>
-    <text x="45" y="41" text-anchor="middle" font-size="9" fill="#5b21b6">Texto I: Mito</text>
-    <rect x="120" y="20" width="70" height="35" rx="6" fill="#ede9fe" stroke="#8b5cf6"/>
-    <text x="155" y="41" text-anchor="middle" font-size="9" fill="#5b21b6">Texto II: Crônica</text>
-    <line x1="80" y1="37" x2="120" y2="37" stroke="#8b5cf6" stroke-width="2" marker-end="url(#a1)"/>
-    <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#8b5cf6"/></marker></defs>
-    <text x="100" y="70" text-anchor="middle" font-size="9" fill="#6d28d9">"Hércules" + título</text>
-    <text x="100" y="85" text-anchor="middle" font-size="9" font-weight="bold" fill="#6d28d9">= intertextualidade</text>
+    <rect width="200" height="100" fill="#1e1b3a"/>
+    <rect x="10" y="20" width="70" height="35" rx="6" fill="#4c1d95" stroke="#a78bfa"/>
+    <text x="45" y="41" text-anchor="middle" font-size="9" fill="#e9d5ff">Texto I: Mito</text>
+    <rect x="120" y="20" width="70" height="35" rx="6" fill="#4c1d95" stroke="#a78bfa"/>
+    <text x="155" y="41" text-anchor="middle" font-size="9" fill="#e9d5ff">Texto II: Crônica</text>
+    <line x1="80" y1="37" x2="120" y2="37" stroke="#a78bfa" stroke-width="2" marker-end="url(#a1)"/>
+    <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#a78bfa"/></marker></defs>
+    <text x="100" y="70" text-anchor="middle" font-size="9" fill="#c4b5fd">"Hércules" + título</text>
+    <text x="100" y="85" text-anchor="middle" font-size="9" font-weight="bold" fill="#c4b5fd">= intertextualidade</text>
   </svg>`,
   simuladorType: null
 },
@@ -35637,18 +35637,18 @@ const questaoDatabase = [
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="200" height="100" fill="#faf5ff"/>
-    <rect x="10" y="35" width="70" height="24" rx="4" fill="#ede9fe" stroke="#7c3aed"/>
-    <text x="45" y="51" font-size="9" text-anchor="middle" fill="#4c1d95">detrito espacial</text>
-    <rect x="120" y="35" width="70" height="24" rx="4" fill="#dcfce7" stroke="#16a34a"/>
-    <text x="155" y="51" font-size="9" text-anchor="middle" fill="#166534">sua trajetória</text>
-    <path d="M80,47 L118,47" stroke="#16a34a" stroke-width="2" marker-end="url(#arrD)"/>
+    <rect width="200" height="100" fill="#1e1b3a"/>
+    <rect x="10" y="35" width="70" height="24" rx="4" fill="#4c1d95" stroke="#a78bfa"/>
+    <text x="45" y="51" font-size="9" text-anchor="middle" fill="#e9d5ff">detrito espacial</text>
+    <rect x="120" y="35" width="70" height="24" rx="4" fill="#065f46" stroke="#34d399"/>
+    <text x="155" y="51" font-size="9" text-anchor="middle" fill="#6ee7b7">sua trajetória</text>
+    <path d="M80,47 L118,47" stroke="#34d399" stroke-width="2" marker-end="url(#arrD)"/>
     <defs>
       <marker id="arrD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-        <path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/>
+        <path d="M0,0 L6,3 L0,6 Z" fill="#34d399"/>
       </marker>
     </defs>
-    <text x="100" y="85" font-size="8" text-anchor="middle" fill="#6b21a8">coesão referencial (anáfora)</text>
+    <text x="100" y="85" font-size="8" text-anchor="middle" fill="#c4b5fd">coesão referencial (anáfora)</text>
   </svg>`,
   simuladorType: null
 },
@@ -35846,13 +35846,13 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
   },
 
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="200" height="100" fill="#f5f3ff" rx="8"/>
+    <rect width="200" height="100" fill="#1e1b3a" rx="8"/>
     <circle cx="30" cy="50" r="12" fill="#7c3aed"/>
-    <text x="30" y="80" font-size="8" text-anchor="middle" fill="#4c1d95">Rádio</text>
+    <text x="30" y="80" font-size="8" text-anchor="middle" fill="#e9d5ff">Rádio</text>
     <line x1="42" y1="50" x2="158" y2="50" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4,3"/>
-    <circle cx="170" cy="50" r="12" fill="#059669"/>
-    <text x="170" y="80" font-size="8" text-anchor="middle" fill="#047857">Podcast</text>
-    <text x="100" y="25" font-size="9" text-anchor="middle" fill="#6d28d9">permanece e evolui</text>
+    <circle cx="170" cy="50" r="12" fill="#10b981"/>
+    <text x="170" y="80" font-size="8" text-anchor="middle" fill="#6ee7b7">Podcast</text>
+    <text x="100" y="25" font-size="9" text-anchor="middle" fill="#c4b5fd">permanece e evolui</text>
   </svg>`,
 
   simuladorType: null
@@ -36034,14 +36034,14 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
-  <rect width="200" height="100" fill="#faf5ff"/>
-  <text x="100" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764" font-family="sans-serif">Descrição irônica</text>
-  <circle cx="45" cy="60" r="22" fill="#c4b5fd" stroke="#6d28d9"/>
+  <rect width="200" height="100" fill="#1e1b3a"/>
+  <text x="100" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#e9d5ff" font-family="sans-serif">Descrição irônica</text>
+  <circle cx="45" cy="60" r="22" fill="#c4b5fd" stroke="#a78bfa"/>
   <text x="45" y="63" text-anchor="middle" font-size="8" fill="#3b0764" font-family="sans-serif">Coronel</text>
-  <circle cx="155" cy="60" r="22" fill="#c4b5fd" stroke="#6d28d9"/>
+  <circle cx="155" cy="60" r="22" fill="#c4b5fd" stroke="#a78bfa"/>
   <text x="155" y="63" text-anchor="middle" font-size="8" fill="#3b0764" font-family="sans-serif">Viúva</text>
-  <line x1="67" y1="60" x2="133" y2="60" stroke="#7c3aed" stroke-width="2"/>
-  <text x="100" y="90" text-anchor="middle" font-size="8" fill="#b91c1c" font-family="sans-serif" font-weight="bold">= escárnio moral</text>
+  <line x1="67" y1="60" x2="133" y2="60" stroke="#a78bfa" stroke-width="2"/>
+  <text x="100" y="90" text-anchor="middle" font-size="8" fill="#f87171" font-family="sans-serif" font-weight="bold">= escárnio moral</text>
 </svg>`,
   simuladorType: null
 },
@@ -36210,14 +36210,14 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="200" height="100" fill="#faf5ff"/>
-    <ellipse cx="100" cy="70" rx="70" ry="8" fill="#e9d5ff"/>
-    <path d="M40 60 Q40 35 100 30 Q160 35 160 60 Q160 68 100 70 Q40 68 40 60 Z" fill="#8b5cf6" stroke="#5b21b6" stroke-width="2"/>
-    <rect x="50" y="68" width="8" height="16" fill="#5b21b6"/>
-    <rect x="90" y="70" width="8" height="16" fill="#5b21b6"/>
-    <rect x="120" y="70" width="8" height="16" fill="#5b21b6"/>
-    <rect x="150" y="68" width="8" height="16" fill="#5b21b6"/>
-    <text x="100" y="18" text-anchor="middle" font-size="10" fill="#5b21b6" font-family="sans-serif">Fauna → Objeto sagrado</text>
+    <rect width="200" height="100" fill="#1e1b3a"/>
+    <ellipse cx="100" cy="70" rx="70" ry="8" fill="#4c1d95"/>
+    <path d="M40 60 Q40 35 100 30 Q160 35 160 60 Q160 68 100 70 Q40 68 40 60 Z" fill="#8b5cf6" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="50" y="68" width="8" height="16" fill="#a78bfa"/>
+    <rect x="90" y="70" width="8" height="16" fill="#a78bfa"/>
+    <rect x="120" y="70" width="8" height="16" fill="#a78bfa"/>
+    <rect x="150" y="68" width="8" height="16" fill="#a78bfa"/>
+    <text x="100" y="18" text-anchor="middle" font-size="10" fill="#e9d5ff" font-family="sans-serif">Fauna → Objeto sagrado</text>
   </svg>`,
   simuladorType: null
 },
@@ -36468,14 +36468,14 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0" y="0" width="200" height="100" fill="#faf5ff"/>
-    <rect x="10" y="30" width="80" height="40" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
-    <text x="50" y="54" text-anchor="middle" font-size="9" fill="#5b21b6">Juridiquês</text>
-    <rect x="110" y="30" width="80" height="40" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
-    <text x="150" y="54" text-anchor="middle" font-size="9" fill="#166534">Padrão</text>
+    <rect x="0" y="0" width="200" height="100" fill="#1e1b3a"/>
+    <rect x="10" y="30" width="80" height="40" rx="6" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5"/>
+    <text x="50" y="54" text-anchor="middle" font-size="9" fill="#e9d5ff">Juridiquês</text>
+    <rect x="110" y="30" width="80" height="40" rx="6" fill="#065f46" stroke="#34d399" stroke-width="1.5"/>
+    <text x="150" y="54" text-anchor="middle" font-size="9" fill="#6ee7b7">Padrão</text>
     <path d="M90 50 L110 50" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#dmini)"/>
     <defs><marker id="dmini" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#f59e0b"/></marker></defs>
-    <text x="100" y="90" text-anchor="middle" font-size="8" fill="#8b5cf6">Contraste = Ironia</text>
+    <text x="100" y="90" text-anchor="middle" font-size="8" fill="#a78bfa">Contraste = Ironia</text>
   </svg>`,
   simuladorType: null
 },
@@ -36609,13 +36609,13 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-<rect width="200" height="100" fill="#f5f3ff"/>
+<rect width="200" height="100" fill="#1e1b3a"/>
 <circle cx="40" cy="50" r="18" fill="#7c3aed"/>
 <text x="40" y="54" font-size="9" text-anchor="middle" fill="#fff" font-family="sans-serif">1995</text>
 <line x1="58" y1="50" x2="142" y2="50" stroke="#a78bfa" stroke-width="3"/>
-<circle cx="160" cy="50" r="18" fill="#5b21b6"/>
+<circle cx="160" cy="50" r="18" fill="#8b5cf6"/>
 <text x="160" y="54" font-size="8" text-anchor="middle" fill="#fff" font-family="sans-serif">Filhas</text>
-<text x="100" y="30" font-size="8" text-anchor="middle" fill="#4c1d95" font-family="sans-serif">Protagonismo feminino</text>
+<text x="100" y="30" font-size="8" text-anchor="middle" fill="#e9d5ff" font-family="sans-serif">Protagonismo feminino</text>
 </svg>`,
   simuladorType: null
 },
@@ -36837,18 +36837,18 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="200" height="100" fill="#faf5ff"/>
+    <rect width="200" height="100" fill="#1e1b3a"/>
     <circle cx="45" cy="50" r="30" fill="#7c3aed"/>
     <text x="45" y="46" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">1 2 3 4</text>
     <text x="45" y="58" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">razões</text>
-    <path d="M78 50 L150 50" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arrowD44)"/>
+    <path d="M78 50 L150 50" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowD44)"/>
     <defs>
       <marker id="arrowD44" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto">
-        <path d="M0,0 L0,6 L6,3 z" fill="#8b5cf6"/>
+        <path d="M0,0 L0,6 L6,3 z" fill="#a78bfa"/>
       </marker>
     </defs>
-    <text x="165" y="46" text-anchor="middle" font-size="10" font-weight="bold" fill="#6d28d9" font-family="sans-serif">D</text>
-    <text x="165" y="60" text-anchor="middle" font-size="7" fill="#6d28d9" font-family="sans-serif">persuade</text>
+    <text x="165" y="46" text-anchor="middle" font-size="10" font-weight="bold" fill="#c4b5fd" font-family="sans-serif">D</text>
+    <text x="165" y="60" text-anchor="middle" font-size="7" fill="#c4b5fd" font-family="sans-serif">persuade</text>
   </svg>`,
   simuladorType: null
 },
@@ -37053,17 +37053,17 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     }
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-    <rect width="200" height="100" fill="#f5f3ff"/>
-    <circle cx="55" cy="50" r="30" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <rect width="200" height="100" fill="#1e1b3a"/>
+    <circle cx="55" cy="50" r="30" fill="#ddd6fe" stroke="#a78bfa" stroke-width="2"/>
     <text x="55" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">IMAGEM</text>
     <text x="55" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#4c1d95">ambígua</text>
-    <path d="M 90 50 L 130 50" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrowD)"/>
+    <path d="M 90 50 L 130 50" stroke="#a78bfa" stroke-width="3" marker-end="url(#arrowD)"/>
     <defs>
       <marker id="arrowD" markerWidth="8" markerHeight="8" refX="6" refY="2.5" orient="auto">
-        <path d="M0,0 L0,5 L7,2.5 z" fill="#7c3aed"/>
+        <path d="M0,0 L0,5 L7,2.5 z" fill="#a78bfa"/>
       </marker>
     </defs>
-    <rect x="130" y="30" width="60" height="40" rx="6" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+    <rect x="130" y="30" width="60" height="40" rx="6" fill="#c4b5fd" stroke="#a78bfa" stroke-width="2"/>
     <text x="160" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81" font-weight="bold">TEXTO</text>
     <text x="160" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#312e81">ancora</text>
   </svg>`,
