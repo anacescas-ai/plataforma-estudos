@@ -5597,87 +5597,27 @@ const questaoDatabase = [
        3. GALERIA DE ESQUEMAS
        ------------------------------------------------------------------ */
     galeria: [
-      {
-        titulo: "O lisossomo como \"estômago\" da célula",
-        legenda: "Interior ácido, repleto de enzimas hidrolíticas prontas para degradar macromoléculas recebidas por endocitose ou autofagia.",
-        svg: `
-          <svg viewBox="0 0 460 160" class="w-full h-auto">
-            <circle cx="230" cy="90" r="70" fill="#450a0a" opacity="0.25" stroke="#f87171" stroke-width="2.5"/>
-            <text x="230" y="35" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Lisossomo (pH ácido ≈ 5)</text>
-            <circle cx="200" cy="80" r="6" fill="#fbbf24"/>
-            <circle cx="240" cy="70" r="6" fill="#fbbf24"/>
-            <circle cx="260" cy="105" r="6" fill="#fbbf24"/>
-            <circle cx="210" cy="115" r="6" fill="#fbbf24"/>
-            <text x="230" y="145" fill="#fde68a" font-size="8" text-anchor="middle">enzimas hidrolíticas (inclui lipase ácida)</text>
-          </svg>`
-      },
-      {
-        titulo: "Degradação normal do colesterol esterificado",
-        legenda: "A lipase ácida quebra o colesterol esterificado e os triglicerídeos, liberando componentes que a célula reaproveita.",
-        svg: `
-          <svg viewBox="0 0 460 130" class="w-full h-auto">
-            <rect x="20" y="40" width="130" height="50" rx="6" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
-            <text x="85" y="60" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">Colesterol</text>
-            <text x="85" y="74" fill="#e2e8f0" font-size="8" font-weight="bold" text-anchor="middle">esterificado</text>
-            <line x1="150" y1="65" x2="185" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq103)"/>
-            <text x="167" y="55" fill="#94a3b8" font-size="7" text-anchor="middle">lipase</text>
-            <text x="167" y="65" fill="#94a3b8" font-size="7" text-anchor="middle">ácida</text>
-
-            <rect x="190" y="40" width="80" height="50" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
-            <text x="230" y="68" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">Lisossomo</text>
-            <line x1="270" y1="65" x2="305" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq103)"/>
-
-            <rect x="310" y="40" width="130" height="50" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
-            <text x="375" y="60" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">Colesterol livre +</text>
-            <text x="375" y="74" fill="#d1fae5" font-size="8" font-weight="bold" text-anchor="middle">ácidos graxos</text>
-            <defs>
-              <marker id="pq103" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
-                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
-              </marker>
-            </defs>
-          </svg>`
-      },
-      {
-        titulo: "Sem a enzima: acúmulo dentro do lisossomo",
-        legenda: "Faltando lipase ácida, o colesterol esterificado e os triglicerídeos não são degradados e se acumulam na organela, sobrecarregando a célula — sobretudo no fígado.",
-        svg: `
-          <svg viewBox="0 0 460 140" class="w-full h-auto">
-            <circle cx="230" cy="80" r="70" fill="#450a0a" opacity="0.35" stroke="#f87171" stroke-width="2.5"/>
-            <text x="230" y="25" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Lisossomo sem lipase ácida</text>
-            <rect x="190" y="55" width="20" height="16" rx="2" fill="#fde68a"/>
-            <rect x="220" y="65" width="20" height="16" rx="2" fill="#fde68a"/>
-            <rect x="250" y="50" width="20" height="16" rx="2" fill="#fde68a"/>
-            <rect x="205" y="90" width="20" height="16" rx="2" fill="#fde68a"/>
-            <rect x="245" y="95" width="20" height="16" rx="2" fill="#fde68a"/>
-            <text x="230" y="130" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">colesterol esterificado acumulado (não digerido)</text>
-          </svg>`
-      },
-      {
-        titulo: "Mapa das cinco alternativas",
-        legenda: "Todas as organelas erradas lidam com lipídeos de alguma forma, mas só o lisossomo abriga a via específica da lipase ácida.",
-        svg: `
-          <svg viewBox="0 0 460 190" class="w-full h-auto">
-            <text x="30" y="15" fill="#94a3b8" font-size="9">Organela</text>
-            <line x1="20" y1="20" x2="440" y2="20" stroke="#334155" stroke-width="1"/>
-
-            <rect x="15" y="30" width="430" height="27" rx="5" fill="#065f46" opacity="0.35"/>
-            <text x="30" y="48" fill="#6ee7b7" font-size="10" font-weight="bold">A — Lisossomos</text>
-            <text x="400" y="48" fill="#34d399" font-size="12" text-anchor="middle" font-weight="bold">✓</text>
-
-            <text x="30" y="75" fill="#e2e8f0" font-size="10">B — Ribossomos</text>
-            <text x="400" y="75" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
-
-            <text x="30" y="101" fill="#e2e8f0" font-size="10">C — Mitocôndrias</text>
-            <text x="400" y="101" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
-
-            <text x="30" y="127" fill="#e2e8f0" font-size="10">D — Peroxissomos</text>
-            <text x="400" y="127" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
-
-            <text x="30" y="153" fill="#e2e8f0" font-size="10">E — Retículo endoplasmático liso</text>
-            <text x="400" y="153" fill="#f87171" font-size="12" text-anchor="middle">✕</text>
-          </svg>`
-      }
-    ],
+  {
+    "titulo": "O lisossomo como \"estômago\" da célula",
+    "legenda": "Interior ácido, repleto de enzimas hidrolíticas prontas para degradar macromoléculas recebidas por endocitose ou autofagia.",
+    "svg": "\n          <svg viewBox=\"0 0 460 160\" class=\"w-full h-auto\">\n            <circle cx=\"230\" cy=\"90\" r=\"70\" fill=\"#450a0a\" opacity=\"0.25\" stroke=\"#f87171\" stroke-width=\"2.5\"/>\n            <text x=\"230\" y=\"35\" fill=\"#fca5a5\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Lisossomo (pH ácido ≈ 5)</text>\n            <circle cx=\"200\" cy=\"80\" r=\"6\" fill=\"#fbbf24\"/>\n            <circle cx=\"240\" cy=\"70\" r=\"6\" fill=\"#fbbf24\"/>\n            <circle cx=\"260\" cy=\"105\" r=\"6\" fill=\"#fbbf24\"/>\n            <circle cx=\"210\" cy=\"115\" r=\"6\" fill=\"#fbbf24\"/>\n            <text x=\"230\" y=\"145\" fill=\"#fde68a\" font-size=\"8\" text-anchor=\"middle\">enzimas hidrolíticas (inclui lipase ácida)</text>\n          </svg>"
+  },
+  {
+    "titulo": "Degradação normal do colesterol esterificado",
+    "legenda": "A lipase ácida quebra o colesterol esterificado e os triglicerídeos, liberando componentes que a célula reaproveita.",
+    "svg": "\n          <svg viewBox=\"0 0 460 130\" class=\"w-full h-auto\">\n            <rect x=\"20\" y=\"40\" width=\"130\" height=\"50\" rx=\"6\" fill=\"#334155\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n            <text x=\"85\" y=\"60\" fill=\"#e2e8f0\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">Colesterol</text>\n            <text x=\"85\" y=\"74\" fill=\"#e2e8f0\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">esterificado</text>\n            <line x1=\"150\" y1=\"65\" x2=\"185\" y2=\"65\" stroke=\"#64748b\" stroke-width=\"2\" marker-end=\"url(#pq103)\"/>\n            <text x=\"167\" y=\"55\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">lipase</text>\n            <text x=\"167\" y=\"65\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">ácida</text>\n\n            <rect x=\"190\" y=\"40\" width=\"80\" height=\"50\" rx=\"6\" fill=\"#450a0a\" stroke=\"#f87171\" stroke-width=\"2\"/>\n            <text x=\"230\" y=\"68\" fill=\"#fca5a5\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">Lisossomo</text>\n            <line x1=\"270\" y1=\"65\" x2=\"305\" y2=\"65\" stroke=\"#64748b\" stroke-width=\"2\" marker-end=\"url(#pq103)\"/>\n\n            <rect x=\"310\" y=\"40\" width=\"130\" height=\"50\" rx=\"6\" fill=\"#065f46\" stroke=\"#34d399\" stroke-width=\"2\"/>\n            <text x=\"375\" y=\"60\" fill=\"#d1fae5\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">Colesterol livre +</text>\n            <text x=\"375\" y=\"74\" fill=\"#d1fae5\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">ácidos graxos</text>\n            <defs>\n              <marker id=\"pq103\" markerWidth=\"6\" markerHeight=\"6\" refX=\"5\" refY=\"3\" orient=\"auto\">\n                <path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#64748b\"/>\n              </marker>\n            </defs>\n          </svg>"
+  },
+  {
+    "titulo": "Sem a enzima: acúmulo dentro do lisossomo",
+    "legenda": "Faltando lipase ácida, o colesterol esterificado e os triglicerídeos não são degradados e se acumulam na organela, sobrecarregando a célula — sobretudo no fígado.",
+    "svg": "\n          <svg viewBox=\"0 0 460 140\" class=\"w-full h-auto\">\n            <rect x=\"0\" y=\"0\" width=\"460\" height=\"140\" fill=\"#0f172a\"/>\n            <circle cx=\"230\" cy=\"80\" r=\"70\" fill=\"#450a0a\" opacity=\"0.35\" stroke=\"#f87171\" stroke-width=\"2.5\"/>\n            <text x=\"230\" y=\"25\" fill=\"#fca5a5\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">Lisossomo sem lipase ácida</text>\n            <rect x=\"190\" y=\"55\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#fde68a\"/>\n            <rect x=\"220\" y=\"65\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#fde68a\"/>\n            <rect x=\"250\" y=\"50\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#fde68a\"/>\n            <rect x=\"205\" y=\"90\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#fde68a\"/>\n            <rect x=\"245\" y=\"95\" width=\"20\" height=\"16\" rx=\"2\" fill=\"#fde68a\"/>\n            <text x=\"230\" y=\"130\" fill=\"#fde68a\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">colesterol esterificado acumulado (não digerido)</text>\n          </svg>"
+  },
+  {
+    "titulo": "Mapa das cinco alternativas",
+    "legenda": "Todas as organelas erradas lidam com lipídeos de alguma forma, mas só o lisossomo abriga a via específica da lipase ácida.",
+    "svg": "\n          <svg viewBox=\"0 0 460 190\" class=\"w-full h-auto\">\n            <text x=\"30\" y=\"15\" fill=\"#94a3b8\" font-size=\"9\">Organela</text>\n            <line x1=\"20\" y1=\"20\" x2=\"440\" y2=\"20\" stroke=\"#334155\" stroke-width=\"1\"/>\n\n            <rect x=\"15\" y=\"30\" width=\"430\" height=\"27\" rx=\"5\" fill=\"#065f46\" opacity=\"0.35\"/>\n            <text x=\"30\" y=\"48\" fill=\"#6ee7b7\" font-size=\"10\" font-weight=\"bold\">A — Lisossomos</text>\n            <text x=\"400\" y=\"48\" fill=\"#34d399\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">✓</text>\n\n            <text x=\"30\" y=\"75\" fill=\"#e2e8f0\" font-size=\"10\">B — Ribossomos</text>\n            <text x=\"400\" y=\"75\" fill=\"#f87171\" font-size=\"12\" text-anchor=\"middle\">✕</text>\n\n            <text x=\"30\" y=\"101\" fill=\"#e2e8f0\" font-size=\"10\">C — Mitocôndrias</text>\n            <text x=\"400\" y=\"101\" fill=\"#f87171\" font-size=\"12\" text-anchor=\"middle\">✕</text>\n\n            <text x=\"30\" y=\"127\" fill=\"#e2e8f0\" font-size=\"10\">D — Peroxissomos</text>\n            <text x=\"400\" y=\"127\" fill=\"#f87171\" font-size=\"12\" text-anchor=\"middle\">✕</text>\n\n            <text x=\"30\" y=\"153\" fill=\"#e2e8f0\" font-size=\"10\">E — Retículo endoplasmático liso</text>\n            <text x=\"400\" y=\"153\" fill=\"#f87171\" font-size=\"12\" text-anchor=\"middle\">✕</text>\n          </svg>"
+  }
+],
 
     /* ------------------------------------------------------------------
        4. LABORATÓRIO INTERATIVO DEDICADO
@@ -8966,85 +8906,27 @@ const questaoDatabase = [
        4. GALERIA (4 diagramas SVG)
        ------------------------------------------------------------------ */
     galeria: [
-      {
-        titulo: "Regra do sinal: força sobre carga negativa é oposta a E",
-        legenda: "F = qE. Com q negativo, o vetor força aponta no sentido contrário ao do campo elétrico.",
-        svg: `
-          <svg viewBox="0 0 460 150" class="w-full h-auto">
-            <text x="115" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Carga POSITIVA</text>
-            <line x1="115" y1="40" x2="115" y2="90" stroke="#38bdf8" stroke-width="2.5"/><polygon points="115,40 110,50 120,50" fill="#38bdf8"/>
-            <text x="140" y="65" fill="#7dd3fc" font-size="10" font-weight="bold">E</text>
-            <circle cx="115" cy="110" r="12" fill="#f87171"/><text x="115" y="115" fill="white" font-size="12" font-weight="bold" text-anchor="middle">+</text>
-            <line x1="115" y1="95" x2="115" y2="65" stroke="#fbbf24" stroke-width="2" stroke-dasharray="3,2"/>
-            <text x="90" y="70" fill="#fde68a" font-size="8" text-anchor="middle">F (mesmo sentido)</text>
-
-            <text x="345" y="16" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Carga NEGATIVA (elétron)</text>
-            <line x1="345" y1="40" x2="345" y2="90" stroke="#38bdf8" stroke-width="2.5"/><polygon points="345,40 340,50 350,50" fill="#38bdf8"/>
-            <text x="370" y="65" fill="#7dd3fc" font-size="10" font-weight="bold">E</text>
-            <circle cx="345" cy="60" r="12" fill="#fbbf24"/><text x="345" y="65" fill="#78350f" font-size="12" font-weight="bold" text-anchor="middle">−</text>
-            <line x1="345" y1="75" x2="345" y2="105" stroke="#f87171" stroke-width="2" stroke-dasharray="3,2"/>
-            <polygon points="345,110 340,100 350,100" fill="#f87171"/>
-            <text x="380" y="105" fill="#fca5a5" font-size="8" text-anchor="middle">F (sentido oposto)</text>
-          </svg>`
-      },
-      {
-        titulo: "Trajetória do elétron na região B",
-        legenda: "Velocidade horizontal constante + força vertical para baixo = trajetória curva descendente (análoga a um lançamento horizontal).",
-        svg: `
-          <svg viewBox="0 0 460 150" class="w-full h-auto">
-            <line x1="40" y1="20" x2="40" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="40,20 36,28 44,28" fill="#38bdf8"/>
-            <line x1="110" y1="20" x2="110" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="110,20 106,28 114,28" fill="#38bdf8"/>
-            <line x1="180" y1="20" x2="180" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="180,20 176,28 184,28" fill="#38bdf8"/>
-            <line x1="250" y1="20" x2="250" y2="120" stroke="#38bdf8" stroke-width="1.5"/><polygon points="250,20 246,28 254,28" fill="#38bdf8"/>
-            <line x1="20" y1="60" x2="300" y2="60" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
-            <text x="10" y="64" fill="#64748b" font-size="7" text-anchor="end">reta</text>
-            <path d="M 20 60 Q 150 65 300 110" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
-            <circle cx="20" cy="60" r="8" fill="#fbbf24"/><text x="20" y="64" fill="#78350f" font-size="9" font-weight="bold" text-anchor="middle">−</text>
-            <text x="330" y="115" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">desvio para baixo</text>
-          </svg>`
-      },
-      {
-        titulo: "Mapa dos pontos na tela",
-        legenda: "3 é a linha central (sem desvio); 1 e 4 estão acima (desvio para cima); 2 está abaixo (desvio para baixo) — o resultado correto.",
-        svg: `
-          <svg viewBox="0 0 300 200" class="w-full h-auto">
-            <line x1="20" y1="100" x2="260" y2="100" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
-            <text x="10" y="104" fill="#64748b" font-size="7" text-anchor="end">B</text>
-
-            <circle cx="260" cy="30" r="8" fill="#334155"/><text x="260" y="34" fill="#cbd5e1" font-size="9" font-weight="bold" text-anchor="middle">1</text>
-            <text x="260" y="16" fill="#94a3b8" font-size="7" text-anchor="middle">↑↑ desvio forte p/ cima</text>
-
-            <circle cx="260" cy="60" r="8" fill="#334155"/><text x="260" y="64" fill="#cbd5e1" font-size="9" font-weight="bold" text-anchor="middle">4</text>
-            <text x="260" y="76" fill="#94a3b8" font-size="7" text-anchor="middle">↑ desvio p/ cima</text>
-
-            <circle cx="260" cy="100" r="9" fill="#334155" stroke="#64748b"/><text x="260" y="104" fill="#cbd5e1" font-size="10" font-weight="bold" text-anchor="middle">3</text>
-            <text x="200" y="118" fill="#94a3b8" font-size="7" text-anchor="middle">linha central (sem campo)</text>
-
-            <circle cx="260" cy="140" r="11" fill="#166534" stroke="#4ade80" stroke-width="2"/><text x="260" y="145" fill="#bbf7d0" font-size="11" font-weight="bold" text-anchor="middle">2</text>
-            <text x="260" y="160" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">✓ resposta correta</text>
-
-            <circle cx="260" cy="90" r="0" fill="none"/>
-          </svg>`
-      },
-      {
-        titulo: "Analogia: elétron em campo E ↔ projétil na gravidade",
-        legenda: "Assim como a gravidade curva a trajetória de um projétil lançado horizontalmente, a força elétrica curva a trajetória do elétron.",
-        svg: `
-          <svg viewBox="0 0 460 140" class="w-full h-auto">
-            <rect x="10" y="10" width="210" height="120" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
-            <text x="115" y="30" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Projétil sob gravidade</text>
-            <path d="M 30 50 Q 100 55 200 110" fill="none" stroke="#94a3b8" stroke-width="2"/>
-            <circle cx="30" cy="50" r="6" fill="#94a3b8"/>
-            <text x="115" y="120" fill="#94a3b8" font-size="7" text-anchor="middle">força peso, sempre para baixo</text>
-
-            <rect x="240" y="10" width="210" height="120" rx="6" fill="#312e81" stroke="#a5b4fc" stroke-width="1.5"/>
-            <text x="345" y="30" fill="#e0e7ff" font-size="9" font-weight="bold" text-anchor="middle">Elétron no campo E</text>
-            <path d="M 260 50 Q 330 55 430 110" fill="none" stroke="#fbbf24" stroke-width="2"/>
-            <circle cx="260" cy="50" r="6" fill="#fbbf24"/>
-            <text x="345" y="120" fill="#e0e7ff" font-size="7" text-anchor="middle">força elétrica, oposta a E (E aponta p/ cima)</text>
-          </svg>`
-      }
-    ],
+  {
+    "titulo": "Regra do sinal: força sobre carga negativa é oposta a E",
+    "legenda": "F = qE. Com q negativo, o vetor força aponta no sentido contrário ao do campo elétrico.",
+    "svg": "\n          <svg viewBox=\"0 0 460 150\" class=\"w-full h-auto\">\n            <rect x=\"0\" y=\"0\" width=\"460\" height=\"150\" fill=\"#0f172a\"/>\n            <text x=\"115\" y=\"16\" fill=\"#94a3b8\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">Carga POSITIVA</text>\n            <line x1=\"115\" y1=\"40\" x2=\"115\" y2=\"90\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><polygon points=\"115,40 110,50 120,50\" fill=\"#38bdf8\"/>\n            <text x=\"140\" y=\"65\" fill=\"#7dd3fc\" font-size=\"10\" font-weight=\"bold\">E</text>\n            <circle cx=\"115\" cy=\"110\" r=\"12\" fill=\"#f87171\"/><text x=\"115\" y=\"115\" fill=\"white\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">+</text>\n            <line x1=\"115\" y1=\"95\" x2=\"115\" y2=\"65\" stroke=\"#fbbf24\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/>\n            <text x=\"90\" y=\"70\" fill=\"#fde68a\" font-size=\"8\" text-anchor=\"middle\">F (mesmo sentido)</text>\n\n            <text x=\"345\" y=\"16\" fill=\"#94a3b8\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">Carga NEGATIVA (elétron)</text>\n            <line x1=\"345\" y1=\"40\" x2=\"345\" y2=\"90\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><polygon points=\"345,40 340,50 350,50\" fill=\"#38bdf8\"/>\n            <text x=\"370\" y=\"65\" fill=\"#7dd3fc\" font-size=\"10\" font-weight=\"bold\">E</text>\n            <circle cx=\"345\" cy=\"60\" r=\"12\" fill=\"#fbbf24\"/><text x=\"345\" y=\"65\" fill=\"#78350f\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">−</text>\n            <line x1=\"345\" y1=\"75\" x2=\"345\" y2=\"105\" stroke=\"#f87171\" stroke-width=\"2\" stroke-dasharray=\"3,2\"/>\n            <polygon points=\"345,110 340,100 350,100\" fill=\"#f87171\"/>\n            <text x=\"380\" y=\"105\" fill=\"#fca5a5\" font-size=\"8\" text-anchor=\"middle\">F (sentido oposto)</text>\n          </svg>"
+  },
+  {
+    "titulo": "Trajetória do elétron na região B",
+    "legenda": "Velocidade horizontal constante + força vertical para baixo = trajetória curva descendente (análoga a um lançamento horizontal).",
+    "svg": "\n          <svg viewBox=\"0 0 460 150\" class=\"w-full h-auto\">\n            <line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"120\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><polygon points=\"40,20 36,28 44,28\" fill=\"#38bdf8\"/>\n            <line x1=\"110\" y1=\"20\" x2=\"110\" y2=\"120\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><polygon points=\"110,20 106,28 114,28\" fill=\"#38bdf8\"/>\n            <line x1=\"180\" y1=\"20\" x2=\"180\" y2=\"120\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><polygon points=\"180,20 176,28 184,28\" fill=\"#38bdf8\"/>\n            <line x1=\"250\" y1=\"20\" x2=\"250\" y2=\"120\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/><polygon points=\"250,20 246,28 254,28\" fill=\"#38bdf8\"/>\n            <line x1=\"20\" y1=\"60\" x2=\"300\" y2=\"60\" stroke=\"#64748b\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/>\n            <text x=\"10\" y=\"64\" fill=\"#64748b\" font-size=\"7\" text-anchor=\"end\">reta</text>\n            <path d=\"M 20 60 Q 150 65 300 110\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2.5\"/>\n            <circle cx=\"20\" cy=\"60\" r=\"8\" fill=\"#fbbf24\"/><text x=\"20\" y=\"64\" fill=\"#78350f\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">−</text>\n            <text x=\"330\" y=\"115\" fill=\"#fde68a\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">desvio para baixo</text>\n          </svg>"
+  },
+  {
+    "titulo": "Mapa dos pontos na tela",
+    "legenda": "3 é a linha central (sem desvio); 1 e 4 estão acima (desvio para cima); 2 está abaixo (desvio para baixo) — o resultado correto.",
+    "svg": "\n          <svg viewBox=\"0 0 300 200\" class=\"w-full h-auto\">\n            <line x1=\"20\" y1=\"100\" x2=\"260\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"1\" stroke-dasharray=\"3,3\"/>\n            <text x=\"10\" y=\"104\" fill=\"#64748b\" font-size=\"7\" text-anchor=\"end\">B</text>\n\n            <circle cx=\"260\" cy=\"30\" r=\"8\" fill=\"#334155\"/><text x=\"260\" y=\"34\" fill=\"#cbd5e1\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">1</text>\n            <text x=\"260\" y=\"16\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">↑↑ desvio forte p/ cima</text>\n\n            <circle cx=\"260\" cy=\"60\" r=\"8\" fill=\"#334155\"/><text x=\"260\" y=\"64\" fill=\"#cbd5e1\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">4</text>\n            <text x=\"260\" y=\"76\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">↑ desvio p/ cima</text>\n\n            <circle cx=\"260\" cy=\"100\" r=\"9\" fill=\"#334155\" stroke=\"#64748b\"/><text x=\"260\" y=\"104\" fill=\"#cbd5e1\" font-size=\"10\" font-weight=\"bold\" text-anchor=\"middle\">3</text>\n            <text x=\"200\" y=\"118\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">linha central (sem campo)</text>\n\n            <circle cx=\"260\" cy=\"140\" r=\"11\" fill=\"#166534\" stroke=\"#4ade80\" stroke-width=\"2\"/><text x=\"260\" y=\"145\" fill=\"#bbf7d0\" font-size=\"11\" font-weight=\"bold\" text-anchor=\"middle\">2</text>\n            <text x=\"260\" y=\"160\" fill=\"#6ee7b7\" font-size=\"8\" font-weight=\"bold\" text-anchor=\"middle\">✓ resposta correta</text>\n\n            <circle cx=\"260\" cy=\"90\" r=\"0\" fill=\"none\"/>\n          </svg>"
+  },
+  {
+    "titulo": "Analogia: elétron em campo E ↔ projétil na gravidade",
+    "legenda": "Assim como a gravidade curva a trajetória de um projétil lançado horizontalmente, a força elétrica curva a trajetória do elétron.",
+    "svg": "\n          <svg viewBox=\"0 0 460 140\" class=\"w-full h-auto\">\n            <rect x=\"10\" y=\"10\" width=\"210\" height=\"120\" rx=\"6\" fill=\"#1e293b\" stroke=\"#475569\" stroke-width=\"1.5\"/>\n            <text x=\"115\" y=\"30\" fill=\"#e2e8f0\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">Projétil sob gravidade</text>\n            <path d=\"M 30 50 Q 100 55 200 110\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n            <circle cx=\"30\" cy=\"50\" r=\"6\" fill=\"#94a3b8\"/>\n            <text x=\"115\" y=\"120\" fill=\"#94a3b8\" font-size=\"7\" text-anchor=\"middle\">força peso, sempre para baixo</text>\n\n            <rect x=\"240\" y=\"10\" width=\"210\" height=\"120\" rx=\"6\" fill=\"#312e81\" stroke=\"#a5b4fc\" stroke-width=\"1.5\"/>\n            <text x=\"345\" y=\"30\" fill=\"#e0e7ff\" font-size=\"9\" font-weight=\"bold\" text-anchor=\"middle\">Elétron no campo E</text>\n            <path d=\"M 260 50 Q 330 55 430 110\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2\"/>\n            <circle cx=\"260\" cy=\"50\" r=\"6\" fill=\"#fbbf24\"/>\n            <text x=\"345\" y=\"120\" fill=\"#e0e7ff\" font-size=\"7\" text-anchor=\"middle\">força elétrica, oposta a E (E aponta p/ cima)</text>\n          </svg>"
+  }
+],
 
     /* ------------------------------------------------------------------
        5. SIMULADOR
@@ -30151,184 +30033,24 @@ const questaoDatabase = [
   "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3\">\n          Obras de arte contemporânea que usam feridas, cortes ou rupturas sobre elementos de herança colonial costumam construir uma crítica visual à violência desse processo histórico.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-lime-400\">1.</span> O azulejo como símbolo da herança colonial portuguesa</h4>\n          <p>\n            O azulejo decorativo é um elemento fortemente associado à arquitetura colonial portuguesa no Brasil — igrejas, casarões, fachadas. Usá-lo como base de uma obra de arte contemporânea já é, em si, uma referência direta a essa herança histórica.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-lime-400\">2.</span> Ruptura visual como crítica</h4>\n          <p>\n            Quando um artista rompe, corta ou fere visualmente um símbolo de tradição (aqui, fazendo emergir uma massa vermelha, como carne viva, de dentro do painel de azulejos), o efeito visual sugere uma ferida por trás da fachada decorativa — uma crítica ao que essa tradição esconde ou encobre.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-lime-400\">3.</span> Associando forma e conteúdo histórico</h4>\n          <p>\n            Adriana Varejão usa corte, sutura e ruína como marca recorrente de seu trabalho desde 1992, sempre \"colocando em pauta o exame da história visual\" — ou seja, a técnica não é apenas estética, ela carrega, propositalmente, uma crítica ao processo colonial brasileiro.\n          </p>\n        </div>\n\n      </div>\n    ",
   "galeria": [
   {
-    titulo: "A Obra: Azulejaria em Carne Viva",
-    descricao: "Reconstrução do painel de Adriana Varejão (1999): sob a grade de azulejos portugueses, uma massa vermelha e rasgada — carne viva — rompe a superfície decorativa, como uma ferida que a fachada colonial tentava esconder.",
-    svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
-      <defs>
-        <pattern id="q023azulejo" width="40" height="40" patternUnits="userSpaceOnUse">
-          <rect width="40" height="40" fill="#eff6ff"/>
-          <path d="M20 5 L35 20 L20 35 L5 20 Z" fill="none" stroke="#1d4ed8" stroke-width="2"/>
-          <circle cx="20" cy="20" r="3.5" fill="#1d4ed8"/>
-        </pattern>
-        <radialGradient id="q023carne" cx="45%" cy="40%" r="70%">
-          <stop offset="0%" stop-color="#f87171"/>
-          <stop offset="55%" stop-color="#dc2626"/>
-          <stop offset="100%" stop-color="#7f1d1d"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="400" height="260" fill="#0f172a"/>
-      <text x="200" y="20" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold">"Azulejaria em Carne Viva" (1999)</text>
-
-      <!-- painel de azulejos -->
-      <rect x="50" y="34" width="300" height="176" fill="url(#q023azulejo)" stroke="#334155" stroke-width="3"/>
-
-      <!-- rachaduras que se espalham a partir da ferida -->
-      <g stroke="#0f172a" stroke-width="2.5" fill="none" opacity="0.85">
-        <path d="M195 90 L175 70 L182 55"/>
-        <path d="M235 88 L255 66 L248 50"/>
-        <path d="M190 150 L165 165 L170 185"/>
-        <path d="M240 152 L265 168 L258 190"/>
-      </g>
-
-      <!-- massa de carne viva rasgando o painel -->
-      <path d="M170 78
-               C 158 70, 165 55, 185 58
-               C 200 45, 225 46, 235 60
-               C 252 58, 262 75, 250 90
-               C 262 105, 255 125, 238 128
-               C 245 148, 230 168, 210 162
-               C 200 178, 178 175, 172 158
-               C 155 155, 150 135, 162 120
-               C 150 108, 155 88, 170 78 Z"
-            fill="url(#q023carne)" stroke="#450a0a" stroke-width="2.5"/>
-      <path d="M185 90 Q205 82 222 96 Q210 108 195 104 Q182 100 185 90 Z" fill="#fca5a5" opacity="0.55"/>
-
-      <text x="200" y="228" text-anchor="middle" fill="#a3e635" font-size="10.5" font-weight="bold">Óleo, poliuretano, madeira e alumínio · 160 × 200 × 25 cm</text>
-      <text x="200" y="244" text-anchor="middle" fill="#94a3b8" font-size="9.5">A decoração portuguesa é rasgada por uma ferida tridimensional</text>
-    </svg>`
+    "titulo": "A Obra: Azulejaria em Carne Viva",
+    "descricao": "Reconstrução do painel de Adriana Varejão (1999): sob a grade de azulejos portugueses, uma massa vermelha e rasgada — carne viva — rompe a superfície decorativa, como uma ferida que a fachada colonial tentava esconder.",
+    "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Verdana, Arial, sans-serif\">\n      <defs>\n        <pattern id=\"q023azulejo\" width=\"40\" height=\"40\" patternUnits=\"userSpaceOnUse\">\n          <rect width=\"40\" height=\"40\" fill=\"#0b1120\"/>\n          <path d=\"M20 5 L35 20 L20 35 L5 20 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"2\"/>\n          <circle cx=\"20\" cy=\"20\" r=\"3.5\" fill=\"#3b82f6\"/>\n        </pattern>\n        <radialGradient id=\"q023carne\" cx=\"45%\" cy=\"40%\" r=\"70%\">\n          <stop offset=\"0%\" stop-color=\"#f87171\"/>\n          <stop offset=\"55%\" stop-color=\"#dc2626\"/>\n          <stop offset=\"100%\" stop-color=\"#7f1d1d\"/>\n        </radialGradient>\n      </defs>\n      <rect x=\"0\" y=\"0\" width=\"400\" height=\"260\" fill=\"#0f172a\"/>\n      <text x=\"200\" y=\"20\" text-anchor=\"middle\" fill=\"#f1f5f9\" font-size=\"13\" font-weight=\"bold\">\"Azulejaria em Carne Viva\" (1999)</text>\n\n      <!-- painel de azulejos -->\n      <rect x=\"50\" y=\"34\" width=\"300\" height=\"176\" fill=\"url(#q023azulejo)\" stroke=\"#334155\" stroke-width=\"3\"/>\n\n      <!-- rachaduras que se espalham a partir da ferida -->\n      <g stroke=\"#94a3b8\" stroke-width=\"2.5\" fill=\"none\" opacity=\"0.85\">\n        <path d=\"M195 90 L175 70 L182 55\"/>\n        <path d=\"M235 88 L255 66 L248 50\"/>\n        <path d=\"M190 150 L165 165 L170 185\"/>\n        <path d=\"M240 152 L265 168 L258 190\"/>\n      </g>\n\n      <!-- massa de carne viva rasgando o painel -->\n      <path d=\"M170 78\n               C 158 70, 165 55, 185 58\n               C 200 45, 225 46, 235 60\n               C 252 58, 262 75, 250 90\n               C 262 105, 255 125, 238 128\n               C 245 148, 230 168, 210 162\n               C 200 178, 178 175, 172 158\n               C 155 155, 150 135, 162 120\n               C 150 108, 155 88, 170 78 Z\"\n            fill=\"url(#q023carne)\" stroke=\"#450a0a\" stroke-width=\"2.5\"/>\n      <path d=\"M185 90 Q205 82 222 96 Q210 108 195 104 Q182 100 185 90 Z\" fill=\"#fca5a5\" opacity=\"0.55\"/>\n\n      <text x=\"200\" y=\"228\" text-anchor=\"middle\" fill=\"#a3e635\" font-size=\"10.5\" font-weight=\"bold\">Óleo, poliuretano, madeira e alumínio · 160 × 200 × 25 cm</text>\n      <text x=\"200\" y=\"244\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"9.5\">A decoração portuguesa é rasgada por uma ferida tridimensional</text>\n    </svg>"
   },
   {
-    titulo: "Camadas de Sentido: o que a Decoração Esconde",
-    descricao: "Lida como um corte transversal, a obra revela três camadas de significado: a fachada decorativa herdada de Portugal, o gesto de ruptura recorrente na obra da artista e, por baixo de tudo, a violência colonial que a beleza do azulejo tentava encobrir.",
-    svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
-      <defs>
-        <pattern id="q023azulejo2" width="26" height="26" patternUnits="userSpaceOnUse">
-          <rect width="26" height="26" fill="#eff6ff"/>
-          <path d="M13 3 L23 13 L13 23 L3 13 Z" fill="none" stroke="#1d4ed8" stroke-width="1.6"/>
-        </pattern>
-        <linearGradient id="q023carne2" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stop-color="#dc2626"/>
-          <stop offset="100%" stop-color="#7f1d1d"/>
-        </linearGradient>
-      </defs>
-      <rect x="0" y="0" width="400" height="260" fill="#0f172a"/>
-      <text x="200" y="20" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold">Corte transversal da obra: 3 camadas</text>
-
-      <!-- camada 1: azulejo -->
-      <rect x="30" y="38" width="230" height="50" fill="url(#q023azulejo2)" stroke="#a3e635" stroke-width="2"/>
-      <text x="270" y="58" fill="#e2e8f0" font-size="10.5" font-weight="bold">Superfície decorativa</text>
-      <text x="270" y="72" fill="#94a3b8" font-size="9.5">herança portuguesa, a "fachada"</text>
-
-      <!-- camada 2: corte/sutura -->
-      <rect x="30" y="96" width="230" height="34" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
-      <path d="M40 113 L70 105 L95 120 L125 106 L155 118 L185 104 L215 116 L250 108" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
-      <text x="270" y="108" fill="#fde68a" font-size="10.5" font-weight="bold">Corte / sutura</text>
-      <text x="270" y="122" fill="#94a3b8" font-size="9.5">marca recorrente desde 1992</text>
-
-      <!-- camada 3: carne viva -->
-      <rect x="30" y="138" width="230" height="64" fill="url(#q023carne2)" stroke="#f87171" stroke-width="2"/>
-      <text x="270" y="162" fill="#fecaca" font-size="10.5" font-weight="bold">Carne viva</text>
-      <text x="270" y="176" fill="#fca5a5" font-size="9.5">violência física e simbólica</text>
-      <text x="270" y="190" fill="#fca5a5" font-size="9.5">do processo colonial</text>
-
-      <!-- seta indicando que a ferida sobe e rompe a superficie -->
-      <path d="M145 195 L145 92" stroke="#a3e635" stroke-width="2" stroke-dasharray="5 4" fill="none" marker-end="url(#q023arrow)"/>
-      <defs>
-        <marker id="q023arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
-          <path d="M0,0 L10,5 L0,10 Z" fill="#a3e635"/>
-        </marker>
-      </defs>
-      <text x="200" y="232" text-anchor="middle" fill="#a3e635" font-size="10" font-weight="bold">A ferida sobe e rasga a decoração:</text>
-      <text x="200" y="246" text-anchor="middle" fill="#a3e635" font-size="10" font-weight="bold">o que a fachada colonial tentava esconder vem à tona</text>
-    </svg>`
+    "titulo": "Camadas de Sentido: o que a Decoração Esconde",
+    "descricao": "Lida como um corte transversal, a obra revela três camadas de significado: a fachada decorativa herdada de Portugal, o gesto de ruptura recorrente na obra da artista e, por baixo de tudo, a violência colonial que a beleza do azulejo tentava encobrir.",
+    "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Verdana, Arial, sans-serif\">\n      <defs>\n        <pattern id=\"q023azulejo2\" width=\"26\" height=\"26\" patternUnits=\"userSpaceOnUse\">\n          <rect width=\"26\" height=\"26\" fill=\"#0b1120\"/>\n          <path d=\"M13 3 L23 13 L13 23 L3 13 Z\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"1.6\"/>\n        </pattern>\n        <linearGradient id=\"q023carne2\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n          <stop offset=\"0%\" stop-color=\"#dc2626\"/>\n          <stop offset=\"100%\" stop-color=\"#7f1d1d\"/>\n        </linearGradient>\n      </defs>\n      <rect x=\"0\" y=\"0\" width=\"400\" height=\"260\" fill=\"#0f172a\"/>\n      <text x=\"200\" y=\"20\" text-anchor=\"middle\" fill=\"#f1f5f9\" font-size=\"13\" font-weight=\"bold\">Corte transversal da obra: 3 camadas</text>\n\n      <!-- camada 1: azulejo -->\n      <rect x=\"30\" y=\"38\" width=\"230\" height=\"50\" fill=\"url(#q023azulejo2)\" stroke=\"#a3e635\" stroke-width=\"2\"/>\n      <text x=\"270\" y=\"58\" fill=\"#e2e8f0\" font-size=\"10.5\" font-weight=\"bold\">Superfície decorativa</text>\n      <text x=\"270\" y=\"72\" fill=\"#94a3b8\" font-size=\"9.5\">herança portuguesa, a \"fachada\"</text>\n\n      <!-- camada 2: corte/sutura -->\n      <rect x=\"30\" y=\"96\" width=\"230\" height=\"34\" fill=\"#1e293b\" stroke=\"#fbbf24\" stroke-width=\"2\"/>\n      <path d=\"M40 113 L70 105 L95 120 L125 106 L155 118 L185 104 L215 116 L250 108\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"2.5\"/>\n      <text x=\"270\" y=\"108\" fill=\"#fde68a\" font-size=\"10.5\" font-weight=\"bold\">Corte / sutura</text>\n      <text x=\"270\" y=\"122\" fill=\"#94a3b8\" font-size=\"9.5\">marca recorrente desde 1992</text>\n\n      <!-- camada 3: carne viva -->\n      <rect x=\"30\" y=\"138\" width=\"230\" height=\"64\" fill=\"url(#q023carne2)\" stroke=\"#f87171\" stroke-width=\"2\"/>\n      <text x=\"270\" y=\"162\" fill=\"#fecaca\" font-size=\"10.5\" font-weight=\"bold\">Carne viva</text>\n      <text x=\"270\" y=\"176\" fill=\"#fca5a5\" font-size=\"9.5\">violência física e simbólica</text>\n      <text x=\"270\" y=\"190\" fill=\"#fca5a5\" font-size=\"9.5\">do processo colonial</text>\n\n      <!-- seta indicando que a ferida sobe e rompe a superficie -->\n      <path d=\"M145 195 L145 92\" stroke=\"#a3e635\" stroke-width=\"2\" stroke-dasharray=\"5 4\" fill=\"none\" marker-end=\"url(#q023arrow)\"/>\n      <defs>\n        <marker id=\"q023arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"5\" refY=\"5\" orient=\"auto\">\n          <path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#a3e635\"/>\n        </marker>\n      </defs>\n      <text x=\"200\" y=\"232\" text-anchor=\"middle\" fill=\"#a3e635\" font-size=\"10\" font-weight=\"bold\">A ferida sobe e rasga a decoração:</text>\n      <text x=\"200\" y=\"246\" text-anchor=\"middle\" fill=\"#a3e635\" font-size=\"10\" font-weight=\"bold\">o que a fachada colonial tentava esconder vem à tona</text>\n    </svg>"
   },
   {
-    titulo: "Trajetória de Varejão: Rupturas Visuais desde 1992",
-    descricao: "Cortes, rachaduras e talhos não são um gesto isolado: são um vocabulário que a artista desenvolve ao longo da carreira para examinar a história visual e as tradições iconográficas europeias herdadas pelo Brasil.",
-    svg: `<svg viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
-      <rect x="0" y="0" width="400" height="250" fill="#0f172a"/>
-      <text x="200" y="22" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="bold">Uma poética do corte e da ruptura</text>
-
-      <line x1="45" y1="140" x2="355" y2="140" stroke="#475569" stroke-width="2.5"/>
-
-      <!-- 1992 -->
-      <circle cx="70" cy="140" r="9" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
-      <text x="70" y="118" text-anchor="middle" fill="#94a3b8" font-size="10.5" font-weight="bold">1992</text>
-      <text x="70" y="168" text-anchor="middle" fill="#cbd5e1" font-size="9">início dos cortes,</text>
-      <text x="70" y="180" text-anchor="middle" fill="#cbd5e1" font-size="9">rachaduras e talhos</text>
-
-      <!-- 1999 destaque -->
-      <circle cx="200" cy="140" r="13" fill="#dc2626" stroke="#f87171" stroke-width="2.5"/>
-      <text x="200" y="108" text-anchor="middle" fill="#f87171" font-size="11" font-weight="bold">1999</text>
-      <rect x="130" y="158" width="140" height="46" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
-      <text x="200" y="174" text-anchor="middle" fill="#fecaca" font-size="9.5" font-weight="bold">Azulejaria em carne viva</text>
-      <text x="200" y="187" text-anchor="middle" fill="#fca5a5" font-size="8.5">azulejo colonial + ferida</text>
-      <text x="200" y="198" text-anchor="middle" fill="#fca5a5" font-size="8.5">3D: tela, poliuretano, madeira</text>
-
-      <!-- recente -->
-      <circle cx="330" cy="140" r="9" fill="#334155" stroke="#a3e635" stroke-width="2"/>
-      <text x="330" y="118" text-anchor="middle" fill="#a3e635" font-size="10.5" font-weight="bold">recente</text>
-      <text x="330" y="168" text-anchor="middle" fill="#cbd5e1" font-size="9">"Ruínas de charque"</text>
-      <text x="330" y="180" text-anchor="middle" fill="#cbd5e1" font-size="9">e "Línguas": pinturas</text>
-      <text x="330" y="192" text-anchor="middle" fill="#cbd5e1" font-size="9">3D de grande escala</text>
-
-      <text x="200" y="228" text-anchor="middle" fill="#94a3b8" font-size="9.5">Mesma pergunta ao longo de 30+ anos: o que a história visual esconde sob a superfície?</text>
-    </svg>`
+    "titulo": "Trajetória de Varejão: Rupturas Visuais desde 1992",
+    "descricao": "Cortes, rachaduras e talhos não são um gesto isolado: são um vocabulário que a artista desenvolve ao longo da carreira para examinar a história visual e as tradições iconográficas europeias herdadas pelo Brasil.",
+    "svg": "<svg viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Verdana, Arial, sans-serif\">\n      <rect x=\"0\" y=\"0\" width=\"400\" height=\"250\" fill=\"#0f172a\"/>\n      <text x=\"200\" y=\"22\" text-anchor=\"middle\" fill=\"#f1f5f9\" font-size=\"13\" font-weight=\"bold\">Uma poética do corte e da ruptura</text>\n\n      <line x1=\"45\" y1=\"140\" x2=\"355\" y2=\"140\" stroke=\"#475569\" stroke-width=\"2.5\"/>\n\n      <!-- 1992 -->\n      <circle cx=\"70\" cy=\"140\" r=\"9\" fill=\"#334155\" stroke=\"#94a3b8\" stroke-width=\"2\"/>\n      <text x=\"70\" y=\"118\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"10.5\" font-weight=\"bold\">1992</text>\n      <text x=\"70\" y=\"168\" text-anchor=\"middle\" fill=\"#cbd5e1\" font-size=\"9\">início dos cortes,</text>\n      <text x=\"70\" y=\"180\" text-anchor=\"middle\" fill=\"#cbd5e1\" font-size=\"9\">rachaduras e talhos</text>\n\n      <!-- 1999 destaque -->\n      <circle cx=\"200\" cy=\"140\" r=\"13\" fill=\"#dc2626\" stroke=\"#f87171\" stroke-width=\"2.5\"/>\n      <text x=\"200\" y=\"108\" text-anchor=\"middle\" fill=\"#f87171\" font-size=\"11\" font-weight=\"bold\">1999</text>\n      <rect x=\"130\" y=\"158\" width=\"140\" height=\"46\" rx=\"6\" fill=\"#450a0a\" stroke=\"#f87171\" stroke-width=\"1.5\"/>\n      <text x=\"200\" y=\"174\" text-anchor=\"middle\" fill=\"#fecaca\" font-size=\"9.5\" font-weight=\"bold\">Azulejaria em carne viva</text>\n      <text x=\"200\" y=\"187\" text-anchor=\"middle\" fill=\"#fca5a5\" font-size=\"8.5\">azulejo colonial + ferida</text>\n      <text x=\"200\" y=\"198\" text-anchor=\"middle\" fill=\"#fca5a5\" font-size=\"8.5\">3D: tela, poliuretano, madeira</text>\n\n      <!-- recente -->\n      <circle cx=\"330\" cy=\"140\" r=\"9\" fill=\"#334155\" stroke=\"#a3e635\" stroke-width=\"2\"/>\n      <text x=\"330\" y=\"118\" text-anchor=\"middle\" fill=\"#a3e635\" font-size=\"10.5\" font-weight=\"bold\">recente</text>\n      <text x=\"330\" y=\"168\" text-anchor=\"middle\" fill=\"#cbd5e1\" font-size=\"9\">\"Ruínas de charque\"</text>\n      <text x=\"330\" y=\"180\" text-anchor=\"middle\" fill=\"#cbd5e1\" font-size=\"9\">e \"Línguas\": pinturas</text>\n      <text x=\"330\" y=\"192\" text-anchor=\"middle\" fill=\"#cbd5e1\" font-size=\"9\">3D de grande escala</text>\n\n      <text x=\"200\" y=\"228\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"9.5\">Mesma pergunta ao longo de 30+ anos: o que a história visual esconde sob a superfície?</text>\n    </svg>"
   },
   {
-    titulo: "As 5 Alternativas, Lado a Lado",
-    descricao: "Comparando as opções, apenas a alternativa C nomeia o que a obra de fato encena: uma ferida — violência — irrompendo de dentro de um símbolo da herança colonial portuguesa.",
-    svg: `<svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" font-family="Verdana, Arial, sans-serif">
-      <rect x="0" y="0" width="400" height="270" fill="#0f172a"/>
-      <text x="200" y="20" text-anchor="middle" fill="#f1f5f9" font-size="12.5" font-weight="bold">"...remete à(s)..."</text>
-
-      <!-- A -->
-      <g>
-        <circle cx="30" cy="46" r="13" fill="#334155"/>
-        <text x="30" y="50" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">A</text>
-        <text x="52" y="42" fill="#cbd5e1" font-size="9.5">sobreposição da cultura brasileira</text>
-        <text x="52" y="53" fill="#cbd5e1" font-size="9.5">à cultura portuguesa.</text>
-        <text x="374" y="50" text-anchor="end" fill="#f87171" font-size="13">✗</text>
-      </g>
-      <!-- B -->
-      <g>
-        <circle cx="30" cy="82" r="13" fill="#334155"/>
-        <text x="30" y="86" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">B</text>
-        <text x="52" y="78" fill="#cbd5e1" font-size="9.5">manutenção da representação</text>
-        <text x="52" y="89" fill="#cbd5e1" font-size="9.5">realista na arte brasileira.</text>
-        <text x="374" y="86" text-anchor="end" fill="#f87171" font-size="13">✗</text>
-      </g>
-      <!-- C destaque -->
-      <g>
-        <rect x="14" y="100" width="360" height="46" rx="6" fill="#052e1f" stroke="#34d399" stroke-width="2.5"/>
-        <circle cx="30" cy="123" r="13" fill="#059669"/>
-        <text x="30" y="127" text-anchor="middle" fill="#ecfdf5" font-size="11" font-weight="bold">C</text>
-        <text x="52" y="119" fill="#d1fae5" font-size="9.5" font-weight="bold">violências desencadeadas pelo</text>
-        <text x="52" y="131" fill="#d1fae5" font-size="9.5" font-weight="bold">processo colonial brasileiro.</text>
-        <text x="52" y="142" fill="#6ee7b7" font-size="8.5">= carne viva rasgando o azulejo colonial</text>
-        <text x="374" y="127" text-anchor="end" fill="#34d399" font-size="14" font-weight="bold">✓</text>
-      </g>
-      <!-- D -->
-      <g>
-        <circle cx="30" cy="164" r="13" fill="#334155"/>
-        <text x="30" y="168" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">D</text>
-        <text x="52" y="160" fill="#cbd5e1" font-size="9.5">desigualdades nos incentivos à</text>
-        <text x="52" y="171" fill="#cbd5e1" font-size="9.5">produção artística brasileira.</text>
-        <text x="374" y="168" text-anchor="end" fill="#f87171" font-size="13">✗</text>
-      </g>
-      <!-- E -->
-      <g>
-        <circle cx="30" cy="202" r="13" fill="#334155"/>
-        <text x="30" y="206" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold">E</text>
-        <text x="52" y="196" fill="#cbd5e1" font-size="9.5">negligência na conservação do</text>
-        <text x="52" y="207" fill="#cbd5e1" font-size="9.5">patrimônio arquitetônico</text>
-        <text x="52" y="218" fill="#cbd5e1" font-size="9.5">luso-brasileiro.</text>
-        <text x="374" y="206" text-anchor="end" fill="#f87171" font-size="13">✗</text>
-      </g>
-
-      <text x="200" y="250" text-anchor="middle" fill="#94a3b8" font-size="9">Nenhuma das outras alternativas nomeia a violência que a ferida encena.</text>
-      <text x="200" y="262" text-anchor="middle" fill="#94a3b8" font-size="9">Elas trocam "violência colonial" por temas que o texto não sustenta.</text>
-    </svg>`
+    "titulo": "As 5 Alternativas, Lado a Lado",
+    "descricao": "Comparando as opções, apenas a alternativa C nomeia o que a obra de fato encena: uma ferida — violência — irrompendo de dentro de um símbolo da herança colonial portuguesa.",
+    "svg": "<svg viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Verdana, Arial, sans-serif\">\n      <rect x=\"0\" y=\"0\" width=\"400\" height=\"270\" fill=\"#0f172a\"/>\n      <text x=\"200\" y=\"20\" text-anchor=\"middle\" fill=\"#f1f5f9\" font-size=\"12.5\" font-weight=\"bold\">\"...remete à(s)...\"</text>\n\n      <!-- A -->\n      <g>\n        <circle cx=\"30\" cy=\"46\" r=\"13\" fill=\"#334155\"/>\n        <text x=\"30\" y=\"50\" text-anchor=\"middle\" fill=\"#e2e8f0\" font-size=\"11\" font-weight=\"bold\">A</text>\n        <text x=\"52\" y=\"42\" fill=\"#cbd5e1\" font-size=\"9.5\">sobreposição da cultura brasileira</text>\n        <text x=\"52\" y=\"53\" fill=\"#cbd5e1\" font-size=\"9.5\">à cultura portuguesa.</text>\n        <text x=\"374\" y=\"50\" text-anchor=\"end\" fill=\"#f87171\" font-size=\"13\">✗</text>\n      </g>\n      <!-- B -->\n      <g>\n        <circle cx=\"30\" cy=\"82\" r=\"13\" fill=\"#334155\"/>\n        <text x=\"30\" y=\"86\" text-anchor=\"middle\" fill=\"#e2e8f0\" font-size=\"11\" font-weight=\"bold\">B</text>\n        <text x=\"52\" y=\"78\" fill=\"#cbd5e1\" font-size=\"9.5\">manutenção da representação</text>\n        <text x=\"52\" y=\"89\" fill=\"#cbd5e1\" font-size=\"9.5\">realista na arte brasileira.</text>\n        <text x=\"374\" y=\"86\" text-anchor=\"end\" fill=\"#f87171\" font-size=\"13\">✗</text>\n      </g>\n      <!-- C destaque -->\n      <g>\n        <rect x=\"14\" y=\"100\" width=\"360\" height=\"46\" rx=\"6\" fill=\"#052e1f\" stroke=\"#34d399\" stroke-width=\"2.5\"/>\n        <circle cx=\"30\" cy=\"123\" r=\"13\" fill=\"#059669\"/>\n        <text x=\"30\" y=\"127\" text-anchor=\"middle\" fill=\"#ecfdf5\" font-size=\"11\" font-weight=\"bold\">C</text>\n        <text x=\"52\" y=\"119\" fill=\"#d1fae5\" font-size=\"9.5\" font-weight=\"bold\">violências desencadeadas pelo</text>\n        <text x=\"52\" y=\"131\" fill=\"#d1fae5\" font-size=\"9.5\" font-weight=\"bold\">processo colonial brasileiro.</text>\n        <text x=\"52\" y=\"142\" fill=\"#6ee7b7\" font-size=\"8.5\">= carne viva rasgando o azulejo colonial</text>\n        <text x=\"374\" y=\"127\" text-anchor=\"end\" fill=\"#34d399\" font-size=\"14\" font-weight=\"bold\">✓</text>\n      </g>\n      <!-- D -->\n      <g>\n        <circle cx=\"30\" cy=\"164\" r=\"13\" fill=\"#334155\"/>\n        <text x=\"30\" y=\"168\" text-anchor=\"middle\" fill=\"#e2e8f0\" font-size=\"11\" font-weight=\"bold\">D</text>\n        <text x=\"52\" y=\"160\" fill=\"#cbd5e1\" font-size=\"9.5\">desigualdades nos incentivos à</text>\n        <text x=\"52\" y=\"171\" fill=\"#cbd5e1\" font-size=\"9.5\">produção artística brasileira.</text>\n        <text x=\"374\" y=\"168\" text-anchor=\"end\" fill=\"#f87171\" font-size=\"13\">✗</text>\n      </g>\n      <!-- E -->\n      <g>\n        <circle cx=\"30\" cy=\"202\" r=\"13\" fill=\"#334155\"/>\n        <text x=\"30\" y=\"206\" text-anchor=\"middle\" fill=\"#e2e8f0\" font-size=\"11\" font-weight=\"bold\">E</text>\n        <text x=\"52\" y=\"196\" fill=\"#cbd5e1\" font-size=\"9.5\">negligência na conservação do</text>\n        <text x=\"52\" y=\"207\" fill=\"#cbd5e1\" font-size=\"9.5\">patrimônio arquitetônico</text>\n        <text x=\"52\" y=\"218\" fill=\"#cbd5e1\" font-size=\"9.5\">luso-brasileiro.</text>\n        <text x=\"374\" y=\"206\" text-anchor=\"end\" fill=\"#f87171\" font-size=\"13\">✗</text>\n      </g>\n\n      <text x=\"200\" y=\"250\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"9\">Nenhuma das outras alternativas nomeia a violência que a ferida encena.</text>\n      <text x=\"200\" y=\"262\" text-anchor=\"middle\" fill=\"#94a3b8\" font-size=\"9\">Elas trocam \"violência colonial\" por temas que o texto não sustenta.</text>\n    </svg>"
   }
 ],
   "simulador": {
@@ -35231,131 +34953,27 @@ const questaoDatabase = [
     </div>
   `,
   galeria: [
-    {
-      titulo: "Fala x Escrita",
-      descricao: "Comparação entre as condições de produção da língua falada e da língua escrita.",
-      svg: `<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect x="0" y="0" width="400" height="240" fill="#faf5ff"/>
-        <text x="200" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#4c1d95">Língua Falada x Língua Escrita</text>
-        <rect x="20" y="45" width="170" height="175" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-        <text x="105" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">FALA</text>
-        <text x="105" y="95" text-anchor="middle" font-size="10" fill="#4c1d95">Tempo real</text>
-        <text x="105" y="115" text-anchor="middle" font-size="10" fill="#4c1d95">Hesitações</text>
-        <text x="105" y="135" text-anchor="middle" font-size="10" fill="#4c1d95">Repetições</text>
-        <text x="105" y="155" text-anchor="middle" font-size="10" fill="#4c1d95">Marcadores</text>
-        <text x="105" y="175" text-anchor="middle" font-size="10" fill="#4c1d95">("daí", "né")</text>
-        <text x="105" y="200" text-anchor="middle" font-size="10" fill="#4c1d95">Interlocutor presente</text>
-        <rect x="210" y="45" width="170" height="175" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
-        <text x="295" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">ESCRITA</text>
-        <text x="295" y="95" text-anchor="middle" font-size="10" fill="#334155">Planejada</text>
-        <text x="295" y="115" text-anchor="middle" font-size="10" fill="#334155">Revisável</text>
-        <text x="295" y="135" text-anchor="middle" font-size="10" fill="#334155">Sem repetições</text>
-        <text x="295" y="155" text-anchor="middle" font-size="10" fill="#334155">de marcadores</text>
-        <text x="295" y="175" text-anchor="middle" font-size="10" fill="#334155">Conectivos formais</text>
-        <text x="295" y="200" text-anchor="middle" font-size="10" fill="#334155">Sem interlocutor</text>
-        <path d="M190 130 L210 130" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow1)"/>
-        <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker></defs>
-      </svg>`
-    },
-    {
-      titulo: "O fio da narrativa: cada 'daí' conectando um evento",
-      descricao: "Destaque das ocorrências de 'daí' no texto, com setas mostrando o encadeamento dos eventos narrados.",
-      svg: `<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect x="0" y="0" width="420" height="260" fill="#ffffff"/>
-        <text x="210" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Sequência de eventos ligados por "daí"</text>
-        <circle cx="45" cy="60" r="8" fill="#7c3aed"/>
-        <text x="60" y="64" font-size="10" fill="#334155">Trocaram as bolsas</text>
-        <path d="M45 68 L45 100" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="55" y="90" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="45" cy="110" r="8" fill="#7c3aed"/>
-        <text x="60" y="114" font-size="10" fill="#334155">Ele leva a bolsa errada</text>
-        <path d="M45 118 L45 150" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="55" y="140" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="45" cy="160" r="8" fill="#7c3aed"/>
-        <text x="60" y="164" font-size="10" fill="#334155">Ele pergunta à moça</text>
-        <path d="M45 168 L45 200" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="55" y="190" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="45" cy="210" r="8" fill="#7c3aed"/>
-        <text x="60" y="214" font-size="10" fill="#334155">Diálogo se desenrola</text>
-        <path d="M230 60 L230 100" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="240" y="90" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="230" cy="60" r="8" fill="#7c3aed"/>
-        <text x="245" y="64" font-size="10" fill="#334155">Ele diz "tá, aham"</text>
-        <circle cx="230" cy="110" r="8" fill="#7c3aed"/>
-        <text x="245" y="114" font-size="10" fill="#334155">Pede a entrevista</text>
-        <path d="M230 118 L230 150" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="240" y="140" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="230" cy="160" r="8" fill="#7c3aed"/>
-        <text x="245" y="164" font-size="10" fill="#334155">Ele deixa entrar</text>
-        <path d="M230 168 L230 200" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
-        <text x="240" y="190" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
-        <circle cx="230" cy="210" r="8" fill="#7c3aed"/>
-        <text x="245" y="214" font-size="10" fill="#334155">Mulher sobe e canta</text>
-        <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#7c3aed"/></marker></defs>
-      </svg>`
-    },
-    {
-      titulo: "Marcadores discursivos mais comuns no português falado",
-      descricao: "Gráfico ilustrativo com marcadores discursivos frequentes na oralidade e sua função.",
-      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect x="0" y="0" width="400" height="260" fill="#faf5ff"/>
-        <text x="200" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Marcadores discursivos frequentes</text>
-        <g>
-          <rect x="30" y="40" width="80" height="26" rx="6" fill="#7c3aed"/>
-          <text x="70" y="58" text-anchor="middle" font-size="11" fill="#fff">"daí"</text>
-          <text x="120" y="58" font-size="10" fill="#334155">sequenciar eventos</text>
-        </g>
-        <g>
-          <rect x="30" y="76" width="80" height="26" rx="6" fill="#8b5cf6"/>
-          <text x="70" y="94" text-anchor="middle" font-size="11" fill="#fff">"aí"</text>
-          <text x="120" y="94" font-size="10" fill="#334155">encadear ideias</text>
-        </g>
-        <g>
-          <rect x="30" y="112" width="80" height="26" rx="6" fill="#a78bfa"/>
-          <text x="70" y="130" text-anchor="middle" font-size="11" fill="#fff">"né"</text>
-          <text x="120" y="130" font-size="10" fill="#334155">buscar aprovação</text>
-        </g>
-        <g>
-          <rect x="30" y="148" width="80" height="26" rx="6" fill="#c4b5fd"/>
-          <text x="70" y="166" text-anchor="middle" font-size="11" fill="#4c1d95">"tipo"</text>
-          <text x="120" y="166" font-size="10" fill="#334155">exemplificar/aproximar</text>
-        </g>
-        <g>
-          <rect x="30" y="184" width="80" height="26" rx="6" fill="#ddd6fe"/>
-          <text x="70" y="202" text-anchor="middle" font-size="11" fill="#4c1d95">"então"</text>
-          <text x="120" y="202" font-size="10" fill="#334155">concluir/retomar</text>
-        </g>
-        <g>
-          <rect x="30" y="220" width="80" height="26" rx="6" fill="#ede9fe"/>
-          <text x="70" y="238" text-anchor="middle" font-size="11" fill="#4c1d95">"olha"</text>
-          <text x="120" y="238" font-size="10" fill="#334155">chamar atenção</text>
-        </g>
-      </svg>`
-    },
-    {
-      titulo: "Marcador discursivo x erro gramatical",
-      descricao: "Comparativo mostrando a diferença entre um marcador discursivo de oralidade e um erro gramatical de fato.",
-      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect x="0" y="0" width="400" height="220" fill="#ffffff"/>
-        <text x="200" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Marcador Discursivo x Erro Gramatical</text>
-        <rect x="20" y="40" width="170" height="160" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
-        <text x="105" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">MARCADOR DISCURSIVO</text>
-        <text x="105" y="90" text-anchor="middle" font-size="10" fill="#4c1d95">Ex: "daí", "né"</text>
-        <text x="105" y="112" text-anchor="middle" font-size="10" fill="#4c1d95">Organiza a fala</text>
-        <text x="105" y="132" text-anchor="middle" font-size="10" fill="#4c1d95">Esperado na oralidade</text>
-        <text x="105" y="152" text-anchor="middle" font-size="10" fill="#4c1d95">Não é desvio</text>
-        <text x="105" y="172" text-anchor="middle" font-size="10" fill="#4c1d95">Todos os falantes usam</text>
-        <rect x="210" y="40" width="170" height="160" rx="10" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
-        <text x="295" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#9f1239">ERRO GRAMATICAL</text>
-        <text x="295" y="90" text-anchor="middle" font-size="10" fill="#881337">Ex: concordância</text>
-        <text x="295" y="112" text-anchor="middle" font-size="10" fill="#881337">indevida ("os menino")</text>
-        <text x="295" y="132" text-anchor="middle" font-size="10" fill="#881337">Foge à norma-padrão</text>
-        <text x="295" y="152" text-anchor="middle" font-size="10" fill="#881337">em contexto que a exige</text>
-        <text x="295" y="172" text-anchor="middle" font-size="10" fill="#881337">Julgado por norma culta</text>
-        <text x="200" y="205" text-anchor="middle" font-size="10" fill="#334155" font-style="italic">A repetição de "daí" é do primeiro tipo, não do segundo.</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Fala x Escrita",
+    "descricao": "Comparação entre as condições de produção da língua falada e da língua escrita.",
+    "svg": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"240\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"24\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#e9d5ff\">Língua Falada x Língua Escrita</text>\n        <rect x=\"20\" y=\"45\" width=\"170\" height=\"175\" rx=\"10\" fill=\"#2e1065\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n        <text x=\"105\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e9d5ff\">FALA</text>\n        <text x=\"105\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Tempo real</text>\n        <text x=\"105\" y=\"115\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Hesitações</text>\n        <text x=\"105\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Repetições</text>\n        <text x=\"105\" y=\"155\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Marcadores</text>\n        <text x=\"105\" y=\"175\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">(\"daí\", \"né\")</text>\n        <text x=\"105\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Interlocutor presente</text>\n        <rect x=\"210\" y=\"45\" width=\"170\" height=\"175\" rx=\"10\" fill=\"#1e293b\" stroke=\"#64748b\" stroke-width=\"2\"/>\n        <text x=\"295\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e2e8f0\">ESCRITA</text>\n        <text x=\"295\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">Planejada</text>\n        <text x=\"295\" y=\"115\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">Revisável</text>\n        <text x=\"295\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">Sem repetições</text>\n        <text x=\"295\" y=\"155\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">de marcadores</text>\n        <text x=\"295\" y=\"175\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">Conectivos formais</text>\n        <text x=\"295\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\">Sem interlocutor</text>\n        <path d=\"M190 130 L210 130\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow1)\"/>\n        <defs><marker id=\"arrow1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#7c3aed\"/></marker></defs>\n      </svg>"
+  },
+  {
+    "titulo": "O fio da narrativa: cada 'daí' conectando um evento",
+    "descricao": "Destaque das ocorrências de 'daí' no texto, com setas mostrando o encadeamento dos eventos narrados.",
+    "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect x=\"0\" y=\"0\" width=\"420\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"210\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e2e8f0\">Sequência de eventos ligados por \"daí\"</text>\n        <circle cx=\"45\" cy=\"60\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"60\" y=\"64\" font-size=\"10\" fill=\"#cbd5e1\">Trocaram as bolsas</text>\n        <path d=\"M45 68 L45 100\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"55\" y=\"90\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"45\" cy=\"110\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"60\" y=\"114\" font-size=\"10\" fill=\"#cbd5e1\">Ele leva a bolsa errada</text>\n        <path d=\"M45 118 L45 150\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"55\" y=\"140\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"45\" cy=\"160\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"60\" y=\"164\" font-size=\"10\" fill=\"#cbd5e1\">Ele pergunta à moça</text>\n        <path d=\"M45 168 L45 200\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"55\" y=\"190\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"45\" cy=\"210\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"60\" y=\"214\" font-size=\"10\" fill=\"#cbd5e1\">Diálogo se desenrola</text>\n        <path d=\"M230 60 L230 100\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"240\" y=\"90\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"230\" cy=\"60\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"245\" y=\"64\" font-size=\"10\" fill=\"#cbd5e1\">Ele diz \"tá, aham\"</text>\n        <circle cx=\"230\" cy=\"110\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"245\" y=\"114\" font-size=\"10\" fill=\"#cbd5e1\">Pede a entrevista</text>\n        <path d=\"M230 118 L230 150\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"240\" y=\"140\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"230\" cy=\"160\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"245\" y=\"164\" font-size=\"10\" fill=\"#cbd5e1\">Ele deixa entrar</text>\n        <path d=\"M230 168 L230 200\" stroke=\"#7c3aed\" stroke-width=\"2\" marker-end=\"url(#arrow2)\"/>\n        <text x=\"240\" y=\"190\" font-size=\"9\" font-weight=\"bold\" fill=\"#f87171\">daí</text>\n        <circle cx=\"230\" cy=\"210\" r=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"245\" y=\"214\" font-size=\"10\" fill=\"#cbd5e1\">Mulher sobe e canta</text>\n        <defs><marker id=\"arrow2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#7c3aed\"/></marker></defs>\n      </svg>"
+  },
+  {
+    "titulo": "Marcadores discursivos mais comuns no português falado",
+    "descricao": "Gráfico ilustrativo com marcadores discursivos frequentes na oralidade e sua função.",
+    "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e2e8f0\">Marcadores discursivos frequentes</text>\n        <g>\n          <rect x=\"30\" y=\"40\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#7c3aed\"/>\n          <text x=\"70\" y=\"58\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\">\"daí\"</text>\n          <text x=\"120\" y=\"58\" font-size=\"10\" fill=\"#cbd5e1\">sequenciar eventos</text>\n        </g>\n        <g>\n          <rect x=\"30\" y=\"76\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#8b5cf6\"/>\n          <text x=\"70\" y=\"94\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\">\"aí\"</text>\n          <text x=\"120\" y=\"94\" font-size=\"10\" fill=\"#cbd5e1\">encadear ideias</text>\n        </g>\n        <g>\n          <rect x=\"30\" y=\"112\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#a78bfa\"/>\n          <text x=\"70\" y=\"130\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\">\"né\"</text>\n          <text x=\"120\" y=\"130\" font-size=\"10\" fill=\"#cbd5e1\">buscar aprovação</text>\n        </g>\n        <g>\n          <rect x=\"30\" y=\"148\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#c4b5fd\"/>\n          <text x=\"70\" y=\"166\" text-anchor=\"middle\" font-size=\"11\" fill=\"#4c1d95\">\"tipo\"</text>\n          <text x=\"120\" y=\"166\" font-size=\"10\" fill=\"#cbd5e1\">exemplificar/aproximar</text>\n        </g>\n        <g>\n          <rect x=\"30\" y=\"184\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#ddd6fe\"/>\n          <text x=\"70\" y=\"202\" text-anchor=\"middle\" font-size=\"11\" fill=\"#4c1d95\">\"então\"</text>\n          <text x=\"120\" y=\"202\" font-size=\"10\" fill=\"#cbd5e1\">concluir/retomar</text>\n        </g>\n        <g>\n          <rect x=\"30\" y=\"220\" width=\"80\" height=\"26\" rx=\"6\" fill=\"#ede9fe\"/>\n          <text x=\"70\" y=\"238\" text-anchor=\"middle\" font-size=\"11\" fill=\"#4c1d95\">\"olha\"</text>\n          <text x=\"120\" y=\"238\" font-size=\"10\" fill=\"#cbd5e1\">chamar atenção</text>\n        </g>\n      </svg>"
+  },
+  {
+    "titulo": "Marcador discursivo x erro gramatical",
+    "descricao": "Comparativo mostrando a diferença entre um marcador discursivo de oralidade e um erro gramatical de fato.",
+    "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"220\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e2e8f0\">Marcador Discursivo x Erro Gramatical</text>\n        <rect x=\"20\" y=\"40\" width=\"170\" height=\"160\" rx=\"10\" fill=\"#2e1065\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <text x=\"105\" y=\"65\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#e9d5ff\">MARCADOR DISCURSIVO</text>\n        <text x=\"105\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Ex: \"daí\", \"né\"</text>\n        <text x=\"105\" y=\"112\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Organiza a fala</text>\n        <text x=\"105\" y=\"132\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Esperado na oralidade</text>\n        <text x=\"105\" y=\"152\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Não é desvio</text>\n        <text x=\"105\" y=\"172\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\">Todos os falantes usam</text>\n        <rect x=\"210\" y=\"40\" width=\"170\" height=\"160\" rx=\"10\" fill=\"#3f0d1a\" stroke=\"#fb7185\" stroke-width=\"2\"/>\n        <text x=\"295\" y=\"65\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#fecdd3\">ERRO GRAMATICAL</text>\n        <text x=\"295\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fecdd3\">Ex: concordância</text>\n        <text x=\"295\" y=\"112\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fecdd3\">indevida (\"os menino\")</text>\n        <text x=\"295\" y=\"132\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fecdd3\">Foge à norma-padrão</text>\n        <text x=\"295\" y=\"152\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fecdd3\">em contexto que a exige</text>\n        <text x=\"295\" y=\"172\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fecdd3\">Julgado por norma culta</text>\n        <text x=\"200\" y=\"205\" text-anchor=\"middle\" font-size=\"10\" fill=\"#cbd5e1\" font-style=\"italic\">A repetição de \"daí\" é do primeiro tipo, não do segundo.</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Destacador de Marcadores Discursivos",
     descricao: "Clique em cada 'daí' do trecho abaixo e descubra a função que ele cumpre na narrativa oral.",
@@ -35539,133 +35157,27 @@ const questaoDatabase = [
     </div>
   `,
   galeria: [
-    {
-      titulo: "Os 12 Trabalhos: Mito x Cotidiano",
-      descricao: "Comparação lado a lado entre os trabalhos de Hércules e as tarefas de João Antonio.",
-      svg: `<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect width="600" height="380" fill="#faf5ff"/>
-        <text x="150" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#6d28d9">Hércules (mito)</text>
-        <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#6d28d9">João Antonio (hoje)</text>
-        <line x1="300" y1="45" x2="300" y2="365" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="6,6"/>
-        <g font-size="12" fill="#4c1d95">
-          <text x="20" y="60">Leão de Nemeia</text>
-          <text x="20" y="85">Hidra de Lerna</text>
-          <text x="20" y="110">Corça de Cerineia</text>
-          <text x="20" y="135">Javali de Erimanto</text>
-          <text x="20" y="160">Estábulos de Áugias</text>
-          <text x="20" y="185">Aves do lago Estínfalo</text>
-          <text x="20" y="210">Touro de Creta</text>
-          <text x="20" y="235">Cavalos de Diomedes</text>
-          <text x="20" y="260">Cinturão de Hipólita</text>
-          <text x="20" y="285">Gado de Gérion</text>
-          <text x="20" y="310">Pomos das Hespérides</text>
-          <text x="20" y="335">Cão Cérbero</text>
-        </g>
-        <g font-size="12" fill="#4c1d95">
-          <text x="320" y="60">Bombeiro hidráulico</text>
-          <text x="320" y="85">Eletricista</text>
-          <text x="320" y="110">Entregador de panfletos</text>
-          <text x="320" y="135">Lavador de carros</text>
-          <text x="320" y="160">Vendedor de cerveja</text>
-          <text x="320" y="185">Vendedor de cocadas</text>
-          <text x="320" y="210">Pedreiro (sábados)</text>
-          <text x="320" y="235">Jardineiro (domingos)</text>
-          <text x="320" y="260">Cuidador da piscina</text>
-          <text x="320" y="285">Cuidador dos cachorros</text>
-          <text x="320" y="310">Caseiro (férias)</text>
-          <text x="320" y="335">Motorista (férias)</text>
-        </g>
-        <rect x="10" y="345" width="580" height="25" fill="#8b5cf6" rx="4"/>
-        <text x="300" y="362" text-anchor="middle" font-size="12" fill="#ffffff">Multiplicidade de tarefas: o traço comum que gera a intertextualidade</text>
-      </svg>`
-    },
-    {
-      titulo: "Diagrama da Intertextualidade",
-      descricao: "Esquema com setas mostrando o diálogo entre o Texto I e o Texto II.",
-      svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect width="500" height="300" fill="#faf5ff"/>
-        <rect x="30" y="40" width="180" height="90" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
-        <text x="120" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">TEXTO I</text>
-        <text x="120" y="92" text-anchor="middle" font-size="11" fill="#4c1d95">Mito de Hércules</text>
-        <text x="120" y="108" text-anchor="middle" font-size="11" fill="#4c1d95">"Os Doze Trabalhos"</text>
-
-        <rect x="290" y="40" width="180" height="90" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
-        <text x="380" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">TEXTO II</text>
-        <text x="380" y="92" text-anchor="middle" font-size="11" fill="#4c1d95">Minicrônica de João</text>
-        <text x="380" y="108" text-anchor="middle" font-size="11" fill="#4c1d95">"Os Doze Trabalhos"</text>
-
-        <line x1="210" y1="85" x2="290" y2="85" stroke="#8b5cf6" stroke-width="3" marker-end="url(#arrow)"/>
-        <line x1="290" y1="105" x2="210" y2="105" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow2)"/>
-        <defs>
-          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#8b5cf6"/></marker>
-          <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#a78bfa"/></marker>
-        </defs>
-        <text x="250" y="150" text-anchor="middle" font-size="12" fill="#6d28d9">nome "Hércules" +</text>
-        <text x="250" y="166" text-anchor="middle" font-size="12" fill="#6d28d9">título retomado</text>
-        <rect x="130" y="200" width="240" height="70" rx="10" fill="#fef9c3" stroke="#eab308" stroke-width="2"/>
-        <text x="250" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#854d0e">INTERTEXTUALIDADE</text>
-        <text x="250" y="248" text-anchor="middle" font-size="11" fill="#713f12">alusão/paródia ao mito clássico</text>
-        <line x1="250" y1="130" x2="250" y2="200" stroke="#eab308" stroke-width="2" stroke-dasharray="3,3"/>
-      </svg>`
-    },
-    {
-      titulo: "Linha do Tempo: Mito à Paródia",
-      descricao: "Trajetória do mito clássico grego até sua releitura na crônica contemporânea.",
-      svg: `<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect width="560" height="220" fill="#faf5ff"/>
-        <line x1="40" y1="120" x2="520" y2="120" stroke="#8b5cf6" stroke-width="3"/>
-        <circle cx="80" cy="120" r="10" fill="#7c3aed"/>
-        <text x="80" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">Séc. VIII a.C.</text>
-        <text x="80" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Mito grego</text>
-        <text x="80" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">12 trabalhos de Hércules</text>
-
-        <circle cx="230" cy="120" r="10" fill="#7c3aed"/>
-        <text x="230" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">Séculos seguintes</text>
-        <text x="230" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Tradição cultural</text>
-        <text x="230" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">herói vira símbolo popular</text>
-
-        <circle cx="380" cy="120" r="10" fill="#7c3aed"/>
-        <text x="380" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">2015</text>
-        <text x="380" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Minicrônica</text>
-        <text x="380" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">"Os doze trabalhos" (Ferreira)</text>
-
-        <circle cx="500" cy="120" r="10" fill="#f59e0b"/>
-        <text x="500" y="100" text-anchor="middle" font-size="11" fill="#92400e">Hoje</text>
-        <text x="500" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">Releitura irônica</text>
-        <text x="500" y="164" text-anchor="middle" font-size="10" fill="#92400e">João Antonio = "Hércules"</text>
-      </svg>`
-    },
-    {
-      titulo: "Mapa dos Tipos de Intertextualidade",
-      descricao: "Visão geral dos quatro tipos de intertextualidade mais cobrados.",
-      svg: `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-        <rect width="500" height="320" fill="#faf5ff"/>
-        <circle cx="250" cy="160" r="55" fill="#8b5cf6"/>
-        <text x="250" y="156" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">INTER-</text>
-        <text x="250" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">TEXTUALIDADE</text>
-
-        <rect x="30" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-        <text x="105" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Paródia</text>
-        <text x="105" y="62" text-anchor="middle" font-size="9" fill="#4c1d95">subverte com crítica/humor</text>
-        <line x1="180" y1="60" x2="220" y2="130" stroke="#8b5cf6" stroke-width="1.5"/>
-
-        <rect x="320" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-        <text x="395" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Paráfrase</text>
-        <text x="395" y="62" text-anchor="middle" font-size="9" fill="#4c1d95">reafirma a mesma ideia</text>
-        <line x1="320" y1="60" x2="280" y2="130" stroke="#8b5cf6" stroke-width="1.5"/>
-
-        <rect x="30" y="240" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-        <text x="105" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Citação</text>
-        <text x="105" y="282" text-anchor="middle" font-size="9" fill="#4c1d95">reproduz trecho de outro texto</text>
-        <line x1="180" y1="260" x2="220" y2="190" stroke="#8b5cf6" stroke-width="1.5"/>
-
-        <rect x="320" y="240" width="150" height="60" rx="8" fill="#fef9c3" stroke="#eab308"/>
-        <text x="395" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#854d0e">Alusão *</text>
-        <text x="395" y="282" text-anchor="middle" font-size="9" fill="#713f12">referência indireta (Texto II)</text>
-        <line x1="320" y1="260" x2="280" y2="190" stroke="#eab308" stroke-width="2"/>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Os 12 Trabalhos: Mito x Cotidiano",
+    "descricao": "Comparação lado a lado entre os trabalhos de Hércules e as tarefas de João Antonio.",
+    "svg": "<svg viewBox=\"0 0 600 380\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect width=\"600\" height=\"380\" fill=\"#0f172a\"/>\n        <text x=\"150\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#6d28d9\">Hércules (mito)</text>\n        <text x=\"450\" y=\"30\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#6d28d9\">João Antonio (hoje)</text>\n        <line x1=\"300\" y1=\"45\" x2=\"300\" y2=\"365\" stroke=\"#c4b5fd\" stroke-width=\"2\" stroke-dasharray=\"6,6\"/>\n        <g font-size=\"12\" fill=\"#e2e8f0\">\n          <text x=\"20\" y=\"60\">Leão de Nemeia</text>\n          <text x=\"20\" y=\"85\">Hidra de Lerna</text>\n          <text x=\"20\" y=\"110\">Corça de Cerineia</text>\n          <text x=\"20\" y=\"135\">Javali de Erimanto</text>\n          <text x=\"20\" y=\"160\">Estábulos de Áugias</text>\n          <text x=\"20\" y=\"185\">Aves do lago Estínfalo</text>\n          <text x=\"20\" y=\"210\">Touro de Creta</text>\n          <text x=\"20\" y=\"235\">Cavalos de Diomedes</text>\n          <text x=\"20\" y=\"260\">Cinturão de Hipólita</text>\n          <text x=\"20\" y=\"285\">Gado de Gérion</text>\n          <text x=\"20\" y=\"310\">Pomos das Hespérides</text>\n          <text x=\"20\" y=\"335\">Cão Cérbero</text>\n        </g>\n        <g font-size=\"12\" fill=\"#e2e8f0\">\n          <text x=\"320\" y=\"60\">Bombeiro hidráulico</text>\n          <text x=\"320\" y=\"85\">Eletricista</text>\n          <text x=\"320\" y=\"110\">Entregador de panfletos</text>\n          <text x=\"320\" y=\"135\">Lavador de carros</text>\n          <text x=\"320\" y=\"160\">Vendedor de cerveja</text>\n          <text x=\"320\" y=\"185\">Vendedor de cocadas</text>\n          <text x=\"320\" y=\"210\">Pedreiro (sábados)</text>\n          <text x=\"320\" y=\"235\">Jardineiro (domingos)</text>\n          <text x=\"320\" y=\"260\">Cuidador da piscina</text>\n          <text x=\"320\" y=\"285\">Cuidador dos cachorros</text>\n          <text x=\"320\" y=\"310\">Caseiro (férias)</text>\n          <text x=\"320\" y=\"335\">Motorista (férias)</text>\n        </g>\n        <rect x=\"10\" y=\"345\" width=\"580\" height=\"25\" fill=\"#8b5cf6\" rx=\"4\"/>\n        <text x=\"300\" y=\"362\" text-anchor=\"middle\" font-size=\"12\" fill=\"#ffffff\">Multiplicidade de tarefas: o traço comum que gera a intertextualidade</text>\n      </svg>"
+  },
+  {
+    "titulo": "Diagrama da Intertextualidade",
+    "descricao": "Esquema com setas mostrando o diálogo entre o Texto I e o Texto II.",
+    "svg": "<svg viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect width=\"500\" height=\"300\" fill=\"#0f172a\"/>\n        <rect x=\"30\" y=\"40\" width=\"180\" height=\"90\" rx=\"10\" fill=\"#2e1065\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n        <text x=\"120\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e9d5ff\">TEXTO I</text>\n        <text x=\"120\" y=\"92\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">Mito de Hércules</text>\n        <text x=\"120\" y=\"108\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">\"Os Doze Trabalhos\"</text>\n\n        <rect x=\"290\" y=\"40\" width=\"180\" height=\"90\" rx=\"10\" fill=\"#2e1065\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n        <text x=\"380\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#e9d5ff\">TEXTO II</text>\n        <text x=\"380\" y=\"92\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">Minicrônica de João</text>\n        <text x=\"380\" y=\"108\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">\"Os Doze Trabalhos\"</text>\n\n        <line x1=\"210\" y1=\"85\" x2=\"290\" y2=\"85\" stroke=\"#8b5cf6\" stroke-width=\"3\" marker-end=\"url(#arrow)\"/>\n        <line x1=\"290\" y1=\"105\" x2=\"210\" y2=\"105\" stroke=\"#a78bfa\" stroke-width=\"2\" stroke-dasharray=\"4,4\" marker-end=\"url(#arrow2)\"/>\n        <defs>\n          <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#8b5cf6\"/></marker>\n          <marker id=\"arrow2\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#a78bfa\"/></marker>\n        </defs>\n        <text x=\"250\" y=\"150\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6d28d9\">nome \"Hércules\" +</text>\n        <text x=\"250\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6d28d9\">título retomado</text>\n        <rect x=\"130\" y=\"200\" width=\"240\" height=\"70\" rx=\"10\" fill=\"#422006\" stroke=\"#eab308\" stroke-width=\"2\"/>\n        <text x=\"250\" y=\"228\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#fcd34d\">INTERTEXTUALIDADE</text>\n        <text x=\"250\" y=\"248\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fde68a\">alusão/paródia ao mito clássico</text>\n        <line x1=\"250\" y1=\"130\" x2=\"250\" y2=\"200\" stroke=\"#eab308\" stroke-width=\"2\" stroke-dasharray=\"3,3\"/>\n      </svg>"
+  },
+  {
+    "titulo": "Linha do Tempo: Mito à Paródia",
+    "descricao": "Trajetória do mito clássico grego até sua releitura na crônica contemporânea.",
+    "svg": "<svg viewBox=\"0 0 560 220\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect width=\"560\" height=\"220\" fill=\"#0f172a\"/>\n        <line x1=\"40\" y1=\"120\" x2=\"520\" y2=\"120\" stroke=\"#8b5cf6\" stroke-width=\"3\"/>\n        <circle cx=\"80\" cy=\"120\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"80\" y=\"100\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">Séc. VIII a.C.</text>\n        <text x=\"80\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ddd6fe\">Mito grego</text>\n        <text x=\"80\" y=\"164\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6d28d9\">12 trabalhos de Hércules</text>\n\n        <circle cx=\"230\" cy=\"120\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"230\" y=\"100\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">Séculos seguintes</text>\n        <text x=\"230\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ddd6fe\">Tradição cultural</text>\n        <text x=\"230\" y=\"164\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6d28d9\">herói vira símbolo popular</text>\n\n        <circle cx=\"380\" cy=\"120\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"380\" y=\"100\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">2015</text>\n        <text x=\"380\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ddd6fe\">Minicrônica</text>\n        <text x=\"380\" y=\"164\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6d28d9\">\"Os doze trabalhos\" (Ferreira)</text>\n\n        <circle cx=\"500\" cy=\"120\" r=\"10\" fill=\"#f59e0b\"/>\n        <text x=\"500\" y=\"100\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fcd34d\">Hoje</text>\n        <text x=\"500\" y=\"150\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#fcd34d\">Releitura irônica</text>\n        <text x=\"500\" y=\"164\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fcd34d\">João Antonio = \"Hércules\"</text>\n      </svg>"
+  },
+  {
+    "titulo": "Mapa dos Tipos de Intertextualidade",
+    "descricao": "Visão geral dos quatro tipos de intertextualidade mais cobrados.",
+    "svg": "<svg viewBox=\"0 0 500 320\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"sans-serif\">\n        <rect width=\"500\" height=\"320\" fill=\"#0f172a\"/>\n        <circle cx=\"250\" cy=\"160\" r=\"55\" fill=\"#8b5cf6\"/>\n        <text x=\"250\" y=\"156\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#ffffff\">INTER-</text>\n        <text x=\"250\" y=\"172\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#ffffff\">TEXTUALIDADE</text>\n\n        <rect x=\"30\" y=\"20\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n        <text x=\"105\" y=\"45\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#ddd6fe\">Paródia</text>\n        <text x=\"105\" y=\"62\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">subverte com crítica/humor</text>\n        <line x1=\"180\" y1=\"60\" x2=\"220\" y2=\"130\" stroke=\"#8b5cf6\" stroke-width=\"1.5\"/>\n\n        <rect x=\"320\" y=\"20\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n        <text x=\"395\" y=\"45\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#ddd6fe\">Paráfrase</text>\n        <text x=\"395\" y=\"62\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">reafirma a mesma ideia</text>\n        <line x1=\"320\" y1=\"60\" x2=\"280\" y2=\"130\" stroke=\"#8b5cf6\" stroke-width=\"1.5\"/>\n\n        <rect x=\"30\" y=\"240\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n        <text x=\"105\" y=\"265\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#ddd6fe\">Citação</text>\n        <text x=\"105\" y=\"282\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">reproduz trecho de outro texto</text>\n        <line x1=\"180\" y1=\"260\" x2=\"220\" y2=\"190\" stroke=\"#8b5cf6\" stroke-width=\"1.5\"/>\n\n        <rect x=\"320\" y=\"240\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#422006\" stroke=\"#eab308\"/>\n        <text x=\"395\" y=\"265\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"bold\" fill=\"#fcd34d\">Alusão *</text>\n        <text x=\"395\" y=\"282\" text-anchor=\"middle\" font-size=\"9\" fill=\"#fde68a\">referência indireta (Texto II)</text>\n        <line x1=\"320\" y1=\"260\" x2=\"280\" y2=\"190\" stroke=\"#eab308\" stroke-width=\"2\"/>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Comparador de Trabalhos: Hércules x João Antonio",
     descricao: "Associe cada um dos 12 trabalhos de Hércules ao ofício correspondente de João Antonio e veja a intertextualidade em ação.",
@@ -36040,144 +35552,27 @@ const questaoDatabase = [
     </div>
   `,
   galeria: [
-    {
-      titulo: "Mapa das referências textuais",
-      descricao: "Setas conectam cada expressão referencial ao seu antecedente correto no texto-base.",
-      svg: `<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
-        <rect width="600" height="320" fill="#faf5ff"/>
-        <defs>
-          <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-            <path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/>
-          </marker>
-        </defs>
-        <rect x="20" y="20" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
-        <text x="30" y="42" font-size="13" fill="#4c1d95">l.1 "meteoro... Sibéria"</text>
-
-        <rect x="20" y="80" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
-        <text x="30" y="102" font-size="13" fill="#4c1d95">l.3 "o outro asteroide"</text>
-
-        <rect x="20" y="140" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
-        <text x="30" y="162" font-size="13" fill="#4c1d95">l.5-6 "qualquer detrito espacial"</text>
-
-        <rect x="340" y="20" width="240" height="34" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
-        <text x="350" y="42" font-size="13" fill="#6b21a8">l.3 "o asteroide da Sibéria"</text>
-
-        <rect x="340" y="80" width="240" height="34" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
-        <text x="350" y="102" font-size="13" fill="#6b21a8">l.3 "que passou de raspão"</text>
-
-        <rect x="340" y="140" width="240" height="34" rx="6" fill="#dcfce7" stroke="#16a34a"/>
-        <text x="350" y="162" font-size="13" fill="#166534">l.6 "sua trajetória" (correta!)</text>
-
-        <path d="M260,37 C300,37 300,37 340,37" fill="none" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow1)"/>
-        <path d="M260,97 C300,97 300,97 340,97" fill="none" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow1)"/>
-        <path d="M260,157 C300,157 300,157 340,157" fill="none" stroke="#16a34a" stroke-width="3" marker-end="url(#arrow1)"/>
-
-        <rect x="60" y="220" width="480" height="70" rx="10" fill="#fff" stroke="#c4b5fd"/>
-        <text x="80" y="245" font-size="13" fill="#374151">Cada seta liga a expressão referencial (direita)</text>
-        <text x="80" y="265" font-size="13" fill="#374151">ao seu antecedente real no texto (esquerda).</text>
-        <text x="80" y="285" font-size="13" fill="#166534" font-weight="bold">Verde = relação cobrada na alternativa B (correta).</text>
-      </svg>`
-    },
-    {
-      titulo: "Anáfora vs. Catáfora",
-      descricao: "Diagrama didático mostrando a diferença de direção entre os dois tipos de referenciação.",
-      svg: `<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
-        <rect width="600" height="260" fill="#faf5ff"/>
-        <text x="300" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#4c1d95">Anáfora vs. Catáfora</text>
-
-        <rect x="30" y="55" width="240" height="80" rx="8" fill="#dcfce7" stroke="#16a34a"/>
-        <text x="150" y="80" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">ANÁFORA</text>
-        <text x="150" y="100" font-size="11" text-anchor="middle" fill="#166534">retoma algo já dito</text>
-        <text x="150" y="118" font-size="11" text-anchor="middle" fill="#166534">(a mais comum no ENEM)</text>
-
-        <text x="40" y="165" font-size="12" fill="#111827">"...detrito espacial... e </text>
-        <text x="180" y="165" font-size="12" font-weight="bold" fill="#166534">sua</text>
-        <text x="200" y="165" font-size="12" fill="#111827">trajetória..."</text>
-        <path d="M100,155 C130,140 150,140 170,155" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowA)"/>
-        <defs>
-          <marker id="arrowA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-            <path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/>
-          </marker>
-          <marker id="arrowC" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
-            <path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/>
-          </marker>
-        </defs>
-
-        <rect x="330" y="55" width="240" height="80" rx="8" fill="#dbeafe" stroke="#2563eb"/>
-        <text x="450" y="80" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">CATÁFORA</text>
-        <text x="450" y="100" font-size="11" text-anchor="middle" fill="#1e3a8a">anuncia algo que vem depois</text>
-        <text x="450" y="118" font-size="11" text-anchor="middle" fill="#1e3a8a">(mais rara)</text>
-
-        <text x="340" y="165" font-size="12" fill="#111827">"Só </text>
-        <text x="365" y="165" font-size="12" font-weight="bold" fill="#1e3a8a">isto</text>
-        <text x="390" y="165" font-size="12" fill="#111827">importa: prevenir."</text>
-        <path d="M375,155 C400,140 420,140 440,155" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowC)"/>
-
-        <rect x="30" y="190" width="540" height="50" rx="8" fill="#fff" stroke="#c4b5fd"/>
-        <text x="300" y="220" font-size="12" text-anchor="middle" fill="#374151">No texto da questão, "sua trajetória" (l.6) é ANÁFORA: aponta para trás, para "detrito espacial" (l.5-6).</text>
-      </svg>`
-    },
-    {
-      titulo: "Crônica reconstruída com linhas em destaque",
-      descricao: "Reprodução do texto-base com realce visual nas linhas citadas pelas alternativas A a E.",
-      svg: `<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg">
-        <rect width="640" height="340" fill="#ffffff"/>
-        <text x="20" y="25" font-size="13" fill="#111827">l.1  O mais assustador do meteoro que cruzou o céu da Sibéria...</text>
-        <text x="20" y="48" font-size="13" fill="#111827">l.2  várias bombas atômicas é que ele chegou sem ser anunciado...</text>
-        <rect x="14" y="55" width="612" height="20" fill="#fde68a" opacity="0.5"/>
-        <text x="20" y="70" font-size="13" fill="#111827">l.3  voltadas para o outro asteroide, o que passou de raspão, o asteroide da Sibéria...</text>
-        <text x="20" y="93" font-size="13" fill="#111827">l.4  porta dos fundos sem ser detectado. A desculpa é que era pequeno demais...</text>
-        <rect x="14" y="100" width="612" height="20" fill="#fca5a5" opacity="0.45"/>
-        <text x="20" y="115" font-size="13" fill="#111827">l.5  atenção e por isso os alarmes não funcionaram. Nosso iludido, até agora...</text>
-        <rect x="14" y="122" width="612" height="42" fill="#86efac" opacity="0.5"/>
-        <text x="20" y="138" font-size="13" fill="#111827">l.6  detrito espacial que se aproximasse de nós seria identificado e rotulado, e sua trajetória</text>
-        <rect x="14" y="145" width="612" height="20" fill="#93c5fd" opacity="0.5"/>
-        <text x="20" y="160" font-size="13" fill="#111827">l.7  calculada até o último milímetro com grande antecedência, o que nos daria tempo</text>
-        <rect x="14" y="167" width="612" height="20" fill="#93c5fd" opacity="0.35"/>
-        <text x="20" y="182" font-size="13" fill="#111827">l.8  preparar o espírito — ou usar nossos cartões de crédito até o limite...</text>
-        <text x="20" y="205" font-size="13" fill="#111827">l.9  com a Terra ser inevitável."</text>
-
-        <rect x="14" y="230" width="612" height="100" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
-        <rect x="26" y="240" width="14" height="14" fill="#fde68a"/>
-        <text x="46" y="252" font-size="12" fill="#374151">Amarelo: linha citada na alt. A e E (l.3)</text>
-        <rect x="26" y="262" width="14" height="14" fill="#fca5a5"/>
-        <text x="46" y="274" font-size="12" fill="#374151">Vermelho: linha citada na alt. C (l.5)</text>
-        <rect x="26" y="284" width="14" height="14" fill="#86efac"/>
-        <text x="46" y="296" font-size="12" fill="#374151">Verde: linha da resposta correta - alt. B (l.6)</text>
-        <rect x="26" y="306" width="14" height="14" fill="#93c5fd"/>
-        <text x="46" y="318" font-size="12" fill="#374151">Azul: linhas citadas na alt. D (l.7-8)</text>
-      </svg>`
-    },
-    {
-      titulo: "O erro comum: associar ao elemento errado",
-      descricao: "Esquema mostrando a pegadinha de ligar o pronome ao antecedente mais próximo, mas semanticamente incorreto.",
-      svg: `<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
-        <rect width="600" height="260" fill="#fff7ed"/>
-        <text x="300" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#9a3412">Pegadinha clássica de coesão</text>
-
-        <text x="30" y="70" font-size="12" fill="#111827">"...o outro asteroide, </text>
-        <text x="175" y="70" font-size="12" font-weight="bold" fill="#dc2626">que passou de raspão</text>
-        <text x="320" y="70" font-size="12" fill="#111827">, o asteroide da Sibéria..."</text>
-
-        <rect x="30" y="90" width="230" height="40" rx="6" fill="#fee2e2" stroke="#dc2626"/>
-        <text x="145" y="108" font-size="11" text-anchor="middle" fill="#991b1b">ERRO: ligar ao "asteroide</text>
-        <text x="145" y="122" font-size="11" text-anchor="middle" fill="#991b1b">da Sibéria" (mais distante)</text>
-
-        <rect x="330" y="90" width="230" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/>
-        <text x="445" y="108" font-size="11" text-anchor="middle" fill="#166534">CERTO: ligar a "o outro</text>
-        <text x="445" y="122" font-size="11" text-anchor="middle" fill="#166534">asteroide" (mais próximo e coerente)</text>
-
-        <path d="M175,80 C175,90 175,90 175,90" fill="none" stroke="#dc2626" stroke-width="2"/>
-        <line x1="200" y1="80" x2="155" y2="90" stroke="#dc2626" stroke-width="2"/>
-        <line x1="180" y1="80" x2="420" y2="90" stroke="#16a34a" stroke-width="2"/>
-
-        <rect x="30" y="150" width="530" height="90" rx="8" fill="#fff" stroke="#fdba74"/>
-        <text x="45" y="172" font-size="12" fill="#374151">Regra de ouro: nem sempre o antecedente correto está na</text>
-        <text x="45" y="192" font-size="12" fill="#374151">posição mais próxima do texto. É preciso checar sentido e</text>
-        <text x="45" y="212" font-size="12" fill="#374151">coerência semântica, não apenas a distância física entre as palavras.</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Mapa das referências textuais",
+    "descricao": "Setas conectam cada expressão referencial ao seu antecedente correto no texto-base.",
+    "svg": "<svg viewBox=\"0 0 600 320\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"600\" height=\"320\" fill=\"#0f172a\"/>\n        <defs>\n          <marker id=\"arrow1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\">\n            <path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#a78bfa\"/>\n          </marker>\n        </defs>\n        <rect x=\"20\" y=\"20\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#2e1065\" stroke=\"#a78bfa\"/>\n        <text x=\"30\" y=\"42\" font-size=\"13\" fill=\"#e9d5ff\">l.1 \"meteoro... Sibéria\"</text>\n\n        <rect x=\"20\" y=\"80\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#2e1065\" stroke=\"#a78bfa\"/>\n        <text x=\"30\" y=\"102\" font-size=\"13\" fill=\"#e9d5ff\">l.3 \"o outro asteroide\"</text>\n\n        <rect x=\"20\" y=\"140\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#2e1065\" stroke=\"#a78bfa\"/>\n        <text x=\"30\" y=\"162\" font-size=\"13\" fill=\"#e9d5ff\">l.5-6 \"qualquer detrito espacial\"</text>\n\n        <rect x=\"340\" y=\"20\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#3b0764\" stroke=\"#c084fc\"/>\n        <text x=\"350\" y=\"42\" font-size=\"13\" fill=\"#f3e8ff\">l.3 \"o asteroide da Sibéria\"</text>\n\n        <rect x=\"340\" y=\"80\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#3b0764\" stroke=\"#c084fc\"/>\n        <text x=\"350\" y=\"102\" font-size=\"13\" fill=\"#f3e8ff\">l.3 \"que passou de raspão\"</text>\n\n        <rect x=\"340\" y=\"140\" width=\"240\" height=\"34\" rx=\"6\" fill=\"#14532d\" stroke=\"#4ade80\"/>\n        <text x=\"350\" y=\"162\" font-size=\"13\" fill=\"#bbf7d0\">l.6 \"sua trajetória\" (correta!)</text>\n\n        <path d=\"M260,37 C300,37 300,37 340,37\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\" marker-end=\"url(#arrow1)\"/>\n        <path d=\"M260,97 C300,97 300,97 340,97\" fill=\"none\" stroke=\"#c084fc\" stroke-width=\"2\" marker-end=\"url(#arrow1)\"/>\n        <path d=\"M260,157 C300,157 300,157 340,157\" fill=\"none\" stroke=\"#4ade80\" stroke-width=\"3\" marker-end=\"url(#arrow1)\"/>\n\n        <rect x=\"60\" y=\"220\" width=\"480\" height=\"70\" rx=\"10\" fill=\"#1e293b\" stroke=\"#7c3aed\"/>\n        <text x=\"80\" y=\"245\" font-size=\"13\" fill=\"#cbd5e1\">Cada seta liga a expressão referencial (direita)</text>\n        <text x=\"80\" y=\"265\" font-size=\"13\" fill=\"#cbd5e1\">ao seu antecedente real no texto (esquerda).</text>\n        <text x=\"80\" y=\"285\" font-size=\"13\" fill=\"#4ade80\" font-weight=\"bold\">Verde = relação cobrada na alternativa B (correta).</text>\n      </svg>"
+  },
+  {
+    "titulo": "Anáfora vs. Catáfora",
+    "descricao": "Diagrama didático mostrando a diferença de direção entre os dois tipos de referenciação.",
+    "svg": "<svg viewBox=\"0 0 600 260\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"600\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"300\" y=\"30\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#e9d5ff\">Anáfora vs. Catáfora</text>\n\n        <rect x=\"30\" y=\"55\" width=\"240\" height=\"80\" rx=\"8\" fill=\"#14532d\" stroke=\"#4ade80\"/>\n        <text x=\"150\" y=\"80\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#86efac\">ANÁFORA</text>\n        <text x=\"150\" y=\"100\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bbf7d0\">retoma algo já dito</text>\n        <text x=\"150\" y=\"118\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bbf7d0\">(a mais comum no ENEM)</text>\n\n        <text x=\"40\" y=\"165\" font-size=\"12\" fill=\"#e2e8f0\">\"...detrito espacial... e </text>\n        <text x=\"180\" y=\"165\" font-size=\"12\" font-weight=\"bold\" fill=\"#4ade80\">sua</text>\n        <text x=\"200\" y=\"165\" font-size=\"12\" fill=\"#e2e8f0\">trajetória...\"</text>\n        <path d=\"M100,155 C130,140 150,140 170,155\" fill=\"none\" stroke=\"#4ade80\" stroke-width=\"2\" marker-end=\"url(#arrowA)\"/>\n        <defs>\n          <marker id=\"arrowA\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\">\n            <path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#4ade80\"/>\n          </marker>\n          <marker id=\"arrowC\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\">\n            <path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#60a5fa\"/>\n          </marker>\n        </defs>\n\n        <rect x=\"330\" y=\"55\" width=\"240\" height=\"80\" rx=\"8\" fill=\"#1e3a5f\" stroke=\"#60a5fa\"/>\n        <text x=\"450\" y=\"80\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#93c5fd\">CATÁFORA</text>\n        <text x=\"450\" y=\"100\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bfdbfe\">anuncia algo que vem depois</text>\n        <text x=\"450\" y=\"118\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bfdbfe\">(mais rara)</text>\n\n        <text x=\"340\" y=\"165\" font-size=\"12\" fill=\"#e2e8f0\">\"Só </text>\n        <text x=\"365\" y=\"165\" font-size=\"12\" font-weight=\"bold\" fill=\"#60a5fa\">isto</text>\n        <text x=\"390\" y=\"165\" font-size=\"12\" fill=\"#e2e8f0\">importa: prevenir.\"</text>\n        <path d=\"M375,155 C400,140 420,140 440,155\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"2\" marker-end=\"url(#arrowC)\"/>\n\n        <rect x=\"30\" y=\"190\" width=\"540\" height=\"50\" rx=\"8\" fill=\"#1e293b\" stroke=\"#7c3aed\"/>\n        <text x=\"300\" y=\"220\" font-size=\"12\" text-anchor=\"middle\" fill=\"#cbd5e1\">No texto da questão, \"sua trajetória\" (l.6) é ANÁFORA: aponta para trás, para \"detrito espacial\" (l.5-6).</text>\n      </svg>"
+  },
+  {
+    "titulo": "Crônica reconstruída com linhas em destaque",
+    "descricao": "Reprodução do texto-base com realce visual nas linhas citadas pelas alternativas A a E.",
+    "svg": "<svg viewBox=\"0 0 640 340\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"640\" height=\"340\" fill=\"#0f172a\"/>\n        <text x=\"20\" y=\"25\" font-size=\"13\" fill=\"#e2e8f0\">l.1  O mais assustador do meteoro que cruzou o céu da Sibéria...</text>\n        <text x=\"20\" y=\"48\" font-size=\"13\" fill=\"#e2e8f0\">l.2  várias bombas atômicas é que ele chegou sem ser anunciado...</text>\n        <rect x=\"14\" y=\"55\" width=\"612\" height=\"20\" fill=\"#fde68a\" opacity=\"0.65\"/>\n        <text x=\"20\" y=\"70\" font-size=\"13\" fill=\"#e2e8f0\">l.3  voltadas para o outro asteroide, o que passou de raspão, o asteroide da Sibéria...</text>\n        <text x=\"20\" y=\"93\" font-size=\"13\" fill=\"#e2e8f0\">l.4  porta dos fundos sem ser detectado. A desculpa é que era pequeno demais...</text>\n        <rect x=\"14\" y=\"100\" width=\"612\" height=\"20\" fill=\"#fca5a5\" opacity=\"0.55\"/>\n        <text x=\"20\" y=\"115\" font-size=\"13\" fill=\"#e2e8f0\">l.5  atenção e por isso os alarmes não funcionaram. Nosso iludido, até agora...</text>\n        <rect x=\"14\" y=\"122\" width=\"612\" height=\"42\" fill=\"#86efac\" opacity=\"0.6\"/>\n        <text x=\"20\" y=\"138\" font-size=\"13\" fill=\"#e2e8f0\">l.6  detrito espacial que se aproximasse de nós seria identificado e rotulado, e sua trajetória</text>\n        <rect x=\"14\" y=\"145\" width=\"612\" height=\"20\" fill=\"#93c5fd\" opacity=\"0.6\"/>\n        <text x=\"20\" y=\"160\" font-size=\"13\" fill=\"#e2e8f0\">l.7  calculada até o último milímetro com grande antecedência, o que nos daria tempo</text>\n        <rect x=\"14\" y=\"167\" width=\"612\" height=\"20\" fill=\"#93c5fd\" opacity=\"0.5\"/>\n        <text x=\"20\" y=\"182\" font-size=\"13\" fill=\"#e2e8f0\">l.8  preparar o espírito — ou usar nossos cartões de crédito até o limite...</text>\n        <text x=\"20\" y=\"205\" font-size=\"13\" fill=\"#e2e8f0\">l.9  com a Terra ser inevitável.\"</text>\n\n        <rect x=\"14\" y=\"230\" width=\"612\" height=\"100\" rx=\"8\" fill=\"#1e293b\" stroke=\"#475569\"/>\n        <rect x=\"26\" y=\"240\" width=\"14\" height=\"14\" fill=\"#fde68a\"/>\n        <text x=\"46\" y=\"252\" font-size=\"12\" fill=\"#cbd5e1\">Amarelo: linha citada na alt. A e E (l.3)</text>\n        <rect x=\"26\" y=\"262\" width=\"14\" height=\"14\" fill=\"#fca5a5\"/>\n        <text x=\"46\" y=\"274\" font-size=\"12\" fill=\"#cbd5e1\">Vermelho: linha citada na alt. C (l.5)</text>\n        <rect x=\"26\" y=\"284\" width=\"14\" height=\"14\" fill=\"#86efac\"/>\n        <text x=\"46\" y=\"296\" font-size=\"12\" fill=\"#cbd5e1\">Verde: linha da resposta correta - alt. B (l.6)</text>\n        <rect x=\"26\" y=\"306\" width=\"14\" height=\"14\" fill=\"#93c5fd\"/>\n        <text x=\"46\" y=\"318\" font-size=\"12\" fill=\"#cbd5e1\">Azul: linhas citadas na alt. D (l.7-8)</text>\n      </svg>"
+  },
+  {
+    "titulo": "O erro comum: associar ao elemento errado",
+    "descricao": "Esquema mostrando a pegadinha de ligar o pronome ao antecedente mais próximo, mas semanticamente incorreto.",
+    "svg": "<svg viewBox=\"0 0 600 260\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"600\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"300\" y=\"28\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#fdba74\">Pegadinha clássica de coesão</text>\n\n        <text x=\"30\" y=\"70\" font-size=\"12\" fill=\"#e2e8f0\">\"...o outro asteroide, </text>\n        <text x=\"175\" y=\"70\" font-size=\"12\" font-weight=\"bold\" fill=\"#f87171\">que passou de raspão</text>\n        <text x=\"320\" y=\"70\" font-size=\"12\" fill=\"#e2e8f0\">, o asteroide da Sibéria...\"</text>\n\n        <rect x=\"30\" y=\"90\" width=\"230\" height=\"40\" rx=\"6\" fill=\"#450a0a\" stroke=\"#f87171\"/>\n        <text x=\"145\" y=\"108\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fecaca\">ERRO: ligar ao \"asteroide</text>\n        <text x=\"145\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fecaca\">da Sibéria\" (mais distante)</text>\n\n        <rect x=\"330\" y=\"90\" width=\"230\" height=\"40\" rx=\"6\" fill=\"#14532d\" stroke=\"#4ade80\"/>\n        <text x=\"445\" y=\"108\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bbf7d0\">CERTO: ligar a \"o outro</text>\n        <text x=\"445\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"#bbf7d0\">asteroide\" (mais próximo e coerente)</text>\n\n        <path d=\"M175,80 C175,90 175,90 175,90\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"2\"/>\n        <line x1=\"200\" y1=\"80\" x2=\"155\" y2=\"90\" stroke=\"#f87171\" stroke-width=\"2\"/>\n        <line x1=\"180\" y1=\"80\" x2=\"420\" y2=\"90\" stroke=\"#4ade80\" stroke-width=\"2\"/>\n\n        <rect x=\"30\" y=\"150\" width=\"530\" height=\"90\" rx=\"8\" fill=\"#1e293b\" stroke=\"#fb923c\"/>\n        <text x=\"45\" y=\"172\" font-size=\"12\" fill=\"#cbd5e1\">Regra de ouro: nem sempre o antecedente correto está na</text>\n        <text x=\"45\" y=\"192\" font-size=\"12\" fill=\"#cbd5e1\">posição mais próxima do texto. É preciso checar sentido e</text>\n        <text x=\"45\" y=\"212\" font-size=\"12\" fill=\"#cbd5e1\">coerência semântica, não apenas a distância física entre as palavras.</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Caça-Referentes",
     descricao: "Clique em uma expressão referencial destacada no texto e descubra qual é o seu antecedente correto.",
@@ -36335,86 +35730,27 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
   `,
 
   galeria: [
-    {
-      titulo: "Linha do tempo: a permanência do rádio",
-      descricao: "Evolução cronológica do rádio até o podcast, destacando que ele nunca desapareceu, apenas se adaptou.",
-      svg: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="180" fill="#f5f3ff"/>
-        <line x1="30" y1="90" x2="370" y2="90" stroke="#7c3aed" stroke-width="4"/>
-        <circle cx="60" cy="90" r="10" fill="#7c3aed"/>
-        <text x="60" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">1920/30</text>
-        <text x="60" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Rádio</text>
-        <circle cx="160" cy="90" r="10" fill="#7c3aed"/>
-        <text x="160" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">Séc. XX</text>
-        <text x="160" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Chegada da TV</text>
-        <circle cx="260" cy="90" r="10" fill="#7c3aed"/>
-        <text x="260" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">Internet</text>
-        <text x="260" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Smartphones</text>
-        <circle cx="350" cy="90" r="12" fill="#059669"/>
-        <text x="350" y="60" font-size="11" text-anchor="middle" fill="#047857" font-weight="bold">Hoje</text>
-        <text x="350" y="118" font-size="10" text-anchor="middle" fill="#047857" font-weight="bold">Web rádio /</text>
-        <text x="350" y="130" font-size="10" text-anchor="middle" fill="#047857" font-weight="bold">Podcast</text>
-        <text x="200" y="160" font-size="12" text-anchor="middle" fill="#6d28d9" font-style="italic">O rádio atravessa todas as fases: ele permanece.</text>
-      </svg>`
-    },
-    {
-      titulo: "Tema central vs. detalhes",
-      descricao: "Esquema mostrando o tema central do texto no núcleo e os detalhes secundários (TV, internet, podcast) ao redor.",
-      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="220" fill="#faf5ff"/>
-        <circle cx="150" cy="110" r="55" fill="#7c3aed"/>
-        <text x="150" y="102" font-size="11" text-anchor="middle" fill="#fff" font-weight="bold">TEMA CENTRAL</text>
-        <text x="150" y="118" font-size="9" text-anchor="middle" fill="#ede9fe">Permanência e</text>
-        <text x="150" y="130" font-size="9" text-anchor="middle" fill="#ede9fe">reinvenção do rádio</text>
-        <circle cx="60" cy="40" r="30" fill="#c4b5fd"/>
-        <text x="60" y="44" font-size="9" text-anchor="middle" fill="#4c1d95">TV</text>
-        <line x1="90" y1="55" x2="120" y2="80" stroke="#a78bfa" stroke-width="2"/>
-        <circle cx="240" cy="40" r="30" fill="#c4b5fd"/>
-        <text x="240" y="36" font-size="9" text-anchor="middle" fill="#4c1d95">Internet /</text>
-        <text x="240" y="48" font-size="9" text-anchor="middle" fill="#4c1d95">smartphones</text>
-        <line x1="210" y1="55" x2="180" y2="80" stroke="#a78bfa" stroke-width="2"/>
-        <circle cx="60" cy="180" r="30" fill="#c4b5fd"/>
-        <text x="60" y="184" font-size="9" text-anchor="middle" fill="#4c1d95">Radiojornalismo</text>
-        <line x1="90" y1="165" x2="120" y2="140" stroke="#a78bfa" stroke-width="2"/>
-        <circle cx="240" cy="180" r="30" fill="#c4b5fd"/>
-        <text x="240" y="184" font-size="9" text-anchor="middle" fill="#4c1d95">Podcast</text>
-        <line x1="210" y1="165" x2="180" y2="140" stroke="#a78bfa" stroke-width="2"/>
-      </svg>`
-    },
-    {
-      titulo: "Convergência dos meios de comunicação",
-      descricao: "Gráfico conceitual mostrando rádio, TV e internet convergindo para o podcast como continuidade, não ruptura.",
-      svg: `<svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
-        <rect width="320" height="180" fill="#f5f3ff"/>
-        <path d="M 40 30 Q 180 30 280 90" stroke="#7c3aed" stroke-width="3" fill="none"/>
-        <path d="M 40 90 Q 180 90 280 90" stroke="#8b5cf6" stroke-width="3" fill="none"/>
-        <path d="M 40 150 Q 180 150 280 90" stroke="#a78bfa" stroke-width="3" fill="none"/>
-        <circle cx="40" cy="30" r="14" fill="#6d28d9"/>
-        <text x="40" y="15" font-size="10" text-anchor="middle" fill="#4c1d95">Rádio</text>
-        <circle cx="40" cy="90" r="14" fill="#6d28d9"/>
-        <text x="10" y="94" font-size="10" text-anchor="middle" fill="#4c1d95">TV</text>
-        <circle cx="40" cy="150" r="14" fill="#6d28d9"/>
-        <text x="40" y="170" font-size="10" text-anchor="middle" fill="#4c1d95">Internet</text>
-        <circle cx="280" cy="90" r="20" fill="#059669"/>
-        <text x="280" y="86" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">Podcast</text>
-        <text x="280" y="100" font-size="8" text-anchor="middle" fill="#d1fae5">evolução do rádio</text>
-      </svg>`
-    },
-    {
-      titulo: "A citação-síntese do pesquisador da UFU",
-      descricao: "Destaque para a fala final que resume a tese do texto: o rádio se reinventou, não desapareceu.",
-      svg: `<svg viewBox="0 0 340 160" xmlns="http://www.w3.org/2000/svg">
-        <rect width="340" height="160" fill="#ecfdf5" rx="12"/>
-        <text x="20" y="40" font-size="40" fill="#059669" font-family="Georgia, serif">"</text>
-        <text x="170" y="55" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">O podcast é uma continuação,</text>
-        <text x="170" y="75" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">uma evolução natural do rádio.</text>
-        <text x="170" y="95" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">"</text>
-        <line x1="90" y1="115" x2="250" y2="115" stroke="#059669" stroke-width="1"/>
-        <text x="170" y="135" font-size="11" text-anchor="middle" fill="#047857" font-weight="bold">Pesquisador da UFU</text>
-        <text x="170" y="150" font-size="9" text-anchor="middle" fill="#059669">síntese do tema central do texto</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Linha do tempo: a permanência do rádio",
+    "descricao": "Evolução cronológica do rádio até o podcast, destacando que ele nunca desapareceu, apenas se adaptou.",
+    "svg": "<svg viewBox=\"0 0 400 180\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"400\" height=\"180\" fill=\"#0f172a\"/>\n        <line x1=\"30\" y1=\"90\" x2=\"370\" y2=\"90\" stroke=\"#7c3aed\" stroke-width=\"4\"/>\n        <circle cx=\"60\" cy=\"90\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"60\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" fill=\"#ddd6fe\">1920/30</text>\n        <text x=\"60\" y=\"115\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ddd6fe\">Rádio</text>\n        <circle cx=\"160\" cy=\"90\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"160\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" fill=\"#ddd6fe\">Séc. XX</text>\n        <text x=\"160\" y=\"115\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ddd6fe\">Chegada da TV</text>\n        <circle cx=\"260\" cy=\"90\" r=\"10\" fill=\"#7c3aed\"/>\n        <text x=\"260\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" fill=\"#ddd6fe\">Internet</text>\n        <text x=\"260\" y=\"115\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ddd6fe\">Smartphones</text>\n        <circle cx=\"350\" cy=\"90\" r=\"12\" fill=\"#059669\"/>\n        <text x=\"350\" y=\"60\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-weight=\"bold\">Hoje</text>\n        <text x=\"350\" y=\"118\" font-size=\"10\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-weight=\"bold\">Web rádio /</text>\n        <text x=\"350\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-weight=\"bold\">Podcast</text>\n        <text x=\"200\" y=\"160\" font-size=\"12\" text-anchor=\"middle\" fill=\"#6d28d9\" font-style=\"italic\">O rádio atravessa todas as fases: ele permanece.</text>\n      </svg>"
+  },
+  {
+    "titulo": "Tema central vs. detalhes",
+    "descricao": "Esquema mostrando o tema central do texto no núcleo e os detalhes secundários (TV, internet, podcast) ao redor.",
+    "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"220\" fill=\"#0f172a\"/>\n        <circle cx=\"150\" cy=\"110\" r=\"55\" fill=\"#7c3aed\"/>\n        <text x=\"150\" y=\"102\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">TEMA CENTRAL</text>\n        <text x=\"150\" y=\"118\" font-size=\"9\" text-anchor=\"middle\" fill=\"#ede9fe\">Permanência e</text>\n        <text x=\"150\" y=\"130\" font-size=\"9\" text-anchor=\"middle\" fill=\"#ede9fe\">reinvenção do rádio</text>\n        <circle cx=\"60\" cy=\"40\" r=\"30\" fill=\"#c4b5fd\"/>\n        <text x=\"60\" y=\"44\" font-size=\"9\" text-anchor=\"middle\" fill=\"#4c1d95\">TV</text>\n        <line x1=\"90\" y1=\"55\" x2=\"120\" y2=\"80\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <circle cx=\"240\" cy=\"40\" r=\"30\" fill=\"#c4b5fd\"/>\n        <text x=\"240\" y=\"36\" font-size=\"9\" text-anchor=\"middle\" fill=\"#4c1d95\">Internet /</text>\n        <text x=\"240\" y=\"48\" font-size=\"9\" text-anchor=\"middle\" fill=\"#4c1d95\">smartphones</text>\n        <line x1=\"210\" y1=\"55\" x2=\"180\" y2=\"80\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <circle cx=\"60\" cy=\"180\" r=\"30\" fill=\"#c4b5fd\"/>\n        <text x=\"60\" y=\"184\" font-size=\"9\" text-anchor=\"middle\" fill=\"#4c1d95\">Radiojornalismo</text>\n        <line x1=\"90\" y1=\"165\" x2=\"120\" y2=\"140\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <circle cx=\"240\" cy=\"180\" r=\"30\" fill=\"#c4b5fd\"/>\n        <text x=\"240\" y=\"184\" font-size=\"9\" text-anchor=\"middle\" fill=\"#4c1d95\">Podcast</text>\n        <line x1=\"210\" y1=\"165\" x2=\"180\" y2=\"140\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n      </svg>"
+  },
+  {
+    "titulo": "Convergência dos meios de comunicação",
+    "descricao": "Gráfico conceitual mostrando rádio, TV e internet convergindo para o podcast como continuidade, não ruptura.",
+    "svg": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"320\" height=\"180\" fill=\"#0f172a\"/>\n        <path d=\"M 40 30 Q 180 30 280 90\" stroke=\"#7c3aed\" stroke-width=\"3\" fill=\"none\"/>\n        <path d=\"M 40 90 Q 180 90 280 90\" stroke=\"#8b5cf6\" stroke-width=\"3\" fill=\"none\"/>\n        <path d=\"M 40 150 Q 180 150 280 90\" stroke=\"#a78bfa\" stroke-width=\"3\" fill=\"none\"/>\n        <circle cx=\"40\" cy=\"30\" r=\"14\" fill=\"#6d28d9\"/>\n        <text x=\"40\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" fill=\"#c4b5fd\">Rádio</text>\n        <circle cx=\"40\" cy=\"90\" r=\"14\" fill=\"#6d28d9\"/>\n        <text x=\"10\" y=\"94\" font-size=\"10\" text-anchor=\"middle\" fill=\"#c4b5fd\">TV</text>\n        <circle cx=\"40\" cy=\"150\" r=\"14\" fill=\"#6d28d9\"/>\n        <text x=\"40\" y=\"170\" font-size=\"10\" text-anchor=\"middle\" fill=\"#c4b5fd\">Internet</text>\n        <circle cx=\"280\" cy=\"90\" r=\"20\" fill=\"#059669\"/>\n        <text x=\"280\" y=\"86\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">Podcast</text>\n        <text x=\"280\" y=\"100\" font-size=\"8\" text-anchor=\"middle\" fill=\"#d1fae5\">evolução do rádio</text>\n      </svg>"
+  },
+  {
+    "titulo": "A citação-síntese do pesquisador da UFU",
+    "descricao": "Destaque para a fala final que resume a tese do texto: o rádio se reinventou, não desapareceu.",
+    "svg": "<svg viewBox=\"0 0 340 160\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"340\" height=\"160\" fill=\"#0f172a\" rx=\"12\"/>\n        <text x=\"20\" y=\"40\" font-size=\"40\" fill=\"#34d399\" font-family=\"Georgia, serif\">\"</text>\n        <text x=\"170\" y=\"55\" font-size=\"13\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-style=\"italic\">O podcast é uma continuação,</text>\n        <text x=\"170\" y=\"75\" font-size=\"13\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-style=\"italic\">uma evolução natural do rádio.</text>\n        <text x=\"170\" y=\"95\" font-size=\"13\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-style=\"italic\">\"</text>\n        <line x1=\"90\" y1=\"115\" x2=\"250\" y2=\"115\" stroke=\"#059669\" stroke-width=\"1\"/>\n        <text x=\"170\" y=\"135\" font-size=\"11\" text-anchor=\"middle\" fill=\"#6ee7b7\" font-weight=\"bold\">Pesquisador da UFU</text>\n        <text x=\"170\" y=\"150\" font-size=\"9\" text-anchor=\"middle\" fill=\"#34d399\">síntese do tema central do texto</text>\n      </svg>"
+  }
+],
 
   simulador: {
     titulo: "Extrator de Tema Central",
@@ -36608,113 +35944,27 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
   </section>
 </div>`,
   galeria: [
-    {
-      titulo: "Mapa de Personagens da Pensão",
-      descricao: "Esquema dos personagens da pensão com seus traços irônicos destacados pelo narrador.",
-      svg: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
-  <rect width="400" height="300" fill="#faf5ff"/>
-  <circle cx="100" cy="80" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
-  <text x="100" y="75" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Coronel</text>
-  <text x="100" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Juventino</text>
-  <text x="100" y="140" text-anchor="middle" font-size="9" fill="#6d28d9">"tremor lúbrico"</text>
-  <text x="100" y="154" text-anchor="middle" font-size="9" fill="#6d28d9">"olhinhos pestanejando"</text>
-  <text x="100" y="168" text-anchor="middle" font-size="9" fill="#b91c1c" font-style="italic">hipócrita devoto</text>
-
-  <circle cx="300" cy="80" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
-  <text x="300" y="75" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Viúva de</text>
-  <text x="300" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Ferreira</text>
-  <text x="300" y="140" text-anchor="middle" font-size="9" fill="#6d28d9">"mão repolhuda"</text>
-  <text x="300" y="154" text-anchor="middle" font-size="9" fill="#6d28d9">tira caspas do paletó</text>
-  <text x="300" y="168" text-anchor="middle" font-size="9" fill="#b91c1c" font-style="italic">servil interesseira</text>
-
-  <circle cx="100" cy="230" r="36" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="100" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Gilberto</text>
-  <text x="100" y="242" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">cândido</text>
-
-  <circle cx="300" cy="230" r="36" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
-  <text x="300" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Celina</text>
-  <text x="300" y="242" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">dúbia</text>
-
-  <line x1="100" y1="194" x2="100" y2="266" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
-  <line x1="300" y1="194" x2="300" y2="266" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
-  <line x1="136" y1="230" x2="264" y2="230" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
-  <text x="200" y="220" text-anchor="middle" font-size="9" fill="#7c3aed">namoro incerto</text>
-</svg>`
-    },
-    {
-      titulo: "Do Humor à Crítica Moral",
-      descricao: "Esquema do tom narrativo do trecho, do detalhe cômico à condenação moral velada.",
-      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
-  <rect width="400" height="220" fill="#faf5ff"/>
-  <line x1="30" y1="110" x2="370" y2="110" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrow)"/>
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
-    </marker>
-  </defs>
-  <circle cx="60" cy="110" r="8" fill="#a78bfa"/>
-  <text x="60" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Detalhe cômico</text>
-  <text x="60" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">"bantas moles"</text>
-
-  <circle cx="170" cy="110" r="8" fill="#a78bfa"/>
-  <text x="170" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Ironia</text>
-  <text x="170" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">devoto x lúbrico</text>
-
-  <circle cx="280" cy="110" r="8" fill="#a78bfa"/>
-  <text x="280" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Reação social</text>
-  <text x="280" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">riso "à socapa"</text>
-
-  <circle cx="350" cy="110" r="10" fill="#7c3aed"/>
-  <text x="350" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Escárnio</text>
-  <text x="350" y="150" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="bold">crítica moral</text>
-</svg>`
-    },
-    {
-      titulo: "Linha do Diálogo Final",
-      descricao: "O diálogo entre o Coronel e a viúva anotado com as marcas de ironia narrativa.",
-      svg: `<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
-  <rect width="420" height="260" fill="#faf5ff"/>
-  <rect x="20" y="20" width="380" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
-  <text x="30" y="40" font-size="9" fill="#3b0764">— A senhora não se esquece que amanhã é</text>
-  <text x="30" y="54" font-size="9" fill="#3b0764">domingo... Leve-me cedo o café, hein!...</text>
-  <text x="30" y="68" font-size="9" fill="#3b0764">que eu tenho de ir à missa...</text>
-  <text x="405" y="50" font-size="8" fill="#b91c1c" text-anchor="end" writing-mode="vertical-rl">falsa devoção ↑</text>
-
-  <rect x="20" y="100" width="380" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
-  <text x="30" y="120" font-size="9" fill="#3b0764">— Pois não, pois não, Coronel! Fique</text>
-  <text x="30" y="134" font-size="9" fill="#3b0764">descansado — respondia a viúva, muito</text>
-  <text x="30" y="148" font-size="9" fill="#3b0764">atenciosamente, tirando-lhe caspas do paletó...</text>
-  <text x="405" y="130" font-size="8" fill="#b91c1c" text-anchor="end" writing-mode="vertical-rl">bajulação interesseira ↑</text>
-
-  <rect x="20" y="180" width="380" height="50" rx="8" fill="#fef2f2" stroke="#dc2626"/>
-  <text x="30" y="202" font-size="9" fill="#7f1d1d">Os outros hóspedes riam-se à socapa...</text>
-  <text x="30" y="216" font-size="9" fill="#7f1d1d">e no domingo o café não faltava.</text>
-  <text x="380" y="210" font-size="8" fill="#b91c1c" font-weight="bold" text-anchor="end">confirma o escárnio</text>
-</svg>`
-    },
-    {
-      titulo: "Descrição Neutra vs. Descrição Irônica",
-      descricao: "Comparativo entre uma descrição neutra hipotética e a descrição irônica efetivamente usada pelo narrador.",
-      svg: `<svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
-  <rect width="420" height="220" fill="#faf5ff"/>
-  <rect x="15" y="20" width="190" height="180" rx="8" fill="#f3f4f6" stroke="#9ca3af"/>
-  <text x="110" y="40" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">Descrição neutra</text>
-  <text x="25" y="65" font-size="9" fill="#374151">"O Coronel pediu o café</text>
-  <text x="25" y="78" font-size="9" fill="#374151">para ir à missa."</text>
-  <text x="25" y="105" font-size="9" fill="#374151">"A viúva concordou e</text>
-  <text x="25" y="118" font-size="9" fill="#374151">ajeitou o paletó dele."</text>
-  <text x="110" y="170" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">sem juízo de valor</text>
-
-  <rect x="215" y="20" width="190" height="180" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
-  <text x="310" y="40" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Descrição irônica (texto)</text>
-  <text x="225" y="65" font-size="9" fill="#3b0764">"tremor lúbrico nas bantas</text>
-  <text x="225" y="78" font-size="9" fill="#3b0764">moles", "olhinhos pestanejando"</text>
-  <text x="225" y="105" font-size="9" fill="#3b0764">"mão repolhuda", "tirando-lhe</text>
-  <text x="225" y="118" font-size="9" fill="#3b0764">caspas", "atenciosamente"</text>
-  <text x="310" y="170" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="bold">expõe hipocrisia/interesse</text>
-</svg>`
-    }
-  ],
+  {
+    "titulo": "Mapa de Personagens da Pensão",
+    "descricao": "Esquema dos personagens da pensão com seus traços irônicos destacados pelo narrador.",
+    "svg": "<svg viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:auto;font-family:sans-serif;\">\n  <rect width=\"400\" height=\"300\" fill=\"#0f172a\"/>\n  <circle cx=\"100\" cy=\"80\" r=\"42\" fill=\"#4c1d95\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"75\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ede9fe\">Coronel</text>\n  <text x=\"100\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ede9fe\">Juventino</text>\n  <text x=\"100\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">\"tremor lúbrico\"</text>\n  <text x=\"100\" y=\"154\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">\"olhinhos pestanejando\"</text>\n  <text x=\"100\" y=\"168\" text-anchor=\"middle\" font-size=\"9\" fill=\"#f87171\" font-style=\"italic\">hipócrita devoto</text>\n\n  <circle cx=\"300\" cy=\"80\" r=\"42\" fill=\"#4c1d95\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"75\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ede9fe\">Viúva de</text>\n  <text x=\"300\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"bold\" fill=\"#ede9fe\">Ferreira</text>\n  <text x=\"300\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">\"mão repolhuda\"</text>\n  <text x=\"300\" y=\"154\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">tira caspas do paletó</text>\n  <text x=\"300\" y=\"168\" text-anchor=\"middle\" font-size=\"9\" fill=\"#f87171\" font-style=\"italic\">servil interesseira</text>\n\n  <circle cx=\"100\" cy=\"230\" r=\"36\" fill=\"#5b21b6\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n  <text x=\"100\" y=\"228\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#ede9fe\">Gilberto</text>\n  <text x=\"100\" y=\"242\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\" font-style=\"italic\">cândido</text>\n\n  <circle cx=\"300\" cy=\"230\" r=\"36\" fill=\"#5b21b6\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n  <text x=\"300\" y=\"228\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#ede9fe\">Celina</text>\n  <text x=\"300\" y=\"242\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\" font-style=\"italic\">dúbia</text>\n\n  <line x1=\"100\" y1=\"194\" x2=\"100\" y2=\"266\" stroke=\"#a78bfa\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/>\n  <line x1=\"300\" y1=\"194\" x2=\"300\" y2=\"266\" stroke=\"#a78bfa\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/>\n  <line x1=\"136\" y1=\"230\" x2=\"264\" y2=\"230\" stroke=\"#a78bfa\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/>\n  <text x=\"200\" y=\"220\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">namoro incerto</text>\n</svg>"
+  },
+  {
+    "titulo": "Do Humor à Crítica Moral",
+    "descricao": "Esquema do tom narrativo do trecho, do detalhe cômico à condenação moral velada.",
+    "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:auto;font-family:sans-serif;\">\n  <rect width=\"400\" height=\"220\" fill=\"#0f172a\"/>\n  <line x1=\"30\" y1=\"110\" x2=\"370\" y2=\"110\" stroke=\"#a78bfa\" stroke-width=\"3\" marker-end=\"url(#arrow)\"/>\n  <defs>\n    <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\">\n      <path d=\"M0,0 L8,3 L0,6 Z\" fill=\"#a78bfa\"/>\n    </marker>\n  </defs>\n  <circle cx=\"60\" cy=\"110\" r=\"8\" fill=\"#a78bfa\"/>\n  <text x=\"60\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#e2e8f0\">Detalhe cômico</text>\n  <text x=\"60\" y=\"135\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">\"bantas moles\"</text>\n\n  <circle cx=\"170\" cy=\"110\" r=\"8\" fill=\"#a78bfa\"/>\n  <text x=\"170\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#e2e8f0\">Ironia</text>\n  <text x=\"170\" y=\"135\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">devoto x lúbrico</text>\n\n  <circle cx=\"280\" cy=\"110\" r=\"8\" fill=\"#a78bfa\"/>\n  <text x=\"280\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#e2e8f0\">Reação social</text>\n  <text x=\"280\" y=\"135\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">riso \"à socapa\"</text>\n\n  <circle cx=\"350\" cy=\"110\" r=\"10\" fill=\"#8b5cf6\"/>\n  <text x=\"350\" y=\"90\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#e2e8f0\">Escárnio</text>\n  <text x=\"350\" y=\"150\" text-anchor=\"middle\" font-size=\"9\" fill=\"#f87171\" font-weight=\"bold\">crítica moral</text>\n</svg>"
+  },
+  {
+    "titulo": "Linha do Diálogo Final",
+    "descricao": "O diálogo entre o Coronel e a viúva anotado com as marcas de ironia narrativa.",
+    "svg": "<svg viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:auto;font-family:sans-serif;\">\n  <rect width=\"420\" height=\"260\" fill=\"#0f172a\"/>\n  <rect x=\"20\" y=\"20\" width=\"380\" height=\"60\" rx=\"8\" fill=\"#2e1065\" stroke=\"#8b5cf6\"/>\n  <text x=\"30\" y=\"40\" font-size=\"9\" fill=\"#ede9fe\">— A senhora não se esquece que amanhã é</text>\n  <text x=\"30\" y=\"54\" font-size=\"9\" fill=\"#ede9fe\">domingo... Leve-me cedo o café, hein!...</text>\n  <text x=\"30\" y=\"68\" font-size=\"9\" fill=\"#ede9fe\">que eu tenho de ir à missa...</text>\n  <text x=\"405\" y=\"50\" font-size=\"8\" fill=\"#f87171\" text-anchor=\"end\" writing-mode=\"vertical-rl\">falsa devoção ↑</text>\n\n  <rect x=\"20\" y=\"100\" width=\"380\" height=\"60\" rx=\"8\" fill=\"#2e1065\" stroke=\"#8b5cf6\"/>\n  <text x=\"30\" y=\"120\" font-size=\"9\" fill=\"#ede9fe\">— Pois não, pois não, Coronel! Fique</text>\n  <text x=\"30\" y=\"134\" font-size=\"9\" fill=\"#ede9fe\">descansado — respondia a viúva, muito</text>\n  <text x=\"30\" y=\"148\" font-size=\"9\" fill=\"#ede9fe\">atenciosamente, tirando-lhe caspas do paletó...</text>\n  <text x=\"405\" y=\"130\" font-size=\"8\" fill=\"#f87171\" text-anchor=\"end\" writing-mode=\"vertical-rl\">bajulação interesseira ↑</text>\n\n  <rect x=\"20\" y=\"180\" width=\"380\" height=\"50\" rx=\"8\" fill=\"#450a0a\" stroke=\"#ef4444\"/>\n  <text x=\"30\" y=\"202\" font-size=\"9\" fill=\"#fecaca\">Os outros hóspedes riam-se à socapa...</text>\n  <text x=\"30\" y=\"216\" font-size=\"9\" fill=\"#fecaca\">e no domingo o café não faltava.</text>\n  <text x=\"380\" y=\"210\" font-size=\"8\" fill=\"#f87171\" font-weight=\"bold\" text-anchor=\"end\">confirma o escárnio</text>\n</svg>"
+  },
+  {
+    "titulo": "Descrição Neutra vs. Descrição Irônica",
+    "descricao": "Comparativo entre uma descrição neutra hipotética e a descrição irônica efetivamente usada pelo narrador.",
+    "svg": "<svg viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:100%;height:auto;font-family:sans-serif;\">\n  <rect width=\"420\" height=\"220\" fill=\"#0f172a\"/>\n  <rect x=\"15\" y=\"20\" width=\"190\" height=\"180\" rx=\"8\" fill=\"#1e293b\" stroke=\"#64748b\"/>\n  <text x=\"110\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#e2e8f0\">Descrição neutra</text>\n  <text x=\"25\" y=\"65\" font-size=\"9\" fill=\"#e2e8f0\">\"O Coronel pediu o café</text>\n  <text x=\"25\" y=\"78\" font-size=\"9\" fill=\"#e2e8f0\">para ir à missa.\"</text>\n  <text x=\"25\" y=\"105\" font-size=\"9\" fill=\"#e2e8f0\">\"A viúva concordou e</text>\n  <text x=\"25\" y=\"118\" font-size=\"9\" fill=\"#e2e8f0\">ajeitou o paletó dele.\"</text>\n  <text x=\"110\" y=\"170\" text-anchor=\"middle\" font-size=\"9\" fill=\"#94a3b8\" font-style=\"italic\">sem juízo de valor</text>\n\n  <rect x=\"215\" y=\"20\" width=\"190\" height=\"180\" rx=\"8\" fill=\"#2e1065\" stroke=\"#8b5cf6\"/>\n  <text x=\"310\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"bold\" fill=\"#ede9fe\">Descrição irônica (texto)</text>\n  <text x=\"225\" y=\"65\" font-size=\"9\" fill=\"#ede9fe\">\"tremor lúbrico nas bantas</text>\n  <text x=\"225\" y=\"78\" font-size=\"9\" fill=\"#ede9fe\">moles\", \"olhinhos pestanejando\"</text>\n  <text x=\"225\" y=\"105\" font-size=\"9\" fill=\"#ede9fe\">\"mão repolhuda\", \"tirando-lhe</text>\n  <text x=\"225\" y=\"118\" font-size=\"9\" fill=\"#ede9fe\">caspas\", \"atenciosamente\"</text>\n  <text x=\"310\" y=\"170\" text-anchor=\"middle\" font-size=\"9\" fill=\"#f87171\" font-weight=\"bold\">expõe hipocrisia/interesse</text>\n</svg>"
+  }
+],
   simulador: {
     titulo: "Detector de Ironia Narrativa",
     descricao: "Clique nos trechos descritivos dos personagens e descubra o que cada detalhe revela ironicamente sobre o caráter deles.",
@@ -36868,88 +36118,27 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     </div>
   `,
   galeria: [
-    {
-      titulo: "Reconstrução do banco-tatu Kamayurá",
-      descricao: "Ilustração estilizada da escultura em madeira que representa o tatu, mostrando o casco segmentado e as patas curtas que servem de apoio ao assento.",
-      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="200" fill="#faf5ff"/>
-        <ellipse cx="150" cy="150" rx="110" ry="12" fill="#e9d5ff" opacity="0.6"/>
-        <g stroke="#5b21b6" stroke-width="3" fill="#a78bfa">
-          <path d="M60 140 Q60 90 150 80 Q240 90 240 140 Q240 155 150 158 Q60 155 60 140 Z"/>
-          <path d="M75 95 Q150 78 225 95" fill="none" stroke="#4c1d95" stroke-width="2"/>
-          <path d="M85 108 Q150 92 215 108" fill="none" stroke="#4c1d95" stroke-width="2"/>
-          <path d="M78 122 Q150 106 222 122" fill="none" stroke="#4c1d95" stroke-width="2"/>
-          <ellipse cx="55" cy="105" rx="18" ry="14" fill="#8b5cf6"/>
-          <rect x="70" y="150" width="12" height="30" fill="#5b21b6"/>
-          <rect x="120" y="155" width="12" height="30" fill="#5b21b6"/>
-          <rect x="170" y="155" width="12" height="30" fill="#5b21b6"/>
-          <rect x="215" y="150" width="12" height="30" fill="#5b21b6"/>
-        </g>
-        <text x="150" y="195" text-anchor="middle" font-size="11" fill="#5b21b6" font-family="sans-serif">Banco esculpido em forma de tatu</text>
-      </svg>`
-    },
-    {
-      titulo: "Esquema mito-objeto-natureza",
-      descricao: "Diagrama mostrando a relação entre o mito de origem Tukano (Texto I), o objeto sagrado (banco) e o elemento da natureza (fauna) representado.",
-      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="200" fill="#faf5ff"/>
-        <circle cx="70" cy="60" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
-        <text x="70" y="55" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">Mito de</text>
-        <text x="70" y="69" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">origem</text>
-        <circle cx="150" cy="150" r="42" fill="#a78bfa" stroke="#6d28d9" stroke-width="2"/>
-        <text x="150" y="145" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">Objeto</text>
-        <text x="150" y="159" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">sagrado</text>
-        <circle cx="230" cy="60" r="42" fill="#8b5cf6" stroke="#6d28d9" stroke-width="2"/>
-        <text x="230" y="55" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">Natureza</text>
-        <text x="230" y="69" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">(fauna)</text>
-        <line x1="95" y1="90" x2="130" y2="125" stroke="#5b21b6" stroke-width="2" marker-end="url(#arrow1)"/>
-        <line x1="205" y1="90" x2="170" y2="125" stroke="#5b21b6" stroke-width="2" marker-end="url(#arrow1)"/>
-        <defs>
-          <marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-            <path d="M0,0 L8,4 L0,8 Z" fill="#5b21b6"/>
-          </marker>
-        </defs>
-      </svg>`
-    },
-    {
-      titulo: "Linha do tempo: 7 mil anos de tradição",
-      descricao: "Linha do tempo simplificada da arte de talhar bancos entre povos ameríndios, desde os primeiros registros até a produção atual.",
-      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="160" fill="#faf5ff"/>
-        <line x1="30" y1="90" x2="270" y2="90" stroke="#6d28d9" stroke-width="3"/>
-        <circle cx="40" cy="90" r="7" fill="#5b21b6"/>
-        <text x="40" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">~7 mil</text>
-        <text x="40" y="127" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">anos atrás</text>
-        <circle cx="150" cy="90" r="7" fill="#7c3aed"/>
-        <text x="150" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">~4 mil</text>
-        <text x="150" y="127" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">anos atrás</text>
-        <circle cx="260" cy="90" r="7" fill="#a78bfa"/>
-        <text x="260" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">Atualidade</text>
-        <text x="150" y="40" text-anchor="middle" font-size="12" fill="#5b21b6" font-family="sans-serif" font-weight="bold">Tradição de talhar bancos</text>
-        <text x="40" y="70" text-anchor="middle" font-size="9" fill="#6d28d9" font-family="sans-serif">1ºs registros</text>
-        <text x="260" y="70" text-anchor="middle" font-size="9" fill="#6d28d9" font-family="sans-serif">povo Tukano</text>
-      </svg>`
-    },
-    {
-      titulo: "Duas visões sobre a natureza",
-      descricao: "Comparativo visual entre a visão utilitarista/de domínio sobre a natureza e a visão sagrada/ancestral presente nos textos da questão.",
-      svg: `<svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="180" fill="#faf5ff"/>
-        <rect x="15" y="20" width="125" height="140" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
-        <text x="77" y="45" text-anchor="middle" font-size="11" fill="#5b21b6" font-family="sans-serif" font-weight="bold">Domínio</text>
-        <text x="77" y="60" text-anchor="middle" font-size="10" fill="#5b21b6" font-family="sans-serif">(errado p/ os textos)</text>
-        <text x="77" y="90" text-anchor="middle" font-size="24">✋</text>
-        <text x="77" y="130" text-anchor="middle" font-size="9" fill="#4c1d95" font-family="sans-serif">Natureza</text>
-        <text x="77" y="142" text-anchor="middle" font-size="9" fill="#4c1d95" font-family="sans-serif">subjugada</text>
-        <rect x="160" y="20" width="125" height="140" rx="10" fill="#7c3aed" stroke="#5b21b6" stroke-width="2"/>
-        <text x="222" y="45" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif" font-weight="bold">Sacralidade</text>
-        <text x="222" y="60" text-anchor="middle" font-size="10" fill="#ede9fe" font-family="sans-serif">(correto)</text>
-        <text x="222" y="90" text-anchor="middle" font-size="24">🙏</text>
-        <text x="222" y="130" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">Natureza</text>
-        <text x="222" y="142" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">reverenciada</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Reconstrução do banco-tatu Kamayurá",
+    "descricao": "Ilustração estilizada da escultura em madeira que representa o tatu, mostrando o casco segmentado e as patas curtas que servem de apoio ao assento.",
+    "svg": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"200\" fill=\"#0f172a\"/>\n        <ellipse cx=\"150\" cy=\"150\" rx=\"110\" ry=\"12\" fill=\"#e9d5ff\" opacity=\"0.6\"/>\n        <g stroke=\"#5b21b6\" stroke-width=\"3\" fill=\"#a78bfa\">\n          <path d=\"M60 140 Q60 90 150 80 Q240 90 240 140 Q240 155 150 158 Q60 155 60 140 Z\"/>\n          <path d=\"M75 95 Q150 78 225 95\" fill=\"none\" stroke=\"#4c1d95\" stroke-width=\"2\"/>\n          <path d=\"M85 108 Q150 92 215 108\" fill=\"none\" stroke=\"#4c1d95\" stroke-width=\"2\"/>\n          <path d=\"M78 122 Q150 106 222 122\" fill=\"none\" stroke=\"#4c1d95\" stroke-width=\"2\"/>\n          <ellipse cx=\"55\" cy=\"105\" rx=\"18\" ry=\"14\" fill=\"#8b5cf6\"/>\n          <rect x=\"70\" y=\"150\" width=\"12\" height=\"30\" fill=\"#5b21b6\"/>\n          <rect x=\"120\" y=\"155\" width=\"12\" height=\"30\" fill=\"#5b21b6\"/>\n          <rect x=\"170\" y=\"155\" width=\"12\" height=\"30\" fill=\"#5b21b6\"/>\n          <rect x=\"215\" y=\"150\" width=\"12\" height=\"30\" fill=\"#5b21b6\"/>\n        </g>\n        <text x=\"150\" y=\"195\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\" font-family=\"sans-serif\">Banco esculpido em forma de tatu</text>\n      </svg>"
+  },
+  {
+    "titulo": "Esquema mito-objeto-natureza",
+    "descricao": "Diagrama mostrando a relação entre o mito de origem Tukano (Texto I), o objeto sagrado (banco) e o elemento da natureza (fauna) representado.",
+    "svg": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"200\" fill=\"#0f172a\"/>\n        <circle cx=\"70\" cy=\"60\" r=\"42\" fill=\"#c4b5fd\" stroke=\"#6d28d9\" stroke-width=\"2\"/>\n        <text x=\"70\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" fill=\"#3b0764\" font-family=\"sans-serif\">Mito de</text>\n        <text x=\"70\" y=\"69\" text-anchor=\"middle\" font-size=\"11\" fill=\"#3b0764\" font-family=\"sans-serif\">origem</text>\n        <circle cx=\"150\" cy=\"150\" r=\"42\" fill=\"#a78bfa\" stroke=\"#6d28d9\" stroke-width=\"2\"/>\n        <text x=\"150\" y=\"145\" text-anchor=\"middle\" font-size=\"11\" fill=\"#3b0764\" font-family=\"sans-serif\">Objeto</text>\n        <text x=\"150\" y=\"159\" text-anchor=\"middle\" font-size=\"11\" fill=\"#3b0764\" font-family=\"sans-serif\">sagrado</text>\n        <circle cx=\"230\" cy=\"60\" r=\"42\" fill=\"#8b5cf6\" stroke=\"#6d28d9\" stroke-width=\"2\"/>\n        <text x=\"230\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\" font-family=\"sans-serif\">Natureza</text>\n        <text x=\"230\" y=\"69\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\" font-family=\"sans-serif\">(fauna)</text>\n        <line x1=\"95\" y1=\"90\" x2=\"130\" y2=\"125\" stroke=\"#a78bfa\" stroke-width=\"2\" marker-end=\"url(#arrow1)\"/>\n        <line x1=\"205\" y1=\"90\" x2=\"170\" y2=\"125\" stroke=\"#a78bfa\" stroke-width=\"2\" marker-end=\"url(#arrow1)\"/>\n        <defs>\n          <marker id=\"arrow1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\">\n            <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#a78bfa\"/>\n          </marker>\n        </defs>\n      </svg>"
+  },
+  {
+    "titulo": "Linha do tempo: 7 mil anos de tradição",
+    "descricao": "Linha do tempo simplificada da arte de talhar bancos entre povos ameríndios, desde os primeiros registros até a produção atual.",
+    "svg": "<svg viewBox=\"0 0 300 160\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"160\" fill=\"#0f172a\"/>\n        <line x1=\"30\" y1=\"90\" x2=\"270\" y2=\"90\" stroke=\"#6d28d9\" stroke-width=\"3\"/>\n        <circle cx=\"40\" cy=\"90\" r=\"7\" fill=\"#5b21b6\"/>\n        <text x=\"40\" y=\"115\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\" font-family=\"sans-serif\">~7 mil</text>\n        <text x=\"40\" y=\"127\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\" font-family=\"sans-serif\">anos atrás</text>\n        <circle cx=\"150\" cy=\"90\" r=\"7\" fill=\"#7c3aed\"/>\n        <text x=\"150\" y=\"115\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\" font-family=\"sans-serif\">~4 mil</text>\n        <text x=\"150\" y=\"127\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\" font-family=\"sans-serif\">anos atrás</text>\n        <circle cx=\"260\" cy=\"90\" r=\"7\" fill=\"#a78bfa\"/>\n        <text x=\"260\" y=\"115\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ddd6fe\" font-family=\"sans-serif\">Atualidade</text>\n        <text x=\"150\" y=\"40\" text-anchor=\"middle\" font-size=\"12\" fill=\"#e9d5ff\" font-family=\"sans-serif\" font-weight=\"bold\">Tradição de talhar bancos</text>\n        <text x=\"40\" y=\"70\" text-anchor=\"middle\" font-size=\"9\" fill=\"#6d28d9\" font-family=\"sans-serif\">1ºs registros</text>\n        <text x=\"260\" y=\"70\" text-anchor=\"middle\" font-size=\"9\" fill=\"#6d28d9\" font-family=\"sans-serif\">povo Tukano</text>\n      </svg>"
+  },
+  {
+    "titulo": "Duas visões sobre a natureza",
+    "descricao": "Comparativo visual entre a visão utilitarista/de domínio sobre a natureza e a visão sagrada/ancestral presente nos textos da questão.",
+    "svg": "<svg viewBox=\"0 0 300 180\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"180\" fill=\"#0f172a\"/>\n        <rect x=\"15\" y=\"20\" width=\"125\" height=\"140\" rx=\"10\" fill=\"#3b0764\" stroke=\"#c4b5fd\" stroke-width=\"2\"/>\n        <text x=\"77\" y=\"45\" text-anchor=\"middle\" font-size=\"11\" fill=\"#e9d5ff\" font-family=\"sans-serif\" font-weight=\"bold\">Domínio</text>\n        <text x=\"77\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"#e9d5ff\" font-family=\"sans-serif\">(errado p/ os textos)</text>\n        <text x=\"77\" y=\"90\" text-anchor=\"middle\" font-size=\"24\">✋</text>\n        <text x=\"77\" y=\"130\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\" font-family=\"sans-serif\">Natureza</text>\n        <text x=\"77\" y=\"142\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\" font-family=\"sans-serif\">subjugada</text>\n        <rect x=\"160\" y=\"20\" width=\"125\" height=\"140\" rx=\"10\" fill=\"#7c3aed\" stroke=\"#5b21b6\" stroke-width=\"2\"/>\n        <text x=\"222\" y=\"45\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\" font-family=\"sans-serif\" font-weight=\"bold\">Sacralidade</text>\n        <text x=\"222\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"#ede9fe\" font-family=\"sans-serif\">(correto)</text>\n        <text x=\"222\" y=\"90\" text-anchor=\"middle\" font-size=\"24\">🙏</text>\n        <text x=\"222\" y=\"130\" text-anchor=\"middle\" font-size=\"9\" fill=\"#fff\" font-family=\"sans-serif\">Natureza</text>\n        <text x=\"222\" y=\"142\" text-anchor=\"middle\" font-size=\"9\" fill=\"#fff\" font-family=\"sans-serif\">reverenciada</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Explorador de Bancos Sagrados",
     descricao: "Escolha diferentes animais da fauna indígena e descubra qual nova função cultural cada um ganha ao virar um banco sagrado.",
@@ -37138,128 +36327,27 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     </div>
   `,
   galeria: [
-    {
-      titulo: "Juridiquês vs. Tradução Padrão",
-      descricao: "Comparativo lado a lado mostrando o contraste entre o trecho jurídico hermético e sua versão em linguagem padrão.",
-      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="0" width="400" height="220" fill="#faf5ff"/>
-        <rect x="10" y="15" width="180" height="190" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-        <text x="100" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#5b21b6">JURIDIQUÊS</text>
-        <text x="100" y="62" text-anchor="middle" font-size="9" fill="#5b21b6">"Denego a liminar</text>
-        <text x="100" y="76" text-anchor="middle" font-size="9" fill="#5b21b6">pleiteada na exordial,</text>
-        <text x="100" y="90" text-anchor="middle" font-size="9" fill="#5b21b6">inobstante a oitiva</text>
-        <text x="100" y="104" text-anchor="middle" font-size="9" fill="#5b21b6">da parte adversa..."</text>
-        <text x="100" y="130" text-anchor="middle" font-size="22">🔒</text>
-        <text x="100" y="160" text-anchor="middle" font-size="9" fill="#7c3aed">Hermético</text>
-        <text x="100" y="175" text-anchor="middle" font-size="9" fill="#7c3aed">Latim / jargão</text>
-        <text x="100" y="190" text-anchor="middle" font-size="9" fill="#7c3aed">Restrito a especialistas</text>
-
-        <rect x="210" y="15" width="180" height="190" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
-        <text x="300" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">VARIEDADE PADRÃO</text>
-        <text x="300" y="62" text-anchor="middle" font-size="9" fill="#166534">"Não atendo, por ora,</text>
-        <text x="300" y="76" text-anchor="middle" font-size="9" fill="#166534">a liminar requerida,</text>
-        <text x="300" y="90" text-anchor="middle" font-size="9" fill="#166534">ainda que possa mudar</text>
-        <text x="300" y="104" text-anchor="middle" font-size="9" fill="#166534">após ouvir a outra parte..."</text>
-        <text x="300" y="130" text-anchor="middle" font-size="22">🔓</text>
-        <text x="300" y="160" text-anchor="middle" font-size="9" fill="#16a34a">Claro</text>
-        <text x="300" y="175" text-anchor="middle" font-size="9" fill="#16a34a">Correto e formal</text>
-        <text x="300" y="190" text-anchor="middle" font-size="9" fill="#16a34a">Acessível a todos</text>
-
-        <path d="M190 105 L210 105" stroke="#f59e0b" stroke-width="3" marker-end="url(#arrow042)"/>
-        <defs>
-          <marker id="arrow042" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-            <path d="M0,0 L8,4 L0,8 Z" fill="#f59e0b"/>
-          </marker>
-        </defs>
-      </svg>`
-    },
-    {
-      titulo: "Espectro de Registros Linguísticos",
-      descricao: "Escala visual do registro técnico ao gíria, situando o juridiquês e a variedade padrão na tradução.",
-      svg: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="0" width="400" height="180" fill="#fafafa"/>
-        <line x1="30" y1="90" x2="370" y2="90" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
-        <circle cx="55" cy="90" r="10" fill="#5b21b6"/>
-        <circle cx="150" cy="90" r="10" fill="#8b5cf6"/>
-        <circle cx="245" cy="90" r="10" fill="#c4b5fd"/>
-        <circle cx="340" cy="90" r="10" fill="#f472b6"/>
-
-        <text x="55" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">Técnico</text>
-        <text x="55" y="68" text-anchor="middle" font-size="8" fill="#5b21b6">(juridiquês)</text>
-
-        <text x="150" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#7c3aed">Padrão</text>
-        <text x="150" y="68" text-anchor="middle" font-size="8" fill="#7c3aed">(tradução do texto)</text>
-
-        <text x="245" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#7c3aed">Coloquial</text>
-        <text x="245" y="68" text-anchor="middle" font-size="8" fill="#7c3aed">(fala do dia a dia)</text>
-
-        <text x="340" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#db2777">Gíria</text>
-        <text x="340" y="68" text-anchor="middle" font-size="8" fill="#db2777">(muito informal)</text>
-
-        <text x="55" y="115" text-anchor="middle" font-size="8" fill="#666">exordial, quaestio</text>
-        <text x="150" y="115" text-anchor="middle" font-size="8" fill="#666">"não atendo por ora"</text>
-        <text x="245" y="115" text-anchor="middle" font-size="8" fill="#666">"tá certo, mas..."</text>
-        <text x="340" y="115" text-anchor="middle" font-size="8" fill="#666">"na moral"</text>
-
-        <text x="200" y="150" text-anchor="middle" font-size="10" fill="#8b5cf6" font-weight="700">↑ A tradução do texto fica aqui: PADRÃO ↑</text>
-      </svg>`
-    },
-    {
-      titulo: "Esquema do Efeito de Ironia",
-      descricao: "Diagrama mostrando como o contraste entre registros gera o efeito irônico/humorístico do texto.",
-      svg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="0" width="400" height="200" fill="#fdf4ff"/>
-        <rect x="20" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
-        <text x="95" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">Texto complexo</text>
-        <text x="95" y="60" text-anchor="middle" font-size="9" fill="#5b21b6">("juridiquês")</text>
-
-        <rect x="230" y="20" width="150" height="60" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
-        <text x="305" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#166534">Texto simples</text>
-        <text x="305" y="60" text-anchor="middle" font-size="9" fill="#166534">(variedade padrão)</text>
-
-        <text x="200" y="55" text-anchor="middle" font-size="16" fill="#f59e0b">VS</text>
-
-        <path d="M200 90 L200 115" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arr2)"/>
-        <defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8b5cf6"/></marker></defs>
-
-        <rect x="80" y="120" width="240" height="60" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
-        <text x="200" y="145" text-anchor="middle" font-size="10" font-weight="700" fill="#92400e">CONTRASTE de registros</text>
-        <text x="200" y="160" text-anchor="middle" font-size="9" fill="#92400e">expõe o exagero do juridiquês</text>
-        <text x="200" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">= IRONIA / HUMOR</text>
-      </svg>`
-    },
-    {
-      titulo: "Termômetro de Formalidade",
-      descricao: "Termômetro comparando o grau de formalidade dos dois pares juridiquês/tradução do texto.",
-      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0" y="0" width="400" height="220" fill="#f8fafc"/>
-
-        <text x="100" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#374151">Exemplo 1: liminar</text>
-        <rect x="60" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
-        <rect x="60" y="40" width="20" height="110" rx="10" fill="#7c3aed"/>
-        <text x="70" y="165" text-anchor="middle" font-size="8" fill="#5b21b6">juridiquês</text>
-        <text x="70" y="176" text-anchor="middle" font-size="8" fill="#5b21b6">(muito formal/técnico)</text>
-
-        <rect x="120" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
-        <rect x="120" y="95" width="20" height="55" rx="10" fill="#16a34a"/>
-        <text x="130" y="165" text-anchor="middle" font-size="8" fill="#166534">tradução</text>
-        <text x="130" y="176" text-anchor="middle" font-size="8" fill="#166534">(padrão / acessível)</text>
-
-        <text x="300" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#374151">Exemplo 2: PEC 269</text>
-        <rect x="260" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
-        <rect x="260" y="35" width="20" height="115" rx="10" fill="#7c3aed"/>
-        <text x="270" y="165" text-anchor="middle" font-size="8" fill="#5b21b6">juridiquês</text>
-        <text x="270" y="176" text-anchor="middle" font-size="8" fill="#5b21b6">(muito formal/técnico)</text>
-
-        <rect x="320" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
-        <rect x="320" y="100" width="20" height="50" rx="10" fill="#16a34a"/>
-        <text x="330" y="165" text-anchor="middle" font-size="8" fill="#166534">tradução</text>
-        <text x="330" y="176" text-anchor="middle" font-size="8" fill="#166534">(padrão / acessível)</text>
-
-        <text x="200" y="200" text-anchor="middle" font-size="10" fill="#f59e0b" font-weight="700">A queda no termômetro = o efeito irônico do texto</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "Juridiquês vs. Tradução Padrão",
+    "descricao": "Comparativo lado a lado mostrando o contraste entre o trecho jurídico hermético e sua versão em linguagem padrão.",
+    "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"220\" fill=\"#0f172a\"/>\n        <rect x=\"10\" y=\"15\" width=\"180\" height=\"190\" rx=\"10\" fill=\"#2e1065\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n        <text x=\"100\" y=\"40\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#ddd6fe\">JURIDIQUÊS</text>\n        <text x=\"100\" y=\"62\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ddd6fe\">\"Denego a liminar</text>\n        <text x=\"100\" y=\"76\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ddd6fe\">pleiteada na exordial,</text>\n        <text x=\"100\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ddd6fe\">inobstante a oitiva</text>\n        <text x=\"100\" y=\"104\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ddd6fe\">da parte adversa...\"</text>\n        <text x=\"100\" y=\"130\" text-anchor=\"middle\" font-size=\"22\">🔒</text>\n        <text x=\"100\" y=\"160\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">Hermético</text>\n        <text x=\"100\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">Latim / jargão</text>\n        <text x=\"100\" y=\"190\" text-anchor=\"middle\" font-size=\"9\" fill=\"#c4b5fd\">Restrito a especialistas</text>\n\n        <rect x=\"210\" y=\"15\" width=\"180\" height=\"190\" rx=\"10\" fill=\"#052e16\" stroke=\"#22c55e\" stroke-width=\"2\"/>\n        <text x=\"300\" y=\"40\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#bbf7d0\">VARIEDADE PADRÃO</text>\n        <text x=\"300\" y=\"62\" text-anchor=\"middle\" font-size=\"9\" fill=\"#bbf7d0\">\"Não atendo, por ora,</text>\n        <text x=\"300\" y=\"76\" text-anchor=\"middle\" font-size=\"9\" fill=\"#bbf7d0\">a liminar requerida,</text>\n        <text x=\"300\" y=\"90\" text-anchor=\"middle\" font-size=\"9\" fill=\"#bbf7d0\">ainda que possa mudar</text>\n        <text x=\"300\" y=\"104\" text-anchor=\"middle\" font-size=\"9\" fill=\"#bbf7d0\">após ouvir a outra parte...\"</text>\n        <text x=\"300\" y=\"130\" text-anchor=\"middle\" font-size=\"22\">🔓</text>\n        <text x=\"300\" y=\"160\" text-anchor=\"middle\" font-size=\"9\" fill=\"#86efac\">Claro</text>\n        <text x=\"300\" y=\"175\" text-anchor=\"middle\" font-size=\"9\" fill=\"#86efac\">Correto e formal</text>\n        <text x=\"300\" y=\"190\" text-anchor=\"middle\" font-size=\"9\" fill=\"#86efac\">Acessível a todos</text>\n\n        <path d=\"M190 105 L210 105\" stroke=\"#f59e0b\" stroke-width=\"3\" marker-end=\"url(#arrow042)\"/>\n        <defs>\n          <marker id=\"arrow042\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\">\n            <path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#f59e0b\"/>\n          </marker>\n        </defs>\n      </svg>"
+  },
+  {
+    "titulo": "Espectro de Registros Linguísticos",
+    "descricao": "Escala visual do registro técnico ao gíria, situando o juridiquês e a variedade padrão na tradução.",
+    "svg": "<svg viewBox=\"0 0 400 180\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"180\" fill=\"#0f172a\"/>\n        <line x1=\"30\" y1=\"90\" x2=\"370\" y2=\"90\" stroke=\"#a78bfa\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n        <circle cx=\"55\" cy=\"90\" r=\"10\" fill=\"#7c3aed\"/>\n        <circle cx=\"150\" cy=\"90\" r=\"10\" fill=\"#8b5cf6\"/>\n        <circle cx=\"245\" cy=\"90\" r=\"10\" fill=\"#c4b5fd\"/>\n        <circle cx=\"340\" cy=\"90\" r=\"10\" fill=\"#f472b6\"/>\n\n        <text x=\"55\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#a78bfa\">Técnico</text>\n        <text x=\"55\" y=\"68\" text-anchor=\"middle\" font-size=\"8\" fill=\"#a78bfa\">(juridiquês)</text>\n\n        <text x=\"150\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#c4b5fd\">Padrão</text>\n        <text x=\"150\" y=\"68\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">(tradução do texto)</text>\n\n        <text x=\"245\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#c4b5fd\">Coloquial</text>\n        <text x=\"245\" y=\"68\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">(fala do dia a dia)</text>\n\n        <text x=\"340\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#f9a8d4\">Gíria</text>\n        <text x=\"340\" y=\"68\" text-anchor=\"middle\" font-size=\"8\" fill=\"#f9a8d4\">(muito informal)</text>\n\n        <text x=\"55\" y=\"115\" text-anchor=\"middle\" font-size=\"8\" fill=\"#94a3b8\">exordial, quaestio</text>\n        <text x=\"150\" y=\"115\" text-anchor=\"middle\" font-size=\"8\" fill=\"#94a3b8\">\"não atendo por ora\"</text>\n        <text x=\"245\" y=\"115\" text-anchor=\"middle\" font-size=\"8\" fill=\"#94a3b8\">\"tá certo, mas...\"</text>\n        <text x=\"340\" y=\"115\" text-anchor=\"middle\" font-size=\"8\" fill=\"#94a3b8\">\"na moral\"</text>\n\n        <text x=\"200\" y=\"150\" text-anchor=\"middle\" font-size=\"10\" fill=\"#a78bfa\" font-weight=\"700\">↑ A tradução do texto fica aqui: PADRÃO ↑</text>\n      </svg>"
+  },
+  {
+    "titulo": "Esquema do Efeito de Ironia",
+    "descricao": "Diagrama mostrando como o contraste entre registros gera o efeito irônico/humorístico do texto.",
+    "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"200\" fill=\"#0f172a\"/>\n        <rect x=\"20\" y=\"20\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#2e1065\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n        <text x=\"95\" y=\"45\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#ddd6fe\">Texto complexo</text>\n        <text x=\"95\" y=\"60\" text-anchor=\"middle\" font-size=\"9\" fill=\"#ddd6fe\">(\"juridiquês\")</text>\n\n        <rect x=\"230\" y=\"20\" width=\"150\" height=\"60\" rx=\"8\" fill=\"#052e16\" stroke=\"#22c55e\" stroke-width=\"2\"/>\n        <text x=\"305\" y=\"45\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#bbf7d0\">Texto simples</text>\n        <text x=\"305\" y=\"60\" text-anchor=\"middle\" font-size=\"9\" fill=\"#bbf7d0\">(variedade padrão)</text>\n\n        <text x=\"200\" y=\"55\" text-anchor=\"middle\" font-size=\"16\" fill=\"#f59e0b\">VS</text>\n\n        <path d=\"M200 90 L200 115\" stroke=\"#8b5cf6\" stroke-width=\"2\" marker-end=\"url(#arr2)\"/>\n        <defs><marker id=\"arr2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 Z\" fill=\"#8b5cf6\"/></marker></defs>\n\n        <rect x=\"80\" y=\"120\" width=\"240\" height=\"60\" rx=\"8\" fill=\"#451a03\" stroke=\"#f59e0b\" stroke-width=\"2\"/>\n        <text x=\"200\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#fde68a\">CONTRASTE de registros</text>\n        <text x=\"200\" y=\"160\" text-anchor=\"middle\" font-size=\"9\" fill=\"#fde68a\">expõe o exagero do juridiquês</text>\n        <text x=\"200\" y=\"172\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#fbbf24\">= IRONIA / HUMOR</text>\n      </svg>"
+  },
+  {
+    "titulo": "Termômetro de Formalidade",
+    "descricao": "Termômetro comparando o grau de formalidade dos dois pares juridiquês/tradução do texto.",
+    "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"0\" y=\"0\" width=\"400\" height=\"220\" fill=\"#0f172a\"/>\n\n        <text x=\"100\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#e2e8f0\">Exemplo 1: liminar</text>\n        <rect x=\"60\" y=\"30\" width=\"20\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#64748b\"/>\n        <rect x=\"60\" y=\"40\" width=\"20\" height=\"110\" rx=\"10\" fill=\"#8b5cf6\"/>\n        <text x=\"70\" y=\"165\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">juridiquês</text>\n        <text x=\"70\" y=\"176\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">(muito formal/técnico)</text>\n\n        <rect x=\"120\" y=\"30\" width=\"20\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#64748b\"/>\n        <rect x=\"120\" y=\"95\" width=\"20\" height=\"55\" rx=\"10\" fill=\"#22c55e\"/>\n        <text x=\"130\" y=\"165\" text-anchor=\"middle\" font-size=\"8\" fill=\"#86efac\">tradução</text>\n        <text x=\"130\" y=\"176\" text-anchor=\"middle\" font-size=\"8\" fill=\"#86efac\">(padrão / acessível)</text>\n\n        <text x=\"300\" y=\"20\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"#e2e8f0\">Exemplo 2: PEC 269</text>\n        <rect x=\"260\" y=\"30\" width=\"20\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#64748b\"/>\n        <rect x=\"260\" y=\"35\" width=\"20\" height=\"115\" rx=\"10\" fill=\"#8b5cf6\"/>\n        <text x=\"270\" y=\"165\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">juridiquês</text>\n        <text x=\"270\" y=\"176\" text-anchor=\"middle\" font-size=\"8\" fill=\"#c4b5fd\">(muito formal/técnico)</text>\n\n        <rect x=\"320\" y=\"30\" width=\"20\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#64748b\"/>\n        <rect x=\"320\" y=\"100\" width=\"20\" height=\"50\" rx=\"10\" fill=\"#22c55e\"/>\n        <text x=\"330\" y=\"165\" text-anchor=\"middle\" font-size=\"8\" fill=\"#86efac\">tradução</text>\n        <text x=\"330\" y=\"176\" text-anchor=\"middle\" font-size=\"8\" fill=\"#86efac\">(padrão / acessível)</text>\n\n        <text x=\"200\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#f59e0b\" font-weight=\"700\">A queda no termômetro = o efeito irônico do texto</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Tradutor de Juridiquês",
     descricao: "Leia a frase em juridiquês e escolha a alternativa que representa a variedade PADRÃO — clara, correta e acessível ao público em geral.",
@@ -37456,104 +36544,27 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
 <p>Bancas como o ENEM costumam colocar como alternativas erradas <strong>detalhes verdadeiros do texto</strong> que não respondem à pergunta sobre a <strong>função social</strong> ou a <strong>tese central</strong> do gênero. Um dado factual (quantas famílias, qual estudo foi feito) pode estar corretíssimo e mesmo assim ser uma resposta errada, porque a pergunta busca o propósito maior da reportagem, não um detalhe pontual dentro dela. Sempre confronte a alternativa com a ideia que abre e fecha o texto.</p>
 </div>`,
   galeria: [
-    {
-      titulo: "Linha do tempo da Cacique Pequena",
-      descricao: "Marcos da trajetória de Maria de Lourdes da Conceição Alves, da ruptura da tradição em 1995 até a preparação das filhas para a sucessão.",
-      svg: `<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
-<rect width="600" height="220" fill="#f5f3ff"/>
-<line x1="50" y1="110" x2="550" y2="110" stroke="#7c3aed" stroke-width="4"/>
-<circle cx="90" cy="110" r="12" fill="#7c3aed"/>
-<circle cx="280" cy="110" r="12" fill="#7c3aed"/>
-<circle cx="470" cy="110" r="12" fill="#7c3aed"/>
-<text x="90" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">1995</text>
-<text x="90" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Ruptura da sucessão</text>
-<text x="90" y="103" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">masculina</text>
-<text x="90" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Pequena é nomeada</text>
-<text x="90" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">cacique</text>
-<text x="280" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">Há 8 anos</text>
-<text x="280" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Doença grave</text>
-<text x="280" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Escolha da sucessão</text>
-<text x="280" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">entre 16 filhos</text>
-<text x="470" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">Hoje, aos 73</text>
-<text x="470" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Prepara duas filhas</text>
-<text x="470" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Continuidade do</text>
-<text x="470" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">protagonismo feminino</text>
-</svg>`
-    },
-    {
-      titulo: "Árvore de sucessão feminina",
-      descricao: "Esquema genealógico mostrando a passagem da liderança dos Jenipapo-Kanindé de um modelo masculino para um modelo conduzido por mulheres.",
-      svg: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg">
-<rect width="500" height="260" fill="#faf5ff"/>
-<rect x="180" y="20" width="140" height="40" rx="8" fill="#c4b5fd"/>
-<text x="250" y="45" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#3b0764">Sucessão masculina</text>
-<text x="250" y="15" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#5b21b6">Tradição até 1995</text>
-<line x1="250" y1="60" x2="250" y2="95" stroke="#7c3aed" stroke-width="3"/>
-<rect x="160" y="95" width="180" height="45" rx="8" fill="#7c3aed"/>
-<text x="250" y="115" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Cacique Pequena</text>
-<text x="250" y="130" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">1ª cacique mulher do Ceará</text>
-<line x1="250" y1="140" x2="150" y2="180" stroke="#7c3aed" stroke-width="3"/>
-<line x1="250" y1="140" x2="350" y2="180" stroke="#7c3aed" stroke-width="3"/>
-<rect x="80" y="180" width="140" height="45" rx="8" fill="#a78bfa"/>
-<text x="150" y="200" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#2e1065">Filha 1</text>
-<text x="150" y="214" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#2e1065">sucessora indicada</text>
-<rect x="280" y="180" width="140" height="45" rx="8" fill="#a78bfa"/>
-<text x="350" y="200" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#2e1065">Filha 2</text>
-<text x="350" y="214" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#2e1065">sucessora indicada</text>
-</svg>`
-    },
-    {
-      titulo: "Detalhe vs. função social do texto",
-      descricao: "Esquema comparando os dados de apoio citados na reportagem com o eixo temático central que a questão pede para identificar.",
-      svg: `<svg viewBox="0 0 560 240" xmlns="http://www.w3.org/2000/svg">
-<rect width="560" height="240" fill="#f5f3ff"/>
-<rect x="20" y="20" width="230" height="200" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
-<text x="135" y="45" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#5b21b6" font-weight="bold">Detalhes de apoio</text>
-<text x="135" y="75" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">129 famílias reconhecidas</text>
-<text x="135" y="100" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">pela Funai (dado A)</text>
-<text x="135" y="130" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Estudo dos antropólogos</text>
-<text x="135" y="155" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">sobre a mãe-terra (dado C)</text>
-<text x="135" y="185" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Reconhecimento oficial</text>
-<text x="135" y="205" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">do governo (dado E)</text>
-<rect x="310" y="20" width="230" height="200" rx="10" fill="#7c3aed"/>
-<text x="425" y="45" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Eixo central (função social)</text>
-<text x="425" y="90" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">Ruptura da tradição</text>
-<text x="425" y="108" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">masculina em 1995</text>
-<text x="425" y="140" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">+</text>
-<text x="425" y="170" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">Preparação das filhas</text>
-<text x="425" y="188" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">para a sucessão</text>
-<text x="425" y="210" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#c4b5fd">= alternativa D</text>
-<path d="M255 120 L305 120" stroke="#4c1d95" stroke-width="2" marker-end="url(#arrow)"/>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#4c1d95"/></marker></defs>
-</svg>`
-    },
-    {
-      titulo: "Mapa conceitual da luta Jenipapo-Kanindé",
-      descricao: "Visão geral dos temas que a reportagem entrelaça em torno da liderança de Pequena e da luta do seu povo.",
-      svg: `<svg viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg">
-<rect width="560" height="260" fill="#faf5ff"/>
-<circle cx="280" cy="130" r="65" fill="#7c3aed"/>
-<text x="280" y="122" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Povo</text>
-<text x="280" y="138" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Jenipapo-Kanindé</text>
-<line x1="230" y1="90" x2="120" y2="40" stroke="#a78bfa" stroke-width="2"/>
-<rect x="30" y="15" width="180" height="45" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
-<text x="120" y="35" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Direito à terra, educação,</text>
-<text x="120" y="50" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">saúde e cidadania</text>
-<line x1="230" y1="170" x2="120" y2="220" stroke="#a78bfa" stroke-width="2"/>
-<rect x="30" y="200" width="180" height="45" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
-<text x="120" y="220" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Reconhecimento pela Funai</text>
-<text x="120" y="235" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">(129 famílias)</text>
-<line x1="330" y1="90" x2="440" y2="40" stroke="#a78bfa" stroke-width="2"/>
-<rect x="350" y="15" width="180" height="45" rx="8" fill="#5b21b6"/>
-<text x="440" y="35" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Ruptura da sucessão</text>
-<text x="440" y="50" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">masculina (1995)</text>
-<line x1="330" y1="170" x2="440" y2="220" stroke="#a78bfa" stroke-width="2"/>
-<rect x="350" y="200" width="180" height="45" rx="8" fill="#5b21b6"/>
-<text x="440" y="220" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Filhas preparadas</text>
-<text x="440" y="235" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">para a sucessão</text>
-</svg>`
-    }
-  ],
+  {
+    "titulo": "Linha do tempo da Cacique Pequena",
+    "descricao": "Marcos da trajetória de Maria de Lourdes da Conceição Alves, da ruptura da tradição em 1995 até a preparação das filhas para a sucessão.",
+    "svg": "<svg viewBox=\"0 0 600 220\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"600\" height=\"220\" fill=\"#0f172a\"/>\n<line x1=\"50\" y1=\"110\" x2=\"550\" y2=\"110\" stroke=\"#7c3aed\" stroke-width=\"4\"/>\n<circle cx=\"90\" cy=\"110\" r=\"12\" fill=\"#7c3aed\"/>\n<circle cx=\"280\" cy=\"110\" r=\"12\" fill=\"#7c3aed\"/>\n<circle cx=\"470\" cy=\"110\" r=\"12\" fill=\"#7c3aed\"/>\n<text x=\"90\" y=\"70\" font-size=\"14\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\">1995</text>\n<text x=\"90\" y=\"90\" font-size=\"11\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\">Ruptura da sucessão</text>\n<text x=\"90\" y=\"103\" font-size=\"11\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\">masculina</text>\n<text x=\"90\" y=\"145\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">Pequena é nomeada</text>\n<text x=\"90\" y=\"158\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">cacique</text>\n<text x=\"280\" y=\"70\" font-size=\"14\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\">Há 8 anos</text>\n<text x=\"280\" y=\"90\" font-size=\"11\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\">Doença grave</text>\n<text x=\"280\" y=\"145\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">Escolha da sucessão</text>\n<text x=\"280\" y=\"158\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">entre 16 filhos</text>\n<text x=\"470\" y=\"70\" font-size=\"14\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\" font-weight=\"bold\">Hoje, aos 73</text>\n<text x=\"470\" y=\"90\" font-size=\"11\" fill=\"#ddd6fe\" text-anchor=\"middle\" font-family=\"sans-serif\">Prepara duas filhas</text>\n<text x=\"470\" y=\"145\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">Continuidade do</text>\n<text x=\"470\" y=\"158\" font-size=\"11\" fill=\"#e9d5ff\" text-anchor=\"middle\" font-family=\"sans-serif\">protagonismo feminino</text>\n</svg>"
+  },
+  {
+    "titulo": "Árvore de sucessão feminina",
+    "descricao": "Esquema genealógico mostrando a passagem da liderança dos Jenipapo-Kanindé de um modelo masculino para um modelo conduzido por mulheres.",
+    "svg": "<svg viewBox=\"0 0 500 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"500\" height=\"260\" fill=\"#0f172a\"/>\n<rect x=\"180\" y=\"20\" width=\"140\" height=\"40\" rx=\"8\" fill=\"#c4b5fd\"/>\n<text x=\"250\" y=\"45\" font-size=\"12\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#3b0764\">Sucessão masculina</text>\n<text x=\"250\" y=\"15\" font-size=\"10\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#c4b5fd\">Tradição até 1995</text>\n<line x1=\"250\" y1=\"60\" x2=\"250\" y2=\"95\" stroke=\"#7c3aed\" stroke-width=\"3\"/>\n<rect x=\"160\" y=\"95\" width=\"180\" height=\"45\" rx=\"8\" fill=\"#7c3aed\"/>\n<text x=\"250\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Cacique Pequena</text>\n<text x=\"250\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ede9fe\">1ª cacique mulher do Ceará</text>\n<line x1=\"250\" y1=\"140\" x2=\"150\" y2=\"180\" stroke=\"#7c3aed\" stroke-width=\"3\"/>\n<line x1=\"250\" y1=\"140\" x2=\"350\" y2=\"180\" stroke=\"#7c3aed\" stroke-width=\"3\"/>\n<rect x=\"80\" y=\"180\" width=\"140\" height=\"45\" rx=\"8\" fill=\"#a78bfa\"/>\n<text x=\"150\" y=\"200\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#2e1065\">Filha 1</text>\n<text x=\"150\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#2e1065\">sucessora indicada</text>\n<rect x=\"280\" y=\"180\" width=\"140\" height=\"45\" rx=\"8\" fill=\"#a78bfa\"/>\n<text x=\"350\" y=\"200\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#2e1065\">Filha 2</text>\n<text x=\"350\" y=\"214\" font-size=\"10\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#2e1065\">sucessora indicada</text>\n</svg>"
+  },
+  {
+    "titulo": "Detalhe vs. função social do texto",
+    "descricao": "Esquema comparando os dados de apoio citados na reportagem com o eixo temático central que a questão pede para identificar.",
+    "svg": "<svg viewBox=\"0 0 560 240\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"560\" height=\"240\" fill=\"#0f172a\"/>\n<rect x=\"20\" y=\"20\" width=\"230\" height=\"200\" rx=\"10\" fill=\"#2e1065\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n<text x=\"135\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#e9d5ff\" font-weight=\"bold\">Detalhes de apoio</text>\n<text x=\"135\" y=\"75\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">129 famílias reconhecidas</text>\n<text x=\"135\" y=\"100\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">pela Funai (dado A)</text>\n<text x=\"135\" y=\"130\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">Estudo dos antropólogos</text>\n<text x=\"135\" y=\"155\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">sobre a mãe-terra (dado C)</text>\n<text x=\"135\" y=\"185\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">Reconhecimento oficial</text>\n<text x=\"135\" y=\"205\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">do governo (dado E)</text>\n<rect x=\"310\" y=\"20\" width=\"230\" height=\"200\" rx=\"10\" fill=\"#7c3aed\"/>\n<text x=\"425\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Eixo central (função social)</text>\n<text x=\"425\" y=\"90\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ede9fe\">Ruptura da tradição</text>\n<text x=\"425\" y=\"108\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ede9fe\">masculina em 1995</text>\n<text x=\"425\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">+</text>\n<text x=\"425\" y=\"170\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ede9fe\">Preparação das filhas</text>\n<text x=\"425\" y=\"188\" font-size=\"11\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ede9fe\">para a sucessão</text>\n<text x=\"425\" y=\"210\" font-size=\"10\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#c4b5fd\">= alternativa D</text>\n<path d=\"M255 120 L305 120\" stroke=\"#a78bfa\" stroke-width=\"2\" marker-end=\"url(#arrow)\"/>\n<defs><marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#a78bfa\"/></marker></defs>\n</svg>"
+  },
+  {
+    "titulo": "Mapa conceitual da luta Jenipapo-Kanindé",
+    "descricao": "Visão geral dos temas que a reportagem entrelaça em torno da liderança de Pequena e da luta do seu povo.",
+    "svg": "<svg viewBox=\"0 0 560 260\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"560\" height=\"260\" fill=\"#0f172a\"/>\n<circle cx=\"280\" cy=\"130\" r=\"65\" fill=\"#7c3aed\"/>\n<text x=\"280\" y=\"122\" font-size=\"12\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Povo</text>\n<text x=\"280\" y=\"138\" font-size=\"12\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Jenipapo-Kanindé</text>\n<line x1=\"230\" y1=\"90\" x2=\"120\" y2=\"40\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n<rect x=\"30\" y=\"15\" width=\"180\" height=\"45\" rx=\"8\" fill=\"#2e1065\" stroke=\"#7c3aed\"/>\n<text x=\"120\" y=\"35\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">Direito à terra, educação,</text>\n<text x=\"120\" y=\"50\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">saúde e cidadania</text>\n<line x1=\"230\" y1=\"170\" x2=\"120\" y2=\"220\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n<rect x=\"30\" y=\"200\" width=\"180\" height=\"45\" rx=\"8\" fill=\"#2e1065\" stroke=\"#7c3aed\"/>\n<text x=\"120\" y=\"220\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">Reconhecimento pela Funai</text>\n<text x=\"120\" y=\"235\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ddd6fe\">(129 famílias)</text>\n<line x1=\"330\" y1=\"90\" x2=\"440\" y2=\"40\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n<rect x=\"350\" y=\"15\" width=\"180\" height=\"45\" rx=\"8\" fill=\"#5b21b6\"/>\n<text x=\"440\" y=\"35\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Ruptura da sucessão</text>\n<text x=\"440\" y=\"50\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">masculina (1995)</text>\n<line x1=\"330\" y1=\"170\" x2=\"440\" y2=\"220\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n<rect x=\"350\" y=\"200\" width=\"180\" height=\"45\" rx=\"8\" fill=\"#5b21b6\"/>\n<text x=\"440\" y=\"220\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">Filhas preparadas</text>\n<text x=\"440\" y=\"235\" font-size=\"10.5\" text-anchor=\"middle\" font-family=\"sans-serif\" fill=\"#ffffff\" font-weight=\"bold\">para a sucessão</text>\n</svg>"
+  }
+],
   simulador: {
     titulo: "Linha do Tempo Interativa: a trajetória da Cacique Pequena",
     descricao: "Clique em cada marco para entender como a reportagem constrói o protagonismo feminino como fio condutor da narrativa.",
@@ -37706,128 +36717,27 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
   <p>Questões de estratégia argumentativa nunca aceitam uma resposta genérica como "o texto convence o leitor". É preciso apontar o <strong>recurso linguístico exato</strong> e confirmar, no próprio texto, se ele desempenha a função descrita na alternativa. Desconfie de alternativas que citam um trecho real do texto, mas atribuem a ele uma função que não é a que ele exerce ali.</p>
 </div>`,
   galeria: [
-    {
-      titulo: "As 4 razões em cards",
-      descricao: "Visualização da lista numerada de motivos para ler para crianças, conforme apresentada no texto-base.",
-      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="260" fill="#faf5ff"/>
-        <text x="200" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#6d28d9" font-family="sans-serif">4 Razões para Ler para Crianças</text>
-        <g font-family="sans-serif">
-          <rect x="20" y="45" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
-          <circle cx="40" cy="65" r="14" fill="#8b5cf6"/>
-          <text x="40" y="70" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">1</text>
-          <text x="105" y="90" text-anchor="middle" font-size="11" fill="#4c1d95">cria um laço</text>
-          <text x="105" y="104" text-anchor="middle" font-size="11" fill="#4c1d95">emocional</text>
-
-          <rect x="210" y="45" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
-          <circle cx="230" cy="65" r="14" fill="#8b5cf6"/>
-          <text x="230" y="70" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">2</text>
-          <text x="300" y="85" text-anchor="middle" font-size="11" fill="#4c1d95">desenvolve capacidades</text>
-          <text x="300" y="99" text-anchor="middle" font-size="11" fill="#4c1d95">cognitivas</text>
-
-          <rect x="20" y="140" width="170" height="80" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
-          <circle cx="40" cy="160" r="14" fill="#7c3aed"/>
-          <text x="40" y="165" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">3</text>
-          <text x="105" y="185" text-anchor="middle" font-size="12" fill="#4c1d95" font-weight="bold">ensina sobre</text>
-          <text x="105" y="199" text-anchor="middle" font-size="12" fill="#4c1d95" font-weight="bold">o mundo</text>
-
-          <rect x="210" y="140" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
-          <circle cx="230" cy="160" r="14" fill="#8b5cf6"/>
-          <text x="230" y="165" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">4</text>
-          <text x="300" y="180" text-anchor="middle" font-size="11" fill="#4c1d95">imaginação e</text>
-          <text x="300" y="194" text-anchor="middle" font-size="11" fill="#4c1d95">processamento</text>
-        </g>
-        <text x="200" y="245" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Item 3 = exemplo citado na alternativa D</text>
-      </svg>`
-    },
-    {
-      titulo: "Mapa das estratégias persuasivas",
-      descricao: "Esquema geral dos recursos argumentativos usados em textos de apelo/campanha.",
-      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="260" fill="#faf5ff"/>
-        <text x="200" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#6d28d9" font-family="sans-serif">Estratégias de Persuasão</text>
-        <circle cx="200" cy="130" r="34" fill="#7c3aed"/>
-        <text x="200" y="126" text-anchor="middle" font-size="10" fill="#fff" font-family="sans-serif">Texto de</text>
-        <text x="200" y="139" text-anchor="middle" font-size="10" fill="#fff" font-family="sans-serif">Apelo</text>
-        <g font-family="sans-serif" font-size="10" fill="#4c1d95">
-          <line x1="200" y1="96" x2="200" y2="55" stroke="#a78bfa" stroke-width="2"/>
-          <rect x="140" y="30" width="120" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="200" y="47" text-anchor="middle">Enumeração de razões</text>
-
-          <line x1="234" y1="115" x2="300" y2="80" stroke="#a78bfa" stroke-width="2"/>
-          <rect x="290" y="60" width="100" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="340" y="77" text-anchor="middle">Condição (se)</text>
-
-          <line x1="234" y1="145" x2="300" y2="185" stroke="#a78bfa" stroke-width="2"/>
-          <rect x="285" y="180" width="105" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="337" y="197" text-anchor="middle">Linguagem figurada</text>
-
-          <line x1="166" y1="145" x2="100" y2="185" stroke="#a78bfa" stroke-width="2"/>
-          <rect x="10" y="180" width="110" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="65" y="197" text-anchor="middle">Corresponsabilização</text>
-
-          <line x1="166" y1="115" x2="100" y2="80" stroke="#a78bfa" stroke-width="2"/>
-          <rect x="10" y="60" width="110" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="65" y="77" text-anchor="middle">Modalização</text>
-        </g>
-        <text x="200" y="245" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Cada recurso convence de um jeito diferente</text>
-      </svg>`
-    },
-    {
-      titulo: "Foco no trecho-resposta",
-      descricao: "Destaque visual do trecho \"ensina sobre o mundo\" dentro da enumeração das 4 razões.",
-      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="220" fill="#faf5ff"/>
-        <text x="200" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#6d28d9" font-family="sans-serif">Onde está o exemplo da alternativa D?</text>
-        <g font-family="sans-serif" font-size="12" fill="#4c1d95">
-          <text x="30" y="60">1 – cria um laço emocional com a criança;</text>
-          <text x="30" y="85">2 – ajuda no desenvolvimento das capacidades cognitivas;</text>
-        </g>
-        <rect x="20" y="98" width="360" height="30" rx="6" fill="#c4b5fd" opacity="0.6"/>
-        <text x="30" y="118" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b0764">3 – ensina sobre o mundo;</text>
-        <text x="30" y="150" font-family="sans-serif" font-size="12" fill="#4c1d95">4 – incentiva o processamento de informações e a imaginação.</text>
-        <path d="M 60 132 L 60 165 L 200 180" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#arrow044)"/>
-        <defs>
-          <marker id="arrow044" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
-            <path d="M0,0 L0,6 L6,3 z" fill="#7c3aed"/>
-          </marker>
-        </defs>
-        <rect x="130" y="180" width="220" height="30" rx="8" fill="#7c3aed"/>
-        <text x="240" y="200" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">Exemplo citado na alternativa D</text>
-      </svg>`
-    },
-    {
-      titulo: "Comparativo de recursos persuasivos",
-      descricao: "Quadro comparando enumeração, condição, metáfora e corresponsabilização/autoridade.",
-      svg: `<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
-        <rect width="400" height="240" fill="#faf5ff"/>
-        <text x="200" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#6d28d9" font-family="sans-serif">4 Recursos, 4 Efeitos</text>
-        <g font-family="sans-serif" font-size="11">
-          <rect x="15" y="40" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="102" y="58" text-anchor="middle" font-weight="bold" fill="#5b21b6">Enumeração</text>
-          <text x="102" y="74" text-anchor="middle" fill="#4c1d95">lista concreta de</text>
-          <text x="102" y="88" text-anchor="middle" fill="#4c1d95">motivos (D)</text>
-
-          <rect x="210" y="40" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="297" y="58" text-anchor="middle" font-weight="bold" fill="#5b21b6">Condição</text>
-          <text x="297" y="74" text-anchor="middle" fill="#4c1d95">"se" + consequência</text>
-          <text x="297" y="88" text-anchor="middle" fill="#4c1d95">(A)</text>
-
-          <rect x="15" y="115" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="102" y="133" text-anchor="middle" font-weight="bold" fill="#5b21b6">Metáfora</text>
-          <text x="102" y="149" text-anchor="middle" fill="#4c1d95">sentido figurado</text>
-          <text x="102" y="163" text-anchor="middle" fill="#4c1d95">(C)</text>
-
-          <rect x="210" y="115" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
-          <text x="297" y="133" text-anchor="middle" font-weight="bold" fill="#5b21b6">Corresponsabilização</text>
-          <text x="297" y="149" text-anchor="middle" fill="#4c1d95">1ª pessoa do plural</text>
-          <text x="297" y="163" text-anchor="middle" fill="#4c1d95">(E)</text>
-        </g>
-        <text x="200" y="200" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Só um recurso corresponde exatamente ao comando</text>
-        <text x="200" y="216" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">da questão: a enumeração de razões</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "As 4 razões em cards",
+    "descricao": "Visualização da lista numerada de motivos para ler para crianças, conforme apresentada no texto-base.",
+    "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"400\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"28\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#c4b5fd\" font-family=\"sans-serif\">4 Razões para Ler para Crianças</text>\n        <g font-family=\"sans-serif\">\n          <rect x=\"20\" y=\"45\" width=\"170\" height=\"80\" rx=\"10\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n          <circle cx=\"40\" cy=\"65\" r=\"14\" fill=\"#8b5cf6\"/>\n          <text x=\"40\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" fill=\"#fff\" font-weight=\"bold\">1</text>\n          <text x=\"105\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">cria um laço</text>\n          <text x=\"105\" y=\"104\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">emocional</text>\n\n          <rect x=\"210\" y=\"45\" width=\"170\" height=\"80\" rx=\"10\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n          <circle cx=\"230\" cy=\"65\" r=\"14\" fill=\"#8b5cf6\"/>\n          <text x=\"230\" y=\"70\" text-anchor=\"middle\" font-size=\"14\" fill=\"#fff\" font-weight=\"bold\">2</text>\n          <text x=\"300\" y=\"85\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">desenvolve capacidades</text>\n          <text x=\"300\" y=\"99\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">cognitivas</text>\n\n          <rect x=\"20\" y=\"140\" width=\"170\" height=\"80\" rx=\"10\" fill=\"#312e81\" stroke=\"#a78bfa\" stroke-width=\"3\"/>\n          <circle cx=\"40\" cy=\"160\" r=\"14\" fill=\"#a78bfa\"/>\n          <text x=\"40\" y=\"165\" text-anchor=\"middle\" font-size=\"14\" fill=\"#1e1b4b\" font-weight=\"bold\">3</text>\n          <text x=\"105\" y=\"185\" text-anchor=\"middle\" font-size=\"12\" fill=\"#f1f5f9\" font-weight=\"bold\">ensina sobre</text>\n          <text x=\"105\" y=\"199\" text-anchor=\"middle\" font-size=\"12\" fill=\"#f1f5f9\" font-weight=\"bold\">o mundo</text>\n\n          <rect x=\"210\" y=\"140\" width=\"170\" height=\"80\" rx=\"10\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\" stroke-width=\"2\"/>\n          <circle cx=\"230\" cy=\"160\" r=\"14\" fill=\"#8b5cf6\"/>\n          <text x=\"230\" y=\"165\" text-anchor=\"middle\" font-size=\"14\" fill=\"#fff\" font-weight=\"bold\">4</text>\n          <text x=\"300\" y=\"180\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">imaginação e</text>\n          <text x=\"300\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"#ddd6fe\">processamento</text>\n        </g>\n        <text x=\"200\" y=\"245\" text-anchor=\"middle\" font-size=\"10\" fill=\"#a78bfa\" font-family=\"sans-serif\">Item 3 = exemplo citado na alternativa D</text>\n      </svg>"
+  },
+  {
+    "titulo": "Mapa das estratégias persuasivas",
+    "descricao": "Esquema geral dos recursos argumentativos usados em textos de apelo/campanha.",
+    "svg": "<svg viewBox=\"0 0 400 260\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"400\" height=\"260\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"26\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#c4b5fd\" font-family=\"sans-serif\">Estratégias de Persuasão</text>\n        <circle cx=\"200\" cy=\"130\" r=\"34\" fill=\"#7c3aed\"/>\n        <text x=\"200\" y=\"126\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fff\" font-family=\"sans-serif\">Texto de</text>\n        <text x=\"200\" y=\"139\" text-anchor=\"middle\" font-size=\"10\" fill=\"#fff\" font-family=\"sans-serif\">Apelo</text>\n        <g font-family=\"sans-serif\" font-size=\"10\" fill=\"#ddd6fe\">\n          <line x1=\"200\" y1=\"96\" x2=\"200\" y2=\"55\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n          <rect x=\"140\" y=\"30\" width=\"120\" height=\"26\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"200\" y=\"47\" text-anchor=\"middle\">Enumeração de razões</text>\n\n          <line x1=\"234\" y1=\"115\" x2=\"300\" y2=\"80\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n          <rect x=\"290\" y=\"60\" width=\"100\" height=\"26\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"340\" y=\"77\" text-anchor=\"middle\">Condição (se)</text>\n\n          <line x1=\"234\" y1=\"145\" x2=\"300\" y2=\"185\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n          <rect x=\"285\" y=\"180\" width=\"105\" height=\"26\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"337\" y=\"197\" text-anchor=\"middle\">Linguagem figurada</text>\n\n          <line x1=\"166\" y1=\"145\" x2=\"100\" y2=\"185\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n          <rect x=\"10\" y=\"180\" width=\"110\" height=\"26\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"65\" y=\"197\" text-anchor=\"middle\">Corresponsabilização</text>\n\n          <line x1=\"166\" y1=\"115\" x2=\"100\" y2=\"80\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n          <rect x=\"10\" y=\"60\" width=\"110\" height=\"26\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"65\" y=\"77\" text-anchor=\"middle\">Modalização</text>\n        </g>\n        <text x=\"200\" y=\"245\" text-anchor=\"middle\" font-size=\"10\" fill=\"#a78bfa\" font-family=\"sans-serif\">Cada recurso convence de um jeito diferente</text>\n      </svg>"
+  },
+  {
+    "titulo": "Foco no trecho-resposta",
+    "descricao": "Destaque visual do trecho \"ensina sobre o mundo\" dentro da enumeração das 4 razões.",
+    "svg": "<svg viewBox=\"0 0 400 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"400\" height=\"220\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"26\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#c4b5fd\" font-family=\"sans-serif\">Onde está o exemplo da alternativa D?</text>\n        <g font-family=\"sans-serif\" font-size=\"12\" fill=\"#cbd5e1\">\n          <text x=\"30\" y=\"60\">1 – cria um laço emocional com a criança;</text>\n          <text x=\"30\" y=\"85\">2 – ajuda no desenvolvimento das capacidades cognitivas;</text>\n        </g>\n        <rect x=\"20\" y=\"98\" width=\"360\" height=\"30\" rx=\"6\" fill=\"#4c1d95\" opacity=\"0.7\"/>\n        <text x=\"30\" y=\"118\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#f1f5f9\">3 – ensina sobre o mundo;</text>\n        <text x=\"30\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#cbd5e1\">4 – incentiva o processamento de informações e a imaginação.</text>\n        <path d=\"M 60 132 L 60 165 L 200 180\" stroke=\"#a78bfa\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#arrow044)\"/>\n        <defs>\n          <marker id=\"arrow044\" markerWidth=\"10\" markerHeight=\"10\" refX=\"6\" refY=\"3\" orient=\"auto\">\n            <path d=\"M0,0 L0,6 L6,3 z\" fill=\"#a78bfa\"/>\n          </marker>\n        </defs>\n        <rect x=\"130\" y=\"180\" width=\"220\" height=\"30\" rx=\"8\" fill=\"#7c3aed\"/>\n        <text x=\"240\" y=\"200\" text-anchor=\"middle\" font-size=\"11\" fill=\"#fff\" font-family=\"sans-serif\">Exemplo citado na alternativa D</text>\n      </svg>"
+  },
+  {
+    "titulo": "Comparativo de recursos persuasivos",
+    "descricao": "Quadro comparando enumeração, condição, metáfora e corresponsabilização/autoridade.",
+    "svg": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"400\" height=\"240\" fill=\"#0f172a\"/>\n        <text x=\"200\" y=\"24\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#c4b5fd\" font-family=\"sans-serif\">4 Recursos, 4 Efeitos</text>\n        <g font-family=\"sans-serif\" font-size=\"11\">\n          <rect x=\"15\" y=\"40\" width=\"175\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"102\" y=\"58\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#c4b5fd\">Enumeração</text>\n          <text x=\"102\" y=\"74\" text-anchor=\"middle\" fill=\"#ddd6fe\">lista concreta de</text>\n          <text x=\"102\" y=\"88\" text-anchor=\"middle\" fill=\"#ddd6fe\">motivos (D)</text>\n\n          <rect x=\"210\" y=\"40\" width=\"175\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"297\" y=\"58\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#c4b5fd\">Condição</text>\n          <text x=\"297\" y=\"74\" text-anchor=\"middle\" fill=\"#ddd6fe\">\"se\" + consequência</text>\n          <text x=\"297\" y=\"88\" text-anchor=\"middle\" fill=\"#ddd6fe\">(A)</text>\n\n          <rect x=\"15\" y=\"115\" width=\"175\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"102\" y=\"133\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#c4b5fd\">Metáfora</text>\n          <text x=\"102\" y=\"149\" text-anchor=\"middle\" fill=\"#ddd6fe\">sentido figurado</text>\n          <text x=\"102\" y=\"163\" text-anchor=\"middle\" fill=\"#ddd6fe\">(C)</text>\n\n          <rect x=\"210\" y=\"115\" width=\"175\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#8b5cf6\"/>\n          <text x=\"297\" y=\"133\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#c4b5fd\">Corresponsabilização</text>\n          <text x=\"297\" y=\"149\" text-anchor=\"middle\" fill=\"#ddd6fe\">1ª pessoa do plural</text>\n          <text x=\"297\" y=\"163\" text-anchor=\"middle\" fill=\"#ddd6fe\">(E)</text>\n        </g>\n        <text x=\"200\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#a78bfa\" font-family=\"sans-serif\">Só um recurso corresponde exatamente ao comando</text>\n        <text x=\"200\" y=\"216\" text-anchor=\"middle\" font-size=\"10\" fill=\"#a78bfa\" font-family=\"sans-serif\">da questão: a enumeração de razões</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Classificador de Estratégias Persuasivas",
     descricao: "Leia cada trecho do texto e identifique qual estratégia argumentativa ele representa.",
@@ -38010,110 +36920,27 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     </div>
   `,
   galeria: [
-    {
-      titulo: "A ilustração de 'gura'",
-      descricao: "Reconstrução estilizada do anúncio: mãos em concha segurando água, com a palavra e sua definição.",
-      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="220" fill="#f5f3ff"/>
-        <rect x="10" y="10" width="280" height="200" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
-        <text x="150" y="35" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#7c3aed" font-weight="bold">GURA</text>
-        <path d="M 90 100 Q 100 140 150 145 Q 200 140 210 100 Q 200 90 150 92 Q 100 90 90 100 Z" fill="#38bdf8" opacity="0.6"/>
-        <path d="M 80 95 Q 90 60 130 65 Q 120 90 105 100 Z" fill="#e9d8fd" stroke="#7c3aed" stroke-width="2"/>
-        <path d="M 220 95 Q 210 60 170 65 Q 180 90 195 100 Z" fill="#e9d8fd" stroke="#7c3aed" stroke-width="2"/>
-        <text x="150" y="175" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#312e81" font-weight="bold">gura</text>
-        <text x="150" y="195" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4c1d95">"a quantidade de água que</text>
-        <text x="150" y="207" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4c1d95">pode ser segurada com as mãos"</text>
-      </svg>`
-    },
-    {
-      titulo: "Esquema da função de ancoragem",
-      descricao: "Como o texto verbal reduz a ambiguidade de uma imagem polissêmica e fixa um sentido único.",
-      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="220" fill="#faf5ff"/>
-        <circle cx="80" cy="70" r="45" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
-        <text x="80" y="65" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4c1d95">IMAGEM</text>
-        <text x="80" y="80" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">(vários sentidos</text>
-        <text x="80" y="90" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">possíveis)</text>
-        <path d="M 130 70 L 190 70" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrow)"/>
-        <defs>
-          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
-            <path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/>
-          </marker>
-        </defs>
-        <text x="160" y="60" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81" font-weight="bold">ancora</text>
-        <rect x="190" y="45" width="90" height="50" rx="8" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
-        <text x="235" y="65" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#312e81" font-weight="bold">TEXTO</text>
-        <text x="235" y="80" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81">(sentido único)</text>
-        <rect x="60" y="140" width="180" height="60" rx="8" fill="#ffffff" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
-        <text x="150" y="160" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">Resultado: sentido fixado</text>
-        <text x="150" y="178" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5b21b6">Imagem + texto = significado</text>
-        <text x="150" y="190" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5b21b6">único e claro</text>
-      </svg>`
-    },
-    {
-      titulo: "Outras palavras intraduzíveis",
-      descricao: "Exemplos famosos de palavras sem tradução direta, com pequena ilustração conceitual.",
-      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="220" fill="#f5f3ff"/>
-        <g>
-          <circle cx="60" cy="55" r="28" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
-          <text x="60" y="60" text-anchor="middle" font-size="20">🌲</text>
-          <text x="60" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Waldeinsamkeit</text>
-          <text x="60" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(alemão: sensação de</text>
-          <text x="60" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">estar só na floresta)</text>
-        </g>
-        <g>
-          <circle cx="150" cy="55" r="28" fill="#bbf7d0" stroke="#15803d" stroke-width="2"/>
-          <text x="150" y="60" text-anchor="middle" font-size="20">☕</text>
-          <text x="150" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Fika</text>
-          <text x="150" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(sueco: pausa para</text>
-          <text x="150" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">café e conversa)</text>
-        </g>
-        <g>
-          <circle cx="240" cy="55" r="28" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
-          <text x="240" y="60" text-anchor="middle" font-size="20">🌅</text>
-          <text x="240" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Komorebi</text>
-          <text x="240" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(japonês: luz do sol</text>
-          <text x="240" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">entre as folhas)</text>
-        </g>
-        <rect x="30" y="150" width="240" height="55" rx="8" fill="#ffffff" stroke="#a78bfa"/>
-        <text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">Como "gura", cada palavra recebe</text>
-        <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">uma imagem + um texto explicativo,</text>
-        <text x="150" y="200" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">nunca uma "tradução literal".</text>
-      </svg>`
-    },
-    {
-      titulo: "Ancoragem x outras funções do texto verbal",
-      descricao: "Comparativo entre explicar/ancorar um sentido, descrever tecnicamente e comparar idiomas.",
-      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
-        <rect width="300" height="220" fill="#faf5ff"/>
-        <rect x="10" y="15" width="85" height="185" rx="8" fill="#d9f99d" stroke="#4d7c0f" stroke-width="2"/>
-        <text x="52" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#365314" font-weight="bold">ANCORAGEM</text>
-        <text x="52" y="50" text-anchor="middle" font-size="16">✅</text>
-        <text x="52" y="70" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">Explica o sentido</text>
-        <text x="52" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">de uma imagem</text>
-        <text x="52" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">ambígua</text>
-        <text x="52" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#166534" font-weight="bold">É a função do</text>
-        <text x="52" y="127" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#166534" font-weight="bold">anúncio "gura"</text>
-
-        <rect x="107" y="15" width="85" height="185" rx="8" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
-        <text x="149" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">DESCRIÇÃO</text>
-        <text x="149" y="47" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">TÉCNICA</text>
-        <text x="149" y="62" text-anchor="middle" font-size="16">❌</text>
-        <text x="149" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">Fala de traço,</text>
-        <text x="149" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">cor, composição</text>
-        <text x="149" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#991b1b" font-weight="bold">Não é o caso</text>
-
-        <rect x="204" y="15" width="86" height="185" rx="8" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
-        <text x="247" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">COMPARAÇÃO</text>
-        <text x="247" y="47" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">DE IDIOMAS</text>
-        <text x="247" y="62" text-anchor="middle" font-size="16">❌</text>
-        <text x="247" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">Apresenta termos</text>
-        <text x="247" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">equivalentes</text>
-        <text x="247" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#991b1b" font-weight="bold">Oposto do texto</text>
-      </svg>`
-    }
-  ],
+  {
+    "titulo": "A ilustração de 'gura'",
+    "descricao": "Reconstrução estilizada do anúncio: mãos em concha segurando água, com a palavra e sua definição.",
+    "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"220\" fill=\"#0f172a\"/>\n        <rect x=\"10\" y=\"10\" width=\"280\" height=\"200\" rx=\"12\" fill=\"#1e1b4b\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <text x=\"150\" y=\"35\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#a78bfa\" font-weight=\"bold\">GURA</text>\n        <path d=\"M 90 100 Q 100 140 150 145 Q 200 140 210 100 Q 200 90 150 92 Q 100 90 90 100 Z\" fill=\"#38bdf8\" opacity=\"0.6\"/>\n        <path d=\"M 80 95 Q 90 60 130 65 Q 120 90 105 100 Z\" fill=\"#e9d8fd\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <path d=\"M 220 95 Q 210 60 170 65 Q 180 90 195 100 Z\" fill=\"#e9d8fd\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <text x=\"150\" y=\"175\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#ede9fe\" font-weight=\"bold\">gura</text>\n        <text x=\"150\" y=\"195\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#cbd5e1\">\"a quantidade de água que</text>\n        <text x=\"150\" y=\"207\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#cbd5e1\">pode ser segurada com as mãos\"</text>\n      </svg>"
+  },
+  {
+    "titulo": "Esquema da função de ancoragem",
+    "descricao": "Como o texto verbal reduz a ambiguidade de uma imagem polissêmica e fixa um sentido único.",
+    "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"220\" fill=\"#0f172a\"/>\n        <circle cx=\"80\" cy=\"70\" r=\"45\" fill=\"#312e81\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <text x=\"80\" y=\"65\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ddd6fe\">IMAGEM</text>\n        <text x=\"80\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#ddd6fe\">(vários sentidos</text>\n        <text x=\"80\" y=\"90\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#ddd6fe\">possíveis)</text>\n        <path d=\"M 130 70 L 190 70\" stroke=\"#a78bfa\" stroke-width=\"3\" marker-end=\"url(#arrow)\"/>\n        <defs>\n          <marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"8\" refY=\"3\" orient=\"auto\" markerUnits=\"strokeWidth\">\n            <path d=\"M0,0 L0,6 L9,3 z\" fill=\"#a78bfa\"/>\n          </marker>\n        </defs>\n        <text x=\"160\" y=\"60\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#c4b5fd\" font-weight=\"bold\">ancora</text>\n        <rect x=\"190\" y=\"45\" width=\"90\" height=\"50\" rx=\"8\" fill=\"#4c1d95\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n        <text x=\"235\" y=\"65\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ede9fe\" font-weight=\"bold\">TEXTO</text>\n        <text x=\"235\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#ede9fe\">(sentido único)</text>\n        <rect x=\"60\" y=\"140\" width=\"180\" height=\"60\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#a78bfa\" stroke-width=\"1.5\" stroke-dasharray=\"4\"/>\n        <text x=\"150\" y=\"160\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#c4b5fd\" font-weight=\"bold\">Resultado: sentido fixado</text>\n        <text x=\"150\" y=\"178\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#cbd5e1\">Imagem + texto = significado</text>\n        <text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"8\" fill=\"#cbd5e1\">único e claro</text>\n      </svg>"
+  },
+  {
+    "titulo": "Outras palavras intraduzíveis",
+    "descricao": "Exemplos famosos de palavras sem tradução direta, com pequena ilustração conceitual.",
+    "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"220\" fill=\"#0f172a\"/>\n        <g>\n          <circle cx=\"60\" cy=\"55\" r=\"28\" fill=\"#fde68a\" stroke=\"#b45309\" stroke-width=\"2\"/>\n          <text x=\"60\" y=\"60\" text-anchor=\"middle\" font-size=\"20\">🌲</text>\n          <text x=\"60\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ede9fe\" font-weight=\"bold\">Waldeinsamkeit</text>\n          <text x=\"60\" y=\"107\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">(alemão: sensação de</text>\n          <text x=\"60\" y=\"117\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">estar só na floresta)</text>\n        </g>\n        <g>\n          <circle cx=\"150\" cy=\"55\" r=\"28\" fill=\"#bbf7d0\" stroke=\"#15803d\" stroke-width=\"2\"/>\n          <text x=\"150\" y=\"60\" text-anchor=\"middle\" font-size=\"20\">☕</text>\n          <text x=\"150\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ede9fe\" font-weight=\"bold\">Fika</text>\n          <text x=\"150\" y=\"107\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">(sueco: pausa para</text>\n          <text x=\"150\" y=\"117\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">café e conversa)</text>\n        </g>\n        <g>\n          <circle cx=\"240\" cy=\"55\" r=\"28\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/>\n          <text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"20\">🌅</text>\n          <text x=\"240\" y=\"95\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#ede9fe\" font-weight=\"bold\">Komorebi</text>\n          <text x=\"240\" y=\"107\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">(japonês: luz do sol</text>\n          <text x=\"240\" y=\"117\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#cbd5e1\">entre as folhas)</text>\n        </g>\n        <rect x=\"30\" y=\"150\" width=\"240\" height=\"55\" rx=\"8\" fill=\"#1e1b4b\" stroke=\"#a78bfa\"/>\n        <text x=\"150\" y=\"170\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ddd6fe\" font-weight=\"bold\">Como \"gura\", cada palavra recebe</text>\n        <text x=\"150\" y=\"185\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ddd6fe\" font-weight=\"bold\">uma imagem + um texto explicativo,</text>\n        <text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#ddd6fe\" font-weight=\"bold\">nunca uma \"tradução literal\".</text>\n      </svg>"
+  },
+  {
+    "titulo": "Ancoragem x outras funções do texto verbal",
+    "descricao": "Comparativo entre explicar/ancorar um sentido, descrever tecnicamente e comparar idiomas.",
+    "svg": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect width=\"300\" height=\"220\" fill=\"#0f172a\"/>\n        <rect x=\"10\" y=\"15\" width=\"85\" height=\"185\" rx=\"8\" fill=\"#14532d\" stroke=\"#4ade80\" stroke-width=\"2\"/>\n        <text x=\"52\" y=\"35\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#dcfce7\" font-weight=\"bold\">ANCORAGEM</text>\n        <text x=\"52\" y=\"50\" text-anchor=\"middle\" font-size=\"16\">✅</text>\n        <text x=\"52\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#bbf7d0\">Explica o sentido</text>\n        <text x=\"52\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#bbf7d0\">de uma imagem</text>\n        <text x=\"52\" y=\"94\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#bbf7d0\">ambígua</text>\n        <text x=\"52\" y=\"115\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#86efac\" font-weight=\"bold\">É a função do</text>\n        <text x=\"52\" y=\"127\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#86efac\" font-weight=\"bold\">anúncio \"gura\"</text>\n\n        <rect x=\"107\" y=\"15\" width=\"85\" height=\"185\" rx=\"8\" fill=\"#450a0a\" stroke=\"#f87171\" stroke-width=\"2\"/>\n        <text x=\"149\" y=\"35\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fecaca\" font-weight=\"bold\">DESCRIÇÃO</text>\n        <text x=\"149\" y=\"47\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fecaca\" font-weight=\"bold\">TÉCNICA</text>\n        <text x=\"149\" y=\"62\" text-anchor=\"middle\" font-size=\"16\">❌</text>\n        <text x=\"149\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fecaca\">Fala de traço,</text>\n        <text x=\"149\" y=\"94\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fecaca\">cor, composição</text>\n        <text x=\"149\" y=\"115\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fca5a5\" font-weight=\"bold\">Não é o caso</text>\n\n        <rect x=\"204\" y=\"15\" width=\"86\" height=\"185\" rx=\"8\" fill=\"#450a0a\" stroke=\"#f87171\" stroke-width=\"2\"/>\n        <text x=\"247\" y=\"35\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fecaca\" font-weight=\"bold\">COMPARAÇÃO</text>\n        <text x=\"247\" y=\"47\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#fecaca\" font-weight=\"bold\">DE IDIOMAS</text>\n        <text x=\"247\" y=\"62\" text-anchor=\"middle\" font-size=\"16\">❌</text>\n        <text x=\"247\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fecaca\">Apresenta termos</text>\n        <text x=\"247\" y=\"94\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fecaca\">equivalentes</text>\n        <text x=\"247\" y=\"115\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"7\" fill=\"#fca5a5\" font-weight=\"bold\">Oposto do texto</text>\n      </svg>"
+  }
+],
   simulador: {
     titulo: "Ancorador de Palavras Intraduzíveis",
     descricao: "Associe cada palavra intraduzível à sua definição correta, praticando a função de ancoragem entre texto e imagem.",
