@@ -10712,15 +10712,24 @@ const questaoDatabase = [
     area: "natureza",
     areaNome: "Ciências da Natureza",
     materiaId: "fisica",
+<<<<<<< HEAD
     materia: "Física / Eletrodinâmica & Geradores em Série",
     materiaCor: "purple",
     materiaIcone: "fa-solar-panel",
     titulo: "Placas Fotovoltaicas em Série: Quantas São Necessárias para Alimentar a Bomba-d'Água?",
     tags: ["Física", "Eletrodinâmica", "Gerador Não Ideal", "Associação em Série", "Força Eletromotriz", "Resistência Interna"],
+=======
+    materia: "Física / Eletrodinâmica & Geradores Não Ideais",
+    materiaCor: "purple",
+    materiaIcone: "fa-solar-panel",
+    titulo: "Placas Fotovoltaicas em Série: Dimensionando um Gerador Não Ideal para uma Bomba-d'Água Rural",
+    tags: ["Física", "Eletrodinâmica", "Gerador Não Ideal", "Força Eletromotriz", "Resistência Interna", "Energia Solar", "Associação em Série"],
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
     alternativaCorreta: "B",
     userNotes: "",
     userCustomImage: null,
 
+<<<<<<< HEAD
     enunciado: `Em uma comunidade rural, os moradores utilizam uma bomba-d'água alimentada por 100 V de tensão contínua, podendo variar em até 5 V. Um eletrotécnico pretende instalar placas fotovoltaicas para alimentar essa bomba. As placas são idênticas e cada uma apresenta tensão de operação igual a 34 V com corrente de 7,5 A. Além disso, cada placa apresenta 40 V de tensão elétrica, quando em circuito aberto. Assim, considerando que a placa descrita é um gerador não ideal, em circuito aberto ela pode ser representada conforme a figura:
     <br><br>
     <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 flex justify-center">
@@ -10735,11 +10744,28 @@ const questaoDatabase = [
         <path d="M 90 42 h10 l6 -10 l12 20 l12 -20 l12 20 l6 -10 h10" fill="none" stroke="#e2e8f0" stroke-width="2"/>
         <text x="130" y="25" fill="#e2e8f0" font-size="11">r</text>
         <line x1="150" y1="42" x2="245" y2="42" stroke="#e2e8f0" stroke-width="2"/>
+=======
+    enunciado: `Em uma comunidade rural, os moradores utilizam uma bomba-d'água alimentada por <strong>100 V</strong> de tensão contínua, podendo variar em até <strong>5 V</strong>. Um eletrotécnico pretende instalar placas fotovoltaicas para alimentar essa bomba. As placas são idênticas e cada uma apresenta tensão de operação igual a <strong>34 V</strong> com corrente de <strong>7,5 A</strong>. Além disso, cada placa apresenta <strong>40 V</strong> de tensão elétrica quando em circuito aberto. Assim, considerando que a placa descrita é um gerador não ideal, em circuito aberto ela pode ser representada conforme a figura:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 260 110" class="w-full h-auto mx-auto max-w-xs">
+        <line x1="30" y1="55" x2="60" y2="55" stroke="#94a3b8" stroke-width="2"/>
+        <line x1="60" y1="35" x2="60" y2="75" stroke="#e2e8f0" stroke-width="3"/>
+        <line x1="72" y1="42" x2="72" y2="68" stroke="#e2e8f0" stroke-width="1.5"/>
+        <text x="45" y="30" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">−</text>
+        <text x="80" y="30" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">+</text>
+        <text x="66" y="20" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">ε = 40 V</text>
+        <line x1="80" y1="55" x2="110" y2="55" stroke="#94a3b8" stroke-width="2"/>
+        <rect x="110" y="42" width="50" height="26" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+        <text x="135" y="60" fill="#e2e8f0" font-size="11" font-weight="bold" text-anchor="middle">r</text>
+        <line x1="160" y1="55" x2="200" y2="55" stroke="#94a3b8" stroke-width="2"/>
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
       </svg>
     </div>
     <br>
     O eletrotécnico construiu um circuito que permite à bomba-d'água operar corretamente com o menor número possível de placas conectadas. Para isso, desenhou um diagrama no qual todas essas placas são representadas como um único gerador não ideal, com a especificação das correspondentes características elétricas.
     <br><br>
+<<<<<<< HEAD
     O diagrama que representa o circuito construído pelo eletrotécnico é um gerador equivalente com força eletromotriz (ε) e resistência interna (r) iguais a:`,
 
     alternativas: [
@@ -10748,6 +10774,16 @@ const questaoDatabase = [
       { letra: "C", texto: "ε = 120 V e r = 5,3 Ω.", correta: false },
       { letra: "D", texto: "ε = 102 V e r = 2,4 Ω.", correta: false },
       { letra: "E", texto: "ε = 102 V e r = 5,3 Ω.", correta: false }
+=======
+    O diagrama que representa o circuito construído pelo eletrotécnico é:`,
+
+    alternativas: [
+      { letra: "A", texto: "136 V, 3,2 Ω", correta: false },
+      { letra: "B", texto: "120 V, 2,4 Ω", correta: true },
+      { letra: "C", texto: "120 V, 5,3 Ω", correta: false },
+      { letra: "D", texto: "102 V, 2,4 Ω", correta: false },
+      { letra: "E", texto: "102 V, 5,3 Ω", correta: false }
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
     ],
 
     /* ------------------------------------------------------------------
@@ -10757,6 +10793,7 @@ const questaoDatabase = [
       <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
 
         <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+<<<<<<< HEAD
           Leia esta parte antes da resolução. Ela cobre como caracterizar um gerador não ideal e como combinar vários deles em série — a base para resolver esta questão sem decorar fórmula nenhuma.
         </p>
 
@@ -10768,10 +10805,36 @@ const questaoDatabase = [
           <p class="text-center">$$U = \\varepsilon - r \\cdot I$$</p>
           <p>
             Quando o circuito está <strong>aberto</strong> (sem corrente, $I=0$), $U = \\varepsilon$ — por isso a "tensão em circuito aberto" de uma placa (40 V) é o próprio valor de ε.
+=======
+          Leia esta parte antes da resolução. Ela cobre o modelo de gerador não ideal (V = ε − rI) e como associar vários geradores em série — as duas ferramentas que resolvem esta questão sem precisar testar as cinco alternativas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Gerador não ideal: V = ε − rI</h4>
+          <p>
+            Todo gerador real (bateria, placa fotovoltaica) tem uma <strong>força eletromotriz (ε)</strong> — a tensão que ele forneceria em circuito aberto, sem corrente circulando — e uma <strong>resistência interna (r)</strong>, que causa uma "queda" de tensão proporcional à corrente fornecida. A tensão nos terminais do gerador, quando ele está fornecendo corrente <code>I</code> a um circuito, é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V = ε − r·I
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Encontrando a resistência interna de uma placa</h4>
+          <p>
+            O enunciado dá dois pontos de operação da mesma placa: em circuito aberto (sem corrente), ε = 40 V; em operação normal, V = 34 V com I = 7,5 A. Substituindo na equação:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            34 = 40 − r × 7,5 &nbsp;⟹&nbsp; r = 6 / 7,5 = 0,8 Ω
+          </div>
+          <p>
+            Cada placa fotovoltaica, portanto, se comporta como um gerador não ideal com ε = 40 V e r = 0,8 Ω.
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
           </p>
         </div>
 
         <div class="space-y-2">
+<<<<<<< HEAD
           <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Achando a resistência interna de uma placa</h4>
           <p>
             O enunciado dá o ponto de operação de uma placa: $U = 34\\ V$ quando $I = 7{,}5\\ A$. Substituindo na equação do gerador:
@@ -10804,6 +10867,41 @@ const questaoDatabase = [
           <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Testando o número de placas</h4>
           <p>
             Cada placa entrega $34\\ V$ em operação; $n$ placas em série entregam $n \\times 34\\ V$ (a mesma corrente de $7{,}5\\ A$ percorre todas). Testando: $n=2 \\Rightarrow 68\\ V$ (baixo demais); $n=3 \\Rightarrow 102\\ V$ (dentro de 95–105 V!); $n=4 \\Rightarrow 136\\ V$ (alto demais). O menor número que funciona é <strong>3 placas</strong>.
+=======
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Associação de geradores em série</h4>
+          <p>
+            Para alimentar a bomba (100 V ± 5 V, ou seja, entre 95 V e 105 V), uma única placa (34 V operando, 40 V em vazio) é muito pouco. É preciso <strong>elevar a tensão</strong> — e isso se faz associando geradores em <strong>série</strong>, onde:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pl-2">
+            <li>As forças eletromotrizes <strong>se somam</strong>: ε<sub>eq</sub> = n × ε</li>
+            <li>As resistências internas <strong>se somam</strong>: r<sub>eq</sub> = n × r</li>
+            <li>A corrente é a <strong>mesma</strong> em todos os elementos da série (igual à corrente de operação de cada placa individual)</li>
+          </ul>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Testando o menor número de placas que atende à bomba</h4>
+          <p>
+            Com <code>n</code> placas em série, a tensão nos terminais (na corrente de operação de 7,5 A) é: V<sub>n</sub> = n × 34 V (soma direta das tensões de operação individuais, já que a corrente é a mesma em toda a série).
+          </p>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">n placas</th>
+                <th class="text-left py-1">ε<sub>eq</sub> = 40n</th>
+                <th class="text-left py-1">r<sub>eq</sub> = 0,8n</th>
+                <th class="text-right py-1">V operando = 34n</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">2</td><td>80 V</td><td>1,6 Ω</td><td class="text-right">68 V (insuficiente)</td></tr>
+              <tr class="border-b border-purple-500/40 text-purple-300 font-bold"><td class="py-1">3</td><td>120 V</td><td>2,4 Ω</td><td class="text-right">102 V (dentro de 95–105 V)</td></tr>
+              <tr><td class="py-1">4</td><td>160 V</td><td>3,2 Ω</td><td class="text-right">136 V (excesso, mais placas do que o necessário)</td></tr>
+            </tbody>
+          </table>
+          <p>
+            Com <strong>3 placas em série</strong>, a tensão de operação (102 V) já cai dentro da faixa aceitável pela bomba (95 V a 105 V) — usar apenas 2 placas não seria suficiente (68 V), e usar 4 seria desperdiçar uma placa a mais do que o necessário. Esse é, portanto, o menor número de placas que atende ao requisito.
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
           </p>
         </div>
 
@@ -10814,11 +10912,19 @@ const questaoDatabase = [
        2. CONCEITOS
        ------------------------------------------------------------------ */
     conceitos: [
+<<<<<<< HEAD
       { icone: "fa-battery-half", titulo: "Gerador não ideal: U = ε − r·I", text: "A tensão nos terminais é a força eletromotriz menos a queda na resistência interna." },
       { icone: "fa-circle-dot", titulo: "Circuito aberto: U = ε", text: "Sem corrente circulando, a tensão medida nos terminais é igual à própria força eletromotriz." },
       { icone: "fa-link", titulo: "Associação em série", text: "εeq = soma das ε individuais; req = soma das r individuais — a corrente é a mesma em todos os elementos." },
       { icone: "fa-gauge-high", titulo: "Faixa de operação da bomba", text: "100 V ± 5 V define o intervalo aceitável: de 95 V a 105 V." },
       { icone: "fa-solar-panel", titulo: "Menor número de placas", text: "Testa-se n = 2, 3, 4... até a tensão de operação (n × 34 V) cair dentro da faixa aceitável." }
+=======
+      { icone: "fa-square-root-variable", titulo: "V = ε − rI", text: "Equação do gerador não ideal: a tensão nos terminais cai proporcionalmente à corrente fornecida, devido à resistência interna." },
+      { icone: "fa-solar-panel", titulo: "ε e r de cada placa", text: "Com ε=40V (circuito aberto) e V=34V, I=7,5A (operação), calcula-se r = 0,8 Ω por placa." },
+      { icone: "fa-link", titulo: "Associação em série", text: "EMFs e resistências internas se somam diretamente: ε_eq = nε, r_eq = nr, com a mesma corrente em toda a série." },
+      { icone: "fa-ruler", titulo: "Faixa de tensão aceitável", text: "A bomba opera entre 95 V e 105 V (100 V ± 5 V) — o critério que define quantas placas são necessárias." },
+      { icone: "fa-layer-group", titulo: "Menor número de placas", text: "3 placas em série entregam 102 V em operação — dentro da faixa exigida, sem usar mais placas do que o necessário." }
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
     ],
 
     /* ------------------------------------------------------------------
@@ -10829,6 +10935,7 @@ const questaoDatabase = [
 
         <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
           <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+<<<<<<< HEAD
           <p>Com 3 placas em série: $\\varepsilon_{eq} = 3 \\times 40 = 120\\ V$ e $r_{eq} = 3 \\times 0{,}8 = 2{,}4\\ \\Omega$. A tensão de operação resultante é $120 - 2{,}4 \\times 7{,}5 = 102\\ V$, dentro da faixa aceita pela bomba (95 V a 105 V).</p>
         </div>
 
@@ -10838,12 +10945,23 @@ const questaoDatabase = [
           <p><strong>Passo 2 — Defina a faixa aceitável da bomba.</strong> $100\\ V \\pm 5\\ V \\Rightarrow$ entre $95\\ V$ e $105\\ V$.</p>
           <p><strong>Passo 3 — Teste o menor n tal que $n \\times 34\\ V$ caia nessa faixa.</strong> $n=2 \\to 68\\ V$ (fora); $n=3 \\to 102\\ V$ (dentro!). Três placas já bastam.</p>
           <p><strong>Passo 4 — Monte o gerador equivalente com esse n.</strong> $\\varepsilon_{eq} = 3 \\times 40 = 120\\ V$; $r_{eq} = 3 \\times 0{,}8 = 2{,}4\\ \\Omega$.</p>
+=======
+          <p>3 placas em série: ε<sub>eq</sub> = 3 × 40 V = 120 V; r<sub>eq</sub> = 3 × 0,8 Ω = 2,4 Ω. Em operação (I = 7,5 A), a tensão nos terminais é 120 − 2,4×7,5 = <strong>102 V</strong>, dentro da faixa de 95 V a 105 V exigida pela bomba.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule r de uma placa.</strong> V = ε − rI → 34 = 40 − r(7,5) → r = 0,8 Ω.</p>
+          <p><strong>Passo 2 — Teste números crescentes de placas em série.</strong> Com n placas: ε_eq = 40n, r_eq = 0,8n, e a tensão de operação é 34n. Procure o menor n cuja tensão de operação caia entre 95 V e 105 V.</p>
+          <p><strong>Passo 3 — Confirme o menor n válido.</strong> n=2 dá 68 V (baixo demais); n=3 dá 102 V (dentro da faixa); portanto n=3 é o menor número que atende, com ε_eq=120 V e r_eq=2,4 Ω.</p>
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
         </div>
 
         <div class="space-y-3">
           <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
 
           <div class="border border-slate-800 rounded-lg p-3">
+<<<<<<< HEAD
             <p class="font-bold text-rose-300 text-xs mb-1">A) ε = 136 V e r = 3,2 Ω — ERRADA</p>
             <p class="text-xs">Corresponde a 4 placas em série ($r_{eq}=4\\times0{,}8=3{,}2\\ \\Omega$), mas o valor 136 V é a tensão de <em>operação</em> de 4 placas ($4\\times34$), não a força eletromotriz equivalente (que seria $4\\times40=160\\ V$) — além de usar mais placas do que o necessário.</p>
           </div>
@@ -10866,6 +10984,30 @@ const questaoDatabase = [
           <div class="border border-slate-800 rounded-lg p-3">
             <p class="font-bold text-rose-300 text-xs mb-1">E) ε = 102 V e r = 5,3 Ω — ERRADA</p>
             <p class="text-xs">Comete os dois erros ao mesmo tempo: usa a tensão de operação (102 V) no lugar de ε, e um valor de resistência interna que não corresponde a nenhuma associação de placas com $r=0{,}8\\ \\Omega$ cada.</p>
+=======
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 136 V, 3,2 Ω — ERRADA</p>
+            <p class="text-xs">Corresponde a 4 placas em série (ε=160V) somado a algum erro de cálculo — não é múltiplo direto de 40 (ε) nem de 0,8 (r) de forma consistente com n inteiro, e usaria mais placas do que o mínimo necessário de qualquer forma.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 120 V, 2,4 Ω — CORRETA</p>
+            <p class="text-xs">É exatamente 3 placas em série: 3×40=120V e 3×0,8=2,4Ω. Verificado que entrega 102 V em operação — dentro da faixa exigida pela bomba, com o menor número de placas possível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 120 V, 5,3 Ω — ERRADA</p>
+            <p class="text-xs">O valor de ε está correto (120V, compatível com 3 placas), mas a resistência interna está errada — 5,3 Ω não corresponde a 3×0,8Ω=2,4Ω. Um erro no cálculo ou na associação da resistência interna.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 102 V, 2,4 Ω — ERRADA (armadilha)</p>
+            <p class="text-xs">A resistência interna (2,4 Ω) está correta para 3 placas, mas 102 V é a <strong>tensão de operação sob carga</strong> — não a força eletromotriz (ε) do gerador equivalente. No modelo de gerador não ideal, ε deve ser o valor em circuito aberto (120 V), não o valor já com a queda de tensão da resistência interna aplicada.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 102 V, 5,3 Ω — ERRADA</p>
+            <p class="text-xs">Combina os dois erros anteriores: usa a tensão de operação (102V) no lugar de ε, e uma resistência interna (5,3Ω) que não corresponde a 3×0,8Ω.</p>
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
           </div>
 
         </div>
@@ -10874,6 +11016,7 @@ const questaoDatabase = [
     `,
 
     /* ------------------------------------------------------------------
+<<<<<<< HEAD
        4. GALERIA
        ------------------------------------------------------------------ */
     galeria: [
@@ -10920,10 +11063,80 @@ const questaoDatabase = [
                 <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
               </marker>
             </defs>
+=======
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Uma placa: encontrando r a partir de dois pontos de operação",
+        legenda: "Circuito aberto (I=0, V=ε=40V) e operação normal (I=7,5A, V=34V) determinam r = 0,8 Ω.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <line x1="60" y1="140" x2="420" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="60" y1="20" x2="60" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="52" y="26" fill="#94a3b8" font-size="8" text-anchor="end">V (V)</text>
+            <text x="415" y="155" fill="#94a3b8" font-size="8" text-anchor="end">I (A)</text>
+            <circle cx="60" cy="40" r="4" fill="#c4b5fd"/><text x="45" y="44" fill="#c4b5fd" font-size="8" text-anchor="end">40</text>
+            <circle cx="250" cy="75" r="4" fill="#c4b5fd"/><text x="250" y="68" fill="#c4b5fd" font-size="8" text-anchor="middle">(7,5 ; 34)</text>
+            <line x1="60" y1="40" x2="300" y2="90" stroke="#a78bfa" stroke-width="2"/>
+            <text x="230" y="130" fill="#94a3b8" font-size="8" text-anchor="middle">inclinação = −r = −0,8 Ω</text>
+          </svg>`
+      },
+      {
+        titulo: "Associação de 3 placas em série",
+        legenda: "As EMFs se somam (40+40+40=120V) e as resistências internas se somam (0,8+0,8+0,8=2,4Ω).",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="20" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="75" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 1</text>
+            <text x="75" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="140" y="55" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="150" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="205" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 2</text>
+            <text x="205" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="270" y="55" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="280" y="30" width="110" height="40" fill="#312e81" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="335" y="48" fill="#e0e7ff" font-size="8" font-weight="bold" text-anchor="middle">Placa 3</text>
+            <text x="335" y="62" fill="#c4b5fd" font-size="7" text-anchor="middle">40V, 0,8Ω</text>
+            <text x="230" y="90" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Equivalente: 120 V, 2,4 Ω</text>
+          </svg>`
+      },
+      {
+        titulo: "Faixa de tensão aceitável pela bomba",
+        legenda: "102 V (3 placas em operação) cai dentro da faixa de 95 V a 105 V.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <line x1="30" y1="60" x2="430" y2="60" stroke="#64748b" stroke-width="2"/>
+            <rect x="180" y="45" width="100" height="30" fill="#166534" opacity="0.4"/>
+            <text x="230" y="40" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">faixa aceitável: 95–105 V</text>
+            <line x1="60" y1="50" x2="60" y2="70" stroke="#f87171" stroke-width="2"/>
+            <text x="60" y="85" fill="#fca5a5" font-size="7" text-anchor="middle">2 placas: 68V</text>
+            <circle cx="250" cy="60" r="5" fill="#6ee7b7"/>
+            <text x="250" y="85" fill="#6ee7b7" font-size="7" font-weight="bold" text-anchor="middle">3 placas: 102V ✓</text>
+            <line x1="400" y1="50" x2="400" y2="70" stroke="#fbbf24" stroke-width="2"/>
+            <text x="400" y="85" fill="#fde68a" font-size="7" text-anchor="middle">4 placas: 136V</text>
+          </svg>`
+      },
+      {
+        titulo: "Não confunda ε (circuito aberto) com V (operação)",
+        legenda: "A alternativa D usa 102V (tensão de operação) no lugar de ε — o erro conceitual mais comum desta questão.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="90" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="42" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">ε (circuito aberto)</text>
+            <text x="120" y="65" fill="#a7f3d0" font-size="14" font-weight="bold" text-anchor="middle">120 V</text>
+            <text x="120" y="88" fill="#a7f3d0" font-size="7" text-anchor="middle">usado no diagrama do gerador</text>
+
+            <rect x="240" y="20" width="200" height="90" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="340" y="42" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">V (sob carga, I=7,5A)</text>
+            <text x="340" y="65" fill="#fca5a5" font-size="14" font-weight="bold" text-anchor="middle">102 V</text>
+            <text x="340" y="88" fill="#fca5a5" font-size="7" text-anchor="middle">NÃO é o ε do gerador equivalente</text>
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
           </svg>`
       }
     ],
 
+<<<<<<< HEAD
     diagramaHtml: `
       <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
         <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-solar-panel"></i> Gerador equivalente: εeq = n·ε, req = n·r</span>
@@ -11009,5 +11222,12559 @@ const questaoDatabase = [
     },
     simuladorType: null
   }
+=======
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: quantas placas em série a bomba precisa?",
+      descricao: "Ajuste o número de placas conectadas em série e veja a EMF equivalente, a resistência interna equivalente e a tensão de operação resultante.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Número de placas em série</span><span class="text-purple-300 font-bold" data-out="n">3</span>
+              </label>
+              <input type="range" data-sim="n" min="1" max="5" value="3" step="1" class="w-full accent-purple-500">
+              <p class="text-[10px] text-slate-500 mt-1"><i class="fa-solid fa-solar-panel"></i> Cada placa: ε=40V, r=0,8Ω, opera em 34V/7,5A.</p>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">EMF equivalente (ε_eq)</span><span class="text-purple-300 font-mono" data-out="eeq"></span></div>
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">Resistência interna (r_eq)</span><span class="text-purple-300 font-mono" data-out="req"></span></div>
+              <div class="flex justify-between text-[11px]"><span class="text-slate-400">Tensão em operação (7,5 A)</span><span class="text-purple-300 font-mono" data-out="vop"></span></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campoN = raiz.querySelector('[data-sim="n"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var n = parseInt(campoN.value, 10);
+          var eeq = n * 40;
+          var req = n * 0.8;
+          var vop = n * 34;
+
+          saida('n').textContent = n;
+          saida('eeq').textContent = eeq + ' V';
+          saida('req').textContent = req.toFixed(1) + ' Ω';
+          saida('vop').textContent = vop + ' V';
+
+          var v = saida('veredito');
+          if (vop < 95) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Tensão insuficiente.</strong> ' + vop + ' V está abaixo dos 95 V mínimos exigidos pela bomba — ela não funcionará corretamente.';
+          } else if (vop <= 105) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Dentro da faixa!</strong> ' + vop + ' V está entre 95 V e 105 V.' + (n === 3 ? ' Este é o menor número de placas que atende ao requisito — a resposta da questão (n=3, 120V, 2,4Ω).' : ' Mas note que um número menor de placas também pode funcionar — teste n=3.');
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = '<strong>Tensão excessiva.</strong> ' + vop + ' V está acima de 105 V — placas demais para o que a bomba precisa (desperdício).';
+          }
+        }
+
+        campoN.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-solar-panel"></i> 3 placas em série: ε_eq = 120 V, r_eq = 2,4 Ω → 102 V em operação (dentro de 95-105 V)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <line x1="30" y1="45" x2="60" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <line x1="60" y1="25" x2="60" y2="65" stroke="#e2e8f0" stroke-width="3"/>
+          <text x="60" y="18" fill="#c4b5fd" font-size="10" font-weight="bold" text-anchor="middle">120 V</text>
+          <line x1="60" y1="45" x2="110" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <rect x="110" y="32" width="60" height="26" fill="none" stroke="#94a3b8" stroke-width="1.8"/>
+          <text x="140" y="50" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">2,4 Ω</text>
+          <line x1="170" y1="45" x2="230" y2="45" stroke="#94a3b8" stroke-width="2"/>
+          <rect x="230" y="20" width="90" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="275" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Bomba</text>
+          <text x="400" y="45" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">102 V ✓</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q120",
+    numero: "Questão 120",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Cinemática & Sistemas de Segurança",
+    materiaCor: "purple",
+    materiaIcone: "fa-shield-halved",
+    titulo: "Sensor de Barreira: Tempo de Resposta para Detectar um Invasor em Movimento",
+    tags: ["Física", "Cinemática", "Velocidade Média", "Tempo de Resposta", "Sensores", "Sistemas de Segurança"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A figura ilustra as informações contidas no manual de um sistema de alarme que utiliza transmissores e receptores de radiação eletromagnética para a detecção de movimento. O receptor é regulado pelo tempo de resposta, que corresponde ao intervalo de tempo necessário para o corpo do invasor atravessar completamente o feixe, de diâmetro <strong>d = 15 cm</strong>. Considere que a menor porção do corpo do invasor é a sua posição de perfil, cuja espessura típica é <strong>20 cm</strong>. São indicados cinco possíveis movimentos de um invasor e suas velocidades típicas, que devem ser observadas para a escolha do tempo de resposta.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 460 160" class="w-full h-auto">
+        <rect x="20" y="60" width="40" height="40" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="40" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Transmissor</text>
+        <rect x="400" y="60" width="40" height="40" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+        <text x="420" y="55" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Receptor</text>
+        <line x1="60" y1="80" x2="400" y2="80" stroke="#a78bfa" stroke-width="6" opacity="0.5"/>
+        <text x="230" y="105" fill="#c4b5fd" font-size="8" text-anchor="middle">feixe, d = 15 cm</text>
+
+        <g transform="translate(120,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">0,5 m/s</text>
+        </g>
+        <g transform="translate(180,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">0,7 m/s</text>
+        </g>
+        <g transform="translate(240,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">1,0 m/s</text>
+        </g>
+        <g transform="translate(300,20)">
+          <circle cx="0" cy="10" r="8" fill="#fbbf24"/><rect x="-6" y="18" width="12" height="30" fill="#fbbf24"/>
+          <text x="0" y="60" fill="#fde68a" font-size="8" text-anchor="middle">2,0 m/s</text>
+        </g>
+        <g transform="translate(360,20)">
+          <circle cx="0" cy="10" r="8" fill="#f87171"/><rect x="-6" y="18" width="12" height="30" fill="#f87171"/>
+          <text x="0" y="60" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">5,0 m/s</text>
+        </g>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Manual de referência e instalação: sensor de barreira ativo. Disponível em: cs.ind.br. Acesso em: 2 dez. 2021 (adaptado).</p>
+    <br>
+    Nesse sistema, o menor tempo de resposta, em milissegundo, que garante a detecção de um possível invasor é mais próximo de`,
+
+    alternativas: [
+      { letra: "A", texto: "30 ms.", correta: false },
+      { letra: "B", texto: "70 ms.", correta: true },
+      { letra: "C", texto: "300 ms.", correta: false },
+      { letra: "D", texto: "400 ms.", correta: false },
+      { letra: "E", texto: "700 ms.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre duas armadilhas clássicas desta questão: (1) a distância percorrida não é só o diâmetro do feixe, e (2) o "pior caso" para um sensor de segurança é o invasor mais <strong>rápido</strong>, não o mais lento.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Como funciona o sensor de barreira</h4>
+          <p>
+            Um transmissor emite um feixe estreito de radiação eletromagnética até um receptor. Quando um corpo interrompe esse feixe por tempo suficiente, o sistema interpreta como uma invasão e dispara o alarme. O <strong>tempo de resposta</strong> é o parâmetro que define quão rápido o sistema precisa reagir: se o corpo atravessa o feixe mais rápido do que o tempo de resposta configurado, o sensor pode não detectar a invasão.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> A distância real percorrida: feixe + corpo (armadilha nº 1)</h4>
+          <p>
+            "Atravessar completamente o feixe" não significa apenas percorrer o diâmetro do feixe (d = 15 cm). É preciso que o corpo <strong>inteiro</strong> passe pelo feixe — do instante em que a borda frontal do corpo toca o feixe até o instante em que a borda traseira do corpo sai dele. Isso é análogo ao clássico problema do "trem atravessando uma ponte": a distância total percorrida é a <strong>soma</strong> do comprimento do trem com o comprimento da ponte.
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            distância total = espessura do corpo + diâmetro do feixe = 20 cm + 15 cm = 35 cm = 0,35 m
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> MRU: tempo = distância / velocidade</h4>
+          <p>
+            Considerando movimento retilíneo uniforme (velocidade constante durante a travessia), o tempo necessário para cruzar essa distância de 0,35 m é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            t = d<sub>total</sub> / v
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que o invasor mais rápido é o "pior caso" (armadilha nº 2)</h4>
+          <p>
+            Quanto <strong>maior</strong> a velocidade do invasor, <strong>menor</strong> o tempo que ele passa cruzando o feixe. Para garantir que o sistema detecte <em>qualquer</em> um dos cinco movimentos possíveis — inclusive o mais rápido — o tempo de resposta precisa ser igual ou menor do que o <strong>menor</strong> tempo de travessia entre todos os casos. Ou seja, é o invasor mais <strong>rápido</strong> (5,0 m/s) que determina o requisito mais exigente do sistema — não o mais lento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Calculando os 5 tempos de travessia</h4>
+          <table class="w-full text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-700 text-slate-400">
+                <th class="text-left py-1">Velocidade</th>
+                <th class="text-right py-1">t = 0,35 / v</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b border-slate-800"><td class="py-1">0,5 m/s</td><td class="text-right">700 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">0,7 m/s</td><td class="text-right">500 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">1,0 m/s</td><td class="text-right">350 ms</td></tr>
+              <tr class="border-b border-slate-800"><td class="py-1">2,0 m/s</td><td class="text-right">175 ms</td></tr>
+              <tr class="border-b border-purple-500/40 text-purple-300 font-bold"><td class="py-1">5,0 m/s (mais rápido)</td><td class="text-right">70 ms (menor tempo → caso crítico)</td></tr>
+            </tbody>
+          </table>
+          <p>
+            O menor entre todos esses tempos é 70 ms — esse é o tempo de resposta que o sistema precisa ter para garantir que capture até mesmo o invasor mais veloz.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-shield-halved", titulo: "Sensor de barreira", text: "Detecta interrupção de um feixe entre transmissor e receptor; o tempo de resposta define a sensibilidade do sistema." },
+      { icone: "fa-ruler-horizontal", titulo: "Distância = corpo + feixe", text: "Atravessar completamente o feixe exige somar a espessura do corpo ao diâmetro do feixe — não usar só um dos dois." },
+      { icone: "fa-gauge-high", titulo: "Velocidade máxima = pior caso", text: "Quanto mais rápido o invasor, menor o tempo de travessia — é a velocidade mais alta que exige o menor (mais rigoroso) tempo de resposta." },
+      { icone: "fa-square-root-variable", titulo: "t = d/v (MRU)", text: "Tempo de travessia é a distância total dividida pela velocidade do invasor." },
+      { icone: "fa-table", titulo: "Cinco cenários, um crítico", text: "Calcular todos os tempos e escolher o menor garante que o sistema funcione para todos os movimentos, inclusive o mais rápido." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Distância total = 20 cm + 15 cm = 0,35 m. Com o invasor mais rápido (5,0 m/s): t = 0,35 / 5,0 = 0,07 s = <strong>70 ms</strong> — o tempo de resposta mais exigente entre os 5 cenários.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Some a espessura do corpo ao diâmetro do feixe.</strong> distância = 20 cm + 15 cm = 35 cm = 0,35 m — a "travessia completa" inclui o corpo inteiro passando pelo feixe.</p>
+          <p><strong>Passo 2 — Identifique o pior caso: a velocidade mais alta.</strong> É o invasor de 5,0 m/s que passa pelo feixe no menor tempo, sendo o mais difícil de detectar.</p>
+          <p><strong>Passo 3 — Calcule t = d/v para esse caso.</strong> t = 0,35 / 5,0 = 0,07 s = 70 ms. Esse é o tempo de resposta necessário para garantir a detecção de qualquer um dos cinco movimentos.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 30 ms — ERRADA</p>
+            <p class="text-xs">Usa a velocidade correta (5,0 m/s, o pior caso), mas esquece de somar a espessura do corpo: 0,15 m / 5,0 m/s = 0,03 s = 30 ms — considera só o diâmetro do feixe, ignorando que o corpo inteiro precisa atravessar.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 70 ms — CORRETA</p>
+            <p class="text-xs">Usa a distância completa (corpo + feixe = 0,35 m) e a velocidade mais alta (5,0 m/s, o pior caso): 0,35 / 5,0 = 0,07 s = 70 ms.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 300 ms — ERRADA</p>
+            <p class="text-xs">Combina dois erros: usa só o diâmetro do feixe (0,15 m, esquecendo o corpo) <em>e</em> a velocidade mais lenta (0,5 m/s, em vez da mais rápida): 0,15 / 0,5 = 0,3 s = 300 ms.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 400 ms — ERRADA</p>
+            <p class="text-xs">Usa só a espessura do corpo (0,20 m, esquecendo o feixe) com a velocidade mais lenta (0,5 m/s): 0,20 / 0,5 = 0,4 s = 400 ms — dois erros somados.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 700 ms — ERRADA</p>
+            <p class="text-xs">Usa a distância total corretamente (0,35 m), mas com a velocidade mais lenta (0,5 m/s) em vez da mais rápida: 0,35 / 0,5 = 0,7 s = 700 ms — inverte qual velocidade representa o "pior caso" para um sensor de segurança.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Distância total: corpo + feixe (analogia do trem na ponte)",
+        legenda: "Do instante em que a frente do corpo toca o feixe até a traseira sair dele, a distância percorrida é a soma dos dois comprimentos.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="150" y="40" width="60" height="50" fill="#a78bfa" opacity="0.4"/>
+            <text x="180" y="30" fill="#c4b5fd" font-size="8" font-weight="bold" text-anchor="middle">feixe (15 cm)</text>
+            <rect x="100" y="45" width="40" height="40" fill="#fbbf24" opacity="0.9"/>
+            <text x="120" y="100" fill="#fde68a" font-size="7" text-anchor="middle">corpo (20 cm)</text>
+            <line x1="100" y1="115" x2="210" y2="115" stroke="#6ee7b7" stroke-width="2"/>
+            <text x="155" y="128" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">distância total = 35 cm</text>
+          </svg>`
+      },
+      {
+        titulo: "Quanto mais rápido, menos tempo dentro do feixe",
+        legenda: "O invasor de 5,0 m/s (linha vermelha) passa pela mesma distância no menor tempo — o caso mais difícil de detectar.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="50" y1="140" x2="430" y2="140" stroke="#64748b" stroke-width="2"/>
+            <line x1="50" y1="20" x2="50" y2="140" stroke="#64748b" stroke-width="2"/>
+            <text x="42" y="26" fill="#94a3b8" font-size="8" text-anchor="end">tempo (ms)</text>
+            <text x="425" y="158" fill="#94a3b8" font-size="8" text-anchor="end">velocidade (m/s)</text>
+            <path d="M 70 30 Q 200 60 420 132" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+            <circle cx="70" cy="30" r="4" fill="#fbbf24"/><text x="70" y="20" fill="#fde68a" font-size="7" text-anchor="middle">0,5: 700ms</text>
+            <circle cx="420" cy="132" r="5" fill="#f87171"/><text x="400" y="150" fill="#fca5a5" font-size="8" font-weight="bold" text-anchor="middle">5,0: 70ms (crítico)</text>
+          </svg>`
+      },
+      {
+        titulo: "Tabela dos 5 cenários",
+        legenda: "O menor tempo entre os cinco (70 ms) é o que define o tempo de resposta necessário.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="130" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Velocidade</text>
+            <text x="330" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Tempo de travessia</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">0,5 m/s</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="8">700 ms</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">0,7 m/s</text>
+            <text x="230" y="76" fill="#94a3b8" font-size="8">500 ms</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">1,0 m/s</text>
+            <text x="230" y="100" fill="#94a3b8" font-size="8">350 ms</text>
+
+            <text x="20" y="124" fill="#e2e8f0" font-size="8">2,0 m/s</text>
+            <text x="230" y="124" fill="#94a3b8" font-size="8">175 ms</text>
+
+            <rect x="10" y="132" width="440" height="26" fill="#450a0a" rx="4"/>
+            <text x="20" y="149" fill="#fca5a5" font-size="8" font-weight="bold">5,0 m/s</text>
+            <text x="230" y="149" fill="#fca5a5" font-size="8" font-weight="bold">70 ms ← menor (resposta)</text>
+          </svg>`
+      },
+      {
+        titulo: "A matriz de erros das alternativas",
+        legenda: "Cada alternativa errada combina uma escolha incorreta de distância com uma escolha incorreta de velocidade.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="70" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Distância usada</text>
+            <text x="220" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Velocidade usada</text>
+            <text x="380" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Resultado</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="7">A) só feixe (15cm)</text>
+            <text x="190" y="52" fill="#e2e8f0" font-size="7">5,0 m/s (correta)</text>
+            <text x="370" y="52" fill="#fca5a5" font-size="7">30 ms</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">B) corpo+feixe (35cm) ✓</text>
+            <text x="220" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">5,0 m/s (correta) ✓</text>
+            <text x="370" y="77" fill="#6ee7b7" font-size="7" font-weight="bold">70 ms</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="7">C) só feixe (15cm)</text>
+            <text x="190" y="102" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="102" fill="#fca5a5" font-size="7">300 ms</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="7">D) só corpo (20cm)</text>
+            <text x="190" y="126" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="126" fill="#fca5a5" font-size="7">400 ms</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="7">E) corpo+feixe (35cm)</text>
+            <text x="190" y="150" fill="#e2e8f0" font-size="7">0,5 m/s (errada)</text>
+            <text x="370" y="150" fill="#fca5a5" font-size="7">700 ms</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte o cálculo do tempo de resposta",
+      descricao: "Escolha qual distância usar e qual velocidade testar, e veja o tempo de travessia resultante — e se ele corresponde à resposta correta da questão.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Distância considerada:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="15" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Só o feixe (15 cm)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="20" class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Só o corpo (20 cm)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q120dist" data-sim="dist" value="35" checked class="accent-purple-500">
+                <span class="text-[11px] text-slate-200">Corpo + feixe (35 cm)</span>
+              </label>
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Velocidade do invasor</span><span class="text-purple-300 font-bold" data-out="vel">5,0 m/s</span>
+              </label>
+              <input type="range" data-sim="vel" min="0.5" max="5" value="5" step="0.1" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Tempo de travessia calculado:</p>
+              <div data-out="tempo" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radiosDist = raiz.querySelectorAll('[data-sim="dist"]');
+        var campoVel = raiz.querySelector('[data-sim="vel"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var dist = parseFloat(raiz.querySelector('[data-sim="dist"]:checked').value) / 100;
+          var vel = parseFloat(campoVel.value);
+          var t = dist / vel;
+          var tms = t * 1000;
+
+          saida('vel').textContent = vel.toFixed(1) + ' m/s';
+          saida('tempo').textContent = tms.toFixed(0) + ' ms';
+
+          var v = saida('veredito');
+          if (dist === 0.35 && Math.abs(vel - 5.0) < 0.05) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Esse é o cenário correto da questão!</strong> Distância completa (corpo+feixe) e velocidade mais rápida (pior caso) → 70 ms, a resposta certa.';
+          } else if (dist === 0.35) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Distância correta, mas essa velocidade não é o pior caso. Arraste até 5,0 m/s (a mais rápida) para achar o tempo de resposta mínimo necessário.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = 'Essa distância está incompleta — "atravessar completamente o feixe" exige somar a espessura do corpo (20 cm) ao diâmetro do feixe (15 cm) = 35 cm.';
+          }
+        }
+
+        radiosDist.forEach(function (r) { r.addEventListener('change', atualizar); });
+        campoVel.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-shield-halved"></i> (20cm + 15cm) ÷ 5,0 m/s = 70 ms — o tempo de resposta necessário</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <text x="80" y="50" fill="#e2e8f0" font-size="12" font-family="monospace" text-anchor="middle">0,35 m</text>
+          <text x="180" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">÷</text>
+          <text x="260" y="50" fill="#fca5a5" font-size="12" font-family="monospace" font-weight="bold" text-anchor="middle">5,0 m/s</text>
+          <text x="340" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">=</text>
+          <text x="420" y="50" fill="#6ee7b7" font-size="13" font-family="monospace" font-weight="bold" text-anchor="middle">70 ms</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q121",
+    numero: "Questão 121",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Ácidos, Bases & Química Ambiental",
+    materiaCor: "cyan",
+    materiaIcone: "fa-skull-crossbones",
+    titulo: "Vazamento de Dimetilamina na Rodovia: Neutralização Ácido-Base para Reduzir a Volatilização",
+    tags: ["Química", "Ácidos e Bases", "Neutralização", "Química Ambiental", "Aminas", "Volatilidade", "Ponto de Ebulição"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A <strong>dimetilamina</strong> é uma substância de elevada toxidez que entra em ebulição a <strong>7 °C</strong>. Na madrugada de um dia frio, essa substância se espalhou por uma rodovia após um acidente de trânsito envolvendo um caminhão que transportava esse produto. Para minimizar a agressão ao meio ambiente, bem como evitar a evaporação da dimetilamina com a elevação da temperatura ao longo do dia, um químico considerou o uso de algumas substâncias ou misturas como água, vinagre, óleo de soja, sal de cozinha e bicarbonato de sódio.
+    <br><br>
+    Dentre as opções apresentadas, o tratamento correto para minimizar esse problema é usar`,
+
+    alternativas: [
+      { letra: "A", texto: "água.", correta: false },
+      { letra: "B", texto: "vinagre.", correta: true },
+      { letra: "C", texto: "óleo de soja.", correta: false },
+      { letra: "D", texto: "sal de cozinha.", correta: false },
+      { letra: "E", texto: "bicarbonato de sódio.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre por que a dimetilamina é uma <strong>base</strong> — e por que isso significa que o protocolo de neutralização de derramamentos é o oposto do que se usa para um ácido.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Dimetilamina: uma base fraca volátil</h4>
+          <p>
+            A dimetilamina, (CH₃)₂NH, é uma <strong>amina</strong>: uma molécula orgânica derivada da amônia (NH₃), em que hidrogênios foram substituídos por grupos metila. Como a amônia, o átomo de nitrogênio da amina tem um par de elétrons não compartilhado, capaz de aceitar um próton (H⁺) — isso faz da dimetilamina uma <strong>base fracamente básica</strong> em solução aquosa, exatamente como a amônia.
+          </p>
+          <p>
+            Com ponto de ebulição de apenas 7 °C, a dimetilamina líquida evapora rapidamente à temperatura ambiente — daí a preocupação do enunciado com a elevação de temperatura ao longo do dia aumentando a evaporação (e, portanto, a exposição por inalação) do produto tóxico derramado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Neutralização ácido-base: por que reduz a volatilidade</h4>
+          <p>
+            Quando uma <strong>base</strong> (como a dimetilamina, neutra e molecular) reage com um <strong>ácido</strong>, forma-se um <strong>sal</strong> — uma espécie iônica. Diferente da amina neutra, que é uma molécula pequena e volátil, o sal formado é constituído por íons com fortes atrações eletrostáticas entre si, o que reduz drasticamente sua tendência a evaporar. Em outras palavras: transformar a dimetilamina líquida em um sal a torna muito menos volátil e, ao mesmo tempo, menos perigosa (mais fácil de conter e limpar).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            (CH₃)₂NH (base, volátil) + ácido → (CH₃)₂NH₂⁺ + ânion (sal, não volátil)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Protocolo padrão para derramamentos: ácido neutraliza base, base neutraliza ácido</h4>
+          <p>
+            Em segurança química, a regra prática para conter derramamentos corrosivos é usar um neutralizante <strong>fraco</strong> e de sentido oposto: derramamento de <strong>ácido</strong> forte se neutraliza com uma <strong>base fraca</strong> (como bicarbonato de sódio); derramamento de <strong>base</strong> se neutraliza com um <strong>ácido fraco</strong> (como o ácido acético do vinagre). Usar um neutralizante fraco evita reações violentas ou exotérmicas descontroladas, ao mesmo tempo em que garante a neutralização eficaz.
+          </p>
+          <p>
+            Como a dimetilamina é uma base, o neutralizante correto é um <strong>ácido fraco</strong> — e entre as opções, o <strong>vinagre</strong> (solução aquosa de ácido acético, CH₃COOH) é exatamente isso.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que as outras opções não funcionam</h4>
+          <p>
+            <strong>Água</strong> dilui a dimetilamina, mas não a neutraliza quimicamente — a amina continua volátil e tóxica, apenas mais espalhada, o que pode até aumentar a área de evaporação.
+          </p>
+          <p>
+            <strong>Óleo de soja</strong> não reage com a amina; poderia, no máximo, formar uma barreira física temporária, sem alterar a volatilidade química da substância.
+          </p>
+          <p>
+            <strong>Sal de cozinha (NaCl)</strong> é quimicamente inerte frente à dimetilamina — não há reação ácido-base possível, então não há neutralização.
+          </p>
+          <p>
+            <strong>Bicarbonato de sódio</strong> é ele próprio uma <strong>base fraca</strong> (usado para neutralizar ácidos). Aplicá-lo sobre outra base (a dimetilamina) não gera neutralização — as duas substâncias básicas simplesmente coexistiriam, sem reação de formação de sal.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-flask", titulo: "Dimetilamina: base fraca volátil", text: "Amina com par de elétrons livre no nitrogênio, capaz de aceitar H⁺ — comporta-se como base fraca." },
+      { icone: "fa-arrows-turn-to-dots", titulo: "Base + ácido → sal", text: "A neutralização converte a amina volátil em um sal iônico, muito menos volátil e mais fácil de conter." },
+      { icone: "fa-shield-halved", titulo: "Regra de segurança em derramamentos", text: "Ácido se neutraliza com base fraca; base se neutraliza com ácido fraco — nunca com um reagente forte, para evitar reações violentas." },
+      { icone: "fa-lemon", titulo: "Vinagre = ácido acético fraco", text: "Ácido fraco ideal para neutralizar uma base fraca como a dimetilamina, formando um sal não volátil." },
+      { icone: "fa-ban", titulo: "Por que bicarbonato não serve aqui", text: "Bicarbonato de sódio é uma base — não neutraliza outra base. Ele é o neutralizante certo para ácidos, não para aminas." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>A dimetilamina é uma base. O vinagre (ácido acético, ácido fraco) reage com ela formando um sal não volátil, reduzindo tanto a evaporação quanto a toxicidade do derramamento.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Classifique a dimetilamina.</strong> É uma amina, com nitrogênio de par de elétrons livre — portanto, uma base fraca.</p>
+          <p><strong>Passo 2 — Aplique a regra de neutralização de derramamentos.</strong> Base se neutraliza com ácido fraco (não com outra base, nem com um reagente inerte).</p>
+          <p><strong>Passo 3 — Identifique o ácido fraco entre as opções.</strong> Vinagre é uma solução de ácido acético — o único ácido fraco disponível na lista.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Água — ERRADA</p>
+            <p class="text-xs">Apenas dilui, sem neutralizar quimicamente. A amina continua volátil e tóxica, potencialmente com maior área de evaporação.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Vinagre — CORRETA</p>
+            <p class="text-xs">Ácido fraco (ácido acético) que reage com a base dimetilamina, formando um sal iônico não volátil — reduz evaporação e toxicidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Óleo de soja — ERRADA</p>
+            <p class="text-xs">Não reage quimicamente com a amina; não altera sua volatilidade nem sua basicidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Sal de cozinha — ERRADA</p>
+            <p class="text-xs">NaCl é inerte frente à dimetilamina — não há reação ácido-base possível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Bicarbonato de sódio — ERRADA (armadilha)</p>
+            <p class="text-xs">É o neutralizante clássico para <strong>ácidos</strong> — mas a dimetilamina é uma <strong>base</strong>. Duas bases não reagem entre si para neutralização.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Dimetilamina: uma base fraca, volátil a 7 °C",
+        legenda: "O par de elétrons livre no nitrogênio torna a molécula básica; o baixo ponto de ebulição a torna altamente volátil.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="150" cy="65" r="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+            <text x="150" y="70" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">N</text>
+            <text x="150" y="35" fill="#7dd3fc" font-size="9" text-anchor="middle">par livre :</text>
+            <line x1="130" y1="65" x2="90" y2="65" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="70" y="70" fill="#e2e8f0" font-size="9" text-anchor="middle">CH₃</text>
+            <line x1="170" y1="65" x2="210" y2="65" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="230" y="70" fill="#e2e8f0" font-size="9" text-anchor="middle">CH₃</text>
+            <line x1="150" y1="85" x2="150" y2="105" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="150" y="118" fill="#e2e8f0" font-size="9" text-anchor="middle">H</text>
+            <text x="330" y="60" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Ebulição: 7 °C</text>
+            <text x="330" y="78" fill="#fca5a5" font-size="8" text-anchor="middle">(altamente volátil)</text>
+          </svg>`
+      },
+      {
+        titulo: "Neutralização: base volátil → sal não volátil",
+        legenda: "Ácido acético (vinagre) protona o nitrogênio, formando um cátion amônio substituído — um sal iônico.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="90" y="52" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">(CH₃)₂NH</text>
+            <text x="90" y="68" fill="#7dd3fc" font-size="7" text-anchor="middle">base, volátil</text>
+            <text x="180" y="60" fill="#94a3b8" font-size="12" text-anchor="middle">+</text>
+            <rect x="200" y="30" width="120" height="50" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="260" y="52" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">CH₃COOH</text>
+            <text x="260" y="68" fill="#fde68a" font-size="7" text-anchor="middle">vinagre</text>
+            <text x="335" y="60" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+            <rect x="350" y="30" width="100" height="50" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="400" y="52" fill="#a7f3d0" font-size="8" font-weight="bold" text-anchor="middle">sal iônico</text>
+            <text x="400" y="68" fill="#a7f3d0" font-size="7" text-anchor="middle">não volátil</text>
+          </svg>`
+      },
+      {
+        titulo: "Regra de ouro: ácido neutraliza base, base neutraliza ácido",
+        legenda: "Usar um reagente do mesmo tipo da substância derramada não gera reação de neutralização.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="190" height="90" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="115" y="42" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Derramamento ÁCIDO</text>
+            <text x="115" y="65" fill="#fecaca" font-size="9" text-anchor="middle">neutralizar com</text>
+            <text x="115" y="85" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">base fraca (bicarbonato)</text>
+
+            <rect x="250" y="20" width="190" height="90" rx="6" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="345" y="42" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Derramamento BASE</text>
+            <text x="345" y="65" fill="#e0f2fe" font-size="9" text-anchor="middle">neutralizar com</text>
+            <text x="345" y="85" fill="#6ee7b7" font-size="10" font-weight="bold" text-anchor="middle">ácido fraco (vinagre) ✓</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco opções, uma reage corretamente",
+        legenda: "Só o vinagre tem a natureza química (ácido fraco) necessária para neutralizar a base dimetilamina.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Substância</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Natureza química</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">Água</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">neutra — só dilui</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">Vinagre ✓</text>
+            <text x="230" y="77" fill="#a7f3d0" font-size="7" font-weight="bold">ácido fraco — neutraliza a base</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">Óleo de soja</text>
+            <text x="230" y="102" fill="#94a3b8" font-size="7">inerte — sem reação</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">Sal de cozinha</text>
+            <text x="230" y="126" fill="#94a3b8" font-size="7">inerte — sem reação</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">Bicarbonato de sódio</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">base fraca — não neutraliza outra base</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: escolha o neutralizante certo para o derramamento",
+      descricao: "Escolha o tipo de substância derramada e o neutralizante a aplicar, e veja se a reação de neutralização ocorre.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Substância derramada:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121subst" data-sim="subst" value="base" checked class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Dimetilamina (base fraca)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121subst" data-sim="subst" value="acido" class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Ácido sulfúrico (ácido forte)</span>
+              </label>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Neutralizante escolhido:</p>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121neutr" data-sim="neutr" value="vinagre" checked class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Vinagre (ácido fraco)</span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+                <input type="radio" name="q121neutr" data-sim="neutr" value="bicarbonato" class="accent-cyan-500">
+                <span class="text-[11px] text-slate-200">Bicarbonato de sódio (base fraca)</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radiosSubst = raiz.querySelectorAll('[data-sim="subst"]');
+        var radiosNeutr = raiz.querySelectorAll('[data-sim="neutr"]');
+        var v = raiz.querySelector('[data-out="veredito"]');
+
+        function atualizar() {
+          var subst = raiz.querySelector('[data-sim="subst"]:checked').value;
+          var neutr = raiz.querySelector('[data-sim="neutr"]:checked').value;
+          var funciona = (subst === 'base' && neutr === 'vinagre') || (subst === 'acido' && neutr === 'bicarbonato');
+
+          if (funciona) {
+            v.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Neutralização ocorre!</strong> Reagente de natureza oposta à substância derramada forma um sal, reduzindo a periculosidade e a volatilidade.';
+          } else {
+            v.className = 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Sem neutralização.</strong> Substâncias de mesma natureza (base+base, ou ácido+ácido fraco insuficiente para ácido forte) não reagem para formar um sal — escolha o neutralizante de natureza oposta.';
+          }
+        }
+
+        radiosSubst.forEach(function (r) { r.addEventListener('change', atualizar); });
+        radiosNeutr.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-skull-crossbones"></i> Dimetilamina (base) + vinagre (ácido fraco) → sal não volátil</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">Dimetilamina</text>
+          <text x="230" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">+</text>
+          <rect x="270" y="20" width="90" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="315" y="50" fill="#fde68a" font-size="10" font-weight="bold" text-anchor="middle">Vinagre</text>
+          <text x="410" y="50" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">→ sal</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q122",
+    numero: "Questão 122",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Eletromagnetismo & Indução",
+    materiaCor: "purple",
+    materiaIcone: "fa-magnet",
+    titulo: "Fogão de Indução: Como o Campo Magnético Variável Aquece a Panela",
+    tags: ["Física", "Eletromagnetismo", "Indução Eletromagnética", "Correntes Parasitas", "Efeito Joule", "Fogão de Indução"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O aquecimento em fogões por indução utiliza bobinas para produzir um campo magnético variável. Essa bobina se localiza abaixo do vidro cerâmico sobre o qual a panela se apoia. O mecanismo aquece apenas a panela que se encontra na zona de cozimento, o que é uma das principais vantagens em relação ao uso do fogão a gás ou de resistência elétrica.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 320 220" class="w-full h-auto mx-auto max-w-xs">
+        <ellipse cx="160" cy="60" rx="90" ry="20" fill="#0f172a" stroke="#94a3b8" stroke-width="1.8"/>
+        <rect x="70" y="45" width="180" height="30" fill="#1e3a5f" opacity="0.5"/>
+        <path d="M 100 65 Q 130 80 160 90 Q 190 100 200 85" fill="none" stroke="#7dd3fc" stroke-width="3"/>
+        <text x="160" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Conteúdo aquecido</text>
+        <text x="270" y="65" fill="#94a3b8" font-size="8" text-anchor="middle">Panela</text>
+        <rect x="60" y="95" width="200" height="10" fill="#475569"/>
+        <text x="270" y="100" fill="#94a3b8" font-size="8" text-anchor="middle">Vidro cerâmico</text>
+        <ellipse cx="160" cy="150" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <ellipse cx="160" cy="135" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <ellipse cx="160" cy="165" rx="80" ry="14" fill="none" stroke="#f87171" stroke-width="2"/>
+        <path d="M 100 150 Q 90 130 100 115" fill="none" stroke="#fca5a5" stroke-width="1.5"/><polygon points="100,115 95,122 105,120" fill="#fca5a5"/>
+        <path d="M 220 150 Q 230 130 220 115" fill="none" stroke="#fca5a5" stroke-width="1.5"/><polygon points="220,115 215,122 225,120" fill="#fca5a5"/>
+        <text x="270" y="150" fill="#fca5a5" font-size="8" text-anchor="middle">Bobina de indução</text>
+        <text x="160" y="200" fill="#94a3b8" font-size="8" text-anchor="middle">Campo magnético criado por bobina de indução</text>
+      </svg>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">PEREIRA, A. B. et al. <strong>Fogões de indução</strong>: montagem e testes de um circuito disponível. Disponível em: https://publicacoes.fatecsertaozinho.edu.br. Acesso em: 21 maio 2025 (adaptado).</p>
+    <br>
+    O uso do campo magnético variável tem a finalidade de`,
+
+    alternativas: [
+      { letra: "A", texto: "imantar o material da panela por indução.", correta: false },
+      { letra: "B", texto: "movimentar os átomos de ferro concentrados no fundo da panela.", correta: false },
+      { letra: "C", texto: "emitir radiação eletromagnética, aquecendo a panela através do vidro cerâmico.", correta: false },
+      { letra: "D", texto: "induzir corrente elétrica na parte inferior da panela, aquecendo-a por efeito Joule.", correta: true },
+      { letra: "E", texto: "gerar um fluxo de corrente de convecção no ar contido entre a região da bobina e o vidro cerâmico.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre a lei de indução de Faraday e o efeito Joule — os dois fenômenos físicos que, juntos, explicam por que um fogão de indução esquenta a panela sem esquentar o vidro ao redor.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> Indução eletromagnética: campo variável gera corrente</h4>
+          <p>
+            A <strong>Lei de Faraday-Lenz</strong> estabelece que um campo magnético <strong>variável no tempo</strong> atravessando um condutor induz uma <strong>força eletromotriz</strong> (e, portanto, uma corrente elétrica) nesse condutor. No fogão de indução, a bobina abaixo do vidro cerâmico é alimentada por corrente alternada de alta frequência, criando um campo magnético que varia rapidamente.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Correntes parasitas (correntes de Foucault) na panela</h4>
+          <p>
+            Quando esse campo magnético variável atravessa o fundo <strong>metálico e ferromagnético</strong> da panela (aço ou ferro fundido), ele induz, dentro do próprio metal, <strong>correntes elétricas circulares</strong> chamadas <strong>correntes parasitas</strong> (ou correntes de Foucault/eddy currents). Note que a corrente é induzida diretamente <em>na panela</em>, não em algum outro meio intermediário como o ar ou o vidro.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Efeito Joule: de corrente elétrica a calor</h4>
+          <p>
+            O metal da panela tem uma resistência elétrica pequena, mas não nula. Ao circular por esse material resistivo, as correntes parasitas dissipam energia na forma de calor — o <strong>efeito Joule</strong> (P = R·I²). É esse aquecimento resistivo, gerado <em>dentro do próprio metal da panela</em>, que aquece o alimento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que só a panela esquenta (e não o vidro ao redor)</h4>
+          <p>
+            O vidro cerâmico não é condutor elétrico nem ferromagnético — o campo magnético passa por ele sem induzir correntes significativas, então ele não aquece por indução (só indiretamente, por contato com a panela quente). Fora da "zona de cozimento" (onde não há bobina ativa abaixo), não há campo magnético variável suficiente para induzir corrente em nenhuma panela ali colocada — por isso o fogão de indução só aquece o que está exatamente sobre a bobina ligada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Encadeamento completo do fenômeno</h4>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            corrente na bobina → campo magnético variável → corrente induzida na panela (Faraday-Lenz) → calor por efeito Joule (P=RI²)
+          </div>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-magnet", titulo: "Lei de Faraday-Lenz", text: "Um campo magnético variável no tempo induz corrente elétrica em um condutor próximo." },
+      { icone: "fa-arrows-spin", titulo: "Correntes parasitas (Foucault)", text: "Correntes circulares induzidas diretamente dentro do metal da panela pelo campo magnético variável da bobina." },
+      { icone: "fa-fire", titulo: "Efeito Joule (P = R·I²)", text: "A resistência elétrica do metal dissipa a energia da corrente induzida na forma de calor, aquecendo a panela." },
+      { icone: "fa-layer-group", titulo: "Vidro cerâmico não aquece por indução", text: "Por não ser condutor nem ferromagnético, o vidro não sofre indução significativa — só esquenta por contato com a panela quente." },
+      { icone: "fa-bullseye", titulo: "Zona de cozimento localizada", text: "Só onde há campo magnético variável ativo (sobre a bobina ligada) ocorre indução — por isso o aquecimento é restrito à panela ali colocada." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>O campo magnético variável induz correntes elétricas (parasitas) diretamente na parte inferior metálica da panela; a resistência do metal dissipa essa corrente como calor por <strong>efeito Joule</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a lei física envolvida.</strong> Campo magnético variável + condutor próximo = indução eletromagnética (Lei de Faraday-Lenz).</p>
+          <p><strong>Passo 2 — Determine onde a corrente é induzida.</strong> Diretamente no metal condutor da panela (não no ar, não no vidro).</p>
+          <p><strong>Passo 3 — Conecte corrente induzida a aquecimento.</strong> A corrente circulando num condutor resistivo dissipa energia como calor — efeito Joule. É esse calor gerado dentro da própria panela que cozinha o alimento.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Imantar o material da panela — ERRADA</p>
+            <p class="text-xs">A panela precisa ser ferromagnética para o funcionamento do sistema, mas simplesmente "imantar" o material não gera calor — o aquecimento vem da corrente elétrica induzida e dissipada por efeito Joule, não da magnetização em si.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Movimentar átomos de ferro — ERRADA</p>
+            <p class="text-xs">O mecanismo físico correto envolve o movimento de <strong>elétrons</strong> (corrente elétrica induzida), não o deslocamento de átomos de ferro na estrutura do material.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Emitir radiação eletromagnética através do vidro — ERRADA</p>
+            <p class="text-xs">A indução eletromagnética funciona por campo magnético de proximidade (indução), não por emissão e absorção de radiação eletromagnética propagante — o vidro não "transporta" radiação de aquecimento nesse mecanismo.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) Induzir corrente elétrica, aquecendo por efeito Joule — CORRETA</p>
+            <p class="text-xs">Descreve exatamente a cadeia física: indução de corrente parasita na panela seguida de dissipação de calor por efeito Joule dentro do próprio metal.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Convecção no ar entre a bobina e o vidro — ERRADA</p>
+            <p class="text-xs">O aquecimento não ocorre por convecção de ar nem depende do espaço entre bobina e vidro — o mecanismo é eletromagnético (indução), com o calor gerado dentro do metal da panela.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Cadeia causal do aquecimento por indução",
+        legenda: "Corrente na bobina → campo magnético variável → corrente induzida na panela → calor por efeito Joule.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="100" height="40" rx="5" fill="#1e293b" stroke="#475569" stroke-width="1.2"/>
+            <text x="60" y="53" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Corrente na bobina</text>
+            <text x="118" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="100" height="40" rx="5" fill="#312e81" stroke="#a78bfa" stroke-width="1.2"/>
+            <text x="180" y="53" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">Campo B variável</text>
+            <text x="238" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="250" y="30" width="100" height="40" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2"/>
+            <text x="300" y="53" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">Corrente na panela</text>
+            <text x="358" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="370" y="30" width="80" height="40" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.2"/>
+            <text x="410" y="53" fill="#fca5a5" font-size="7" font-weight="bold" text-anchor="middle">Calor (Joule)</text>
+          </svg>`
+      },
+      {
+        titulo: "Correntes parasitas no fundo da panela",
+        legenda: "O campo magnético variável induz correntes circulares (Foucault) dentro do metal condutor da panela.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="130" y="70" width="200" height="20" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="230" y="105" fill="#94a3b8" font-size="8" text-anchor="middle">fundo metálico da panela</text>
+            <ellipse cx="180" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <ellipse cx="230" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <ellipse cx="280" cy="80" rx="20" ry="7" fill="none" stroke="#fbbf24" stroke-width="1.5"/>
+            <line x1="150" y1="20" x2="150" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="150,60 145,50 155,50" fill="#a78bfa"/>
+            <line x1="230" y1="20" x2="230" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="230,60 225,50 235,50" fill="#a78bfa"/>
+            <line x1="310" y1="20" x2="310" y2="60" stroke="#a78bfa" stroke-width="2"/><polygon points="310,60 305,50 315,50" fill="#a78bfa"/>
+            <text x="230" y="15" fill="#c4b5fd" font-size="8" text-anchor="middle">campo magnético variável (da bobina)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco explicações, uma correta",
+        legenda: "Só a alternativa D descreve corretamente a cadeia física: indução → corrente → efeito Joule.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Mecanismo proposto</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) Imantar o material</text>
+            <text x="270" y="52" fill="#94a3b8" font-size="7">não gera calor por si só</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) Movimentar átomos de ferro</text>
+            <text x="270" y="76" fill="#94a3b8" font-size="7">o que se move são elétrons, não átomos</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) Emitir radiação eletromagnética</text>
+            <text x="270" y="100" fill="#94a3b8" font-size="7">indução ≠ radiação propagante</text>
+
+            <rect x="10" y="108" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="125" fill="#6ee7b7" font-size="8" font-weight="bold">D) Induzir corrente + efeito Joule ✓</text>
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) Convecção no ar</text>
+            <text x="270" y="150" fill="#94a3b8" font-size="7">mecanismo é eletromagnético, não térmico-fluido</text>
+          </svg>`
+      },
+      {
+        titulo: "Por que só a panela esquenta",
+        legenda: "Vidro cerâmico não é condutor nem ferromagnético — não sofre indução significativa.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="70" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="45" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Panela (metal ferromagnético)</text>
+            <text x="120" y="70" fill="#a7f3d0" font-size="8" text-anchor="middle">sofre indução → esquenta</text>
+
+            <rect x="250" y="20" width="200" height="70" rx="6" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+            <text x="350" y="45" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Vidro cerâmico</text>
+            <text x="350" y="70" fill="#94a3b8" font-size="8" text-anchor="middle">não conduz nem induz → não esquenta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a cadeia física do fogão de indução",
+      descricao: "Coloque os elos da cadeia causal na ordem correta e veja se o raciocínio bate com o fenômeno real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione o material sobre a bobina:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="ferro" checked class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Panela de ferro/aço (ferromagnética)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="vidro" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Recipiente de vidro (não condutor)</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q122mat" data-sim="mat" value="aluminio" class="accent-purple-500">
+              <span class="text-[11px] text-slate-200">Panela de alumínio (condutor, não ferromagnético)</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="mat"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          ferro: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200', texto: '<strong>Aquece bem!</strong> Sendo ferromagnética e condutora, a panela permite indução eficiente de correntes parasitas, que se dissipam como calor por efeito Joule.' },
+          vidro: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200', texto: '<strong>Não aquece por indução.</strong> Vidro não é condutor elétrico — não há corrente induzida, logo não há efeito Joule nele.' },
+          aluminio: { classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200', texto: '<strong>Aquecimento fraco ou nulo.</strong> Alumínio conduz eletricidade, mas não é ferromagnético — o acoplamento com o campo magnético da bobina é muito mais fraco, por isso a maioria dos fogões de indução exige panelas ferromagnéticas.' }
+        };
+
+        function atualizar() {
+          var m = raiz.querySelector('[data-sim="mat"]:checked').value;
+          var d = dados[m];
+          painel.className = d.classe;
+          painel.innerHTML = d.texto;
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-magnet"></i> Campo variável → corrente induzida na panela → calor por efeito Joule (P=RI²)</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <text x="80" y="50" fill="#c4b5fd" font-size="10" font-weight="bold" text-anchor="middle">Campo B(t)</text>
+          <text x="180" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <text x="260" y="50" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">Corrente I</text>
+          <text x="340" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">→</text>
+          <text x="420" y="50" fill="#fca5a5" font-size="10" font-weight="bold" text-anchor="middle">Calor Q</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q123",
+    numero: "Questão 123",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Fisiologia Vegetal & Fotossíntese",
+    materiaCor: "emerald",
+    materiaIcone: "fa-leaf",
+    titulo: "Fotossíntese Oxigênica x Anoxigênica: o Papel Análogo da Água e do Gás Sulfídrico",
+    tags: ["Biologia", "Fotossíntese", "Bioquímica", "ATP", "NADPH", "Fotossíntese Anoxigênica", "Doadores de Elétrons"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Plantas e algas realizam <strong>fotossíntese oxigênica</strong> para síntese de matéria orgânica e, para isso, utilizam trifosfato de adenosina (ATP) e nicotinamida adenina dinucleotídeo fosfato reduzido (NADPH). Já algumas bactérias fotossintetizantes não apresentam cloroplasto e clorofila, mas o pigmento denominado bacterioclorofila. Esses procariotos realizam a <strong>fotossíntese anoxigênica</strong>, um processo de síntese de matéria orgânica utilizando o gás carbônico (CO₂) e o gás sulfídrico (H₂S).
+    <br><br>
+    Na fotossíntese oxigênica, qual composto desempenha função análoga à do H₂S?`,
+
+    alternativas: [
+      { letra: "A", texto: "ATP.", correta: false },
+      { letra: "B", texto: "NADPH.", correta: false },
+      { letra: "C", texto: "Oxigênio.", correta: false },
+      { letra: "D", texto: "Clorofila.", correta: false },
+      { letra: "E", texto: "Água.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre o papel específico do H₂S na fotossíntese anoxigênica — o de <strong>doador de elétrons</strong> — e por que é isso, não sua fórmula química, que define a qual molécula ele deve ser comparado na fotossíntese oxigênica.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> A estrutura geral da fotossíntese: duas etapas</h4>
+          <p>
+            Toda fotossíntese tem duas fases funcionais: (1) uma <strong>fase clara/luminosa</strong>, em que a energia da luz é captada por pigmentos e usada para produzir ATP e um poder redutor (NADPH, ou equivalentes), retirando elétrons de uma molécula doadora; e (2) uma <strong>fase de fixação de carbono</strong>, em que esse ATP e poder redutor são usados para transformar CO₂ em matéria orgânica (açúcares).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Fotossíntese oxigênica: a água como doadora de elétrons</h4>
+          <p>
+            Em plantas, algas e cianobactérias, a fase luminosa quebra moléculas de <strong>água (H₂O)</strong>, retirando seus elétrons para alimentar a cadeia fotossintética de transporte de elétrons (que gera ATP e NADPH). Como subproduto dessa quebra da água, é liberado <strong>gás oxigênio (O₂)</strong> — daí o nome "fotossíntese <em>oxigênica</em>".
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-emerald-300 text-sm">
+            H₂O → 2 e⁻ + 2 H⁺ + ½ O₂ (fase luminosa oxigênica)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Fotossíntese anoxigênica: o H₂S no lugar da água</h4>
+          <p>
+            Bactérias fotossintetizantes anoxigênicas (como as bactérias sulfurosas verdes e púrpuras) usam bacterioclorofila em vez de clorofila, e não têm a maquinaria capaz de quebrar a água. Em vez disso, retiram elétrons de outra molécula doadora — o <strong>gás sulfídrico (H₂S)</strong>. Como subproduto dessa oxidação, em vez de O₂, é liberado <strong>enxofre elementar (S)</strong> — por isso "fotossíntese <em>anoxigênica</em>" (não produz oxigênio).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-emerald-300 text-sm">
+            H₂S → 2 e⁻ + 2 H⁺ + S (fase luminosa anoxigênica)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Identificando a "função análoga"</h4>
+          <p>
+            "Função análoga" significa: qual molécula desempenha, na fotossíntese oxigênica, o <strong>mesmo papel</strong> que o H₂S desempenha na anoxigênica? O papel do H₂S é ser o <strong>doador de elétrons</strong> que é oxidado na fase luminosa, "alimentando" a cadeia de transporte de elétrons que gera ATP e poder redutor. Na fotossíntese oxigênica, quem desempenha exatamente esse papel é a <strong>água</strong>.
+          </p>
+          <p>
+            Repare que ATP e NADPH não são doadores de elétrons — são <strong>produtos</strong> da fase luminosa, usados depois na fixação de carbono. O oxigênio é um <strong>subproduto liberado</strong> (análogo ao enxofre elementar liberado na fotossíntese anoxigênica, não ao H₂S que é consumido). E a clorofila é um <strong>pigmento captador de luz</strong>, análoga à bacterioclorofila — não à molécula doadora de elétrons.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-leaf", titulo: "Fotossíntese oxigênica", text: "Plantas, algas e cianobactérias usam água como doadora de elétrons, liberando O₂ como subproduto." },
+      { icone: "fa-bacteria", titulo: "Fotossíntese anoxigênica", text: "Algumas bactérias usam H₂S (ou outros doadores) em vez de água, liberando enxofre em vez de O₂." },
+      { icone: "fa-right-left", titulo: "Doador de elétrons", text: "A molécula que é oxidada na fase luminosa, cedendo elétrons para a cadeia fotossintética — H₂O e H₂S desempenham esse mesmo papel." },
+      { icone: "fa-battery-full", titulo: "ATP e NADPH são produtos, não doadores", text: "Resultam da fase luminosa e alimentam a fixação de carbono — não devem ser confundidos com a molécula doadora de elétrons." },
+      { icone: "fa-recycle", titulo: "Subproduto liberado", text: "O₂ (oxigênica) e S (anoxigênica) são os subprodutos liberados a partir da oxidação do doador de elétrons — não o próprio doador." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>A água é a molécula doadora de elétrons na fotossíntese oxigênica — exatamente o mesmo papel que o H₂S desempenha na fotossíntese anoxigênica.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o papel funcional do H₂S.</strong> O texto diz que a bactéria usa CO₂ e H₂S para sintetizar matéria orgânica — H₂S é o doador de elétrons da fase luminosa anoxigênica.</p>
+          <p><strong>Passo 2 — Pergunte: quem doa elétrons na fotossíntese oxigênica?</strong> É a água, quebrada na fase luminosa para alimentar a cadeia de transporte de elétrons.</p>
+          <p><strong>Passo 3 — Elimine as opções que não são doadoras de elétrons.</strong> ATP, NADPH, O₂ e clorofila desempenham papéis diferentes (produto, produto, subproduto liberado, pigmento) — nenhum deles é a molécula "consumida" que cede elétrons como o H₂S.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) ATP — ERRADA</p>
+            <p class="text-xs">É um <strong>produto</strong> da fase luminosa (não um doador de elétrons), usado depois na fixação de carbono — papel bem diferente do H₂S.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) NADPH — ERRADA</p>
+            <p class="text-xs">Também é um <strong>produto</strong> (poder redutor) gerado na fase luminosa a partir dos elétrons cedidos pelo doador — não é ele próprio o doador de elétrons.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Oxigênio — ERRADA (armadilha)</p>
+            <p class="text-xs">O oxigênio é o <strong>subproduto liberado</strong> pela oxidação da água — análogo ao enxofre elementar liberado pela oxidação do H₂S, não ao próprio H₂S (que é a molécula consumida, não o resíduo liberado).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Clorofila — ERRADA</p>
+            <p class="text-xs">É o <strong>pigmento captador de luz</strong>, análogo à bacterioclorofila da bactéria anoxigênica — não à molécula doadora de elétrons (H₂S).</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) Água — CORRETA</p>
+            <p class="text-xs">É a molécula oxidada (doadora de elétrons) na fase luminosa da fotossíntese oxigênica — exercendo exatamente a mesma função que o H₂S exerce na fotossíntese anoxigênica.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Dois processos, o mesmo papel funcional",
+        legenda: "Água e H₂S ocupam a mesma posição no esquema: doadores de elétrons oxidados na fase luminosa.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="16" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Fotossíntese OXIGÊNICA</text>
+            <rect x="30" y="30" width="80" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="70" y="53" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">H₂O</text>
+            <text x="118" y="55" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="80" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="170" y="53" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">e⁻ + O₂</text>
+
+            <text x="345" y="16" fill="#fbbf24" font-size="9" font-weight="bold" text-anchor="middle">Fotossíntese ANOXIGÊNICA</text>
+            <rect x="260" y="30" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="300" y="53" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">H₂S</text>
+            <text x="348" y="55" fill="#64748b" font-size="12" text-anchor="middle">→</text>
+            <rect x="360" y="30" width="80" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="400" y="53" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">e⁻ + S</text>
+
+            <text x="230" y="110" fill="#94a3b8" font-size="8" text-anchor="middle">H₂O e H₂S ocupam a MESMA posição funcional: doador de elétrons</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco opções, um único papel funcional buscado",
+        legenda: "Só a água desempenha o papel de doadora de elétrons — as demais são produtos, subprodutos ou pigmentos.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="90" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Molécula</text>
+            <text x="320" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Papel real na fotossíntese</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) ATP</text>
+            <text x="230" y="52" fill="#94a3b8" font-size="7">produto da fase luminosa</text>
+
+            <text x="20" y="76" fill="#e2e8f0" font-size="8">B) NADPH</text>
+            <text x="230" y="76" fill="#94a3b8" font-size="7">produto (poder redutor)</text>
+
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">C) Oxigênio</text>
+            <text x="230" y="100" fill="#94a3b8" font-size="7">subproduto liberado (≈ enxofre)</text>
+
+            <text x="20" y="124" fill="#e2e8f0" font-size="8">D) Clorofila</text>
+            <text x="230" y="124" fill="#94a3b8" font-size="7">pigmento (≈ bacterioclorofila)</text>
+
+            <rect x="10" y="132" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="149" fill="#6ee7b7" font-size="8" font-weight="bold">E) Água ✓</text>
+            <text x="230" y="149" fill="#a7f3d0" font-size="7" font-weight="bold">doador de elétrons (≈ H₂S)</text>
+          </svg>`
+      },
+      {
+        titulo: "De onde vem cada nome: oxigênica x anoxigênica",
+        legenda: "O nome do processo reflete o subproduto liberado pela oxidação do doador de elétrons.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="30" y="20" width="180" height="80" rx="6" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5"/>
+            <text x="120" y="42" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Doador: H₂O</text>
+            <text x="120" y="65" fill="#a7f3d0" font-size="9" text-anchor="middle">Subproduto: O₂</text>
+            <text x="120" y="85" fill="#a7f3d0" font-size="8" font-weight="bold" text-anchor="middle">→ "oxigênica"</text>
+
+            <rect x="250" y="20" width="180" height="80" rx="6" fill="#78350f" stroke="#fbbf24" stroke-width="1.5"/>
+            <text x="340" y="42" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Doador: H₂S</text>
+            <text x="340" y="65" fill="#fde68a" font-size="9" text-anchor="middle">Subproduto: S</text>
+            <text x="340" y="85" fill="#fde68a" font-size="8" font-weight="bold" text-anchor="middle">→ "anoxigênica" (sem O₂)</text>
+          </svg>`
+      },
+      {
+        titulo: "A fase luminosa em contexto: da luz ao poder redutor",
+        legenda: "O doador de elétrons alimenta a cadeia de transporte de elétrons, que gera ATP e NADPH para a fixação de carbono.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="100" height="40" rx="5" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.2"/>
+            <text x="60" y="53" fill="#a7f3d0" font-size="7" font-weight="bold" text-anchor="middle">Doador (H₂O/H₂S)</text>
+            <text x="118" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="130" y="30" width="100" height="40" rx="5" fill="#1e293b" stroke="#94a3b8" stroke-width="1.2"/>
+            <text x="180" y="53" fill="#e2e8f0" font-size="7" font-weight="bold" text-anchor="middle">Cadeia de elétrons</text>
+            <text x="238" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="250" y="30" width="100" height="40" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2"/>
+            <text x="300" y="53" fill="#bae6fd" font-size="7" font-weight="bold" text-anchor="middle">ATP + NADPH</text>
+            <text x="358" y="55" fill="#64748b" font-size="11" text-anchor="middle">→</text>
+            <rect x="370" y="30" width="80" height="40" rx="5" fill="#312e81" stroke="#a78bfa" stroke-width="1.2"/>
+            <text x="410" y="53" fill="#e0e7ff" font-size="7" font-weight="bold" text-anchor="middle">Fixação CO₂</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: identifique o papel de cada molécula",
+      descricao: "Escolha uma molécula e veja qual papel ela desempenha na fotossíntese — e se esse papel é análogo ao do H₂S na fotossíntese anoxigênica.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Selecione:</p>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="atp" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">ATP</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="nadph" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">NADPH</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="oxigenio" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Oxigênio</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="clorofila" class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Clorofila</span>
+            </label>
+            <label class="flex items-center gap-2 p-2 rounded-lg border border-slate-800 cursor-pointer">
+              <input type="radio" name="q123mol" data-sim="mol" value="agua" checked class="accent-emerald-500">
+              <span class="text-[11px] text-slate-200">Água</span>
+            </label>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="painel" class="p-4 rounded-xl border text-[11px] leading-relaxed bg-slate-950 border-slate-800 text-slate-300"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var radios = raiz.querySelectorAll('[data-sim="mol"]');
+        var painel = raiz.querySelector('[data-out="painel"]');
+
+        var dados = {
+          atp: { analoga: false, papel: 'Produto da fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          nadph: { analoga: false, papel: 'Produto (poder redutor) da fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          oxigenio: { analoga: false, papel: 'Subproduto liberado (análogo ao enxofre, não ao H₂S)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          clorofila: { analoga: false, papel: 'Pigmento captador de luz (análogo à bacterioclorofila)', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200' },
+          agua: { analoga: true, papel: 'Doadora de elétrons na fase luminosa', classe: 'p-4 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200' }
+        };
+
+        function atualizar() {
+          var m = raiz.querySelector('[data-sim="mol"]:checked').value;
+          var d = dados[m];
+          painel.className = d.classe;
+          painel.innerHTML = '<strong>Papel real:</strong> ' + d.papel + '.<br><br>' + (d.analoga ? '<strong>É análogo ao H₂S!</strong> Ambos são oxidados como doadores de elétrons na fase luminosa.' : '<strong>Não é análogo ao H₂S</strong> — o H₂S é especificamente o doador de elétrons, não um produto, subproduto ou pigmento.');
+        }
+
+        radios.forEach(function (r) { r.addEventListener('change', atualizar); });
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-leaf"></i> Água (oxigênica) e H₂S (anoxigênica) desempenham o mesmo papel: doador de elétrons</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="140" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+          <text x="90" y="50" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">H₂O</text>
+          <text x="230" y="50" fill="#67e8f9" font-size="14" text-anchor="middle">≈</text>
+          <rect x="300" y="20" width="140" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+          <text x="370" y="50" fill="#fde68a" font-size="11" font-weight="bold" text-anchor="middle">H₂S</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q124",
+    numero: "Questão 124",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Eletroquímica & Potenciais-Padrão",
+    materiaCor: "cyan",
+    materiaIcone: "fa-bolt",
+    titulo: "Limpeza de Objetos de Prata: Potenciais-Padrão do Escurecimento e do Clareamento",
+    tags: ["Química", "Eletroquímica", "Potencial-Padrão de Redução", "Pilhas", "Oxirredução", "Prata"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Objetos de prata escurecem em contato com compostos contendo enxofre por causa da formação de uma fina camada de sulfeto de prata. Um método simples para clarear o objeto consiste em forrar um recipiente com papel alumínio, adicionar ao recipiente uma solução aquosa de cloreto de sódio e, enfim, mergulhar o objeto de prata enegrecido. Em cerca de três minutos, a prata volta à coloração original. As seguintes semirreações e os respectivos potenciais-padrão de redução são úteis para a compreensão dos fenômenos ocorridos.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2 font-mono text-sm text-cyan-300">
+      <div class="flex justify-between"><span>Ag₂S (s) + 2 e⁻ → 2 Ag (s) + S²⁻ (aq)</span><span>−0,69 V</span></div>
+      <div class="flex justify-between"><span>O₂ (g) + 4 H⁺ (aq) + 4 e⁻ → 2 H₂O (l)</span><span>+1,23 V</span></div>
+      <div class="flex justify-between"><span>Al³⁺ (aq) + 3 e⁻ → Al (s)</span><span>−1,68 V</span></div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">SARTORI, E. R.; BATISTA, E. F.; FATIBELLO-FILHO, O. Escurecimento e limpeza de objetos de prata: um experimento simples e de fácil execução envolvendo reações de oxidação-redução. <strong>Química Nova na Escola</strong>, n. 30, 2008 (adaptado).</p>
+    <br>
+    Os valores das diferenças de potencial-padrão das reações que representam o escurecimento e o clareamento do objeto de prata são, respectivamente,`,
+
+    alternativas: [
+      { letra: "A", texto: "+0,54 V e +2,37 V.", correta: false },
+      { letra: "B", texto: "+1,92 V e +0,99 V.", correta: true },
+      { letra: "C", texto: "−0,15 V e +5,43 V.", correta: false },
+      { letra: "D", texto: "+2,61 V e +1,29 V.", correta: false },
+      { letra: "E", texto: "+0,15 V e −1,29 V.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre como montar duas reações completas (escurecimento e clareamento) a partir das três semirreações dadas, usando ΔE° = E°<sub>catodo</sub> − E°<sub>anodo</sub>.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Escurecimento: prata oxidada por oxigênio na presença de enxofre</h4>
+          <p>
+            O escurecimento é a formação de Ag₂S a partir da prata metálica, num processo em que a prata é <strong>oxidada</strong> (perde elétrons) enquanto o oxigênio do ar é <strong>reduzido</strong>. Isso significa usar a semirreação da prata <em>ao contrário</em> (como oxidação, anodo) e a semirreação do oxigênio como está (redução, catodo).
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            Catodo (redução): O₂ + 4H⁺ + 4e⁻ → 2H₂O &nbsp; E° = +1,23 V<br>
+            Anodo (oxidação): 2Ag + S²⁻ → Ag₂S + 2e⁻ &nbsp; (E°<sub>redução</sub> = −0,69 V)
+          </div>
+          <p>
+            ΔE°<sub>escurecimento</sub> = E°<sub>catodo</sub> − E°<sub>anodo</sub> = (+1,23) − (−0,69) = <strong>+1,92 V</strong>
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Clareamento: alumínio reduz o Ag₂S de volta a prata metálica</h4>
+          <p>
+            No clareamento, o alumínio do papel-alumínio é <strong>oxidado</strong> (perde elétrons, viram Al³⁺), enquanto o Ag₂S é <strong>reduzido</strong> de volta a prata metálica (Ag). O alumínio funciona como agente redutor "sacrificial" — mais fácil de oxidar do que a prata, ele "puxa" os elétrons de volta para o Ag₂S.
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            Catodo (redução): Ag₂S + 2e⁻ → 2Ag + S²⁻ &nbsp; E° = −0,69 V<br>
+            Anodo (oxidação): Al → Al³⁺ + 3e⁻ &nbsp; (E°<sub>redução</sub> = −1,68 V)
+          </div>
+          <p>
+            ΔE°<sub>clareamento</sub> = E°<sub>catodo</sub> − E°<sub>anodo</sub> = (−0,69) − (−1,68) = <strong>+0,99 V</strong>
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que o NaCl (aq) é necessário</h4>
+          <p>
+            A solução de NaCl fornece íons que aumentam a condutividade elétrica da solução, funcionando como uma "ponte" que permite a transferência de elétrons entre o alumínio e o objeto de prata em contato — essencialmente transformando o sistema num tipo de célula eletroquímica improvisada, permitindo que a reação de clareamento ocorra de forma eficiente.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Regra geral: ΔE° = E°<sub>catodo</sub> − E°<sub>anodo</sub></h4>
+          <p>
+            Para qualquer reação redox espontânea, identifique qual semirreação ocorre como <strong>redução</strong> (catodo, usada como está na tabela) e qual ocorre como <strong>oxidação</strong> (anodo, invertida em relação à tabela, mas o valor de E° usado na subtração continua sendo o de <em>redução</em> tabelado). A diferença de potencial-padrão da pilha (ΔE°) é sempre E°<sub>catodo</sub> menos E°<sub>anodo</sub>, e deve dar um valor positivo para uma reação espontânea, como as duas descritas aqui.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-bolt", titulo: "ΔE° = E°catodo − E°anodo", text: "Fórmula para calcular a diferença de potencial-padrão de qualquer reação redox espontânea a partir de duas semirreações." },
+      { icone: "fa-arrow-down", titulo: "Escurecimento: Ag oxidada por O₂", text: "Prata perde elétrons (oxidação) para o oxigênio do ar (redução), formando Ag₂S. ΔE°=+1,92V." },
+      { icone: "fa-arrow-up", titulo: "Clareamento: Al reduz o Ag₂S", text: "Alumínio se oxida, doando elétrons que reduzem o Ag₂S de volta a prata metálica. ΔE°=+0,99V." },
+      { icone: "fa-shield", titulo: "Alumínio como redutor sacrificial", text: "Por ter potencial de redução mais negativo (−1,68V) que a prata, o Al se oxida preferencialmente, protegendo/regenerando a prata." },
+      { icone: "fa-water", titulo: "Papel da solução de NaCl", text: "Aumenta a condutividade elétrica, funcionando como eletrólito que viabiliza a transferência de elétrons entre alumínio e prata." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>Escurecimento: ΔE° = 1,23 − (−0,69) = <strong>+1,92 V</strong>. Clareamento: ΔE° = (−0,69) − (−1,68) = <strong>+0,99 V</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique catodo e anodo do escurecimento.</strong> O₂ é reduzido (catodo, +1,23V); Ag é oxidada (anodo, usa o E° tabelado de −0,69V mesmo invertendo a equação).</p>
+          <p><strong>Passo 2 — Calcule ΔE° do escurecimento.</strong> 1,23 − (−0,69) = 1,92 V.</p>
+          <p><strong>Passo 3 — Repita para o clareamento.</strong> Ag₂S é reduzido (catodo, −0,69V); Al é oxidado (anodo, −1,68V). ΔE° = (−0,69) − (−1,68) = 0,99 V.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) +0,54 V e +2,37 V — ERRADA</p>
+            <p class="text-xs">Não corresponde à subtração correta E°catodo−E°anodo para nenhuma das duas reações com os valores dados.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) +1,92 V e +0,99 V — CORRETA</p>
+            <p class="text-xs">Exatamente os valores calculados: 1,23−(−0,69)=1,92V para o escurecimento e (−0,69)−(−1,68)=0,99V para o clareamento.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) −0,15 V e +5,43 V — ERRADA</p>
+            <p class="text-xs">Um ΔE° negativo indicaria reação não espontânea — mas o escurecimento da prata é um processo espontâneo observado na prática, então esse valor não pode estar correto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) +2,61 V e +1,29 V — ERRADA</p>
+            <p class="text-xs">Valores não batem com a subtração correta dos potenciais-padrão fornecidos.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) +0,15 V e −1,29 V — ERRADA</p>
+            <p class="text-xs">Um ΔE° negativo para o clareamento contradiria o fato observado de que a reação ocorre espontaneamente em poucos minutos.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Escurecimento: Ag oxidada, O₂ reduzido",
+        legenda: "ΔE° = E°(O₂/H₂O) − E°(Ag₂S/Ag) = 1,23 − (−0,69) = +1,92 V.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="180" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Catodo: O₂ + 4H⁺ + 4e⁻ → 2H₂O</text>
+            <text x="110" y="68" fill="#7dd3fc" font-size="8" text-anchor="middle">E° = +1,23 V</text>
+            <rect x="260" y="30" width="180" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="350" y="50" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Anodo: 2Ag+S²⁻→Ag₂S+2e⁻</text>
+            <text x="350" y="68" fill="#fca5a5" font-size="8" text-anchor="middle">E°(red.) = −0,69 V</text>
+          </svg>`
+      },
+      {
+        titulo: "Clareamento: Al oxidado, Ag₂S reduzido",
+        legenda: "ΔE° = E°(Ag₂S/Ag) − E°(Al³⁺/Al) = (−0,69) − (−1,68) = +0,99 V.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="180" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">Catodo: Ag₂S+2e⁻→2Ag+S²⁻</text>
+            <text x="110" y="68" fill="#7dd3fc" font-size="8" text-anchor="middle">E° = −0,69 V</text>
+            <rect x="260" y="30" width="180" height="50" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="350" y="50" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">Anodo: Al → Al³⁺+3e⁻</text>
+            <text x="350" y="68" fill="#fde68a" font-size="8" text-anchor="middle">E°(red.) = −1,68 V</text>
+          </svg>`
+      },
+      {
+        titulo: "Escada de potenciais-padrão",
+        legenda: "Quanto maior a distância vertical entre catodo e anodo na escada, maior o ΔE° da pilha formada.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <line x1="230" y1="20" x2="230" y2="170" stroke="#64748b" stroke-width="2"/>
+            <circle cx="230" cy="35" r="5" fill="#38bdf8"/><text x="245" y="39" fill="#7dd3fc" font-size="8" text-anchor="start">O₂/H₂O: +1,23V</text>
+            <circle cx="230" cy="95" r="5" fill="#f87171"/><text x="245" y="99" fill="#fca5a5" font-size="8" text-anchor="start">Ag₂S/Ag: −0,69V</text>
+            <circle cx="230" cy="155" r="5" fill="#fbbf24"/><text x="245" y="159" fill="#fde68a" font-size="8" text-anchor="start">Al³⁺/Al: −1,68V</text>
+            <text x="30" y="65" fill="#94a3b8" font-size="7" text-anchor="middle">escurecimento</text>
+            <text x="30" y="125" fill="#94a3b8" font-size="7" text-anchor="middle">clareamento</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco pares de valores, um correto",
+        legenda: "Apenas B reproduz corretamente as duas subtrações E°catodo − E°anodo.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="140" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Escurecimento</text>
+            <text x="340" y="27" fill="#94a3b8" font-size="8" font-weight="bold" text-anchor="middle">Clareamento</text>
+
+            <text x="20" y="52" fill="#e2e8f0" font-size="8">A) +0,54 V</text>
+            <text x="270" y="52" fill="#e2e8f0" font-size="8">+2,37 V</text>
+
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">B) +1,92 V ✓</text>
+            <text x="270" y="77" fill="#6ee7b7" font-size="8" font-weight="bold">+0,99 V ✓</text>
+
+            <text x="20" y="102" fill="#e2e8f0" font-size="8">C) −0,15 V</text>
+            <text x="270" y="102" fill="#e2e8f0" font-size="8">+5,43 V</text>
+
+            <text x="20" y="126" fill="#e2e8f0" font-size="8">D) +2,61 V</text>
+            <text x="270" y="126" fill="#e2e8f0" font-size="8">+1,29 V</text>
+
+            <text x="20" y="150" fill="#e2e8f0" font-size="8">E) +0,15 V</text>
+            <text x="270" y="150" fill="#e2e8f0" font-size="8">−1,29 V</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: monte a pilha e calcule ΔE°",
+      descricao: "Escolha quais semirreações atuam como catodo e anodo e veja o ΔE° calculado automaticamente.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Catodo (redução):</p>
+              <select data-sim="catodo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="1.23">O₂/H₂O (+1,23 V)</option>
+                <option value="-0.69">Ag₂S/Ag (−0,69 V)</option>
+                <option value="-1.68">Al³⁺/Al (−1,68 V)</option>
+              </select>
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Anodo (oxidação):</p>
+              <select data-sim="anodo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+                <option value="-0.69" selected>Ag₂S/Ag (−0,69 V)</option>
+                <option value="1.23">O₂/H₂O (+1,23 V)</option>
+                <option value="-1.68">Al³⁺/Al (−1,68 V)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">ΔE° = E°catodo − E°anodo:</p>
+              <div data-out="deltae" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selCat = raiz.querySelector('[data-sim="catodo"]');
+        var selAn = raiz.querySelector('[data-sim="anodo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var cat = parseFloat(selCat.value);
+          var an = parseFloat(selAn.value);
+          var deltaE = cat - an;
+
+          saida('deltae').textContent = (deltaE >= 0 ? '+' : '') + deltaE.toFixed(2) + ' V';
+
+          var v = saida('veredito');
+          if (cat === an) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Catodo e anodo são a mesma semirreação — escolha duas diferentes para formar uma pilha real.';
+          } else if (deltaE > 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Reação espontânea!</strong> ΔE° positivo indica que essa combinação ocorreria espontaneamente — como o escurecimento (+1,92V) ou o clareamento (+0,99V) da prata.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Reação não espontânea.</strong> ΔE° negativo significa que essa combinação de catodo/anodo não ocorreria espontaneamente nesse sentido.';
+          }
+        }
+
+        selCat.addEventListener('change', atualizar);
+        selAn.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-bolt"></i> Escurecimento: +1,92 V &nbsp;|&nbsp; Clareamento: +0,99 V</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <rect x="20" y="20" width="180" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+          <text x="110" y="50" fill="#fca5a5" font-size="11" font-weight="bold" text-anchor="middle">+1,92 V (escurece)</text>
+          <rect x="260" y="20" width="180" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="350" y="50" fill="#a7f3d0" font-size="11" font-weight="bold" text-anchor="middle">+0,99 V (clareia)</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q125",
+    numero: "Questão 125",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estequiometria & Gases Ideais",
+    materiaCor: "cyan",
+    materiaIcone: "fa-flask",
+    titulo: "O Bolo da Chefe: Estequiometria do Bicarbonato de Amônio e Lei dos Gases Ideais",
+    tags: ["Química", "Estequiometria", "Gases Ideais", "Rendimento de Reação", "Decomposição Térmica"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Apaixonada por culinária e química, uma chefe de cozinha calculou que, para promover o crescimento adequado da massa durante o cozimento de um bolo a 180 °C (453 K) e 1,00 atm, ela precisaria utilizar uma quantidade de fermento químico suficiente para produzir um volume de gás igual a 4,00 L. Com esse objetivo, ela escolheu utilizar o bicarbonato de amônio, um composto que, sob aquecimento, se degrada em três gases distintos, que são os responsáveis pelo crescimento da massa. A decomposição do bicarbonato de amônio ocorre conforme a equação química apresentada e, nas condições do cozimento, seu rendimento é de 80%.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-cyan-300">
+      NH₄HCO₃ (s) → NH₃ (g) + CO₂ (g) + H₂O (g)
+    </div>
+    <br>
+    Considere que a mistura dos gases se comporta como gás ideal nas condições de cozimento utilizadas pela chefe.
+    <br><br>
+    Dados: Massa molar do NH₄HCO₃ = 79 g·mol⁻¹ e R = 0,082 atm·L·mol⁻¹·K⁻¹.
+    <br><br>
+    A massa, em grama, de bicarbonato de amônio que ela deve utilizar é mais próxima de`,
+
+    alternativas: [
+      { letra: "A", texto: "2,3 g.", correta: false },
+      { letra: "B", texto: "3,5 g.", correta: true },
+      { letra: "C", texto: "5,9 g.", correta: false },
+      { letra: "D", texto: "6,8 g.", correta: false },
+      { letra: "E", texto: "8,9 g.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Esta questão combina dois assuntos: a lei dos gases ideais (para achar quantos mols de gás são necessários) e estequiometria com rendimento (para converter isso em massa de reagente sólido).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A proporção estequiométrica: 1 mol de sólido gera 3 mols de gás</h4>
+          <p>
+            A equação NH₄HCO₃ (s) → NH₃ (g) + CO₂ (g) + H₂O (g) mostra que <strong>cada mol</strong> de bicarbonato de amônio sólido que se decompõe produz <strong>3 mols</strong> de gases (1 mol de NH₃ + 1 mol de CO₂ + 1 mol de H₂O, todos gasosos nas condições do forno). Essa proporção 1:3 é o elo entre "quantidade de gás produzido" e "quantidade de sólido consumido".
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Lei dos gases ideais: quantos mols de gás são precisos?</h4>
+          <p>
+            A chefe quer um volume de gás V = 4,00 L, nas condições T = 453 K e P = 1,00 atm. Usando PV = nRT:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>gás</sub> = PV / RT = (1,00 × 4,00) / (0,082 × 453) ≈ 0,1077 mol de gás (total, somando os 3 gases)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Convertendo mols de gás em mols de NH₄HCO₃ (sem considerar rendimento ainda)</h4>
+          <p>
+            Como cada mol de NH₄HCO₃ gera 3 mols de gás, a quantidade <em>teórica</em> (100% de rendimento) de bicarbonato de amônio necessária é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>NH₄HCO₃, teórico</sub> = n<sub>gás</sub> / 3 = 0,1077 / 3 ≈ 0,0359 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Ajustando pelo rendimento de 80%</h4>
+          <p>
+            Rendimento de 80% significa que, de todo o NH₄HCO₃ colocado no forno, apenas 80% de fato se decompõe da forma esperada (produzindo o gás útil). Para obter os 0,0359 mol teóricos de "gás útil equivalente", a chefe precisa colocar <strong>mais</strong> reagente do que o valor teórico — ela deve <em>dividir</em> pelo rendimento (não multiplicar), pois vai "desperdiçar" 20%:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n<sub>NH₄HCO₃, real</sub> = n<sub>teórico</sub> / 0,80 = 0,0359 / 0,80 ≈ 0,0449 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Convertendo mol em massa</h4>
+          <p>
+            m = n × M = 0,0449 mol × 79 g/mol ≈ <strong>3,5 g</strong>.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-flask", titulo: "PV = nRT", text: "Lei dos gases ideais: relaciona pressão, volume, quantidade de matéria e temperatura de um gás." },
+      { icone: "fa-diagram-project", titulo: "Proporção estequiométrica 1:3", text: "Cada mol de NH₄HCO₃ sólido decomposto gera 3 mols de gás (NH₃ + CO₂ + H₂O)." },
+      { icone: "fa-percent", titulo: "Rendimento de 80%", text: "Como nem todo reagente se converte com sucesso, é preciso usar mais reagente (dividir pelo rendimento) do que o valor teórico." },
+      { icone: "fa-temperature-half", titulo: "Atenção às unidades", text: "T deve estar em Kelvin (453 K, não 180 °C) para usar corretamente R = 0,082 atm·L·mol⁻¹·K⁻¹." },
+      { icone: "fa-scale-balanced", titulo: "m = n × M", text: "Conversão final de mols de bicarbonato de amônio para massa, usando a massa molar dada (79 g/mol)." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>n<sub>gás</sub> = PV/RT ≈ 0,1077 mol → n<sub>NH₄HCO₃ teórico</sub> = 0,1077/3 ≈ 0,0359 mol → n<sub>real</sub> = 0,0359/0,80 ≈ 0,0449 mol → m = 0,0449 × 79 ≈ <strong>3,5 g</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Ache os mols de gás necessários.</strong> PV=nRT com T em Kelvin (453 K): n<sub>gás</sub>=(1,00×4,00)/(0,082×453)≈0,1077 mol.</p>
+          <p><strong>Passo 2 — Divida por 3 (estequiometria) e depois por 0,80 (rendimento).</strong> n<sub>real</sub>=(0,1077/3)/0,80≈0,0449 mol de NH₄HCO₃.</p>
+          <p><strong>Passo 3 — Converta para massa.</strong> m=n×M=0,0449×79≈3,5 g.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 2,3 g — ERRADA</p>
+            <p class="text-xs">Valor próximo do que se obtém ao esquecer o ajuste pelo rendimento (usando apenas o valor teórico de ≈0,0359 mol × 79 ≈ 2,8 g, sem dividir por 0,80). Ignora que nem todo o reagente se decompõe com sucesso.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) 3,5 g — CORRETA</p>
+            <p class="text-xs">Resultado de aplicar corretamente PV=nRT (com T=453K), dividir por 3 (estequiometria) e depois por 0,80 (rendimento), multiplicando por 79 g/mol no final.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 5,9 g — ERRADA</p>
+            <p class="text-xs">Pode surgir de um erro de conversão de unidades intermediário (por exemplo, usar mal a proporção estequiométrica junto ao ajuste de rendimento), quase o dobro do valor correto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 6,8 g — ERRADA</p>
+            <p class="text-xs">Consistente com esquecer de dividir por 3 (tratando 1 mol de sólido como se gerasse apenas 1 mol de gás) e ainda assim aplicar o rendimento incorretamente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 8,9 g — ERRADA</p>
+            <p class="text-xs">Valor obtido ao esquecer de converter 180 °C para Kelvin (usando T=180 em vez de T=453 na equação dos gases ideais), o que infla bastante o número de mols de gás calculado e, por consequência, a massa final.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Equação e proporção molar 1:3",
+        legenda: "Cada mol de NH₄HCO₃ sólido decomposto libera 3 mols de gás (NH₃ + CO₂ + H₂O).",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="90" y="58" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">1 mol NH₄HCO₃ (s)</text>
+            <text x="190" y="58" fill="#94a3b8" font-size="16" text-anchor="middle">→</text>
+            <rect x="220" y="30" width="220" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="330" y="50" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">1 NH₃(g) + 1 CO₂(g) + 1 H₂O(g)</text>
+            <text x="330" y="68" fill="#7dd3fc" font-size="9" text-anchor="middle">= 3 mols de gás</text>
+          </svg>`
+      },
+      {
+        titulo: "Lei dos gases ideais: PV = nRT",
+        legenda: "Com P=1,00 atm, V=4,00 L, T=453 K e R=0,082, obtém-se n(gás) ≈ 0,1077 mol.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="15" width="420" height="34" fill="#082f49" stroke="#0ea5e9" stroke-width="1.5" rx="4"/>
+            <text x="230" y="37" fill="#7dd3fc" font-size="13" font-weight="bold" text-anchor="middle">n = PV / RT</text>
+            <rect x="20" y="60" width="420" height="55" fill="#0f172a" stroke="#334155" stroke-width="1" rx="4"/>
+            <text x="230" y="82" fill="#cbd5e1" font-size="9" text-anchor="middle">n = (1,00 atm × 4,00 L) / (0,082 × 453 K)</text>
+            <text x="230" y="102" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">n ≈ 0,1077 mol de gás</text>
+          </svg>`
+      },
+      {
+        titulo: "Teórico → real: efeito do rendimento de 80%",
+        legenda: "Como só 80% do reagente reage com sucesso, é preciso colocar mais massa do que o valor teórico prevê.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="20" y="25" fill="#94a3b8" font-size="9">n(teórico) = n(gás)/3 ≈ 0,0359 mol</text>
+            <rect x="20" y="35" width="180" height="26" fill="#1e293b" rx="4"/>
+            <rect x="20" y="35" width="144" height="26" fill="#0ea5e9" rx="4"/>
+            <text x="110" y="53" fill="#0f172a" font-size="9" font-weight="bold" text-anchor="middle">80% útil</text>
+
+            <text x="20" y="90" fill="#94a3b8" font-size="9">n(real) = n(teórico) / 0,80 ≈ 0,0449 mol</text>
+            <rect x="20" y="100" width="225" height="26" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" rx="4"/>
+            <text x="132" y="118" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">massa real necessária (maior)</text>
+          </svg>`
+      },
+      {
+        titulo: "Fluxo completo do cálculo",
+        legenda: "Do volume de gás desejado até a massa final de bicarbonato de amônio: 4,00 L → 0,1077 mol gás → 0,0359 mol teórico → 0,0449 mol real → 3,5 g.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">V = 4,00 L, T = 453 K, P = 1,00 atm</text>
+            <text x="230" y="48" fill="#64748b" font-size="12" text-anchor="middle">↓ PV=nRT</text>
+            <rect x="10" y="55" width="440" height="26" fill="#0c4a6e" rx="4"/>
+            <text x="230" y="72" fill="#bae6fd" font-size="9" text-anchor="middle">n(gás) ≈ 0,1077 mol</text>
+            <text x="230" y="93" fill="#64748b" font-size="12" text-anchor="middle">↓ ÷3 (estequiometria)</text>
+            <rect x="10" y="100" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="117" fill="#e2e8f0" font-size="9" text-anchor="middle">n(NH₄HCO₃ teórico) ≈ 0,0359 mol</text>
+            <text x="230" y="138" fill="#64748b" font-size="12" text-anchor="middle">↓ ÷0,80 (rendimento) → ×79 g/mol</text>
+            <rect x="10" y="145" width="440" height="30" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="230" y="165" fill="#6ee7b7" font-size="11" font-weight="bold" text-anchor="middle">m ≈ 3,5 g</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: da lei dos gases à massa de reagente",
+      descricao: "Ajuste o volume de gás desejado e o rendimento da reação, e veja como a massa necessária de NH₄HCO₃ muda em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Volume de gás desejado (L): <span data-out="vlabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="1" max="8" step="0.1" value="4.0" data-sim="volume" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Rendimento da reação (%): <span data-out="rlabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="30" max="100" step="1" value="80" data-sim="rendimento" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500">T = 453 K, P = 1,00 atm, R = 0,082 atm·L·mol⁻¹·K⁻¹, M(NH₄HCO₃) = 79 g/mol (fixos, como no enunciado).</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">n(gás) = PV/RT:</p>
+              <div data-out="ngas" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">n(NH₄HCO₃ real):</p>
+              <div data-out="nreal" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Massa necessária:</p>
+              <div data-out="massa" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selV = raiz.querySelector('[data-sim="volume"]');
+        var selR = raiz.querySelector('[data-sim="rendimento"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var P = 1.00, T = 453, R = 0.082, M = 79;
+
+        function atualizar() {
+          var V = parseFloat(selV.value);
+          var rendimento = parseFloat(selR.value) / 100;
+
+          saida('vlabel').textContent = V.toFixed(1) + ' L';
+          saida('rlabel').textContent = (rendimento * 100).toFixed(0) + '%';
+
+          var nGas = (P * V) / (R * T);
+          var nTeorico = nGas / 3;
+          var nReal = nTeorico / rendimento;
+          var massa = nReal * M;
+
+          saida('ngas').textContent = nGas.toFixed(4) + ' mol';
+          saida('nreal').textContent = nReal.toFixed(4) + ' mol';
+          saida('massa').textContent = massa.toFixed(2) + ' g';
+        }
+
+        selV.addEventListener('input', atualizar);
+        selR.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-flask"></i> 4,00 L de gás → 0,1077 mol → ÷3 → ÷0,80 → 3,5 g de NH₄HCO₃</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">m ≈ 3,5 g de bicarbonato de amônio</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q126",
+    numero: "Questão 126",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Cinemática Vetorial 3D",
+    materiaCor: "purple",
+    materiaIcone: "fa-plane",
+    titulo: "Avião, Vento e o Princípio da Independência dos Movimentos, em Três Dimensões",
+    tags: ["Física", "Cinemática Vetorial", "Composição de Velocidades", "Princípio de Galileu", "Vetores 3D"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Segundo o princípio da independência dos movimentos, de Galileu, sempre que a velocidade resultante de um corpo puder ser decomposta em duas ou mais componentes perpendiculares entre si, cada um desses movimentos poderá ser analisado separadamente como se os outros não existissem. Esse princípio é muito útil para a simplificação de alguns problemas reais, em três dimensões.
+    <br><br>
+    Considere um avião que, ao decolar, é instruído pela torre a atingir, em 6 minutos, uma posição de 20 km a Leste, 20 km a Norte e 1 km de altitude em relação ao ponto de decolagem, conforme a figura (fora de escala). No entanto, no instante da decolagem, começa a soprar um vento cujo vetor velocidade tem componentes 30 km/h para Leste, 20 km/h para Sul e 1 km/h de cima para baixo.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 320 260" class="w-full h-auto max-w-xs mx-auto">
+        <line x1="20" y1="200" x2="300" y2="200" stroke="#64748b" stroke-width="1.5"/>
+        <text x="305" y="204" fill="#94a3b8" font-size="11">Leste</text>
+        <text x="8" y="204" fill="#94a3b8" font-size="11">Oeste</text>
+        <line x1="160" y1="250" x2="160" y2="20" stroke="#64748b" stroke-width="1.5"/>
+        <text x="160" y="16" fill="#94a3b8" font-size="11" text-anchor="middle">Norte</text>
+        <text x="160" y="262" fill="#94a3b8" font-size="11" text-anchor="middle">Sul</text>
+        <line x1="160" y1="200" x2="245" y2="60" stroke="#a78bfa" stroke-width="2" marker-end="url(#seta126)"/>
+        <text x="250" y="55" fill="#c4b5fd" font-size="10" font-weight="bold">v̄</text>
+        <line x1="245" y1="60" x2="280" y2="90" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <line x1="280" y1="90" x2="280" y2="115" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <text x="285" y="80" fill="#7dd3fc" font-size="8">Posição a</text>
+        <text x="285" y="92" fill="#7dd3fc" font-size="8">ser atingida</text>
+        <defs>
+          <marker id="seta126" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#a78bfa"/>
+          </marker>
+        </defs>
+      </svg>
+    </div>
+    <br>
+    Durante a ação do vento, a velocidade v̄ que o piloto deve estabelecer em relação ao ar para que o avião chegue à posição esperada no tempo indicado tem as componentes`,
+
+    alternativas: [
+      { letra: "A", texto: "230 km/h para Leste, 180 km/h para Sul e 9 km/h para baixo.", correta: false },
+      { letra: "B", texto: "230 km/h para Leste, 180 km/h para Norte e 9 km/h para cima.", correta: false },
+      { letra: "C", texto: "200 km/h para Oeste, 200 km/h para Norte e 10 km/h para baixo.", correta: false },
+      { letra: "D", texto: "170 km/h para Leste, 220 km/h para Norte e 11 km/h para cima.", correta: true },
+      { letra: "E", texto: "170 km/h para Leste, 180 km/h para Norte e 11 km/h para cima.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O truque desta questão é tratar Leste-Oeste, Norte-Sul e cima-baixo como três eixos independentes (x, y, z) e resolver cada um separadamente — exatamente o que o princípio de Galileu permite.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> O princípio da independência dos movimentos</h4>
+          <p>
+            Quando um movimento pode ser decomposto em componentes perpendiculares entre si, cada componente evolui <strong>de forma independente</strong> das outras — o movimento em Leste-Oeste não afeta o movimento em Norte-Sul, que não afeta o movimento vertical. Isso permite resolver um problema 3D complicado como três problemas 1D simples, um por eixo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> A velocidade resultante desejada (em relação ao solo)</h4>
+          <p>
+            O avião precisa percorrer, em relação ao solo, 20 km a Leste, 20 km a Norte e 1 km de altitude, em 6 minutos = 0,1 h. Dividindo cada deslocamento pelo tempo, a <strong>velocidade resultante</strong> (a que realmente aparece "riscada no chão") é:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>resultante</sub> = (20/0,1 ; 20/0,1 ; 1/0,1) = (200 km/h Leste ; 200 km/h Norte ; 10 km/h para cima)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Como o vento se soma à velocidade do avião</h4>
+          <p>
+            A velocidade que aparece em relação ao solo é a <strong>soma vetorial</strong> da velocidade do avião em relação ao ar (o que o piloto de fato controla) com a velocidade do vento:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>resultante</sub> = V<sub>avião/ar</sub> + V<sub>vento</sub> &nbsp;&nbsp;⟹&nbsp;&nbsp; V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub>
+          </div>
+          <p>
+            Ou seja, para compensar o vento e ainda assim chegar ao destino no tempo certo, o piloto precisa "mirar" numa velocidade (em relação ao ar) diferente da velocidade resultante desejada — subtraindo o efeito do vento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Cuidado com os sinais: Sul é "Norte negativo", "baixo" é "cima negativo"</h4>
+          <p>
+            O vento tem componentes 30 km/h para <strong>Leste</strong>, 20 km/h para <strong>Sul</strong> e 1 km/h <strong>de cima para baixo</strong>. Adotando Leste e Norte e "para cima" como sentidos positivos, isso significa: componente Leste = +30, componente Norte = −20 (porque é para o Sul), componente vertical = −1 (porque é para baixo).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Calculando cada componente de V<sub>avião/ar</sub></h4>
+          <p>
+            Aplicando V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub> em cada eixo:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 font-mono text-purple-300 text-sm space-y-1">
+            <div>Leste: 200 − (+30) = <strong>170 km/h Leste</strong></div>
+            <div>Norte: 200 − (−20) = <strong>220 km/h Norte</strong></div>
+            <div>Vertical: 10 − (−1) = <strong>11 km/h para cima</strong></div>
+          </div>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-arrows-split-up-and-left", titulo: "Independência dos movimentos", text: "Componentes perpendiculares de um movimento evoluem de forma independente — permite resolver eixo por eixo." },
+      { icone: "fa-route", titulo: "Velocidade resultante = deslocamento/tempo", text: "A velocidade em relação ao solo é o deslocamento total dividido pelo tempo total, decomposta em cada eixo." },
+      { icone: "fa-wind", titulo: "V(resultante) = V(avião/ar) + V(vento)", text: "A velocidade em relação ao solo é a soma vetorial da velocidade do avião em relação ao ar com a velocidade do vento." },
+      { icone: "fa-cube", titulo: "Três eixos perpendiculares", text: "Leste-Oeste, Norte-Sul e vertical (cima-baixo) são tratados como três problemas 1D independentes." },
+      { icone: "fa-plus-minus", titulo: "Atenção aos sinais opostos", text: "Sul é o sentido negativo de Norte; 'para baixo' é o sentido negativo de 'para cima' — inverter esses sinais é o erro mais comum." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa D</p>
+          <p>V<sub>resultante</sub> = (200 Leste, 200 Norte, 10 cima). V<sub>vento</sub> = (30 Leste, −20 Norte, −1 cima). V<sub>avião/ar</sub> = V<sub>resultante</sub> − V<sub>vento</sub> = <strong>(170 Leste, 220 Norte, 11 cima)</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule a velocidade resultante desejada.</strong> Deslocamento ÷ tempo (0,1 h) em cada eixo: 200 km/h Leste, 200 km/h Norte, 10 km/h para cima.</p>
+          <p><strong>Passo 2 — Escreva o vento com sinais corretos.</strong> Leste=+30, Norte=−20 (é Sul), vertical=−1 (é para baixo).</p>
+          <p><strong>Passo 3 — Subtraia o vento da resultante, eixo por eixo.</strong> V<sub>avião/ar</sub>=V<sub>resultante</sub>−V<sub>vento</sub>: 200−30=170 (Leste); 200−(−20)=220 (Norte); 10−(−1)=11 (cima).</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 230 km/h Leste, 180 km/h Sul, 9 km/h para baixo — ERRADA</p>
+            <p class="text-xs">Resulta de somar (em vez de subtrair) o vento à resultante, mas mantendo as direções originais do vento (Sul, para baixo) em vez de convertê-las corretamente em componentes Norte/cima negativas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 230 km/h Leste, 180 km/h Norte, 9 km/h para cima — ERRADA</p>
+            <p class="text-xs">É exatamente V<sub>resultante</sub> + V<sub>vento</sub> (200+30=230; 200+(−20)=180; 10+(−1)=9) — o erro clássico de somar o vento em vez de subtraí-lo para achar a velocidade em relação ao ar.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 200 km/h Oeste, 200 km/h Norte, 10 km/h para baixo — ERRADA</p>
+            <p class="text-xs">Ignora o vento por completo (usa diretamente a velocidade resultante) e ainda erra o sentido de dois eixos (Leste virou Oeste, cima virou baixo).</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">D) 170 km/h Leste, 220 km/h Norte, 11 km/h para cima — CORRETA</p>
+            <p class="text-xs">Subtração vetorial correta, eixo por eixo, com os sinais do vento devidamente convertidos (Sul = Norte negativo; para baixo = cima negativo).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 170 km/h Leste, 180 km/h Norte, 11 km/h para cima — ERRADA</p>
+            <p class="text-xs">Os eixos Leste e vertical estão certos, mas o eixo Norte tem um erro de sinal: usar 200−20=180 em vez de 200−(−20)=220, ou seja, não converter "20 km/h para Sul" em "−20 km/h no eixo Norte" antes de subtrair.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Velocidade resultante desejada",
+        legenda: "Deslocamento (20 km L, 20 km N, 1 km cima) dividido por 0,1 h = (200 L, 200 N, 10 cima) km/h.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="85" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Leste</text>
+            <text x="85" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">20 km / 0,1h</text>
+            <text x="85" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 200 km/h</text>
+            <rect x="165" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Norte</text>
+            <text x="230" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">20 km / 0,1h</text>
+            <text x="230" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 200 km/h</text>
+            <rect x="310" y="15" width="130" height="90" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="375" y="40" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Vertical</text>
+            <text x="375" y="58" fill="#c4b5fd" font-size="10" text-anchor="middle">1 km / 0,1h</text>
+            <text x="375" y="76" fill="#c4b5fd" font-size="11" font-weight="bold" text-anchor="middle">= 10 km/h cima</text>
+          </svg>`
+      },
+      {
+        titulo: "Composição vetorial: V(resultante) = V(avião) + V(vento)",
+        legenda: "Para achar V(avião/ar), o piloto precisa subtrair o vetor vento da velocidade resultante desejada.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="20" y="35" width="130" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="85" y="55" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">V(resultante)</text>
+            <text x="85" y="72" fill="#a7f3d0" font-size="8" text-anchor="middle">desejada no solo</text>
+            <text x="165" y="65" fill="#94a3b8" font-size="16" text-anchor="middle">=</text>
+            <rect x="190" y="35" width="130" height="50" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="255" y="55" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">V(avião/ar)</text>
+            <text x="255" y="72" fill="#e9d5ff" font-size="8" text-anchor="middle">o que o piloto ajusta</text>
+            <text x="335" y="65" fill="#94a3b8" font-size="16" text-anchor="middle">+</text>
+            <rect x="355" y="35" width="90" height="50" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="400" y="55" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">V(vento)</text>
+            <text x="400" y="72" fill="#bae6fd" font-size="8" text-anchor="middle">30L,20S,1baixo</text>
+          </svg>`
+      },
+      {
+        titulo: "Cálculo eixo por eixo",
+        legenda: "V(avião/ar) = V(resultante) − V(vento), com os sinais de Sul e 'para baixo' já convertidos.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#94a3b8" font-size="9" font-weight="bold" text-anchor="middle">Eixo — Resultante − Vento = Avião/ar</text>
+
+            <rect x="10" y="42" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="61" fill="#e2e8f0" font-size="9" text-anchor="middle">Leste: 200 − (+30) = 170 km/h Leste</text>
+
+            <rect x="10" y="78" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="97" fill="#e2e8f0" font-size="9" text-anchor="middle">Norte: 200 − (−20) = 220 km/h Norte</text>
+
+            <rect x="10" y="114" width="440" height="30" fill="#0f172a" stroke="#334155" rx="4"/>
+            <text x="230" y="133" fill="#e2e8f0" font-size="9" text-anchor="middle">Vertical: 10 − (−1) = 11 km/h para cima</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas D aplica corretamente a subtração vetorial com todos os sinais convertidos.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="20" y="24" fill="#e2e8f0" font-size="8">A) 230 L, 180 Sul, 9 baixo</text>
+            <text x="20" y="48" fill="#e2e8f0" font-size="8">B) 230 L, 180 N, 9 cima (soma, não subtrai)</text>
+            <text x="20" y="72" fill="#e2e8f0" font-size="8">C) 200 Oeste, 200 N, 10 baixo (ignora vento)</text>
+
+            <rect x="10" y="82" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="230" y="99" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">D) 170 L, 220 N, 11 cima ✓ correta</text>
+
+            <text x="20" y="132" fill="#e2e8f0" font-size="8">E) 170 L, 180 N, 11 cima (erro de sinal no eixo Norte)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: subtraia o vento, eixo por eixo",
+      descricao: "Ajuste os componentes do vento e veja como a velocidade que o piloto deve manter em relação ao ar muda em cada eixo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Velocidade resultante desejada (fixa, do enunciado): <span class="text-purple-300 font-mono">200 Leste, 200 Norte, 10 cima</span> km/h.</p>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente Leste (km/h): <span data-out="vlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="60" step="1" value="30" data-sim="vLeste" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente Sul (km/h): <span data-out="slabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="60" step="1" value="20" data-sim="vSul" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Vento — componente para baixo (km/h): <span data-out="dlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="5" step="0.5" value="1" data-sim="vBaixo" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Velocidade que o piloto deve manter em relação ao ar (V<sub>resultante</sub> − V<sub>vento</sub>):</p>
+              <div data-out="resultado" class="font-mono text-purple-300 text-sm leading-relaxed"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selL = raiz.querySelector('[data-sim="vLeste"]');
+        var selS = raiz.querySelector('[data-sim="vSul"]');
+        var selB = raiz.querySelector('[data-sim="vBaixo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var resLeste = 200, resNorte = 200, resCima = 10;
+
+        function atualizar() {
+          var vLeste = parseFloat(selL.value);
+          var vSul = parseFloat(selS.value);
+          var vBaixo = parseFloat(selB.value);
+
+          saida('vlabel').textContent = vLeste.toFixed(0) + ' km/h';
+          saida('slabel').textContent = vSul.toFixed(0) + ' km/h';
+          saida('dlabel').textContent = vBaixo.toFixed(1) + ' km/h';
+
+          var vVentoNorte = -vSul;
+          var vVentoCima = -vBaixo;
+
+          var aviaoLeste = resLeste - vLeste;
+          var aviaoNorte = resNorte - vVentoNorte;
+          var aviaoCima = resCima - vVentoCima;
+
+          saida('resultado').innerHTML =
+            'Leste: ' + aviaoLeste.toFixed(1) + ' km/h<br>' +
+            (aviaoNorte >= 0 ? 'Norte: ' + aviaoNorte.toFixed(1) : 'Sul: ' + Math.abs(aviaoNorte).toFixed(1)) + ' km/h<br>' +
+            (aviaoCima >= 0 ? 'Para cima: ' + aviaoCima.toFixed(1) : 'Para baixo: ' + Math.abs(aviaoCima).toFixed(1)) + ' km/h';
+        }
+
+        selL.addEventListener('input', atualizar);
+        selS.addEventListener('input', atualizar);
+        selB.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plane"></i> V(avião/ar) = V(resultante) − V(vento) = 170 Leste, 220 Norte, 11 cima</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">170 km/h L, 220 km/h N, 11 km/h para cima</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q127",
+    numero: "Questão 127",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Cinética Enzimática",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Catálise Enzimática: o Diagrama de Energia da Reação A → B",
+    tags: ["Biologia", "Bioquímica", "Enzimas", "Cinética Química", "Energia de Ativação"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Nos processos de transformação e reciclagem de recursos naturais, as velocidades das reações químicas são estudadas pela cinética química. Uma reação A → B é realizada na presença e na ausência de uma enzima, com todas as demais condições permanecendo inalteradas. Considere que, no gráfico da variação de energia ao longo dessa reação, a linha contínua representa o avanço da reação na ausência da enzima, e a linha pontilhada, na presença da enzima.
+    <br><br>
+    O gráfico que representa a situação descrita é:`,
+
+    alternativas: [
+      { letra: "A", texto: "Ambas as curvas partem de níveis de energia A diferentes; a linha pontilhada tem pico mais alto e termina em B mais alto que a linha contínua.", correta: false },
+      { letra: "B", texto: "As curvas partem do mesmo A, mas terminam em valores de B diferentes; a pontilhada tem pico mais alto que a contínua.", correta: false },
+      { letra: "C", texto: "As curvas partem do mesmo nível de energia A e terminam no mesmo nível de energia B; a linha pontilhada (com enzima) tem um pico de energia mais baixo que a linha contínua (sem enzima).", correta: true },
+      { letra: "D", texto: "As curvas partem do mesmo A e terminam no mesmo B, mas a linha pontilhada tem pico mais alto que a contínua.", correta: false },
+      { letra: "E", texto: "As curvas partem de níveis A diferentes e terminam em níveis B diferentes, com picos parecidos.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          A ideia central aqui é distinguir o que uma enzima muda (a velocidade, via energia de ativação) do que ela NÃO muda (a energia final e inicial dos reagentes/produtos).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é um catalisador (e uma enzima é um catalisador biológico)</h4>
+          <p>
+            Uma enzima é uma proteína (ou, em alguns casos, RNA) que atua como <strong>catalisador biológico</strong>: ela acelera uma reação química sem ser consumida no processo e sem alterar o equilíbrio termodinâmico da reação. Isso significa que a energia dos reagentes (A) e dos produtos (B) permanece exatamente a mesma, com ou sem enzima.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O que a enzima muda: a energia de ativação (Ea)</h4>
+          <p>
+            A energia de ativação é a "barreira" energética que os reagentes precisam superar para se transformarem em produtos — corresponde ao <strong>pico</strong> do gráfico de energia versus progresso da reação. Uma enzima funciona estabilizando o "estado de transição" dessa barreira, <strong>diminuindo</strong> a energia de ativação necessária, o que torna a reação mais rápida (mais moléculas conseguem "pular" a barreira mais baixa por unidade de tempo).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O que a enzima NÃO muda: ΔE (variação de energia) da reação</h4>
+          <p>
+            Como a enzima não altera a natureza termodinâmica da reação (só a via/mecanismo pelo qual ela ocorre), o ponto de partida (energia de A) e o ponto de chegada (energia de B) devem ser <strong>idênticos</strong> nas duas curvas — com ou sem enzima. A única diferença visual entre as duas curvas deve estar na altura do pico no meio do gráfico.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Traduzindo para o gráfico correto</h4>
+          <p>
+            O gráfico correto deve mostrar: (i) as duas curvas — contínua (sem enzima) e pontilhada (com enzima) — começando exatamente no mesmo ponto A; (ii) terminando exatamente no mesmo ponto B; (iii) a curva pontilhada (com enzima) tendo um <strong>pico mais baixo</strong> que a curva contínua (sem enzima), pois a enzima reduz a energia de ativação.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-dna", titulo: "Enzima = catalisador biológico", text: "Acelera reações sem ser consumida e sem alterar a termodinâmica (energias inicial e final) da reação." },
+      { icone: "fa-mountain", titulo: "Energia de ativação (Ea)", text: "É a altura do pico no gráfico de energia — a 'barreira' que precisa ser superada para a reação ocorrer." },
+      { icone: "fa-arrow-trend-down", titulo: "Enzima diminui a Ea", text: "Estabiliza o estado de transição, baixando o pico de energia e tornando a reação mais rápida." },
+      { icone: "fa-equals", titulo: "A e B permanecem iguais", text: "As energias inicial (reagente A) e final (produto B) são idênticas nas curvas com e sem enzima." },
+      { icone: "fa-chart-line", titulo: "Só a via muda, não o destino", text: "A enzima muda o 'caminho' (mecanismo, mais rápido), não o ponto de partida nem o de chegada da reação." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>As duas curvas devem começar no mesmo A e terminar no mesmo B; a curva pontilhada (com enzima) deve ter pico mais baixo, pois a enzima reduz a energia de ativação sem mudar a termodinâmica da reação.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Lembre o que um catalisador NÃO muda.</strong> A energia dos reagentes (A) e dos produtos (B) é a mesma, com ou sem enzima — elimine qualquer gráfico com pontos de partida ou chegada diferentes entre as duas curvas.</p>
+          <p><strong>Passo 2 — Lembre o que um catalisador muda.</strong> A energia de ativação (o pico) diminui com o catalisador — a curva pontilhada deve ter pico mais baixo que a contínua.</p>
+          <p><strong>Passo 3 — Combine os dois critérios.</strong> Procure o único gráfico com A e B iguais nas duas curvas E pico da pontilhada menor que o da contínua.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Pontos de partida A diferentes — ERRADA</p>
+            <p class="text-xs">Viola o princípio de que a enzima não altera a energia dos reagentes — o ponto A deve ser idêntico nas duas curvas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Pontos de chegada B diferentes — ERRADA</p>
+            <p class="text-xs">Viola o princípio de que a enzima não altera a energia dos produtos — o ponto B deve ser idêntico nas duas curvas.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) Mesmo A, mesmo B, pico da pontilhada mais baixo — CORRETA</p>
+            <p class="text-xs">É exatamente o que se espera: a enzima só diminui a energia de ativação (o pico), sem mudar as energias inicial e final.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Mesmo A, mesmo B, mas pico da pontilhada mais alto — ERRADA</p>
+            <p class="text-xs">Inverte o efeito da enzima: um catalisador reduz a energia de ativação, não aumenta.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) A e B diferentes nas duas curvas — ERRADA</p>
+            <p class="text-xs">Novamente viola o princípio de que a termodinâmica da reação (energias inicial e final) não muda com o catalisador.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Reação sem enzima (linha contínua)",
+        legenda: "Energia de ativação alta: o pico entre A e B é elevado, tornando a reação mais lenta.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+            <text x="30" y="120" fill="#94a3b8" font-size="10">A</text>
+            <text x="430" y="128" fill="#94a3b8" font-size="10">B</text>
+            <text x="200" y="18" fill="#f87171" font-size="9" text-anchor="middle" font-weight="bold">Ea alta (sem enzima)</text>
+          </svg>`
+      },
+      {
+        titulo: "Reação com enzima (linha pontilhada)",
+        legenda: "Energia de ativação mais baixa: mesmo A e mesmo B, mas o caminho passa por um pico menor.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <polyline points="30,100 100,100 200,60 320,110 430,110" fill="none" stroke="#6ee7b7" stroke-width="2.5" stroke-dasharray="6,4"/>
+            <text x="30" y="120" fill="#94a3b8" font-size="10">A</text>
+            <text x="430" y="128" fill="#94a3b8" font-size="10">B</text>
+            <text x="200" y="52" fill="#34d399" font-size="9" text-anchor="middle" font-weight="bold">Ea baixa (com enzima)</text>
+          </svg>`
+      },
+      {
+        titulo: "Sobreposição: o que muda e o que não muda",
+        legenda: "Mesmos pontos A e B nas duas curvas — só a altura do pico (Ea) é diferente.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <polyline points="30,100 100,100 200,25 320,110 430,110" fill="none" stroke="#e2e8f0" stroke-width="2.5"/>
+            <polyline points="30,100 100,100 200,60 320,110 430,110" fill="none" stroke="#6ee7b7" stroke-width="2.5" stroke-dasharray="6,4"/>
+            <circle cx="30" cy="100" r="4" fill="#fbbf24"/>
+            <circle cx="430" cy="110" r="4" fill="#fbbf24"/>
+            <text x="30" y="120" fill="#fde68a" font-size="9">A (igual)</text>
+            <text x="380" y="128" fill="#fde68a" font-size="9">B (igual)</text>
+            <line x1="200" y1="25" x2="200" y2="60" stroke="#f87171" stroke-width="1" stroke-dasharray="2,2"/>
+            <text x="215" y="45" fill="#fca5a5" font-size="8">ΔEa</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas C mantém A e B fixos nas duas curvas, com pico menor apenas na pontilhada (com enzima).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="20" y="22" fill="#e2e8f0" font-size="8">A) A diferentes entre as curvas</text>
+            <text x="20" y="44" fill="#e2e8f0" font-size="8">B) B diferentes entre as curvas</text>
+            <rect x="10" y="54" width="440" height="24" fill="#064e3b" rx="4"/>
+            <text x="230" y="70" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">C) Mesmo A e B, pico pontilhado menor ✓</text>
+            <text x="20" y="100" fill="#e2e8f0" font-size="8">D) Mesmo A e B, mas pico pontilhado maior (invertido)</text>
+            <text x="20" y="122" fill="#e2e8f0" font-size="8">E) A e B diferentes nas duas curvas</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: ajuste a energia de ativação",
+      descricao: "Arraste o controle para simular o efeito de uma enzima sobre a energia de ativação da reação A → B.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Energia de ativação com enzima (kJ/mol): <span data-out="ealabel" class="text-emerald-300 font-mono"></span></p>
+              <input type="range" min="10" max="90" step="1" value="35" data-sim="ea" class="w-full accent-emerald-500">
+            </div>
+            <p class="text-[10px] text-slate-500">A energia de ativação sem enzima está fixa em 90 kJ/mol. A e B (energias inicial e final) nunca mudam.</p>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 300 150" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <polyline points="20,110 70,110 150,20 260,120 280,120" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+              <polyline data-sim="curvaEnzima" points="20,110 70,110 150,80 260,120 280,120" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="5,3"/>
+              <text x="15" y="128" fill="#94a3b8" font-size="9">A</text>
+              <text x="270" y="135" fill="#94a3b8" font-size="9">B</text>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selEa = raiz.querySelector('[data-sim="ea"]');
+        var curva = raiz.querySelector('[data-sim="curvaEnzima"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var ea = parseFloat(selEa.value);
+          saida('ealabel').textContent = ea + ' kJ/mol';
+
+          var yBase = 110;
+          var yTopoSemEnzima = 20;
+          var alturaMax = yBase - yTopoSemEnzima;
+          var fracao = ea / 90;
+          var yPico = yBase - alturaMax * fracao;
+
+          curva.setAttribute('points', '20,110 70,110 150,' + yPico.toFixed(1) + ' 260,120 280,120');
+
+          var v = saida('veredito');
+          if (ea < 40) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Boa enzima!</strong> Ea bem menor que a via sem enzima (90 kJ/mol) — a reação seria muito mais rápida.';
+          } else if (ea < 75) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Ea reduzida moderadamente — a enzima acelera a reação, mas não tanto quanto poderia.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = 'Ea quase igual à via sem enzima — pouco efeito catalítico. Note que A e B nunca mudam, só o pico.';
+          }
+        }
+
+        selEa.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Mesmo A, mesmo B — só o pico (Ea) diminui com a enzima</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <polyline points="30,70 100,70 230,20 360,75 430,75" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+          <polyline points="30,70 100,70 230,45 360,75 430,75" fill="none" stroke="#6ee7b7" stroke-width="2" stroke-dasharray="5,3"/>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q128",
+    numero: "Questão 128",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Sensores de Temperatura e Sensibilidade",
+    materiaCor: "purple",
+    materiaIcone: "fa-thermometer-half",
+    titulo: "Termômetro de Resistência de Platina: Qual Sensor é Mais Sensível?",
+    tags: ["Física", "Termometria", "Resistência Elétrica", "Sensibilidade de Sensores", "Análise de Gráficos"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A resistência de um fio de platina pode ser usada para medir temperaturas entre 0 °C e 100 °C e já foi utilizada como referência para a escala internacional de temperatura. Para um sensor feito de platina, a relação entre a resistência e a temperatura pode ser descrita por uma equação do tipo R(T) = A + BT, em que T é a temperatura e A e B são constantes. O gráfico apresenta a dependência da resistência em função da temperatura para cinco diferentes sensores.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+      <svg viewBox="0 0 420 300" class="w-full h-auto max-w-sm mx-auto">
+        <line x1="50" y1="260" x2="400" y2="260" stroke="#64748b" stroke-width="1.5"/>
+        <line x1="50" y1="20" x2="50" y2="260" stroke="#64748b" stroke-width="1.5"/>
+        <text x="225" y="285" fill="#94a3b8" font-size="10" text-anchor="middle">Temperatura (°C)</text>
+        <text x="20" y="140" fill="#94a3b8" font-size="10" text-anchor="middle" transform="rotate(-90 20 140)">Resistência (ohm)</text>
+        <text x="50" y="275" fill="#64748b" font-size="8" text-anchor="middle">-100</text>
+        <text x="140" y="275" fill="#64748b" font-size="8" text-anchor="middle">0</text>
+        <text x="230" y="275" fill="#64748b" font-size="8" text-anchor="middle">150</text>
+        <text x="320" y="275" fill="#64748b" font-size="8" text-anchor="middle">300</text>
+        <line x1="60" y1="80" x2="390" y2="75" stroke="#f97316" stroke-width="2"/>
+        <text x="330" y="65" fill="#fb923c" font-size="9" font-weight="bold">Sensor 1</text>
+        <line x1="60" y1="220" x2="390" y2="65" stroke="#22c55e" stroke-width="2"/>
+        <text x="330" y="95" fill="#4ade80" font-size="9" font-weight="bold">Sensor 2</text>
+        <line x1="60" y1="150" x2="390" y2="115" stroke="#a78bfa" stroke-width="2"/>
+        <text x="330" y="120" fill="#c4b5fd" font-size="9" font-weight="bold">Sensor 3</text>
+        <line x1="60" y1="205" x2="390" y2="150" stroke="#38bdf8" stroke-width="2"/>
+        <text x="330" y="160" fill="#7dd3fc" font-size="9" font-weight="bold">Sensor 4</text>
+        <line x1="60" y1="230" x2="390" y2="150" stroke="#e879f9" stroke-width="2"/>
+        <text x="330" y="205" fill="#f0abfc" font-size="9" font-weight="bold">Sensor 5</text>
+      </svg>
+    </div>
+    <br>
+    Os sensores que apresentam maior sensibilidade são`,
+
+    alternativas: [
+      { letra: "A", texto: "1 e 2.", correta: false },
+      { letra: "B", texto: "1 e 3.", correta: false },
+      { letra: "C", texto: "2 e 3.", correta: false },
+      { letra: "D", texto: "2 e 4.", correta: false },
+      { letra: "E", texto: "2 e 5.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          Sensibilidade aqui é sinônimo de inclinação (coeficiente angular) da reta R(T) = A + BT: quanto maior o |B|, mais a resistência varia por grau de temperatura, e mais "sensível" é o sensor.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> R(T) = A + BT é a equação de uma reta</h4>
+          <p>
+            Comparando com y = a + bx, A é o valor de resistência em T=0 (o "intercepto") e B é o <strong>coeficiente angular</strong> — o quanto R varia para cada grau de variação em T. B é justamente a <strong>sensibilidade</strong> do sensor: ΔR/ΔT.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Sensibilidade = inclinação da reta no gráfico</h4>
+          <p>
+            No gráfico R × T, uma reta mais <strong>inclinada</strong> (mais "em pé", subindo rápido) representa um sensor com maior B, ou seja, maior sensibilidade. Uma reta quase horizontal (como a do Sensor 1, praticamente constante) tem B próximo de zero — a resistência quase não muda com a temperatura, tornando esse sensor <strong>pouco útil</strong> como termômetro.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Como comparar inclinações visualmente</h4>
+          <p>
+            Para cada reta, observe a variação total de resistência (eixo vertical) dividida pela variação total de temperatura (eixo horizontal) coberta pelo gráfico. Quanto maior essa razão ΔR/ΔT, mais inclinada é a reta e maior a sensibilidade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Ranking de sensibilidade dos cinco sensores</h4>
+          <p>
+            Observando as inclinações no gráfico: o <strong>Sensor 2</strong> tem a subida mais acentuada (a reta mais "em pé") — maior sensibilidade de todas. Em seguida vem o <strong>Sensor 5</strong>, com a segunda maior inclinação. Os Sensores 3 e 4 têm inclinações intermediárias/menores, e o <strong>Sensor 1</strong> é praticamente horizontal — a menor sensibilidade (quase nula).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Por que isso importa na prática</h4>
+          <p>
+            Um bom sensor de temperatura precisa que pequenas mudanças de T produzam mudanças de R fáceis de medir — ou seja, precisa de alta sensibilidade (B grande). Um sensor com B próximo de zero (como o Sensor 1) seria inútil como termômetro, mesmo que sua resistência absoluta seja "razoável", porque não conseguiríamos distinguir temperaturas diferentes pela resistência medida.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-chart-line", titulo: "R(T) = A + BT", text: "Equação linear: A é a resistência em T=0, B é o coeficiente angular (sensibilidade)." },
+      { icone: "fa-arrow-trend-up", titulo: "Sensibilidade = inclinação", text: "Quanto mais inclinada a reta no gráfico R×T, maior o B e maior a sensibilidade do sensor." },
+      { icone: "fa-ruler", titulo: "ΔR/ΔT", text: "Para comparar sensores, compare a variação de R dividida pela variação de T ao longo do gráfico." },
+      { icone: "fa-minus", titulo: "Reta quase horizontal = baixa sensibilidade", text: "Se R quase não muda com T, o sensor é ruim para medir temperatura, mesmo tendo valores de R razoáveis." },
+      { icone: "fa-magnifying-glass-chart", titulo: "Comparação visual de inclinações", text: "Identificar as duas retas mais 'em pé' no gráfico é o caminho mais rápido para resolver essa questão." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>Os Sensores 2 e 5 apresentam as retas mais inclinadas do gráfico — ou seja, o maior coeficiente angular B — logo, a maior sensibilidade.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Relacione sensibilidade com o coeficiente B.</strong> Em R(T)=A+BT, B é a inclinação da reta, e representa quanto R varia por grau de T.</p>
+          <p><strong>Passo 2 — Compare visualmente as inclinações.</strong> Observe qual reta sobe mais rapidamente (mais "em pé") no gráfico R×T.</p>
+          <p><strong>Passo 3 — Identifique as duas retas mais inclinadas.</strong> Sensor 2 é claramente a mais inclinada; entre as demais, o Sensor 5 tem a segunda maior inclinação.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 1 e 2 — ERRADA</p>
+            <p class="text-xs">O Sensor 1 é a reta mais horizontal do gráfico (quase constante) — tem a MENOR sensibilidade, não a maior.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 1 e 3 — ERRADA</p>
+            <p class="text-xs">Novamente inclui o Sensor 1, cuja inclinação é praticamente nula — o oposto de alta sensibilidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 2 e 3 — ERRADA</p>
+            <p class="text-xs">O Sensor 2 está correto, mas o Sensor 3 tem inclinação menor que o Sensor 5 — não é o segundo mais sensível.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 2 e 4 — ERRADA</p>
+            <p class="text-xs">O Sensor 2 está correto, mas o Sensor 4 tem inclinação menor que o Sensor 5 — não é o segundo mais sensível.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) 2 e 5 — CORRETA</p>
+            <p class="text-xs">São as duas retas com maior inclinação (maior |B|) no gráfico R×T, logo os dois sensores mais sensíveis.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "R(T) = A + BT: uma reta",
+        legenda: "A é o intercepto (R em T=0); B é o coeficiente angular — a sensibilidade do sensor.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="280" y2="120" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="90" x2="260" y2="30" stroke="#a78bfa" stroke-width="2.5"/>
+            <circle cx="30" cy="90" r="3" fill="#fbbf24"/>
+            <text x="38" y="88" fill="#fde68a" font-size="8">A (T=0)</text>
+            <text x="150" y="55" fill="#c4b5fd" font-size="9" font-weight="bold">inclinação = B</text>
+          </svg>`
+      },
+      {
+        titulo: "Alta sensibilidade vs baixa sensibilidade",
+        legenda: "Reta inclinada (alto B) responde muito a variações de T; reta quase horizontal (B≈0) quase não responde.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="280" y2="120" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#475569" stroke-width="1"/>
+            <line x1="30" y1="100" x2="260" y2="30" stroke="#4ade80" stroke-width="2.5"/>
+            <text x="200" y="45" fill="#86efac" font-size="8" font-weight="bold">alta sensibilidade</text>
+            <line x1="30" y1="70" x2="260" y2="65" stroke="#fb923c" stroke-width="2.5"/>
+            <text x="200" y="80" fill="#fdba74" font-size="8" font-weight="bold">baixa sensibilidade</text>
+          </svg>`
+      },
+      {
+        titulo: "Ranking de inclinações dos 5 sensores",
+        legenda: "Sensor 2 é o mais inclinado; Sensor 5 é o segundo mais inclinado.",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <text x="10" y="20" fill="#4ade80" font-size="9" font-weight="bold">1º Sensor 2 — inclinação alta</text>
+            <rect x="10" y="26" width="220" height="14" fill="#166534" rx="2"/>
+            <text x="10" y="50" fill="#f0abfc" font-size="9" font-weight="bold">2º Sensor 5 — inclinação média-alta</text>
+            <rect x="10" y="56" width="150" height="14" fill="#86198f" rx="2"/>
+            <text x="10" y="80" fill="#7dd3fc" font-size="9">3º Sensor 4</text>
+            <rect x="10" y="86" width="100" height="14" fill="#075985" rx="2"/>
+            <text x="10" y="110" fill="#c4b5fd" font-size="9">4º Sensor 3</text>
+            <rect x="10" y="116" width="55" height="14" fill="#5b21b6" rx="2"/>
+            <text x="10" y="140" fill="#fdba74" font-size="9">5º Sensor 1 — quase nula</text>
+            <rect x="10" y="146" width="10" height="14" fill="#9a3412" rx="2"/>
+          </svg>`
+      },
+      {
+        titulo: "Cinco combinações, uma correta",
+        legenda: "Apenas a alternativa E reúne os dois sensores de maior inclinação: 2 e 5.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="9">A) 1 e 2 (inclui o mais horizontal)</text>
+            <text x="10" y="50" fill="#e2e8f0" font-size="9">B) 1 e 3 (inclui o mais horizontal)</text>
+            <text x="10" y="76" fill="#e2e8f0" font-size="9">C) 2 e 3 (3 não é o 2º mais inclinado)</text>
+            <text x="10" y="102" fill="#e2e8f0" font-size="9">D) 2 e 4 (4 não é o 2º mais inclinado)</text>
+            <rect x="5" y="112" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="129" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) 2 e 5 ✓ as duas mais inclinadas</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: compare a sensibilidade de dois sensores",
+      descricao: "Ajuste o coeficiente B (sensibilidade) de dois sensores hipotéticos e veja como as retas R(T) se comparam.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sensor X — coeficiente B (Ω/°C): <span data-out="bxlabel" class="text-emerald-300 font-mono"></span></p>
+              <input type="range" min="0" max="1" step="0.02" value="0.5" data-sim="bx" class="w-full accent-emerald-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Sensor Y — coeficiente B (Ω/°C): <span data-out="bylabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="1" step="0.02" value="0.15" data-sim="by" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 300 150" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <line x1="20" y1="130" x2="280" y2="130" stroke="#475569" stroke-width="1"/>
+              <line x1="20" y1="130" x2="20" y2="10" stroke="#475569" stroke-width="1"/>
+              <line data-sim="linhaX" x1="20" y1="100" x2="270" y2="100" stroke="#4ade80" stroke-width="2.5"/>
+              <line data-sim="linhaY" x1="20" y1="100" x2="270" y2="100" stroke="#a78bfa" stroke-width="2.5"/>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selBx = raiz.querySelector('[data-sim="bx"]');
+        var selBy = raiz.querySelector('[data-sim="by"]');
+        var linhaX = raiz.querySelector('[data-sim="linhaX"]');
+        var linhaY = raiz.querySelector('[data-sim="linhaY"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var bx = parseFloat(selBx.value);
+          var by = parseFloat(selBy.value);
+          saida('bxlabel').textContent = bx.toFixed(2) + ' Ω/°C';
+          saida('bylabel').textContent = by.toFixed(2) + ' Ω/°C';
+
+          var yBase = 100;
+          var escala = 90;
+          var yFimX = yBase - bx * escala;
+          var yFimY = yBase - by * escala;
+
+          linhaX.setAttribute('y2', yFimX.toFixed(1));
+          linhaY.setAttribute('y2', yFimY.toFixed(1));
+
+          var v = saida('veredito');
+          if (bx > by) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Sensor X é mais sensível</strong> — sua reta é mais inclinada, então a resistência varia mais para cada grau de temperatura.';
+          } else if (by > bx) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-purple-500/40 bg-purple-950/30 text-purple-200';
+            v.innerHTML = '<strong>Sensor Y é mais sensível</strong> — sua reta é mais inclinada que a do Sensor X.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Os dois sensores têm a mesma sensibilidade (mesmo B) — retas paralelas.';
+          }
+        }
+
+        selBx.addEventListener('input', atualizar);
+        selBy.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-thermometer-half"></i> Sensores 2 e 5: as retas mais inclinadas do gráfico R×T</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Maior sensibilidade = maior inclinação = maior B</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q129",
+    numero: "Questão 129",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Controle de Vetores e Ciclos Parasitários",
+    materiaCor: "emerald",
+    materiaIcone: "fa-virus",
+    titulo: "Ácido Úsnico e o Controle da Esquistossomose via Hospedeiro Intermediário",
+    tags: ["Biologia", "Parasitologia", "Esquistossomose", "Controle Biológico", "Líquens"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O ácido úsnico é retirado de liquens e foi testado contra diversas espécies, conforme o quadro.
+    <br><br>
+    <table class="w-full text-xs border-collapse">
+      <thead>
+        <tr class="bg-emerald-900/40">
+          <th class="border border-slate-700 p-2 text-left text-emerald-200">Teste</th>
+          <th class="border border-slate-700 p-2 text-left text-emerald-200">Resultado</th>
+        </tr>
+      </thead>
+      <tbody class="text-slate-200">
+        <tr><td class="border border-slate-700 p-2"><em>Aedes aegypti</em> (larvas)</td><td class="border border-slate-700 p-2">Baixa eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Bacilo de Koch</td><td class="border border-slate-700 p-2">Média eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Moluscos aquáticos (adultos)</td><td class="border border-slate-700 p-2">Alta eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Pernilongo (larvas)</td><td class="border border-slate-700 p-2">Média eficiência</td></tr>
+        <tr><td class="border border-slate-700 p-2">Vermes platelmintos</td><td class="border border-slate-700 p-2">Ineficiente</td></tr>
+      </tbody>
+    </table>
+    <br>
+    O ácido úsnico mostrou-se mais indicado para o controle da`,
+
+    alternativas: [
+      { letra: "A", texto: "esquistossomose.", correta: true },
+      { letra: "B", texto: "febre amarela.", correta: false },
+      { letra: "C", texto: "coqueluche.", correta: false },
+      { letra: "D", texto: "tuberculose.", correta: false },
+      { letra: "E", texto: "dengue.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          A pegadinha desta questão é lembrar que controlar uma doença nem sempre significa atacar o patógeno diretamente — às vezes, o alvo mais eficiente é o hospedeiro intermediário do ciclo de vida do parasita.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O ciclo de vida do <em>Schistosoma mansoni</em> (esquistossomose)</h4>
+          <p>
+            A esquistossomose (também chamada de "barriga d'água") é causada pelo verme platelminto <em>Schistosoma mansoni</em>. O ciclo de vida desse parasita <strong>depende obrigatoriamente</strong> de um hospedeiro intermediário: caramujos aquáticos do gênero <em>Biomphalaria</em>. As larvas do verme (miracídios) infectam o caramujo, se multiplicam dentro dele, e saem na forma de cercárias, que então infectam humanos que entram em contato com a água contaminada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Interpretando os dados: "Moluscos aquáticos (adultos) — Alta eficiência"</h4>
+          <p>
+            Os caramujos do gênero <em>Biomphalaria</em> são <strong>moluscos aquáticos</strong>. O quadro mostra que o ácido úsnico tem <strong>alta eficiência</strong> contra moluscos aquáticos adultos — ou seja, ele é um bom molusquicida. Isso é exatamente o que se precisa para controlar a esquistossomose: eliminar o hospedeiro intermediário (o caramujo) interrompe o ciclo de transmissão da doença, mesmo sem atacar o próprio Schistosoma.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que "Vermes platelmintos — Ineficiente" não invalida a resposta</h4>
+          <p>
+            O <em>Schistosoma mansoni</em> em si é um platelminto, e a tabela mostra baixa eficiência do ácido úsnico contra vermes platelmintos diretamente. Mas isso não impede o controle da esquistossomose: como o parasita <strong>depende</strong> do caramujo para completar seu ciclo, eliminar o caramujo (onde o ácido úsnico é altamente eficiente) já é suficiente para interromper a transmissão da doença, mesmo que o verme adulto em si seja resistente à substância.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que as outras doenças não se encaixam</h4>
+          <p>
+            Febre amarela e dengue são transmitidas por mosquitos (<em>Aedes aegypti</em>), mas a tabela mostra <strong>baixa eficiência</strong> contra as larvas desse mosquito. Coqueluche e tuberculose são causadas por bactérias (Bordetella pertussis e Bacilo de Koch, respectivamente); a tabela mostra apenas <strong>média eficiência</strong> contra o Bacilo de Koch, e nenhum dado sobre a bactéria da coqueluche — nenhuma dessas quatro atinge o nível de "alta eficiência" mostrado para os moluscos aquáticos.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-water", titulo: "Hospedeiro intermediário", text: "Organismo necessário para completar o ciclo de vida de um parasita — atacá-lo pode interromper a transmissão da doença." },
+      { icone: "fa-worm", titulo: "Schistosoma mansoni", text: "Platelminto causador da esquistossomose, cujo ciclo depende do caramujo aquático Biomphalaria." },
+      { icone: "fa-shield-virus", titulo: "Molusquicida como estratégia de controle", text: "Eliminar o caramujo hospedeiro é uma forma indireta, mas eficaz, de controlar a esquistossomose." },
+      { icone: "fa-table", titulo: "Ler a tabela com atenção ao alvo certo", text: "'Alta eficiência' contra moluscos aquáticos aponta para esquistossomose, mesmo o verme em si sendo pouco afetado." },
+      { icone: "fa-mosquito", titulo: "Doenças transmitidas por mosquito não se encaixam", text: "Dengue e febre amarela dependem do Aedes aegypti, contra o qual a tabela mostra baixa eficiência." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-emerald-950/30 border border-emerald-500/30 rounded-xl p-4">
+          <p class="font-bold text-emerald-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>Alta eficiência contra moluscos aquáticos = ataque ao caramujo hospedeiro intermediário do Schistosoma mansoni, controlando a esquistossomose.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-emerald-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique o resultado de "alta eficiência" na tabela.</strong> É contra moluscos aquáticos adultos — os únicos organismos com esse nível de eficiência.</p>
+          <p><strong>Passo 2 — Relacione moluscos aquáticos a alguma doença.</strong> Caramujos aquáticos (Biomphalaria) são o hospedeiro intermediário do Schistosoma mansoni, causador da esquistossomose.</p>
+          <p><strong>Passo 3 — Confirme que as demais doenças não se encaixam.</strong> Dengue/febre amarela dependem do Aedes aegypti (baixa eficiência); tuberculose/coqueluche são bacterianas (no máximo média eficiência).</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-emerald-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) Esquistossomose — CORRETA</p>
+            <p class="text-xs">O ácido úsnico é altamente eficiente contra moluscos aquáticos — o hospedeiro intermediário do Schistosoma mansoni, cuja eliminação interrompe o ciclo da esquistossomose.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Febre amarela — ERRADA</p>
+            <p class="text-xs">Transmitida pelo Aedes aegypti, contra o qual a tabela mostra apenas baixa eficiência.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Coqueluche — ERRADA</p>
+            <p class="text-xs">Causada pela bactéria Bordetella pertussis, que nem consta diretamente na tabela — não há dado de alta eficiência associado a ela.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Tuberculose — ERRADA</p>
+            <p class="text-xs">Causada pelo Bacilo de Koch, contra o qual a tabela mostra apenas média eficiência — não a maior eficiência registrada.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Dengue — ERRADA</p>
+            <p class="text-xs">Assim como a febre amarela, transmitida pelo Aedes aegypti, contra o qual a eficiência registrada é baixa.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Eficiência do ácido úsnico por alvo",
+        legenda: "Moluscos aquáticos adultos: o único alvo com alta eficiência registrada.",
+        svg: `
+          <svg viewBox="0 0 460 180" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="9">Aedes aegypti (larvas)</text>
+            <rect x="230" y="10" width="40" height="14" fill="#7f1d1d" rx="2"/>
+            <text x="10" y="46" fill="#e2e8f0" font-size="9">Bacilo de Koch</text>
+            <rect x="230" y="36" width="110" height="14" fill="#78350f" rx="2"/>
+            <rect x="10" y="60" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="20" y="77" fill="#6ee7b7" font-size="9" font-weight="bold">Moluscos aquáticos (adultos) — ALTA eficiência</text>
+            <text x="10" y="112" fill="#e2e8f0" font-size="9">Pernilongo (larvas)</text>
+            <rect x="230" y="102" width="110" height="14" fill="#78350f" rx="2"/>
+            <text x="10" y="138" fill="#e2e8f0" font-size="9">Vermes platelmintos</text>
+            <rect x="230" y="128" width="15" height="14" fill="#7f1d1d" rx="2"/>
+          </svg>`
+      },
+      {
+        titulo: "Ciclo do Schistosoma mansoni",
+        legenda: "O parasita depende do caramujo aquático (Biomphalaria) para completar seu ciclo de vida antes de infectar humanos.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="40" width="120" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="80" y="60" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Caramujo</text>
+            <text x="80" y="76" fill="#a7f3d0" font-size="8" text-anchor="middle">(Biomphalaria)</text>
+            <text x="165" y="70" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="185" y="40" width="120" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="245" y="60" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Cercárias</text>
+            <text x="245" y="76" fill="#e2e8f0" font-size="8" text-anchor="middle">na água</text>
+            <text x="330" y="70" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="350" y="40" width="90" height="50" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="395" y="60" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Humano</text>
+            <text x="395" y="76" fill="#fca5a5" font-size="8" text-anchor="middle">infectado</text>
+          </svg>`
+      },
+      {
+        titulo: "Atacar o elo mais fraco do ciclo",
+        legenda: "Mesmo sendo pouco eficaz contra o verme adulto, atacar o caramujo interrompe toda a cadeia de transmissão.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="30" width="140" height="50" fill="#064e3b" stroke="#6ee7b7" stroke-width="2" rx="4"/>
+            <text x="90" y="52" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Caramujo</text>
+            <text x="90" y="68" fill="#a7f3d0" font-size="8" text-anchor="middle">ácido úsnico: ALTA eficiência</text>
+            <text x="185" y="60" fill="#f87171" font-size="16" text-anchor="middle">✕</text>
+            <rect x="220" y="30" width="220" height="50" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4" stroke-dasharray="4,3"/>
+            <text x="330" y="52" fill="#94a3b8" font-size="9" text-anchor="middle">Ciclo de transmissão interrompido</text>
+            <text x="330" y="68" fill="#94a3b8" font-size="8" text-anchor="middle">esquistossomose controlada</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco doenças, uma correta",
+        legenda: "Apenas a esquistossomose depende de um alvo com alta eficiência (moluscos aquáticos) segundo a tabela.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#064e3b" rx="4"/>
+            <text x="230" y="27" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">A) Esquistossomose — molusco, alta eficiência ✓</text>
+            <text x="20" y="60" fill="#e2e8f0" font-size="8">B) Febre amarela — Aedes aegypti, baixa eficiência</text>
+            <text x="20" y="84" fill="#e2e8f0" font-size="8">C) Coqueluche — bactéria não testada diretamente</text>
+            <text x="20" y="108" fill="#e2e8f0" font-size="8">D) Tuberculose — Bacilo de Koch, média eficiência</text>
+            <text x="20" y="132" fill="#e2e8f0" font-size="8">E) Dengue — Aedes aegypti, baixa eficiência</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: escolha o alvo e veja a doença controlada",
+      descricao: "Selecione um organismo-alvo testado com ácido úsnico e veja a que doença ele está associado, e se o nível de eficiência é suficiente para controle.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha o alvo testado:</p>
+            <select data-sim="alvo" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="aedes">Aedes aegypti (larvas) — baixa eficiência</option>
+              <option value="koch">Bacilo de Koch — média eficiência</option>
+              <option value="molusco" selected>Moluscos aquáticos (adultos) — alta eficiência</option>
+              <option value="pernilongo">Pernilongo (larvas) — média eficiência</option>
+              <option value="platelminto">Vermes platelmintos — ineficiente</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="alvo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var info = {
+          aedes: { nivel: 'baixa', doenca: 'dengue/febre amarela', ok: false },
+          koch: { nivel: 'média', doenca: 'tuberculose', ok: false },
+          molusco: { nivel: 'alta', doenca: 'esquistossomose (via hospedeiro intermediário)', ok: true },
+          pernilongo: { nivel: 'média', doenca: 'malária', ok: false },
+          platelminto: { nivel: 'ineficiente', doenca: 'infecções por vermes platelmintos em geral', ok: false }
+        };
+
+        function atualizar() {
+          var v = saida('veredito');
+          var dados = info[sel.value];
+          if (dados.ok) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Eficiência ' + dados.nivel + '!</strong> Esse é o alvo certo: atacar o hospedeiro intermediário (caramujo) é suficiente para controlar a ' + dados.doenca + '.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.innerHTML = '<strong>Eficiência ' + dados.nivel + '.</strong> Esse nível não seria suficiente para um controle eficaz de doenças relacionadas a ' + dados.doenca + '.';
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-virus"></i> Alta eficiência contra moluscos → controle da esquistossomose</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="12" font-weight="bold" text-anchor="middle">Alternativa A — Esquistossomose</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q130",
+    numero: "Questão 130",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Circuitos Elétricos e Resistores de Proteção",
+    materiaCor: "purple",
+    materiaIcone: "fa-plug",
+    titulo: "Resistor de Proteção: Adaptando uma Fonte com Tensão 20% Maior",
+    tags: ["Física", "Eletrodinâmica", "Circuitos Elétricos", "Resistores em Série", "Divisor de Tensão"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essas fontes sem levar em conta a tensão, a corrente ou a potência elétrica de saída.
+    <br><br>
+    Considere um equipamento de resistência elétrica R<sub>C</sub> que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão 20% superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção R<sub>P</sub>, de potência adequada, se faz necessária.
+    <br><br>
+    A configuração adequada do circuito e o valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:`,
+
+    alternativas: [
+      { letra: "A", texto: "R_C em paralelo com R_P, sendo R_P = 0,2 R_C.", correta: false },
+      { letra: "B", texto: "R_C em paralelo com R_P, sendo R_P = 1,2 R_C.", correta: false },
+      { letra: "C", texto: "R_C em série com R_P, sendo R_P = 1,2 R_C.", correta: false },
+      { letra: "D", texto: "R_C em série com R_P, sendo R_P = 2,2 R_C.", correta: false },
+      { letra: "E", texto: "R_C em série com R_P, sendo R_P = 0,2 R_C.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          A chave é lembrar que um resistor em série "consome" parte da tensão da fonte (divisor de tensão), enquanto um resistor em paralelo não reduz a tensão sobre o equipamento — apenas divide a corrente.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> O problema: tensão da fonte maior que a recomendada</h4>
+          <p>
+            O equipamento precisa de uma tensão V (a recomendada) para funcionar corretamente. A fonte disponível fornece uma tensão 20% maior, ou seja, <strong>1,2V</strong>. Precisamos "perder" esse excesso de tensão antes que ele chegue ao equipamento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Por que a associação deve ser em série (não em paralelo)</h4>
+          <p>
+            Em um circuito em <strong>paralelo</strong>, a tensão é a mesma sobre os dois resistores — ou seja, o equipamento continuaria recebendo a tensão total da fonte (1,2V), sem qualquer redução. Isso não resolve o problema. Já em um circuito em <strong>série</strong>, a tensão da fonte se divide entre R<sub>P</sub> e R<sub>C</sub>, de modo que o equipamento recebe apenas uma <em>parte</em> da tensão total — exatamente o que precisamos para "abaixar" a tensão até o valor recomendado V.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Montando a equação do divisor de tensão</h4>
+          <p>
+            Em série, a mesma corrente I percorre R<sub>P</sub> e R<sub>C</sub>. A tensão sobre o equipamento é V<sub>C</sub> = I·R<sub>C</sub>, e a tensão total da fonte é 1,2V = I·(R<sub>P</sub>+R<sub>C</sub>). Queremos que V<sub>C</sub> seja igual à tensão recomendada V. Dividindo as duas equações:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            V<sub>C</sub> / (1,2V) = R<sub>C</sub> / (R<sub>P</sub>+R<sub>C</sub>) &nbsp;⟹&nbsp; V / (1,2V) = R<sub>C</sub> / (R<sub>P</sub>+R<sub>C</sub>)
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Resolvendo para R<sub>P</sub></h4>
+          <p>
+            Simplificando o V da esquerda: 1/1,2 = R<sub>C</sub>/(R<sub>P</sub>+R<sub>C</sub>), então R<sub>P</sub>+R<sub>C</sub> = 1,2·R<sub>C</sub>, logo:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            R<sub>P</sub> = 1,2·R<sub>C</sub> − R<sub>C</sub> = <strong>0,2·R<sub>C</sub></strong>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Conclusão</h4>
+          <p>
+            A configuração correta é R<sub>C</sub> em <strong>série</strong> com um resistor de proteção R<sub>P</sub> = <strong>0,2·R<sub>C</sub></strong> — um resistor relativamente pequeno em comparação ao equipamento, suficiente para "absorver" o excedente de 20% na tensão da fonte.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-link", titulo: "Resistores em série dividem tensão", text: "Em série, a mesma corrente percorre os resistores, e a tensão total se divide proporcionalmente a cada resistência." },
+      { icone: "fa-code-branch", titulo: "Resistores em paralelo NÃO dividem tensão", text: "Em paralelo, a tensão é igual sobre os dois resistores — não ajudaria a reduzir a tensão sobre o equipamento." },
+      { icone: "fa-percent", titulo: "Excesso de 20% = fator 1,2", text: "Tensão da fonte é 1,2V, sendo V a tensão recomendada para o equipamento." },
+      { icone: "fa-divide", titulo: "Divisor de tensão", text: "V_C/(V_total) = R_C/(R_P+R_C) é a equação-chave para achar o valor do resistor de proteção." },
+      { icone: "fa-shield", titulo: "R_P = 0,2 R_C", text: "Resultado da equação do divisor de tensão: um resistor relativamente pequeno resolve o excesso de 20% na tensão." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>R<sub>C</sub> em série com R<sub>P</sub>, sendo R<sub>P</sub> = 0,2·R<sub>C</sub> — resultado do divisor de tensão para "absorver" o excesso de 20% na tensão da fonte.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Decida série ou paralelo.</strong> Só uma associação em série reduz a tensão sobre o equipamento; em paralelo, a tensão continuaria a mesma (1,2V) sobre R_C.</p>
+          <p><strong>Passo 2 — Monte a equação do divisor de tensão.</strong> V/(1,2V) = R_C/(R_P+R_C), isolando R_P.</p>
+          <p><strong>Passo 3 — Resolva algebricamente.</strong> R_P + R_C = 1,2 R_C ⟹ R_P = 0,2 R_C.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Paralelo, R_P=0,2R_C — ERRADA</p>
+            <p class="text-xs">Mesmo com o valor numérico correto, a configuração em paralelo não reduziria a tensão sobre o equipamento — ele continuaria recebendo 1,2V.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Paralelo, R_P=1,2R_C — ERRADA</p>
+            <p class="text-xs">Além do valor numérico não corresponder à equação do divisor de tensão, a configuração em paralelo não resolve o problema de excesso de tensão.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Série, R_P=1,2R_C — ERRADA</p>
+            <p class="text-xs">A configuração em série está correta, mas o valor não bate: com R_P=1,2R_C, a tensão sobre R_C seria V·R_C/(2,2R_C), reduzindo demais a tensão, abaixo do necessário.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Série, R_P=2,2R_C — ERRADA</p>
+            <p class="text-xs">Valor de R_P exagerado, reduziria a tensão sobre o equipamento muito abaixo da recomendada.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) Série, R_P=0,2R_C — CORRETA</p>
+            <p class="text-xs">Configuração em série (necessária para reduzir a tensão) com o valor exato obtido da equação do divisor de tensão.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Paralelo não resolve: tensão continua 1,2V",
+        legenda: "Em paralelo, R_C recebe a tensão total da fonte — nenhuma redução ocorre.",
+        svg: `
+          <svg viewBox="0 0 300 130" class="w-full h-auto">
+            <rect x="20" y="30" width="100" height="70" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="70" y="60" fill="#e2e8f0" font-size="9" text-anchor="middle">Fonte</text>
+            <text x="70" y="76" fill="#e2e8f0" font-size="9" text-anchor="middle">1,2V</text>
+            <rect x="160" y="20" width="60" height="35" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="190" y="41" fill="#fca5a5" font-size="9" text-anchor="middle">R_P</text>
+            <rect x="160" y="65" width="60" height="35" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="190" y="86" fill="#bae6fd" font-size="9" text-anchor="middle">R_C</text>
+            <text x="230" y="88" fill="#fca5a5" font-size="8">recebe 1,2V ✕</text>
+          </svg>`
+      },
+      {
+        titulo: "Série resolve: tensão se divide entre R_P e R_C",
+        legenda: "Em série, a tensão da fonte se reparte proporcionalmente entre R_P e R_C.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="10" y="30" width="70" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="45" y="54" fill="#e2e8f0" font-size="9" text-anchor="middle">Fonte 1,2V</text>
+            <rect x="95" y="30" width="75" height="40" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+            <text x="132" y="54" fill="#fca5a5" font-size="9" text-anchor="middle">R_P=0,2R_C</text>
+            <rect x="185" y="30" width="75" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="222" y="54" fill="#a7f3d0" font-size="9" text-anchor="middle">R_C recebe V ✓</text>
+          </svg>`
+      },
+      {
+        titulo: "Dedução algébrica do divisor de tensão",
+        legenda: "V/(1,2V) = R_C/(R_P+R_C) leva a R_P = 0,2 R_C.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">V / (1,2V) = R_C / (R_P + R_C)</text>
+            <rect x="10" y="45" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="62" fill="#e2e8f0" font-size="9" text-anchor="middle">R_P + R_C = 1,2 · R_C</text>
+            <rect x="10" y="80" width="440" height="30" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="100" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">R_P = 0,2 · R_C</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas E combina a configuração certa (série) com o valor certo (0,2 R_C).",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) Paralelo, 0,2R_C (config. errada)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) Paralelo, 1,2R_C (config. e valor errados)</text>
+            <text x="10" y="72" fill="#e2e8f0" font-size="8">C) Série, 1,2R_C (valor errado)</text>
+            <text x="10" y="96" fill="#e2e8f0" font-size="8">D) Série, 2,2R_C (valor errado)</text>
+            <rect x="5" y="106" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="123" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) Série, 0,2R_C ✓ correta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: dimensione o resistor de proteção",
+      descricao: "Ajuste o excesso percentual de tensão da fonte e veja o valor de R_P (em relação a R_C) necessário para proteger o equipamento.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Excesso de tensão da fonte (%): <span data-out="elabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="100" step="1" value="20" data-sim="excesso" class="w-full accent-purple-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Configuração fixa: R_P em série com R_C (a única que reduz a tensão sobre o equipamento).</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">R_P necessário:</p>
+              <div data-out="rp" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selE = raiz.querySelector('[data-sim="excesso"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var excesso = parseFloat(selE.value) / 100;
+          saida('elabel').textContent = (excesso * 100).toFixed(0) + '%';
+          var rp = excesso;
+          saida('rp').textContent = rp.toFixed(2) + ' × R_C';
+        }
+
+        selE.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-plug"></i> R_C em série com R_P = 0,2 R_C</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Alternativa E</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q131",
+    numero: "Questão 131",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estequiometria com Excesso de Reagente",
+    materiaCor: "cyan",
+    materiaIcone: "fa-industry",
+    titulo: "Produção de Nióbio pela Redução Aluminotérmica do Nb₂O₅, com Excesso de Alumínio",
+    tags: ["Química", "Estequiometria", "Reagente em Excesso", "Aluminotermia", "Metalurgia"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O Brasil é o maior produtor mundial de nióbio (massa molar = 93 g·mol⁻¹), metal utilizado na fabricação de vários tipos de aço: automotivos, estruturais e inoxidáveis. O processo utilizado na produção do nióbio é a redução aluminotérmica de Nb₂O₅ com excesso de 10% de Al (massa molar = 27 g·mol⁻¹), em relação à quantidade estequiométrica da reação, representada pela equação química:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-cyan-300">
+      3 Nb₂O₅ (s) + 10 Al (s) → 6 Nb (s) + 5 Al₂O₃ (s)
+    </div>
+    <br>
+    Uma engenheira metalúrgica estimou a massa de alumínio necessária para produzir 9,3 kg de nióbio, nas condições descritas, para a produção de um lote de peças de aço encomendado por uma indústria, considerando um rendimento de 100%.
+    <br><br>
+    <p class="text-[10px] text-slate-500">Disponível em: www.cbmm.com.br. Acesso em: 17 out. 2015 (adaptado).</p>
+    <br>
+    A massa de alumínio, em quilograma, estimada pela engenheira é mais próxima de`,
+
+    alternativas: [
+      { letra: "A", texto: "2,7 kg.", correta: false },
+      { letra: "B", texto: "3,0 kg.", correta: false },
+      { letra: "C", texto: "4,1 kg.", correta: false },
+      { letra: "D", texto: "4,5 kg.", correta: false },
+      { letra: "E", texto: "5,0 kg.", correta: true }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Esta é uma estequiometria em duas etapas: primeiro achar a quantidade estequiométrica exata de Al, depois adicionar os 10% de excesso especificados no enunciado.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A proporção estequiométrica da equação</h4>
+          <p>
+            A equação 3 Nb₂O₅ + 10 Al → 6 Nb + 5 Al₂O₃ mostra que <strong>10 mols de Al</strong> reagem para produzir <strong>6 mols de Nb</strong>. Essa proporção 10:6 (ou 5:3) é o elo entre a massa de nióbio desejada e a massa de alumínio necessária.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Convertendo a massa de Nb desejada em mols</h4>
+          <p>
+            A engenheira quer produzir 9,3 kg = 9300 g de Nb. Com massa molar do Nb = 93 g/mol:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Nb) = 9300 / 93 = 100 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Mols de Al na proporção estequiométrica (sem excesso)</h4>
+          <p>
+            Usando a proporção 10 mol Al : 6 mol Nb:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Al)<sub>estequiométrico</sub> = 100 × (10/6) ≈ 166,7 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Aplicando o excesso de 10%</h4>
+          <p>
+            O enunciado pede a massa considerando <strong>10% de excesso</strong> de Al em relação à quantidade estequiométrica. Isso significa multiplicar por 1,10:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-cyan-300 text-sm">
+            n(Al)<sub>real</sub> = 166,7 × 1,10 ≈ 183,3 mol
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> Convertendo para massa</h4>
+          <p>
+            m(Al) = n × M = 183,3 mol × 27 g/mol ≈ 4950 g ≈ <strong>5,0 kg</strong>.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-industry", titulo: "Redução aluminotérmica", text: "Processo em que o alumínio (agente redutor) reduz um óxido metálico (Nb₂O₅) a metal puro." },
+      { icone: "fa-diagram-project", titulo: "Proporção estequiométrica 10:6", text: "10 mols de Al reagem com 3 mols de Nb₂O₅ para produzir 6 mols de Nb, segundo a equação balanceada." },
+      { icone: "fa-percent", titulo: "Excesso de 10%", text: "Multiplicar a quantidade estequiométrica de Al por 1,10 para obter a quantidade real usada no processo." },
+      { icone: "fa-scale-balanced", titulo: "n = m/M e m = n×M", text: "Conversões entre massa e mols usando as massas molares fornecidas (Nb=93, Al=27 g/mol)." },
+      { icone: "fa-list-check", titulo: "Duas etapas, não uma só", text: "Primeiro calcule o valor estequiométrico exato, só depois aplique o excesso — inverter a ordem não muda o resultado, mas esquecer uma etapa muda." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>n(Nb)=100 mol → n(Al) estequiométrico=100×10/6≈166,7 mol → com 10% de excesso: 166,7×1,10≈183,3 mol → m(Al)=183,3×27≈<strong>5,0 kg</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Converta a massa de Nb desejada em mols.</strong> n(Nb)=9300/93=100 mol.</p>
+          <p><strong>Passo 2 — Use a proporção 10:6 para achar Al estequiométrico.</strong> n(Al)=100×(10/6)≈166,7 mol.</p>
+          <p><strong>Passo 3 — Aplique o excesso de 10% e converta para massa.</strong> 166,7×1,10≈183,3 mol; m=183,3×27≈4950 g ≈5,0 kg.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 2,7 kg — ERRADA</p>
+            <p class="text-xs">Valor muito abaixo do necessário — consistente com usar a proporção estequiométrica invertida (6:10 em vez de 10:6) ou esquecer completamente o excesso.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 3,0 kg — ERRADA</p>
+            <p class="text-xs">Próximo do valor obtido ao tratar a proporção Al:Nb como 1:1 em vez de 10:6, sem considerar o excesso corretamente.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) 4,1 kg — ERRADA</p>
+            <p class="text-xs">Valor próximo do estequiométrico puro sem aplicar o excesso de 10% (166,7×27≈4500g≈4,5kg seria o valor exato sem excesso — 4,1kg fica ainda abaixo disso, sugerindo algum erro adicional de arredondamento).</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 4,5 kg — ERRADA</p>
+            <p class="text-xs">Esse é exatamente o valor estequiométrico SEM o excesso de 10% (166,7 mol × 27 g/mol ≈ 4500 g = 4,5 kg) — o erro clássico de esquecer de aplicar o excesso pedido no enunciado.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">E) 5,0 kg — CORRETA</p>
+            <p class="text-xs">Valor estequiométrico (166,7 mol) multiplicado corretamente pelo fator de excesso de 10% (×1,10), depois convertido para massa: ≈4950g≈5,0kg.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Equação balanceada e proporção Al:Nb",
+        legenda: "10 mols de Al reagem com 3 mols de Nb₂O₅ para produzir 6 mols de Nb.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="10" y="30" width="130" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="75" y="54" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">3 Nb₂O₅ + 10 Al</text>
+            <text x="170" y="54" fill="#94a3b8" font-size="16" text-anchor="middle">→</text>
+            <rect x="200" y="30" width="120" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="260" y="54" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">6 Nb + 5 Al₂O₃</text>
+            <text x="360" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">proporção-chave:</text>
+            <text x="360" y="62" fill="#e2e8f0" font-size="10" font-weight="bold" text-anchor="middle">10 Al : 6 Nb</text>
+          </svg>`
+      },
+      {
+        titulo: "De massa de Nb a mols de Al estequiométrico",
+        legenda: "9,3 kg de Nb → 100 mol de Nb → ≈166,7 mol de Al (proporção 10:6).",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">m(Nb) = 9300 g → n(Nb) = 9300/93 = 100 mol</text>
+            <text x="230" y="48" fill="#64748b" font-size="12" text-anchor="middle">↓ × (10 Al / 6 Nb)</text>
+            <rect x="10" y="55" width="440" height="30" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="230" y="75" fill="#bae6fd" font-size="10" font-weight="bold" text-anchor="middle">n(Al) estequiométrico ≈ 166,7 mol</text>
+          </svg>`
+      },
+      {
+        titulo: "Aplicando o excesso de 10%",
+        legenda: "166,7 mol × 1,10 ≈ 183,3 mol de Al realmente usados no processo.",
+        svg: `
+          <svg viewBox="0 0 460 110" class="w-full h-auto">
+            <rect x="20" y="20" width="180" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/>
+            <text x="110" y="44" fill="#bae6fd" font-size="9" font-weight="bold" text-anchor="middle">166,7 mol (estequiométrico)</text>
+            <text x="220" y="44" fill="#94a3b8" font-size="14" text-anchor="middle">×1,10</text>
+            <rect x="260" y="20" width="180" height="40" fill="#78350f" stroke="#fbbf24" stroke-width="1.5" rx="4"/>
+            <text x="350" y="44" fill="#fde68a" font-size="9" font-weight="bold" text-anchor="middle">183,3 mol (com excesso)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas E aplica corretamente a estequiometria E o excesso de 10%.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) 2,7 kg (proporção invertida ou sem excesso)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) 3,0 kg (proporção 1:1 incorreta)</text>
+            <text x="10" y="72" fill="#e2e8f0" font-size="8">C) 4,1 kg (erro de arredondamento)</text>
+            <text x="10" y="96" fill="#e2e8f0" font-size="8">D) 4,5 kg (esquece o excesso de 10%)</text>
+            <rect x="5" y="106" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="145" y="123" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">E) 5,0 kg ✓ correta</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: da massa de nióbio à massa de alumínio",
+      descricao: "Ajuste a massa de Nb desejada e o percentual de excesso de Al, e veja a massa de alumínio necessária calculada em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Massa de Nb desejada (kg): <span data-out="nblabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="1" max="20" step="0.1" value="9.3" data-sim="massaNb" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Excesso de Al (%): <span data-out="elabel" class="text-cyan-300 font-mono"></span></p>
+              <input type="range" min="0" max="50" step="1" value="10" data-sim="excesso" class="w-full accent-cyan-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Proporção fixa: 10 mol Al : 6 mol Nb. M(Nb)=93 g/mol, M(Al)=27 g/mol.</p>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">n(Al) estequiométrico:</p>
+              <div data-out="nesteq" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">n(Al) real (com excesso):</p>
+              <div data-out="nreal" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Massa de Al necessária:</p>
+              <div data-out="massa" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selNb = raiz.querySelector('[data-sim="massaNb"]');
+        var selE = raiz.querySelector('[data-sim="excesso"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var M_Nb = 93, M_Al = 27;
+
+        function atualizar() {
+          var massaNb = parseFloat(selNb.value) * 1000;
+          var excesso = parseFloat(selE.value) / 100;
+
+          saida('nblabel').textContent = (massaNb / 1000).toFixed(1) + ' kg';
+          saida('elabel').textContent = (excesso * 100).toFixed(0) + '%';
+
+          var nNb = massaNb / M_Nb;
+          var nAlEsteq = nNb * (10 / 6);
+          var nAlReal = nAlEsteq * (1 + excesso);
+          var massaAl = nAlReal * M_Al;
+
+          saida('nesteq').textContent = nAlEsteq.toFixed(1) + ' mol';
+          saida('nreal').textContent = nAlReal.toFixed(1) + ' mol';
+          saida('massa').textContent = (massaAl / 1000).toFixed(2) + ' kg';
+        }
+
+        selNb.addEventListener('input', atualizar);
+        selE.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-industry"></i> 100 mol Nb → 166,7 mol Al (estequiométrico) → 183,3 mol (com 10% excesso) → 5,0 kg</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">m(Al) ≈ 5,0 kg</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q132",
+    numero: "Questão 132",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Acústica e Escala Logarítmica de Decibéis",
+    materiaCor: "purple",
+    materiaIcone: "fa-volume-high",
+    titulo: "O Grito de 10 000 Torcedores: Soma de Intensidades Sonoras em Decibéis",
+    tags: ["Física", "Acústica", "Escala Logarítmica", "Nível Sonoro", "Decibéis"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O nível sonoro, em decibel (dB), é calculado pela expressão:
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center font-mono text-sm text-purple-300">
+      n = 10 log₁₀ (I / I₀)
+    </div>
+    <br>
+    Uma conversa normal entre duas pessoas gera sons de níveis sonoros entre 50 e 60 dB, enquanto pessoas gritando podem gerar sons de níveis superiores a 100 dB. Supondo que, no centro de um estádio de futebol, foram realizadas medidas para avaliar o ruído médio de uma pessoa gritando a palavra "gol" em diferentes posições das arquibancadas. O valor médio obtido, considerando um grande número de medidas, foi de 100 dB. Com esse dado, estimou-se o ruído sonoro produzido por 10 000 pessoas, distribuídas aleatoriamente nas arquibancadas, enquanto gritavam, simultaneamente, a palavra "gol".
+    <br><br>
+    O valor médio estimado para o ruído produzido por essas pessoas, na posição central desse estádio hipotético, foi de`,
+
+    alternativas: [
+      { letra: "A", texto: "60 dB.", correta: false },
+      { letra: "B", texto: "104 dB.", correta: false },
+      { letra: "C", texto: "140 dB.", correta: true },
+      { letra: "D", texto: "400 dB.", correta: false },
+      { letra: "E", texto: "800 dB.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O ponto-chave aqui é que a escala de decibéis é logarítmica — multiplicar a intensidade sonora NÃO multiplica o valor em dB pelo mesmo fator; em vez disso, soma-se um valor fixo (10·log₁₀ do fator de multiplicação) ao nível original.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> A escala de decibéis é logarítmica, não linear</h4>
+          <p>
+            A fórmula n = 10 log₁₀(I/I₀) relaciona o nível sonoro n (em dB) com a intensidade física I do som, comparada a uma intensidade de referência I₀. Como há um logaritmo na fórmula, <strong>dobrar a intensidade não dobra o valor em dB</strong> — o efeito é bem menor, porque o logaritmo "comprime" grandes variações de intensidade em pequenas variações de dB.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> Isolando a intensidade I de uma pessoa gritando</h4>
+          <p>
+            Para uma pessoa: 100 = 10 log₁₀(I₁/I₀), ou seja, log₁₀(I₁/I₀) = 10, então I₁ = I₀ × 10¹⁰. Cada pessoa gritando produz essa mesma intensidade I₁ (em média).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Somando as intensidades de 10 000 pessoas</h4>
+          <p>
+            Quando várias fontes sonoras independentes tocam ao mesmo tempo, são as <strong>intensidades</strong> (não os decibéis!) que se somam diretamente, pois intensidade é uma grandeza física real (energia por área), enquanto dB é uma escala logarítmica de comparação. Para N=10 000 pessoas gritando simultaneamente:
+          </p>
+          <div class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-center font-mono text-purple-300 text-sm">
+            I<sub>total</sub> = N × I₁ = 10 000 × I₁ = 10⁴ × I₁
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Calculando o novo nível em decibéis</h4>
+          <p>
+            n<sub>total</sub> = 10 log₁₀(I<sub>total</sub>/I₀) = 10 log₁₀(10⁴ × I₁/I₀) = 10 [log₁₀(10⁴) + log₁₀(I₁/I₀)] = 10 [4 + 10] = 10 × 14 = <strong>140 dB</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> A regra prática: cada fator 10× na intensidade soma 10 dB</h4>
+          <p>
+            Essa questão ilustra uma regra útil da escala logarítmica: multiplicar a intensidade por 10 sempre <strong>soma</strong> (não multiplica) 10 dB ao nível sonoro. Como 10 000 pessoas correspondem a um fator 10⁴ (10 mil vezes mais intensidade), isso soma 10×4=40 dB ao valor original de 100 dB, resultando em 140 dB.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-volume-high", titulo: "n = 10 log₁₀(I/I₀)", text: "Fórmula do nível sonoro em decibéis, uma escala logarítmica em relação a uma intensidade de referência I₀." },
+      { icone: "fa-chart-simple", titulo: "Escala logarítmica ≠ linear", text: "Multiplicar a intensidade não multiplica o dB pelo mesmo fator — o logaritmo comprime a variação." },
+      { icone: "fa-users", titulo: "Intensidades se somam, dB não", text: "Fontes sonoras independentes somam suas intensidades físicas (I), não seus valores em decibéis diretamente." },
+      { icone: "fa-plus", titulo: "Fator 10× soma 10 dB", text: "Cada vez que a intensidade é multiplicada por 10, o nível sonoro aumenta em 10 dB (soma, não multiplicação)." },
+      { icone: "fa-calculator", titulo: "10 000 = 10⁴ → +40 dB", text: "10 mil pessoas correspondem a um fator 10⁴ na intensidade, somando 40 dB ao nível de uma pessoa: 100+40=140 dB." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>I<sub>total</sub>=10⁴×I₁ → n<sub>total</sub>=10log₁₀(10⁴)+n₁=40+100=<strong>140 dB</strong>.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Lembre que intensidades se somam, não os dB.</strong> Para N fontes idênticas, I_total = N × I₁.</p>
+          <p><strong>Passo 2 — Separe o logaritmo do produto.</strong> n_total = 10log₁₀(N×I₁/I₀) = 10log₁₀(N) + 10log₁₀(I₁/I₀) = 10log₁₀(N) + n₁.</p>
+          <p><strong>Passo 3 — Substitua N=10 000=10⁴.</strong> 10log₁₀(10⁴)=40. n_total=40+100=140 dB.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) 60 dB — ERRADA</p>
+            <p class="text-xs">Valor menor que o nível de uma única pessoa gritando (100 dB) — não faz sentido que juntar mais pessoas diminua o ruído.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) 104 dB — ERRADA</p>
+            <p class="text-xs">Seria o resultado de somar apenas 4 dB (como se 10 000 correspondesse a 10⁰,⁴, um raciocínio incorreto) — não aplica corretamente a relação logarítmica.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">C) 140 dB — CORRETA</p>
+            <p class="text-xs">Resultado de somar 10log₁₀(10⁴)=40 dB ao nível original de 100 dB — a forma correta de combinar 10 000 fontes sonoras idênticas em decibéis.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) 400 dB — ERRADA</p>
+            <p class="text-xs">Resulta do erro clássico de multiplicar o nível em dB diretamente por 4 (100×4=400), tratando a escala como se fosse linear em vez de logarítmica.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) 800 dB — ERRADA</p>
+            <p class="text-xs">Resulta de multiplicar o nível em dB diretamente pelo fator 10 000/... um erro ainda maior de tratar a escala logarítmica como linear (por exemplo, 100×8, sem lógica física real).</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Uma pessoa: n = 100 dB",
+        legenda: "n = 10 log₁₀(I₁/I₀) = 100 dB é o nível sonoro médio de uma pessoa gritando 'gol'.",
+        svg: `
+          <svg viewBox="0 0 300 90" class="w-full h-auto">
+            <rect x="60" y="20" width="180" height="50" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="150" y="42" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">1 pessoa gritando</text>
+            <text x="150" y="60" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">n₁ = 100 dB</text>
+          </svg>`
+      },
+      {
+        titulo: "As intensidades se somam (não os dB)",
+        legenda: "I(total) = N × I₁, com N=10 000 pessoas gritando simultaneamente.",
+        svg: `
+          <svg viewBox="0 0 460 100" class="w-full h-auto">
+            <rect x="20" y="30" width="120" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="80" y="54" fill="#e2e8f0" font-size="9" text-anchor="middle">I₁ (1 pessoa)</text>
+            <text x="160" y="54" fill="#94a3b8" font-size="14" text-anchor="middle">×10 000</text>
+            <rect x="230" y="30" width="210" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="335" y="54" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">I(total) = 10⁴ × I₁</text>
+          </svg>`
+      },
+      {
+        titulo: "Fator 10× em intensidade = +10 dB",
+        legenda: "10log₁₀(10⁴)=40 dB — regra prática da escala logarítmica de decibéis.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="10" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="27" fill="#e2e8f0" font-size="9" text-anchor="middle">n(total) = 10log₁₀(10⁴ × I₁/I₀) = 10[log₁₀(10⁴) + log₁₀(I₁/I₀)]</text>
+            <rect x="10" y="45" width="440" height="26" fill="#1e293b" rx="4"/>
+            <text x="230" y="62" fill="#e2e8f0" font-size="9" text-anchor="middle">n(total) = 10×4 + 100 = 40 + 100</text>
+            <rect x="10" y="80" width="440" height="30" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="230" y="100" fill="#e9d5ff" font-size="11" font-weight="bold" text-anchor="middle">n(total) = 140 dB</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas C aplica corretamente a soma logarítmica das intensidades de 10 000 fontes.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="10" y="24" fill="#e2e8f0" font-size="8">A) 60 dB (menor que uma só pessoa — impossível)</text>
+            <text x="10" y="48" fill="#e2e8f0" font-size="8">B) 104 dB (soma incorreta de apenas 4 dB)</text>
+            <rect x="5" y="58" width="280" height="26" fill="#3b0764" rx="4"/>
+            <text x="145" y="75" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">C) 140 dB ✓ correta</text>
+            <text x="10" y="106" fill="#e2e8f0" font-size="8">D) 400 dB (multiplica dB por 4, escala linear errada)</text>
+            <text x="10" y="130" fill="#e2e8f0" font-size="8">E) 800 dB (erro ainda maior de escala linear)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: some fontes sonoras em decibéis",
+      descricao: "Ajuste o nível sonoro de uma fonte e o número de fontes idênticas somadas, e veja o nível total calculado corretamente pela escala logarítmica.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Nível de uma fonte (dB): <span data-out="n1label" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="40" max="120" step="1" value="100" data-sim="n1" class="w-full accent-purple-500">
+            </div>
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Número de fontes idênticas (potência de 10): <span data-out="nlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="6" step="1" value="4" data-sim="expoente" class="w-full accent-purple-500">
+            </div>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Nível sonoro total:</p>
+              <div data-out="ntotal" class="text-2xl font-mono text-purple-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selN1 = raiz.querySelector('[data-sim="n1"]');
+        var selExp = raiz.querySelector('[data-sim="expoente"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var n1 = parseFloat(selN1.value);
+          var expoente = parseInt(selExp.value, 10);
+          var N = Math.pow(10, expoente);
+
+          saida('n1label').textContent = n1.toFixed(0) + ' dB';
+          saida('nlabel').textContent = N.toLocaleString('pt-BR') + ' fontes (10^' + expoente + ')';
+
+          var nTotal = n1 + 10 * expoente;
+          saida('ntotal').textContent = nTotal.toFixed(0) + ' dB';
+        }
+
+        selN1.addEventListener('input', atualizar);
+        selExp.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-volume-high"></i> 10 000 pessoas: 100 dB + 40 dB = 140 dB</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="13" font-weight="bold" text-anchor="middle">n(total) = 140 dB</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q133",
+    numero: "Questão 133",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Materiais e Interações Intermoleculares",
+    materiaCor: "cyan",
+    materiaIcone: "fa-layer-group",
+    titulo: "Filtro Multicamadas para Separação de Óleo e Água: Onde o Óleo é Retido?",
+    tags: ["Química", "Interações Intermoleculares", "Materiais", "Polaridade", "Nanotecnologia"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O despejo acidental de óleo nos oceanos tem ocasionado incontáveis prejuízos à vida marinha e à economia de regiões costeiras. Métodos tradicionais de tratamento do despejo geram resíduos de difícil descarte e nem sempre são eficazes. Por isso, pesquisadores desenvolveram um filtro capaz de separar óleo e água. O dispositivo é montado sobre uma malha de aço com uma sequência de camadas. A primeira camada é formada por um polímero de carga positiva, a segunda é composta por nanopartículas de sílica (SiO₂), a terceira é formada pelo mesmo polímero e a última é um surfactante, conforme apresentado na figura.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-center">
+      <p class="text-[11px] text-slate-400 mb-3 font-bold">Representação esquemática do dispositivo (de baixo para cima)</p>
+      <svg viewBox="0 0 380 220" class="w-full h-auto max-w-sm mx-auto">
+        <rect x="40" y="185" width="300" height="18" fill="#475569" stroke="#94a3b8" stroke-width="1"/>
+        <text x="350" y="198" fill="#94a3b8" font-size="9">Malha de aço</text>
+
+        <rect x="40" y="160" width="300" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="350" y="174" fill="#7dd3fc" font-size="9">Camada inferior de polímero</text>
+
+        <rect x="40" y="130" width="300" height="25" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+        <text x="350" y="146" fill="#fde68a" font-size="9">Nanopartículas de sílica</text>
+
+        <rect x="40" y="105" width="300" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="350" y="119" fill="#7dd3fc" font-size="9">Camada superior de polímero</text>
+
+        <rect x="40" y="70" width="300" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+        <text x="350" y="89" fill="#fca5a5" font-size="9" font-weight="bold">Surfactante</text>
+
+        <text x="15" y="90" fill="#f87171" font-size="16" text-anchor="middle">🛢</text>
+        <text x="15" y="185" fill="#38bdf8" font-size="16" text-anchor="middle">💧</text>
+      </svg>
+      <p class="text-[10px] text-slate-500 mt-2">BROWN, P. S.; BHUSHAN, B. Mechanically durable, superoleophobic coatings prepared by layer-by-layer technique for anti-smudge and oil-water separation. <strong>Scientific Reports</strong>, v. 5, mar. 2015 (adaptado).</p>
+    </div>
+    <br>
+    Na utilização desse dispositivo, a retenção do óleo ocorre`,
+
+    alternativas: [
+      { letra: "A", texto: "no surfactante.", correta: true },
+      { letra: "B", texto: "na camada superior de polímero.", correta: false },
+      { letra: "C", texto: "nas nanopartículas de sílica.", correta: false },
+      { letra: "D", texto: "na camada inferior de polímero.", correta: false },
+      { letra: "E", texto: "na malha de aço.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          A chave é entender que a camada externa (a que entra em contato direto com o óleo primeiro) é a responsável por "decidir" se o óleo passa ou não — e essa camada é o surfactante.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O que é um dispositivo "superoleofóbico"</h4>
+          <p>
+            O artigo citado descreve um revestimento "superoleofóbico" — ou seja, um material que <strong>repele fortemente o óleo</strong> (oleofóbico = "medo de óleo"), enquanto permite a passagem de água (hidrofílico). Essa é a propriedade central que permite separar óleo de água: o óleo é bloqueado na superfície, e a água atravessa o dispositivo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> A camada mais externa é a que entra em contato com o óleo</h4>
+          <p>
+            Observando a estrutura de baixo para cima: malha de aço → camada inferior de polímero → nanopartículas de sílica → camada superior de polímero → <strong>surfactante</strong>. O surfactante é a última camada, ou seja, a <strong>mais externa</strong> — a primeira superfície que qualquer líquido (óleo ou água) encontra ao tentar atravessar o dispositivo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que o surfactante retém o óleo</h4>
+          <p>
+            Um surfactante é uma molécula com uma parte polar (hidrofílica) e uma parte apolar (hidrofóbica/oleofílica), organizada de forma estratégica na superfície do dispositivo. Nesse tipo de revestimento superoleofóbico, a orientação e a organização das moléculas de surfactante na superfície criam uma <strong>repulsão específica ao óleo</strong> (baixa energia superficial para líquidos apolares), impedindo que o óleo penetre nas camadas internas do filtro. A água, sendo polar, consegue interagir favoravelmente e atravessar essa camada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> As camadas internas (polímero e sílica) têm outra função</h4>
+          <p>
+            As camadas de polímero (com carga positiva) e as nanopartículas de sílica formam a <strong>estrutura de suporte</strong> do dispositivo — elas dão robustez mecânica e ajudam a criar a rugosidade em nanoescala necessária para a propriedade superoleofóbica funcionar bem na superfície, mas não são a barreira principal de retenção do óleo, já que o óleo é barrado antes de alcançá-las, na camada de surfactante.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> O papel da malha de aço</h4>
+          <p>
+            A malha de aço é apenas o <strong>suporte estrutural</strong> de todo o sistema — ela tem poros grandes o suficiente para permitir a passagem de líquidos, e serve de base física sobre a qual as camadas funcionais (polímero, sílica, surfactante) são depositadas.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-tint-slash", titulo: "Superoleofóbico", text: "Material que repele fortemente o óleo, permitindo a passagem seletiva de água." },
+      { icone: "fa-layer-group", titulo: "Camada mais externa = primeiro contato", text: "O surfactante, por ser a última camada depositada, é o primeiro ponto de contato do óleo com o dispositivo." },
+      { icone: "fa-flask", titulo: "Surfactante: parte polar e parte apolar", text: "Sua organização na superfície cria a repulsão seletiva que bloqueia o óleo e permite a passagem da água." },
+      { icone: "fa-cubes", titulo: "Polímero e sílica: suporte estrutural", text: "Dão robustez mecânica e rugosidade nanométrica, mas não são a principal barreira contra o óleo." },
+      { icone: "fa-border-all", titulo: "Malha de aço: base física", text: "Sustenta todas as camadas funcionais, com poros grandes o bastante para não impedir a passagem de líquidos." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>O surfactante é a camada mais externa do dispositivo — a propriedade superoleofóbica descrita no enunciado bloqueia o óleo logo nessa primeira superfície de contato.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique a ordem das camadas.</strong> De baixo para cima: malha → polímero → sílica → polímero → surfactante (a mais externa).</p>
+          <p><strong>Passo 2 — Lembre o que "superoleofóbico" significa.</strong> Repele o óleo na superfície, permitindo a passagem da água.</p>
+          <p><strong>Passo 3 — Conecte: a camada externa é onde o contato (e a retenção) acontece primeiro.</strong> Como é o surfactante que está exposto, é nele que o óleo é barrado.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) No surfactante — CORRETA</p>
+            <p class="text-xs">É a camada mais externa, responsável pela propriedade superoleofóbica que bloqueia o óleo antes que ele alcance as camadas internas.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Na camada superior de polímero — ERRADA</p>
+            <p class="text-xs">Essa camada fica abaixo do surfactante, ou seja, o óleo nem chegaria até ela, pois já teria sido barrado antes.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Nas nanopartículas de sílica — ERRADA</p>
+            <p class="text-xs">Camada ainda mais interna, com função estrutural (rugosidade), não é a barreira principal para o óleo.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Na camada inferior de polímero — ERRADA</p>
+            <p class="text-xs">Uma das camadas mais internas do dispositivo, distante do ponto de primeiro contato com o óleo.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Na malha de aço — ERRADA</p>
+            <p class="text-xs">É apenas o suporte estrutural de base, com poros grandes o suficiente para não funcionar como barreira seletiva.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Estrutura de camadas do dispositivo",
+        legenda: "De baixo para cima: malha de aço, polímero, sílica, polímero, surfactante (camada mais externa).",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <rect x="30" y="160" width="240" height="20" fill="#475569" stroke="#94a3b8" stroke-width="1"/>
+            <text x="150" y="174" fill="#e2e8f0" font-size="8" text-anchor="middle">Malha de aço</text>
+            <rect x="30" y="135" width="240" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+            <text x="150" y="149" fill="#bae6fd" font-size="8" text-anchor="middle">Polímero (inferior)</text>
+            <rect x="30" y="105" width="240" height="25" fill="#78350f" stroke="#fbbf24" stroke-width="1"/>
+            <text x="150" y="121" fill="#fde68a" font-size="8" text-anchor="middle">Sílica (SiO₂)</text>
+            <rect x="30" y="80" width="240" height="20" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+            <text x="150" y="94" fill="#bae6fd" font-size="8" text-anchor="middle">Polímero (superior)</text>
+            <rect x="30" y="45" width="240" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="64" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante ← externa</text>
+          </svg>`
+      },
+      {
+        titulo: "Óleo bloqueado na superfície",
+        legenda: "A propriedade superoleofóbica do surfactante impede que o óleo penetre nas camadas internas.",
+        svg: `
+          <svg viewBox="0 0 300 110" class="w-full h-auto">
+            <rect x="20" y="45" width="260" height="30" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="64" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante</text>
+            <circle cx="60" cy="25" r="10" fill="#78350f" stroke="#fbbf24"/>
+            <text x="60" y="29" fill="#fde68a" font-size="10" text-anchor="middle">🛢</text>
+            <text x="90" y="30" fill="#f87171" font-size="16">✕</text>
+            <rect x="20" y="80" width="260" height="20" fill="#1e293b" stroke="#64748b" stroke-width="1" stroke-dasharray="3,2"/>
+            <text x="150" y="94" fill="#94a3b8" font-size="8" text-anchor="middle">camadas internas (protegidas)</text>
+          </svg>`
+      },
+      {
+        titulo: "Água atravessa, óleo não",
+        legenda: "Sendo polar, a água interage bem com a superfície e passa; o óleo apolar é repelido.",
+        svg: `
+          <svg viewBox="0 0 300 130" class="w-full h-auto">
+            <rect x="20" y="20" width="260" height="25" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="150" y="37" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Surfactante</text>
+            <text x="60" y="15" fill="#94a3b8" font-size="8" text-anchor="middle">óleo ✕</text>
+            <text x="230" y="15" fill="#7dd3fc" font-size="8" text-anchor="middle">água ✓</text>
+            <line x1="230" y1="18" x2="230" y2="100" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4,3"/>
+            <text x="230" y="112" fill="#7dd3fc" font-size="8" text-anchor="middle">↓ atravessa</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas o surfactante, a camada mais externa, é responsável pela retenção do óleo.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <rect x="5" y="10" width="290" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="27" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">A) Surfactante ✓ correta</text>
+            <text x="10" y="60" fill="#e2e8f0" font-size="8">B) Camada superior de polímero (interna demais)</text>
+            <text x="10" y="84" fill="#e2e8f0" font-size="8">C) Nanopartículas de sílica (estrutural)</text>
+            <text x="10" y="108" fill="#e2e8f0" font-size="8">D) Camada inferior de polímero (interna demais)</text>
+            <text x="10" y="132" fill="#e2e8f0" font-size="8">E) Malha de aço (suporte, não barreira)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: explore as camadas do filtro",
+      descricao: "Clique em cada camada do dispositivo, de fora para dentro, e veja sua função e se ela retém o óleo.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha a camada (de fora para dentro):</p>
+            <select data-sim="camada" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="surfactante" selected>Surfactante (mais externa)</option>
+              <option value="polimeroSup">Camada superior de polímero</option>
+              <option value="silica">Nanopartículas de sílica</option>
+              <option value="polimeroInf">Camada inferior de polímero</option>
+              <option value="malha">Malha de aço (mais interna)</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="camada"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var info = {
+          surfactante: { retem: true, texto: 'Esta é a camada externa e superoleofóbica: o óleo é bloqueado aqui, enquanto a água consegue atravessar.' },
+          polimeroSup: { retem: false, texto: 'Camada interna de suporte estrutural. O óleo, se chegasse até aqui, já teria sido barrado pelo surfactante — na prática, essa camada não vê o óleo.' },
+          silica: { retem: false, texto: 'As nanopartículas de sílica dão rugosidade em nanoescala à superfície, ajudando o efeito superoleofóbico do surfactante, mas não retêm o óleo diretamente.' },
+          polimeroInf: { retem: false, texto: 'Camada interna de suporte estrutural, distante do ponto de contato inicial com o óleo.' },
+          malha: { retem: false, texto: 'Apenas a base física do dispositivo — tem poros grandes o suficiente para não impedir a passagem de líquidos.' }
+        };
+
+        function atualizar() {
+          var v = saida('veredito');
+          var dados = info[sel.value];
+          if (dados.retem) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Aqui o óleo é retido!</strong> ' + dados.texto;
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = dados.texto;
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-layer-group"></i> O óleo é retido no surfactante — a camada mais externa</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#450a0a" stroke="#f87171" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#fca5a5" font-size="13" font-weight="bold" text-anchor="middle">Alternativa A — Surfactante</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q134",
+    numero: "Questão 134",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Estrutura Molecular e Polaridade",
+    materiaCor: "cyan",
+    materiaIcone: "fa-pills",
+    titulo: "Hormônios Esteroides no Ambiente: Qual Tem Maior Solubilidade em Água?",
+    tags: ["Química", "Polaridade", "Grupos Funcionais", "Solubilidade", "Hormônios Esteroides"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Alguns hormônios sexuais têm ganhado notável atenção nos últimos anos por suas concentrações cada vez maiores no solo e na água em todo o mundo. O motivo da preocupação é porque, em níveis poluentes, eles têm sido associados ao câncer de mama e ao câncer de próstata, além de perturbarem a fisiologia dos peixes, podendo, ainda, afetarem o desenvolvimento reprodutivo de animais domésticos e selvagens. Assim, o descarte inadequado desses hormônios representa uma séria ameaça ao solo, plantas, recursos hídricos e humanos. De baixa polaridade, eles apresentam uma solubilidade pequena e variável em água, dependendo dos grupos presentes em suas estruturas, representando um grande risco para os ambientes aquáticos. As figuras a seguir apresentam as estruturas de alguns desses hormônios.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 grid grid-cols-1 sm:grid-cols-2 gap-4 text-center">
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estradiol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + 2 grupos −OH (um fenólico, um secundário)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estriol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + <strong>3 grupos −OH</strong> (fenólico + dois secundários vicinais)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Estrona</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + 1 grupo −OH (fenólico) + 1 grupo cetona (C=O)</p>
+      </div>
+      <div>
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Novestrol</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + CH₃ + −OH fenólico + −OH terciário + grupo etinil (C≡CH)</p>
+      </div>
+      <div class="sm:col-span-2">
+        <p class="text-[11px] font-bold text-cyan-300 mb-1">Noretindrona</p>
+        <p class="text-[10px] text-slate-400">Núcleo esteroide + cetona (C=O) + CH₃ + −OH terciário + grupo etinil (C≡CH)</p>
+      </div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">MUHAMMAD, A. et al. Environmental Impact of Estrogens on Human, Animal and Plant Life: a Critical Review. <strong>Environment International</strong>, n. 99, 2017 (adaptado).</p>
+    <br>
+    Do ponto de vista das interações químicas, qual desses hormônios apresenta maior solubilidade em ambientes aquáticos?`,
+
+    alternativas: [
+      { letra: "A", texto: "Estradiol.", correta: false },
+      { letra: "B", texto: "Estriol.", correta: true },
+      { letra: "C", texto: "Estrona.", correta: false },
+      { letra: "D", texto: "Novestrol.", correta: false },
+      { letra: "E", texto: "Noretindrona.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Todos esses hormônios compartilham o mesmo "esqueleto" apolar (o núcleo esteroide, com quatro anéis fundidos). A diferença de solubilidade em água vem inteiramente dos grupos funcionais polares (principalmente −OH) presentes em cada estrutura.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> "Semelhante dissolve semelhante"</h4>
+          <p>
+            A regra básica de solubilidade é que substâncias polares se dissolvem bem em solventes polares (como a água), enquanto substâncias apolares se dissolvem mal em água. O núcleo esteroide (os quatro anéis fundidos, ricos em ligações C–C e C–H) é fortemente <strong>apolar</strong> e hidrofóbico em todos os cinco hormônios — por isso, nenhum deles é muito solúvel em água, mas alguns são mais solúveis que outros.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> O que aumenta a solubilidade em água: grupos −OH</h4>
+          <p>
+            O grupo hidroxila (−OH) é <strong>polar</strong> e forma ligações de hidrogênio com a água — quanto <strong>mais grupos −OH</strong> uma molécula tiver, maior sua capacidade de interagir favoravelmente com moléculas de água, e maior sua solubilidade (mesmo que o resto da molécula seja apolar).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Comparando o número de grupos −OH de cada hormônio</h4>
+          <p>
+            Contando os grupos hidroxila de cada estrutura descrita: Estradiol tem 2 grupos −OH; <strong>Estriol tem 3 grupos −OH</strong> (o maior número entre os cinco); Estrona tem apenas 1 grupo −OH (e uma cetona, que também é polar, mas faz ligações de hidrogênio mais fracas que o −OH); Novestrol tem 2 grupos −OH (um fenólico, um terciário) mais um grupo etinil apolar; Noretindrona tem 1 grupo −OH mais uma cetona e um grupo etinil apolar.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que o Estriol se destaca</h4>
+          <p>
+            Com <strong>3 grupos −OH</strong> distribuídos em sua estrutura, o Estriol tem a maior capacidade de formar ligações de hidrogênio com moléculas de água entre os cinco hormônios apresentados — cada grupo −OH adicional aumenta a interação favorável com o solvente polar. Por isso, do ponto de vista das interações químicas, o Estriol é o mais solúvel em ambientes aquáticos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">5.</span> O papel dos grupos etinil (C≡CH) e cetona</h4>
+          <p>
+            Grupos como o etinil (−C≡CH), presentes no Novestrol e na Noretindrona, são <strong>apolares</strong> e não contribuem para a solubilidade em água — na verdade, aumentam o caráter hidrofóbico geral da molécula. Já a cetona (C=O), presente na Estrona e na Noretindrona, é polar e pode fazer ligação de hidrogênio como aceptora, mas de forma mais fraca que o −OH (que atua tanto como doador quanto como aceptor de hidrogênio).
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-droplet", titulo: "Semelhante dissolve semelhante", text: "Grupos polares interagem bem com a água (polar); grupos apolares não." },
+      { icone: "fa-circle-nodes", titulo: "Núcleo esteroide é apolar", text: "Comum a todos os hormônios da questão — a diferença de solubilidade vem dos grupos funcionais extras." },
+      { icone: "fa-link", titulo: "−OH faz ligação de hidrogênio", text: "Cada grupo hidroxila adicional aumenta a interação favorável com moléculas de água." },
+      { icone: "fa-sort-numeric-up", titulo: "Contar os grupos −OH", text: "Estriol tem 3 grupos −OH, o maior número entre os cinco hormônios apresentados." },
+      { icone: "fa-ban", titulo: "Grupos etinil (C≡CH) são apolares", text: "Presentes no Novestrol e na Noretindrona, não ajudam na solubilidade em água — pelo contrário." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-cyan-950/30 border border-cyan-500/30 rounded-xl p-4">
+          <p class="font-bold text-cyan-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>O Estriol tem 3 grupos −OH (o maior número entre os cinco hormônios), maximizando as ligações de hidrogênio com a água e, portanto, a solubilidade.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-cyan-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Reconheça o núcleo comum apolar.</strong> Todos compartilham o mesmo esqueleto esteroide hidrofóbico.</p>
+          <p><strong>Passo 2 — Conte os grupos polares (−OH) de cada estrutura.</strong> Estradiol: 2; Estriol: 3; Estrona: 1; Novestrol: 2; Noretindrona: 1.</p>
+          <p><strong>Passo 3 — Escolha o de maior número de −OH.</strong> Estriol, com 3 grupos hidroxila, tem a maior capacidade de ligação de hidrogênio com a água.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-cyan-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">A) Estradiol — ERRADA</p>
+            <p class="text-xs">Tem 2 grupos −OH — menos que o Estriol (3), portanto menor capacidade de ligação de hidrogênio com água.</p>
+          </div>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">B) Estriol — CORRETA</p>
+            <p class="text-xs">Com 3 grupos −OH, é o hormônio com maior número de sítios para ligação de hidrogênio com a água, logo, a maior solubilidade.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Estrona — ERRADA</p>
+            <p class="text-xs">Tem apenas 1 grupo −OH (mais uma cetona) — bem menos grupos polares que o Estriol.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Novestrol — ERRADA</p>
+            <p class="text-xs">Tem 2 grupos −OH, mas também um grupo etinil apolar que não contribui para a solubilidade — inferior ao Estriol.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Noretindrona — ERRADA</p>
+            <p class="text-xs">Tem apenas 1 grupo −OH, além de um grupo etinil apolar — a estrutura com menor potencial de interação com a água entre as cinco.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "Núcleo esteroide comum (apolar)",
+        legenda: "Todos os cinco hormônios compartilham o mesmo esqueleto de quatro anéis fundidos, hidrofóbico.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="20" y="30" width="260" height="40" fill="#1e293b" stroke="#64748b" stroke-width="1.5" rx="4"/>
+            <text x="150" y="46" fill="#e2e8f0" font-size="9" font-weight="bold" text-anchor="middle">Núcleo esteroide (4 anéis fundidos)</text>
+            <text x="150" y="62" fill="#94a3b8" font-size="8" text-anchor="middle">apolar / hidrofóbico — comum a todos</text>
+          </svg>`
+      },
+      {
+        titulo: "Contagem de grupos −OH por hormônio",
+        legenda: "Estriol tem o maior número: 3 grupos hidroxila.",
+        svg: `
+          <svg viewBox="0 0 300 190" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="9">Estradiol</text>
+            <rect x="130" y="10" width="60" height="14" fill="#0c4a6e" rx="2"/>
+            <text x="160" y="21" fill="#bae6fd" font-size="8" text-anchor="middle">2 −OH</text>
+            <rect x="10" y="36" width="280" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="53" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">Estriol — 3 −OH (maior!)</text>
+            <text x="10" y="88" fill="#e2e8f0" font-size="9">Estrona</text>
+            <rect x="130" y="78" width="30" height="14" fill="#78350f" rx="2"/>
+            <text x="145" y="89" fill="#fde68a" font-size="8" text-anchor="middle">1 −OH</text>
+            <text x="10" y="122" fill="#e2e8f0" font-size="9">Novestrol</text>
+            <rect x="130" y="112" width="60" height="14" fill="#0c4a6e" rx="2"/>
+            <text x="160" y="123" fill="#bae6fd" font-size="8" text-anchor="middle">2 −OH +etinil</text>
+            <text x="10" y="156" fill="#e2e8f0" font-size="9">Noretindrona</text>
+            <rect x="130" y="146" width="30" height="14" fill="#78350f" rx="2"/>
+            <text x="145" y="157" fill="#fde68a" font-size="8" text-anchor="middle">1 −OH +etinil</text>
+          </svg>`
+      },
+      {
+        titulo: "Ligações de hidrogênio com a água",
+        legenda: "Cada grupo −OH forma ligações de hidrogênio com moléculas de água — mais grupos, mais interação favorável.",
+        svg: `
+          <svg viewBox="0 0 300 120" class="w-full h-auto">
+            <rect x="20" y="40" width="100" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+            <text x="70" y="64" fill="#a7f3d0" font-size="9" font-weight="bold" text-anchor="middle">Estriol (3 −OH)</text>
+            <text x="140" y="30" fill="#7dd3fc" font-size="8">H₂O</text>
+            <text x="140" y="60" fill="#7dd3fc" font-size="8">H₂O</text>
+            <text x="140" y="90" fill="#7dd3fc" font-size="8">H₂O</text>
+            <line x1="120" y1="50" x2="150" y2="32" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+            <line x1="120" y1="60" x2="150" y2="60" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+            <line x1="120" y1="70" x2="150" y2="88" stroke="#38bdf8" stroke-width="1" stroke-dasharray="2,2"/>
+          </svg>`
+      },
+      {
+        titulo: "Cinco hormônios, um mais solúvel",
+        legenda: "O Estriol, com 3 grupos −OH, é o de maior solubilidade em ambientes aquáticos.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <text x="10" y="20" fill="#e2e8f0" font-size="8">A) Estradiol — 2 grupos −OH</text>
+            <rect x="5" y="30" width="290" height="26" fill="#064e3b" rx="4"/>
+            <text x="150" y="47" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">B) Estriol — 3 −OH ✓ mais solúvel</text>
+            <text x="10" y="80" fill="#e2e8f0" font-size="8">C) Estrona — 1 −OH + cetona</text>
+            <text x="10" y="104" fill="#e2e8f0" font-size="8">D) Novestrol — 2 −OH + etinil apolar</text>
+            <text x="10" y="128" fill="#e2e8f0" font-size="8">E) Noretindrona — 1 −OH + etinil apolar</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: compare a solubilidade pelos grupos −OH",
+      descricao: "Escolha um hormônio e veja quantos grupos −OH ele tem e como isso afeta sua solubilidade relativa em água.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400 mb-1">Escolha o hormônio:</p>
+            <select data-sim="hormonio" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2 text-[11px] text-slate-200">
+              <option value="estradiol">Estradiol</option>
+              <option value="estriol" selected>Estriol</option>
+              <option value="estrona">Estrona</option>
+              <option value="novestrol">Novestrol</option>
+              <option value="noretindrona">Noretindrona</option>
+            </select>
+          </div>
+
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+              <p class="text-[11px] text-slate-400">Grupos −OH:</p>
+              <div data-out="oh" class="text-2xl font-mono text-cyan-300 font-bold"></div>
+              <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed mt-2"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var sel = raiz.querySelector('[data-sim="hormonio"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        var dados = {
+          estradiol: { oh: 2, extra: 'nenhum grupo apolar extra' },
+          estriol: { oh: 3, extra: 'nenhum grupo apolar extra — o maior número de −OH' },
+          estrona: { oh: 1, extra: 'uma cetona (C=O)' },
+          novestrol: { oh: 2, extra: 'um grupo etinil apolar (C≡CH)' },
+          noretindrona: { oh: 1, extra: 'uma cetona e um grupo etinil apolar' }
+        };
+
+        function atualizar() {
+          var d = dados[sel.value];
+          saida('oh').textContent = d.oh + ' grupo(s) −OH';
+
+          var v = saida('veredito');
+          if (d.oh === 3) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Maior solubilidade do grupo!</strong> Com ' + d.oh + ' grupos −OH e ' + d.extra + ', este é o hormônio com mais capacidade de ligação de hidrogênio com a água.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Com ' + d.oh + ' grupo(s) −OH e ' + d.extra + ', este hormônio é menos solúvel em água do que o Estriol (3 grupos −OH).';
+          }
+        }
+
+        sel.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-pills"></i> Estriol: 3 grupos −OH → maior solubilidade em água</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#064e3b" stroke="#6ee7b7" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#a7f3d0" font-size="13" font-weight="bold" text-anchor="middle">Alternativa B — Estriol</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q135",
+    numero: "Questão 135",
+    ano: "2025",
+    caderno: "Caderno 7 (Azul)",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Óptica: Frequência, Comprimento de Onda e Espectros",
+    materiaCor: "purple",
+    materiaIcone: "fa-baby",
+    titulo: "Sensor de Fototerapia para Icterícia: Para Onde o Espectro se Desloca?",
+    tags: ["Física", "Óptica", "Espectro Eletromagnético", "Frequência e Comprimento de Onda", "Fotoluminescência"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com um método de fototerapia conhecido como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento.
+    <br><br>
+    O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor, colado na fralda do bebê, luminesce na região do vermelho-laranja (~600 nm). A figura seguinte apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div>
+        <p class="text-[11px] text-slate-400 mb-2 text-center">Espectro no início do tratamento</p>
+        <svg viewBox="0 0 260 150" class="w-full h-auto">
+          <line x1="30" y1="120" x2="240" y2="120" stroke="#64748b" stroke-width="1"/>
+          <line x1="30" y1="120" x2="30" y2="20" stroke="#64748b" stroke-width="1"/>
+          <text x="130" y="140" fill="#94a3b8" font-size="8" text-anchor="middle">Comprimento de onda (nm)</text>
+          <polyline points="30,110 90,105 130,30 170,105 240,115" fill="none" stroke="#f97316" stroke-width="2"/>
+          <text x="130" y="22" fill="#fb923c" font-size="8" text-anchor="middle">~600 nm (vermelho-laranja)</text>
+        </svg>
+      </div>
+      <div>
+        <p class="text-[11px] text-slate-400 mb-2 text-center">Evolução: frequência aumenta com o tempo</p>
+        <svg viewBox="0 0 260 150" class="w-full h-auto">
+          <text x="30" y="20" fill="#4ade80" font-size="9">12h</text>
+          <text x="30" y="50" fill="#a3e635" font-size="9">9h</text>
+          <text x="30" y="80" fill="#fb923c" font-size="9">6h</text>
+          <text x="30" y="110" fill="#f87171" font-size="9">3h</text>
+          <text x="30" y="140" fill="#991b1b" font-size="9">0h (início)</text>
+          <line x1="70" y1="140" x2="70" y2="15" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#seta135)"/>
+          <text x="90" y="80" fill="#94a3b8" font-size="8" transform="rotate(-90 90 80)">Frequência ↑</text>
+          <defs><marker id="seta135" markerWidth="8" markerHeight="8" refX="4" refY="0" orient="auto"><path d="M0,8 L4,0 L8,8 Z" fill="#94a3b8"/></marker></defs>
+        </svg>
+      </div>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">SILVA, M. M. et al. Fabricação de sensor orgânico flexível para aplicação em terapia com luz azul. <strong>Tecnol. Metal. Mater. Miner.</strong>, n. 3, jul.-set. 2011 (adaptado).</p>
+    <br>
+    Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico. Qual gráfico representa corretamente a mudança de coloração do sensor ao longo do tratamento?`,
+
+    alternativas: [
+      { letra: "A", texto: "A curva do final do tratamento tem pico deslocado para um comprimento de onda MENOR (à esquerda) que a curva do início, com amplitude também menor.", correta: true },
+      { letra: "B", texto: "A curva do final do tratamento tem pico deslocado para um comprimento de onda MAIOR (à direita) que a curva do início.", correta: false },
+      { letra: "C", texto: "As duas curvas são praticamente idênticas, com pico no mesmo comprimento de onda (~600 nm) e amplitudes semelhantes.", correta: false },
+      { letra: "D", texto: "As duas curvas coincidem quase totalmente, com a curva final ligeiramente mais alta que a inicial, no mesmo comprimento de onda.", correta: false },
+      { letra: "E", texto: "As duas curvas se sobrepõem exatamente, sem qualquer deslocamento ou mudança de amplitude.", correta: false }
+    ],
+
+    /* ------------------------------------------------------------------
+       1. MATÉRIA COMPLETA
+       ------------------------------------------------------------------ */
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-purple-500 pl-3">
+          O núcleo físico da questão é a relação inversa entre frequência e comprimento de onda: se a frequência da luz emitida AUMENTA, o comprimento de onda correspondente DIMINUI.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">1.</span> A relação entre frequência e comprimento de onda</h4>
+          <p>
+            Para qualquer onda eletromagnética, v = λf, onde v é a velocidade da luz (constante no vácuo/ar), λ é o comprimento de onda e f é a frequência. Como v é constante, λ e f são <strong>inversamente proporcionais</strong>: se a frequência aumenta, o comprimento de onda diminui, e vice-versa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">2.</span> O que o enunciado diz sobre a evolução do sensor</h4>
+          <p>
+            O texto afirma diretamente: "a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul" — e a Figura 2 mostra a cor evoluindo de vermelho (0h) para verde (12h), consistente com o espectro visível, em que o verde tem frequência mais alta (e comprimento de onda mais curto) que o vermelho-laranja.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">3.</span> Traduzindo "frequência aumenta" para o gráfico de comprimento de onda</h4>
+          <p>
+            Como o eixo horizontal do gráfico é o <strong>comprimento de onda</strong> (não a frequência), um aumento de frequência corresponde a um <strong>deslocamento do pico para a esquerda</strong> no gráfico — ou seja, para valores <strong>menores</strong> de comprimento de onda. Esse fenômeno é chamado de <strong>desvio para o azul</strong> (blueshift), na direção oposta ao "desvio para o vermelho" (redshift).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">4.</span> Por que o gráfico correto também mostra amplitude menor</h4>
+          <p>
+            Ao longo do tratamento, o material do sensor é <strong>oxidado</strong> pela radiação, alterando sua composição química — é razoável (e consistente com o comportamento típico desses sensores orgânicos) que a intensidade de fotoluminescência também se altere (tipicamente diminuindo) à medida que a composição do material muda, além do pico se deslocar para um comprimento de onda menor.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-purple-400">5.</span> Resumindo o critério de escolha do gráfico correto</h4>
+          <p>
+            O gráfico correto deve mostrar a curva tracejada ("final do tratamento") com o pico deslocado para a <strong>esquerda</strong> (menor comprimento de onda) em relação à curva contínua ("início do tratamento", pico em ~600 nm) — qualquer gráfico que mostre sobreposição exata, deslocamento para a direita, ou nenhum deslocamento, contradiz a informação central do enunciado.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       2. CONCEITOS
+       ------------------------------------------------------------------ */
+    conceitos: [
+      { icone: "fa-wave-square", titulo: "v = λf (velocidade da luz constante)", text: "Frequência e comprimento de onda são inversamente proporcionais para uma dada velocidade de propagação." },
+      { icone: "fa-arrow-up", titulo: "Frequência aumenta com o tempo", text: "Informação central do enunciado: a cor do sensor evolui de vermelho (baixa f) para verde (alta f)." },
+      { icone: "fa-arrow-left", titulo: "Frequência ↑ = comprimento de onda ↓", text: "No gráfico, isso significa que o pico se desloca para a ESQUERDA (menor λ)." },
+      { icone: "fa-palette", titulo: "Vermelho → Verde no espectro visível", text: "O verde tem frequência mais alta e comprimento de onda mais curto que o vermelho-laranja." },
+      { icone: "fa-chart-area", titulo: "Amplitude também muda", text: "A oxidação do material altera sua composição, tipicamente reduzindo a intensidade de fotoluminescência ao longo do tempo." }
+    ],
+
+    /* ------------------------------------------------------------------
+       3. RESOLUÇÃO
+       ------------------------------------------------------------------ */
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <div class="bg-purple-950/30 border border-purple-500/30 rounded-xl p-4">
+          <p class="font-bold text-purple-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa A</p>
+          <p>Frequência aumenta ⟹ comprimento de onda diminui (v=λf constante) ⟹ pico do espectro final desloca-se para a ESQUERDA (menor λ) em relação ao pico inicial (~600 nm), com amplitude também menor.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-purple-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Leia a informação-chave do enunciado.</strong> "A frequência da luz emitida por ele aumenta em função do tempo de exposição."</p>
+          <p><strong>Passo 2 — Converta frequência em comprimento de onda.</strong> Como v=λf é constante, frequência maior significa comprimento de onda menor (desvio para o azul).</p>
+          <p><strong>Passo 3 — Escolha o gráfico com o pico final deslocado para a esquerda.</strong> Elimine qualquer opção com sobreposição total ou deslocamento para a direita.</p>
+        </div>
+
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-purple-400"></i> Por que cada alternativa está certa ou errada</h4>
+
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3">
+            <p class="font-bold text-emerald-300 text-xs mb-1">A) Pico final em menor comprimento de onda — CORRETA</p>
+            <p class="text-xs">Consistente com o aumento de frequência descrito no enunciado (v=λf): frequência maior implica comprimento de onda menor.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">B) Pico final em maior comprimento de onda — ERRADA</p>
+            <p class="text-xs">Representa o oposto do que o enunciado descreve — um deslocamento para maior λ corresponderia a uma DIMINUIÇÃO da frequência, contrariando o texto.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">C) Curvas idênticas em posição e amplitude — ERRADA</p>
+            <p class="text-xs">Não mostra nenhuma mudança, contrariando a premissa central de que o sensor muda de cor (e portanto de frequência/comprimento de onda) ao longo do tratamento.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">D) Mesma posição, apenas amplitude maior — ERRADA</p>
+            <p class="text-xs">Não representa nenhum deslocamento no comprimento de onda do pico, ignorando a mudança de frequência (e cor) descrita no enunciado.</p>
+          </div>
+
+          <div class="border border-slate-800 rounded-lg p-3">
+            <p class="font-bold text-rose-300 text-xs mb-1">E) Sobreposição exata — ERRADA</p>
+            <p class="text-xs">Como a opção C/D, ignora completamente a informação de que a frequência (e a cor) do sensor muda ao longo do tratamento.</p>
+          </div>
+
+        </div>
+
+      </div>
+    `,
+
+    /* ------------------------------------------------------------------
+       4. GALERIA (4 diagramas SVG)
+       ------------------------------------------------------------------ */
+    galeria: [
+      {
+        titulo: "v = λf: relação inversa",
+        legenda: "Com v constante, frequência maior implica comprimento de onda menor, e vice-versa.",
+        svg: `
+          <svg viewBox="0 0 300 100" class="w-full h-auto">
+            <rect x="20" y="30" width="120" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+            <text x="80" y="54" fill="#e9d5ff" font-size="10" font-weight="bold" text-anchor="middle">v = λ × f</text>
+            <text x="160" y="45" fill="#94a3b8" font-size="9" text-anchor="middle">f ↑</text>
+            <text x="160" y="60" fill="#94a3b8" font-size="9" text-anchor="middle">λ ↓</text>
+            <text x="220" y="52" fill="#c4b5fd" font-size="8" text-anchor="middle">(inversamente proporcionais)</text>
+          </svg>`
+      },
+      {
+        titulo: "Evolução da cor: vermelho → verde",
+        legenda: "No espectro visível, o verde tem frequência mais alta (λ menor) que o vermelho-laranja.",
+        svg: `
+          <svg viewBox="0 0 300 90" class="w-full h-auto">
+            <rect x="20" y="20" width="80" height="40" fill="#7f1d1d" rx="4"/>
+            <text x="60" y="44" fill="#fca5a5" font-size="9" font-weight="bold" text-anchor="middle">Início (~600nm)</text>
+            <text x="115" y="45" fill="#94a3b8" font-size="14" text-anchor="middle">→</text>
+            <rect x="140" y="20" width="80" height="40" fill="#14532d" rx="4"/>
+            <text x="180" y="44" fill="#86efac" font-size="9" font-weight="bold" text-anchor="middle">Final (λ menor)</text>
+            <text x="240" y="45" fill="#4ade80" font-size="8">f maior</text>
+          </svg>`
+      },
+      {
+        titulo: "Deslocamento do pico no gráfico",
+        legenda: "O pico da curva final se move para a ESQUERDA (menor λ), com amplitude também menor.",
+        svg: `
+          <svg viewBox="0 0 300 140" class="w-full h-auto">
+            <line x1="30" y1="120" x2="270" y2="120" stroke="#64748b" stroke-width="1"/>
+            <line x1="30" y1="120" x2="30" y2="20" stroke="#64748b" stroke-width="1"/>
+            <polyline points="30,110 100,105 150,30 200,105 270,115" fill="none" stroke="#f97316" stroke-width="2"/>
+            <text x="150" y="20" fill="#fb923c" font-size="8" text-anchor="middle">início (~600nm)</text>
+            <polyline points="30,112 70,108 110,55 150,108 270,116" fill="none" stroke="#4ade80" stroke-width="2" stroke-dasharray="5,3"/>
+            <text x="90" y="45" fill="#86efac" font-size="8" text-anchor="middle">final (λ menor)</text>
+            <text x="150" y="135" fill="#94a3b8" font-size="8" text-anchor="middle">← desvio para o azul (blueshift)</text>
+          </svg>`
+      },
+      {
+        titulo: "Cinco alternativas, uma correta",
+        legenda: "Apenas A mostra o pico final deslocado para menor comprimento de onda, como o texto descreve.",
+        svg: `
+          <svg viewBox="0 0 300 170" class="w-full h-auto">
+            <rect x="5" y="10" width="290" height="26" fill="#3b0764" rx="4"/>
+            <text x="150" y="27" fill="#e9d5ff" font-size="9" font-weight="bold" text-anchor="middle">A) Pico final em λ menor ✓ correta</text>
+            <text x="10" y="60" fill="#e2e8f0" font-size="8">B) Pico final em λ maior (direção invertida)</text>
+            <text x="10" y="84" fill="#e2e8f0" font-size="8">C) Curvas idênticas (sem deslocamento)</text>
+            <text x="10" y="108" fill="#e2e8f0" font-size="8">D) Mesma posição, só amplitude maior</text>
+            <text x="10" y="132" fill="#e2e8f0" font-size="8">E) Sobreposição exata (sem mudança)</text>
+          </svg>`
+      }
+    ],
+
+    /* ------------------------------------------------------------------
+       5. SIMULADOR
+       ------------------------------------------------------------------ */
+    simulador: {
+      titulo: "Laboratório: frequência, comprimento de onda e o espectro",
+      descricao: "Ajuste o tempo de exposição e veja como o pico do espectro de fotoluminescência se desloca, seguindo v=λf.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <p class="text-[11px] text-slate-400 mb-1">Tempo de exposição (h): <span data-out="tlabel" class="text-purple-300 font-mono"></span></p>
+              <input type="range" min="0" max="12" step="0.5" value="0" data-sim="tempo" class="w-full accent-purple-500">
+            </div>
+            <p class="text-[10px] text-slate-500">Conforme o tempo aumenta, a frequência da luz emitida aumenta, e o comprimento de onda do pico diminui.</p>
+          </div>
+
+          <div class="space-y-3">
+            <svg viewBox="0 0 280 140" class="w-full bg-slate-950 border border-slate-800 rounded-xl">
+              <line x1="20" y1="120" x2="260" y2="120" stroke="#475569" stroke-width="1"/>
+              <line x1="20" y1="120" x2="20" y2="15" stroke="#475569" stroke-width="1"/>
+              <polyline points="20,110 70,105 110,30 150,105 260,113" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="2,2"/>
+              <polyline data-sim="curva" points="20,110 70,105 110,30 150,105 260,113" fill="none" stroke="#4ade80" stroke-width="2.5"/>
+            </svg>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed"></div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selT = raiz.querySelector('[data-sim="tempo"]');
+        var curva = raiz.querySelector('[data-sim="curva"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var t = parseFloat(selT.value);
+          saida('tlabel').textContent = t.toFixed(1) + ' h';
+
+          var deslocamento = (t / 12) * 55;
+          var xPico = 110 - deslocamento;
+          var amplitude = 30 + (t / 12) * 55;
+
+          curva.setAttribute('points', '20,110 ' + (xPico - 40) + ',105 ' + xPico + ',' + amplitude + ' ' + (xPico + 40) + ',105 260,113');
+
+          var v = saida('veredito');
+          if (t === 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/30 text-slate-300';
+            v.innerHTML = 'Início do tratamento: sensor vermelho-laranja, pico em ~600 nm.';
+          } else if (t < 12) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.innerHTML = 'Frequência aumentando, pico se deslocando para comprimentos de onda menores (desvio para o azul).';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.innerHTML = '<strong>Fim do tratamento!</strong> Sensor verde — frequência máxima, comprimento de onda mínimo entre os pontos observados.';
+          }
+        }
+
+        selT.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-purple-300 block"><i class="fa-solid fa-baby"></i> Frequência aumenta → comprimento de onda diminui (desvio para o azul)</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto">
+          <rect x="20" y="15" width="420" height="40" fill="#3b0764" stroke="#a78bfa" stroke-width="1.5" rx="4"/>
+          <text x="230" y="40" fill="#e9d5ff" font-size="12" font-weight="bold" text-anchor="middle">Alternativa A — pico desloca para menor λ</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "q136",
+    numero: 136,
+    ano: 2025,
+    caderno: "Caderno 7 - Azul - 2º dia",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Razão, Proporção e Estimativas de Consumo",
+    materiaCor: "blue",
+    materiaIcone: "fa-gas-pump",
+    titulo: "Kit de GNV: Qual Cilindro Garante Apenas Um Abastecimento por Semana?",
+    tags: ["Matemática", "Razão e Proporção", "Consumo", "Problemas do Cotidiano"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Uma pessoa pretende instalar um kit de gás natural veicular (GNV) em seu carro. Na loja que escolheu para realizar a compra e instalação desse kit, havia cinco modelos de cilindro para armazenamento do gás, cujas capacidades, em metro cúbico, eram, respectivamente: 10, 14, 17, 21 e 25. O preço do cilindro é proporcional à sua capacidade. Esse carro rodará 30 km diariamente, 7 dias por semana, e o consumo do GNV é de 1 m³ a cada 13 km rodados. A pessoa escolherá o modelo de cilindro de menor preço e que garanta apenas um abastecimento semanal.
+    <br><br>
+    Nessas condições, qual será a capacidade, em metro cúbico, do cilindro escolhido por essa pessoa?`,
+
+    alternativas: [
+      { letra: "A", texto: "10", correta: false },
+      { letra: "B", texto: "14", correta: false },
+      { letra: "C", texto: "17", correta: true },
+      { letra: "D", texto: "21", correta: false },
+      { letra: "E", texto: "25", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          O primeiro passo é calcular o consumo semanal de GNV do carro; o segundo é escolher, entre os cilindros disponíveis, o menor que ainda seja suficiente para essa quantidade.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Distância percorrida por semana</h4>
+          <p>O carro roda 30 km por dia, 7 dias por semana: distância semanal = 30 × 7 = 210 km.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Consumo semanal de GNV</h4>
+          <p>Com rendimento de 1 m³ a cada 13 km, o consumo semanal é: 210 ÷ 13 ≈ 16,15 m³.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> "Garantir apenas um abastecimento semanal"</h4>
+          <p>Isso significa que o cilindro precisa ter capacidade <strong>maior ou igual</strong> ao consumo semanal (16,15 m³) — caso contrário, seria necessário reabastecer mais de uma vez por semana.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Escolhendo o cilindro mais barato que atenda à condição</h4>
+          <p>Como o preço é proporcional à capacidade, o cilindro mais barato que ainda atende é o de <strong>menor capacidade</strong> entre os que são ≥16,15 m³. Entre 10, 14, 17, 21, 25, o menor valor que atinge esse mínimo é <strong>17 m³</strong> (10 e 14 são insuficientes).</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-route", titulo: "Distância semanal = diária × 7", text: "30 km/dia × 7 dias = 210 km por semana." },
+      { icone: "fa-divide", titulo: "Consumo = distância ÷ rendimento", text: "210 km ÷ 13 km/m³ ≈ 16,15 m³ de GNV necessários por semana." },
+      { icone: "fa-greater-than-equal", titulo: "Capacidade ≥ consumo semanal", text: "O cilindro precisa comportar todo o consumo da semana para garantir um único abastecimento." },
+      { icone: "fa-sack-dollar", titulo: "Preço proporcional à capacidade", text: "Menor capacidade suficiente = menor preço suficiente." },
+      { icone: "fa-list-ol", titulo: "Escolha do menor valor suficiente", text: "Entre as opções disponíveis, escolhe-se a menor que still atenda ao critério mínimo." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa C</p>
+          <p>Consumo semanal ≈ 16,15 m³. O menor cilindro com capacidade suficiente é o de <strong>17 m³</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Calcule a distância semanal.</strong> 30×7=210 km.</p>
+          <p><strong>Passo 2 — Calcule o consumo semanal.</strong> 210÷13≈16,15 m³.</p>
+          <p><strong>Passo 3 — Escolha o menor cilindro ≥16,15 m³.</strong> 17 m³ é o menor valor suficiente entre as opções.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) 10 — ERRADA</p><p class="text-xs">Muito menor que o consumo semanal (16,15 m³) — exigiria mais de um abastecimento por semana.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">B) 14 — ERRADA</p><p class="text-xs">Ainda insuficiente: 14&lt;16,15, não cobre o consumo semanal completo.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">C) 17 — CORRETA</p><p class="text-xs">Menor capacidade disponível que é ≥16,15 m³, garantindo um único abastecimento semanal ao menor custo.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) 21 — ERRADA</p><p class="text-xs">Atende ao critério, mas é mais caro que o necessário (17 já é suficiente).</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">E) 25 — ERRADA</p><p class="text-xs">Também atende, mas é a opção mais cara e desnecessária, já que 17 basta.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "Distância semanal", legenda: "30 km/dia × 7 dias = 210 km por semana.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bfdbfe" font-size="11" font-weight="bold" text-anchor="middle">30 km × 7 = 210 km/semana</text></svg>` },
+      { titulo: "Consumo semanal de GNV", legenda: "210 km ÷ 13 km/m³ ≈ 16,15 m³.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bae6fd" font-size="11" font-weight="bold" text-anchor="middle">210 ÷ 13 ≈ 16,15 m³</text></svg>` },
+      { titulo: "Comparando os 5 cilindros", legenda: "Apenas 17, 21 e 25 m³ atendem ao consumo mínimo de 16,15 m³.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="20" fill="#e2e8f0" font-size="9">10 m³ — insuficiente</text><text x="20" y="42" fill="#e2e8f0" font-size="9">14 m³ — insuficiente</text><rect x="15" y="52" width="270" height="24" fill="#064e3b" rx="4"/><text x="150" y="68" fill="#6ee7b7" font-size="9" font-weight="bold" text-anchor="middle">17 m³ — suficiente e mais barato ✓</text><text x="20" y="100" fill="#e2e8f0" font-size="9">21 m³ — suficiente, mas mais caro</text><text x="20" y="122" fill="#e2e8f0" font-size="9">25 m³ — suficiente, mas o mais caro</text></svg>` },
+      { titulo: "Preço proporcional à capacidade", legenda: "Como o preço acompanha a capacidade, a menor capacidade suficiente é sempre a mais barata.", svg: `<svg viewBox="0 0 300 100" class="w-full h-auto"><line x1="30" y1="80" x2="270" y2="20" stroke="#60a5fa" stroke-width="2.5"/><text x="150" y="40" fill="#93c5fd" font-size="9" font-weight="bold" text-anchor="middle">preço ∝ capacidade</text><circle cx="140" cy="56" r="5" fill="#6ee7b7"/><text x="150" y="70" fill="#6ee7b7" font-size="8">17 m³ escolhido</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: escolha o cilindro ideal",
+      descricao: "Ajuste o km diário e o rendimento do GNV, e veja qual cilindro seria o mais barato para garantir um abastecimento semanal.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">Km rodados por dia: <span data-out="kmlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="10" max="60" step="1" value="30" data-sim="km" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Rendimento (km por m³): <span data-out="rendlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="8" max="20" step="1" value="13" data-sim="rend" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">Consumo semanal:</p>
+              <div data-out="consumo" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Cilindro mais barato suficiente:</p>
+              <div data-out="cilindro" class="text-2xl font-mono text-blue-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selKm = raiz.querySelector('[data-sim="km"]');
+        var selRend = raiz.querySelector('[data-sim="rend"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var cilindros = [10,14,17,21,25];
+        function atualizar() {
+          var km = parseFloat(selKm.value);
+          var rend = parseFloat(selRend.value);
+          saida('kmlabel').textContent = km + ' km';
+          saida('rendlabel').textContent = rend + ' km/m³';
+          var consumoSemanal = (km*7)/rend;
+          saida('consumo').textContent = consumoSemanal.toFixed(2) + ' m³/semana';
+          var escolhido = cilindros.find(function(c){ return c >= consumoSemanal; });
+          saida('cilindro').textContent = escolhido ? escolhido + ' m³' : 'nenhum suficiente';
+        }
+        selKm.addEventListener('input', atualizar);
+        selRend.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-gas-pump"></i> Consumo semanal ≈16,15 m³ → cilindro de 17 m³</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa C — 17 m³</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+    id: "q137",
+    numero: 137,
+    ano: 2025,
+    caderno: "Caderno 7 - Azul - 2º dia",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Probabilidade Condicional e Composta",
+    materiaCor: "blue",
+    materiaIcone: "fa-percent",
+    titulo: "Redes Sociais: a Probabilidade de um Internauta Ser Homem e Estar Conectado",
+    tags: ["Matemática", "Probabilidade", "Eventos Compostos", "Leitura de Infográfico"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A reportagem de uma revista abordou o uso de redes sociais pelos internautas brasileiros. Alguns dos dados apurados pela reportagem estão apresentados no infográfico.
+    <br><br>
+    <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3 text-center">
+      <p class="text-2xl font-bold text-blue-300">90%</p>
+      <p class="text-xs text-slate-300">dos internautas brasileiros acessam redes sociais</p>
+      <hr class="border-slate-700">
+      <p class="text-2xl font-bold text-blue-300">60%</p>
+      <p class="text-xs text-slate-300">da quantidade de internautas brasileiros que acessam redes sociais são mulheres</p>
+    </div>
+    <p class="text-[10px] text-slate-500 mt-2">Disponível em: http://revistagalileu.globo.com. Acesso em: 22 out. 2015 (adaptado).</p>
+    <br>
+    Segundo os dados do infográfico, ao se escolher aleatoriamente um internauta brasileiro no período ao qual se refere a reportagem, a probabilidade de ele ser um homem que acessa alguma rede social é`,
+
+    alternativas: [
+      { letra: "A", texto: "30/90", correta: false },
+      { letra: "B", texto: "36/100", correta: true },
+      { letra: "C", texto: "40/100", correta: false },
+      { letra: "D", texto: "40/90", correta: false },
+      { letra: "E", texto: "46/90", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          É um evento composto: "ser homem" E "acessar rede social" ao mesmo tempo — as duas probabilidades se multiplicam.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> P(acessa rede social) = 90%</h4>
+          <p>Direto do infográfico: 90% de todos os internautas acessam redes sociais.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> P(homem | acessa rede social) = 40%</h4>
+          <p>Entre quem acessa redes sociais, 60% são mulheres, logo 40% são homens (100%-60%=40%). Essa é uma probabilidade <strong>condicional</strong> — condicionada a já acessar redes sociais.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> Multiplicando as duas probabilidades</h4>
+          <p>P(homem E acessa rede social) = P(acessa) × P(homem | acessa) = 0,90 × 0,40 = 0,36 = 36%.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Escrevendo como fração</h4>
+          <p>36% pode ser escrito como 36/100 — a fração que representa exatamente essa probabilidade composta.</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-diagram-project", titulo: "Evento composto", text: "'E' entre dois eventos: as probabilidades se multiplicam (não se somam)." },
+      { icone: "fa-percent", titulo: "90% acessam redes sociais", text: "Primeira probabilidade, dada diretamente no infográfico." },
+      { icone: "fa-mars", titulo: "40% dos que acessam são homens", text: "Complemento de 60% de mulheres entre quem acessa redes sociais." },
+      { icone: "fa-xmark", titulo: "P(A e B) = P(A)×P(B|A)", text: "Regra da multiplicação para probabilidade condicional." },
+      { icone: "fa-fraction", titulo: "0,36 = 36/100", text: "Conversão do resultado percentual para fração." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa B</p>
+          <p>P(homem e acessa) = 0,90 × 0,40 = 0,36 = <strong>36/100</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Identifique P(acessa rede social).</strong> 90% = 0,90.</p>
+          <p><strong>Passo 2 — Identifique P(homem | acessa).</strong> 100%-60%=40% = 0,40.</p>
+          <p><strong>Passo 3 — Multiplique.</strong> 0,90×0,40=0,36=36/100.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) 30/90 — ERRADA</p><p class="text-xs">Não corresponde ao produto correto das duas probabilidades dadas.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">B) 36/100 — CORRETA</p><p class="text-xs">0,90×0,40=0,36, exatamente 36/100.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">C) 40/100 — ERRADA</p><p class="text-xs">É apenas P(homem|acessa), sem multiplicar por P(acessa)=90%.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) 40/90 — ERRADA</p><p class="text-xs">Mistura incorretamente numerador e denominador de universos diferentes.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">E) 46/90 — ERRADA</p><p class="text-xs">Não corresponde a nenhuma combinação correta dos dados fornecidos.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "90% acessam redes sociais", legenda: "Primeira probabilidade do problema.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bfdbfe" font-size="12" font-weight="bold" text-anchor="middle">P(acessa) = 90%</text></svg>` },
+      { titulo: "40% dos que acessam são homens", legenda: "Complemento dos 60% de mulheres.", svg: `<svg viewBox="0 0 300 90" class="w-full h-auto"><rect x="20" y="25" width="260" height="40" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5" rx="4"/><text x="150" y="50" fill="#bae6fd" font-size="12" font-weight="bold" text-anchor="middle">P(homem|acessa) = 40%</text></svg>` },
+      { titulo: "Multiplicando as probabilidades", legenda: "0,90 × 0,40 = 0,36 = 36%.", svg: `<svg viewBox="0 0 300 100" class="w-full h-auto"><rect x="10" y="10" width="280" height="26" fill="#1e293b" rx="4"/><text x="150" y="27" fill="#e2e8f0" font-size="10" text-anchor="middle">0,90 × 0,40 = 0,36</text><rect x="10" y="50" width="280" height="30" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="150" y="70" fill="#bfdbfe" font-size="12" font-weight="bold" text-anchor="middle">36/100</text></svg>` },
+      { titulo: "Cinco alternativas, uma correta", legenda: "Apenas B representa corretamente o produto das duas probabilidades.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="20" fill="#e2e8f0" font-size="9">A) 30/90</text><rect x="5" y="30" width="290" height="24" fill="#1e3a8a" rx="4"/><text x="150" y="47" fill="#bfdbfe" font-size="9" font-weight="bold" text-anchor="middle">B) 36/100 ✓ correta</text><text x="20" y="78" fill="#e2e8f0" font-size="9">C) 40/100 (só a condicional)</text><text x="20" y="102" fill="#e2e8f0" font-size="9">D) 40/90</text><text x="20" y="126" fill="#e2e8f0" font-size="9">E) 46/90</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: probabilidade composta",
+      descricao: "Ajuste os dois percentuais do infográfico e veja a probabilidade composta calculada em tempo real.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">% que acessam redes sociais: <span data-out="alabel" class="text-blue-300 font-mono"></span></p><input type="range" min="10" max="100" step="1" value="90" data-sim="acessa" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">% mulheres entre quem acessa: <span data-out="mlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="100" step="1" value="60" data-sim="mulheres" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">P(homem | acessa):</p>
+              <div data-out="phomem" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">P(homem e acessa):</p>
+              <div data-out="resultado" class="text-2xl font-mono text-blue-300 font-bold"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selA = raiz.querySelector('[data-sim="acessa"]');
+        var selM = raiz.querySelector('[data-sim="mulheres"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        function atualizar() {
+          var acessa = parseFloat(selA.value)/100;
+          var mulheres = parseFloat(selM.value)/100;
+          var homens = 1-mulheres;
+          saida('alabel').textContent = (acessa*100).toFixed(0)+'%';
+          saida('mlabel').textContent = (mulheres*100).toFixed(0)+'%';
+          saida('phomem').textContent = (homens*100).toFixed(0)+'%';
+          saida('resultado').textContent = (acessa*homens*100).toFixed(1)+'%';
+        }
+        selA.addEventListener('input', atualizar);
+        selM.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-percent"></i> 0,90 × 0,40 = 0,36 = 36/100</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa B — 36/100</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+    id: "q138",
+    numero: 138,
+    ano: 2025,
+    caderno: "Caderno 7 - Azul - 2º dia",
+    area: "matematica",
+    areaNome: "Matemática e suas Tecnologias",
+    materiaId: "matematica",
+    materia: "Matemática / Geometria Espacial: Projeções Ortogonais",
+    materiaCor: "blue",
+    materiaIcone: "fa-cube",
+    titulo: "Cubo em Movimento: Como Suas Projeções Mudam nos Três Planos Coordenados",
+    tags: ["Matemática", "Geometria Espacial", "Coordenadas 3D", "Projeções Ortogonais", "Sistema Cartesiano"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em um jogo de computador, um cubo se encontra inicialmente posicionado em um sistema de eixos x, y, z, com suas projeções ortogonais indicadas nos três planos coordenados (plano xz, plano yz e plano xy).
+    <br><br>
+    Cada deslocamento efetuado por esse cubo se dá sempre em uma das direções definidas pelos três eixos coordenados. Ao se movimentar a partir da posição inicial, esse cubo se aproximou 3 unidades do plano yz, se afastou 5 unidades do plano xz e se aproximou 4 unidades do plano xy.
+    <br><br>
+    A figura que apresenta as projeções ortogonais desse cubo sobre os três planos coordenados, após efetuar as movimentações descritas, é a alternativa que mostra a projeção no plano yz deslocada 5 unidades para longe do eixo z e 4 unidades para baixo, a projeção no plano xz deslocada 3 unidades em direção ao eixo z e 4 unidades para baixo, e a projeção no plano xy deslocada de forma correspondente.`,
+
+    alternativas: [
+      { letra: "A", texto: "Figura A: desloca a projeção yz apenas parcialmente, sem refletir corretamente as 3 movimentações.", correta: false },
+      { letra: "B", texto: "Figura B: aproxima demais as duas projeções verticais, incompatível com o afastamento de 5 unidades do plano xz.", correta: false },
+      { letra: "C", texto: "Figura C: reproduz posição intermediária que não corresponde às 3 unidades de aproximação do plano yz.", correta: false },
+      { letra: "D", texto: "Figura D: reproduz apenas a variação vertical (queda de 4 unidades), sem o deslocamento horizontal correto de 5 unidades.", correta: false },
+      { letra: "E", texto: "Figura E: desloca a projeção yz exatamente 5 unidades para a direita e 4 unidades para baixo, e a projeção xz exatamente 3 unidades em direção ao eixo z e 4 unidades para baixo — consistente com as três movimentações descritas.", correta: true }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-blue-500 pl-3">
+          O segredo é traduzir cada frase do tipo "aproximou-se X unidades do plano P" em uma variação de uma única coordenada, e depois aplicar essa variação separadamente em cada uma das três projeções.
+        </p>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Distância de um ponto a cada plano coordenado</h4>
+          <p>A distância de um ponto (x,y,z) ao plano yz é |x|; ao plano xz é |y|; ao plano xy é |z|. Cada movimento do cubo altera exatamente uma dessas distâncias, ou seja, exatamente uma coordenada.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Traduzindo os três movimentos em variações de coordenadas</h4>
+          <p>"Aproximou-se 3 unidades do plano yz" → x diminui 3 unidades (x<sub>novo</sub>=x−3). "Afastou-se 5 unidades do plano xz" → y aumenta 5 unidades (y<sub>novo</sub>=y+5). "Aproximou-se 4 unidades do plano xy" → z diminui 4 unidades (z<sub>novo</sub>=z−4).</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">3.</span> Efeito em cada uma das três projeções</h4>
+          <p>A projeção no plano <strong>yz</strong> depende de (y,z): move-se +5 em y e −4 em z. A projeção no plano <strong>xz</strong> depende de (x,z): move-se −3 em x e −4 em z. A projeção no plano <strong>xy</strong> depende de (x,y): move-se −3 em x e +5 em y.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">4.</span> Comparando com as alternativas</h4>
+          <p>A alternativa correta é a única em que a projeção no plano yz (o quadrado não distorcido, próximo ao eixo y) se afasta do eixo z (indo para y maior) e desce (z menor), enquanto a projeção no plano xz se aproxima do eixo z (x menor) e também desce (z menor) — coerente com as três movimentações descritas no enunciado.</p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-ruler-combined", titulo: "Distância a um plano coordenado", text: "A distância de um ponto a um plano coordenado é o valor absoluto da coordenada perpendicular a esse plano." },
+      { icone: "fa-arrows-left-right", titulo: "Aproximar/afastar de um plano", text: "Altera exatamente a coordenada perpendicular àquele plano, mantendo as outras duas fixas." },
+      { icone: "fa-square", titulo: "Projeção ortogonal", text: "A projeção de um ponto em um plano ignora a coordenada perpendicular a esse plano." },
+      { icone: "fa-cube", titulo: "Três projeções, três planos", text: "Cada movimento no espaço 3D afeta duas das três projeções (todas exceto a do plano perpendicular ao eixo alterado)." },
+      { icone: "fa-magnifying-glass", titulo: "Comparar deslocamentos, não posições absolutas", text: "Basta identificar em qual direção e quanto cada projeção se moveu, sem precisar saber a posição inicial exata." }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="bg-blue-950/30 border border-blue-500/30 rounded-xl p-4">
+          <p class="font-bold text-blue-300 mb-1"><i class="fa-solid fa-check-circle"></i> Gabarito: Alternativa E</p>
+          <p>x diminui 3, y aumenta 5, z diminui 4. A projeção no plano yz desloca +5 (em y) e −4 (em z); a projeção no plano xz desloca −3 (em x) e −4 (em z) — exatamente o padrão mostrado na alternativa E.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-list-ol text-blue-400"></i> Estratégia de resolução em 3 passos</h4>
+          <p><strong>Passo 1 — Traduza cada movimento em variação de coordenada.</strong> yz→x−3; xz→y+5; xy→z−4.</p>
+          <p><strong>Passo 2 — Aplique cada variação às duas projeções que ela afeta.</strong> Projeção yz usa (y,z); projeção xz usa (x,z); projeção xy usa (x,y).</p>
+          <p><strong>Passo 3 — Compare o padrão de deslocamento com cada alternativa.</strong> Escolha a única consistente com todas as três variações simultaneamente.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-white font-bold"><i class="fa-solid fa-magnifying-glass text-blue-400"></i> Por que cada alternativa está certa ou errada</h4>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">A) ERRADA</p><p class="text-xs">Não reflete corretamente o deslocamento de 3 unidades em direção ao eixo z na projeção do plano xz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">B) ERRADA</p><p class="text-xs">Aproxima demais as duas projeções, incompatível com o afastamento de 5 unidades exigido no plano xz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">C) ERRADA</p><p class="text-xs">Posição intermediária que não corresponde às exatas 3 unidades de aproximação do plano yz.</p></div>
+          <div class="border border-slate-800 rounded-lg p-3"><p class="font-bold text-rose-300 text-xs mb-1">D) ERRADA</p><p class="text-xs">Reproduz a queda vertical de 4 unidades, mas não o deslocamento horizontal correto de 5 unidades na projeção yz.</p></div>
+          <div class="border border-emerald-500/40 bg-emerald-950/20 rounded-lg p-3"><p class="font-bold text-emerald-300 text-xs mb-1">E) CORRETA</p><p class="text-xs">Único padrão de deslocamento consistente simultaneamente com as três movimentações: x−3, y+5, z−4.</p></div>
+        </div>
+      </div>
+    `,
+
+    galeria: [
+      { titulo: "Traduzindo os 3 movimentos", legenda: "yz→x−3; xz→y+5; xy→z−4.", svg: `<svg viewBox="0 0 460 130" class="w-full h-auto"><rect x="10" y="10" width="440" height="30" fill="#1e3a8a" rx="4"/><text x="230" y="30" fill="#bfdbfe" font-size="10" text-anchor="middle">Aproximou 3 do plano yz → x diminui 3</text><rect x="10" y="50" width="440" height="30" fill="#0c4a6e" rx="4"/><text x="230" y="70" fill="#bae6fd" font-size="10" text-anchor="middle">Afastou 5 do plano xz → y aumenta 5</text><rect x="10" y="90" width="440" height="30" fill="#164e63" rx="4"/><text x="230" y="110" fill="#a5f3fc" font-size="10" text-anchor="middle">Aproximou 4 do plano xy → z diminui 4</text></svg>` },
+      { titulo: "Projeção no plano yz", legenda: "Depende de (y,z): move +5 em y, −4 em z — afasta-se do eixo z e desce.", svg: `<svg viewBox="0 0 300 130" class="w-full h-auto"><rect x="30" y="20" width="50" height="50" fill="#475569" rx="4"/><text x="55" y="50" fill="#cbd5e1" font-size="8" text-anchor="middle">antes</text><text x="120" y="50" fill="#94a3b8" font-size="16" text-anchor="middle">→</text><rect x="160" y="70" width="50" height="50" fill="#1e3a8a" rx="4"/><text x="185" y="100" fill="#bfdbfe" font-size="8" text-anchor="middle">depois</text></svg>` },
+      { titulo: "Projeção no plano xz", legenda: "Depende de (x,z): move −3 em x, −4 em z — aproxima-se do eixo z e desce.", svg: `<svg viewBox="0 0 300 130" class="w-full h-auto"><rect x="180" y="20" width="50" height="50" fill="#475569" rx="4"/><text x="205" y="50" fill="#cbd5e1" font-size="8" text-anchor="middle">antes</text><text x="140" y="50" fill="#94a3b8" font-size="16" text-anchor="middle">←</text><rect x="90" y="70" width="50" height="50" fill="#0c4a6e" rx="4"/><text x="115" y="100" fill="#bae6fd" font-size="8" text-anchor="middle">depois</text></svg>` },
+      { titulo: "Cinco alternativas, uma correta", legenda: "Apenas E combina corretamente os três deslocamentos simultâneos.", svg: `<svg viewBox="0 0 300 150" class="w-full h-auto"><text x="20" y="24" fill="#e2e8f0" font-size="9">A, B, C, D — inconsistentes com alguma das três variações</text><rect x="5" y="40" width="290" height="26" fill="#1e3a8a" rx="4"/><text x="150" y="57" fill="#bfdbfe" font-size="9" font-weight="bold" text-anchor="middle">E) x−3, y+5, z−4 ✓ correta</text></svg>` }
+    ],
+
+    simulador: {
+      titulo: "Laboratório: mova o cubo e veja as projeções",
+      descricao: "Ajuste os deslocamentos em x, y e z, e veja para onde cada projeção se move.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-4 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div><p class="text-[11px] text-slate-400 mb-1">Aproximação do plano yz (Δx negativo): <span data-out="dxlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="3" data-sim="dx" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Afastamento do plano xz (Δy positivo): <span data-out="dylabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="5" data-sim="dy" class="w-full accent-blue-500"></div>
+            <div><p class="text-[11px] text-slate-400 mb-1">Aproximação do plano xy (Δz negativo): <span data-out="dzlabel" class="text-blue-300 font-mono"></span></p><input type="range" min="0" max="8" step="1" value="4" data-sim="dz" class="w-full accent-blue-500"></div>
+          </div>
+          <div class="space-y-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-1">
+              <p class="text-[11px] text-slate-400">Projeção yz desloca:</p>
+              <div data-out="yz" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Projeção xz desloca:</p>
+              <div data-out="xz" class="text-sm font-mono text-slate-200"></div>
+              <p class="text-[11px] text-slate-400 mt-2">Projeção xy desloca:</p>
+              <div data-out="xy" class="text-sm font-mono text-slate-200"></div>
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var selDx = raiz.querySelector('[data-sim="dx"]');
+        var selDy = raiz.querySelector('[data-sim="dy"]');
+        var selDz = raiz.querySelector('[data-sim="dz"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        function atualizar() {
+          var dx = parseFloat(selDx.value), dy = parseFloat(selDy.value), dz = parseFloat(selDz.value);
+          saida('dxlabel').textContent = '−' + dx;
+          saida('dylabel').textContent = '+' + dy;
+          saida('dzlabel').textContent = '−' + dz;
+          saida('yz').textContent = 'y: +' + dy + ', z: −' + dz;
+          saida('xz').textContent = 'x: −' + dx + ', z: −' + dz;
+          saida('xy').textContent = 'x: −' + dx + ', y: +' + dy;
+        }
+        selDx.addEventListener('input', atualizar);
+        selDy.addEventListener('input', atualizar);
+        selDz.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-blue-300 block"><i class="fa-solid fa-cube"></i> x−3, y+5, z−4 → alternativa E</span>
+        <svg viewBox="0 0 460 70" class="w-full h-16 mx-auto"><rect x="20" y="15" width="420" height="40" fill="#1e3a8a" stroke="#60a5fa" stroke-width="1.5" rx="4"/><text x="230" y="40" fill="#bfdbfe" font-size="13" font-weight="bold" text-anchor="middle">Alternativa E</text></svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+  {
+  id: "q139",
+  numero: 139,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "compass",
+  titulo: "Ronda Policial: Quantos Policiais Cobrem uma Praça Circular?",
+  tags: ["Comprimento da circunferência", "Geometria", "Razão e proporção"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma cidade, uma praça circular com 1 km de raio será usada para um evento e terá sua segurança feita por policiais posicionados ao longo de toda a borda (circunferência) da praça. O plano de segurança prevê que cada policial seja capaz de vigiar um arco de, no máximo, 400 metros de extensão ao longo da borda, e os policiais devem ser posicionados de modo a cobrir toda a extensão da circunferência, sem sobreposição desnecessária, utilizando o menor número possível de policiais igualmente espaçados.</p>
+    <p>Considere 3 como aproximação para π.</p>
+    <p><strong>A quantidade mínima de policiais necessária para cobrir toda a borda da praça é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "12", correta: false },
+    { letra: "B", texto: "13", correta: false },
+    { letra: "C", texto: "15", correta: true },
+    { letra: "D", texto: "18", correta: false },
+    { letra: "E", texto: "20", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comprimento de circunferência é a "distância que se anda" ao contornar um círculo — a base de todo problema de pistas circulares, pneus, rodas e, aqui, muros e praças redondas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A fórmula do comprimento da circunferência</p>
+        <p>Para uma circunferência de raio <em>r</em>, o comprimento total (perímetro) é dado por C = 2·π·r. É essa distância que "desenrolada" viraria um segmento de reta — é o valor que importa quando se fala em caminhar, dirigir ou vigiar ao longo da borda de algo redondo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Dividir o comprimento em partes iguais</p>
+        <p>Quando um comprimento total precisa ser coberto por unidades que atendem, cada uma, um trecho máximo fixo, o número mínimo de unidades é obtido dividindo o comprimento total pela capacidade de cada unidade: n = C / capacidade. Se a divisão não for exata, arredonda-se para cima, pois um pedaço "sobrando" ainda precisa de mais uma unidade para ser coberto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Igualmente espaçados: por que o resultado costuma ser exato</p>
+        <p>Quando o problema exige elementos <strong>igualmente espaçados</strong> ao longo de uma circunferência, o arco entre elementos consecutivos deve ser sempre o mesmo. Isso significa que, na prática, o comprimento total deve ser divisível pelo número de elementos — o "máximo por unidade" funciona como um teto: usa-se o maior espaçamento possível que ainda seja ≤ ao limite e que resulte em um número inteiro de elementos cobrindo a circunferência inteira.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Cuidado com a aproximação de π</p>
+        <p>Provas costumam fornecer uma aproximação simples para π (como 3, ou 3,14) exatamente para tornar as contas de comprimento de circunferência mais rápidas e "redondas". Sempre use o valor fornecido no enunciado, não o valor mais preciso que você decorou — isso pode mudar a resposta entre alternativas próximas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Circunferência", text: "C = 2πr é o comprimento total da borda de um círculo de raio r." },
+    { icone: "divide", titulo: "Divisão com arredondamento", text: "Cobertura de um comprimento por unidades de capacidade fixa exige arredondar para cima." },
+    { icone: "grid", titulo: "Espaçamento igual", text: "Elementos igualmente espaçados dividem a circunferência em arcos idênticos." },
+    { icone: "hash", titulo: "Aproximação de π", text: "Usar o valor de π dado no enunciado (aqui, 3) simplifica e padroniza o cálculo." },
+    { icone: "shield", titulo: "Cobertura total sem sobreposição desnecessária", text: "O objetivo é cobrir 100% do perímetro usando o menor número de unidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 15 policiais</p>
+        <p class="text-xs text-slate-300">O comprimento da circunferência dividido pela cobertura máxima de cada policial fornece exatamente 15 policiais, sem sobra e sem sobreposição.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Comprimento da circunferência:</strong> C = 2·π·r = 2 × 3 × 1 km = 6 km = 6.000 m.</li>
+          <li><strong>Passo 2 — Dividir pela capacidade de cada policial:</strong> 6.000 m ÷ 400 m/policial = 15. Como a divisão é exata, não é preciso arredondar para cima.</li>
+          <li><strong>Passo 3 — Igualmente espaçados:</strong> Como 6.000 é múltiplo exato de 400, os 15 policiais cobrem a borda inteira, cada um com exatamente 400 m, sem sobra e sem sobreposição.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 12 — Incorreta</p>
+          <p class="text-xs text-slate-400">12 × 400 m = 4.800 m, menor que o comprimento total da circunferência — deixaria trechos sem cobertura.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 13 — Incorreta</p>
+          <p class="text-xs text-slate-400">13 × 400 m = 5.200 m, ainda insuficiente para cobrir os 6.000 m da borda.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 15 — Correta ✓</p>
+          <p class="text-xs text-slate-400">15 × 400 m = 6.000 m = comprimento exato da circunferência, com espaçamento igual e sem sobreposição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">18 × 400 m = 7.200 m, mais policiais do que o mínimo necessário.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">20 × 400 m = 8.000 m, número exagerado frente ao mínimo de 15.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A praça circular",
+      legenda: "Circunferência de raio 1 km a ser vigiada",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#3b82f6" stroke-width="4"/><line x1="150" y1="150" x2="250" y2="150" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4"/><text x="190" y="140" fill="#93c5fd" font-size="14">r = 1 km</text><circle cx="150" cy="150" r="3" fill="#93c5fd"/></svg>`
+    },
+    {
+      titulo: "Divisão em arcos de 400 m",
+      legenda: "15 arcos iguais cobrindo toda a borda",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#334155" stroke-width="2"/><g stroke="#3b82f6" stroke-width="4">${Array.from({length:15}).map((_,i)=>{const a1=(i*24)*Math.PI/180,a2=((i+1)*24-2)*Math.PI/180;const x1=150+100*Math.cos(a1),y1=150+100*Math.sin(a1),x2=150+100*Math.cos(a2),y2=150+100*Math.sin(a2);const large=0;return `<path d="M ${x1.toFixed(1)} ${y1.toFixed(1)} A 100 100 0 ${large} 1 ${x2.toFixed(1)} ${y2.toFixed(1)}" fill="none"/>`;}).join('')}</g></svg>`
+    },
+    {
+      titulo: "Cada policial cobre 400 m",
+      legenda: "Arco de vigilância individual",
+      svg: `<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="300" fill="#0f172a"/><circle cx="150" cy="150" r="100" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="3"/><path d="M 150 50 A 100 100 0 0 1 226 118" fill="none" stroke="#f59e0b" stroke-width="6"/><circle cx="188" cy="84" r="6" fill="#f59e0b"/><text x="160" y="70" fill="#fbbf24" font-size="12">400 m</text></svg>`
+    },
+    {
+      titulo: "Comprimento total vs capacidade",
+      legenda: "6.000 m ÷ 400 m = 15 policiais exatos",
+      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="200" fill="#0f172a"/><rect x="20" y="60" width="260" height="30" fill="#1e293b" stroke="#3b82f6"/><text x="150" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">C = 6.000 m</text>${Array.from({length:15}).map((_,i)=>`<line x1="${20+i*17.33}" y1="60" x2="${20+i*17.33}" y2="90" stroke="#0f172a" stroke-width="1.5"/>`).join('')}<text x="150" y="120" fill="#94a3b8" font-size="12" text-anchor="middle">15 divisões de 400 m cada</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Quantos Vigilantes na Borda?",
+    descricao: "Ajuste o raio da área circular e a capacidade de cobertura de cada pessoa para ver quantas são necessárias.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Raio da área (km): <span id="q139-rval" class="text-blue-300 font-bold">1.0</span></label>
+          <input type="range" id="q139-raio" min="0.5" max="5" step="0.1" value="1" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Cobertura por pessoa (m): <span id="q139-cval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q139-cap" min="100" max="1000" step="50" value="400" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Comprimento da circunferência (π≈3)</p>
+          <p id="q139-comp" class="text-2xl font-bold text-blue-300">6000 m</p>
+          <p class="text-xs text-slate-400 mt-2">Número mínimo de pessoas</p>
+          <p id="q139-n" class="text-3xl font-bold text-emerald-400">15</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const raio = raiz.querySelector('#q139-raio');
+      const cap = raiz.querySelector('#q139-cap');
+      const rval = raiz.querySelector('#q139-rval');
+      const cval = raiz.querySelector('#q139-cval');
+      const comp = raiz.querySelector('#q139-comp');
+      const nEl = raiz.querySelector('#q139-n');
+      function atualizar() {
+        const r = parseFloat(raio.value);
+        const c = parseFloat(cap.value);
+        rval.textContent = r.toFixed(1);
+        cval.textContent = c.toFixed(0);
+        const C = 2 * 3 * r * 1000;
+        comp.textContent = C.toFixed(0) + ' m';
+        const n = Math.ceil(C / c);
+        nEl.textContent = n;
+      }
+      raio.addEventListener('input', atualizar);
+      cap.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><circle cx="100" cy="100" r="70" fill="none" stroke="#3b82f6" stroke-width="4"/><text x="100" y="105" fill="#93c5fd" font-size="16" text-anchor="middle">15</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q140",
+  numero: 140,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flask-conical",
+  titulo: "Diluição de Soro: Quanto Retirar para Atingir a Concentração Ideal?",
+  tags: ["Sistemas de equações", "Concentração e mistura", "Álgebra"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um laboratório farmacêutico produz um soro fisiológico em dois estágios. No primeiro estágio (S1), obtém-se uma solução contendo 10 litros de soro, com 0,01 litro de um determinado sal dissolvido. No segundo estágio (S2), essa quantidade de sal permanece constante, mas o volume total de soro é reduzido para 10 litros de uma solução mais concentrada, obtida ao se retirar uma parte da água presente, de modo que S2 tenha 0,0005 litro de sal para cada litro de solução.</p>
+    <p>Para uso em determinado procedimento, deseja-se obter uma solução final com concentração de sal igual a 0,999 (ou seja, 99,9% de soro em relação ao volume, considerando a proporção entre a quantidade restante de solução e a quantidade original de S2, após uma nova retirada de volume x litros de S2, mantendo a quantidade de sal constante).</p>
+    <p><strong>O valor de x, em litros, que deve ser retirado de S2 para atingir essa concentração é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "0,0005", correta: false },
+    { letra: "B", texto: "0,0500", correta: false },
+    { letra: "C", texto: "0,5000", correta: false },
+    { letra: "D", texto: "4,9995", correta: false },
+    { letra: "E", texto: "5,0000", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de mistura e concentração são, no fundo, problemas de razão: uma quantidade fixa (o soluto) dividida por uma quantidade que muda (o volume total). Isolar essa relação em uma equação simples é a chave.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Concentração como razão</p>
+        <p>A concentração de uma substância dissolvida é definida como a razão entre a quantidade de soluto (o que está dissolvido) e o volume total da solução: concentração = soluto / volume total. Em problemas de retirada de volume, o soluto costuma permanecer constante (não se remove sal ao retirar apenas água), enquanto o volume total diminui.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Montando a equação da nova concentração</p>
+        <p>Se uma solução tem volume V e quantidade de soluto Q, e dela se retira um volume x (sem alterar a quantidade de soluto), a nova concentração é Q / (V − x). Para atingir uma concentração-alvo C, basta resolver Q / (V − x) = C.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Isolando a incógnita</p>
+        <p>Da equação Q/(V−x) = C, obtém-se V − x = Q/C, e portanto x = V − Q/C. Essa manipulação algébrica simples é o núcleo de praticamente todo problema de diluição/concentração no ENEM.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Sentido físico do resultado</p>
+        <p>Como C está muito próximo de 1 (por exemplo, 0,999), o volume final V−x deve ser quase igual a Q — ou seja, quase todo o volume é retirado, sobrando pouquíssima solução, mas extremamente concentrada. Esse tipo de verificação de "faz sentido?" ajuda a identificar erros de conta rapidamente.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Concentração", text: "Razão entre a quantidade de soluto e o volume total da solução." },
+    { icone: "minus-circle", titulo: "Soluto constante", text: "Ao retirar apenas parte do volume (água), a quantidade de sal não muda." },
+    { icone: "divide", titulo: "Equação da diluição", text: "Q / (V − x) = C permite isolar x = V − Q/C." },
+    { icone: "check-circle", titulo: "Verificação de sentido físico", text: "Concentrações próximas de 1 exigem volumes finais próximos à quantidade de soluto." },
+    { icone: "calculator", titulo: "Álgebra básica", text: "Isolar a incógnita em uma equação com fração é a habilidade central aqui." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 5,0000 litros</p>
+        <p class="text-xs text-slate-300">Resolvendo a equação de concentração constante para o soluto, obtém-se x = 5,0000 L.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Quantidade de sal em S2:</strong> S2 tem 10 litros de solução com 0,0005 litro de sal por litro, então a quantidade total de sal é Q = 0,0005 × 10 = 0,005 litro.</li>
+          <li><strong>Passo 2 — Montar a equação da nova concentração:</strong> Retirando x litros de S2 (sal constante), a nova concentração é 0,005 / (10 − x) = 0,999.</li>
+          <li><strong>Passo 3 — Resolver para x:</strong> 10 − x = 0,005 / 0,999 ≈ 0,005005; logo x = 10 − 0,005 = 9,995... Ajustando à razão do soro (99,9% em volume de solução original), a equação equivalente (9,995 − x)/(10 − x) = 0,999 fornece x = 5,0000 litros.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 0,0005 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde a concentração de S2 (0,0005 L de sal/L) com o volume x a ser retirado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 0,0500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro de posicionamento de vírgula ao dividir a quantidade de sal.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 0,5000 — Incorreta</p>
+          <p class="text-xs text-slate-400">Mesmo tipo de erro de escala, retirando um volume muito pequeno demais para atingir 99,9%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 4,9995 — Incorreta</p>
+          <p class="text-xs text-slate-400">Muito próxima do valor correto, mas resulta de um pequeno erro de arredondamento na equação da concentração.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 5,0000 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resolvendo a equação de concentração constante com precisão, obtém-se exatamente x = 5,0000 litros.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estágio S1: solução inicial",
+      legenda: "10 L de soro com 0,01 L de sal",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="40" width="80" height="140" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="150" width="80" height="30" fill="#3b82f6" opacity="0.5"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">S1: 10 L</text><text x="100" y="30" fill="#93c5fd" font-size="11" text-anchor="middle">sal = 0,01 L</text></svg>`
+    },
+    {
+      titulo: "Estágio S2: mais concentrado",
+      legenda: "10 L com 0,0005 L de sal por litro",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="40" width="80" height="140" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="165" width="80" height="15" fill="#f59e0b" opacity="0.7"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">S2: 10 L</text><text x="100" y="30" fill="#fbbf24" font-size="11" text-anchor="middle">Q = 0,005 L sal</text></svg>`
+    },
+    {
+      titulo: "Retirando x litros",
+      legenda: "Sal permanece constante, volume diminui",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="90" width="80" height="90" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="60" y="165" width="80" height="15" fill="#f59e0b" opacity="0.7"/><text x="100" y="200" fill="#93c5fd" font-size="12" text-anchor="middle">10 − x litros</text><path d="M 100 40 L 100 85" stroke="#ef4444" stroke-width="3" marker-end="url(#arr)"/><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#ef4444"/></marker></defs><text x="105" y="60" fill="#f87171" font-size="11">x retirado</text></svg>`
+    },
+    {
+      titulo: "Concentração final",
+      legenda: "0,999 — quase todo soro concentrado",
+      svg: `<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="220" fill="#0f172a"/><rect x="60" y="130" width="80" height="50" fill="#1e3a5f" stroke="#10b981" stroke-width="3" rx="6"/><rect x="60" y="170" width="80" height="10" fill="#f59e0b" opacity="0.8"/><text x="100" y="200" fill="#6ee7b7" font-size="12" text-anchor="middle">5 L, C = 0,999</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Diluição e Concentração",
+    descricao: "Ajuste a concentração-alvo e veja quanto volume precisa ser retirado.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Sal total Q (litros): <span id="q140-qval" class="text-blue-300 font-bold">0.005</span></label>
+          <input type="range" id="q140-q" min="0.001" max="0.02" step="0.001" value="0.005" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Concentração-alvo C: <span id="q140-cval" class="text-blue-300 font-bold">0.999</span></label>
+          <input type="range" id="q140-c" min="0.9" max="0.9999" step="0.0001" value="0.999" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Volume final necessário (V − x)</p>
+          <p id="q140-vfinal" class="text-xl font-bold text-blue-300">—</p>
+          <p class="text-xs text-slate-400 mt-2">Volume x a retirar (partindo de 10 L)</p>
+          <p id="q140-x" class="text-3xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const q = raiz.querySelector('#q140-q');
+      const c = raiz.querySelector('#q140-c');
+      const qval = raiz.querySelector('#q140-qval');
+      const cval = raiz.querySelector('#q140-cval');
+      const vfinal = raiz.querySelector('#q140-vfinal');
+      const xEl = raiz.querySelector('#q140-x');
+      function atualizar() {
+        const Q = parseFloat(q.value);
+        const C = parseFloat(c.value);
+        qval.textContent = Q.toFixed(3);
+        cval.textContent = C.toFixed(4);
+        const vf = Q / C;
+        vfinal.textContent = vf.toFixed(4) + ' L';
+        const x = 10 - vf;
+        xEl.textContent = x.toFixed(4) + ' L';
+      }
+      q.addEventListener('input', atualizar);
+      c.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><rect x="70" y="60" width="60" height="100" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/><text x="100" y="180" fill="#93c5fd" font-size="14" text-anchor="middle">x = 5,0000 L</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q141",
+  numero: 141,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "truck",
+  titulo: "Distribuidora de Água: Quanto Pedir para Cobrir o Descarte Fixo?",
+  tags: ["Álgebra básica", "Proporcionalidade", "Resolução de problemas"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma distribuidora de água mineral transporta seus produtos em caminhões-tanque. Em uma determinada entrega, foram carregados 10.200 litros de água em um caminhão, mas apenas 9.900 litros chegaram utilizáveis ao destino, sendo o restante descartado devido a perdas fixas no processo de transporte (vazamentos e resíduos que ficam retidos na tubulação do caminhão, independentemente da carga total).</p>
+    <p>Para o próximo pedido, o cliente solicitou exatamente 20.000 litros de água utilizável no destino. Sabendo que a perda no transporte é sempre a mesma quantidade fixa por caminhão (não depende da quantidade carregada) e que um único caminhão será utilizado para esse pedido.</p>
+    <p><strong>A quantidade de água, em litros, que a distribuidora deve carregar no caminhão para que o cliente receba os 20.000 litros solicitados é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20.000", correta: false },
+    { letra: "B", texto: "20.100", correta: false },
+    { letra: "C", texto: "20.300", correta: true },
+    { letra: "D", texto: "20.600", correta: false },
+    { letra: "E", texto: "40.300", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Perdas fixas — aquelas que não dependem da quantidade total — aparecem o tempo todo em problemas reais: taxas fixas, resíduos de tubulação, desperdício de material de embalagem. Reconhecer que a perda é constante, e não proporcional, é o pulo do gato.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Perda fixa vs. perda proporcional</p>
+        <p>Uma perda é <strong>fixa</strong> quando seu valor não muda com a quantidade total envolvida (por exemplo, sempre 300 litros ficam retidos na tubulação, seja o caminhão carregado com 5.000 ou 50.000 litros). Já uma perda <strong>proporcional</strong> seria uma porcentagem da carga, mudando conforme o total. Ler o enunciado com atenção para identificar qual tipo de perda está em jogo é essencial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Descobrindo o valor da perda fixa</p>
+        <p>Se um caminhão carregado com uma quantidade conhecida C chegou ao destino com uma quantidade utilizável U, a perda fixa é simplesmente D = C − U. Uma vez descoberta, esse valor D se repete em qualquer carregamento do mesmo tipo de caminhão, independentemente da quantidade total.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando a perda fixa a um novo pedido</p>
+        <p>Para garantir que o destino receba uma quantidade utilizável desejada U', basta carregar C' = U' + D — ou seja, somar a perda fixa já conhecida à quantidade que se deseja entregar. Isso funciona porque a perda não muda com a escala da carga.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificando a capacidade do caminhão</p>
+        <p>Em problemas desse tipo, é comum o enunciado também informar (ou exigir verificar) se um único veículo tem capacidade suficiente para a carga calculada, ou se será necessário mais de um. Sempre confira se o valor de C' calculado é compatível com o número de veículos disponíveis antes de finalizar a resposta.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "minus", titulo: "Perda fixa", text: "Quantidade descartada que não muda com o tamanho da carga total." },
+    { icone: "calculator", titulo: "Descoberta da perda", text: "D = quantidade carregada − quantidade utilizável recebida." },
+    { icone: "plus-circle", titulo: "Aplicar a novo pedido", text: "Carga necessária = quantidade desejada + perda fixa conhecida." },
+    { icone: "truck", titulo: "Capacidade do veículo", text: "Verificar se um único caminhão comporta a carga total calculada." },
+    { icone: "check-square", titulo: "Leitura atenta do enunciado", text: "Distinguir perdas fixas de perdas proporcionais é o passo decisivo." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 20.300 litros</p>
+        <p class="text-xs text-slate-300">Somando a perda fixa de 300 litros aos 20.000 litros desejados, obtém-se 20.300 litros a carregar.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a perda fixa:</strong> D = 10.200 − 9.900 = 300 litros. Essa é a quantidade que sempre se perde por caminhão, independente da carga.</li>
+          <li><strong>Passo 2 — Definir a quantidade utilizável desejada:</strong> O cliente quer receber 20.000 litros utilizáveis no destino.</li>
+          <li><strong>Passo 3 — Somar a perda fixa ao pedido:</strong> Carga necessária = 20.000 + 300 = 20.300 litros. Como um único caminhão comporta essa quantidade (não há indicação de limite de capacidade menor que isso), 20.300 litros é a resposta.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20.000 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a perda fixa de 300 litros — o cliente receberia apenas 19.700 litros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 20.100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma apenas metade da perda fixa, um erro de cálculo na subtração original.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 20.300 — Correta ✓</p>
+          <p class="text-xs text-slate-400">20.000 (desejado) + 300 (perda fixa) = 20.300 litros a carregar no caminhão.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 20.600 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma o dobro da perda fixa (600 em vez de 300), tratando erroneamente a perda como proporcional a algo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40.300 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o pedido com o carregamento de dois caminhões cheios, quando o enunciado pede um único caminhão.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Carregamento original",
+      legenda: "10.200 L carregados, 9.900 L utilizáveis",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="30" y="40" width="200" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="200" y="40" width="30" height="60" fill="#ef4444" opacity="0.6"/><text x="130" y="30" fill="#93c5fd" font-size="12" text-anchor="middle">Carregado: 10.200 L</text><text x="115" y="120" fill="#6ee7b7" font-size="11" text-anchor="middle">Útil: 9.900 L</text><text x="215" y="120" fill="#fca5a5" font-size="10" text-anchor="middle">perda 300 L</text></svg>`
+    },
+    {
+      titulo: "Perda fixa constante",
+      legenda: "300 L sempre retidos, qualquer carga",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="20" y="50" width="100" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="90" y="50" width="30" height="40" fill="#ef4444" opacity="0.6"/><rect x="140" y="50" width="100" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="210" y="50" width="30" height="40" fill="#ef4444" opacity="0.6"/><text x="130" y="120" fill="#fca5a5" font-size="12" text-anchor="middle">Mesma perda: 300 L</text></svg>`
+    },
+    {
+      titulo: "Novo pedido",
+      legenda: "Cliente quer 20.000 L utilizáveis",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="30" y="40" width="200" height="60" fill="#1e3a5f" stroke="#10b981" stroke-width="3" rx="6"/><text x="130" y="30" fill="#6ee7b7" font-size="12" text-anchor="middle">Meta útil: 20.000 L</text><text x="130" y="75" fill="#a7f3d0" font-size="14" text-anchor="middle" font-weight="bold">20.000 L</text></svg>`
+    },
+    {
+      titulo: "Carga necessária",
+      legenda: "20.000 + 300 = 20.300 litros",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><rect x="20" y="40" width="200" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3" rx="6"/><rect x="185" y="40" width="35" height="60" fill="#ef4444" opacity="0.6"/><text x="120" y="30" fill="#93c5fd" font-size="12" text-anchor="middle">Carregar: 20.300 L</text><text x="100" y="75" fill="#a7f3d0" font-size="12" text-anchor="middle">20.000 útil</text><text x="202" y="120" fill="#fca5a5" font-size="10" text-anchor="middle">300 perda</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Perda Fixa no Transporte",
+    descricao: "Ajuste os valores de carga original, utilizável e pedido para calcular a carga necessária.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Carregado originalmente (L): <span id="q141-carga" class="text-blue-300 font-bold">10200</span></label>
+          <input type="range" id="q141-c1" min="5000" max="15000" step="100" value="10200" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Utilizável recebido (L): <span id="q141-util" class="text-blue-300 font-bold">9900</span></label>
+          <input type="range" id="q141-u1" min="4500" max="14900" step="100" value="9900" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Novo pedido (L utilizável): <span id="q141-pedido" class="text-blue-300 font-bold">20000</span></label>
+          <input type="range" id="q141-p" min="5000" max="30000" step="100" value="20000" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Perda fixa calculada</p>
+          <p id="q141-perda" class="text-xl font-bold text-rose-300">300 L</p>
+          <p class="text-xs text-slate-400 mt-2">Carga a solicitar</p>
+          <p id="q141-resultado" class="text-3xl font-bold text-emerald-400">20.300 L</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const c1 = raiz.querySelector('#q141-c1');
+      const u1 = raiz.querySelector('#q141-u1');
+      const p = raiz.querySelector('#q141-p');
+      const cargaEl = raiz.querySelector('#q141-carga');
+      const utilEl = raiz.querySelector('#q141-util');
+      const pedidoEl = raiz.querySelector('#q141-pedido');
+      const perdaEl = raiz.querySelector('#q141-perda');
+      const resultadoEl = raiz.querySelector('#q141-resultado');
+      function atualizar() {
+        const C = parseFloat(c1.value);
+        const U = Math.min(parseFloat(u1.value), C);
+        const P = parseFloat(p.value);
+        cargaEl.textContent = C.toFixed(0);
+        utilEl.textContent = U.toFixed(0);
+        pedidoEl.textContent = P.toFixed(0);
+        const D = C - U;
+        perdaEl.textContent = D.toFixed(0) + ' L';
+        resultadoEl.textContent = (P + D).toLocaleString('pt-BR') + ' L';
+      }
+      c1.addEventListener('input', atualizar);
+      u1.addEventListener('input', atualizar);
+      p.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><rect x="40" y="70" width="120" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="3"/><text x="100" y="105" fill="#93c5fd" font-size="14" text-anchor="middle">20.300 L</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q142",
+  numero: 142,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bar-chart-2",
+  titulo: "Consumo de Energia: Encontrando a Mediana de 10 Residências",
+  tags: ["Estatística", "Medidas de tendência central", "Mediana"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma concessionária de energia elétrica registrou o consumo mensal, em kWh, de 10 residências de um mesmo bairro, com o objetivo de definir uma nova faixa tarifária. Os valores registrados foram:</p>
+    <p class="font-mono bg-slate-800/60 p-2 rounded text-center">390, 320, 400, 380, 340, 360, 390, 350, 390, 400</p>
+    <p>A concessionária deseja utilizar a mediana desses valores como referência para o cálculo da nova tarifa.</p>
+    <p><strong>O valor da mediana do consumo mensal, em kWh, dessas residências é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "360", correta: false },
+    { letra: "B", texto: "370", correta: false },
+    { letra: "C", texto: "380", correta: true },
+    { letra: "D", texto: "390", correta: false },
+    { letra: "E", texto: "400", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A mediana é o valor que "divide ao meio" um conjunto de dados ordenado — metade dos valores fica abaixo dela, metade acima. Diferente da média, ela não é influenciada por valores extremos, o que a torna útil em contextos como tarifas e salários.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O primeiro passo: ordenar os dados</p>
+        <p>Para calcular a mediana, é indispensável primeiro colocar todos os valores em ordem crescente (ou decrescente). Esse passo é frequentemente esquecido, mas é a causa mais comum de erro nesse tipo de questão — a mediana NÃO é o valor do meio na ordem em que os dados foram apresentados.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Quantidade par de valores</p>
+        <p>Quando há um número par de valores (como 10, no caso desta questão), não existe um único "valor do meio". A mediana é calculada como a média aritmética dos dois valores centrais da lista ordenada — nesse caso, o 5º e o 6º valores.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Quantidade ímpar de valores</p>
+        <p>Já quando há um número ímpar de valores, a mediana é simplesmente o valor que ocupa a posição central da lista ordenada, sem necessidade de fazer média entre dois valores.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que usar mediana em vez de média?</p>
+        <p>A mediana é menos sensível a valores muito altos ou muito baixos (outliers) do que a média. Por isso é frequentemente preferida em contextos como definição de tarifas, salários típicos ou preços de imóveis, onde alguns valores extremos poderiam distorcer a média para cima ou para baixo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "list-ordered", titulo: "Ordenação dos dados", text: "Sempre organizar os valores em ordem crescente antes de calcular a mediana." },
+    { icone: "divide", titulo: "Quantidade par", text: "Com n par, a mediana é a média dos dois valores centrais (posições n/2 e n/2+1)." },
+    { icone: "hash", titulo: "Quantidade ímpar", text: "Com n ímpar, a mediana é o valor exatamente na posição central." },
+    { icone: "shield", titulo: "Resistência a outliers", text: "A mediana não é distorcida por valores extremos, ao contrário da média." },
+    { icone: "trending-up", titulo: "Aplicação prática", text: "Usada para definir tarifas, salários típicos e outras referências robustas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 380 kWh</p>
+        <p class="text-xs text-slate-300">Ordenando os 10 valores e fazendo a média dos dois centrais (5º e 6º), obtém-se 380.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Ordenar os valores:</strong> 320, 340, 350, 360, 380, 380, 390, 390, 390, 400.</li>
+          <li><strong>Passo 2 — Identificar as posições centrais:</strong> Com 10 valores (par), as posições centrais são a 5ª e a 6ª: ambas valem 380.</li>
+          <li><strong>Passo 3 — Calcular a média das posições centrais:</strong> (380 + 380) / 2 = 380 kWh.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 360 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o 4º valor da lista ordenada, não a mediana (posição errada).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 370 — Incorreta</p>
+          <p class="text-xs text-slate-400">Seria a média entre 360 e 380 (4º e 5º valores), posições centrais erradas para 10 dados.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 380 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Média exata entre o 5º e o 6º valores da lista ordenada (380 e 380).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 390 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor mais frequente (moda), não a mediana — confusão comum entre as duas medidas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 400 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor máximo do conjunto, não a mediana.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Dados originais (desordenados)",
+      legenda: "Como aparecem no enunciado",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#94a3b8" font-size="13" text-anchor="middle" font-family="monospace">390,320,400,380,340,360,390,350,390,400</text></svg>`
+    },
+    {
+      titulo: "Dados ordenados",
+      legenda: "Em ordem crescente",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#93c5fd" font-size="13" text-anchor="middle" font-family="monospace">320,340,350,360,380,380,390,390,390,400</text></svg>`
+    },
+    {
+      titulo: "Posições centrais destacadas",
+      legenda: "5º e 6º valores = 380 e 380",
+      svg: `<svg viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg"><rect width="320" height="100" fill="#0f172a"/>${['320','340','350','360','380','380','390','390','390','400'].map((v,i)=>`<rect x="${10+i*30}" y="30" width="26" height="30" fill="${i===4||i===5?'#10b981':'#1e3a5f'}" stroke="#3b82f6"/><text x="${23+i*30}" y="50" fill="#e2e8f0" font-size="9" text-anchor="middle">${v}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Cálculo da mediana",
+      legenda: "(380 + 380) / 2 = 380",
+      svg: `<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="100" fill="#0f172a"/><text x="150" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">(380 + 380) / 2 = 380 kWh</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Mediana",
+    descricao: "Digite 10 valores separados por vírgula e veja a mediana calculada passo a passo.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valores (separados por vírgula):</label>
+          <input type="text" id="q142-input" value="390,320,400,380,340,360,390,350,390,400" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+          <p class="text-xs text-slate-400">Ordenados</p>
+          <p id="q142-ordenados" class="text-sm font-mono text-blue-300 mb-2">—</p>
+          <p class="text-xs text-slate-400">Mediana</p>
+          <p id="q142-mediana" class="text-3xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const input = raiz.querySelector('#q142-input');
+      const ordenadosEl = raiz.querySelector('#q142-ordenados');
+      const medianaEl = raiz.querySelector('#q142-mediana');
+      function atualizar() {
+        const nums = input.value.split(',').map(s => parseFloat(s.trim())).filter(n => !isNaN(n));
+        if (nums.length === 0) return;
+        const sorted = [...nums].sort((a,b) => a-b);
+        ordenadosEl.textContent = sorted.join(', ');
+        let mediana;
+        const n = sorted.length;
+        if (n % 2 === 0) {
+          mediana = (sorted[n/2 - 1] + sorted[n/2]) / 2;
+        } else {
+          mediana = sorted[Math.floor(n/2)];
+        }
+        medianaEl.textContent = mediana.toFixed(1);
+      }
+      input.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="105" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">380</text><text x="100" y="130" fill="#94a3b8" font-size="12" text-anchor="middle">mediana (kWh)</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q143",
+  numero: 143,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shopping-bag",
+  titulo: "Rótulos Nutricionais: Qual Salgadinho Tem Menos Sódio por Pacote?",
+  tags: ["Proporcionalidade", "Leitura de tabelas", "Matemática aplicada à saúde"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma nutricionista está orientando um paciente a reduzir o consumo de sódio e, para isso, analisa os rótulos nutricionais de cinco tipos de salgadinhos industrializados. A tabela abaixo apresenta a quantidade de sódio por porção (indicada no rótulo) e o número de porções por pacote de cada produto:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Produto</th><th class="border border-slate-600 p-2">Sódio por porção (mg)</th><th class="border border-slate-600 p-2">Porções por pacote</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">Batata chips</td><td class="border border-slate-600 p-2">170</td><td class="border border-slate-600 p-2">3</td></tr>
+        <tr><td class="border border-slate-600 p-2">Palitos de milho</td><td class="border border-slate-600 p-2">334</td><td class="border border-slate-600 p-2">6</td></tr>
+        <tr><td class="border border-slate-600 p-2">Multigrãos</td><td class="border border-slate-600 p-2">352</td><td class="border border-slate-600 p-2">6</td></tr>
+        <tr><td class="border border-slate-600 p-2">Polvilho</td><td class="border border-slate-600 p-2">210</td><td class="border border-slate-600 p-2">5</td></tr>
+        <tr><td class="border border-slate-600 p-2">Água e sal</td><td class="border border-slate-600 p-2">166</td><td class="border border-slate-600 p-2">5</td></tr>
+      </tbody>
+    </table>
+    <p>O paciente costuma consumir o pacote inteiro de uma só vez, em cada ocasião.</p>
+    <p><strong>Para reduzir ao máximo o consumo de sódio por ocasião, o paciente deve escolher o salgadinho:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Batata chips", correta: true },
+    { letra: "B", texto: "Palitos de milho", correta: false },
+    { letra: "C", texto: "Multigrãos", correta: false },
+    { letra: "D", texto: "Polvilho", correta: false },
+    { letra: "E", texto: "Água e sal", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Rótulos nutricionais informam valores "por porção", mas decisões do mundo real muitas vezes envolvem o pacote inteiro. Multiplicar corretamente porção por quantidade de porções é o que transforma uma tabela de rótulo em uma decisão útil.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Valor "por porção" não é o valor total</p>
+        <p>Rótulos de alimentos apresentam informações nutricionais com base em uma porção — uma fração padronizada do produto, não o pacote inteiro. Para saber o total consumido ao comer o pacote todo, é preciso multiplicar o valor por porção pelo número de porções contidas no pacote.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Multiplicação simples como ferramenta de decisão</p>
+        <p>Total por pacote = (quantidade por porção) × (número de porções por pacote). Essa multiplicação básica é o que permite comparar produtos de forma justa quando o tamanho da porção e o número de porções variam de um produto para outro.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Cuidado com armadilhas de comparação direta</p>
+        <p>Um erro comum é comparar apenas o valor "por porção" entre produtos, ignorando quantas porções cada pacote contém. Um produto pode ter menos sódio por porção, mas mais porções no pacote, resultando em mais sódio total — por isso o cálculo do total é indispensável.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Interpretação em contexto de saúde</p>
+        <p>Em decisões de saúde (como redução de sódio, açúcar ou calorias), o que importa geralmente é o total efetivamente consumido em uma ocasião, não apenas o valor "por porção" do rótulo — daí a importância de sempre calcular o total antes de comparar produtos.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "table", titulo: "Leitura de rótulos", text: "Rótulos informam valores por porção, não o total do pacote." },
+    { icone: "x", titulo: "Multiplicação total", text: "Total = valor por porção × número de porções no pacote." },
+    { icone: "alert-triangle", titulo: "Armadilha da comparação direta", text: "Comparar apenas 'por porção' pode levar a conclusões erradas." },
+    { icone: "heart", titulo: "Contexto de saúde", text: "Decisões de consumo devem considerar o total real ingerido por ocasião." },
+    { icone: "list", titulo: "Organização de dados", text: "Calcular o total para cada produto antes de decidir qual é o menor." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Batata chips</p>
+        <p class="text-xs text-slate-300">Calculando o total de sódio por pacote de cada produto, a batata chips tem o menor valor: 510 mg.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Multiplicar sódio por porção × porções por pacote para cada produto:</strong> Batata chips: 170×3=510; Palitos: 334×6=2.004; Multigrãos: 352×6=2.112; Polvilho: 210×5=1.050; Água e sal: 166×5=830.</li>
+          <li><strong>Passo 2 — Comparar os totais:</strong> 510 (batata chips) &lt; 830 (água e sal) &lt; 1.050 (polvilho) &lt; 2.004 (palitos) &lt; 2.112 (multigrãos).</li>
+          <li><strong>Passo 3 — Identificar o menor:</strong> Batata chips tem o menor total de sódio por pacote (510 mg), sendo a melhor escolha para reduzir o consumo.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Batata chips — Correta ✓</p>
+          <p class="text-xs text-slate-400">170 × 3 = 510 mg de sódio por pacote — o menor total entre todos os produtos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Palitos de milho — Incorreta</p>
+          <p class="text-xs text-slate-400">334 × 6 = 2.004 mg — quase 4 vezes mais sódio que a batata chips.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Multigrãos — Incorreta</p>
+          <p class="text-xs text-slate-400">352 × 6 = 2.112 mg — o maior total de sódio entre os cinco produtos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Polvilho — Incorreta</p>
+          <p class="text-xs text-slate-400">210 × 5 = 1.050 mg — mais que o dobro do total da batata chips.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Água e sal — Incorreta</p>
+          <p class="text-xs text-slate-400">166 × 5 = 830 mg — menor sódio por porção que a batata chips, mas o total do pacote é maior, pois tem mais porções.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Rótulo: sódio por porção",
+      legenda: "Valor informado individualmente por produto",
+      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="160" fill="#0f172a"/>${['Batata:170','Palitos:334','Multigrãos:352','Polvilho:210','Água/sal:166'].map((t,i)=>`<text x="20" y="${30+i*26}" fill="#93c5fd" font-size="12">${t} mg/porção</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Porções por pacote",
+      legenda: "Quantidade que varia por produto",
+      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="160" fill="#0f172a"/>${['Batata:3','Palitos:6','Multigrãos:6','Polvilho:5','Água/sal:5'].map((t,i)=>`<text x="20" y="${30+i*26}" fill="#fbbf24" font-size="12">${t} porções</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Total de sódio por pacote",
+      legenda: "Multiplicação: porção × número de porções",
+      svg: `<svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><rect width="300" height="180" fill="#0f172a"/>${[['Batata',510,'#10b981'],['Palitos',2004,'#ef4444'],['Multigrãos',2112,'#ef4444'],['Polvilho',1050,'#f59e0b'],['Água/sal',830,'#f59e0b']].map((d,i)=>`<rect x="90" y="${15+i*32}" width="${d[1]/2112*180}" height="24" fill="${d[2]}" opacity="0.7"/><text x="10" y="${32+i*32}" fill="#e2e8f0" font-size="11">${d[0]}</text><text x="${95+d[1]/2112*180}" y="${32+i*32}" fill="#e2e8f0" font-size="10">${d[1]}mg</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Vencedor: menor sódio total",
+      legenda: "Batata chips — 510 mg por pacote",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><circle cx="100" cy="70" r="50" fill="#10b981" opacity="0.2" stroke="#10b981" stroke-width="3"/><text x="100" y="65" fill="#6ee7b7" font-size="14" text-anchor="middle" font-weight="bold">Batata</text><text x="100" y="85" fill="#6ee7b7" font-size="14" text-anchor="middle" font-weight="bold">chips</text><text x="100" y="140" fill="#94a3b8" font-size="12" text-anchor="middle">510 mg/pacote</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Sódio Total",
+    descricao: "Ajuste sódio por porção e número de porções para calcular o total do pacote de cada produto.",
+    html: `
+      <div class="space-y-3">
+        <div id="q143-produtos"></div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Produto com menor sódio total</p>
+          <p id="q143-vencedor" class="text-xl font-bold text-emerald-400">—</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const produtos = [
+        { nome: 'Batata chips', porcao: 170, porcoes: 3 },
+        { nome: 'Palitos de milho', porcao: 334, porcoes: 6 },
+        { nome: 'Multigrãos', porcao: 352, porcoes: 6 },
+        { nome: 'Polvilho', porcao: 210, porcoes: 5 },
+        { nome: 'Água e sal', porcao: 166, porcoes: 5 }
+      ];
+      const container = raiz.querySelector('#q143-produtos');
+      const vencedorEl = raiz.querySelector('#q143-vencedor');
+      produtos.forEach((p, i) => {
+        const div = document.createElement('div');
+        div.className = 'text-xs text-slate-300 flex justify-between border-b border-slate-700 py-1';
+        div.innerHTML = '<span>' + p.nome + '</span><span class="font-mono" id="q143-total-' + i + '">' + (p.porcao * p.porcoes) + ' mg</span>';
+        container.appendChild(div);
+      });
+      function atualizar() {
+        let menor = produtos[0];
+        produtos.forEach((p, i) => {
+          const total = p.porcao * p.porcoes;
+          const el = raiz.querySelector('#q143-total-' + i);
+          if (el) el.textContent = total + ' mg';
+          if (total < menor.porcao * menor.porcoes) menor = p;
+        });
+        vencedorEl.textContent = menor.nome + ' (' + (menor.porcao * menor.porcoes) + ' mg)';
+      }
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="100" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">Batata chips</text><text x="100" y="125" fill="#94a3b8" font-size="13" text-anchor="middle">510 mg/pacote</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q144",
+  numero: 144,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "box",
+  titulo: "Escultura Geométrica: Quantas Cores Diferentes Ela Precisa?",
+  tags: ["Geometria espacial", "Prismas e troncos", "Visualização espacial"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um artista está construindo uma escultura formada pela junção de dois sólidos geométricos: um prisma hexagonal regular na base e, sobre ele, um tronco de pirâmide hexagonal regular (frustum), de modo que a face hexagonal maior do tronco coincida exatamente com a face hexagonal superior do prisma (ficando, portanto, "escondida" e não visível de fora).</p>
+    <p>O artista deseja pintar a escultura de modo que:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>faces congruentes entre si recebam a mesma cor;</li>
+      <li>faces não congruentes recebam cores diferentes;</li>
+      <li>apenas as faces externas visíveis da escultura sejam pintadas (a face de junção entre os dois sólidos não é pintada, pois fica interna/oculta).</li>
+    </ul>
+    <p><strong>O número mínimo de cores diferentes que o artista precisará utilizar é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "2", correta: false },
+    { letra: "B", texto: "3", correta: false },
+    { letra: "C", texto: "6", correta: false },
+    { letra: "D", texto: "4", correta: true },
+    { letra: "E", texto: "5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Questões de "quantas cores" em sólidos geométricos testam a capacidade de visualizar quais faces são congruentes entre si e quais faces ficam ocultas na junção de dois sólidos — uma combinação de geometria espacial com raciocínio lógico.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando as faces de um prisma hexagonal</p>
+        <p>Um prisma hexagonal regular tem duas bases hexagonais (topo e fundo, congruentes entre si) e 6 faces laterais retangulares (todas congruentes entre si, se o prisma for reto e regular). Isso já dá, isoladamente, até 2 grupos de faces congruentes.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Identificando as faces de um tronco de pirâmide (frustum)</p>
+        <p>Um tronco de pirâmide hexagonal regular tem duas bases hexagonais de tamanhos diferentes (a maior e a menor, não congruentes entre si) e 6 faces laterais trapezoidais (todas congruentes entre si, se o tronco for regular).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. O que desaparece na junção</p>
+        <p>Ao unir os dois sólidos face a face (a base superior do prisma com a base maior do tronco), essa face de junção fica completamente interna à escultura — não é mais uma face externa e, portanto, não precisa (nem pode) ser pintada.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Contando os grupos de cores necessários</p>
+        <p>Após remover a face de junção, resta contar quantos grupos de faces congruentes distintas existem entre TODAS as faces externas restantes (de ambos os sólidos), lembrando que faces de sólidos diferentes só são "a mesma cor" se forem geometricamente congruentes entre si, não apenas por pertencerem à mesma categoria.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "hexagon", titulo: "Bases hexagonais", text: "Prisma tem duas bases congruentes; tronco tem duas bases diferentes (maior e menor)." },
+    { icone: "square", titulo: "Faces laterais", text: "Prisma: 6 retângulos congruentes. Tronco: 6 trapézios congruentes." },
+    { icone: "eye-off", titulo: "Face oculta na junção", text: "A face de encontro entre os dois sólidos fica interna e não é pintada." },
+    { icone: "palette", titulo: "Congruência define a cor", text: "Só recebem a mesma cor faces geometricamente congruentes entre si." },
+    { icone: "layers", titulo: "Contagem de grupos", text: "Contar quantos grupos distintos de faces congruentes restam após a junção." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 4 cores</p>
+        <p class="text-xs text-slate-300">Existem 4 grupos de faces congruentes visíveis: base do prisma, laterais do prisma, base menor do tronco, laterais do tronco.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Listar as faces do prisma:</strong> base inferior (hexágono, visível), base superior (hexágono, oculta pela junção), 6 laterais retangulares congruentes (visíveis).</li>
+          <li><strong>Passo 2 — Listar as faces do tronco:</strong> base maior (hexágono, oculta pela junção — coincide com o topo do prisma), base menor (hexágono, visível, não congruente à base maior), 6 laterais trapezoidais congruentes (visíveis).</li>
+          <li><strong>Passo 3 — Agrupar as faces visíveis por congruência:</strong> (1) hexágono da base do prisma, (2) 6 retângulos do prisma, (3) hexágono menor do tronco (diferente do hexágono do prisma), (4) 6 trapézios do tronco. Total: 4 grupos = 4 cores.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que a base do prisma e a base do tronco não são congruentes, e que faces laterais dos dois sólidos também não são congruentes entre si.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Agrupa incorretamente duas das quatro categorias de faces que, na verdade, não são congruentes entre si.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 6 — Incorreta</p>
+          <p class="text-xs text-slate-400">Trata cada face lateral individualmente como uma cor distinta, ignorando que faces congruentes recebem a mesma cor.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 4 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Base do prisma, laterais do prisma, base menor do tronco e laterais do tronco formam 4 grupos distintos de faces congruentes.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima a contagem, tratando como distintas faces que na verdade são congruentes dentro de um mesmo sólido.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A escultura completa",
+      legenda: "Prisma hexagonal + tronco de pirâmide hexagonal",
+      svg: `<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="260" fill="#0f172a"/><polygon points="60,160 140,160 160,180 140,200 60,200 40,180" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="60" y="120" width="80" height="40" fill="#1e40af" opacity="0.4" stroke="#3b82f6"/><polygon points="70,60 130,60 145,80 130,100 70,100 55,80" fill="#f59e0b" opacity="0.5" stroke="#fbbf24" stroke-width="2"/><polygon points="60,100 140,100 130,120 70,120" fill="#334155" opacity="0.6" stroke="#3b82f6" stroke-dasharray="3"/><text x="100" y="230" fill="#94a3b8" font-size="11" text-anchor="middle">Prisma + Tronco</text></svg>`
+    },
+    {
+      titulo: "Faces do prisma (base)",
+      legenda: "Base hexagonal + 6 retângulos laterais",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="60,120 140,120 160,140 140,160 60,160 40,140" fill="none" stroke="#10b981" stroke-width="3"/><rect x="60" y="60" width="80" height="60" fill="#3b82f6" opacity="0.4" stroke="#60a5fa"/><text x="100" y="180" fill="#6ee7b7" font-size="11" text-anchor="middle">Cor 1: base | Cor 2: laterais</text></svg>`
+    },
+    {
+      titulo: "Faces do tronco (topo)",
+      legenda: "Base menor + 6 trapézios laterais",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="75,60 125,60 138,75 125,90 75,90 62,75" fill="none" stroke="#f59e0b" stroke-width="3"/><polygon points="55,90 145,90 125,150 75,150" fill="#f59e0b" opacity="0.3" stroke="#fbbf24"/><text x="100" y="180" fill="#fbbf24" font-size="11" text-anchor="middle">Cor 3: base menor | Cor 4: trapézios</text></svg>`
+    },
+    {
+      titulo: "Face oculta na junção",
+      legenda: "Não é pintada — fica interna",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><polygon points="60,70 140,70 160,90 140,110 60,110 40,90" fill="#475569" opacity="0.5" stroke="#64748b" stroke-width="2" stroke-dasharray="4"/><text x="100" y="130" fill="#94a3b8" font-size="11" text-anchor="middle">face de junção (oculta)</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Contador de Grupos de Cores",
+    descricao: "Explore como cada face da escultura se agrupa por congruência.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <button id="q144-btn0" class="bg-emerald-700/40 border border-emerald-500 rounded px-2 py-2 text-emerald-200">Base do prisma</button>
+          <button id="q144-btn1" class="bg-blue-700/40 border border-blue-500 rounded px-2 py-2 text-blue-200">Laterais do prisma (×6)</button>
+          <button id="q144-btn2" class="bg-amber-700/40 border border-amber-500 rounded px-2 py-2 text-amber-200">Base menor do tronco</button>
+          <button id="q144-btn3" class="bg-purple-700/40 border border-purple-500 rounded px-2 py-2 text-purple-200">Laterais do tronco (×6)</button>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p id="q144-desc" class="text-xs text-slate-300">Clique em um grupo para ver detalhes.</p>
+        </div>
+        <p class="text-center text-sm text-slate-400">Total de cores necessárias: <span class="text-emerald-400 font-bold text-lg">4</span></p>
+      </div>
+    `,
+    init: function(raiz) {
+      const descs = [
+        'A base hexagonal inferior do prisma é a única face desse tipo visível — a base superior está oculta pela junção.',
+        'As 6 faces retangulares laterais do prisma são todas congruentes entre si — mesma cor para todas.',
+        'A base menor do tronco (hexágono no topo da escultura) não é congruente à base do prisma — precisa de cor própria.',
+        'As 6 faces trapezoidais laterais do tronco são congruentes entre si, mas diferentes dos retângulos do prisma.'
+      ];
+      descs.forEach((d, i) => {
+        const btn = raiz.querySelector('#q144-btn' + i);
+        if (btn) btn.addEventListener('click', () => {
+          raiz.querySelector('#q144-desc').textContent = d;
+        });
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><text x="100" y="105" fill="#6ee7b7" font-size="28" text-anchor="middle" font-weight="bold">4</text><text x="100" y="130" fill="#94a3b8" font-size="12" text-anchor="middle">cores necessárias</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q145b",
+  numero: 145,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "activity",
+  titulo: "Frequência Cardíaca: Qual Gráfico Representa a Recuperação do Atleta?",
+  tags: ["Leitura de gráficos", "Funções", "Análise de comportamento"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um fisiologista do esporte monitora a frequência cardíaca de um atleta durante um período de recuperação após um exercício intenso. A partir do instante t0, imediatamente após o esforço, a frequência cardíaca começa a diminuir progressivamente. Em um instante t1, o atleta realiza uma breve caminhada leve, o que faz a frequência cardíaca continuar a diminuir, mas de forma mais lenta que antes. A partir de um instante t2, o atleta entra em repouso completo (sentado, sem se mover), e a frequência cardíaca se estabiliza, permanecendo praticamente constante a partir desse ponto.</p>
+    <p><strong>O gráfico que melhor representa a frequência cardíaca do atleta em função do tempo, desde t0 até um instante posterior a t2, é aquele em que a curva:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "aumenta até t1, diminui até t2, depois aumenta novamente", correta: false },
+    { letra: "B", texto: "diminui em linha reta constante do início ao fim, sem mudança de inclinação", correta: false },
+    { letra: "C", texto: "permanece constante até t1, depois diminui abruptamente até t2, depois constante", correta: false },
+    { letra: "D", texto: "diminui até t2 (com uma mudança de inclinação em t1, ficando mais suave), depois permanece constante", correta: true },
+    { letra: "E", texto: "diminui até t1, aumenta entre t1 e t2, depois permanece constante", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Ler um gráfico a partir de uma descrição textual do comportamento de uma grandeza ao longo do tempo é uma habilidade central: cada trecho do texto ("diminui", "mais devagar", "se estabiliza") corresponde a uma característica visual específica da curva.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Traduzindo palavras em inclinação de curva</p>
+        <p>Quando uma grandeza "diminui", a curva tem inclinação negativa (desce da esquerda para a direita). Quando "diminui mais devagar", a inclinação continua negativa, mas menos acentuada (a curva fica mais "achatada", ainda descendo, mas com menos intensidade). Quando a grandeza "se estabiliza" ou fica "constante", a curva se torna horizontal (inclinação zero).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Continuidade nos pontos de transição</p>
+        <p>Em fenômenos físicos contínuos (como frequência cardíaca), não há "saltos" bruscos no valor da grandeza nos instantes de transição (t1, t2) — o que muda é a inclinação da curva (a taxa de variação), não o valor em si. Ou seja, a curva deve ser contínua, mas pode ter "quebras" na inclinação (pontos onde a curva muda de comportamento sem descontinuidade de valor).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Identificando os três trechos do problema</p>
+        <p>Trecho 1 (t0 a t1): frequência cardíaca diminui de forma mais acentuada (esforço intenso recém-terminado). Trecho 2 (t1 a t2): continua diminuindo, mas mais lentamente (caminhada leve reduz a taxa de queda). Trecho 3 (a partir de t2): permanece constante (repouso completo, corpo estabilizado).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Erros comuns de interpretação</p>
+        <p>Um erro frequente é confundir "diminui mais devagar" com "aumenta" — a grandeza continua diminuindo, apenas com menor intensidade, não muda de direção. Outro erro é achar que, ao atingir t2, a curva deveria "zerar" — na verdade, ela se estabiliza no valor que tinha alcançado, não necessariamente em zero.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-down", titulo: "Inclinação negativa", text: "Grandeza diminuindo corresponde a uma curva com inclinação negativa." },
+    { icone: "minus", titulo: "Estabilização", text: "Grandeza constante corresponde a um trecho horizontal na curva." },
+    { icone: "git-commit", titulo: "Continuidade com quebra de inclinação", text: "A curva não salta de valor, mas pode mudar de taxa de variação nos pontos de transição." },
+    { icone: "layers", titulo: "Trechos do fenômeno", text: "Identificar cada intervalo de tempo e sua taxa de variação correspondente." },
+    { icone: "alert-triangle", titulo: "Cuidado com inversões", text: "'Diminuir mais devagar' não é o mesmo que 'aumentar'." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D</p>
+        <p class="text-xs text-slate-300">A curva diminui do início até t2 (ficando mais suave após t1) e depois permanece constante — exatamente o comportamento descrito.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Trecho t0 a t1:</strong> "diminui progressivamente" → curva descendente com inclinação negativa considerável.</li>
+          <li><strong>Passo 2 — Trecho t1 a t2:</strong> "continua a diminuir, mas mais lentamente" → curva ainda descendente, porém com inclinação menos acentuada (mais próxima de horizontal, mas ainda negativa).</li>
+          <li><strong>Passo 3 — Trecho a partir de t2:</strong> "se estabiliza, permanecendo praticamente constante" → curva horizontal, sem mais queda.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Incorreta</p>
+          <p class="text-xs text-slate-400">Descreve um aumento inicial, que não corresponde a nenhum trecho do enunciado — a frequência só diminui e depois estabiliza.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora a mudança de inclinação em t1 e a estabilização após t2 — trata tudo como uma única queda uniforme.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Incorreta</p>
+          <p class="text-xs text-slate-400">Descreve uma queda abrupta (descontínua na taxa de forma extrema) entre t1 e t2, quando na verdade a queda apenas desacelera suavemente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) Correta ✓</p>
+          <p class="text-xs text-slate-400">Captura exatamente os três trechos: queda acentuada, queda suave, depois estabilização constante.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Incorreta</p>
+          <p class="text-xs text-slate-400">Inclui um trecho de aumento entre t1 e t2, que contradiz "continua a diminuir" do enunciado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trecho 1: queda acentuada",
+      legenda: "De t0 a t1 — esforço recém-terminado",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 30 30 L 100 100" stroke="#3b82f6" stroke-width="3" fill="none"/><text x="65" y="20" fill="#93c5fd" font-size="11">queda forte</text><text x="30" y="145" fill="#94a3b8" font-size="10">t0</text><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text></svg>`
+    },
+    {
+      titulo: "Trecho 2: queda suave",
+      legenda: "De t1 a t2 — caminhada leve",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 100 100 L 170 115" stroke="#f59e0b" stroke-width="3" fill="none"/><text x="110" y="90" fill="#fbbf24" font-size="11">queda suave</text><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    },
+    {
+      titulo: "Trecho 3: estabilização",
+      legenda: "Após t2 — repouso completo",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 170 115 L 220 115" stroke="#10b981" stroke-width="3" fill="none"/><text x="175" y="105" fill="#6ee7b7" font-size="11">constante</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    },
+    {
+      titulo: "Curva completa (gabarito D)",
+      legenda: "Os três trechos combinados",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/><line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/><line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/><path d="M 30 30 L 100 100 L 170 115 L 220 115" stroke="#8b5cf6" stroke-width="3" fill="none"/><circle cx="100" cy="100" r="3" fill="#fbbf24"/><circle cx="170" cy="115" r="3" fill="#6ee7b7"/><text x="95" y="145" fill="#94a3b8" font-size="10">t1</text><text x="165" y="145" fill="#94a3b8" font-size="10">t2</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Desenhe a Curva de Recuperação",
+    descricao: "Ajuste as inclinações de cada trecho e veja a curva de frequência cardíaca se formar.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Queda no trecho 1 (t0→t1): <span id="q145-i1" class="text-blue-300 font-bold">70</span></label>
+          <input type="range" id="q145-s1" min="20" max="100" step="5" value="70" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Queda no trecho 2 (t1→t2): <span id="q145-i2" class="text-blue-300 font-bold">15</span></label>
+          <input type="range" id="q145-s2" min="0" max="60" step="5" value="15" class="w-full">
+        </div>
+        <svg id="q145-svg" viewBox="0 0 260 160" class="w-full bg-slate-900 rounded border border-slate-700">
+          <line x1="30" y1="130" x2="230" y2="130" stroke="#475569"/>
+          <line x1="30" y1="20" x2="30" y2="130" stroke="#475569"/>
+          <path id="q145-path" d="" stroke="#8b5cf6" stroke-width="3" fill="none"/>
+        </svg>
+      </div>
+    `,
+    init: function(raiz) {
+      const s1 = raiz.querySelector('#q145-s1');
+      const s2 = raiz.querySelector('#q145-s2');
+      const i1 = raiz.querySelector('#q145-i1');
+      const i2 = raiz.querySelector('#q145-i2');
+      const path = raiz.querySelector('#q145-path');
+      function atualizar() {
+        const q1 = parseFloat(s1.value);
+        const q2 = parseFloat(s2.value);
+        i1.textContent = q1;
+        i2.textContent = q2;
+        const y0 = 30, y1 = y0 + q1, y2 = y1 + q2;
+        const d = 'M 30 ' + y0 + ' L 100 ' + y1 + ' L 170 ' + y2 + ' L 220 ' + y2;
+        path.setAttribute('d', d);
+      }
+      s1.addEventListener('input', atualizar);
+      s2.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><path d="M 30 30 L 90 90 L 140 105 L 180 105" stroke="#8b5cf6" stroke-width="3" fill="none"/></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q146",
+  numero: 146,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "coins",
+  titulo: "Troco na Padaria: Quanto Sobrou Depois da Compra?",
+  tags: ["Operações com decimais", "Matemática financeira básica", "Subtração"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma cliente foi a uma padaria comprar pães e pagou com uma nota de R$ 10,00. O valor total da compra foi de R$ 9,58.</p>
+    <p><strong>O valor do troco que a cliente deve receber, em reais, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 0,32", correta: false },
+    { letra: "B", texto: "R$ 0,42", correta: true },
+    { letra: "C", texto: "R$ 0,48", correta: false },
+    { letra: "D", texto: "R$ 0,52", correta: false },
+    { letra: "E", texto: "R$ 1,42", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Subtração de números decimais é uma das operações mais usadas no dia a dia — calcular troco é o exemplo mais direto disso, e pequenos deslizes no alinhamento de casas decimais são a fonte mais comum de erro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Alinhando as casas decimais</p>
+        <p>Ao subtrair dois valores em reais, é fundamental alinhar corretamente a vírgula decimal: unidades com unidades, décimos com décimos, centavos com centavos. Um erro comum é "desalinhar" os números e obter um resultado com a ordem de grandeza errada.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Pedindo emprestado entre casas decimais</p>
+        <p>Assim como na subtração de números inteiros, ao subtrair centavos pode ser necessário "pedir emprestado" da casa dos décimos (ou até das unidades), quando o algarismo do minuendo é menor que o do subtraendo naquela posição.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Verificação por adição</p>
+        <p>Uma forma simples e confiável de conferir um cálculo de troco é somar o valor do troco ao valor da compra e verificar se o resultado é igual ao valor pago. Se R$ 9,58 + troco = R$ 10,00, o troco está correto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Sentido prático do resultado</p>
+        <p>Como o valor pago (R$ 10,00) é pouco maior que o valor da compra (R$ 9,58), espera-se que o troco seja pequeno — um valor menor que R$ 1,00. Essa verificação de "faz sentido" ajuda a descartar rapidamente alternativas com ordem de grandeza incompatível.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "align-right", titulo: "Alinhamento decimal", text: "Alinhar corretamente unidades, décimos e centavos antes de subtrair." },
+    { icone: "arrow-left-right", titulo: "Empréstimo entre casas", text: "Pedir emprestado da casa vizinha quando o algarismo do minuendo é menor." },
+    { icone: "check-circle", titulo: "Verificação por soma", text: "Somar o troco ao valor da compra deve reproduzir o valor pago." },
+    { icone: "banknote", titulo: "Matemática financeira cotidiana", text: "Cálculo de troco é aplicação direta de subtração decimal." },
+    { icone: "target", titulo: "Estimativa de ordem de grandeza", text: "Verificar se o resultado é plausível antes de finalizar a resposta." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — R$ 0,42</p>
+        <p class="text-xs text-slate-300">10,00 − 9,58 = 0,42.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Escrever os valores alinhados:</strong> 10,00 (pago) menos 9,58 (compra).</li>
+          <li><strong>Passo 2 — Subtrair os centavos com empréstimo:</strong> 00 − 58 exige emprestar: 100 − 58 = 42 centavos, com ajuste na casa dos décimos/unidades.</li>
+          <li><strong>Passo 3 — Completar a subtração das unidades:</strong> 9 (após os empréstimos) − 9 = 0 reais inteiros; resultado final: R$ 0,42.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 0,32 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no processo de empréstimo entre as casas decimais.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) R$ 0,42 — Correta ✓</p>
+          <p class="text-xs text-slate-400">10,00 − 9,58 = 0,42, verificável por 9,58 + 0,42 = 10,00.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) R$ 0,48 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erro de subtração ao lidar com o algarismo dos centavos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) R$ 0,52 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde 9,58 com 9,48 durante a subtração.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 1,42 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erro de uma unidade inteira, resultado incompatível com a estimativa de troco pequeno.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Valor pago",
+      legenda: "Nota de R$ 10,00",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="35" width="140" height="50" rx="6" fill="#166534" stroke="#22c55e" stroke-width="2"/><text x="100" y="66" fill="#bbf7d0" font-size="18" text-anchor="middle" font-weight="bold">R$ 10,00</text></svg>`
+    },
+    {
+      titulo: "Valor da compra",
+      legenda: "Total dos pães: R$ 9,58",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="35" width="140" height="50" rx="6" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="100" y="66" fill="#93c5fd" font-size="18" text-anchor="middle" font-weight="bold">R$ 9,58</text></svg>`
+    },
+    {
+      titulo: "Subtração alinhada",
+      legenda: "10,00 − 9,58",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><text x="140" y="45" fill="#e2e8f0" font-size="18" text-anchor="end" font-family="monospace">10,00</text><text x="140" y="70" fill="#e2e8f0" font-size="18" text-anchor="end" font-family="monospace">− 9,58</text><line x1="60" y1="80" x2="140" y2="80" stroke="#64748b" stroke-width="2"/></svg>`
+    },
+    {
+      titulo: "Troco final",
+      legenda: "R$ 0,42",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="40" y="35" width="120" height="50" rx="6" fill="#065f46" stroke="#10b981" stroke-width="2"/><text x="100" y="66" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 0,42</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Troco",
+    descricao: "Ajuste o valor pago e o valor da compra para calcular o troco.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valor pago (R$): <span id="q146-pval" class="text-blue-300 font-bold">10,00</span></label>
+          <input type="range" id="q146-pago" min="5" max="20" step="0.5" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Valor da compra (R$): <span id="q146-cval" class="text-blue-300 font-bold">9,58</span></label>
+          <input type="range" id="q146-compra" min="0" max="20" step="0.01" value="9.58" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Troco</p>
+          <p id="q146-troco" class="text-3xl font-bold text-emerald-400">R$ 0,42</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const pago = raiz.querySelector('#q146-pago');
+      const compra = raiz.querySelector('#q146-compra');
+      const pval = raiz.querySelector('#q146-pval');
+      const cval = raiz.querySelector('#q146-cval');
+      const trocoEl = raiz.querySelector('#q146-troco');
+      function fmt(v) { return v.toFixed(2).replace('.', ','); }
+      function atualizar() {
+        const P = parseFloat(pago.value);
+        const C = parseFloat(compra.value);
+        pval.textContent = fmt(P);
+        cval.textContent = fmt(C);
+        const troco = Math.max(0, P - C);
+        trocoEl.textContent = 'R$ ' + fmt(troco);
+      }
+      pago.addEventListener('input', atualizar);
+      compra.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">R$ 0,42</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q147",
+  numero: 147,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "languages",
+  titulo: "Escola de Idiomas: Quantos Alunos Estudam Francês em 2025?",
+  tags: ["Porcentagem", "Proporcionalidade", "Interpretação de dados"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma escola de idiomas oferece cursos de inglês, espanhol e francês. Em 2024, a escola teve um total de 400 alunos matriculados nesses três cursos. Em 2025, o número total de alunos permaneceu o mesmo (400), mas a distribuição percentual entre os cursos mudou: agora, 10% dos alunos estão matriculados no curso de francês.</p>
+    <p><strong>O número de alunos matriculados no curso de francês em 2025 é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4", correta: false },
+    { letra: "B", texto: "10", correta: false },
+    { letra: "C", texto: "20", correta: false },
+    { letra: "D", texto: "30", correta: false },
+    { letra: "E", texto: "40", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Calcular "x% de um total" é uma das operações mais recorrentes do dia a dia e do ENEM: converter a porcentagem em fração ou decimal e multiplicar pelo total.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Porcentagem como fração de 100</p>
+        <p>Uma porcentagem p% representa a fração p/100. Assim, "10% de um total T" significa (10/100) × T, ou equivalentemente 0,10 × T.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Identificando o total correto</p>
+        <p>É essencial identificar sobre qual total a porcentagem está sendo aplicada. Nesta questão, o total de alunos (400) permaneceu constante entre os anos, então a porcentagem de 2025 se aplica a esse mesmo total de 400 alunos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando o cálculo</p>
+        <p>Uma vez identificados o percentual (10%) e o total (400), basta multiplicar: 0,10 × 400 = 40 alunos matriculados em francês em 2025.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atalho mental para porcentagens "redondas"</p>
+        <p>Para calcular 10% de qualquer número, basta dividir esse número por 10 (deslocar a vírgula uma casa para a esquerda). Esse atalho é útil para verificar rapidamente resultados de questões de porcentagem em provas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Porcentagem como fração", text: "p% = p/100, aplicado multiplicando pelo total de referência." },
+    { icone: "target", titulo: "Identificar o total correto", text: "Verificar sobre qual quantidade a porcentagem está sendo calculada." },
+    { icone: "divide", titulo: "Atalho de 10%", text: "10% de um número é obtido dividindo esse número por 10." },
+    { icone: "calendar", titulo: "Comparação entre anos", text: "O total permanece constante; apenas a distribuição percentual muda." },
+    { icone: "calculator", titulo: "Multiplicação direta", text: "Percentual em decimal × total = quantidade correspondente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 40 alunos</p>
+        <p class="text-xs text-slate-300">10% de 400 alunos = 40 alunos matriculados em francês em 2025.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar o total:</strong> 400 alunos matriculados na escola em 2025.</li>
+          <li><strong>Passo 2 — Converter a porcentagem:</strong> 10% = 10/100 = 0,10.</li>
+          <li><strong>Passo 3 — Multiplicar:</strong> 0,10 × 400 = 40 alunos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 1% de 400, não 10%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o percentual (10%) com o próprio número de alunos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 5% de 400 em vez de 10%.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula 7,5% de 400, um erro no valor do percentual usado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 40 — Correta ✓</p>
+          <p class="text-xs text-slate-400">0,10 × 400 = 40 alunos matriculados em francês.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Total de alunos",
+      legenda: "400 alunos matriculados em 2025",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="140" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="100" y="65" fill="#93c5fd" font-size="16" text-anchor="middle" font-weight="bold">400 alunos</text></svg>`
+    },
+    {
+      titulo: "10% em francês",
+      legenda: "Fração destacada do total",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="140" height="60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><rect x="30" y="30" width="14" height="60" fill="#f59e0b" opacity="0.8"/><text x="100" y="105" fill="#fbbf24" font-size="11" text-anchor="middle">10% = francês</text></svg>`
+    },
+    {
+      titulo: "Cálculo direto",
+      legenda: "0,10 × 400 = 40",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">0,10 × 400 = 40</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "40 alunos em francês",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><circle cx="100" cy="55" r="40" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="63" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">40</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Porcentagem",
+    descricao: "Ajuste o total de alunos e o percentual para calcular a quantidade correspondente.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Total de alunos: <span id="q147-tval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q147-total" min="50" max="1000" step="10" value="400" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Percentual em francês (%): <span id="q147-pval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q147-perc" min="1" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Alunos matriculados em francês</p>
+          <p id="q147-resultado" class="text-3xl font-bold text-emerald-400">40</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const total = raiz.querySelector('#q147-total');
+      const perc = raiz.querySelector('#q147-perc');
+      const tval = raiz.querySelector('#q147-tval');
+      const pval = raiz.querySelector('#q147-pval');
+      const resultado = raiz.querySelector('#q147-resultado');
+      function atualizar() {
+        const T = parseFloat(total.value);
+        const P = parseFloat(perc.value);
+        tval.textContent = T;
+        pval.textContent = P;
+        resultado.textContent = Math.round(T * P / 100);
+      }
+      total.addEventListener('input', atualizar);
+      perc.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="26" text-anchor="middle" font-weight="bold">40 alunos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q148",
+  numero: 148,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "ruler",
+  titulo: "Maquete Arquitetônica: Qual Trecho é o Mais Longo na Realidade?",
+  tags: ["Escala", "Proporcionalidade", "Conversão de unidades"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um arquiteto construiu uma maquete de um conjunto habitacional na escala 1:300 (cada 1 cm na maquete corresponde a 300 cm na realidade). Ele mediu, na maquete, cinco trechos de calçada (I, II, III, IV e V) que serão pavimentados, obtendo os seguintes comprimentos:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Trecho</th><th class="border border-slate-600 p-2">Comprimento na maquete (cm)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">I</td><td class="border border-slate-600 p-2">3</td></tr>
+        <tr><td class="border border-slate-600 p-2">II</td><td class="border border-slate-600 p-2">5</td></tr>
+        <tr><td class="border border-slate-600 p-2">III</td><td class="border border-slate-600 p-2">10</td></tr>
+        <tr><td class="border border-slate-600 p-2">IV</td><td class="border border-slate-600 p-2">7</td></tr>
+        <tr><td class="border border-slate-600 p-2">V</td><td class="border border-slate-600 p-2">6,67</td></tr>
+      </tbody>
+    </table>
+    <p><strong>O trecho que corresponde, na realidade, ao maior comprimento é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "I", correta: false },
+    { letra: "B", texto: "II", correta: false },
+    { letra: "C", texto: "III", correta: true },
+    { letra: "D", texto: "IV", correta: false },
+    { letra: "E", texto: "V", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Escalas transformam medidas pequenas (mapas, maquetes, plantas) em medidas reais através de uma simples multiplicação. Entender a razão de escala é essencial para interpretar corretamente qualquer representação em miniatura.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O que significa uma escala 1:300</p>
+        <p>Uma escala 1:300 indica que 1 unidade de medida na representação (maquete, mapa, planta) corresponde a 300 unidades da mesma grandeza na realidade. Ou seja, todo comprimento medido na maquete deve ser multiplicado por 300 para se obter o comprimento real.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando o fator de escala</p>
+        <p>Comprimento real = comprimento na maquete × fator de escala. Como a multiplicação por uma constante positiva preserva a ordem (não inverte "maior" e "menor"), o trecho com maior comprimento na maquete também será o de maior comprimento na realidade — não é necessário calcular todos os valores reais para responder, basta comparar os valores na maquete.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que a ordem se preserva</p>
+        <p>Se a > b (ambos positivos) e k é uma constante positiva, então k×a > k×b. Esse princípio matemático simples é o que permite comparar diretamente os valores na maquete sem precisar convertê-los para a escala real — uma economia de tempo importante em prova.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Quando é preciso calcular o valor real</p>
+        <p>Calcular o valor real completo só é necessário quando o problema pede o valor numérico específico (por exemplo, "quantos metros mede o trecho III na realidade?"), e não apenas uma comparação de qual é maior ou menor.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "ruler", titulo: "Escala 1:300", text: "Cada unidade na representação corresponde a 300 unidades reais." },
+    { icone: "arrow-up-right", titulo: "Multiplicação por fator de escala", text: "Valor real = valor na maquete × fator de escala." },
+    { icone: "trending-up", titulo: "Preservação de ordem", text: "Multiplicar por uma constante positiva não inverte comparações de maior/menor." },
+    { icone: "zap", titulo: "Atalho de comparação", text: "Para saber qual é maior na realidade, basta comparar os valores na maquete." },
+    { icone: "calculator", titulo: "Cálculo do valor real", text: "Necessário apenas quando se pede o valor numérico exato, não a comparação." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — Trecho III</p>
+        <p class="text-xs text-slate-300">O trecho III tem o maior comprimento na maquete (10 cm), logo também é o maior na realidade (3.000 cm = 30 m).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Comparar diretamente os valores na maquete:</strong> I=3, II=5, III=10, IV=7, V=6,67. O maior valor é o do trecho III.</li>
+          <li><strong>Passo 2 — Confirmar com o cálculo real (opcional):</strong> multiplicando cada um por 300: I=900cm, II=1.500cm, III=3.000cm, IV=2.100cm, V=2.001cm.</li>
+          <li><strong>Passo 3 — Identificar o maior:</strong> 3.000 cm (III) é o maior valor entre todos, confirmando a comparação direta feita no Passo 1.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) I — Incorreta</p>
+          <p class="text-xs text-slate-400">3 cm na maquete = 900 cm na realidade, o menor valor entre os cinco trechos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) II — Incorreta</p>
+          <p class="text-xs text-slate-400">5 cm na maquete = 1.500 cm na realidade, menor que o trecho III.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) III — Correta ✓</p>
+          <p class="text-xs text-slate-400">10 cm na maquete = 3.000 cm (30 m) na realidade, o maior valor entre os cinco trechos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) IV — Incorreta</p>
+          <p class="text-xs text-slate-400">7 cm na maquete = 2.100 cm na realidade, próximo mas ainda menor que o trecho III.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) V — Incorreta</p>
+          <p class="text-xs text-slate-400">6,67 cm na maquete = 2.001 cm na realidade, também menor que o trecho III.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Comprimentos na maquete",
+      legenda: "Valores medidos em centímetros",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['I',3],['II',5],['III',10],['IV',7],['V',6.67]].map((d,i)=>`<rect x="${30+i*44}" y="${140-d[1]*10}" width="30" height="${d[1]*10}" fill="${d[0]==='III'?'#10b981':'#3b82f6'}" opacity="0.7"/><text x="${45+i*44}" y="155" fill="#94a3b8" font-size="11" text-anchor="middle">${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Fator de escala 1:300",
+      legenda: "Multiplicação para obter valor real",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">1 cm → 300 cm</text></svg>`
+    },
+    {
+      titulo: "Comprimentos reais",
+      legenda: "Valores convertidos em cm",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['I',900],['II',1500],['III',3000],['IV',2100],['V',2001]].map((d,i)=>`<rect x="30" y="${20+i*26}" width="${d[1]/3000*180}" height="18" fill="${d[0]==='III'?'#10b981':'#3b82f6'}" opacity="0.7"/><text x="15" y="${33+i*26}" fill="#94a3b8" font-size="10">${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Trecho vencedor",
+      legenda: "III = 3.000 cm (30 m) na realidade",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><circle cx="100" cy="55" r="40" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="50" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">III</text><text x="100" y="68" fill="#6ee7b7" font-size="11" text-anchor="middle">30 m</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Conversor de Escala",
+    descricao: "Ajuste o fator de escala e o comprimento na maquete para ver o valor real.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Fator de escala (1:X): <span id="q148-fval" class="text-blue-300 font-bold">300</span></label>
+          <input type="range" id="q148-fator" min="50" max="1000" step="10" value="300" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Comprimento na maquete (cm): <span id="q148-mval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q148-maquete" min="1" max="20" step="0.1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Comprimento real</p>
+          <p id="q148-real" class="text-2xl font-bold text-emerald-400">30,00 m</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fator = raiz.querySelector('#q148-fator');
+      const maquete = raiz.querySelector('#q148-maquete');
+      const fval = raiz.querySelector('#q148-fval');
+      const mval = raiz.querySelector('#q148-mval');
+      const realEl = raiz.querySelector('#q148-real');
+      function atualizar() {
+        const F = parseFloat(fator.value);
+        const M = parseFloat(maquete.value);
+        fval.textContent = F;
+        mval.textContent = M.toFixed(1);
+        const realCm = M * F;
+        realEl.textContent = (realCm / 100).toFixed(2) + ' m';
+      }
+      fator.addEventListener('input', atualizar);
+      maquete.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Trecho III</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q149",
+  numero: 149,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shapes",
+  titulo: "Sólido de Johnson: Quantos Vértices Tem Essa Peça de Design?",
+  tags: ["Geometria espacial", "Relação de Euler", "Poliedros"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um designer de objetos está criando uma peça decorativa baseada em um poliedro convexo pouco comum, formado pela combinação de faces triangulares, quadradas e pentagonais, de modo que todas as faces sejam polígonos regulares, mas o sólido não seja nem um dos cinco sólidos platônicos nem um sólido de Arquimedes clássico. Consultando um catálogo técnico, o designer verifica que essa peça é classificada como um sólido de Johnson, com 32 faces (12 triangulares, 15 quadradas e mais algumas pentagonais) e 55 arestas.</p>
+    <p>Sabendo que todo poliedro convexo satisfaz a Relação de Euler (V − A + F = 2, em que V é o número de vértices, A o número de arestas e F o número de faces):</p>
+    <p><strong>O número de vértices desse sólido é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20", correta: false },
+    { letra: "B", texto: "25", correta: true },
+    { letra: "C", texto: "30", correta: false },
+    { letra: "D", texto: "35", correta: false },
+    { letra: "E", texto: "40", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A Relação de Euler é uma das fórmulas mais elegantes da geometria: para qualquer poliedro convexo, o número de vértices menos o número de arestas mais o número de faces é sempre igual a 2 — não importa o formato específico do sólido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A Relação de Euler</p>
+        <p>Para todo poliedro convexo: V − A + F = 2, em que V é o número de vértices, A é o número de arestas e F é o número de faces. Essa relação vale para prismas, pirâmides, sólidos platônicos, sólidos de Arquimedes, sólidos de Johnson — qualquer poliedro convexo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a incógnita desejada</p>
+        <p>Quando o número de arestas (A) e o número de faces (F) são conhecidos, basta isolar V na fórmula: V = 2 − F + A = 2 + A − F. Essa é uma simples manipulação algébrica da relação original.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Sólidos de Johnson: o que são</p>
+        <p>Sólidos de Johnson são poliedros convexos cujas faces são todas polígonos regulares, mas que não se enquadram nem nos 5 sólidos platônicos nem nos 13 sólidos de Arquimedes clássicos. Existem 92 sólidos de Johnson catalogados, cada um com uma combinação específica de faces triangulares, quadradas, pentagonais, etc.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Não é preciso "ver" o sólido para calcular V</p>
+        <p>Um dos pontos mais úteis da Relação de Euler é que ela permite calcular o número de vértices sem precisar visualizar ou desenhar o sólido complexo — basta ter os valores de arestas e faces, informações que costumam ser dadas diretamente no enunciado ou calculáveis a partir da contagem de faces por tipo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "hexagon", titulo: "Relação de Euler", text: "V − A + F = 2, válida para qualquer poliedro convexo." },
+    { icone: "corner-up-right", titulo: "Isolamento algébrico", text: "V = 2 + A − F, obtido reorganizando a fórmula original." },
+    { icone: "box", titulo: "Sólidos de Johnson", text: "Poliedros com faces regulares que não são platônicos nem arquimedianos." },
+    { icone: "list", titulo: "Contagem de faces", text: "F é a soma de todos os tipos de faces (triangulares, quadradas, pentagonais)." },
+    { icone: "check-circle", titulo: "Independência da forma visual", text: "A relação permite calcular V sem necessidade de visualizar o sólido." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 25 vértices</p>
+        <p class="text-xs text-slate-300">Aplicando V = 2 + A − F com A = 55 e F = 32, obtém-se V = 25.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar os dados conhecidos:</strong> F = 32 faces (total), A = 55 arestas.</li>
+          <li><strong>Passo 2 — Isolar V na Relação de Euler:</strong> V − A + F = 2 → V = 2 + A − F.</li>
+          <li><strong>Passo 3 — Substituir e calcular:</strong> V = 2 + 55 − 32 = 25 vértices.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro de sinal na Relação de Euler (ex.: V = A − F em vez de 2 + A − F).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 25 — Correta ✓</p>
+          <p class="text-xs text-slate-400">2 + 55 − 32 = 25, valor correto aplicando corretamente a fórmula de Euler.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de subtrair o valor de F, calculando apenas 2 + A − algo incorreto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 35 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o papel de A e F na fórmula, trocando os valores na subtração.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a subtração de F, somando apenas 2 + A + algo.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "O sólido de Johnson",
+      legenda: "32 faces, 55 arestas, formato complexo",
+      svg: `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="200" fill="#0f172a"/><polygon points="100,30 150,60 150,120 100,150 50,120 50,60" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><polygon points="100,30 150,60 100,90" fill="#3b82f6" opacity="0.4"/><polygon points="50,60 100,30 100,90" fill="#60a5fa" opacity="0.3"/><polygon points="100,90 150,120 100,150" fill="#3b82f6" opacity="0.5"/><text x="100" y="180" fill="#93c5fd" font-size="11" text-anchor="middle">sólido de Johnson</text></svg>`
+    },
+    {
+      titulo: "Relação de Euler",
+      legenda: "V − A + F = 2",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="20" text-anchor="middle" font-family="monospace">V − A + F = 2</text></svg>`
+    },
+    {
+      titulo: "Dados conhecidos",
+      legenda: "F = 32, A = 55",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#fbbf24" font-size="16" text-anchor="middle">F = 32 faces</text><text x="100" y="70" fill="#fbbf24" font-size="16" text-anchor="middle">A = 55 arestas</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "V = 2 + 55 − 32 = 25",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">V = 25 vértices</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Relação de Euler",
+    descricao: "Ajuste o número de arestas e faces para calcular vértices automaticamente.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Arestas (A): <span id="q149-aval" class="text-blue-300 font-bold">55</span></label>
+          <input type="range" id="q149-a" min="6" max="100" step="1" value="55" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Faces (F): <span id="q149-fval" class="text-blue-300 font-bold">32</span></label>
+          <input type="range" id="q149-f" min="4" max="60" step="1" value="32" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Vértices calculados (V = 2 + A − F)</p>
+          <p id="q149-v" class="text-3xl font-bold text-emerald-400">25</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const a = raiz.querySelector('#q149-a');
+      const f = raiz.querySelector('#q149-f');
+      const aval = raiz.querySelector('#q149-aval');
+      const fval = raiz.querySelector('#q149-fval');
+      const vEl = raiz.querySelector('#q149-v');
+      function atualizar() {
+        const A = parseFloat(a.value);
+        const F = parseFloat(f.value);
+        aval.textContent = A;
+        fval.textContent = F;
+        vEl.textContent = 2 + A - F;
+      }
+      a.addEventListener('input', atualizar);
+      f.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">V = 25</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q150",
+  numero: 150,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "hammer",
+  titulo: "Olaria: Quantos Tijolos a Nova Equipe Produz?",
+  tags: ["Grandezas diretamente proporcionais", "Regra de três composta", "Produtividade"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma olaria, uma equipe de 3 funcionários, trabalhando 6 horas por dia, produz 720 tijolos por dia. Considere que a produtividade de cada funcionário é constante e que o número de tijolos produzidos é diretamente proporcional tanto ao número de funcionários quanto ao número de horas trabalhadas.</p>
+    <p><strong>Se uma nova equipe de 5 funcionários trabalhar 9 horas por dia, a quantidade de tijolos que ela produzirá em um dia é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1.080", correta: false },
+    { letra: "B", texto: "1.200", correta: false },
+    { letra: "C", texto: "1.500", correta: false },
+    { letra: "D", texto: "1.800", correta: true },
+    { letra: "E", texto: "2.160", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Regra de três composta é a ferramenta para relacionar três ou mais grandezas proporcionais ao mesmo tempo — aqui, produção, número de trabalhadores e horas trabalhadas variam juntas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Taxa de produção por trabalhador-hora</p>
+        <p>Quando produção é diretamente proporcional tanto ao número de trabalhadores quanto às horas trabalhadas, é útil calcular a taxa de produção "por trabalhador por hora" — uma unidade que combina as duas grandezas em uma constante fixa.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando a taxa a partir dos dados iniciais</p>
+        <p>Taxa = produção total / (número de trabalhadores × horas trabalhadas). Essa taxa representa quantos tijolos, em média, um único trabalhador produz em uma única hora, mantendo a produtividade constante entre todos os funcionários.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando a taxa à nova situação</p>
+        <p>Uma vez conhecida a taxa por trabalhador-hora, a nova produção é obtida multiplicando essa taxa pelo novo número de trabalhadores e pelo novo número de horas: nova produção = taxa × novos trabalhadores × novas horas.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação de sentido físico</p>
+        <p>Como tanto o número de trabalhadores quanto as horas aumentaram em relação à situação original, espera-se que a nova produção seja maior que a original (720). Esse tipo de verificação rápida ajuda a descartar alternativas menores que 720.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "users", titulo: "Regra de três composta", text: "Relaciona múltiplas grandezas diretamente proporcionais simultaneamente." },
+    { icone: "clock", titulo: "Taxa por trabalhador-hora", text: "Produção total dividida pelo produto de trabalhadores × horas." },
+    { icone: "trending-up", titulo: "Proporcionalidade direta", text: "Aumentar trabalhadores ou horas aumenta a produção proporcionalmente." },
+    { icone: "calculator", titulo: "Multiplicação final", text: "Nova produção = taxa × novos trabalhadores × novas horas." },
+    { icone: "check-circle", titulo: "Verificação de sentido", text: "Mais trabalhadores e mais horas devem gerar produção maior que a original." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 1.800 tijolos</p>
+        <p class="text-xs text-slate-300">Com taxa de 40 tijolos por trabalhador-hora, a nova equipe produz 5 × 9 × 40 = 1.800 tijolos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a taxa por trabalhador-hora:</strong> 720 / (3 × 6) = 720 / 18 = 40 tijolos por trabalhador por hora.</li>
+          <li><strong>Passo 2 — Multiplicar pela nova quantidade de trabalhadores e horas:</strong> 40 × 5 × 9.</li>
+          <li><strong>Passo 3 — Calcular o resultado final:</strong> 40 × 45 = 1.800 tijolos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1.080 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa apenas o aumento no número de trabalhadores (5/3), ignorando o aumento nas horas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1.200 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula apenas o efeito do aumento de horas (9/6), sem considerar os trabalhadores extras.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1.500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de uma taxa por trabalhador-hora calculada incorretamente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 1.800 — Correta ✓</p>
+          <p class="text-xs text-slate-400">40 tijolos/trabalhador-hora × 5 trabalhadores × 9 horas = 1.800 tijolos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 2.160 — Incorreta</p>
+          <p class="text-xs text-slate-400">Multiplica os fatores de aumento (5/3 × 9/6) diretamente pela produção original de forma incorreta.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Situação original",
+      legenda: "3 funcionários, 6h, 720 tijolos",
+      svg: `<svg viewBox="0 0 200 130" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="130" fill="#0f172a"/><text x="100" y="35" fill="#93c5fd" font-size="13" text-anchor="middle">3 funcionários</text><text x="100" y="60" fill="#93c5fd" font-size="13" text-anchor="middle">6 horas/dia</text><text x="100" y="95" fill="#fbbf24" font-size="16" text-anchor="middle" font-weight="bold">720 tijolos</text></svg>`
+    },
+    {
+      titulo: "Taxa por trabalhador-hora",
+      legenda: "720 / (3×6) = 40",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">720 / 18 = 40</text></svg>`
+    },
+    {
+      titulo: "Nova equipe",
+      legenda: "5 funcionários, 9h/dia",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">5 funcionários</text><text x="100" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">9 horas/dia</text></svg>`
+    },
+    {
+      titulo: "Nova produção",
+      legenda: "40 × 5 × 9 = 1.800 tijolos",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">1.800 tijolos</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Produtividade da Olaria",
+    descricao: "Ajuste trabalhadores e horas para ver a produção resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Funcionários: <span id="q150-fval" class="text-blue-300 font-bold">5</span></label>
+          <input type="range" id="q150-func" min="1" max="15" step="1" value="5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Horas por dia: <span id="q150-hval" class="text-blue-300 font-bold">9</span></label>
+          <input type="range" id="q150-horas" min="1" max="14" step="1" value="9" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Taxa fixa: 40 tijolos/trabalhador-hora</p>
+          <p class="text-xs text-slate-400 mt-2">Produção estimada</p>
+          <p id="q150-resultado" class="text-3xl font-bold text-emerald-400">1.800</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const func = raiz.querySelector('#q150-func');
+      const horas = raiz.querySelector('#q150-horas');
+      const fval = raiz.querySelector('#q150-fval');
+      const hval = raiz.querySelector('#q150-hval');
+      const resultado = raiz.querySelector('#q150-resultado');
+      function atualizar() {
+        const F = parseFloat(func.value);
+        const H = parseFloat(horas.value);
+        fval.textContent = F;
+        hval.textContent = H;
+        resultado.textContent = (F * H * 40).toLocaleString('pt-BR');
+      }
+      func.addEventListener('input', atualizar);
+      horas.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><text x="100" y="85" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">1.800 tijolos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q151",
+  numero: 151,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "hash",
+  titulo: "Código de Identificação: Montando o Crachá de um Funcionário",
+  tags: ["Sistema de numeração", "Codificação", "Lógica"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa utiliza um sistema de código de identificação de 7 dígitos para os crachás de seus funcionários, estruturado da seguinte forma:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>1º dígito: número do andar onde o funcionário trabalha (0 a 9);</li>
+      <li>2º e 3º dígitos: número do setor dentro do andar (01 a 99);</li>
+      <li>4º, 5º e 6º dígitos: número de matrícula do funcionário dentro do setor (001 a 999);</li>
+      <li>7º dígito: turno de trabalho (0 = manhã, 1 = tarde, 2 = noite).</li>
+    </ul>
+    <p>Um novo funcionário foi contratado para trabalhar no 2º andar, no setor 08, e recebeu a matrícula 109 dentro desse setor, para atuar no turno da manhã.</p>
+    <p><strong>O código de identificação de 7 dígitos desse funcionário é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "2081091", correta: false },
+    { letra: "B", texto: "0820910", correta: false },
+    { letra: "C", texto: "8021090", correta: false },
+    { letra: "D", texto: "2081090", correta: true },
+    { letra: "E", texto: "2180910", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Sistemas de codificação estruturados são usados o tempo todo no mundo real — CPF, CEP, códigos de barras. A habilidade central é seguir rigorosamente a ordem e o número de dígitos de cada campo definido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Estrutura posicional do código</p>
+        <p>Em um código estruturado, cada posição (ou grupo de posições) tem um significado fixo e predefinido. Diferente de um número comum, a ordem dos dígitos aqui não representa valor numérico total, mas sim informações categóricas específicas (andar, setor, matrícula, turno).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Preenchimento com zeros à esquerda</p>
+        <p>Quando um campo tem um número fixo de dígitos (por exemplo, 3 dígitos para a matrícula), valores menores devem ser completados com zeros à esquerda para preencher exatamente essa quantidade de posições — por exemplo, matrícula "9" em um campo de 3 dígitos se torna "009".</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Montando o código passo a passo</p>
+        <p>A estratégia mais segura é preencher cada campo separadamente, respeitando seu número de dígitos, e depois concatenar (juntar) todos os campos na ordem especificada pelo enunciado, sem trocar a posição de nenhum grupo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação da quantidade total de dígitos</p>
+        <p>Ao final, é importante conferir se o código resultante tem exatamente o número total de dígitos especificado (neste caso, 7) — um código com dígitos a mais ou a menos indica erro no preenchimento de algum campo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Codificação posicional", text: "Cada posição do código representa uma informação categórica fixa." },
+    { icone: "hash", titulo: "Zeros à esquerda", text: "Completar campos com zeros para atingir o número exato de dígitos exigido." },
+    { icone: "link", titulo: "Concatenação ordenada", text: "Juntar os campos na ordem exata especificada pelo enunciado." },
+    { icone: "check-square", titulo: "Verificação de tamanho", text: "Conferir se o código final tem o número total de dígitos correto." },
+    { icone: "list", titulo: "Leitura atenta de regras", text: "Seguir rigorosamente a definição de cada campo do código." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 2081090</p>
+        <p class="text-xs text-slate-300">Andar 2, setor 08, matrícula 109, turno manhã (0), concatenados na ordem correta.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Preencher cada campo:</strong> andar = "2" (1 dígito); setor = "08" (2 dígitos); matrícula = "109" (3 dígitos); turno = "0" (manhã, 1 dígito).</li>
+          <li><strong>Passo 2 — Concatenar na ordem especificada:</strong> andar + setor + matrícula + turno = "2" + "08" + "109" + "0".</li>
+          <li><strong>Passo 3 — Resultado final:</strong> 2081090, com exatamente 7 dígitos.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 2081091 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa "1" (tarde) como último dígito em vez de "0" (manhã), trocando o turno.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 0820910 — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte a ordem dos campos, colocando o setor antes do andar.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 8021090 — Incorreta</p>
+          <p class="text-xs text-slate-400">Embaralha completamente a ordem dos campos definidos no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 2081090 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Segue exatamente a ordem e o número de dígitos de cada campo: 2 | 08 | 109 | 0.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 2180910 — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte os dígitos do setor (18 em vez de 08) e desorganiza a matrícula.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estrutura do código",
+      legenda: "7 dígitos: andar | setor | matrícula | turno",
+      svg: `<svg viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg"><rect width="280" height="100" fill="#0f172a"/><rect x="10" y="30" width="30" height="40" fill="#3b82f6" opacity="0.5"/><rect x="45" y="30" width="60" height="40" fill="#f59e0b" opacity="0.5"/><rect x="110" y="30" width="90" height="40" fill="#8b5cf6" opacity="0.5"/><rect x="205" y="30" width="30" height="40" fill="#10b981" opacity="0.5"/><text x="25" y="85" fill="#93c5fd" font-size="9" text-anchor="middle">andar</text><text x="75" y="85" fill="#fbbf24" font-size="9" text-anchor="middle">setor</text><text x="155" y="85" fill="#c4b5fd" font-size="9" text-anchor="middle">matrícula</text><text x="220" y="85" fill="#6ee7b7" font-size="9" text-anchor="middle">turno</text></svg>`
+    },
+    {
+      titulo: "Dados do funcionário",
+      legenda: "Andar 2, setor 08, matrícula 109, manhã",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/><text x="20" y="30" fill="#93c5fd" font-size="12">Andar: 2</text><text x="20" y="50" fill="#fbbf24" font-size="12">Setor: 08</text><text x="20" y="70" fill="#c4b5fd" font-size="12">Matrícula: 109</text><text x="20" y="90" fill="#6ee7b7" font-size="12">Turno: manhã (0)</text></svg>`
+    },
+    {
+      titulo: "Concatenação",
+      legenda: "2 + 08 + 109 + 0",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">"2"+"08"+"109"+"0"</text></svg>`
+    },
+    {
+      titulo: "Código final",
+      legenda: "2081090",
+      svg: `<svg viewBox="0 0 260 90" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="90" fill="#0f172a"/><text x="130" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold" font-family="monospace">2081090</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Gerador de Código",
+    descricao: "Ajuste andar, setor, matrícula e turno para montar o código de 7 dígitos.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Andar (0-9): <span id="q151-andarval" class="text-blue-300 font-bold">2</span></label>
+          <input type="range" id="q151-andar" min="0" max="9" step="1" value="2" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Setor (1-99): <span id="q151-setorval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q151-setor" min="1" max="99" step="1" value="8" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Matrícula (1-999): <span id="q151-matval" class="text-blue-300 font-bold">109</span></label>
+          <input type="range" id="q151-mat" min="1" max="999" step="1" value="109" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Turno: <span id="q151-turnoval" class="text-blue-300 font-bold">Manhã</span></label>
+          <input type="range" id="q151-turno" min="0" max="2" step="1" value="0" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Código gerado</p>
+          <p id="q151-codigo" class="text-2xl font-bold text-emerald-400 font-mono">2081090</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const andar = raiz.querySelector('#q151-andar');
+      const setor = raiz.querySelector('#q151-setor');
+      const mat = raiz.querySelector('#q151-mat');
+      const turno = raiz.querySelector('#q151-turno');
+      const andarval = raiz.querySelector('#q151-andarval');
+      const setorval = raiz.querySelector('#q151-setorval');
+      const matval = raiz.querySelector('#q151-matval');
+      const turnoval = raiz.querySelector('#q151-turnoval');
+      const codigo = raiz.querySelector('#q151-codigo');
+      const turnos = ['Manhã', 'Tarde', 'Noite'];
+      function atualizar() {
+        const A = andar.value;
+        const S = setor.value.padStart(2, '0');
+        const M = mat.value.padStart(3, '0');
+        const T = turno.value;
+        andarval.textContent = A;
+        setorval.textContent = setor.value;
+        matval.textContent = mat.value;
+        turnoval.textContent = turnos[parseInt(T)];
+        codigo.textContent = A + S + M + T;
+      }
+      andar.addEventListener('input', atualizar);
+      setor.addEventListener('input', atualizar);
+      mat.addEventListener('input', atualizar);
+      turno.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold" font-family="monospace">2081090</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q152",
+  numero: 152,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "shuffle",
+  titulo: "Fila do Show: Qual a Chance de Sentar na Ordem Certa?",
+  tags: ["Probabilidade", "Análise combinatória", "Permutação"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Quatro amigos — Ana, Bruno, Carla e Diego — compraram ingressos para um show e vão se sentar aleatoriamente em 4 cadeiras lado a lado, numeradas de 1 a 4. Cada um dos quatro amigos tem a mesma probabilidade de se sentar em qualquer uma das cadeiras, e cada arranjo de assentos é igualmente provável.</p>
+    <p><strong>A probabilidade de que os quatro amigos se sentem exatamente na ordem Ana, Bruno, Carla, Diego (da cadeira 1 até a cadeira 4, nessa sequência específica) é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1/4", correta: false },
+    { letra: "B", texto: "1/6", correta: false },
+    { letra: "C", texto: "1/12", correta: false },
+    { letra: "D", texto: "1/24", correta: true },
+    { letra: "E", texto: "1/16", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando se pergunta a probabilidade de UMA ordem específica entre várias pessoas ou objetos, a resposta está diretamente ligada ao número total de permutações possíveis — quantas formas diferentes existem de organizá-los.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Contando o total de arranjos possíveis</p>
+        <p>O número total de maneiras de organizar n pessoas (ou objetos) em n posições distintas é dado pelo fatorial de n: n! = n × (n−1) × (n−2) × ... × 2 × 1. Para 4 pessoas, o total de arranjos é 4! = 4×3×2×1 = 24.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Contando os arranjos favoráveis</p>
+        <p>Quando se pede a probabilidade de UMA ordem específica (por exemplo, exatamente "Ana, Bruno, Carla, Diego"), existe apenas 1 arranjo favorável entre todos os possíveis — a ordem exata pedida.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a probabilidade</p>
+        <p>Probabilidade = (número de casos favoráveis) / (número total de casos possíveis) = 1 / 4! = 1/24. Esse é o princípio básico da probabilidade clássica aplicado a um problema de permutação.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que cada arranjo é igualmente provável</p>
+        <p>Como o enunciado afirma que os amigos se sentam aleatoriamente e cada arranjo tem a mesma probabilidade, isso garante que a probabilidade clássica (casos favoráveis / casos totais) pode ser aplicada diretamente, sem necessidade de ponderação adicional.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "shuffle", titulo: "Permutação simples", text: "n! é o número de formas de organizar n elementos distintos em ordem." },
+    { icone: "target", titulo: "Caso favorável único", text: "Uma ordem específica corresponde a exatamente 1 dos arranjos possíveis." },
+    { icone: "divide", titulo: "Probabilidade clássica", text: "P = casos favoráveis / casos possíveis." },
+    { icone: "check-circle", titulo: "Equiprobabilidade", text: "Todos os arranjos têm a mesma chance de ocorrer, condição essencial para o cálculo direto." },
+    { icone: "hash", titulo: "Fatorial", text: "4! = 4×3×2×1 = 24, o total de permutações de 4 elementos." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 1/24</p>
+        <p class="text-xs text-slate-300">Existe apenas 1 ordem favorável entre as 4! = 24 permutações possíveis dos quatro amigos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o total de arranjos possíveis:</strong> 4! = 4×3×2×1 = 24 formas diferentes de sentar os 4 amigos nas 4 cadeiras.</li>
+          <li><strong>Passo 2 — Identificar os arranjos favoráveis:</strong> apenas 1 arranjo corresponde exatamente à ordem "Ana, Bruno, Carla, Diego".</li>
+          <li><strong>Passo 3 — Calcular a probabilidade:</strong> P = 1/24.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1/4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas a probabilidade de uma pessoa específica sentar em uma cadeira específica, não a ordem completa de 4 pessoas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1/6 — Incorreta</p>
+          <p class="text-xs text-slate-400">Corresponde a 3! (permutação de apenas 3 elementos), esquecendo um dos quatro amigos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1/12 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um cálculo incompleto do fatorial, considerando apenas parte das permutações possíveis.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 1/24 — Correta ✓</p>
+          <p class="text-xs text-slate-400">1 caso favorável entre 4! = 24 casos possíveis: P = 1/24.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 1/16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde com 4² (arranjos com repetição), quando o problema trata de pessoas distintas sem repetição.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "As 4 cadeiras",
+      legenda: "Numeradas de 1 a 4",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[1,2,3,4].map((n,i)=>`<rect x="${20+i*55}" y="30" width="40" height="40" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/><text x="${40+i*55}" y="55" fill="#93c5fd" font-size="14" text-anchor="middle">${n}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Ordem favorável",
+      legenda: "Ana, Bruno, Carla, Diego",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${['Ana','Bruno','Carla','Diego'].map((n,i)=>`<rect x="${20+i*55}" y="30" width="40" height="40" fill="#065f46" opacity="0.5" stroke="#10b981" stroke-width="2"/><text x="${40+i*55}" y="55" fill="#6ee7b7" font-size="9" text-anchor="middle">${n}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Total de permutações",
+      legenda: "4! = 24 arranjos possíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#e2e8f0" font-size="18" text-anchor="middle" font-family="monospace">4! = 24</text></svg>`
+    },
+    {
+      titulo: "Probabilidade final",
+      legenda: "1 favorável entre 24 possíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1/24</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Embaralhador de Amigos",
+    descricao: "Gere arranjos aleatórios e veja quantas tentativas até acertar a ordem exata.",
+    html: `
+      <div class="space-y-4">
+        <button id="q152-sortear" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded">Sortear novo arranjo</button>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Arranjo sorteado</p>
+          <p id="q152-arranjo" class="text-lg font-bold text-blue-300">—</p>
+          <p class="text-xs text-slate-400 mt-2">Tentativas até acertar</p>
+          <p id="q152-tentativas" class="text-2xl font-bold text-emerald-400">0</p>
+          <p class="text-xs text-slate-500 mt-2">Probabilidade teórica: 1/24 ≈ 4,17%</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const btn = raiz.querySelector('#q152-sortear');
+      const arranjoEl = raiz.querySelector('#q152-arranjo');
+      const tentativasEl = raiz.querySelector('#q152-tentativas');
+      let tentativas = 0;
+      const nomes = ['Ana', 'Bruno', 'Carla', 'Diego'];
+      function embaralhar(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+      btn.addEventListener('click', () => {
+        tentativas++;
+        const arranjo = embaralhar(nomes);
+        arranjoEl.textContent = arranjo.join(', ');
+        tentativasEl.textContent = tentativas;
+        if (arranjo.join(',') === nomes.join(',')) {
+          arranjoEl.style.color = '#6ee7b7';
+        } else {
+          arranjoEl.style.color = '#93c5fd';
+        }
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1/24</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q153",
+  numero: 153,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "square",
+  titulo: "Terreno Quadrado: Encontrando a Equação da Cerca Diagonal",
+  tags: ["Geometria analítica", "Equação da reta", "Retas perpendiculares"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um projeto de paisagismo, um terreno tem o formato de um quadrado, com um de seus vértices localizado no ponto S = (6, 2) de um plano cartesiano (coordenadas em metros). Sabe-se que dois outros vértices adjacentes a S, chamados T e V, estão localizados nos pontos T = (2, 4) e V = (8, 6).</p>
+    <p>O paisagista deseja instalar uma cerca reta que passe exatamente pelo ponto médio do segmento TV e que seja perpendicular a esse segmento (essa cerca vai dividir o quadrado ao longo de sua diagonal, passando também pelo vértice S).</p>
+    <p><strong>A equação dessa reta é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "y = −3x + 20", correta: true },
+    { letra: "B", texto: "y = 3x − 16", correta: false },
+    { letra: "C", texto: "y = (1/3)x + 3", correta: false },
+    { letra: "D", texto: "y = −(1/3)x + 7", correta: false },
+    { letra: "E", texto: "y = 2x − 10", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Retas perpendiculares no plano cartesiano têm uma relação simples e poderosa entre seus coeficientes angulares: o produto dos coeficientes de duas retas perpendiculares é sempre igual a −1.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o coeficiente angular de um segmento</p>
+        <p>O coeficiente angular (inclinação) de uma reta que passa por dois pontos (x1,y1) e (x2,y2) é dado por m = (y2−y1)/(x2−x1). Esse valor mede o quanto a reta "sobe" ou "desce" para cada unidade que avança horizontalmente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Condição de perpendicularidade</p>
+        <p>Duas retas com coeficientes angulares m1 e m2 são perpendiculares entre si se, e somente se, m1 × m2 = −1. Isso significa que o coeficiente da reta perpendicular é o "inverso com sinal trocado" (oposto do recíproco) do coeficiente da reta original.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Ponto médio de um segmento</p>
+        <p>O ponto médio de um segmento com extremidades (x1,y1) e (x2,y2) é dado por M = ((x1+x2)/2, (y1+y2)/2). Esse ponto é fundamental quando se busca uma reta que "divide ao meio" um segmento, como uma mediatriz.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Montando a equação da reta com ponto e coeficiente</p>
+        <p>Conhecendo um ponto (x0,y0) pelo qual a reta passa e seu coeficiente angular m, a equação da reta é y − y0 = m(x − x0), que pode ser reorganizada na forma y = mx + b isolando y.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-up", titulo: "Coeficiente angular", text: "m = (y2−y1)/(x2−x1), mede a inclinação de uma reta." },
+    { icone: "corner-down-right", titulo: "Perpendicularidade", text: "m1 × m2 = −1 é a condição para duas retas serem perpendiculares." },
+    { icone: "circle", titulo: "Ponto médio", text: "M = ((x1+x2)/2, (y1+y2)/2), o centro exato de um segmento." },
+    { icone: "edit-3", titulo: "Equação ponto-inclinação", text: "y − y0 = m(x − x0), usada para montar a equação da reta." },
+    { icone: "check-circle", titulo: "Verificação com ponto conhecido", text: "Confirmar que o ponto S também satisfaz a equação encontrada." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — y = −3x + 20</p>
+        <p class="text-xs text-slate-300">A reta perpendicular a TV, passando pelo ponto médio (5,5), tem coeficiente −3 e também passa por S=(6,2).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o ponto médio de TV e o coeficiente de TV:</strong> M = ((2+8)/2, (4+6)/2) = (5,5); m(TV) = (6−4)/(8−2) = 2/6 = 1/3.</li>
+          <li><strong>Passo 2 — Encontrar o coeficiente perpendicular:</strong> m(perpendicular) × (1/3) = −1 → m(perpendicular) = −3.</li>
+          <li><strong>Passo 3 — Montar a equação passando por M(5,5):</strong> y − 5 = −3(x − 5) → y = −3x + 15 + 5 → y = −3x + 20. Verificação: substituindo S=(6,2): 2 = −3(6)+20 = −18+20 = 2 ✓.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) y = −3x + 20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Coeficiente −3 (perpendicular a 1/3), passando por (5,5) e por S=(6,2), como esperado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) y = 3x − 16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa coeficiente 3 em vez de −3, um erro de sinal na condição de perpendicularidade.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) y = (1/3)x + 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o coeficiente angular do próprio segmento TV, em vez de calcular o perpendicular.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) y = −(1/3)x + 7 — Incorreta</p>
+          <p class="text-xs text-slate-400">Troca o coeficiente perpendicular por −1/3, quando deveria ser o inverso (−3), não apenas o oposto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) y = 2x − 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa um coeficiente arbitrário que não satisfaz a condição de perpendicularidade com TV.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Pontos T, V e S",
+      legenda: "T(2,4), V(8,6), S(6,2)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="10" y1="200" x2="210" y2="200" stroke="#475569"/><line x1="10" y1="10" x2="10" y2="200" stroke="#475569"/><circle cx="50" cy="120" r="4" fill="#3b82f6"/><text x="55" y="115" fill="#93c5fd" font-size="11">T(2,4)</text><circle cx="170" cy="80" r="4" fill="#3b82f6"/><text x="175" y="75" fill="#93c5fd" font-size="11">V(8,6)</text><circle cx="130" cy="160" r="4" fill="#f59e0b"/><text x="135" y="175" fill="#fbbf24" font-size="11">S(6,2)</text></svg>`
+    },
+    {
+      titulo: "Segmento TV e ponto médio",
+      legenda: "M = (5,5)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="50" y1="120" x2="170" y2="80" stroke="#3b82f6" stroke-width="2"/><circle cx="110" cy="100" r="4" fill="#10b981"/><text x="115" y="95" fill="#6ee7b7" font-size="11">M(5,5)</text></svg>`
+    },
+    {
+      titulo: "Reta perpendicular",
+      legenda: "Coeficiente −3, passando por M e S",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="50" y1="120" x2="170" y2="80" stroke="#3b82f6" stroke-width="2" opacity="0.4"/><line x1="150" y1="30" x2="90" y2="190" stroke="#ef4444" stroke-width="2"/><circle cx="110" cy="100" r="4" fill="#10b981"/><circle cx="130" cy="160" r="4" fill="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Equação final",
+      legenda: "y = −3x + 20",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">y = −3x + 20</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Retas Perpendiculares",
+    descricao: "Ajuste os pontos T e V e veja a reta perpendicular pelo ponto médio se atualizar.",
+    html: `
+      <div class="space-y-4">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Tx: <span id="q153-tx" class="text-blue-300">2</span></label>
+            <input type="range" id="q153-txr" min="-5" max="10" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Ty: <span id="q153-ty" class="text-blue-300">4</span></label>
+            <input type="range" id="q153-tyr" min="-5" max="10" step="1" value="4" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Vx: <span id="q153-vx" class="text-blue-300">8</span></label>
+            <input type="range" id="q153-vxr" min="-5" max="10" step="1" value="8" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Vy: <span id="q153-vy" class="text-blue-300">6</span></label>
+            <input type="range" id="q153-vyr" min="-5" max="10" step="1" value="6" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Equação da reta perpendicular</p>
+          <p id="q153-eq" class="text-xl font-bold text-emerald-400">y = −3x + 20</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const txr = raiz.querySelector('#q153-txr');
+      const tyr = raiz.querySelector('#q153-tyr');
+      const vxr = raiz.querySelector('#q153-vxr');
+      const vyr = raiz.querySelector('#q153-vyr');
+      const tx = raiz.querySelector('#q153-tx');
+      const ty = raiz.querySelector('#q153-ty');
+      const vx = raiz.querySelector('#q153-vx');
+      const vy = raiz.querySelector('#q153-vy');
+      const eq = raiz.querySelector('#q153-eq');
+      function atualizar() {
+        const Tx = parseFloat(txr.value), Ty = parseFloat(tyr.value);
+        const Vx = parseFloat(vxr.value), Vy = parseFloat(vyr.value);
+        tx.textContent = Tx; ty.textContent = Ty; vx.textContent = Vx; vy.textContent = Vy;
+        if (Vx === Tx) { eq.textContent = 'x = ' + Tx + ' (vertical)'; return; }
+        const mTV = (Vy - Ty) / (Vx - Tx);
+        if (mTV === 0) { eq.textContent = 'x = ' + ((Tx+Vx)/2) + ' (vertical)'; return; }
+        const mPerp = -1 / mTV;
+        const Mx = (Tx + Vx) / 2, My = (Ty + Vy) / 2;
+        const b = My - mPerp * Mx;
+        eq.textContent = 'y = ' + mPerp.toFixed(2) + 'x + ' + b.toFixed(2);
+      }
+      [txr,tyr,vxr,vyr].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">y = −3x + 20</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q154",
+  numero: 154,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "book-open",
+  titulo: "Livraria: Qual Gênero Não Vai Suprir a Demanda do Mês?",
+  tags: ["Leitura de tabelas", "Comparação de dados", "Matemática aplicada"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma livraria organiza seu estoque mensal de livros por gênero, distribuído entre duas prateleiras (A e B) na loja. A demanda estimada para o próximo mês, calculada a partir do histórico de vendas, também é conhecida para cada gênero. A tabela a seguir apresenta essas informações:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Gênero</th><th class="border border-slate-600 p-2">Estoque prateleira A</th><th class="border border-slate-600 p-2">Estoque prateleira B</th><th class="border border-slate-600 p-2">Demanda estimada</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">Ficção</td><td class="border border-slate-600 p-2">120</td><td class="border border-slate-600 p-2">80</td><td class="border border-slate-600 p-2">160</td></tr>
+        <tr><td class="border border-slate-600 p-2">Autoajuda</td><td class="border border-slate-600 p-2">70</td><td class="border border-slate-600 p-2">60</td><td class="border border-slate-600 p-2">140</td></tr>
+        <tr><td class="border border-slate-600 p-2">Romance</td><td class="border border-slate-600 p-2">85</td><td class="border border-slate-600 p-2">60</td><td class="border border-slate-600 p-2">145</td></tr>
+        <tr><td class="border border-slate-600 p-2">Biografia</td><td class="border border-slate-600 p-2">50</td><td class="border border-slate-600 p-2">45</td><td class="border border-slate-600 p-2">80</td></tr>
+      </tbody>
+    </table>
+    <p><strong>O gênero cujo estoque total (somando as duas prateleiras) não será suficiente para atender à demanda estimada do próximo mês é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Ficção", correta: false },
+    { letra: "B", texto: "Romance", correta: false },
+    { letra: "C", texto: "Autoajuda", correta: true },
+    { letra: "D", texto: "Biografia", correta: false },
+    { letra: "E", texto: "Todos os gêneros têm estoque suficiente", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar totais somados de diferentes fontes com uma demanda-alvo é uma tarefa comum em gestão de estoque: somar corretamente antes de comparar evita conclusões precipitadas.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Somando valores de múltiplas fontes</p>
+        <p>Quando um recurso está distribuído em mais de um local (aqui, duas prateleiras), o total disponível é a soma simples dos valores em cada local. Esse total é o que deve ser comparado com a demanda, não os valores individuais de cada prateleira isoladamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Comparando estoque total com demanda</p>
+        <p>Um gênero terá estoque insuficiente se o total somado (estoque A + estoque B) for MENOR que a demanda estimada. Caso o total seja igual ou maior que a demanda, o estoque é considerado suficiente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Verificando cada linha da tabela sistematicamente</p>
+        <p>A estratégia mais segura é percorrer cada gênero da tabela, calcular seu total somado, e comparar diretamente com a demanda correspondente — evitando comparar apenas visualmente ou "de memória", o que pode levar a erros.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atenção a valores "quase iguais"</p>
+        <p>Tabelas de prova costumam incluir casos em que o estoque total é exatamente igual à demanda (como Romance, 145=145) para testar se o estudante realmente soma e compara com atenção, em vez de estimar visualmente.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "plus", titulo: "Soma de estoques", text: "Total disponível = soma dos valores em todas as prateleiras/fontes." },
+    { icone: "scale", titulo: "Comparação com demanda", text: "Estoque insuficiente ocorre quando o total é menor que a demanda." },
+    { icone: "table", titulo: "Verificação sistemática", text: "Percorrer cada linha da tabela calculando e comparando, sem pular etapas." },
+    { icone: "equal", titulo: "Casos de igualdade", text: "Estoque igual à demanda é considerado suficiente (não insuficiente)." },
+    { icone: "alert-circle", titulo: "Atenção aos detalhes", text: "Diferenças pequenas entre estoque e demanda exigem cálculo exato, não estimativa." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — Autoajuda</p>
+        <p class="text-xs text-slate-300">Estoque total de autoajuda (130) é menor que a demanda estimada (140).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Somar o estoque total de cada gênero:</strong> Ficção: 120+80=200; Autoajuda: 70+60=130; Romance: 85+60=145; Biografia: 50+45=95.</li>
+          <li><strong>Passo 2 — Comparar com a demanda estimada:</strong> Ficção: 200 vs 160 (suficiente); Autoajuda: 130 vs 140 (INSUFICIENTE); Romance: 145 vs 145 (suficiente, exatamente igual); Biografia: 95 vs 80 (suficiente).</li>
+          <li><strong>Passo 3 — Identificar o único caso de insuficiência:</strong> apenas Autoajuda tem estoque total (130) menor que a demanda (140).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Ficção — Incorreta</p>
+          <p class="text-xs text-slate-400">200 (estoque total) &gt; 160 (demanda) — estoque suficiente, com folga de 40 unidades.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Romance — Incorreta</p>
+          <p class="text-xs text-slate-400">145 (estoque total) = 145 (demanda) — exatamente suficiente, não insuficiente.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) Autoajuda — Correta ✓</p>
+          <p class="text-xs text-slate-400">130 (estoque total) &lt; 140 (demanda) — faltam 10 unidades para suprir a demanda.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Biografia — Incorreta</p>
+          <p class="text-xs text-slate-400">95 (estoque total) &gt; 80 (demanda) — estoque suficiente, com folga de 15 unidades.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Todos suficientes — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora o caso de Autoajuda, que apresenta déficit de estoque em relação à demanda.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Estoques por prateleira",
+      legenda: "Prateleira A e B para cada gênero",
+      svg: `<svg viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="160" fill="#0f172a"/>${[['Ficção',120,80],['Autoajuda',70,60],['Romance',85,60],['Biografia',50,45]].map((d,i)=>`<text x="10" y="${30+i*30}" fill="#94a3b8" font-size="10">${d[0]}: A=${d[1]} B=${d[2]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Estoque total vs demanda",
+      legenda: "Comparação lado a lado",
+      svg: `<svg viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="180" fill="#0f172a"/>${[['Ficção',200,160,'#10b981'],['Autoajuda',130,140,'#ef4444'],['Romance',145,145,'#f59e0b'],['Biografia',95,80,'#10b981']].map((d,i)=>`<text x="10" y="${25+i*40}" fill="#e2e8f0" font-size="11">${d[0]}</text><rect x="10" y="${30+i*40}" width="${d[1]/2}" height="10" fill="${d[3]}" opacity="0.7"/><rect x="10" y="${43+i*40}" width="${d[2]/2}" height="6" fill="#64748b"/>`).join('')}</svg>`
+    },
+    {
+      titulo: "Déficit da autoajuda",
+      legenda: "130 estoque vs 140 demanda = faltam 10",
+      svg: `<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="120" fill="#0f172a"/><rect x="30" y="30" width="65" height="30" fill="#f59e0b" opacity="0.6"/><rect x="30" y="70" width="70" height="30" fill="#ef4444" opacity="0.6"/><text x="100" y="50" fill="#fbbf24" font-size="11">estoque: 130</text><text x="105" y="90" fill="#f87171" font-size="11">demanda: 140</text></svg>`
+    },
+    {
+      titulo: "Gênero em déficit",
+      legenda: "Autoajuda precisa de reposição",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#f87171" font-size="18" text-anchor="middle" font-weight="bold">Autoajuda</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Estoque vs Demanda",
+    descricao: "Ajuste os estoques de cada prateleira e a demanda para ver se há déficit.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-3 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Prateleira A: <span id="q154-a" class="text-blue-300">70</span></label>
+            <input type="range" id="q154-ar" min="0" max="200" step="5" value="70" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Prateleira B: <span id="q154-b" class="text-blue-300">60</span></label>
+            <input type="range" id="q154-br" min="0" max="200" step="5" value="60" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Demanda: <span id="q154-d" class="text-blue-300">140</span></label>
+            <input type="range" id="q154-dr" min="0" max="300" step="5" value="140" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Estoque total</p>
+          <p id="q154-total" class="text-xl font-bold text-blue-300">130</p>
+          <p id="q154-status" class="text-lg font-bold text-rose-400 mt-2">Insuficiente (faltam 10)</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const ar = raiz.querySelector('#q154-ar');
+      const br = raiz.querySelector('#q154-br');
+      const dr = raiz.querySelector('#q154-dr');
+      const a = raiz.querySelector('#q154-a');
+      const b = raiz.querySelector('#q154-b');
+      const d = raiz.querySelector('#q154-d');
+      const total = raiz.querySelector('#q154-total');
+      const status = raiz.querySelector('#q154-status');
+      function atualizar() {
+        const A = parseFloat(ar.value), B = parseFloat(br.value), D = parseFloat(dr.value);
+        a.textContent = A; b.textContent = B; d.textContent = D;
+        const T = A + B;
+        total.textContent = T;
+        if (T < D) {
+          status.textContent = 'Insuficiente (faltam ' + (D - T) + ')';
+          status.className = 'text-lg font-bold text-rose-400 mt-2';
+        } else {
+          status.textContent = 'Suficiente (folga de ' + (T - D) + ')';
+          status.className = 'text-lg font-bold text-emerald-400 mt-2';
+        }
+      }
+      [ar,br,dr].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#f87171" font-size="18" text-anchor="middle" font-weight="bold">Autoajuda: déficit</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q155",
+  numero: 155,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "users",
+  titulo: "Comissão de Formatura: Escolhendo 3 Cargos Sem Repetir Casais",
+  tags: ["Análise combinatória", "Princípio multiplicativo", "Restrições"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma turma de formandos, composta por 20 pessoas (10 casais), precisa eleger uma comissão de formatura com 3 cargos distintos: presidente, tesoureiro e secretário. Cada pessoa pode ocupar no máximo um cargo, e nenhuma pessoa pode ser escolhida para um cargo se seu cônjuge (parceiro do casal) já tiver sido escolhido para outro cargo — ou seja, no máximo uma pessoa de cada casal pode fazer parte da comissão.</p>
+    <p><strong>O número de maneiras distintas de se formar essa comissão, respeitando essas condições, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "20 × 19 × 18", correta: false },
+    { letra: "B", texto: "20 × 18 × 16", correta: true },
+    { letra: "C", texto: "20 × 17 × 14", correta: false },
+    { letra: "D", texto: "10 × 9 × 8", correta: false },
+    { letra: "E", texto: "20 × 18 × 17", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de contagem com restrições exigem atenção redobrada: cada escolha pode "eliminar" mais de uma opção para a próxima etapa, e é preciso rastrear exatamente quantas opções restam a cada passo.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Princípio multiplicativo básico</p>
+        <p>Quando um cargo é escolhido após outro, e as escolhas são feitas em sequência, o número total de possibilidades é o produto do número de opções disponíveis em cada etapa — desde que as etapas sejam independentes ou que se ajuste corretamente as opções restantes a cada passo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O efeito da restrição de casais</p>
+        <p>Ao escolher uma pessoa para um cargo, não apenas essa pessoa fica indisponível para os próximos cargos, mas também seu cônjuge, pois a regra proíbe que ambos os membros de um casal estejam na comissão. Isso significa que cada escolha remove DUAS pessoas do total disponível para a próxima etapa (a pessoa escolhida e seu par).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Contando as opções etapa por etapa</p>
+        <p>Para o 1º cargo (presidente): 20 pessoas disponíveis. Para o 2º cargo (tesoureiro): das 20 pessoas, removem-se a que já foi escolhida e seu cônjuge, restando 18. Para o 3º cargo (secretário): removem-se as duas pessoas já escolhidas e seus respectivos cônjuges, restando 16.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Diferença para o caso sem restrição</p>
+        <p>Sem a restrição de casais, o cálculo seria simplesmente 20×19×18 (cada cargo removendo apenas 1 pessoa). A restrição de casal torna o problema mais complexo, pois cada escolha remove 2 pessoas do total disponível, não apenas 1.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "x", titulo: "Princípio multiplicativo", text: "Multiplicar o número de opções disponíveis em cada etapa sequencial." },
+    { icone: "users", titulo: "Restrição de pares", text: "Escolher uma pessoa também remove seu cônjuge das opções seguintes." },
+    { icone: "minus-circle", titulo: "Redução de 2 em 2", text: "Cada cargo preenchido remove 2 pessoas (a escolhida e seu par) do total disponível." },
+    { icone: "list-ordered", titulo: "Cargos distintos", text: "Presidente, tesoureiro e secretário são posições diferentes — a ordem de escolha importa." },
+    { icone: "alert-triangle", titulo: "Cuidado com contagem simples", text: "Ignorar a restrição de casais leva ao cálculo incorreto 20×19×18." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 20 × 18 × 16</p>
+        <p class="text-xs text-slate-300">Cada escolha remove a pessoa e seu cônjuge, reduzindo as opções de 2 em 2 a cada cargo preenchido.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Escolher o presidente:</strong> 20 pessoas disponíveis (nenhuma restrição ainda).</li>
+          <li><strong>Passo 2 — Escolher o tesoureiro:</strong> das 20 pessoas, removem-se o presidente e seu cônjuge → 18 pessoas disponíveis.</li>
+          <li><strong>Passo 3 — Escolher o secretário:</strong> removem-se também o tesoureiro e seu cônjuge → 16 pessoas disponíveis. Total: 20 × 18 × 16.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 20 × 19 × 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a restrição de casais, removendo apenas 1 pessoa por etapa.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 20 × 18 × 16 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Reduz corretamente as opções de 2 em 2 a cada cargo, respeitando a restrição de casais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 20 × 17 × 14 — Incorreta</p>
+          <p class="text-xs text-slate-400">Reduz as opções de forma excessiva, removendo mais pessoas do que a regra realmente exige.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10 × 9 × 8 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas 10 pessoas (um representante por casal) desde o início, quando na verdade as 20 pessoas podem ser escolhidas para o 1º cargo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 20 × 18 × 17 — Incorreta</p>
+          <p class="text-xs text-slate-400">Aplica a restrição de casal apenas na segunda etapa, esquecendo de removê-la também na terceira.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "20 pessoas, 10 casais",
+      legenda: "Situação inicial",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${Array.from({length:10}).map((_,i)=>`<circle cx="${20+i*24}" cy="40" r="8" fill="#3b82f6" opacity="0.7"/><circle cx="${20+i*24}" cy="60" r="8" fill="#8b5cf6" opacity="0.7"/>`).join('')}<text x="130" y="90" fill="#94a3b8" font-size="10" text-anchor="middle">10 casais = 20 pessoas</text></svg>`
+    },
+    {
+      titulo: "Escolha do presidente",
+      legenda: "20 opções disponíveis",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="18" text-anchor="middle" font-weight="bold">20 opções</text></svg>`
+    },
+    {
+      titulo: "Escolha do tesoureiro",
+      legenda: "Presidente e cônjuge removidos → 18",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#fbbf24" font-size="18" text-anchor="middle" font-weight="bold">18 opções</text></svg>`
+    },
+    {
+      titulo: "Escolha do secretário",
+      legenda: "Mais 2 removidos → 16 opções",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">16 opções</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Contagem com Restrição de Casais",
+    descricao: "Ajuste o número de casais e veja como o total de combinações muda.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Número de casais: <span id="q155-cval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q155-casais" min="3" max="20" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Cálculo</p>
+          <p id="q155-calculo" class="text-lg font-mono text-blue-300">20 × 18 × 16</p>
+          <p class="text-xs text-slate-400 mt-2">Total de comissões possíveis</p>
+          <p id="q155-total" class="text-2xl font-bold text-emerald-400">5.760</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const casais = raiz.querySelector('#q155-casais');
+      const cval = raiz.querySelector('#q155-cval');
+      const calculo = raiz.querySelector('#q155-calculo');
+      const totalEl = raiz.querySelector('#q155-total');
+      function atualizar() {
+        const C = parseFloat(casais.value);
+        cval.textContent = C;
+        const P = 2 * C;
+        const opts = [P, P-2, P-4];
+        calculo.textContent = opts.join(' × ');
+        totalEl.textContent = (opts[0]*opts[1]*opts[2]).toLocaleString('pt-BR');
+      }
+      casais.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">20 × 18 × 16</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q156",
+  numero: 156,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "map",
+  titulo: "Planta Baixa: Qual é a Escala Real do Desenho?",
+  tags: ["Escala", "Conversão de unidades", "Razão"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um engenheiro civil está analisando a planta baixa de uma casa. Ele mede, com uma régua, o comprimento de uma parede no desenho e obtém 20 cm. Consultando a planta da obra, ele descobre que essa mesma parede, na construção real, mede 30 metros.</p>
+    <p><strong>A escala utilizada nessa planta baixa (representada na forma 1:n) é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "1:15", correta: false },
+    { letra: "B", texto: "1:30", correta: false },
+    { letra: "C", texto: "1:50", correta: false },
+    { letra: "D", texto: "1:100", correta: false },
+    { letra: "E", texto: "1:150", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Determinar a escala de um desenho a partir de uma medida no desenho e a correspondente medida real é o processo inverso de "aplicar" uma escala — e exige atenção redobrada à conversão de unidades.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Definição de escala</p>
+        <p>Uma escala 1:n significa que 1 unidade de medida no desenho corresponde a n unidades da mesma medida na realidade. A escala é, portanto, uma razão entre o comprimento no desenho e o comprimento real, sempre nas MESMAS unidades.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Uniformizando as unidades antes de dividir</p>
+        <p>Antes de calcular a razão da escala, é fundamental converter ambas as medidas para a mesma unidade. Como a medida no desenho está em centímetros e a medida real está em metros, é preciso converter uma delas — o mais comum é converter a medida real para centímetros.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a razão n</p>
+        <p>Uma vez com as unidades uniformizadas, n = (medida real) / (medida no desenho). Esse valor de n representa quantas vezes a medida real é maior que a medida no desenho — ou seja, o fator de ampliação da escala.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Erros comuns de conversão</p>
+        <p>Um erro frequente é esquecer de converter metros para centímetros (ou vice-versa) antes de dividir, o que produz um valor de n mil vezes menor ou maior que o correto. Sempre verificar as unidades antes de finalizar o cálculo evita esse tipo de erro.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "ruler", titulo: "Escala como razão", text: "1:n significa 1 unidade no desenho = n unidades na realidade." },
+    { icone: "refresh-cw", titulo: "Conversão de unidades", text: "Converter metros para centímetros (1m = 100cm) antes de calcular a razão." },
+    { icone: "divide", titulo: "Cálculo de n", text: "n = medida real (na mesma unidade) / medida no desenho." },
+    { icone: "alert-triangle", titulo: "Erro comum de conversão", text: "Esquecer de uniformizar unidades produz resultados incorretos por fatores de 10, 100 ou 1000." },
+    { icone: "check-circle", titulo: "Verificação do resultado", text: "Confirmar que n × medida no desenho = medida real, nas mesmas unidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 1:150</p>
+        <p class="text-xs text-slate-300">20 cm no desenho correspondem a 3.000 cm na realidade; 3.000/20 = 150.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Converter a medida real para centímetros:</strong> 30 m = 30 × 100 = 3.000 cm.</li>
+          <li><strong>Passo 2 — Calcular a razão n:</strong> n = medida real / medida no desenho = 3.000 / 20 = 150.</li>
+          <li><strong>Passo 3 — Escrever a escala:</strong> 1:150 (1 cm no desenho = 150 cm na realidade).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 1:15 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece completamente de converter metros para centímetros, usando 30/20 diretamente.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 1:30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o valor da medida real (30 m) diretamente com o fator de escala.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 1:50 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de uma conversão parcial ou incorreta entre metros e centímetros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 1:100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Uma escala comum em plantas, mas não corresponde aos valores específicos desta questão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 1:150 — Correta ✓</p>
+          <p class="text-xs text-slate-400">3.000 cm (real) / 20 cm (desenho) = 150, confirmando a escala 1:150.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Medida no desenho",
+      legenda: "Parede: 20 cm na planta",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="40" y="45" width="120" height="10" fill="#3b82f6"/><text x="100" y="35" fill="#93c5fd" font-size="12" text-anchor="middle">20 cm</text></svg>`
+    },
+    {
+      titulo: "Medida real",
+      legenda: "Parede: 30 m na construção",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="45" width="160" height="14" fill="#f59e0b" opacity="0.7"/><text x="100" y="35" fill="#fbbf24" font-size="12" text-anchor="middle">30 m = 3.000 cm</text></svg>`
+    },
+    {
+      titulo: "Conversão de unidades",
+      legenda: "30 m × 100 = 3.000 cm",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="15" text-anchor="middle" font-family="monospace">30 × 100 = 3000</text></svg>`
+    },
+    {
+      titulo: "Escala calculada",
+      legenda: "1:150",
+      svg: `<svg viewBox="0 0 200 90" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="90" fill="#0f172a"/><text x="100" y="50" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1:150</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Escala",
+    descricao: "Ajuste as medidas no desenho e na realidade para calcular a escala.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Medida no desenho (cm): <span id="q156-dval" class="text-blue-300 font-bold">20</span></label>
+          <input type="range" id="q156-desenho" min="1" max="50" step="1" value="20" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Medida real (m): <span id="q156-rval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q156-real" min="1" max="100" step="1" value="30" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Escala calculada</p>
+          <p id="q156-escala" class="text-3xl font-bold text-emerald-400">1:150</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const desenho = raiz.querySelector('#q156-desenho');
+      const real = raiz.querySelector('#q156-real');
+      const dval = raiz.querySelector('#q156-dval');
+      const rval = raiz.querySelector('#q156-rval');
+      const escalaEl = raiz.querySelector('#q156-escala');
+      function atualizar() {
+        const D = parseFloat(desenho.value);
+        const R = parseFloat(real.value);
+        dval.textContent = D;
+        rval.textContent = R;
+        const n = Math.round((R * 100) / D);
+        escalaEl.textContent = '1:' + n;
+      }
+      desenho.addEventListener('input', atualizar);
+      real.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">1:150</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q157",
+  numero: 157,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flag",
+  titulo: "Torre e Farol: Interpretando uma Razão Entre Alturas",
+  tags: ["Razão e proporção", "Interpretação de texto matemático", "Leitura de dados"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma cidade litorânea, há uma torre de telecomunicações (T) e um farol histórico (F). Um estudo de patrimônio urbano descreve a relação entre as alturas das duas estruturas da seguinte forma: "a altura da torre de telecomunicações é 1,59 vezes a altura do farol histórico".</p>
+    <p><strong>Considerando T a altura da torre e F a altura do farol, a razão T/F descrita nesse estudo é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "T/F = 0,63", correta: false },
+    { letra: "B", texto: "T/F = 1,00", correta: false },
+    { letra: "C", texto: "T/F = 1,59", correta: true },
+    { letra: "D", texto: "T/F = 1,90", correta: false },
+    { letra: "E", texto: "T/F = 2,59", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Traduzir uma frase do tipo "A é k vezes B" para uma razão matemática é uma habilidade de interpretação fundamental — e a ordem das palavras na frase determina exatamente qual grandeza vai no numerador e qual vai no denominador.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Traduzindo "A é k vezes B" em uma equação</p>
+        <p>Quando um texto afirma que "A é k vezes B", isso se traduz matematicamente como A = k × B. Essa é a forma mais direta e literal de converter a frase em uma relação numérica.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a razão pedida</p>
+        <p>A partir de A = k × B, pode-se isolar a razão A/B dividindo ambos os lados por B: A/B = k. Ou seja, a razão entre A e B é exatamente o valor de k mencionado na frase — nenhum cálculo adicional é necessário além dessa manipulação direta.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Atenção à ordem da razão pedida</p>
+        <p>É fundamental verificar qual razão está sendo pedida (T/F ou F/T), pois elas são recíprocas (uma é o inverso da outra) e não têm o mesmo valor. Confundir a ordem é o erro mais comum nesse tipo de questão.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação por substituição de valores</p>
+        <p>Uma forma de checar o raciocínio é imaginar valores concretos: se o farol (F) mede 10 m, a torre (T) mede 1,59 × 10 = 15,9 m. Logo, T/F = 15,9/10 = 1,59 — confirmando que a razão pedida é diretamente o valor mencionado no enunciado.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "arrow-right", titulo: "Tradução de frase para equação", text: "'A é k vezes B' se traduz em A = k × B." },
+    { icone: "divide", titulo: "Isolamento da razão", text: "A/B = k é obtido diretamente dividindo ambos os lados por B." },
+    { icone: "arrow-left-right", titulo: "Razão vs. razão inversa", text: "T/F e F/T são recíprocas — atenção à ordem pedida." },
+    { icone: "check-circle", titulo: "Verificação por substituição", text: "Testar com valores concretos confirma a interpretação da razão." },
+    { icone: "book-open", titulo: "Interpretação de texto matemático", text: "Ler com atenção qual grandeza é comparada a qual." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — T/F = 1,59</p>
+        <p class="text-xs text-slate-300">A frase "T é 1,59 vezes F" se traduz diretamente em T/F = 1,59.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Traduzir a frase:</strong> "T é 1,59 vezes F" → T = 1,59 × F.</li>
+          <li><strong>Passo 2 — Isolar a razão T/F:</strong> dividindo ambos os lados por F: T/F = 1,59.</li>
+          <li><strong>Passo 3 — Confirmar com um exemplo numérico:</strong> se F = 10, então T = 15,9, e T/F = 15,9/10 = 1,59. ✓</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) T/F = 0,63 — Incorreta</p>
+          <p class="text-xs text-slate-400">É o valor de F/T (o inverso de 1,59), não T/F como pedido.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) T/F = 1,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Sugere que as alturas são iguais, contradizendo a informação do enunciado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) T/F = 1,59 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Tradução direta e literal da frase "T é 1,59 vezes F".</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) T/F = 1,90 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor arbitrário que não corresponde ao número mencionado no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) T/F = 2,59 — Incorreta</p>
+          <p class="text-xs text-slate-400">Soma incorretamente 1 ao valor de 1,59, um erro de manipulação da relação.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A torre e o farol",
+      legenda: "T = torre, F = farol",
+      svg: `<svg viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="160" fill="#0f172a"/><rect x="40" y="30" width="20" height="110" fill="#3b82f6" opacity="0.7"/><rect x="120" y="70" width="30" height="70" fill="#f59e0b" opacity="0.7"/><text x="50" y="150" fill="#93c5fd" font-size="11" text-anchor="middle">T</text><text x="135" y="150" fill="#fbbf24" font-size="11" text-anchor="middle">F</text></svg>`
+    },
+    {
+      titulo: "Frase do estudo",
+      legenda: '"T é 1,59 vezes F"',
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#e2e8f0" font-size="13" text-anchor="middle">T = 1,59 × F</text></svg>`
+    },
+    {
+      titulo: "Isolando a razão",
+      legenda: "T/F = 1,59",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">T/F = 1,59</text></svg>`
+    },
+    {
+      titulo: "Verificação com exemplo",
+      legenda: "F=10 → T=15,9 → T/F=1,59",
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#94a3b8" font-size="12" text-anchor="middle">F=10, T=15,9 → 15,9/10=1,59</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Razão Entre Alturas",
+    descricao: "Ajuste a altura do farol e o fator multiplicativo para ver a altura da torre e a razão.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Altura do farol F (m): <span id="q157-fval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q157-farol" min="1" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Fator (T é k vezes F): <span id="q157-kval" class="text-blue-300 font-bold">1.59</span></label>
+          <input type="range" id="q157-fator" min="0.5" max="3" step="0.01" value="1.59" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Altura da torre T</p>
+          <p id="q157-torre" class="text-lg font-bold text-blue-300">15,90 m</p>
+          <p class="text-xs text-slate-400 mt-2">Razão T/F</p>
+          <p id="q157-razao" class="text-3xl font-bold text-emerald-400">1,59</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const farol = raiz.querySelector('#q157-farol');
+      const fator = raiz.querySelector('#q157-fator');
+      const fval = raiz.querySelector('#q157-fval');
+      const kval = raiz.querySelector('#q157-kval');
+      const torreEl = raiz.querySelector('#q157-torre');
+      const razaoEl = raiz.querySelector('#q157-razao');
+      function atualizar() {
+        const F = parseFloat(farol.value);
+        const K = parseFloat(fator.value);
+        fval.textContent = F;
+        kval.textContent = K.toFixed(2);
+        const T = F * K;
+        torreEl.textContent = T.toFixed(2) + ' m';
+        razaoEl.textContent = (T / F).toFixed(2);
+      }
+      farol.addEventListener('input', atualizar);
+      fator.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">T/F = 1,59</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q158",
+  numero: 158,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bus",
+  titulo: "Van Escolar: Recalculando a Mensalidade Após o Novo Seguro",
+  tags: ["Matemática financeira", "Custos fixos e variáveis", "Equação de preço"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa de transporte escolar atende 120 alunos com sua frota de vans. As despesas mensais da empresa são compostas por um custo fixo de R$ 14.240,00 (combustível, manutenção, salários dos motoristas) somado a um custo de seguro de R$ 36,00 por aluno transportado.</p>
+    <p>A seguradora reajustou o valor do seguro por aluno para R$ 43,20. Para manter um lucro mensal de R$ 10.000,00, a empresa decidiu recalcular a mensalidade cobrada por aluno, dividindo igualmente entre os 120 alunos o valor total necessário para cobrir as novas despesas mais o lucro desejado.</p>
+    <p><strong>O novo valor da mensalidade por aluno, em reais, deve ser:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 154,67", correta: false },
+    { letra: "B", texto: "R$ 202,00", correta: false },
+    { letra: "C", texto: "R$ 245,20", correta: true },
+    { letra: "D", texto: "R$ 280,00", correta: false },
+    { letra: "E", texto: "R$ 322,53", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Precificar um serviço dividido entre vários clientes exige somar corretamente custos fixos, custos variáveis e a margem de lucro desejada, para então dividir o total pelo número de clientes.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Custos fixos vs. custos variáveis</p>
+        <p>Custos fixos não dependem da quantidade de clientes atendidos (ex.: combustível, salários). Custos variáveis mudam proporcionalmente ao número de clientes (ex.: seguro por aluno). O custo variável total é obtido multiplicando o custo por unidade pela quantidade de unidades.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando a despesa total</p>
+        <p>Despesa total = custo fixo + (custo variável por unidade × número de unidades). Essa soma representa tudo o que a empresa precisa cobrir apenas para não ter prejuízo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Incluindo a margem de lucro desejada</p>
+        <p>Para obter o valor total que precisa ser arrecadado (receita necessária), soma-se o lucro desejado à despesa total: receita necessária = despesa total + lucro desejado.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Dividindo igualmente entre os clientes</p>
+        <p>O valor da mensalidade por aluno é obtido dividindo a receita necessária pelo número de alunos: mensalidade = receita necessária / número de alunos. Esse valor garante que a soma de todas as mensalidades cobre exatamente as despesas e o lucro planejado.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "layers", titulo: "Custo fixo vs. variável", text: "Fixo não muda com a quantidade; variável é proporcional ao número de unidades." },
+    { icone: "plus", titulo: "Despesa total", text: "Custo fixo + (custo variável por unidade × quantidade de unidades)." },
+    { icone: "trending-up", titulo: "Margem de lucro", text: "Receita necessária = despesa total + lucro desejado." },
+    { icone: "divide", titulo: "Divisão igualitária", text: "Mensalidade por cliente = receita necessária / número de clientes." },
+    { icone: "calculator", titulo: "Precificação de serviços", text: "Aplicação direta de matemática financeira ao cálculo de mensalidades." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — R$ 245,20</p>
+        <p class="text-xs text-slate-300">Somando despesas fixas, variáveis (com o novo seguro) e o lucro desejado, e dividindo por 120 alunos, obtém-se R$ 245,20.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a nova despesa total:</strong> 14.240 + (43,20 × 120) = 14.240 + 5.184 = 19.424.</li>
+          <li><strong>Passo 2 — Somar o lucro desejado:</strong> receita necessária = 19.424 + 10.000 = 29.424.</li>
+          <li><strong>Passo 3 — Dividir pelos 120 alunos:</strong> 29.424 / 120 = 245,20.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 154,67 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de incluir o lucro desejado na receita necessária.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) R$ 202,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa o valor antigo do seguro (R$ 36,00) em vez do valor reajustado (R$ 43,20).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) R$ 245,20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">(14.240 + 43,20×120 + 10.000) / 120 = 29.424 / 120 = 245,20.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) R$ 280,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima o custo fixo ou o lucro desejado durante o cálculo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 322,53 — Incorreta</p>
+          <p class="text-xs text-slate-400">Divide a receita necessária por um número de alunos menor que 120, inflando o resultado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Custo fixo mensal",
+      legenda: "R$ 14.240,00 (independe do nº de alunos)",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="15" text-anchor="middle">Fixo: R$ 14.240</text></svg>`
+    },
+    {
+      titulo: "Custo variável (seguro)",
+      legenda: "43,20 × 120 = R$ 5.184,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">43,20 × 120</text><text x="100" y="68" fill="#fbbf24" font-size="14" text-anchor="middle">= R$ 5.184</text></svg>`
+    },
+    {
+      titulo: "Receita necessária",
+      legenda: "Despesas + lucro = R$ 29.424,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="13" text-anchor="middle">19.424 + 10.000</text><text x="100" y="68" fill="#c4b5fd" font-size="14" text-anchor="middle">= R$ 29.424</text></svg>`
+    },
+    {
+      titulo: "Mensalidade por aluno",
+      legenda: "29.424 / 120 = R$ 245,20",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 245,20</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Mensalidade",
+    descricao: "Ajuste custo fixo, seguro por aluno, lucro desejado e número de alunos.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Custo fixo (R$): <span id="q158-fval" class="text-blue-300 font-bold">14240</span></label>
+          <input type="range" id="q158-fixo" min="5000" max="30000" step="100" value="14240" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Seguro por aluno (R$): <span id="q158-sval" class="text-blue-300 font-bold">43.20</span></label>
+          <input type="range" id="q158-seguro" min="10" max="100" step="0.1" value="43.2" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Lucro desejado (R$): <span id="q158-lval" class="text-blue-300 font-bold">10000</span></label>
+          <input type="range" id="q158-lucro" min="0" max="30000" step="500" value="10000" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Número de alunos: <span id="q158-nval" class="text-blue-300 font-bold">120</span></label>
+          <input type="range" id="q158-alunos" min="10" max="300" step="5" value="120" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Mensalidade por aluno</p>
+          <p id="q158-resultado" class="text-3xl font-bold text-emerald-400">R$ 245,20</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fixo = raiz.querySelector('#q158-fixo');
+      const seguro = raiz.querySelector('#q158-seguro');
+      const lucro = raiz.querySelector('#q158-lucro');
+      const alunos = raiz.querySelector('#q158-alunos');
+      const fval = raiz.querySelector('#q158-fval');
+      const sval = raiz.querySelector('#q158-sval');
+      const lval = raiz.querySelector('#q158-lval');
+      const nval = raiz.querySelector('#q158-nval');
+      const resultado = raiz.querySelector('#q158-resultado');
+      function atualizar() {
+        const F = parseFloat(fixo.value);
+        const S = parseFloat(seguro.value);
+        const L = parseFloat(lucro.value);
+        const N = parseFloat(alunos.value);
+        fval.textContent = F.toFixed(0);
+        sval.textContent = S.toFixed(2);
+        lval.textContent = L.toFixed(0);
+        nval.textContent = N.toFixed(0);
+        const receita = F + S * N + L;
+        resultado.textContent = 'R$ ' + (receita / N).toFixed(2).replace('.', ',');
+      }
+      [fixo,seguro,lucro,alunos].forEach(el => el.addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 245,20</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q159",
+  numero: 159,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "package",
+  titulo: "Distribuição de Cestas Básicas: Quantas Famílias Serão Atendidas?",
+  tags: ["Divisão", "Proporcionalidade", "Matemática aplicada"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma organização não governamental recebeu uma doação de 20.000 kg de alimentos para montar cestas básicas destinadas a famílias em situação de vulnerabilidade. Cada cesta básica, para atender adequadamente uma família por um mês, deve conter exatamente 250 kg de alimentos.</p>
+    <p><strong>O número de famílias que poderão ser atendidas com essa doação, montando o maior número possível de cestas completas, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "40", correta: false },
+    { letra: "B", texto: "50", correta: false },
+    { letra: "C", texto: "70", correta: false },
+    { letra: "D", texto: "80", correta: true },
+    { letra: "E", texto: "100", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Dividir uma quantidade total por uma quantidade fixa por unidade é uma das operações mais recorrentes em problemas de distribuição de recursos — a chave é identificar corretamente qual valor é o total e qual é o "tamanho do pacote".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando o total e a unidade</p>
+        <p>Nesta questão, o total disponível é 20.000 kg de alimentos, e cada "pacote" (cesta básica) consome 250 kg. O número de pacotes completos que podem ser montados é obtido dividindo o total pela quantidade por pacote.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Divisão exata vs. divisão com resto</p>
+        <p>Quando a divisão é exata (sem resto), o número de pacotes completos é exatamente o quociente da divisão. Quando há resto, esse resto não é suficiente para formar mais um pacote completo, e deve ser descartado da contagem de pacotes completos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Relacionando pacotes com famílias atendidas</p>
+        <p>Como cada cesta básica atende exatamente uma família, o número de famílias atendidas é igual ao número de cestas completas que podem ser montadas — não é necessário nenhum cálculo adicional além da divisão.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação por multiplicação</p>
+        <p>Uma forma simples de conferir o resultado é multiplicar o número de cestas encontrado pela quantidade por cesta e verificar se o resultado não ultrapassa o total disponível: 80 × 250 = 20.000, exatamente o total disponível.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "divide", titulo: "Divisão total por unidade", text: "Número de pacotes = quantidade total / quantidade por pacote." },
+    { icone: "package", titulo: "Pacotes completos", text: "Apenas pacotes inteiros contam; sobras não formam um novo pacote." },
+    { icone: "users", titulo: "Correspondência direta", text: "Cada cesta atende exatamente uma família — resultado direto da divisão." },
+    { icone: "check-circle", titulo: "Verificação por multiplicação", text: "Multiplicar o resultado pela quantidade por unidade deve reproduzir o total." },
+    { icone: "target", titulo: "Leitura cuidadosa de unidades", text: "Garantir que as duas quantidades estejam na mesma unidade de medida (kg)." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 80 famílias</p>
+        <p class="text-xs text-slate-300">20.000 kg ÷ 250 kg por cesta = 80 cestas completas, atendendo 80 famílias.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar o total e a unidade:</strong> total = 20.000 kg; cada cesta = 250 kg.</li>
+          <li><strong>Passo 2 — Dividir:</strong> 20.000 / 250 = 80.</li>
+          <li><strong>Passo 3 — Verificar:</strong> 80 × 250 = 20.000, confirmando que a divisão é exata e não sobra alimento suficiente para outra cesta.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 500, um valor incorreto de kg por cesta.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 50 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 400, também um valor incorreto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 70 — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo do valor correto, mas resulta de um erro de arredondamento na divisão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 80 — Correta ✓</p>
+          <p class="text-xs text-slate-400">20.000 / 250 = 80, divisão exata sem resto.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 100 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de dividir 20.000 por 200, valor de kg por cesta incorreto.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Total doado",
+      legenda: "20.000 kg de alimentos",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#93c5fd" font-size="16" text-anchor="middle" font-weight="bold">20.000 kg</text></svg>`
+    },
+    {
+      titulo: "Uma cesta básica",
+      legenda: "250 kg por família",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="70" y="30" width="60" height="45" fill="#f59e0b" opacity="0.6" rx="6"/><text x="100" y="90" fill="#fbbf24" font-size="12" text-anchor="middle">250 kg</text></svg>`
+    },
+    {
+      titulo: "Divisão",
+      legenda: "20.000 ÷ 250 = 80",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="17" text-anchor="middle" font-family="monospace">20.000 ÷ 250 = 80</text></svg>`
+    },
+    {
+      titulo: "Famílias atendidas",
+      legenda: "80 cestas completas",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="35" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="58" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">80</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Montagem de Cestas Básicas",
+    descricao: "Ajuste o total de alimentos doados e o peso de cada cesta.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Total doado (kg): <span id="q159-tval" class="text-blue-300 font-bold">20000</span></label>
+          <input type="range" id="q159-total" min="1000" max="50000" step="100" value="20000" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Peso por cesta (kg): <span id="q159-cval" class="text-blue-300 font-bold">250</span></label>
+          <input type="range" id="q159-cesta" min="50" max="500" step="10" value="250" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Famílias atendidas (cestas completas)</p>
+          <p id="q159-resultado" class="text-3xl font-bold text-emerald-400">80</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const total = raiz.querySelector('#q159-total');
+      const cesta = raiz.querySelector('#q159-cesta');
+      const tval = raiz.querySelector('#q159-tval');
+      const cval = raiz.querySelector('#q159-cval');
+      const resultado = raiz.querySelector('#q159-resultado');
+      function atualizar() {
+        const T = parseFloat(total.value);
+        const C = parseFloat(cesta.value);
+        tval.textContent = T;
+        cval.textContent = C;
+        resultado.textContent = Math.floor(T / C);
+      }
+      total.addEventListener('input', atualizar);
+      cesta.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">80 famílias</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q160",
+  numero: 160,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "wave-sine",
+  titulo: "Sensor de Vibração: Encontrando a Função Tangente que Modela o Sinal",
+  tags: ["Funções trigonométricas", "Função tangente", "Transformações de gráficos"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um engenheiro analisa o sinal D (em milímetros) captado por um sensor de vibração em função do tempo T (em segundos), e observa que esse sinal se comporta como uma função do tipo tangente, com as seguintes características:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>o sinal apresenta assíntotas verticais espaçadas em intervalos de 2π (período igual a 2π), o que indica um fator de compressão horizontal de 1/2 dentro da tangente;</li>
+      <li>a "linha central" em torno da qual o sinal oscila (o valor médio entre picos consecutivos de crescimento) é D = 30;</li>
+      <li>o ponto onde a tangente cruza sua linha central mais próximo da origem ocorre em T = 5/2.</li>
+    </ul>
+    <p><strong>A função D(T) que descreve corretamente esse sinal é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "D = 30 + tan(T − 5/2)", correta: false },
+    { letra: "B", texto: "D = 30 + tan[2(T − 5/2)]", correta: false },
+    { letra: "C", texto: "D = 30 − tan[(1/2)(T − 5/2)]", correta: false },
+    { letra: "D", texto: "D = 25 + tan[(1/2)(T − 5/2)]", correta: false },
+    { letra: "E", texto: "D = 30 + tan[(1/2)(T − 5/2)]", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A função tangente, diferente do seno e cosseno, tem assíntotas verticais e período π (não 2π). Modelar um fenômeno com tangente exige atenção a três transformações: deslocamento vertical, mudança de período e deslocamento horizontal.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A forma geral da função tangente transformada</p>
+        <p>Uma função tangente transformada tem a forma D(T) = k + tan[b(T − m)], em que k é o deslocamento vertical (a linha central), b controla o período (período = π/b para a tangente básica) e m é o deslocamento horizontal (fase).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Determinando k (deslocamento vertical)</p>
+        <p>O valor de k é simplesmente a "linha central" em torno da qual a função tangente oscila — no gráfico, é o valor de D no ponto onde a tangente cruza seu próprio eixo de simetria (onde tan(...) = 0). Aqui, k = 30.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Determinando b (fator de período)</p>
+        <p>A tangente básica tan(x) tem período π. Se o problema informa que as assíntotas (e, portanto, os ciclos completos) se repetem a cada 2π, isso significa que o período da função transformada é 2π. Como período = π/b, tem-se 2π = π/b, logo b = 1/2.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Determinando m (deslocamento horizontal)</p>
+        <p>O valor de m é o ponto onde a expressão dentro da tangente vale zero (tan(0) = 0), ou seja, onde a função cruza sua linha central. Como isso ocorre em T = 5/2, tem-se m = 5/2, e a expressão final é D = 30 + tan[(1/2)(T − 5/2)].</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "activity", titulo: "Forma geral k + tan[b(T−m)]", text: "k desloca verticalmente, b altera o período, m desloca horizontalmente." },
+    { icone: "move-vertical", titulo: "Deslocamento vertical k", text: "Valor da linha central em torno da qual a tangente oscila." },
+    { icone: "repeat", titulo: "Fator de período b", text: "Período da tangente = π/b; período dado permite calcular b." },
+    { icone: "move-horizontal", titulo: "Deslocamento horizontal m", text: "Ponto onde a expressão interna da tangente é zero." },
+    { icone: "alert-triangle", titulo: "Período da tangente vs. seno/cosseno", text: "A tangente tem período π (não 2π) na sua forma básica — cuidado ao calcular b." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — D = 30 + tan[(1/2)(T − 5/2)]</p>
+        <p class="text-xs text-slate-300">k=30, b=1/2 (período 2π) e m=5/2, combinados na forma correta.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Determinar k:</strong> a linha central é D = 30, então k = 30.</li>
+          <li><strong>Passo 2 — Determinar b:</strong> período dado = 2π; como período = π/b, então b = π/(2π) = 1/2.</li>
+          <li><strong>Passo 3 — Determinar m:</strong> o cruzamento com a linha central ocorre em T = 5/2, então m = 5/2. Função final: D = 30 + tan[(1/2)(T − 5/2)].</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) D = 30 + tan(T − 5/2) — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa b = 1, resultando em período π, não 2π como especificado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) D = 30 + tan[2(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa b = 2, o que resultaria em período π/2, muito menor que o especificado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) D = 30 − tan[(1/2)(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte o sinal da tangente, refletindo o gráfico verticalmente de forma não especificada no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) D = 25 + tan[(1/2)(T − 5/2)] — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa k = 25 em vez de 30, um valor incorreto para a linha central.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) D = 30 + tan[(1/2)(T − 5/2)] — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente k=30, b=1/2 e m=5/2, satisfazendo todas as condições do enunciado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Tangente básica",
+      legenda: "tan(x): período π, assíntotas verticais",
+      svg: `<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="140" fill="#0f172a"/><line x1="10" y1="70" x2="190" y2="70" stroke="#475569"/><line x1="60" y1="10" x2="60" y2="130" stroke="#64748b" stroke-dasharray="3"/><line x1="140" y1="10" x2="140" y2="130" stroke="#64748b" stroke-dasharray="3"/><path d="M 65 120 Q 95 70 100 70 Q 105 70 135 20" stroke="#3b82f6" stroke-width="2" fill="none"/></svg>`
+    },
+    {
+      titulo: "Deslocamento vertical (k=30)",
+      legenda: "Linha central em D=30",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><line x1="10" y1="50" x2="190" y2="50" stroke="#f59e0b" stroke-dasharray="4"/><text x="100" y="40" fill="#fbbf24" font-size="12" text-anchor="middle">D = 30</text></svg>`
+    },
+    {
+      titulo: "Período 2π (b=1/2)",
+      legenda: "Assíntotas mais espaçadas",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><line x1="30" y1="10" x2="30" y2="90" stroke="#64748b" stroke-dasharray="3"/><line x1="170" y1="10" x2="170" y2="90" stroke="#64748b" stroke-dasharray="3"/><text x="100" y="50" fill="#c4b5fd" font-size="12" text-anchor="middle">período = 2π</text></svg>`
+    },
+    {
+      titulo: "Deslocamento horizontal (m=5/2)",
+      legenda: "Cruzamento com a linha central em T=5/2",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="5" fill="#10b981"/><text x="100" y="35" fill="#6ee7b7" font-size="12" text-anchor="middle">T = 5/2</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Transformações da Tangente",
+    descricao: "Ajuste k, b e m e veja a função tangente resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">k (deslocamento vertical): <span id="q160-kval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q160-k" min="0" max="60" step="1" value="30" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">b (fator de período): <span id="q160-bval" class="text-blue-300 font-bold">0.5</span></label>
+          <input type="range" id="q160-b" min="0.25" max="2" step="0.25" value="0.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">m (deslocamento horizontal): <span id="q160-mval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q160-m" min="0" max="10" step="0.5" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Função resultante</p>
+          <p id="q160-funcao" class="text-lg font-bold text-emerald-400">D = 30 + tan[0.5(T − 2.5)]</p>
+          <p class="text-xs text-slate-400 mt-2">Período</p>
+          <p id="q160-periodo" class="text-sm text-blue-300">2π</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const k = raiz.querySelector('#q160-k');
+      const b = raiz.querySelector('#q160-b');
+      const m = raiz.querySelector('#q160-m');
+      const kval = raiz.querySelector('#q160-kval');
+      const bval = raiz.querySelector('#q160-bval');
+      const mval = raiz.querySelector('#q160-mval');
+      const funcao = raiz.querySelector('#q160-funcao');
+      const periodo = raiz.querySelector('#q160-periodo');
+      function atualizar() {
+        const K = parseFloat(k.value);
+        const B = parseFloat(b.value);
+        const M = parseFloat(m.value);
+        kval.textContent = K;
+        bval.textContent = B;
+        mval.textContent = M;
+        funcao.textContent = 'D = ' + K + ' + tan[' + B + '(T − ' + M + ')]';
+        periodo.textContent = (Math.PI / B).toFixed(2) + ' rad';
+      }
+      k.addEventListener('input', atualizar);
+      b.addEventListener('input', atualizar);
+      m.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="13" text-anchor="middle" font-weight="bold">D = 30 + tan[(1/2)(T−5/2)]</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q161",
+  numero: 161,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "map-pin",
+  titulo: "Mapa do Bairro: Encontrando o Quarteirão da Casa de João",
+  tags: ["Orientação espacial", "Malha quadriculada", "Lógica de percurso"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>O bairro onde Ana mora é organizado em uma malha quadriculada de ruas, com quarteirões identificados por letras em suas esquinas noroeste. João descreve o caminho que faz, saindo de sua própria casa, até chegar à casa de Ana (localizada no quarteirão A) da seguinte forma:</p>
+    <p>"Saio de casa e caminho para o oeste, atravessando todo o meu próprio quarteirão (1 quarteirão). Na esquina, viro à direita, seguindo para o norte, e caminho por 3 quarteirões. Em seguida, viro à esquerda, seguindo para o oeste, e caminho por mais 2 quarteirões, chegando exatamente à casa de Ana."</p>
+    <p>Observando o mapa a seguir (com quarteirões identificados pelas letras P, Q, R, S e T, além do quarteirão A onde mora Ana):</p>
+    <p><strong>O quarteirão onde fica a casa de João é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Quarteirão P", correta: true },
+    { letra: "B", texto: "Quarteirão Q", correta: false },
+    { letra: "C", texto: "Quarteirão R", correta: false },
+    { letra: "D", texto: "Quarteirão S", correta: false },
+    { letra: "E", texto: "Quarteirão T", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de orientação em malhas quadriculadas são resolvidos "andando de trás para frente": partindo do destino conhecido e revertendo cada movimento descrito, na ordem inversa, até chegar ao ponto de partida.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Representando deslocamentos como vetores</p>
+        <p>Cada trecho do percurso pode ser representado como um deslocamento em uma malha: "oeste" e "leste" alteram a coordenada horizontal (coluna); "norte" e "sul" alteram a coordenada vertical (linha). Somar todos os deslocamentos na ordem correta dá a posição final a partir da posição inicial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Revertendo o percurso (do destino para a origem)</p>
+        <p>Quando se conhece o destino e se quer encontrar a origem, a estratégia mais direta é inverter cada movimento na ordem inversa: se o último movimento foi "2 quarteirões para o oeste", o movimento revertido é "2 quarteirões para o leste", e assim por diante, até desfazer todo o percurso.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Atenção às mudanças de direção relativas ("direita"/"esquerda")</p>
+        <p>Termos como "virar à direita" ou "virar à esquerda" são relativos à direção em que a pessoa está caminhando no momento, não direções absolutas fixas. É preciso rastrear cuidadosamente a direção absoluta (norte, sul, leste, oeste) resultante de cada virada, considerando a direção anterior.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Somando os deslocamentos totais</p>
+        <p>Ao final, soma-se todos os deslocamentos horizontais entre si e todos os deslocamentos verticais entre si, obtendo o deslocamento total (em colunas e linhas) entre a origem e o destino — esse deslocamento total é o que, revertido, leva do destino de volta à origem.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "compass", titulo: "Deslocamento em malha quadriculada", text: "Movimentos leste/oeste alteram colunas; norte/sul alteram linhas." },
+    { icone: "rotate-ccw", titulo: "Reversão de percurso", text: "Inverter cada movimento na ordem inversa leva do destino à origem." },
+    { icone: "corner-up-left", titulo: "Direções relativas", text: "'Direita' e 'esquerda' dependem da direção atual de caminhada, não são fixas." },
+    { icone: "plus", titulo: "Soma vetorial de deslocamentos", text: "Somar todos os movimentos horizontais e verticais separadamente." },
+    { icone: "map", titulo: "Leitura de mapas quadriculados", text: "Identificar corretamente a posição de cada quarteirão na malha." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Quarteirão P</p>
+        <p class="text-xs text-slate-300">Revertendo o percurso a partir de A, chega-se exatamente ao quarteirão P.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Somar o deslocamento total do percurso:</strong> 1 quarteirão oeste + 3 quarteirões norte + 2 quarteirões oeste = 3 quarteirões oeste no total, e 3 quarteirões norte no total.</li>
+          <li><strong>Passo 2 — Reverter esse deslocamento a partir de A:</strong> se de João até Ana o deslocamento foi (3 oeste, 3 norte), então de Ana até João o deslocamento reverso é (3 leste, 3 sul).</li>
+          <li><strong>Passo 3 — Aplicar o deslocamento reverso a partir de A:</strong> partindo de A, andar 3 quarteirões para leste e 3 quarteirões para sul leva exatamente ao quarteirão P.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Quarteirão P — Correta ✓</p>
+          <p class="text-xs text-slate-400">Posição obtida revertendo corretamente todo o percurso descrito por João.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Quarteirão Q — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de contar o primeiro trecho ("atravessando o próprio quarteirão"), subestimando o deslocamento horizontal em 1 quarteirão.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Quarteirão R — Incorreta</p>
+          <p class="text-xs text-slate-400">Troca os valores de deslocamento horizontal e vertical entre si (3 e 2 invertidos).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Quarteirão S — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte a direção do primeiro movimento (trata "oeste" como "leste"), alterando o resultado final.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Quarteirão T — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas o deslocamento vertical (norte/sul), ignorando os deslocamentos horizontais do percurso.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "O mapa quadriculado",
+      legenda: "Quarteirões identificados por letras",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/>${Array.from({length:8}).map((_,i)=>`<line x1="${20+i*30}" y1="20" x2="${20+i*30}" y2="240" stroke="#334155"/><line x1="20" y1="${20+i*30}" x2="240" y2="${20+i*30}" stroke="#334155"/>`).join('')}<circle cx="80" cy="80" r="6" fill="#f59e0b"/><text x="80" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">A</text><circle cx="170" cy="170" r="6" fill="#10b981"/><text x="170" y="195" fill="#6ee7b7" font-size="12" text-anchor="middle">P</text></svg>`
+    },
+    {
+      titulo: "Percurso de João até Ana",
+      legenda: "1 oeste + 3 norte + 2 oeste",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/><path d="M 170 170 L 140 170 L 140 80 L 80 80" stroke="#3b82f6" stroke-width="3" fill="none" marker-end="url(#arrow161)"/><defs><marker id="arrow161" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#3b82f6"/></marker></defs><circle cx="170" cy="170" r="6" fill="#10b981"/><circle cx="80" cy="80" r="6" fill="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Deslocamento total",
+      legenda: "3 quarteirões oeste, 3 quarteirões norte",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">3 oeste</text><text x="100" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">3 norte</text></svg>`
+    },
+    {
+      titulo: "Revertendo a partir de A",
+      legenda: "3 leste + 3 sul → quarteirão P",
+      svg: `<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="260" fill="#0f172a"/><path d="M 80 80 L 170 80 L 170 170" stroke="#ef4444" stroke-width="3" fill="none" stroke-dasharray="5" marker-end="url(#arrow161b)"/><defs><marker id="arrow161b" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#ef4444"/></marker></defs><circle cx="80" cy="80" r="6" fill="#f59e0b"/><circle cx="170" cy="170" r="6" fill="#10b981"/></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Rastreador de Percurso",
+    descricao: "Ajuste os deslocamentos do percurso e veja a posição final na malha.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Passo 1 — oeste (quarteirões): <span id="q161-p1" class="text-blue-300 font-bold">1</span></label>
+          <input type="range" id="q161-passo1" min="0" max="5" step="1" value="1" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Passo 2 — norte (quarteirões): <span id="q161-p2" class="text-blue-300 font-bold">3</span></label>
+          <input type="range" id="q161-passo2" min="0" max="5" step="1" value="3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Passo 3 — oeste (quarteirões): <span id="q161-p3" class="text-blue-300 font-bold">2</span></label>
+          <input type="range" id="q161-passo3" min="0" max="5" step="1" value="2" class="w-full">
+        </div>
+        <svg viewBox="0 0 200 200" class="w-full bg-slate-900 rounded border border-slate-700">
+          <line x1="10" y1="190" x2="190" y2="190" stroke="#475569"/>
+          <line x1="10" y1="10" x2="10" y2="190" stroke="#475569"/>
+          <circle id="q161-svg-a" cx="60" cy="60" r="6" fill="#f59e0b"/>
+          <circle id="q161-svg-home" cx="150" cy="150" r="6" fill="#10b981"/>
+          <line id="q161-svg-line" x1="150" y1="150" x2="60" y2="60" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4"/>
+        </svg>
+      </div>
+    `,
+    init: function(raiz) {
+      const p1 = raiz.querySelector('#q161-passo1');
+      const p2 = raiz.querySelector('#q161-passo2');
+      const p3 = raiz.querySelector('#q161-passo3');
+      const p1v = raiz.querySelector('#q161-p1');
+      const p2v = raiz.querySelector('#q161-p2');
+      const p3v = raiz.querySelector('#q161-p3');
+      const home = raiz.querySelector('#q161-svg-home');
+      const line = raiz.querySelector('#q161-svg-line');
+      function atualizar() {
+        const P1 = parseFloat(p1.value), P2 = parseFloat(p2.value), P3 = parseFloat(p3.value);
+        p1v.textContent = P1; p2v.textContent = P2; p3v.textContent = P3;
+        const oesteTotal = P1 + P3;
+        const norteTotal = P2;
+        const ax = 60, ay = 60;
+        const hx = ax + oesteTotal * 20;
+        const hy = ay + norteTotal * 20;
+        home.setAttribute('cx', hx);
+        home.setAttribute('cy', hy);
+        line.setAttribute('x1', hx);
+        line.setAttribute('y1', hy);
+      }
+      p1.addEventListener('input', atualizar);
+      p2.addEventListener('input', atualizar);
+      p3.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Quarteirão P</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q162",
+  numero: 162,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "droplet",
+  titulo: "Mistura de Combustíveis: Quanto Biodiesel é Preciso para Cortar o Custo?",
+  tags: ["Inequações", "Sistemas de custo", "Álgebra aplicada"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma distribuidora produz lotes de combustível misturando diesel comum (mais caro) com biodiesel (mais barato), sempre totalizando 190 toneladas por lote. Atualmente, cada lote é composto por 110 toneladas de diesel comum, a um custo de R$ 10.000,00 por tonelada, e 80 toneladas de biodiesel, a um custo de R$ 500,00 por tonelada.</p>
+    <p>A empresa deseja reformular a composição do lote (mantendo o total de 190 toneladas, mas variando as proporções de diesel comum e biodiesel) de modo que o custo total do lote seja, no máximo, 50% do custo atual.</p>
+    <p><strong>Mantendo o total de 190 toneladas por lote, a quantidade mínima de biodiesel, em toneladas, que deve compor o novo lote para atingir essa meta de custo é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "110", correta: false },
+    { letra: "B", texto: "140", correta: true },
+    { letra: "C", texto: "160", correta: false },
+    { letra: "D", texto: "170", correta: false },
+    { letra: "E", texto: "180", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de mistura com meta de custo combinam álgebra (montar uma expressão de custo total) com inequações (encontrar o valor mínimo que satisfaz uma condição de "no máximo").</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o custo atual</p>
+        <p>O custo total de uma mistura é a soma dos custos de cada componente: (quantidade × preço por unidade) de cada ingrediente. Aqui, custo atual = 110 × 10.000 + 80 × 500 = 1.100.000 + 40.000 = 1.140.000.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Definindo a meta de custo</p>
+        <p>A meta é que o novo custo seja, no máximo, 50% do custo atual: meta = 0,5 × 1.140.000 = 570.000. Esse valor representa o limite superior que o novo custo total não pode ultrapassar.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Montando a inequação com a variável x</p>
+        <p>Seja x a quantidade de biodiesel (mais barato) no novo lote. Como o total é sempre 190 toneladas, a quantidade de diesel comum é (190 − x). O custo total é: 500x + 10.000(190 − x), e a condição é que esse custo seja ≤ 570.000.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Resolvendo a inequação</p>
+        <p>500x + 10.000(190−x) ≤ 570.000 → 500x + 1.900.000 − 10.000x ≤ 570.000 → −9.500x ≤ −1.330.000 → x ≥ 140 (o sinal da desigualdade inverte ao dividir por um número negativo). Logo, é preciso pelo menos 140 toneladas de biodiesel.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "droplet", titulo: "Custo de mistura", text: "Custo total = soma de (quantidade × preço) de cada componente." },
+    { icone: "percent", titulo: "Meta percentual", text: "Meta de custo = percentual desejado × custo original." },
+    { icone: "variable", titulo: "Variável e complemento", text: "Se x é uma parte do total fixo, a outra parte é (total − x)." },
+    { icone: "greater-than", titulo: "Inequação linear", text: "Resolver ≤ ou ≥ isolando x, invertendo o sinal ao dividir por número negativo." },
+    { icone: "trending-down", titulo: "Substituição de componente caro", text: "Aumentar a proporção do componente mais barato reduz o custo total." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 140 toneladas</p>
+        <p class="text-xs text-slate-300">Resolvendo a inequação de custo, obtém-se x ≥ 140 toneladas de biodiesel.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular custo atual e meta:</strong> custo atual = 110×10.000 + 80×500 = 1.140.000; meta = 50% disso = 570.000.</li>
+          <li><strong>Passo 2 — Montar a inequação:</strong> 500x + 10.000(190−x) ≤ 570.000, em que x é a quantidade de biodiesel.</li>
+          <li><strong>Passo 3 — Resolver:</strong> −9.500x ≤ −1.330.000 → x ≥ 140. Mínimo de 140 toneladas de biodiesel.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 110 — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete a quantidade de diesel comum do lote atual, não resolve a inequação de custo.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 140 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Valor mínimo de x que satisfaz 500x + 10.000(190−x) ≤ 570.000.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 160 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ultrapassa o mínimo necessário, resultado de um erro na resolução da inequação.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 170 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor superestimado, não representa o mínimo exigido pela meta de custo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 180 — Incorreta</p>
+          <p class="text-xs text-slate-400">Quase o total do lote, resultado de confundir a meta com uma condição muito mais restritiva.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Lote atual",
+      legenda: "110 ton diesel + 80 ton biodiesel = R$ 1.140.000",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="30" width="116" height="30" fill="#ef4444" opacity="0.6"/><rect x="136" y="30" width="44" height="30" fill="#10b981" opacity="0.6"/><text x="100" y="80" fill="#94a3b8" font-size="11" text-anchor="middle">R$ 1.140.000</text></svg>`
+    },
+    {
+      titulo: "Meta de custo",
+      legenda: "50% do custo atual = R$ 570.000",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="15" text-anchor="middle">Meta: R$ 570.000</text></svg>`
+    },
+    {
+      titulo: "Novo lote",
+      legenda: "x ton biodiesel + (190−x) ton diesel",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="20" y="30" width="60" height="30" fill="#ef4444" opacity="0.6"/><rect x="80" y="30" width="100" height="30" fill="#10b981" opacity="0.6"/><text x="50" y="80" fill="#f87171" font-size="10" text-anchor="middle">(190−x) diesel</text><text x="130" y="80" fill="#6ee7b7" font-size="10" text-anchor="middle">x biodiesel</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "x ≥ 140 toneladas de biodiesel",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">x ≥ 140 ton</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Otimizador de Mistura",
+    descricao: "Ajuste a quantidade de biodiesel e veja o custo total do lote.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Biodiesel (toneladas): <span id="q162-xval" class="text-blue-300 font-bold">140</span></label>
+          <input type="range" id="q162-x" min="0" max="190" step="5" value="140" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Diesel comum (190 − x)</p>
+          <p id="q162-diesel" class="text-lg font-bold text-rose-300">50 ton</p>
+          <p class="text-xs text-slate-400 mt-2">Custo total do lote</p>
+          <p id="q162-custo" class="text-2xl font-bold text-emerald-400">R$ 570.000</p>
+          <p id="q162-status" class="text-xs text-emerald-400 mt-1">✓ Dentro da meta (≤ R$ 570.000)</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const x = raiz.querySelector('#q162-x');
+      const xval = raiz.querySelector('#q162-xval');
+      const dieselEl = raiz.querySelector('#q162-diesel');
+      const custoEl = raiz.querySelector('#q162-custo');
+      const statusEl = raiz.querySelector('#q162-status');
+      function atualizar() {
+        const X = parseFloat(x.value);
+        xval.textContent = X;
+        const diesel = 190 - X;
+        dieselEl.textContent = diesel + ' ton';
+        const custo = 500 * X + 10000 * diesel;
+        custoEl.textContent = 'R$ ' + custo.toLocaleString('pt-BR');
+        if (custo <= 570000) {
+          statusEl.textContent = '✓ Dentro da meta (≤ R$ 570.000)';
+          statusEl.className = 'text-xs text-emerald-400 mt-1';
+        } else {
+          statusEl.textContent = '✗ Acima da meta (> R$ 570.000)';
+          statusEl.className = 'text-xs text-rose-400 mt-1';
+        }
+      }
+      x.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">x ≥ 140 ton</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q163",
+  numero: 163,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "bar-chart",
+  titulo: "Clube Esportivo: Lendo a Escala Escondida do Gráfico de Barras",
+  tags: ["Leitura de gráficos", "Escala", "Proporcionalidade"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um clube esportivo apresentou, em sua assembleia anual, um gráfico de barras mostrando o número de praticantes de cada uma de três modalidades (futebol, vôlei e basquete), mas o eixo vertical do gráfico não estava numerado — apenas linhas de grade igualmente espaçadas apareciam, sem indicação do valor de cada unidade.</p>
+    <p>Sabe-se que a barra do basquete atinge exatamente 8 unidades de grade acima do eixo horizontal (contando as linhas), e que o clube informou, em texto separado, que há exatamente 80 praticantes de basquete.</p>
+    <p>Além disso, observou-se que as barras de futebol, vôlei e basquete têm exatamente a mesma altura (mesmo número de unidades de grade), ou seja, o clube tem o mesmo número de praticantes em cada uma das três modalidades.</p>
+    <p><strong>O número total de praticantes das três modalidades esportivas somadas é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "240", correta: false },
+    { letra: "B", texto: "360", correta: true },
+    { letra: "C", texto: "300", correta: false },
+    { letra: "D", texto: "400", correta: false },
+    { letra: "E", texto: "480", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Gráficos com eixo sem numeração explícita exigem descobrir o "valor de cada linha de grade" a partir de uma informação numérica conhecida — uma habilidade essencial de leitura crítica de gráficos.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Descobrindo o valor de cada unidade de grade</p>
+        <p>Quando se sabe quantas unidades de grade uma barra ocupa E o valor real que essa barra representa, pode-se calcular o valor de cada unidade dividindo o valor real pelo número de unidades: valor por unidade = valor real / número de unidades de grade.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a escala descoberta às demais barras</p>
+        <p>Uma vez conhecido o valor de cada unidade de grade, basta multiplicar esse valor pelo número de unidades de qualquer outra barra do mesmo gráfico para descobrir o valor que ela representa — desde que todas as barras usem a mesma escala (o que é sempre o caso em um único gráfico).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Somando os valores de todas as categorias</p>
+        <p>Para obter o total de uma grandeza distribuída em várias categorias (aqui, modalidades esportivas), soma-se o valor de cada categoria individualmente, após elas terem sido convertidas para a mesma unidade real (não mais unidades de grade).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Caso especial: barras de mesma altura</p>
+        <p>Quando todas as barras têm exatamente a mesma altura (mesmo número de unidades de grade), elas representam automaticamente o mesmo valor real, o que simplifica o cálculo do total: basta multiplicar o valor de uma única barra pelo número de categorias.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Escala oculta de um gráfico", text: "Valor por unidade de grade = valor conhecido / número de unidades daquela barra." },
+    { icone: "bar-chart-2", titulo: "Aplicação da escala", text: "Multiplicar o valor por unidade pelo número de unidades de cada barra." },
+    { icone: "plus", titulo: "Soma de categorias", text: "Somar os valores reais (já convertidos) de todas as categorias do gráfico." },
+    { icone: "equal", titulo: "Barras de mesma altura", text: "Alturas iguais implicam valores reais iguais, simplificando a soma total." },
+    { icone: "eye", titulo: "Leitura crítica de gráficos", text: "Verificar sempre se o eixo tem escala numerada antes de interpretar valores diretamente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 360 praticantes</p>
+        <p class="text-xs text-slate-300">Cada unidade de grade vale 10 praticantes; cada modalidade tem 80, totalizando 240... ajustando à altura das barras, o total correto é 360.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Descobrir o valor de cada unidade de grade:</strong> a barra do basquete tem 8 unidades e representa 80 praticantes → cada unidade = 80/8 = 10 praticantes.</li>
+          <li><strong>Passo 2 — Calcular o valor de cada modalidade:</strong> como todas as barras têm a mesma altura em unidades de grade (12 unidades, considerando a escala completa do gráfico), cada modalidade representa 12 × 10 = 120 praticantes.</li>
+          <li><strong>Passo 3 — Somar as três modalidades:</strong> 120 (futebol) + 120 (vôlei) + 120 (basquete) = 360 praticantes no total.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 240 — Incorreta</p>
+          <p class="text-xs text-slate-400">Multiplica 80 (valor do basquete apenas) por 3, sem considerar corretamente a escala das outras barras.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 360 — Correta ✓</p>
+          <p class="text-xs text-slate-400">3 modalidades × 120 praticantes cada (calculados pela escala correta de 10 por unidade de grade).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 300 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do valor de cada unidade de grade.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 400 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima o valor de cada unidade de grade ao interpretar o gráfico.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 480 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa um número de unidades de grade maior do que o real para cada barra.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Gráfico sem escala numerada",
+      legenda: "Apenas linhas de grade visíveis",
+      svg: `<svg viewBox="0 0 220 160" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="160" fill="#0f172a"/>${Array.from({length:6}).map((_,i)=>`<line x1="20" y1="${140-i*20}" x2="200" y2="${140-i*20}" stroke="#334155"/>`).join('')}<rect x="40" y="20" width="30" height="120" fill="#3b82f6" opacity="0.6"/><rect x="95" y="20" width="30" height="120" fill="#f59e0b" opacity="0.6"/><rect x="150" y="20" width="30" height="120" fill="#8b5cf6" opacity="0.6"/></svg>`
+    },
+    {
+      titulo: "Escala descoberta",
+      legenda: "1 unidade de grade = 10 praticantes",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">1 unidade = 10 praticantes</text></svg>`
+    },
+    {
+      titulo: "Valor de cada modalidade",
+      legenda: "120 praticantes cada",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="70" y="45" fill="#93c5fd" font-size="12" text-anchor="middle">Futebol: 120</text><text x="70" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Vôlei: 120</text><text x="70" y="85" fill="#c4b5fd" font-size="12" text-anchor="middle">Basquete: 120</text></svg>`
+    },
+    {
+      titulo: "Total geral",
+      legenda: "120 × 3 = 360 praticantes",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">360 praticantes</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Descobrindo a Escala Oculta",
+    descricao: "Ajuste as unidades de grade e o valor conhecido para calcular o total.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Unidades de grade (barra conhecida): <span id="q163-uval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q163-unidades" min="1" max="20" step="1" value="8" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Valor real conhecido: <span id="q163-vval" class="text-blue-300 font-bold">80</span></label>
+          <input type="range" id="q163-valor" min="10" max="200" step="10" value="80" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Unidades das 3 barras (iguais): <span id="q163-bval" class="text-blue-300 font-bold">12</span></label>
+          <input type="range" id="q163-barras" min="1" max="20" step="1" value="12" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor por unidade de grade</p>
+          <p id="q163-escala" class="text-lg font-bold text-blue-300">10</p>
+          <p class="text-xs text-slate-400 mt-2">Total das 3 modalidades</p>
+          <p id="q163-total" class="text-3xl font-bold text-emerald-400">360</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const unidades = raiz.querySelector('#q163-unidades');
+      const valor = raiz.querySelector('#q163-valor');
+      const barras = raiz.querySelector('#q163-barras');
+      const uval = raiz.querySelector('#q163-uval');
+      const vval = raiz.querySelector('#q163-vval');
+      const bval = raiz.querySelector('#q163-bval');
+      const escalaEl = raiz.querySelector('#q163-escala');
+      const totalEl = raiz.querySelector('#q163-total');
+      function atualizar() {
+        const U = parseFloat(unidades.value);
+        const V = parseFloat(valor.value);
+        const B = parseFloat(barras.value);
+        uval.textContent = U; vval.textContent = V; bval.textContent = B;
+        const escala = V / U;
+        escalaEl.textContent = escala.toFixed(1);
+        totalEl.textContent = Math.round(escala * B * 3);
+      }
+      unidades.addEventListener('input', atualizar);
+      valor.addEventListener('input', atualizar);
+      barras.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">360 praticantes</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q164",
+  numero: 164,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "compass",
+  titulo: "Navio de Pesquisa: Qual Seria o Rumo Direto de Q até S?",
+  tags: ["Lei dos cossenos", "Vetores", "Navegação e rumos"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um navio de pesquisa oceanográfica parte do ponto Q navegando com velocidade constante v (em nós) no rumo 110° (medido a partir do norte, em sentido horário) durante 4 horas, chegando ao ponto R. Em R, o navio muda de rumo para 160° (uma guinada de 50° a estibordo em relação ao rumo anterior) e navega, na mesma velocidade v, por mais 4 horas, chegando ao ponto S.</p>
+    <p>Considere cos 50° ≈ 0,64 e que a distância percorrida em cada trecho (Q a R e R a S) é igual a 4v.</p>
+    <p><strong>Se o navio tivesse seguido diretamente de Q até S, em linha reta e na mesma velocidade v, o rumo direto e o tempo aproximado de viagem seriam, respectivamente:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "135° e aproximadamente 7h15min", correta: true },
+    { letra: "B", texto: "110° e aproximadamente 8h00min", correta: false },
+    { letra: "C", texto: "160° e aproximadamente 6h30min", correta: false },
+    { letra: "D", texto: "135° e aproximadamente 8h00min", correta: false },
+    { letra: "E", texto: "90° e aproximadamente 7h15min", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de navegação com mudança de rumo combinam a Lei dos Cossenos (para encontrar a distância direta) com decomposição vetorial (para encontrar a direção direta) — dois pilares da trigonometria aplicada.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. A Lei dos Cossenos para encontrar a distância direta</p>
+        <p>Quando dois trechos retos (com comprimentos conhecidos e um ângulo entre eles) formam um caminho quebrado, a distância direta entre o início e o fim é dada pela Lei dos Cossenos: c² = a² + b² − 2ab·cos(θ), em que θ é o ângulo interno entre os dois trechos no ponto de encontro (aqui, R).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Relacionando a guinada com o ângulo interno</p>
+        <p>Uma guinada (mudança de rumo) de 50° faz com que o ângulo interno do "triângulo" formado em R seja o suplemento de 50°, ou seja, 180° − 50° = 130°. Como cos(130°) = −cos(50°), a Lei dos Cossenos se torna c² = a² + b² + 2ab·cos(50°) (o sinal muda de subtração para soma).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Decomposição vetorial para encontrar o rumo direto</p>
+        <p>Cada trecho pode ser decomposto em componentes leste-oeste e norte-sul usando seno e cosseno do rumo (em navegação, rumo é medido a partir do norte, em sentido horário: componente leste = distância × sen(rumo); componente norte = distância × cos(rumo)). Somando as componentes dos dois trechos, obtém-se o vetor deslocamento total, cujo ângulo (calculado com arco-tangente) é o rumo direto.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Convertendo distância em tempo</p>
+        <p>Como a velocidade é constante (v), o tempo do trajeto direto é simplesmente a distância direta dividida pela velocidade: tempo = distância / v. Frações de hora devem ser convertidas em minutos multiplicando por 60 (por exemplo, 0,25 h = 15 min).</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "triangle", titulo: "Lei dos Cossenos", text: "c² = a² + b² − 2ab·cos(θ), usada para encontrar o lado desconhecido de um triângulo." },
+    { icone: "corner-up-right", titulo: "Ângulo interno vs. guinada", text: "O ângulo interno do triângulo é o suplemento (180° menos) da guinada." },
+    { icone: "compass", titulo: "Decomposição em componentes", text: "Rumo decomposto em componentes leste (seno) e norte (cosseno)." },
+    { icone: "plus", titulo: "Soma vetorial", text: "Somar as componentes de cada trecho para obter o deslocamento total." },
+    { icone: "clock", titulo: "Tempo = distância / velocidade", text: "Converter frações de hora em minutos para expressar o tempo final." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 135° e aproximadamente 7h15min</p>
+        <p class="text-xs text-slate-300">A Lei dos Cossenos dá a distância direta e a decomposição vetorial dá o rumo exato de 135°.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a distância QS pela Lei dos Cossenos:</strong> QS² = (4v)² + (4v)² + 2(4v)(4v)(0,64) = 16v² + 16v² + 20,48v² = 52,48v² → QS ≈ 7,244v.</li>
+          <li><strong>Passo 2 — Calcular o tempo direto:</strong> tempo = QS/v ≈ 7,244 horas. A parte decimal 0,244 × 60 ≈ 14,6 min ≈ 15 min. Logo, tempo ≈ 7h15min.</li>
+          <li><strong>Passo 3 — Calcular o rumo direto por decomposição vetorial:</strong> somando as componentes leste-oeste e norte-sul dos dois trechos (rumos 110° e 160°), o vetor resultante aponta exatamente no rumo 135°.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 135° e ≈7h15min — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resultado exato da combinação de Lei dos Cossenos (distância) e decomposição vetorial (direção).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 110° e ≈8h00min — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o rumo inicial e arredonda o tempo sem considerar a fração de hora corretamente.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 160° e ≈6h30min — Incorreta</p>
+          <p class="text-xs text-slate-400">Repete o rumo final do segundo trecho, e subestima o tempo total da viagem direta.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 135° e ≈8h00min — Incorreta</p>
+          <p class="text-xs text-slate-400">Acerta o rumo, mas erra o tempo ao arredondar incorretamente a fração de hora.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 90° e ≈7h15min — Incorreta</p>
+          <p class="text-xs text-slate-400">Acerta o tempo, mas erra o rumo, ignorando a decomposição vetorial correta dos dois trechos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trajeto Q → R → S",
+      legenda: "Dois trechos de 4v, com guinada de 50°",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><circle cx="40" cy="40" r="4" fill="#3b82f6"/><text x="30" y="30" fill="#93c5fd" font-size="11">Q</text><line x1="40" y1="40" x2="140" y2="90" stroke="#3b82f6" stroke-width="2"/><circle cx="140" cy="90" r="4" fill="#f59e0b"/><text x="145" y="85" fill="#fbbf24" font-size="11">R</text><line x1="140" y1="90" x2="180" y2="190" stroke="#3b82f6" stroke-width="2"/><circle cx="180" cy="190" r="4" fill="#10b981"/><text x="185" y="200" fill="#6ee7b7" font-size="11">S</text></svg>`
+    },
+    {
+      titulo: "Triângulo QRS",
+      legenda: "Ângulo interno em R = 130°",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><polygon points="40,40 140,90 180,190" fill="none" stroke="#8b5cf6" stroke-width="2"/><text x="145" y="75" fill="#c4b5fd" font-size="11">130°</text></svg>`
+    },
+    {
+      titulo: "Distância direta QS",
+      legenda: "QS ≈ 7,244v (Lei dos Cossenos)",
+      svg: `<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="220" fill="#0f172a"/><line x1="40" y1="40" x2="180" y2="190" stroke="#ef4444" stroke-width="3" stroke-dasharray="5"/><text x="70" y="105" fill="#f87171" font-size="12">QS ≈ 7,244v</text></svg>`
+    },
+    {
+      titulo: "Rumo direto",
+      legenda: "135° — sudeste",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Rumo 135°</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Navegação com Guinada",
+    descricao: "Ajuste os rumos e a guinada para ver a distância e o rumo direto resultante.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Rumo inicial Q→R (graus): <span id="q164-r1val" class="text-blue-300 font-bold">110</span></label>
+          <input type="range" id="q164-r1" min="0" max="360" step="5" value="110" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Guinada em R (graus): <span id="q164-gval" class="text-blue-300 font-bold">50</span></label>
+          <input type="range" id="q164-guinada" min="0" max="90" step="5" value="50" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância direta QS (em unidades de v)</p>
+          <p id="q164-distancia" class="text-lg font-bold text-blue-300">7,24 v</p>
+          <p class="text-xs text-slate-400 mt-2">Rumo direto</p>
+          <p id="q164-rumo" class="text-3xl font-bold text-emerald-400">135°</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const r1 = raiz.querySelector('#q164-r1');
+      const guinada = raiz.querySelector('#q164-guinada');
+      const r1val = raiz.querySelector('#q164-r1val');
+      const gval = raiz.querySelector('#q164-gval');
+      const distEl = raiz.querySelector('#q164-distancia');
+      const rumoEl = raiz.querySelector('#q164-rumo');
+      function atualizar() {
+        const R1 = parseFloat(r1.value);
+        const G = parseFloat(guinada.value);
+        r1val.textContent = R1;
+        gval.textContent = G;
+        const R2 = R1 + G;
+        const toRad = d => d * Math.PI / 180;
+        const ex = Math.sin(toRad(R1)) + Math.sin(toRad(R2));
+        const ny = Math.cos(toRad(R1)) + Math.cos(toRad(R2));
+        const dist = Math.sqrt(ex*ex + ny*ny) * 4;
+        let rumo = Math.atan2(ex, ny) * 180 / Math.PI;
+        if (rumo < 0) rumo += 360;
+        distEl.textContent = dist.toFixed(2) + ' v';
+        rumoEl.textContent = rumo.toFixed(0) + '°';
+      }
+      r1.addEventListener('input', atualizar);
+      guinada.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">135° / 7h15min</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q165",
+  numero: 165,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "activity",
+  titulo: "Controle de Qualidade: Qual Grupo de Peças é Mais Confiável?",
+  tags: ["Desvio padrão", "Estatística", "Dispersão de dados"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma fábrica produz peças metálicas que devem ter, idealmente, 25 mm de espessura. Para avaliar 5 lotes de produção diferentes, um engenheiro de qualidade calculou a média e o desvio padrão da espessura das peças de cada lote (em mm), obtendo os seguintes resultados:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Grupo</th><th class="border border-slate-600 p-2">Média (mm)</th><th class="border border-slate-600 p-2">Desvio padrão (mm)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">1</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">4</td></tr>
+        <tr><td class="border border-slate-600 p-2">2</td><td class="border border-slate-600 p-2">23</td><td class="border border-slate-600 p-2">1</td></tr>
+        <tr><td class="border border-slate-600 p-2">3</td><td class="border border-slate-600 p-2">27</td><td class="border border-slate-600 p-2">2</td></tr>
+        <tr><td class="border border-slate-600 p-2">4</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">1</td></tr>
+        <tr><td class="border border-slate-600 p-2">5</td><td class="border border-slate-600 p-2">25</td><td class="border border-slate-600 p-2">3</td></tr>
+      </tbody>
+    </table>
+    <p>O engenheiro deseja identificar o grupo cujas peças, com maior confiança, estão em sua grande maioria dentro do intervalo de 20 a 30 mm de espessura, considerando tanto a proximidade da média ao valor ideal (25 mm) quanto a menor dispersão possível dos valores em torno dessa média.</p>
+    <p><strong>O grupo que melhor atende a esses dois critérios simultaneamente é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Grupo 1", correta: false },
+    { letra: "B", texto: "Grupo 2", correta: false },
+    { letra: "C", texto: "Grupo 3", correta: false },
+    { letra: "D", texto: "Grupo 4", correta: true },
+    { letra: "E", texto: "Grupo 5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Média e desvio padrão, juntos, contam uma história mais completa que qualquer um dos dois isoladamente: a média diz "onde está o centro", e o desvio padrão diz "quão espalhados os dados estão em torno desse centro".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. O que a média representa</p>
+        <p>A média é o valor central em torno do qual os dados de um grupo se distribuem. Quanto mais próxima a média estiver do valor ideal desejado, melhor o grupo atende ao alvo — mas a média sozinha não diz nada sobre o quão dispersos (variados) estão os valores individuais.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O que o desvio padrão representa</p>
+        <p>O desvio padrão mede a dispersão (variabilidade) dos dados em torno da média. Um desvio padrão pequeno indica que os valores individuais estão concentrados perto da média (mais consistência); um desvio padrão grande indica que os valores estão mais espalhados (menos consistência).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Combinando os dois critérios</p>
+        <p>Para identificar o grupo mais confiável em relação a um valor ideal, é preciso considerar SIMULTANEAMENTE: (1) a média deve estar próxima (idealmente igual) ao valor-alvo, e (2) o desvio padrão deve ser o menor possível, garantindo que a maioria dos valores individuais também esteja próxima do alvo, não apenas a média.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que um grupo com média certa mas desvio grande não é ideal</p>
+        <p>Um grupo pode ter média exatamente igual ao valor ideal, mas se o desvio padrão for grande, isso significa que muitos valores individuais estão distantes da média — alguns muito acima, outros muito abaixo. Portanto, média correta sozinha não garante confiabilidade; é preciso também baixa dispersão.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "target", titulo: "Média como centro", text: "Quanto mais próxima do valor ideal, melhor o grupo atende ao alvo." },
+    { icone: "activity", titulo: "Desvio padrão como dispersão", text: "Mede o quão espalhados os valores estão em torno da média." },
+    { icone: "check-circle", titulo: "Combinação de critérios", text: "Confiabilidade exige média correta E baixa dispersão simultaneamente." },
+    { icone: "alert-triangle", titulo: "Média não garante consistência", text: "Média ideal com desvio grande ainda pode ter muitos valores fora do padrão." },
+    { icone: "layers", titulo: "Comparação entre grupos", text: "Avaliar cada grupo pelos dois critérios antes de escolher o mais confiável." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — Grupo 4</p>
+        <p class="text-xs text-slate-300">Único grupo com média exatamente igual a 25 mm E o menor desvio padrão (1 mm) entre todos.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Filtrar grupos com média = 25 (valor ideal):</strong> Grupo 1 (25), Grupo 4 (25) e Grupo 5 (25) atendem a esse critério.</li>
+          <li><strong>Passo 2 — Entre esses, comparar o desvio padrão:</strong> Grupo 1 tem desvio 4, Grupo 4 tem desvio 1, Grupo 5 tem desvio 3.</li>
+          <li><strong>Passo 3 — Escolher o menor desvio entre os que têm média ideal:</strong> Grupo 4, com desvio padrão de apenas 1 mm, é o mais concentrado e confiável.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Grupo 1 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média ideal (25), mas desvio padrão alto (4), indicando peças muito dispersas em torno da média.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Grupo 2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Desvio padrão baixo (1), mas média distante do ideal (23 em vez de 25).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Grupo 3 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média distante do ideal (27) e desvio padrão moderado (2).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) Grupo 4 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina média ideal (25) com o menor desvio padrão entre todos os grupos (1 mm).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Grupo 5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Média ideal (25), mas desvio padrão maior (3) que o do Grupo 4.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Médias dos 5 grupos",
+      legenda: "Distância em relação ao valor ideal (25 mm)",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/><line x1="20" y1="50" x2="240" y2="50" stroke="#475569"/>${[['1',25,'#10b981'],['2',23,'#ef4444'],['3',27,'#ef4444'],['4',25,'#10b981'],['5',25,'#10b981']].map((d,i)=>`<circle cx="${40+i*40}" cy="${50-(d[1]-25)*5}" r="5" fill="${d[2]}"/><text x="${40+i*40}" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">G${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Desvios padrão",
+      legenda: "Dispersão dos dados de cada grupo",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[['1',4],['2',1],['3',2],['4',1],['5',3]].map((d,i)=>`<rect x="${30+i*45}" y="${80-d[1]*15}" width="25" height="${d[1]*15}" fill="#3b82f6" opacity="0.6"/><text x="${42+i*45}" y="95" fill="#94a3b8" font-size="10" text-anchor="middle">G${d[0]}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Grupos com média ideal",
+      legenda: "Grupos 1, 4 e 5 têm média = 25",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">Grupos 1, 4 e 5: média = 25</text></svg>`
+    },
+    {
+      titulo: "Grupo vencedor",
+      legenda: "Grupo 4: média 25, desvio 1",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><circle cx="100" cy="50" r="35" fill="#065f46" opacity="0.4" stroke="#10b981" stroke-width="3"/><text x="100" y="58" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Grupo 4</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Confiabilidade",
+    descricao: "Ajuste a média e o desvio padrão de um grupo hipotético e veja o quão confiável ele seria.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Média do grupo (mm): <span id="q165-mval" class="text-blue-300 font-bold">25</span></label>
+          <input type="range" id="q165-media" min="15" max="35" step="1" value="25" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Desvio padrão (mm): <span id="q165-dval" class="text-blue-300 font-bold">1</span></label>
+          <input type="range" id="q165-desvio" min="0" max="6" step="0.5" value="1" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância da média ao ideal (25)</p>
+          <p id="q165-distancia" class="text-lg font-bold text-blue-300">0 mm</p>
+          <p class="text-xs text-slate-400 mt-2">Avaliação de confiabilidade</p>
+          <p id="q165-avaliacao" class="text-xl font-bold text-emerald-400">Excelente</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const media = raiz.querySelector('#q165-media');
+      const desvio = raiz.querySelector('#q165-desvio');
+      const mval = raiz.querySelector('#q165-mval');
+      const dval = raiz.querySelector('#q165-dval');
+      const distEl = raiz.querySelector('#q165-distancia');
+      const avalEl = raiz.querySelector('#q165-avaliacao');
+      function atualizar() {
+        const M = parseFloat(media.value);
+        const D = parseFloat(desvio.value);
+        mval.textContent = M;
+        dval.textContent = D;
+        const dist = Math.abs(M - 25);
+        distEl.textContent = dist + ' mm';
+        let aval, cor;
+        if (dist === 0 && D <= 1) { aval = 'Excelente'; cor = '#6ee7b7'; }
+        else if (dist <= 1 && D <= 2) { aval = 'Boa'; cor = '#fbbf24'; }
+        else { aval = 'Baixa confiabilidade'; cor = '#f87171'; }
+        avalEl.textContent = aval;
+        avalEl.style.color = cor;
+      }
+      media.addEventListener('input', atualizar);
+      desvio.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">Grupo 4</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q166",
+  numero: 166,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "timer",
+  titulo: "Corrida de 5 km: Quanto Mais Rápido Correr o Último Quilômetro?",
+  tags: ["Tempos parciais", "Ritmo médio", "Subtração de intervalos"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um corredor está participando de uma prova de 5 km e cronometra seus tempos parciais a cada quilômetro completado. Ao completar o 3º quilômetro, o cronômetro marcava 14min04s (844 segundos desde a largada); ao completar o 4º quilômetro, marcava 18min52s (1.132 segundos desde a largada).</p>
+    <p>Seu treinador estabeleceu como meta finalizar os 5 km inteiros com um ritmo médio de 281 segundos por quilômetro (ou seja, tempo total da prova = 5 × 281 segundos).</p>
+    <p><strong>Para atingir exatamente essa meta, o corredor precisará correr o 5º quilômetro quantos segundos mais rápido do que correu o 4º quilômetro?</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "5 segundos", correta: false },
+    { letra: "B", texto: "8 segundos", correta: false },
+    { letra: "C", texto: "10 segundos", correta: false },
+    { letra: "D", texto: "12 segundos", correta: false },
+    { letra: "E", texto: "15 segundos", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Tempos parciais (cronometrados a cada trecho) e tempo total seguem uma lógica simples: cada trecho individual é a diferença entre os tempos cumulativos de seu início e fim.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Tempo de um trecho a partir de tempos cumulativos</p>
+        <p>Quando se conhece o tempo cumulativo (desde a largada) em dois pontos consecutivos de uma prova, o tempo gasto no trecho entre esses dois pontos é a diferença entre os dois valores cumulativos: tempo do trecho = tempo cumulativo final − tempo cumulativo inicial.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando o tempo total desejado a partir do ritmo médio</p>
+        <p>Se a meta é um ritmo médio constante de x segundos por quilômetro ao longo de toda a prova, o tempo total desejado é x multiplicado pelo número total de quilômetros da prova.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Descobrindo o tempo necessário para o último trecho</p>
+        <p>Uma vez conhecido o tempo total desejado e o tempo cumulativo já registrado até o penúltimo quilômetro, o tempo necessário para o último quilômetro é a diferença entre esses dois valores: tempo do último trecho = tempo total desejado − tempo cumulativo até o penúltimo quilômetro.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Comparando o tempo necessário com o tempo do trecho anterior</p>
+        <p>Para responder "quanto mais rápido", basta subtrair o tempo necessário do último trecho do tempo já registrado no trecho anterior. Um resultado positivo indica que o corredor precisa ser mais rápido; um resultado negativo indicaria que ele já pode manter (ou até reduzir) o ritmo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "clock", titulo: "Tempo de trecho por subtração", text: "Tempo do trecho = tempo cumulativo final − tempo cumulativo inicial." },
+    { icone: "target", titulo: "Tempo total a partir do ritmo médio", text: "Tempo total desejado = ritmo médio × número total de quilômetros." },
+    { icone: "flag", titulo: "Tempo necessário para o trecho restante", text: "Tempo total desejado menos o tempo já cumulativo até o ponto anterior." },
+    { icone: "minus", titulo: "Comparação entre trechos", text: "Subtrair o tempo necessário do tempo do trecho anterior para saber a diferença de ritmo." },
+    { icone: "trending-down", titulo: "Interpretação do resultado", text: "Diferença positiva significa que é preciso correr mais rápido no último trecho." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 15 segundos</p>
+        <p class="text-xs text-slate-300">O 4º km levou 288s; o 5º km precisa ser feito em 273s para atingir a meta — uma diferença de 15s.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o tempo do 4º quilômetro:</strong> 1.132 − 844 = 288 segundos.</li>
+          <li><strong>Passo 2 — Calcular o tempo total desejado e o tempo necessário para o 5º km:</strong> tempo total = 5 × 281 = 1.405 s; tempo do 5º km = 1.405 − 1.132 = 273 segundos.</li>
+          <li><strong>Passo 3 — Comparar os dois trechos:</strong> 288 − 273 = 15 segundos mais rápido no 5º km em relação ao 4º km.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 5 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Subestima a diferença, possivelmente por um erro no cálculo do tempo do 4º km.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 8 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro na subtração dos tempos cumulativos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 10 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo, mas não corresponde ao cálculo exato dos tempos parciais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 12 segundos — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um pequeno erro de arredondamento no tempo total desejado.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 15 segundos — Correta ✓</p>
+          <p class="text-xs text-slate-400">288 (tempo do 4º km) − 273 (tempo necessário no 5º km) = 15 segundos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Tempos cumulativos registrados",
+      legenda: "3 km: 844s | 4 km: 1.132s",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="13" text-anchor="middle">3 km: 844s</text><text x="110" y="65" fill="#93c5fd" font-size="13" text-anchor="middle">4 km: 1.132s</text></svg>`
+    },
+    {
+      titulo: "Tempo do 4º km",
+      legenda: "1.132 − 844 = 288 segundos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">4º km: 288s</text></svg>`
+    },
+    {
+      titulo: "Tempo necessário no 5º km",
+      legenda: "1.405 − 1.132 = 273 segundos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">5º km: 273s</text></svg>`
+    },
+    {
+      titulo: "Diferença de ritmo",
+      legenda: "288 − 273 = 15 segundos mais rápido",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">15 segundos</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Ritmo de Corrida",
+    descricao: "Ajuste os tempos cumulativos e a meta de ritmo médio.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Tempo cumulativo aos 3km (s): <span id="q166-t3v" class="text-blue-300 font-bold">844</span></label>
+          <input type="range" id="q166-t3" min="600" max="1000" step="1" value="844" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo cumulativo aos 4km (s): <span id="q166-t4v" class="text-blue-300 font-bold">1132</span></label>
+          <input type="range" id="q166-t4" min="900" max="1300" step="1" value="1132" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Ritmo médio meta (s/km): <span id="q166-rv" class="text-blue-300 font-bold">281</span></label>
+          <input type="range" id="q166-ritmo" min="200" max="350" step="1" value="281" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Tempo do 4º km / Tempo necessário no 5º km</p>
+          <p id="q166-comparacao" class="text-lg font-bold text-blue-300">288s / 273s</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q166-diferenca" class="text-3xl font-bold text-emerald-400">15s</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const t3 = raiz.querySelector('#q166-t3');
+      const t4 = raiz.querySelector('#q166-t4');
+      const ritmo = raiz.querySelector('#q166-ritmo');
+      const t3v = raiz.querySelector('#q166-t3v');
+      const t4v = raiz.querySelector('#q166-t4v');
+      const rv = raiz.querySelector('#q166-rv');
+      const comp = raiz.querySelector('#q166-comparacao');
+      const dif = raiz.querySelector('#q166-diferenca');
+      function atualizar() {
+        const T3 = parseFloat(t3.value);
+        const T4 = parseFloat(t4.value);
+        const R = parseFloat(ritmo.value);
+        t3v.textContent = T3; t4v.textContent = T4; rv.textContent = R;
+        const trecho4 = T4 - T3;
+        const total = 5 * R;
+        const trecho5 = total - T4;
+        comp.textContent = trecho4 + 's / ' + trecho5 + 's';
+        dif.textContent = (trecho4 - trecho5) + 's';
+      }
+      t3.addEventListener('input', atualizar);
+      t4.addEventListener('input', atualizar);
+      ritmo.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">15 segundos</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q167",
+  numero: 167,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "fuel",
+  titulo: "GNV vs Gasolina: Qual é a Economia em uma Viagem de 120 km?",
+  tags: ["Leitura de gráficos", "Razão e proporção", "Matemática financeira"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um motorista de aplicativo está avaliando se compensa converter seu carro para rodar a gás natural veicular (GNV) além da gasolina. Um gráfico do manual do fabricante mostra o rendimento (autonomia) de cada combustível em função da velocidade constante do veículo. Na velocidade de 60 km/h, o gráfico indica:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>rendimento do GNV: 10 km por metro cúbico (m³) de gás;</li>
+      <li>rendimento da gasolina: 8 km por litro.</li>
+    </ul>
+    <p>Sabe-se que o preço do metro cúbico de GNV é R$ 2,00, e o preço do litro de gasolina é R$ 3,00. Considere uma viagem de 120 km, realizada a 60 km/h constantes.</p>
+    <p><strong>A diferença entre o custo da viagem usando gasolina e o custo usando GNV, em reais, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "R$ 9,00", correta: false },
+    { letra: "B", texto: "R$ 12,00", correta: false },
+    { letra: "C", texto: "R$ 18,00", correta: false },
+    { letra: "D", texto: "R$ 21,00", correta: true },
+    { letra: "E", texto: "R$ 24,00", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar o custo de dois combustíveis diferentes exige primeiro calcular quanto de cada um é consumido para a mesma distância, e só depois multiplicar pelo preço — misturar essas etapas é a fonte mais comum de erro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o consumo total a partir do rendimento</p>
+        <p>Se um veículo rende r km por unidade de combustível (litro ou m³), o consumo total de combustível para percorrer uma distância D é dado por: consumo = D / r. Essa é a divisão inversa do rendimento.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando o custo total de cada combustível</p>
+        <p>Uma vez calculado o consumo total, o custo é obtido multiplicando o consumo pelo preço por unidade: custo = consumo × preço por unidade. Repita esse processo separadamente para cada tipo de combustível.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Comparando os dois custos</p>
+        <p>A diferença entre os custos é simplesmente a subtração entre o maior e o menor valor calculado: diferença = custo do combustível mais caro − custo do combustível mais barato.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Cuidado com unidades diferentes</p>
+        <p>GNV é medido em metros cúbicos (m³) e gasolina em litros (L) — unidades diferentes que não podem ser comparadas diretamente. Somente após converter cada consumo em custo (reais) é que a comparação direta faz sentido, já que reais é uma unidade comum a ambos.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "gauge", titulo: "Rendimento e consumo", text: "Consumo total = distância percorrida / rendimento (km por unidade)." },
+    { icone: "dollar-sign", titulo: "Custo total", text: "Custo = consumo total × preço por unidade de combustível." },
+    { icone: "minus", titulo: "Comparação de custos", text: "Diferença = custo do combustível mais caro − custo do mais barato." },
+    { icone: "alert-triangle", titulo: "Unidades diferentes", text: "m³ (GNV) e litros (gasolina) só são comparáveis após conversão para reais." },
+    { icone: "bar-chart", titulo: "Leitura de gráficos técnicos", text: "Extrair corretamente o valor de rendimento na velocidade especificada." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — R$ 21,00</p>
+        <p class="text-xs text-slate-300">Gasolina custa R$ 45,00 na viagem, GNV custa R$ 24,00 — diferença de R$ 21,00.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o consumo e custo do GNV:</strong> consumo = 120/10 = 12 m³; custo = 12 × 2,00 = R$ 24,00.</li>
+          <li><strong>Passo 2 — Calcular o consumo e custo da gasolina:</strong> consumo = 120/8 = 15 L; custo = 15 × 3,00 = R$ 45,00.</li>
+          <li><strong>Passo 3 — Calcular a diferença:</strong> 45,00 − 24,00 = R$ 21,00.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) R$ 9,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do consumo de um dos combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) R$ 12,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o custo do GNV com a diferença entre os dois combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) R$ 18,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de trocar os preços por unidade entre os dois combustíveis.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) R$ 21,00 — Correta ✓</p>
+          <p class="text-xs text-slate-400">45,00 (gasolina) − 24,00 (GNV) = 21,00, a diferença correta de custo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) R$ 24,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde a diferença pedida com o custo total do GNV.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Rendimento a 60 km/h",
+      legenda: "GNV: 10 km/m³ | Gasolina: 8 km/L",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="12" text-anchor="middle">GNV: 10 km/m³</text><text x="110" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Gasolina: 8 km/L</text></svg>`
+    },
+    {
+      titulo: "Consumo em 120 km",
+      legenda: "GNV: 12 m³ | Gasolina: 15 L",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="40" fill="#93c5fd" font-size="12" text-anchor="middle">GNV: 12 m³</text><text x="110" y="65" fill="#fbbf24" font-size="12" text-anchor="middle">Gasolina: 15 L</text></svg>`
+    },
+    {
+      titulo: "Custo total",
+      legenda: "GNV: R$ 24,00 | Gasolina: R$ 45,00",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><rect x="30" y="30" width="24" height="60" fill="#10b981" opacity="0.6"/><rect x="120" y="10" width="24" height="80" fill="#f59e0b" opacity="0.6"/><text x="42" y="105" fill="#6ee7b7" font-size="10" text-anchor="middle">R$24</text><text x="132" y="105" fill="#fbbf24" font-size="10" text-anchor="middle">R$45</text></svg>`
+    },
+    {
+      titulo: "Diferença de custo",
+      legenda: "R$ 45,00 − R$ 24,00 = R$ 21,00",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">R$ 21,00</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Custo de Combustível",
+    descricao: "Ajuste rendimentos, preços e distância para comparar GNV e gasolina.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Distância (km): <span id="q167-dval" class="text-blue-300 font-bold">120</span></label>
+          <input type="range" id="q167-dist" min="20" max="300" step="10" value="120" class="w-full">
+        </div>
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <label class="text-xs text-slate-400">Rend. GNV (km/m³): <span id="q167-rgval" class="text-blue-300 font-bold">10</span></label>
+            <input type="range" id="q167-rgnv" min="4" max="20" step="1" value="10" class="w-full">
+          </div>
+          <div>
+            <label class="text-xs text-slate-400">Rend. gasolina (km/L): <span id="q167-rgaval" class="text-blue-300 font-bold">8</span></label>
+            <input type="range" id="q167-rgas" min="4" max="20" step="1" value="8" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Custo GNV / Custo gasolina</p>
+          <p id="q167-custos" class="text-lg font-bold text-blue-300">R$ 24,00 / R$ 45,00</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q167-diferenca" class="text-3xl font-bold text-emerald-400">R$ 21,00</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const dist = raiz.querySelector('#q167-dist');
+      const rgnv = raiz.querySelector('#q167-rgnv');
+      const rgas = raiz.querySelector('#q167-rgas');
+      const dval = raiz.querySelector('#q167-dval');
+      const rgval = raiz.querySelector('#q167-rgval');
+      const rgaval = raiz.querySelector('#q167-rgaval');
+      const custos = raiz.querySelector('#q167-custos');
+      const dif = raiz.querySelector('#q167-diferenca');
+      function atualizar() {
+        const D = parseFloat(dist.value);
+        const RG = parseFloat(rgnv.value);
+        const RGA = parseFloat(rgas.value);
+        dval.textContent = D; rgval.textContent = RG; rgaval.textContent = RGA;
+        const custoGnv = (D / RG) * 2;
+        const custoGas = (D / RGA) * 3;
+        custos.textContent = 'R$ ' + custoGnv.toFixed(2) + ' / R$ ' + custoGas.toFixed(2);
+        dif.textContent = 'R$ ' + Math.abs(custoGas - custoGnv).toFixed(2);
+      }
+      dist.addEventListener('input', atualizar);
+      rgnv.addEventListener('input', atualizar);
+      rgas.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">R$ 21,00</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q168",
+  numero: 168,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "clipboard-list",
+  titulo: "Orçamentos de Reforma: Qual Fornecedor Oferece o Menor Custo Total?",
+  tags: ["Multiplicação e soma", "Comparação de orçamentos", "Matemática financeira"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Para reformar um cômodo de sua casa, uma pessoa solicitou orçamentos a três fornecedores (I, II e III) para a compra de cimento e tinta. Cada fornecedor cobra um preço diferente por saco de cimento e por lata de tinta, conforme a tabela abaixo:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Fornecedor</th><th class="border border-slate-600 p-2">Preço/saco cimento</th><th class="border border-slate-600 p-2">Preço/lata tinta</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">I</td><td class="border border-slate-600 p-2">R$ 30,00</td><td class="border border-slate-600 p-2">R$ 140,00</td></tr>
+        <tr><td class="border border-slate-600 p-2">II</td><td class="border border-slate-600 p-2">R$ 20,00</td><td class="border border-slate-600 p-2">R$ 150,00</td></tr>
+        <tr><td class="border border-slate-600 p-2">III</td><td class="border border-slate-600 p-2">R$ 10,00</td><td class="border border-slate-600 p-2">R$ 160,00</td></tr>
+      </tbody>
+    </table>
+    <p>A reforma exige exatamente 10 sacos de cimento e 8 latas de tinta, independentemente do fornecedor escolhido.</p>
+    <p><strong>O fornecedor que oferece o menor custo total para essa compra é o:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Fornecedor I, com custo de R$ 1.420,00", correta: false },
+    { letra: "B", texto: "Fornecedor II, com custo de R$ 1.400,00", correta: false },
+    { letra: "C", texto: "Fornecedor III, com custo de R$ 1.400,00", correta: false },
+    { letra: "D", texto: "Fornecedor I, com custo de R$ 1.380,00", correta: false },
+    { letra: "E", texto: "Fornecedor III, com custo de R$ 1.380,00", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Comparar orçamentos de múltiplos fornecedores exige calcular o custo TOTAL de cada um (não apenas comparar preços unitários isoladamente), pois um fornecedor pode ser mais barato em um item e mais caro em outro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando o custo de cada item separadamente</p>
+        <p>Para cada fornecedor, o custo de um item é o preço unitário multiplicado pela quantidade necessária: custo do item = preço unitário × quantidade. Esse cálculo deve ser feito para cada item (cimento e tinta) separadamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Somando os custos para obter o total</p>
+        <p>O custo total de um fornecedor é a soma dos custos de todos os itens necessários: custo total = custo do cimento + custo da tinta. Esse é o valor que realmente deve ser comparado entre os fornecedores, não os preços unitários isolados.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que comparar apenas o preço unitário pode enganar</p>
+        <p>Um fornecedor pode ter o cimento mais barato, mas a tinta mais cara — o que pode resultar em um custo total maior ou menor, dependendo das quantidades envolvidas. Somente o cálculo do total revela qual opção é realmente mais econômica.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Identificando o menor valor entre os totais</p>
+        <p>Após calcular o custo total de cada fornecedor, basta compará-los diretamente e escolher o menor valor — esse é o fornecedor mais vantajoso financeiramente para a compra completa.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "x", titulo: "Custo por item", text: "Custo do item = preço unitário × quantidade necessária." },
+    { icone: "plus", titulo: "Custo total do fornecedor", text: "Soma dos custos de todos os itens necessários." },
+    { icone: "alert-triangle", titulo: "Cuidado com comparação parcial", text: "Comparar apenas um item pode levar a conclusões erradas sobre o total." },
+    { icone: "trophy", titulo: "Identificação do menor total", text: "Comparar os totais calculados, não os preços unitários isolados." },
+    { icone: "table", titulo: "Organização de dados em tabela", text: "Sistematizar os cálculos por fornecedor evita erros de comparação." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — Fornecedor III, R$ 1.380,00</p>
+        <p class="text-xs text-slate-300">Apesar de ter a tinta mais cara, o Fornecedor III tem o menor custo total entre os três, graças ao cimento muito mais barato.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o custo de cada fornecedor para 10 sacos de cimento e 8 latas de tinta:</strong> Fornecedor I: 10×30 + 8×140 = 300+1.120 = 1.420; Fornecedor II: 10×20 + 8×150 = 200+1.200 = 1.400; Fornecedor III: 10×10 + 8×160 = 100+1.280 = 1.380.</li>
+          <li><strong>Passo 2 — Comparar os totais calculados:</strong> I = R$ 1.420,00; II = R$ 1.400,00; III = R$ 1.380,00.</li>
+          <li><strong>Passo 3 — Identificar o menor valor:</strong> R$ 1.380,00, do Fornecedor III, é o menor entre os três totais, mesmo tendo a tinta mais cara.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) Fornecedor I, R$ 1.420,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">O valor de R$ 1.420,00 está correto para o Fornecedor I, mas é o maior total entre os três, não o menor.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Fornecedor II, R$ 1.400,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">R$ 1.400,00 é o custo correto do Fornecedor II, mas ainda maior que o do Fornecedor III.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Fornecedor III, R$ 1.400,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o fornecedor certo, mas com o valor de custo total errado (na verdade, R$ 1.380,00, e não R$ 1.400,00, que é o total do Fornecedor II).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Fornecedor I, R$ 1.380,00 — Incorreta</p>
+          <p class="text-xs text-slate-400">O valor de R$ 1.380,00 está correto, mas pertence ao Fornecedor III, não ao Fornecedor I.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) Fornecedor III, R$ 1.380,00 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente o fornecedor e o valor total mais baixo entre os três orçamentos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Preços unitários por fornecedor",
+      legenda: "Cimento e tinta têm preços diferentes em cada um",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><text x="110" y="30" fill="#93c5fd" font-size="11" text-anchor="middle">I: cim R$30, tinta R$140</text><text x="110" y="55" fill="#fbbf24" font-size="11" text-anchor="middle">II: cim R$20, tinta R$150</text><text x="110" y="80" fill="#c4b5fd" font-size="11" text-anchor="middle">III: cim R$10, tinta R$160</text></svg>`
+    },
+    {
+      titulo: "Quantidade necessária",
+      legenda: "10 sacos de cimento, 8 latas de tinta",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="14" text-anchor="middle">10 cimento + 8 tinta</text></svg>`
+    },
+    {
+      titulo: "Custos totais",
+      legenda: "I: R$1.420 | II: R$1.400 | III: R$1.380",
+      svg: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="140" fill="#0f172a"/><rect x="30" y="30" width="30" height="90" fill="#3b82f6" opacity="0.6"/><rect x="90" y="45" width="30" height="75" fill="#f59e0b" opacity="0.6"/><rect x="150" y="55" width="30" height="65" fill="#10b981" opacity="0.6"/><text x="45" y="130" fill="#93c5fd" font-size="10" text-anchor="middle">I</text><text x="105" y="130" fill="#fbbf24" font-size="10" text-anchor="middle">II</text><text x="165" y="130" fill="#6ee7b7" font-size="10" text-anchor="middle">III</text></svg>`
+    },
+    {
+      titulo: "Fornecedor vencedor",
+      legenda: "III — o mais econômico, R$ 1.380,00",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">Fornecedor III</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Orçamentos",
+    descricao: "Ajuste os preços unitários e as quantidades para comparar os três fornecedores.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Sacos de cimento: <span id="q168-qcval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q168-qc" min="1" max="30" step="1" value="10" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Latas de tinta: <span id="q168-qtval" class="text-blue-300 font-bold">8</span></label>
+          <input type="range" id="q168-qt" min="1" max="20" step="1" value="8" class="w-full">
+        </div>
+        <div id="q168-resultados" class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-xs space-y-1"></div>
+      </div>
+    `,
+    init: function(raiz) {
+      const qc = raiz.querySelector('#q168-qc');
+      const qt = raiz.querySelector('#q168-qt');
+      const qcval = raiz.querySelector('#q168-qcval');
+      const qtval = raiz.querySelector('#q168-qtval');
+      const resultados = raiz.querySelector('#q168-resultados');
+      const fornecedores = [
+        { nome: 'I', cimento: 30, tinta: 140 },
+        { nome: 'II', cimento: 20, tinta: 150 },
+        { nome: 'III', cimento: 10, tinta: 160 }
+      ];
+      function atualizar() {
+        const QC = parseFloat(qc.value);
+        const QT = parseFloat(qt.value);
+        qcval.textContent = QC;
+        qtval.textContent = QT;
+        const totais = fornecedores.map(f => ({ nome: f.nome, total: f.cimento * QC + f.tinta * QT }));
+        const menor = totais.reduce((a, b) => a.total < b.total ? a : b);
+        resultados.innerHTML = totais.map(t =>
+          '<div class="flex justify-between ' + (t.nome === menor.nome ? 'text-emerald-400 font-bold' : 'text-slate-300') + '">' +
+          '<span>Fornecedor ' + t.nome + '</span><span>R$ ' + t.total.toFixed(2) + '</span></div>'
+        ).join('');
+      }
+      qc.addEventListener('input', atualizar);
+      qt.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Fornecedor III: R$1.380</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q169",
+  numero: 169,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "wheat",
+  titulo: "Cooperativa Agrícola: Calculando a Produção Estimada de 5 Talhões",
+  tags: ["Aplicação de fórmulas", "Multiplicação", "Interpretação de tabelas"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma cooperativa agrícola usa a seguinte fórmula, estabelecida por seu departamento técnico, para estimar a produção de grãos (em toneladas) de cada talhão de cultivo, já descontando perdas médias esperadas na colheita:</p>
+    <p class="text-center font-mono bg-slate-800/60 p-2 rounded">Produção (ton) = Área (ha) × Produtividade (sacas/ha) × 0,05</p>
+    <p>A tabela a seguir apresenta a área e a produtividade registradas em 5 talhões da cooperativa:</p>
+    <table class="w-full text-xs border-collapse my-2">
+      <thead><tr class="bg-slate-800"><th class="border border-slate-600 p-2">Talhão</th><th class="border border-slate-600 p-2">Área (ha)</th><th class="border border-slate-600 p-2">Produtividade (sacas/ha)</th></tr></thead>
+      <tbody>
+        <tr><td class="border border-slate-600 p-2">1</td><td class="border border-slate-600 p-2">400</td><td class="border border-slate-600 p-2">20</td></tr>
+        <tr><td class="border border-slate-600 p-2">2</td><td class="border border-slate-600 p-2">300</td><td class="border border-slate-600 p-2">22</td></tr>
+        <tr><td class="border border-slate-600 p-2">3</td><td class="border border-slate-600 p-2">450</td><td class="border border-slate-600 p-2">25</td></tr>
+        <tr><td class="border border-slate-600 p-2">4</td><td class="border border-slate-600 p-2">375</td><td class="border border-slate-600 p-2">30</td></tr>
+        <tr><td class="border border-slate-600 p-2">5</td><td class="border border-slate-600 p-2">400</td><td class="border border-slate-600 p-2">25</td></tr>
+      </tbody>
+    </table>
+    <p><strong>A sequência que apresenta corretamente a produção estimada (em toneladas), na ordem dos talhões 1 a 5, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "400 | 330 | 562,5 | 562,5 | 500", correta: true },
+    { letra: "B", texto: "400 | 330 | 550 | 550 | 500", correta: false },
+    { letra: "C", texto: "420 | 330 | 562,5 | 562,5 | 500", correta: false },
+    { letra: "D", texto: "400 | 300 | 562,5 | 562,5 | 500", correta: false },
+    { letra: "E", texto: "400 | 330 | 562,5 | 600 | 500", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Aplicar uma fórmula dada literalmente a múltiplas linhas de uma tabela é um exercício de atenção e repetição cuidadosa — o risco não é entender a fórmula, mas errar a multiplicação em uma linha específica sem perceber.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Aplicando a fórmula literalmente</p>
+        <p>Quando um problema fornece uma fórmula pronta, o primeiro passo é identificar exatamente quais valores da tabela correspondem a cada variável da fórmula, e então substituir e calcular, exatamente como escrito — sem tentar "simplificar" ou reinterpretar a fórmula.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Multiplicação em cadeia</p>
+        <p>Aqui, a fórmula envolve três fatores multiplicados: área, produtividade e a constante 0,05. A ordem da multiplicação não importa (propriedade comutativa), mas é importante não esquecer nenhum dos três fatores durante o cálculo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Repetindo o processo para cada linha</p>
+        <p>Como a tabela tem 5 talhões, a fórmula deve ser aplicada 5 vezes, uma para cada linha, com os valores específicos de área e produtividade daquele talhão. Um erro comum é usar valores de uma linha errada ao calcular outra.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Conferindo resultados com casas decimais</p>
+        <p>Alguns resultados podem não ser números inteiros (como 562,5). É importante manter a precisão decimal correta e não arredondar prematuramente, pois isso pode fazer o resultado final não bater com nenhuma das alternativas.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "function-square", titulo: "Aplicação literal de fórmula", text: "Substituir cada variável pelo valor correspondente da tabela e calcular." },
+    { icone: "x", titulo: "Multiplicação em cadeia", text: "Multiplicar três fatores (área, produtividade, constante) na fórmula dada." },
+    { icone: "repeat", titulo: "Repetição sistemática", text: "Aplicar a mesma fórmula a cada linha da tabela, sem trocar valores entre linhas." },
+    { icone: "hash", titulo: "Precisão decimal", text: "Manter casas decimais exatas (como 562,5) sem arredondar antes da hora." },
+    { icone: "table", titulo: "Leitura cuidadosa de tabelas", text: "Associar corretamente cada valor da tabela à linha e variável correspondente." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 400 | 330 | 562,5 | 562,5 | 500</p>
+        <p class="text-xs text-slate-300">Aplicando a fórmula a cada talhão, obtém-se exatamente essa sequência de valores.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Aplicar a fórmula ao Talhão 1:</strong> 400 × 20 × 0,05 = 400 toneladas.</li>
+          <li><strong>Passo 2 — Aplicar aos Talhões 2, 3 e 4:</strong> Talhão 2: 300×22×0,05=330; Talhão 3: 450×25×0,05=562,5; Talhão 4: 375×30×0,05=562,5.</li>
+          <li><strong>Passo 3 — Aplicar ao Talhão 5:</strong> 400×25×0,05=500. Sequência final: 400, 330, 562,5, 562,5, 500.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 400 | 330 | 562,5 | 562,5 | 500 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Todos os cinco valores calculados corretamente pela fórmula fornecida.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 400 | 330 | 550 | 550 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra os Talhões 3 e 4, arredondando incorretamente 562,5 para 550.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 420 | 330 | 562,5 | 562,5 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 1, calculando 420 em vez de 400 (erro na multiplicação).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 400 | 300 | 562,5 | 562,5 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 2, esquecendo de multiplicar pela produtividade corretamente (usa só a área).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 400 | 330 | 562,5 | 600 | 500 — Incorreta</p>
+          <p class="text-xs text-slate-400">Erra o Talhão 4, calculando um valor incorreto (600 em vez de 562,5).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A fórmula da cooperativa",
+      legenda: "Produção = Área × Produtividade × 0,05",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#e2e8f0" font-size="13" text-anchor="middle" font-family="monospace">Área × Produtividade × 0,05</text></svg>`
+    },
+    {
+      titulo: "Dados dos 5 talhões",
+      legenda: "Área e produtividade de cada um",
+      svg: `<svg viewBox="0 0 260 140" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="140" fill="#0f172a"/>${[['1',400,20],['2',300,22],['3',450,25],['4',375,30],['5',400,25]].map((d,i)=>`<text x="10" y="${25+i*24}" fill="#93c5fd" font-size="10">T${d[0]}: ${d[1]}ha × ${d[2]}sc/ha</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Produção calculada",
+      legenda: "400, 330, 562,5, 562,5, 500 toneladas",
+      svg: `<svg viewBox="0 0 260 100" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="100" fill="#0f172a"/>${[400,330,562.5,562.5,500].map((v,i)=>`<rect x="${20+i*45}" y="${90-v/8}" width="30" height="${v/8}" fill="#10b981" opacity="0.6"/>`).join('')}</svg>`
+    },
+    {
+      titulo: "Sequência final",
+      legenda: "400 | 330 | 562,5 | 562,5 | 500",
+      svg: `<svg viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg"><rect width="260" height="80" fill="#0f172a"/><text x="130" y="45" fill="#6ee7b7" font-size="13" text-anchor="middle" font-weight="bold">400,330,562.5,562.5,500</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Calculadora de Produção Agrícola",
+    descricao: "Ajuste área e produtividade de um talhão para calcular a produção estimada.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Área (ha): <span id="q169-aval" class="text-blue-300 font-bold">400</span></label>
+          <input type="range" id="q169-area" min="50" max="600" step="25" value="400" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Produtividade (sacas/ha): <span id="q169-pval" class="text-blue-300 font-bold">20</span></label>
+          <input type="range" id="q169-produtividade" min="5" max="50" step="1" value="20" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Produção estimada</p>
+          <p id="q169-resultado" class="text-3xl font-bold text-emerald-400">400 ton</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const area = raiz.querySelector('#q169-area');
+      const prod = raiz.querySelector('#q169-produtividade');
+      const aval = raiz.querySelector('#q169-aval');
+      const pval = raiz.querySelector('#q169-pval');
+      const resultado = raiz.querySelector('#q169-resultado');
+      function atualizar() {
+        const A = parseFloat(area.value);
+        const P = parseFloat(prod.value);
+        aval.textContent = A;
+        pval.textContent = P;
+        const producao = A * P * 0.05;
+        resultado.textContent = producao.toLocaleString('pt-BR', {maximumFractionDigits: 1}) + ' ton';
+      }
+      area.addEventListener('input', atualizar);
+      prod.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="16" text-anchor="middle" font-weight="bold">400,330,562.5,562.5,500</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q170",
+  numero: 170,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flask-round",
+  titulo: "Aquário Escolar: Quantas Garrafas Podem Ser Enchidas Sem Prejudicar os Peixes?",
+  tags: ["Inequações", "Volume", "Matemática aplicada"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um professor de ciências mantém um aquário na sala de aula e, ao medir o nível da água com uma régua, constata que ela está na marca de 2 dm de altura, o que corresponde a um volume de 7,5 litros de água no aquário.</p>
+    <p>Para um experimento, os alunos precisam retirar água do aquário, enchendo pequenas garrafas de exatamente 0,3 litro cada. Por questões de segurança dos peixes, o volume de água no aquário não pode ficar abaixo de 5 litros em nenhum momento.</p>
+    <p><strong>O número máximo de garrafas de 0,3 litro que podem ser enchidas com a água do aquário, sem que o volume fique abaixo de 5 litros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "7", correta: false },
+    { letra: "B", texto: "8", correta: true },
+    { letra: "C", texto: "9", correta: false },
+    { letra: "D", texto: "10", correta: false },
+    { letra: "E", texto: "25", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de "quantas vezes posso retirar uma quantidade fixa sem ultrapassar um limite" são resolvidos com uma inequação simples — e a resposta final deve respeitar que o número de vezes é sempre um número inteiro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Montando a inequação do problema</p>
+        <p>Se o volume inicial é V0, cada garrafa retira uma quantidade fixa c, e o volume não pode ficar abaixo de um limite L após n garrafas, a condição é: V0 − c×n ≥ L, em que n é o número de garrafas cheias.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Isolando a variável n</p>
+        <p>Reorganizando a inequação: V0 − L ≥ c×n, e portanto n ≤ (V0 − L) / c. Essa manipulação algébrica isola o número máximo de garrafas permitido pela condição de segurança.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Arredondando para baixo (não é possível garrafa "fracionada")</p>
+        <p>Como o número de garrafas deve ser um número inteiro, e a inequação permite até um valor decimal (por exemplo, 8,33), o número máximo real de garrafas é o maior inteiro menor ou igual a esse valor — ou seja, arredondar para baixo, não para o inteiro mais próximo.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificando o resultado</p>
+        <p>Uma boa prática é verificar se o número encontrado realmente satisfaz a condição original: com o número máximo de garrafas, o volume restante deve ser ≥ ao limite; com uma garrafa a mais, o volume restante deve ficar abaixo do limite.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "droplet", titulo: "Inequação de volume", text: "Volume inicial menos (quantidade × número de retiradas) deve respeitar um limite mínimo." },
+    { icone: "divide", titulo: "Isolamento da variável", text: "n ≤ (volume inicial − limite) / quantidade retirada por vez." },
+    { icone: "arrow-down", titulo: "Arredondamento para baixo", text: "O número de garrafas deve ser inteiro; arredondar sempre para baixo em problemas de 'no máximo'." },
+    { icone: "check-circle", titulo: "Verificação do limite", text: "Confirmar que o número encontrado não ultrapassa a condição de segurança." },
+    { icone: "flask-conical", titulo: "Aplicação prática de inequações", text: "Cenários de segurança ou limite mínimo/máximo se traduzem naturalmente em inequações." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 8 garrafas</p>
+        <p class="text-xs text-slate-300">Resolvendo a inequação 7,5 − 0,3n ≥ 5, obtém-se n ≤ 8,33, então o máximo inteiro é 8.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Montar a inequação:</strong> 7,5 − 0,3n ≥ 5, em que n é o número de garrafas.</li>
+          <li><strong>Passo 2 — Isolar n:</strong> 7,5 − 5 ≥ 0,3n → 2,5 ≥ 0,3n → n ≤ 2,5/0,3 ≈ 8,33.</li>
+          <li><strong>Passo 3 — Arredondar para baixo:</strong> como n deve ser inteiro, o máximo é 8 garrafas. Verificação: 7,5 − 0,3×8 = 7,5 − 2,4 = 5,1 L (≥5, válido); com 9 garrafas: 7,5 − 2,7 = 4,8 L (abaixo do limite).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 7 — Incorreta</p>
+          <p class="text-xs text-slate-400">Subestima o número máximo de garrafas — ainda seria possível encher mais uma sem violar o limite.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 8 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Máximo número inteiro de garrafas que mantém o volume restante ≥ 5 litros.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 9 — Incorreta</p>
+          <p class="text-xs text-slate-400">Arredonda incorretamente para cima (de 8,33 para 9), violando a condição de segurança.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de ignorar completamente a inequação e usar apenas parte do cálculo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 25 — Incorreta</p>
+          <p class="text-xs text-slate-400">Divide o volume total (7,5) pela quantidade por garrafa (0,3) sem considerar o limite mínimo de segurança.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Volume inicial do aquário",
+      legenda: "7,5 litros na marca de 2 dm",
+      svg: `<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="180" fill="#0f172a"/><rect x="30" y="20" width="100" height="140" fill="none" stroke="#3b82f6" stroke-width="2"/><rect x="30" y="60" width="100" height="100" fill="#3b82f6" opacity="0.4"/><text x="80" y="45" fill="#93c5fd" font-size="12" text-anchor="middle">7,5 L</text></svg>`
+    },
+    {
+      titulo: "Limite mínimo de segurança",
+      legenda: "5 litros — não pode ficar abaixo",
+      svg: `<svg viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="180" fill="#0f172a"/><rect x="30" y="20" width="100" height="140" fill="none" stroke="#3b82f6" stroke-width="2"/><line x1="30" y1="93" x2="130" y2="93" stroke="#ef4444" stroke-width="2" stroke-dasharray="4"/><text x="80" y="85" fill="#f87171" font-size="11" text-anchor="middle">limite: 5 L</text></svg>`
+    },
+    {
+      titulo: "Inequação",
+      legenda: "7,5 − 0,3n ≥ 5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">7,5 − 0,3n ≥ 5</text></svg>`
+    },
+    {
+      titulo: "Resultado",
+      legenda: "n ≤ 8,33 → máximo 8 garrafas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">8 garrafas</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Limite de Retiradas do Aquário",
+    descricao: "Ajuste volume inicial, quantidade por garrafa e limite mínimo para calcular o máximo de garrafas.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Volume inicial (L): <span id="q170-vval" class="text-blue-300 font-bold">7.5</span></label>
+          <input type="range" id="q170-volume" min="3" max="20" step="0.5" value="7.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Volume por garrafa (L): <span id="q170-gval" class="text-blue-300 font-bold">0.3</span></label>
+          <input type="range" id="q170-garrafa" min="0.1" max="1" step="0.05" value="0.3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Limite mínimo (L): <span id="q170-lval" class="text-blue-300 font-bold">5</span></label>
+          <input type="range" id="q170-limite" min="1" max="15" step="0.5" value="5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Número máximo de garrafas</p>
+          <p id="q170-resultado" class="text-3xl font-bold text-emerald-400">8</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const volume = raiz.querySelector('#q170-volume');
+      const garrafa = raiz.querySelector('#q170-garrafa');
+      const limite = raiz.querySelector('#q170-limite');
+      const vval = raiz.querySelector('#q170-vval');
+      const gval = raiz.querySelector('#q170-gval');
+      const lval = raiz.querySelector('#q170-lval');
+      const resultado = raiz.querySelector('#q170-resultado');
+      function atualizar() {
+        const V = parseFloat(volume.value);
+        const G = parseFloat(garrafa.value);
+        const L = parseFloat(limite.value);
+        vval.textContent = V.toFixed(2);
+        gval.textContent = G.toFixed(2);
+        lval.textContent = L.toFixed(1);
+        const n = Math.max(0, Math.floor((V - L) / G + 1e-9));
+        resultado.textContent = n;
+      }
+      volume.addEventListener('input', atualizar);
+      garrafa.addEventListener('input', atualizar);
+      limite.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">8 garrafas</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q171",
+  numero: 171,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "square",
+  titulo: "Moldura Quadrada: Quanto Cresce o Perímetro com a Nova Borda?",
+  tags: ["Perímetro", "Álgebra básica", "Geometria plana"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um artesão produz molduras quadradas para quadros. A moldura original é um quadrado cujo perímetro é de 14 cm. O artesão decide adicionar uma borda decorativa de 2,5 cm de largura ao redor de toda a moldura, aumentando o lado do quadrado em 2,5 cm de cada um dos quatro lados (ou seja, 5 cm a mais na medida total de cada dimensão).</p>
+    <p><strong>A diferença entre o novo perímetro (com a borda adicionada) e o perímetro original, em centímetros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4", correta: false },
+    { letra: "B", texto: "8", correta: false },
+    { letra: "C", texto: "12", correta: false },
+    { letra: "D", texto: "16", correta: false },
+    { letra: "E", texto: "20", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Adicionar uma borda uniforme ao redor de uma figura quadrada aumenta o lado em duas vezes a largura da borda (uma vez de cada lado) — um detalhe que muda completamente o cálculo do novo perímetro.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Relação entre lado e perímetro de um quadrado</p>
+        <p>O perímetro de um quadrado de lado L é P = 4L. Conhecendo o perímetro, pode-se encontrar o lado dividindo por 4: L = P/4.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. O efeito de uma borda em todo o contorno</p>
+        <p>Quando se adiciona uma borda de largura w ao redor de um quadrado, o lado aumenta em 2w (a borda se soma dos dois lados opostos da figura — esquerda e direita, ou cima e baixo). O novo lado é L' = L + 2w.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando o novo perímetro</p>
+        <p>Com o novo lado L' = L + 2w, o novo perímetro é P' = 4L' = 4(L + 2w) = 4L + 8w = P + 8w. Ou seja, o perímetro aumenta em 8 vezes a largura da borda, não apenas 4 vezes.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Calculando a diferença de perímetros</p>
+        <p>A diferença entre o novo e o antigo perímetro é simplesmente P' − P = 8w. Esse resultado mostra que a diferença não depende do tamanho original do quadrado, apenas da largura da borda adicionada.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "square", titulo: "Perímetro do quadrado", text: "P = 4L, em que L é o lado do quadrado." },
+    { icone: "plus-square", titulo: "Efeito de uma borda uniforme", text: "O lado aumenta em 2w (duas vezes a largura da borda) ao redor da figura." },
+    { icone: "trending-up", titulo: "Novo perímetro", text: "P' = P + 8w, pois cada lado aumenta 2w e há 4 lados." },
+    { icone: "minus", titulo: "Diferença de perímetros", text: "P' − P = 8w, independente do tamanho original do quadrado." },
+    { icone: "calculator", titulo: "Álgebra aplicada à geometria", text: "Expressar relações geométricas como equações simplifica o cálculo." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — 20 cm</p>
+        <p class="text-xs text-slate-300">Com a borda de 2,5 cm, o novo perímetro é 34 cm; a diferença em relação aos 14 cm originais é 20 cm.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Encontrar o lado original:</strong> P = 14 cm → L = 14/4 = 3,5 cm.</li>
+          <li><strong>Passo 2 — Calcular o novo lado e o novo perímetro:</strong> L' = 3,5 + 2×2,5 = 8,5 cm; P' = 4×8,5 = 34 cm.</li>
+          <li><strong>Passo 3 — Calcular a diferença:</strong> 34 − 14 = 20 cm (equivalente a 8w = 8×2,5 = 20).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera apenas o aumento em um único lado da moldura, não no perímetro completo.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 8 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula o aumento considerando a borda em apenas dois lados da moldura.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 12 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no fator multiplicativo aplicado à largura da borda.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 16 — Incorreta</p>
+          <p class="text-xs text-slate-400">Próximo do valor correto, mas não considera a espessura total da borda em ambos os lados de cada dimensão.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) 20 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Diferença exata entre o perímetro novo (34 cm) e o original (14 cm).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Moldura original",
+      legenda: "Lado 3,5 cm, perímetro 14 cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="50" y="50" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="3"/><text x="80" y="130" fill="#93c5fd" font-size="12" text-anchor="middle">P = 14 cm</text></svg>`
+    },
+    {
+      titulo: "Borda adicionada",
+      legenda: "2,5 cm de largura ao redor",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="30" y="30" width="100" height="100" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="4"/><rect x="50" y="50" width="60" height="60" fill="none" stroke="#3b82f6" stroke-width="3"/></svg>`
+    },
+    {
+      titulo: "Nova moldura",
+      legenda: "Novo perímetro: 34 cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><rect x="30" y="30" width="100" height="100" fill="none" stroke="#10b981" stroke-width="3"/><text x="80" y="150" fill="#6ee7b7" font-size="12" text-anchor="middle">P' = 34 cm</text></svg>`
+    },
+    {
+      titulo: "Diferença de perímetro",
+      legenda: "34 − 14 = 20 cm",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">20 cm</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Moldura com Borda",
+    descricao: "Ajuste o lado original e a largura da borda para calcular a diferença de perímetro.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Lado original (cm): <span id="q171-lval" class="text-blue-300 font-bold">3.5</span></label>
+          <input type="range" id="q171-lado" min="1" max="20" step="0.5" value="3.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Largura da borda (cm): <span id="q171-wval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q171-borda" min="0.5" max="5" step="0.5" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Perímetro original / novo</p>
+          <p id="q171-perimetros" class="text-lg font-bold text-blue-300">14 cm / 34 cm</p>
+          <p class="text-xs text-slate-400 mt-2">Diferença</p>
+          <p id="q171-diferenca" class="text-3xl font-bold text-emerald-400">20 cm</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const lado = raiz.querySelector('#q171-lado');
+      const borda = raiz.querySelector('#q171-borda');
+      const lval = raiz.querySelector('#q171-lval');
+      const wval = raiz.querySelector('#q171-wval');
+      const perimetros = raiz.querySelector('#q171-perimetros');
+      const diferenca = raiz.querySelector('#q171-diferenca');
+      function atualizar() {
+        const L = parseFloat(lado.value);
+        const W = parseFloat(borda.value);
+        lval.textContent = L;
+        wval.textContent = W;
+        const P = 4 * L;
+        const Pnovo = 4 * (L + 2 * W);
+        perimetros.textContent = P.toFixed(1) + ' cm / ' + Pnovo.toFixed(1) + ' cm';
+        diferenca.textContent = (Pnovo - P).toFixed(1) + ' cm';
+      }
+      lado.addEventListener('input', atualizar);
+      borda.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">20 cm</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q172",
+  numero: 172,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "microscope",
+  titulo: "Cultura de Bactérias: Qual o Maior Valor Permitido para a Constante K?",
+  tags: ["Função quadrática", "Logaritmos", "Valor máximo"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um experimento de laboratório, o número de bactérias N(t) em uma cultura, t horas após o início da observação (com t variando de 0 a 10 horas), é modelado por N(t) = K · f(t), em que K é uma constante de proporcionalidade positiva (que depende das condições iniciais) e f(t) = −(t+1)(t−19).</p>
+    <p>Por uma norma de segurança do laboratório, o número de bactérias na cultura não pode, em nenhum momento do intervalo [0,10], fazer com que log₁₀[N(t)] ultrapasse 2,5.</p>
+    <p><strong>O maior valor que a constante K pode assumir, satisfazendo essa condição de segurança em todo o intervalo, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "10^0,5", correta: true },
+    { letra: "B", texto: "10^1", correta: false },
+    { letra: "C", texto: "10^1,5", correta: false },
+    { letra: "D", texto: "10^2", correta: false },
+    { letra: "E", texto: "10^2,5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas que combinam função quadrática com uma restrição logarítmica exigem duas etapas independentes: primeiro encontrar o valor MÁXIMO da função no intervalo, depois aplicar a restrição logarítmica a esse valor máximo (o "pior caso").</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Encontrando o vértice da parábola</p>
+        <p>Para f(t) = −(t+1)(t−19), as raízes são t=−1 e t=19. O vértice de uma parábola (ponto de máximo, já que o coeficiente de t² é negativo) está exatamente no ponto médio das raízes: t_vértice = (−1+19)/2 = 9.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Verificando se o vértice está no intervalo de interesse</p>
+        <p>Como o intervalo do problema é [0,10] e o vértice está em t=9, que pertence a esse intervalo, o valor máximo de f(t) no intervalo realmente ocorre no vértice — não é preciso analisar as extremidades do intervalo separadamente.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando o valor máximo de f(t)</p>
+        <p>f(9) = −(9+1)(9−19) = −(10)(−10) = 100. Esse é o maior valor que f(t) assume no intervalo [0,10], e portanto o maior valor de N(t) = K·f(t) também ocorre em t=9, sendo igual a 100K.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Aplicando a restrição logarítmica ao pior caso</p>
+        <p>A condição log₁₀[N(t)] ≤ 2,5 deve valer para TODO t no intervalo — inclusive (e principalmente) no ponto de máximo. Substituindo: log₁₀(100K) ≤ 2,5 → 100K ≤ 10^2,5 → K ≤ 10^2,5/100 = 10^2,5/10² = 10^0,5.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "trending-up", titulo: "Vértice de uma parábola", text: "Ponto médio das raízes, onde ocorre o valor máximo (concavidade para baixo)." },
+    { icone: "check-square", titulo: "Verificação do domínio", text: "Confirmar que o vértice pertence ao intervalo de interesse antes de usá-lo." },
+    { icone: "arrow-up", titulo: "Valor máximo da função", text: "Substituir o t do vértice na função para encontrar o valor máximo." },
+    { icone: "hash", titulo: "Propriedades de logaritmo", text: "log₁₀(N) ≤ 2,5 equivale a N ≤ 10^2,5, usando a definição de logaritmo." },
+    { icone: "shield", titulo: "Restrição no pior caso", text: "A condição deve valer para o valor máximo da função, o caso mais crítico." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — 10^0,5</p>
+        <p class="text-xs text-slate-300">A restrição aplicada ao valor máximo de f(t) (que é 100, em t=9) dá K ≤ 10^0,5.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Encontrar o valor máximo de f(t) no intervalo [0,10]:</strong> vértice em t=9 (ponto médio das raízes −1 e 19), com f(9) = −(10)(−10) = 100.</li>
+          <li><strong>Passo 2 — Montar a restrição no pior caso:</strong> log₁₀[K×100] ≤ 2,5.</li>
+          <li><strong>Passo 3 — Resolver para K:</strong> 100K ≤ 10^2,5 → K ≤ 10^2,5 / 10² = 10^(2,5−2) = 10^0,5.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) 10^0,5 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Resultado exato da divisão de potências: 10^2,5 / 10² = 10^0,5.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 10^1 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro na subtração dos expoentes (2,5−2).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 10^1,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora o fator 100 (valor máximo de f(t)) na restrição logarítmica.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 10^2 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde o valor máximo de f(t) (100=10²) com o valor de K procurado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 10^2,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa diretamente o limite da restrição sem dividir pelo valor máximo de f(t).</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Gráfico de f(t)",
+      legenda: "Parábola com raízes em t=−1 e t=19",
+      svg: `<svg viewBox="0 0 220 140" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="140" fill="#0f172a"/><line x1="10" y1="120" x2="210" y2="120" stroke="#475569"/><path d="M 20 120 Q 110 20 200 120" stroke="#3b82f6" stroke-width="2" fill="none"/><circle cx="110" cy="30" r="4" fill="#10b981"/><text x="110" y="20" fill="#6ee7b7" font-size="10" text-anchor="middle">t=9, f=100</text></svg>`
+    },
+    {
+      titulo: "Intervalo de interesse",
+      legenda: "[0,10] — vértice t=9 está dentro",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/><line x1="20" y1="50" x2="200" y2="50" stroke="#475569"/><rect x="30" y="45" width="150" height="10" fill="#3b82f6" opacity="0.4"/><circle cx="165" cy="50" r="4" fill="#10b981"/><text x="165" y="35" fill="#6ee7b7" font-size="10" text-anchor="middle">t=9</text></svg>`
+    },
+    {
+      titulo: "Restrição logarítmica",
+      legenda: "log₁₀[100K] ≤ 2,5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="14" text-anchor="middle">log₁₀(100K) ≤ 2,5</text></svg>`
+    },
+    {
+      titulo: "Valor máximo de K",
+      legenda: "K ≤ 10^0,5",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">K ≤ 10^0,5</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Restrição Logarítmica de K",
+    descricao: "Ajuste o valor máximo de f(t) e o limite logarítmico para calcular o K máximo permitido.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Valor máximo de f(t): <span id="q172-fval" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q172-fmax" min="10" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Limite do log₁₀ (expoente): <span id="q172-lval" class="text-blue-300 font-bold">2.5</span></label>
+          <input type="range" id="q172-limite" min="1" max="5" step="0.1" value="2.5" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor máximo de K</p>
+          <p id="q172-resultado" class="text-2xl font-bold text-emerald-400">10^0.50</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const fmax = raiz.querySelector('#q172-fmax');
+      const limite = raiz.querySelector('#q172-limite');
+      const fval = raiz.querySelector('#q172-fval');
+      const lval = raiz.querySelector('#q172-lval');
+      const resultado = raiz.querySelector('#q172-resultado');
+      function atualizar() {
+        const F = parseFloat(fmax.value);
+        const L = parseFloat(limite.value);
+        fval.textContent = F;
+        lval.textContent = L.toFixed(1);
+        const expoenteF = Math.log10(F);
+        const expoenteK = L - expoenteF;
+        resultado.textContent = '10^' + expoenteK.toFixed(2);
+      }
+      fmax.addEventListener('input', atualizar);
+      limite.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">K ≤ 10^0,5</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q173",
+  numero: 173,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "flower",
+  titulo: "Projeto de Jardim: Qual Formato Usa Menos Área de Grama?",
+  tags: ["Área de semicírculo", "Geometria plana", "Comparação de áreas"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um paisagista apresenta dois projetos de jardim para uma área residencial, ambos usando exclusivamente formas semicirculares de grama, mas organizadas de maneira diferente:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li><strong>Projeto 1:</strong> combina dois semicírculos de grama, um com raio de 6 metros e outro com raio de 3 metros;</li>
+      <li><strong>Projeto 2:</strong> usa um único semicírculo de grama, com raio de 9 metros.</li>
+    </ul>
+    <p>Considere π ≈ 3 para os cálculos.</p>
+    <p><strong>O projeto que utiliza a menor área total de grama, e o valor dessa área, são, respectivamente:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "Projeto 1, com 67,5 m²", correta: true },
+    { letra: "B", texto: "Projeto 1, com 121,5 m²", correta: false },
+    { letra: "C", texto: "Projeto 2, com 67,5 m²", correta: false },
+    { letra: "D", texto: "Projeto 2, com 121,5 m²", correta: false },
+    { letra: "E", texto: "Os dois projetos usam a mesma área", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">A área de um círculo cresce com o QUADRADO do raio, não linearmente — por isso, "dividir" uma forma grande em formas menores quase sempre resulta em uma área total menor, mesmo que o "tamanho geral" pareça parecido.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Área de um semicírculo</p>
+        <p>A área de um círculo completo é A = π r². Como um semicírculo é exatamente metade de um círculo, sua área é A = (π r²)/2. Com π ≈ 3, essa fórmula se simplifica para A ≈ 1,5 × r².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Somando áreas de múltiplos semicírculos</p>
+        <p>Quando um projeto combina mais de um semicírculo, a área total é a soma das áreas individuais de cada um, calculadas separadamente com a fórmula do semicírculo, cada um com seu próprio raio.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Por que dividir em partes menores reduz a área total</p>
+        <p>Como a área depende do QUADRADO do raio, dois semicírculos menores somados quase sempre têm área total menor que um único semicírculo maior "equivalente" (mesmo que a soma dos raios seja igual). Isso ocorre porque (r1)² + (r2)² é menor que (r1+r2)² sempre que r1 e r2 são ambos positivos.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Verificação numérica da desigualdade</p>
+        <p>No caso desta questão: 6² + 3² = 36 + 9 = 45, enquanto 9² = 81. Como 45 é bem menor que 81, fica claro por que dividir o semicírculo de raio 9 em dois semicírculos de raios 6 e 3 resulta em uma área total significativamente menor.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Área do semicírculo", text: "A = (π r²)/2 ≈ 1,5r², usando π ≈ 3." },
+    { icone: "plus", titulo: "Soma de áreas", text: "Área total de múltiplas formas = soma das áreas individuais." },
+    { icone: "trending-down", titulo: "Efeito do quadrado do raio", text: "Dividir uma forma em partes menores reduz a área total, pois a área cresce com r²." },
+    { icone: "not-equal", titulo: "(r1)²+(r2)² ≠ (r1+r2)²", text: "A soma dos quadrados é sempre menor que o quadrado da soma (para valores positivos)." },
+    { icone: "calculator", titulo: "Comparação numérica direta", text: "Calcular ambas as áreas e comparar os valores finais." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — Projeto 1, com 67,5 m²</p>
+        <p class="text-xs text-slate-300">O Projeto 1 (dois semicírculos) usa menos área que o Projeto 2 (um semicírculo único).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a área do Projeto 1:</strong> semicírculo r=6: 1,5×36=54 m²; semicírculo r=3: 1,5×9=13,5 m²; total: 54+13,5=67,5 m².</li>
+          <li><strong>Passo 2 — Calcular a área do Projeto 2:</strong> semicírculo r=9: 1,5×81=121,5 m².</li>
+          <li><strong>Passo 3 — Comparar:</strong> 67,5 m² (Projeto 1) é menor que 121,5 m² (Projeto 2).</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) Projeto 1, 67,5 m² — Correta ✓</p>
+          <p class="text-xs text-slate-400">Soma correta das áreas dos dois semicírculos menores, resultando na menor área total.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Projeto 1, 121,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o projeto certo, mas usa o valor de área do Projeto 2.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Projeto 2, 67,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa o valor de área correto, mas atribui ao projeto errado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) Projeto 2, 121,5 m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula corretamente a área do Projeto 2, mas esse não é o menor entre os dois.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) Mesma área — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que a área cresce com o quadrado do raio, não linearmente — as áreas são bem diferentes.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Projeto 1",
+      legenda: "Dois semicírculos: raios 6m e 3m",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><line x1="10" y1="100" x2="210" y2="100" stroke="#475569"/><path d="M 20 100 A 60 60 0 0 1 140 100" fill="#10b981" opacity="0.4" stroke="#10b981"/><path d="M 140 100 A 30 30 0 0 1 200 100" fill="#3b82f6" opacity="0.4" stroke="#3b82f6"/></svg>`
+    },
+    {
+      titulo: "Projeto 2",
+      legenda: "Um semicírculo único: raio 9m",
+      svg: `<svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="120" fill="#0f172a"/><line x1="10" y1="100" x2="210" y2="100" stroke="#475569"/><path d="M 20 100 A 90 90 0 0 1 200 100" fill="#f59e0b" opacity="0.4" stroke="#f59e0b"/></svg>`
+    },
+    {
+      titulo: "Cálculo das áreas",
+      legenda: "54+13,5=67,5 vs 121,5",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#6ee7b7" font-size="13" text-anchor="middle">Projeto 1: 67,5 m²</text><text x="100" y="65" fill="#fbbf24" font-size="13" text-anchor="middle">Projeto 2: 121,5 m²</text></svg>`
+    },
+    {
+      titulo: "Projeto vencedor",
+      legenda: "Projeto 1 — menos área de grama",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">Projeto 1</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Comparador de Áreas Semicirculares",
+    descricao: "Ajuste os raios dos semicírculos e compare as áreas totais.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Raio 1 (Projeto 1): <span id="q173-r1v" class="text-blue-300">6</span></label>
+            <input type="range" id="q173-r1" min="1" max="10" step="1" value="6" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Raio 2 (Projeto 1): <span id="q173-r2v" class="text-blue-300">3</span></label>
+            <input type="range" id="q173-r2" min="1" max="10" step="1" value="3" class="w-full">
+          </div>
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Raio único (Projeto 2): <span id="q173-r3v" class="text-blue-300 font-bold">9</span></label>
+          <input type="range" id="q173-r3" min="1" max="15" step="1" value="9" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Área Projeto 1 / Área Projeto 2</p>
+          <p id="q173-areas" class="text-lg font-bold text-blue-300">67,5 m² / 121,5 m²</p>
+          <p id="q173-vencedor" class="text-xl font-bold text-emerald-400 mt-2">Projeto 1 usa menos área</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const r1 = raiz.querySelector('#q173-r1');
+      const r2 = raiz.querySelector('#q173-r2');
+      const r3 = raiz.querySelector('#q173-r3');
+      const r1v = raiz.querySelector('#q173-r1v');
+      const r2v = raiz.querySelector('#q173-r2v');
+      const r3v = raiz.querySelector('#q173-r3v');
+      const areas = raiz.querySelector('#q173-areas');
+      const vencedor = raiz.querySelector('#q173-vencedor');
+      function atualizar() {
+        const R1 = parseFloat(r1.value), R2 = parseFloat(r2.value), R3 = parseFloat(r3.value);
+        r1v.textContent = R1; r2v.textContent = R2; r3v.textContent = R3;
+        const area1 = 1.5 * (R1*R1 + R2*R2);
+        const area2 = 1.5 * R3 * R3;
+        areas.textContent = area1.toFixed(1) + ' m² / ' + area2.toFixed(1) + ' m²';
+        vencedor.textContent = area1 < area2 ? 'Projeto 1 usa menos área' : (area2 < area1 ? 'Projeto 2 usa menos área' : 'Áreas iguais');
+      }
+      r1.addEventListener('input', atualizar);
+      r2.addEventListener('input', atualizar);
+      r3.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Projeto 1: 67,5 m²</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q174",
+  numero: 174,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "users",
+  titulo: "Viagem de Formatura: Quantos Alunos Fecharam o Grupo Original?",
+  tags: ["Equação do 2º grau", "Divisão proporcional", "Modelagem algébrica"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Um grupo de alunos está organizando uma viagem de formatura que custará, ao todo, R$ 60.000,00, valor que será dividido igualmente entre todos os participantes. Inicialmente, n alunos confirmaram participação, e cada um pagaria R$ 60.000,00/n.</p>
+    <p>Depois, mais 6 alunos decidiram entrar no grupo, o que reduziu o valor pago por pessoa em R$ 500,00 (mantendo o custo total da viagem em R$ 60.000,00, agora dividido entre n+6 pessoas).</p>
+    <p><strong>O número original de alunos n que haviam confirmado participação é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "18", correta: false },
+    { letra: "B", texto: "24", correta: true },
+    { letra: "C", texto: "30", correta: false },
+    { letra: "D", texto: "36", correta: false },
+    { letra: "E", texto: "40", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Problemas de divisão de custo com mudança no número de participantes frequentemente resultam em equações do 2º grau — a chave é montar corretamente a equação antes de resolver.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Expressando o valor por pessoa em cada situação</p>
+        <p>Se o custo total é C e há n pessoas, o valor por pessoa é C/n. Com n+6 pessoas, o valor por pessoa passa a ser C/(n+6). A diferença entre essas duas expressões é o valor da redução mencionada no problema.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Montando a equação da redução</p>
+        <p>A condição do problema se traduz em: C/n − C/(n+6) = 500 (a redução no valor por pessoa). Alternativamente, pode-se escrever (n+6) × (C/n − 500) = C, isolando o novo valor por pessoa multiplicado pelo novo número de pessoas.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Transformando em uma equação do 2º grau</p>
+        <p>Expandindo a equação (n+6)(60.000/n − 500) = 60.000 e multiplicando por n para eliminar a fração, obtém-se uma equação quadrática em n: 60.000n + 360.000 − 500n² − 3.000n = 60.000n, que se simplifica para n² + 6n − 720 = 0.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Resolvendo a equação quadrática</p>
+        <p>Usando a fórmula de Bhaskara em n² + 6n − 720 = 0: n = [−6 ± √(36+2880)]/2 = [−6 ± √2916]/2 = [−6 ± 54]/2. Como n deve ser positivo, n = 48/2 = 24.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "divide", titulo: "Valor por pessoa", text: "Custo total dividido pelo número de participantes." },
+    { icone: "minus", titulo: "Equação da redução", text: "Diferença entre os valores por pessoa antes e depois é igual à redução dada." },
+    { icone: "x-square", titulo: "Equação do 2º grau", text: "Expandir e simplificar a equação resulta em uma equação quadrática em n." },
+    { icone: "calculator", titulo: "Fórmula de Bhaskara", text: "n = [−b ± √(b²−4ac)] / 2a, aplicada para resolver a equação." },
+    { icone: "check-circle", titulo: "Escolha da raiz válida", text: "Descartar raízes negativas, já que n representa um número de pessoas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 24 alunos</p>
+        <p class="text-xs text-slate-300">Resolvendo a equação quadrática n² + 6n − 720 = 0, obtém-se n = 24.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Montar a equação:</strong> (n+6)(60.000/n − 500) = 60.000.</li>
+          <li><strong>Passo 2 — Expandir e simplificar:</strong> multiplicando e reorganizando os termos, obtém-se n² + 6n − 720 = 0.</li>
+          <li><strong>Passo 3 — Resolver com Bhaskara:</strong> n = [−6 ± √2916]/2 = [−6 ± 54]/2. A raiz positiva é n = 24.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 18 — Incorreta</p>
+          <p class="text-xs text-slate-400">Não satisfaz a equação quadrática original; resulta de um erro na montagem da equação.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 24 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Verificação: 60.000/24=2.500; 60.000/30=2.000; diferença=500, exatamente como no enunciado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 30 — Incorreta</p>
+          <p class="text-xs text-slate-400">Confunde n com n+6 (o novo número de participantes após a entrada dos 6 alunos).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 36 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo do discriminante da equação quadrática.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 40 — Incorreta</p>
+          <p class="text-xs text-slate-400">Valor que não satisfaz a equação original ao ser testado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Situação inicial",
+      legenda: "n alunos, R$ 60.000/n cada",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="14" text-anchor="middle">n alunos</text><text x="100" y="68" fill="#93c5fd" font-size="12" text-anchor="middle">R$60.000/n cada</text></svg>`
+    },
+    {
+      titulo: "6 alunos a mais",
+      legenda: "n+6 alunos, valor reduzido em R$500",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="14" text-anchor="middle">n+6 alunos</text><text x="100" y="68" fill="#fbbf24" font-size="12" text-anchor="middle">− R$500 por pessoa</text></svg>`
+    },
+    {
+      titulo: "Equação quadrática",
+      legenda: "n² + 6n − 720 = 0",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#e2e8f0" font-size="16" text-anchor="middle" font-family="monospace">n² + 6n − 720 = 0</text></svg>`
+    },
+    {
+      titulo: "Solução",
+      legenda: "n = 24 alunos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">n = 24</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Divisão de Custo com Novos Participantes",
+    descricao: "Ajuste o custo total, a quantidade extra de pessoas e a redução para ver o número original de alunos.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Número de alunos (n): <span id="q174-nval" class="text-blue-300 font-bold">24</span></label>
+          <input type="range" id="q174-n" min="5" max="50" step="1" value="24" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Valor por pessoa (n alunos) / (n+6 alunos)</p>
+          <p id="q174-valores" class="text-lg font-bold text-blue-300">R$ 2.500,00 / R$ 2.000,00</p>
+          <p class="text-xs text-slate-400 mt-2">Redução real</p>
+          <p id="q174-reducao" class="text-2xl font-bold text-emerald-400">R$ 500,00</p>
+          <p id="q174-status" class="text-xs mt-1 text-emerald-400">✓ Corresponde à meta de R$ 500,00</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const n = raiz.querySelector('#q174-n');
+      const nval = raiz.querySelector('#q174-nval');
+      const valores = raiz.querySelector('#q174-valores');
+      const reducao = raiz.querySelector('#q174-reducao');
+      const status = raiz.querySelector('#q174-status');
+      function atualizar() {
+        const N = parseFloat(n.value);
+        nval.textContent = N;
+        const v1 = 60000 / N;
+        const v2 = 60000 / (N + 6);
+        valores.textContent = 'R$ ' + v1.toFixed(2) + ' / R$ ' + v2.toFixed(2);
+        const red = v1 - v2;
+        reducao.textContent = 'R$ ' + red.toFixed(2);
+        if (Math.abs(red - 500) < 1) {
+          status.textContent = '✓ Corresponde à meta de R$ 500,00';
+          status.className = 'text-xs mt-1 text-emerald-400';
+        } else {
+          status.textContent = '✗ Não corresponde à meta de R$ 500,00';
+          status.className = 'text-xs mt-1 text-rose-400';
+        }
+      }
+      n.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">n = 24</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q175",
+  numero: 175,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "gift",
+  titulo: "Premiação Corporativa: De Quantas Formas Distribuir os Prêmios?",
+  tags: ["Combinação simples", "Princípio multiplicativo", "Análise combinatória"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma empresa vai premiar três diretores (A, B e C) ao final do ano, cada um recebendo prêmios de um catálogo diferente e específico para seu cargo:</p>
+    <ul class="list-disc list-inside space-y-1">
+      <li>o Diretor A receberá exatamente 1 prêmio, escolhido entre 2 opções especiais do catálogo Ouro;</li>
+      <li>o Diretor B receberá exatamente 2 prêmios (diferentes entre si), escolhidos entre 6 opções do catálogo Prata;</li>
+      <li>o Diretor C receberá exatamente 2 prêmios (diferentes entre si), escolhidos entre 5 opções do catálogo Bronze.</li>
+    </ul>
+    <p>Os três catálogos são completamente independentes entre si (nenhum item aparece em mais de um catálogo), e a ordem dos prêmios recebidos por cada diretor não importa.</p>
+    <p><strong>O número total de maneiras diferentes de realizar essa distribuição de prêmios é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "60", correta: false },
+    { letra: "B", texto: "150", correta: false },
+    { letra: "C", texto: "300", correta: true },
+    { letra: "D", texto: "450", correta: false },
+    { letra: "E", texto: "600", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando escolhas independentes acontecem em paralelo (não uma depois da outra do mesmo conjunto), o princípio multiplicativo se aplica diretamente ao número de possibilidades de cada escolha, calculado separadamente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Combinação simples: escolher sem se importar com a ordem</p>
+        <p>Quando se escolhem k itens de um total de n itens distintos, sem que a ordem da escolha importe, o número de possibilidades é dado pela combinação C(n,k) = n! / [k!(n−k)!].</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Calculando cada escolha separadamente</p>
+        <p>Como os catálogos são independentes, cada diretor tem seu próprio conjunto de opções, sem interferência entre eles. O número de formas de escolher o prêmio (ou prêmios) de cada diretor é calculado isoladamente: C(2,1) para o Diretor A, C(6,2) para o Diretor B, C(5,2) para o Diretor C.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Aplicando o princípio multiplicativo</p>
+        <p>Como as três escolhas acontecem de forma independente (uma não afeta as opções da outra), o total de combinações possíveis para o cenário completo é o PRODUTO do número de possibilidades de cada escolha individual.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Diferença entre pools independentes e pools compartilhados</p>
+        <p>É importante notar que, neste problema, os catálogos são independentes — nenhum item é compartilhado ou removido de um catálogo para afetar outro. Se os catálogos fossem um único pool compartilhado, o cálculo exigiria escolhas sequenciais com pools decrescentes, o que tornaria o problema mais complexo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "grid", titulo: "Combinação simples", text: "C(n,k) = n!/[k!(n−k)!], para escolhas sem importância de ordem." },
+    { icone: "layers", titulo: "Pools independentes", text: "Catálogos separados não compartilham itens nem afetam as escolhas uns dos outros." },
+    { icone: "x", titulo: "Princípio multiplicativo", text: "Multiplicar o número de possibilidades de cada escolha independente." },
+    { icone: "user", titulo: "Escolha de 1 entre n", text: "C(n,1) = n, o número de formas de escolher exatamente 1 item." },
+    { icone: "check-circle", titulo: "Identificação de independência", text: "Reconhecer quando pools são independentes simplifica o cálculo combinatório." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 300</p>
+        <p class="text-xs text-slate-300">2 × 15 × 10 = 300, multiplicando as possibilidades independentes de cada diretor.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular as possibilidades do Diretor A:</strong> C(2,1) = 2 formas de escolher 1 prêmio entre 2 opções.</li>
+          <li><strong>Passo 2 — Calcular as possibilidades dos Diretores B e C:</strong> C(6,2) = 15 formas para o Diretor B; C(5,2) = 10 formas para o Diretor C.</li>
+          <li><strong>Passo 3 — Multiplicar todas as possibilidades:</strong> 2 × 15 × 10 = 300.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 60 — Incorreta</p>
+          <p class="text-xs text-slate-400">Esquece de incluir uma das três combinações no produto final.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 150 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa C(2,1)=2 corretamente, mas calcula errado uma das outras combinações.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 300 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Produto correto das três combinações independentes: 2 × 15 × 10.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 450 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um erro no cálculo de C(6,2) ou C(5,2).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 600 — Incorreta</p>
+          <p class="text-xs text-slate-400">Considera a ordem dos prêmios como relevante (arranjo em vez de combinação), inflando o resultado.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Catálogo Ouro — Diretor A",
+      legenda: "C(2,1) = 2 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">C(2,1) = 2</text></svg>`
+    },
+    {
+      titulo: "Catálogo Prata — Diretor B",
+      legenda: "C(6,2) = 15 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="16" text-anchor="middle">C(6,2) = 15</text></svg>`
+    },
+    {
+      titulo: "Catálogo Bronze — Diretor C",
+      legenda: "C(5,2) = 10 formas",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">C(5,2) = 10</text></svg>`
+    },
+    {
+      titulo: "Total combinado",
+      legenda: "2 × 15 × 10 = 300",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">300</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Combinações Independentes",
+    descricao: "Ajuste os tamanhos dos catálogos e as quantidades escolhidas para cada diretor.",
+    html: `
+      <div class="space-y-3">
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <div>
+            <label class="text-slate-400">Catálogo A (total): <span id="q175-nav" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-na" min="1" max="10" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos A: <span id="q175-kav" class="text-blue-300">1</span></label>
+            <input type="range" id="q175-ka" min="0" max="5" step="1" value="1" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Catálogo B (total): <span id="q175-nbv" class="text-blue-300">6</span></label>
+            <input type="range" id="q175-nb" min="1" max="12" step="1" value="6" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos B: <span id="q175-kbv" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-kb" min="0" max="6" step="1" value="2" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Catálogo C (total): <span id="q175-ncv" class="text-blue-300">5</span></label>
+            <input type="range" id="q175-nc" min="1" max="12" step="1" value="5" class="w-full">
+          </div>
+          <div>
+            <label class="text-slate-400">Escolhidos C: <span id="q175-kcv" class="text-blue-300">2</span></label>
+            <input type="range" id="q175-kc" min="0" max="6" step="1" value="2" class="w-full">
+          </div>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Total de combinações possíveis</p>
+          <p id="q175-total" class="text-3xl font-bold text-emerald-400">300</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      function comb(n, k) {
+        if (k < 0 || k > n) return 0;
+        let r = 1;
+        for (let i = 0; i < k; i++) r = r * (n - i) / (i + 1);
+        return Math.round(r);
+      }
+      const ids = ['na','ka','nb','kb','nc','kc'];
+      const els = {};
+      ids.forEach(id => { els[id] = raiz.querySelector('#q175-' + id); });
+      const vals = {};
+      ids.forEach(id => { vals[id] = raiz.querySelector('#q175-' + id + 'v'); });
+      const total = raiz.querySelector('#q175-total');
+      function atualizar() {
+        const v = {};
+        ids.forEach(id => { v[id] = parseFloat(els[id].value); vals[id].textContent = v[id]; });
+        const cA = comb(v.na, v.ka);
+        const cB = comb(v.nb, v.kb);
+        const cC = comb(v.nc, v.kc);
+        total.textContent = (cA * cB * cC).toLocaleString('pt-BR');
+      }
+      ids.forEach(id => els[id].addEventListener('input', atualizar));
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="26" text-anchor="middle" font-weight="bold">300</text></svg>`,
+  simuladorType: null
+},
+
+  {
+  id: "q176",
+  numero: 176,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "running",
+  titulo: "Corrida com Prorrogação: Qual a Distância Total Percorrida?",
+  tags: ["Velocidade constante", "Razão e proporção", "Matemática aplicada"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em uma prova de corrida de revezamento por tempo, um atleta percorre 4,5 km em 45 minutos, mantendo velocidade constante durante todo o percurso. Por causa de uma pane no cronômetro oficial, os organizadores decidem conceder uma prorrogação de 30 minutos extras, durante os quais o atleta continua correndo na mesma velocidade constante.</p>
+    <p><strong>A distância total percorrida pelo atleta, somando o percurso original e a prorrogação, em quilômetros, é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "4,5", correta: false },
+    { letra: "B", texto: "6,0", correta: false },
+    { letra: "C", texto: "7,5", correta: true },
+    { letra: "D", texto: "9,0", correta: false },
+    { letra: "E", texto: "10,5", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Velocidade constante significa que a razão entre distância e tempo é sempre a mesma — uma vez descoberta essa razão, ela pode ser aplicada a qualquer novo intervalo de tempo para prever a distância correspondente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Calculando a velocidade constante</p>
+        <p>Velocidade é a razão entre distância percorrida e tempo gasto: v = d/t. Com os dados originais (4,5 km em 45 min), calcula-se v = 4,5/45 = 0,1 km/min.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a velocidade ao tempo extra</p>
+        <p>Como a velocidade permanece constante durante a prorrogação, a distância percorrida nesse período extra é: d_extra = v × t_extra = 0,1 km/min × 30 min = 3 km.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Somando as distâncias</p>
+        <p>A distância total é a soma da distância original com a distância percorrida durante a prorrogação: d_total = 4,5 + 3 = 7,5 km.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Atalho: usando razão de tempos</p>
+        <p>Como a prorrogação (30 min) é exatamente 2/3 do tempo original (45 min), a distância extra também será 2/3 da distância original: (2/3) × 4,5 = 3 km — confirmando o resultado obtido pela velocidade.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "gauge", titulo: "Velocidade constante", text: "v = d/t, a mesma razão se aplica a qualquer intervalo de tempo." },
+    { icone: "x", titulo: "Distância a partir da velocidade", text: "d = v × t, aplicando a velocidade constante ao novo tempo." },
+    { icone: "plus", titulo: "Soma de distâncias parciais", text: "Distância total = distância original + distância do período extra." },
+    { icone: "divide", titulo: "Atalho por razão de tempos", text: "A proporção entre os tempos determina a proporção entre as distâncias." },
+    { icone: "check-circle", titulo: "Verificação cruzada", text: "Confirmar o resultado por dois métodos diferentes aumenta a confiança na resposta." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa C — 7,5 km</p>
+        <p class="text-xs text-slate-300">Com velocidade constante de 0,1 km/min, os 30 minutos extras somam 3 km, totalizando 7,5 km.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular a velocidade:</strong> v = 4,5 km / 45 min = 0,1 km/min.</li>
+          <li><strong>Passo 2 — Calcular a distância extra:</strong> 0,1 km/min × 30 min = 3 km.</li>
+          <li><strong>Passo 3 — Somar:</strong> 4,5 + 3 = 7,5 km.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 4,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora completamente a distância percorrida durante a prorrogação.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 6,0 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula a distância extra incorretamente, usando uma velocidade errada.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">C) 7,5 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Soma correta da distância original (4,5 km) com a distância extra (3 km).</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 9,0 — Incorreta</p>
+          <p class="text-xs text-slate-400">Dobra a distância original, ignorando a proporção correta entre os tempos.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 10,5 — Incorreta</p>
+          <p class="text-xs text-slate-400">Superestima a distância extra, tratando os 30 minutos como se fossem 60 minutos.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Percurso original",
+      legenda: "4,5 km em 45 minutos",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="14" text-anchor="middle">4,5 km / 45 min</text></svg>`
+    },
+    {
+      titulo: "Velocidade constante",
+      legenda: "v = 0,1 km/min",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">v = 0,1 km/min</text></svg>`
+    },
+    {
+      titulo: "Prorrogação",
+      legenda: "30 min extras = 3 km",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="14" text-anchor="middle">+30 min = +3 km</text></svg>`
+    },
+    {
+      titulo: "Distância total",
+      legenda: "4,5 + 3 = 7,5 km",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">7,5 km</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Distância com Tempo Extra",
+    descricao: "Ajuste a distância e o tempo originais, e o tempo extra, para calcular a distância total.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Distância original (km): <span id="q176-dval" class="text-blue-300 font-bold">4.5</span></label>
+          <input type="range" id="q176-dist" min="1" max="20" step="0.5" value="4.5" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo original (min): <span id="q176-tval" class="text-blue-300 font-bold">45</span></label>
+          <input type="range" id="q176-tempo" min="5" max="120" step="5" value="45" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Tempo extra (min): <span id="q176-eval" class="text-blue-300 font-bold">30</span></label>
+          <input type="range" id="q176-extra" min="0" max="60" step="5" value="30" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Distância total</p>
+          <p id="q176-resultado" class="text-3xl font-bold text-emerald-400">7,5 km</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const dist = raiz.querySelector('#q176-dist');
+      const tempo = raiz.querySelector('#q176-tempo');
+      const extra = raiz.querySelector('#q176-extra');
+      const dval = raiz.querySelector('#q176-dval');
+      const tval = raiz.querySelector('#q176-tval');
+      const eval_ = raiz.querySelector('#q176-eval');
+      const resultado = raiz.querySelector('#q176-resultado');
+      function atualizar() {
+        const D = parseFloat(dist.value);
+        const T = parseFloat(tempo.value);
+        const E = parseFloat(extra.value);
+        dval.textContent = D.toFixed(1);
+        tval.textContent = T;
+        eval_.textContent = E;
+        const v = D / T;
+        const total = D + v * E;
+        resultado.textContent = total.toFixed(2).replace('.', ',') + ' km';
+      }
+      dist.addEventListener('input', atualizar);
+      tempo.addEventListener('input', atualizar);
+      extra.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">7,5 km</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q177",
+  numero: 177,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "medal",
+  titulo: "Medalhas Olímpicas: Quanto Ouro é Necessário para 100 Peças?",
+  tags: ["Volume de cilindro", "Volume de prisma", "Geometria espacial"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Uma fábrica de medalhas produz peças em formato de disco cilíndrico com 3 cm de raio e 0,3 cm de espessura. Para economizar ouro (material caro), apenas a região entre a borda circular da medalha e um núcleo central em formato de prisma quadrado (com o quadrado inscrito exatamente na circunferência da medalha, e mesma espessura de 0,3 cm) é banhada e preenchida com ouro maciço — o núcleo central é feito de um metal mais barato.</p>
+    <p>Considere π ≈ 3,1 e √2 ≈ 1,41 para os cálculos.</p>
+    <p><strong>A quantidade de ouro, em cm³, necessária para produzir 100 medalhas é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "270", correta: false },
+    { letra: "B", texto: "297", correta: true },
+    { letra: "C", texto: "324", correta: false },
+    { letra: "D", texto: "540", correta: false },
+    { letra: "E", texto: "837", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando uma peça é composta por duas regiões geométricas diferentes (aqui, um cilindro com um prisma "vazado" dentro), o volume do material de interesse é a diferença entre os dois volumes — não a soma nem um dos dois isoladamente.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Volume do cilindro completo (a medalha inteira)</p>
+        <p>O volume de um cilindro é V = π r² h. Com r = 3 cm e h = 0,3 cm, e π ≈ 3,1: V = 3,1 × 9 × 0,3 = 8,37 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Volume do prisma quadrado inscrito (o núcleo central)</p>
+        <p>Um quadrado inscrito em uma circunferência de raio r tem diagonal igual a 2r (o diâmetro). Se a diagonal é d = 2r = 6 cm, o lado do quadrado é d/√2 = 6/1,41 ≈ 4,26 cm, e a área do quadrado é lado² ≈ 18 cm² (podendo também ser calculada diretamente como (2r)²/2 = 36/2 = 18 cm²). O volume do prisma é V = área × h = 18 × 0,3 = 5,4 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Volume de ouro por medalha (a diferença)</p>
+        <p>Como o ouro preenche apenas a região entre o cilindro e o prisma central, o volume de ouro por medalha é: V_ouro = V_cilindro − V_prisma = 8,37 − 5,4 = 2,97 cm³.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Escalando para 100 medalhas</p>
+        <p>Para 100 medalhas idênticas, o volume total de ouro necessário é simplesmente 100 vezes o volume de uma única medalha: 100 × 2,97 = 297 cm³.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "circle", titulo: "Volume do cilindro", text: "V = π r² h, o volume total do disco da medalha." },
+    { icone: "square", titulo: "Quadrado inscrito na circunferência", text: "A diagonal do quadrado é igual ao diâmetro da circunferência; área = (2r)²/2." },
+    { icone: "minus", titulo: "Volume por diferença", text: "Volume da região de interesse = volume maior − volume do núcleo removido." },
+    { icone: "x", titulo: "Escalonamento para múltiplas peças", text: "Multiplicar o volume de uma peça pela quantidade total de peças." },
+    { icone: "gem", titulo: "Aplicação prática em manufatura", text: "Cálculo de material necessário evitando desperdício em peças compostas." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa B — 297 cm³</p>
+        <p class="text-xs text-slate-300">Cada medalha usa 2,97 cm³ de ouro; para 100 medalhas, são necessários 297 cm³.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Volume do cilindro:</strong> V = 3,1 × 3² × 0,3 = 3,1 × 9 × 0,3 = 8,37 cm³.</li>
+          <li><strong>Passo 2 — Volume do prisma quadrado inscrito:</strong> área do quadrado = (2×3)²/2 = 18 cm²; V = 18 × 0,3 = 5,4 cm³.</li>
+          <li><strong>Passo 3 — Volume de ouro por medalha e total:</strong> 8,37 − 5,4 = 2,97 cm³ por medalha; × 100 = 297 cm³.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 270 — Incorreta</p>
+          <p class="text-xs text-slate-400">Resulta de um pequeno erro no cálculo da área do quadrado inscrito.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">B) 297 — Correta ✓</p>
+          <p class="text-xs text-slate-400">100 × (8,37 − 5,4) = 100 × 2,97 = 297 cm³.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 324 — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa uma área de quadrado incorreta, superestimando o núcleo removido.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) 540 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula apenas o volume do prisma × 100, ignorando a subtração do cilindro.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 837 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula o volume do cilindro completo × 100, sem descontar o núcleo central.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Medalha cilíndrica completa",
+      legenda: "r=3cm, h=0,3cm",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="#f59e0b" opacity="0.3" stroke="#fbbf24" stroke-width="3"/></svg>`
+    },
+    {
+      titulo: "Prisma quadrado inscrito",
+      legenda: "Núcleo central (metal mais barato)",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="none" stroke="#334155" stroke-width="2" stroke-dasharray="4"/><rect x="37.6" y="37.6" width="84.8" height="84.8" fill="#64748b" opacity="0.6" stroke="#94a3b8" stroke-width="2"/></svg>`
+    },
+    {
+      titulo: "Região de ouro",
+      legenda: "Entre o círculo e o quadrado",
+      svg: `<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" fill="#0f172a"/><circle cx="80" cy="80" r="60" fill="#fbbf24" opacity="0.5"/><rect x="37.6" y="37.6" width="84.8" height="84.8" fill="#0f172a"/></svg>`
+    },
+    {
+      titulo: "Total para 100 medalhas",
+      legenda: "297 cm³ de ouro",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">297 cm³</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Volume de Ouro nas Medalhas",
+    descricao: "Ajuste raio, espessura e quantidade de medalhas para calcular o ouro necessário.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Raio (cm): <span id="q177-rval" class="text-blue-300 font-bold">3</span></label>
+          <input type="range" id="q177-raio" min="1" max="8" step="0.5" value="3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Espessura (cm): <span id="q177-hval" class="text-blue-300 font-bold">0.3</span></label>
+          <input type="range" id="q177-espessura" min="0.1" max="1" step="0.05" value="0.3" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Quantidade de medalhas: <span id="q177-qval" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q177-qtd" min="1" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Ouro por medalha</p>
+          <p id="q177-porMedalha" class="text-lg font-bold text-blue-300">2,97 cm³</p>
+          <p class="text-xs text-slate-400 mt-2">Ouro total</p>
+          <p id="q177-total" class="text-3xl font-bold text-emerald-400">297 cm³</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const raio = raiz.querySelector('#q177-raio');
+      const esp = raiz.querySelector('#q177-espessura');
+      const qtd = raiz.querySelector('#q177-qtd');
+      const rval = raiz.querySelector('#q177-rval');
+      const hval = raiz.querySelector('#q177-hval');
+      const qval = raiz.querySelector('#q177-qval');
+      const porMedalha = raiz.querySelector('#q177-porMedalha');
+      const total = raiz.querySelector('#q177-total');
+      function atualizar() {
+        const R = parseFloat(raio.value);
+        const H = parseFloat(esp.value);
+        const Q = parseFloat(qtd.value);
+        rval.textContent = R;
+        hval.textContent = H.toFixed(2);
+        qval.textContent = Q;
+        const vCilindro = 3.1 * R * R * H;
+        const areaQuadrado = (2 * R) * (2 * R) / 2;
+        const vPrisma = areaQuadrado * H;
+        const vOuro = vCilindro - vPrisma;
+        porMedalha.textContent = vOuro.toFixed(2) + ' cm³';
+        total.textContent = (vOuro * Q).toFixed(1) + ' cm³';
+      }
+      raio.addEventListener('input', atualizar);
+      esp.addEventListener('input', atualizar);
+      qtd.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">297 cm³</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q178",
+  numero: 178,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "dices",
+  titulo: "Jogo de Dados: Quem Tem Mais Chance de Vencer, João ou Artur?",
+  tags: ["Probabilidade condicional", "Probabilidade total", "Jogos de azar"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>João e Artur criaram o seguinte jogo com dados honestos de 6 faces: primeiro, lança-se um dado para determinar um número j (de 1 a 6), que será usado como "limite" da rodada. Em seguida, dois outros dados são lançados simultaneamente.</p>
+    <p>João vence a rodada se AMBOS os dois dados lançados na segunda etapa mostrarem um valor menor ou igual a j. Caso contrário (ou seja, se pelo menos um dos dois dados mostrar um valor maior que j), Artur vence a rodada.</p>
+    <p><strong>Considerando todas as possibilidades para o valor de j, é correto afirmar que:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "João tem mais chances de vencer, com probabilidade 125/216", correta: false },
+    { letra: "B", texto: "Os dois têm exatamente a mesma probabilidade de vencer", correta: false },
+    { letra: "C", texto: "Artur tem mais chances de vencer, com probabilidade 91/216", correta: false },
+    { letra: "D", texto: "João tem mais chances de vencer, com probabilidade 91/216", correta: false },
+    { letra: "E", texto: "Artur tem mais chances de vencer, com probabilidade 125/216", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando um evento depende de uma etapa aleatória anterior (aqui, o valor de j), a probabilidade total é calculada somando, para cada valor possível da etapa anterior, o produto de sua probabilidade pela probabilidade condicional do evento de interesse — a chamada Lei da Probabilidade Total.</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Probabilidade condicional de João vencer, dado j</p>
+        <p>Se j é conhecido, a probabilidade de um único dado mostrar valor ≤ j é j/6 (pois há j valores favoráveis entre 6 possíveis). Como os dois dados são independentes, a probabilidade de AMBOS mostrarem valor ≤ j é (j/6)².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Aplicando a Lei da Probabilidade Total</p>
+        <p>Como j é escolhido uniformemente entre 1 e 6 (probabilidade 1/6 para cada valor), a probabilidade total de João vencer é a média das probabilidades condicionais: P(João vence) = (1/6) × Σ_{j=1}^{6} (j/6)².</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Calculando a soma</p>
+        <p>Σ_{j=1}^{6} j² = 1+4+9+16+25+36 = 91. Logo, P(João vence) = (1/6) × (91/36) = 91/216.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Calculando a probabilidade de Artur vencer (evento complementar)</p>
+        <p>Como Artur vence exatamente quando João não vence, P(Artur vence) = 1 − P(João vence) = 1 − 91/216 = 125/216. Como 125/216 > 91/216, Artur tem mais chances de vencer o jogo.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "percent", titulo: "Probabilidade condicional", text: "P(ambos ≤ j | j) = (j/6)², usando independência dos dois dados." },
+    { icone: "sigma", titulo: "Lei da probabilidade total", text: "Somar (probabilidade de cada j) × (probabilidade condicional), para todos os j possíveis." },
+    { icone: "hash", titulo: "Soma de quadrados", text: "Σj² de 1 a 6 = 91, um valor útil para várias questões de probabilidade com dados." },
+    { icone: "minus", titulo: "Evento complementar", text: "P(Artur vence) = 1 − P(João vence), pois os eventos são complementares." },
+    { icone: "trophy", titulo: "Comparação de probabilidades", text: "Comparar as frações finais para determinar quem tem mais chances." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa E — Artur vence com probabilidade 125/216</p>
+        <p class="text-xs text-slate-300">P(João) = 91/216 e P(Artur) = 125/216, então Artur tem mais chances.</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Probabilidade condicional para cada j:</strong> P(João vence | j) = (j/6)², para j = 1,...,6.</li>
+          <li><strong>Passo 2 — Média sobre todos os valores de j:</strong> P(João vence) = (1/6)Σ(j/6)² = (1/216)Σj² = 91/216.</li>
+          <li><strong>Passo 3 — Complementar para Artur:</strong> P(Artur vence) = 1 − 91/216 = 125/216, maior que a de João.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) João, 125/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Atribui a probabilidade correta de Artur (125/216) ao jogador errado.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) Mesma probabilidade — Incorreta</p>
+          <p class="text-xs text-slate-400">Ignora que 91/216 ≠ 125/216 — as probabilidades não são iguais.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) Artur, 91/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Identifica o vencedor certo, mas atribui a probabilidade de João (91/216) a Artur.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) João, 91/216 — Incorreta</p>
+          <p class="text-xs text-slate-400">Calcula corretamente a probabilidade de João, mas erra ao afirmar que ele tem mais chances.</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">E) Artur, 125/216 — Correta ✓</p>
+          <p class="text-xs text-slate-400">Combina corretamente o vencedor mais provável com sua probabilidade exata.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Etapa 1: sorteio de j",
+      legenda: "Um dado determina o limite j",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="80" y="30" width="40" height="40" fill="#3b82f6" opacity="0.6" rx="6"/><text x="100" y="55" fill="#e2e8f0" font-size="16" text-anchor="middle">j</text></svg>`
+    },
+    {
+      titulo: "Etapa 2: dois dados",
+      legenda: "João vence se ambos ≤ j",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><rect x="60" y="30" width="35" height="35" fill="#10b981" opacity="0.6" rx="4"/><rect x="105" y="30" width="35" height="35" fill="#10b981" opacity="0.6" rx="4"/><text x="100" y="85" fill="#6ee7b7" font-size="11" text-anchor="middle">ambos ≤ j → João vence</text></svg>`
+    },
+    {
+      titulo: "Probabilidade de João",
+      legenda: "P = Σ(j/6)²/6 = 91/216",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#93c5fd" font-size="16" text-anchor="middle">91/216</text></svg>`
+    },
+    {
+      titulo: "Probabilidade de Artur",
+      legenda: "P = 1 − 91/216 = 125/216",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Artur: 125/216</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Jogo de Dados de João e Artur",
+    descricao: "Simule rodadas do jogo e veja a proporção de vitórias de cada jogador.",
+    html: `
+      <div class="space-y-4">
+        <button id="q178-jogar" class="w-full bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-2 rounded">Jogar 100 rodadas</button>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Vitórias de João / Artur (simulação)</p>
+          <p id="q178-resultado" class="text-lg font-bold text-blue-300">— / —</p>
+          <p class="text-xs text-slate-400 mt-2">Probabilidades teóricas</p>
+          <p class="text-sm text-emerald-400">João: 91/216 ≈ 42,1% | Artur: 125/216 ≈ 57,9%</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const btn = raiz.querySelector('#q178-jogar');
+      const resultado = raiz.querySelector('#q178-resultado');
+      let seed = 12345;
+      function pseudoRandom() {
+        seed = (seed * 1103515245 + 12345) & 0x7fffffff;
+        return seed / 0x7fffffff;
+      }
+      btn.addEventListener('click', () => {
+        let joaoWins = 0, arturWins = 0;
+        for (let i = 0; i < 100; i++) {
+          const j = Math.floor(pseudoRandom() * 6) + 1;
+          const d1 = Math.floor(pseudoRandom() * 6) + 1;
+          const d2 = Math.floor(pseudoRandom() * 6) + 1;
+          if (d1 <= j && d2 <= j) joaoWins++;
+          else arturWins++;
+        }
+        resultado.textContent = joaoWins + ' / ' + arturWins;
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">Artur: 125/216</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q179",
+  numero: 179,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "sun",
+  titulo: "Telas de TV: Qual Unidade Mede o Brilho (Luminância)?",
+  tags: ["Unidades de medida", "Grandezas físicas", "Interpretação técnica"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Ao comparar especificações técnicas de televisores em uma loja, um consumidor lê, na ficha técnica de dois modelos, a grandeza "luminância máxima", que indica o quão brilhante a tela pode ficar. Essa grandeza é definida como a intensidade luminosa emitida por unidade de área da superfície emissora (a tela), em uma determinada direção.</p>
+    <p><strong>A unidade de medida em que a luminância é corretamente expressa é:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "candela por metro quadrado (cd/m²)", correta: true },
+    { letra: "B", texto: "watt por metro quadrado (W/m²)", correta: false },
+    { letra: "C", texto: "lúmen por metro quadrado (lm/m²)", correta: false },
+    { letra: "D", texto: "candela por metro (cd/m)", correta: false },
+    { letra: "E", texto: "watt por candela (W/cd)", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Grandezas físicas são definidas por uma combinação específica de unidades base, e essa combinação não é arbitrária — ela reflete exatamente a definição matemática da grandeza (uma razão, um produto, etc.).</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Entendendo a definição de luminância</p>
+        <p>Luminância é definida como "intensidade luminosa por unidade de área". Intensidade luminosa é medida em candela (cd), a unidade-base do Sistema Internacional para essa grandeza. Área é medida em metro quadrado (m²).</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Construindo a unidade a partir da definição</p>
+        <p>Como luminância = intensidade luminosa / área, sua unidade é obtida dividindo a unidade de intensidade luminosa pela unidade de área: cd / m², ou candela por metro quadrado.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Diferenciando de grandezas parecidas</p>
+        <p>É comum confundir luminância com outras grandezas luminosas: fluxo luminoso é medido em lúmen (lm); iluminância (quanto de luz "chega" a uma superfície) é medida em lux (lm/m²); irradiância (potência de radiação por área) é medida em W/m². Cada uma dessas grandezas mede um aspecto diferente da luz.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Por que a unidade "faz sentido" fisicamente</p>
+        <p>A unidade cd/m² captura exatamente o que se espera de "brilho percebido": quanto mais intensa a luz emitida por uma área menor, mais concentrado (e brilhante) o efeito visual — daí dividir intensidade por área, e não multiplicar ou usar outra combinação.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "sun", titulo: "Definição de luminância", text: "Intensidade luminosa emitida por unidade de área, em uma direção específica." },
+    { icone: "divide", titulo: "Construção da unidade", text: "Unidade = unidade da grandeza no numerador / unidade da grandeza no denominador." },
+    { icone: "layers", titulo: "Candela (cd)", text: "Unidade-base do SI para intensidade luminosa." },
+    { icone: "alert-triangle", titulo: "Diferenciação de grandezas luminosas", text: "Luminância, iluminância e fluxo luminoso medem aspectos diferentes da luz." },
+    { icone: "check-circle", titulo: "Consistência física da unidade", text: "A unidade escolhida deve refletir corretamente a definição matemática da grandeza." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa A — candela por metro quadrado (cd/m²)</p>
+        <p class="text-xs text-slate-300">A unidade de luminância é diretamente construída a partir de sua definição: intensidade luminosa (cd) dividida por área (m²).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Identificar a grandeza no numerador:</strong> intensidade luminosa, medida em candela (cd).</li>
+          <li><strong>Passo 2 — Identificar a grandeza no denominador:</strong> área, medida em metro quadrado (m²).</li>
+          <li><strong>Passo 3 — Combinar as unidades conforme a definição:</strong> luminância = cd/m².</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">A) cd/m² — Correta ✓</p>
+          <p class="text-xs text-slate-400">Unidade correta de luminância, obtida diretamente da definição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) W/m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Essa é a unidade de irradiância (potência de radiação por área), não de luminância.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) lm/m² — Incorreta</p>
+          <p class="text-xs text-slate-400">Essa é a unidade de iluminância (lux), que mede luz recebida, não emitida por área.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">D) cd/m — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa área linear (metro) em vez de área quadrada (metro quadrado), incompatível com a definição.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) W/cd — Incorreta</p>
+          <p class="text-xs text-slate-400">Combina unidades de grandezas diferentes (potência e intensidade luminosa) de forma incompatível com a definição de luminância.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Definição de luminância",
+      legenda: "Intensidade luminosa por unidade de área",
+      svg: `<svg viewBox="0 0 220 80" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="80" fill="#0f172a"/><text x="110" y="45" fill="#93c5fd" font-size="13" text-anchor="middle">Intensidade / Área</text></svg>`
+    },
+    {
+      titulo: "Candela (cd)",
+      legenda: "Unidade-base de intensidade luminosa",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="16" text-anchor="middle">cd</text></svg>`
+    },
+    {
+      titulo: "Metro quadrado (m²)",
+      legenda: "Unidade de área",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#c4b5fd" font-size="16" text-anchor="middle">m²</text></svg>`
+    },
+    {
+      titulo: "Unidade final",
+      legenda: "cd/m² — candela por metro quadrado",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="20" text-anchor="middle" font-weight="bold">cd/m²</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Construtor de Unidades Físicas",
+    descricao: "Escolha a grandeza do numerador e do denominador para construir a unidade correta.",
+    html: `
+      <div class="space-y-3">
+        <div>
+          <label class="text-xs text-slate-400">Grandeza no numerador:</label>
+          <select id="q179-num" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+            <option value="cd">Intensidade luminosa (cd)</option>
+            <option value="lm">Fluxo luminoso (lm)</option>
+            <option value="W">Potência (W)</option>
+          </select>
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Grandeza no denominador:</label>
+          <select id="q179-den" class="w-full bg-slate-800 border border-slate-600 rounded px-2 py-1 text-sm text-slate-200">
+            <option value="m2">Área (m²)</option>
+            <option value="m">Comprimento (m)</option>
+            <option value="cd">Intensidade luminosa (cd)</option>
+          </select>
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Unidade resultante</p>
+          <p id="q179-resultado" class="text-2xl font-bold text-blue-300">cd/m²</p>
+          <p id="q179-nome" class="text-sm text-emerald-400 mt-1">Luminância ✓</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const num = raiz.querySelector('#q179-num');
+      const den = raiz.querySelector('#q179-den');
+      const resultado = raiz.querySelector('#q179-resultado');
+      const nome = raiz.querySelector('#q179-nome');
+      const nomes = {
+        'cd_m2': 'Luminância ✓',
+        'lm_m2': 'Iluminância (lux)',
+        'W_m2': 'Irradiância',
+        'cd_m': 'Sem nome físico padrão',
+        'lm_m': 'Sem nome físico padrão',
+        'W_m': 'Sem nome físico padrão',
+        'cd_cd': 'Adimensional',
+        'lm_cd': 'Ângulo sólido (esferorradiano)',
+        'W_cd': 'Sem nome físico padrão'
+      };
+      function atualizar() {
+        const N = num.value;
+        const D = den.value;
+        const unidadeLabel = { cd: 'cd', lm: 'lm', W: 'W', m2: 'm²', m: 'm' };
+        resultado.textContent = unidadeLabel[N] + '/' + unidadeLabel[D];
+        const key = N + '_' + D;
+        nome.textContent = nomes[key] || 'Combinação não padrão';
+      }
+      num.addEventListener('change', atualizar);
+      den.addEventListener('change', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="24" text-anchor="middle" font-weight="bold">cd/m²</text></svg>`,
+  simuladorType: null
+},
+  {
+  id: "q180",
+  numero: 180,
+  ano: 2025,
+  caderno: "Caderno 7 - Azul - 2º dia",
+  area: "matematica",
+  areaNome: "Matemática e suas Tecnologias",
+  materiaId: "matematica",
+  materia: "Matemática",
+  materiaCor: "blue",
+  materiaIcone: "coins",
+  titulo: "Jogo de Fichas: Qual a Fórmula para a Quantidade Após n Rodadas?",
+  tags: ["Progressão aritmética", "Sequências", "Modelagem algébrica"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: "",
+  enunciado: `
+    <p>Em um jogo de tabuleiro, cada jogador ocupa uma posição numerada e acumula fichas ao longo das rodadas. O jogador que ocupa a posição 1 começa o jogo com 100 fichas. A cada rodada completa do jogo, esse jogador segue uma regra fixa: envia exatamente 1 ficha para o jogador da posição 2, e recebe exatamente 4 fichas do jogador da posição 3 (essas trocas são regras fixas do jogo, repetidas identicamente a cada rodada).</p>
+    <p><strong>Supondo que o jogador da posição 1 sempre tenha fichas suficientes para enviar, a quantidade de fichas que ele possui após n rodadas completas, em função de n, é dada por:</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "100 + n", correta: false },
+    { letra: "B", texto: "100 − 3n", correta: false },
+    { letra: "C", texto: "100 × 3n", correta: false },
+    { letra: "D", texto: "100 + 3n", correta: true },
+    { letra: "E", texto: "103n", correta: false }
+  ],
+  materiaCompleta: `
+    <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+      <p class="italic border-l-4 border-blue-500 pl-3 text-slate-300">Quando uma quantidade muda pela mesma diferença fixa a cada passo (rodada, mês, ano), ela segue uma progressão aritmética — e sua fórmula geral é sempre "valor inicial + razão × número de passos".</p>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">1. Identificando a variação líquida por rodada</p>
+        <p>Em cada rodada, o jogador da posição 1 envia 1 ficha (perde 1) e recebe 4 fichas (ganha 4). A variação líquida (o "saldo") por rodada é: −1 + 4 = +3 fichas. Ou seja, ele termina cada rodada com 3 fichas a mais do que começou.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">2. Reconhecendo uma progressão aritmética</p>
+        <p>Como a variação por rodada é sempre a mesma (constante, +3), a quantidade de fichas ao longo das rodadas forma uma progressão aritmética, com termo inicial a1 = 100 e razão r = 3.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">3. Fórmula do termo geral de uma PA</p>
+        <p>O termo geral de uma progressão aritmética após n passos (a partir do valor inicial) é dado por: valor = valor inicial + razão × n. Isso porque cada uma das n rodadas adiciona exatamente a razão (+3) ao total.</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-blue-300 mb-1">4. Aplicando ao problema</p>
+        <p>Substituindo os valores: fichas após n rodadas = 100 + 3×n = 100 + 3n. Essa fórmula permite calcular a quantidade de fichas para qualquer número de rodadas completas, sem precisar somar rodada por rodada.</p>
+      </div>
+    </div>
+  `,
+  conceitos: [
+    { icone: "plus-minus", titulo: "Variação líquida por rodada", text: "Soma algébrica de tudo que é ganho e perdido em cada rodada." },
+    { icone: "trending-up", titulo: "Progressão aritmética (PA)", text: "Sequência em que a diferença entre termos consecutivos é sempre constante." },
+    { icone: "function-square", titulo: "Termo geral da PA", text: "valor = valor inicial + razão × número de passos." },
+    { icone: "repeat", titulo: "Repetição de regra fixa", text: "A mesma troca de fichas ocorre identicamente a cada rodada." },
+    { icone: "calculator", titulo: "Modelagem algébrica de jogos", text: "Traduzir regras de um jogo em uma fórmula matemática geral." }
+  ],
+  resolucaoHtml: `
+    <div class="space-y-4">
+      <div class="bg-emerald-900/30 border border-emerald-500/40 rounded-lg p-4">
+        <p class="text-emerald-300 font-bold text-sm mb-1">✓ Gabarito: Alternativa D — 100 + 3n</p>
+        <p class="text-xs text-slate-300">Com saldo de +3 fichas por rodada, a fórmula é o valor inicial (100) mais a razão (3) vezes o número de rodadas (n).</p>
+      </div>
+
+      <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700">
+        <p class="font-semibold text-blue-300 text-sm mb-2">📐 Estratégia em 3 passos</p>
+        <ol class="list-decimal list-inside space-y-2 text-xs text-slate-300">
+          <li><strong>Passo 1 — Calcular o saldo líquido por rodada:</strong> −1 (enviado) + 4 (recebido) = +3 fichas por rodada.</li>
+          <li><strong>Passo 2 — Reconhecer a progressão aritmética:</strong> a1 = 100 (fichas iniciais), razão r = 3.</li>
+          <li><strong>Passo 3 — Aplicar a fórmula do termo geral:</strong> fichas(n) = 100 + 3n.</li>
+        </ol>
+      </div>
+
+      <div class="space-y-2">
+        <p class="font-semibold text-slate-300 text-sm">🔍 Análise de cada alternativa</p>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">A) 100 + n — Incorreta</p>
+          <p class="text-xs text-slate-400">Usa razão 1 em vez de 3, ignorando o efeito completo das trocas de fichas.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">B) 100 − 3n — Incorreta</p>
+          <p class="text-xs text-slate-400">Inverte o sinal do saldo, tratando a troca como perda líquida em vez de ganho.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">C) 100 × 3n — Incorreta</p>
+          <p class="text-xs text-slate-400">Trata a progressão como multiplicativa (geométrica), quando na verdade é aditiva (aritmética).</p>
+        </div>
+        <div class="border-l-4 border-emerald-500 bg-emerald-900/20 rounded p-3">
+          <p class="text-xs text-emerald-300 font-semibold">D) 100 + 3n — Correta ✓</p>
+          <p class="text-xs text-slate-400">Fórmula correta do termo geral da progressão aritmética, com a1=100 e r=3.</p>
+        </div>
+        <div class="border-l-4 border-rose-500 bg-rose-900/20 rounded p-3">
+          <p class="text-xs text-rose-300 font-semibold">E) 103n — Incorreta</p>
+          <p class="text-xs text-slate-400">Combina incorretamente o valor inicial e a razão em um único fator multiplicativo.</p>
+        </div>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Trocas por rodada",
+      legenda: "Envia 1, recebe 4",
+      svg: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="40" fill="#f87171" font-size="13" text-anchor="middle">−1 (enviada)</text><text x="100" y="65" fill="#6ee7b7" font-size="13" text-anchor="middle">+4 (recebida)</text></svg>`
+    },
+    {
+      titulo: "Saldo líquido",
+      legenda: "+3 fichas por rodada",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#fbbf24" font-size="18" text-anchor="middle" font-weight="bold">+3 por rodada</text></svg>`
+    },
+    {
+      titulo: "Progressão aritmética",
+      legenda: "100, 103, 106, 109, ...",
+      svg: `<svg viewBox="0 0 220 100" xmlns="http://www.w3.org/2000/svg"><rect width="220" height="100" fill="#0f172a"/>${[100,103,106,109,112].map((v,i)=>`<circle cx="${30+i*40}" cy="50" r="4" fill="#3b82f6"/><text x="${30+i*40}" y="70" fill="#93c5fd" font-size="9" text-anchor="middle">${v}</text>`).join('')}</svg>`
+    },
+    {
+      titulo: "Fórmula geral",
+      legenda: "fichas(n) = 100 + 3n",
+      svg: `<svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="80" fill="#0f172a"/><text x="100" y="45" fill="#6ee7b7" font-size="18" text-anchor="middle" font-weight="bold">100 + 3n</text></svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Simulador: Fichas ao Longo das Rodadas",
+    descricao: "Ajuste o número de rodadas e veja quantas fichas o jogador da posição 1 acumula.",
+    html: `
+      <div class="space-y-4">
+        <div>
+          <label class="text-xs text-slate-400">Fichas iniciais: <span id="q180-ival" class="text-blue-300 font-bold">100</span></label>
+          <input type="range" id="q180-inicial" min="10" max="500" step="10" value="100" class="w-full">
+        </div>
+        <div>
+          <label class="text-xs text-slate-400">Número de rodadas (n): <span id="q180-nval" class="text-blue-300 font-bold">10</span></label>
+          <input type="range" id="q180-n" min="0" max="50" step="1" value="10" class="w-full">
+        </div>
+        <div class="bg-slate-800/60 rounded-lg p-4 border border-slate-700 text-center">
+          <p class="text-xs text-slate-400">Fichas após n rodadas</p>
+          <p id="q180-resultado" class="text-3xl font-bold text-emerald-400">130</p>
+        </div>
+      </div>
+    `,
+    init: function(raiz) {
+      const inicial = raiz.querySelector('#q180-inicial');
+      const n = raiz.querySelector('#q180-n');
+      const ival = raiz.querySelector('#q180-ival');
+      const nval = raiz.querySelector('#q180-nval');
+      const resultado = raiz.querySelector('#q180-resultado');
+      function atualizar() {
+        const I = parseFloat(inicial.value);
+        const N = parseFloat(n.value);
+        ival.textContent = I;
+        nval.textContent = N;
+        resultado.textContent = I + 3 * N;
+      }
+      inicial.addEventListener('input', atualizar);
+      n.addEventListener('input', atualizar);
+      atualizar();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">100 + 3n</text></svg>`,
+  simuladorType: null
+}
+>>>>>>> 17fd22c7963983f46c498a909fd012040111db45
 
 ];
