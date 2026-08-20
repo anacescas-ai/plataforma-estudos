@@ -23508,6 +23508,835 @@ const questaoDatabase = [
   },
   diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg"><rect width="200" height="100" fill="#0f172a"/><text x="100" y="55" fill="#6ee7b7" font-size="22" text-anchor="middle" font-weight="bold">100 + 3n</text></svg>`,
   simuladorType: null
+},
+
+{
+  "id": "q006",
+  "numero": "Questão 6",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Interpretação de Texto — Gênero Crônica",
+  "materiaCor": "red",
+  "materiaIcone": "fa-note-sticky",
+  "titulo": "Bilhetes no Cotidiano: a Diversidade de Usos na Crônica \"De Próprio Punho\"",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n    <p class=\"text-center font-bold text-slate-100 mb-1\">De próprio punho</p>\n    <p class=\"text-center italic text-slate-400 text-[13px] mb-3\">A escrita e suas tecnologias sofrem interessantes metamorfoses, numa ciranda que vai do simples bilhete aos originais de um livro</p>\n    <p class=\"mt-3 leading-relaxed\">Estranhei muito na primeira vez que escutei a expressão “de próprio punho”. Parecia que eu ia bater em alguém. Não era bem o caso. Foi numa situação bancária, dessas bem burocráticas, e eu devia escrever algo bem breve, mas com minhas mãos. Na verdade, o que importava era a autenticidade da minha caligrafia, que à época ainda era mais fluente e firme. Depois dos teclados de computador, ela rateia bastante. Minha letra, hoje, tem uma espécie de alternância: dia sim, dia não, trêmula e firme, forte e fraca, mais rotunda e mais cheia de arestas.</p>\n    <p class=\"mt-3 leading-relaxed\">É claro que já escrevi muito mais de próprio punho ou, numa palavra mais bonita, manuscrevi (prefiro a mão ao punho, embora ele também seja usado na tarefa). Mas isso não é um feito individual. Em larga medida, é social. Muita gente sente o mesmo que eu, isto é, escreve bem menos usando as mãos, ou melhor, empregando algum tipo de tecnologia (lápis, caneta etc.) para escrever com grafite ou tinta ou giz ou carvão ou sangue e o que mais. É importante lembrar que ainda há gente que não sabe escrever neste país, neste planeta, mas muita gente sabe e tem um combo de tecnologias mais ou menos à disposição para isso. Sou dessas pessoas privilegiadas que têm várias possibilidades, e uma delas nunca deixou de ser o uso das minhas mãos. Ainda hoje, são elas que batucam meu teclado de computador ou que tocam suavemente duas ou três telas sensíveis. Mas não expressam mais a minha letra. No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de “letras” à minha escolha. Eu e Deus e o mundo.</p>\n    <p class=\"mt-3 leading-relaxed\">A despeito desse rol de chances e ferramentas para escrever, o manuscrito nunca deixou de pintar aqui e ali, muitas vezes como obrigação. Na escola, por exemplo, até hoje ele é soberano. No Enem também. Curioso, não? Fico pensando em que espaços e ocasiões ainda usa minha letra. Olhando ao redor, na minha casa, minha letra está em espaços muito delimitados e específicos: bilhetes. Eles estão principalmente na cozinha, em especial na porta da geladeira, a fim de manter a comunicação com meus coabitantes, sempre muito esquecidos ou relapsos. Mas também há bilhetes em <em>post its</em> na minha mesa do escritório, textinhos em garranchos por meio dos quais me comunico comigo mesma, a evitar um comportamento esquecido e relapso.</p>\n    <p class=\"mt-3 leading-relaxed\">No escritório, costumo ser mais suave comigo mesma, mas também muito mais lacônica, a ponto de nem eu me entender, se passar o tempo. Em todos os casos vai minha letra, menos e mais redonda, a lápis e a tinta azul, em <em>post its</em> rosa-choque, colados precariamente, e todos com destino à lixeira, em breve. Justo porque eles funcionam como lembretes de tarefas e coisas que devem ser vencidas e, claro, substituídas por outras, num fluxo infinito, às vezes ansiogênico, com que a maioria dos adultos (e mais ainda as adultas) precisa conviver.</p>\n    <p class=\"mt-3 leading-relaxed\">As formas de escrever mudam, as necessidades também, e o resultado é um elenco complexo, em que nada dispensa nada, a depender da tarefa ou da importância das coisas ou de suas funções, claro. A escrita e suas tecnologias incríveis vão se reposicionando, mudando de status, numa ciranda interessante e importante que pode ser vista à luz de certa diversidade que encontra suas oportunidades e seus efeitos, aqui e ali. Não adianta muito pensar sempre como se tudo fosse excludente. Estão aí minha farta comunicação por bilhetes, minha gaveta alegre de <em>post its</em> de toda cor, esperando para serem usados, e o cheque do cartório, em que quase tudo já é digital. “Do punho ao pixel” não é uma frase filosoficamente correta. O negócio é mais “o punho e o pixel”.</p>\n    <p class=\"mt-3 text-right text-[11px] text-slate-500\">RIBEIRO, A. E. Disponível em: https://rascunho.com.br. Acesso em: 16 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">No que diz respeito ao gênero bilhete, a autora dessa crônica</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "ressalta a formalidade na comunicação com as pessoas de sua convivência.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "critica a ansiedade causada pela velocidade da comunicação.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "expressa a obrigatoriedade de concisão nas anotações.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "questiona a prática da escrita de próprio punho.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "apresenta a diversidade de usos no cotidiano.",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            A autora descreve vários tipos de bilhete com funções bem diferentes entre si: os recados na porta da geladeira, para lembrar os coabitantes de tarefas domésticas; os <em>post its</em> em garranchos no escritório, para ela mesma não esquecer compromissos; e a lembrança de que o manuscrito \"nunca deixou de pintar aqui e ali, muitas vezes como obrigação\" — inclusive no próprio Enem. Não há um único uso do bilhete: há vários, cada um a serviço de uma necessidade cotidiana diferente (comunicar-se com outros, lembrar a si mesma, cumprir uma exigência escolar). Isso é exatamente o que a alternativa E resume: diversidade de usos.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não trata de formalidade — os bilhetes descritos são justamente informais (garranchos, recados rápidos).</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a autora não critica a velocidade da comunicação digital nesse trecho; ela apenas constata onde ainda usa a própria letra.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> a crônica não afirma que bilhetes precisem ser concisos por obrigação; a brevidade aparece como característica, não como regra imposta.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> a autora não questiona a prática de escrever à mão — ao contrário, valoriza os espaços em que ela ainda resiste.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando a pergunta pede o que o texto \"apresenta\" sobre um gênero, procure o trecho que enumera exemplos variados — normalmente é sinal de que a resposta fala em diversidade ou pluralidade de usos.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-magnifying-glass",
+      "titulo": "Leitura Global do Texto",
+      "text": "Questões sobre \"o que a autora apresenta\" pedem uma síntese de vários trechos, não um único parágrafo isolado."
+    },
+    {
+      "icone": "fa-note-sticky",
+      "titulo": "Gênero Bilhete",
+      "text": "Texto curto, funcional, usado para comunicação rápida — pode variar de recado doméstico a lembrete pessoal."
+    },
+    {
+      "icone": "fa-list-check",
+      "titulo": "Enumeração como Pista",
+      "text": "Quando o texto lista vários exemplos de uma mesma coisa (aqui, tipos de bilhete), a resposta certa costuma nomear essa variedade."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q007",
+  "numero": "Questão 7",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Gêneros Textuais — A Crônica",
+  "materiaCor": "red",
+  "materiaIcone": "fa-feather-pointed",
+  "titulo": "O que Faz uma Crônica ser Crônica: Contexto Pessoal em Perspectiva Reflexiva",
+  "tags": [
+    "Português",
+    "Gêneros Textuais",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n    <p class=\"text-center font-bold text-slate-100 mb-1\">De próprio punho</p>\n    <p class=\"text-center italic text-slate-400 text-[13px] mb-3\">A escrita e suas tecnologias sofrem interessantes metamorfoses, numa ciranda que vai do simples bilhete aos originais de um livro</p>\n    <p class=\"mt-3 leading-relaxed\">Estranhei muito na primeira vez que escutei a expressão “de próprio punho”. Parecia que eu ia bater em alguém. Não era bem o caso. Foi numa situação bancária, dessas bem burocráticas, e eu devia escrever algo bem breve, mas com minhas mãos. Na verdade, o que importava era a autenticidade da minha caligrafia, que à época ainda era mais fluente e firme. Depois dos teclados de computador, ela rateia bastante. Minha letra, hoje, tem uma espécie de alternância: dia sim, dia não, trêmula e firme, forte e fraca, mais rotunda e mais cheia de arestas.</p>\n    <p class=\"mt-3 leading-relaxed\">É claro que já escrevi muito mais de próprio punho ou, numa palavra mais bonita, manuscrevi (prefiro a mão ao punho, embora ele também seja usado na tarefa). Mas isso não é um feito individual. Em larga medida, é social. Muita gente sente o mesmo que eu, isto é, escreve bem menos usando as mãos, ou melhor, empregando algum tipo de tecnologia (lápis, caneta etc.) para escrever com grafite ou tinta ou giz ou carvão ou sangue e o que mais. É importante lembrar que ainda há gente que não sabe escrever neste país, neste planeta, mas muita gente sabe e tem um combo de tecnologias mais ou menos à disposição para isso. Sou dessas pessoas privilegiadas que têm várias possibilidades, e uma delas nunca deixou de ser o uso das minhas mãos. Ainda hoje, são elas que batucam meu teclado de computador ou que tocam suavemente duas ou três telas sensíveis. Mas não expressam mais a minha letra. No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de “letras” à minha escolha. Eu e Deus e o mundo.</p>\n    <p class=\"mt-3 leading-relaxed\">A despeito desse rol de chances e ferramentas para escrever, o manuscrito nunca deixou de pintar aqui e ali, muitas vezes como obrigação. Na escola, por exemplo, até hoje ele é soberano. No Enem também. Curioso, não? Fico pensando em que espaços e ocasiões ainda usa minha letra. Olhando ao redor, na minha casa, minha letra está em espaços muito delimitados e específicos: bilhetes. Eles estão principalmente na cozinha, em especial na porta da geladeira, a fim de manter a comunicação com meus coabitantes, sempre muito esquecidos ou relapsos. Mas também há bilhetes em <em>post its</em> na minha mesa do escritório, textinhos em garranchos por meio dos quais me comunico comigo mesma, a evitar um comportamento esquecido e relapso.</p>\n    <p class=\"mt-3 leading-relaxed\">No escritório, costumo ser mais suave comigo mesma, mas também muito mais lacônica, a ponto de nem eu me entender, se passar o tempo. Em todos os casos vai minha letra, menos e mais redonda, a lápis e a tinta azul, em <em>post its</em> rosa-choque, colados precariamente, e todos com destino à lixeira, em breve. Justo porque eles funcionam como lembretes de tarefas e coisas que devem ser vencidas e, claro, substituídas por outras, num fluxo infinito, às vezes ansiogênico, com que a maioria dos adultos (e mais ainda as adultas) precisa conviver.</p>\n    <p class=\"mt-3 leading-relaxed\">As formas de escrever mudam, as necessidades também, e o resultado é um elenco complexo, em que nada dispensa nada, a depender da tarefa ou da importância das coisas ou de suas funções, claro. A escrita e suas tecnologias incríveis vão se reposicionando, mudando de status, numa ciranda interessante e importante que pode ser vista à luz de certa diversidade que encontra suas oportunidades e seus efeitos, aqui e ali. Não adianta muito pensar sempre como se tudo fosse excludente. Estão aí minha farta comunicação por bilhetes, minha gaveta alegre de <em>post its</em> de toda cor, esperando para serem usados, e o cheque do cartório, em que quase tudo já é digital. “Do punho ao pixel” não é uma frase filosoficamente correta. O negócio é mais “o punho e o pixel”.</p>\n    <p class=\"mt-3 text-right text-[11px] text-slate-500\">RIBEIRO, A. E. Disponível em: https://rascunho.com.br. Acesso em: 16 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">O elemento que caracteriza esse texto como uma crônica é a</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "defesa das opiniões da autora sobre um tema de interesse coletivo.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "exposição sobre o uso de tecnologias nas práticas de escrita atuais.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "abordagem de fatos do contexto pessoal em uma perspectiva reflexiva.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "utilização de recursos linguísticos para a interlocução direta com o leitor.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "apresentação de acontecimentos segundo a ordem de sucessão no tempo.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            A crônica é um gênero que parte de um episódio ou observação do cotidiano do próprio autor e o transforma em reflexão. É exatamente isso que a autora faz: ela parte de uma lembrança pessoal e pequena (estranhar a expressão \"de próprio punho\" num banco) e, a partir dela, reflete sobre a própria relação com a escrita manuscrita e digital ao longo da vida — os bilhetes na geladeira, os <em>post its</em>, a caligrafia que muda. É a marca do gênero: fato pessoal miúdo + reflexão mais ampla sobre ele.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> a autora não defende uma tese sobre um tema coletivo com argumentação formal; ela reflete a partir de experiências suas, em tom mais subjetivo que argumentativo.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a exposição sobre tecnologias de escrita é o assunto do texto, mas não é o que define o gênero crônica — um artigo informativo também poderia tratar do tema.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não se dirige diretamente ao leitor com recursos de interlocução (como perguntas retóricas voltadas a ele) de forma central à sua estrutura.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não segue uma ordem cronológica linear de acontecimentos; ele alterna lembranças e reflexões sem compromisso com uma sequência temporal rígida.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> para identificar o gênero crônica, procure a combinação \"fato do cotidiano do autor\" + \"reflexão pessoal\" — é essa dupla característica que a diferencia de notícias, artigos de opinião ou narrativas cronológicas.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-feather-pointed",
+      "titulo": "Gênero Crônica",
+      "text": "Texto breve que parte de uma observação cotidiana e pessoal do autor para construir uma reflexão mais ampla."
+    },
+    {
+      "icone": "fa-user",
+      "titulo": "Contexto Pessoal",
+      "text": "A crônica costuma usar experiências da própria vida do autor como ponto de partida da narrativa."
+    },
+    {
+      "icone": "fa-brain",
+      "titulo": "Perspectiva Reflexiva",
+      "text": "Diferente da notícia, a crônica não apenas relata: ela pensa sobre o que relata."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q008",
+  "numero": "Questão 8",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Escrita Manuscrita & Digital",
+  "materiaCor": "red",
+  "materiaIcone": "fa-keyboard",
+  "titulo": "Manuscrito x Digital: a Variedade Tipográfica como Marca da Escrita na Tela",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n    <p class=\"text-center font-bold text-slate-100 mb-1\">De próprio punho</p>\n    <p class=\"text-center italic text-slate-400 text-[13px] mb-3\">A escrita e suas tecnologias sofrem interessantes metamorfoses, numa ciranda que vai do simples bilhete aos originais de um livro</p>\n    <p class=\"mt-3 leading-relaxed\">Estranhei muito na primeira vez que escutei a expressão “de próprio punho”. Parecia que eu ia bater em alguém. Não era bem o caso. Foi numa situação bancária, dessas bem burocráticas, e eu devia escrever algo bem breve, mas com minhas mãos. Na verdade, o que importava era a autenticidade da minha caligrafia, que à época ainda era mais fluente e firme. Depois dos teclados de computador, ela rateia bastante. Minha letra, hoje, tem uma espécie de alternância: dia sim, dia não, trêmula e firme, forte e fraca, mais rotunda e mais cheia de arestas.</p>\n    <p class=\"mt-3 leading-relaxed\">É claro que já escrevi muito mais de próprio punho ou, numa palavra mais bonita, manuscrevi (prefiro a mão ao punho, embora ele também seja usado na tarefa). Mas isso não é um feito individual. Em larga medida, é social. Muita gente sente o mesmo que eu, isto é, escreve bem menos usando as mãos, ou melhor, empregando algum tipo de tecnologia (lápis, caneta etc.) para escrever com grafite ou tinta ou giz ou carvão ou sangue e o que mais. É importante lembrar que ainda há gente que não sabe escrever neste país, neste planeta, mas muita gente sabe e tem um combo de tecnologias mais ou menos à disposição para isso. Sou dessas pessoas privilegiadas que têm várias possibilidades, e uma delas nunca deixou de ser o uso das minhas mãos. Ainda hoje, são elas que batucam meu teclado de computador ou que tocam suavemente duas ou três telas sensíveis. Mas não expressam mais a minha letra. No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de “letras” à minha escolha. Eu e Deus e o mundo.</p>\n    <p class=\"mt-3 leading-relaxed\">A despeito desse rol de chances e ferramentas para escrever, o manuscrito nunca deixou de pintar aqui e ali, muitas vezes como obrigação. Na escola, por exemplo, até hoje ele é soberano. No Enem também. Curioso, não? Fico pensando em que espaços e ocasiões ainda usa minha letra. Olhando ao redor, na minha casa, minha letra está em espaços muito delimitados e específicos: bilhetes. Eles estão principalmente na cozinha, em especial na porta da geladeira, a fim de manter a comunicação com meus coabitantes, sempre muito esquecidos ou relapsos. Mas também há bilhetes em <em>post its</em> na minha mesa do escritório, textinhos em garranchos por meio dos quais me comunico comigo mesma, a evitar um comportamento esquecido e relapso.</p>\n    <p class=\"mt-3 leading-relaxed\">No escritório, costumo ser mais suave comigo mesma, mas também muito mais lacônica, a ponto de nem eu me entender, se passar o tempo. Em todos os casos vai minha letra, menos e mais redonda, a lápis e a tinta azul, em <em>post its</em> rosa-choque, colados precariamente, e todos com destino à lixeira, em breve. Justo porque eles funcionam como lembretes de tarefas e coisas que devem ser vencidas e, claro, substituídas por outras, num fluxo infinito, às vezes ansiogênico, com que a maioria dos adultos (e mais ainda as adultas) precisa conviver.</p>\n    <p class=\"mt-3 leading-relaxed\">As formas de escrever mudam, as necessidades também, e o resultado é um elenco complexo, em que nada dispensa nada, a depender da tarefa ou da importância das coisas ou de suas funções, claro. A escrita e suas tecnologias incríveis vão se reposicionando, mudando de status, numa ciranda interessante e importante que pode ser vista à luz de certa diversidade que encontra suas oportunidades e seus efeitos, aqui e ali. Não adianta muito pensar sempre como se tudo fosse excludente. Estão aí minha farta comunicação por bilhetes, minha gaveta alegre de <em>post its</em> de toda cor, esperando para serem usados, e o cheque do cartório, em que quase tudo já é digital. “Do punho ao pixel” não é uma frase filosoficamente correta. O negócio é mais “o punho e o pixel”.</p>\n    <p class=\"mt-3 text-right text-[11px] text-slate-500\">RIBEIRO, A. E. Disponível em: https://rascunho.com.br. Acesso em: 16 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, o que caracteriza a escrita \"de próprio punho\" é a letra manuscrita, enquanto a escrita digital é ilustrada pelo(a)</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "utilização de tecnologias diversificadas.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "desenvolvimento de novos recursos de escrita.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "possibilidade de interações mediadas por telas.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "diversidade de fontes tipográficas que estão disponíveis.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "delimitação dos espaços onde a produção textual ocorre.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa D é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            A autora contrasta a letra manuscrita, única e pessoal, com o que ganha seu lugar na tela: \"No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de 'letras' à minha escolha.\" Ela está falando exatamente de fontes tipográficas — as opções de tipo de letra digital que substituem a caligrafia própria. É essa a imagem que ela usa para ilustrar a escrita digital nesse trecho específico.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> \"tecnologias diversificadas\" é um conceito mais amplo, usado em outro trecho do texto (para falar de lápis, caneta, giz etc.) e não é a imagem específica da escrita digital pedida aqui.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto não fala em \"desenvolvimento de novos recursos\" nesse trecho; fala das fontes já disponíveis para escolha.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> as telas sensíveis aparecem no texto, mas como ferramenta de digitação (\"tocam suavemente... telas sensíveis\"), não como ilustração da escrita digital em si.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> delimitação de espaços é o argumento usado para os bilhetes manuscritos (\"espaços muito delimitados e específicos\"), não para a escrita digital.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em questões de contraste (\"X é isso, enquanto Y é aquilo\"), volte ao texto e localize a frase exata que descreve cada lado da comparação — a resposta certa costuma parafrasear essa frase, não o texto como um todo.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-pen-nib",
+      "titulo": "Caligrafia como Identidade",
+      "text": "A letra manuscrita é única de cada pessoa; por isso a autora fala em \"autenticidade\" da caligrafia."
+    },
+    {
+      "icone": "fa-font",
+      "titulo": "Fontes Tipográficas",
+      "text": "Na escrita digital, a identidade da letra manuscrita é substituída por um catálogo de fontes padronizadas à escolha do usuário."
+    },
+    {
+      "icone": "fa-right-left",
+      "titulo": "Comparação Textual",
+      "text": "Questões de contraste pedem atenção aos dois termos comparados separadamente, não a uma leitura geral do texto."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q009",
+  "numero": "Questão 9",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Progressão Temática & Conclusão",
+  "materiaCor": "red",
+  "materiaIcone": "fa-code-compare",
+  "titulo": "Punho e Pixel: a Coexistência das Tecnologias de Escrita",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n    <p class=\"text-center font-bold text-slate-100 mb-1\">De próprio punho</p>\n    <p class=\"text-center italic text-slate-400 text-[13px] mb-3\">A escrita e suas tecnologias sofrem interessantes metamorfoses, numa ciranda que vai do simples bilhete aos originais de um livro</p>\n    <p class=\"mt-3 leading-relaxed\">Estranhei muito na primeira vez que escutei a expressão “de próprio punho”. Parecia que eu ia bater em alguém. Não era bem o caso. Foi numa situação bancária, dessas bem burocráticas, e eu devia escrever algo bem breve, mas com minhas mãos. Na verdade, o que importava era a autenticidade da minha caligrafia, que à época ainda era mais fluente e firme. Depois dos teclados de computador, ela rateia bastante. Minha letra, hoje, tem uma espécie de alternância: dia sim, dia não, trêmula e firme, forte e fraca, mais rotunda e mais cheia de arestas.</p>\n    <p class=\"mt-3 leading-relaxed\">É claro que já escrevi muito mais de próprio punho ou, numa palavra mais bonita, manuscrevi (prefiro a mão ao punho, embora ele também seja usado na tarefa). Mas isso não é um feito individual. Em larga medida, é social. Muita gente sente o mesmo que eu, isto é, escreve bem menos usando as mãos, ou melhor, empregando algum tipo de tecnologia (lápis, caneta etc.) para escrever com grafite ou tinta ou giz ou carvão ou sangue e o que mais. É importante lembrar que ainda há gente que não sabe escrever neste país, neste planeta, mas muita gente sabe e tem um combo de tecnologias mais ou menos à disposição para isso. Sou dessas pessoas privilegiadas que têm várias possibilidades, e uma delas nunca deixou de ser o uso das minhas mãos. Ainda hoje, são elas que batucam meu teclado de computador ou que tocam suavemente duas ou três telas sensíveis. Mas não expressam mais a minha letra. No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de “letras” à minha escolha. Eu e Deus e o mundo.</p>\n    <p class=\"mt-3 leading-relaxed\">A despeito desse rol de chances e ferramentas para escrever, o manuscrito nunca deixou de pintar aqui e ali, muitas vezes como obrigação. Na escola, por exemplo, até hoje ele é soberano. No Enem também. Curioso, não? Fico pensando em que espaços e ocasiões ainda usa minha letra. Olhando ao redor, na minha casa, minha letra está em espaços muito delimitados e específicos: bilhetes. Eles estão principalmente na cozinha, em especial na porta da geladeira, a fim de manter a comunicação com meus coabitantes, sempre muito esquecidos ou relapsos. Mas também há bilhetes em <em>post its</em> na minha mesa do escritório, textinhos em garranchos por meio dos quais me comunico comigo mesma, a evitar um comportamento esquecido e relapso.</p>\n    <p class=\"mt-3 leading-relaxed\">No escritório, costumo ser mais suave comigo mesma, mas também muito mais lacônica, a ponto de nem eu me entender, se passar o tempo. Em todos os casos vai minha letra, menos e mais redonda, a lápis e a tinta azul, em <em>post its</em> rosa-choque, colados precariamente, e todos com destino à lixeira, em breve. Justo porque eles funcionam como lembretes de tarefas e coisas que devem ser vencidas e, claro, substituídas por outras, num fluxo infinito, às vezes ansiogênico, com que a maioria dos adultos (e mais ainda as adultas) precisa conviver.</p>\n    <p class=\"mt-3 leading-relaxed\">As formas de escrever mudam, as necessidades também, e o resultado é um elenco complexo, em que nada dispensa nada, a depender da tarefa ou da importância das coisas ou de suas funções, claro. A escrita e suas tecnologias incríveis vão se reposicionando, mudando de status, numa ciranda interessante e importante que pode ser vista à luz de certa diversidade que encontra suas oportunidades e seus efeitos, aqui e ali. Não adianta muito pensar sempre como se tudo fosse excludente. Estão aí minha farta comunicação por bilhetes, minha gaveta alegre de <em>post its</em> de toda cor, esperando para serem usados, e o cheque do cartório, em que quase tudo já é digital. “Do punho ao pixel” não é uma frase filosoficamente correta. O negócio é mais “o punho e o pixel”.</p>\n    <p class=\"mt-3 text-right text-[11px] text-slate-500\">RIBEIRO, A. E. Disponível em: https://rascunho.com.br. Acesso em: 16 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">A autora conclui que as novas tecnologias de escrita</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "evoluem para facilitar a vida cotidiana.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "alcançam diferentes realidades sociais.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "coexistem com outras já estabelecidas.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "promovem maior agilidade na comunicação.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "surgem nos contextos em que são necessárias.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            No último parágrafo, a autora resume sua tese: \"o resultado é um elenco complexo, em que nada dispensa nada\" e \"não adianta muito pensar sempre como se tudo fosse excludente\". Ela lista, lado a lado, o bilhete de papel, os <em>post its</em> e o cheque digital do cartório — mostrando que a escrita manuscrita não foi substituída pela digital, as duas convivem, cada uma em seu contexto de uso. É a ideia de coexistência, não de substituição.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não afirma que as tecnologias evoluem \"para facilitar\" — o foco está em como elas se somam, não em uma finalidade de facilitação.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a crônica é centrada na experiência pessoal da autora, não numa análise sobre diferentes realidades sociais alcançadas pelas tecnologias.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> agilidade na comunicação não é o argumento de fechamento do texto; a conclusão é sobre convivência entre tecnologias, não sobre velocidade.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não defende que cada tecnologia \"surge\" apenas quando necessária; ele mostra tecnologias antigas e novas convivendo ao mesmo tempo, por escolha e hábito, não só por necessidade.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> a conclusão de um texto argumentativo costuma estar no último parágrafo — releia especialmente a última frase antes de escolher a alternativa, pois ela quase sempre resume a tese central.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-flag-checkered",
+      "titulo": "Conclusão do Texto",
+      "text": "O último parágrafo de uma crônica reflexiva costuma sintetizar a tese defendida ao longo de todo o texto."
+    },
+    {
+      "icone": "fa-handshake",
+      "titulo": "Coexistência de Tecnologias",
+      "text": "A ideia central é que tecnologias novas não anulam as antigas — ambas seguem em uso, em contextos diferentes."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Cuidado com \"Substituição\"",
+      "text": "Alternativas que sugerem que o digital \"substitui\" o manuscrito contrariam a tese do texto, que é de convivência."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q010",
+  "numero": "Questão 10",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Recursos Linguísticos & Coesão",
+  "materiaCor": "red",
+  "materiaIcone": "fa-quote-right",
+  "titulo": "Da Substituição à Coexistência: o Recurso Linguístico que Sintetiza a Tese do Texto",
+  "tags": [
+    "Português",
+    "Coesão Textual",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n    <p class=\"text-center font-bold text-slate-100 mb-1\">De próprio punho</p>\n    <p class=\"text-center italic text-slate-400 text-[13px] mb-3\">A escrita e suas tecnologias sofrem interessantes metamorfoses, numa ciranda que vai do simples bilhete aos originais de um livro</p>\n    <p class=\"mt-3 leading-relaxed\">Estranhei muito na primeira vez que escutei a expressão “de próprio punho”. Parecia que eu ia bater em alguém. Não era bem o caso. Foi numa situação bancária, dessas bem burocráticas, e eu devia escrever algo bem breve, mas com minhas mãos. Na verdade, o que importava era a autenticidade da minha caligrafia, que à época ainda era mais fluente e firme. Depois dos teclados de computador, ela rateia bastante. Minha letra, hoje, tem uma espécie de alternância: dia sim, dia não, trêmula e firme, forte e fraca, mais rotunda e mais cheia de arestas.</p>\n    <p class=\"mt-3 leading-relaxed\">É claro que já escrevi muito mais de próprio punho ou, numa palavra mais bonita, manuscrevi (prefiro a mão ao punho, embora ele também seja usado na tarefa). Mas isso não é um feito individual. Em larga medida, é social. Muita gente sente o mesmo que eu, isto é, escreve bem menos usando as mãos, ou melhor, empregando algum tipo de tecnologia (lápis, caneta etc.) para escrever com grafite ou tinta ou giz ou carvão ou sangue e o que mais. É importante lembrar que ainda há gente que não sabe escrever neste país, neste planeta, mas muita gente sabe e tem um combo de tecnologias mais ou menos à disposição para isso. Sou dessas pessoas privilegiadas que têm várias possibilidades, e uma delas nunca deixou de ser o uso das minhas mãos. Ainda hoje, são elas que batucam meu teclado de computador ou que tocam suavemente duas ou três telas sensíveis. Mas não expressam mais a minha letra. No lugar, aparecem Times New Roman, Arial, Calibri e mais uma centena de “letras” à minha escolha. Eu e Deus e o mundo.</p>\n    <p class=\"mt-3 leading-relaxed\">A despeito desse rol de chances e ferramentas para escrever, o manuscrito nunca deixou de pintar aqui e ali, muitas vezes como obrigação. Na escola, por exemplo, até hoje ele é soberano. No Enem também. Curioso, não? Fico pensando em que espaços e ocasiões ainda usa minha letra. Olhando ao redor, na minha casa, minha letra está em espaços muito delimitados e específicos: bilhetes. Eles estão principalmente na cozinha, em especial na porta da geladeira, a fim de manter a comunicação com meus coabitantes, sempre muito esquecidos ou relapsos. Mas também há bilhetes em <em>post its</em> na minha mesa do escritório, textinhos em garranchos por meio dos quais me comunico comigo mesma, a evitar um comportamento esquecido e relapso.</p>\n    <p class=\"mt-3 leading-relaxed\">No escritório, costumo ser mais suave comigo mesma, mas também muito mais lacônica, a ponto de nem eu me entender, se passar o tempo. Em todos os casos vai minha letra, menos e mais redonda, a lápis e a tinta azul, em <em>post its</em> rosa-choque, colados precariamente, e todos com destino à lixeira, em breve. Justo porque eles funcionam como lembretes de tarefas e coisas que devem ser vencidas e, claro, substituídas por outras, num fluxo infinito, às vezes ansiogênico, com que a maioria dos adultos (e mais ainda as adultas) precisa conviver.</p>\n    <p class=\"mt-3 leading-relaxed\">As formas de escrever mudam, as necessidades também, e o resultado é um elenco complexo, em que nada dispensa nada, a depender da tarefa ou da importância das coisas ou de suas funções, claro. A escrita e suas tecnologias incríveis vão se reposicionando, mudando de status, numa ciranda interessante e importante que pode ser vista à luz de certa diversidade que encontra suas oportunidades e seus efeitos, aqui e ali. Não adianta muito pensar sempre como se tudo fosse excludente. Estão aí minha farta comunicação por bilhetes, minha gaveta alegre de <em>post its</em> de toda cor, esperando para serem usados, e o cheque do cartório, em que quase tudo já é digital. “Do punho ao pixel” não é uma frase filosoficamente correta. O negócio é mais “o punho e o pixel”.</p>\n    <p class=\"mt-3 text-right text-[11px] text-slate-500\">RIBEIRO, A. E. Disponível em: https://rascunho.com.br. Acesso em: 16 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">O recurso linguístico usado para marcar a síntese da opinião da autora sobre a temática desenvolvida foi o(a)</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "emprego da primeira pessoa em \"Estranhei muito na primeira vez que escutei a expressão 'de próprio punho'\". (l. 1)",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "utilização de locução adverbial em \"Na verdade, o que importava era a autenticidade da minha caligrafia\". (l. 3-4)",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "uso de pronome possessivo em \"Minha letra, hoje, tem uma espécie de alternância\". (l. 5-6)",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "adoção de termo autorreflexivo em \"No escritório, costumo ser mais suave comigo mesma\". (l. 30)",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "substituição da expressão \"Do punho ao pixel\" (l. 44) pela expressão \"o punho e o pixel\". (l. 45)",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            A frase final do texto é a mais reveladora: a autora rejeita explicitamente a expressão \"Do punho ao pixel\" — que sugeriria uma linha do tempo, uma evolução de um para o outro — e a substitui por \"o punho e o pixel\", trocando a preposição \"do... ao\" (que indica trajeto, substituição) pela conjunção \"e\" (que indica soma, convivência). Essa pequena troca linguística é exatamente o recurso que sintetiza, de forma econômica, a tese do texto inteiro: manuscrito e digital coexistem, não se substituem.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o uso da primeira pessoa organiza o relato pessoal do início ao fim do texto, mas não é, especificamente, o recurso que sintetiza a tese sobre a relação entre as tecnologias de escrita.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a locução adverbial \"na verdade\" reforça uma ideia pontual sobre autenticidade da caligrafia, mas não resume a tese central do texto.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o pronome possessivo \"minha\" apenas indica posse da letra da autora; é um recurso de coesão comum, não a síntese argumentativa do texto.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o termo reflexivo \"comigo mesma\" descreve um hábito pessoal específico do escritório, sem relação direta com a conclusão sobre convivência de tecnologias.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando a pergunta pede o recurso que \"sintetiza a opinião\", procure alterações ou reformulações no final do texto — trocar uma palavra-chave (como uma preposição por uma conjunção) é uma forma clássica de o autor deixar a tese explícita na última frase.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-arrows-left-right",
+      "titulo": "Preposição x Conjunção",
+      "text": "\"Do... ao\" sugere trajeto/substituição; \"e\" sugere soma/convivência — a troca entre as duas é o recurso central da conclusão."
+    },
+    {
+      "icone": "fa-bullseye",
+      "titulo": "Síntese Argumentativa",
+      "text": "A frase final de um texto opinativo costuma condensar, numa única construção, a tese defendida ao longo de todo o texto."
+    },
+    {
+      "icone": "fa-magnifying-glass-chart",
+      "titulo": "Atenção às Linhas Citadas",
+      "text": "Questões que citam números de linha pedem que você volte ao texto original e compare a citação com o contexto ao redor dela."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q011",
+  "numero": "Questão 11",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Romantismo — Inocência, de Visconde de Taunay",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-book-open",
+  "titulo": "Casamento por Conveniência: os Ideais Românticos no Diálogo de Inocência",
+  "tags": [
+    "Literatura",
+    "Romantismo",
+    "Prosa Regionalista",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 space-y-3 leading-relaxed\">\n      <p>— Vejo, disse ele com algum acanhamento, que o doutor não é nenhum pé-rapado, mas nunca é bom facilitar... Minha filha Nocência fez 18 anos pelo Natal, e é rapariga que pela feição parece moça da cidade, muito ariscazinha de modos, mas bonita e boa deveras... Coitada, foi criada sem mãe, e aqui nestes fundões. [...]</p>\n      <p>— Ora muito bem, continuou Pereira caindo aos poucos na habitual garrulice, quando vi a menina tomar corpo, tratei logo de casá-la.</p>\n      <p>— Ah! é casada? perguntou Cirino.</p>\n      <p>— Isto é, e é e não é. A coisa está apalavrada. Por aqui costumo labutar no costeio do gado para São Paulo um homem de mão-cheia, que talvez o sr. conheça... o Manecão Doca...</p>\n      <p>— Não, respondeu Cirino abanando a cabeça.</p>\n      <p>— Pois isso é um homem às direitas, desempenado e trabucador como ele só... fura estes sertões todos e vem tangendo pontas de gado que metem pasmo. Também dizem que tem bichado muito e ajuntado sobre grosso, o que é possível, porque não é gastador nem dado a mulheres. Uma feita que estava aqui de pousada... olhe, mesmo neste lugar onde estava mecê inda agorinha, falei-lhe em casamento... isto é, dei-lhe uns toques... porque os pais devem tomar isso a si para bem de suas famílias; não acha?</p>\n      <p>— Boa dúvida, aprovou Cirino, dou-lhe toda a razão; era do seu dever.</p>\n      <p class=\"text-right text-[11px] text-slate-500\">TAUNAY, A. d'E. <strong>Inocência</strong>. Disponível em: www.dominiopublico.com.br. Acesso em: 29 fev. 2024.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse trecho, ao se referir à sua filha, o pai de Inocência reproduz os ideais românticos presentes na</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "valorização do ambiente rural na formação moral da mulher.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "figura decorativa da mulher ante o protagonismo masculino.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "equivalência de origem social para a harmonia do casal.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "importância do dote como condição para o casamento.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "aura de mistério sobre a identidade da jovem.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Ao longo de toda a fala, Pereira descreve a filha em termos físicos e morais (\"bonita e boa deveras\") como quem descreve um bem a ser negociado, e é ele — junto de Manecão Doca — quem age: combina a conversa, \"dá uns toques\", decide o destino da moça sem que ela tenha voz na cena. Nocência é apenas mencionada, nunca ouvida; quem fala, negocia e decide são os homens. É o retrato clássico do idealismo romântico que reduz a mulher a um adorno em torno da ação masculina — daí a alternativa B.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto menciona que Nocência foi \"criada sem mãe\" nos \"fundões\", mas isso não é apresentado como uma virtude formadora — é só um dado biográfico, sem relação com o argumento central do trecho.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> não há, no trecho, qualquer discussão sobre a origem social de Manecão Doca ser equivalente à da família de Pereira; o que se destaca é a capacidade financeira do pretendente.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o trecho fala em riqueza acumulada por Manecão (\"tem bichado muito e ajuntado sobre grosso\"), mas não se trata de um dote oferecido pela família da noiva — é o contrário, o pretendente é que é valorizado por ser próspero.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> não há mistério algum sobre Nocência — Pereira a descreve objetivamente (idade, aparência, criação); o \"mistério\" não é um traço do trecho.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos do Romantismo regionalista, preste atenção a quem fala e quem é apenas descrito(a) na cena — a ausência de voz de uma personagem, enquanto outras decidem por ela, é sinal de que ela ocupa um papel decorativo/passivo na narrativa.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-masks-theater",
+      "titulo": "Idealização Romântica da Mulher",
+      "text": "No Romantismo, a mulher é frequentemente descrita por sua beleza e bondade, sem voz própria na trama."
+    },
+    {
+      "icone": "fa-user-tie",
+      "titulo": "Protagonismo Masculino",
+      "text": "São os homens (pai e pretendente) que conduzem o diálogo, negociam e decidem — a personagem feminina é apenas tema da conversa."
+    },
+    {
+      "icone": "fa-comment-slash",
+      "titulo": "Ausência de Voz",
+      "text": "Nocência não fala em nenhum momento do trecho: ela é objeto do discurso alheio, não sujeito dele."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q012",
+  "numero": "Questão 12",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Textos Informativos — Políticas Públicas de Inclusão",
+  "materiaCor": "red",
+  "materiaIcone": "fa-water",
+  "titulo": "Maré Inclusiva: o Parasurf como Instrumento de Política Pública Esportiva",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Texto Informativo",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed\">\n      <p>O Ministério do Esporte no Brasil lançou o programa Maré Inclusiva, em 2024, ano dos Jogos Paralímpicos de Paris. Esse programa visa ampliar as oportunidades para pessoas com deficiência que desejam praticar o surf. O parasurf é a prática do surf adaptada para permitir que pessoas com deficiência pratiquem o esporte em todas as suas categorias, modalidades e manifestações. Para a Secretaria Nacional do Paradesporto, a iniciativa é mais do que um programa de esporte, é uma iniciativa que busca transformar vidas e promover a inclusão por meio do parasurf, criando um legado de igualdade e respeito.</p>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">Disponível em: www.gov.br/esporte. Acesso em: 6 set. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">De acordo com esse texto, o programa voltado ao estímulo da prática do parasurf evidencia a</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "adesão de diferentes países a programas inclusivos.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "preocupação política em atender a demandas paralímpicas.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "importância de uma política pública esportiva para a inclusão.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "eficiência das iniciativas de inclusão em megaeventos esportivos.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "escassez de investimento em práticas corporais de aventura na natureza.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto apresenta um programa governamental — lançado pelo Ministério do Esporte — cujo objetivo declarado é \"transformar vidas e promover a inclusão por meio do parasurf, criando um legado de igualdade e respeito\". Trata-se, portanto, de uma política pública (ação estatal organizada, com secretaria responsável e objetivo social claro) voltada à inclusão de pessoas com deficiência no esporte. É essa relação entre política pública e inclusão que o texto evidencia.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não menciona a adesão de outros países ao programa; ele fala apenas da iniciativa brasileira.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto não trata de \"demandas paralímpicas\" como pressão externa a ser atendida; ele apresenta uma iniciativa proativa do Estado, e não uma resposta a cobranças.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não avalia a eficiência de iniciativas em megaeventos; ele apenas anuncia o lançamento do programa, sem apresentar dados de resultado.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não fala em escassez de investimento — ao contrário, apresenta o lançamento de um novo programa como um investimento em curso.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos sobre programas governamentais, identifique quem promove a ação (o órgão público) e qual o objetivo declarado — isso costuma apontar diretamente para a alternativa que fala em \"política pública\".\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-landmark",
+      "titulo": "Política Pública",
+      "text": "Ação organizada pelo Estado, com órgão responsável e objetivo declarado, voltada a resolver uma questão social."
+    },
+    {
+      "icone": "fa-universal-access",
+      "titulo": "Parasurf e Paradesporto",
+      "text": "Modalidade adaptada do surf para pessoas com deficiência, dentro do programa Maré Inclusiva."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Inclusão como Objetivo Central",
+      "text": "O texto liga esporte e cidadania: o programa busca \"igualdade e respeito\", não apenas desempenho esportivo."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q013",
+  "numero": "Questão 13",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Gêneros Textuais — Texto Legislativo",
+  "materiaCor": "red",
+  "materiaIcone": "fa-scale-balanced",
+  "titulo": "Lei 10.639/2003: a Norma-Padrão como Exigência do Gênero Legislativo",
+  "tags": [
+    "Português",
+    "Gêneros Textuais",
+    "Norma Culta",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p><strong>Art. 26-A.</strong> Nos estabelecimentos de ensino fundamental e médio, oficiais e particulares, torna-se obrigatório o ensino sobre História e Cultura Afro-Brasileira.</p>\n      <p><strong>§ 1º</strong> O conteúdo programático a que se refere o <em>caput</em> deste artigo incluirá o estudo da História da África e dos Africanos, a luta dos negros no Brasil, a cultura negra brasileira e o negro na formação da sociedade nacional, resgatando a contribuição do povo negro nas áreas social, econômica e política pertinentes à História do Brasil.</p>\n      <p><strong>§ 2º</strong> Os conteúdos referentes à História e Cultura Afro-Brasileira serão ministrados no âmbito de todo o currículo escolar, em especial nas áreas de Educação Artística e de Literatura e História Brasileiras.</p>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">BRASIL. <strong>Lei n. 10.639/2003</strong>. Disponível em: www.gov.br/planalto. Acesso em: 5 maio 2024.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">O emprego da norma-padrão é justificado nesse texto</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "pela especialização de seu público-alvo.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "pela relevância cultural de seu conteúdo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "pelos contextos pedagógicos em que circula.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "pela importância para os grupos étnico-raciais.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "pelas características do gênero a que pertence.",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto é um artigo de lei — trecho de um documento legislativo oficial, estruturado em <em>caput</em> e parágrafos numerados, com vocabulário técnico-jurídico (\"torna-se obrigatório\", \"conteúdo programático\", \"currículo escolar\"). O gênero textual \"lei\" exige, por convenção, o uso da norma-padrão: é uma característica do próprio gênero, independente do assunto tratado ou do público que vai lê-lo. Por isso a norma-padrão se justifica pelas características do gênero, não pelo tema (cultura afro-brasileira) nem pelo público.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não se dirige a um público especializado específico — leis valem para toda a sociedade, não para um grupo restrito de leitores.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a relevância cultural do conteúdo (a luta e a cultura afro-brasileira) é o assunto da lei, mas não é o motivo pelo qual ela é escrita em norma-padrão — qualquer lei, sobre qualquer tema, usa esse registro.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o texto legal não circula apenas em contextos pedagógicos — ele é publicado oficialmente e vale para todo o sistema de ensino, com força jurídica, não só escolar.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> a importância do tema para os grupos étnico-raciais explica o conteúdo da lei, não a escolha do registro linguístico formal.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando a pergunta perguntar \"por que essa norma/registro é usado nesse texto\", pense primeiro no gênero textual: alguns gêneros (leis, contratos, atas) exigem formalidade por convenção, independentemente do assunto.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-gavel",
+      "titulo": "Gênero Textual Legislativo",
+      "text": "Leis seguem estrutura fixa (artigo, caput, parágrafos) e exigem linguagem formal e precisa por convenção do gênero."
+    },
+    {
+      "icone": "fa-book",
+      "titulo": "Norma-Padrão",
+      "text": "Variedade formal da língua, usada em contextos que exigem precisão e formalidade — como textos jurídicos e oficiais."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Lei 10.639/2003",
+      "text": "Torna obrigatório o ensino de História e Cultura Afro-Brasileira nas escolas de todo o país."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q014",
+  "numero": "Questão 14",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Publicidade — Texto Multimodal",
+  "materiaCor": "red",
+  "materiaIcone": "fa-bullhorn",
+  "titulo": "\"Você Entra Fernando, e Sai Pessoa\": o Trocadilho a Serviço do Argumento Publicitário",
+  "tags": [
+    "Português",
+    "Texto Multimodal",
+    "Publicidade",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 text-center space-y-2\">\n      <p class=\"text-sm text-slate-300\">Cartaz publicitário: à esquerda, a ilustração de um rosto com pensamentos e referências literárias saindo da cabeça, sob o texto \"Você entra Fernando.\" À direita, o mesmo rosto mais definido, sob o texto \"E sai Pessoa.\"</p>\n      <p class=\"font-bold text-slate-100 mt-2\">26ª BIENAL INTERNACIONAL DO LIVRO DE SÃO PAULO</p>\n      <p class=\"italic text-slate-300\">\"Todo mundo sai melhor do que entrou.\"</p>\n      <p class=\"text-slate-400 text-[13px]\">02 a 10 de julho — Novo local: Expo Center Norte</p>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">Disponível em: www.publishnews.com.br. Acesso em: 19 set. 2024.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse cartaz publicitário, os recursos verbais e não verbais constroem um argumento que objetiva</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "divulgar a obra de Fernando Pessoa no Brasil.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "valorizar a realização de eventos literários no país.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "ressaltar o impacto da leitura na vida das pessoas.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "fomentar o turismo cultural na cidade de São Paulo.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "evidenciar a influência de Pessoa na literatura brasileira.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O trocadilho \"Você entra Fernando. E sai Pessoa.\" brinca com o nome do poeta Fernando Pessoa e com o sentido comum da palavra \"pessoa\": quem entra na Bienal como um indivíduo qualquer (\"Fernando\", nome próprio genérico) sai transformado, mais \"pessoa\" — mais desenvolvido, mais humano. Isso é reforçado pelo slogan explícito: \"Todo mundo sai melhor do que entrou.\" O argumento central do cartaz não é sobre a obra de Pessoa especificamente, mas sobre o poder transformador da leitura e do contato com livros na vida de quem visita o evento.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o nome \"Fernando Pessoa\" é usado como recurso de linguagem (trocadilho), não como forma de divulgar a obra específica do autor — o cartaz não cita títulos, temas ou trechos do poeta.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o cartaz até menciona o evento (a Bienal), mas o argumento central não é sobre valorizar eventos literários em geral — é sobre o efeito da leitura sobre as pessoas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> não há, no cartaz, apelo ao turismo cultural da cidade; o texto foca na experiência pessoal de quem visita a Bienal, não em atrair turistas a São Paulo.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o cartaz não discute a influência histórica de Pessoa na literatura brasileira; o nome do poeta é usado apenas como jogo de palavras para construir a mensagem sobre transformação pessoal.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em anúncios com trocadilhos envolvendo nomes próprios famosos, verifique se o nome está sendo usado por seu significado literal (aqui, \"pessoa\" = ser humano) para construir a mensagem — muitas vezes o nome famoso é só o gatilho do jogo de palavras, não o assunto central do anúncio.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-image",
+      "titulo": "Texto Multimodal",
+      "text": "Combina linguagem verbal (frases, slogan) e não verbal (ilustração) para construir um único argumento publicitário."
+    },
+    {
+      "icone": "fa-comments",
+      "titulo": "Trocadilho Publicitário",
+      "text": "Jogo de palavras com o nome \"Fernando Pessoa\" explora o duplo sentido de \"pessoa\" (nome próprio e substantivo comum)."
+    },
+    {
+      "icone": "fa-book-open-reader",
+      "titulo": "Argumento Central",
+      "text": "O slogan \"todo mundo sai melhor do que entrou\" resume a tese: a leitura transforma quem lê."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q015b",
+  "numero": "Questão 15",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "artes",
+  "materia": "Artes / Pintura Contemporânea — Retratos de Dalton Paula",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-palette",
+  "titulo": "Retratos de Zeferina e João de Deus Nascimento: Arte como Afirmação de Identidade",
+  "tags": [
+    "Artes",
+    "Pintura Contemporânea",
+    "Representatividade",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3\">\n      <p>O retrato como gênero da pintura ocidental ficou vinculado às elites, tornando invisíveis as populações que não faziam parte do círculo dominante. Num país de tradição escravocrata e colonizado por europeus como o Brasil, pouquíssimas pessoas negras e indígenas foram retratadas em pintura, e menos ainda identificadas com seus nomes nos retratos. Daí a importância, para a história da arte e para a história brasileira, dos retratos de Dalton Paula.</p>\n      <p class=\"text-center text-slate-300 text-[13px]\">Retratos de <strong>D. Zeferina</strong> e <strong>D. João de Deus Nascimento</strong> — óleo sobre tela, Dalton Paula, Masp, São Paulo, 2018.</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: www.masp.org.br. Acesso em: 5 maio 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Ao dar protagonismo a Zeferina e a João de Deus Nascimento, o artista Dalton Paula evidencia que a(s)</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "arte pode promover formas de afirmação de identidade social.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "comunidades periféricas passam a adquirir o gênero retrato.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "personagens retratadas simbolizam a sociedade brasileira.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "pintura funciona como instrumento de ascensão social.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "imagens tradicionais preservam memórias afetivas.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-lime-950/40 p-4 rounded-xl border border-lime-500/30 space-y-2\">\n          <h4 class=\"font-bold text-lime-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa A é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto explica que o retrato, historicamente, excluiu pessoas negras e indígenas — quando apareciam em pinturas, raramente eram identificadas pelo nome. Ao pintar Zeferina e João de Deus Nascimento como protagonistas, com nome próprio e dignidade equivalente à de um retrato de elite, Dalton Paula devolve a essas figuras históricas um lugar de sujeitos, não de figuração anônima. Isso é uma afirmação de identidade social por meio da arte: nomear e retratar com protagonismo quem historicamente foi apagado dos retratos.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto não afirma que \"comunidades periféricas\" tenham passado a ter acesso ao gênero retrato como prática coletiva; o foco é no gesto artístico de Dalton Paula sobre duas figuras históricas específicas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> Zeferina e João de Deus Nascimento não são apresentados como símbolos genéricos de \"a sociedade brasileira\" como um todo, mas como indivíduos historicamente apagados que ganham nome e rosto no retrato.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> não há, no texto, qualquer menção a ascensão social por meio da pintura; o argumento é sobre visibilidade e identidade, não sobre mobilidade social.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não trata de memória afetiva pessoal (como fotos de família); trata de reparação histórica e visibilidade de figuras negras na história da arte.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em questões sobre arte e representatividade, associe \"dar nome e protagonismo a quem era invisibilizado\" à ideia de afirmação de identidade — é o argumento mais recorrente do ENEM sobre esse tipo de obra.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-image-portrait",
+      "titulo": "Gênero Retrato",
+      "text": "Historicamente associado às elites; retratar pessoas negras e indígenas com nome é um gesto de ruptura com essa tradição."
+    },
+    {
+      "icone": "fa-fingerprint",
+      "titulo": "Afirmação de Identidade",
+      "text": "Nomear e representar com dignidade figuras historicamente apagadas reconstrói identidade e memória social."
+    },
+    {
+      "icone": "fa-landmark-flag",
+      "titulo": "Reparação Histórica na Arte",
+      "text": "A obra de Dalton Paula dialoga com a ausência de registros pictóricos de pessoas negras identificadas no Brasil colonial e escravocrata."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q016",
+  "numero": "Questão 16",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Simbolismo — Análise de Soneto",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-water",
+  "titulo": "Mar e Rocha: a Metáfora do Conflito Amoroso no Soneto \"Símbolos\"",
+  "tags": [
+    "Literatura",
+    "Simbolismo",
+    "Poesia",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n      <p class=\"text-center font-bold text-slate-100 mb-3\">Símbolos</p>\n      <div class=\"space-y-3 leading-relaxed italic text-slate-200\">\n        <p>Eu e tu, ante a noite e o amplo desdobramento<br>\n        do mar, fero, a estourar de encontro à rocha nua...<br>\n        Um símbolo descubro aqui, neste momento<br>\n        esta rocha, este mar... a minha vida e a tua.</p>\n        <p>O mar vem, o mar vai, nele há o gesto violento<br>\n        de quem maltrata e, após, se arrepende e recua.<br>\n        Como compreendo bem da rocha o sentimento!<br>\n        São muito iguais, por certo, a minha mágoa e a sua.</p>\n        <p>Contemplo neste quadro a nossa triste vida;<br>\n        tu és dúbio mar que, na sua inconsciência,<br>\n        tem carinhos de amor e fúrias de demência!</p>\n        <p>Eu sou a dor estanque, a dor empedernida,<br>\n        sou rocha a emergir de um côncavo de areia,<br>\n        imóvel, muda, isenta e alheia ao mar, alheia.</p>\n      </div>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">MACHADO, G. <strong>Poesia completa</strong>. Rio de Janeiro: Cátedra/MEC, 1978.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse soneto, os traços da estética simbolista são resgatados pelo eu lírico ao</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "rejeitar as emoções de \"amor\" e \"mágoa\".",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "expressar a dubiedade do olhar sobre o outro.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "representar o \"eu\" e o \"tu\" como sujeitos volúveis.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "associar a sua inconsciência a elementos da natureza.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "metaforizar o conflito amoroso nas imagens de \"mar\" e \"rocha\".",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O próprio título do poema, \"Símbolos\", já anuncia o procedimento central: o eu lírico transforma dois elementos da natureza — o mar violento e inconstante, e a rocha imóvel e dolorida — em símbolos da relação amorosa conturbada entre \"eu\" e \"tu\". Cada verso reforça essa correspondência: o mar \"maltrata e, após, se arrepende e recua\", como um amor instável; a rocha é \"a dor estanque\", fixa e alheia. É a marca típica do Simbolismo: usar elementos concretos da natureza como símbolo de estados afetivos abstratos e do conflito entre os amantes.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o eu lírico não rejeita \"amor\" e \"mágoa\" — ao contrário, nomeia essas emoções diretamente (\"a minha mágoa e a sua\", \"carinhos de amor\") como parte central do que está sendo simbolizado.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> \"dúbio\" qualifica o mar (o \"tu\"), não descreve \"o olhar\" do eu lírico sobre o outro; a dubiedade aqui é uma característica atribuída à imagem do mar, não um recurso de observação.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o eu lírico se representa como fixo e imóvel (\"rocha... imóvel, muda\"), o oposto de volúvel; é o \"tu\"/mar que muda, não os dois igualmente.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o poema não trata da inconsciência do eu lírico associada à natureza; é o \"tu\" (mar) que é descrito como agindo \"na sua inconsciência\", não o eu lírico.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em poemas simbolistas, procure sempre o elemento da natureza que funciona como espelho de um sentimento humano — o próprio título \"Símbolos\" já é uma pista direta de que a leitura precisa buscar essa correspondência entre imagem concreta e emoção abstrata.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-water",
+      "titulo": "Simbolismo Literário",
+      "text": "Movimento que usa imagens concretas (mar, rocha) como símbolos de estados emocionais e espirituais abstratos."
+    },
+    {
+      "icone": "fa-heart-crack",
+      "titulo": "Metáfora do Conflito Amoroso",
+      "text": "Mar (instável, violento) e rocha (fixa, dolorida) simbolizam os dois polos de uma relação desigual e sofrida."
+    },
+    {
+      "icone": "fa-mountain",
+      "titulo": "Antítese Mar x Rocha",
+      "text": "O contraste entre movimento/inconstância (mar) e imobilidade/permanência (rocha) estrutura todo o soneto."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q017",
+  "numero": "Questão 17",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Narrativa — Progressão Temática",
+  "materiaCor": "red",
+  "materiaIcone": "fa-hourglass-half",
+  "titulo": "\"Antes do Alzheimer Chegar\": a Locução que Ressignifica o Presente em \"Antes do Inverno Chegar\"",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Narrativa",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 space-y-3 leading-relaxed\">\n      <p class=\"text-center font-bold text-slate-100\">Antes do inverno chegar.</p>\n      <p>Ela tinha olhinhos brilhantes. Os mesmos de antes. Antes da fome. Antes das 17 mudanças de cidade. Dos sete filhos e dos muitos anos de trabalho dentro e fora de casa.</p>\n      <p>Ela fazia ambrosia, bolo de fubá e pedacinhos de queijo. Antes do inverno, ela plantava flores novas e diferentes para nos esperar nas próximas férias de verão.</p>\n      <p>Ela tinha o jeito de menina. Menina sapeca, correndo na grama seca do cerrado. O mesmo jeito de antes. Antes do marido (e mesmo com o marido). Antes do cansaço dos anos. Antes da dureza do trato com a terra.</p>\n      <p>Ela tinha histórias. Compridas, curtas, divertidas e verdadeiras. Mas isso foi antes. Antes das lembranças se bagunçarem feito bolas coloridas de Natal esperando para serem montadas na árvore.</p>\n      <p>Eu era sua neta. Antes do Alzheimer chegar, eu era sua neta. Mas ela é e sempre será minha avó.</p>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">PERSON, C. R. <strong>Borboletas no estômago</strong>: porque às vezes o título precisa ser adolescente e clichê, já que a vida exige sermos tão adultos. São Paulo: Ed. das Autoras, 2021.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">A narradora, ao resgatar memórias da história de vida da avó, faz uso recorrente da locução \"antes de\". Esse termo colabora para a progressão temática na medida em que</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "relaciona eventos ocorridos simultaneamente.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "estabelece uma comparação entre as lembranças.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "ressalta fatos que ressignificam o momento presente.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "sinaliza uma sequência que denota ações consecutivas.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "apresenta uma explicação para as memórias resgatadas.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Cada \"antes de\" no texto aponta para uma qualidade da avó que existia até um marco de perda: \"antes da fome\", \"antes do cansaço dos anos\", e, no ápice do texto, \"antes do Alzheimer chegar\". Esses \"antes\" não organizam uma simples linha do tempo — eles contrastam quem a avó era com o que ela é agora, atingida pelo Alzheimer. Isso faz com que cada lembrança do passado ilumine e dê novo sentido ao presente da narradora: ela não está apenas listando o passado, está usando-o para explicar a dor e o significado da situação atual (\"mas ela é e sempre será minha avó\"). É essa relação passado-presente que ressignifica o momento presente.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> os eventos marcados por \"antes de\" não são simultâneos entre si — eles pertencem a momentos diferentes do passado, todos anteriores à condição atual da avó.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> não se trata de comparar lembranças entre si (uma lembrança com outra), mas de comparar o passado da avó com sua condição no presente.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> a locução \"antes de\" não indica uma sequência de ações consecutivas (uma acontecendo logo depois da outra); ela demarca um \"antes\" e um \"depois\" definidos pela chegada do Alzheimer, não uma sucessão de eventos em cadeia.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não usa \"antes de\" para explicar por que as memórias vêm à mente da narradora; ele usa a expressão para demarcar a fronteira entre quem a avó era e quem ela é agora.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando um texto repete uma mesma expressão temporal várias vezes, pergunte-se: ela está organizando uma linha do tempo neutra, ou está usando o passado para comentar/mudar o sentido do presente? Nesse segundo caso, a resposta certa fala em \"ressignificar\" ou \"dar novo sentido\" ao presente.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Locução \"Antes de\"",
+      "text": "Repetida ao longo do texto, marca a fronteira entre a avó de antes e sua condição atual, afetada pelo Alzheimer."
+    },
+    {
+      "icone": "fa-clock-rotate-left",
+      "titulo": "Progressão Temática",
+      "text": "O acúmulo de lembranças específicas (comida, jeito de menina, histórias) constrói gradualmente o retrato afetivo da avó."
+    },
+    {
+      "icone": "fa-heart",
+      "titulo": "Ressignificação do Presente",
+      "text": "O passado não é apenas lembrado: ele reorganiza o sentido da relação entre narradora e avó no presente."
+    }
+  ],
+  "simuladorType": null
 }
 
 ];
