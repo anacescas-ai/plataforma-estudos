@@ -352,6 +352,11 @@
           <i class="fa-solid fa-book-open-reader"></i> Estudar
         </button>
 
+        <button onclick="mostrarSimulado()" id="botaoAbaSimulado"
+          class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-stopwatch"></i> Simulado
+        </button>
+
         <button onclick="mostrarProgresso()" id="botaoAbaProgresso"
           class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
           <i class="fa-solid fa-chart-pie"></i> Meu progresso
@@ -416,6 +421,11 @@
   <!-- ============================ LAYOUT: MEU PROGRESSO ============================ -->
   <div id="viewProgresso" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 py-6 space-y-6">
     <div id="progressoConteudo"></div>
+  </div>
+
+  <!-- ============================ LAYOUT: SIMULADO ============================ -->
+  <div id="viewSimulado" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 py-6 space-y-6">
+    <div id="simuladoConteudo"></div>
   </div>
 
   <!-- ============================ DADOS ============================ -->
@@ -490,6 +500,9 @@
   let materiaAtiva = 'todas';
   let questaoAtiva = null;
   let temporizadorNotas = null;
+  /* Contexto de onde a questão ativa está sendo exibida: 'estudo' (painel
+     principal + lista lateral) ou 'simulado' (painel dentro do simulado). */
+  let contextoAtivo = 'estudo';
 
   /* Mapa de cores por matéria: classes escritas por extenso porque o
      Tailwind via CDN não gera classes montadas por concatenação. */
@@ -635,6 +648,7 @@
      PAINEL DA QUESTÃO
      ------------------------------------------------------------------- */
   function abrirQuestao(id) {
+    contextoAtivo = 'estudo';
     questaoAtiva = questaoDatabase.find(q => q.id === id);
     abaAtiva = 'questao';
     renderizarLista();
@@ -660,7 +674,8 @@
 
   function renderizarQuestao() {
     const q = questaoAtiva;
-    const alvo = document.getElementById('painelQuestao');
+    const alvo = document.getElementById(contextoAtivo === 'simulado' ? 'painelSimuladoQuestao' : 'painelQuestao');
+    if (!alvo) return;
 
     if (!q) {
       alvo.innerHTML = `
@@ -881,7 +896,7 @@
     // Errou: a resolução comentada abre sozinha, que é quando ela mais rende.
     if (letra !== q.alternativaCorreta) abaAtiva = 'resolucao';
     renderizarQuestao();
-    renderizarLista();
+    if (contextoAtivo === 'estudo') renderizarLista();
   }
 
   function refazerQuestao() {
@@ -889,7 +904,7 @@
     Store.salvar();
     atualizarPlacar();
     renderizarQuestao();
-    renderizarLista();
+    if (contextoAtivo === 'estudo') renderizarLista();
   }
 
   function salvarNota() {
@@ -933,18 +948,21 @@
   };
 
   function pintarAbasPrincipais() {
-    const estudoAtivo = painelAtivo === 'estudo';
     const ativa = 'bg-blue-600 text-white border-blue-500';
     const inativa = 'border-slate-800 text-slate-300 hover:border-blue-500 hover:text-blue-400';
     document.getElementById('botaoAbaEstudo').className =
-      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (estudoAtivo ? ativa : inativa);
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'estudo' ? ativa : inativa);
+    document.getElementById('botaoAbaSimulado').className =
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'simulado' ? ativa : inativa);
     document.getElementById('botaoAbaProgresso').className =
-      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (!estudoAtivo ? ativa : inativa);
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'progresso' ? ativa : inativa);
   }
 
   function mostrarEstudo() {
     painelAtivo = 'estudo';
+    contextoAtivo = 'estudo';
     document.getElementById('viewEstudo').classList.remove('hidden');
+    document.getElementById('viewSimulado').classList.add('hidden');
     document.getElementById('viewProgresso').classList.add('hidden');
     pintarAbasPrincipais();
   }
@@ -952,9 +970,23 @@
   function mostrarProgresso() {
     painelAtivo = 'progresso';
     document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewSimulado').classList.add('hidden');
     document.getElementById('viewProgresso').classList.remove('hidden');
     pintarAbasPrincipais();
     renderizarProgresso();
+  }
+
+  function mostrarSimulado() {
+    painelAtivo = 'simulado';
+    document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewProgresso').classList.add('hidden');
+    document.getElementById('viewSimulado').classList.remove('hidden');
+    pintarAbasPrincipais();
+    if (simuladoTela === 'rodando' && simulado) {
+      contextoAtivo = 'simulado';
+      questaoAtiva = questaoDatabase.find(q => q.id === simulado.questoesIds[simulado.indice]);
+    }
+    renderizarSimulado();
   }
 
   function calcularEstatisticas() {
@@ -1156,6 +1188,380 @@
         }
       });
     }
+  }
+
+  /* =========================================================================
+     SIMULADO PERSONALIZADO
+     A pessoa escolhe matérias, cadernos/edições, quantidade de questões e se
+     quer cronômetro; montamos um recorte aleatório do questaoDatabase e
+     reaproveitamos o mesmo painel de questão do modo Estudar (renderizarQuestao,
+     responder, montarAba etc.) — só muda o alvo (#painelSimuladoQuestao) e a
+     navegação (Anterior/Próxima/Finalizar), controlados por contextoAtivo.
+     ========================================================================= */
+  let simMateriasSel = new Set();
+  let simCadernosSel = new Set();
+  let simOrigem = 'todas'; // 'todas' | 'oficial' | 'inedita'
+  let simQuantidade = 20;
+  let simCronometroAtivo = false;
+  let simMinutos = 60;
+
+  let simulado = null; // { questoesIds:[], indice:0, segundosRestantes:null|number, intervalId:null }
+  let simuladoTela = 'montar'; // 'montar' | 'rodando' | 'resultado'
+
+  function materiasDisponiveis() {
+    const materias = [];
+    questaoDatabase.forEach(q => {
+      if (!materias.some(m => m.id === q.materiaId)) {
+        materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+      }
+    });
+    return materias;
+  }
+
+  function cadernosDisponiveis() {
+    const cadernos = [];
+    questaoDatabase.forEach(q => {
+      const chave = q.ano + '||' + q.caderno;
+      if (!cadernos.some(c => c.chave === chave)) {
+        cadernos.push({ chave: chave, rotulo: q.caderno + ' · ' + q.ano });
+      }
+    });
+    return cadernos;
+  }
+
+  function toggleSimMateria(id) {
+    if (simMateriasSel.has(id)) simMateriasSel.delete(id); else simMateriasSel.add(id);
+    renderizarSimulado();
+  }
+
+  function toggleSimCaderno(chave) {
+    if (simCadernosSel.has(chave)) simCadernosSel.delete(chave); else simCadernosSel.add(chave);
+    renderizarSimulado();
+  }
+
+  function definirSimOrigem(valor) {
+    simOrigem = valor;
+    renderizarSimulado();
+  }
+
+  function definirSimQuantidade(valor) {
+    simQuantidade = Math.max(1, parseInt(valor, 10) || 1);
+    renderizarSimulado();
+  }
+
+  function alternarSimCronometro() {
+    simCronometroAtivo = !simCronometroAtivo;
+    renderizarSimulado();
+  }
+
+  function definirSimMinutos(valor) {
+    simMinutos = Math.max(1, parseInt(valor, 10) || 1);
+  }
+
+  function questoesPoolSimulado() {
+    return questaoDatabase.filter(q => {
+      if (simMateriasSel.size && !simMateriasSel.has(q.materiaId)) return false;
+      if (simCadernosSel.size && !simCadernosSel.has(q.ano + '||' + q.caderno)) return false;
+      const origem = q.origem || 'oficial';
+      if (simOrigem !== 'todas' && origem !== simOrigem) return false;
+      return true;
+    });
+  }
+
+  function embaralhar(lista) {
+    const copia = lista.slice();
+    for (let i = copia.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = copia[i]; copia[i] = copia[j]; copia[j] = tmp;
+    }
+    return copia;
+  }
+
+  function formatarTempo(segundos) {
+    segundos = Math.max(0, segundos);
+    const m = Math.floor(segundos / 60);
+    const s = segundos % 60;
+    return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+  }
+
+  function iniciarSimulado() {
+    const pool = questoesPoolSimulado();
+    if (!pool.length) return;
+    const quantidade = Math.min(simQuantidade, pool.length);
+    const escolhidas = embaralhar(pool).slice(0, quantidade);
+
+    if (simulado && simulado.intervalId) clearInterval(simulado.intervalId);
+
+    simulado = {
+      questoesIds: escolhidas.map(q => q.id),
+      indice: 0,
+      segundosRestantes: simCronometroAtivo ? simMinutos * 60 : null,
+      intervalId: null
+    };
+
+    contextoAtivo = 'simulado';
+    questaoAtiva = questaoDatabase.find(q => q.id === simulado.questoesIds[0]);
+    abaAtiva = 'questao';
+    simuladoTela = 'rodando';
+
+    if (simCronometroAtivo) {
+      simulado.intervalId = setInterval(simuladoTick, 1000);
+    }
+
+    renderizarSimulado();
+  }
+
+  function simuladoTick() {
+    if (!simulado || simulado.segundosRestantes === null) return;
+    simulado.segundosRestantes--;
+    const el = document.getElementById('simuladoCronometro');
+    if (el) {
+      el.textContent = formatarTempo(simulado.segundosRestantes);
+      el.className = 'font-mono font-bold ' + (simulado.segundosRestantes <= 60 ? 'text-rose-400' : 'text-slate-200');
+    }
+    if (simulado.segundosRestantes <= 0) finalizarSimulado();
+  }
+
+  function irParaQuestaoSimulado(indice) {
+    if (!simulado) return;
+    if (indice < 0 || indice >= simulado.questoesIds.length) return;
+    simulado.indice = indice;
+    questaoAtiva = questaoDatabase.find(q => q.id === simulado.questoesIds[indice]);
+    abaAtiva = 'questao';
+    renderizarSimulado();
+  }
+
+  function simuladoAnterior() { irParaQuestaoSimulado(simulado.indice - 1); }
+  function simuladoProxima() { irParaQuestaoSimulado(simulado.indice + 1); }
+
+  function finalizarSimulado() {
+    if (!simulado) return;
+    if (simulado.intervalId) clearInterval(simulado.intervalId);
+    simulado.intervalId = null;
+    simuladoTela = 'resultado';
+    renderizarSimulado();
+  }
+
+  function revisarSimulado() {
+    if (!simulado) return;
+    simuladoTela = 'rodando';
+    contextoAtivo = 'simulado';
+    simulado.indice = 0;
+    questaoAtiva = questaoDatabase.find(q => q.id === simulado.questoesIds[0]);
+    abaAtiva = 'questao';
+    renderizarSimulado();
+  }
+
+  function novoSimulado() {
+    simulado = null;
+    simuladoTela = 'montar';
+    contextoAtivo = 'estudo';
+    renderizarSimulado();
+  }
+
+  function renderizarSimulado() {
+    if (simuladoTela === 'rodando' && simulado) return renderizarSimuladoRodando();
+    if (simuladoTela === 'resultado' && simulado) return renderizarSimuladoResultado();
+    return renderizarSimuladoMontagem();
+  }
+
+  function renderizarSimuladoMontagem() {
+    const materias = materiasDisponiveis();
+    const cadernos = cadernosDisponiveis();
+    const pool = questoesPoolSimulado();
+    const totalInedita = questaoDatabase.filter(q => (q.origem || 'oficial') === 'inedita').length;
+    const alvo = document.getElementById('simuladoConteudo');
+    if (!alvo) return;
+
+    alvo.innerHTML = `
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 space-y-6">
+        <div class="space-y-1">
+          <h2 class="text-lg font-bold text-white flex items-center gap-2">
+            <i class="fa-solid fa-stopwatch text-blue-400"></i> Monte seu simulado
+          </h2>
+          <p class="text-xs text-slate-400">Escolha as matérias, edições e quantas questões você quer treinar agora.</p>
+        </div>
+
+        <div class="space-y-2">
+          <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Matérias (${simMateriasSel.size || 'todas'})</span>
+          <div class="flex flex-wrap gap-2">
+            ${materias.map(m => {
+              const ativo = simMateriasSel.has(m.id);
+              const c = cor(m.cor);
+              return `<button onclick="toggleSimMateria('${m.id}')"
+                class="px-3 py-1.5 rounded-full border text-xs font-medium transition flex items-center gap-1.5 ${
+                  ativo ? c.solido + ' shadow-sm' : 'border-slate-800 text-slate-300 ' + c.anel
+                }">
+                <i class="fa-solid ${m.icone}"></i> ${m.nome}
+              </button>`;
+            }).join('')}
+          </div>
+          <p class="text-[10px] text-slate-600">Nenhuma selecionada = todas as matérias entram. Pode escolher mais de uma.</p>
+        </div>
+
+        <div class="space-y-2">
+          <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Cadernos / edições (${simCadernosSel.size || 'todos'})</span>
+          <div class="flex flex-wrap gap-2 max-h-32 overflow-y-auto pr-1">
+            ${cadernos.map(c => {
+              const ativo = simCadernosSel.has(c.chave);
+              return `<button onclick="toggleSimCaderno('${c.chave}')"
+                class="px-3 py-1.5 rounded-full border text-xs font-medium transition ${
+                  ativo ? 'bg-blue-600 text-white border-blue-500 shadow-sm' : 'border-slate-800 text-slate-300 hover:border-blue-500 hover:text-blue-400'
+                }">
+                ${c.rotulo}
+              </button>`;
+            }).join('')}
+          </div>
+          <p class="text-[10px] text-slate-600">Nenhum selecionado = todos os cadernos entram.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="space-y-2">
+            <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Origem das questões</span>
+            <div class="flex flex-col gap-1.5">
+              ${[['todas', 'Oficiais + inéditas'], ['oficial', 'Só oficiais (provas reais)'], ['inedita', 'Só inéditas (criadas por IA)']].map(par => `
+                <label class="flex items-center gap-2 text-xs text-slate-300 cursor-pointer">
+                  <input type="radio" name="simOrigem" value="${par[0]}" ${simOrigem === par[0] ? 'checked' : ''} onchange="definirSimOrigem('${par[0]}')">
+                  ${par[1]}
+                </label>`).join('')}
+            </div>
+            ${totalInedita === 0 ? '<p class="text-[10px] text-slate-600">Ainda não há questões inéditas no banco — assim que forem criadas, aparecem aqui.</p>' : ''}
+          </div>
+
+          <div class="space-y-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex justify-between">
+              <span>Quantidade de questões</span><span class="text-blue-400 font-mono">${Math.min(simQuantidade, Math.max(1, pool.length))}</span>
+            </label>
+            <input type="range" min="1" max="${Math.max(1, pool.length)}" value="${Math.min(simQuantidade, Math.max(1, pool.length))}"
+              oninput="definirSimQuantidade(this.value)" class="w-full accent-blue-500" ${pool.length === 0 ? 'disabled' : ''}>
+            <p class="text-[10px] text-slate-600">${pool.length} questões disponíveis com esses filtros.</p>
+          </div>
+
+          <div class="space-y-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2 cursor-pointer">
+              <input type="checkbox" ${simCronometroAtivo ? 'checked' : ''} onchange="alternarSimCronometro()">
+              Cronometrar este simulado
+            </label>
+            ${simCronometroAtivo ? `
+              <div class="flex items-center gap-2">
+                <input type="number" min="1" value="${simMinutos}" oninput="definirSimMinutos(this.value)"
+                  class="w-20 bg-slate-950 border border-slate-800 text-slate-200 text-xs rounded-lg px-2 py-1.5 focus:border-blue-500 focus:outline-none">
+                <span class="text-xs text-slate-400">minutos no total</span>
+              </div>` : `<p class="text-[10px] text-slate-600">Sem tempo — responda no seu ritmo.</p>`}
+          </div>
+        </div>
+
+        <button onclick="iniciarSimulado()" ${pool.length === 0 ? 'disabled' : ''}
+          class="w-full sm:w-auto px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 disabled:opacity-40 disabled:cursor-not-allowed text-white text-sm font-bold transition flex items-center justify-center gap-2">
+          <i class="fa-solid fa-play"></i> Iniciar simulado (${Math.min(simQuantidade, pool.length)} questões)
+        </button>
+      </div>`;
+  }
+
+  function renderizarSimuladoRodando() {
+    const alvo = document.getElementById('simuladoConteudo');
+    if (!alvo) return;
+    const total = simulado.questoesIds.length;
+    const indice = simulado.indice;
+
+    alvo.innerHTML = `
+      <div class="bg-slate-900 rounded-2xl border border-slate-800 p-6 md:p-8 space-y-6">
+        <div class="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-800">
+          <div class="flex items-center gap-3">
+            <span class="px-3 py-1 rounded-lg bg-blue-500/10 border border-blue-500/40 text-blue-300 text-xs font-bold">
+              Questão ${indice + 1} de ${total}
+            </span>
+            ${simulado.segundosRestantes !== null ? `
+              <span class="px-3 py-1 rounded-lg bg-slate-950 border border-slate-800 flex items-center gap-1.5 text-xs">
+                <i class="fa-solid fa-stopwatch text-slate-400"></i>
+                <span id="simuladoCronometro" class="font-mono font-bold text-slate-200">${formatarTempo(simulado.segundosRestantes)}</span>
+              </span>` : ''}
+          </div>
+          <button onclick="finalizarSimulado()"
+            class="px-3 py-1.5 rounded-lg border border-rose-500/40 text-rose-300 hover:bg-rose-500/10 text-xs font-bold transition flex items-center gap-1.5">
+            <i class="fa-solid fa-flag-checkered"></i> Finalizar simulado
+          </button>
+        </div>
+
+        <div id="painelSimuladoQuestao"></div>
+
+        <div class="flex justify-between items-center pt-4 border-t border-slate-800">
+          <button onclick="simuladoAnterior()" ${indice === 0 ? 'disabled' : ''}
+            class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed text-slate-200 text-xs font-bold transition flex items-center gap-2">
+            <i class="fa-solid fa-arrow-left"></i> Anterior
+          </button>
+          ${indice === total - 1
+            ? `<button onclick="finalizarSimulado()" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center gap-2">
+                 Ver resultado <i class="fa-solid fa-flag-checkered"></i>
+               </button>`
+            : `<button onclick="simuladoProxima()" class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-2">
+                 Próxima <i class="fa-solid fa-arrow-right"></i>
+               </button>`}
+        </div>
+      </div>`;
+
+    renderizarQuestao();
+  }
+
+  function renderizarSimuladoResultado() {
+    const alvo = document.getElementById('simuladoConteudo');
+    if (!alvo) return;
+    const questoes = simulado.questoesIds.map(id => questaoDatabase.find(q => q.id === id)).filter(Boolean);
+    const total = questoes.length;
+    const respondidas = questoes.filter(q => Store.dados.respostas[q.id]);
+    const acertos = respondidas.filter(q => Store.dados.respostas[q.id].acertou).length;
+    const pct = total ? Math.round((acertos / total) * 100) : 0;
+
+    const porMateria = {};
+    questoes.forEach(q => {
+      const nome = q.materia.split(' / ')[0];
+      if (!porMateria[nome]) porMateria[nome] = { total: 0, acertos: 0, cor: q.materiaCor };
+      porMateria[nome].total++;
+      const r = Store.dados.respostas[q.id];
+      if (r && r.acertou) porMateria[nome].acertos++;
+    });
+
+    alvo.innerHTML = `
+      <div class="bg-slate-900 rounded-2xl border border-slate-800 p-6 md:p-8 space-y-6">
+        <div class="text-center space-y-2">
+          <i class="fa-solid fa-flag-checkered text-4xl text-blue-400"></i>
+          <h2 class="text-lg font-bold text-white">Simulado finalizado!</h2>
+          <p class="text-3xl font-bold ${pct >= 60 ? 'text-emerald-400' : pct >= 40 ? 'text-amber-400' : 'text-rose-400'}">${pct}%</p>
+          <p class="text-xs text-slate-400">${acertos} acertos em ${total} questões (${respondidas.length} respondidas)</p>
+        </div>
+
+        <div class="space-y-2">
+          <span class="text-xs font-bold text-slate-300 uppercase tracking-wider">Por matéria</span>
+          <div class="space-y-2">
+            ${Object.keys(porMateria).map(nome => {
+              const d = porMateria[nome];
+              const p = d.total ? Math.round((d.acertos / d.total) * 100) : 0;
+              const c = cor(d.cor);
+              return `
+                <div class="space-y-1">
+                  <div class="flex justify-between text-xs">
+                    <span class="text-slate-300 font-medium">${nome}</span>
+                    <span class="${c.texto} font-mono font-bold">${d.acertos}/${d.total} · ${p}%</span>
+                  </div>
+                  <div class="h-2 bg-slate-950 rounded-full overflow-hidden border border-slate-800">
+                    <div class="h-full ${c.solido.split(' ')[0]}" style="width:${p}%"></div>
+                  </div>
+                </div>`;
+            }).join('')}
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-2 pt-2">
+          <button onclick="revisarSimulado()"
+            class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-2">
+            <i class="fa-solid fa-magnifying-glass"></i> Revisar questões
+          </button>
+          <button onclick="novoSimulado()"
+            class="px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-2">
+            <i class="fa-solid fa-rotate"></i> Montar novo simulado
+          </button>
+        </div>
+      </div>`;
   }
 
   /* MathJax só renderiza o que foi injetado depois do carregamento se
