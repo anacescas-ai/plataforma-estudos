@@ -24337,6 +24337,1111 @@ const questaoDatabase = [
     }
   ],
   "simuladorType": null
+},
+
+{
+  "id": "q018",
+  "numero": "Questão 18",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Textos Informativos — Discurso Esportivo",
+  "materiaCor": "red",
+  "materiaIcone": "fa-futbol",
+  "titulo": "Por Trás do Espetáculo: a Crítica de uma Ex-Atleta à Romantização do Esporte pela Mídia",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Texto Informativo",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>Com 20 anos de experiência no futebol de alto rendimento, Marina, ex-jogadora da seleção brasileira de futebol, salienta que, por trás do espetáculo apresentado nas mídias, com mensagens de motivação e superação, o esporte não é tão inclusivo assim. \"É esta análise que devemos fazer: aqueles atletas que estão ali estão trazendo uma alta performance a partir dos seus limites\", explica. Para a profissional, é preciso analisar com cautela \"a ideia romântica que a mídia passa para os telespectadores\". A realidade é muito mais dura do que as imagens espetaculosas que principalmente a televisão busca transmitir para a audiência. \"Por trás existe um ser humano, a gente não pode nunca esquecer isso. Aquela pessoa treinou insistentemente para estar ali, durante meses, semanas e temporadas. Duas vezes ao dia, de duas a quatro horas\", pondera Marina. Atualmente, as crianças e os jovens vislumbram o sucesso profissional e a boa-vida financeira de poucos atletas que se destacam e estampam os meios de comunicação. Tudo parece ser muito mais fácil do que realmente é quando apenas as conquistas são mostradas.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">ROSOLEN, N. Disponível em: www.uninter.com. Acesso em: 10 maio 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, a visão crítica de uma ex-atleta de futebol revela que</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "os meios de comunicação invisibilizam as dificuldades presentes no esporte.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "o treinamento atlético de alto nível é desestimulante para os indivíduos.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "o trabalho contínuo é desvalorizado no contexto esportivo profissional.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "as ações de incentivo financeiro a jovens atletas são precárias.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "as publicações da mídia esportiva rotulam atletas iniciantes.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa A é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Marina critica diretamente a forma como a mídia (\"principalmente a televisão\") mostra \"apenas as conquistas\", escondendo o treino exaustivo (\"duas vezes ao dia, de duas a quatro horas\") e a dureza da rotina por trás do resultado espetacular. Ao dizer que \"tudo parece ser muito mais fácil do que realmente é quando apenas as conquistas são mostradas\", ela evidencia que a cobertura midiática torna invisíveis as dificuldades reais enfrentadas pelos atletas — exatamente o que a alternativa A resume.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> Marina não diz que o treinamento é desestimulante; ao contrário, ela o descreve como intenso, mas não usa esse fato para desencorajar a prática.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o texto não fala em desvalorização do trabalho contínuo, mas em como esse trabalho fica escondido/invisível na cobertura midiática — são ideias próximas, mas não idênticas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> não há menção a incentivo financeiro a jovens atletas no texto; o foco é a diferença entre a imagem romantizada e a realidade do esforço.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não fala em rotulação de atletas iniciantes pela mídia esportiva; fala em omissão do processo de treino por trás das conquistas.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando o texto contrasta \"o que a mídia mostra\" com \"o que realmente acontece\", a resposta certa costuma apontar para a ideia de que algo relevante foi ocultado ou tornado invisível pela cobertura midiática.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-tv",
+      "titulo": "Crítica à Mídia Esportiva",
+      "text": "O texto questiona a imagem romantizada e apenas vitoriosa que a televisão costuma mostrar do esporte de alto rendimento."
+    },
+    {
+      "icone": "fa-eye-slash",
+      "titulo": "Invisibilização das Dificuldades",
+      "text": "Ao exibir só as conquistas, a mídia esconde o treino exaustivo e as dificuldades reais dos atletas."
+    },
+    {
+      "icone": "fa-person-running",
+      "titulo": "Esporte de Alto Rendimento",
+      "text": "Rotina de meses e anos de treino intenso que raramente aparece nas imagens espetaculosas divulgadas."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q019",
+  "numero": "Questão 19",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Textos Informativos — Saúde Mental no Esporte",
+  "materiaCor": "red",
+  "materiaIcone": "fa-brain",
+  "titulo": "\"A Minha Briga Está na Minha Cabeça\": Atletas Olímpicas e a Defesa da Saúde Emocional",
+  "tags": [
+    "Português",
+    "Interpretação de Texto",
+    "Texto Informativo",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>No predomínio das mulheres pretas brasileiras nos Jogos Olímpicos de 2024, uma coisa chamou a atenção no pódio: elas valorizam a parte psicológica. As duas medalhistas de ouro, a judoca Beatriz Souza e a ginasta Rebeca Andrade, ressaltam, em várias entrevistas, a importância da saúde mental. Em uma dessas entrevistas, Rebeca sinaliza: \"Acho que não é só sobre vencer a Simone, é sobre vencer a mim mesma. A minha briga está na minha cabeça, não está com outras pessoas. Para conseguir fazer as minhas apresentações, preciso controlar a minha cabeça, o meu corpo, e essa é a briga\". Na mesma linha, a skatista Rayssa Leal exalta a necessidade da terapia, e a Seleção Brasileira de Futebol de Mulheres tem o suporte psicológico como reforço no treinamento.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">Disponível em: https://iclnoticias.com.br. Acesso em: 18 set. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, as atletas brasileiras defendem o(a)</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "investimento na modernização de equipamentos.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "subordinação do treinamento físico ao mental.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "estímulo à competição entre adversárias.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "aprimoramento da expressão corporal.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "importância da saúde emocional.",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto reúne quatro exemplos (Beatriz Souza, Rebeca Andrade, Rayssa Leal e a seleção de futebol feminino) que apontam na mesma direção: valorizar \"a parte psicológica\", a \"saúde mental\", a \"terapia\" e o \"suporte psicológico\". Rebeca resume isso ao dizer que sua verdadeira disputa é interna (\"vencer a mim mesma\"). Todos esses exemplos convergem para a defesa da importância da saúde emocional no esporte de alto rendimento.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não menciona equipamentos esportivos em nenhum momento; o assunto é exclusivamente psicológico/emocional.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto não propõe que o físico seja subordinado ao mental — Rebeca fala em controlar \"a minha cabeça, o meu corpo\" como duas frentes, não uma hierarquia entre elas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> não há estímulo à competição entre as atletas; ao contrário, Rebeca diz explicitamente que sua disputa não é com a Simone (outra atleta), mas consigo mesma.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não trata de expressão corporal como técnica artística ou estética; trata de saúde mental como suporte ao desempenho.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando várias entrevistas ou exemplos do texto repetem a mesma palavra-chave (aqui, \"psicológico\"/\"mental\"/\"terapia\"), a resposta certa costuma nomear diretamente esse tema central.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-heart-pulse",
+      "titulo": "Saúde Mental no Esporte de Alto Rendimento",
+      "text": "Atletas olímpicas passaram a discutir abertamente terapia e suporte psicológico como parte do treinamento."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Disputa Interna",
+      "text": "Rebeca Andrade define sua principal disputa como consigo mesma, não contra adversárias."
+    },
+    {
+      "icone": "fa-people-arrows",
+      "titulo": "Convergência de Exemplos",
+      "text": "Vários relatos de atletas diferentes reforçam a mesma tese central do texto — leia todos os exemplos antes de escolher a resposta."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q020",
+  "numero": "Questão 20",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Sociolinguística — Língua de Santo",
+  "materiaCor": "red",
+  "materiaIcone": "fa-comments",
+  "titulo": "A \"Língua de Santo\": Vestígios das Línguas Africanas no Patrimônio Linguístico Brasileiro",
+  "tags": [
+    "Português",
+    "Sociolinguística",
+    "Patrimônio Linguístico",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>A característica fundamental no aprendizado das práticas rituais nos candomblés é o processo iniciático e participante. Durante o período de reclusão em terreiros ou rocas, o iniciado passa por uma série de ritos esotéricos (banhos rituais, raspagem da cabeça etc.), ao mesmo tempo em que começa a adquirir um complexo código de símbolos materiais (substâncias, folhas, frutos, raízes etc.) e de gestos associados a um repertório linguístico específico das cerimônias que se desenrolam nos contextos sagrados em geral e em cada terreiro em particular.</p>\n    <p>Esse repertório linguístico, genericamente chamado de \"língua de santo\" na Bahia, compreende uma terminologia religiosa operacional, de caráter mágico-semântico e de aparente forma portuguesa, mas que repousa sobre sistemas lexicais de diferentes línguas africanas que provavelmente foram faladas no Brasil escravocrata, vindo a constituir uma língua ritual, que se acredita pertencer à nação do vodum, do orixá ou do inquice, e não a determinada nação africana política atual.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">Disponível em: https://periodicos.ufba.br. Acesso em: 21 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">A \"língua de santo\" tem sua importância para o patrimônio linguístico brasileiro por</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "apresentar uma carga semântica mítica.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "conservar elementos dos falares dos escravizados.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "resgatar expressões portuguesas do período colonial.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "decodificar o ritual religioso dos nossos antepassados.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "favorecer a compreensão do léxico africano contemporâneo.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto explica que a \"língua de santo\" tem \"aparente forma portuguesa\", mas na verdade \"repousa sobre sistemas lexicais de diferentes línguas africanas que provavelmente foram faladas no Brasil escravocrata\". Ou seja: sob um verniz de português, sobrevivem palavras e estruturas das línguas trazidas pelos africanos escravizados. É essa preservação de vestígios linguísticos dos escravizados que dá à \"língua de santo\" seu valor como patrimônio linguístico nacional.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> a \"carga semântica mítica\" (o sentido religioso das palavras) é uma característica da língua de santo, mas não é o motivo pelo qual ela importa para o patrimônio linguístico — o motivo é a origem africana conservada, não o significado místico em si.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o texto não fala em resgate de expressões portuguesas coloniais; pelo contrário, mostra que, por trás da aparência portuguesa, há vocabulário de origem africana.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não trata de \"decodificar rituais\"; trata da origem e composição lexical de uma linguagem ritual.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto fala em línguas que \"provavelmente foram faladas\" no passado (Brasil escravocrata), não em compreensão de um léxico africano contemporâneo.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos sobre linguagens de origem afro-brasileira, associe \"patrimônio linguístico\" a \"preservação/conservação de uma língua ou traço linguístico do passado\" — é esse o argumento mais recorrente nesse tipo de questão.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-language",
+      "titulo": "Língua de Santo",
+      "text": "Repertório linguístico ritual dos candomblés, de aparência portuguesa mas base lexical africana."
+    },
+    {
+      "icone": "fa-scroll",
+      "titulo": "Patrimônio Linguístico",
+      "text": "Conjunto de línguas, dialetos e vocabulários que registram a história e a diversidade cultural de um povo."
+    },
+    {
+      "icone": "fa-water",
+      "titulo": "Herança dos Povos Escravizados",
+      "text": "Vestígios lexicais das línguas africanas sobrevivem em terminologias religiosas transmitidas de geração em geração."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q021",
+  "numero": "Questão 21",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Prosa Contemporânea — Contos Negreiros, de Marcelino Freire",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-face-sad-tear",
+  "titulo": "\"Hein Mãe Não Sei\": os Medos Repetidos que Revelam a Condição Social do Narrador",
+  "tags": [
+    "Literatura",
+    "Prosa Contemporânea",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>O meu medo é entrar na faculdade e tirar zero eu que nunca fui bom de matemática fraco no inglês eu que nunca gostei de química geografia e português o que é que eu faço agora hein mãe não sei. [...]</p>\n    <p>O meu medo é a vida piorar e eu não conseguir arranjar emprego nem de faxineiro nem de porteiro nem de ajudante de pedreiro e o pessoal dizer que o governo já fez o que pôde já pôde o que fez já deu a sua cota de participação hein mãe não sei.</p>\n    <p>O meu medo é que mesmo com diploma debaixo do braço andando por aí desiludido e desempregado o policial me olhe de cara feia e eu acabe fazendo uma burrice sei lá uma besteira será que eu vou ter direito a uma cela especial hein mãe não sei.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">FREIRE, M. <strong>Contos negreiros</strong>. Rio de Janeiro: Record, 2005.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, a reiteração dos medos e das angústias do narrador exprime</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "inseguranças sobre o futuro familiar.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "dilemas resultantes de seu fracasso escolar.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "incertezas centradas em sua condição social.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "hesitações em relação à sua formação profissional.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "preocupações com as políticas públicas assistenciais.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O refrão \"hein mãe não sei\" costura três medos que, juntos, não falam apenas de escola ou de profissão: falam da falta de lugar do narrador na sociedade. Mesmo se tornando qualificado (\"mesmo com diploma debaixo do braço\"), ele teme continuar desempregado, ser visto com desconfiança pela polícia (\"o policial me olhe de cara feia\") e não ter, como os privilegiados, direito a tratamento diferenciado mesmo diante de um erro (\"será que eu vou ter direito a uma cela especial\"). Esses medos revelam uma angústia mais ampla e estrutural: a de sua condição social — a sensação de estar preso a um lugar de desvantagem que nem o estudo nem o esforço individual garantem superar.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> os medos do narrador não giram em torno da própria família ou de seu futuro; a figura da mãe aparece apenas como interlocutora do desabafo (\"hein mãe\"), não como fonte da angústia.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o \"fracasso escolar\" aparece só no primeiro parágrafo (as matérias em que não é bom); os parágrafos seguintes mostram que a angústia central vai muito além da escola, incluindo emprego e tratamento policial.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> a formação profissional (diploma) é mencionada, mas o medo maior expresso não é sobre a formação em si, e sim sobre não conseguir escapar do desemprego e do preconceito mesmo tendo se formado.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> a menção ao governo (\"já fez o que pôde\") é irônica e pontual; o texto não desenvolve uma reflexão sobre políticas assistenciais como tema central.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos com refrões repetidos que unem vários medos diferentes, procure o fio condutor comum entre eles — geralmente é algo mais amplo (como uma condição social) do que qualquer um dos medos isolados.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-repeat",
+      "titulo": "Repetição como Recurso Expressivo",
+      "text": "O refrão \"hein mãe não sei\" conecta parágrafos distintos, revelando uma angústia contínua e cumulativa."
+    },
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Condição Social e Vulnerabilidade",
+      "text": "Mesmo com diploma, o narrador teme o desemprego e a desconfiança policial — sinais de uma desigualdade estrutural."
+    },
+    {
+      "icone": "fa-book-open",
+      "titulo": "Contos Negreiros",
+      "text": "Obra de Marcelino Freire que aborda, em linguagem coloquial e fragmentada, questões de racismo e exclusão social no Brasil."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q022",
+  "numero": "Questão 22",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "artes",
+  "materia": "Artes / Arte Popular — Entalhe em Madeira da Ilha do Ferro",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-hammer",
+  "titulo": "Da Madeira Bruta à Bailarina: a Ressignificação Artística na Ilha do Ferro",
+  "tags": [
+    "Artes",
+    "Arte Popular",
+    "Texto Multimodal",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"font-bold text-slate-300 text-[11px] uppercase\">Texto I</p>\n      <p>A Ilha do Ferro, situada a 18 km do município de Pão de Açúcar, não é uma ilha, como o nome indica. A história do povoado é semelhante à de inúmeros outros que encontramos às margens do Rio São Francisco, entre Alagoas e Sergipe. O que torna diferente o lugar é sua gente. Hoje, dezenas de artistas populares povoam a Ilha do Ferro, trabalhando principalmente com o entalhe em madeira. Onde pessoas comuns enxergariam apenas troncos e galhos retorcidos, eles vislumbram bancos, bonecos, pássaros, cobras e bailarinas. \"Às vezes, você passa por um pedaço de madeira uma vez e não vê nada, passa cinco vezes por ele e não vê nada\", conta um dos artistas, \"mas, na décima vez, você consegue enxergar alguma forma nesse pedaço de madeira e transformá-lo em arte\".</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: www.imaterial.art.br. Acesso em: 5 fev. 2025 (adaptado).</p>\n      <p class=\"font-bold text-slate-300 text-[11px] uppercase mt-3\">Texto II</p>\n      <p class=\"text-slate-300 text-[13px]\">Imagem: bailarinos entalhados em gravetos de madeira — pequenas figuras de dançarinos feitas a partir de galhos, com braços e pernas em movimento, apoiadas sobre bases de madeira.</p>\n      <p class=\"text-slate-400 text-[12px]\">FARIAS, Y. <strong>Bailarino entalhado em gravetos de madeira</strong>. Artesanato em madeira, 20 × 13 × 51 cm. Ilha do Ferro (AL).</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: www.nidelins.com.br. Acesso em: 5 fev. 2025.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">A originalidade do trabalho dos artistas da Ilha do Ferro se dá pela</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "reutilização de materiais para redução do impacto ambiental.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "ressignificação da matéria-prima atribuindo-lhe nova função.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "reprodução em madeira de modelos artísticos canônicos.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "representação de práticas corporais da comunidade.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "replicação seriada para distribuição em larga escala.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-lime-950/40 p-4 rounded-xl border border-lime-500/30 space-y-2\">\n          <h4 class=\"font-bold text-lime-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O Texto I explica o processo criativo: onde a maioria veria apenas \"troncos e galhos retorcidos\", os artistas enxergam \"bancos, bonecos, pássaros, cobras e bailarinas\" depois de olhar repetidas vezes para a mesma peça. O Texto II confirma isso na prática, mostrando um bailarino entalhado a partir de simples gravetos. O que torna o trabalho original não é o material em si (madeira bruta e retorcida, sem valor aparente), mas o gesto de transformar essa matéria-prima comum em uma nova forma com função estética — ou seja, ressignificá-la.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não discute impacto ambiental nem apresenta a reutilização de materiais como resposta a uma preocupação ecológica; o foco está na transformação criativa da madeira.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> os artistas não reproduzem \"modelos artísticos canônicos\" (referências consagradas da história da arte); eles criam formas a partir da observação livre da própria madeira retorcida.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> embora a imagem mostre bailarinos, o texto não fala em representar práticas corporais da própria comunidade da Ilha do Ferro — os bailarinos são apenas um dos exemplos de forma que os artistas enxergam na madeira.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> não há menção a produção em série ou distribuição em larga escala; ao contrário, o relato descreve um processo artesanal e demorado (\"passa cinco vezes... na décima vez\").</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em questões sobre arte popular com material bruto (madeira, sucata, objetos do cotidiano), a resposta certa costuma girar em torno da ideia de \"dar nova função/sentido\" a algo que originalmente não tinha valor artístico — é a ressignificação da matéria-prima.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-tree",
+      "titulo": "Arte a partir do Material Bruto",
+      "text": "Troncos e galhos retorcidos, sem valor aparente, tornam-se ponto de partida para esculturas figurativas."
+    },
+    {
+      "icone": "fa-wand-magic-sparkles",
+      "titulo": "Ressignificação",
+      "text": "Atribuir nova função e sentido estético a um material que antes não tinha utilidade artística evidente."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Arte Popular Coletiva",
+      "text": "A Ilha do Ferro reúne dezenas de artistas com uma prática compartilhada de entalhe em madeira."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q023",
+  "numero": "Questão 23",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "artes",
+  "materia": "Artes / Arte Contemporânea — Adriana Varejão",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-paintbrush",
+  "titulo": "Carne Viva sob o Azulejo: as Feridas do Colonialismo na Obra de Adriana Varejão",
+  "tags": [
+    "Artes",
+    "Arte Contemporânea",
+    "Texto Multimodal",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"font-bold text-slate-300 text-[11px] uppercase\">Texto I</p>\n      <p>Os trabalhos da exposição <em>Adriana Varejão: suturas, fissuras, ruínas</em> colocam em pauta o exame da história visual, das tradições iconográficas europeias e do fazer artístico ocidental. O corte, a rachadura, o talho e a fissura são elementos de narrativas recorrentes nos trabalhos da artista desde 1992. As produções recentes incluem pinturas tridimensionais de grande escala das séries <em>Ruínas de charque</em> e <em>Línguas</em>.</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: https://pinacoteca.org.br. Acesso em: 10 jan. 2025 (adaptado).</p>\n      <p class=\"font-bold text-slate-300 text-[11px] uppercase mt-3\">Texto II</p>\n      <p class=\"text-slate-300 text-[13px]\">Imagem: painel de azulejos portugueses tradicionais (padrão floral azul e branco), do qual emerge uma forma rasgada, cor de carne viva, como uma ferida aberta sobre os azulejos.</p>\n      <p class=\"text-slate-400 text-[12px]\">VAREJÃO, A. <strong>Azulejaria em carne viva</strong>. Óleo sobre tela, poliuretano, madeira e alumínio, 160 × 200 × 25 cm. 1999.</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: www.adrianavarejao.net. Acesso em: 10 jan. 2025.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">A utilização de recursos visuais como suturas, cortes e ruínas por Adriana Varejão, na obra <em>Azulejaria em carne viva</em>, remete à(s)</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "sobreposição da cultura brasileira à cultura portuguesa.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "manutenção da representação realista na arte brasileira.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "violências desencadeadas pelo processo colonial brasileiro.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "desigualdades nos incentivos à produção artística brasileira.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "negligência na conservação do patrimônio arquitetônico luso-brasileiro.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-lime-950/40 p-4 rounded-xl border border-lime-500/30 space-y-2\">\n          <h4 class=\"font-bold text-lime-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O azulejo é um símbolo direto da herança portuguesa trazida ao Brasil colonial. Ao fazer emergir de baixo dele uma massa vermelha, rasgada, como uma \"carne viva\" — uma ferida —, Varejão transforma a superfície decorativa herdada de Portugal em uma metáfora visual da violência física e simbólica do processo colonial (escravidão, dizimação indígena, exploração). O Texto I reforça essa leitura ao dizer que corte, rachadura e fissura são recorrentes em seu trabalho desde 1992, sempre \"colocando em pauta o exame da história visual\" e das \"tradições iconográficas europeias\".\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> a obra não representa uma \"sobreposição\" pacífica da cultura brasileira sobre a portuguesa; ela expõe uma ferida sob o azulejo português, sugerindo violência, não substituição cultural harmoniosa.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a obra é o oposto de uma representação realista tradicional — ela rompe a superfície decorativa com uma forma tridimensional, orgânica e perturbadora, que quebra a ilusão da pintura plana.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não discute incentivos ou financiamento à produção artística; discute o conteúdo simbólico da obra em si.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> a \"ruína\" na obra é um recurso estético e crítico, não uma denúncia de descuido na conservação de prédios ou azulejos históricos reais.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando uma obra usa um elemento de herança colonial (como o azulejo português) e o rompe, rasga ou fere visualmente, associe isso a uma crítica ao próprio processo colonial e às violências que ele produziu.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-layer-group",
+      "titulo": "Azulejo como Símbolo Colonial",
+      "text": "Elemento decorativo trazido de Portugal, amplamente usado no Brasil colonial em igrejas e casarões."
+    },
+    {
+      "icone": "fa-heart-crack",
+      "titulo": "Carne Viva / Ferida",
+      "text": "A massa vermelha e rasgada que emerge do azulejo simboliza a violência física por trás da fachada decorativa colonial."
+    },
+    {
+      "icone": "fa-scissors",
+      "titulo": "Suturas, Cortes e Ruínas",
+      "text": "Recursos visuais recorrentes na obra de Adriana Varejão para expor o que a superfície histórica tenta esconder."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q024",
+  "numero": "Questão 24",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Publicidade — Campanha Social",
+  "materiaCor": "red",
+  "materiaIcone": "fa-child-reaching",
+  "titulo": "\"O Futuro Todo Pela Frente\": o Cartaz da Unicef Contra o Racismo Infantil",
+  "tags": [
+    "Português",
+    "Texto Multimodal",
+    "Publicidade",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"text-slate-300 text-[13px]\">Cartaz da UNICEF: à esquerda, foto de uma criança indígena com pintura facial e a legenda \"Carlos Pataxicoré, aos 36 anos, médico e o futuro todo pela frente.\"; à direita, foto de uma criança negra e a legenda \"Quézia Silva, aos 29 anos, advogada e o futuro todo pela frente.\"</p>\n      <p class=\"text-center font-bold text-slate-100 mt-2\">EM UM MUNDO DE DIFERENÇAS<br>ENXERGUE A IGUALDADE</p>\n      <p>O Brasil tem 31 milhões de crianças negras e indígenas. A maioria sofre com discriminação racial, sem ter acesso à educação, à saúde e ao desenvolvimento. Ajude a mudar essa realidade. Contribua para uma infância sem racismo.</p>\n      <p class=\"text-slate-300 text-[13px]\">Participe desta campanha. Acesse: www.unicef.org.br — #RACISMO NÃO — unicef</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Disponível em: www.unicef.org.br. Acesso em: 15 jan. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse cartaz, a utilização de frases que projetam a vida profissional de duas crianças tem como objetivo</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "sugerir a arrecadação de fundos para o sustento de povos originários no país.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "sensibilizar a sociedade sobre os benefícios decorrentes do combate ao racismo.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "indicar a importância da orientação vocacional na educação de crianças no Brasil.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "chamar a atenção sobre a necessidade de ações voltadas para a educação infantil.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "valorizar o trabalho de agências internacionais na luta contra a discriminação racial.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O cartaz atribui a duas crianças — uma indígena, uma negra — profissões de prestígio (médico, advogada) e a frase \"o futuro todo pela frente\", como se elas já tivessem alcançado esse futuro. Esse recurso projeta visualmente o que a igualdade racial pode gerar: crianças de grupos historicamente discriminados tendo acesso pleno a educação, saúde e desenvolvimento. O slogan \"em um mundo de diferenças, enxergue a igualdade\" e o pedido para \"contribuir para uma infância sem racismo\" reforçam que o objetivo é sensibilizar o público para os benefícios de combater o racismo — mostrar o que essas crianças podem se tornar quando a discriminação é superada.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o cartaz não menciona arrecadação de recursos especificamente para o sustento de povos originários; o apelo é mais amplo, voltado à conscientização contra o racismo que afeta crianças negras e indígenas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o cartaz não trata de orientação vocacional (ajudar crianças a escolher uma profissão); as profissões citadas são um recurso projetivo, não uma proposta pedagógica sobre escolha de carreira.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> a educação é mencionada como um dos direitos negados pela discriminação, mas o cartaz não é centrado apenas na educação infantil — o argumento central é sobre combater o racismo em geral.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o cartaz não celebra o trabalho da Unicef como instituição; ele é a própria peça de campanha da Unicef, dirigida ao público, não uma valorização de agências internacionais.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em cartazes de campanhas sociais que combinam imagem de uma criança com uma projeção de futuro bem-sucedido, associe esse recurso à ideia de sensibilizar o público sobre os benefícios de resolver o problema social retratado (aqui, o racismo).\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Recurso de Projeção",
+      "text": "Atribuir uma profissão de prestígio a uma criança no presente é uma forma de projetar visualmente um futuro possível."
+    },
+    {
+      "icone": "fa-hand-holding-heart",
+      "titulo": "Campanha de Sensibilização",
+      "text": "O cartaz busca mobilizar o público a agir contra o racismo, mostrando os benefícios de uma sociedade mais igualitária."
+    },
+    {
+      "icone": "fa-image",
+      "titulo": "Texto Multimodal Publicitário",
+      "text": "Imagem, legenda projetiva e slogan trabalham juntos para construir o argumento persuasivo do cartaz."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q025",
+  "numero": "Questão 25",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Crônica — Crítica ao Modismo Linguístico",
+  "materiaCor": "red",
+  "materiaIcone": "fa-face-grin-tongue-wink",
+  "titulo": "Cringe Falar Cringe: o Humor Autorreferente na Crítica aos Clichês de 2023",
+  "tags": [
+    "Português",
+    "Crônica",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>Passando por aqui para lembrar algumas palavras, frases e expressões que nos infernizaram em 2023. Inclusive passando por aqui. Se você for proativo, vai achar que é o novo normal. Estarão na sua zona de conforto. Mas, se for reativo como eu, vai achar que é uma narrativa que precisa ser ressignificada.</p>\n    <p>É uma questão de empatia. É sobre entregar um discurso mais robusto e empoderado. Sei bem que não tenho lugar de fala para harmonizar certos pontos fora da curva e que preciso aplicar toda a minha resiliência para fazer um realinhamento. O nível de fitness está hoje num sarrafo muito alto.</p>\n    <p>O fato é que acho cringe essas falas fora da caixinha. Aliás, falar cringe já é meio cringe. Preciso usar a superação para me reinventar e entender que resenha não tem mais a ver com futebol, é qualquer papo, desde que latente.</p>\n    <p>Pensando bem, não é tão difícil. Frases feitas são aquelas que entram por um ouvido e saem pelo outro sem um estágio intermediário no cérebro. A boca fala por conta própria, dispensando-nos de pensar. E não tem problema nisso. Ou as ditas frases se incorporam à língua ou morrem e nascem outras. A língua é assim. Simples assim.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">CASTRO, R. Disponível em: www1.folha.uol.com.br. Acesso em: 3 fev. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, a estratégia empregada para criticar a constante exposição a palavras, frases e expressões automatizadas é o(a)</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "menção feita à efemeridade de alguns usos linguísticos aleatórios.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "subjetividade marcada pela reflexão que se desenvolve em primeira pessoa.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "efeito estilístico da repetição intencional da palavra \"assim\" no último parágrafo.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "sedução sugerida pelo envolvimento direto do leitor marcado nos usos de \"você\" e \"sua\".",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "humor gerado pelo uso das estruturas linguísticas que são objeto da reflexão desenvolvida.",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O autor não apenas lista os clichês que critica (\"proativo\", \"novo normal\", \"zona de conforto\", \"ressignificada\", \"empoderado\", \"resiliência\", \"realinhamento\", \"fitness\", \"cringe\", \"fora da caixinha\", \"superação\", \"resenha\") — ele os usa, de propósito, dentro da própria frase que os condena, criando um efeito cômico e irônico (\"acho cringe essas falas fora da caixinha. Aliás, falar cringe já é meio cringe\"). Esse jogo — criticar um clichê usando o próprio clichê — é a estratégia central de humor que sustenta o texto inteiro, do início ao fim.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto até comenta que as expressões \"nos infernizaram em 2023\", sugerindo que são passageiras, mas isso é um detalhe, não a estratégia central que constrói o efeito crítico e cômico do texto.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a primeira pessoa organiza o ponto de vista do autor, mas não é, isoladamente, o recurso que gera a crítica humorística — o humor vem do uso irônico das próprias expressões criticadas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> a repetição de \"assim\" aparece só no parágrafo final e é apenas um exemplo pontual do recurso mais amplo (usar clichês para criticar clichês), não a estratégia central do texto todo.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o uso de \"você\" e \"sua\" aproxima o leitor do texto, mas não é isso que gera a crítica; o efeito de sedução do leitor não é o foco argumentativo do texto.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando um texto crítica um tipo de linguagem e, ao mesmo tempo, usa essa mesma linguagem repetidamente ao longo do próprio texto, esse contraste é quase sempre a fonte do humor e da ironia — é a estratégia de \"praticar o que se condena\" para evidenciar o absurdo.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-face-laugh-squint",
+      "titulo": "Ironia Autorreferente",
+      "text": "O autor usa os próprios clichês que critica dentro do texto, criando um efeito cômico de contradição proposital."
+    },
+    {
+      "icone": "fa-quote-left",
+      "titulo": "Modismos Linguísticos",
+      "text": "Expressões da moda corporativa/digital (\"proativo\", \"resiliência\", \"ressignificar\") tornam-se alvo da crítica bem-humorada."
+    },
+    {
+      "icone": "fa-comment-dots",
+      "titulo": "Crônica de Costumes",
+      "text": "Gênero que observa hábitos cotidianos — aqui, o vocabulário automatizado do discurso corporativo e das redes sociais."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q026",
+  "numero": "Questão 26",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Variação Linguística Regional",
+  "materiaCor": "red",
+  "materiaIcone": "fa-map-location-dot",
+  "titulo": "Canjica ou Curau? A Variação Linguística Regional na Doce Mistura do Milho",
+  "tags": [
+    "Português",
+    "Variação Linguística",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"text-center font-bold text-slate-100 mb-1\">Doce mistura</p>\n      <p>A canjica — creme amarelo à base de milho — é prova da diversidade do Brasil, pelas variações em seu nome de batismo. Servido polvilhado com canela, o doce confunde: o que lá no norte é \"canjica\", lá no sul é \"curau\". Os nomes se invertem quando o doce muda. O creme branco com os grãos inteiros de milho, no sul, é \"canjica\" e, no norte, \"curau\".</p>\n      <p class=\"text-slate-300 text-[13px] mt-2\">Variações regionais mapeadas: Curau (MG, SP, MT e GO); Corá, piruruca, pururuca ou jimbelê (MG); Canjiquinha (RJ); Coral e papa de milho (RJ, MG); Canjica de milho verde (BA).</p>\n      <p class=\"text-right text-[11px] text-slate-500\">Revista Língua Portuguesa, n. 31, maio 2008 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Esse texto, que apresenta um prato da culinária brasileira, evidencia</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "valor afetivo nas nomenclaturas.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "variedade linguística entre regiões.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "disputa regional pelo melhor prato.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "modos de preparo de um mesmo alimento.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "paladares diversificados entre diferentes estados.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto mostra que o mesmo doce recebe nomes diferentes — e até invertidos — dependendo da região do Brasil: o que é \"canjica\" no norte é \"curau\" no sul, e vice-versa, com ainda mais variações locais (corá, pururuca, jimbelê, canjiquinha). Esse é um exemplo clássico de variação linguística regional: a mesma realidade (o doce de milho) recebe denominações diferentes conforme o falar de cada lugar.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto não discute o valor afetivo ou sentimental por trás dos nomes; ele apenas registra a diferença geográfica na nomenclatura.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> não há disputa entre regiões sobre qual prato é melhor; o texto apenas descreve, de forma neutra, como os nomes variam.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não compara modos de preparo (receitas); a diferença apresentada é exclusivamente no nome dado ao doce.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não fala de \"paladares\" (preferências de sabor); fala estritamente da nomenclatura variável do mesmo doce.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos que mostram o mesmo objeto/alimento recebendo nomes diferentes em regiões diferentes do país, a resposta certa quase sempre aponta para \"variação linguística regional\" — é um dos temas mais recorrentes do ENEM em Língua Portuguesa.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-earth-americas",
+      "titulo": "Variação Linguística Regional",
+      "text": "Diferenças de vocabulário, pronúncia ou gramática conforme a região geográfica de quem fala."
+    },
+    {
+      "icone": "fa-utensils",
+      "titulo": "Léxico da Culinária Brasileira",
+      "text": "Pratos e ingredientes recebem nomes distintos a depender da tradição linguística de cada região."
+    },
+    {
+      "icone": "fa-right-left",
+      "titulo": "Inversão de Nomes",
+      "text": "O mesmo par de palavras (\"canjica\"/\"curau\") designa pratos diferentes dependendo do norte ou do sul do país."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q027",
+  "numero": "Questão 27",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Texto Opinativo — Briga x Luta",
+  "materiaCor": "red",
+  "materiaIcone": "fa-hand-fist",
+  "titulo": "\"A Briga Desumaniza, a Luta Não\": o Combate Contra o Próprio Orgulho",
+  "tags": [
+    "Português",
+    "Texto Opinativo",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>A diferença entre briga e luta é a existência de juízes e medalhas? A briga desumaniza o outro e pode até matá-lo. Já na luta, as intenções do outro são consideradas sua proposta combativa e suas habilidades, enfim, sua meta de vencer. Na luta, o desenvolvimento passa pelo contato com a agressividade, a raiva, a frustração, o orgulho, a determinação e a fraqueza. Daí também a luta não ser apenas com o outro, mas comigo mesmo, num combate contra as próprias limitações, sobretudo, contra o próprio orgulho.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">BARREIRA, C. A briga desumaniza. A luta, não. O Estado de S. Paulo, 22 ago. 2010 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Esse texto apresenta as diferenças entre briga e luta, na medida em que aponta o(a)</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "superação pessoal na luta.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "violência evidenciada na luta.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "predomínio de regras na briga.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "desafio externo presente na luta.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "habilidade desenvolvida na briga.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa A é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto afirma que, na luta, o combate \"não é apenas com o outro, mas comigo mesmo, num combate contra as próprias limitações, sobretudo, contra o próprio orgulho\". Ou seja, a luta é apresentada como um processo de autossuperação: ela exige lidar com a própria raiva, frustração e orgulho, transformando o confronto físico em um caminho de desenvolvimento pessoal — diferente da briga, que apenas desumaniza o adversário.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> a violência que \"desumaniza o outro\" e \"pode até matá-lo\" é atribuída pelo texto à briga, não à luta — a luta é descrita como algo estruturado, com regras e respeito às habilidades do oponente.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o texto associa a existência de juízes e medalhas — ou seja, regras — à luta, não à briga; a alternativa inverte essa relação.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o \"desafio externo\" (vencer o adversário) é mencionado, mas o ponto central destacado pelo texto é o desafio interno (vencer o próprio orgulho e as próprias limitações), não um desafio meramente externo.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o desenvolvimento de habilidade é associado à luta, que passa pelo \"contato com a agressividade... a determinação\", e não à briga, que o texto descreve apenas como desumanizadora.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em textos que comparam dois conceitos parecidos (aqui, briga e luta), monte mentalmente uma tabela com as características atribuídas a cada um — isso evita trocar, na hora de responder, o que o texto disse sobre um pelo outro.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Luta com Regras x Briga sem Regras",
+      "text": "A existência de juízes e medalhas estrutura a luta; a briga, sem essas regras, tende à desumanização."
+    },
+    {
+      "icone": "fa-person-walking-arrow-loop-left",
+      "titulo": "Combate Interno",
+      "text": "Na luta, o verdadeiro adversário a ser vencido inclui as próprias limitações e o próprio orgulho."
+    },
+    {
+      "icone": "fa-medal",
+      "titulo": "Superação Pessoal",
+      "text": "O desenvolvimento na luta passa por lidar com raiva, frustração e determinação — um processo de crescimento individual."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q028",
+  "numero": "Questão 28",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Poesia — Pequenino Morto",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-dove",
+  "titulo": "\"Pequenino, Acorda!\": a Recusa Poética à Irreversibilidade da Morte",
+  "tags": [
+    "Literatura",
+    "Poesia",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n      <p class=\"text-center font-bold text-slate-100 mb-3\">Pequenino morto</p>\n      <div class=\"space-y-3 leading-relaxed italic text-slate-200\">\n        <p>Tange o sino, tange, numa voz de choro,<br>\n        Numa voz de choro... tão desconsolado...<br>\n        No caixão dourado, como em berço de ouro,<br>\n        Pequenino, levam-te dormindo... Acorda!<br>\n        Olha que te levam para o mesmo lado<br>\n        De onde o sino tange numa voz de choro...<br>\n        Pequenino, acorda!</p>\n        <p>Que caminho triste, e que viagem! Alas<br>\n        De ciprestes negros a gemer no vento;<br>\n        Tanta boca aberta de famintas valas<br>\n        A pedir que as fartem, a esperar que as encham...<br>\n        Pequenino, acorda! Recupera o alento,<br>\n        Foge da cobiça dessas fundas valas<br>\n        A pedir que as encham.</p>\n      </div>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">CARVALHO, V. <strong>Poemas e canções</strong>. Rio de Janeiro: Saraiva, 1962 (fragmento).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse fragmento do poema, o sentimento de luto adquire contornos expressivos e é intensificado pela</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "descrição da paisagem de um cemitério.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "recusa do eu lírico à irreversibilidade da morte.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "sonoridade dos versos produzida pela pontuação.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "religiosidade evocada como forma de fortalecimento.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "impressão de sonho na construção da estrutura poética.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O eu lírico trata a morte da criança como um sono do qual ela ainda pode despertar: \"levam-te dormindo... Acorda!\", \"Pequenino, acorda! Recupera o alento\". Ao repetir esse apelo por quatro vezes no fragmento, o poema recusa, no plano da linguagem, aceitar que a morte é definitiva — insiste em chamar o pequenino de volta, como se despertar fosse possível. É essa negação insistente da irreversibilidade da morte que intensifica o tom de luto e desespero do poema.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> os \"ciprestes negros\" e as \"valas\" compõem, sim, uma paisagem fúnebre, mas essa descrição é um cenário de fundo — o que realmente intensifica o luto é o apelo repetido \"acorda!\", que nega a morte, não a paisagem em si.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> há pontuação expressiva (reticências, exclamações), mas ela reforça o tom de choro; não é o recurso central que \"intensifica\" o luto — esse papel cabe à recusa repetida de aceitar a morte.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o poema não evoca elementos religiosos como consolo ou fortalecimento (não há menção a Deus, céu, oração); a imagem dominante é de desespero e súplica, não de conforto espiritual.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> \"levam-te dormindo\" sugere sono, não exatamente uma atmosfera de sonho estruturando o poema todo; o efeito central é o apelo direto e repetido para o pequenino acordar, negando a morte.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando um poema de luto se dirige ao morto pedindo que ele \"acorde\", \"volte\" ou \"desperte\", esse é o sinal claro de que o eu lírico está recusando, no discurso, aceitar a irreversibilidade da morte — fique atento a esse padrão em poemas fúnebres.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-bed",
+      "titulo": "Morte como Sono",
+      "text": "O poema trata a morte da criança como um sono profundo, do qual o eu lírico insiste em pedir que ela desperte."
+    },
+    {
+      "icone": "fa-repeat",
+      "titulo": "Apelo Repetido \"Acorda!\"",
+      "text": "A repetição do chamado reforça a negação da perda definitiva, intensificando o tom de luto."
+    },
+    {
+      "icone": "fa-cloud-rain",
+      "titulo": "Ambientação Fúnebre",
+      "text": "Ciprestes, sino a tanger e valas famintas compõem o cenário de dor que envolve o apelo do eu lírico."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q029",
+  "numero": "Questão 29",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Prosa Contemporânea — Água de Barrela",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-seedling",
+  "titulo": "O Saco Brasonado: os Privilégios de Classe Perpetuados na Corte do Massapé",
+  "tags": [
+    "Literatura",
+    "Prosa Contemporânea",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>Só entende os corações desse lugar quem mergulha nesse mar a perder de vista e recoberto de cana caiana, cana fita, cana roxa, cana-de-macaco, açúcar, melado, rapadura, aguardente, fumo, mandioca, quiabos, pimentas, moendas, frutas, fruta-pão, sobrados, senzalas, tachos, casa de purgar. Um reino dentro de outro, com tudo o que se tem direito: reis, rainhas, príncipes e princesas, bobos da corte, cortesãos, conselheiros e escravos, muitos escravos. [...]</p>\n    <p>A corte do massapé, como qualquer outra na história da humanidade, fazia tudo para não deixar escapar nenhum mísero grão dos seus domínios para quem estivesse fora do seu apertado círculo. Os nomes se repetiam de pai para filho, para sobrinho, para netos e bisnetos, de forma concêntrica e repetitiva, para que não pairasse nenhuma dúvida de que são todos da mesma parentela. As farinhas todas num mesmo saco brasonado.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">CRUZ, E. A. <strong>Água de barrela</strong>. Rio de Janeiro: Malê, 2018.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse fragmento, o narrador enumera o resultado do trabalho com a terra, o qual, no contexto em que aparece,</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "espelha a permanência dos privilégios de classe.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "oferece um panorama da população do campo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "mostra os benefícios da fartura na agricultura.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "defende a importância da atividade coletiva.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "valoriza o trabalho ao longo das gerações.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa A é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O narrador descreve a fartura da terra (canas, açúcar, frutas) apenas para, em seguida, revelar como essa riqueza é organizada em uma estrutura fechada e hierárquica — um \"reino dentro de outro\", com \"reis, rainhas, príncipes... e escravos, muitos escravos\". No segundo parágrafo, fica ainda mais explícito: a \"corte do massapé\" repete os mesmos nomes de geração em geração exatamente para que a riqueza (\"nenhum mísero grão\") nunca escape do \"apertado círculo\" familiar — todos ficam \"num mesmo saco brasonado\", símbolo da nobreza que se perpetua fechada em si mesma. O resultado do trabalho com a terra, portanto, não é distribuído: ele espelha e reforça a permanência de privilégios de uma mesma classe dominante.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto não oferece um panorama equilibrado de toda a população do campo; ele contrasta a elite açucareira (\"corte do massapé\") com os escravizados que sustentam essa riqueza, sem descrever a população do campo de forma neutra ou abrangente.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> embora a fartura da terra seja descrita em detalhe, o texto não celebra seus \"benefícios\"; ao contrário, revela como essa fartura serve para sustentar um sistema de exclusão e privilégio.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não defende a atividade coletiva; mostra justamente o oposto — uma riqueza que é mantida fechada dentro de uma mesma família/classe, evitando que escape para fora do círculo.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não valoriza positivamente o trabalho ao longo das gerações; ele expõe como a repetição de nomes de geração em geração serve para preservar privilégio e exclusividade, não para elogiar o esforço de trabalho em si.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando um texto descreve fartura ou riqueza e, na sequência, revela uma estrutura social fechada (reis, cortes, escravos, linhagem familiar repetida), desconfie das alternativas que celebram essa fartura — o argumento costuma ser crítico, apontando para a manutenção de privilégios de classe.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-crown",
+      "titulo": "Corte do Massapé",
+      "text": "Metáfora que compara a elite açucareira colonial a uma corte real, fechada e hierárquica."
+    },
+    {
+      "icone": "fa-people-line",
+      "titulo": "Endogamia de Nomes",
+      "text": "A repetição de nomes entre gerações da mesma família reforça a exclusividade e a concentração de riqueza."
+    },
+    {
+      "icone": "fa-scale-unbalanced",
+      "titulo": "Fartura x Exclusão",
+      "text": "A abundância da terra convive, no texto, com a escravidão e a concentração de privilégios em um círculo fechado."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q030",
+  "numero": "Questão 30",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Patrimônio Linguístico — Saberes Indígenas",
+  "materiaCor": "red",
+  "materiaIcone": "fa-leaf",
+  "titulo": "Urucum, Jarã e Espíritos: a Perspectiva Ancestral Wajãpi em um Verbete de Patrimônio Linguístico",
+  "tags": [
+    "Português",
+    "Patrimônio Linguístico",
+    "Culturas Indígenas",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"text-center font-bold text-slate-100 mb-1\">Uruku / Urucum / Rocou<br><span class=\"italic font-normal text-slate-300\">(Bixa orellana)</span></p>\n      <p>Moju, dono da água, não gosta do cheiro de urucum. Mani'ojarã, dono da mandioca, e os donos das outras plantas cultivadas também não. Eles não suportam. Por isso, os Wajãpi se untam de urucum, deixam o rosto vermelho e se perfumam com seu aroma agradável. Além disso, os seres agressores, os jarã (donos) e os espíritos terrestres, gostam do cheiro dos fluidos humanos, do sangue, do suor. Então, o urucum os dissimula, protegendo as pessoas que vão caçar, caminhar pela floresta, que estão sendo perturbadas por espíritos em sonhos ou que estão em resguardo, como os doentes. O seu uso é tão cotidiano que os Wajãpi o plantam na aldeia, para ter sempre pertinho. Como o urucum não tem jarã, não tem problema nenhum em arrancar e usar para pintar.</p>\n      <p class=\"text-right text-[11px] text-slate-500\">STRAPPAZZON, A. I.; SIGOLO, R. P. <strong>Jardins da história: medicinas indígenas</strong>. Recife: ObservaPICS, 2022.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Esse verbete contribui para a preservação do patrimônio linguístico nacional, pois apresenta uma</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "explicação de um rito medicinal do povo Wajãpi.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "definição de um termo na perspectiva ancestral indígena.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "relação de equivalência entre vocábulos de diferentes línguas indígenas.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "atualização de saberes tradicionais dos povos indígenas brasileiros.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "descrição das propriedades científicas de plantas silvestres.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto tem formato de verbete (como em um glossário ou dicionário) e explica o que é o urucum, mas não pela ótica da botânica ocidental: explica seu significado a partir da cosmovisão Wajãpi, com entidades como \"Moju, dono da água\", \"jarã (donos)\" e \"espíritos terrestres\". É a definição de um termo — urucum — construída inteiramente dentro da perspectiva ancestral indígena, preservando esse modo próprio de nomear e entender o mundo, o que dá ao verbete seu valor como patrimônio linguístico.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o texto vai além de um \"rito medicinal\"; ele apresenta uma cosmovisão inteira (donos das plantas, espíritos, proteção espiritual), não apenas uma prática de cura pontual.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o verbete trata de um único termo (urucum) dentro da língua e cultura Wajãpi; não há comparação de equivalência com vocábulos de outras línguas indígenas.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não fala em \"atualizar\" saberes tradicionais para o presente; ele registra e preserva o conhecimento tal como é compreendido pelos próprios Wajãpi.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o texto não descreve propriedades científicas (químicas, botânicas) da planta; sua explicação é de natureza simbólica e espiritual, não científico-ocidental.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> verbetes que explicam uma palavra a partir da cosmovisão de um povo indígena (donos de elementos naturais, espíritos, proteção ritual) evidenciam a definição de um termo pela perspectiva ancestral daquele povo — isso é o que os torna patrimônio linguístico.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-book-open",
+      "titulo": "Verbete como Gênero",
+      "text": "Texto curto que define um termo — aqui, urucum é definido não pela ciência ocidental, mas pela cosmovisão Wajãpi."
+    },
+    {
+      "icone": "fa-hands-praying",
+      "titulo": "Cosmovisão Indígena",
+      "text": "Donos espirituais das plantas, espíritos terrestres e proteção ritual estruturam o significado do urucum para os Wajãpi."
+    },
+    {
+      "icone": "fa-scroll",
+      "titulo": "Patrimônio Linguístico Indígena",
+      "text": "Registrar termos segundo a perspectiva ancestral de um povo preserva seu modo próprio de nomear e compreender o mundo."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q031",
+  "numero": "Questão 31",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "literatura",
+  "materia": "Literatura / Poesia Contemporânea — Ambiguidade da Palavra \"Rede\"",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-network-wired",
+  "titulo": "\"Há um Intervalo entre Este Eu Dentro da Tela e o Outro que Somos?\": a Ambiguidade de \"Rede\"",
+  "tags": [
+    "Literatura",
+    "Poesia Contemporânea",
+    "Interpretação de Texto",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800\">\n      <p class=\"text-center font-bold text-slate-100 mb-3\">dezenove</p>\n      <div class=\"space-y-3 leading-relaxed text-slate-200\">\n        <p>Cada vez mais somos convocados para dentro das Redes. Mas não levamos a nossa rede e penduramos no alpendre da casa de um amigo, não sentimos o cheiro da casa enquanto o café se derrama na xícara ou ouvimos o piar dos passarinhos ou a música da chuva.</p>\n        <p>A Rede nos convoca e o que somos lá dentro é o que somos do lado de fora?</p>\n        <p>Há um intervalo entre este eu dentro da tela e o outro que somos?</p>\n        <p>A palavra rede é vasta.</p>\n      </div>\n      <p class=\"text-right text-[11px] text-slate-500 mt-3\">MURRAY, R.; KLIGERMAN, E. <strong>Teias de afeto e poesia</strong>. Disponível em: https://roseanamurray.com. Acesso em: 5 maio 2024.</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Nesse texto, a autora aborda diferentes sentidos da palavra \"rede\" para evidenciar</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "as formas de comunicação em meios digitais.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "a necessidade de atualização das mídias sociais.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "os conflitos de identidade dos usuários da internet.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "o impacto das tecnologias nas interações humanas.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "os desejos de compartilhar vivências com os amigos.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2\">\n          <h4 class=\"font-bold text-violet-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa C é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto joga com o duplo sentido de \"rede\": a rede doméstica, física, pendurada no alpendre de um amigo, cheia de sensações reais (cheiro de casa, piar de passarinhos, música da chuva); e a Rede digital, que nos \"convoca\" para dentro da tela. É a partir desse contraste que a autora faz a pergunta central do poema: \"o que somos lá dentro [da Rede] é o que somos do lado de fora?\" e \"há um intervalo entre este eu dentro da tela e o outro que somos?\". Essas perguntas expõem diretamente um conflito de identidade: a dúvida sobre se o \"eu\" digital corresponde ao \"eu\" real, vivido fora da tela.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o poema não descreve ou cataloga formas de comunicação digital; ele questiona a identidade de quem está \"dentro\" da rede, e não os formatos de comunicação em si.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> não há, no texto, qualquer proposta ou crítica sobre atualizar mídias sociais; o poema é reflexivo e filosófico, não tecnológico-funcional.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> \"o impacto das tecnologias nas interações humanas\" é um tema mais amplo e genérico do que o que o poema realmente evidencia — a pergunta central do texto é especificamente sobre identidade (\"o outro que somos\"), não sobre interações em geral.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o poema não fala em desejo de compartilhar vivências com amigos; ao contrário, lamenta que, na Rede, não levamos a experiência sensorial real (\"não sentimos o cheiro da casa\") — o tom é de perda, não de desejo de partilha.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando um poema pergunta diretamente \"quem somos\" ou levanta dúvida sobre um \"eu\" dividido entre dois espaços (aqui, tela x vida real), a resposta certa costuma apontar para conflito ou questionamento de identidade.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-shuffle",
+      "titulo": "Ambiguidade Lexical",
+      "text": "A palavra \"rede\" alterna entre o sentido de rede doméstica (hamaca) e rede digital (internet), estruturando o poema."
+    },
+    {
+      "icone": "fa-user-astronaut",
+      "titulo": "Conflito de Identidade Digital",
+      "text": "O eu lírico questiona se a pessoa que existe \"dentro da tela\" é a mesma que existe fora dela."
+    },
+    {
+      "icone": "fa-house",
+      "titulo": "Perda da Experiência Sensorial",
+      "text": "Cheiro de casa, som da chuva e piar de pássaros representam o que se perde ao viver conectado à Rede digital."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q032b",
+  "numero": "Questão 32",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Gêneros Textuais — A Crônica e o Suporte Jornal",
+  "materiaCor": "red",
+  "materiaIcone": "fa-newspaper",
+  "titulo": "É da Economia que Nasce a Riqueza: o Limite de Espaço do Jornal na Composição da Crônica",
+  "tags": [
+    "Português",
+    "Gêneros Textuais",
+    "Crônica",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "<div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2 \">\n    <p>Muitos pensam que narrativa curta é sinônimo de conto, perdendo de vista gêneros que, por tradição ruim, continuam à margem da nobreza. Acontece que o conto tem uma densidade específica, centrando-se na exemplaridade de um instante da condição humana, sem que essa exemplaridade se refira a uma valoração moral, já que uma grande mazela pode muito bem exemplificar uma das nossas faces. A crônica não tem essa característica. Conservou a marca do registro circunstancial feito por narrador-repórter que relata um fato para muitos leitores que formam um público determinado.</p>\n    <p>Mas que público é esse? Sendo a crônica uma soma de jornalismo e literatura (daí a imagem do narrador-repórter), dirige-se a uma classe que tem preferência pelo jornal em que é publicada, o que significa uma espécie de censura ou, pelo menos, de limitação: a ideologia do veículo corresponde ao interesse dos seus consumidores, direcionados pelos proprietários dos periódicos e/ou pelos editores-chefes da redação. Ocorre ainda o limite de espaço, uma vez que a página comporta várias matérias, o que impõe a cada uma delas um número restrito de laudas, obrigando o redator a explorar, da maneira mais econômica possível, o pequeno espaço de que dispõe. É dessa economia que nasce sua riqueza estrutural.</p>\n    <p class=\"text-right text-[11px] text-slate-500 mt-2\">SÁ, J. <strong>A crônica</strong>. São Paulo: Ática, 1987 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">De acordo com esse texto, o aspecto tecnológico que influencia a composição do gênero crônica advém da</p>",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "conexão ideológica.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "densidade temática.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "ênfase no público leitor.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "apresentação de uma moral.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "restrição espacial do suporte.",
+      "correta": true
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa E é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O texto explica que a crônica é publicada dentro de um suporte físico específico — a página do jornal —, que \"comporta várias matérias\", impondo \"a cada uma delas um número restrito de laudas\". Esse limite de espaço obriga o cronista a ser econômico, e é justamente dessa restrição imposta pelo suporte (o jornal, uma tecnologia de impressão e diagramação) que nasce a \"riqueza estrutural\" da crônica — sua marca de concisão. É esse aspecto tecnológico (o suporte físico limitado) que o texto aponta como determinante da forma do gênero.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> a \"ideologia do veículo\" (censura editorial ligada aos interesses dos proprietários do jornal) é mencionada, mas se refere ao conteúdo permitido, não a um aspecto tecnológico do suporte que molda a forma do texto.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">B) Incorreta:</strong> o texto afirma que a crônica não tem densidade específica — essa é uma característica atribuída ao conto, no primeiro parágrafo, exatamente para diferenciá-lo da crônica.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> a ênfase no público leitor (a \"classe que tem preferência pelo jornal\") explica o direcionamento editorial do conteúdo, não o aspecto tecnológico que restringe fisicamente a extensão do texto.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o texto não discute a apresentação de uma moral como traço da crônica; essa característica, quando aparece na comparação, é associada ao conto, e mesmo ali é explicitamente negada como definidora do gênero.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> quando a pergunta menciona um \"aspecto tecnológico\", procure no texto uma referência ao suporte físico (jornal, página, espaço de impressão) que impõe limites concretos à forma do texto — geralmente é isso que a palavra \"tecnológico\" está indicando na questão.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-newspaper",
+      "titulo": "Suporte Jornal como Tecnologia",
+      "text": "A página do jornal, com espaço limitado dividido entre várias matérias, é o suporte tecnológico que molda a extensão da crônica."
+    },
+    {
+      "icone": "fa-ruler-combined",
+      "titulo": "Economia Estrutural",
+      "text": "A necessidade de caber num espaço reduzido obriga o cronista a uma escrita econômica, que se torna sua marca estética."
+    },
+    {
+      "icone": "fa-newspaper",
+      "titulo": "Narrador-Repórter",
+      "text": "A crônica soma jornalismo e literatura, relatando um fato circunstancial para um público leitor determinado."
+    }
+  ],
+  "simuladorType": null
+},
+{
+  "id": "q033",
+  "numero": "Questão 33",
+  "ano": "2025",
+  "caderno": "Caderno 1 (Azul)",
+  "area": "linguagens",
+  "areaNome": "Linguagens, Códigos e suas Tecnologias",
+  "materiaId": "portugues",
+  "materia": "Língua Portuguesa / Publicidade — Campanha Contra a Violência de Gênero",
+  "materiaCor": "red",
+  "materiaIcone": "fa-school",
+  "titulo": "\"Maria da Penha Vai à Escola\": Engajar a Educação no Combate à Violência de Gênero",
+  "tags": [
+    "Português",
+    "Texto Multimodal",
+    "Publicidade",
+    "ENEM 2025"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "\n    <div class=\"mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-2\">\n      <p class=\"text-slate-300 text-[13px]\">Cartaz de campanha: selos \"Dossiê Violência Contra as Mulheres\", \"#DESAFIO Igualdade\" e \"Anuário Brasileiro de Segurança Pública 2019\" ao lado da ilustração \"Maria da Penha vai à Escola\".</p>\n      <p class=\"text-center font-bold text-slate-100 mt-2\">Por que falar sobre violência contra mulheres na escola?</p>\n      <p>A violência de gênero afeta a vida de meninas e meninos em vários aspectos e hoje é um dos grandes empecilhos para que vivam plenamente, com segurança e qualidade de vida.</p>\n      <p class=\"text-right text-[11px] text-slate-500 mt-2\">Disponível em: www.tjdft.jus.br. Acesso em: 15 out. 2024 (adaptado).</p>\n    </div>\n    <p class=\"mt-2 font-semibold\">Esse texto trata de um problema social com o propósito de</p>\n",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "divulgar campanha virtual contra casos de feminicídio.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "promover engajamento do setor educacional na luta contra a violência.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "comparar o impacto da violência na qualidade de vida de meninos e meninas.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "ressaltar a importância da segurança dos estudantes no ambiente escolar.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "dar visibilidade a estudos e pesquisas do setor de segurança.",
+      "correta": false
+    }
+  ],
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n        <div class=\"bg-red-950/40 p-4 rounded-xl border border-red-500/30 space-y-2\">\n          <h4 class=\"font-bold text-red-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Por que a Alternativa B é a Correta?\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O título do cartaz já entrega o propósito: \"Por que falar sobre violência contra mulheres na escola?\" e a peça \"Maria da Penha vai à Escola\" propõe explicitamente levar essa discussão para dentro do ambiente escolar. O texto de apoio reforça que a violência de gênero \"é um dos grandes empecilhos\" para meninos e meninas viverem plenamente — motivando a escola a se engajar como espaço de enfrentamento do problema. O objetivo central, portanto, é mobilizar o setor educacional para essa luta.\n          </p>\n        </div>\n        <div class=\"grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]\">\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">A) Incorreta:</strong> o cartaz não menciona feminicídio especificamente, nem apresenta uma campanha exclusivamente virtual; ele propõe uma discussão dentro da escola, um espaço físico e institucional.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">C) Incorreta:</strong> o texto afirma que a violência afeta \"meninas e meninos em vários aspectos\", mas não estabelece uma comparação entre o impacto sobre um grupo e outro — apenas reconhece que ambos são atingidos.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">D) Incorreta:</strong> o foco do cartaz não é a segurança física dos estudantes dentro da escola (como vigilância ou proteção do prédio); é conscientizar sobre violência de gênero como tema a ser discutido na educação.</div>\n<div class=\"p-3 bg-slate-950 rounded border border-slate-800\"><strong class=\"text-rose-400\">E) Incorreta:</strong> o \"Anuário Brasileiro de Segurança Pública\" é citado como selo/fonte de dados, mas dar visibilidade a essas pesquisas não é o propósito do cartaz — ele usa o dado como base para o apelo educacional.</div>\n          <div class=\"p-3 bg-slate-950 rounded border border-slate-800\">\n            <strong class=\"text-emerald-400\">Dica ENEM:</strong> em cartazes de campanhas que unem um tema social (violência, discriminação) a uma instituição específica (aqui, a escola), a resposta certa costuma apontar para a mobilização daquela instituição no enfrentamento do problema.\n          </div>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-venus-mars",
+      "titulo": "Violência de Gênero",
+      "text": "Problema social que afeta meninas e meninos e compromete sua segurança e qualidade de vida."
+    },
+    {
+      "icone": "fa-chalkboard-user",
+      "titulo": "Escola como Espaço de Enfrentamento",
+      "text": "O cartaz propõe que a discussão sobre violência de gênero seja incorporada ao ambiente educacional."
+    },
+    {
+      "icone": "fa-bullhorn",
+      "titulo": "Campanha de Conscientização",
+      "text": "Usa dados oficiais (Anuário de Segurança Pública) para justificar a necessidade de engajamento social contra a violência."
+    }
+  ],
+  "simuladorType": null
 }
 
 ];
