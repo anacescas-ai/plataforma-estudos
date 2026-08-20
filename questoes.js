@@ -25469,6 +25469,3806 @@ const questaoDatabase = [
   ],
   "simuladorType": null,
   "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-red-500 pl-3\">\n          Cartazes de campanhas sociais direcionadas a uma instituição específica (como a escola) costumam ter como propósito central mobilizar essa instituição para agir sobre o problema.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-red-400\">1.</span> Cartazes com público institucional definido</h4>\n          <p>\n            Diferente de campanhas dirigidas ao público geral, este cartaz se dirige especificamente ao ambiente escolar — o próprio título \"Maria da Penha vai à Escola\" e a pergunta \"por que falar sobre violência contra mulheres na escola?\" deixam isso explícito.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-red-400\">2.</span> Selos e fontes como reforço argumentativo</h4>\n          <p>\n            Elementos como \"Dossiê Violência Contra as Mulheres\" e \"Anuário Brasileiro de Segurança Pública 2019\" funcionam como fontes de credibilidade que sustentam o apelo do cartaz, mas não são, em si, o propósito do texto — apenas o embasamento para a mensagem principal.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-red-400\">3.</span> Identificando o propósito por trás da escolha do público</h4>\n          <p>\n            Quando um cartaz sobre um problema social escolhe uma instituição específica como interlocutora (aqui, a escola), a resposta certa costuma apontar para o engajamento dessa instituição na solução do problema — e não para objetivos mais genéricos, como segurança física ou divulgação de pesquisas.\n          </p>\n        </div>\n\n      </div>\n    "
+},
+
+{
+  id: "q034",
+  numero: 34,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Funções da Linguagem (Função Poética)",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "Capa da Galileu: Por Que a Linguagem 'Volta-se Para Si Mesma'?",
+  tags: ["Função Poética", "Funções da Linguagem", "Jakobson", "Linguagem Publicitária", "Ambiguidade"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: null,
+
+  enunciado: `Capa da revista <em>Galileu</em>, edição 371, fevereiro de 2023, com o título "GALILEU — A CIÊNCIA AJUDA VOCÊ A MUDAR O MUNDO" e a seguinte chamada de capa em destaque:<br><br>"VOCÊ (NÃO) ESTÁ SOZINHO — NO BRASIL, METADE DA POPULAÇÃO SE SENTE SOLITÁRIA, E A MESMA SENSAÇÃO CRESCE EM OUTRAS PARTES DO MUNDO. POR QUE DEVEMOS REPENSAR NOSSAS RELAÇÕES?"<br><br><em>Disponível em: https://revistagalileu.globo.com. Acesso em: 18 jun. 2024 (adaptado).</em><br><br><strong>Com base na relação dos elementos não verbais com a frase "VOCÊ (NÃO) ESTÁ SOZINHO", nessa capa de revista, a função poética fica evidente, pois</strong>`,
+
+  alternativas: [
+    { letra: "A", texto: "essa frase informa sobre os riscos de um determinado comportamento social.", correta: false },
+    { letra: "B", texto: "o conteúdo da mensagem expressa uma atitude do enunciador sobre o tema.", correta: false },
+    { letra: "C", texto: "a construção dessa frase possibilita mais de uma interpretação.", correta: false },
+    { letra: "D", texto: "essa frase estabelece um diálogo direto com o leitor.", correta: false },
+    { letra: "E", texto: "a linguagem utilizada volta-se para si mesma.", correta: true }
+  ],
+
+  materiaCompleta: `
+<div class="space-y-6">
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h3 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-circle-info"></i> 1. O conceito-chave: as seis funções da linguagem de Jakobson
+    </h3>
+    <p class="text-slate-300 mb-3">
+      O linguista Roman Jakobson descreveu o ato de comunicação como um circuito composto por seis elementos:
+      <strong>emissor</strong>, <strong>receptor</strong>, <strong>mensagem</strong>, <strong>canal</strong>,
+      <strong>código</strong> e <strong>contexto (referente)</strong>. Cada um desses elementos pode ser o foco
+      predominante de um texto, e isso gera seis funções da linguagem diferentes:
+    </p>
+    <ul class="grid sm:grid-cols-2 gap-2 text-sm">
+      <li class="bg-slate-900/60 rounded-md p-2"><strong class="text-slate-200">Referencial</strong> <span class="text-slate-400">— foco no contexto/na informação objetiva.</span></li>
+      <li class="bg-slate-900/60 rounded-md p-2"><strong class="text-slate-200">Emotiva</strong> <span class="text-slate-400">— foco no emissor, suas opiniões e sentimentos.</span></li>
+      <li class="bg-slate-900/60 rounded-md p-2"><strong class="text-slate-200">Conativa (apelativa)</strong> <span class="text-slate-400">— foco no receptor, tentando convencê-lo ou dar ordens.</span></li>
+      <li class="bg-slate-900/60 rounded-md p-2"><strong class="text-slate-200">Fática</strong> <span class="text-slate-400">— foco no canal, testando ou mantendo o contato.</span></li>
+      <li class="bg-slate-900/60 rounded-md p-2"><strong class="text-slate-200">Metalinguística</strong> <span class="text-slate-400">— foco no código, explicando a própria linguagem.</span></li>
+      <li class="bg-violet-950/50 border border-violet-500/40 rounded-md p-2"><strong class="text-violet-300">Poética</strong> <span class="text-slate-300">— foco na própria mensagem, na sua forma.</span></li>
+    </ul>
+    <div class="mt-3 bg-slate-900/60 border border-violet-500/20 rounded-md p-3">
+      <p class="text-slate-300 text-sm">
+        <i class="fa-solid fa-quote-left text-violet-400 mr-1"></i>
+        A <strong class="text-violet-300">função poética</strong> ocorre quando a linguagem "volta-se para si mesma": o
+        texto chama atenção não apenas para o que diz, mas para <em>como</em> diz — sua construção sonora, gráfica,
+        sintática ou visual passa a fazer parte do sentido. Por isso ela é típica de poemas, mas também de slogans
+        publicitários, títulos de reportagem e manchetes de capa, que exploram jogos de palavras, rimas, trocadilhos
+        e ambiguidades propositais na própria estrutura da frase.
+      </p>
+    </div>
+  </div>
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h3 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-magnifying-glass"></i> 2. Como reconhecer a função poética em anúncios e capas
+    </h3>
+    <p class="text-slate-300 mb-3">
+      Em textos verbo-visuais (capas de revista, anúncios, cartazes), a função poética costuma aparecer combinada com
+      elementos gráficos. Fique atento a estas pistas:
+    </p>
+    <div class="grid sm:grid-cols-2 gap-3 text-sm">
+      <div class="bg-slate-900/60 rounded-md p-3 border border-slate-700">
+        <h4 class="text-slate-200 font-semibold flex items-center gap-1 mb-1"><i class="fa-solid fa-parentheses text-violet-400"></i> Recursos gráficos com efeito de sentido</h4>
+        <p class="text-slate-400">Parênteses, negrito, tamanhos de fonte e cores que alteram a leitura da própria frase — como em "(NÃO)", que cria duas frases dentro de uma só.</p>
+      </div>
+      <div class="bg-slate-900/60 rounded-md p-3 border border-slate-700">
+        <h4 class="text-slate-200 font-semibold flex items-center gap-1 mb-1"><i class="fa-solid fa-repeat text-violet-400"></i> Repetições, rimas e trocadilhos</h4>
+        <p class="text-slate-400">Sonoridade e paralelismos que reforçam a forma da mensagem, não apenas o conteúdo informativo.</p>
+      </div>
+      <div class="bg-slate-900/60 rounded-md p-3 border border-slate-700">
+        <h4 class="text-slate-200 font-semibold flex items-center gap-1 mb-1"><i class="fa-solid fa-arrows-left-right text-violet-400"></i> Ambiguidade construída na estrutura</h4>
+        <p class="text-slate-400">Quando a mesma frase permite duas leituras por causa de como foi montada (não pelo assunto), a construção está "olhando para si mesma".</p>
+      </div>
+      <div class="bg-slate-900/60 rounded-md p-3 border border-slate-700">
+        <h4 class="text-slate-200 font-semibold flex items-center gap-1 mb-1"><i class="fa-solid fa-image text-violet-400"></i> Diálogo entre texto verbal e imagem</h4>
+        <p class="text-slate-400">O layout, a diagramação e a imagem reforçam a leitura dupla criada pela própria frase, e não uma ordem ou apelo direto ao leitor.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h3 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-triangle-exclamation"></i> 3. Erros comuns e pegadinhas típicas do Enem
+    </h3>
+    <p class="text-slate-300 mb-3">
+      A banca costuma montar alternativas que descrevem <strong>outras</strong> funções da linguagem de forma
+      plausível, para testar se o candidato realmente entende a definição da função poética (e não apenas decora o
+      nome). As confusões mais frequentes são:
+    </p>
+    <ul class="space-y-2 text-sm">
+      <li class="bg-slate-900/60 rounded-md p-3 border-l-4 border-red-500/60">
+        <strong class="text-slate-200">Confundir poética com conativa/apelativa:</strong>
+        <span class="text-slate-400"> qualquer frase dirigida ao leitor (imperativos, "você") pode parecer poética, mas só é conativa se o foco for convencer/dar ordem, não a forma da mensagem.</span>
+      </li>
+      <li class="bg-slate-900/60 rounded-md p-3 border-l-4 border-red-500/60">
+        <strong class="text-slate-200">Tomar a ambiguidade como sinônimo da definição:</strong>
+        <span class="text-slate-400"> dizer que "a frase permite mais de uma interpretação" descreve um <em>efeito</em> possível da função poética, mas não é a definição técnica dela (que é a linguagem voltada para si mesma).</span>
+      </li>
+      <li class="bg-slate-900/60 rounded-md p-3 border-l-4 border-red-500/60">
+        <strong class="text-slate-200">Confundir poética com referencial:</strong>
+        <span class="text-slate-400"> textos que também informam dados (estatísticas, contexto social) não deixam de ter função poética por causa disso — as funções podem coexistir, mas a pergunta pede o que evidencia especificamente a poética.</span>
+      </li>
+      <li class="bg-slate-900/60 rounded-md p-3 border-l-4 border-red-500/60">
+        <strong class="text-slate-200">Confundir poética com emotiva:</strong>
+        <span class="text-slate-400"> uma frase de opinião do emissor foca no emissor, não na construção da mensagem em si.</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h3 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-list-check"></i> 4. Método rápido para resolver esse tipo de questão
+    </h3>
+    <ol class="list-decimal list-inside text-slate-300 space-y-2 text-sm">
+      <li><strong class="text-violet-300">Releia o comando:</strong> confirme qual função da linguagem está sendo pedida (poética, conativa, referencial etc.).</li>
+      <li><strong class="text-violet-300">Localize o elemento formal:</strong> procure na frase algo que só existe por causa de <em>como</em> ela foi escrita (pontuação, parênteses, repetição, jogo sonoro), não pelo assunto tratado.</li>
+      <li><strong class="text-violet-300">Pergunte "sobre o quê a frase fala?":</strong> se a resposta for "sobre a própria construção da frase", é função poética.</li>
+      <li><strong class="text-violet-300">Descarte alternativas por elemento do circuito:</strong> risco social → contexto/referencial; opinião do enunciador → emissor/emotiva; ordem ou apelo ao leitor → receptor/conativa; ambiguidade descrita como efeito → pode ser consequência, não definição.</li>
+      <li><strong class="text-violet-300">Fique com a única opção que descreve a mensagem "olhando para si mesma".</strong></li>
+    </ol>
+  </div>
+
+</div>
+`,
+
+  conceitos: ["Função Poética", "Funções da Linguagem", "Jakobson", "Ambiguidade", "Autorreferencialidade"],
+
+  resolucaoHtml: `
+<div class="space-y-4">
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h4 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-circle-check"></i> Alternativa E (correta)
+    </h4>
+    <p class="text-slate-300 text-sm">
+      A frase "VOCÊ (NÃO) ESTÁ SOZINHO" só produz seu efeito de sentido por causa da própria montagem gráfica: os
+      parênteses em torno de "NÃO" fazem a mesma sequência de palavras funcionar simultaneamente como duas frases —
+      "Você está sozinho" e "Você não está sozinho". Esse duplo sentido não vem de uma informação externa, mas da
+      forma como o enunciado foi construído. É exatamente essa a definição de função poética segundo Jakobson: a
+      linguagem <strong class="text-violet-300">volta-se para si mesma</strong>, chamando atenção para sua própria
+      estrutura, e não apenas para o assunto (a solidão) ou para uma ordem dada ao leitor.
+    </p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-700 rounded-lg p-4">
+    <h4 class="text-slate-200 font-semibold flex items-center gap-2 mb-1">
+      <i class="fa-solid fa-circle-xmark text-red-400"></i> Alternativa A — errada
+    </h4>
+    <p class="text-slate-400 text-sm">
+      "Essa frase informa sobre os riscos de um determinado comportamento social" descreve a <strong>função
+      referencial</strong>: o foco estaria no contexto/na informação objetiva sobre a solidão, não na forma da
+      mensagem. O erro é confundir o <em>tema</em> tratado pela capa (dado de que a solidão afeta metade da
+      população) com o recurso linguístico que evidencia a função poética.
+    </p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-700 rounded-lg p-4">
+    <h4 class="text-slate-200 font-semibold flex items-center gap-2 mb-1">
+      <i class="fa-solid fa-circle-xmark text-red-400"></i> Alternativa B — errada
+    </h4>
+    <p class="text-slate-400 text-sm">
+      "O conteúdo da mensagem expressa uma atitude do enunciador sobre o tema" é a definição da <strong>função
+      emotiva (expressiva)</strong>, centrada no emissor e em seu ponto de vista. A frase de capa não expõe uma
+      opinião pessoal de quem escreveu — ela constrói um jogo formal com o próprio enunciado, o que descarta essa
+      opção.
+    </p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-700 rounded-lg p-4">
+    <h4 class="text-slate-200 font-semibold flex items-center gap-2 mb-1">
+      <i class="fa-solid fa-circle-xmark text-red-400"></i> Alternativa C — errada
+    </h4>
+    <p class="text-slate-400 text-sm">
+      Esta é a pegadinha mais comum da questão: dizer que "a construção dessa frase possibilita mais de uma
+      interpretação" descreve um <em>efeito</em> (a ambiguidade), não a <em>definição</em> técnica da função
+      poética. Ter duas leituras possíveis é consequência de a linguagem se voltar para si mesma, mas o enunciado
+      pede o que evidencia a função poética em si — e isso é justamente o fato de a mensagem chamar atenção para sua
+      própria forma, descrito com precisão apenas pela alternativa E.
+    </p>
+  </div>
+
+  <div class="bg-slate-900 border border-slate-700 rounded-lg p-4">
+    <h4 class="text-slate-200 font-semibold flex items-center gap-2 mb-1">
+      <i class="fa-solid fa-circle-xmark text-red-400"></i> Alternativa D — errada
+    </h4>
+    <p class="text-slate-400 text-sm">
+      "Essa frase estabelece um diálogo direto com o leitor" descreve a <strong>função conativa (apelativa)</strong>,
+      centrada no receptor — típica de frases no imperativo ou que usam "você" para convencer ou orientar o leitor a
+      agir. O uso da 2ª pessoa aqui não tem esse papel de apelo direto: ele está a serviço do jogo formal com os
+      parênteses, e não de uma ordem ou convite ao leitor.
+    </p>
+  </div>
+
+  <div class="bg-violet-950/40 border border-violet-500/30 rounded-lg p-4">
+    <h4 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+      <i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha
+    </h4>
+    <p class="text-slate-300 text-sm">
+      Sempre que uma questão pedir a função poética, ignore o assunto da frase e pergunte: "o efeito de sentido
+      depende de <em>como</em> a frase foi montada (pontuação, repetição, jogo gráfico) ou do que ela <em>diz</em>
+      sobre o mundo, sobre o emissor ou sobre o leitor?". Se a resposta apontar para a construção formal da própria
+      mensagem, a resposta é função poética — mesmo que outra alternativa descreva corretamente um efeito dela
+      (como a ambiguidade), pois o enunciado busca a causa, não a consequência.
+    </p>
+  </div>
+
+</div>
+`,
+
+  galeria: [
+    {
+      titulo: "As 6 Funções da Linguagem de Jakobson",
+      descricao: "Esquema com o circuito da comunicação e as seis funções que podem predominar em um texto, destacando a função poética centrada na mensagem.",
+      svg: '<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif"><rect width="400" height="320" fill="#0f172a"/><circle cx="200" cy="160" r="55" fill="#4c1d95" stroke="#a78bfa" stroke-width="2"/><text x="200" y="155" text-anchor="middle" fill="#e9d5ff" font-size="13" font-weight="bold">MENSAGEM</text><text x="200" y="172" text-anchor="middle" fill="#c4b5fd" font-size="10">(função poética)</text><g stroke="#64748b" stroke-width="1.5"><line x1="200" y1="105" x2="200" y2="50"/><line x1="245" y1="130" x2="300" y2="90"/><line x1="245" y1="190" x2="300" y2="230"/><line x1="155" y1="190" x2="100" y2="230"/><line x1="155" y1="130" x2="100" y2="90"/><line x1="200" y1="215" x2="200" y2="270"/></g><rect x="150" y="20" width="100" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="200" y="39" text-anchor="middle" fill="#e2e8f0" font-size="11">Contexto (Referencial)</text><rect x="300" y="70" width="90" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="345" y="89" text-anchor="middle" fill="#e2e8f0" font-size="11">Emissor (Emotiva)</text><rect x="300" y="215" width="90" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="345" y="234" text-anchor="middle" fill="#e2e8f0" font-size="11">Receptor (Conativa)</text><rect x="10" y="215" width="90" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="55" y="234" text-anchor="middle" fill="#e2e8f0" font-size="11">Canal (Fática)</text><rect x="10" y="70" width="90" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="55" y="89" text-anchor="middle" fill="#e2e8f0" font-size="11">Código (Metaling.)</text><rect x="150" y="270" width="100" height="30" rx="6" fill="#1e293b" stroke="#475569"/><text x="200" y="289" text-anchor="middle" fill="#94a3b8" font-size="10">(elemento externo)</text></svg>'
+    },
+    {
+      titulo: "A Mensagem Voltando-se Para Si Mesma",
+      descricao: "Diagrama do circuito emissor-mensagem-receptor com a seta de retorno que representa a autorreferencialidade da função poética.",
+      svg: '<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif"><rect width="400" height="220" fill="#0f172a"/><rect x="20" y="90" width="90" height="40" rx="8" fill="#1e293b" stroke="#64748b"/><text x="65" y="115" text-anchor="middle" fill="#e2e8f0" font-size="12">EMISSOR</text><rect x="290" y="90" width="90" height="40" rx="8" fill="#1e293b" stroke="#64748b"/><text x="335" y="115" text-anchor="middle" fill="#e2e8f0" font-size="12">RECEPTOR</text><rect x="150" y="90" width="100" height="40" rx="8" fill="#4c1d95" stroke="#a78bfa" stroke-width="2"/><text x="200" y="115" text-anchor="middle" fill="#e9d5ff" font-size="12" font-weight="bold">MENSAGEM</text><line x1="110" y1="110" x2="150" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/><line x1="250" y1="110" x2="290" y2="110" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/><path d="M 175 90 C 160 45, 240 45, 225 90" fill="none" stroke="#a78bfa" stroke-width="2.5" marker-end="url(#arrowV)"/><text x="200" y="35" text-anchor="middle" fill="#c4b5fd" font-size="11" font-weight="bold">a linguagem volta-se para si mesma</text><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#64748b"/></marker><marker id="arrowV" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#a78bfa"/></marker></defs><text x="200" y="180" text-anchor="middle" fill="#94a3b8" font-size="11">Ex.: "VOCÊ (NÃO) ESTÁ SOZINHO" — o parêntese cria a dupla leitura na própria estrutura da frase</text></svg>'
+    },
+    {
+      titulo: "Reconstrução da Capa: a Frase Ambígua em Destaque",
+      descricao: "Recriação simplificada da chamada de capa da revista Galileu, evidenciando o recurso gráfico dos parênteses sobre a palavra 'NÃO'.",
+      svg: '<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif"><rect width="400" height="260" fill="#0f172a"/><rect x="15" y="15" width="370" height="230" rx="10" fill="#1e1b2e" stroke="#4c1d95" stroke-width="2"/><text x="30" y="45" fill="#a78bfa" font-size="14" font-weight="bold">GALILEU</text><text x="30" y="62" fill="#94a3b8" font-size="9">Ed. 371 — fevereiro de 2023</text><text x="200" y="110" text-anchor="middle" fill="#f1f5f9" font-size="20" font-weight="bold">VOCÊ</text><text x="200" y="140" text-anchor="middle" fill="#f1f5f9" font-size="20" font-weight="bold">ESTÁ SOZINHO</text><rect x="150" y="118" width="100" height="26" rx="6" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-dasharray="4 3"/><text x="200" y="137" text-anchor="middle" fill="#f472b6" font-size="19" font-weight="bold">(NÃO)</text><text x="200" y="165" text-anchor="middle" fill="#c4b5fd" font-size="9">↑ parênteses = recurso gráfico autorreferente</text><text x="30" y="205" fill="#94a3b8" font-size="9" width="340">"No Brasil, metade da população se sente</text><text x="30" y="218" fill="#94a3b8" font-size="9">solitária, e a mesma sensação cresce..."</text></svg>'
+    },
+    {
+      titulo: "Função Poética x Função Conativa: Comparativo",
+      descricao: "Quadro comparativo mostrando a diferença entre uma frase organizada em função poética e a mesma ideia reescrita em função conativa.",
+      svg: '<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif"><rect width="400" height="260" fill="#0f172a"/><rect x="15" y="15" width="175" height="230" rx="8" fill="#2e1065" stroke="#a78bfa" stroke-width="2"/><text x="102" y="40" text-anchor="middle" fill="#e9d5ff" font-size="12" font-weight="bold">FUNÇÃO POÉTICA</text><text x="102" y="75" text-anchor="middle" fill="#f1f5f9" font-size="12">"VOCÊ (NÃO)</text><text x="102" y="92" text-anchor="middle" fill="#f1f5f9" font-size="12">ESTÁ SOZINHO"</text><text x="102" y="130" text-anchor="middle" fill="#c4b5fd" font-size="9">Foco: a própria forma</text><text x="102" y="144" text-anchor="middle" fill="#c4b5fd" font-size="9">da frase (parênteses,</text><text x="102" y="158" text-anchor="middle" fill="#c4b5fd" font-size="9">dupla leitura)</text><text x="102" y="190" text-anchor="middle" fill="#94a3b8" font-size="9">Elemento central:</text><text x="102" y="204" text-anchor="middle" fill="#e9d5ff" font-size="10" font-weight="bold">MENSAGEM</text><rect x="210" y="15" width="175" height="230" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="2"/><text x="297" y="40" text-anchor="middle" fill="#e2e8f0" font-size="12" font-weight="bold">FUNÇÃO CONATIVA</text><text x="297" y="75" text-anchor="middle" fill="#f1f5f9" font-size="12">"Procure ajuda,</text><text x="297" y="92" text-anchor="middle" fill="#f1f5f9" font-size="12">você não está só!"</text><text x="297" y="130" text-anchor="middle" fill="#94a3b8" font-size="9">Foco: convencer ou</text><text x="297" y="144" text-anchor="middle" fill="#94a3b8" font-size="9">orientar o leitor a</text><text x="297" y="158" text-anchor="middle" fill="#94a3b8" font-size="9">agir (imperativo)</text><text x="297" y="190" text-anchor="middle" fill="#94a3b8" font-size="9">Elemento central:</text><text x="297" y="204" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="bold">RECEPTOR</text></svg>'
+    }
+  ],
+
+  simulador: {
+    titulo: "Detector de Função da Linguagem",
+    descricao: "Escolha frases de exemplo ou digite a sua para descobrir qual função da linguagem predomina, com destaque visual do critério usado.",
+    html: '<div style="font-family:sans-serif;color:#e2e8f0;max-width:640px;">'
+      + '<p style="margin:0 0 12px;font-size:14px;color:#cbd5e1;">Clique em uma frase de exemplo para ver qual função da linguagem predomina nela, ou digite a sua própria frase e clique em "Analisar".</p>'
+      + '<div id="q034-frases-lista" style="display:flex;flex-direction:column;gap:8px;margin-bottom:16px;"></div>'
+      + '<div style="display:flex;gap:8px;margin-bottom:12px;">'
+      + '<input id="q034-frase-input" type="text" placeholder="Digite sua propria frase..." style="flex:1;padding:8px;border-radius:6px;border:1px solid #475569;background:#1e293b;color:#f1f5f9;">'
+      + '<button id="q034-analisar-btn" style="padding:8px 16px;border-radius:6px;border:none;background:#8b5cf6;color:#fff;cursor:pointer;font-weight:bold;">Analisar</button>'
+      + '</div>'
+      + '<div id="q034-resultado" style="padding:12px;border-radius:8px;background:#1e1b2e;border:1px solid #4c1d95;min-height:70px;font-size:13px;">Selecione ou digite uma frase para comecar.</div>'
+      + '</div>',
+    init: function (raiz) {
+      var FUNCOES = {
+        poetica: { nome: "Função Poética", cor: "#a78bfa", explicacao: "a mensagem chama atencao para a propria construcao formal (jogo grafico/sonoro, ambiguidade criada pela estrutura)." },
+        conativa: { nome: "Função Conativa (apelativa)", cor: "#f472b6", explicacao: "o foco esta no receptor: a frase tenta convencer, orientar ou dar uma ordem ao leitor." },
+        emotiva: { nome: "Função Emotiva (expressiva)", cor: "#fbbf24", explicacao: "o foco esta no emissor: a frase expressa opiniao, sentimento ou atitude de quem fala." },
+        referencial: { nome: "Função Referencial", cor: "#38bdf8", explicacao: "o foco esta no contexto: a frase informa um dado ou fato de forma objetiva." },
+        fatica: { nome: "Função Fática", cor: "#34d399", explicacao: "o foco esta no canal: a frase testa, inicia ou mantem o contato entre emissor e receptor." },
+        metalinguistica: { nome: "Função Metalinguística", cor: "#fb923c", explicacao: "o foco esta no codigo: a frase usa a linguagem para explicar a propria linguagem." }
+      };
+
+      var EXEMPLOS = [
+        { texto: "VOCÊ (NÃO) ESTÁ SOZINHO", funcao: "poetica" },
+        { texto: "Procure ajuda, você não está só!", funcao: "conativa" },
+        { texto: "Metade da população brasileira relata sentir solidão.", funcao: "referencial" },
+        { texto: "Acho triste ver tanta gente se sentindo tão sozinha.", funcao: "emotiva" },
+        { texto: "Alô, alô, você ainda está aí me ouvindo?", funcao: "fatica" },
+        { texto: "'Solidão', aqui, significa a sensação de isolamento afetivo.", funcao: "metalinguistica" }
+      ];
+
+      var lista = raiz.querySelector("#q034-frases-lista");
+      var resultado = raiz.querySelector("#q034-resultado");
+      var input = raiz.querySelector("#q034-frase-input");
+      var btn = raiz.querySelector("#q034-analisar-btn");
+
+      function mostrarResultado(texto, funcaoKey, heuristica) {
+        var f = FUNCOES[funcaoKey];
+        resultado.innerHTML =
+          '<div style="border-left:4px solid ' + f.cor + ';padding-left:10px;">' +
+          '<div style="font-size:11px;color:#94a3b8;margin-bottom:4px;">Frase analisada:</div>' +
+          '<div style="margin-bottom:8px;font-style:italic;color:#f1f5f9;">"' + texto + '"</div>' +
+          '<div style="font-weight:bold;color:' + f.cor + ';margin-bottom:4px;">' + f.nome + '</div>' +
+          '<div style="color:#cbd5e1;">' + f.explicacao + '</div>' +
+          (heuristica ? '<div style="margin-top:6px;font-size:11px;color:#64748b;">(classificação automática por palavras-chave — use como ponto de partida, não como gabarito absoluto)</div>' : '') +
+          '</div>';
+      }
+
+      EXEMPLOS.forEach(function (ex) {
+        var item = document.createElement("button");
+        item.textContent = ex.texto;
+        item.style.cssText = "text-align:left;padding:8px 10px;border-radius:6px;border:1px solid #334155;background:#0f172a;color:#e2e8f0;cursor:pointer;font-size:13px;";
+        item.addEventListener("mouseenter", function () { item.style.borderColor = "#8b5cf6"; });
+        item.addEventListener("mouseleave", function () { item.style.borderColor = "#334155"; });
+        item.addEventListener("click", function () { mostrarResultado(ex.texto, ex.funcao, false); });
+        lista.appendChild(item);
+      });
+
+      function classificarHeuristicamente(frase) {
+        var f = frase.toLowerCase();
+        if (/\(.*\)/.test(frase) || /(.)\1{2,}/.test(f)) return "poetica";
+        if (/alô|alo|está me ouvindo|esta me ouvindo|oi[,!]|ok\?/.test(f)) return "fatica";
+        if (/significa|quer dizer|em outras palavras|isto é/.test(f)) return "metalinguistica";
+        if (/acho|acredito|acreditamos|infelizmente|felizmente|adoro|detesto|!$/.test(f)) return "emotiva";
+        if (/^(procure|faça|vá|não deixe|cuide|ligue|converse|busque|junte-se)/.test(f) || /você deve|é preciso que você/.test(f)) return "conativa";
+        return "referencial";
+      }
+
+      btn.addEventListener("click", function () {
+        var texto = (input.value || "").trim();
+        if (!texto) {
+          resultado.innerHTML = '<span style="color:#f87171;">Digite uma frase antes de analisar.</span>';
+          return;
+        }
+        var funcaoKey = classificarHeuristicamente(texto);
+        mostrarResultado(texto, funcaoKey, true);
+      });
+
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") btn.click();
+      });
+    }
+  },
+
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif"><rect width="200" height="100" fill="#0f172a"/><rect x="55" y="35" width="90" height="30" rx="6" fill="#4c1d95" stroke="#a78bfa" stroke-width="1.5"/><text x="100" y="54" text-anchor="middle" fill="#e9d5ff" font-size="10" font-weight="bold">MENSAGEM</text><path d="M 70 35 C 60 15, 140 15, 130 35" fill="none" stroke="#a78bfa" stroke-width="2" marker-end="url(#a1)"/><text x="100" y="14" text-anchor="middle" fill="#c4b5fd" font-size="8">volta-se para si mesma</text><defs><marker id="a1" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#a78bfa"/></marker></defs></svg>`,
+
+  simuladorType: null
+},
+
+{
+  id: "q035",
+  numero: 35,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Estratégias Argumentativas",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "A Ditadura da Beleza: Enumerando Críticas",
+  tags: ["Argumentação", "Enumeração", "Texto Opinativo", "Crítica Social", "Recursos Retóricos"],
+  alternativaCorreta: "E",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `Mergot Robbie foi criticada por "não ser bonita o suficiente" para interpretar a Barbie. Recentemente, Paola Oliveira foi chamada de gorda. Só fico pensando o que serei eu com mais de 50 (também no peso), com a minha aparência comum. O corpo da mulher vive um reality show permanente: é sempre vigiado e fiscalizado, como se fosse domínio público. A mulher que não atende aos estereótipos está sujeita a sofrer inúmeras baixas, como distúrbios, obsessões, medo do próprio corpo e, é claro, dietas à base de rúcula.<br><br>"A dieta é o sedativo político mais potente na história das mulheres," escreveu Naomi Wolf, em 1991. A regra é não haver singularidade, mascarar a passagem do tempo, imobilizar a beleza (já imaginou como isso seria enfadonho?). O mandamento é obedecer às regras sociais do bom comportamento corporal, "como deve ser", não nos atos, mas na forma.<br><br><i>KORCH, B. S. Disponível em: www.folha.uol.com.br. Acesso em: 22 jan. 2024 [adaptado].</i><br><br><strong>Nesse texto, para introduzir a ideia de que a fiscalização permanente sobre o corpo afeta todas as mulheres, a autora</strong>`,
+  alternativas: [
+    { letra: "A", texto: "faz um comentário sobre sua própria imagem.", correta: false },
+    { letra: "B", texto: "destaca avaliações particulares entre parênteses.", correta: false },
+    { letra: "C", texto: "cita um formato de programa influente no segmento da beleza.", correta: false },
+    { letra: "D", texto: "utiliza declaração de uma jornalista como argumento de autoridade.", correta: false },
+    { letra: "E", texto: "enumera críticas à aparência de mulheres consideradas padrões de beleza.", correta: true }
+  ],
+  materiaCompleta: `
+    <div class="space-y-6">
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h3 class="text-violet-300 font-bold text-lg flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-list-check"></i> Conceito-chave: enumeração como estratégia argumentativa
+        </h3>
+        <p class="text-slate-200 leading-relaxed">
+          Em textos opinativos (crônicas, artigos, colunas), o autor não apenas afirma uma tese — ele constrói
+          evidências textuais para sustentá-la. Uma das estratégias mais comuns é a <strong>enumeração de exemplos
+          concretos</strong>: em vez de dizer "isso acontece com todo mundo" de forma abstrata, o autor cita casos
+          específicos, um após o outro, para que o leitor perceba um padrão e generalize a conclusão sozinho.
+        </p>
+        <p class="text-slate-200 leading-relaxed mt-3">
+          No texto da Questão 35, a autora cita <strong>Margot Robbie</strong> (criticada por "não ser bonita o
+          suficiente") e <strong>Paola Oliveira</strong> (chamada de "gorda"). Ao enumerar essas duas críticas
+          seguidas, ela prova, por acúmulo de evidência, que nem mesmo mulheres consideradas padrões de beleza
+          escapam da fiscalização — logo, a vigilância atinge <em>todas</em> as mulheres, sem exceção.
+        </p>
+      </div>
+
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h3 class="text-violet-300 font-bold text-lg flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-magnifying-glass"></i> Como reconhecer a enumeração no texto
+        </h3>
+        <ul class="list-disc list-inside text-slate-200 space-y-2">
+          <li>Procure por <strong>dois ou mais casos/exemplos citados em sequência</strong>, geralmente logo no
+            início do texto, antes de qualquer conclusão explícita.</li>
+          <li>Os exemplos costumam ser <strong>concretos e nomeados</strong> (pessoas, situações, dados), não
+            opiniões genéricas do autor.</li>
+          <li>A função da enumeração é <strong>generalizar</strong>: de casos particulares, o leitor infere uma
+            regra geral — nesse caso, "a fiscalização atinge todas as mulheres".</li>
+          <li>Repare que a enumeração antecede a reflexão pessoal ("Só fico pensando o que serei eu...") — ou seja,
+            os exemplos vêm primeiro como prova, e o comentário pessoal vem depois, como consequência.</li>
+        </ul>
+      </div>
+
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h3 class="text-violet-300 font-bold text-lg flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-triangle-exclamation"></i> Erros comuns: confundindo recursos argumentativos
+        </h3>
+        <div class="grid sm:grid-cols-2 gap-3">
+          <div class="bg-slate-900/60 border border-slate-700 rounded-lg p-3">
+            <p class="text-rose-300 font-semibold text-sm mb-1"><i class="fa-solid fa-circle-xmark"></i> Comentário pessoal</p>
+            <p class="text-slate-300 text-sm">É quando o autor fala de si mesmo ("o que serei eu..."). Isso reforça
+              o texto, mas não é o recurso usado para <em>introduzir</em> a ideia de que todas as mulheres são
+              afetadas — é uma consequência da enumeração, não a prova em si.</p>
+          </div>
+          <div class="bg-slate-900/60 border border-slate-700 rounded-lg p-3">
+            <p class="text-rose-300 font-semibold text-sm mb-1"><i class="fa-solid fa-circle-xmark"></i> Argumento de autoridade</p>
+            <p class="text-slate-300 text-sm">É citar uma fonte especializada para legitimar uma afirmação — como a
+              citação de Naomi Wolf. Mas essa citação aparece <em>depois</em> da enumeração e sustenta outra ideia
+              (a dieta como "sedativo político"), não a de que a fiscalização é universal.</p>
+          </div>
+          <div class="bg-slate-900/60 border border-slate-700 rounded-lg p-3">
+            <p class="text-rose-300 font-semibold text-sm mb-1"><i class="fa-solid fa-circle-xmark"></i> Citação direta</p>
+            <p class="text-slate-300 text-sm">Transcrever a fala de alguém entre aspas (como a frase de Naomi Wolf)
+              é um recurso diferente de enumerar exemplos — a citação reforça um argumento único, enquanto a
+              enumeração soma vários casos para generalizar.</p>
+          </div>
+          <div class="bg-slate-900/60 border border-slate-700 rounded-lg p-3">
+            <p class="text-rose-300 font-semibold text-sm mb-1"><i class="fa-solid fa-circle-xmark"></i> Referência cultural</p>
+            <p class="text-slate-300 text-sm">Mencionar "reality show" é uma metáfora/comparação, não uma
+              enumeração de críticas. Não confunda o recurso estilístico da comparação com o recurso argumentativo
+              de somar exemplos concretos.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h3 class="text-violet-300 font-bold text-lg flex items-center gap-2 mb-3">
+          <i class="fa-solid fa-graduation-cap"></i> Dica prática: método passo a passo
+        </h3>
+        <ol class="list-decimal list-inside text-slate-200 space-y-2">
+          <li><strong>Identifique o comando:</strong> a questão pede o recurso usado para <em>introduzir</em> uma
+            ideia específica — releia com atenção qual ideia é essa.</li>
+          <li><strong>Localize o(s) trecho(s)</strong> do texto que constroem essa ideia, geralmente no início do
+            parágrafo.</li>
+          <li><strong>Conte quantos exemplos/casos</strong> aparecem citados em sequência. Dois ou mais casos
+            concretos e nomeados = enumeração.</li>
+          <li><strong>Elimine alternativas</strong> que descrevem recursos que aparecem no texto, mas em outro
+            trecho ou com outra função (comentário pessoal, citação de autoridade).</li>
+          <li><strong>Confirme:</strong> a alternativa correta deve descrever exatamente o mecanismo que gera a
+            generalização pedida pelo comando.</li>
+        </ol>
+      </div>
+    </div>
+  `,
+  conceitos: ["Argumentação", "Enumeração", "Texto Opinativo", "Crítica Social", "Recursos Retóricos"],
+  resolucaoHtml: `
+    <div class="space-y-5">
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h4 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+          <i class="fa-solid fa-circle-check"></i> Por que a alternativa E está correta
+        </h4>
+        <p class="text-slate-200 leading-relaxed">
+          Logo no início do texto, a autora cita dois casos concretos: <strong>Margot Robbie</strong>, criticada por
+          "não ser bonita o suficiente" para viver a Barbie, e <strong>Paola Oliveira</strong>, chamada de "gorda".
+          Ambas são mulheres amplamente reconhecidas como padrões de beleza — e mesmo assim foram alvo de crítica.
+          Ao <strong>enumerar</strong> esses dois exemplos em sequência, a autora constrói a prova de que
+          <em>nenhuma</em> mulher escapa da fiscalização estética, nem as que mais se aproximam do ideal de beleza
+          socialmente valorizado. É exatamente esse encadeamento de exemplos — a enumeração — que introduz e
+          sustenta a ideia de que a vigilância sobre o corpo feminino é permanente e universal.
+        </p>
+      </div>
+
+      <div class="space-y-3">
+        <div class="bg-slate-900/60 border border-rose-500/20 rounded-lg p-4">
+          <p class="text-rose-300 font-semibold flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-circle-xmark"></i> A) "faz um comentário sobre sua própria imagem"
+          </p>
+          <p class="text-slate-300 text-sm">Erro: esse comentário pessoal ("o que serei eu com mais de 50") existe,
+            mas surge <em>depois</em> da enumeração, como reação a ela — não é o recurso que introduz a ideia de que
+            todas as mulheres são fiscalizadas.</p>
+        </div>
+        <div class="bg-slate-900/60 border border-rose-500/20 rounded-lg p-4">
+          <p class="text-rose-300 font-semibold flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-circle-xmark"></i> B) "destaca avaliações particulares entre parênteses"
+          </p>
+          <p class="text-slate-300 text-sm">Erro: o único trecho entre parênteses do texto é "(também no peso)",
+            que é um detalhe do comentário pessoal da autora, não uma lista de críticas a outras mulheres.</p>
+        </div>
+        <div class="bg-slate-900/60 border border-rose-500/20 rounded-lg p-4">
+          <p class="text-rose-300 font-semibold flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-circle-xmark"></i> C) "cita um formato de programa influente no segmento da beleza"
+          </p>
+          <p class="text-slate-300 text-sm">Erro: o candidato confunde a expressão "reality show" — usada como
+            <strong>metáfora</strong> para descrever a vigilância constante sobre o corpo — com uma citação real de
+            um programa de TV. Não há enumeração nem referência factual a um formato de programa.</p>
+        </div>
+        <div class="bg-slate-900/60 border border-rose-500/20 rounded-lg p-4">
+          <p class="text-rose-300 font-semibold flex items-center gap-2 mb-1">
+            <i class="fa-solid fa-circle-xmark"></i> D) "utiliza declaração de uma jornalista como argumento de autoridade"
+          </p>
+          <p class="text-slate-300 text-sm">Erro: a citação de Naomi Wolf ("a dieta é o sedativo político mais
+            potente...") é, de fato, um argumento de autoridade — mas ela sustenta a ideia sobre dietas e controle
+            político do corpo, e aparece <em>depois</em> da introdução da ideia pedida no comando, não a introduz.</p>
+        </div>
+      </div>
+
+      <div class="bg-violet-950/40 border border-violet-500/30 rounded-xl p-5">
+        <h4 class="text-violet-300 font-bold flex items-center gap-2 mb-2">
+          <i class="fa-solid fa-lightbulb"></i> Como não cair nessa pegadinha
+        </h4>
+        <p class="text-slate-200 leading-relaxed">
+          Preste atenção à <strong>ordem</strong> dos recursos no texto e ao que exatamente cada um sustenta. O
+          examinador costuma misturar recursos que realmente aparecem no texto (comentário pessoal, argumento de
+          autoridade, metáfora) com a função específica pedida no comando. Pergunte sempre: "este recurso introduz
+          a ideia pedida, ou reforça/ilustra uma ideia diferente, em outro momento do texto?" Aqui, apenas a
+          enumeração das críticas a Robbie e Oliveira cumpre exatamente a função de introduzir e generalizar.
+        </p>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Esquema da estratégia argumentativa",
+      descricao: "Como enumerar exemplos concretos gera uma generalização.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="220" fill="#1e1b3a"/>
+        <text x="200" y="28" text-anchor="middle" fill="#c4b5fd" font-size="15" font-weight="bold">Enumerar para Generalizar</text>
+        <rect x="20" y="55" width="150" height="45" rx="8" fill="#312e81" stroke="#8b5cf6"/>
+        <text x="95" y="73" text-anchor="middle" fill="#e9d5ff" font-size="11">Exemplo 1</text>
+        <text x="95" y="89" text-anchor="middle" fill="#c4b5fd" font-size="10">Margot Robbie criticada</text>
+        <rect x="230" y="55" width="150" height="45" rx="8" fill="#312e81" stroke="#8b5cf6"/>
+        <text x="305" y="73" text-anchor="middle" fill="#e9d5ff" font-size="11">Exemplo 2</text>
+        <text x="305" y="89" text-anchor="middle" fill="#c4b5fd" font-size="10">Paola Oliveira criticada</text>
+        <line x1="95" y1="100" x2="180" y2="150" stroke="#a78bfa" stroke-width="2"/>
+        <line x1="305" y1="100" x2="220" y2="150" stroke="#a78bfa" stroke-width="2"/>
+        <rect x="90" y="150" width="220" height="50" rx="10" fill="#4c1d95" stroke="#c4b5fd" stroke-width="2"/>
+        <text x="200" y="171" text-anchor="middle" fill="#f5f3ff" font-size="11" font-weight="bold">Conclusão generalizada:</text>
+        <text x="200" y="188" text-anchor="middle" fill="#ddd6fe" font-size="10">"Toda mulher é fiscalizada"</text>
+      </svg>`
+    },
+    {
+      titulo: "Linha do tempo dos exemplos citados",
+      descricao: "Ordem de aparição dos recursos argumentativos no texto.",
+      svg: `<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="420" height="180" fill="#1e1b3a"/>
+        <line x1="30" y1="90" x2="390" y2="90" stroke="#7c3aed" stroke-width="3"/>
+        <circle cx="60" cy="90" r="8" fill="#a78bfa"/>
+        <text x="60" y="70" text-anchor="middle" fill="#e9d5ff" font-size="10">Margot Robbie</text>
+        <text x="60" y="115" text-anchor="middle" fill="#c4b5fd" font-size="9">(enumeração)</text>
+        <circle cx="160" cy="90" r="8" fill="#a78bfa"/>
+        <text x="160" y="70" text-anchor="middle" fill="#e9d5ff" font-size="10">Paola Oliveira</text>
+        <text x="160" y="115" text-anchor="middle" fill="#c4b5fd" font-size="9">(enumeração)</text>
+        <circle cx="260" cy="90" r="8" fill="#fbbf24"/>
+        <text x="260" y="70" text-anchor="middle" fill="#fde68a" font-size="10">Comentário pessoal</text>
+        <text x="260" y="115" text-anchor="middle" fill="#fcd34d" font-size="9">"o que serei eu"</text>
+        <circle cx="360" cy="90" r="8" fill="#34d399"/>
+        <text x="360" y="70" text-anchor="middle" fill="#a7f3d0" font-size="10">Naomi Wolf</text>
+        <text x="360" y="115" text-anchor="middle" fill="#6ee7b7" font-size="9">(autoridade)</text>
+        <text x="210" y="150" text-anchor="middle" fill="#ddd6fe" font-size="10">A enumeração vem primeiro e introduz a ideia central</text>
+      </svg>`
+    },
+    {
+      titulo: "Comparação de recursos argumentativos",
+      descricao: "Enumeração vs. argumento de autoridade vs. comentário pessoal.",
+      svg: `<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="230" fill="#1e1b3a"/>
+        <text x="200" y="24" text-anchor="middle" fill="#c4b5fd" font-size="14" font-weight="bold">Três Recursos, Três Funções</text>
+        <rect x="20" y="40" width="110" height="70" rx="8" fill="#4c1d95" stroke="#a78bfa"/>
+        <text x="75" y="60" text-anchor="middle" fill="#f5f3ff" font-size="10" font-weight="bold">Enumeração</text>
+        <text x="75" y="78" text-anchor="middle" fill="#ddd6fe" font-size="8">Robbie + Oliveira</text>
+        <text x="75" y="93" text-anchor="middle" fill="#c4b5fd" font-size="8">Generaliza</text>
+        <rect x="145" y="40" width="110" height="70" rx="8" fill="#065f46" stroke="#34d399"/>
+        <text x="200" y="60" text-anchor="middle" fill="#ecfdf5" font-size="10" font-weight="bold">Autoridade</text>
+        <text x="200" y="78" text-anchor="middle" fill="#a7f3d0" font-size="8">Naomi Wolf</text>
+        <text x="200" y="93" text-anchor="middle" fill="#6ee7b7" font-size="8">Legitima</text>
+        <rect x="270" y="40" width="110" height="70" rx="8" fill="#78350f" stroke="#fbbf24"/>
+        <text x="325" y="60" text-anchor="middle" fill="#fffbeb" font-size="10" font-weight="bold">Comentário</text>
+        <text x="325" y="78" text-anchor="middle" fill="#fde68a" font-size="8">"o que serei eu"</text>
+        <text x="325" y="93" text-anchor="middle" fill="#fcd34d" font-size="8">Reação pessoal</text>
+        <text x="200" y="145" text-anchor="middle" fill="#e9d5ff" font-size="10">Somente a ENUMERAÇÃO introduz</text>
+        <text x="200" y="162" text-anchor="middle" fill="#e9d5ff" font-size="10">a ideia de fiscalização universal</text>
+        <rect x="70" y="180" width="260" height="30" rx="6" fill="#5b21b6" stroke="#c4b5fd"/>
+        <text x="200" y="200" text-anchor="middle" fill="#f5f3ff" font-size="10" font-weight="bold">Gabarito: alternativa E</text>
+      </svg>`
+    },
+    {
+      titulo: "Mapa do texto",
+      descricao: "Localização da citação de Naomi Wolf vs. os exemplos das atrizes.",
+      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="260" fill="#1e1b3a"/>
+        <rect x="20" y="15" width="360" height="230" rx="10" fill="#2e1065" stroke="#7c3aed"/>
+        <text x="200" y="35" text-anchor="middle" fill="#c4b5fd" font-size="12" font-weight="bold">Mapa do Texto-Base</text>
+        <rect x="35" y="48" width="330" height="42" rx="6" fill="#4c1d95" stroke="#a78bfa" stroke-width="2"/>
+        <text x="200" y="65" text-anchor="middle" fill="#f5f3ff" font-size="9" font-weight="bold">Par. 1: Robbie + Oliveira criticadas</text>
+        <text x="200" y="80" text-anchor="middle" fill="#ddd6fe" font-size="8">ENUMERAÇÃO -&gt; introduz a fiscalização universal</text>
+        <rect x="35" y="98" width="330" height="35" rx="6" fill="#312e81" stroke="#6d28d9"/>
+        <text x="200" y="113" text-anchor="middle" fill="#e0e7ff" font-size="9">Reflexão pessoal da autora ("mais de 50")</text>
+        <text x="200" y="126" text-anchor="middle" fill="#c7d2fe" font-size="8">comentário, não enumeração</text>
+        <rect x="35" y="141" width="330" height="35" rx="6" fill="#312e81" stroke="#6d28d9"/>
+        <text x="200" y="156" text-anchor="middle" fill="#e0e7ff" font-size="9">"corpo vive reality show" - metáfora</text>
+        <text x="200" y="169" text-anchor="middle" fill="#c7d2fe" font-size="8">comparação, não citação de formato de TV</text>
+        <rect x="35" y="184" width="330" height="42" rx="6" fill="#065f46" stroke="#34d399" stroke-width="2"/>
+        <text x="200" y="201" text-anchor="middle" fill="#ecfdf5" font-size="9" font-weight="bold">Citação de Naomi Wolf (1991)</text>
+        <text x="200" y="216" text-anchor="middle" fill="#a7f3d0" font-size="8">ARGUMENTO DE AUTORIDADE -&gt; sobre dietas, vem depois</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Identificador de Estratégia Argumentativa",
+    descricao: "Classifique trechos de textos opinativos de acordo com o recurso argumentativo utilizado.",
+    html: `<div id="sim-q035-root" style="font-family:inherit;">
+      <div style="margin-bottom:14px;">
+        <p id="sim-q035-trecho" style="background:rgba(139,92,246,0.12);border:1px solid rgba(139,92,246,0.35);border-radius:10px;padding:14px;color:#e9d5ff;font-size:14px;line-height:1.5;min-height:60px;"></p>
+      </div>
+      <div id="sim-q035-opcoes" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;"></div>
+      <div id="sim-q035-feedback" style="min-height:50px;border-radius:10px;padding:10px 14px;font-size:13px;line-height:1.5;"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px;">
+        <span id="sim-q035-score" style="color:#c4b5fd;font-size:12px;"></span>
+        <button id="sim-q035-next" style="background:#7c3aed;color:white;border:none;border-radius:8px;padding:8px 16px;font-size:13px;cursor:pointer;">Próximo trecho &#8594;</button>
+      </div>
+    </div>`,
+    init: function(raiz) {
+      var casos = [
+        {
+          trecho: "\"Margot Robbie foi criticada por não ser bonita o suficiente. Paola Oliveira foi chamada de gorda.\"",
+          correta: "enumeracao",
+          explicacao: "Dois exemplos concretos e nomeados citados em sequência para provar um padrão geral: isto é enumeração."
+        },
+        {
+          trecho: "\"A dieta é o sedativo político mais potente na história das mulheres\", escreveu Naomi Wolf, em 1991.",
+          correta: "autoridade",
+          explicacao: "Uma especialista/jornalista é citada pelo nome para legitimar a afirmação: argumento de autoridade."
+        },
+        {
+          trecho: "\"Só fico pensando o que serei eu com mais de 50, com a minha aparência comum.\"",
+          correta: "pessoal",
+          explicacao: "A autora fala de si mesma e de sua própria experiência: comentário pessoal."
+        },
+        {
+          trecho: "\"O corpo da mulher vive um reality show permanente, sempre vigiado e fiscalizado.\"",
+          correta: "citacao",
+          explicacao: "Na verdade este trecho não é uma citação de terceiros nem enumeração de casos — é uma metáfora/comparação da própria autora, usada para ilustrar (não para provar por acúmulo de exemplos nem citar autoridade)."
+        }
+      ];
+      var opcoesDef = [
+        { id: "enumeracao", label: "Enumeração de exemplos" },
+        { id: "autoridade", label: "Argumento de autoridade" },
+        { id: "pessoal", label: "Comentário pessoal" },
+        { id: "citacao", label: "Citação/comparação de terceiros" }
+      ];
+      var idx = 0;
+      var acertos = 0;
+      var tentativas = 0;
+
+      var trechoEl = raiz.querySelector("#sim-q035-trecho");
+      var opcoesEl = raiz.querySelector("#sim-q035-opcoes");
+      var feedbackEl = raiz.querySelector("#sim-q035-feedback");
+      var scoreEl = raiz.querySelector("#sim-q035-score");
+      var nextBtn = raiz.querySelector("#sim-q035-next");
+
+      function renderCaso() {
+        var caso = casos[idx % casos.length];
+        trechoEl.textContent = caso.trecho;
+        feedbackEl.textContent = "";
+        feedbackEl.style.background = "transparent";
+        feedbackEl.style.border = "none";
+        opcoesEl.innerHTML = "";
+        opcoesDef.forEach(function(op) {
+          var btn = document.createElement("button");
+          btn.textContent = op.label;
+          btn.style.cssText = "background:rgba(30,27,58,0.6);border:1px solid rgba(139,92,246,0.35);color:#ddd6fe;border-radius:8px;padding:10px;font-size:12px;cursor:pointer;text-align:left;";
+          btn.addEventListener("click", function() {
+            tentativas++;
+            var acertou = op.id === caso.correta;
+            if (acertou) {
+              acertos++;
+              feedbackEl.style.background = "rgba(16,185,129,0.15)";
+              feedbackEl.style.border = "1px solid rgba(52,211,153,0.4)";
+              feedbackEl.style.color = "#a7f3d0";
+              feedbackEl.textContent = "Correto! " + caso.explicacao;
+            } else {
+              feedbackEl.style.background = "rgba(244,63,94,0.12)";
+              feedbackEl.style.border = "1px solid rgba(244,63,94,0.4)";
+              feedbackEl.style.color = "#fda4af";
+              feedbackEl.textContent = "Não é bem isso. " + caso.explicacao;
+            }
+            scoreEl.textContent = "Acertos: " + acertos + " / " + tentativas;
+          });
+          opcoesEl.appendChild(btn);
+        });
+      }
+
+      nextBtn.addEventListener("click", function() {
+        idx = (idx + 1) % casos.length;
+        renderCaso();
+      });
+
+      scoreEl.textContent = "Acertos: 0 / 0";
+      renderCaso();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#1e1b3a"/>
+    <circle cx="45" cy="35" r="14" fill="#7c3aed"/>
+    <text x="45" y="39" text-anchor="middle" fill="white" font-size="9">Robbie</text>
+    <circle cx="105" cy="35" r="14" fill="#7c3aed"/>
+    <text x="105" y="39" text-anchor="middle" fill="white" font-size="9">Oliveira</text>
+    <line x1="59" y1="35" x2="91" y2="35" stroke="#a78bfa" stroke-width="2"/>
+    <line x1="75" y1="49" x2="75" y2="65" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="20" y="68" width="160" height="24" rx="6" fill="#4c1d95" stroke="#c4b5fd"/>
+    <text x="100" y="84" text-anchor="middle" fill="#f5f3ff" font-size="9">Fiscalização é universal (E)</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q036",
+  numero: 36,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Variação Linguística e Oralidade",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "O 'daí' que conta a história: marcadores da fala espontânea",
+  tags: ["ENEM 2025", "Marcadores Discursivos", "Oralidade", "Variação Linguística", "Linguagem Falada"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `<p><strong>I:</strong> <em>"o nome do filme é roupa suja... eu assisti na minha casa... com minha mãe... tinha um... o filme era sobre um homem que colocavam... trocaram as bolsas... daí o homem levou uma bolsa cheia de dinheiro sem ele saber que na mala dele... pensando que era dele mas era errada... quando ele chegou onde ele ia trabalhar... tinha uma moça tentando abrir a porta pra fazer entrevista com uns cantores lá que tinham... daí ele perguntou... 'você tá tentando abrir a porta?'... daí ele... 'não... não'... daí ele disse... 'ah... tá... aham'... daí ele... 'é... e quero fazer uma entrevista'... daí ele disse... 'você quer entrar... então pode entrar'... daí entraram... daí ficaram lá... quando ela entrou a quis fazer a entrevista um homem não deixou... daí a mulher pegou... subiu onde o homem estava trabalhando... rapaz, né... onde ele estava trabalhando e ficou lá dando o show..."</em></p>
+<br><br>
+<p><strong>Nesse texto, a repetição da forma "daí" revela</strong></p>`,
+  alternativas: [
+    { letra: "A", texto: "a necessidade de adequação ao interlocutor.", correta: false },
+    { letra: "B", texto: "a origem regional do locutor.", correta: false },
+    { letra: "C", texto: "a escolaridade do falante.", correta: false },
+    { letra: "D", texto: "uma estratégia presente na linguagem oral.", correta: true },
+    { letra: "E", texto: "uma ênfase em determinadas partes do discurso.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="font-family: inherit;">
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-comments"></i> 1. O que são marcadores discursivos?</h3>
+      <p>Na <strong>fala espontânea</strong>, quem narra um fato não planeja cada frase como faz na escrita. Para não perder o fio da história enquanto pensa no que vem a seguir, o falante recorre a pequenas palavras ou expressões chamadas <strong>marcadores discursivos</strong> (ou marcadores conversacionais): "daí", "aí", "né", "tipo", "então", "olha", "veja bem". Eles não acrescentam informação nova ao conteúdo da narrativa — sua função é <strong>organizar o texto oral em tempo real</strong>, sinalizando transições, encadeando eventos, mantendo o turno de fala e checando a atenção do ouvinte.</p>
+      <p>No texto da questão, "daí" aparece repetidas vezes exatamente nos momentos em que a narradora passa de um evento da história para o próximo: é o "cimento" que liga as cenas do filme que ela está resumindo.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-microphone-lines"></i> 2. Fala x escrita: registros diferentes, lógicas diferentes</h3>
+      <p>A língua falada e a língua escrita são duas manifestações da mesma língua, mas obedecem a condições de produção muito diferentes:</p>
+      <ul>
+        <li><strong>Escrita:</strong> planejada, revisável, sem interlocutor presente, tende a eliminar repetições e marcas de hesitação.</li>
+        <li><strong>Fala espontânea:</strong> produzida em tempo real, com hesitações, retomadas, repetições e marcadores que ajudam o ouvinte a acompanhar o raciocínio.</li>
+      </ul>
+      <p>Reconhecer essas marcas é reconhecer que a fala tem <strong>organização própria</strong> — ela não é uma "escrita malfeita", é outro modo de organizar o discurso, com regras e estratégias específicas.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-triangle-exclamation"></i> 3. Erros comuns nessa análise</h3>
+      <ul>
+        <li><strong>Confundir marcador discursivo com "erro de português":</strong> repetir "daí" não é um desvio gramatical — é um recurso natural e produtivo da oralidade, presente na fala de qualquer falante, culto ou não.</li>
+        <li><strong>Achar que revela região de origem:</strong> "daí" tem uso disseminado por todo o território nacional em contextos informais; não é um regionalismo marcado (diferente de itens como "bergamota" x "mexerica", por exemplo).</li>
+        <li><strong>Associar a repetição a baixa escolaridade:</strong> marcadores discursivos aparecem na fala de pessoas com qualquer nível de escolarização; é um traço da modalidade oral, não do grau de instrução.</li>
+        <li><strong>Achar que serve para dar ênfase:</strong> ênfase destaca uma parte específica do discurso; aqui a função é de <em>sequenciar</em> a narrativa, encadeando um evento após o outro.</li>
+      </ul>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-lightbulb"></i> 4. Dica prática</h3>
+      <p>Sempre que uma questão do ENEM apresentar uma <strong>transcrição de fala</strong> com repetição de palavras curtas como "daí", "aí", "né", "tipo assim", pergunte-se: <em>"essa palavra está ligando as partes da história ou está entregando uma informação nova?"</em> Se ela só está costurando a narrativa, é <strong>marcador discursivo</strong> — marca de oralidade, não erro, não regionalismo, não indicador de escolaridade.</p>
+    </div>
+  `,
+  conceitos: ["Marcadores Discursivos", "Oralidade", "Variação Linguística", "Registro Informal", "Coesão na Fala"],
+  resolucaoHtml: `
+    <div>
+      <div style="background:#f5f3ff; border-left:4px solid #7c3aed; padding:12px 16px; border-radius:6px; margin-bottom:16px;">
+        <p style="margin:0;"><i class="fa-solid fa-circle-check" style="color:#7c3aed;"></i> <strong>Gabarito: alternativa D</strong> — "uma estratégia presente na linguagem oral."</p>
+      </div>
+
+      <h4 style="color:#7c3aed;">Por que a alternativa D está correta</h4>
+      <p>O texto é a transcrição de uma fala espontânea, sem qualquer planejamento prévio: a narradora resume o enredo do filme enquanto fala, e por isso recorre repetidamente a "daí" para <strong>encadear os acontecimentos</strong> ("daí o homem levou uma bolsa...", "daí ele perguntou...", "daí ele disse..."). Essa repetição não é falha nem acaso: é um <strong>marcador discursivo típico da oralidade</strong>, uma estratégia que o falante usa para organizar a narrativa em tempo real, sinalizando ao ouvinte que um novo evento está sendo introduzido. Por isso, a repetição de "daí" revela justamente uma estratégia da linguagem oral.</p>
+
+      <h4 style="color:#dc2626; margin-top:20px;">Por que as outras alternativas estão erradas</h4>
+      <div style="background:#fff1f2; border-left:4px solid #e11d48; padding:10px 16px; border-radius:6px; margin-bottom:10px;">
+        <strong>A) "a necessidade de adequação ao interlocutor."</strong>
+        <p style="margin:4px 0 0;">Adequar-se ao interlocutor envolveria ajustar o vocabulário, o grau de formalidade ou o assunto ao ouvinte específico. A repetição de "daí" não tem essa função: ela ocorre independentemente de quem está ouvindo, pois é um recurso estrutural da narrativa oral, não uma escolha feita em função do interlocutor.</p>
+      </div>
+      <div style="background:#fff1f2; border-left:4px solid #e11d48; padding:10px 16px; border-radius:6px; margin-bottom:10px;">
+        <strong>B) "a origem regional do locutor."</strong>
+        <p style="margin:4px 0 0;">"Daí" como marcador discursivo é usado em fala informal por falantes de praticamente todas as regiões do país; não é um traço linguístico que identifique uma região específica, como ocorreria com certos vocábulos ou pronúncias regionais.</p>
+      </div>
+      <div style="background:#fff1f2; border-left:4px solid #e11d48; padding:10px 16px; border-radius:6px; margin-bottom:10px;">
+        <strong>C) "a escolaridade do falante."</strong>
+        <p style="margin:4px 0 0;">Marcadores discursivos como "daí" aparecem na fala espontânea de pessoas com qualquer nível de escolaridade — são um traço da modalidade oral da língua, e não um indício do grau de instrução de quem fala.</p>
+      </div>
+      <div style="background:#fff1f2; border-left:4px solid #e11d48; padding:10px 16px; border-radius:6px; margin-bottom:16px;">
+        <strong>E) "uma ênfase em determinadas partes do discurso."</strong>
+        <p style="margin:4px 0 0;">Ênfase destacaria uma informação específica como mais importante. Já "daí" não realça nenhum trecho em particular: ele aparece de forma recorrente e uniforme, cumprindo a função de <em>sequenciar</em> os eventos da narrativa, não de enfatizá-los.</p>
+      </div>
+
+      <h4 style="color:#7c3aed; margin-top:20px;"><i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha</h4>
+      <div style="background:#f5f3ff; border-left:4px solid #7c3aed; padding:12px 16px; border-radius:6px;">
+        <p style="margin:0;">O ENEM costuma testar exatamente essa confusão: transformar uma marca natural da <strong>oralidade</strong> em suposto "erro de português", "sotaque regional" ou "sinal de pouca escolaridade". Sempre que o texto-base for uma <strong>transcrição de fala</strong> com repetições de palavras curtas ("daí", "aí", "né", "tipo"), desconfie de alternativas que atribuam a repetição a fatores sociais (escolaridade, região) ou que a tratem como desvio — a resposta correta quase sempre reconhece que se trata de uma <strong>estratégia própria da linguagem oral</strong>.</p>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Fala x Escrita",
+      descricao: "Comparação entre as condições de produção da língua falada e da língua escrita.",
+      svg: `<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect x="0" y="0" width="400" height="240" fill="#faf5ff"/>
+        <text x="200" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#4c1d95">Língua Falada x Língua Escrita</text>
+        <rect x="20" y="45" width="170" height="175" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+        <text x="105" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">FALA</text>
+        <text x="105" y="95" text-anchor="middle" font-size="10" fill="#4c1d95">Tempo real</text>
+        <text x="105" y="115" text-anchor="middle" font-size="10" fill="#4c1d95">Hesitações</text>
+        <text x="105" y="135" text-anchor="middle" font-size="10" fill="#4c1d95">Repetições</text>
+        <text x="105" y="155" text-anchor="middle" font-size="10" fill="#4c1d95">Marcadores</text>
+        <text x="105" y="175" text-anchor="middle" font-size="10" fill="#4c1d95">("daí", "né")</text>
+        <text x="105" y="200" text-anchor="middle" font-size="10" fill="#4c1d95">Interlocutor presente</text>
+        <rect x="210" y="45" width="170" height="175" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+        <text x="295" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#334155">ESCRITA</text>
+        <text x="295" y="95" text-anchor="middle" font-size="10" fill="#334155">Planejada</text>
+        <text x="295" y="115" text-anchor="middle" font-size="10" fill="#334155">Revisável</text>
+        <text x="295" y="135" text-anchor="middle" font-size="10" fill="#334155">Sem repetições</text>
+        <text x="295" y="155" text-anchor="middle" font-size="10" fill="#334155">de marcadores</text>
+        <text x="295" y="175" text-anchor="middle" font-size="10" fill="#334155">Conectivos formais</text>
+        <text x="295" y="200" text-anchor="middle" font-size="10" fill="#334155">Sem interlocutor</text>
+        <path d="M190 130 L210 130" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow1)"/>
+        <defs><marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker></defs>
+      </svg>`
+    },
+    {
+      titulo: "O fio da narrativa: cada 'daí' conectando um evento",
+      descricao: "Destaque das ocorrências de 'daí' no texto, com setas mostrando o encadeamento dos eventos narrados.",
+      svg: `<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect x="0" y="0" width="420" height="260" fill="#ffffff"/>
+        <text x="210" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Sequência de eventos ligados por "daí"</text>
+        <circle cx="45" cy="60" r="8" fill="#7c3aed"/>
+        <text x="60" y="64" font-size="10" fill="#334155">Trocaram as bolsas</text>
+        <path d="M45 68 L45 100" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="55" y="90" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="45" cy="110" r="8" fill="#7c3aed"/>
+        <text x="60" y="114" font-size="10" fill="#334155">Ele leva a bolsa errada</text>
+        <path d="M45 118 L45 150" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="55" y="140" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="45" cy="160" r="8" fill="#7c3aed"/>
+        <text x="60" y="164" font-size="10" fill="#334155">Ele pergunta à moça</text>
+        <path d="M45 168 L45 200" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="55" y="190" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="45" cy="210" r="8" fill="#7c3aed"/>
+        <text x="60" y="214" font-size="10" fill="#334155">Diálogo se desenrola</text>
+        <path d="M230 60 L230 100" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="240" y="90" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="230" cy="60" r="8" fill="#7c3aed"/>
+        <text x="245" y="64" font-size="10" fill="#334155">Ele diz "tá, aham"</text>
+        <circle cx="230" cy="110" r="8" fill="#7c3aed"/>
+        <text x="245" y="114" font-size="10" fill="#334155">Pede a entrevista</text>
+        <path d="M230 118 L230 150" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="240" y="140" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="230" cy="160" r="8" fill="#7c3aed"/>
+        <text x="245" y="164" font-size="10" fill="#334155">Ele deixa entrar</text>
+        <path d="M230 168 L230 200" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow2)"/>
+        <text x="240" y="190" font-size="9" font-weight="bold" fill="#b91c1c">daí</text>
+        <circle cx="230" cy="210" r="8" fill="#7c3aed"/>
+        <text x="245" y="214" font-size="10" fill="#334155">Mulher sobe e canta</text>
+        <defs><marker id="arrow2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#7c3aed"/></marker></defs>
+      </svg>`
+    },
+    {
+      titulo: "Marcadores discursivos mais comuns no português falado",
+      descricao: "Gráfico ilustrativo com marcadores discursivos frequentes na oralidade e sua função.",
+      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect x="0" y="0" width="400" height="260" fill="#faf5ff"/>
+        <text x="200" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Marcadores discursivos frequentes</text>
+        <g>
+          <rect x="30" y="40" width="80" height="26" rx="6" fill="#7c3aed"/>
+          <text x="70" y="58" text-anchor="middle" font-size="11" fill="#fff">"daí"</text>
+          <text x="120" y="58" font-size="10" fill="#334155">sequenciar eventos</text>
+        </g>
+        <g>
+          <rect x="30" y="76" width="80" height="26" rx="6" fill="#8b5cf6"/>
+          <text x="70" y="94" text-anchor="middle" font-size="11" fill="#fff">"aí"</text>
+          <text x="120" y="94" font-size="10" fill="#334155">encadear ideias</text>
+        </g>
+        <g>
+          <rect x="30" y="112" width="80" height="26" rx="6" fill="#a78bfa"/>
+          <text x="70" y="130" text-anchor="middle" font-size="11" fill="#fff">"né"</text>
+          <text x="120" y="130" font-size="10" fill="#334155">buscar aprovação</text>
+        </g>
+        <g>
+          <rect x="30" y="148" width="80" height="26" rx="6" fill="#c4b5fd"/>
+          <text x="70" y="166" text-anchor="middle" font-size="11" fill="#4c1d95">"tipo"</text>
+          <text x="120" y="166" font-size="10" fill="#334155">exemplificar/aproximar</text>
+        </g>
+        <g>
+          <rect x="30" y="184" width="80" height="26" rx="6" fill="#ddd6fe"/>
+          <text x="70" y="202" text-anchor="middle" font-size="11" fill="#4c1d95">"então"</text>
+          <text x="120" y="202" font-size="10" fill="#334155">concluir/retomar</text>
+        </g>
+        <g>
+          <rect x="30" y="220" width="80" height="26" rx="6" fill="#ede9fe"/>
+          <text x="70" y="238" text-anchor="middle" font-size="11" fill="#4c1d95">"olha"</text>
+          <text x="120" y="238" font-size="10" fill="#334155">chamar atenção</text>
+        </g>
+      </svg>`
+    },
+    {
+      titulo: "Marcador discursivo x erro gramatical",
+      descricao: "Comparativo mostrando a diferença entre um marcador discursivo de oralidade e um erro gramatical de fato.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect x="0" y="0" width="400" height="220" fill="#ffffff"/>
+        <text x="200" y="22" text-anchor="middle" font-size="14" font-weight="bold" fill="#4c1d95">Marcador Discursivo x Erro Gramatical</text>
+        <rect x="20" y="40" width="170" height="160" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+        <text x="105" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">MARCADOR DISCURSIVO</text>
+        <text x="105" y="90" text-anchor="middle" font-size="10" fill="#4c1d95">Ex: "daí", "né"</text>
+        <text x="105" y="112" text-anchor="middle" font-size="10" fill="#4c1d95">Organiza a fala</text>
+        <text x="105" y="132" text-anchor="middle" font-size="10" fill="#4c1d95">Esperado na oralidade</text>
+        <text x="105" y="152" text-anchor="middle" font-size="10" fill="#4c1d95">Não é desvio</text>
+        <text x="105" y="172" text-anchor="middle" font-size="10" fill="#4c1d95">Todos os falantes usam</text>
+        <rect x="210" y="40" width="170" height="160" rx="10" fill="#fff1f2" stroke="#e11d48" stroke-width="2"/>
+        <text x="295" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#9f1239">ERRO GRAMATICAL</text>
+        <text x="295" y="90" text-anchor="middle" font-size="10" fill="#881337">Ex: concordância</text>
+        <text x="295" y="112" text-anchor="middle" font-size="10" fill="#881337">indevida ("os menino")</text>
+        <text x="295" y="132" text-anchor="middle" font-size="10" fill="#881337">Foge à norma-padrão</text>
+        <text x="295" y="152" text-anchor="middle" font-size="10" fill="#881337">em contexto que a exige</text>
+        <text x="295" y="172" text-anchor="middle" font-size="10" fill="#881337">Julgado por norma culta</text>
+        <text x="200" y="205" text-anchor="middle" font-size="10" fill="#334155" font-style="italic">A repetição de "daí" é do primeiro tipo, não do segundo.</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Destacador de Marcadores Discursivos",
+    descricao: "Clique em cada 'daí' do trecho abaixo e descubra a função que ele cumpre na narrativa oral.",
+    html: `<div style="font-family:inherit;">
+      <p style="font-size:13px; color:#4c1d95; margin-bottom:10px;"><i class="fa-solid fa-hand-pointer"></i> Clique em cada palavra <strong>"daí"</strong> destacada no texto para ver a função que ela exerce nessa passagem da narrativa.</p>
+      <div id="q036-texto" style="line-height:2; font-size:14px; background:#faf5ff; border:1px solid #ddd6fe; border-radius:8px; padding:14px;"></div>
+      <div id="q036-feedback" style="margin-top:12px; min-height:60px; background:#f1f5f9; border-radius:8px; padding:12px; font-size:13px; color:#334155;">Clique em uma das palavras destacadas para ver a explicação aqui.</div>
+      <div id="q036-progresso" style="margin-top:10px; font-size:12px; color:#7c3aed; font-weight:bold;"></div>
+    </div>`,
+    init: function (raiz) {
+      var trechos = [
+        { antes: "trocaram as bolsas... ", marcador: "daí", depois: "o homem levou uma bolsa cheia de dinheiro sem ele saber... ", funcao: "Introduzir um novo acontecimento", explicacao: "Aqui 'daí' liga o evento anterior (a troca das bolsas) ao próximo (o homem levando a bolsa errada), organizando a sequência da história." },
+        { antes: "tinha uma moça tentando abrir a porta... ", marcador: "daí", depois: "ele perguntou 'você tá tentando abrir a porta?'... ", funcao: "Retomar a ação e introduzir a fala do personagem", explicacao: "'Daí' sinaliza que a narradora está retomando a cena para inserir uma fala direta do personagem, avançando o diálogo." },
+        { antes: "'não... não'... ", marcador: "daí", depois: "ele disse 'ah... tá... aham'... ", funcao: "Encadear turnos de fala no diálogo", explicacao: "Dentro do próprio diálogo reproduzido, 'daí' marca a passagem de um turno de fala para o outro, como um narrador conduzindo a cena passo a passo." },
+        { antes: "'você quer entrar... então pode entrar'... ", marcador: "daí", depois: "entraram... ", funcao: "Concluir uma etapa e passar à seguinte", explicacao: "Aqui 'daí' fecha o pequeno diálogo e leva a narrativa adiante, para a ação de entrar no lugar." },
+        { antes: "um homem não deixou... ", marcador: "daí", depois: "a mulher pegou... subiu onde o homem estava trabalhando...", funcao: "Sinalizar reação/consequência na história", explicacao: "'Daí' introduz a reação da personagem ao obstáculo anterior, dando continuidade lógica (embora não gramatical-formal) à narrativa." }
+      ];
+
+      var textoDiv = raiz.querySelector("#q036-texto");
+      var feedbackDiv = raiz.querySelector("#q036-feedback");
+      var progressoDiv = raiz.querySelector("#q036-progresso");
+      var clicados = {};
+
+      function atualizarProgresso() {
+        var total = trechos.length;
+        var feitos = Object.keys(clicados).length;
+        progressoDiv.textContent = "Marcadores explorados: " + feitos + " de " + total;
+      }
+
+      trechos.forEach(function (t, i) {
+        var bloco = document.createElement("span");
+        bloco.style.display = "block";
+        bloco.style.marginBottom = "6px";
+
+        var antesSpan = document.createElement("span");
+        antesSpan.textContent = t.antes;
+        antesSpan.style.color = "#475569";
+
+        var marcadorBtn = document.createElement("button");
+        marcadorBtn.type = "button";
+        marcadorBtn.textContent = t.marcador;
+        marcadorBtn.setAttribute("data-idx", String(i));
+        marcadorBtn.style.cssText = "background:#7c3aed;color:#fff;border:none;border-radius:5px;padding:2px 8px;font-weight:bold;cursor:pointer;margin:0 2px;";
+
+        var depoisSpan = document.createElement("span");
+        depoisSpan.textContent = t.depois;
+        depoisSpan.style.color = "#475569";
+
+        marcadorBtn.addEventListener("click", function () {
+          clicados[i] = true;
+          marcadorBtn.style.background = "#16a34a";
+          feedbackDiv.innerHTML =
+            "<strong style='color:#7c3aed;'>Função: " + t.funcao + "</strong><br>" +
+            "<span>" + t.explicacao + "</span>";
+          atualizarProgresso();
+          if (Object.keys(clicados).length === trechos.length) {
+            feedbackDiv.innerHTML +=
+              "<br><br><strong style='color:#16a34a;'><i class=\"fa-solid fa-circle-check\"></i> Você identificou todas as ocorrências! Note que em nenhum momento 'daí' funciona como erro, regionalismo ou marca de escolaridade — em todas elas ele organiza a sequência da narrativa oral.</strong>";
+          }
+        });
+
+        bloco.appendChild(antesSpan);
+        bloco.appendChild(marcadorBtn);
+        bloco.appendChild(depoisSpan);
+        textoDiv.appendChild(bloco);
+      });
+
+      atualizarProgresso();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+    <rect x="0" y="0" width="200" height="100" fill="#faf5ff"/>
+    <circle cx="40" cy="30" r="14" fill="#7c3aed"/>
+    <text x="40" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 1</text>
+    <path d="M54 30 L86 30" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrowD)"/>
+    <text x="70" y="24" text-anchor="middle" font-size="8" fill="#b91c1c" font-weight="bold">daí</text>
+    <circle cx="100" cy="30" r="14" fill="#7c3aed"/>
+    <text x="100" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 2</text>
+    <path d="M114 30 L146 30" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrowD)"/>
+    <text x="130" y="24" text-anchor="middle" font-size="8" fill="#b91c1c" font-weight="bold">daí</text>
+    <circle cx="160" cy="30" r="14" fill="#7c3aed"/>
+    <text x="160" y="34" text-anchor="middle" font-size="9" fill="#fff">evento 3</text>
+    <text x="100" y="70" text-anchor="middle" font-size="10" fill="#4c1d95" font-weight="bold">"daí" = estratégia da fala</text>
+    <text x="100" y="86" text-anchor="middle" font-size="9" fill="#4c1d95">encadeia eventos na narrativa oral</text>
+    <defs><marker id="arrowD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/></marker></defs>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q037",
+  numero: 37,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Intertextualidade",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "Os Doze Trabalhos: do mito à minicrônica",
+  tags: ["Intertextualidade", "Mitologia", "Paródia", "Gêneros Textuais", "Interpretação de Texto", "ENEM 2025"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `
+    <p><strong>TEXTO I</strong></p>
+    <p style="text-align:center;"><strong>Os Doze Trabalhos de Hércules</strong></p>
+    <p>Hércules é uma figura lendária da mitologia greco-romana. Ele é frequentemente retratado como um herói de força sobre-humana e coragem, filho de Zeus, o rei dos deuses, e Alcmena, uma mulher mortal. O mito relata os Doze Trabalhos impostos a ele como uma forma de expiação pelos crimes cometidos durante um acesso de loucura, causado pela deusa Hera, esposa de Zeus. Os Doze Trabalhos são: matar o Leão de Nemeia; matar a Hidra de Lerna; capturar a corça de Cerineia; capturar o javali de Erimanto; limpar os estábulos de Áugias; matar as aves do lago Estínfalo; matar o touro de Creta; capturar os cavalos de Diomedes; roubar o cinturão de Hipólita, a rainha das Amazonas; capturar o gado de Gérion; capturar os pomos de ouro do Jardim das Hespérides; capturar o cão de Hades, Cérbero.</p>
+    <p><em>HERTEL, R. Mitologia. Disponível em: https://osmelhoreslivros.com.br. Acesso em: 4 jan. 2020 [adaptado].</em></p>
+    <br><br>
+    <p><strong>TEXTO II</strong></p>
+    <p style="text-align:center;"><strong>Os Doze Trabalhos</strong></p>
+    <p>O que lhe faltava de estudo lhe sobrava de boa vontade e inteligência. No escritório improvisado na salinha da casa, anunciava seus serviços de bombeiro hidráulico e eletricista. Nas horas vagas entregava panfletos e lavava carros. Quando a cidade fervia com alguma festa, postava-se à entrada vendendo cerveja. Se fosse algum show infantil, cocadas. Aos sábados, era pedreiro e, aos domingos, conservava um jardim de uma mansão, além de tratar da piscina e dos cachorros. Nas férias, abrigava-se na fazenda dos donos da mansão, onde trabalhava como caseiro e motorista. Seu nome: João Antonio da Silva. Mas podia chamar de Hércules.</p>
+    <p><em>FERREIRA, G. V. Os doze trabalhos. Disponível em: www.minicontos.com.br. Acesso em: 15 jul. 2015 [adaptado].</em></p>
+    <br><br>
+    <p><strong>A comparação entre os textos I e II indica que o(a)</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "intertextualidade com o mito apresentado no Texto I é um recurso presente no Texto II.", correta: true },
+    { letra: "B", texto: "narração de fatos do Texto II sintetiza os acontecimentos retratados no Texto I.", correta: false },
+    { letra: "C", texto: "vocabulário empregado no Texto II é ancorado em conhecimento literário.", correta: false },
+    { letra: "D", texto: "tema do trabalho como reparação é abordado em ambos os textos.", correta: false },
+    { letra: "E", texto: "marcação temporal no passado predomina em ambos os textos.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:rgba(139,92,246,0.08); border-radius:8px; margin-bottom:16px;">
+      <h3 style="color:#8b5cf6; margin-top:0;"><i class="fa-solid fa-link" style="margin-right:8px;"></i>1. O que é Intertextualidade?</h3>
+      <p>Intertextualidade é o diálogo que um texto estabelece com outro(s) texto(s) já existentes, seja retomando ideias, estruturas, personagens ou expressões conhecidas do repertório cultural do leitor. Ela pode ocorrer de forma explícita (quando a fonte é citada) ou implícita (quando exige que o leitor reconheça a referência por conta própria).</p>
+      <p>Principais tipos de intertextualidade cobrados no ENEM:</p>
+      <ul>
+        <li><strong>Paródia</strong>: retoma um texto para subvertê-lo, geralmente com tom crítico, cômico ou irônico.</li>
+        <li><strong>Paráfrase</strong>: reescreve um texto reafirmando a mesma ideia, sem contestá-la.</li>
+        <li><strong>Citação</strong>: reproduz trecho ou ideia de outro texto, com ou sem indicação explícita da fonte.</li>
+        <li><strong>Alusão</strong>: menciona de forma indireta um elemento (nome, fato, imagem) de outro texto, contando com o repertório do leitor para ser compreendida.</li>
+      </ul>
+    </div>
+
+    <div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:rgba(139,92,246,0.08); border-radius:8px; margin-bottom:16px;">
+      <h3 style="color:#8b5cf6; margin-top:0;"><i class="fa-solid fa-magnifying-glass" style="margin-right:8px;"></i>2. Reconhecendo Intertextualidade entre Gêneros Diferentes</h3>
+      <p>Um mito clássico e uma minicrônica contemporânea são gêneros textuais muito distintos: o primeiro narra feitos sobre-humanos de um herói divino; o segundo retrata o cotidiano banal de uma pessoa comum. Mesmo assim, a intertextualidade acontece quando o texto mais recente recupera de forma deliberada elementos do texto antigo, como:</p>
+      <ul>
+        <li>o título ("Os Doze Trabalhos");</li>
+        <li>o nome do personagem ("Hércules");</li>
+        <li>a estrutura de enumeração de tarefas variadas.</li>
+      </ul>
+      <p>Para identificar esse diálogo, pergunte-se: "o texto novo faria sentido pleno para quem nunca ouviu falar do texto antigo?" Se a resposta for não — se falta alguma peça de sentido sem o conhecimento do texto-fonte — há intertextualidade.</p>
+    </div>
+
+    <div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:rgba(139,92,246,0.08); border-radius:8px; margin-bottom:16px;">
+      <h3 style="color:#8b5cf6; margin-top:0;"><i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;"></i>3. Erros Comuns</h3>
+      <ul>
+        <li><strong>Confundir intertextualidade com síntese de fatos</strong>: o Texto II não resume os acontecimentos do Texto I; ele cria uma história nova e independente, apenas emprestando referências dele.</li>
+        <li><strong>Confundir intertextualidade com vocabulário erudito</strong>: usar palavras "cultas" não é, por si só, prova de diálogo com outro texto. O Texto II, aliás, usa linguagem simples e coloquial — a referência está no conteúdo (nome e título), não no nível de vocabulário.</li>
+      </ul>
+    </div>
+
+    <div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:rgba(139,92,246,0.08); border-radius:8px;">
+      <h3 style="color:#8b5cf6; margin-top:0;"><i class="fa-solid fa-lightbulb" style="margin-right:8px;"></i>4. Dica Prática</h3>
+      <p>Ao comparar dois textos numa questão do ENEM, faça uma lista rápida de elementos repetidos (nomes próprios, títulos, expressões, estruturas). Se algum desses elementos só "faz sentido completo" à luz do outro texto, você encontrou a intertextualidade — e ela costuma ser a resposta certa quando aparece como opção.</p>
+    </div>
+  `,
+  conceitos: ["Intertextualidade", "Paródia", "Alusão", "Gêneros Textuais", "Mito Clássico"],
+  resolucaoHtml: `
+    <div style="background:rgba(34,197,94,0.1); border-left:4px solid #22c55e; padding:12px 16px; border-radius:8px; margin-bottom:16px;">
+      <h4 style="color:#22c55e; margin-top:0;"><i class="fa-solid fa-check-circle"></i> Alternativa A (correta)</h4>
+      <p>O Texto II se chama "Os Doze Trabalhos" — mesmo título temático do Texto I — e apelida o personagem João Antonio da Silva, um trabalhador comum que acumula tarefas variadas (bombeiro hidráulico, eletricista, vendedor de panfletos, vendedor de cerveja e cocadas, pedreiro, jardineiro, caseiro, motorista), de "Hércules". Essa retomada do nome do herói mitológico e da estrutura de "trabalhos múltiplos" só faz sentido pleno para quem conhece o Texto I: trata-se de uma clara <strong>alusão/paródia</strong>, ou seja, de <strong>intertextualidade</strong> explícita entre os dois textos.</p>
+    </div>
+
+    <div style="background:rgba(239,68,68,0.08); border-left:4px solid #ef4444; padding:12px 16px; border-radius:8px; margin-bottom:16px;">
+      <h4 style="color:#ef4444; margin-top:0;"><i class="fa-solid fa-xmark"></i> Por que as outras estão erradas</h4>
+      <p><strong>B)</strong> O Texto II não resume nem sintetiza os fatos do Texto I; ele conta uma história independente, sobre uma pessoa comum, apenas emprestando o nome e o título do mito. Não há síntese de acontecimentos, e sim recriação com novo sentido.</p>
+      <p><strong>C)</strong> O vocabulário do Texto II é simples e coloquial (fala de bombeiro hidráulico, panfletos, cocadas), não erudito. A referência ao mito está no conteúdo (nome "Hércules" e título), e não no nível de linguagem empregado.</p>
+      <p><strong>D)</strong> No Texto I, os trabalhos de Hércules são uma punição/expiação por crimes cometidos, não uma "reparação" no sentido de trabalho profissional. No Texto II, João Antonio simplesmente exerce vários ofícios para sobreviver. Os sentidos de "trabalho" nos dois textos não coincidem como reparação de uma falta.</p>
+      <p><strong>E)</strong> O Texto I é majoritariamente narrado no presente do indicativo ("é uma figura lendária", "é frequentemente retratado", "são"), enquanto o Texto II é narrado no pretérito imperfeito e perfeito ("faltava", "sobrava", "anunciava", "postava-se"). Não há predomínio uniforme do passado nos dois textos.</p>
+    </div>
+
+    <div style="background:rgba(139,92,246,0.08); border-left:4px solid #8b5cf6; padding:12px 16px; border-radius:8px;">
+      <h4 style="color:#8b5cf6; margin-top:0;"><i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha</h4>
+      <p>Questões de intertextualidade tentam confundir o candidato oferecendo alternativas sobre "semelhança de conteúdo" (como D) ou "estilo de linguagem" (como C), que parecem plausíveis mas não descrevem o verdadeiro fenômeno cobrado: a <strong>retomada consciente de um texto por outro</strong>. Sempre procure o elemento concreto que um texto "empresta" do outro (nome, título, estrutura) — é esse empréstimo, e não a semelhança temática genérica, que caracteriza a intertextualidade.</p>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Os 12 Trabalhos: Mito x Cotidiano",
+      descricao: "Comparação lado a lado entre os trabalhos de Hércules e as tarefas de João Antonio.",
+      svg: `<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect width="600" height="380" fill="#faf5ff"/>
+        <text x="150" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#6d28d9">Hércules (mito)</text>
+        <text x="450" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#6d28d9">João Antonio (hoje)</text>
+        <line x1="300" y1="45" x2="300" y2="365" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="6,6"/>
+        <g font-size="12" fill="#4c1d95">
+          <text x="20" y="60">Leão de Nemeia</text>
+          <text x="20" y="85">Hidra de Lerna</text>
+          <text x="20" y="110">Corça de Cerineia</text>
+          <text x="20" y="135">Javali de Erimanto</text>
+          <text x="20" y="160">Estábulos de Áugias</text>
+          <text x="20" y="185">Aves do lago Estínfalo</text>
+          <text x="20" y="210">Touro de Creta</text>
+          <text x="20" y="235">Cavalos de Diomedes</text>
+          <text x="20" y="260">Cinturão de Hipólita</text>
+          <text x="20" y="285">Gado de Gérion</text>
+          <text x="20" y="310">Pomos das Hespérides</text>
+          <text x="20" y="335">Cão Cérbero</text>
+        </g>
+        <g font-size="12" fill="#4c1d95">
+          <text x="320" y="60">Bombeiro hidráulico</text>
+          <text x="320" y="85">Eletricista</text>
+          <text x="320" y="110">Entregador de panfletos</text>
+          <text x="320" y="135">Lavador de carros</text>
+          <text x="320" y="160">Vendedor de cerveja</text>
+          <text x="320" y="185">Vendedor de cocadas</text>
+          <text x="320" y="210">Pedreiro (sábados)</text>
+          <text x="320" y="235">Jardineiro (domingos)</text>
+          <text x="320" y="260">Cuidador da piscina</text>
+          <text x="320" y="285">Cuidador dos cachorros</text>
+          <text x="320" y="310">Caseiro (férias)</text>
+          <text x="320" y="335">Motorista (férias)</text>
+        </g>
+        <rect x="10" y="345" width="580" height="25" fill="#8b5cf6" rx="4"/>
+        <text x="300" y="362" text-anchor="middle" font-size="12" fill="#ffffff">Multiplicidade de tarefas: o traço comum que gera a intertextualidade</text>
+      </svg>`
+    },
+    {
+      titulo: "Diagrama da Intertextualidade",
+      descricao: "Esquema com setas mostrando o diálogo entre o Texto I e o Texto II.",
+      svg: `<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect width="500" height="300" fill="#faf5ff"/>
+        <rect x="30" y="40" width="180" height="90" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="120" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">TEXTO I</text>
+        <text x="120" y="92" text-anchor="middle" font-size="11" fill="#4c1d95">Mito de Hércules</text>
+        <text x="120" y="108" text-anchor="middle" font-size="11" fill="#4c1d95">"Os Doze Trabalhos"</text>
+
+        <rect x="290" y="40" width="180" height="90" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+        <text x="380" y="70" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b21b6">TEXTO II</text>
+        <text x="380" y="92" text-anchor="middle" font-size="11" fill="#4c1d95">Minicrônica de João</text>
+        <text x="380" y="108" text-anchor="middle" font-size="11" fill="#4c1d95">"Os Doze Trabalhos"</text>
+
+        <line x1="210" y1="85" x2="290" y2="85" stroke="#8b5cf6" stroke-width="3" marker-end="url(#arrow)"/>
+        <line x1="290" y1="105" x2="210" y2="105" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4,4" marker-end="url(#arrow2)"/>
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#8b5cf6"/></marker>
+          <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#a78bfa"/></marker>
+        </defs>
+        <text x="250" y="150" text-anchor="middle" font-size="12" fill="#6d28d9">nome "Hércules" +</text>
+        <text x="250" y="166" text-anchor="middle" font-size="12" fill="#6d28d9">título retomado</text>
+        <rect x="130" y="200" width="240" height="70" rx="10" fill="#fef9c3" stroke="#eab308" stroke-width="2"/>
+        <text x="250" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#854d0e">INTERTEXTUALIDADE</text>
+        <text x="250" y="248" text-anchor="middle" font-size="11" fill="#713f12">alusão/paródia ao mito clássico</text>
+        <line x1="250" y1="130" x2="250" y2="200" stroke="#eab308" stroke-width="2" stroke-dasharray="3,3"/>
+      </svg>`
+    },
+    {
+      titulo: "Linha do Tempo: Mito à Paródia",
+      descricao: "Trajetória do mito clássico grego até sua releitura na crônica contemporânea.",
+      svg: `<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect width="560" height="220" fill="#faf5ff"/>
+        <line x1="40" y1="120" x2="520" y2="120" stroke="#8b5cf6" stroke-width="3"/>
+        <circle cx="80" cy="120" r="10" fill="#7c3aed"/>
+        <text x="80" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">Séc. VIII a.C.</text>
+        <text x="80" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Mito grego</text>
+        <text x="80" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">12 trabalhos de Hércules</text>
+
+        <circle cx="230" cy="120" r="10" fill="#7c3aed"/>
+        <text x="230" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">Séculos seguintes</text>
+        <text x="230" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Tradição cultural</text>
+        <text x="230" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">herói vira símbolo popular</text>
+
+        <circle cx="380" cy="120" r="10" fill="#7c3aed"/>
+        <text x="380" y="100" text-anchor="middle" font-size="11" fill="#4c1d95">2015</text>
+        <text x="380" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#4c1d95">Minicrônica</text>
+        <text x="380" y="164" text-anchor="middle" font-size="10" fill="#6d28d9">"Os doze trabalhos" (Ferreira)</text>
+
+        <circle cx="500" cy="120" r="10" fill="#f59e0b"/>
+        <text x="500" y="100" text-anchor="middle" font-size="11" fill="#92400e">Hoje</text>
+        <text x="500" y="150" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">Releitura irônica</text>
+        <text x="500" y="164" text-anchor="middle" font-size="10" fill="#92400e">João Antonio = "Hércules"</text>
+      </svg>`
+    },
+    {
+      titulo: "Mapa dos Tipos de Intertextualidade",
+      descricao: "Visão geral dos quatro tipos de intertextualidade mais cobrados.",
+      svg: `<svg viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+        <rect width="500" height="320" fill="#faf5ff"/>
+        <circle cx="250" cy="160" r="55" fill="#8b5cf6"/>
+        <text x="250" y="156" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">INTER-</text>
+        <text x="250" y="172" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">TEXTUALIDADE</text>
+
+        <rect x="30" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+        <text x="105" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Paródia</text>
+        <text x="105" y="62" text-anchor="middle" font-size="9" fill="#4c1d95">subverte com crítica/humor</text>
+        <line x1="180" y1="60" x2="220" y2="130" stroke="#8b5cf6" stroke-width="1.5"/>
+
+        <rect x="320" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+        <text x="395" y="45" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Paráfrase</text>
+        <text x="395" y="62" text-anchor="middle" font-size="9" fill="#4c1d95">reafirma a mesma ideia</text>
+        <line x1="320" y1="60" x2="280" y2="130" stroke="#8b5cf6" stroke-width="1.5"/>
+
+        <rect x="30" y="240" width="150" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+        <text x="105" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b21b6">Citação</text>
+        <text x="105" y="282" text-anchor="middle" font-size="9" fill="#4c1d95">reproduz trecho de outro texto</text>
+        <line x1="180" y1="260" x2="220" y2="190" stroke="#8b5cf6" stroke-width="1.5"/>
+
+        <rect x="320" y="240" width="150" height="60" rx="8" fill="#fef9c3" stroke="#eab308"/>
+        <text x="395" y="265" text-anchor="middle" font-size="12" font-weight="bold" fill="#854d0e">Alusão *</text>
+        <text x="395" y="282" text-anchor="middle" font-size="9" fill="#713f12">referência indireta (Texto II)</text>
+        <line x1="320" y1="260" x2="280" y2="190" stroke="#eab308" stroke-width="2"/>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Comparador de Trabalhos: Hércules x João Antonio",
+    descricao: "Associe cada um dos 12 trabalhos de Hércules ao ofício correspondente de João Antonio e veja a intertextualidade em ação.",
+    html: '<div id="q037-sim-root" style="font-family:sans-serif;"></div>',
+    init: function (raiz) {
+      var container = raiz.querySelector ? raiz.querySelector("#q037-sim-root") : null;
+      if (!container) container = raiz;
+
+      var trabalhosHercules = [
+        "Matar o Leão de Nemeia",
+        "Matar a Hidra de Lerna",
+        "Capturar a corça de Cerineia",
+        "Capturar o javali de Erimanto",
+        "Limpar os estábulos de Áugias",
+        "Matar as aves do lago Estínfalo",
+        "Matar o touro de Creta",
+        "Capturar os cavalos de Diomedes",
+        "Roubar o cinturão de Hipólita",
+        "Capturar o gado de Gérion",
+        "Capturar os pomos das Hespérides",
+        "Capturar o cão Cérbero"
+      ];
+
+      var trabalhosJoao = [
+        "Bombeiro hidráulico",
+        "Eletricista",
+        "Entregador de panfletos",
+        "Lavador de carros",
+        "Vendedor de cerveja em festas",
+        "Vendedor de cocadas",
+        "Pedreiro aos sábados",
+        "Jardineiro aos domingos",
+        "Cuidador da piscina",
+        "Cuidador dos cachorros",
+        "Caseiro na fazenda",
+        "Motorista na fazenda"
+      ];
+
+      // embaralha uma cópia do array de João para o exercício de associação
+      function embaralhar(arr) {
+        var copia = arr.slice();
+        for (var i = copia.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = copia[i];
+          copia[i] = copia[j];
+          copia[j] = tmp;
+        }
+        return copia;
+      }
+
+      var joaoEmbaralhado = embaralhar(trabalhosJoao);
+      var associacoes = {};
+      var acertos = 0;
+
+      var wrapper = document.createElement("div");
+      wrapper.style.padding = "16px";
+      wrapper.style.background = "#faf5ff";
+      wrapper.style.borderRadius = "12px";
+      wrapper.style.border = "2px solid #c4b5fd";
+
+      var titulo = document.createElement("h4");
+      titulo.textContent = "Associe cada trabalho de Hércules ao ofício equivalente de João Antonio";
+      titulo.style.color = "#6d28d9";
+      titulo.style.marginTop = "0";
+      wrapper.appendChild(titulo);
+
+      var instrucao = document.createElement("p");
+      instrucao.textContent = "Escolha, no menu ao lado de cada trabalho mitológico, o ofício moderno que você acha equivalente. Depois clique em Verificar.";
+      instrucao.style.fontSize = "13px";
+      instrucao.style.color = "#4c1d95";
+      wrapper.appendChild(instrucao);
+
+      var lista = document.createElement("div");
+      lista.style.display = "flex";
+      lista.style.flexDirection = "column";
+      lista.style.gap = "8px";
+      lista.style.marginTop = "12px";
+
+      var selects = [];
+
+      trabalhosHercules.forEach(function (trabalho, idx) {
+        var linha = document.createElement("div");
+        linha.style.display = "flex";
+        linha.style.alignItems = "center";
+        linha.style.justifyContent = "space-between";
+        linha.style.background = "#ffffff";
+        linha.style.border = "1px solid #ddd6fe";
+        linha.style.borderRadius = "8px";
+        linha.style.padding = "8px 12px";
+        linha.style.gap = "10px";
+        linha.style.flexWrap = "wrap";
+
+        var label = document.createElement("span");
+        label.textContent = trabalho;
+        label.style.fontSize = "13px";
+        label.style.color = "#312e81";
+        label.style.flex = "1";
+        label.style.minWidth = "180px";
+
+        var select = document.createElement("select");
+        select.style.padding = "4px 8px";
+        select.style.borderRadius = "6px";
+        select.style.border = "1px solid #a78bfa";
+        select.dataset.idx = String(idx);
+
+        var optVazia = document.createElement("option");
+        optVazia.value = "";
+        optVazia.textContent = "-- escolha --";
+        select.appendChild(optVazia);
+
+        joaoEmbaralhado.forEach(function (op) {
+          var opt = document.createElement("option");
+          opt.value = op;
+          opt.textContent = op;
+          select.appendChild(opt);
+        });
+
+        selects.push(select);
+        linha.appendChild(label);
+        linha.appendChild(select);
+        lista.appendChild(linha);
+      });
+
+      wrapper.appendChild(lista);
+
+      var botao = document.createElement("button");
+      botao.textContent = "Verificar associações";
+      botao.style.marginTop = "14px";
+      botao.style.padding = "8px 16px";
+      botao.style.background = "#8b5cf6";
+      botao.style.color = "#ffffff";
+      botao.style.border = "none";
+      botao.style.borderRadius = "8px";
+      botao.style.cursor = "pointer";
+      botao.style.fontWeight = "bold";
+      wrapper.appendChild(botao);
+
+      var resultado = document.createElement("div");
+      resultado.style.marginTop = "14px";
+      resultado.style.padding = "12px";
+      resultado.style.borderRadius = "8px";
+      resultado.style.fontSize = "13px";
+      resultado.style.display = "none";
+      wrapper.appendChild(resultado);
+
+      // Nota pedagógica: como não há um mapeamento 1-para-1 "oficial" entre um
+      // trabalho de Hércules específico e um ofício de João Antonio, o simulador
+      // avalia se o usuário conseguiu, sem repetir, associar CADA trabalho mitológico
+      // a UM ofício moderno diferente -- reforçando a ideia central: assim como
+      // Hércules acumulou 12 tarefas heterogêneas, João Antonio também acumula
+      // 12 ofícios heterogêneos, e é essa multiplicidade de "trabalhos" que o Texto II
+      // retoma do Texto I, criando a intertextualidade.
+      botao.addEventListener("click", function () {
+        var usados = {};
+        var completos = 0;
+        var semRepeticao = true;
+
+        selects.forEach(function (select) {
+          var valor = select.value;
+          if (valor) {
+            completos++;
+            if (usados[valor]) {
+              semRepeticao = false;
+              select.style.borderColor = "#ef4444";
+            } else {
+              usados[valor] = true;
+              select.style.borderColor = "#22c55e";
+            }
+          } else {
+            select.style.borderColor = "#a78bfa";
+          }
+        });
+
+        resultado.style.display = "block";
+
+        if (completos < trabalhosHercules.length) {
+          resultado.style.background = "rgba(234,179,8,0.15)";
+          resultado.style.color = "#854d0e";
+          resultado.textContent = "Faltam " + (trabalhosHercules.length - completos) + " associações. Complete todas para ver o resultado final.";
+          return;
+        }
+
+        if (!semRepeticao) {
+          resultado.style.background = "rgba(239,68,68,0.12)";
+          resultado.style.color = "#991b1b";
+          resultado.textContent = "Você repetiu algum ofício de João Antonio em mais de um trabalho de Hércules (destacado em vermelho). Assim como o mito, cada trabalho deve corresponder a um ofício diferente -- ajuste e tente de novo.";
+          return;
+        }
+
+        acertos++;
+        resultado.style.background = "rgba(34,197,94,0.12)";
+        resultado.style.color = "#166534";
+        resultado.innerHTML =
+          "<strong>Muito bem!</strong> Você associou os 12 trabalhos de Hércules a 12 ofícios distintos de João Antonio, sem repetições -- exatamente como o Texto II faz ao apelidar João de \"Hércules\". " +
+          "Essa multiplicidade de tarefas heterogêneas é o elemento que o Texto II <strong>retoma do Texto I</strong>, caracterizando a <strong>intertextualidade</strong> (alusão/paródia) cobrada na alternativa A.";
+      });
+
+      var reiniciar = document.createElement("button");
+      reiniciar.textContent = "Embaralhar de novo";
+      reiniciar.style.marginTop = "8px";
+      reiniciar.style.marginLeft = "8px";
+      reiniciar.style.padding = "8px 16px";
+      reiniciar.style.background = "#ffffff";
+      reiniciar.style.color = "#6d28d9";
+      reiniciar.style.border = "2px solid #8b5cf6";
+      reiniciar.style.borderRadius = "8px";
+      reiniciar.style.cursor = "pointer";
+      reiniciar.addEventListener("click", function () {
+        selects.forEach(function (select) {
+          select.value = "";
+          select.style.borderColor = "#a78bfa";
+        });
+        resultado.style.display = "none";
+      });
+      wrapper.appendChild(reiniciar);
+
+      container.innerHTML = "";
+      container.appendChild(wrapper);
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+    <rect width="200" height="100" fill="#faf5ff"/>
+    <rect x="10" y="20" width="70" height="35" rx="6" fill="#ede9fe" stroke="#8b5cf6"/>
+    <text x="45" y="41" text-anchor="middle" font-size="9" fill="#5b21b6">Texto I: Mito</text>
+    <rect x="120" y="20" width="70" height="35" rx="6" fill="#ede9fe" stroke="#8b5cf6"/>
+    <text x="155" y="41" text-anchor="middle" font-size="9" fill="#5b21b6">Texto II: Crônica</text>
+    <line x1="80" y1="37" x2="120" y2="37" stroke="#8b5cf6" stroke-width="2" marker-end="url(#a1)"/>
+    <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#8b5cf6"/></marker></defs>
+    <text x="100" y="70" text-anchor="middle" font-size="9" fill="#6d28d9">"Hércules" + título</text>
+    <text x="100" y="85" text-anchor="middle" font-size="9" font-weight="bold" fill="#6d28d9">= intertextualidade</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q038",
+  numero: 38,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Coesão Textual e Referenciação",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "O asteroide que ninguém viu chegar",
+  tags: ["Coesão Textual", "Referenciação", "Anáfora", "Crônica", "Interpretação de Texto", "ENEM 2025"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `
+    <div class="texto-base">
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.1</span>
+        "O mais assustador do meteoro que cruzou o céu da Sibéria e explodiu no ar como
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.2</span>
+        várias bombas atômicas é que ele chegou sem ser anunciado. Com todas as atenções
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.3</span>
+        voltadas para o outro asteroide, o que passou de raspão, o asteroide da Sibéria entrou pela
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.4</span>
+        porta dos fundos sem ser detectado. A desculpa é que era pequeno demais para chamar a
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.5</span>
+        atenção e por isso os alarmes não funcionaram. Nosso iludido, até agora, era que qualquer
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.6</span>
+        detrito espacial que se aproximasse de nós seria identificado e rotulado, e sua trajetória
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.7</span>
+        calculada até o último milímetro com grande antecedência, o que nos daria tempo para
+      </p>
+      <p style="margin-bottom:10px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.8</span>
+        preparar o espírito — ou usar nossos cartões de crédito até o limite — no caso de colisão
+      </p>
+      <p style="margin-bottom:14px;">
+        <span style="display:inline-block;background:#7c3aed;color:#fff;border-radius:4px;padding:1px 8px;font-size:12px;font-weight:700;margin-right:6px;">l.9</span>
+        com a Terra ser inevitável."
+      </p>
+      <p style="margin-bottom:16px;"><em>VERÍSSIMO, L. F. Disponível em: www.estadao.com.br. Acesso em: 1 mar. 2013.</em></p>
+      <p><strong>Com base na organização coesiva desse texto, o(a)</strong></p>
+    </div>
+  `,
+  alternativas: [
+    { letra: "A", texto: "oração \"que passou de raspão\" (l. 3) refere-se ao \"meteoro que cruzou o céu da Sibéria\" (l. 1).", correta: false },
+    { letra: "B", texto: "expressão \"sua trajetória\" (l. 6) refere-se ao elemento textual \"qualquer detrito espacial\" (l. 5-6).", correta: true },
+    { letra: "C", texto: "palavra \"isso\" (l. 5) remete ao segmento textual posterior \"os alarmes não funcionaram\" (l. 5).", correta: false },
+    { letra: "D", texto: "pronome \"o\" em \"o que nos daria tempo\" (l. 7) remete a \"ou usar nossos cartões de crédito\" (l. 8).", correta: false },
+    { letra: "E", texto: "fragmento \"o asteroide da Sibéria\" (l. 3) introduz um elemento novo no texto.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="font-family:inherit;">
+      <section style="margin-bottom:20px;padding:16px;border-left:4px solid #7c3aed;background:#f5f3ff;border-radius:8px;">
+        <h3 style="color:#6d28d9;margin:0 0 8px;"><i class="fa-solid fa-link" style="margin-right:8px;"></i>1. O que é coesão referencial?</h3>
+        <p>Coesão textual é o conjunto de mecanismos linguísticos que amarram as partes de um texto entre si, garantindo que ele seja compreendido como uma unidade e não como frases soltas. Um dos principais mecanismos é a <strong>coesão referencial</strong>: o uso de pronomes, advérbios e expressões nominais para retomar (ou anunciar) elementos já citados (ou que serão citados) no texto, evitando repetições desnecessárias.</p>
+        <p>Quando o elemento retomado <strong>já apareceu antes</strong> no texto, o mecanismo é chamado de <strong>anáfora</strong>. Quando o elemento é <strong>anunciado depois</strong>, chama-se <strong>catáfora</strong>. A esmagadora maioria dos casos cobrados no ENEM é de anáfora.</p>
+      </section>
+
+      <section style="margin-bottom:20px;padding:16px;border-left:4px solid #7c3aed;background:#f5f3ff;border-radius:8px;">
+        <h3 style="color:#6d28d9;margin:0 0 8px;"><i class="fa-solid fa-magnifying-glass" style="margin-right:8px;"></i>2. Como identificar o antecedente correto</h3>
+        <ul style="margin:0;padding-left:20px;">
+          <li>Localize o pronome ou expressão referencial em questão (ex.: "sua trajetória").</li>
+          <li>Volte ao texto e procure, <strong>nas linhas anteriores</strong>, um substantivo ou expressão compatível em gênero, número e sentido.</li>
+          <li>Teste a substituição: troque o pronome pelo candidato a antecedente e verifique se a frase continua fazendo sentido lógico.</li>
+          <li>Desconfie de candidatos apenas "próximos" na frase — a proximidade física nem sempre indica a relação correta de sentido.</li>
+        </ul>
+      </section>
+
+      <section style="margin-bottom:20px;padding:16px;border-left:4px solid #7c3aed;background:#f5f3ff;border-radius:8px;">
+        <h3 style="color:#6d28d9;margin:0 0 8px;"><i class="fa-solid fa-triangle-exclamation" style="margin-right:8px;"></i>3. Erros comuns nas provas</h3>
+        <ul style="margin:0;padding-left:20px;">
+          <li><strong>Confundir o elemento mais próximo com o antecedente correto:</strong> nem sempre a palavra logo antes do pronome é o referente — é preciso checar a coerência semântica, não só a posição.</li>
+          <li><strong>Ignorar a distância entre referente e referido:</strong> um antecedente pode estar a várias linhas de distância, mesmo em textos curtos como crônicas.</li>
+          <li><strong>Trocar anáfora por catáfora:</strong> achar que um elemento remete a algo que vem depois quando, na verdade, ele retoma algo que já foi dito.</li>
+          <li><strong>Achar que toda repetição de palavra é coesão referencial:</strong> às vezes a banca testa se o candidato reconhece que um termo é, na verdade, um elemento novo, não uma retomada.</li>
+        </ul>
+      </section>
+
+      <section style="padding:16px;border-left:4px solid #7c3aed;background:#f5f3ff;border-radius:8px;">
+        <h3 style="color:#6d28d9;margin:0 0 8px;"><i class="fa-solid fa-list-check" style="margin-right:8px;"></i>4. Método passo a passo</h3>
+        <ol style="margin:0;padding-left:20px;">
+          <li>Sublinhe (mentalmente) o pronome/expressão referencial citado na alternativa.</li>
+          <li>Releia a frase que o contém e a(s) frase(s) imediatamente anterior(es).</li>
+          <li>Liste os substantivos candidatos a antecedente presentes nessas linhas.</li>
+          <li>Substitua o pronome por cada candidato e escolha o que preserva o sentido original.</li>
+          <li>Confirme comparando a linha indicada na alternativa com a linha real do antecedente no texto-base.</li>
+        </ol>
+      </section>
+    </div>
+  `,
+  conceitos: ["Coesão Referencial", "Anáfora", "Pronomes", "Retomada Textual", "Elementos Coesivos"],
+  resolucaoHtml: `
+    <div>
+      <div style="padding:14px;background:#ecfdf5;border-left:4px solid #10b981;border-radius:8px;margin-bottom:16px;">
+        <h4 style="color:#047857;margin:0 0 6px;"><i class="fa-solid fa-check-circle"></i> Por que a alternativa B está correta</h4>
+        <p style="margin:0;">A expressão <strong>"sua trajetória" (l. 6)</strong> retoma anaforicamente <strong>"qualquer detrito espacial" (l. 5-6)</strong>. Isso porque "trajetória" é um substantivo que só se aplica a um objeto físico em movimento — e o substantivo mais próximo, semanticamente compatível e imediatamente anterior a "sua trajetória" é exatamente "detrito espacial". Fazendo o teste de substituição: "e a trajetória do detrito espacial calculada até o último milímetro" — a frase mantém perfeito sentido lógico.</p>
+      </div>
+
+      <div style="padding:14px;background:#fef2f2;border-left:4px solid #ef4444;border-radius:8px;margin-bottom:10px;">
+        <h4 style="color:#b91c1c;margin:0 0 6px;"><i class="fa-solid fa-xmark-circle"></i> (A) Errada</h4>
+        <p style="margin:0;">A oração "que passou de raspão" (l. 3) não se refere ao "meteoro que cruzou o céu da Sibéria" (l. 1), e sim a <strong>"o outro asteroide" (l. 3)</strong>, mencionado imediatamente antes dela na mesma linha. O erro típico aqui é ligar a oração ao "assunto geral" do texto (o meteoro da Sibéria) em vez de ao substantivo gramaticalmente mais próximo e coerente.</p>
+      </div>
+
+      <div style="padding:14px;background:#fef2f2;border-left:4px solid #ef4444;border-radius:8px;margin-bottom:10px;">
+        <h4 style="color:#b91c1c;margin:0 0 6px;"><i class="fa-solid fa-xmark-circle"></i> (C) Errada</h4>
+        <p style="margin:0;">"Isso" (l. 5) é um pronome demonstrativo com valor <strong>anafórico</strong>: ele retoma uma ideia já apresentada anteriormente (o fato de o asteroide ser pequeno demais para chamar atenção), e não "remete ao segmento posterior 'os alarmes não funcionaram'". A alternativa inverte a direção da referência, transformando uma anáfora em catáfora — clássica pegadinha.</p>
+      </div>
+
+      <div style="padding:14px;background:#fef2f2;border-left:4px solid #ef4444;border-radius:8px;margin-bottom:10px;">
+        <h4 style="color:#b91c1c;margin:0 0 6px;"><i class="fa-solid fa-xmark-circle"></i> (D) Errada</h4>
+        <p style="margin:0;">O pronome "o" em "o que nos daria tempo" (l. 7) retoma <strong>toda a oração anterior</strong> — o fato de a trajetória ser calculada com grande antecedência —, e não o trecho posterior "usar nossos cartões de crédito" (l. 8). Trata-se de uma retomada anafórica de uma ideia completa, não uma antecipação catafórica de um elemento futuro.</p>
+      </div>
+
+      <div style="padding:14px;background:#fef2f2;border-left:4px solid #ef4444;border-radius:8px;margin-bottom:16px;">
+        <h4 style="color:#b91c1c;margin:0 0 6px;"><i class="fa-solid fa-xmark-circle"></i> (E) Errada</h4>
+        <p style="margin:0;">"O asteroide da Sibéria" (l. 3) não é um elemento novo: é uma <strong>retomada</strong> do "meteoro que cruzou o céu da Sibéria" apresentado logo na linha 1. A crônica usa "meteoro" e depois "asteroide" como sinônimos referenciais para o mesmo objeto, um recurso de coesão lexical combinado com referenciação.</p>
+      </div>
+
+      <div style="padding:14px;background:#eef2ff;border-left:4px solid #6366f1;border-radius:8px;">
+        <h4 style="color:#4338ca;margin:0 0 6px;"><i class="fa-solid fa-lightbulb"></i> Como não cair nessa pegadinha no ENEM</h4>
+        <p style="margin:0;">Questões de coesão referencial quase sempre testam três armadilhas: (1) trocar o antecedente correto pelo elemento mais próximo na leitura superficial; (2) inverter anáfora e catáfora; (3) apresentar como "elemento novo" algo que já foi citado com outro nome (sinônimo ou paráfrase). Sempre releia as linhas indicadas e faça o teste de substituição antes de marcar a alternativa.</p>
+      </div>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Mapa das referências textuais",
+      descricao: "Setas conectam cada expressão referencial ao seu antecedente correto no texto-base.",
+      svg: `<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg">
+        <rect width="600" height="320" fill="#faf5ff"/>
+        <defs>
+          <marker id="arrow1" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/>
+          </marker>
+        </defs>
+        <rect x="20" y="20" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+        <text x="30" y="42" font-size="13" fill="#4c1d95">l.1 "meteoro... Sibéria"</text>
+
+        <rect x="20" y="80" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+        <text x="30" y="102" font-size="13" fill="#4c1d95">l.3 "o outro asteroide"</text>
+
+        <rect x="20" y="140" width="240" height="34" rx="6" fill="#ede9fe" stroke="#7c3aed"/>
+        <text x="30" y="162" font-size="13" fill="#4c1d95">l.5-6 "qualquer detrito espacial"</text>
+
+        <rect x="340" y="20" width="240" height="34" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+        <text x="350" y="42" font-size="13" fill="#6b21a8">l.3 "o asteroide da Sibéria"</text>
+
+        <rect x="340" y="80" width="240" height="34" rx="6" fill="#f3e8ff" stroke="#a855f7"/>
+        <text x="350" y="102" font-size="13" fill="#6b21a8">l.3 "que passou de raspão"</text>
+
+        <rect x="340" y="140" width="240" height="34" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+        <text x="350" y="162" font-size="13" fill="#166534">l.6 "sua trajetória" (correta!)</text>
+
+        <path d="M260,37 C300,37 300,37 340,37" fill="none" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow1)"/>
+        <path d="M260,97 C300,97 300,97 340,97" fill="none" stroke="#a855f7" stroke-width="2" marker-end="url(#arrow1)"/>
+        <path d="M260,157 C300,157 300,157 340,157" fill="none" stroke="#16a34a" stroke-width="3" marker-end="url(#arrow1)"/>
+
+        <rect x="60" y="220" width="480" height="70" rx="10" fill="#fff" stroke="#c4b5fd"/>
+        <text x="80" y="245" font-size="13" fill="#374151">Cada seta liga a expressão referencial (direita)</text>
+        <text x="80" y="265" font-size="13" fill="#374151">ao seu antecedente real no texto (esquerda).</text>
+        <text x="80" y="285" font-size="13" fill="#166534" font-weight="bold">Verde = relação cobrada na alternativa B (correta).</text>
+      </svg>`
+    },
+    {
+      titulo: "Anáfora vs. Catáfora",
+      descricao: "Diagrama didático mostrando a diferença de direção entre os dois tipos de referenciação.",
+      svg: `<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+        <rect width="600" height="260" fill="#faf5ff"/>
+        <text x="300" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#4c1d95">Anáfora vs. Catáfora</text>
+
+        <rect x="30" y="55" width="240" height="80" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+        <text x="150" y="80" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">ANÁFORA</text>
+        <text x="150" y="100" font-size="11" text-anchor="middle" fill="#166534">retoma algo já dito</text>
+        <text x="150" y="118" font-size="11" text-anchor="middle" fill="#166534">(a mais comum no ENEM)</text>
+
+        <text x="40" y="165" font-size="12" fill="#111827">"...detrito espacial... e </text>
+        <text x="180" y="165" font-size="12" font-weight="bold" fill="#166534">sua</text>
+        <text x="200" y="165" font-size="12" fill="#111827">trajetória..."</text>
+        <path d="M100,155 C130,140 150,140 170,155" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowA)"/>
+        <defs>
+          <marker id="arrowA" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/>
+          </marker>
+          <marker id="arrowC" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/>
+          </marker>
+        </defs>
+
+        <rect x="330" y="55" width="240" height="80" rx="8" fill="#dbeafe" stroke="#2563eb"/>
+        <text x="450" y="80" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e3a8a">CATÁFORA</text>
+        <text x="450" y="100" font-size="11" text-anchor="middle" fill="#1e3a8a">anuncia algo que vem depois</text>
+        <text x="450" y="118" font-size="11" text-anchor="middle" fill="#1e3a8a">(mais rara)</text>
+
+        <text x="340" y="165" font-size="12" fill="#111827">"Só </text>
+        <text x="365" y="165" font-size="12" font-weight="bold" fill="#1e3a8a">isto</text>
+        <text x="390" y="165" font-size="12" fill="#111827">importa: prevenir."</text>
+        <path d="M375,155 C400,140 420,140 440,155" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowC)"/>
+
+        <rect x="30" y="190" width="540" height="50" rx="8" fill="#fff" stroke="#c4b5fd"/>
+        <text x="300" y="220" font-size="12" text-anchor="middle" fill="#374151">No texto da questão, "sua trajetória" (l.6) é ANÁFORA: aponta para trás, para "detrito espacial" (l.5-6).</text>
+      </svg>`
+    },
+    {
+      titulo: "Crônica reconstruída com linhas em destaque",
+      descricao: "Reprodução do texto-base com realce visual nas linhas citadas pelas alternativas A a E.",
+      svg: `<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg">
+        <rect width="640" height="340" fill="#ffffff"/>
+        <text x="20" y="25" font-size="13" fill="#111827">l.1  O mais assustador do meteoro que cruzou o céu da Sibéria...</text>
+        <text x="20" y="48" font-size="13" fill="#111827">l.2  várias bombas atômicas é que ele chegou sem ser anunciado...</text>
+        <rect x="14" y="55" width="612" height="20" fill="#fde68a" opacity="0.5"/>
+        <text x="20" y="70" font-size="13" fill="#111827">l.3  voltadas para o outro asteroide, o que passou de raspão, o asteroide da Sibéria...</text>
+        <text x="20" y="93" font-size="13" fill="#111827">l.4  porta dos fundos sem ser detectado. A desculpa é que era pequeno demais...</text>
+        <rect x="14" y="100" width="612" height="20" fill="#fca5a5" opacity="0.45"/>
+        <text x="20" y="115" font-size="13" fill="#111827">l.5  atenção e por isso os alarmes não funcionaram. Nosso iludido, até agora...</text>
+        <rect x="14" y="122" width="612" height="42" fill="#86efac" opacity="0.5"/>
+        <text x="20" y="138" font-size="13" fill="#111827">l.6  detrito espacial que se aproximasse de nós seria identificado e rotulado, e sua trajetória</text>
+        <rect x="14" y="145" width="612" height="20" fill="#93c5fd" opacity="0.5"/>
+        <text x="20" y="160" font-size="13" fill="#111827">l.7  calculada até o último milímetro com grande antecedência, o que nos daria tempo</text>
+        <rect x="14" y="167" width="612" height="20" fill="#93c5fd" opacity="0.35"/>
+        <text x="20" y="182" font-size="13" fill="#111827">l.8  preparar o espírito — ou usar nossos cartões de crédito até o limite...</text>
+        <text x="20" y="205" font-size="13" fill="#111827">l.9  com a Terra ser inevitável."</text>
+
+        <rect x="14" y="230" width="612" height="100" rx="8" fill="#f9fafb" stroke="#d1d5db"/>
+        <rect x="26" y="240" width="14" height="14" fill="#fde68a"/>
+        <text x="46" y="252" font-size="12" fill="#374151">Amarelo: linha citada na alt. A e E (l.3)</text>
+        <rect x="26" y="262" width="14" height="14" fill="#fca5a5"/>
+        <text x="46" y="274" font-size="12" fill="#374151">Vermelho: linha citada na alt. C (l.5)</text>
+        <rect x="26" y="284" width="14" height="14" fill="#86efac"/>
+        <text x="46" y="296" font-size="12" fill="#374151">Verde: linha da resposta correta - alt. B (l.6)</text>
+        <rect x="26" y="306" width="14" height="14" fill="#93c5fd"/>
+        <text x="46" y="318" font-size="12" fill="#374151">Azul: linhas citadas na alt. D (l.7-8)</text>
+      </svg>`
+    },
+    {
+      titulo: "O erro comum: associar ao elemento errado",
+      descricao: "Esquema mostrando a pegadinha de ligar o pronome ao antecedente mais próximo, mas semanticamente incorreto.",
+      svg: `<svg viewBox="0 0 600 260" xmlns="http://www.w3.org/2000/svg">
+        <rect width="600" height="260" fill="#fff7ed"/>
+        <text x="300" y="28" font-size="15" font-weight="bold" text-anchor="middle" fill="#9a3412">Pegadinha clássica de coesão</text>
+
+        <text x="30" y="70" font-size="12" fill="#111827">"...o outro asteroide, </text>
+        <text x="175" y="70" font-size="12" font-weight="bold" fill="#dc2626">que passou de raspão</text>
+        <text x="320" y="70" font-size="12" fill="#111827">, o asteroide da Sibéria..."</text>
+
+        <rect x="30" y="90" width="230" height="40" rx="6" fill="#fee2e2" stroke="#dc2626"/>
+        <text x="145" y="108" font-size="11" text-anchor="middle" fill="#991b1b">ERRO: ligar ao "asteroide</text>
+        <text x="145" y="122" font-size="11" text-anchor="middle" fill="#991b1b">da Sibéria" (mais distante)</text>
+
+        <rect x="330" y="90" width="230" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/>
+        <text x="445" y="108" font-size="11" text-anchor="middle" fill="#166534">CERTO: ligar a "o outro</text>
+        <text x="445" y="122" font-size="11" text-anchor="middle" fill="#166534">asteroide" (mais próximo e coerente)</text>
+
+        <path d="M175,80 C175,90 175,90 175,90" fill="none" stroke="#dc2626" stroke-width="2"/>
+        <line x1="200" y1="80" x2="155" y2="90" stroke="#dc2626" stroke-width="2"/>
+        <line x1="180" y1="80" x2="420" y2="90" stroke="#16a34a" stroke-width="2"/>
+
+        <rect x="30" y="150" width="530" height="90" rx="8" fill="#fff" stroke="#fdba74"/>
+        <text x="45" y="172" font-size="12" fill="#374151">Regra de ouro: nem sempre o antecedente correto está na</text>
+        <text x="45" y="192" font-size="12" fill="#374151">posição mais próxima do texto. É preciso checar sentido e</text>
+        <text x="45" y="212" font-size="12" fill="#374151">coerência semântica, não apenas a distância física entre as palavras.</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Caça-Referentes",
+    descricao: "Clique em uma expressão referencial destacada no texto e descubra qual é o seu antecedente correto.",
+    html: `
+      <div id="caca-referentes-wrap" style="font-family:inherit;">
+        <p style="margin-bottom:10px;color:#4c1d95;font-weight:bold;">
+          <i class="fa-solid fa-hand-pointer"></i> Clique em uma expressão sublinhada para revelar o antecedente:
+        </p>
+        <div id="cr-texto" style="line-height:2.1;padding:14px;background:#faf5ff;border-radius:8px;border:1px solid #ddd6fe;font-size:14px;">
+          <span data-cr="isso" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">O mais assustador do meteoro que cruzou o céu da Sibéria e explodiu no ar como várias bombas atômicas é que ele chegou sem ser anunciado. Com todas as atenções voltadas para <span data-cr="raspao" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">o outro asteroide, o que passou de raspão</span>, o asteroide da Sibéria entrou pela porta dos fundos sem ser detectado. A desculpa é que era pequeno demais para chamar a atenção e por</span> isso os alarmes não funcionaram. Nosso iludido, até agora, era que qualquer detrito espacial que se aproximasse de nós seria identificado e rotulado, e <span data-cr="trajetoria" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">sua trajetória</span> calculada até o último milímetro com grande antecedência, <span data-cr="opronome" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">o que nos daria tempo</span> para preparar o espírito — ou usar nossos cartões de crédito até o limite — no caso de colisão com a Terra ser inevitável."
+        </div>
+        <div id="cr-resultado" style="margin-top:14px;padding:12px;background:#fff;border:2px dashed #c4b5fd;border-radius:8px;min-height:40px;color:#374151;font-size:14px;">
+          Selecione uma expressão acima para ver a explicação aqui.
+        </div>
+      </div>
+    `,
+    init: function (raiz) {
+      var dados = {
+        isso: {
+          antecedente: 'a ideia de que o asteroide "era pequeno demais para chamar a atenção"',
+          explicacao: '"isso" (l.5) é ANÁFORA: retoma a ideia já apresentada na frase anterior, não aponta para o que vem depois.',
+          cor: "#7c3aed"
+        },
+        raspao: {
+          antecedente: '"o outro asteroide" (l.3)',
+          explicacao: 'A oração "que passou de raspão" (l.3) refere-se a "o outro asteroide", mencionado bem antes dela — e não ao "meteoro da Sibéria" (l.1), que é um objeto diferente.',
+          cor: "#7c3aed"
+        },
+        trajetoria: {
+          antecedente: '"qualquer detrito espacial" (l.5-6)',
+          explicacao: 'Resposta da questão! "sua trajetória" (l.6) refere-se a "qualquer detrito espacial" (l.5-6): só um objeto físico tem trajetória calculável, e é o substantivo mais próximo e coerente.',
+          cor: "#16a34a"
+        },
+        opronome: {
+          antecedente: 'toda a oração anterior: "sua trajetória calculada até o último milímetro com grande antecedência"',
+          explicacao: 'O pronome "o" (l.7) retoma a ideia completa da oração anterior (o cálculo antecipado da trajetória) — não antecipa "cartões de crédito", que vem depois.',
+          cor: "#7c3aed"
+        }
+      };
+
+      var spans = raiz.querySelectorAll("[data-cr]");
+      var resultado = raiz.querySelector("#cr-resultado");
+
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].addEventListener("click", function (ev) {
+          var chave = ev.currentTarget.getAttribute("data-cr");
+          var info = dados[chave];
+          if (!info) return;
+
+          for (var j = 0; j < spans.length; j++) {
+            spans[j].style.background = "#ede9fe";
+            spans[j].style.outline = "none";
+          }
+          ev.currentTarget.style.background = "#c4b5fd";
+          ev.currentTarget.style.outline = "2px solid " + info.cor;
+
+          resultado.innerHTML =
+            '<strong style="color:' + info.cor + ';">Antecedente: ' + info.antecedente + '</strong>' +
+            '<p style="margin:8px 0 0;">' + info.explicacao + '</p>';
+        });
+      }
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#faf5ff"/>
+    <rect x="10" y="35" width="70" height="24" rx="4" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="45" y="51" font-size="9" text-anchor="middle" fill="#4c1d95">detrito espacial</text>
+    <rect x="120" y="35" width="70" height="24" rx="4" fill="#dcfce7" stroke="#16a34a"/>
+    <text x="155" y="51" font-size="9" text-anchor="middle" fill="#166534">sua trajetória</text>
+    <path d="M80,47 L118,47" stroke="#16a34a" stroke-width="2" marker-end="url(#arrD)"/>
+    <defs>
+      <marker id="arrD" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#16a34a"/>
+      </marker>
+    </defs>
+    <text x="100" y="85" font-size="8" text-anchor="middle" fill="#6b21a8">coesão referencial (anáfora)</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q039",
+  numero: 39,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Interpretação de Texto e Tema Central",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "Do Rádio ao Podcast: a Permanência de um Meio",
+  tags: ["Interpretação de Texto", "Tema Central", "Texto Expositivo", "Radiojornalismo", "Progressão Temática"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: null,
+
+  enunciado: `<p style="text-align:center;"><strong>Do rádio ao podcast</strong></p><br>
+Desde a disseminação do rádio no Brasil, entre as décadas de 1920 e 1930, principalmente no governo de Getúlio Vargas, as pessoas passaram a dedicar uma parte de seu dia para escutar notícias, novelas, músicas e eventos esportivos em aparelhos de som. O radiojornalismo, por sua vez, teve seu pontapé inicial durante a Revolução Constitucionalista (1932) e se desenvolveu durante a Segunda Guerra Mundial (1939-1945).<br><br>
+Quando a TV surge, esperava-se que o rádio fosse totalmente substituído, porém ele se manteve em alta, pois o sinal de televisão não cobria todos os lugares, diferentemente do rádio. Com o surgimento da internet, dos smartphones e de outros dispositivos móveis, o rádio foi incorporado a essas novas tecnologias até o desenvolvimento do web rádio e do podcast, mostrando-se um meio de comunicação versátil e democrático na área jornalística.<br><br>
+Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não se tornou obsoleto, visto que ele deixou de ser consumido e se reinventou com o tempo. "O podcast é uma continuação, uma evolução natural do rádio", opina.<br><br>
+<em>ALVES, A.; ALVES, C. Disponível em: https://comunica.ufu.br. Acesso em: 19 abr. 2024 [adaptado].</em><br><br>
+<strong>Ao abordar a trajetória dos meios de comunicação, esse texto propõe uma reflexão sobre a</strong>`,
+
+  alternativas: [
+    { letra: "A", texto: "tecnologia digital e seus desdobramentos no desenvolvimento da televisão.", correta: false },
+    { letra: "B", texto: "evolução da tecnologia digital com predomínio do podcast sobre o rádio.", correta: false },
+    { letra: "C", texto: "permanência do rádio e sua evolução por meio da tecnologia digital.", correta: true },
+    { letra: "D", texto: "influência da televisão sobre os programas de radiojornalismo.", correta: false },
+    { letra: "E", texto: "interferência da tecnologia digital nas relações humanas.", correta: false }
+  ],
+
+  materiaCompleta: `
+    <div class="materia-completa">
+      <section class="bloco-conceito" style="border-left:4px solid #7c3aed; padding:12px 16px; background:#f5f3ff; border-radius:8px; margin-bottom:16px;">
+        <h3 style="color:#6d28d9;"><i class="fa-solid fa-key"></i> Conceito-chave: Tema Central</h3>
+        <p>Em um texto dissertativo-expositivo com vários parágrafos, o <strong>tema central</strong> (ou ideia-núcleo) é o fio condutor que atravessa <em>todos</em> os parágrafos, do início ao fim. Não é o assunto de um único parágrafo, mas aquilo que o texto inteiro está, na verdade, argumentando ou demonstrando. Os parágrafos intermediários costumam trazer exemplos, dados históricos ou casos específicos que <strong>servem ao</strong> tema central, sem serem o tema em si.</p>
+      </section>
+
+      <section class="bloco-distincao" style="border-left:4px solid #7c3aed; padding:12px 16px; background:#f5f3ff; border-radius:8px; margin-bottom:16px;">
+        <h3 style="color:#6d28d9;"><i class="fa-solid fa-diagram-project"></i> Como distinguir tema central de detalhes secundários</h3>
+        <p>No texto "Do rádio ao podcast", a progressão apresentada é: <strong>rádio (1920/30) → chegada da TV → internet/smartphones → web rádio/podcast</strong>. Cada uma dessas etapas é um <strong>detalhe</strong> da linha do tempo. O que amarra tudo isso — e é reforçado pela citação final do pesquisador da UFU ("o rádio não se tornou obsoleto... se reinventou com o tempo") — é a ideia de que <strong>o rádio permaneceu relevante e se adaptou</strong> a cada nova tecnologia. Esse é o tema central: não é sobre a TV, nem sobre o podcast isoladamente, é sobre a <strong>permanência e reinvenção do rádio</strong>.</p>
+      </section>
+
+      <section class="bloco-erros" style="border-left:4px solid #dc2626; padding:12px 16px; background:#fef2f2; border-radius:8px; margin-bottom:16px;">
+        <h3 style="color:#b91c1c;"><i class="fa-solid fa-triangle-exclamation"></i> Erros comuns</h3>
+        <p>A pegadinha clássica dessas questões é transformar um <strong>detalhe mencionado</strong> em uma alternativa que parece plausível, mas que só cobre uma parte do texto. Por exemplo: falar apenas da TV (2º parágrafo) ou comparar diretamente rádio e podcast (ignorando o percurso histórico todo) são leituras parciais — corretas quanto ao que dizem, mas erradas como resposta, porque não captam o texto <strong>como um todo</strong>.</p>
+      </section>
+
+      <section class="bloco-dica" style="border-left:4px solid #059669; padding:12px 16px; background:#ecfdf5; border-radius:8px;">
+        <h3 style="color:#047857;"><i class="fa-solid fa-lightbulb"></i> Dica prática</h3>
+        <p>Em textos expositivos com citação de especialista no final, essa citação quase sempre <strong>sintetiza a tese</strong> do texto. Leia a última frase ou a fala entre aspas com atenção redobrada: ela costuma ser o resumo mais confiável do tema central, funcionando como um "gabarito embutido" para a interpretação.</p>
+      </section>
+    </div>
+  `,
+
+  conceitos: ["Tema Central", "Texto Expositivo", "Ideia-Núcleo", "Progressão Temática", "Síntese Argumentativa"],
+
+  resolucaoHtml: `
+    <div class="resolucao">
+      <h3 style="color:#6d28d9;"><i class="fa-solid fa-circle-check"></i> Por que a alternativa C está correta</h3>
+      <p>O texto, do primeiro ao último parágrafo, constrói uma narrativa sobre a <strong>trajetória do rádio</strong>: seu surgimento nas décadas de 1920/1930, sua resistência quando a TV chegou, sua incorporação às tecnologias digitais (internet, smartphones) e, por fim, sua transformação em web rádio e podcast. A citação final do pesquisador da UFU — "o rádio não se tornou obsoleto... se reinventou com o tempo" e "o podcast é uma continuação, uma evolução natural do rádio" — funciona como síntese explícita da tese: o rádio <strong>permaneceu</strong> relevante e <strong>evoluiu</strong> por meio da tecnologia digital. É exatamente isso que a alternativa C afirma.</p>
+
+      <h3 style="color:#b91c1c;"><i class="fa-solid fa-circle-xmark"></i> Por que as demais alternativas estão erradas</h3>
+      <ul>
+        <li><strong>A)</strong> Fala apenas do "desenvolvimento da televisão", um detalhe do 2º parágrafo, e ignora o restante do texto — a TV é mencionada só como um obstáculo que o rádio superou, não é o assunto do texto.</li>
+        <li><strong>B)</strong> Afirma "predomínio do podcast sobre o rádio", o que inverte o sentido do texto: o podcast é apresentado como uma <em>continuação</em> do rádio, não como algo que o supera ou substitui.</li>
+        <li><strong>D)</strong> Restringe-se à "influência da televisão sobre os programas de radiojornalismo", um recorte muito específico que aparece apenas de passagem e não representa o eixo do texto.</li>
+        <li><strong>E)</strong> Generaliza para "interferência da tecnologia digital nas relações humanas", tema que o texto simplesmente não trata — ele fala de meios de comunicação, não de relações humanas.</li>
+      </ul>
+
+      <h3 style="color:#047857;"><i class="fa-solid fa-shield"></i> Como não cair nessa pegadinha</h3>
+      <p>Sempre que uma alternativa mencionar apenas <strong>um</strong> elemento da linha do tempo do texto (só a TV, só o podcast, só o radiojornalismo), desconfie: é provável que seja um detalhe secundário disfarçado de resposta. A alternativa correta de "tema central" precisa resumir o texto <strong>inteiro</strong>, geralmente ecoando a ideia reforçada na conclusão ou na citação final.</p>
+    </div>
+  `,
+
+  galeria: [
+    {
+      titulo: "Linha do tempo: a permanência do rádio",
+      descricao: "Evolução cronológica do rádio até o podcast, destacando que ele nunca desapareceu, apenas se adaptou.",
+      svg: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="180" fill="#f5f3ff"/>
+        <line x1="30" y1="90" x2="370" y2="90" stroke="#7c3aed" stroke-width="4"/>
+        <circle cx="60" cy="90" r="10" fill="#7c3aed"/>
+        <text x="60" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">1920/30</text>
+        <text x="60" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Rádio</text>
+        <circle cx="160" cy="90" r="10" fill="#7c3aed"/>
+        <text x="160" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">Séc. XX</text>
+        <text x="160" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Chegada da TV</text>
+        <circle cx="260" cy="90" r="10" fill="#7c3aed"/>
+        <text x="260" y="60" font-size="11" text-anchor="middle" fill="#4c1d95">Internet</text>
+        <text x="260" y="115" font-size="10" text-anchor="middle" fill="#4c1d95">Smartphones</text>
+        <circle cx="350" cy="90" r="12" fill="#059669"/>
+        <text x="350" y="60" font-size="11" text-anchor="middle" fill="#047857" font-weight="bold">Hoje</text>
+        <text x="350" y="118" font-size="10" text-anchor="middle" fill="#047857" font-weight="bold">Web rádio /</text>
+        <text x="350" y="130" font-size="10" text-anchor="middle" fill="#047857" font-weight="bold">Podcast</text>
+        <text x="200" y="160" font-size="12" text-anchor="middle" fill="#6d28d9" font-style="italic">O rádio atravessa todas as fases: ele permanece.</text>
+      </svg>`
+    },
+    {
+      titulo: "Tema central vs. detalhes",
+      descricao: "Esquema mostrando o tema central do texto no núcleo e os detalhes secundários (TV, internet, podcast) ao redor.",
+      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="220" fill="#faf5ff"/>
+        <circle cx="150" cy="110" r="55" fill="#7c3aed"/>
+        <text x="150" y="102" font-size="11" text-anchor="middle" fill="#fff" font-weight="bold">TEMA CENTRAL</text>
+        <text x="150" y="118" font-size="9" text-anchor="middle" fill="#ede9fe">Permanência e</text>
+        <text x="150" y="130" font-size="9" text-anchor="middle" fill="#ede9fe">reinvenção do rádio</text>
+        <circle cx="60" cy="40" r="30" fill="#c4b5fd"/>
+        <text x="60" y="44" font-size="9" text-anchor="middle" fill="#4c1d95">TV</text>
+        <line x1="90" y1="55" x2="120" y2="80" stroke="#a78bfa" stroke-width="2"/>
+        <circle cx="240" cy="40" r="30" fill="#c4b5fd"/>
+        <text x="240" y="36" font-size="9" text-anchor="middle" fill="#4c1d95">Internet /</text>
+        <text x="240" y="48" font-size="9" text-anchor="middle" fill="#4c1d95">smartphones</text>
+        <line x1="210" y1="55" x2="180" y2="80" stroke="#a78bfa" stroke-width="2"/>
+        <circle cx="60" cy="180" r="30" fill="#c4b5fd"/>
+        <text x="60" y="184" font-size="9" text-anchor="middle" fill="#4c1d95">Radiojornalismo</text>
+        <line x1="90" y1="165" x2="120" y2="140" stroke="#a78bfa" stroke-width="2"/>
+        <circle cx="240" cy="180" r="30" fill="#c4b5fd"/>
+        <text x="240" y="184" font-size="9" text-anchor="middle" fill="#4c1d95">Podcast</text>
+        <line x1="210" y1="165" x2="180" y2="140" stroke="#a78bfa" stroke-width="2"/>
+      </svg>`
+    },
+    {
+      titulo: "Convergência dos meios de comunicação",
+      descricao: "Gráfico conceitual mostrando rádio, TV e internet convergindo para o podcast como continuidade, não ruptura.",
+      svg: `<svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="320" height="180" fill="#f5f3ff"/>
+        <path d="M 40 30 Q 180 30 280 90" stroke="#7c3aed" stroke-width="3" fill="none"/>
+        <path d="M 40 90 Q 180 90 280 90" stroke="#8b5cf6" stroke-width="3" fill="none"/>
+        <path d="M 40 150 Q 180 150 280 90" stroke="#a78bfa" stroke-width="3" fill="none"/>
+        <circle cx="40" cy="30" r="14" fill="#6d28d9"/>
+        <text x="40" y="15" font-size="10" text-anchor="middle" fill="#4c1d95">Rádio</text>
+        <circle cx="40" cy="90" r="14" fill="#6d28d9"/>
+        <text x="10" y="94" font-size="10" text-anchor="middle" fill="#4c1d95">TV</text>
+        <circle cx="40" cy="150" r="14" fill="#6d28d9"/>
+        <text x="40" y="170" font-size="10" text-anchor="middle" fill="#4c1d95">Internet</text>
+        <circle cx="280" cy="90" r="20" fill="#059669"/>
+        <text x="280" y="86" font-size="10" text-anchor="middle" fill="#fff" font-weight="bold">Podcast</text>
+        <text x="280" y="100" font-size="8" text-anchor="middle" fill="#d1fae5">evolução do rádio</text>
+      </svg>`
+    },
+    {
+      titulo: "A citação-síntese do pesquisador da UFU",
+      descricao: "Destaque para a fala final que resume a tese do texto: o rádio se reinventou, não desapareceu.",
+      svg: `<svg viewBox="0 0 340 160" xmlns="http://www.w3.org/2000/svg">
+        <rect width="340" height="160" fill="#ecfdf5" rx="12"/>
+        <text x="20" y="40" font-size="40" fill="#059669" font-family="Georgia, serif">"</text>
+        <text x="170" y="55" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">O podcast é uma continuação,</text>
+        <text x="170" y="75" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">uma evolução natural do rádio.</text>
+        <text x="170" y="95" font-size="13" text-anchor="middle" fill="#065f46" font-style="italic">"</text>
+        <line x1="90" y1="115" x2="250" y2="115" stroke="#059669" stroke-width="1"/>
+        <text x="170" y="135" font-size="11" text-anchor="middle" fill="#047857" font-weight="bold">Pesquisador da UFU</text>
+        <text x="170" y="150" font-size="9" text-anchor="middle" fill="#059669">síntese do tema central do texto</text>
+      </svg>`
+    }
+  ],
+
+  simulador: {
+    titulo: "Extrator de Tema Central",
+    descricao: "Classifique trechos do texto como 'Tema Central' ou 'Detalhe/Exemplo secundário' e receba feedback imediato.",
+    html: `
+      <div id="extrator-tema-central" style="font-family:inherit;">
+        <p style="margin-bottom:12px; color:#6d28d9;"><i class="fa-solid fa-magnifying-glass"></i> Leia cada trecho abaixo e classifique-o.</p>
+        <div id="etc-trecho-container" style="padding:16px; background:#f5f3ff; border-radius:8px; margin-bottom:12px; min-height:60px;"></div>
+        <div style="display:flex; gap:10px; margin-bottom:12px;">
+          <button id="etc-btn-central" style="flex:1; padding:10px; background:#7c3aed; color:#fff; border:none; border-radius:6px; cursor:pointer;">Tema Central</button>
+          <button id="etc-btn-detalhe" style="flex:1; padding:10px; background:#a78bfa; color:#fff; border:none; border-radius:6px; cursor:pointer;">Detalhe / Exemplo Secundário</button>
+        </div>
+        <div id="etc-feedback" style="min-height:40px; padding:10px; border-radius:6px; font-size:14px;"></div>
+        <div id="etc-progresso" style="margin-top:10px; font-size:13px; color:#6d28d9;"></div>
+      </div>
+    `,
+    init: function (raiz) {
+      var trechos = [
+        {
+          texto: "As pessoas passaram a dedicar uma parte do dia para escutar notícias, novelas, músicas e eventos esportivos no rádio.",
+          tipo: "detalhe",
+          explicacao: "É um detalhe histórico sobre os primeiros usos do rádio, não o argumento geral do texto."
+        },
+        {
+          texto: "Quando a TV surge, esperava-se que o rádio fosse totalmente substituído, porém ele se manteve em alta.",
+          tipo: "central",
+          explicacao: "Aqui aparece o núcleo da tese: mesmo diante de uma ameaça, o rádio permaneceu relevante."
+        },
+        {
+          texto: "O radiojornalismo teve seu pontapé inicial durante a Revolução Constitucionalista (1932).",
+          tipo: "detalhe",
+          explicacao: "É um dado histórico específico sobre o radiojornalismo, apenas ilustra a trajetória do rádio."
+        },
+        {
+          texto: "O rádio foi incorporado às novas tecnologias até o desenvolvimento do web rádio e do podcast.",
+          tipo: "central",
+          explicacao: "Mostra diretamente a evolução do rádio por meio da tecnologia digital — o coração do tema."
+        },
+        {
+          texto: "'O podcast é uma continuação, uma evolução natural do rádio', opina o pesquisador da UFU.",
+          tipo: "central",
+          explicacao: "É a citação-síntese: resume explicitamente a tese de permanência e evolução do rádio."
+        },
+        {
+          texto: "O sinal de televisão não cobria todos os lugares, diferentemente do rádio.",
+          tipo: "detalhe",
+          explicacao: "É um argumento de apoio (explica por que o rádio resistiu), mas não é o tema central em si."
+        }
+      ];
+
+      var indice = 0;
+      var acertos = 0;
+
+      var trechoContainer = raiz.querySelector("#etc-trecho-container");
+      var feedback = raiz.querySelector("#etc-feedback");
+      var progresso = raiz.querySelector("#etc-progresso");
+      var btnCentral = raiz.querySelector("#etc-btn-central");
+      var btnDetalhe = raiz.querySelector("#etc-btn-detalhe");
+
+      function renderTrecho() {
+        if (indice >= trechos.length) {
+          trechoContainer.innerHTML = "<strong>Concluído!</strong>";
+          feedback.style.background = "#ecfdf5";
+          feedback.innerHTML = "<i class='fa-solid fa-flag-checkered'></i> Você acertou " + acertos + " de " + trechos.length + " trechos. O tema central do texto é a <strong>permanência do rádio e sua evolução por meio da tecnologia digital</strong>.";
+          btnCentral.disabled = true;
+          btnDetalhe.disabled = true;
+          progresso.textContent = "";
+          return;
+        }
+        trechoContainer.textContent = trechos[indice].texto;
+        feedback.textContent = "";
+        feedback.style.background = "transparent";
+        progresso.textContent = "Trecho " + (indice + 1) + " de " + trechos.length + " — acertos: " + acertos;
+      }
+
+      function classificar(escolha) {
+        if (indice >= trechos.length) return;
+        var atual = trechos[indice];
+        var correto = escolha === atual.tipo;
+        if (correto) acertos++;
+        feedback.style.background = correto ? "#ecfdf5" : "#fef2f2";
+        feedback.style.color = correto ? "#047857" : "#b91c1c";
+        feedback.innerHTML = (correto ? "<i class='fa-solid fa-circle-check'></i> Correto! " : "<i class='fa-solid fa-circle-xmark'></i> Não é bem isso. ") + atual.explicacao;
+        indice++;
+        setTimeout(renderTrecho, 1600);
+      }
+
+      btnCentral.addEventListener("click", function () { classificar("central"); });
+      btnDetalhe.addEventListener("click", function () { classificar("detalhe"); });
+
+      renderTrecho();
+    }
+  },
+
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#f5f3ff" rx="8"/>
+    <circle cx="30" cy="50" r="12" fill="#7c3aed"/>
+    <text x="30" y="80" font-size="8" text-anchor="middle" fill="#4c1d95">Rádio</text>
+    <line x1="42" y1="50" x2="158" y2="50" stroke="#a78bfa" stroke-width="2" stroke-dasharray="4,3"/>
+    <circle cx="170" cy="50" r="12" fill="#059669"/>
+    <text x="170" y="80" font-size="8" text-anchor="middle" fill="#047857">Podcast</text>
+    <text x="100" y="25" font-size="9" text-anchor="middle" fill="#6d28d9">permanece e evolui</text>
+  </svg>`,
+
+  simuladorType: null
+},
+
+{
+  id: "q040",
+  numero: 40,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "literatura",
+  materia: "Língua Portuguesa / Literatura e Recursos Narrativos",
+  materiaCor: "violet",
+  materiaIcone: "fa-book-open",
+  titulo: "O Escárnio na Pensão: Ironia e Caráter em \"A Luta\"",
+  tags: ["Literatura", "Narrador", "Ironia", "Crônica Literária", "Caracterização", "ENEM 2025"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `<p>Desenvolvendo-se nesse meio, é natural que Celina, filha mais velha de D. Adozinda, tivesse seus pequenos flirts com alguns rapazes, muito íntimos da casa e trazendo-lhe da cidade presentes de doces, de balas de ovo, de jornais ilustrados ou de frutas.</p>
+<br><br>
+<p>As irmãs mais novas iam ao colégio; ela ficava, enchendo o tempo com uns crochês vagarosos, costuras leves, a leitura dos folhetinhos dos jornais; e o Gilberto, que raramente saía, andava sempre ao seu lado, muito caldo por seu tipo um pouco mórbido de menina anêmica [...].</p>
+<br><br>
+<p>O Gilberto não valia nada, mas quem sabe se apareceria outro, simplório e sincero como ele? E a filha, com os seus dezessete anos, começava a embarcá-lo um pouco, nesse difícil papel de virgem numa casa de pensão, cheia de rapazes. Ora, o melhor era esperar, dar tempo ao tempo... E o Gilberto e a Celina continuaram a namorar-se, ele cândido, ela dúbia; enquanto o Coronel Juventino, que deixara a mulher em Sobral para tratar de uma concessão renhosa com os políticos do Rio, agora a monopolizava, como protetor mais importante, nas alegres visitas matinais da viúva, que já lhe levava sempre o café — mas sem flores colhidas no jardim, ainda rociadas de orvalho, porque o cearense não dava para essas coisas de poesia. Era rápido, prático, e não admitia bobagens. Por isso, todos os sábados à noite, ele dizia a D. Adozinda com um tremor lúbrico nas bantas moles da face, os olhinhos vivos pestanejando:</p>
+<br><br>
+<p>— A senhora não se esquece que amanhã é domingo... Leve-me cedo o café, hein!... que eu tenho de ir à missa...</p>
+<br><br>
+<p>— Pois não, pois não, Coronel! Fique descansado — respondia a viúva de Ferreira, muito atenciosamente, tirando-lhe umas caspas do paletó, com a mão repolhuda.</p>
+<br><br>
+<p>Os outros hóspedes riam-se à socapa; e no domingo o café não faltava, bem cedinho...</p>
+<br><br>
+<p><em>DOLORES, C. A luta. Rio de Janeiro: [s.n.], s.d.</em></p>
+<br><br>
+<p><strong>Nesse trecho, ao explorar a descrição como recurso que demarca impressões e pontos de vista, o narrador cria uma ambiência sugestiva do(a)</strong></p>`,
+  alternativas: [
+    { letra: "A", texto: "escárnio relacionado à degradação moral dos indivíduos.", correta: true },
+    { letra: "B", texto: "cenário urbano marcado por condições de insalubridade.", correta: false },
+    { letra: "C", texto: "persistência do sentimentalismo explorado pelos folhetins.", correta: false },
+    { letra: "D", texto: "prática do enriquecimento ilícito visto nas grandes cidades.", correta: false },
+    { letra: "E", texto: "desigualdade de gênero acentuada pela baixa escolarização.", correta: false }
+  ],
+  materiaCompleta: `<div class="materia-completa" style="color:#3b0764;">
+  <section style="background:#f5f3ff;border-left:4px solid #7c3aed;padding:16px;border-radius:8px;margin-bottom:16px;">
+    <h3 style="color:#6d28d9;"><i class="fas fa-book-open"></i> 1. Conceito-chave: a descrição como recurso narrativo</h3>
+    <p>A <strong>descrição</strong>, em textos narrativos, não é um mero adereço decorativo: é uma escolha de linguagem que revela o <strong>ponto de vista do narrador</strong> sobre o que descreve. Ao escolher adjetivos, gestos e detalhes físicos para caracterizar personagens e ambientes, o narrador constrói uma <strong>ambiência</strong> (atmosfera emocional e moral do texto) que orienta a leitura crítica do leitor. No trecho de "A luta", os detalhes físicos e comportamentais do Coronel Juventino ("tremor lúbrico", "olhinhos vivos pestanejando") e da viúva de Ferreira ("tirando-lhe umas caspas do paletó, com a mão repolhuda") não são neutros: carregam juízo de valor.</p>
+  </section>
+
+  <section style="background:#f5f3ff;border-left:4px solid #7c3aed;padding:16px;border-radius:8px;margin-bottom:16px;">
+    <h3 style="color:#6d28d9;"><i class="fas fa-theater-masks"></i> 2. Como reconhecer o tom satírico/escarninho</h3>
+    <p>O tom de <strong>escárnio</strong> (zombaria, riso crítico) se identifica por pistas textuais recorrentes:</p>
+    <ul>
+      <li><i class="fas fa-check" style="color:#7c3aed;"></i> Adjetivos e substantivos pejorativos ou ridicularizantes ("lúbrico", "repolhuda", "bantas moles");</li>
+      <li><i class="fas fa-check" style="color:#7c3aed;"></i> Ações que expõem hipocrisia ou subserviência interesseira (a viúva tirando caspas do paletó do Coronel);</li>
+      <li><i class="fas fa-check" style="color:#7c3aed;"></i> Reação de terceiros que confirma o efeito cômico/crítico ("Os outros hóspedes riam-se à socapa");</li>
+      <li><i class="fas fa-check" style="color:#7c3aed;"></i> Contraste entre o que a personagem finge ser (devoto, respeitável) e o que a descrição revela (interesseiro, libidinoso).</li>
+    </ul>
+  </section>
+
+  <section style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px;border-radius:8px;margin-bottom:16px;">
+    <h3 style="color:#b91c1c;"><i class="fas fa-exclamation-triangle"></i> 3. Erros comuns nessa questão</h3>
+    <p>O erro mais frequente é confundir <strong>temas amplos e sociais</strong> (urbanização, desigualdade de gênero, folhetins românticos) com o <strong>foco real da ironia do trecho</strong>, que é a <strong>moral individual</strong> dos personagens da pensão. O texto não discute condições sanitárias da cidade, nem enriquecimento ilícito, nem debate estrutural de gênero: ele ridiculariza comportamentos pessoais — a hipocrisia do Coronel "devoto" e a bajulação interesseira da viúva.</p>
+  </section>
+
+  <section style="background:#f5f3ff;border-left:4px solid #7c3aed;padding:16px;border-radius:8px;">
+    <h3 style="color:#6d28d9;"><i class="fas fa-lightbulb"></i> 4. Dica prática</h3>
+    <p>Ao ler um trecho descritivo em prosa de ENEM, pergunte: <strong>"o que esses detalhes fazem o leitor pensar sobre o caráter da personagem?"</strong> Se a resposta apontar para vaidade, hipocrisia, interesse ou falsidade moral, a chave de leitura é o <strong>escárnio/crítica moral individual</strong>, e não um tema social mais amplo que não está desenvolvido no trecho.</p>
+  </section>
+</div>`,
+  conceitos: ["Narrador", "Ironia", "Ambiência Narrativa", "Caracterização", "Crônica Literária"],
+  resolucaoHtml: `<div class="resolucao" style="color:#3b0764;">
+  <section style="background:#ecfdf5;border-left:4px solid #059669;padding:16px;border-radius:8px;margin-bottom:16px;">
+    <h3 style="color:#047857;"><i class="fas fa-check-circle"></i> Por que a alternativa A está correta</h3>
+    <p>A descrição do Coronel Juventino como um homem de "tremor lúbrico" e "olhinhos vivos pestanejando" ao pedir o café antes da missa expõe sua <strong>hipocrisia religiosa</strong> disfarçando desejo sob pretexto devoto. Já a viúva de Ferreira, "tirando-lhe umas caspas do paletó, com a mão repolhuda", é descrita como <strong>servil e interesseira</strong>, cultivando essa atenção por conveniência (ele é "protetor mais importante"). O riso dos outros hóspedes "à socapa" confirma que a cena é lida, dentro do próprio texto, como algo digno de zombaria. Esses elementos, somados, constroem uma ambiência de <strong>escárnio voltado à degradação moral dos indivíduos</strong> daquela pensão.</p>
+  </section>
+
+  <section style="background:#fef2f2;border-left:4px solid #dc2626;padding:16px;border-radius:8px;margin-bottom:16px;">
+    <h3 style="color:#b91c1c;"><i class="fas fa-times-circle"></i> Por que as demais alternativas estão erradas</h3>
+    <p><strong>B) Cenário urbano de insalubridade</strong> — o trecho não descreve condições sanitárias, ruas, moradia ou saúde pública; o foco é inteiramente sobre o comportamento pessoal dos hóspedes da pensão.</p>
+    <p><strong>C) Persistência do sentimentalismo dos folhetins</strong> — os folhetins são apenas citados como um hábito de leitura de Celina ("a leitura dos folhetinhos dos jornais"); o narrador não está criticando ou defendendo o gênero folhetinesco, e sim usando um tom que, no máximo, evoca esse universo sentimental de forma irônica ao descrever o "namoro" entre Celina e Gilberto — não é o eixo central da ambiência descrita no comando.</p>
+    <p><strong>D) Enriquecimento ilícito nas grandes cidades</strong> — não há qualquer menção a dinheiro obtido ilegalmente; a concessão do Coronel com "políticos do Rio" é citada de passagem, sem qualquer julgamento de ilicitude.</p>
+    <p><strong>E) Desigualdade de gênero pela baixa escolaridade</strong> — embora Celina esteja em posição social limitada, o trecho não tematiza escolarização como causa de desigualdade de gênero; a ironia do narrador mira a hipocrisia e o interesse do Coronel e da viúva, não uma crítica estrutural de gênero.</p>
+  </section>
+
+  <section style="background:#f5f3ff;border-left:4px solid #7c3aed;padding:16px;border-radius:8px;">
+    <h3 style="color:#6d28d9;"><i class="fas fa-shield-alt"></i> Como não cair nessa pegadinha</h3>
+    <p>As alternativas B, D e E trazem temas sociais "grandes" (cidade, dinheiro, gênero) que soam plausíveis para um texto do início do século XX, mas <strong>não estão de fato desenvolvidos no trecho</strong>. A alternativa C usa uma palavra do próprio texto ("folhetinhos") para criar uma armadilha de leitura superficial. A estratégia correta é sempre voltar ao <strong>efeito concreto da descrição</strong> sobre os personagens citados nominalmente (Coronel, viúva) e identificar que o narrador os ridiculariza moralmente — isso é o que sustenta a resposta A.</p>
+  </section>
+</div>`,
+  galeria: [
+    {
+      titulo: "Mapa de Personagens da Pensão",
+      descricao: "Esquema dos personagens da pensão com seus traços irônicos destacados pelo narrador.",
+      svg: `<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
+  <rect width="400" height="300" fill="#faf5ff"/>
+  <circle cx="100" cy="80" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
+  <text x="100" y="75" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Coronel</text>
+  <text x="100" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Juventino</text>
+  <text x="100" y="140" text-anchor="middle" font-size="9" fill="#6d28d9">"tremor lúbrico"</text>
+  <text x="100" y="154" text-anchor="middle" font-size="9" fill="#6d28d9">"olhinhos pestanejando"</text>
+  <text x="100" y="168" text-anchor="middle" font-size="9" fill="#b91c1c" font-style="italic">hipócrita devoto</text>
+
+  <circle cx="300" cy="80" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
+  <text x="300" y="75" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Viúva de</text>
+  <text x="300" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#3b0764">Ferreira</text>
+  <text x="300" y="140" text-anchor="middle" font-size="9" fill="#6d28d9">"mão repolhuda"</text>
+  <text x="300" y="154" text-anchor="middle" font-size="9" fill="#6d28d9">tira caspas do paletó</text>
+  <text x="300" y="168" text-anchor="middle" font-size="9" fill="#b91c1c" font-style="italic">servil interesseira</text>
+
+  <circle cx="100" cy="230" r="36" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="100" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Gilberto</text>
+  <text x="100" y="242" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">cândido</text>
+
+  <circle cx="300" cy="230" r="36" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+  <text x="300" y="228" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Celina</text>
+  <text x="300" y="242" text-anchor="middle" font-size="9" fill="#6d28d9" font-style="italic">dúbia</text>
+
+  <line x1="100" y1="194" x2="100" y2="266" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="300" y1="194" x2="300" y2="266" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
+  <line x1="136" y1="230" x2="264" y2="230" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
+  <text x="200" y="220" text-anchor="middle" font-size="9" fill="#7c3aed">namoro incerto</text>
+</svg>`
+    },
+    {
+      titulo: "Do Humor à Crítica Moral",
+      descricao: "Esquema do tom narrativo do trecho, do detalhe cômico à condenação moral velada.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
+  <rect width="400" height="220" fill="#faf5ff"/>
+  <line x1="30" y1="110" x2="370" y2="110" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+  <circle cx="60" cy="110" r="8" fill="#a78bfa"/>
+  <text x="60" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Detalhe cômico</text>
+  <text x="60" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">"bantas moles"</text>
+
+  <circle cx="170" cy="110" r="8" fill="#a78bfa"/>
+  <text x="170" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Ironia</text>
+  <text x="170" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">devoto x lúbrico</text>
+
+  <circle cx="280" cy="110" r="8" fill="#a78bfa"/>
+  <text x="280" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Reação social</text>
+  <text x="280" y="135" text-anchor="middle" font-size="9" fill="#6d28d9">riso "à socapa"</text>
+
+  <circle cx="350" cy="110" r="10" fill="#7c3aed"/>
+  <text x="350" y="90" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Escárnio</text>
+  <text x="350" y="150" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="bold">crítica moral</text>
+</svg>`
+    },
+    {
+      titulo: "Linha do Diálogo Final",
+      descricao: "O diálogo entre o Coronel e a viúva anotado com as marcas de ironia narrativa.",
+      svg: `<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
+  <rect width="420" height="260" fill="#faf5ff"/>
+  <rect x="20" y="20" width="380" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="30" y="40" font-size="9" fill="#3b0764">— A senhora não se esquece que amanhã é</text>
+  <text x="30" y="54" font-size="9" fill="#3b0764">domingo... Leve-me cedo o café, hein!...</text>
+  <text x="30" y="68" font-size="9" fill="#3b0764">que eu tenho de ir à missa...</text>
+  <text x="405" y="50" font-size="8" fill="#b91c1c" text-anchor="end" writing-mode="vertical-rl">falsa devoção ↑</text>
+
+  <rect x="20" y="100" width="380" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="30" y="120" font-size="9" fill="#3b0764">— Pois não, pois não, Coronel! Fique</text>
+  <text x="30" y="134" font-size="9" fill="#3b0764">descansado — respondia a viúva, muito</text>
+  <text x="30" y="148" font-size="9" fill="#3b0764">atenciosamente, tirando-lhe caspas do paletó...</text>
+  <text x="405" y="130" font-size="8" fill="#b91c1c" text-anchor="end" writing-mode="vertical-rl">bajulação interesseira ↑</text>
+
+  <rect x="20" y="180" width="380" height="50" rx="8" fill="#fef2f2" stroke="#dc2626"/>
+  <text x="30" y="202" font-size="9" fill="#7f1d1d">Os outros hóspedes riam-se à socapa...</text>
+  <text x="30" y="216" font-size="9" fill="#7f1d1d">e no domingo o café não faltava.</text>
+  <text x="380" y="210" font-size="8" fill="#b91c1c" font-weight="bold" text-anchor="end">confirma o escárnio</text>
+</svg>`
+    },
+    {
+      titulo: "Descrição Neutra vs. Descrição Irônica",
+      descricao: "Comparativo entre uma descrição neutra hipotética e a descrição irônica efetivamente usada pelo narrador.",
+      svg: `<svg viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;font-family:sans-serif;">
+  <rect width="420" height="220" fill="#faf5ff"/>
+  <rect x="15" y="20" width="190" height="180" rx="8" fill="#f3f4f6" stroke="#9ca3af"/>
+  <text x="110" y="40" text-anchor="middle" font-size="10" font-weight="bold" fill="#374151">Descrição neutra</text>
+  <text x="25" y="65" font-size="9" fill="#374151">"O Coronel pediu o café</text>
+  <text x="25" y="78" font-size="9" fill="#374151">para ir à missa."</text>
+  <text x="25" y="105" font-size="9" fill="#374151">"A viúva concordou e</text>
+  <text x="25" y="118" font-size="9" fill="#374151">ajeitou o paletó dele."</text>
+  <text x="110" y="170" text-anchor="middle" font-size="9" fill="#6b7280" font-style="italic">sem juízo de valor</text>
+
+  <rect x="215" y="20" width="190" height="180" rx="8" fill="#ede9fe" stroke="#7c3aed"/>
+  <text x="310" y="40" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764">Descrição irônica (texto)</text>
+  <text x="225" y="65" font-size="9" fill="#3b0764">"tremor lúbrico nas bantas</text>
+  <text x="225" y="78" font-size="9" fill="#3b0764">moles", "olhinhos pestanejando"</text>
+  <text x="225" y="105" font-size="9" fill="#3b0764">"mão repolhuda", "tirando-lhe</text>
+  <text x="225" y="118" font-size="9" fill="#3b0764">caspas", "atenciosamente"</text>
+  <text x="310" y="170" text-anchor="middle" font-size="9" fill="#b91c1c" font-weight="bold">expõe hipocrisia/interesse</text>
+</svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Detector de Ironia Narrativa",
+    descricao: "Clique nos trechos descritivos dos personagens e descubra o que cada detalhe revela ironicamente sobre o caráter deles.",
+    html: `<div id="detector-ironia" style="font-family:sans-serif;color:#3b0764;">
+      <p style="margin-bottom:12px;">Clique em cada trecho destacado para ver o que ele revela sobre o personagem:</p>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <span class="trecho-ironico" data-personagem="coronel" data-chave="devoto" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"...com um tremor lúbrico nas bantas moles da face, os olhinhos vivos pestanejando..."</span>
+        <span class="trecho-ironico" data-personagem="coronel" data-chave="pedido" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"— ...Leve-me cedo o café, hein!... que eu tenho de ir à missa..."</span>
+        <span class="trecho-ironico" data-personagem="viuva" data-chave="resposta" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"— Pois não, pois não, Coronel! Fique descansado — respondia... muito atenciosamente..."</span>
+        <span class="trecho-ironico" data-personagem="viuva" data-chave="gesto" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"...tirando-lhe umas caspas do paletó, com a mão repolhuda."</span>
+        <span class="trecho-ironico" data-personagem="hospedes" data-chave="riso" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"Os outros hóspedes riam-se à socapa..."</span>
+      </div>
+      <div id="resultado-ironia" style="margin-top:16px;min-height:60px;background:#f5f3ff;border-left:4px solid #7c3aed;border-radius:6px;padding:12px;display:none;"></div>
+      <div id="progresso-ironia" style="margin-top:10px;font-size:12px;color:#6d28d9;">0 de 5 trechos analisados</div>
+    </div>`,
+    init: function(raiz) {
+      var explicacoes = {
+        devoto: {
+          titulo: "Coronel Juventino - a falsa devoção",
+          texto: "O 'tremor lúbrico' contrasta com o pretexto de ir à missa: o narrador expõe que o interesse do Coronel não é religioso, e sim de desejo mal disfarçado. Isso ridiculariza sua hipocrisia moral."
+        },
+        pedido: {
+          titulo: "Coronel Juventino - autoridade rispida",
+          texto: "O tom imperativo e repetitivo ('hein!...') mostra um homem prático e controlador, que trata a viúva como serviçal, reforçando o retrato de um sujeito autoritário e sem delicadeza."
+        },
+        resposta: {
+          titulo: "Viúva de Ferreira - bajulação",
+          texto: "A repetição 'Pois não, pois não' e a 'atenção' exagerada revelam submissão interesseira: ela cultiva o Coronel porque ele é o 'protetor mais importante', não por afeto genuíno."
+        },
+        gesto: {
+          titulo: "Viúva de Ferreira - servilismo físico",
+          texto: "O gesto de tirar caspas do paletó, descrito com a 'mão repolhuda', é um detalhe físico degradante que reforça a subserviência da viúva perante o hóspede que sustenta a pensão."
+        },
+        riso: {
+          titulo: "Os hóspedes - a confirmação do escárnio",
+          texto: "O riso 'à socapa' (escondido) mostra que a cena é reconhecida, dentro do próprio universo narrado, como cômica e reveladora de hipocrisia — confirmando o tom de zombaria do narrador."
+        }
+      };
+      var analisados = {};
+      var trechos = raiz.querySelectorAll(".trecho-ironico");
+      var resultado = raiz.querySelector("#resultado-ironia");
+      var progresso = raiz.querySelector("#progresso-ironia");
+
+      function atualizarProgresso() {
+        var total = Object.keys(analisados).length;
+        progresso.textContent = total + " de 5 trechos analisados";
+        if (total >= 5) {
+          progresso.textContent += " - Você identificou todas as marcas de ironia do trecho!";
+        }
+      }
+
+      for (var i = 0; i < trechos.length; i++) {
+        (function(el) {
+          el.addEventListener("click", function() {
+            var chave = el.getAttribute("data-chave");
+            var info = explicacoes[chave];
+            if (!info) return;
+            analisados[chave] = true;
+            el.style.background = "#ddd6fe";
+            el.style.borderColor = "#4c1d95";
+            resultado.style.display = "block";
+            resultado.innerHTML = "<strong>" + info.titulo + "</strong><br>" + info.texto;
+            atualizarProgresso();
+          });
+        })(trechos[i]);
+      }
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+  <rect width="200" height="100" fill="#faf5ff"/>
+  <text x="100" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#3b0764" font-family="sans-serif">Descrição irônica</text>
+  <circle cx="45" cy="60" r="22" fill="#c4b5fd" stroke="#6d28d9"/>
+  <text x="45" y="63" text-anchor="middle" font-size="8" fill="#3b0764" font-family="sans-serif">Coronel</text>
+  <circle cx="155" cy="60" r="22" fill="#c4b5fd" stroke="#6d28d9"/>
+  <text x="155" y="63" text-anchor="middle" font-size="8" fill="#3b0764" font-family="sans-serif">Viúva</text>
+  <line x1="67" y1="60" x2="133" y2="60" stroke="#7c3aed" stroke-width="2"/>
+  <text x="100" y="90" text-anchor="middle" font-size="8" fill="#b91c1c" font-family="sans-serif" font-weight="bold">= escárnio moral</text>
+</svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q041",
+  numero: 41,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "artes",
+  materia: "Língua Portuguesa / Multimodalidade e Cultura Indígena",
+  materiaCor: "lime",
+  materiaIcone: "fa-palette",
+  titulo: "O banco sagrado: o tatu que carrega um mito",
+  tags: ["Multimodalidade", "Cultura Indígena", "Interpretação de Texto", "Arte Indígena", "ENEM 2025"],
+  alternativaCorreta: "B",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `
+    <p><strong>TEXTO I</strong></p>
+    <p>"Foi sentada em seu banco de quartzo que a avó do universo, moradora da Maloca do Céu, criou os homens, os animais, a terra e as águas. O banco foi entregue aos ancestrais dos atuais Tukano, que passaram a reproduzi-lo em madeira. O mito Tukano — povo do noroeste da Amazônia que ainda hoje fabrica os bancos em seu estilo tradicional — indica o lugar dos bancos entre os objetos sagrados, ao mesmo tempo parte de um universo primitivo e fonte de poder de criação. A presença nos mitos de origem de alguns povos atesta a antiguidade da arte de talhar bancos: os primeiros registros do gênero datam em torno de sete mil anos entre os ameríndios das terras baixas da América do Sul, do Caribe e da América Central, e datam de, pelo menos, 4 mil anos."</p>
+    <p style="font-style: italic; font-size: 0.9em; color: #6b21a8;">ASSIS, R.; MENDES JR., L. <em>Bancos Indígenas do Brasil</em>. São Paulo: BEI Comunicação, 2013.</p>
+
+    <p><strong>TEXTO II</strong></p>
+    <div style="border-left: 4px solid #7c3aed; background: rgba(124,58,237,0.08); padding: 12px 16px; border-radius: 8px; margin: 12px 0;">
+      <p style="margin: 0 0 6px 0;"><i class="fa-solid fa-image" style="color:#7c3aed;"></i> <strong>Descrição da imagem:</strong> fotografia de uma escultura em madeira maciça de tom castanho-escuro, representando um tatu em posição de banco/assento. A peça reproduz de forma estilizada o casco segmentado do animal, a cabeça alongada e as quatro patas curtas, que sustentam o corpo como pés de um móvel. A superfície é lisa e polida, resultado de entalhe artesanal tradicional.</p>
+      <p style="margin: 0; font-style: italic; font-size: 0.9em; color: #6b21a8;">KAMAYURÁ, Y. <em>Tatu Kamayurá 1</em>. Madeira, 61 × 24 × 20 cm. Xingu (MT), s.d. Disponível em: www.colecaobei.com.br. Acesso em: 15 out. 2024.</p>
+    </div>
+
+    <p><strong>Os textos I e II demonstram, na confecção dos bancos, uma íntima relação de sacralidade entre o ser humano e a natureza, perceptível por meio da</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "representação realista de animais, mostrando o domínio do homem sobre a natureza.", correta: false },
+    { letra: "B", texto: "manutenção da herança cultural, atribuindo nova função aos elementos da fauna.", correta: true },
+    { letra: "C", texto: "enunciação dos traços que permitem reconhecer o animal representado.", correta: false },
+    { letra: "D", texto: "presença de grafismos na forma animal representada no banco.", correta: false },
+    { letra: "E", texto: "criação de figuras fantásticas baseadas em formas animais.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="font-family: system-ui, sans-serif; color: #1e1b2e;">
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-key"></i> 1. Conceito-chave: leitura multimodal e cultura material indígena</h3>
+      <p>Uma questão multimodal cruza um texto verbal (o mito de origem Tukano) com um texto não verbal — aqui, um objeto/imagem (o banco esculpido em forma de tatu, do povo Kamayurá). Interpretar exige relacionar as duas linguagens: o que o mito diz sobre a origem dos bancos, e o que a escultura mostra sobre como esse mito continua vivo. Para os povos indígenas citados, o banco não é mobiliário comum: é objeto sagrado, ligado à criação do mundo, e a natureza (os animais) não é dominada, mas reverenciada como fonte de poder simbólico.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-diagram-project"></i> 2. Como relacionar Texto I e Texto II</h3>
+      <p>O Texto I explica a <strong>origem mítica</strong> dos bancos: foram criados pela "avó do universo" e entregues aos ancestrais Tukano, que passaram a esculpi-los em madeira há milhares de anos. O Texto II mostra a <strong>continuidade prática</strong> dessa tradição: um banco Kamayurá esculpido em forma de tatu. A ligação entre os dois textos está em que a forma animal (tatu) não é decoração: é a maneira pela qual a cultura indígena mantém viva a herança ancestral, dando ao animal uma nova função — de bicho da mata a assento sagrado/ritual.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-triangle-exclamation"></i> 3. Erros comuns</h3>
+      <ul>
+        <li><strong>Confundir reverência com domínio:</strong> o candidato lê "representação de animal" e marca a alternativa que fala em "domínio do homem sobre a natureza" — é o oposto do que os textos mostram: é relação de respeito e sacralidade, não de controle.</li>
+        <li><strong>Ficar só na descrição da forma:</strong> alternativas que falam apenas em "reconhecer o animal" ou "grafismos" descrevem elementos visuais superficiais, mas não respondem à pergunta sobre <em>sacralidade</em> e <em>herança cultural</em>.</li>
+        <li><strong>Achar que é figura fantástica:</strong> o tatu é um animal real da fauna amazônica, não uma criatura mítica ou híbrida — a alternativa que fala em "figuras fantásticas" erra o fato central.</li>
+      </ul>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-lightbulb"></i> 4. Dica prática</h3>
+      <p>Em questões multimodais com texto verbal + imagem/objeto cultural, pergunte-se: "o que o texto verbal explica que a imagem confirma ou continua?" Aqui, o mito explica a origem sagrada; a imagem confirma que essa sacralidade permanece viva na prática atual, através da reinterpretação de um elemento da natureza (o animal) em novo objeto cultural.</p>
+    </div>
+  `,
+  conceitos: ["Multimodalidade", "Cultura Indígena", "Herança Cultural", "Sacralidade", "Arte Indígena"],
+  resolucaoHtml: `
+    <div style="font-family: system-ui, sans-serif; color: #1e1b2e;">
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-circle-check"></i> Por que a alternativa B está correta</h3>
+      <p>Os dois textos, juntos, mostram que os bancos indígenas — como o banco em forma de tatu Kamayurá do Texto II — <strong>mantêm viva a herança cultural ancestral</strong> narrada no mito de origem do Texto I. Ao esculpir um animal real (a fauna) em forma de assento sagrado, o povo indígena não está apenas copiando a aparência do bicho: está <strong>atribuindo a ele uma nova função</strong> — de animal da mata a objeto ritual, ligado à criação do mundo. Essa transformação simbólica é justamente o que evidencia a relação de sacralidade entre ser humano e natureza.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-circle-xmark"></i> Por que as demais alternativas estão erradas</h3>
+      <p><strong>(A)</strong> Fala em "domínio do homem sobre a natureza" — é o oposto do que os textos mostram. A relação descrita é de reverência e continuidade cultural, não de controle ou submissão da natureza ao ser humano.</p>
+      <p><strong>(C)</strong> Reduz a questão a um exercício de reconhecimento visual ("traços do animal"), mas não explica por que essa representação é sagrada nem menciona herança cultural — fica na superfície da imagem.</p>
+      <p><strong>(D)</strong> Fala em "grafismos", ou seja, padrões gráficos/desenhos abstratos aplicados sobre a superfície. O Texto II não descreve grafismos: descreve uma escultura tridimensional em forma de animal.</p>
+      <p><strong>(E)</strong> Fala em "figuras fantásticas", mas o tatu é um animal real e concreto da fauna amazônica, não uma criatura mítica ou híbrida inventada.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-shield"></i> Como não cair nessa pegadinha</h3>
+      <p>Sempre que uma questão sobre cultura indígena (ou qualquer cultura tradicional) apresentar a natureza como personagem central, desconfie de alternativas que usem palavras como "domínio", "controle" ou "poder sobre" — quase sempre é pegadinha que inverte a lógica real do texto, que costuma ser de <strong>reverência, integração e continuidade</strong> entre ser humano e natureza.</p>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Reconstrução do banco-tatu Kamayurá",
+      descricao: "Ilustração estilizada da escultura em madeira que representa o tatu, mostrando o casco segmentado e as patas curtas que servem de apoio ao assento.",
+      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="200" fill="#faf5ff"/>
+        <ellipse cx="150" cy="150" rx="110" ry="12" fill="#e9d5ff" opacity="0.6"/>
+        <g stroke="#5b21b6" stroke-width="3" fill="#a78bfa">
+          <path d="M60 140 Q60 90 150 80 Q240 90 240 140 Q240 155 150 158 Q60 155 60 140 Z"/>
+          <path d="M75 95 Q150 78 225 95" fill="none" stroke="#4c1d95" stroke-width="2"/>
+          <path d="M85 108 Q150 92 215 108" fill="none" stroke="#4c1d95" stroke-width="2"/>
+          <path d="M78 122 Q150 106 222 122" fill="none" stroke="#4c1d95" stroke-width="2"/>
+          <ellipse cx="55" cy="105" rx="18" ry="14" fill="#8b5cf6"/>
+          <rect x="70" y="150" width="12" height="30" fill="#5b21b6"/>
+          <rect x="120" y="155" width="12" height="30" fill="#5b21b6"/>
+          <rect x="170" y="155" width="12" height="30" fill="#5b21b6"/>
+          <rect x="215" y="150" width="12" height="30" fill="#5b21b6"/>
+        </g>
+        <text x="150" y="195" text-anchor="middle" font-size="11" fill="#5b21b6" font-family="sans-serif">Banco esculpido em forma de tatu</text>
+      </svg>`
+    },
+    {
+      titulo: "Esquema mito-objeto-natureza",
+      descricao: "Diagrama mostrando a relação entre o mito de origem Tukano (Texto I), o objeto sagrado (banco) e o elemento da natureza (fauna) representado.",
+      svg: `<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="200" fill="#faf5ff"/>
+        <circle cx="70" cy="60" r="42" fill="#c4b5fd" stroke="#6d28d9" stroke-width="2"/>
+        <text x="70" y="55" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">Mito de</text>
+        <text x="70" y="69" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">origem</text>
+        <circle cx="150" cy="150" r="42" fill="#a78bfa" stroke="#6d28d9" stroke-width="2"/>
+        <text x="150" y="145" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">Objeto</text>
+        <text x="150" y="159" text-anchor="middle" font-size="11" fill="#3b0764" font-family="sans-serif">sagrado</text>
+        <circle cx="230" cy="60" r="42" fill="#8b5cf6" stroke="#6d28d9" stroke-width="2"/>
+        <text x="230" y="55" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">Natureza</text>
+        <text x="230" y="69" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">(fauna)</text>
+        <line x1="95" y1="90" x2="130" y2="125" stroke="#5b21b6" stroke-width="2" marker-end="url(#arrow1)"/>
+        <line x1="205" y1="90" x2="170" y2="125" stroke="#5b21b6" stroke-width="2" marker-end="url(#arrow1)"/>
+        <defs>
+          <marker id="arrow1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#5b21b6"/>
+          </marker>
+        </defs>
+      </svg>`
+    },
+    {
+      titulo: "Linha do tempo: 7 mil anos de tradição",
+      descricao: "Linha do tempo simplificada da arte de talhar bancos entre povos ameríndios, desde os primeiros registros até a produção atual.",
+      svg: `<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="160" fill="#faf5ff"/>
+        <line x1="30" y1="90" x2="270" y2="90" stroke="#6d28d9" stroke-width="3"/>
+        <circle cx="40" cy="90" r="7" fill="#5b21b6"/>
+        <text x="40" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">~7 mil</text>
+        <text x="40" y="127" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">anos atrás</text>
+        <circle cx="150" cy="90" r="7" fill="#7c3aed"/>
+        <text x="150" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">~4 mil</text>
+        <text x="150" y="127" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">anos atrás</text>
+        <circle cx="260" cy="90" r="7" fill="#a78bfa"/>
+        <text x="260" y="115" text-anchor="middle" font-size="10" fill="#3b0764" font-family="sans-serif">Atualidade</text>
+        <text x="150" y="40" text-anchor="middle" font-size="12" fill="#5b21b6" font-family="sans-serif" font-weight="bold">Tradição de talhar bancos</text>
+        <text x="40" y="70" text-anchor="middle" font-size="9" fill="#6d28d9" font-family="sans-serif">1ºs registros</text>
+        <text x="260" y="70" text-anchor="middle" font-size="9" fill="#6d28d9" font-family="sans-serif">povo Tukano</text>
+      </svg>`
+    },
+    {
+      titulo: "Duas visões sobre a natureza",
+      descricao: "Comparativo visual entre a visão utilitarista/de domínio sobre a natureza e a visão sagrada/ancestral presente nos textos da questão.",
+      svg: `<svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="180" fill="#faf5ff"/>
+        <rect x="15" y="20" width="125" height="140" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
+        <text x="77" y="45" text-anchor="middle" font-size="11" fill="#5b21b6" font-family="sans-serif" font-weight="bold">Domínio</text>
+        <text x="77" y="60" text-anchor="middle" font-size="10" fill="#5b21b6" font-family="sans-serif">(errado p/ os textos)</text>
+        <text x="77" y="90" text-anchor="middle" font-size="24">✋</text>
+        <text x="77" y="130" text-anchor="middle" font-size="9" fill="#4c1d95" font-family="sans-serif">Natureza</text>
+        <text x="77" y="142" text-anchor="middle" font-size="9" fill="#4c1d95" font-family="sans-serif">subjugada</text>
+        <rect x="160" y="20" width="125" height="140" rx="10" fill="#7c3aed" stroke="#5b21b6" stroke-width="2"/>
+        <text x="222" y="45" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif" font-weight="bold">Sacralidade</text>
+        <text x="222" y="60" text-anchor="middle" font-size="10" fill="#ede9fe" font-family="sans-serif">(correto)</text>
+        <text x="222" y="90" text-anchor="middle" font-size="24">🙏</text>
+        <text x="222" y="130" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">Natureza</text>
+        <text x="222" y="142" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">reverenciada</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Explorador de Bancos Sagrados",
+    descricao: "Escolha diferentes animais da fauna indígena e descubra qual nova função cultural cada um ganha ao virar um banco sagrado.",
+    html: '<div id="q041-sim-root" style="font-family: system-ui, sans-serif; color: #1e1b2e; padding: 8px;"><div id="q041-sim-botoes" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"></div><div id="q041-sim-card" style="background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed; border-radius: 8px; padding: 16px; min-height: 90px;"></div></div>',
+    init: function (raiz) {
+      var animais = [
+        {
+          nome: "Tatu",
+          emoji: "🦔",
+          traco: "casco protetor, forma arredondada",
+          funcao: "Assento ritual ligado à criação do mundo: o casco do tatu vira o corpo do banco, protegendo simbolicamente quem se senta, como na tradição Kamayurá."
+        },
+        {
+          nome: "Jacaré",
+          emoji: "🐊",
+          traco: "corpo alongado e força na água",
+          funcao: "Representa a travessia entre mundos (terra e água); o banco em forma de jacaré simboliza a proteção do xamã durante viagens espirituais."
+        },
+        {
+          nome: "Onça",
+          emoji: "🐆",
+          traco: "força e liderança na mata",
+          funcao: "Vira assento de cacique ou pajé, transferindo simbolicamente a força e a autoridade do animal para quem ocupa o banco."
+        },
+        {
+          nome: "Tartaruga",
+          emoji: "🐢",
+          traco: "casco robusto, longevidade",
+          funcao: "Associada à estabilidade e à sabedoria ancestral; o banco-tartaruga é usado em cerimônias que celebram os mais velhos da comunidade."
+        },
+        {
+          nome: "Pássaro",
+          emoji: "🦜",
+          traco: "capacidade de voar, ligação com o céu",
+          funcao: "Liga quem senta ao mundo espiritual/celeste, retomando mitos em que seres do céu (como a avó do universo) criam os primeiros objetos sagrados."
+        }
+      ];
+
+      var botoesDiv = raiz.querySelector("#q041-sim-botoes");
+      var cardDiv = raiz.querySelector("#q041-sim-card");
+
+      function mostrar(animal) {
+        cardDiv.innerHTML =
+          '<p style="margin:0 0 6px 0;font-size:1.4em;">' + animal.emoji + ' <strong>Banco-' + animal.nome + '</strong></p>' +
+          '<p style="margin:0 0 6px 0;"><strong>Traço da fauna representado:</strong> ' + animal.traco + '</p>' +
+          '<p style="margin:0;"><strong>Nova função sagrada:</strong> ' + animal.funcao + '</p>';
+      }
+
+      animais.forEach(function (animal, i) {
+        var btn = document.createElement("button");
+        btn.textContent = animal.emoji + " " + animal.nome;
+        btn.style.cssText = "cursor:pointer;border:2px solid #7c3aed;background:#fff;color:#5b21b6;border-radius:999px;padding:6px 14px;font-size:0.9em;";
+        btn.addEventListener("click", function () {
+          mostrar(animal);
+          Array.prototype.forEach.call(botoesDiv.children, function (b) {
+            b.style.background = "#fff";
+            b.style.color = "#5b21b6";
+          });
+          btn.style.background = "#7c3aed";
+          btn.style.color = "#fff";
+        });
+        botoesDiv.appendChild(btn);
+        if (i === 0) {
+          mostrar(animal);
+          btn.style.background = "#7c3aed";
+          btn.style.color = "#fff";
+        }
+      });
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#faf5ff"/>
+    <ellipse cx="100" cy="70" rx="70" ry="8" fill="#e9d5ff"/>
+    <path d="M40 60 Q40 35 100 30 Q160 35 160 60 Q160 68 100 70 Q40 68 40 60 Z" fill="#8b5cf6" stroke="#5b21b6" stroke-width="2"/>
+    <rect x="50" y="68" width="8" height="16" fill="#5b21b6"/>
+    <rect x="90" y="70" width="8" height="16" fill="#5b21b6"/>
+    <rect x="120" y="70" width="8" height="16" fill="#5b21b6"/>
+    <rect x="150" y="68" width="8" height="16" fill="#5b21b6"/>
+    <text x="100" y="18" text-anchor="middle" font-size="10" fill="#5b21b6" font-family="sans-serif">Fauna → Objeto sagrado</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q042",
+  numero: 42,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Variedades Linguísticas e Registro",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "Traduzindo o Juridiquês",
+  tags: ["Variedades Linguísticas", "Registro Formal", "Juridiquês", "Norma Padrão", "Ironia", "Adequação Linguística"],
+  alternativaCorreta: "A",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `
+    <p style="font-weight:700; text-align:center; letter-spacing:0.05em; text-transform:uppercase; margin-bottom:1rem;">"Traduzindo o Juridiquês"</p>
+
+    <div style="border-left:4px solid #8b5cf6; background:rgba(139,92,246,0.06); border-radius:0.5rem; padding:1rem 1.25rem; margin-bottom:1.25rem;">
+      <p style="font-style:italic; margin-bottom:0.5rem;">"Denego a liminar pleiteada na exordial, inobstante após a oitiva da parte adversa e da dilação probatória possa lograr alcançar um outro epílogo para o deslinde da quaestio sub examine."</p>
+      <p style="margin:0;"><strong>TRADUÇÃO:</strong> "Não atendo, por ora, a liminar requerida na petição inicial, ainda que possa chegar a uma outra conclusão após ouvir a outra parte e avaliar as provas produzidas."</p>
+    </div>
+
+    <div style="border-left:4px solid #8b5cf6; background:rgba(139,92,246,0.06); border-radius:0.5rem; padding:1rem 1.25rem; margin-bottom:1.25rem;">
+      <p style="font-style:italic; margin-bottom:0.5rem;">"Proposta de emenda à Constituição 269 de 2013. Aplica-se aos Governadores e Prefeitos o Regime Geral de Previdência Social, vedada a concessão graciosa, após o término do mandato, de vantagem pecuniária, verba de representação, pensão ou subsídio."</p>
+      <p style="margin:0;"><strong>TRADUÇÃO:</strong> "Torna-se proibido pagar benefícios vitalícios para ex-prefeitos e ex-governadores."</p>
+    </div>
+
+    <p style="font-style:italic; font-size:0.9em; margin-bottom:1.25rem;">Superinteressante, n. 322, ago. 2013 (adaptado).</p>
+
+    <p style="font-weight:700;">Nesse texto, contribui para a construção de ironia da tradução das passagens escritas em "juridiquês" para uma variedade</p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "padrão, que alcança o público em geral.", correta: true },
+    { letra: "B", texto: "histórica, que registra a evolução das leis.", correta: false },
+    { letra: "C", texto: "coloquial, que reproduz as relações sociais cotidianas.", correta: false },
+    { letra: "D", texto: "erudita, que resgata a origem latina da língua portuguesa.", correta: false },
+    { letra: "E", texto: "técnica, que facilita a circulação de informações no sistema judiciário.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="display:flex; flex-direction:column; gap:1.5rem;">
+
+      <section>
+        <h3 style="color:#8b5cf6; display:flex; align-items:center; gap:0.5rem; font-size:1.1rem; margin-bottom:0.5rem;">
+          <i class="fa-solid fa-language"></i> Conceito-chave: variedades e registros linguísticos
+        </h3>
+        <p>A língua portuguesa não é uma coisa só: ela varia conforme a região, o grupo social, o contexto e o grau de formalidade exigido pela situação de comunicação. Chamamos isso de <strong>variedades linguísticas</strong>, e a escolha entre elas em cada situação é o que os linguistas chamam de <strong>adequação linguística</strong> — usar o registro certo para o momento certo.</p>
+        <p>No eixo da formalidade, existem vários pontos possíveis: da linguagem <strong>técnica/especializada</strong> (como o "juridiquês", cheio de termos latinos e jargão jurídico) até a linguagem <strong>coloquial</strong> (informal, cheia de gírias e marcas do dia a dia), passando pela <strong>variedade padrão</strong> — aquela que é ensinada na escola, segue a norma culta de forma clara e é compreendida pelo público em geral, sem ser hermética nem excessivamente informal.</p>
+      </section>
+
+      <section>
+        <h3 style="color:#8b5cf6; display:flex; align-items:center; gap:0.5rem; font-size:1.1rem; margin-bottom:0.5rem;">
+          <i class="fa-solid fa-scale-balanced"></i> Como nasce a ironia: o contraste de registros
+        </h3>
+        <p>O texto "Traduzindo o Juridiquês" cria humor e ironia justamente pelo <strong>contraste brutal entre dois registros</strong>: de um lado, frases carregadas de termos técnico-jurídicos e latinismos ("exordial", "dilação probatória", "quaestio sub examine"); de outro, a mesma ideia dita de forma simples, direta e acessível.</p>
+        <p>Esse recurso — colocar lado a lado o texto hermético e sua "tradução" — expõe, de forma cômica, o quanto a linguagem jurídica pode ser desnecessariamente complicada para dizer algo bem simples. O leitor ri (ou se surpassa) porque percebe que "tanto blá-blá-blá" jurídico equivalia a uma frase curtíssima em linguagem comum.</p>
+      </section>
+
+      <section>
+        <h3 style="color:#8b5cf6; display:flex; align-items:center; gap:0.5rem; font-size:1.1rem; margin-bottom:0.5rem;">
+          <i class="fa-solid fa-triangle-exclamation"></i> Erro comum: confundir "padrão" com "coloquial"
+        </h3>
+        <p>Uma armadilha clássica do ENEM é confundir esses dois conceitos:</p>
+        <ul style="padding-left:1.25rem; display:flex; flex-direction:column; gap:0.35rem;">
+          <li><strong>Variedade padrão:</strong> segue a norma culta, é clara e objetiva, e por isso <strong>alcança o público em geral</strong> — é a variedade dos jornais, dos livros didáticos, das traduções como as do texto.</li>
+          <li><strong>Variedade coloquial:</strong> é a fala espontânea do dia a dia, com gírias, repetições e marcas de oralidade — reproduz as <strong>relações sociais cotidianas</strong>, mas não é o que aparece nas "traduções" do texto, que continuam formais e corretas, só que compreensíveis.</li>
+        </ul>
+        <p>As traduções do texto não usam gírias nem informalidade extrema: elas apenas trocam o vocabulário técnico por um vocabulário claro e correto — isso é a <strong>variedade padrão</strong>, não a coloquial.</p>
+      </section>
+
+      <section>
+        <h3 style="color:#8b5cf6; display:flex; align-items:center; gap:0.5rem; font-size:1.1rem; margin-bottom:0.5rem;">
+          <i class="fa-solid fa-lightbulb"></i> Dica prática
+        </h3>
+        <p>Sempre que uma questão falar em "efeito de humor/ironia por tradução de linguagem técnica", pergunte: a nova versão é <em>compreensível para qualquer leitor comum</em>, mas ainda <em>correta e formal</em>? Se sim, é variedade <strong>padrão</strong>. Só marque "coloquial" se houver gírias, expressões de rua ou marcas nítidas de oralidade informal — o que não é o caso aqui.</p>
+      </section>
+
+    </div>
+  `,
+  conceitos: ["Registro Linguístico", "Juridiquês", "Norma Padrão", "Adequação Linguística", "Ironia"],
+  resolucaoHtml: `
+    <div style="display:flex; flex-direction:column; gap:1.25rem;">
+      <section>
+        <h4 style="color:#22c55e; display:flex; align-items:center; gap:0.5rem;"><i class="fa-solid fa-circle-check"></i> Por que a alternativa A está correta</h4>
+        <p>As duas "traduções" do texto reescrevem trechos jurídicos herméticos em uma linguagem <strong>clara, correta e acessível a qualquer leitor</strong> — isto é, na <strong>variedade padrão</strong>, que "alcança o público em geral". É exatamente esse contraste — o "juridiquês" fechado, cheio de jargão e latim, versus a versão simples e direta — que produz o efeito de <strong>ironia/humor</strong> do texto: o leitor percebe o quanto a linguagem técnica exagerava para dizer algo tão simples.</p>
+      </section>
+
+      <section>
+        <h4 style="color:#ef4444; display:flex; align-items:center; gap:0.5rem;"><i class="fa-solid fa-circle-xmark"></i> Por que as demais estão erradas</h4>
+        <ul style="padding-left:1.25rem; display:flex; flex-direction:column; gap:0.5rem;">
+          <li><strong>B (histórica):</strong> as traduções não fazem nenhum apanhado da evolução das leis ao longo do tempo; elas apenas reescrevem o sentido de um trecho jurídico atual em linguagem clara.</li>
+          <li><strong>C (coloquial):</strong> as traduções continuam formais e corretas — não há gírias nem marcas de fala cotidiana informal. Reproduzir "relações sociais cotidianas" não é o que ocorre: o registro se mantém culto, só que compreensível.</li>
+          <li><strong>D (erudita):</strong> é o oposto do que acontece — a tradução simplifica e "desenrola" a linguagem, não resgata origens latinas; aliás, é justamente o "juridiquês" (rico em latinismos) que representa o polo erudito/técnico, não a tradução.</li>
+          <li><strong>E (técnica):</strong> também é o oposto — a tradução existe exatamente para fugir da linguagem técnica do sistema judiciário, tornando o conteúdo acessível a quem não domina o jargão jurídico.</li>
+        </ul>
+      </section>
+
+      <section style="background:rgba(139,92,246,0.08); border-radius:0.5rem; padding:1rem 1.25rem;">
+        <h4 style="color:#8b5cf6; display:flex; align-items:center; gap:0.5rem; margin-bottom:0.5rem;"><i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha</h4>
+        <p>A troca mais comum é marcar <strong>"coloquial"</strong> pensando em "linguagem do dia a dia". Mas "coloquial" tem um sentido técnico específico: fala informal, espontânea, cheia de gírias. A variedade padrão também é usada no dia a dia (jornais, livros, traduções como as do texto), mas continua formal e correta — só que <em>compreensível</em>. Sempre associe "alcança o público em geral" a <strong>padrão</strong>, e reserve "coloquial" apenas para textos com marcas claras de informalidade e oralidade.</p>
+      </section>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "Juridiquês vs. Tradução Padrão",
+      descricao: "Comparativo lado a lado mostrando o contraste entre o trecho jurídico hermético e sua versão em linguagem padrão.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="400" height="220" fill="#faf5ff"/>
+        <rect x="10" y="15" width="180" height="190" rx="10" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+        <text x="100" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#5b21b6">JURIDIQUÊS</text>
+        <text x="100" y="62" text-anchor="middle" font-size="9" fill="#5b21b6">"Denego a liminar</text>
+        <text x="100" y="76" text-anchor="middle" font-size="9" fill="#5b21b6">pleiteada na exordial,</text>
+        <text x="100" y="90" text-anchor="middle" font-size="9" fill="#5b21b6">inobstante a oitiva</text>
+        <text x="100" y="104" text-anchor="middle" font-size="9" fill="#5b21b6">da parte adversa..."</text>
+        <text x="100" y="130" text-anchor="middle" font-size="22">🔒</text>
+        <text x="100" y="160" text-anchor="middle" font-size="9" fill="#7c3aed">Hermético</text>
+        <text x="100" y="175" text-anchor="middle" font-size="9" fill="#7c3aed">Latim / jargão</text>
+        <text x="100" y="190" text-anchor="middle" font-size="9" fill="#7c3aed">Restrito a especialistas</text>
+
+        <rect x="210" y="15" width="180" height="190" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <text x="300" y="40" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">VARIEDADE PADRÃO</text>
+        <text x="300" y="62" text-anchor="middle" font-size="9" fill="#166534">"Não atendo, por ora,</text>
+        <text x="300" y="76" text-anchor="middle" font-size="9" fill="#166534">a liminar requerida,</text>
+        <text x="300" y="90" text-anchor="middle" font-size="9" fill="#166534">ainda que possa mudar</text>
+        <text x="300" y="104" text-anchor="middle" font-size="9" fill="#166534">após ouvir a outra parte..."</text>
+        <text x="300" y="130" text-anchor="middle" font-size="22">🔓</text>
+        <text x="300" y="160" text-anchor="middle" font-size="9" fill="#16a34a">Claro</text>
+        <text x="300" y="175" text-anchor="middle" font-size="9" fill="#16a34a">Correto e formal</text>
+        <text x="300" y="190" text-anchor="middle" font-size="9" fill="#16a34a">Acessível a todos</text>
+
+        <path d="M190 105 L210 105" stroke="#f59e0b" stroke-width="3" marker-end="url(#arrow042)"/>
+        <defs>
+          <marker id="arrow042" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+            <path d="M0,0 L8,4 L0,8 Z" fill="#f59e0b"/>
+          </marker>
+        </defs>
+      </svg>`
+    },
+    {
+      titulo: "Espectro de Registros Linguísticos",
+      descricao: "Escala visual do registro técnico ao gíria, situando o juridiquês e a variedade padrão na tradução.",
+      svg: `<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="400" height="180" fill="#fafafa"/>
+        <line x1="30" y1="90" x2="370" y2="90" stroke="#a78bfa" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="55" cy="90" r="10" fill="#5b21b6"/>
+        <circle cx="150" cy="90" r="10" fill="#8b5cf6"/>
+        <circle cx="245" cy="90" r="10" fill="#c4b5fd"/>
+        <circle cx="340" cy="90" r="10" fill="#f472b6"/>
+
+        <text x="55" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">Técnico</text>
+        <text x="55" y="68" text-anchor="middle" font-size="8" fill="#5b21b6">(juridiquês)</text>
+
+        <text x="150" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#7c3aed">Padrão</text>
+        <text x="150" y="68" text-anchor="middle" font-size="8" fill="#7c3aed">(tradução do texto)</text>
+
+        <text x="245" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#7c3aed">Coloquial</text>
+        <text x="245" y="68" text-anchor="middle" font-size="8" fill="#7c3aed">(fala do dia a dia)</text>
+
+        <text x="340" y="55" text-anchor="middle" font-size="10" font-weight="700" fill="#db2777">Gíria</text>
+        <text x="340" y="68" text-anchor="middle" font-size="8" fill="#db2777">(muito informal)</text>
+
+        <text x="55" y="115" text-anchor="middle" font-size="8" fill="#666">exordial, quaestio</text>
+        <text x="150" y="115" text-anchor="middle" font-size="8" fill="#666">"não atendo por ora"</text>
+        <text x="245" y="115" text-anchor="middle" font-size="8" fill="#666">"tá certo, mas..."</text>
+        <text x="340" y="115" text-anchor="middle" font-size="8" fill="#666">"na moral"</text>
+
+        <text x="200" y="150" text-anchor="middle" font-size="10" fill="#8b5cf6" font-weight="700">↑ A tradução do texto fica aqui: PADRÃO ↑</text>
+      </svg>`
+    },
+    {
+      titulo: "Esquema do Efeito de Ironia",
+      descricao: "Diagrama mostrando como o contraste entre registros gera o efeito irônico/humorístico do texto.",
+      svg: `<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="400" height="200" fill="#fdf4ff"/>
+        <rect x="20" y="20" width="150" height="60" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+        <text x="95" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#5b21b6">Texto complexo</text>
+        <text x="95" y="60" text-anchor="middle" font-size="9" fill="#5b21b6">("juridiquês")</text>
+
+        <rect x="230" y="20" width="150" height="60" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <text x="305" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="#166534">Texto simples</text>
+        <text x="305" y="60" text-anchor="middle" font-size="9" fill="#166534">(variedade padrão)</text>
+
+        <text x="200" y="55" text-anchor="middle" font-size="16" fill="#f59e0b">VS</text>
+
+        <path d="M200 90 L200 115" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arr2)"/>
+        <defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#8b5cf6"/></marker></defs>
+
+        <rect x="80" y="120" width="240" height="60" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+        <text x="200" y="145" text-anchor="middle" font-size="10" font-weight="700" fill="#92400e">CONTRASTE de registros</text>
+        <text x="200" y="160" text-anchor="middle" font-size="9" fill="#92400e">expõe o exagero do juridiquês</text>
+        <text x="200" y="172" text-anchor="middle" font-size="11" font-weight="700" fill="#b45309">= IRONIA / HUMOR</text>
+      </svg>`
+    },
+    {
+      titulo: "Termômetro de Formalidade",
+      descricao: "Termômetro comparando o grau de formalidade dos dois pares juridiquês/tradução do texto.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+        <rect x="0" y="0" width="400" height="220" fill="#f8fafc"/>
+
+        <text x="100" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#374151">Exemplo 1: liminar</text>
+        <rect x="60" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
+        <rect x="60" y="40" width="20" height="110" rx="10" fill="#7c3aed"/>
+        <text x="70" y="165" text-anchor="middle" font-size="8" fill="#5b21b6">juridiquês</text>
+        <text x="70" y="176" text-anchor="middle" font-size="8" fill="#5b21b6">(muito formal/técnico)</text>
+
+        <rect x="120" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
+        <rect x="120" y="95" width="20" height="55" rx="10" fill="#16a34a"/>
+        <text x="130" y="165" text-anchor="middle" font-size="8" fill="#166534">tradução</text>
+        <text x="130" y="176" text-anchor="middle" font-size="8" fill="#166534">(padrão / acessível)</text>
+
+        <text x="300" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#374151">Exemplo 2: PEC 269</text>
+        <rect x="260" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
+        <rect x="260" y="35" width="20" height="115" rx="10" fill="#7c3aed"/>
+        <text x="270" y="165" text-anchor="middle" font-size="8" fill="#5b21b6">juridiquês</text>
+        <text x="270" y="176" text-anchor="middle" font-size="8" fill="#5b21b6">(muito formal/técnico)</text>
+
+        <rect x="320" y="30" width="20" height="120" rx="10" fill="#e5e7eb" stroke="#9ca3af"/>
+        <rect x="320" y="100" width="20" height="50" rx="10" fill="#16a34a"/>
+        <text x="330" y="165" text-anchor="middle" font-size="8" fill="#166534">tradução</text>
+        <text x="330" y="176" text-anchor="middle" font-size="8" fill="#166534">(padrão / acessível)</text>
+
+        <text x="200" y="200" text-anchor="middle" font-size="10" fill="#f59e0b" font-weight="700">A queda no termômetro = o efeito irônico do texto</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Tradutor de Juridiquês",
+    descricao: "Leia a frase em juridiquês e escolha a alternativa que representa a variedade PADRÃO — clara, correta e acessível ao público em geral.",
+    html: `<div id="q042-sim-root" style="font-family:inherit; display:flex; flex-direction:column; gap:1rem; max-width:600px;">
+      <div id="q042-sim-frase" style="background:rgba(139,92,246,0.08); border-left:4px solid #8b5cf6; border-radius:0.5rem; padding:0.9rem 1.1rem; font-style:italic;"></div>
+      <div id="q042-sim-opcoes" style="display:flex; flex-direction:column; gap:0.6rem;"></div>
+      <div id="q042-sim-feedback" style="min-height:2.5rem; font-size:0.9rem; border-radius:0.5rem; padding:0.6rem 0.9rem; display:none;"></div>
+      <div style="display:flex; gap:0.6rem;">
+        <button id="q042-sim-proxima" style="background:#8b5cf6; color:#fff; border:none; border-radius:0.5rem; padding:0.5rem 1rem; cursor:pointer; font-weight:600;">Próxima frase</button>
+        <span id="q042-sim-score" style="align-self:center; font-size:0.85rem; color:#7c3aed; font-weight:600;"></span>
+      </div>
+    </div>`,
+    init: function (raiz) {
+      var casos = [
+        {
+          juridiques: "\"Denego a liminar pleiteada na exordial, inobstante a oitiva da parte adversa.\"",
+          opcoes: [
+            { texto: "Não atendo, por ora, a liminar requerida na petição inicial, mesmo antes de ouvir a outra parte.", registro: "padrao", correta: true },
+            { texto: "Ó, não rolou essa liminar não, mano, ainda falta ouvir o outro lado.", registro: "coloquial", correta: false },
+            { texto: "A liminar requerida na exordial permanece indeferida ad referendum da audiência.", registro: "tecnico", correta: false }
+          ]
+        },
+        {
+          juridiques: "\"Vedada a concessão graciosa, após o término do mandato, de vantagem pecuniária ou subsídio.\"",
+          opcoes: [
+            { texto: "Nada de mimo em dinheiro pra quem já saiu do cargo, beleza?", registro: "coloquial", correta: false },
+            { texto: "Torna-se proibido pagar benefícios vitalícios para ex-prefeitos e ex-governadores.", registro: "padrao", correta: true },
+            { texto: "Fica vedada, ex vi legis, a percepção de verba honorífica post mandatum.", registro: "tecnico", correta: false }
+          ]
+        },
+        {
+          juridiques: "\"Inobstante a dilação probatória, o deslinde da quaestio permanece incerto.\"",
+          opcoes: [
+            { texto: "Persiste a controvérsia quanto à matéria sub judice, non obstante a instrução processual.", registro: "tecnico", correta: false },
+            { texto: "Mesmo depois de analisar as provas, ainda não dá pra saber como o caso vai terminar.", registro: "padrao", correta: true },
+            { texto: "Sei lá como isso vai acabar não, viu, tá osso essa causa.", registro: "coloquial", correta: false }
+          ]
+        }
+      ];
+
+      var idx = 0;
+      var acertos = 0;
+      var tentativas = 0;
+
+      var fraseEl = raiz.querySelector("#q042-sim-frase");
+      var opcoesEl = raiz.querySelector("#q042-sim-opcoes");
+      var feedbackEl = raiz.querySelector("#q042-sim-feedback");
+      var proximaBtn = raiz.querySelector("#q042-sim-proxima");
+      var scoreEl = raiz.querySelector("#q042-sim-score");
+
+      function atualizarScore() {
+        scoreEl.textContent = "Acertos: " + acertos + " / " + tentativas;
+      }
+
+      function renderCaso() {
+        var caso = casos[idx % casos.length];
+        fraseEl.innerHTML = "<strong>Juridiquês:</strong> " + caso.juridiques;
+        feedbackEl.style.display = "none";
+        opcoesEl.innerHTML = "";
+
+        var opcoesEmbaralhadas = caso.opcoes.slice();
+
+        opcoesEmbaralhadas.forEach(function (opcao) {
+          var btn = document.createElement("button");
+          btn.textContent = opcao.texto;
+          btn.style.textAlign = "left";
+          btn.style.padding = "0.6rem 0.9rem";
+          btn.style.borderRadius = "0.5rem";
+          btn.style.border = "1px solid rgba(139,92,246,0.4)";
+          btn.style.background = "transparent";
+          btn.style.cursor = "pointer";
+          btn.style.fontSize = "0.88rem";
+          btn.addEventListener("click", function () {
+            tentativas++;
+            var botoes = opcoesEl.querySelectorAll("button");
+            botoes.forEach(function (b) { b.disabled = true; b.style.cursor = "default"; });
+
+            if (opcao.correta) {
+              acertos++;
+              btn.style.background = "rgba(34,197,94,0.15)";
+              btn.style.borderColor = "#16a34a";
+              feedbackEl.style.background = "rgba(34,197,94,0.12)";
+              feedbackEl.style.color = "#166534";
+              feedbackEl.innerHTML = "<strong>Correto!</strong> Essa opção usa a variedade <strong>padrão</strong>: clara, correta e compreensível para qualquer leitor — é isso que gera o efeito irônico ao lado do juridiquês hermético.";
+            } else {
+              btn.style.background = "rgba(239,68,68,0.15)";
+              btn.style.borderColor = "#dc2626";
+              var motivo = opcao.registro === "coloquial"
+                ? "Essa versão é <strong>coloquial</strong> (gírias e informalidade do dia a dia), não padrão."
+                : "Essa versão continua <strong>técnica/hermética</strong>, tão difícil quanto o juridiquês original.";
+              feedbackEl.style.background = "rgba(239,68,68,0.12)";
+              feedbackEl.style.color = "#991b1b";
+              feedbackEl.innerHTML = "<strong>Não é essa.</strong> " + motivo + " Procure a opção clara e formal, acessível ao público em geral.";
+
+              var correta = opcoesEmbaralhadas.filter(function (o) { return o.correta; })[0];
+              var idxCorreta = Array.prototype.indexOf.call(botoes, btn);
+              botoes.forEach(function (b, i) {
+                if (opcoesEmbaralhadas[i].correta) {
+                  b.style.background = "rgba(34,197,94,0.15)";
+                  b.style.borderColor = "#16a34a";
+                }
+              });
+            }
+            feedbackEl.style.display = "block";
+            atualizarScore();
+          });
+          opcoesEl.appendChild(btn);
+        });
+      }
+
+      proximaBtn.addEventListener("click", function () {
+        idx++;
+        renderCaso();
+      });
+
+      renderCaso();
+      atualizarScore();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="200" height="100" fill="#faf5ff"/>
+    <rect x="10" y="30" width="80" height="40" rx="6" fill="#ede9fe" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="50" y="54" text-anchor="middle" font-size="9" fill="#5b21b6">Juridiquês</text>
+    <rect x="110" y="30" width="80" height="40" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="150" y="54" text-anchor="middle" font-size="9" fill="#166534">Padrão</text>
+    <path d="M90 50 L110 50" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#dmini)"/>
+    <defs><marker id="dmini" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#f59e0b"/></marker></defs>
+    <text x="100" y="90" text-anchor="middle" font-size="8" fill="#8b5cf6">Contraste = Ironia</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q043",
+  numero: 43,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Gênero Textual Reportagem e Função Social",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "A Cacique Pequena e a ruptura de uma tradição",
+  tags: ["Reportagem", "Função Social do Texto", "Povos Indígenas", "Protagonismo Feminino", "Interpretação de Texto", "ENEM 2025"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `<p><strong>TEXTO PARA A QUESTÃO</strong></p>
+<p>Em 1995, os Jenipapo-Kanindé quebraram a tradição da sucessão masculina e nomearam Maria de Lourdes da Conceição Alves como sua líder. Desde então, a Cacique Pequena guia o povo em grandes batalhas pelo direito à terra, educação, saúde e cidadania. Hoje, aos 73 anos, prepara duas filhas para lhe sucederem quando ela "tombar e for pra Tupã levar".<br><br>
+Hoje, 129 famílias do município de Aquiraz são reconhecidas pela Fundação Nacional dos Povos Indígenas (Funai) como indígenas, principal luta de Pequena para o povo dos seus povos desde o início. "Em 1995, fui a Brasília e tive a oportunidade de conversar com o presidente da Funai. Pedi que mandasse o povo dele na aldeia para fazer o estudo da nossa mãe-terra e de nós." Dois anos depois, vieram os antropólogos, que concluíram: "Nós era índio sim!", diz ela.<br><br>
+Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse momento, precisou escolher, entre os 16 filhos, quem assumiria sua missão quando partisse. Reunida, a família decidiu sobre a sucessão. "Disseram que, como eu era a primeira cacique mulher do Ceará, achavam melhor eu colocar duas filhas."</p>
+<p><em>Disponível em: www.seic-ce.com.br. Acesso em: 15 set. 2024 [adaptado].</em></p>
+<p><strong>Ao abordar a realidade da etnia Jenipapo-Kanindé, essa reportagem cumpre uma função social quando destaca a(o)</strong></p>`,
+  alternativas: [
+    { letra: "A", texto: "quantidade de famílias indígenas em Aquiraz.", correta: false },
+    { letra: "B", texto: "força da tradição nas comunidades indígenas.", correta: false },
+    { letra: "C", texto: "estudo sobre a demarcação das terras indígenas.", correta: false },
+    { letra: "D", texto: "protagonismo feminino na linha sucessória desse povo.", correta: true },
+    { letra: "E", texto: "reconhecimento dessa comunidade pelo governo brasileiro.", correta: false }
+  ],
+  materiaCompleta: `<div class="materia-violet">
+<h3><i class="fa-solid fa-language"></i> Conceito-chave: a função social da reportagem</h3>
+<p>A <strong>reportagem</strong> é um gênero jornalístico que vai além de informar: ela investiga, contextualiza e dá <strong>voz e visibilidade</strong> a pessoas, grupos e temas que muitas vezes ficam à margem do debate público. Sua função social central não é apenas relatar fatos isolados, mas construir um <strong>eixo temático</strong> que orienta a interpretação do leitor sobre determinada realidade.</p>
+<p>No texto sobre a Cacique Pequena, esse eixo é claro: a reportagem foi construída para evidenciar a <strong>ruptura de uma tradição de sucessão masculina</strong> entre os Jenipapo-Kanindé e o consequente <strong>protagonismo feminino</strong> na liderança do povo — desde a nomeação de Pequena em 1995 até a preparação de suas filhas para sucedê-la.</p>
+
+<h3><i class="fa-solid fa-magnifying-glass"></i> Como identificar a função social principal</h3>
+<p>Quando uma reportagem apresenta vários dados (números, datas, processos institucionais) junto de uma história pessoal, é preciso perguntar: <strong>qual desses elementos amarra o texto do início ao fim?</strong></p>
+<ul>
+<li>O primeiro parágrafo já anuncia o fio condutor: a quebra da tradição masculina e a escolha de uma mulher como líder.</li>
+<li>O último parágrafo retoma exatamente esse fio: a escolha de duas filhas para a sucessão, reforçada pela fala "como eu era a primeira cacique mulher do Ceará".</li>
+<li>Os dados sobre as 129 famílias reconhecidas e o estudo antropológico aparecem no meio do texto como <strong>contexto de apoio</strong> à trajetória de luta de Pequena, não como o tema organizador da reportagem.</li>
+</ul>
+
+<h3><i class="fa-solid fa-triangle-exclamation"></i> Erros comuns</h3>
+<p>O erro mais frequente nessa questão é confundir um <strong>dado numérico ou contextual</strong> — como a quantidade de famílias reconhecidas (alternativa A) ou o reconhecimento oficial pelo governo (alternativa E) — com o <strong>eixo temático central</strong> da reportagem. Esses dados existem no texto, mas funcionam como pano de fundo da luta liderada por Pequena, não como o motivo pelo qual a reportagem foi escrita.</p>
+<p>Da mesma forma, "força da tradição" (B) inverte o sentido do texto — a reportagem fala de uma <strong>ruptura</strong> da tradição, não de sua manutenção — e "estudo sobre demarcação de terras" (C) generaliza um episódio específico (a visita dos antropólogos) como se fosse o tema geral, quando ele é apenas um evento dentro da trajetória narrada.</p>
+
+<h3><i class="fa-solid fa-lightbulb"></i> Dica prática</h3>
+<p>Releia o primeiro e o último parágrafo do texto-base: em reportagens bem construídas, eles costumam sinalizar o tema central. Se a ideia do primeiro parágrafo reaparece reforçada no último, é grande a chance de que ali esteja a função social que a questão está pedindo para identificar.</p>
+</div>`,
+  conceitos: ["Reportagem", "Função Social do Texto", "Protagonismo Feminino", "Povos Indígenas", "Oralidade e Testemunho"],
+  resolucaoHtml: `<div class="resolucao-violet">
+<h3><i class="fa-solid fa-check-circle"></i> Por que a alternativa D está correta</h3>
+<p>A reportagem inteira gira em torno de uma ruptura histórica: em <strong>1995</strong>, os Jenipapo-Kanindé quebraram a tradição de sucessão masculina e elegeram <strong>Maria de Lourdes da Conceição Alves, a Cacique Pequena</strong>, como líder. O texto fecha o ciclo mostrando que, décadas depois, é ela quem escolhe <strong>suas próprias filhas</strong> para dar continuidade a essa liderança. Esse movimento — do rompimento da tradição masculina até a preparação de novas lideranças femininas — é o <strong>fio condutor</strong> e a <strong>função social central</strong> da reportagem: destacar o <strong>protagonismo feminino na linha sucessória</strong> desse povo.</p>
+
+<h3><i class="fa-solid fa-list-check"></i> Por que as demais alternativas estão erradas</h3>
+<p><strong>A) quantidade de famílias indígenas em Aquiraz.</strong> O número de 129 famílias reconhecidas é um dado citado no texto, mas funciona como contexto da luta de Pequena pelo reconhecimento do povo — não é o eixo em torno do qual a reportagem foi construída.</p>
+<p><strong>B) força da tradição nas comunidades indígenas.</strong> O texto narra exatamente o oposto: a <strong>quebra</strong> de uma tradição (a sucessão masculina), não sua manutenção ou força.</p>
+<p><strong>C) estudo sobre a demarcação das terras indígenas.</strong> A vinda dos antropólogos é mencionada como parte da luta pelo reconhecimento étnico do povo junto à Funai, um episódio específico dentro da trajetória de Pequena — não o tema geral da reportagem.</p>
+<p><strong>E) reconhecimento dessa comunidade pelo governo brasileiro.</strong> O reconhecimento pela Funai é resultado da luta liderada por Pequena, citado como conquista dentro da narrativa, mas não é o que estrutura o texto do início ao fim.</p>
+
+<h3><i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha</h3>
+<p>Bancas como o ENEM costumam colocar como alternativas erradas <strong>detalhes verdadeiros do texto</strong> que não respondem à pergunta sobre a <strong>função social</strong> ou a <strong>tese central</strong> do gênero. Um dado factual (quantas famílias, qual estudo foi feito) pode estar corretíssimo e mesmo assim ser uma resposta errada, porque a pergunta busca o propósito maior da reportagem, não um detalhe pontual dentro dela. Sempre confronte a alternativa com a ideia que abre e fecha o texto.</p>
+</div>`,
+  galeria: [
+    {
+      titulo: "Linha do tempo da Cacique Pequena",
+      descricao: "Marcos da trajetória de Maria de Lourdes da Conceição Alves, da ruptura da tradição em 1995 até a preparação das filhas para a sucessão.",
+      svg: `<svg viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+<rect width="600" height="220" fill="#f5f3ff"/>
+<line x1="50" y1="110" x2="550" y2="110" stroke="#7c3aed" stroke-width="4"/>
+<circle cx="90" cy="110" r="12" fill="#7c3aed"/>
+<circle cx="280" cy="110" r="12" fill="#7c3aed"/>
+<circle cx="470" cy="110" r="12" fill="#7c3aed"/>
+<text x="90" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">1995</text>
+<text x="90" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Ruptura da sucessão</text>
+<text x="90" y="103" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">masculina</text>
+<text x="90" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Pequena é nomeada</text>
+<text x="90" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">cacique</text>
+<text x="280" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">Há 8 anos</text>
+<text x="280" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Doença grave</text>
+<text x="280" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Escolha da sucessão</text>
+<text x="280" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">entre 16 filhos</text>
+<text x="470" y="70" font-size="14" fill="#4c1d95" text-anchor="middle" font-family="sans-serif" font-weight="bold">Hoje, aos 73</text>
+<text x="470" y="90" font-size="11" fill="#4c1d95" text-anchor="middle" font-family="sans-serif">Prepara duas filhas</text>
+<text x="470" y="145" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">Continuidade do</text>
+<text x="470" y="158" font-size="11" fill="#5b21b6" text-anchor="middle" font-family="sans-serif">protagonismo feminino</text>
+</svg>`
+    },
+    {
+      titulo: "Árvore de sucessão feminina",
+      descricao: "Esquema genealógico mostrando a passagem da liderança dos Jenipapo-Kanindé de um modelo masculino para um modelo conduzido por mulheres.",
+      svg: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg">
+<rect width="500" height="260" fill="#faf5ff"/>
+<rect x="180" y="20" width="140" height="40" rx="8" fill="#c4b5fd"/>
+<text x="250" y="45" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#3b0764">Sucessão masculina</text>
+<text x="250" y="15" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#5b21b6">Tradição até 1995</text>
+<line x1="250" y1="60" x2="250" y2="95" stroke="#7c3aed" stroke-width="3"/>
+<rect x="160" y="95" width="180" height="45" rx="8" fill="#7c3aed"/>
+<text x="250" y="115" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Cacique Pequena</text>
+<text x="250" y="130" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">1ª cacique mulher do Ceará</text>
+<line x1="250" y1="140" x2="150" y2="180" stroke="#7c3aed" stroke-width="3"/>
+<line x1="250" y1="140" x2="350" y2="180" stroke="#7c3aed" stroke-width="3"/>
+<rect x="80" y="180" width="140" height="45" rx="8" fill="#a78bfa"/>
+<text x="150" y="200" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#2e1065">Filha 1</text>
+<text x="150" y="214" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#2e1065">sucessora indicada</text>
+<rect x="280" y="180" width="140" height="45" rx="8" fill="#a78bfa"/>
+<text x="350" y="200" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#2e1065">Filha 2</text>
+<text x="350" y="214" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#2e1065">sucessora indicada</text>
+</svg>`
+    },
+    {
+      titulo: "Detalhe vs. função social do texto",
+      descricao: "Esquema comparando os dados de apoio citados na reportagem com o eixo temático central que a questão pede para identificar.",
+      svg: `<svg viewBox="0 0 560 240" xmlns="http://www.w3.org/2000/svg">
+<rect width="560" height="240" fill="#f5f3ff"/>
+<rect x="20" y="20" width="230" height="200" rx="10" fill="#ede9fe" stroke="#c4b5fd" stroke-width="2"/>
+<text x="135" y="45" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#5b21b6" font-weight="bold">Detalhes de apoio</text>
+<text x="135" y="75" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">129 famílias reconhecidas</text>
+<text x="135" y="100" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">pela Funai (dado A)</text>
+<text x="135" y="130" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Estudo dos antropólogos</text>
+<text x="135" y="155" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">sobre a mãe-terra (dado C)</text>
+<text x="135" y="185" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Reconhecimento oficial</text>
+<text x="135" y="205" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">do governo (dado E)</text>
+<rect x="310" y="20" width="230" height="200" rx="10" fill="#7c3aed"/>
+<text x="425" y="45" font-size="13" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Eixo central (função social)</text>
+<text x="425" y="90" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">Ruptura da tradição</text>
+<text x="425" y="108" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">masculina em 1995</text>
+<text x="425" y="140" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">+</text>
+<text x="425" y="170" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">Preparação das filhas</text>
+<text x="425" y="188" font-size="11" text-anchor="middle" font-family="sans-serif" fill="#ede9fe">para a sucessão</text>
+<text x="425" y="210" font-size="10" text-anchor="middle" font-family="sans-serif" fill="#c4b5fd">= alternativa D</text>
+<path d="M255 120 L305 120" stroke="#4c1d95" stroke-width="2" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#4c1d95"/></marker></defs>
+</svg>`
+    },
+    {
+      titulo: "Mapa conceitual da luta Jenipapo-Kanindé",
+      descricao: "Visão geral dos temas que a reportagem entrelaça em torno da liderança de Pequena e da luta do seu povo.",
+      svg: `<svg viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg">
+<rect width="560" height="260" fill="#faf5ff"/>
+<circle cx="280" cy="130" r="65" fill="#7c3aed"/>
+<text x="280" y="122" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Povo</text>
+<text x="280" y="138" font-size="12" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Jenipapo-Kanindé</text>
+<line x1="230" y1="90" x2="120" y2="40" stroke="#a78bfa" stroke-width="2"/>
+<rect x="30" y="15" width="180" height="45" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
+<text x="120" y="35" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Direito à terra, educação,</text>
+<text x="120" y="50" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">saúde e cidadania</text>
+<line x1="230" y1="170" x2="120" y2="220" stroke="#a78bfa" stroke-width="2"/>
+<rect x="30" y="200" width="180" height="45" rx="8" fill="#ede9fe" stroke="#c4b5fd"/>
+<text x="120" y="220" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">Reconhecimento pela Funai</text>
+<text x="120" y="235" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#4c1d95">(129 famílias)</text>
+<line x1="330" y1="90" x2="440" y2="40" stroke="#a78bfa" stroke-width="2"/>
+<rect x="350" y="15" width="180" height="45" rx="8" fill="#5b21b6"/>
+<text x="440" y="35" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Ruptura da sucessão</text>
+<text x="440" y="50" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">masculina (1995)</text>
+<line x1="330" y1="170" x2="440" y2="220" stroke="#a78bfa" stroke-width="2"/>
+<rect x="350" y="200" width="180" height="45" rx="8" fill="#5b21b6"/>
+<text x="440" y="220" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">Filhas preparadas</text>
+<text x="440" y="235" font-size="10.5" text-anchor="middle" font-family="sans-serif" fill="#ffffff" font-weight="bold">para a sucessão</text>
+</svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Linha do Tempo Interativa: a trajetória da Cacique Pequena",
+    descricao: "Clique em cada marco para entender como a reportagem constrói o protagonismo feminino como fio condutor da narrativa.",
+    html: '<div id="sim-q043-wrap" style="font-family:sans-serif;"><div id="sim-q043-marcos" style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:16px;"></div><div id="sim-q043-detalhe" style="min-height:110px;padding:16px;border-radius:10px;background:#f5f3ff;border:2px solid #c4b5fd;color:#3b0764;"></div></div>',
+    init: function(raiz) {
+      var marcos = [
+        {
+          ano: "1995",
+          titulo: "Ruptura da tradição",
+          texto: "Os Jenipapo-Kanindé quebram a tradição de sucessão masculina e nomeiam Maria de Lourdes da Conceição Alves, a Cacique Pequena, como líder. Este é o ponto de partida do protagonismo feminino que estrutura toda a reportagem."
+        },
+        {
+          ano: "Há 8 anos",
+          titulo: "Entre a vida e a morte",
+          texto: "Pequena adoece gravemente e, diante da possibilidade de morrer, precisa escolher entre os 16 filhos quem daria continuidade à sua liderança. Esse momento antecipa a decisão sobre a sucessão."
+        },
+        {
+          ano: "Hoje, aos 73",
+          titulo: "Sucessão pelas filhas",
+          texto: "Reunida com a família, Pequena decide preparar duas filhas para sucedê-la, reforçando que, por ser 'a primeira cacique mulher do Ceará', era natural que a liderança seguisse por mãos femininas. Fecha-se o ciclo aberto em 1995."
+        }
+      ];
+      var cont = raiz.querySelector("#sim-q043-marcos");
+      var detalhe = raiz.querySelector("#sim-q043-detalhe");
+      function mostrar(i) {
+        var m = marcos[i];
+        detalhe.innerHTML = "<strong>" + m.ano + " — " + m.titulo + "</strong><br><br>" + m.texto;
+        var botoes = cont.querySelectorAll("button");
+        for (var j = 0; j < botoes.length; j++) {
+          botoes[j].style.background = (j === i) ? "#7c3aed" : "#ede9fe";
+          botoes[j].style.color = (j === i) ? "#ffffff" : "#4c1d95";
+        }
+      }
+      marcos.forEach(function(m, i) {
+        var btn = document.createElement("button");
+        btn.textContent = m.ano + " · " + m.titulo;
+        btn.style.cssText = "padding:10px 14px;border-radius:8px;border:2px solid #7c3aed;background:#ede9fe;color:#4c1d95;cursor:pointer;font-size:13px;";
+        btn.addEventListener("click", function() { mostrar(i); });
+        cont.appendChild(btn);
+      });
+      mostrar(0);
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="100" fill="#f5f3ff"/>
+<circle cx="40" cy="50" r="18" fill="#7c3aed"/>
+<text x="40" y="54" font-size="9" text-anchor="middle" fill="#fff" font-family="sans-serif">1995</text>
+<line x1="58" y1="50" x2="142" y2="50" stroke="#a78bfa" stroke-width="3"/>
+<circle cx="160" cy="50" r="18" fill="#5b21b6"/>
+<text x="160" y="54" font-size="8" text-anchor="middle" fill="#fff" font-family="sans-serif">Filhas</text>
+<text x="100" y="30" font-size="8" text-anchor="middle" fill="#4c1d95" font-family="sans-serif">Protagonismo feminino</text>
+</svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q044",
+  numero: 44,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Estratégias Argumentativas e Persuasão",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "O laço de amor que se lê: convencendo com razões",
+  tags: ["Argumentação", "Persuasão", "Texto de Apelo", "Enumeração", "Leitura Infantil", "ENEM 2025"],
+  alternativaCorreta: "D",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `<h3 style="margin-top:0;">"Porque ler para crianças é um ato de amor"</h3>
+<p>Parece que, com o avanço da tecnologia, os livros têm enfrentado cada vez mais concorrência. Por isso, é nossa função lembrar a importância da leitura em todas as fases da vida, mas principalmente na primeira infância (entre 0 e 5 anos), quando o desenvolvimento das crianças acontece de forma mais intensa.</p>
+<br><br>
+<p>O ato de ler com uma criança ou para uma criança ou para ela ler por si vai muito além de apenas aproveitar uma história em conjunto. É um laço de amorosidade, porque oferece a ela ferramentas que vão ajudá-la a crescer forte e independente.</p>
+<br><br>
+<p>Se você precisa de uma motivação extra para entrar nessa rede de incentivo, fique ligado nos motivos a seguir. Adotar esse hábito em casa:</p>
+<ol style="margin:12px 0; padding-left:24px; line-height:1.8;">
+  <li>cria um laço emocional com a criança;</li>
+  <li>ajuda no desenvolvimento das capacidades cognitivas;</li>
+  <li>ensina sobre o mundo;</li>
+  <li>incentiva o processamento de informações e a imaginação.</li>
+</ol>
+<br>
+<p style="font-style:italic; font-size:0.9em; color:#666;">Disponível em: www.buffpost.com.br. Acesso em: 22 maio 2018 [adaptado].</p>
+<br><br>
+<p><strong>Para persuadir o interlocutor sobre a importância de ler para as crianças, esse texto recorre à estratégia de</strong></p>`,
+  alternativas: [
+    { letra: "A", texto: "propor uma condição ao país, com emprego da conjunção \"se\".", correta: false },
+    { letra: "B", texto: "relativizar a opinião apresentada pelo autor, com o uso de \"Parece que\".", correta: false },
+    { letra: "C", texto: "empregar uma linguagem metafórica, com o uso da expressão \"laço de amorosidade\".", correta: false },
+    { letra: "D", texto: "enumerar razões pertinentes a esse ato, com o exemplo \"ensina sobre o mundo\".", correta: true },
+    { letra: "E", texto: "implicar o autor do texto como corresponsável pela campanha, pelo uso de \"é nossa função\".", correta: false }
+  ],
+  materiaCompleta: `
+<div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:#f5f3ff; border-radius:8px; margin-bottom:16px;">
+  <h4 style="color:#6d28d9; margin:0 0 8px 0;"><i class="fa-solid fa-key" style="color:#8b5cf6;"></i> 1. Conceito-chave: estratégias argumentativas de persuasão</h4>
+  <p style="margin:0;">Em textos de apelo ou campanha (publicitários, institucionais, de conscientização), o autor não apenas afirma uma tese — ele mobiliza <strong>recursos linguísticos específicos</strong> para convencer o leitor a agir. Os mais comuns são:</p>
+  <ul style="margin:8px 0 0 0; padding-left:20px;">
+    <li><strong>Enumeração de razões:</strong> listar, muitas vezes numericamente, motivos concretos que sustentam a tese (ex.: "1 –, 2 –, 3 –...").</li>
+    <li><strong>Condição:</strong> uso de conjunções condicionais ("se") para apresentar um cenário hipotético ligado a uma consequência.</li>
+    <li><strong>Linguagem figurada:</strong> metáforas, comparações e outras figuras que tornam a ideia mais sensível/emotiva.</li>
+    <li><strong>Modalização/verbos modalizadores:</strong> expressões como "parece que", "é preciso", "deve-se", que graduam o grau de certeza ou obrigação do enunciador.</li>
+    <li><strong>Corresponsabilização:</strong> uso da 1ª pessoa do plural ou de expressões como "é nossa função" para incluir o enunciador (e/ou o leitor) na tarefa proposta.</li>
+  </ul>
+</div>
+
+<div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:#f5f3ff; border-radius:8px; margin-bottom:16px;">
+  <h4 style="color:#6d28d9; margin:0 0 8px 0;"><i class="fa-solid fa-magnifying-glass" style="color:#8b5cf6;"></i> 2. Como identificar QUAL estratégia está em jogo</h4>
+  <p style="margin:0;">Não basta perceber que "o texto convence" — a banca exige que você aponte o <strong>recurso linguístico exato</strong> citado na alternativa e verifique se ele de fato corresponde ao trecho do texto-base. O procedimento é:</p>
+  <ol style="margin:8px 0 0 0; padding-left:20px;">
+    <li>Leia o comando e identifique o efeito pedido (aqui: "persuadir sobre a importância de ler para crianças").</li>
+    <li>Para cada alternativa, localize a palavra/expressão citada dentro do texto.</li>
+    <li>Verifique se essa palavra/expressão realmente exerce a função gramatical/argumentativa descrita na alternativa (condição? metáfora? enumeração? modalização? corresponsabilização?).</li>
+  </ol>
+</div>
+
+<div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:#f5f3ff; border-radius:8px; margin-bottom:16px;">
+  <h4 style="color:#6d28d9; margin:0 0 8px 0;"><i class="fa-solid fa-triangle-exclamation" style="color:#8b5cf6;"></i> 3. Erros comuns</h4>
+  <p style="margin:0;">O erro típico é confundir a <strong>enumeração de razões</strong> (a lista numerada 1-2-3-4) com outros recursos que aparecem no mesmo texto, mas em outras funções:</p>
+  <ul style="margin:8px 0 0 0; padding-left:20px;">
+    <li>Achar que "se" (que não existe como conjunção condicional no texto de forma proeminente) propõe uma condição ao país — o texto fala da <em>família/leitor</em>, não do país.</li>
+    <li>Achar que "Parece que" é o foco da persuasão, quando na verdade só abre o texto de forma introdutória, sem ser o recurso central do comando.</li>
+    <li>Achar que "laço de amorosidade" é uma metáfora do <em>ato de ler</em> em si, quando na verdade é uma definição/qualificação da relação, não o recurso citado como resposta ao comando.</li>
+    <li>Achar que "é nossa função" corresponsabiliza o <em>leitor</em>, quando na verdade refere-se ao enunciador/autor do texto (quem escreve, não quem lê).</li>
+  </ul>
+</div>
+
+<div style="border-left:4px solid #8b5cf6; padding:12px 16px; background:#f5f3ff; border-radius:8px;">
+  <h4 style="color:#6d28d9; margin:0 0 8px 0;"><i class="fa-solid fa-lightbulb" style="color:#8b5cf6;"></i> 4. Dica prática</h4>
+  <p style="margin:0;">Sempre <strong>localize o trecho exato citado entre aspas na alternativa</strong> dentro do texto-base e confirme, palavra por palavra, se o recurso apontado (condição, metáfora, enumeração, modalização, corresponsabilização) realmente está presente ali. Se o trecho citado existe, mas a função descrita não bate com o que ele faz no texto, a alternativa está errada — mesmo citando algo real.</p>
+</div>`,
+  conceitos: ["Argumentação", "Persuasão", "Enumeração de Razões", "Texto de Apelo", "Modalização"],
+  resolucaoHtml: `
+<div style="background:#f5f3ff; border-radius:10px; padding:16px; margin-bottom:16px; border:1px solid #ddd6fe;">
+  <h4 style="color:#6d28d9; margin-top:0;"><i class="fa-solid fa-circle-check" style="color:#22c55e;"></i> Por que a alternativa D está correta</h4>
+  <p>O texto apresenta explicitamente uma <strong>lista numerada de quatro razões</strong> ("1 – cria um laço emocional...; 2 – ajuda no desenvolvimento...; 3 – ensina sobre o mundo; 4 – incentiva o processamento de informações...") como justificativa direta para adotar o hábito de ler para crianças. Essa enumeração é a estratégia argumentativa central do trecho final do texto, e "ensina sobre o mundo" é exatamente o <strong>item 3</strong> dessa lista — um exemplo concreto e citável da enumeração de razões usada para persuadir o leitor.</p>
+</div>
+
+<div style="background:#fef2f2; border-radius:10px; padding:16px; margin-bottom:16px; border:1px solid #fecaca;">
+  <h4 style="color:#b91c1c; margin-top:0;"><i class="fa-solid fa-circle-xmark"></i> Por que as demais alternativas estão erradas</h4>
+  <p><strong>A)</strong> O "se" citado não introduz uma condição ao <em>país</em> — o texto se dirige ao leitor/família ("Se você precisa de uma motivação extra..."), e o assunto do texto é a leitura infantil doméstica, não uma questão nacional. A condição existe gramaticalmente, mas não "ao país".</p>
+  <p><strong>B)</strong> "Parece que" de fato relativiza uma afirmação inicial sobre a concorrência dos livros com a tecnologia, mas esse não é o recurso usado para <em>persuadir sobre a importância de ler para crianças</em> — é apenas uma introdução ao tema, não o argumento central do comando.</p>
+<p><strong>C)</strong> "Laço de amorosidade" não é uma metáfora do <em>ato de ler</em> propriamente — é uma qualificação/definição da relação afetiva estabelecida pela leitura compartilhada, funcionando mais como caracterização do que como figura de linguagem central à persuasão pedida.</p>
+  <p><strong>E)</strong> "É nossa função" corresponsabiliza o <em>autor/enunciador</em> do texto (que assume o papel de lembrar a importância da leitura), e não o leitor pela campanha — a corresponsabilização apontada na alternativa está direcionada à pessoa errada.</p>
+</div>
+
+<div style="background:#eff6ff; border-radius:10px; padding:16px; border:1px solid #bfdbfe;">
+  <h4 style="color:#1d4ed8; margin-top:0;"><i class="fa-solid fa-shield-halved"></i> Como não cair nessa pegadinha</h4>
+  <p>Questões de estratégia argumentativa nunca aceitam uma resposta genérica como "o texto convence o leitor". É preciso apontar o <strong>recurso linguístico exato</strong> e confirmar, no próprio texto, se ele desempenha a função descrita na alternativa. Desconfie de alternativas que citam um trecho real do texto, mas atribuem a ele uma função que não é a que ele exerce ali.</p>
+</div>`,
+  galeria: [
+    {
+      titulo: "As 4 razões em cards",
+      descricao: "Visualização da lista numerada de motivos para ler para crianças, conforme apresentada no texto-base.",
+      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="260" fill="#faf5ff"/>
+        <text x="200" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#6d28d9" font-family="sans-serif">4 Razões para Ler para Crianças</text>
+        <g font-family="sans-serif">
+          <rect x="20" y="45" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+          <circle cx="40" cy="65" r="14" fill="#8b5cf6"/>
+          <text x="40" y="70" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">1</text>
+          <text x="105" y="90" text-anchor="middle" font-size="11" fill="#4c1d95">cria um laço</text>
+          <text x="105" y="104" text-anchor="middle" font-size="11" fill="#4c1d95">emocional</text>
+
+          <rect x="210" y="45" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+          <circle cx="230" cy="65" r="14" fill="#8b5cf6"/>
+          <text x="230" y="70" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">2</text>
+          <text x="300" y="85" text-anchor="middle" font-size="11" fill="#4c1d95">desenvolve capacidades</text>
+          <text x="300" y="99" text-anchor="middle" font-size="11" fill="#4c1d95">cognitivas</text>
+
+          <rect x="20" y="140" width="170" height="80" rx="10" fill="#ddd6fe" stroke="#7c3aed" stroke-width="3"/>
+          <circle cx="40" cy="160" r="14" fill="#7c3aed"/>
+          <text x="40" y="165" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">3</text>
+          <text x="105" y="185" text-anchor="middle" font-size="12" fill="#4c1d95" font-weight="bold">ensina sobre</text>
+          <text x="105" y="199" text-anchor="middle" font-size="12" fill="#4c1d95" font-weight="bold">o mundo</text>
+
+          <rect x="210" y="140" width="170" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+          <circle cx="230" cy="160" r="14" fill="#8b5cf6"/>
+          <text x="230" y="165" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">4</text>
+          <text x="300" y="180" text-anchor="middle" font-size="11" fill="#4c1d95">imaginação e</text>
+          <text x="300" y="194" text-anchor="middle" font-size="11" fill="#4c1d95">processamento</text>
+        </g>
+        <text x="200" y="245" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Item 3 = exemplo citado na alternativa D</text>
+      </svg>`
+    },
+    {
+      titulo: "Mapa das estratégias persuasivas",
+      descricao: "Esquema geral dos recursos argumentativos usados em textos de apelo/campanha.",
+      svg: `<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="260" fill="#faf5ff"/>
+        <text x="200" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#6d28d9" font-family="sans-serif">Estratégias de Persuasão</text>
+        <circle cx="200" cy="130" r="34" fill="#7c3aed"/>
+        <text x="200" y="126" text-anchor="middle" font-size="10" fill="#fff" font-family="sans-serif">Texto de</text>
+        <text x="200" y="139" text-anchor="middle" font-size="10" fill="#fff" font-family="sans-serif">Apelo</text>
+        <g font-family="sans-serif" font-size="10" fill="#4c1d95">
+          <line x1="200" y1="96" x2="200" y2="55" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="140" y="30" width="120" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="200" y="47" text-anchor="middle">Enumeração de razões</text>
+
+          <line x1="234" y1="115" x2="300" y2="80" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="290" y="60" width="100" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="340" y="77" text-anchor="middle">Condição (se)</text>
+
+          <line x1="234" y1="145" x2="300" y2="185" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="285" y="180" width="105" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="337" y="197" text-anchor="middle">Linguagem figurada</text>
+
+          <line x1="166" y1="145" x2="100" y2="185" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="10" y="180" width="110" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="65" y="197" text-anchor="middle">Corresponsabilização</text>
+
+          <line x1="166" y1="115" x2="100" y2="80" stroke="#a78bfa" stroke-width="2"/>
+          <rect x="10" y="60" width="110" height="26" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="65" y="77" text-anchor="middle">Modalização</text>
+        </g>
+        <text x="200" y="245" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Cada recurso convence de um jeito diferente</text>
+      </svg>`
+    },
+    {
+      titulo: "Foco no trecho-resposta",
+      descricao: "Destaque visual do trecho \"ensina sobre o mundo\" dentro da enumeração das 4 razões.",
+      svg: `<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="220" fill="#faf5ff"/>
+        <text x="200" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#6d28d9" font-family="sans-serif">Onde está o exemplo da alternativa D?</text>
+        <g font-family="sans-serif" font-size="12" fill="#4c1d95">
+          <text x="30" y="60">1 – cria um laço emocional com a criança;</text>
+          <text x="30" y="85">2 – ajuda no desenvolvimento das capacidades cognitivas;</text>
+        </g>
+        <rect x="20" y="98" width="360" height="30" rx="6" fill="#c4b5fd" opacity="0.6"/>
+        <text x="30" y="118" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b0764">3 – ensina sobre o mundo;</text>
+        <text x="30" y="150" font-family="sans-serif" font-size="12" fill="#4c1d95">4 – incentiva o processamento de informações e a imaginação.</text>
+        <path d="M 60 132 L 60 165 L 200 180" stroke="#7c3aed" stroke-width="2" fill="none" marker-end="url(#arrow044)"/>
+        <defs>
+          <marker id="arrow044" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+            <path d="M0,0 L0,6 L6,3 z" fill="#7c3aed"/>
+          </marker>
+        </defs>
+        <rect x="130" y="180" width="220" height="30" rx="8" fill="#7c3aed"/>
+        <text x="240" y="200" text-anchor="middle" font-size="11" fill="#fff" font-family="sans-serif">Exemplo citado na alternativa D</text>
+      </svg>`
+    },
+    {
+      titulo: "Comparativo de recursos persuasivos",
+      descricao: "Quadro comparando enumeração, condição, metáfora e corresponsabilização/autoridade.",
+      svg: `<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+        <rect width="400" height="240" fill="#faf5ff"/>
+        <text x="200" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#6d28d9" font-family="sans-serif">4 Recursos, 4 Efeitos</text>
+        <g font-family="sans-serif" font-size="11">
+          <rect x="15" y="40" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="102" y="58" text-anchor="middle" font-weight="bold" fill="#5b21b6">Enumeração</text>
+          <text x="102" y="74" text-anchor="middle" fill="#4c1d95">lista concreta de</text>
+          <text x="102" y="88" text-anchor="middle" fill="#4c1d95">motivos (D)</text>
+
+          <rect x="210" y="40" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="297" y="58" text-anchor="middle" font-weight="bold" fill="#5b21b6">Condição</text>
+          <text x="297" y="74" text-anchor="middle" fill="#4c1d95">"se" + consequência</text>
+          <text x="297" y="88" text-anchor="middle" fill="#4c1d95">(A)</text>
+
+          <rect x="15" y="115" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="102" y="133" text-anchor="middle" font-weight="bold" fill="#5b21b6">Metáfora</text>
+          <text x="102" y="149" text-anchor="middle" fill="#4c1d95">sentido figurado</text>
+          <text x="102" y="163" text-anchor="middle" fill="#4c1d95">(C)</text>
+
+          <rect x="210" y="115" width="175" height="60" rx="8" fill="#ede9fe" stroke="#8b5cf6"/>
+          <text x="297" y="133" text-anchor="middle" font-weight="bold" fill="#5b21b6">Corresponsabilização</text>
+          <text x="297" y="149" text-anchor="middle" fill="#4c1d95">1ª pessoa do plural</text>
+          <text x="297" y="163" text-anchor="middle" fill="#4c1d95">(E)</text>
+        </g>
+        <text x="200" y="200" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">Só um recurso corresponde exatamente ao comando</text>
+        <text x="200" y="216" text-anchor="middle" font-size="10" fill="#7c3aed" font-family="sans-serif">da questão: a enumeração de razões</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Classificador de Estratégias Persuasivas",
+    descricao: "Leia cada trecho do texto e identifique qual estratégia argumentativa ele representa.",
+    html: `<div id="q044-simulador" style="font-family:sans-serif; max-width:520px; margin:0 auto;">
+      <div id="q044-trecho-box" style="background:#f5f3ff; border:1px solid #ddd6fe; border-radius:10px; padding:14px; margin-bottom:12px; min-height:60px; font-size:14px; color:#4c1d95;"></div>
+      <div id="q044-opcoes" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;"></div>
+      <div id="q044-feedback" style="min-height:40px; font-size:13px; font-weight:bold; margin-bottom:10px;"></div>
+      <div style="display:flex; justify-content:space-between; align-items:center;">
+        <span id="q044-score" style="font-size:12px; color:#6d28d9;"></span>
+        <button id="q044-next" style="background:#7c3aed; color:#fff; border:none; border-radius:8px; padding:8px 16px; font-size:13px; cursor:pointer;">Próximo trecho</button>
+      </div>
+    </div>`,
+    init: function (raiz) {
+      var itens = [
+        {
+          trecho: '"1 – cria um laço emocional com a criança; 2 – ajuda no desenvolvimento das capacidades cognitivas; 3 – ensina sobre o mundo; 4 – incentiva o processamento de informações e a imaginação."',
+          correta: "Enumeração de razões",
+          explicacao: "É uma lista numerada de motivos concretos que sustentam a tese de que ler para crianças é importante."
+        },
+        {
+          trecho: '"Se você precisa de uma motivação extra para entrar nessa rede de incentivo, fique ligado nos motivos a seguir."',
+          correta: "Condição",
+          explicacao: "A conjunção \"se\" introduz uma hipótese (precisar de motivação) ligada a uma consequência (ler os motivos)."
+        },
+        {
+          trecho: '"É um laço de amorosidade, porque oferece a ela ferramentas que vão ajudá-la a crescer forte e independente."',
+          correta: "Linguagem figurada (metáfora)",
+          explicacao: "\"Laço de amorosidade\" usa um sentido figurado para caracterizar a relação afetiva criada pela leitura."
+        },
+        {
+          trecho: '"Por isso, é nossa função lembrar a importância da leitura em todas as fases da vida..."',
+          correta: "Corresponsabilização",
+          explicacao: "O uso de \"nossa\" (1ª pessoa do plural) inclui o enunciador como responsável por divulgar a importância da leitura."
+        }
+      ];
+      var opcoes = ["Enumeração de razões", "Condição", "Linguagem figurada (metáfora)", "Corresponsabilização"];
+      var indiceAtual = 0;
+      var acertos = 0;
+      var tentativas = 0;
+
+      var trechoBox = raiz.querySelector("#q044-trecho-box");
+      var opcoesBox = raiz.querySelector("#q044-opcoes");
+      var feedbackBox = raiz.querySelector("#q044-feedback");
+      var scoreBox = raiz.querySelector("#q044-score");
+      var nextBtn = raiz.querySelector("#q044-next");
+
+      function atualizarScore() {
+        scoreBox.textContent = "Acertos: " + acertos + " / " + tentativas;
+      }
+
+      function renderItem() {
+        var item = itens[indiceAtual];
+        trechoBox.innerHTML = "<strong>Trecho:</strong><br>" + item.trecho;
+        feedbackBox.textContent = "";
+        opcoesBox.innerHTML = "";
+        for (var i = 0; i < opcoes.length; i++) {
+          (function (opcao) {
+            var btn = document.createElement("button");
+            btn.textContent = opcao;
+            btn.style.cssText = "background:#ede9fe; color:#4c1d95; border:1px solid #c4b5fd; border-radius:8px; padding:8px 12px; font-size:12px; cursor:pointer;";
+            btn.addEventListener("click", function () {
+              tentativas++;
+              var botoes = opcoesBox.querySelectorAll("button");
+              for (var j = 0; j < botoes.length; j++) { botoes[j].disabled = true; }
+              if (opcao === item.correta) {
+                acertos++;
+                btn.style.background = "#22c55e";
+                btn.style.color = "#fff";
+                feedbackBox.style.color = "#15803d";
+                feedbackBox.textContent = "Correto! " + item.explicacao;
+              } else {
+                btn.style.background = "#ef4444";
+                btn.style.color = "#fff";
+                feedbackBox.style.color = "#b91c1c";
+                feedbackBox.textContent = "Não é bem isso. A resposta certa é \"" + item.correta + "\". " + item.explicacao;
+                for (var k = 0; k < botoes.length; k++) {
+                  if (botoes[k].textContent === item.correta) {
+                    botoes[k].style.background = "#22c55e";
+                    botoes[k].style.color = "#fff";
+                  }
+                }
+              }
+              atualizarScore();
+            });
+            opcoesBox.appendChild(btn);
+          })(opcoes[i]);
+        }
+      }
+
+      nextBtn.addEventListener("click", function () {
+        indiceAtual = (indiceAtual + 1) % itens.length;
+        renderItem();
+      });
+
+      renderItem();
+      atualizarScore();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#faf5ff"/>
+    <circle cx="45" cy="50" r="30" fill="#7c3aed"/>
+    <text x="45" y="46" text-anchor="middle" font-size="9" fill="#fff" font-family="sans-serif">1 2 3 4</text>
+    <text x="45" y="58" text-anchor="middle" font-size="8" fill="#fff" font-family="sans-serif">razões</text>
+    <path d="M78 50 L150 50" stroke="#8b5cf6" stroke-width="2" marker-end="url(#arrowD44)"/>
+    <defs>
+      <marker id="arrowD44" markerWidth="8" markerHeight="8" refX="5" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L6,3 z" fill="#8b5cf6"/>
+      </marker>
+    </defs>
+    <text x="165" y="46" text-anchor="middle" font-size="10" font-weight="bold" fill="#6d28d9" font-family="sans-serif">D</text>
+    <text x="165" y="60" text-anchor="middle" font-size="7" fill="#6d28d9" font-family="sans-serif">persuade</text>
+  </svg>`,
+  simuladorType: null
+},
+
+{
+  id: "q045",
+  numero: 45,
+  ano: 2025,
+  caderno: "Caderno 1 (Azul)",
+  area: "linguagens",
+  areaNome: "Linguagens, Códigos e suas Tecnologias",
+  materiaId: "portugues",
+  materia: "Língua Portuguesa / Texto Multimodal e Relação Verbal-Visual",
+  materiaCor: "red",
+  materiaIcone: "fa-note-sticky",
+  titulo: "A mão que guarda água: o texto que ancora a imagem",
+  tags: ["texto multimodal", "ancoragem", "linguagem verbal e não verbal", "publicidade", "semântica", "ENEM 2025"],
+  alternativaCorreta: "C",
+  userNotes: "",
+  userCustomImage: null,
+  enunciado: `
+    <p>A artista Marija Tiurina criou uma série chamada <em>Palavras intraduzíveis</em>, com diversas ilustrações detalhadas que transmitem o sentido desses vocábulos, que nenhuma palavra única em outras línguas pode descrever.</p>
+    <div style="border:1px solid #ccc; border-radius:8px; padding:16px; margin:16px 0; background:#faf8ff;">
+      <p style="margin:0 0 8px 0;"><strong>[Descrição da imagem]</strong>: um anúncio estilizado, com a marca "Gura" no canto, mostra a ilustração de duas mãos em concha segurando água, formando uma espécie de taça líquida entre os dedos. Ao lado da imagem, em destaque, aparece a palavra <strong>"gura"</strong> e, abaixo dela, o texto: <em>"A quantidade de água que pode ser segurada com as mãos."</em></p>
+    </div>
+    <p style="font-style: italic; font-size: 0.9em;">ROMANZOTTI, N. 9 desenhos que ilustram sentidos sem tradução para o português. Disponível em: https://hypescience.com. Acesso em: 10 jan. 2019 [adaptado].</p>
+    <p><strong>O uso do texto verbal nesse anúncio assume a função de</strong></p>
+  `,
+  alternativas: [
+    { letra: "A", texto: "descrever de forma técnica a ilustração.", correta: false },
+    { letra: "B", texto: "destacar os múltiplos sentidos do vernáculo.", correta: false },
+    { letra: "C", texto: "explicar o significado de expressões ilustradas.", correta: true },
+    { letra: "D", texto: "apresentar termos equivalentes em outras línguas.", correta: false },
+    { letra: "E", texto: "apontar para a dificuldade de compreensão do termo.", correta: false }
+  ],
+  materiaCompleta: `
+    <div style="font-family: system-ui, sans-serif; line-height: 1.6;">
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-icons"></i> 1. Texto verbal x texto não verbal: uma parceria de sentido</h3>
+      <p>Um texto <strong>multimodal</strong> combina diferentes linguagens (imagem, palavra, cor, tipografia) para construir um único sentido. Quando imagem e palavra aparecem juntas, elas raramente repetem a mesma informação: cada uma cumpre uma função. Uma função muito comum do texto verbal é a de <strong>ancoragem</strong> — ele "prende" um significado específico a uma imagem que, sozinha, poderia ser interpretada de várias formas.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-anchor"></i> 2. Como reconhecer a função de ancoragem</h3>
+      <p>Pergunte-se: <em>a imagem, sozinha, permitiria mais de uma leitura?</em> Se sim, e o texto verbal reduz essa ambiguidade explicando exatamente o que aquilo significa, a função é de <strong>ancoragem/explicação</strong>. No anúncio da série "Palavras intraduzíveis", a imagem da mão com água poderia sugerir várias ideias (sede, lavagem, oferenda). O texto <em>"a quantidade de água que pode ser segurada com as mãos"</em> fixa um único sentido: a definição exata da palavra "gura". Não é descrição técnica (não fala de traço, cor ou composição), nem comparação entre idiomas.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-triangle-exclamation"></i> 3. Armadilhas comuns nesse tipo de questão</h3>
+      <ul>
+        <li><strong>Confundir "explicar um sentido" com "apresentar equivalente em outro idioma":</strong> a proposta da artista é justamente mostrar palavras <u>sem</u> equivalente — o oposto de "termo equivalente".</li>
+        <li><strong>Confundir "explicar" com "descrever tecnicamente":</strong> descrição técnica falaria de elementos visuais (traços, cores, enquadramento), não do significado da palavra.</li>
+        <li><strong>Confundir "fixar um sentido" com "mostrar múltiplos sentidos":</strong> o texto verbal aqui reduz a ambiguidade, não a multiplica.</li>
+      </ul>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-lightbulb"></i> 4. Dica prática</h3>
+      <p>Em questões sobre relação texto-imagem, identifique primeiro o que a imagem, sozinha, poderia significar. Depois, veja o que o texto verbal faz com esse sentido: reduz (ancora/explica), amplia, contradiz ou apenas repete? Essa é a chave para escolher a função correta.</p>
+    </div>
+  `,
+  conceitos: ["Ancoragem", "Texto Multimodal", "Relação Verbo-Visual", "Palavras Intraduzíveis", "Função Textual"],
+  resolucaoHtml: `
+    <div style="font-family: system-ui, sans-serif; line-height: 1.6;">
+      <h3 style="color:#16a34a;"><i class="fa-solid fa-circle-check"></i> Por que a alternativa C está correta</h3>
+      <p>A ilustração de duas mãos segurando água é, sozinha, uma imagem que admite múltiplas leituras (sede, cuidado, oferta, gesto simbólico). O texto verbal <em>"a quantidade de água que pode ser segurada com as mãos"</em> tem exatamente a função de <strong>explicar o significado</strong> da palavra "gura", que está sendo ilustrada. Ou seja, o texto ancora um sentido específico e único à imagem, eliminando a ambiguidade que ela teria isoladamente. Essa é precisamente a proposta da série "Palavras intraduzíveis": usar imagem + texto para explicar vocábulos que não têm um equivalente direto em outra língua.</p>
+
+      <h3 style="color:#dc2626;"><i class="fa-solid fa-circle-xmark"></i> Por que as demais alternativas estão erradas</h3>
+      <p><strong>A) descrever de forma técnica a ilustração.</strong> O texto não fala de cores, traços, composição ou estilo do desenho — ele fala do significado da palavra "gura". Não há descrição técnica da imagem.</p>
+      <p><strong>B) destacar os múltiplos sentidos do vernáculo.</strong> O texto faz o oposto: reduz a imagem a um único sentido específico, e a palavra em questão ("gura") nem é do vernáculo (português) — é uma palavra estrangeira sem tradução.</p>
+      <p><strong>D) apresentar termos equivalentes em outras línguas.</strong> Esse é o erro mais tentador: a série inteira é sobre palavras <strong>sem</strong> equivalente em outras línguas — inclusive no português. O texto explica o sentido, não traduz nem apresenta equivalência.</p>
+      <p><strong>E) apontar para a dificuldade de compreensão do termo.</strong> O texto não comenta sobre a dificuldade de entender a palavra; ele resolve essa dificuldade, explicando diretamente o que ela significa.</p>
+
+      <h3 style="color:#7c3aed;"><i class="fa-solid fa-shield"></i> Como não cair nessa pegadinha</h3>
+      <p>Sempre que uma questão envolver a série "Palavras intraduzíveis" (ou qualquer projeto semelhante), lembre-se de que o tema central é a <strong>ausência de tradução</strong>. Qualquer alternativa que fale em "equivalência entre línguas" ou "tradução" contraria a própria premissa do texto-base e deve ser descartada.</p>
+    </div>
+  `,
+  galeria: [
+    {
+      titulo: "A ilustração de 'gura'",
+      descricao: "Reconstrução estilizada do anúncio: mãos em concha segurando água, com a palavra e sua definição.",
+      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="220" fill="#f5f3ff"/>
+        <rect x="10" y="10" width="280" height="200" rx="12" fill="#ffffff" stroke="#7c3aed" stroke-width="2"/>
+        <text x="150" y="35" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#7c3aed" font-weight="bold">GURA</text>
+        <path d="M 90 100 Q 100 140 150 145 Q 200 140 210 100 Q 200 90 150 92 Q 100 90 90 100 Z" fill="#38bdf8" opacity="0.6"/>
+        <path d="M 80 95 Q 90 60 130 65 Q 120 90 105 100 Z" fill="#e9d8fd" stroke="#7c3aed" stroke-width="2"/>
+        <path d="M 220 95 Q 210 60 170 65 Q 180 90 195 100 Z" fill="#e9d8fd" stroke="#7c3aed" stroke-width="2"/>
+        <text x="150" y="175" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#312e81" font-weight="bold">gura</text>
+        <text x="150" y="195" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4c1d95">"a quantidade de água que</text>
+        <text x="150" y="207" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#4c1d95">pode ser segurada com as mãos"</text>
+      </svg>`
+    },
+    {
+      titulo: "Esquema da função de ancoragem",
+      descricao: "Como o texto verbal reduz a ambiguidade de uma imagem polissêmica e fixa um sentido único.",
+      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="220" fill="#faf5ff"/>
+        <circle cx="80" cy="70" r="45" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+        <text x="80" y="65" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#4c1d95">IMAGEM</text>
+        <text x="80" y="80" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">(vários sentidos</text>
+        <text x="80" y="90" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">possíveis)</text>
+        <path d="M 130 70 L 190 70" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrow)"/>
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#7c3aed"/>
+          </marker>
+        </defs>
+        <text x="160" y="60" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81" font-weight="bold">ancora</text>
+        <rect x="190" y="45" width="90" height="50" rx="8" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+        <text x="235" y="65" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#312e81" font-weight="bold">TEXTO</text>
+        <text x="235" y="80" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81">(sentido único)</text>
+        <rect x="60" y="140" width="180" height="60" rx="8" fill="#ffffff" stroke="#a78bfa" stroke-width="1.5" stroke-dasharray="4"/>
+        <text x="150" y="160" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">Resultado: sentido fixado</text>
+        <text x="150" y="178" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5b21b6">Imagem + texto = significado</text>
+        <text x="150" y="190" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#5b21b6">único e claro</text>
+      </svg>`
+    },
+    {
+      titulo: "Outras palavras intraduzíveis",
+      descricao: "Exemplos famosos de palavras sem tradução direta, com pequena ilustração conceitual.",
+      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="220" fill="#f5f3ff"/>
+        <g>
+          <circle cx="60" cy="55" r="28" fill="#fde68a" stroke="#b45309" stroke-width="2"/>
+          <text x="60" y="60" text-anchor="middle" font-size="20">🌲</text>
+          <text x="60" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Waldeinsamkeit</text>
+          <text x="60" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(alemão: sensação de</text>
+          <text x="60" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">estar só na floresta)</text>
+        </g>
+        <g>
+          <circle cx="150" cy="55" r="28" fill="#bbf7d0" stroke="#15803d" stroke-width="2"/>
+          <text x="150" y="60" text-anchor="middle" font-size="20">☕</text>
+          <text x="150" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Fika</text>
+          <text x="150" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(sueco: pausa para</text>
+          <text x="150" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">café e conversa)</text>
+        </g>
+        <g>
+          <circle cx="240" cy="55" r="28" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="2"/>
+          <text x="240" y="60" text-anchor="middle" font-size="20">🌅</text>
+          <text x="240" y="95" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#312e81" font-weight="bold">Komorebi</text>
+          <text x="240" y="107" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">(japonês: luz do sol</text>
+          <text x="240" y="117" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4c1d95">entre as folhas)</text>
+        </g>
+        <rect x="30" y="150" width="240" height="55" rx="8" fill="#ffffff" stroke="#a78bfa"/>
+        <text x="150" y="170" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">Como "gura", cada palavra recebe</text>
+        <text x="150" y="185" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">uma imagem + um texto explicativo,</text>
+        <text x="150" y="200" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#5b21b6" font-weight="bold">nunca uma "tradução literal".</text>
+      </svg>`
+    },
+    {
+      titulo: "Ancoragem x outras funções do texto verbal",
+      descricao: "Comparativo entre explicar/ancorar um sentido, descrever tecnicamente e comparar idiomas.",
+      svg: `<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+        <rect width="300" height="220" fill="#faf5ff"/>
+        <rect x="10" y="15" width="85" height="185" rx="8" fill="#d9f99d" stroke="#4d7c0f" stroke-width="2"/>
+        <text x="52" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#365314" font-weight="bold">ANCORAGEM</text>
+        <text x="52" y="50" text-anchor="middle" font-size="16">✅</text>
+        <text x="52" y="70" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">Explica o sentido</text>
+        <text x="52" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">de uma imagem</text>
+        <text x="52" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#365314">ambígua</text>
+        <text x="52" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#166534" font-weight="bold">É a função do</text>
+        <text x="52" y="127" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#166534" font-weight="bold">anúncio "gura"</text>
+
+        <rect x="107" y="15" width="85" height="185" rx="8" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+        <text x="149" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">DESCRIÇÃO</text>
+        <text x="149" y="47" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">TÉCNICA</text>
+        <text x="149" y="62" text-anchor="middle" font-size="16">❌</text>
+        <text x="149" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">Fala de traço,</text>
+        <text x="149" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">cor, composição</text>
+        <text x="149" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#991b1b" font-weight="bold">Não é o caso</text>
+
+        <rect x="204" y="15" width="86" height="185" rx="8" fill="#fecaca" stroke="#b91c1c" stroke-width="2"/>
+        <text x="247" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">COMPARAÇÃO</text>
+        <text x="247" y="47" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7f1d1d" font-weight="bold">DE IDIOMAS</text>
+        <text x="247" y="62" text-anchor="middle" font-size="16">❌</text>
+        <text x="247" y="82" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">Apresenta termos</text>
+        <text x="247" y="94" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#7f1d1d">equivalentes</text>
+        <text x="247" y="115" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#991b1b" font-weight="bold">Oposto do texto</text>
+      </svg>`
+    }
+  ],
+  simulador: {
+    titulo: "Ancorador de Palavras Intraduzíveis",
+    descricao: "Associe cada palavra intraduzível à sua definição correta, praticando a função de ancoragem entre texto e imagem.",
+    html: `<div id="q045-sim-root" style="font-family: system-ui, sans-serif;">
+      <p style="margin:0 0 10px 0; color:#4c1d95; font-size:14px;">Clique em uma palavra e depois na definição que a "ancora" corretamente.</p>
+      <div id="q045-sim-cols" style="display:flex; gap:20px; flex-wrap:wrap;">
+        <div id="q045-sim-words" style="flex:1; min-width:140px; display:flex; flex-direction:column; gap:8px;"></div>
+        <div id="q045-sim-defs" style="flex:2; min-width:220px; display:flex; flex-direction:column; gap:8px;"></div>
+      </div>
+      <div id="q045-sim-feedback" style="margin-top:12px; font-size:13px; font-weight:bold;"></div>
+      <div id="q045-sim-score" style="margin-top:6px; font-size:12px; color:#6b21a8;"></div>
+    </div>`,
+    init: function(raiz) {
+      var dados = [
+        { palavra: "gura", emoji: "💧🤲", def: "A quantidade de água que pode ser segurada com as mãos.", idioma: "sânscrito" },
+        { palavra: "fika", emoji: "☕", def: "Pausa para tomar café e conversar com calma.", idioma: "sueco" },
+        { palavra: "komorebi", emoji: "🌳☀️", def: "Luz do sol filtrada entre as folhas das árvores.", idioma: "japonês" },
+        { palavra: "waldeinsamkeit", emoji: "🌲🧍", def: "A sensação de estar sozinho e em paz na floresta.", idioma: "alemão" },
+        { palavra: "hygge", emoji: "🕯️🧣", def: "Sensação de conforto e aconchego acolhedor.", idioma: "dinamarquês" }
+      ];
+
+      function embaralhar(lista) {
+        var copia = lista.slice();
+        for (var i = copia.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = copia[i];
+          copia[i] = copia[j];
+          copia[j] = tmp;
+        }
+        return copia;
+      }
+
+      var colWords = raiz.querySelector("#q045-sim-words");
+      var colDefs = raiz.querySelector("#q045-sim-defs");
+      var feedback = raiz.querySelector("#q045-sim-feedback");
+      var scoreEl = raiz.querySelector("#q045-sim-score");
+
+      var defsEmbaralhadas = embaralhar(dados);
+      var palavraSelecionada = null;
+      var acertos = 0;
+      var resolvidos = {};
+
+      function render() {
+        colWords.innerHTML = "";
+        dados.forEach(function(item) {
+          var btn = document.createElement("button");
+          btn.textContent = item.emoji + "  " + item.palavra;
+          btn.style.cssText = "text-align:left; padding:10px; border-radius:8px; border:2px solid #a78bfa; background:#f5f3ff; cursor:pointer; font-size:13px;";
+          if (resolvidos[item.palavra]) {
+            btn.style.background = "#d9f99d";
+            btn.style.borderColor = "#4d7c0f";
+            btn.disabled = true;
+          }
+          if (palavraSelecionada === item.palavra) {
+            btn.style.borderColor = "#7c3aed";
+            btn.style.boxShadow = "0 0 0 2px #7c3aed";
+          }
+          btn.addEventListener("click", function() {
+            if (resolvidos[item.palavra]) return;
+            palavraSelecionada = item.palavra;
+            feedback.textContent = "Agora clique na definição que ancora essa palavra.";
+            feedback.style.color = "#4c1d95";
+            render();
+          });
+          colWords.appendChild(btn);
+        });
+
+        colDefs.innerHTML = "";
+        defsEmbaralhadas.forEach(function(item) {
+          var jaResolvidoPorEssaDef = Object.keys(resolvidos).some(function(p) { return resolvidos[p] === item.def; });
+          var btn = document.createElement("button");
+          btn.textContent = "\"" + item.def + "\"";
+          btn.style.cssText = "text-align:left; padding:10px; border-radius:8px; border:2px solid #c4b5fd; background:#ffffff; cursor:pointer; font-size:13px;";
+          if (jaResolvidoPorEssaDef) {
+            btn.style.background = "#d9f99d";
+            btn.style.borderColor = "#4d7c0f";
+            btn.disabled = true;
+          }
+          btn.addEventListener("click", function() {
+            if (!palavraSelecionada) {
+              feedback.textContent = "Primeiro selecione uma palavra à esquerda.";
+              feedback.style.color = "#b91c1c";
+              return;
+            }
+            var alvo = dados.filter(function(d) { return d.palavra === palavraSelecionada; })[0];
+            if (alvo.def === item.def) {
+              resolvidos[palavraSelecionada] = item.def;
+              acertos++;
+              feedback.textContent = "Correto! O texto \"" + item.def + "\" ancora o sentido de \"" + alvo.palavra + "\" (" + alvo.idioma + ").";
+              feedback.style.color = "#15803d";
+            } else {
+              feedback.textContent = "Essa definição pertence a outra palavra. Pense: qual texto fixa exatamente o sentido de \"" + alvo.palavra + "\"?";
+              feedback.style.color = "#b91c1c";
+            }
+            palavraSelecionada = null;
+            scoreEl.textContent = "Acertos: " + acertos + " de " + dados.length;
+            render();
+          });
+          colDefs.appendChild(btn);
+        });
+
+        scoreEl.textContent = "Acertos: " + acertos + " de " + dados.length;
+        if (acertos === dados.length) {
+          feedback.textContent = "Você ancorou todas as palavras corretamente! Assim como no anúncio 'gura', o texto verbal explica e fixa o sentido de uma imagem que sozinha seria ambígua.";
+          feedback.style.color = "#15803d";
+        }
+      }
+
+      render();
+    }
+  },
+  diagramaHtml: `<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="200" height="100" fill="#f5f3ff"/>
+    <circle cx="55" cy="50" r="30" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="55" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#4c1d95">IMAGEM</text>
+    <text x="55" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#4c1d95">ambígua</text>
+    <path d="M 90 50 L 130 50" stroke="#7c3aed" stroke-width="3" marker-end="url(#arrowD)"/>
+    <defs>
+      <marker id="arrowD" markerWidth="8" markerHeight="8" refX="6" refY="2.5" orient="auto">
+        <path d="M0,0 L0,5 L7,2.5 z" fill="#7c3aed"/>
+      </marker>
+    </defs>
+    <rect x="130" y="30" width="60" height="40" rx="6" fill="#c4b5fd" stroke="#7c3aed" stroke-width="2"/>
+    <text x="160" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#312e81" font-weight="bold">TEXTO</text>
+    <text x="160" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#312e81">ancora</text>
+  </svg>`,
+  simuladorType: null
 }
 
 ];
