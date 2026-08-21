@@ -34977,7 +34977,7 @@ const questaoDatabase = [
   simulador: {
     titulo: "Destacador de Marcadores Discursivos",
     descricao: "Clique em cada 'daí' do trecho abaixo e descubra a função que ele cumpre na narrativa oral.",
-    html: `<div style="font-family:inherit;">
+    html: `<div style="font-family:inherit;background:#faf5ff;border-radius:10px;padding:12px;">
       <p style="font-size:13px; color:#4c1d95; margin-bottom:10px;"><i class="fa-solid fa-hand-pointer"></i> Clique em cada palavra <strong>"daí"</strong> destacada no texto para ver a função que ela exerce nessa passagem da narrativa.</p>
       <div id="q036-texto" style="line-height:2; font-size:14px; background:#faf5ff; border:1px solid #ddd6fe; border-radius:8px; padding:14px;"></div>
       <div id="q036-feedback" style="margin-top:12px; min-height:60px; background:#f1f5f9; border-radius:8px; padding:12px; font-size:13px; color:#334155;">Clique em uma das palavras destacadas para ver a explicação aqui.</div>
@@ -35577,11 +35577,11 @@ const questaoDatabase = [
     titulo: "Caça-Referentes",
     descricao: "Clique em uma expressão referencial destacada no texto e descubra qual é o seu antecedente correto.",
     html: `
-      <div id="caca-referentes-wrap" style="font-family:inherit;">
+      <div id="caca-referentes-wrap" style="font-family:inherit;background:#faf5ff;border-radius:10px;padding:12px;">
         <p style="margin-bottom:10px;color:#4c1d95;font-weight:bold;">
           <i class="fa-solid fa-hand-pointer"></i> Clique em uma expressão sublinhada para revelar o antecedente:
         </p>
-        <div id="cr-texto" style="line-height:2.1;padding:14px;background:#faf5ff;border-radius:8px;border:1px solid #ddd6fe;font-size:14px;">
+        <div id="cr-texto" style="line-height:2.1;padding:14px;background:#faf5ff;border-radius:8px;border:1px solid #ddd6fe;font-size:14px;color:#4c1d95;">
           O mais assustador do meteoro que cruzou o céu da Sibéria e explodiu no ar como várias bombas atômicas é que ele chegou sem ser anunciado. Com todas as atenções voltadas para <span data-cr="raspao" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">o outro asteroide, o que passou de raspão</span>, o asteroide da Sibéria entrou pela porta dos fundos sem ser detectado. A desculpa é que era pequeno demais para chamar a atenção e por <span data-cr="isso" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">isso</span> os alarmes não funcionaram. Nossa ilusão, até agora, era que qualquer detrito espacial que se aproximasse de nós seria identificado e rotulado, e <span data-cr="trajetoria" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">sua trajetória</span> calculada até o último milímetro com grande antecedência, <span data-cr="opronome" style="cursor:pointer;text-decoration:underline dotted;text-decoration-color:#7c3aed;background:#ede9fe;padding:1px 3px;border-radius:3px;">o que nos daria tempo</span> para preparar o espírito — ou usar nossos cartões de crédito até o limite — no caso da colisão com a Terra ser inevitável."
         </div>
         <div id="cr-resultado" style="margin-top:14px;padding:12px;background:#fff;border:2px dashed #c4b5fd;border-radius:8px;min-height:40px;color:#374151;font-size:14px;">
@@ -35756,9 +35756,9 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
     titulo: "Extrator de Tema Central",
     descricao: "Classifique trechos do texto como 'Tema Central' ou 'Detalhe/Exemplo secundário' e receba feedback imediato.",
     html: `
-      <div id="extrator-tema-central" style="font-family:inherit;">
+      <div id="extrator-tema-central" style="font-family:inherit;background:#faf5ff;border-radius:10px;padding:12px;">
         <p style="margin-bottom:12px; color:#6d28d9;"><i class="fa-solid fa-magnifying-glass"></i> Leia cada trecho abaixo e classifique-o.</p>
-        <div id="etc-trecho-container" style="padding:16px; background:#f5f3ff; border-radius:8px; margin-bottom:12px; min-height:60px;"></div>
+        <div id="etc-trecho-container" style="padding:16px; background:#f5f3ff; border-radius:8px; margin-bottom:12px; min-height:60px; color:#4c1d95;"></div>
         <div style="display:flex; gap:10px; margin-bottom:12px;">
           <button id="etc-btn-central" style="flex:1; padding:10px; background:#7c3aed; color:#fff; border:none; border-radius:6px; cursor:pointer;">Tema Central</button>
           <button id="etc-btn-detalhe" style="flex:1; padding:10px; background:#a78bfa; color:#fff; border:none; border-radius:6px; cursor:pointer;">Detalhe / Exemplo Secundário</button>
@@ -35814,6 +35814,7 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
         if (indice >= trechos.length) {
           trechoContainer.innerHTML = "<strong>Concluído!</strong>";
           feedback.style.background = "#ecfdf5";
+          feedback.style.color = "#047857";
           feedback.innerHTML = "<i class='fa-solid fa-flag-checkered'></i> Você acertou " + acertos + " de " + trechos.length + " trechos. O tema central do texto é a <strong>permanência do rádio e sua evolução por meio da tecnologia digital</strong>.";
           btnCentral.disabled = true;
           btnDetalhe.disabled = true;
@@ -35968,7 +35969,7 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
   simulador: {
     titulo: "Detector de Ironia Narrativa",
     descricao: "Clique nos trechos descritivos dos personagens e descubra o que cada detalhe revela ironicamente sobre o caráter deles.",
-    html: `<div id="detector-ironia" style="font-family:sans-serif;color:#3b0764;">
+    html: `<div id="detector-ironia" style="font-family:sans-serif;color:#3b0764;background:#faf5ff;border-radius:10px;padding:12px;">
       <p style="margin-bottom:12px;">Clique em cada trecho destacado para ver o que ele revela sobre o personagem:</p>
       <div style="display:flex;flex-direction:column;gap:8px;">
         <span class="trecho-ironico" data-personagem="coronel" data-chave="devoto" style="cursor:pointer;background:#ede9fe;border:1px solid #7c3aed;border-radius:6px;padding:8px;">"...com um tremor lúbrico nas bantas moles da face, os olhinhos vivos pestanejando..."</span>
@@ -36142,7 +36143,7 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
   simulador: {
     titulo: "Explorador de Bancos Sagrados",
     descricao: "Escolha diferentes animais da fauna indígena e descubra qual nova função cultural cada um ganha ao virar um banco sagrado.",
-    html: '<div id="q041-sim-root" style="font-family: system-ui, sans-serif; color: #1e1b2e; padding: 8px;"><div id="q041-sim-botoes" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"></div><div id="q041-sim-card" style="background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed; border-radius: 8px; padding: 16px; min-height: 90px;"></div></div>',
+    html: '<div id="q041-sim-root" style="font-family: system-ui, sans-serif; color: #1e1b2e; padding: 8px;background:#faf5ff;border-radius:10px;"><div id="q041-sim-botoes" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px;"></div><div id="q041-sim-card" style="background: rgba(124,58,237,0.08); border-left: 4px solid #7c3aed; border-radius: 8px; padding: 16px; min-height: 90px;"></div></div>',
     init: function (raiz) {
       var animais = [
         {
@@ -36417,7 +36418,8 @@ Para um pesquisador da Universidade Federal de Uberlândia (UFU), o rádio não 
           btn.style.padding = "0.6rem 0.9rem";
           btn.style.borderRadius = "0.5rem";
           btn.style.border = "1px solid rgba(139,92,246,0.4)";
-          btn.style.background = "transparent";
+          btn.style.background = "#f5f3ff";
+          btn.style.color = "#3b0764";
           btn.style.cursor = "pointer";
           btn.style.fontSize = "0.88rem";
           btn.addEventListener("click", function () {
@@ -36741,7 +36743,7 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
   simulador: {
     titulo: "Classificador de Estratégias Persuasivas",
     descricao: "Leia cada trecho do texto e identifique qual estratégia argumentativa ele representa.",
-    html: `<div id="q044-simulador" style="font-family:sans-serif; max-width:520px; margin:0 auto;">
+    html: `<div id="q044-simulador" style="font-family:sans-serif; max-width:520px; margin:0 auto;background:#faf5ff;border-radius:10px;padding:14px;">
       <div id="q044-trecho-box" style="background:#f5f3ff; border:1px solid #ddd6fe; border-radius:10px; padding:14px; margin-bottom:12px; min-height:60px; font-size:14px; color:#4c1d95;"></div>
       <div id="q044-opcoes" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;"></div>
       <div id="q044-feedback" style="min-height:40px; font-size:13px; font-weight:bold; margin-bottom:10px;"></div>
@@ -36944,7 +36946,7 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
   simulador: {
     titulo: "Ancorador de Palavras Intraduzíveis",
     descricao: "Associe cada palavra intraduzível à sua definição correta, praticando a função de ancoragem entre texto e imagem.",
-    html: `<div id="q045-sim-root" style="font-family: system-ui, sans-serif;">
+    html: `<div id="q045-sim-root" style="font-family: system-ui, sans-serif;background:#faf5ff;border-radius:10px;padding:14px;">
       <p style="margin:0 0 10px 0; color:#4c1d95; font-size:14px;">Clique em uma palavra e depois na definição que a "ancora" corretamente.</p>
       <div id="q045-sim-cols" style="display:flex; gap:20px; flex-wrap:wrap;">
         <div id="q045-sim-words" style="flex:1; min-width:140px; display:flex; flex-direction:column; gap:8px;"></div>
