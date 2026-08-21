@@ -11,8 +11,6 @@
   </script>
 
   <script>
-    /* Aplica o tema (claro/escuro) o mais cedo possível, antes da
-       primeira pintura da página, pra evitar o "flash" de tema errado. */
     (function () {
       var salvo = null;
       try { salvo = localStorage.getItem('plataforma-estudos-tema'); } catch (e) {}
@@ -32,7 +30,6 @@
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
   <style>
@@ -43,22 +40,10 @@
     :focus-visible { outline: 2px solid #3b82f6; outline-offset: 2px; }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 
-    /* ===================================================================
-       MODO CLARO
-       O site inteiro foi construído só com cores do tema escuro (slate-950
-       etc). Em vez de reescrever toda a interface com variantes dark:/light:
-       espalhadas pelo HTML e pelo JS (inclusive dentro do questoes.js),
-       este bloco reaproveita as MESMAS classes utilitárias do Tailwind e
-       sobrescreve a cor final quando a página está em modo claro
-       (<html class="light">). Isso cobre automaticamente qualquer conteúdo
-       gerado dinamicamente (perguntas, resoluções, galerias) sem precisar
-       tocar em cada função de renderização.
-       =================================================================== */
     html.light { color-scheme: light; }
     html.light ::-webkit-scrollbar-track { background: #f1f5f9; }
     html.light ::-webkit-scrollbar-thumb { background: #cbd5e1; }
     html.light ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
-
     html.light .bg-amber-950\/20 { background-color: #fffbeb !important; }
     html.light .bg-amber-950\/30 { background-color: #fffbeb !important; }
     html.light .bg-amber-950\/40 { background-color: #fffbeb !important; }
@@ -139,172 +124,183 @@
     html.light .text-violet-400 { color: #7c3aed !important; }
     html.light .text-white { color: #0f172a !important; }
 
+<<<<<<< HEAD
+=======
     /* -------------------------------------------------------------------
-       DIAGRAMAS SVG — sempre no "modo escuro"
+       DIAGRAMAS SVG — sempre no "modo escuro" (classe dedicada .svg-vitrine)
        As questões têm dezenas de desenhos SVG desenhados à mão com cores
        claras (traços cinza-claro, texto branco etc) pensadas para ficar
-       dentro de uma caixa escura (bg-slate-950 / bg-slate-900). Se essa
-       caixa virasse branca no modo claro, os desenhos ficariam
-       praticamente invisíveis (traço claro sobre fundo claro). Por isso,
-       qualquer caixa que CONTENHA um <svg> continua com fundo escuro e
-       preserva as cores originais dos elementos internos, mesmo com o
-       site no modo claro — é uma "vitrine escura" dentro da página clara.
+       dentro de uma caixa escura. Se essa caixa virasse branca no modo
+       claro, os desenhos ficariam praticamente invisíveis (traço claro
+       sobre fundo claro). Por isso, toda caixa que envolve um <svg>
+       (galeria e diagramaHtml) recebe a classe .svg-vitrine, que mantém
+       fundo escuro e preserva as cores originais dos elementos internos,
+       mesmo com o site no modo claro — é uma "vitrine escura" dentro da
+       página clara.
+       IMPORTANTE: antes usávamos um seletor `:has(svg)` sobre as classes
+       genéricas bg-slate-950/900/900\/60 — mas como body/header/main
+       também usam essas classes, e :has() casa com QUALQUER ancestral
+       (não só o pai imediato), abrir a galeria de uma questão (inserindo
+       um <svg> em qualquer lugar do DOM) fazia a página inteira voltar a
+       ficar escura mesmo no modo claro. Agora usamos uma classe própria
+       (.svg-vitrine), aplicada só nas caixas que realmente devem ficar
+       sempre escuras, em vez de depender de :has(svg).
        ------------------------------------------------------------------- */
-    html.light .bg-slate-950:has(svg) { background-color: #0f172a !important; }
-    html.light .bg-slate-900:has(svg) { background-color: #0f172a !important; }
-    html.light .bg-slate-900\/60:has(svg) { background-color: rgba(15,23,42,0.6) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-500 { background-color: #f59e0b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-500\/10 { background-color: rgba(245,158,11,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-600 { background-color: #d97706 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-950 { background-color: #451a03 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-950\/20 { background-color: rgba(69,26,3,0.2) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-950\/30 { background-color: rgba(69,26,3,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-amber-950\/40 { background-color: rgba(69,26,3,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-blue-500\/10 { background-color: rgba(59,130,246,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-blue-500\/20 { background-color: rgba(59,130,246,0.2) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-blue-600 { background-color: #2563eb !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-blue-950 { background-color: #172554 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-blue-950\/40 { background-color: rgba(23,37,84,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-500 { background-color: #06b6d4 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-500\/10 { background-color: rgba(6,182,212,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-600 { background-color: #0891b2 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-950 { background-color: #083344 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-950\/20 { background-color: rgba(8,51,68,0.2) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-950\/30 { background-color: rgba(8,51,68,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-cyan-950\/40 { background-color: rgba(8,51,68,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-500 { background-color: #10b981 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-500\/10 { background-color: rgba(16,185,129,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-600 { background-color: #059669 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-950 { background-color: #022c22 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-950\/20 { background-color: rgba(2,44,34,0.2) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-950\/30 { background-color: rgba(2,44,34,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-emerald-950\/40 { background-color: rgba(2,44,34,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-lime-500\/10 { background-color: rgba(132,204,22,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-lime-600 { background-color: #65a30d !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-pink-500\/10 { background-color: rgba(236,72,153,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-pink-600 { background-color: #db2777 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-pink-950 { background-color: #500724 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-pink-950\/40 { background-color: rgba(80,7,36,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-500 { background-color: #a855f7 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-500\/10 { background-color: rgba(168,85,247,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-600 { background-color: #9333ea !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-950 { background-color: #3b0764 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-950\/30 { background-color: rgba(59,7,100,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-purple-950\/40 { background-color: rgba(59,7,100,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-red-500\/10 { background-color: rgba(239,68,68,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-red-600 { background-color: #dc2626 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-rose-500 { background-color: #f43f5e !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-rose-500\/10 { background-color: rgba(244,63,94,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-rose-950 { background-color: #4c0519 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-rose-950\/30 { background-color: rgba(76,5,25,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-rose-950\/40 { background-color: rgba(76,5,25,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-sky-500 { background-color: #0ea5e9 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-sky-950 { background-color: #082f49 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-sky-950\/30 { background-color: rgba(8,47,73,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-sky-950\/40 { background-color: rgba(8,47,73,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-600 { background-color: #475569 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-700 { background-color: #334155 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-800 { background-color: #1e293b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-800\/30 { background-color: rgba(30,41,59,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-900 { background-color: #0f172a !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-900\/60 { background-color: rgba(15,23,42,0.6) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-900\/90 { background-color: rgba(15,23,42,0.9) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-950 { background-color: #020617 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-slate-950\/80 { background-color: rgba(2,6,23,0.8) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-violet-500\/10 { background-color: rgba(139,92,246,0.1) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .bg-violet-600 { background-color: #7c3aed !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-amber-500 { border-color: #f59e0b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-amber-500\/30 { border-color: rgba(245,158,11,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-amber-500\/40 { border-color: rgba(245,158,11,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-blue-500 { border-color: #3b82f6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-blue-500\/30 { border-color: rgba(59,130,246,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-cyan-500 { border-color: #06b6d4 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-cyan-500\/30 { border-color: rgba(6,182,212,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-cyan-500\/40 { border-color: rgba(6,182,212,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-emerald-500 { border-color: #10b981 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-emerald-500\/30 { border-color: rgba(16,185,129,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-emerald-500\/40 { border-color: rgba(16,185,129,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-lime-500 { border-color: #84cc16 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-pink-500 { border-color: #ec4899 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-pink-500\/30 { border-color: rgba(236,72,153,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-purple-500 { border-color: #a855f7 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-purple-500\/30 { border-color: rgba(168,85,247,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-purple-500\/40 { border-color: rgba(168,85,247,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-red-500 { border-color: #ef4444 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-rose-500 { border-color: #f43f5e !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-rose-500\/30 { border-color: rgba(244,63,94,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-rose-500\/40 { border-color: rgba(244,63,94,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-sky-500\/30 { border-color: rgba(14,165,233,0.3) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-sky-500\/40 { border-color: rgba(14,165,233,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-500 { border-color: #64748b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-500\/40 { border-color: rgba(100,116,139,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-600 { border-color: #475569 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-600\/40 { border-color: rgba(71,85,105,0.4) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-700 { border-color: #334155 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-800 { border-color: #1e293b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-slate-800\/80 { border-color: rgba(30,41,59,0.8) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .border-violet-500 { border-color: #8b5cf6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:bg-blue-500 { background-color: #3b82f6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:bg-slate-700 { background-color: #334155 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-amber-500 { border-color: #f59e0b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-blue-500 { border-color: #3b82f6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-cyan-500 { border-color: #06b6d4 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-emerald-500 { border-color: #10b981 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-lime-500 { border-color: #84cc16 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-pink-500 { border-color: #ec4899 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-purple-500 { border-color: #a855f7 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-red-500 { border-color: #ef4444 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-slate-600 { border-color: #475569 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-slate-700 { border-color: #334155 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:border-violet-500 { border-color: #8b5cf6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-amber-400 { color: #fbbf24 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-blue-400 { color: #60a5fa !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-cyan-400 { color: #22d3ee !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-emerald-400 { color: #34d399 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-lime-400 { color: #a3e635 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-pink-400 { color: #f472b6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-purple-400 { color: #c084fc !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-red-400 { color: #f87171 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-slate-200 { color: #e2e8f0 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-slate-300 { color: #cbd5e1 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .hover\:text-violet-400 { color: #a78bfa !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-amber-200 { color: #fde68a !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-amber-300 { color: #fcd34d !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-amber-400 { color: #fbbf24 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-blue-300 { color: #93c5fd !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-blue-400 { color: #60a5fa !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-blue-500 { color: #3b82f6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-cyan-200 { color: #a5f3fc !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-cyan-300 { color: #67e8f9 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-cyan-400 { color: #22d3ee !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-cyan-400\/80 { color: rgba(34,211,238,0.8) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-emerald-200 { color: #a7f3d0 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-emerald-300 { color: #6ee7b7 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-emerald-400 { color: #34d399 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-lime-400 { color: #a3e635 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-pink-300 { color: #f9a8d4 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-pink-400 { color: #f472b6 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-purple-200 { color: #e9d5ff !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-purple-300 { color: #d8b4fe !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-purple-400 { color: #c084fc !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-purple-500 { color: #a855f7 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-red-400 { color: #f87171 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-rose-200 { color: #fecdd3 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-rose-300 { color: #fda4af !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-rose-400 { color: #fb7185 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-sky-200 { color: #bae6fd !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-sky-300 { color: #7dd3fc !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-sky-400 { color: #38bdf8 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-sky-400\/70 { color: rgba(56,189,248,0.7) !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-100 { color: #f1f5f9 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-200 { color: #e2e8f0 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-300 { color: #cbd5e1 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-400 { color: #94a3b8 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-500 { color: #64748b !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-600 { color: #475569 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-slate-700 { color: #334155 !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-violet-400 { color: #a78bfa !important; }
-    html.light :is(.bg-slate-950, .bg-slate-900, .bg-slate-900\/60):has(svg) .text-white { color: #ffffff !important; }
+>>>>>>> a063a581ebf98b841d00518eb08d67c3ff29b854
+    html.light .svg-vitrine.bg-slate-950 { background-color: #0f172a !important; }
+    html.light .svg-vitrine.bg-slate-900\/60 { background-color: rgba(15,23,42,0.6) !important; }
+    html.light .svg-vitrine .bg-amber-500 { background-color: #f59e0b !important; }
+    html.light .svg-vitrine .bg-amber-500\/10 { background-color: rgba(245,158,11,0.1) !important; }
+    html.light .svg-vitrine .bg-amber-600 { background-color: #d97706 !important; }
+    html.light .svg-vitrine .bg-amber-950 { background-color: #451a03 !important; }
+    html.light .svg-vitrine .bg-amber-950\/20 { background-color: rgba(69,26,3,0.2) !important; }
+    html.light .svg-vitrine .bg-amber-950\/30 { background-color: rgba(69,26,3,0.3) !important; }
+    html.light .svg-vitrine .bg-amber-950\/40 { background-color: rgba(69,26,3,0.4) !important; }
+    html.light .svg-vitrine .bg-blue-500\/10 { background-color: rgba(59,130,246,0.1) !important; }
+    html.light .svg-vitrine .bg-blue-500\/20 { background-color: rgba(59,130,246,0.2) !important; }
+    html.light .svg-vitrine .bg-blue-600 { background-color: #2563eb !important; }
+    html.light .svg-vitrine .bg-blue-950 { background-color: #172554 !important; }
+    html.light .svg-vitrine .bg-blue-950\/40 { background-color: rgba(23,37,84,0.4) !important; }
+    html.light .svg-vitrine .bg-cyan-500 { background-color: #06b6d4 !important; }
+    html.light .svg-vitrine .bg-cyan-500\/10 { background-color: rgba(6,182,212,0.1) !important; }
+    html.light .svg-vitrine .bg-cyan-600 { background-color: #0891b2 !important; }
+    html.light .svg-vitrine .bg-cyan-950 { background-color: #083344 !important; }
+    html.light .svg-vitrine .bg-cyan-950\/20 { background-color: rgba(8,51,68,0.2) !important; }
+    html.light .svg-vitrine .bg-cyan-950\/30 { background-color: rgba(8,51,68,0.3) !important; }
+    html.light .svg-vitrine .bg-cyan-950\/40 { background-color: rgba(8,51,68,0.4) !important; }
+    html.light .svg-vitrine .bg-emerald-500 { background-color: #10b981 !important; }
+    html.light .svg-vitrine .bg-emerald-500\/10 { background-color: rgba(16,185,129,0.1) !important; }
+    html.light .svg-vitrine .bg-emerald-600 { background-color: #059669 !important; }
+    html.light .svg-vitrine .bg-emerald-950 { background-color: #022c22 !important; }
+    html.light .svg-vitrine .bg-emerald-950\/20 { background-color: rgba(2,44,34,0.2) !important; }
+    html.light .svg-vitrine .bg-emerald-950\/30 { background-color: rgba(2,44,34,0.3) !important; }
+    html.light .svg-vitrine .bg-emerald-950\/40 { background-color: rgba(2,44,34,0.4) !important; }
+    html.light .svg-vitrine .bg-lime-500\/10 { background-color: rgba(132,204,22,0.1) !important; }
+    html.light .svg-vitrine .bg-lime-600 { background-color: #65a30d !important; }
+    html.light .svg-vitrine .bg-pink-500\/10 { background-color: rgba(236,72,153,0.1) !important; }
+    html.light .svg-vitrine .bg-pink-600 { background-color: #db2777 !important; }
+    html.light .svg-vitrine .bg-pink-950 { background-color: #500724 !important; }
+    html.light .svg-vitrine .bg-pink-950\/40 { background-color: rgba(80,7,36,0.4) !important; }
+    html.light .svg-vitrine .bg-purple-500 { background-color: #a855f7 !important; }
+    html.light .svg-vitrine .bg-purple-500\/10 { background-color: rgba(168,85,247,0.1) !important; }
+    html.light .svg-vitrine .bg-purple-600 { background-color: #9333ea !important; }
+    html.light .svg-vitrine .bg-purple-950 { background-color: #3b0764 !important; }
+    html.light .svg-vitrine .bg-purple-950\/30 { background-color: rgba(59,7,100,0.3) !important; }
+    html.light .svg-vitrine .bg-purple-950\/40 { background-color: rgba(59,7,100,0.4) !important; }
+    html.light .svg-vitrine .bg-red-500\/10 { background-color: rgba(239,68,68,0.1) !important; }
+    html.light .svg-vitrine .bg-red-600 { background-color: #dc2626 !important; }
+    html.light .svg-vitrine .bg-rose-500 { background-color: #f43f5e !important; }
+    html.light .svg-vitrine .bg-rose-500\/10 { background-color: rgba(244,63,94,0.1) !important; }
+    html.light .svg-vitrine .bg-rose-950 { background-color: #4c0519 !important; }
+    html.light .svg-vitrine .bg-rose-950\/30 { background-color: rgba(76,5,25,0.3) !important; }
+    html.light .svg-vitrine .bg-rose-950\/40 { background-color: rgba(76,5,25,0.4) !important; }
+    html.light .svg-vitrine .bg-sky-500 { background-color: #0ea5e9 !important; }
+    html.light .svg-vitrine .bg-sky-950 { background-color: #082f49 !important; }
+    html.light .svg-vitrine .bg-sky-950\/30 { background-color: rgba(8,47,73,0.3) !important; }
+    html.light .svg-vitrine .bg-sky-950\/40 { background-color: rgba(8,47,73,0.4) !important; }
+    html.light .svg-vitrine .bg-slate-600 { background-color: #475569 !important; }
+    html.light .svg-vitrine .bg-slate-700 { background-color: #334155 !important; }
+    html.light .svg-vitrine .bg-slate-800 { background-color: #1e293b !important; }
+    html.light .svg-vitrine .bg-slate-800\/30 { background-color: rgba(30,41,59,0.3) !important; }
+    html.light .svg-vitrine .bg-slate-900 { background-color: #0f172a !important; }
+    html.light .svg-vitrine .bg-slate-900\/60 { background-color: rgba(15,23,42,0.6) !important; }
+    html.light .svg-vitrine .bg-slate-900\/90 { background-color: rgba(15,23,42,0.9) !important; }
+    html.light .svg-vitrine .bg-slate-950 { background-color: #020617 !important; }
+    html.light .svg-vitrine .bg-slate-950\/80 { background-color: rgba(2,6,23,0.8) !important; }
+    html.light .svg-vitrine .bg-violet-500\/10 { background-color: rgba(139,92,246,0.1) !important; }
+    html.light .svg-vitrine .bg-violet-600 { background-color: #7c3aed !important; }
+    html.light .svg-vitrine .border-amber-500 { border-color: #f59e0b !important; }
+    html.light .svg-vitrine .border-amber-500\/30 { border-color: rgba(245,158,11,0.3) !important; }
+    html.light .svg-vitrine .border-amber-500\/40 { border-color: rgba(245,158,11,0.4) !important; }
+    html.light .svg-vitrine .border-blue-500 { border-color: #3b82f6 !important; }
+    html.light .svg-vitrine .border-blue-500\/30 { border-color: rgba(59,130,246,0.3) !important; }
+    html.light .svg-vitrine .border-cyan-500 { border-color: #06b6d4 !important; }
+    html.light .svg-vitrine .border-cyan-500\/30 { border-color: rgba(6,182,212,0.3) !important; }
+    html.light .svg-vitrine .border-cyan-500\/40 { border-color: rgba(6,182,212,0.4) !important; }
+    html.light .svg-vitrine .border-emerald-500 { border-color: #10b981 !important; }
+    html.light .svg-vitrine .border-emerald-500\/30 { border-color: rgba(16,185,129,0.3) !important; }
+    html.light .svg-vitrine .border-emerald-500\/40 { border-color: rgba(16,185,129,0.4) !important; }
+    html.light .svg-vitrine .border-lime-500 { border-color: #84cc16 !important; }
+    html.light .svg-vitrine .border-pink-500 { border-color: #ec4899 !important; }
+    html.light .svg-vitrine .border-pink-500\/30 { border-color: rgba(236,72,153,0.3) !important; }
+    html.light .svg-vitrine .border-purple-500 { border-color: #a855f7 !important; }
+    html.light .svg-vitrine .border-purple-500\/30 { border-color: rgba(168,85,247,0.3) !important; }
+    html.light .svg-vitrine .border-purple-500\/40 { border-color: rgba(168,85,247,0.4) !important; }
+    html.light .svg-vitrine .border-red-500 { border-color: #ef4444 !important; }
+    html.light .svg-vitrine .border-rose-500 { border-color: #f43f5e !important; }
+    html.light .svg-vitrine .border-rose-500\/30 { border-color: rgba(244,63,94,0.3) !important; }
+    html.light .svg-vitrine .border-rose-500\/40 { border-color: rgba(244,63,94,0.4) !important; }
+    html.light .svg-vitrine .border-sky-500\/30 { border-color: rgba(14,165,233,0.3) !important; }
+    html.light .svg-vitrine .border-sky-500\/40 { border-color: rgba(14,165,233,0.4) !important; }
+    html.light .svg-vitrine .border-slate-500 { border-color: #64748b !important; }
+    html.light .svg-vitrine .border-slate-500\/40 { border-color: rgba(100,116,139,0.4) !important; }
+    html.light .svg-vitrine .border-slate-600 { border-color: #475569 !important; }
+    html.light .svg-vitrine .border-slate-600\/40 { border-color: rgba(71,85,105,0.4) !important; }
+    html.light .svg-vitrine .border-slate-700 { border-color: #334155 !important; }
+    html.light .svg-vitrine .border-slate-800 { border-color: #1e293b !important; }
+    html.light .svg-vitrine .border-slate-800\/80 { border-color: rgba(30,41,59,0.8) !important; }
+    html.light .svg-vitrine .border-violet-500 { border-color: #8b5cf6 !important; }
+    html.light .svg-vitrine .hover\:bg-blue-500 { background-color: #3b82f6 !important; }
+    html.light .svg-vitrine .hover\:bg-slate-700 { background-color: #334155 !important; }
+    html.light .svg-vitrine .hover\:border-amber-500 { border-color: #f59e0b !important; }
+    html.light .svg-vitrine .hover\:border-blue-500 { border-color: #3b82f6 !important; }
+    html.light .svg-vitrine .hover\:border-cyan-500 { border-color: #06b6d4 !important; }
+    html.light .svg-vitrine .hover\:border-emerald-500 { border-color: #10b981 !important; }
+    html.light .svg-vitrine .hover\:border-lime-500 { border-color: #84cc16 !important; }
+    html.light .svg-vitrine .hover\:border-pink-500 { border-color: #ec4899 !important; }
+    html.light .svg-vitrine .hover\:border-purple-500 { border-color: #a855f7 !important; }
+    html.light .svg-vitrine .hover\:border-red-500 { border-color: #ef4444 !important; }
+    html.light .svg-vitrine .hover\:border-slate-600 { border-color: #475569 !important; }
+    html.light .svg-vitrine .hover\:border-slate-700 { border-color: #334155 !important; }
+    html.light .svg-vitrine .hover\:border-violet-500 { border-color: #8b5cf6 !important; }
+    html.light .svg-vitrine .hover\:text-amber-400 { color: #fbbf24 !important; }
+    html.light .svg-vitrine .hover\:text-blue-400 { color: #60a5fa !important; }
+    html.light .svg-vitrine .hover\:text-cyan-400 { color: #22d3ee !important; }
+    html.light .svg-vitrine .hover\:text-emerald-400 { color: #34d399 !important; }
+    html.light .svg-vitrine .hover\:text-lime-400 { color: #a3e635 !important; }
+    html.light .svg-vitrine .hover\:text-pink-400 { color: #f472b6 !important; }
+    html.light .svg-vitrine .hover\:text-purple-400 { color: #c084fc !important; }
+    html.light .svg-vitrine .hover\:text-red-400 { color: #f87171 !important; }
+    html.light .svg-vitrine .hover\:text-slate-200 { color: #e2e8f0 !important; }
+    html.light .svg-vitrine .hover\:text-slate-300 { color: #cbd5e1 !important; }
+    html.light .svg-vitrine .hover\:text-violet-400 { color: #a78bfa !important; }
+    html.light .svg-vitrine .text-amber-200 { color: #fde68a !important; }
+    html.light .svg-vitrine .text-amber-300 { color: #fcd34d !important; }
+    html.light .svg-vitrine .text-amber-400 { color: #fbbf24 !important; }
+    html.light .svg-vitrine .text-blue-300 { color: #93c5fd !important; }
+    html.light .svg-vitrine .text-blue-400 { color: #60a5fa !important; }
+    html.light .svg-vitrine .text-blue-500 { color: #3b82f6 !important; }
+    html.light .svg-vitrine .text-cyan-200 { color: #a5f3fc !important; }
+    html.light .svg-vitrine .text-cyan-300 { color: #67e8f9 !important; }
+    html.light .svg-vitrine .text-cyan-400 { color: #22d3ee !important; }
+    html.light .svg-vitrine .text-cyan-400\/80 { color: rgba(34,211,238,0.8) !important; }
+    html.light .svg-vitrine .text-emerald-200 { color: #a7f3d0 !important; }
+    html.light .svg-vitrine .text-emerald-300 { color: #6ee7b7 !important; }
+    html.light .svg-vitrine .text-emerald-400 { color: #34d399 !important; }
+    html.light .svg-vitrine .text-lime-400 { color: #a3e635 !important; }
+    html.light .svg-vitrine .text-pink-300 { color: #f9a8d4 !important; }
+    html.light .svg-vitrine .text-pink-400 { color: #f472b6 !important; }
+    html.light .svg-vitrine .text-purple-200 { color: #e9d5ff !important; }
+    html.light .svg-vitrine .text-purple-300 { color: #d8b4fe !important; }
+    html.light .svg-vitrine .text-purple-400 { color: #c084fc !important; }
+    html.light .svg-vitrine .text-purple-500 { color: #a855f7 !important; }
+    html.light .svg-vitrine .text-red-400 { color: #f87171 !important; }
+    html.light .svg-vitrine .text-rose-200 { color: #fecdd3 !important; }
+    html.light .svg-vitrine .text-rose-300 { color: #fda4af !important; }
+    html.light .svg-vitrine .text-rose-400 { color: #fb7185 !important; }
+    html.light .svg-vitrine .text-sky-200 { color: #bae6fd !important; }
+    html.light .svg-vitrine .text-sky-300 { color: #7dd3fc !important; }
+    html.light .svg-vitrine .text-sky-400 { color: #38bdf8 !important; }
+    html.light .svg-vitrine .text-sky-400\/70 { color: rgba(56,189,248,0.7) !important; }
+    html.light .svg-vitrine .text-slate-100 { color: #f1f5f9 !important; }
+    html.light .svg-vitrine .text-slate-200 { color: #e2e8f0 !important; }
+    html.light .svg-vitrine .text-slate-300 { color: #cbd5e1 !important; }
+    html.light .svg-vitrine .text-slate-400 { color: #94a3b8 !important; }
+    html.light .svg-vitrine .text-slate-500 { color: #64748b !important; }
+    html.light .svg-vitrine .text-slate-600 { color: #475569 !important; }
+    html.light .svg-vitrine .text-slate-700 { color: #334155 !important; }
+    html.light .svg-vitrine .text-violet-400 { color: #a78bfa !important; }
+    html.light .svg-vitrine .text-white { color: #ffffff !important; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen flex flex-col">
@@ -324,7 +320,6 @@
       </div>
 
       <div class="flex items-center gap-3 text-xs">
-        <!-- Placar de desempenho -->
         <div class="flex items-center gap-3 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
           <span class="text-emerald-400 font-bold"><i class="fa-solid fa-check"></i> <span id="placarAcertos">0</span></span>
           <span class="text-rose-400 font-bold"><i class="fa-solid fa-xmark"></i> <span id="placarErros">0</span></span>
@@ -370,13 +365,26 @@
       </div>
     </div>
 
-    <!-- Filtro de matérias: gerado a partir dos dados -->
+    <!-- Filtros: Foco (Categoria) e Matérias -->
     <div class="border-t border-slate-800/80 bg-slate-950/80 px-4 py-2">
-      <div class="max-w-7xl mx-auto flex items-center gap-2 overflow-x-auto text-xs py-1">
-        <span class="text-slate-500 font-bold uppercase tracking-wider text-[10px] flex items-center gap-1 shrink-0 mr-1">
-          <i class="fa-solid fa-book-open text-blue-400"></i> Matérias:
-        </span>
-        <div id="filtroMaterias" class="flex items-center gap-2"></div>
+      <div class="max-w-7xl mx-auto flex flex-col gap-2 text-xs py-1">
+        
+        <!-- Linha 1: Foco (ENEM, INSS, etc) -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-slate-800/50">
+          <span class="text-slate-500 font-bold uppercase tracking-wider text-[10px] flex items-center gap-1 shrink-0 mr-1">
+            <i class="fa-solid fa-layer-group text-purple-400"></i> Foco:
+          </span>
+          <div id="filtroCategorias" class="flex items-center gap-2"></div>
+        </div>
+
+        <!-- Linha 2: Matérias (atualiza baseado no foco escolhido) -->
+        <div class="flex items-center gap-2 overflow-x-auto pt-1">
+          <span class="text-slate-500 font-bold uppercase tracking-wider text-[10px] flex items-center gap-1 shrink-0 mr-1">
+            <i class="fa-solid fa-book-open text-blue-400"></i> Matérias:
+          </span>
+          <div id="filtroMaterias" class="flex items-center gap-2"></div>
+        </div>
+
       </div>
     </div>
   </header>
@@ -433,11 +441,6 @@
 
   <!-- ============================ LÓGICA ============================ -->
   <script>
-  /* -------------------------------------------------------------------
-     CAMADA DE PERSISTÊNCIA
-     Hoje: localStorage. Para plugar Firebase depois, basta reescrever
-     estas três funções — o resto do app não muda em nada.
-     ------------------------------------------------------------------- */
   const Store = {
     chave: 'plataforma-estudos-v1',
     dados: { notas: {}, respostas: {} },
@@ -473,12 +476,6 @@
       'relative inline-flex rounded-full h-2.5 w-2.5 ' + (ok ? 'bg-emerald-500' : 'bg-amber-500');
   }
 
-  /* -------------------------------------------------------------------
-     TEMA CLARO / ESCURO
-     A classe "light" no <html> já é aplicada o mais cedo possível (ver
-     script no <head>) pra evitar flash. Aqui só sincronizamos o ícone do
-     botão e cuidamos da troca + persistência da escolha do usuário.
-     ------------------------------------------------------------------- */
   function aplicarIconeTema() {
     const claro = document.documentElement.classList.contains('light');
     const icone = document.getElementById('iconeTema');
@@ -494,18 +491,12 @@
     if (typeof painelAtivo !== 'undefined' && painelAtivo === 'progresso') renderizarProgresso();
   }
 
-  /* -------------------------------------------------------------------
-     ESTADO DA INTERFACE
-     ------------------------------------------------------------------- */
+  let categoriaAtiva = 'ENEM'; 
   let materiaAtiva = 'todas';
   let questaoAtiva = null;
   let temporizadorNotas = null;
-  /* Contexto de onde a questão ativa está sendo exibida: 'estudo' (painel
-     principal + lista lateral) ou 'simulado' (painel dentro do simulado). */
   let contextoAtivo = 'estudo';
 
-  /* Mapa de cores por matéria: classes escritas por extenso porque o
-     Tailwind via CDN não gera classes montadas por concatenação. */
   const CORES = {
     emerald: { texto: 'text-emerald-400', borda: 'border-emerald-500', fundo: 'bg-emerald-500/10', anel: 'hover:border-emerald-500 hover:text-emerald-400', solido: 'bg-emerald-600 text-white border-emerald-500' },
     cyan:    { texto: 'text-cyan-400',    borda: 'border-cyan-500',    fundo: 'bg-cyan-500/10',    anel: 'hover:border-cyan-500 hover:text-cyan-400',    solido: 'bg-cyan-600 text-white border-cyan-500' },
@@ -519,25 +510,37 @@
   };
   const cor = (c) => CORES[c] || CORES.purple;
 
-  /* Cor "de marca" (a mesma da logo no cabeçalho) — usada em toda a
-     interface genérica que não pertence a uma matéria específica
-     (contadores, abas, botões de ação, ícones decorativos). As cores
-     de CORES continuam variando por matéria normalmente. */
   const CORMARCA = { texto: 'text-blue-400', borda: 'border-blue-500', fundo: 'bg-blue-500/10', anel: 'hover:border-blue-500 hover:text-blue-400', solido: 'bg-blue-600 text-white border-blue-500' };
 
   /* -------------------------------------------------------------------
      MONTAGEM DOS FILTROS A PARTIR DOS DADOS
      ------------------------------------------------------------------- */
   function montarFiltros() {
+    const categorias = [];
+    questaoDatabase.forEach(q => {
+      const cat = q.categoria || 'ENEM'; 
+      if (!categorias.includes(cat)) categorias.push(cat);
+    });
+
+    const alvoCat = document.getElementById('filtroCategorias');
+    alvoCat.innerHTML = categorias.map(c => `
+      <button onclick="filtrarCategoria('${c}')" data-cat="${c}"
+        class="shrink-0 px-4 py-1.5 rounded-full border transition font-bold flex items-center gap-2">
+        ${c.toUpperCase() === 'ENEM' ? '<i class="fa-solid fa-graduation-cap"></i>' : '<i class="fa-solid fa-briefcase"></i>'} ${c}
+      </button>`).join('');
+
     const materias = [];
     questaoDatabase.forEach(q => {
-      if (!materias.some(m => m.id === q.materiaId)) {
-        materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+      const cat = q.categoria || 'ENEM';
+      if (cat === categoriaAtiva || categoriaAtiva === 'todas') {
+        if (!materias.some(m => m.id === q.materiaId)) {
+          materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+        }
       }
     });
 
-    const alvo = document.getElementById('filtroMaterias');
-    alvo.innerHTML =
+    const alvoMat = document.getElementById('filtroMaterias');
+    alvoMat.innerHTML =
       `<button onclick="filtrarMateria('todas')" data-mat="todas"
          class="shrink-0 px-3 py-1 rounded-full border transition font-medium flex items-center gap-1.5">
          <i class="fa-solid fa-cubes"></i> Todas
@@ -548,7 +551,6 @@
           <i class="fa-solid ${m.icone} ${cor(m.cor).texto}"></i> ${m.nome}
         </button>`).join('');
 
-    // Anos disponíveis
     const anos = [...new Set(questaoDatabase.map(q => q.ano))].sort().reverse();
     const select = document.getElementById('selectAno');
     select.innerHTML = '<option value="todos">Todas as edições</option>' +
@@ -558,14 +560,26 @@
   }
 
   function pintarFiltros() {
+    document.querySelectorAll('#filtroCategorias button').forEach(b => {
+      const ativo = b.dataset.cat === categoriaAtiva;
+      b.className = 'shrink-0 px-4 py-1.5 rounded-full border transition font-bold flex items-center gap-2 ' +
+        (ativo ? 'bg-purple-600 text-white border-purple-500 shadow-sm' : 'border-slate-800 text-slate-300 hover:border-purple-500 hover:text-purple-400 bg-slate-900/50');
+    });
+
     document.querySelectorAll('#filtroMaterias button').forEach(b => {
       const ativo = b.dataset.mat === materiaAtiva;
-      // "Todas" usa a cor da marca (mesma da logo); cada matéria mantém a própria cor.
       const c = b.dataset.mat === 'todas' ? CORMARCA : cor(b.dataset.cor);
       b.className = 'shrink-0 px-3 py-1 rounded-full border transition font-medium flex items-center gap-1.5 ' +
         (ativo ? c.solido + ' shadow-sm'
                : 'border-slate-800 text-slate-300 ' + c.anel);
     });
+  }
+
+  function filtrarCategoria(cat) {
+    categoriaAtiva = cat;
+    materiaAtiva = 'todas'; 
+    montarFiltros(); 
+    renderizarLista();
   }
 
   function filtrarMateria(id) {
@@ -582,7 +596,9 @@
     const ano = document.getElementById('selectAno').value;
 
     return questaoDatabase.filter(q => {
-      if (materiaAtiva !== 'todas' && q.materiaId !== materiaAtiva) return false;
+      const cat = q.categoria || 'ENEM';
+      if (cat !== categoriaAtiva && categoriaAtiva !== 'todas') return false; 
+      if (materiaAtiva !== 'todas' && q.materiaId !== materiaAtiva) return false; 
       if (ano !== 'todos' && q.ano !== ano) return false;
       if (!busca) return true;
       const texto = (q.titulo + ' ' + q.materia + ' ' + q.numero + ' ' + q.tags.join(' ')).toLowerCase();
@@ -655,7 +671,6 @@
     renderizarQuestao();
   }
 
-  /* Abas do painel: só aparecem as que a questão realmente tem. */
   let abaAtiva = 'questao';
 
   function abasDisponiveis(q) {
@@ -771,12 +786,12 @@
       return `
         <div class="space-y-4">
           ${q.galeria.map((img, i) => `
-            <figure class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-3">
+            <figure class="bg-slate-950 svg-vitrine border border-slate-800 rounded-xl p-4 space-y-3">
               <figcaption class="flex items-center gap-2 text-xs font-bold text-slate-200">
                 <span class="w-5 h-5 rounded bg-blue-600 text-white text-[10px] flex items-center justify-center font-mono">${i + 1}</span>
                 ${img.titulo}
               </figcaption>
-              <div class="bg-slate-900/60 rounded-lg p-2">${img.svg}</div>
+              <div class="bg-slate-900/60 svg-vitrine rounded-lg p-2">${img.svg}</div>
               <p class="text-[11px] text-slate-400 leading-relaxed border-l-2 border-slate-700 pl-3">${img.legenda}</p>
             </figure>`).join('')}
         </div>`;
@@ -795,7 +810,6 @@
         </div>`;
     }
 
-    // Aba padrão: enunciado + alternativas + feedback
     return `
       <div class="space-y-6">
         <div class="bg-slate-950 border border-slate-800 rounded-xl p-5 text-sm text-slate-200 leading-relaxed">
@@ -893,7 +907,6 @@
     Store.dados.respostas[q.id] = { letra: letra, acertou: letra === q.alternativaCorreta };
     Store.salvar();
     atualizarPlacar();
-    // Errou: a resolução comentada abre sozinha, que é quando ela mais rende.
     if (letra !== q.alternativaCorreta) abaAtiva = 'resolucao';
     renderizarQuestao();
     if (contextoAtivo === 'estudo') renderizarLista();
@@ -936,8 +949,6 @@
 
   /* -------------------------------------------------------------------
      MEU PROGRESSO
-     Painel separado com estatísticas gerais, por matéria e por edição
-     (simulado), em porcentagem, com gráficos (Chart.js) pra comparar.
      ------------------------------------------------------------------- */
   let painelAtivo = 'estudo';
   let chartGeralInst = null, chartMateriaInst = null, chartEdicaoInst = null;
@@ -1120,7 +1131,7 @@
   }
 
   function desenharGraficos(e) {
-    if (typeof Chart === 'undefined') return; // CDN do Chart.js indisponível
+    if (typeof Chart === 'undefined') return; 
     const eixoCor = corEixoGrafico();
     const gradeCor = corGradeGrafico();
 
@@ -1192,27 +1203,25 @@
 
   /* =========================================================================
      SIMULADO PERSONALIZADO
-     A pessoa escolhe matérias, cadernos/edições, quantidade de questões e se
-     quer cronômetro; montamos um recorte aleatório do questaoDatabase e
-     reaproveitamos o mesmo painel de questão do modo Estudar (renderizarQuestao,
-     responder, montarAba etc.) — só muda o alvo (#painelSimuladoQuestao) e a
-     navegação (Anterior/Próxima/Finalizar), controlados por contextoAtivo.
      ========================================================================= */
   let simMateriasSel = new Set();
   let simCadernosSel = new Set();
-  let simOrigem = 'todas'; // 'todas' | 'oficial' | 'inedita'
+  let simOrigem = 'todas'; 
   let simQuantidade = 20;
   let simCronometroAtivo = false;
   let simMinutos = 60;
 
-  let simulado = null; // { questoesIds:[], indice:0, segundosRestantes:null|number, intervalId:null }
-  let simuladoTela = 'montar'; // 'montar' | 'rodando' | 'resultado'
+  let simulado = null; 
+  let simuladoTela = 'montar'; 
 
   function materiasDisponiveis() {
     const materias = [];
     questaoDatabase.forEach(q => {
-      if (!materias.some(m => m.id === q.materiaId)) {
-        materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+      const cat = q.categoria || 'ENEM';
+      if (cat === categoriaAtiva || categoriaAtiva === 'todas') {
+        if (!materias.some(m => m.id === q.materiaId)) {
+          materias.push({ id: q.materiaId, nome: q.materia.split(' / ')[0], cor: q.materiaCor, icone: q.materiaIcone });
+        }
       }
     });
     return materias;
@@ -1221,9 +1230,12 @@
   function cadernosDisponiveis() {
     const cadernos = [];
     questaoDatabase.forEach(q => {
-      const chave = q.ano + '||' + q.caderno;
-      if (!cadernos.some(c => c.chave === chave)) {
-        cadernos.push({ chave: chave, rotulo: q.caderno + ' · ' + q.ano });
+      const cat = q.categoria || 'ENEM';
+      if (cat === categoriaAtiva || categoriaAtiva === 'todas') {
+        const chave = q.ano + '||' + q.caderno;
+        if (!cadernos.some(c => c.chave === chave)) {
+          cadernos.push({ chave: chave, rotulo: q.caderno + ' · ' + q.ano });
+        }
       }
     });
     return cadernos;
@@ -1260,6 +1272,8 @@
 
   function questoesPoolSimulado() {
     return questaoDatabase.filter(q => {
+      const cat = q.categoria || 'ENEM';
+      if (cat !== categoriaAtiva && categoriaAtiva !== 'todas') return false;
       if (simMateriasSel.size && !simMateriasSel.has(q.materiaId)) return false;
       if (simCadernosSel.size && !simCadernosSel.has(q.ano + '||' + q.caderno)) return false;
       const origem = q.origem || 'oficial';
@@ -1564,8 +1578,6 @@
       </div>`;
   }
 
-  /* MathJax só renderiza o que foi injetado depois do carregamento se
-     for chamado explicitamente. */
   function typesetMath(elemento) {
     if (window.MathJax && window.MathJax.typesetPromise) {
       window.MathJax.typesetPromise([elemento]).catch(() => {});
