@@ -31,6 +31,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 
   <style>
     ::-webkit-scrollbar { width: 6px; height: 6px; }
@@ -1063,6 +1064,54 @@
     renderizarLista();
   }
 
+  function baixarMateriaPDF(categoria, materiaId) {
+    const m = materiaDatabase.find(x => x.id === materiaId && x.categoria === categoria);
+    if (!m || !m.apostila) return;
+    if (typeof html2pdf === 'undefined') {
+      alert('A geração de PDF não está disponível agora (biblioteca não carregou). Tente novamente em instantes.');
+      return;
+    }
+
+    const botao = document.getElementById('botaoBaixarPdfMateria');
+    const textoOriginal = botao ? botao.innerHTML : '';
+    if (botao) {
+      botao.disabled = true;
+      botao.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Gerando PDF...';
+    }
+
+    const wrapper = document.createElement('div');
+    wrapper.style.cssText = 'position:fixed; left:-9999px; top:0; width:800px; background:#0f172a; padding:24px;';
+    wrapper.innerHTML = `
+      <div style="font-family:sans-serif; color:#f1f5f9;">
+        <h1 style="font-size:22px; font-weight:bold; margin-bottom:4px; color:#ffffff;">${m.nome}</h1>
+        <p style="font-size:11px; color:#94a3b8; margin-bottom:20px;">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''} — apostila gerada pela Plataforma de Estudos</p>
+        ${m.apostila}
+      </div>`;
+    document.body.appendChild(wrapper);
+
+    const restaurar = () => {
+      if (wrapper.parentNode) document.body.removeChild(wrapper);
+      if (botao) { botao.disabled = false; botao.innerHTML = textoOriginal; }
+    };
+
+    const opcoes = {
+      margin: 10,
+      filename: `${m.nome.replace(/[^\w\s-]/g, '')} - Apostila.pdf`,
+      image: { type: 'jpeg', quality: 0.95 },
+      html2canvas: { scale: 2, backgroundColor: '#0f172a', useCORS: true },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      pagebreak: { mode: ['css', 'legacy'] }
+    };
+
+    html2pdf().set(opcoes).from(wrapper).save()
+      .then(restaurar)
+      .catch((e) => {
+        restaurar();
+        alert('Não foi possível gerar o PDF agora. Tente novamente.');
+        console.error(e);
+      });
+  }
+
   function renderizarMaterias() {
     const alvo = document.getElementById('materiasConteudo');
     if (!alvo) return;
@@ -1106,7 +1155,12 @@
                 <span class="text-[10px] ${c.texto} font-bold uppercase tracking-wider">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''}</span>
               </div>
             </div>
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-2 flex-wrap">
+              ${m.apostila ? `
+              <button onclick="baixarMateriaPDF('${m.categoria}', '${m.id}')" id="botaoBaixarPdfMateria"
+                class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-1.5">
+                <i class="fa-solid fa-file-pdf"></i> Baixar PDF
+              </button>` : ''}
               <button onclick="verQuestoesDaMateria('${m.categoria}', '${m.id}')"
                 class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5">
                 <i class="fa-solid fa-list-check"></i> Ver questões desta matéria
@@ -1118,7 +1172,7 @@
             </div>
           </div>
           ${m.apostila
-            ? m.apostila
+            ? `<div id="apostilaConteudoPdf">${m.apostila}</div>`
             : `<div class="p-6 rounded-xl border border-dashed border-slate-700 bg-slate-950 text-center space-y-2">
                 <i class="fa-solid fa-person-digging text-slate-600 text-2xl"></i>
                 <p class="text-sm text-slate-300 font-bold">Conteúdo em construção</p>
