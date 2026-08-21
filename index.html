@@ -344,6 +344,11 @@
           <i class="fa-solid fa-book-open-reader"></i> Estudar
         </button>
 
+        <button onclick="mostrarMaterias()" id="botaoAbaMaterias"
+          class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
+          <i class="fa-solid fa-chalkboard-user"></i> Matérias
+        </button>
+
         <button onclick="mostrarSimulado()" id="botaoAbaSimulado"
           class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5">
           <i class="fa-solid fa-stopwatch"></i> Simulado
@@ -423,6 +428,11 @@
     </main>
   </div>
 
+  <!-- ============================ LAYOUT: MATÉRIAS ============================ -->
+  <div id="viewMaterias" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 py-6 space-y-6">
+    <div id="materiasConteudo"></div>
+  </div>
+
   <!-- ============================ LAYOUT: MEU PROGRESSO ============================ -->
   <div id="viewProgresso" class="hidden flex-1 max-w-7xl w-full mx-auto px-4 py-6 space-y-6">
     <div id="progressoConteudo"></div>
@@ -435,6 +445,7 @@
 
   <!-- ============================ DADOS ============================ -->
   <script src="questoes.js"></script>
+  <script src="materias.js"></script>
 
   <!-- ============================ LÓGICA ============================ -->
   <script>
@@ -960,6 +971,8 @@
     const inativa = 'border-slate-800 text-slate-300 hover:border-blue-500 hover:text-blue-400';
     document.getElementById('botaoAbaEstudo').className =
       'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'estudo' ? ativa : inativa);
+    document.getElementById('botaoAbaMaterias').className =
+      'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'materias' ? ativa : inativa);
     document.getElementById('botaoAbaSimulado').className =
       'px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ' + (painelAtivo === 'simulado' ? ativa : inativa);
     document.getElementById('botaoAbaProgresso').className =
@@ -970,14 +983,26 @@
     painelAtivo = 'estudo';
     contextoAtivo = 'estudo';
     document.getElementById('viewEstudo').classList.remove('hidden');
+    document.getElementById('viewMaterias').classList.add('hidden');
     document.getElementById('viewSimulado').classList.add('hidden');
     document.getElementById('viewProgresso').classList.add('hidden');
     pintarAbasPrincipais();
   }
 
+  function mostrarMaterias() {
+    painelAtivo = 'materias';
+    document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewMaterias').classList.remove('hidden');
+    document.getElementById('viewSimulado').classList.add('hidden');
+    document.getElementById('viewProgresso').classList.add('hidden');
+    pintarAbasPrincipais();
+    renderizarMaterias();
+  }
+
   function mostrarProgresso() {
     painelAtivo = 'progresso';
     document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewMaterias').classList.add('hidden');
     document.getElementById('viewSimulado').classList.add('hidden');
     document.getElementById('viewProgresso').classList.remove('hidden');
     pintarAbasPrincipais();
@@ -987,6 +1012,7 @@
   function mostrarSimulado() {
     painelAtivo = 'simulado';
     document.getElementById('viewEstudo').classList.add('hidden');
+    document.getElementById('viewMaterias').classList.add('hidden');
     document.getElementById('viewProgresso').classList.add('hidden');
     document.getElementById('viewSimulado').classList.remove('hidden');
     pintarAbasPrincipais();
@@ -995,6 +1021,135 @@
       questaoAtiva = questaoDatabase.find(q => q.id === simulado.questoesIds[simulado.indice]);
     }
     renderizarSimulado();
+  }
+
+  /* -------------------------------------------------------------------
+     MATÉRIAS — conteúdo bruto por matéria (Foco -> Matéria -> apostila)
+     ------------------------------------------------------------------- */
+  let materiasFoco = 'ENEM';
+  let materiaSelecionadaId = null;
+
+  function categoriasDisponiveisMaterias() {
+    const cats = [];
+    (typeof materiaDatabase !== 'undefined' ? materiaDatabase : []).forEach(m => {
+      if (!cats.includes(m.categoria)) cats.push(m.categoria);
+    });
+    return cats;
+  }
+
+  function escolherFocoMaterias(cat) {
+    materiasFoco = cat;
+    materiaSelecionadaId = null;
+    renderizarMaterias();
+  }
+
+  function abrirMateria(id) {
+    materiaSelecionadaId = id;
+    renderizarMaterias();
+    const alvo = document.getElementById('materiasConteudo');
+    if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function fecharMateria() {
+    materiaSelecionadaId = null;
+    renderizarMaterias();
+  }
+
+  function verQuestoesDaMateria(categoria, materiaId) {
+    categoriaAtiva = categoria;
+    materiaAtiva = materiaId;
+    mostrarEstudo();
+    montarFiltros();
+    renderizarLista();
+  }
+
+  function renderizarMaterias() {
+    const alvo = document.getElementById('materiasConteudo');
+    if (!alvo) return;
+
+    if (typeof materiaDatabase === 'undefined' || !materiaDatabase.length) {
+      alvo.innerHTML = '<p class="text-sm text-rose-400">O arquivo materias.js não foi carregado.</p>';
+      return;
+    }
+
+    const categorias = categoriasDisponiveisMaterias();
+    if (!categorias.includes(materiasFoco)) materiasFoco = categorias[0] || 'ENEM';
+
+    const cabecalho = `
+      <div class="space-y-1">
+        <h2 class="text-lg font-bold text-white flex items-center gap-2"><i class="fa-solid fa-chalkboard-user text-blue-400"></i> Matérias</h2>
+        <p class="text-xs text-slate-400">Conteúdo teórico completo, direto ao ponto — separado por matéria, não por questão.</p>
+      </div>
+      <div class="flex items-center gap-2 overflow-x-auto pb-1">
+        ${categorias.map(c => `
+          <button onclick="escolherFocoMaterias('${c}')"
+            class="shrink-0 px-4 py-1.5 rounded-full border transition font-bold flex items-center gap-2 ${
+              c === materiasFoco ? 'bg-purple-600 text-white border-purple-500 shadow-sm' : 'border-slate-800 text-slate-300 hover:border-purple-500 hover:text-purple-400 bg-slate-900/50'
+            }">
+            ${c.toUpperCase() === 'ENEM' ? '<i class="fa-solid fa-graduation-cap"></i>' : '<i class="fa-solid fa-briefcase"></i>'} ${c}
+          </button>`).join('')}
+      </div>`;
+
+    // Matéria selecionada -> mostra a apostila
+    if (materiaSelecionadaId) {
+      const m = materiaDatabase.find(x => x.id === materiaSelecionadaId && x.categoria === materiasFoco);
+      if (!m) { materiaSelecionadaId = null; return renderizarMaterias(); }
+      const c = cor(m.cor);
+      alvo.innerHTML = `
+        ${cabecalho}
+        <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 md:p-6 space-y-5">
+          <div class="flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+              <span class="w-10 h-10 rounded-xl ${c.fundo} ${c.texto} flex items-center justify-center text-lg"><i class="fa-solid ${m.icone}"></i></span>
+              <div>
+                <h3 class="text-white font-bold text-base">${m.nome}</h3>
+                <span class="text-[10px] ${c.texto} font-bold uppercase tracking-wider">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''}</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="verQuestoesDaMateria('${m.categoria}', '${m.id}')"
+                class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5">
+                <i class="fa-solid fa-list-check"></i> Ver questões desta matéria
+              </button>
+              <button onclick="fecharMateria()"
+                class="px-3 py-1.5 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 text-xs font-bold transition flex items-center gap-1.5">
+                <i class="fa-solid fa-arrow-left"></i> Voltar
+              </button>
+            </div>
+          </div>
+          ${m.apostila
+            ? m.apostila
+            : `<div class="p-6 rounded-xl border border-dashed border-slate-700 bg-slate-950 text-center space-y-2">
+                <i class="fa-solid fa-person-digging text-slate-600 text-2xl"></i>
+                <p class="text-sm text-slate-300 font-bold">Conteúdo em construção</p>
+                <p class="text-xs text-slate-500">A apostila completa de ${m.nome} ainda não foi escrita. Peça pra eu montar essa matéria.</p>
+              </div>`}
+        </div>`;
+      typesetMath(alvo);
+      return;
+    }
+
+    // Nenhuma matéria selecionada -> grade de matérias do foco atual
+    const materias = materiaDatabase.filter(m => m.categoria === materiasFoco);
+    alvo.innerHTML = `
+      ${cabecalho}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+        ${materias.map(m => {
+          const c = cor(m.cor);
+          return `
+          <button onclick="abrirMateria('${m.id}')"
+            class="text-left p-4 rounded-xl border border-slate-800 bg-slate-900 hover:border-slate-700 transition space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="w-9 h-9 rounded-lg ${c.fundo} ${c.texto} flex items-center justify-center"><i class="fa-solid ${m.icone}"></i></span>
+              ${m.apostila
+                ? '<span class="text-[9px] font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-1"><i class="fa-solid fa-circle-check"></i> Completa</span>'
+                : '<span class="text-[9px] font-bold uppercase tracking-wider text-slate-600 flex items-center gap-1"><i class="fa-solid fa-hourglass-half"></i> Em construção</span>'}
+            </div>
+            <p class="text-sm font-bold text-slate-100">${m.nome}</p>
+            <p class="text-[11px] text-slate-500 leading-snug">${m.resumo || ''}</p>
+          </button>`;
+        }).join('')}
+      </div>`;
   }
 
   function calcularEstatisticas() {
