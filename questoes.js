@@ -944,6 +944,20 @@ const questaoDatabase = [
         </svg>
       </div>
     `,
+
+    /* ------------------------------------------------------------------
+       4. IMAGEM REAL (foto, não SVG) — TESTE
+       ------------------------------------------------------------------ */
+    imagemReal: [
+      {
+        titulo: "Floração de algas — Lago Erie, EUA",
+        legenda: "Imagem de satélite documentando uma floração de algas nocivas (harmful algal bloom) no Lago Erie: o mesmo excesso de nutrientes e a mesma cor esverdeada descritos na cascata da eutrofização, em escala real.",
+        url: "https://images.unsplash.com/photo-1744968777132-0f856bc353d6?fm=jpg&q=80&w=1600&auto=format&fit=crop",
+        alt: "Vista de satélite de um lago com grandes manchas verdes de floração de algas na água",
+        credito: "USGS",
+        creditoUrl: "https://unsplash.com/@usgs"
+      }
+    ],
     simuladorType: null
   },
 
@@ -1217,6 +1231,28 @@ const questaoDatabase = [
         </svg>
       </div>
     `,
+
+    /* ------------------------------------------------------------------
+       4. IMAGEM REAL (foto, não SVG) — TESTE
+       ------------------------------------------------------------------ */
+    imagemReal: [
+      {
+        titulo: "Trabalho industrial regulado pela CLT",
+        legenda: "Linha de produção industrial — o tipo de ambiente de trabalho urbano que a CLT passou a regular em 1943: jornada, carteira assinada, Justiça do Trabalho.",
+        url: "https://images.unsplash.com/photo-1741591647611-765ae3019a0f?fm=jpg&q=80&w=1600&auto=format&fit=crop",
+        alt: "Trabalhadores em uma linha de produção industrial têxtil",
+        credito: "EqualStock",
+        creditoUrl: "https://unsplash.com/@equalstock"
+      },
+      {
+        titulo: "Manifestação e mobilização sindical",
+        legenda: "Punho erguido em ato público — a face do sindicalismo que a política trabalhista varguista buscava conter: mobilização coletiva fora do controle do sindicato único oficial.",
+        url: "https://images.unsplash.com/photo-1767158039268-0b700ee11ada?fm=jpg&q=80&w=1600&auto=format&fit=crop",
+        alt: "Pessoa de camisa vermelha erguendo o punho em uma manifestação",
+        credito: "Joaquin Arenas",
+        creditoUrl: "https://unsplash.com/@_joaquinarenas"
+      }
+    ],
     simuladorType: null
   },
 

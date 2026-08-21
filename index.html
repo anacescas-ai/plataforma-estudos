@@ -688,6 +688,7 @@
     abas.push({ id: 'resolucao', nome: 'Resolução comentada', icone: 'fa-book-open' });
     if (q.galeria && q.galeria.length) abas.push({ id: 'galeria', nome: 'Galeria', icone: 'fa-images' });
     if (q.simulador) abas.push({ id: 'lab', nome: 'Laboratório', icone: 'fa-flask' });
+    if (q.imagemReal && q.imagemReal.length) abas.push({ id: 'foto', nome: 'Imagem real', icone: 'fa-camera' });
     return abas;
   }
 
@@ -816,6 +817,27 @@
             <p class="text-xs text-slate-400 leading-relaxed">${q.simulador.descricao}</p>
           </div>
           <div id="painelLaboratorio">${q.simulador.html}</div>
+        </div>`;
+    }
+
+    if (abaAtiva === 'foto') {
+      return `
+        <div class="space-y-4">
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            <i class="fa-solid fa-circle-info"></i> Fotos reais para ajudar a visualizar o cenário — os diagramas SVG na Resolução continuam sendo a referência técnica da questão.
+          </p>
+          ${q.imagemReal.map(img => `
+            <figure class="bg-slate-950 border border-slate-800 rounded-xl overflow-hidden">
+              <img src="${img.url}" alt="${img.alt}" loading="lazy" class="w-full max-h-72 object-cover">
+              <figcaption class="p-4 space-y-1.5">
+                <p class="text-xs font-bold text-slate-200">${img.titulo}</p>
+                <p class="text-[11px] text-slate-400 leading-relaxed">${img.legenda}</p>
+                <p class="text-[10px] text-slate-600">
+                  Foto: <a href="${img.creditoUrl}?utm_source=plataforma-estudos&utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-slate-400">${img.credito}</a>
+                  em <a href="https://unsplash.com/?utm_source=plataforma-estudos&utm_medium=referral" target="_blank" rel="noopener" class="underline hover:text-slate-400">Unsplash</a>
+                </p>
+              </figcaption>
+            </figure>`).join('')}
         </div>`;
     }
 
