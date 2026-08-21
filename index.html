@@ -1025,10 +1025,12 @@
   }
 
   /* -------------------------------------------------------------------
-     MATÉRIAS — conteúdo bruto por matéria (Foco -> Matéria -> apostila)
+     MATÉRIAS — conteúdo bruto por matéria (Foco -> Matéria -> Tópico -> Subtópico)
      ------------------------------------------------------------------- */
   let materiasFoco = 'ENEM';
   let materiaSelecionadaId = null;
+  let topicoSelecionadoId = null;
+  let subtopicoSelecionadoId = null;
 
   function categoriasDisponiveisMaterias() {
     const cats = [];
@@ -1041,11 +1043,15 @@
   function escolherFocoMaterias(cat) {
     materiasFoco = cat;
     materiaSelecionadaId = null;
+    topicoSelecionadoId = null;
+    subtopicoSelecionadoId = null;
     renderizarMaterias();
   }
 
   function abrirMateria(id) {
     materiaSelecionadaId = id;
+    topicoSelecionadoId = null;
+    subtopicoSelecionadoId = null;
     renderizarMaterias();
     const alvo = document.getElementById('materiasConteudo');
     if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1053,7 +1059,49 @@
 
   function fecharMateria() {
     materiaSelecionadaId = null;
+    topicoSelecionadoId = null;
+    subtopicoSelecionadoId = null;
     renderizarMaterias();
+  }
+
+  function abrirTopico(id) {
+    topicoSelecionadoId = id;
+    subtopicoSelecionadoId = null;
+    renderizarMaterias();
+    const alvo = document.getElementById('materiasConteudo');
+    if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function fecharTopico() {
+    topicoSelecionadoId = null;
+    subtopicoSelecionadoId = null;
+    renderizarMaterias();
+  }
+
+  function abrirSubtopico(id) {
+    subtopicoSelecionadoId = id;
+    renderizarMaterias();
+    const alvo = document.getElementById('materiasConteudo');
+    if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function fecharSubtopico() {
+    subtopicoSelecionadoId = null;
+    renderizarMaterias();
+  }
+
+  function navegarSubtopico(delta) {
+    const m = materiaDatabase.find(x => x.id === materiaSelecionadaId && x.categoria === materiasFoco);
+    if (!m || !m.apostila) return;
+    const topico = m.apostila.topicos.find(t => t.id === topicoSelecionadoId);
+    if (!topico) return;
+    const idx = topico.subtopicos.findIndex(s => s.id === subtopicoSelecionadoId);
+    const novoIdx = idx + delta;
+    if (novoIdx < 0 || novoIdx >= topico.subtopicos.length) return;
+    subtopicoSelecionadoId = topico.subtopicos[novoIdx].id;
+    renderizarMaterias();
+    const alvo = document.getElementById('materiasConteudo');
+    if (alvo) alvo.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
   function verQuestoesDaMateria(categoria, materiaId) {
@@ -1064,15 +1112,65 @@
     renderizarLista();
   }
 
-  function baixarMateriaPDF(categoria, materiaId) {
-    const m = materiaDatabase.find(x => x.id === materiaId && x.categoria === categoria);
-    if (!m || !m.apostila) return;
+  /* ---- montagem de HTML a partir da apostila estruturada (tópicos -> subtópicos) ---- */
+
+  function htmlParagrafosSub(paragrafos) {
+    return (paragrafos || []).map(p => `<p class="text-slate-300 leading-relaxed text-sm">${p}</p>`).join('');
+  }
+
+  function htmlAlertaBox(texto) {
+    return `<div class="p-3 rounded-lg border border-amber-500/40 bg-amber-950/20 text-xs text-amber-200 flex items-start gap-2.5">
+      <i class="fa-solid fa-triangle-exclamation text-amber-400 mt-0.5"></i>
+      <span><strong>Cuidado com essa pegadinha:</strong> ${texto}</span>
+    </div>`;
+  }
+
+  function htmlDicaBox(texto, corNome) {
+    return `<div class="p-3 rounded-lg border border-${corNome}-500/40 bg-${corNome}-950/20 text-xs text-${corNome}-200 flex items-start gap-2.5">
+      <i class="fa-solid fa-lightbulb text-${corNome}-400 mt-0.5"></i>
+      <span><strong>Dica de prova:</strong> ${texto}</span>
+    </div>`;
+  }
+
+  function htmlSubtopicoBloco(sub, corNome) {
+    return `
+      <div class="space-y-2">
+        <h5 class="text-slate-100 font-bold text-sm flex items-center gap-2"><span class="text-${corNome}-400"><i class="fa-solid fa-circle text-[5px]"></i></span> ${sub.titulo}</h5>
+        ${htmlParagrafosSub(sub.paragrafos)}
+      </div>`;
+  }
+
+  function htmlTopicoCompleto(topico, numero, corNome) {
+    const subtopicosHtml = (topico.subtopicos || []).map(s => htmlSubtopicoBloco(s, corNome)).join('');
+    const extras = (topico.alertas || []).map(htmlAlertaBox).join('') + (topico.dicas || []).map(t => htmlDicaBox(t, corNome)).join('');
+    return `
+      <div style="page-break-inside:avoid; break-inside:avoid;" class="bg-slate-950 border border-${corNome}-500/30 rounded-2xl overflow-hidden">
+        <div class="bg-${corNome}-950/30 border-b border-${corNome}-500/30 px-5 py-4 flex items-center gap-3">
+          <span class="w-8 h-8 rounded-lg bg-${corNome}-600 text-white flex items-center justify-center font-mono font-bold text-sm shrink-0">${numero}</span>
+          <h3 class="text-white font-bold flex items-center gap-2"><i class="fa-solid ${topico.icone} text-${corNome}-400"></i> ${topico.titulo}</h3>
+        </div>
+        <div class="p-5 space-y-5">
+          <p class="text-slate-400 text-xs italic border-l-2 border-${corNome}-500 pl-3">${topico.intro || ''}</p>
+          ${subtopicosHtml}
+          ${extras}
+        </div>
+      </div>`;
+  }
+
+  function montarApostilaHtmlCompleta(m) {
+    if (!m.apostila) return '';
+    const corNome = m.cor;
+    const topicosHtml = m.apostila.topicos.map((t, i) => htmlTopicoCompleto(t, i + 1, corNome)).join('');
+    return `<div class="space-y-5"><p class="text-slate-300 leading-relaxed text-sm">${m.apostila.intro || ''}</p>${topicosHtml}</div>`;
+  }
+
+  function gerarPdfDeConteudo(botaoId, tituloDoc, subtituloDoc, conteudoHtml, nomeArquivo) {
     if (typeof html2pdf === 'undefined') {
       alert('A geração de PDF não está disponível agora (biblioteca não carregou). Tente novamente em instantes.');
       return;
     }
 
-    const botao = document.getElementById('botaoBaixarPdfMateria');
+    const botao = document.getElementById(botaoId);
     const textoOriginal = botao ? botao.innerHTML : '';
     if (botao) {
       botao.disabled = true;
@@ -1083,9 +1181,9 @@
     wrapper.style.cssText = 'position:fixed; left:-9999px; top:0; width:800px; background:#0f172a; padding:24px;';
     wrapper.innerHTML = `
       <div style="font-family:sans-serif; color:#f1f5f9;">
-        <h1 style="font-size:22px; font-weight:bold; margin-bottom:4px; color:#ffffff;">${m.nome}</h1>
-        <p style="font-size:11px; color:#94a3b8; margin-bottom:20px;">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''} — apostila gerada pela Plataforma de Estudos</p>
-        ${m.apostila}
+        <h1 style="font-size:22px; font-weight:bold; margin-bottom:4px; color:#ffffff;">${tituloDoc}</h1>
+        <p style="font-size:11px; color:#94a3b8; margin-bottom:20px;">${subtituloDoc}</p>
+        ${conteudoHtml}
       </div>`;
     document.body.appendChild(wrapper);
 
@@ -1096,7 +1194,7 @@
 
     const opcoes = {
       margin: 10,
-      filename: `${m.nome.replace(/[^\w\s-]/g, '')} - Apostila.pdf`,
+      filename: nomeArquivo,
       image: { type: 'jpeg', quality: 0.95 },
       html2canvas: { scale: 2, backgroundColor: '#0f172a', useCORS: true },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
@@ -1110,6 +1208,52 @@
         alert('Não foi possível gerar o PDF agora. Tente novamente.');
         console.error(e);
       });
+  }
+
+  function baixarMateriaPDF(categoria, materiaId) {
+    const m = materiaDatabase.find(x => x.id === materiaId && x.categoria === categoria);
+    if (!m || !m.apostila) return;
+    gerarPdfDeConteudo(
+      'botaoBaixarPdfMateria',
+      m.nome,
+      `${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''} — apostila completa gerada pela Plataforma de Estudos`,
+      montarApostilaHtmlCompleta(m),
+      `${m.nome.replace(/[^\w\s-]/g, '')} - Apostila completa.pdf`
+    );
+  }
+
+  function baixarTopicoPDF(categoria, materiaId, topicoId) {
+    const m = materiaDatabase.find(x => x.id === materiaId && x.categoria === categoria);
+    if (!m || !m.apostila) return;
+    const topico = m.apostila.topicos.find(t => t.id === topicoId);
+    if (!topico) return;
+    gerarPdfDeConteudo(
+      'botaoBaixarPdfTopico',
+      `${m.nome} — ${topico.titulo}`,
+      `${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''} — gerado pela Plataforma de Estudos`,
+      htmlTopicoCompleto(topico, 1, m.cor),
+      `${topico.titulo.replace(/[^\w\s-]/g, '')} - Apostila.pdf`
+    );
+  }
+
+  function breadcrumbMaterias(m, topico, sub) {
+    const partes = [`<button onclick="fecharMateria()" class="hover:text-slate-200 transition">Matérias</button>`];
+    if (m) {
+      partes.push(topico
+        ? `<button onclick="fecharTopico()" class="hover:text-slate-200 transition">${m.nome}</button>`
+        : `<span class="text-slate-300 font-bold">${m.nome}</span>`);
+    }
+    if (topico) {
+      partes.push(sub
+        ? `<button onclick="fecharSubtopico()" class="hover:text-slate-200 transition">${topico.titulo}</button>`
+        : `<span class="text-slate-300 font-bold">${topico.titulo}</span>`);
+    }
+    if (sub) {
+      partes.push(`<span class="text-slate-300 font-bold">${sub.titulo}</span>`);
+    }
+    return `<div class="flex flex-wrap items-center gap-1.5 text-[11px] text-slate-500">
+      ${partes.join('<i class="fa-solid fa-angle-right text-slate-700 text-[9px]"></i>')}
+    </div>`;
   }
 
   function renderizarMaterias() {
@@ -1139,47 +1283,149 @@
           </button>`).join('')}
       </div>`;
 
-    // Matéria selecionada -> mostra a apostila
+    // Matéria selecionada -> mostra tópicos, subtópicos ou o conteúdo de um subtópico
     if (materiaSelecionadaId) {
       const m = materiaDatabase.find(x => x.id === materiaSelecionadaId && x.categoria === materiasFoco);
       if (!m) { materiaSelecionadaId = null; return renderizarMaterias(); }
       const c = cor(m.cor);
+
+      const topico = (m.apostila && topicoSelecionadoId)
+        ? m.apostila.topicos.find(t => t.id === topicoSelecionadoId)
+        : null;
+      if (topicoSelecionadoId && !topico) { topicoSelecionadoId = null; subtopicoSelecionadoId = null; }
+
+      const sub = (topico && subtopicoSelecionadoId)
+        ? topico.subtopicos.find(s => s.id === subtopicoSelecionadoId)
+        : null;
+      if (subtopicoSelecionadoId && !sub) { subtopicoSelecionadoId = null; }
+
+      const cabecalhoMateria = `
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div class="flex items-center gap-3">
+            <span class="w-10 h-10 rounded-xl ${c.fundo} ${c.texto} flex items-center justify-center text-lg"><i class="fa-solid ${m.icone}"></i></span>
+            <div>
+              <h3 class="text-white font-bold text-base">${m.nome}</h3>
+              <span class="text-[10px] ${c.texto} font-bold uppercase tracking-wider">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''}</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 flex-wrap">
+            ${m.apostila ? `
+            <button onclick="baixarMateriaPDF('${m.categoria}', '${m.id}')" id="botaoBaixarPdfMateria"
+              class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-1.5">
+              <i class="fa-solid fa-file-pdf"></i> Baixar apostila completa
+            </button>` : ''}
+            <button onclick="verQuestoesDaMateria('${m.categoria}', '${m.id}')"
+              class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5">
+              <i class="fa-solid fa-list-check"></i> Ver questões desta matéria
+            </button>
+            <button onclick="fecharMateria()"
+              class="px-3 py-1.5 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 text-xs font-bold transition flex items-center gap-1.5">
+              <i class="fa-solid fa-arrow-left"></i> Voltar
+            </button>
+          </div>
+        </div>`;
+
+      if (!m.apostila) {
+        alvo.innerHTML = `
+          ${cabecalho}
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 md:p-6 space-y-5">
+            ${cabecalhoMateria}
+            <div class="p-6 rounded-xl border border-dashed border-slate-700 bg-slate-950 text-center space-y-2">
+              <i class="fa-solid fa-person-digging text-slate-600 text-2xl"></i>
+              <p class="text-sm text-slate-300 font-bold">Conteúdo em construção</p>
+              <p class="text-xs text-slate-500">A apostila completa de ${m.nome} ainda não foi escrita. Peça pra eu montar essa matéria.</p>
+            </div>
+          </div>`;
+        return;
+      }
+
+      // Nível 3: subtópico aberto -> mostra o conteúdo daquele subtópico
+      if (topico && sub) {
+        const idx = topico.subtopicos.findIndex(s => s.id === sub.id);
+        const temAnterior = idx > 0;
+        const temProximo = idx < topico.subtopicos.length - 1;
+        alvo.innerHTML = `
+          ${cabecalho}
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 md:p-6 space-y-5">
+            ${cabecalhoMateria}
+            ${breadcrumbMaterias(m, topico, sub)}
+            <div id="apostilaConteudoPdf" class="bg-slate-950 border border-${m.cor}-500/30 rounded-2xl p-5 space-y-4">
+              <h4 class="text-white font-bold text-lg flex items-center gap-2"><span class="text-${m.cor}-400"><i class="fa-solid fa-circle text-[6px]"></i></span> ${sub.titulo}</h4>
+              <div class="space-y-3">${htmlParagrafosSub(sub.paragrafos)}</div>
+            </div>
+            <div class="flex items-center justify-between gap-3 pt-1">
+              <button onclick="navegarSubtopico(-1)" ${temAnterior ? '' : 'disabled'}
+                class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 ${
+                  '' }border-slate-800 text-slate-300 hover:border-slate-600 disabled:opacity-30 disabled:cursor-not-allowed">
+                <i class="fa-solid fa-arrow-left"></i> Anterior
+              </button>
+              <span class="text-[11px] text-slate-500">${idx + 1} de ${topico.subtopicos.length} nesse tópico</span>
+              <button onclick="navegarSubtopico(1)" ${temProximo ? '' : 'disabled'}
+                class="px-3 py-1.5 rounded-lg border text-xs font-bold transition flex items-center gap-1.5 border-slate-800 text-slate-300 hover:border-slate-600 disabled:opacity-30 disabled:cursor-not-allowed">
+                Próximo <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+            <button onclick="fecharSubtopico()"
+              class="text-xs text-slate-400 hover:text-slate-200 transition flex items-center gap-1.5">
+              <i class="fa-solid fa-arrow-left"></i> Voltar para os subtópicos de ${topico.titulo}
+            </button>
+          </div>`;
+        typesetMath(alvo);
+        return;
+      }
+
+      // Nível 2: tópico aberto -> mostra grade de subtópicos
+      if (topico) {
+        alvo.innerHTML = `
+          ${cabecalho}
+          <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 md:p-6 space-y-5">
+            ${cabecalhoMateria}
+            ${breadcrumbMaterias(m, topico, null)}
+            <div class="bg-slate-950 border border-${m.cor}-500/30 rounded-2xl p-5 space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-3">
+                <h4 class="text-white font-bold flex items-center gap-2"><i class="fa-solid ${topico.icone} text-${m.cor}-400"></i> ${topico.titulo}</h4>
+                <button onclick="baixarTopicoPDF('${m.categoria}', '${m.id}', '${topico.id}')" id="botaoBaixarPdfTopico"
+                  class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5">
+                  <i class="fa-solid fa-file-pdf"></i> Baixar este tópico em PDF
+                </button>
+              </div>
+              <p class="text-slate-400 text-xs italic border-l-2 border-${m.cor}-500 pl-3">${topico.intro || ''}</p>
+              ${(topico.alertas || []).map(htmlAlertaBox).join('')}
+              ${(topico.dicas || []).map(t => htmlDicaBox(t, m.cor)).join('')}
+            </div>
+            <p class="text-xs text-slate-400 font-bold uppercase tracking-wider">Escolha um subtópico pra estudar (${topico.subtopicos.length})</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              ${topico.subtopicos.map((s, i) => `
+                <button onclick="abrirSubtopico('${s.id}')"
+                  class="text-left p-3.5 rounded-xl border border-slate-800 bg-slate-950 hover:border-${m.cor}-500/50 transition flex items-start gap-2.5">
+                  <span class="w-6 h-6 rounded-md bg-slate-800 text-slate-400 flex items-center justify-center text-[10px] font-mono font-bold shrink-0 mt-0.5">${i + 1}</span>
+                  <span class="text-sm text-slate-200 leading-snug">${s.titulo}</span>
+                </button>`).join('')}
+            </div>
+          </div>`;
+        return;
+      }
+
+      // Nível 1: só a matéria selecionada -> mostra grade de tópicos
       alvo.innerHTML = `
         ${cabecalho}
         <div class="bg-slate-900 border border-slate-800 rounded-2xl p-5 md:p-6 space-y-5">
-          <div class="flex flex-wrap items-center justify-between gap-3">
-            <div class="flex items-center gap-3">
-              <span class="w-10 h-10 rounded-xl ${c.fundo} ${c.texto} flex items-center justify-center text-lg"><i class="fa-solid ${m.icone}"></i></span>
-              <div>
-                <h3 class="text-white font-bold text-base">${m.nome}</h3>
-                <span class="text-[10px] ${c.texto} font-bold uppercase tracking-wider">${m.categoria}${m.areaNome ? ' · ' + m.areaNome : ''}</span>
-              </div>
-            </div>
-            <div class="flex items-center gap-2 flex-wrap">
-              ${m.apostila ? `
-              <button onclick="baixarMateriaPDF('${m.categoria}', '${m.id}')" id="botaoBaixarPdfMateria"
-                class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-xs font-bold transition flex items-center gap-1.5">
-                <i class="fa-solid fa-file-pdf"></i> Baixar PDF
-              </button>` : ''}
-              <button onclick="verQuestoesDaMateria('${m.categoria}', '${m.id}')"
-                class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition flex items-center gap-1.5">
-                <i class="fa-solid fa-list-check"></i> Ver questões desta matéria
-              </button>
-              <button onclick="fecharMateria()"
-                class="px-3 py-1.5 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 text-xs font-bold transition flex items-center gap-1.5">
-                <i class="fa-solid fa-arrow-left"></i> Voltar
-              </button>
-            </div>
+          ${cabecalhoMateria}
+          ${breadcrumbMaterias(m, null, null)}
+          <p class="text-slate-300 text-sm leading-relaxed">${m.apostila.intro || ''}</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            ${m.apostila.topicos.map((t, i) => `
+              <button onclick="abrirTopico('${t.id}')"
+                class="text-left p-4 rounded-xl border border-slate-800 bg-slate-950 hover:border-${m.cor}-500/50 transition space-y-2">
+                <div class="flex items-center justify-between">
+                  <span class="w-9 h-9 rounded-lg ${c.fundo} ${c.texto} flex items-center justify-center"><i class="fa-solid ${t.icone}"></i></span>
+                  <span class="text-[10px] font-mono font-bold text-slate-600">${i + 1}</span>
+                </div>
+                <p class="text-sm font-bold text-slate-100">${t.titulo}</p>
+                <p class="text-[11px] text-slate-500">${t.subtopicos.length} subtópicos</p>
+              </button>`).join('')}
           </div>
-          ${m.apostila
-            ? `<div id="apostilaConteudoPdf">${m.apostila}</div>`
-            : `<div class="p-6 rounded-xl border border-dashed border-slate-700 bg-slate-950 text-center space-y-2">
-                <i class="fa-solid fa-person-digging text-slate-600 text-2xl"></i>
-                <p class="text-sm text-slate-300 font-bold">Conteúdo em construção</p>
-                <p class="text-xs text-slate-500">A apostila completa de ${m.nome} ainda não foi escrita. Peça pra eu montar essa matéria.</p>
-              </div>`}
         </div>`;
-      typesetMath(alvo);
       return;
     }
 
