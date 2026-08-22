@@ -38054,6 +38054,363 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     simulador: null,
     diagramaHtml: null,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS007",
+    numero: "Questão 2",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Financiamento da Seguridade",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    categoria: "INSS",
+    titulo: "Financiamento da Seguridade Social: Isenções e Devedores",
+    tags: ["INSS", "Custeio", "Financiamento", "Devedores", "Isenção"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O financiamento da seguridade social envolve contribuições de toda a sociedade. A respeito das normas que regulam o custeio e a arrecadação das contribuições previdenciárias, assinale a alternativa <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "A licença-prêmio indenizada integra o salário de contribuição, sofrendo incidência de contribuição previdenciária.", correta: false },
+      { letra: "B", texto: "As igrejas e os templos de qualquer culto possuem isenção absoluta e automática de contribuições para a seguridade social, independentemente de certificação.", correta: false },
+      { letra: "C", texto: "Os devedores da previdência social não podem receber benefícios ou incentivos fiscais ou creditícios do Estado.", correta: true },
+      { letra: "D", texto: "Os valores do salário de contribuição do segurado sempre equivalem ao valor da renda mensal dos benefícios previdenciários que ele virá a receber.", correta: false },
+      { letra: "E", texto: "O contribuinte individual e o facultativo que optam por contribuir com alíquota de 11% mantêm o direito à aposentadoria por tempo de contribuição.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Devedores e o Estado</h4>
+          <p>A Constituição Federal (art. 195, § 3º) é clara: a pessoa jurídica em débito com o sistema da seguridade social, como estabelecido em lei, <strong>não poderá contratar com o Poder Público nem dele receber benefícios ou incentivos fiscais ou creditícios.</strong></p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Parcelas Indenizatórias</h4>
+          <p>Via de regra, parcelas de natureza <strong>indenizatória</strong> (como aviso prévio indenizado, férias indenizadas e licença-prêmio indenizada) <strong>NÃO</strong> integram o salário de contribuição, pois não remuneram o trabalho prestado.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Imunidade vs. Isenção</h4>
+          <p>Templos de qualquer culto possuem <strong>imunidade tributária para IMPOSTOS</strong>. Contribuições para a seguridade social (ex: a cota patronal sobre a folha de pagamento de seus funcionários) são cobradas normalmente, salvo se a entidade cumprir os rigorosos requisitos do CEBAS para ser considerada entidade beneficente de assistência social.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Texto expresso da Constituição Federal (Art. 195, §3º). Devedor do INSS sofre sanções como a proibição de fechar contratos públicos ou de pegar empréstimos com juros subsidiados em bancos públicos.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">A licença-prêmio <em>indenizada</em> não é paga como remuneração pelo trabalho, mas como indenização por um direito não usufruído. Logo, NÃO integra o salário de contribuição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Templos são imunes a impostos (como o IPTU), mas pagam contribuições previdenciárias se tiverem empregados.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O valor do benefício não "equivale" perfeitamente ao salário de contribuição, pois há o cálculo da média dos salários e a aplicação de coeficientes, além de estar limitado ao teto do RGPS.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Quem opta pelo plano simplificado (11%) ou facultativo baixa renda (5%) <strong>renuncia</strong> à Aposentadoria por Tempo de Contribuição, tendo direito apenas à Aposentadoria por Idade.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Imposto vs. Contribuição:</strong> A banca ama testar se o candidato confunde os dois. A imunidade das igrejas é para imposto!</li>
+            <li><strong class="text-amber-300">Indenizado vs. Gozado:</strong> Férias gozadas sofrem desconto de INSS. Férias indenizadas (não gozadas e pagas em rescisão), não! O sufixo "indenizada" costuma livrar a parcela da tributação previdenciária.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-ban", titulo: "Sanção a Devedores", text: "Empresa que deve ao INSS não pode receber benefício de crédito ou fiscal, nem fechar contrato com o poder público." },
+      { icone: "fa-percent", titulo: "Plano Simplificado (11% e 5%)", text: "Pagou alíquota reduzida = abre mão da aposentadoria por tempo de contribuição." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS008",
+    numero: "Questão 3",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Período de Graça",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    categoria: "INSS",
+    titulo: "Manutenção e Perda da Qualidade de Segurado",
+    tags: ["INSS", "Período de Graça", "Qualidade de Segurado", "Auxílio-acidente"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A qualidade de segurado é a condição atribuída ao cidadão filiado ao INSS. O tempo em que ele mantém essa condição, mesmo sem contribuir, é chamado de período de graça. Sobre as regras de manutenção, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "Aquele que esteja em gozo de benefício, independentemente de qual seja, mantém a qualidade de segurado, sem limite de prazo.", correta: false },
+      { letra: "B", texto: "Durante o período de graça, o segurado conserva todos os direitos perante a previdência social, podendo, inclusive, deixar pensão por morte aos dependentes.", correta: true },
+      { letra: "C", texto: "O segurado facultativo mantém essa qualidade por, no máximo, três meses após a cessação das contribuições.", correta: false },
+      { letra: "D", texto: "O segurado incorporado às Forças Armadas mantém a qualidade de segurado por, no máximo, doze meses após o licenciamento.", correta: false },
+      { letra: "E", texto: "Quem está em gozo de auxílio-acidente mantém a qualidade de segurado sem limite de prazo, estando dispensado de contribuir.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p>A Lei 8.213/91 (art. 15) define quem mantém a qualidade de segurado sem contribuir (período de graça):</p>
+        <ul class="list-disc pl-5 space-y-2">
+          <li><strong>Sem limite de prazo:</strong> quem está em gozo de benefício (<strong>EXCETO auxílio-acidente</strong>).</li>
+          <li><strong>Até 12 meses:</strong> após cessar as contribuições, para o segurado que deixar de exercer atividade remunerada ou estiver suspenso/licenciado (pode chegar a 24 ou 36 meses).</li>
+          <li><strong>Até 12 meses:</strong> após cessar a segregação (doença de segregação compulsória).</li>
+          <li><strong>Até 12 meses:</strong> após o livramento do segurado retido ou recluso.</li>
+          <li><strong>Até 3 meses:</strong> após o licenciamento para o segurado incorporado às Forças Armadas.</li>
+          <li><strong>Até 6 meses:</strong> após a cessação das contribuições para o <strong>segurado facultativo</strong>.</li>
+        </ul>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">Enquanto o segurado estiver no período de graça, ele tem todos os direitos preservados. Se ele falecer ou ficar doente no último dia desse prazo, terá direito ao benefício correspondente (pensão ou auxílio).</p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas A e E — Incorretas</strong>
+            <p class="text-slate-300 leading-relaxed">Há uma exceção! Quem recebe <strong>auxílio-acidente</strong> (benefício indenizatório) NÃO mantém a qualidade de segurado sem limite de prazo. Precisa voltar a contribuir para não perder a qualidade.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Para o segurado <strong>facultativo</strong>, o período de graça é de <strong>6 meses</strong> (e não 3 meses).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O prazo para quem sai das Forças Armadas é de <strong>3 meses</strong> (e não 12 meses).</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Pegadinha do Auxílio-acidente:</strong> Essa é clássica. Antigamente, ele mantinha a qualidade. A lei mudou há alguns anos. Receber auxílio-acidente <strong>não</strong> garante a manutenção infinita da qualidade de segurado!</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-user-clock", titulo: "Facultativo (Prazo)", text: "Mantém a qualidade por apenas 6 meses." },
+      { icone: "fa-triangle-exclamation", titulo: "Auxílio-acidente", text: "É o único benefício que não mantém a qualidade de segurado sem limite de prazo por si só." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS009",
+    numero: "Questão 4",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Pensão por Morte",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    categoria: "INSS",
+    titulo: "Pensão por Morte: Regras de Exclusão e Beneficiários",
+    tags: ["INSS", "Pensão por Morte", "Benefícios", "Homicídio", "Dependentes"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A pensão por morte é devida aos dependentes do segurado que falecer, aposentado ou não. Sobre as disposições legais e jurisprudenciais desse benefício, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "O valor da pensão por morte concedida a um dependente cuja renda familiar per capita seja baixa pode ser inferior ao valor de um salário mínimo.", correta: false },
+      { letra: "B", texto: "A pensão por morte será dividida entre a esposa legítima e a pessoa que tenha mantido com o segurado união concubinária (amante) de longo período, dada a equiparação feita pelo STF.", correta: false },
+      { letra: "C", texto: "A contagem de tempo de contribuição fictício é permitida em caráter de exceção para segurados especiais em regime de economia familiar para concessão de pensão.", correta: false },
+      { letra: "D", texto: "É admitida a acumulação integral de uma pensão por morte do RGPS e a pensão deixada por outro cônjuge no RPPS, sem qualquer limite de teto.", correta: false },
+      { letra: "E", texto: "Não faz jus à pensão por morte o pretenso beneficiário condenado criminalmente, por sentença transitada em julgado, como autor de homicídio doloso cometido contra a pessoa do segurado.", correta: true }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p>A EC 103/2019 (Reforma da Previdência) e as leis previdenciárias trazem regras duras sobre concessão e acúmulo de pensão:</p>
+        <ul class="list-disc pl-5 space-y-2">
+          <li><strong>O "Dependente Assassino":</strong> Perde o direito à pensão o dependente condenado criminalmente por sentença com trânsito em julgado como autor, coautor ou partícipe de homicídio <strong>doloso</strong> contra o segurado.</li>
+          <li><strong>Concubinato:</strong> O STF tem jurisprudência pacificada no sentido de que não se divide pensão por morte entre viúva(o) e concubina(o) em uniões paralelas.</li>
+          <li><strong>Tempo Fictício:</strong> A Constituição Federal proíbe contagem de tempo de contribuição fictício em qualquer hipótese (Art. 201, § 14).</li>
+          <li><strong>Valor Mínimo:</strong> Nenhum benefício que substitua a renda do trabalhador poderá ter valor mensal inferior ao salário mínimo.</li>
+        </ul>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa E — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">É a regra da "Indignidade" (Lei 8.213, art. 74). Se matou o segurado com dolo (intenção), perde a pensão. Atenção: exige condenação com trânsito em julgado.</p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O valor do benefício total não pode ser inferior ao salário mínimo (CF art. 201, §2º).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O STF tem jurisprudência pacificada no sentido de que não se divide pensão por morte entre viúva(o) e concubina(o).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">A contagem de tempo de contribuição fictício é expressamente vedada pela Constituição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O acúmulo de pensões entre RGPS e RPPS está sujeito a limites impostos pela EC 103/2019, não sendo irrestrito.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Pegadinha do Homicídio:</strong> A banca pode trocar "doloso" por "culposo" (sem intenção, como num acidente de trânsito). O homicídio <strong>culposo</strong> NÃO retira o direito à pensão. Tem que ser doloso! E exige trânsito em julgado.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-gavel", titulo: "Homicídio Doloso", text: "Dependente condenado com trânsito em julgado perde a pensão." },
+      { icone: "fa-heart-crack", titulo: "Concubinato", text: "O STF não reconhece a divisão de pensão com amantes em uniões paralelas." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS010",
+    numero: "Questão 5",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Crimes Previdenciários",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    categoria: "INSS",
+    titulo: "Apropriação Indébita e Sonegação Previdenciária",
+    tags: ["INSS", "Crimes", "Apropriação Indébita", "Sonegação", "Penal"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A proteção do custeio da Seguridade Social possui reflexos na esfera criminal. Considerando as tipificações do Código Penal acerca dos crimes contra a Previdência Social, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "A empresa que desconta a contribuição devida pelos trabalhadores e não a repassa à previdência social comete o crime de apropriação indébita previdenciária.", correta: true },
+      { letra: "B", texto: "A empresa que omite da folha de pagamento dados sobre os segurados para reduzir a contribuição devida pratica apropriação indébita previdenciária.", correta: false },
+      { letra: "C", texto: "A empresa que deixar de recolher a contribuição previdenciária por dificuldades financeiras não comete crime, pois o mero inadimplemento é protegido legalmente sem necessidade de comprovar estado de necessidade.", correta: false },
+      { letra: "D", texto: "O pagamento integral da quantia devida, mesmo após o trânsito em julgado da sentença condenatória, garante a extinção automática da punibilidade.", correta: false },
+      { letra: "E", texto: "A apropriação indébita previdenciária exige que se comprove o enriquecimento ilícito do empregador para caracterizar a infração penal.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p>A prova do INSS adora confundir dois crimes específicos:</p>
+        <ul class="list-disc pl-5 space-y-2">
+          <li><strong>Apropriação Indébita Previdenciária (Art. 168-A, CP):</strong> O empregador DESCONTA o valor do salário do empregado, mas não o repassa ao INSS. É o "roubo" de algo que não lhe pertence.</li>
+          <li><strong>Sonegação de Contribuição Previdenciária (Art. 337-A, CP):</strong> O empregador SUPRIME ou REDUZ as informações (ex: omite trabalhadores na folha de pagamento, declara salários menores) para pagar menos contribuição.</li>
+        </ul>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">Esse é o conceito clássico do artigo 168-A do Código Penal. Descontar do trabalhador e não repassar aos cofres públicos é apropriação indébita previdenciária.</p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Omitir, esconder ou fraudar folhas de pagamento é crime de <strong>Sonegação</strong> Previdenciária (Art. 337-A), e não apropriação indébita.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Dificuldades financeiras não afastam o crime. O STJ já pacificou que a apropriação indébita previdenciária é crime omissivo próprio, independente de dolo específico.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">A extinção da punibilidade pelo pagamento só ocorre se efetuado <strong>ANTES do início da ação fiscal</strong> ou antes de oferecida a denúncia. Após o trânsito em julgado é tarde demais.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O crime de apropriação indébita previdenciária não exige prova de enriquecimento ilícito. O simples ato de descontar e não repassar já consuma o crime.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Dica infalível:</strong> Falou em "descontou e não repassou" = Apropriação (168-A). Falou em "omitiu, escondeu, fraudou dados" = Sonegação (337-A).</li>
+            <li><strong class="text-amber-300">Perdão Judicial:</strong> O juiz pode deixar de aplicar a pena ou aplicar só multa se o réu é primário, de bons antecedentes E tiver pago a dívida antes da denúncia.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-mask", titulo: "Apropriação Indébita", text: "Descontar do empregado e não pagar ao governo (Art. 168-A CP)." },
+      { icone: "fa-user-secret", titulo: "Sonegação", text: "Omitir trabalhadores ou reduzir salários na folha para pagar menos (Art. 337-A CP)." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
   }
 
 ];
