@@ -37913,6 +37913,147 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
       </div>
     `,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS006",
+    numero: "Questão 1",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Segurados do RGPS",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    categoria: "INSS",
+    titulo: "Enquadramento de Segurados: Facultativo, Especial e Servidor Público",
+    tags: ["INSS", "Segurados", "Facultativo", "Especial", "Contribuinte Individual", "Idade Mínima"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `O correto enquadramento dos segurados do Regime Geral de Previdência Social (RGPS) é um dos pilares para a arrecadação e concessão de benefícios. Analisando as regras de filiação e inscrição no RGPS, assinale a alternativa <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "O pescador artesanal que faz da pesca seu principal meio de vida, utilizando embarcação de pequeno porte, tem a opção de se filiar ao RGPS apenas como segurado facultativo.", correta: false },
+      { letra: "B", texto: "É considerado dependente do segurado o filho não emancipado, de qualquer condição, menor de 24 anos de idade, desde que esteja matriculado em curso de ensino superior ou de escola técnica.", correta: false },
+      { letra: "C", texto: "A pessoa participante de Regime Próprio de Previdência Social (RPPS) pode se filiar livremente ao RGPS na qualidade de segurada facultativa para complementar o valor de sua aposentadoria.", correta: false },
+      { letra: "D", texto: "O servidor público federal vinculado a regime próprio que exercer atividade remunerada como motorista de aplicativo para complementar a renda familiar será considerado segurado obrigatório do RGPS em relação a essa atividade.", correta: true },
+      { letra: "E", texto: "Um estudante de quinze anos de idade que pretenda contribuir para a previdência pode realizar sua inscrição no RGPS na condição de segurado facultativo, a fim de adiantar seu tempo de contribuição.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela compila as regras essenciais sobre o enquadramento de segurados cobradas nas últimas provas do CEBRASPE.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Segurados Obrigatórios vs. Facultativos</h4>
+          <p>
+            No RGPS, a regra de ouro é: <strong>exerceu atividade remunerada lícita, a filiação é obrigatória.</strong> Não é uma escolha do trabalhador. A filiação é automática pelo mero exercício da atividade (empregado, trabalhador avulso, contribuinte individual, empregado doméstico e segurado especial).
+          </p>
+          <p>
+            Já o <strong>segurado facultativo</strong> é aquele que <em>não exerce</em> atividade remunerada enquadrada como obrigatória, mas decide contribuir por conta própria para ter direito aos benefícios (ex: dona de casa, estudante, desempregado).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O Segurado Especial</h4>
+          <p>
+            O segurado especial é o produtor rural familiar, o seringueiro, o extrativista vegetal e o <strong>pescador artesanal</strong> que fazem dessas atividades sua principal fonte de subsistência, trabalhando sozinhos ou em regime de economia familiar. Eles são segurados <strong>obrigatórios</strong>, não facultativos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Atividades Concomitantes e o Servidor Público</h4>
+          <p>
+            O servidor público amparado por Regime Próprio de Previdência Social (RPPS) está, a princípio, excluído do RGPS. <strong>Porém</strong>, se ele exercer, ao mesmo tempo, uma atividade privada remunerada (como dar aulas em faculdade particular, abrir um comércio ou ser motorista de aplicativo), ele será considerado <strong>segurado obrigatório do RGPS (Contribuinte Individual)</strong> em relação a essa atividade extra. Ele contribuirá para os dois regimes.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de Resolução
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            Esta questão agrupa 5 afirmativas da prova do CEBRASPE 2022. Para resolvê-la, precisamos verificar a idade mínima para filiação, os critérios de exclusão do segurado facultativo e as regras do segurado especial.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Mesmo sendo servidor público federal (amparado por RPPS), ao exercer atividade como motorista de aplicativo (atividade remunerada urbana), o indivíduo exerce uma atividade abrangida pelo RGPS. Logo, ele é obrigatoriamente filiado ao RGPS como contribuinte individual em relação a essa segunda atividade.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">
+              O pescador artesanal que faz da pesca sua profissão de subsistência é <strong>segurado especial</strong> (obrigatório), e não facultativo. Ele não tem "opção" de não se filiar, a lei o enquadra automaticamente nesta categoria obrigatória.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">
+              Para o INSS, diferentemente da regra do Imposto de Renda, a dependência do filho cessa aos <strong>21 anos</strong>, e <strong>NÃO HÁ</strong> prorrogação de idade para 24 anos pelo fato de estar cursando ensino superior ou escola técnica. (A única exceção é se for filho inválido ou com deficiência grave, situação em que não há limite de idade).
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">
+              A Constituição Federal e a Lei 8.212/91 <strong>vedam</strong> expressamente a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de Regime Próprio de Previdência Social.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">
+              A idade mínima para inscrição como segurado facultativo no RGPS é de <strong>16 anos</strong> (limite etário constitucional para o trabalho). Um jovem de 15 anos não pode se inscrever.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li>
+              <strong class="text-amber-300">Pegadinha da Idade (Facultativo vs. Menor Aprendiz):</strong> A banca CEBRASPE adora confundir o limite de 14 e 16 anos. O segurado <strong>Facultativo</strong> só pode se inscrever a partir dos <strong>16 anos</strong>. A única exceção de filiação a partir dos <strong>14 anos</strong> é na condição de <strong>Menor Aprendiz</strong> (que é segurado Empregado).
+            </li>
+            <li>
+              <strong class="text-amber-300">Pegadinha da Universidade:</strong> É muito comum o candidato confundir a regra da pensão alimentícia e do Imposto de Renda (que estende dependência até 24 anos para universitários) com a regra Previdenciária. <strong>Para o INSS, fez 21 anos e não é inválido/deficiente? Acabou a dependência.</strong> Fazer faculdade não prorroga a pensão por morte!
+            </li>
+            <li>
+              <strong class="text-amber-300">O que também pode cair (Afastamento do RPPS):</strong> A banca pode colocar a seguinte exceção: Um servidor do RPPS que pede <em>licença sem vencimentos</em>. Nesse caso específico, se o regime próprio dele NÃO permitir que ele continue pagando, a lei federal permite que ele contribua para o RGPS como <strong>facultativo</strong> durante o afastamento.
+            </li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-user-tie", titulo: "Concomitância", text: "Servidor Público RPPS que exerce atividade privada paralela vira obrigatoriamente Contribuinte Individual do RGPS." },
+      { icone: "fa-ban", titulo: "Vedação do Facultativo", text: "Quem tem RPPS ativo não pode ser Facultativo no RGPS. O sistema não permite 'comprar' uma aposentadoria extra dessa forma." },
+      { icone: "fa-calendar-days", titulo: "Idade Mínima", text: "Facultativo: a partir dos 16 anos. Empregado (Aprendiz): a partir dos 14 anos." },
+      { icone: "fa-graduation-cap", titulo: "Fim da Dependência", text: "O filho perde a qualidade de dependente aos 21 anos (se não for inválido/deficiente), não importando se é universitário." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
   }
 
 ];
