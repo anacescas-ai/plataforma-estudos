@@ -37106,6 +37106,813 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     <text x="160" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#312e81">ancora</text>
   </svg>`,
   simuladorType: null
-}
+},
+
+  {
+    id: "qINSS001",
+    numero: "Questão INSS 001",
+    ano: "2024",
+    caderno: "Concurso INSS 2024",
+    area: "juridica",
+    areaNome: "Direito",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Benefícios",
+    materiaCor: "emerald",
+    materiaIcone: "fa-shield-halved",
+    categoria: "INSS",
+    titulo: "Aposentadoria por Incapacidade Permanente: Requisitos e Carência",
+    tags: ["Direito Previdenciário", "INSS", "Aposentadoria por Invalidez", "Carência", "Benefícios"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `João, segurado empregado do RGPS, sofreu um acidente de trânsito não relacionado ao trabalho e ficou incapacitado de forma permanente para qualquer atividade laboral. Ao requerer a aposentadoria por incapacidade permanente (antiga aposentadoria por invalidez), o INSS indeferiu o benefício sob a alegação de que João não havia cumprido o período de carência exigido pela Lei n.º 8.213/1991.
+    <br><br>
+    Nos termos da legislação previdenciária vigente, qual é o período de carência exigido para a concessão da aposentadoria por incapacidade permanente decorrente de doença ou acidente de natureza não profissional?`,
+
+    alternativas: [
+      { letra: "A", texto: "12 contribuições mensais, sem qualquer exceção.", correta: false },
+      { letra: "B", texto: "12 contribuições mensais, sendo dispensada a carência nos casos de acidente de qualquer natureza ou causa.", correta: true },
+      { letra: "C", texto: "24 contribuições mensais, independentemente da causa da incapacidade.", correta: false },
+      { letra: "D", texto: "36 contribuições mensais, salvo nos casos de acidente de trabalho.", correta: false },
+      { letra: "E", texto: "Carência não é exigida em nenhuma hipótese para este benefício.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre os fundamentos da aposentadoria por incapacidade permanente exigidos no concurso do INSS.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
+          <p>
+            Prevista no art. 42 da Lei n.º 8.213/1991, a aposentadoria por incapacidade permanente é devida ao segurado que for considerado <strong>incapaz e insusceptível de reabilitação para o exercício de atividade que lhe garanta a subsistência</strong>. Renomeada pela Lei n.º 14.331/2022 (antes: aposentadoria por invalidez).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Período de carência</h4>
+          <p>
+            O art. 25, inciso I, da Lei n.º 8.213/1991 estabelece <strong>12 contribuições mensais</strong> como carência para este benefício.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Regra essencial:</strong> A carência de 12 contribuições é a regra geral. Nos casos de <strong>acidente de qualquer natureza ou causa</strong> e de <strong>doenças especificadas em lista ministerial</strong>, a carência é <strong>dispensada</strong> (art. 26, II).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Hipóteses de dispensa de carência (art. 26)</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Acidente de qualquer natureza</strong>
+              Inclui acidente do trabalho, de trânsito, doméstico. Carência totalmente dispensada.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-emerald-300 block mb-1">Doenças da lista ministerial</strong>
+              Tuberculose ativa, hanseníase, neoplasia maligna, cegueira, cardiopatia grave, Parkinson, entre outras (Portaria MPS/MS n.º 2.998/2001).
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Valor do benefício</h4>
+          <p>
+            O benefício corresponde a <strong>100% do salário de benefício</strong>. Em caso de grande invalidez (necessidade de assistência permanente), acréscimo de <strong>25%</strong>, mesmo que ultrapasse o teto do RGPS.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Manutenção e cessação</h4>
+          <p>
+            Mantido enquanto durar a incapacidade, com perícias periódicas do INSS. Cessa quando o segurado se recuperar e retornar ao trabalho.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 3 passos
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1 — Identifique o benefício.</strong> Aposentadoria por incapacidade permanente → art. 42 da Lei n.º 8.213/1991.
+            <br><br>
+            <strong>Passo 2 — Localize a regra de carência.</strong> Art. 25, I: 12 contribuições mensais (regra geral).
+            <br><br>
+            <strong>Passo 3 — Verifique a dispensa.</strong> Art. 26, II: acidente de qualquer natureza → carência dispensada. Acidente de trânsito se enquadra → dispensa aplicável.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Carência de <strong>12 contribuições mensais</strong> (regra geral, art. 25, I), dispensada nos casos de <strong>acidente de qualquer natureza</strong> (art. 26, II). Enuncia com precisão a regra e sua exceção principal.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — incompleta</strong>
+            <p class="text-slate-300 leading-relaxed">Menciona corretamente a carência geral (12 contribuições), mas omite a hipótese de dispensa nos acidentes — incorreta diante do caso concreto.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — prazo errado</strong>
+            <p class="text-slate-300 leading-relaxed">24 contribuições não corresponde a nenhuma hipótese do art. 25 para este benefício.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — prazo errado</strong>
+            <p class="text-slate-300 leading-relaxed">36 contribuições é prazo de outros benefícios. Não se aplica à aposentadoria por incapacidade permanente.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — afirmação falsa</strong>
+            <p class="text-slate-300 leading-relaxed">A dispensa não é universal. Só se aplica nas hipóteses taxativas do art. 26 (acidente de qualquer natureza e doenças da lista).</p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Memorize: <strong>12 contribuições (regra geral) + dispensa em acidente de qualquer natureza ou doença grave da lista</strong>. Questões do INSS testam exatamente essa distinção.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-shield-halved", titulo: "Carência geral", text: "Art. 25, I — 12 contribuições mensais para aposentadoria por incapacidade permanente." },
+      { icone: "fa-ban", titulo: "Dispensa de carência", text: "Art. 26, II — Acidente de qualquer natureza e doenças da lista ministerial dispensam a carência." },
+      { icone: "fa-percent", titulo: "Valor do benefício", text: "100% do salário de benefício. Acréscimo de 25% em caso de grande invalidez." },
+      { icone: "fa-stethoscope", titulo: "Perícia médica", text: "Realizada pelo INSS para conceder e manter o benefício. Cessa se o segurado se recuperar." }
+    ],
+
+    galeria: [],
+    simulador: null,
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-shield-halved"></i> Carência — Aposentadoria por Incapacidade Permanente</span>
+        <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
+          <rect x="10" y="10" width="200" height="50" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+          <text x="110" y="32" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6ee7b7" font-weight="bold">REGRA GERAL</text>
+          <text x="110" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#a7f3d0">12 contribuições mensais</text>
+          <rect x="250" y="10" width="200" height="50" rx="8" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
+          <text x="350" y="32" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7dd3fc" font-weight="bold">DISPENSA (art. 26, II)</text>
+          <text x="350" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#bae6fd">Acidente de qualquer natureza</text>
+          <text x="230" y="90" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">ou doença grave da lista ministerial</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS002",
+    numero: "Questão INSS 002",
+    ano: "2024",
+    caderno: "Concurso INSS 2024",
+    area: "juridica",
+    areaNome: "Direito",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Segurados e Dependentes",
+    materiaCor: "emerald",
+    materiaIcone: "fa-shield-halved",
+    categoria: "INSS",
+    titulo: "Segurados Obrigatórios do RGPS: Classificação do Trabalhador Autônomo",
+    tags: ["Direito Previdenciário", "INSS", "Segurado Obrigatório", "Contribuinte Individual", "RGPS"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Marcos é médico que exerce sua profissão de forma autônoma, prestando serviços a diferentes clínicas sem vínculo empregatício. Ele não é empresário individual nem sócio de empresa. Considerando as disposições da Lei n.º 8.213/1991 e do Regulamento da Previdência Social (Decreto n.º 3.048/1999), Marcos é classificado como segurado do RGPS na categoria de:`,
+
+    alternativas: [
+      { letra: "A", texto: "Segurado empregado, pois presta serviços a empresas de forma habitual.", correta: false },
+      { letra: "B", texto: "Segurado trabalhador avulso, pois não possui vínculo empregatício permanente.", correta: false },
+      { letra: "C", texto: "Segurado contribuinte individual, por exercer atividade remunerada por conta própria sem relação de emprego.", correta: true },
+      { letra: "D", texto: "Segurado especial, pois exerce atividade profissional de forma independente.", correta: false },
+      { letra: "E", texto: "Segurado facultativo, pois pode optar por contribuir ou não para o RGPS.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre as categorias de segurados obrigatórios e facultativos do RGPS cobradas no concurso do INSS.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Segurados obrigatórios — visão geral</h4>
+          <p>
+            O art. 11 da Lei n.º 8.213/1991 lista os segurados obrigatórios do RGPS. São compulsoriamente filiados por exercerem atividade remunerada lícita. Dividem-se em cinco categorias:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">I — Empregado</strong>
+              Subordinação, pessoalidade, onerosidade e habitualidade. Vínculo celetista ou estatutário.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">II — Empregado doméstico</strong>
+              Serviços de natureza contínua no âmbito residencial do empregador, sem fins lucrativos.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">III — Contribuinte individual</strong>
+              Trabalhador por conta própria, profissional liberal, sem vínculo empregatício.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">IV — Trabalhador avulso</strong>
+              Sem vínculo empregatício, com intermediação obrigatória de sindicato ou OGMO.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">V — Segurado especial</strong>
+              Produtor rural em economia familiar, pescador artesanal e seus familiares.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Contribuinte individual — detalhamento</h4>
+          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
+            <li>Pessoa física que exerce, por conta própria, atividade econômica de natureza urbana.</li>
+            <li>Profissional liberal (médico, advogado, engenheiro etc.) que presta serviços de forma autônoma.</li>
+            <li>Empresário individual e sócio-gerente de empresa.</li>
+            <li>Trabalhador que presta serviços a empresas sem vínculo empregatício (RPA).</li>
+          </ul>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Ponto-chave:</strong> O que define o contribuinte individual é a <strong>ausência de subordinação jurídica e de vínculo empregatício</strong> combinada com atividade remunerada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Segurado facultativo — distinção importante</h4>
+          <p>
+            O facultativo (art. 13) é a pessoa maior de 16 anos que <strong>não exerce atividade remunerada</strong> que a obrigue a filiar-se. Marcos exerce atividade remunerada — logo é <strong>obrigatoriamente filiado</strong> como contribuinte individual, sem opção de não contribuir.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Passo 1:</strong> Características: médico autônomo, sem vínculo empregatício, sem intermediação sindical, atividade urbana remunerada.
+            <br><br>
+            <strong>Passo 2 — Elimine:</strong> Empregado (exige subordinação) ✗ | Avulso (exige sindicato/OGMO) ✗ | Especial (rural/pesca) ✗ | Facultativo (sem atividade remunerada obrigatória) ✗.
+            <br><br>
+            <strong>Passo 3:</strong> Contribuinte individual = atividade remunerada sem vínculo → art. 11, V ✓
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Marcos é <strong>contribuinte individual</strong>: exerce medicina por conta própria, sem subordinação e sem vínculo empregatício — art. 11, V, da Lei n.º 8.213/1991.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — empregado</strong>
+            <p class="text-slate-300 leading-relaxed">Empregado exige subordinação jurídica. Marcos não tem vínculo empregatício com as clínicas.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — trabalhador avulso</strong>
+            <p class="text-slate-300 leading-relaxed">Avulso exige intermediação obrigatória de sindicato ou OGMO, típico de portuários. Não se aplica a profissionais liberais.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — segurado especial</strong>
+            <p class="text-slate-300 leading-relaxed">Segurado especial é produtor rural em economia familiar, pescador artesanal. Não abrange profissionais liberais urbanos.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — segurado facultativo</strong>
+            <p class="text-slate-300 leading-relaxed">O facultativo não exerce atividade remunerada obrigatória. Marcos, como autônomo remunerado, é filiado obrigatoriamente — não pode "optar" por não contribuir.</p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Fluxo para classificar: subordinação? → empregado. Sindicato/OGMO? → avulso. Rural/pesca? → especial. Sem atividade remunerada? → facultativo. Remunerado sem as anteriores? → <strong>contribuinte individual</strong>.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-user-tie", titulo: "Contribuinte Individual", text: "Art. 11, V — trabalhador por conta própria ou profissional liberal sem vínculo empregatício." },
+      { icone: "fa-id-card", titulo: "Segurado Empregado", text: "Art. 11, I — trabalho subordinado, pessoal e oneroso com vínculo celetista ou estatutário." },
+      { icone: "fa-anchor", titulo: "Trabalhador Avulso", text: "Art. 11, VI — intermediação obrigatória de sindicato ou OGMO, típico de trabalhadores portuários." },
+      { icone: "fa-leaf", titulo: "Segurado Especial", text: "Art. 11, VII — produtor rural em economia familiar, pescador artesanal, indígena rural." }
+    ],
+
+    galeria: [],
+    simulador: null,
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-users"></i> Categorias de Segurados do RGPS</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <rect x="5" y="10" width="82" height="45" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+          <text x="46" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6ee7b7" font-weight="bold">Empregado</text>
+          <text x="46" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#a7f3d0">subordinação</text>
+          <rect x="93" y="10" width="82" height="45" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
+          <text x="134" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7dd3fc" font-weight="bold">Doméstico</text>
+          <text x="134" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#bae6fd">âmbito residencial</text>
+          <rect x="181" y="10" width="98" height="45" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="2"/>
+          <text x="230" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fdba74" font-weight="bold">Contrib. Individual</text>
+          <text x="230" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#fed7aa">conta própria ← aqui!</text>
+          <rect x="285" y="10" width="82" height="45" rx="6" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+          <text x="326" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a5b4fc" font-weight="bold">Avulso</text>
+          <text x="326" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#c7d2fe">via sindicato/OGMO</text>
+          <rect x="373" y="10" width="82" height="45" rx="6" fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
+          <text x="414" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#86efac" font-weight="bold">Especial</text>
+          <text x="414" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#bbf7d0">rural/pesca</text>
+          <rect x="140" y="80" width="180" height="38" rx="6" fill="#3b0764" stroke="#a855f7" stroke-width="1.5"/>
+          <text x="230" y="100" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#d8b4fe" font-weight="bold">Facultativo (art. 13)</text>
+          <text x="230" y="114" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#e9d5ff">sem atividade remunerada obrigatória</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS003",
+    numero: "Questão INSS 003",
+    ano: "2024",
+    caderno: "Concurso INSS 2024",
+    area: "juridica",
+    areaNome: "Direito",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Benefícios por Incapacidade",
+    materiaCor: "emerald",
+    materiaIcone: "fa-shield-halved",
+    categoria: "INSS",
+    titulo: "Auxílio por Incapacidade Temporária: Início do Pagamento e Regra dos 15 Dias",
+    tags: ["Direito Previdenciário", "INSS", "Auxílio-Doença", "Incapacidade Temporária", "Carência", "Período de Espera"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Ana é empregada celetista de uma empresa privada e ficou doente, sendo afastada de suas atividades. Após perícia médica do INSS, foi constatada incapacidade temporária para o trabalho. Considerando a Lei n.º 8.213/1991 e suas alterações, analise as assertivas abaixo sobre o auxílio por incapacidade temporária:
+    <br><br>
+    I. A empresa é obrigada a pagar os primeiros 15 dias de afastamento ao empregado, sendo o INSS responsável a partir do 16.º dia.
+    <br>
+    II. A carência para o auxílio por incapacidade temporária é de 12 contribuições mensais, dispensada em caso de acidente de qualquer natureza.
+    <br>
+    III. O benefício corresponde a 80% do salário de benefício do segurado.
+    <br><br>
+    Estão CORRETAS:`,
+
+    alternativas: [
+      { letra: "A", texto: "Apenas I.", correta: false },
+      { letra: "B", texto: "Apenas II.", correta: false },
+      { letra: "C", texto: "Apenas I e III.", correta: false },
+      { letra: "D", texto: "Apenas I e II.", correta: true },
+      { letra: "E", texto: "I, II e III.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre as regras do auxílio por incapacidade temporária (antigo auxílio-doença), amplamente cobradas no concurso do INSS.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
+          <p>
+            Previsto no art. 59 da Lei n.º 8.213/1991, é devido ao segurado que ficar <strong>incapacitado para o seu trabalho habitual por mais de 15 dias consecutivos</strong>. Antigo auxílio-doença, renomeado pela Lei n.º 14.441/2022.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A regra dos 15 dias — responsabilidade do empregador</h4>
+          <p>
+            Para o <strong>segurado empregado</strong> (celetista), os primeiros <strong>15 dias consecutivos</strong> são pagos pelo <strong>empregador</strong> (art. 60, §3.º, Lei n.º 8.213/1991 c/c art. 476 CLT). A partir do <strong>16.º dia</strong>, o INSS assume.
+          </p>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Atenção:</strong> Regra dos 15 dias: só para empregado. Para contribuinte individual e avulso, o INSS paga desde o 1.º dia (cumprida a carência).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Carência</h4>
+          <p>
+            <strong>12 contribuições mensais</strong> (art. 25, I). Dispensada em acidente de qualquer natureza ou doença grave da lista ministerial (art. 26, II).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Valor do benefício</h4>
+          <p>
+            <strong>91% do salário de benefício</strong> (EC n.º 103/2019 e Lei n.º 13.846/2019). A assertiva III erra ao indicar 80% — percentual incorreto para testar o candidato.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Análise assertiva por assertiva
+          </h4>
+          <p class="text-slate-300 leading-relaxed">Questões de múltipla verificação: analise cada assertiva isoladamente antes de marcar a alternativa.</p>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-circle-check"></i> Assertiva I — CORRETA</strong>
+          <p class="text-slate-300 leading-relaxed">Art. 60, §3.º: empregador paga os 15 primeiros dias; INSS paga a partir do 16.º dia.</p>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-circle-check"></i> Assertiva II — CORRETA</strong>
+          <p class="text-slate-300 leading-relaxed">Art. 25, I: carência de 12 contribuições. Art. 26, II: dispensa em acidente de qualquer natureza.</p>
+        </div>
+
+        <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+          <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Assertiva III — INCORRETA</strong>
+          <p class="text-slate-300 leading-relaxed">O benefício corresponde a <strong>91% do salário de benefício</strong> (não 80%). EC n.º 103/2019 e Lei n.º 13.846/2019 fixaram 91%.</p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA (apenas I e II)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">Assertivas I e II corretas. Assertiva III incorreta — percentual real é 91%, não 80%.</p>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Três pilares: <strong>(1) 15 dias pelo empregador + 16.º dia pelo INSS</strong>; <strong>(2) carência 12 meses (dispensada em acidentes)</strong>; <strong>(3) valor = 91% do salário de benefício</strong>.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-calendar-days", titulo: "Regra dos 15 dias", text: "Empregador paga os 15 primeiros dias; INSS paga a partir do 16.º dia de afastamento." },
+      { icone: "fa-calendar-check", titulo: "Carência", text: "12 contribuições mensais, dispensada em acidente de qualquer natureza ou doença grave da lista." },
+      { icone: "fa-percent", titulo: "Valor do benefício", text: "91% do salário de benefício (regra pós EC 103/2019 e Lei 13.846/2019)." },
+      { icone: "fa-user-doctor", titulo: "Perícia médica", text: "Realizada pelo INSS para reconhecimento, manutenção e cessação do benefício." }
+    ],
+
+    galeria: [],
+    simulador: null,
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-calendar-days"></i> Linha do Tempo — Auxílio por Incapacidade Temporária</span>
+        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
+          <line x1="20" y1="45" x2="440" y2="45" stroke="#334155" stroke-width="2"/>
+          <rect x="20" y="25" width="140" height="40" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
+          <text x="90" y="43" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7dd3fc" font-weight="bold">1.º ao 15.º dia</text>
+          <text x="90" y="57" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#bae6fd">Paga o EMPREGADOR</text>
+          <rect x="175" y="25" width="265" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+          <text x="307" y="43" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6ee7b7" font-weight="bold">16.º dia em diante</text>
+          <text x="307" y="57" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a7f3d0">Paga o INSS — 91% do salário de benefício</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS004",
+    numero: "Questão INSS 004",
+    ano: "2024",
+    caderno: "Concurso INSS 2024",
+    area: "juridica",
+    areaNome: "Direito",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Salário-Maternidade",
+    materiaCor: "emerald",
+    materiaIcone: "fa-shield-halved",
+    categoria: "INSS",
+    titulo: "Salário-Maternidade: Duração, Carência e Seguradas Abrangidas",
+    tags: ["Direito Previdenciário", "INSS", "Salário-Maternidade", "Carência", "Segurada Especial", "Benefícios"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Sobre o salário-maternidade previsto na Lei n.º 8.213/1991, assinale a alternativa CORRETA:`,
+
+    alternativas: [
+      { letra: "A", texto: "A duração do salário-maternidade é de 120 dias para a segurada empregada, podendo ser prorrogado por mais 60 dias no Programa Empresa Cidadã.", correta: true },
+      { letra: "B", texto: "A segurada contribuinte individual precisa cumprir carência de 12 contribuições mensais para ter direito ao salário-maternidade.", correta: false },
+      { letra: "C", texto: "A segurada especial não tem direito ao salário-maternidade por não contribuir mensalmente para o RGPS.", correta: false },
+      { letra: "D", texto: "O salário-maternidade da segurada empregada é pago diretamente pelo INSS em todas as hipóteses.", correta: false },
+      { letra: "E", texto: "A adoção de criança com mais de 12 anos não gera direito ao salário-maternidade para a segurada.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre todas as regras do salário-maternidade cobradas no concurso do INSS.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
+          <p>
+            Benefício previdenciário pago às seguradas por ocasião do parto, adoção ou guarda judicial (art. 71 a 73 da Lei n.º 8.213/1991). Também devido ao segurado homem adotante solteiro (art. 71-B).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Duração</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Empregada / doméstica</strong>
+              120 dias (art. 71). No <strong>Programa Empresa Cidadã</strong> (Lei n.º 11.770/2008): prorrogado por mais 60 dias = <strong>180 dias no total</strong>.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Adoção / guarda judicial</strong>
+              120 dias, <strong>independentemente da idade da criança</strong> (Lei n.º 12.873/2013 removeu faixas etárias).
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Carência por categoria</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Empregada e avulsa</strong>
+              Sem carência (art. 26, VI) — imediato.
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Contribuinte individual e facultativa</strong>
+              <strong>10 contribuições mensais</strong> (art. 25, III) — não confunda com 12!
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Segurada especial</strong>
+              <strong>10 meses de atividade rural</strong> anteriores ao parto. Tem direito ao benefício.
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Quem paga</h4>
+          <p>
+            Para a <strong>empregada celetista</strong>: pago pela <strong>empresa</strong>, que depois compensa nas contribuições ao INSS (art. 72). O INSS paga diretamente para as demais categorias ou quando a empresa encerrou atividades.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
+          </h4>
+          <p class="text-slate-300 leading-relaxed">Questão que testa múltiplas regras. Analise cada alternativa: duração, carência por categoria, quem paga e adoção.</p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            120 dias (art. 71) + prorrogação de 60 dias no Programa Empresa Cidadã (Lei n.º 11.770/2008) = 180 dias. Assertiva correta e completa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">Carência da contribuinte individual é de <strong>10 contribuições</strong> (art. 25, III), não 12. Pegadinha clássica.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">A segurada especial <strong>tem direito</strong> ao benefício, comprovando 10 meses de atividade rural.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">Para empregada celetista, quem paga é o <strong>empregador</strong>, que depois compensa nas contribuições ao INSS.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">Após a Lei n.º 12.873/2013, o benefício é devido independentemente da idade da criança adotada. Regra com faixas etárias foi abolida.</p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Contribuinte individual: <strong>10 meses</strong> (não 12) para salário-maternidade. Segurada especial: <strong>tem</strong> o benefício (10 meses de atividade rural). Adoção: <strong>qualquer idade</strong> da criança.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-baby", titulo: "Duração — empregada", text: "120 dias (art. 71). Prorrogável por 60 dias no Programa Empresa Cidadã = 180 dias." },
+      { icone: "fa-calendar-check", titulo: "Carência — contrib. individual", text: "10 contribuições mensais (art. 25, III) — atenção: não são 12!" },
+      { icone: "fa-leaf", titulo: "Segurada especial", text: "Tem direito ao benefício com 10 meses de atividade rural comprovada." },
+      { icone: "fa-building", titulo: "Quem paga — empregada", text: "A empresa paga e depois compensa nas contribuições ao INSS. INSS paga diretamente nas demais categorias." }
+    ],
+
+    galeria: [],
+    simulador: null,
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-baby"></i> Salário-Maternidade — Carência por Categoria</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="5" y="15" width="130" height="50" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
+          <text x="70" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7dd3fc" font-weight="bold">Empregada / Avulsa</text>
+          <text x="70" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#bae6fd">Sem carência</text>
+          <rect x="145" y="15" width="160" height="50" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="1.5"/>
+          <text x="225" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fdba74" font-weight="bold">Contrib. Individual / Facultativa</text>
+          <text x="225" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fed7aa">10 contribuições mensais</text>
+          <rect x="315" y="15" width="140" height="50" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
+          <text x="385" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6ee7b7" font-weight="bold">Segurada Especial</text>
+          <text x="385" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a7f3d0">10 meses atividade rural</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS005",
+    numero: "Questão INSS 005",
+    ano: "2024",
+    caderno: "Concurso INSS 2024",
+    area: "juridica",
+    areaNome: "Direito",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Pensão por Morte",
+    materiaCor: "emerald",
+    materiaIcone: "fa-shield-halved",
+    categoria: "INSS",
+    titulo: "Pensão por Morte: Classes de Dependentes, Habilitação e Valor do Benefício",
+    tags: ["Direito Previdenciário", "INSS", "Pensão por Morte", "Dependentes", "Benefícios", "Reforma da Previdência"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Carlos, segurado do RGPS, faleceu deixando cônjuge, dois filhos menores de 21 anos e um irmão. Considerando as regras da Lei n.º 8.213/1991 com as alterações promovidas pela Emenda Constitucional n.º 103/2019 e pela Lei n.º 13.135/2015, assinale a alternativa CORRETA sobre a pensão por morte:`,
+
+    alternativas: [
+      { letra: "A", texto: "O irmão de Carlos concorre com o cônjuge e os filhos para o recebimento da pensão por morte.", correta: false },
+      { letra: "B", texto: "O cônjuge de Carlos receberá a pensão por morte vitaliciamente, independentemente do tempo de casamento.", correta: false },
+      { letra: "C", texto: "O valor da pensão por morte corresponde a 100% do salário de benefício que o segurado recebia ou a que teria direito.", correta: false },
+      { letra: "D", texto: "Os filhos de Carlos têm direito à pensão por morte até completarem 25 anos, se forem estudantes.", correta: false },
+      { letra: "E", texto: "O cônjuge e os filhos pertencem à primeira classe de dependentes, e a existência de dependentes de classe anterior exclui o direito dos de classe posterior.", correta: true }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Leia esta parte antes da resolução. Ela cobre as regras da pensão por morte após a Reforma da Previdência (EC 103/2019) — tema central no concurso do INSS.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Classes de dependentes (art. 16 da Lei n.º 8.213/1991)</h4>
+          <div class="space-y-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
+              <strong class="text-emerald-300 block mb-1">Classe I — Presunção absoluta de dependência</strong>
+              <ul class="list-disc list-inside text-slate-300 space-y-1">
+                <li>Cônjuge ou companheiro(a)</li>
+                <li>Filhos não emancipados, menores de 21 anos, ou inválidos, ou com deficiência intelectual/mental ou grave</li>
+                <li>Equiparados: enteado e menor tutelado (dependência econômica comprovada)</li>
+              </ul>
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Classe II</strong> Pais do segurado (dependência econômica comprovada).
+            </div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
+              <strong class="text-slate-300 block mb-1">Classe III</strong> Irmão não emancipado, menor de 21 anos, ou inválido, ou com deficiência (dependência econômica comprovada).
+            </div>
+          </div>
+          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-emerald-300">Regra fundamental (art. 16, §1.º):</strong> Classe anterior <strong>exclui</strong> classe posterior. O irmão de Carlos (Classe III) não recebe nada enquanto houver cônjuge e filhos (Classe I).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Duração da pensão para o cônjuge — pós EC 103/2019</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">Menos de 22 anos</strong> → 3 anos</div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">22 a 27 anos</strong> → 6 anos</div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">28 a 30 anos</strong> → 10 anos</div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">31 a 41 anos</strong> → 15 anos</div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">42 a 44 anos</strong> → 20 anos</div>
+            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30"><strong class="text-emerald-300">45 anos ou mais</strong> → Vitalícia</div>
+          </div>
+          <p class="text-xs text-slate-400">Exige ainda: casamento/união estável com duração mínima de 2 anos na data do óbito.</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Valor da pensão — pós EC 103/2019</h4>
+          <p>
+            <strong>50% (cota familiar)</strong> + <strong>10% por dependente</strong>, até o máximo de <strong>100%</strong>.
+          </p>
+          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
+            <strong>Caso de Carlos:</strong> cônjuge + 2 filhos (3 dependentes) → 50% + 10% + 10% + 10% = <strong>80%</strong> do valor da aposentadoria.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Duração para filhos</h4>
+          <p>
+            Até <strong>21 anos</strong> (art. 16, I). Sem extensão até 25 anos para estudantes no RGPS — essa regra existe em alguns RPPS, mas não na Lei n.º 8.213/1991.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
+          </h4>
+          <p class="text-slate-300 leading-relaxed">Questão testa: (1) classes de dependentes e exclusão; (2) duração da pensão do cônjuge pós-reforma; (3) valor pós-EC 103/2019; (4) duração para filhos.</p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa E — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Cônjuge e filhos são <strong>Classe I</strong> (art. 16, I). A existência de Classe I <strong>exclui</strong> as classes posteriores (art. 16, §1.º). O irmão de Carlos (Classe III) não recebe nada.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">O irmão (Classe III) é excluído pela existência de cônjuge e filhos (Classe I) — art. 16, §1.º.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">Pós-reforma, a pensão do cônjuge <strong>não é mais vitalícia em todos os casos</strong>. Depende da idade na data do óbito (3 a vitalícia) e exige mínimo de 2 anos de casamento.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">Pós EC 103/2019, o valor é <strong>50% + 10% por dependente</strong> (máximo 100%). No caso: 3 dependentes → 80%, não 100%.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — INCORRETA</strong>
+            <p class="text-slate-300 leading-relaxed">No RGPS, filhos têm direito até <strong>21 anos</strong>. Sem prorrogação até 25 anos para estudantes. Pegadinha clássica — confunde com RPPS estaduais.</p>
+          </div>
+        </div>
+
+        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
+          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
+          <p class="text-slate-300 leading-relaxed">
+            Três pontos essenciais: <strong>(1) exclusão entre classes</strong>; <strong>(2) pensão do cônjuge não é mais vitalícia automaticamente</strong> (depende da idade); <strong>(3) valor = 50% + 10% por dependente, máximo 100%</strong>. Filhos: até 21 anos, sem extensão para estudantes no RGPS.
+          </p>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-users", titulo: "Classes de Dependentes", text: "Classe I: cônjuge + filhos (presunção). Classe II: pais. Classe III: irmãos. Anterior exclui posterior." },
+      { icone: "fa-hourglass-half", titulo: "Duração — cônjuge", text: "De 3 anos (menos de 22 anos) a vitalícia (45 anos ou mais) na data do óbito. Mínimo 2 anos de casamento." },
+      { icone: "fa-percent", titulo: "Valor pós-EC 103/2019", text: "50% (cota familiar) + 10% por dependente, até o máximo de 100% do benefício." },
+      { icone: "fa-child", titulo: "Filhos — duração", text: "Até 21 anos (RGPS). Sem prorrogação até 25 anos para estudantes na Lei 8.213/1991." }
+    ],
+
+    galeria: [],
+    simulador: null,
+    diagramaHtml: `
+      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-users"></i> Pensão por Morte — Cálculo do Valor (pós EC 103/2019)</span>
+        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
+          <rect x="10" y="15" width="130" height="50" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
+          <text x="75" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6ee7b7" font-weight="bold">Cota Familiar</text>
+          <text x="75" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#a7f3d0" font-weight="bold">50%</text>
+          <text x="155" y="45" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#64748b">+</text>
+          <rect x="170" y="15" width="130" height="50" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
+          <text x="235" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7dd3fc" font-weight="bold">Por Dependente</text>
+          <text x="235" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#bae6fd" font-weight="bold">10% cada</text>
+          <text x="315" y="45" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#64748b">=</text>
+          <rect x="330" y="15" width="120" height="50" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="2"/>
+          <text x="390" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdba74" font-weight="bold">Teto máximo</text>
+          <text x="390" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#fed7aa" font-weight="bold">100%</text>
+        </svg>
+      </div>
+    `,
+    simuladorType: null
+  }
 
 ];
