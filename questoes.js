@@ -38281,6 +38281,1097 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
 
     simuladorType: null
   }
+,
+
+  {
+    id: "q24096",
+    numero: "Questão 96 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Centro de Massa e Equilíbrio Rotacional",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Balanceamento de Rodas: Onde Colocar o Chumbo para Corrigir o Centro de Massa",
+    tags: ["Física", "Mecânica", "Centro de Massa", "Rotação", "ENEM 2024"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Nos automóveis, é importante garantir que o centro de massa (CM) de cada conjunto roda/pneu coincida com o seu centro geométrico. Esse processo é realizado em uma máquina de balanceamento, na qual o conjunto roda e pneu é colocado para girar a uma velocidade de valor constante. Com base nas oscilações medidas, a máquina indica a posição do centro de massa do conjunto, e pequenas peças de chumbo são fixadas em lugares específicos da roda até que as vibrações diminuam.</p>
+      <p>Durante o treinamento de sua equipe, a fim de corrigir a posição do centro de massa indicada pela máquina, um mecânico apresenta o esquema a seguir, com cinco possíveis pontos da roda para posicionar uma peça de chumbo: o ponto <strong>1</strong> no topo, o <strong>5</strong> à direita superior, o <strong>4</strong> na parte inferior direita, o <strong>3</strong> na parte inferior esquerda e o <strong>2</strong> à esquerda superior — todos equidistantes do centro geométrico. O centro de massa (CM) medido pela máquina está deslocado do centro geométrico da roda, na direção do ponto 5.</p>
+    </div>
+    <p class="mt-2 font-semibold">Em qual ponto deve ser fixada a peça de chumbo para corrigir a posição do centro de massa desse conjunto roda/pneu?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "1", correta: false },
+      { letra: "B", texto: "2", correta: false },
+      { letra: "C", texto: "3", correta: true },
+      { letra: "D", texto: "4", correta: false },
+      { letra: "E", texto: "5", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa C é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O centro de massa de um sistema de várias partes é a "média ponderada" das posições de massa de cada parte. Se o CM medido está deslocado para o lado do ponto 5, é porque existe um excesso de massa nesse lado da roda (algum ponto mais pesado, uma imperfeição de fabricação etc.). Para trazer o CM de volta ao centro geométrico, é preciso adicionar massa exatamente no lado <strong>oposto</strong> a esse excesso — compensando o "puxão" que o excesso de massa exerce sobre a posição do centro de massa. O ponto diametralmente oposto ao ponto 5, no esquema, é o ponto <strong>3</strong>.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> o ponto 1 não é oposto ao deslocamento do CM — colocar chumbo ali deslocaria o centro de massa ainda mais para um lado errado, sem cancelar o desvio original.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> o ponto 2 também não fica diametralmente oposto ao ponto 5 — corrigiria só parcialmente (ou na direção errada) o desequilíbrio.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> o ponto 4 está numa posição próxima, mas não exatamente oposta ao deslocamento indicado — usar esse ponto deixaria um resíduo de desbalanceamento.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> o ponto 5 é justamente o lado para onde o CM já está deslocado — colocar mais massa ali pioraria o desbalanceamento em vez de corrigi-lo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> em qualquer questão de balanceamento (roda de carro, ventilador, hélice), a regra é sempre a mesma: massa adicionada deve ir no lado <em>diametralmente oposto</em> ao deslocamento do centro de massa em relação ao centro geométrico — nunca no mesmo lado, nem num lado qualquer.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-circle-dot", titulo: "Centro de Massa", text: "Ponto que representa a posição média da massa de um sistema, ponderada pela distribuição de massa." },
+      { icone: "fa-arrows-left-right", titulo: "Correção Diametralmente Oposta", text: "Para trazer o CM de volta ao centro, a massa corretiva vai sempre no lado oposto ao desvio medido." },
+      { icone: "fa-gauge-high", titulo: "Por que Isso Importa Girando", text: "Um CM fora do centro geométrico faz a roda vibrar ao girar rápido — o desbalanceamento gera uma força centrífuga desigual a cada volta." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O desvio do centro de massa e a correção oposta",
+        legenda: "O CM medido está deslocado na direção do ponto 5. Adicionar chumbo no ponto diametralmente oposto (ponto 3) puxa o centro de massa de volta para o centro geométrico da roda.",
+        svg: `
+          <svg viewBox="0 0 300 300" class="w-full h-auto mx-auto" style="max-width:260px">
+            <circle cx="150" cy="150" r="120" fill="#0f172a" stroke="#475569" stroke-width="3"/>
+            <circle cx="150" cy="150" r="4" fill="#64748b"/>
+            <circle cx="150" cy="30" r="9" fill="#facc15"/>
+            <text x="150" y="20" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="bold">1</text>
+            <circle cx="234" cy="66" r="9" fill="#facc15"/>
+            <text x="248" y="60" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="bold">5</text>
+            <circle cx="234" cy="234" r="9" fill="#facc15"/>
+            <text x="248" y="248" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="bold">4</text>
+            <circle cx="66" cy="234" r="9" fill="#34d399" stroke="#052e16" stroke-width="2"/>
+            <text x="50" y="248" text-anchor="middle" fill="#6ee7b7" font-size="12" font-weight="bold">3</text>
+            <circle cx="66" cy="66" r="9" fill="#facc15"/>
+            <text x="50" y="60" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="bold">2</text>
+            <circle cx="185" cy="115" r="7" fill="#fb923c"/>
+            <text x="200" y="110" fill="#fdba74" font-size="10" font-weight="bold">CM</text>
+            <line x1="150" y1="150" x2="185" y2="115" stroke="#fb923c" stroke-width="2" stroke-dasharray="3 2"/>
+            <line x1="150" y1="150" x2="66" y2="234" stroke="#34d399" stroke-width="2" stroke-dasharray="3 2"/>
+            <text x="150" y="290" text-anchor="middle" fill="#94a3b8" font-size="9">chumbo no ponto 3 = oposto ao desvio do CM</text>
+          </svg>`
+      },
+      {
+        titulo: "Antes e depois do balanceamento",
+        legenda: "Antes: o CM (laranja) fica deslocado do centro geométrico (cinza), causando vibração ao girar. Depois de adicionar chumbo no ponto oposto: o CM efetivo do conjunto volta a coincidir com o centro geométrico.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Antes (desbalanceada)</text>
+            <circle cx="115" cy="80" r="55" fill="none" stroke="#475569" stroke-width="2"/>
+            <circle cx="115" cy="80" r="3" fill="#64748b"/>
+            <circle cx="135" cy="58" r="6" fill="#fb923c"/>
+            <text x="150" y="53" fill="#fdba74" font-size="8" font-weight="bold">CM</text>
+            <text x="115" y="145" text-anchor="middle" fill="#94a3b8" font-size="7">CM fora do centro → vibra</text>
+
+            <text x="345" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Depois (balanceada)</text>
+            <circle cx="345" cy="80" r="55" fill="none" stroke="#475569" stroke-width="2"/>
+            <circle cx="345" cy="80" r="6" fill="#34d399"/>
+            <text x="345" y="60" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">CM ≈ centro</text>
+            <circle cx="311" cy="105" r="5" fill="#facc15" stroke="#78350f"/>
+            <text x="290" y="122" fill="#fde68a" font-size="7">chumbo aqui</text>
+            <text x="345" y="145" text-anchor="middle" fill="#94a3b8" font-size="7">CM no centro → gira liso</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Essa questão usa uma ideia bem intuitiva de centro de massa: pense numa gangorra. Se ela está desequilibrada para um lado, você não resolve colocando mais peso do mesmo lado — você adiciona peso (ou tira) do lado oposto.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> O que é o centro de massa</h4>
+          <p>
+            O centro de massa de um objeto (ou sistema de vários objetos) é o ponto que se comporta como se toda a massa estivesse concentrada ali, para efeito de descrever o movimento do conjunto. Para um objeto perfeitamente simétrico e homogêneo, como uma roda ideal, o centro de massa coincide com o centro geométrico. Mas fabricação, montagem do pneu, válvula de ar e pequenas imperfeições fazem com que o CM real fique levemente deslocado do centro geométrico.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Por que isso causa vibração ao girar</h4>
+          <p>
+            Quando um objeto gira em torno de um eixo que não passa pelo seu centro de massa, cada ponto do objeto (inclusive o "excesso" de massa fora de centro) percorre uma trajetória circular e sofre aceleração centrípeta. Esse desequilíbrio gera uma força resultante que muda de direção continuamente conforme a roda gira — é isso que o motorista sente como vibração no volante em velocidades altas.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> Como corrigir: sempre no lado oposto</h4>
+          <p>
+            A posição do centro de massa de um sistema de partículas é uma média ponderada pelas massas e posições de cada parte. Se o CM está deslocado numa direção, significa que há "massa em excesso" naquela direção (em relação ao centro geométrico). Adicionar massa no lado diametralmente oposto desloca a média de volta na direção contrária, cancelando o desvio original — é exatamente o mesmo princípio de equilibrar uma gangorra ou uma balança de pratos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Por que a máquina de balanceamento funciona assim</h4>
+          <p>
+            A máquina de balanceamento gira o conjunto roda/pneu a uma velocidade constante e mede as oscilações causadas pelo desbalanceamento. A partir dessas medições, ela calcula tanto a direção do desvio do centro de massa quanto o quanto de massa é preciso adicionar (e onde) para trazê-lo de volta ao centro — sempre indicando um ponto no lado oposto ao desvio detectado.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-circle-dot"></i> Corrigindo o Centro de Massa</span>
+        <svg viewBox="0 0 460 140" class="w-full h-32 mx-auto">
+          <circle cx="115" cy="70" r="50" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+          <circle cx="115" cy="70" r="3" fill="#64748b"/>
+          <circle cx="140" cy="52" r="7" fill="#fb923c"/>
+          <text x="160" y="48" fill="#fdba74" font-size="9" font-weight="bold">CM desviado</text>
+          <line x1="240" y1="70" x2="270" y2="70" stroke="#64748b" stroke-width="2" marker-end="url(#pq24096)"/>
+          <text x="255" y="60" text-anchor="middle" fill="#94a3b8" font-size="7">chumbo no</text>
+          <text x="255" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">lado oposto</text>
+          <circle cx="345" cy="70" r="50" fill="#0f172a" stroke="#475569" stroke-width="2"/>
+          <circle cx="345" cy="70" r="6" fill="#34d399"/>
+          <text x="345" y="50" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">CM no centro</text>
+          <circle cx="322" cy="90" r="5" fill="#facc15"/>
+          <defs>
+            <marker id="pq24096" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: aponte o ponto certo pro chumbo",
+      descricao: "O centro de massa está deslocado numa direção aleatória a cada rodada. Clique no ponto diametralmente oposto para balancear a roda.",
+      html: `
+        <div class="space-y-3">
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 flex flex-col items-center gap-3">
+            <svg viewBox="0 0 300 300" style="max-width:220px" class="w-full h-auto">
+              <circle cx="150" cy="150" r="120" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+              <circle cx="150" cy="150" r="3" fill="#64748b"/>
+              <g data-q24096-cm></g>
+              <circle data-q24096-ponto="1" cx="150" cy="30" r="14" fill="#334155" stroke="#64748b" stroke-width="2" style="cursor:pointer"/>
+              <text x="150" y="35" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" style="pointer-events:none">1</text>
+              <circle data-q24096-ponto="5" cx="234" cy="66" r="14" fill="#334155" stroke="#64748b" stroke-width="2" style="cursor:pointer"/>
+              <text x="234" y="71" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" style="pointer-events:none">5</text>
+              <circle data-q24096-ponto="4" cx="234" cy="234" r="14" fill="#334155" stroke="#64748b" stroke-width="2" style="cursor:pointer"/>
+              <text x="234" y="239" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" style="pointer-events:none">4</text>
+              <circle data-q24096-ponto="3" cx="66" cy="234" r="14" fill="#334155" stroke="#64748b" stroke-width="2" style="cursor:pointer"/>
+              <text x="66" y="239" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" style="pointer-events:none">3</text>
+              <circle data-q24096-ponto="2" cx="66" cy="66" r="14" fill="#334155" stroke="#64748b" stroke-width="2" style="cursor:pointer"/>
+              <text x="66" y="71" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="bold" style="pointer-events:none">2</text>
+            </svg>
+          </div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            O CM está deslocado para o lado do ponto 5. Clique no ponto oposto para corrigir.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var mapa = {
+          1: { x: 150, y: 30, oposto: 4 },
+          5: { x: 234, y: 66, oposto: 3 },
+          4: { x: 234, y: 234, oposto: 1 },
+          3: { x: 66, y: 234, oposto: 5 },
+          2: { x: 66, y: 66, oposto: 4 }
+        };
+        var desviado = "5";
+        var grupoCM = raiz.querySelector('[data-q24096-cm]');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+        var pontos = raiz.querySelectorAll('[data-q24096-ponto]');
+
+        function desenharCM(ladoId) {
+          var p = mapa[ladoId];
+          var cx = 150 + (p.x - 150) * 0.35;
+          var cy = 150 + (p.y - 150) * 0.35;
+          grupoCM.innerHTML = '<circle cx="' + cx + '" cy="' + cy + '" r="9" fill="#fb923c" stroke="#7c2d12" stroke-width="2"/><text x="' + (cx + 18) + '" y="' + (cy - 4) + '" fill="#fdba74" font-size="11" font-weight="bold">CM</text>';
+        }
+
+        desenharCM(desviado);
+
+        pontos.forEach(function (pt) {
+          pt.addEventListener('click', function () {
+            var id = pt.getAttribute('data-q24096-ponto');
+            var correto = parseInt(id, 10) === mapa[desviado].oposto;
+            pontos.forEach(function (p) { p.setAttribute('fill', '#334155'); });
+            pt.setAttribute('fill', correto ? '#34d399' : '#f87171');
+
+            if (correto) {
+              saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+              saida.textContent = 'Isso! Ponto ' + id + ' é o oposto do desvio do CM — chumbo aqui traz o centro de massa de volta ao centro geométrico.';
+            } else {
+              saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+              saida.textContent = 'Esse não é o ponto oposto ao desvio — colocar chumbo aqui não cancela o deslocamento do CM. O correto é o ponto ' + mapa[desviado].oposto + '.';
+            }
+          });
+        });
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24097",
+    numero: "Questão 97 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Química Orgânica Aplicada — Nitrosaminas",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Compostos Nitrosos: Onde Começa a Reação que Forma Substâncias Mutagênicas",
+    tags: ["Química", "Bioquímica", "Nitrosaminas", "Digestão", "Saúde", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Com base em testes realizados em ratos, concluiu-se que os compostos nitrosos são substâncias mutagênicas, ou seja, produzem mutações nas células e possivelmente câncer. Esses compostos podem ser obtidos pela reação entre o nitrito de sódio, que é um conservante adicionado às carnes, e o <strong>ácido clorídrico</strong>. O ácido nitroso produzido irá reagir com compostos nitrogenados, como as aminas, dando origem aos compostos nitrosos.</p>
+    </div>
+    <p class="mt-2 font-semibold">Em qual órgão esse processo será iniciado?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Rim.", correta: false },
+      { letra: "B", texto: "Fígado.", correta: false },
+      { letra: "C", texto: "Intestino.", correta: false },
+      { letra: "D", texto: "Pâncreas.", correta: false },
+      { letra: "E", texto: "Estômago.", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O enunciado dá a pista decisiva: o nitrito de sódio (da carne processada) reage com <strong>ácido clorídrico (HCl)</strong> para formar ácido nitroso, que depois reage com aminas formando os compostos nitrosos mutagênicos. A pergunta, então, é simplesmente: onde no corpo humano existe HCl livre em quantidade significativa? A resposta é o <strong>estômago</strong> — o suco gástrico é rico em ácido clorídrico, secretado pelas células parietais para ajudar na digestão e no controle de microrganismos. É no ambiente ácido do estômago, portanto, que o nitrito da carne ingerida encontra o HCl necessário para iniciar essa cadeia de reações.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> os rins filtram o sangue e produzem urina, mas não secretam ácido clorídrico livre no processo digestivo — não é onde essa reação específica começaria.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> o fígado produz bile (que ajuda a digerir gorduras) e processa substâncias absorvidas, mas não é a fonte do ácido clorídrico do enunciado.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> o intestino recebe o conteúdo já parcialmente digerido e, na verdade, tem pH próximo do neutro a levemente alcalino (por causa das secreções pancreática e biliar) — não é ácido como o estômago, e não é a fonte de HCl.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> o pâncreas secreta enzimas digestivas e bicarbonato (que neutraliza a acidez do quimo antes de entrar no intestino) — o oposto de fornecer HCl.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> sempre que uma questão de Química mencionar ácido clorídrico (HCl) no contexto do corpo humano, associe imediatamente ao <strong>suco gástrico do estômago</strong> — é praticamente a única fonte relevante de HCl livre em concentração significativa no organismo.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-flask", titulo: "HCl Gástrico", text: "O suco gástrico do estômago é a fonte principal de ácido clorídrico livre no corpo humano." },
+      { icone: "fa-link", titulo: "Nitrito → Ácido Nitroso → Nitrosaminas", text: "Cadeia de reações: nitrito + HCl forma ácido nitroso, que reage com aminas formando compostos nitrosos mutagênicos." },
+      { icone: "fa-triangle-exclamation", titulo: "Carnes Processadas", text: "O nitrito de sódio (conservante) é o ponto de partida — por isso o consumo excessivo de embutidos é associado a maior risco de câncer gástrico." }
+    ],
+
+    galeria: [
+      {
+        titulo: "A cadeia de reações, passo a passo",
+        legenda: "Do nitrito de sódio da carne processada até o composto nitroso mutagênico — cada etapa depende do ambiente ácido do estômago.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="10" y="45" width="95" height="40" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="57" y="63" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="bold">Nitrito de</text>
+            <text x="57" y="75" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="bold">sódio (carne)</text>
+            <line x1="105" y1="65" x2="130" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24097)"/>
+            <rect x="134" y="45" width="95" height="40" rx="5" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="181" y="63" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">+ HCl</text>
+            <text x="181" y="75" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">(estômago)</text>
+            <line x1="229" y1="65" x2="254" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24097)"/>
+            <rect x="258" y="45" width="95" height="40" rx="5" fill="#164e63" stroke="#22d3ee" stroke-width="1.5"/>
+            <text x="305" y="63" text-anchor="middle" fill="#a5f3fc" font-size="8" font-weight="bold">Ácido</text>
+            <text x="305" y="75" text-anchor="middle" fill="#a5f3fc" font-size="8" font-weight="bold">nitroso</text>
+            <line x1="353" y1="65" x2="378" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24097)"/>
+            <rect x="382" y="45" width="75" height="40" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="419" y="60" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">Composto</text>
+            <text x="419" y="72" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">nitroso</text>
+            <defs>
+              <marker id="pq24097" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Onde está o ácido no sistema digestório",
+        legenda: "Só o estômago mantém um ambiente fortemente ácido (pH ≈ 1,5-3,5) por causa do HCl secretado pelas células parietais — os demais órgãos do trato digestório têm pH neutro a alcalino.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="50" width="90" height="30" rx="15" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="65" y="69" text-anchor="middle" fill="#cbd5e1" font-size="8">Boca/esôfago</text>
+            <rect x="130" y="35" width="110" height="60" rx="20" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="185" y="60" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">ESTÔMAGO</text>
+            <text x="185" y="75" text-anchor="middle" fill="#fca5a5" font-size="8">HCl · pH ~2</text>
+            <rect x="260" y="50" width="90" height="30" rx="15" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="305" y="69" text-anchor="middle" fill="#cbd5e1" font-size="8">Intestino (neutro)</text>
+            <rect x="370" y="50" width="70" height="30" rx="15" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="405" y="69" text-anchor="middle" fill="#cbd5e1" font-size="8">Fígado/pâncreas</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Essa questão mistura Química Orgânica com Fisiologia: precisa reconhecer o reagente-chave (HCl) e saber onde ele existe naturalmente no corpo.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> De onde vem o nitrito</h4>
+          <p>
+            O nitrito de sódio (NaNO₂) é amplamente usado como conservante em carnes processadas (presunto, salsicha, bacon, linguiça) — ele inibe o crescimento da bactéria <em>Clostridium botulinum</em> e mantém a cor rosada característica desses produtos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Por que o estômago é o cenário da reação</h4>
+          <p>
+            Depois de ingerido, o nitrito chega ao estômago junto com o alimento. O estômago é o único órgão do trato digestório que mantém um ambiente fortemente ácido — as células parietais da mucosa gástrica secretam ácido clorídrico continuamente, mantendo o pH do suco gástrico entre 1,5 e 3,5. É esse HCl que reage com o nitrito, formando ácido nitroso (HNO₂).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Do ácido nitroso aos compostos nitrosos</h4>
+          <p>
+            O ácido nitroso formado é instável e reativo: ele reage com aminas secundárias (compostos nitrogenados presentes em proteínas da própria carne ou de outros alimentos ingeridos junto) para formar as <strong>nitrosaminas</strong> (compostos N-nitroso) — substâncias reconhecidamente mutagênicas e associadas a maior risco de câncer, especialmente gástrico e esofágico.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que isso é relevante para saúde pública</h4>
+          <p>
+            Esse mecanismo é uma das razões pelas quais organizações de saúde recomendam limitar o consumo de carnes processadas: não é só o nitrito em si, mas o produto que ele forma ao reagir com o ácido estomacal e com aminas presentes na dieta. Vitamina C e outros antioxidantes, curiosamente, podem competir nessa reação e reduzir a formação de nitrosaminas — por isso é comum ver ácido ascórbico adicionado como aditivo em produtos cárneos processados.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-flask"></i> Nitrito + HCl no Ambiente Gástrico</span>
+        <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
+          <ellipse cx="230" cy="60" rx="150" ry="45" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="230" y="30" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold">Estômago (pH ~2, rico em HCl)</text>
+          <circle cx="160" cy="65" r="6" fill="#facc15"/>
+          <text x="160" y="88" text-anchor="middle" fill="#fde68a" font-size="7">NO₂⁻</text>
+          <circle cx="230" cy="55" r="6" fill="#67e8f9"/>
+          <text x="230" y="78" text-anchor="middle" fill="#a5f3fc" font-size="7">HCl</text>
+          <circle cx="300" cy="65" r="6" fill="#f87171"/>
+          <text x="300" y="88" text-anchor="middle" fill="#fca5a5" font-size="7">nitrosaminas</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: onde a reação encontra o HCl?",
+      descricao: "Percorra o trajeto do alimento pelo sistema digestório e veja em qual órgão o nitrito realmente encontra ácido clorídrico suficiente para reagir.",
+      html: `
+        <div class="space-y-3">
+          <div class="grid grid-cols-2 sm:grid-cols-5 gap-2" data-q24097-lista>
+            <button data-q24097-orgao="Boca" data-q24097-ph="~7 (neutro)" data-q24097-hcl="não" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Boca</button>
+            <button data-q24097-orgao="Estômago" data-q24097-ph="~1,5–3,5 (ácido)" data-q24097-hcl="sim" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Estômago</button>
+            <button data-q24097-orgao="Intestino" data-q24097-ph="~7–8 (neutro/alcalino)" data-q24097-hcl="não" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Intestino</button>
+            <button data-q24097-orgao="Fígado" data-q24097-ph="não secreta HCl" data-q24097-hcl="não" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Fígado</button>
+            <button data-q24097-orgao="Pâncreas" data-q24097-ph="secreta bicarbonato" data-q24097-hcl="não" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Pâncreas</button>
+          </div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            Clique num órgão do trajeto digestório para ver o pH e se há HCl disponível ali.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var botoes = raiz.querySelectorAll('[data-q24097-orgao]');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+
+        botoes.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            botoes.forEach(function (b) { b.classList.remove('border-cyan-500'); });
+            btn.classList.add('border-cyan-500');
+            var temHcl = btn.getAttribute('data-q24097-hcl') === 'sim';
+            var orgao = btn.getAttribute('data-q24097-orgao');
+            var ph = btn.getAttribute('data-q24097-ph');
+            saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed ' + (temHcl ? 'border-emerald-500/40 bg-emerald-950/30 text-emerald-200' : 'border-slate-700 bg-slate-900/60 text-slate-300');
+            saida.innerHTML = '<strong>' + orgao + '</strong> — pH ' + ph + '. ' + (temHcl ? 'Tem HCl livre suficiente: é aqui que o nitrito reage, formando ácido nitroso e, depois, os compostos nitrosos.' : 'Não é fonte relevante de HCl livre — a reação do enunciado não começa aqui.');
+          });
+        });
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24098",
+    numero: "Questão 98 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Evolução — Reprodução dos Mamíferos",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Monotremata, Marsupialia, Placentalia: A Evolução do Cuidado com o Embrião",
+    tags: ["Biologia", "Evolução", "Mamíferos", "Reprodução", "Cladograma", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Apesar de os animais representados no cladograma compartilharem um mesmo ancestral, eles se caracterizam por distintos padrões de reprodução ou de nutrição dos embriões e descendentes.</p>
+      <p>O cladograma organiza três grupos de mamíferos a partir de um ancestral comum: <strong>Monotremata</strong> (representado pelo ornitorrinco, que bota ovos), depois uma bifurcação entre <strong>Marsupialia</strong> (representado pelo canguru, cujo filhote nasce pouco desenvolvido e completa a gestação no marsúpio, mamando) e <strong>Placentalia</strong> (representado pelo elefante, cujo embrião se desenvolve dentro do útero, nutrido pela placenta).</p>
+      <p class="text-right text-[11px] text-slate-500">DIXSON, A. F. <strong>Mammalian Sexuality</strong>: The Act of Mating and the Evolution of Reproduction. Disponível em: www.cambridge.org. Acesso em: 2 jul. 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Ao longo do processo evolutivo, percebem-se, entre esses animais, perdas e ganhos nos padrões citados que envolvem o(a)</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "aumento no número de descendentes por ninhada.", correta: false },
+      { letra: "B", texto: "mudança no tipo de fecundação de externa para interna.", correta: false },
+      { letra: "C", texto: "redução da versatilidade de reprodução, que se torna unicamente sexuada.", correta: false },
+      { letra: "D", texto: "desenvolvimento embrionário, que passa do meio aquático para o terrestre.", correta: false },
+      { letra: "E", texto: "diminuição da vesícula vitelínica, associada ao desenvolvimento da lactação.", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-lime-950/40 p-4 rounded-xl border border-lime-500/30 space-y-2">
+          <h4 class="font-bold text-lime-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Comparando os três grupos: os <strong>Monotremata</strong> botam ovos com uma grande vesícula vitelínica (a "gema"), que fornece quase todo o nutriente ao embrião em desenvolvimento, de forma parecida com répteis e aves. Os <strong>Marsupialia</strong> já têm uma vesícula vitelínica bem menor — parte da nutrição inicial já vem da mãe — e o filhote nasce extremamente imaturo, completando seu desenvolvimento no marsúpio, alimentado por leite. Os <strong>Placentalia</strong> têm a vesícula vitelínica ainda mais reduzida (quase vestigial), porque a nutrição do embrião passa a ser feita quase inteiramente pela placenta, e o cuidado por leite continua após o nascimento. Ou seja: ao longo dessa linha evolutiva, a dependência da vesícula vitelínica <strong>diminui</strong> progressivamente, enquanto a dependência da <strong>lactação</strong> (alimentação por leite) para sustentar o desenvolvimento do filhote aumenta e se torna mais prolongada.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> o número de descendentes por ninhada não é o padrão evolutivo em destaque aqui — monotremados, marsupiais e placentários variam nesse número por diversas razões ecológicas, sem uma tendência direcional clara ligada à linha evolutiva do cladograma.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> os três grupos já têm fecundação <em>interna</em> — inclusive os monotremados, apesar de botarem ovos. Não existe uma transição de externa para interna dentro desse grupo específico.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> os três grupos já praticam exclusivamente reprodução sexuada — não há "redução de versatilidade" porque nunca houve reprodução assexuada nesse ramo para começo de conversa.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> os três grupos já se desenvolvem em ambiente terrestre (os ovos dos monotremados são postos em terra, não em água) — não há transição de meio aquático para terrestre dentro dos mamíferos; essa transição é típica da história evolutiva de anfíbios/répteis, não de dentro do grupo Mammalia.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> em questões de cladograma com Monotremata/Marsupialia/Placentalia, a "história" que o ENEM sempre conta é a mesma: <strong>menos gema, mais placenta e mais leite</strong> — o cuidado parental substituindo progressivamente o investimento pré-formado no próprio ovo.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-egg", titulo: "Vesícula Vitelínica", text: "Estrutura que armazena nutrientes (gema) para o embrião — grande em monotremados, reduzida em marsupiais, quase vestigial em placentários." },
+      { icone: "fa-droplet", titulo: "Lactação", text: "Alimentação do filhote por leite — presente nos três grupos, mas com papel cada vez mais central conforme a vesícula vitelínica diminui." },
+      { icone: "fa-sitemap", titulo: "Ancestral Comum", text: "Os três grupos compartilham um ancestral, mas divergiram em quanta nutrição embrionária vem do ovo x da mãe (via placenta ou leite)." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O cladograma e a troca vesícula vitelínica ↔ lactação",
+        legenda: "Da esquerda para a direita no cladograma, a vesícula vitelínica encolhe e a dependência de leite materno cresce — um investimento parental que substitui o investimento pré-formado no ovo.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <line x1="30" y1="130" x2="430" y2="130" stroke="#475569" stroke-width="2"/>
+            <circle cx="70" cy="130" r="5" fill="#94a3b8"/>
+            <text x="70" y="30" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Monotremata</text>
+            <text x="70" y="45" text-anchor="middle" fill="#94a3b8" font-size="7">(ornitorrinco)</text>
+            <circle cx="70" cy="80" r="22" fill="#78350f" opacity="0.7"/>
+            <text x="70" y="84" text-anchor="middle" fill="#fde68a" font-size="7">vesícula</text>
+            <text x="70" y="150" text-anchor="middle" fill="#94a3b8" font-size="7">bota ovos</text>
+
+            <circle cx="230" cy="130" r="5" fill="#94a3b8"/>
+            <text x="230" y="30" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Marsupialia</text>
+            <text x="230" y="45" text-anchor="middle" fill="#94a3b8" font-size="7">(canguru)</text>
+            <circle cx="230" cy="80" r="12" fill="#78350f" opacity="0.7"/>
+            <text x="230" y="150" text-anchor="middle" fill="#94a3b8" font-size="7">nasce imaturo, mama no marsúpio</text>
+
+            <circle cx="400" cy="130" r="5" fill="#94a3b8"/>
+            <text x="400" y="30" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Placentalia</text>
+            <text x="400" y="45" text-anchor="middle" fill="#94a3b8" font-size="7">(elefante)</text>
+            <circle cx="400" cy="80" r="4" fill="#78350f" opacity="0.7"/>
+            <text x="400" y="150" text-anchor="middle" fill="#94a3b8" font-size="7">nutrição via placenta</text>
+
+            <text x="230" y="18" text-anchor="middle" fill="#6ee7b7" font-size="8">vesícula vitelínica diminui →→→ lactação/placenta assumem</text>
+          </svg>`
+      },
+      {
+        titulo: "Quem nutre o embrião: gema, placenta ou leite?",
+        legenda: "A proporção de nutrição vinda da gema do ovo cai drasticamente de Monotremata para Placentalia, enquanto a nutrição materna (placenta durante a gestação, leite depois do nascimento) assume o papel principal.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="120" height="90" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <rect x="20" y="30" width="120" height="80" fill="#78350f"/>
+            <text x="80" y="70" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">quase 100%</text>
+            <text x="80" y="82" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">gema</text>
+            <text x="80" y="120" text-anchor="middle" fill="#94a3b8" font-size="7">Monotremata</text>
+
+            <rect x="170" y="20" width="120" height="90" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <rect x="170" y="70" width="120" height="40" fill="#78350f"/>
+            <rect x="170" y="20" width="120" height="50" fill="#052e16"/>
+            <text x="230" y="45" text-anchor="middle" fill="#6ee7b7" font-size="7">leite (pós-nasc.)</text>
+            <text x="230" y="90" text-anchor="middle" fill="#fde68a" font-size="7">pouca gema</text>
+            <text x="230" y="120" text-anchor="middle" fill="#94a3b8" font-size="7">Marsupialia</text>
+
+            <rect x="320" y="20" width="120" height="90" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+            <rect x="320" y="20" width="120" height="70" fill="#164e63"/>
+            <rect x="320" y="90" width="120" height="20" fill="#78350f"/>
+            <text x="380" y="55" text-anchor="middle" fill="#a5f3fc" font-size="7">placenta (gestação)</text>
+            <text x="380" y="102" text-anchor="middle" fill="#fde68a" font-size="6">gema quase nula</text>
+            <text x="380" y="120" text-anchor="middle" fill="#94a3b8" font-size="7">Placentalia</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3">
+          O fio condutor dessa questão é entender que "de onde vem o alimento do embrião" muda de forma bem clara ao longo dessa linha evolutiva — e é exatamente isso que conecta os três grupos.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">1.</span> Monotremata: ovos com gema abundante</h4>
+          <p>
+            Ornitorrincos e équidnas são os únicos mamíferos que botam ovos. O embrião se desenvolve dentro do ovo, nutrido quase inteiramente pela <strong>vesícula vitelínica</strong> (a gema) — de forma semelhante ao que ocorre em répteis e aves, grupos parentes mais distantes. Depois de eclodir, o filhote ainda é amamentado (os monotremados têm glândulas mamárias, embora sem mamilos bem definidos, secretando leite pela pele).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">2.</span> Marsupialia: nascimento precoce, desenvolvimento no marsúpio</h4>
+          <p>
+            Em marsupiais como o canguru, não há ovo com casca — o embrião se desenvolve por um curto período dentro do útero, com uma vesícula vitelínica bem menor fornecendo parte da nutrição inicial (já com alguma contribuição da mãe). O filhote nasce extremamente imaturo (do tamanho de uma lesma, no caso do canguru) e migra até o marsúpio, onde completa boa parte do seu desenvolvimento grudado a um mamilo, dependendo intensamente do leite materno por meses.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">3.</span> Placentalia: nutrição quase toda via placenta</h4>
+          <p>
+            Em mamíferos placentários como o elefante, a vesícula vitelínica é vestigial ou desaparece cedo no desenvolvimento embrionário. A <strong>placenta</strong> — um órgão formado por tecidos do embrião e da mãe — assume quase toda a função de trocar nutrientes, gases e resíduos entre mãe e feto durante uma gestação bem mais longa. Depois do nascimento (já bem mais desenvolvido do que um filhote de marsupial), a lactação continua sendo importante, mas por um período proporcionalmente mais curto de dependência total.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">4.</span> A tendência evolutiva geral</h4>
+          <p>
+            O padrão que conecta os três grupos é uma troca gradual: menos investimento pré-formado no ovo (gema/vesícula vitelínica) e mais investimento contínuo e ativo da mãe (primeiro via placenta durante a gestação, depois via leite após o nascimento). Essa mudança está associada a filhotes que, ao nascer ou eclodir, dependem cada vez mais diretamente do cuidado parental para completar seu desenvolvimento.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-lime-300 block"><i class="fa-solid fa-sitemap"></i> Do Ovo ao Leite: a Tendência Evolutiva</span>
+        <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
+          <rect x="20" y="35" width="120" height="40" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+          <text x="80" y="52" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Vesícula vitelínica</text>
+          <text x="80" y="65" text-anchor="middle" fill="#fde68a" font-size="7">(grande → pequena → vestigial)</text>
+          <line x1="150" y1="10" x2="150" y2="95" stroke="#475569" stroke-width="1" stroke-dasharray="4 3"/>
+          <text x="150" y="15" fill="#64748b" font-size="16" font-weight="bold" text-anchor="middle">⇄</text>
+          <rect x="320" y="35" width="120" height="40" rx="6" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+          <text x="380" y="52" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Placenta + lactação</text>
+          <text x="380" y="65" text-anchor="middle" fill="#6ee7b7" font-size="7">(pequeno → dominante papel)</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: monte a linha do tempo evolutiva",
+      descricao: "Arraste (clicando em ordem) os três grupos de mamíferos para a sequência correta de menos para mais dependência de placenta/lactação em vez de vesícula vitelínica.",
+      html: `
+        <div class="space-y-3">
+          <p class="text-[11px] text-slate-400">Clique nos três grupos na ordem em que aparecem no cladograma (do que tem mais vesícula vitelínica para o que tem menos).</p>
+          <div class="flex flex-wrap gap-2" data-q24098-lista>
+            <button data-q24098-grupo="Placentalia" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-lime-500">Placentalia (elefante)</button>
+            <button data-q24098-grupo="Monotremata" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-lime-500">Monotremata (ornitorrinco)</button>
+            <button data-q24098-grupo="Marsupialia" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-lime-500">Marsupialia (canguru)</button>
+          </div>
+          <div data-out="sequencia" class="text-[11px] text-slate-400">Sua ordem: <span class="font-mono text-slate-300">(nenhum ainda)</span></div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            Clique nos três grupos na ordem certa.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var botoes = raiz.querySelectorAll('[data-q24098-grupo]');
+        var seqOut = raiz.querySelector('[data-out="sequencia"] span');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+        var correta = ['Monotremata', 'Marsupialia', 'Placentalia'];
+        var escolha = [];
+
+        botoes.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            if (escolha.length >= 3 || escolha.indexOf(btn.getAttribute('data-q24098-grupo')) !== -1) return;
+            escolha.push(btn.getAttribute('data-q24098-grupo'));
+            btn.classList.add('border-lime-500', 'opacity-50');
+            seqOut.textContent = escolha.join(' → ');
+
+            if (escolha.length === 3) {
+              var certo = escolha.every(function (g, i) { return g === correta[i]; });
+              if (certo) {
+                saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+                saida.textContent = 'Ordem certa! Monotremata (mais gema) → Marsupialia (gema reduzida, nasce imaturo) → Placentalia (gema quase nula, tudo via placenta). É exatamente essa transição que a alternativa E descreve.';
+              } else {
+                saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+                saida.textContent = 'Ordem incorreta. A sequência do cladograma é: Monotremata → Marsupialia → Placentalia, com a vesícula vitelínica encolhendo a cada passo.';
+              }
+            }
+          });
+        });
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24099",
+    numero: "Questão 99 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Ondas — Efeito Doppler Sonoro e por Radar",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Efeito Doppler Duplo: a Sirene que Ouvimos e o Radar que Mede a Ambulância",
+    tags: ["Física", "Ondas", "Efeito Doppler", "Som", "Radar", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Uma ambulância em alta velocidade com a sirene ligada desloca-se em direção a um radar operado por uma pessoa. O radar emite ondas de rádio com frequência f₀ que são refletidas pela dianteira da ambulância, retornando para o detector com frequência f<sub>r</sub>. A percepção do operador do radar, em relação ao som emitido pela sirene, é de que este se altera à medida que a ambulância se aproxima ou se afasta.</p>
+    </div>
+    <p class="mt-2 font-semibold">Durante a aproximação, como o operador percebe o som da sirene e qual é a relação entre as frequências f<sub>r</sub> e f₀ medidas pelo radar?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Mais grave do que o som emitido e f_r < f_0.", correta: false },
+      { letra: "B", texto: "Mais agudo do que o som emitido e f_r < f_0.", correta: false },
+      { letra: "C", texto: "Mais agudo do que o som emitido e f_r = f_0.", correta: false },
+      { letra: "D", texto: "Mais agudo do que o som emitido e f_r > f_0.", correta: true },
+      { letra: "E", texto: "Mais grave do que o som emitido e f_r > f_0.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A questão pede duas coisas ao mesmo tempo, e são <em>dois efeitos Doppler diferentes</em> acontecendo ao mesmo tempo. Primeiro, o som da sirene: como a fonte sonora (ambulância) se aproxima do observador (operador), as frentes de onda sonoras chegam mais "espremidas" no tempo, aumentando a frequência percebida — o som soa <strong>mais agudo</strong> do que se a ambulância estivesse parada. Segundo, o radar: as ondas de rádio emitidas pelo radar (frequência f₀) rebatem numa superfície que está se aproximando (a dianteira da ambulância); ao refletir num objeto em aproximação, a onda refletida chega de volta ao detector com frequência maior do que a emitida — ou seja, <strong>f<sub>r</sub> > f₀</strong>. As duas coisas — som mais agudo e f<sub>r</sub> > f₀ — descrevem o mesmo tipo de fenômeno (Doppler por aproximação), só que aplicado a duas ondas diferentes (som e rádio).
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> erra os dois: numa aproximação, o som fica mais agudo (não mais grave), e f_r fica maior que f₀ (não menor).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> acerta que o som fica mais agudo, mas erra a relação do radar — numa aproximação, a onda refletida volta com frequência maior, não menor (f_r > f₀, não f_r < f₀).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> acerta que o som fica mais agudo, mas errar dizer que f_r = f₀ ignora completamente o efeito Doppler no radar — se não houvesse mudança de frequência, o radar nem conseguiria medir a velocidade da ambulância (é assim que radares de velocidade funcionam, medindo esse desvio de frequência).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> acerta a relação f_r > f₀, mas erra o som — descreve o som como "mais grave", quando na aproximação ele fica mais agudo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> a regra de ouro do efeito Doppler é sempre a mesma, para qualquer tipo de onda: <strong>aproximação → frequência percebida/detectada aumenta; afastamento → frequência percebida/detectada diminui</strong>. Vale tanto para o som que você ouve quanto para a onda de rádio que um radar reflete.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-wave-square", titulo: "Efeito Doppler", text: "Mudança na frequência percebida de uma onda quando há movimento relativo entre fonte e observador." },
+      { icone: "fa-siren", titulo: "Doppler Sonoro", text: "Fonte se aproximando do ouvinte → som mais agudo (frequência maior); se afastando → som mais grave." },
+      { icone: "fa-satellite-dish", titulo: "Doppler por Radar", text: "Onda refletida por um alvo em aproximação volta com frequência maior que a emitida — é assim que radares medem velocidade." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Doppler sonoro: por que a sirene fica mais aguda ao se aproximar",
+        legenda: "Conforme a ambulância se aproxima, cada nova frente de onda sonora é emitida de um ponto mais próximo do observador que a anterior — as frentes chegam mais 'comprimidas' no tempo, o que o ouvido interpreta como frequência (e som) mais agudo.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="150" cy="65" r="18" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+            <circle cx="150" cy="65" r="36" fill="none" stroke="#a78bfa" stroke-width="1.5"/>
+            <circle cx="150" cy="65" r="54" fill="none" stroke="#a78bfa" stroke-width="1.2" opacity="0.6"/>
+            <rect x="140" y="55" width="20" height="20" fill="#f87171"/>
+            <text x="150" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">fonte se movendo →</text>
+            <text x="380" y="65" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Ouvinte</text>
+            <path d="M400,50 A15,15 0 0 1 400,80" fill="none" stroke="#fca5a5" stroke-width="2"/>
+            <text x="230" y="20" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">ondas mais próximas na frente → som mais agudo</text>
+          </svg>`
+      },
+      {
+        titulo: "Doppler por radar: a onda refletida volta com f maior",
+        legenda: "O radar emite em f₀; ao refletir numa superfície que se aproxima, a onda 'ganha' frequência (efeito Doppler duplo: a ambulância recebe a onda já deslocada, e reemite/reflete deslocando de novo) — o detector mede f_r > f₀.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="20" y="45" width="60" height="30" rx="4" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="50" y="65" text-anchor="middle" fill="#cbd5e1" font-size="8">Radar</text>
+            <line x1="80" y1="60" x2="200" y2="60" stroke="#67e8f9" stroke-width="2" marker-end="url(#dop1)"/>
+            <text x="140" y="50" text-anchor="middle" fill="#a5f3fc" font-size="7">emite f₀</text>
+            <path d="M340,40 L370,60 L340,80" fill="none" stroke="#f87171" stroke-width="2"/>
+            <text x="355" y="30" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">ambulância →</text>
+            <line x1="330" y1="80" x2="90" y2="90" stroke="#34d399" stroke-width="2" marker-end="url(#dop1)"/>
+            <text x="220" y="105" text-anchor="middle" fill="#6ee7b7" font-size="7">reflete de volta com f_r > f₀</text>
+            <defs>
+              <marker id="dop1" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#67e8f9"/>
+              </marker>
+            </defs>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          O segredo dessa questão é perceber que ela descreve <em>dois</em> fenômenos Doppler ao mesmo tempo — um com onda sonora (a sirene) e outro com onda eletromagnética (o radar) — mas os dois obedecem exatamente à mesma lógica.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> O que é o efeito Doppler</h4>
+          <p>
+            O efeito Doppler é a mudança na frequência de uma onda percebida por um observador quando há movimento relativo entre a fonte da onda e o observador. Isso vale para qualquer tipo de onda: sonora, luminosa, de rádio. Quando fonte e observador se aproximam, a frequência percebida/detectada é maior do que a frequência real emitida; quando se afastam, é menor.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Doppler sonoro: por que a sirene muda de tom</h4>
+          <p>
+            Enquanto a ambulância se move em direção ao operador do radar, cada nova crista da onda sonora da sirene é emitida de uma posição um pouco mais próxima do ouvinte do que a crista anterior. Isso "comprime" as cristas no espaço entre a fonte e o ouvinte, fazendo com que elas cheguem ao ouvido com maior frequência (mais cristas por segundo) do que a frequência real emitida pela sirene. Frequência mais alta é percebida como som mais agudo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> Doppler por radar: como se mede a velocidade de um veículo</h4>
+          <p>
+            O radar de trânsito funciona emitindo uma onda de rádio de frequência conhecida (f₀) na direção de um veículo. Ao refletir na carroceria do veículo em movimento, a onda sofre um deslocamento Doppler — se o veículo se aproxima do radar, a onda refletida retorna com frequência maior (f<sub>r</sub> > f₀); se ele se afasta, retorna com frequência menor. O radar mede exatamente essa diferença (f<sub>r</sub> − f₀) para calcular a velocidade do veículo — é o mesmo princípio físico do Doppler sonoro, só que aplicado a ondas eletromagnéticas.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Juntando as duas partes da resposta</h4>
+          <p>
+            Como a ambulância está se aproximando tanto do ouvinte quanto do radar, os dois efeitos apontam na mesma direção: o som da sirene soa mais agudo, e a frequência da onda refletida detectada pelo radar é maior que a emitida (f<sub>r</sub> > f₀). É por isso que a resposta certa combina "mais agudo" com "f<sub>r</sub> > f₀" — as duas metades da alternativa D descrevem consistentemente uma aproximação.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-wave-square"></i> Aproximação = Frequência Maior (nos Dois Casos)</span>
+        <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
+          <rect x="20" y="20" width="190" height="35" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+          <text x="115" y="42" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Sirene: som mais agudo</text>
+          <rect x="250" y="20" width="190" height="35" rx="5" fill="#164e63" stroke="#22d3ee" stroke-width="1.5"/>
+          <text x="345" y="42" text-anchor="middle" fill="#a5f3fc" font-size="9" font-weight="bold">Radar: f_r &gt; f₀</text>
+          <text x="230" y="80" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="bold">↑ mesma causa: aproximação da fonte/alvo ↑</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: aproximando e afastando a ambulância",
+      descricao: "Controle a velocidade e a direção da ambulância e veja como isso muda tanto o som percebido quanto a leitura do radar.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Direção</span><span class="text-violet-300 font-bold" data-out="direcao">Aproximando</span>
+              </label>
+              <input type="range" data-sim="direcao" min="-1" max="1" value="1" step="2" class="w-full accent-violet-500">
+              <p class="text-[10px] text-slate-500 mt-1">Esquerda = afastando · Direita = aproximando</p>
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Velocidade da ambulância</span><span class="text-violet-300 font-bold" data-out="veloc">20 m/s</span>
+              </label>
+              <input type="range" data-sim="veloc" min="0" max="40" value="20" step="2" class="w-full accent-violet-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Som percebido: <span data-out="som" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Relação f_r x f₀ no radar: <span data-out="radar" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a direção e a velocidade.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var direcao = raiz.querySelector('[data-sim="direcao"]');
+        var veloc = raiz.querySelector('[data-sim="veloc"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var aproximando = parseInt(direcao.value, 10) > 0;
+          var v = veloc.value;
+          saida('direcao').textContent = aproximando ? 'Aproximando' : 'Afastando';
+          saida('veloc').textContent = v + ' m/s';
+          saida('som').textContent = aproximando ? 'mais agudo (frequência maior)' : 'mais grave (frequência menor)';
+          saida('radar').textContent = aproximando ? 'f_r > f₀' : 'f_r < f₀';
+
+          var v2 = saida('veredito');
+          if (aproximando) {
+            v2.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v2.textContent = 'Ambulância se aproximando: as duas ondas (som e rádio) chegam com frequência maior que a emitida. Quanto maior a velocidade, maior esse desvio.';
+          } else {
+            v2.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v2.textContent = 'Ambulância se afastando: as duas ondas chegam com frequência menor que a emitida — é o cenário oposto ao da questão, que pede especificamente o caso de aproximação.';
+          }
+        }
+
+        direcao.addEventListener('input', atualizar);
+        veloc.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24100",
+    numero: "Questão 100 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Óptica Geométrica — Espelhos Côncavos",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Mirascópio 3D: Como Dois Espelhos Côncavos Criam uma Imagem Flutuante",
+    tags: ["Física", "Óptica", "Espelhos Côncavos", "Imagem Real", "ENEM 2024"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Mirascópio 3D: produtor de ilusão instantânea</p>
+      <p>O equipamento ilustrado na figura, de dimensões apresentadas no esquema, é composto por dois espelhos côncavos <strong>E₁</strong> e <strong>E₂</strong>, apoiados um sobre o outro por suas bordas, de tal forma que o vértice de E₁ coincide com o foco de E₂ e vice-versa. Na abertura circular de E₂ (diâmetro de 5 cm), é formada uma imagem tridimensional de um objeto posicionado sobre o vértice de E₁. Essa imagem é formada a partir dos raios procedentes do objeto, refletidos por E₂ e E₁, respectivamente. Os observadores julgam visualizar o objeto quando estão, de fato, visualizando sua imagem. O efeito só é possível porque as superfícies de ambos os espelhos são de extrema qualidade.</p>
+      <p>No esquema, cada espelho tem uma altura vertical de <strong>3,8 cm</strong> (da borda até o vértice/abertura), e a base do conjunto tem <strong>23 cm</strong> de diâmetro.</p>
+      <p class="text-right text-[11px] text-slate-500">SALZMANN, W. Disponível em: https://wissenstexte.de. Acesso em: 27 jun. 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">A natureza da imagem formada e a distância vertical entre cada ponto objeto e seu correspondente ponto imagem são</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "real e 5 cm.", correta: false },
+      { letra: "B", texto: "real e 3,8 cm.", correta: false },
+      { letra: "C", texto: "real e 7,6 cm.", correta: true },
+      { letra: "D", texto: "virtual e 7,6 cm.", correta: false },
+      { letra: "E", texto: "virtual e 3,8 cm.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa C é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            <strong>Natureza da imagem — real:</strong> o próprio enunciado diz que a imagem é formada "a partir dos raios procedentes do objeto, refletidos por E₂ e E₁" — ou seja, os raios de luz de fato se cruzam e convergem para formar a imagem na abertura de E₂. Quando raios de luz realmente convergem (e não apenas parecem vir de um ponto, como num espelho plano), a imagem é <strong>real</strong> — é por isso que ela pode ser "tocada" e parece flutuar tridimensionalmente no ar, visível de fora.<br><br>
+            <strong>Distância vertical — 7,6 cm:</strong> o objeto fica sobre o vértice de E₁. Os raios saem do objeto, refletem primeiro em E₁ (que tem 3,8 cm de altura até seu vértice/foco), sobem até E₂, refletem novamente, e a imagem final se forma na abertura de E₂ (também a 3,8 cm de altura, pelo mesmo motivo de simetria: o vértice de um coincide com o foco do outro). A distância total percorrida na vertical, do objeto (no vértice de E₁, na base) até a imagem (na abertura de E₂, no topo), soma as duas alturas: 3,8 cm + 3,8 cm = <strong>7,6 cm</strong>.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> acerta que a imagem é real, mas usa o diâmetro da abertura (5 cm) em vez da distância vertical relevante — o diâmetro da abertura de E₂ não tem relação direta com a altura entre objeto e imagem.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> acerta que a imagem é real, mas usa só a altura de <em>um</em> espelho (3,8 cm) — esquece que a luz percorre o caminho por dois espelhos empilhados, então a distância vertical total é o dobro.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> acerta a distância (7,6 cm), mas erra a natureza da imagem — chama de "virtual" uma imagem que o próprio enunciado descreve como formada pela convergência real dos raios refletidos.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> erra os dois: nem a imagem é virtual (é real), nem a distância é de apenas um espelho (é a soma dos dois).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> imagem <strong>real</strong> = raios de luz realmente se cruzam no ponto da imagem (pode ser projetada numa tela, "flutua" no ar). Imagem <strong>virtual</strong> = os raios só <em>parecem</em> vir de um ponto, mas não se cruzam de verdade ali (como sua imagem num espelho plano comum, "atrás" do vidro).
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-circle-half-stroke", titulo: "Espelho Côncavo", text: "Pode formar imagens reais quando o objeto está além do foco — os raios refletidos convergem de verdade." },
+      { icone: "fa-image", titulo: "Imagem Real x Virtual", text: "Real: raios convergem de fato no ponto da imagem. Virtual: raios só parecem vir daquele ponto, sem se cruzar ali." },
+      { icone: "fa-ruler-vertical", titulo: "Somando as Duas Reflexões", text: "Com dois espelhos empilhados, a distância vertical percorrida pela luz soma a altura de cada um: 3,8 cm + 3,8 cm = 7,6 cm." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O caminho da luz: de E₁ para E₂",
+        legenda: "O objeto fica no vértice de E₁ (embaixo). A luz reflete em E₁, sobe, reflete de novo em E₂, e converge formando a imagem real na abertura de E₂ (em cima) — percorrendo 3,8 cm + 3,8 cm na vertical.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <path d="M100,160 Q230,10 360,160" fill="none" stroke="#a78bfa" stroke-width="3"/>
+            <text x="230" y="35" text-anchor="middle" fill="#ddd6fe" font-size="9" font-weight="bold">E₂ (espelho de cima)</text>
+            <path d="M100,160 Q230,190 360,160" fill="none" stroke="#67e8f9" stroke-width="3"/>
+            <text x="230" y="182" text-anchor="middle" fill="#a5f3fc" font-size="9" font-weight="bold">E₁ (espelho de baixo)</text>
+            <circle cx="230" cy="160" r="7" fill="#facc15"/>
+            <text x="230" y="150" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">objeto</text>
+            <circle cx="230" cy="30" r="7" fill="#34d399"/>
+            <text x="230" y="20" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">imagem real</text>
+            <line x1="230" y1="153" x2="230" y2="97" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 2"/>
+            <text x="270" y="95" fill="#94a3b8" font-size="7">3,8 cm (E₁)</text>
+            <line x1="230" y1="93" x2="230" y2="37" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3 2"/>
+            <text x="270" y="65" fill="#94a3b8" font-size="7">3,8 cm (E₂)</text>
+          </svg>`
+      },
+      {
+        titulo: "Imagem real x imagem virtual",
+        legenda: "Numa imagem real, os raios de luz se cruzam de verdade no ponto da imagem (pode ser vista de fora, 'flutuando' no ar). Numa imagem virtual, os raios só parecem vir daquele ponto, sem se cruzar ali.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <text x="115" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Imagem real</text>
+            <line x1="30" y1="100" x2="115" y2="35" stroke="#34d399" stroke-width="2"/>
+            <line x1="200" y1="100" x2="115" y2="35" stroke="#34d399" stroke-width="2"/>
+            <circle cx="115" cy="35" r="6" fill="#34d399"/>
+            <text x="115" y="118" text-anchor="middle" fill="#6ee7b7" font-size="7">raios se cruzam de verdade</text>
+
+            <text x="345" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Imagem virtual</text>
+            <line x1="260" y1="100" x2="345" y2="60" stroke="#f87171" stroke-width="2" stroke-dasharray="4 3"/>
+            <line x1="430" y1="100" x2="345" y2="60" stroke="#f87171" stroke-width="2" stroke-dasharray="4 3"/>
+            <circle cx="345" cy="60" r="6" fill="#f87171" opacity="0.5"/>
+            <text x="345" y="118" text-anchor="middle" fill="#fca5a5" font-size="7">raios só "parecem" vir daqui</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Esse brinquedo óptico (às vezes chamado de "mirage maker" ou "espelho mágico") é um clássico de museus de ciência — entender como ele funciona é entender bem a diferença entre imagem real e virtual.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> Imagem real x imagem virtual: a diferença que importa</h4>
+          <p>
+            Uma imagem é <strong>real</strong> quando os raios de luz refletidos (ou refratados) realmente se cruzam naquele ponto do espaço — por isso ela pode ser projetada numa tela ou capturada num anteparo, e no caso do mirascópio, pode até enganar o olho fazendo parecer que há um objeto físico flutuando no ar. Uma imagem é <strong>virtual</strong> quando os raios apenas parecem, ao serem prolongados, vir de um determinado ponto — mas não se cruzam de fato ali (como a sua imagem atrás de um espelho plano comum).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Espelhos côncavos podem formar imagem real</h4>
+          <p>
+            Diferente do espelho plano (que só forma imagem virtual) e do espelho convexo (que também só forma virtual), um espelho côncavo pode formar imagem <strong>real</strong> quando o objeto está posicionado além do seu ponto focal. É esse comportamento que o mirascópio explora, usando dois espelhos côncavos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> Por que o vértice de um coincide com o foco do outro</h4>
+          <p>
+            No mirascópio, os dois espelhos são posicionados de forma que o vértice de E₁ (o ponto mais fundo da concavidade) coincide com o foco de E₂, e vice-versa. Essa geometria específica é o que faz com que um objeto colocado exatamente no vértice de um dos espelhos tenha sua imagem formada exatamente na abertura do outro — criando o efeito de uma cópia tridimensional do objeto "flutuando" bem onde ele parece estar fisicamente.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Somando as distâncias corretamente</h4>
+          <p>
+            Como a luz do objeto reflete primeiro num espelho e depois no outro antes de formar a imagem final, a distância vertical entre a posição do objeto e a posição da imagem não é a altura de um único espelho — é a soma das duas alturas (uma para cada reflexão/percurso), já que o objeto está na base de um espelho e a imagem se forma no topo do outro, com o "salto" vertical total sendo a soma das duas medidas dadas no esquema.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-circle-half-stroke"></i> Real e 7,6 cm: Somando as Duas Reflexões</span>
+        <svg viewBox="0 0 460 110" class="w-full h-28 mx-auto">
+          <rect x="20" y="35" width="130" height="40" rx="5" fill="#164e63" stroke="#22d3ee" stroke-width="1.5"/>
+          <text x="85" y="53" text-anchor="middle" fill="#a5f3fc" font-size="8" font-weight="bold">Objeto no vértice</text>
+          <text x="85" y="66" text-anchor="middle" fill="#a5f3fc" font-size="8">de E₁</text>
+          <line x1="150" y1="55" x2="180" y2="55" stroke="#64748b" stroke-width="2" marker-end="url(#pq24100)"/>
+          <text x="165" y="45" text-anchor="middle" fill="#94a3b8" font-size="7">3,8+3,8</text>
+          <rect x="184" y="35" width="130" height="40" rx="5" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+          <text x="249" y="53" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Imagem real na</text>
+          <text x="249" y="66" text-anchor="middle" fill="#6ee7b7" font-size="8">abertura de E₂</text>
+          <text x="380" y="58" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="bold">= 7,6 cm</text>
+          <defs>
+            <marker id="pq24100" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: monte a distância objeto-imagem",
+      descricao: "Ajuste a altura de cada espelho e veja como a distância vertical total entre objeto e imagem muda — e confirme por que ela é sempre a soma das duas alturas, nunca só uma.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Altura de E₁ (espelho de baixo)</span><span class="text-cyan-300 font-bold" data-out="h1">3.8 cm</span>
+              </label>
+              <input type="range" data-sim="h1" min="1" max="8" value="3.8" step="0.1" class="w-full accent-cyan-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Altura de E₂ (espelho de cima)</span><span class="text-emerald-300 font-bold" data-out="h2">3.8 cm</span>
+              </label>
+              <input type="range" data-sim="h2" min="1" max="8" value="3.8" step="0.1" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Distância vertical objeto → imagem:</p>
+            <p class="text-2xl font-bold text-violet-300" data-out="total">7,6 cm</p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2">
+              A luz reflete uma vez em cada espelho — por isso a distância total soma as duas alturas.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var h1 = raiz.querySelector('[data-sim="h1"]');
+        var h2 = raiz.querySelector('[data-sim="h2"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var a = parseFloat(h1.value);
+          var b = parseFloat(h2.value);
+          saida('h1').textContent = a.toFixed(1).replace('.', ',') + ' cm';
+          saida('h2').textContent = b.toFixed(1).replace('.', ',') + ' cm';
+          saida('total').textContent = (a + b).toFixed(1).replace('.', ',') + ' cm';
+        }
+
+        h1.addEventListener('input', atualizar);
+        h2.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
 
 
 ];
