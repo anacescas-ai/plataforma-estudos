@@ -42240,5 +42240,305 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     diagramaHtml: null,
     simuladorType: null
   }
+,
 
+  {
+    id: "qINSS022",
+    numero: "Questão 22",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Evolução Legislativa da Seguridade Social — Marco da CF/1988",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Lei Eloy Chaves", "CF/1988", "Histórico"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `A proteção social no Brasil passou por uma longa evolução histórica e legislativa antes de atingir o modelo atual de Seguridade Social. Com base na evolução legislativa e no marco constitucional de 1988, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "A Constituição Federal de 1988 inaugurou a proteção social no Brasil ao criar, pela primeira vez, um instituto previdenciário destinado a amparar os trabalhadores ferroviários contra acidentes e invalidez.", correta: false },
+      { letra: "B", texto: "A Constituição Federal de 1988 foi o primeiro diploma normativo brasileiro a utilizar e consolidar a expressão 'Seguridade Social', integrando de forma orgânica a Saúde, a Previdência Social e a Assistência Social em um sistema único.", correta: true },
+      { letra: "C", texto: "O Decreto Legislativo n.º 4.682/1923, conhecido como Lei Eloy Chaves, foi o marco inaugural da seguridade social no Brasil por ter estendido a proteção previdenciária a todos os trabalhadores urbanos e rurais do país.", correta: false },
+      { letra: "D", texto: "A Lei Orgânica da Previdência Social (LOPS), de 1960, foi o primeiro diploma legal a utilizar a expressão 'Seguridade Social' e a integrar saúde, previdência e assistência social em um único sistema.", correta: false },
+      { letra: "E", texto: "O Sistema Nacional de Previdência e Assistência Social (SINPAS), criado em 1977, inaugurou o conceito de Seguridade Social ao unificar pela primeira vez as ações de saúde, previdência e assistência em um único ente administrativo.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Linha do Tempo</h4><p><strong class="text-emerald-300">1923 — Lei Eloy Chaves:</strong> Marco da Previdência Social (apenas ferroviários). NÃO usou "Seguridade Social".</p><p><strong class="text-emerald-300">1960 — LOPS:</strong> Unificou os IAPs. Ainda só "Previdência Social".</p><p><strong class="text-emerald-300">1977 — SINPAS:</strong> Sistema integrado, mas sem o conceito formal de Seguridade Social.</p><p><strong class="text-emerald-300">1988 — CF/88:</strong> Primeiro diploma a usar formalmente "Seguridade Social" (Art. 194), integrando Saúde, Previdência e Assistência.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, caput:</strong> "A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social." Primeiro texto constitucional a consagrar o termo e o conceito tripartite de Seguridade Social.</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa B)</h4>
+          <p class="text-slate-200 leading-relaxed">A CF/1988 é o divisor de águas. Antes dela, o Brasil tinha normas esparsas de previdência e assistência sem integração formal. A Constituição Cidadã criou o "guarda-chuva" da Seguridade Social reunindo três vertentes: Saúde (universal, sem contribuição), Previdência (contributiva) e Assistência (para quem dela necessitar).</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">Quem criou proteção para ferroviários foi a <strong>Lei Eloy Chaves (1923)</strong>, não a CF/88. A CF/88 reorganizou e ampliou — não inaugurou do zero.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">Lei Eloy Chaves é o marco da Previdência Social, mas o erro está em <strong>"todos os trabalhadores urbanos e rurais"</strong>. Cobria apenas ferroviários — cobertura restrita e corporativa.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">A LOPS/1960 foi importante, mas o erro está em atribuir a ela o uso da expressão <strong>"Seguridade Social"</strong> e a integração das três áreas. Isso é exclusividade da CF/88.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O SINPAS/1977 organiza aspectos administrativos, mas não <strong>"inaugurou o conceito de Seguridade Social"</strong> — esse mérito é exclusivo da CF/1988.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora atribuir à Lei Eloy Chaves (1923) a criação da "Seguridade Social" ou dizer que ela cobria todos os trabalhadores. Cuidado: ela é o marco da <em>Previdência Social</em>, não da Seguridade Social — e cobria apenas ferroviários. A expressão "Seguridade Social" só existe no ordenamento brasileiro a partir da CF/1988.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1:</strong> "A Lei Eloy Chaves de 1923 é considerada o marco inicial da Seguridade Social no Brasil." (ERRADO — é o marco da Previdência Social).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "Antes de 1988, o Brasil não tinha qualquer forma de proteção social ao trabalhador." (ERRADO — a CF/88 consolidou e ampliou um sistema pré-existente).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">1923 (Eloy Chaves) = PREVIDÊNCIA 🚂 (só ferroviário!)<br>1988 (CF/88) = SEGURIDADE SOCIAL 🏛️ (Saúde + Prev. + Assistência)<br>"Seguridade Social" no Brasil = só existe pós-1988!</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS023",
+    numero: "Questão 23",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Conceito de Seguridade Social — Saúde, Previdência e Assistência",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Saúde", "Previdência", "Assistência", "Art. 194"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `A Constituição Federal de 1988 organiza a Seguridade Social como um sistema tripartite composto por Saúde, Previdência Social e Assistência Social. Com base no conceito constitucional de Seguridade Social e nas características de cada um de seus pilares, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "A previdência social, assim como a saúde, independe de contribuição do segurado, sendo devida a qualquer pessoa que dela necessite, independentemente de filiação ao Regime Geral de Previdência Social.", correta: false },
+      { letra: "B", texto: "A assistência social exige contrapartida contributiva do beneficiário como condição para a concessão dos benefícios e serviços, diferentemente da saúde, que é prestada de forma gratuita a todos.", correta: false },
+      { letra: "C", texto: "A saúde, a previdência e a assistência social integram o conceito de seguridade social, sendo as três financiadas exclusivamente pelas contribuições sociais dos empregados e empregadores.", correta: false },
+      { letra: "D", texto: "A saúde é direito de todos e dever do Estado, independendo de contribuição; a previdência é de filiação obrigatória e caráter contributivo; e a assistência será prestada a quem dela necessitar, também sem exigência de contribuição.", correta: true },
+      { letra: "E", texto: "A seguridade social, por abranger ações de iniciativa exclusiva dos Poderes Públicos, veda a participação da sociedade civil em seu financiamento e gestão, cabendo ao Estado a responsabilidade integral pelo sistema.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Os 3 Pilares da Seguridade Social</h4><p><strong class="text-sky-300">Saúde (Art. 196):</strong> Universal, sem contribuição — direito de todos.</p><p><strong class="text-yellow-300">Previdência (Art. 201):</strong> Contributiva e de filiação obrigatória — só segurados filiados.</p><p><strong class="text-purple-300">Assistência (Art. 203):</strong> Sem contribuição — para quem dela necessitar.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Art. 196:</strong> "A saúde é direito de todos e dever do Estado." — independe de contribuição. <strong>Art. 201:</strong> "A previdência social será organizada sob a forma do Regime Geral de Previdência Social, de caráter contributivo e de filiação obrigatória." <strong>Art. 203:</strong> "A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social."</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa D)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa D é uma síntese perfeita dos três artigos constitucionais: <strong>Saúde</strong> = universal, sem contribuição; <strong>Previdência</strong> = contributiva e de filiação obrigatória; <strong>Assistência</strong> = para quem necessitar, sem contribuição. Essa é a tríade que o CEBRASPE mais cobra.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em dizer que a previdência <strong>"independe de contribuição"</strong>. É exatamente o contrário: a previdência é o único pilar que exige contribuição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">Inverteu os conceitos. A assistência <strong>NÃO exige contribuição</strong> — é justamente isso que a diferencia da previdência (Art. 203).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"financiadas exclusivamente pelas contribuições sociais dos empregados e empregadores"</strong>. O Art. 195 prevê financiamento diversificado: inclui também receitas de loterias, contribuições de importadores etc.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"ações de iniciativa exclusiva dos Poderes Públicos"</strong>. O Art. 194 diz: "de iniciativa dos Poderes Públicos <em>e da sociedade</em>" — a participação da sociedade civil é expressamente prevista.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora <strong>trocar "previdência" por "assistência"</strong> na exigência de contribuição. Dos 3 pilares, apenas a <strong>Previdência</strong> exige contribuição. Se a questão disser que assistência ou saúde exige contribuição — é ERRADO, sem exceção.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1:</strong> "A saúde pode ser exigida pelos segurados como contrapartida de suas contribuições ao INSS." (ERRADO — saúde independe de contribuição).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "O BPC/LOAS exige período de carência contributiva do beneficiário." (ERRADO — assistência social não exige contribuição).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">SAÚDE = Todos 🏥 (sem contribuição)<br>PREVIDÊNCIA = Contribuiu? Protegido! 💰 (obrigatória)<br>ASSISTÊNCIA = Necessitou? Coberto! 🤝 (sem contribuição)<br>Só a PREVIDÊNCIA cobra pedágio!</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS024",
+    numero: "Questão 24",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Princípio da Universalidade da Cobertura e do Atendimento — Art. 194, I",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Universalidade", "Art. 194", "Princípios"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, da Constituição Federal de 1988 lista os objetivos da seguridade social, entre eles o princípio da universalidade da cobertura e do atendimento. Acerca desse princípio, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "O princípio da universalidade possui duas dimensões: a universalidade da cobertura, que se refere à abrangência dos riscos sociais cobertos pelo sistema, e a universalidade do atendimento, que se refere ao alcance subjetivo das pessoas protegidas.", correta: true },
+      { letra: "B", texto: "O princípio da universalidade implica que toda e qualquer pessoa, sem distinção, tem direito a todos os benefícios e serviços da Previdência Social, independentemente de contribuição ao sistema.", correta: false },
+      { letra: "C", texto: "Em razão do princípio da universalidade do atendimento, a Previdência Social deve cobrir todos os cidadãos brasileiros e estrangeiros residentes no país, prescindindo de qualquer vínculo contributivo.", correta: false },
+      { letra: "D", texto: "A universalidade da cobertura determina que o Estado deve atender a todas as necessidades sociais de forma ilimitada, sendo vedado ao legislador restringir o rol de contingências protegidas pelo sistema.", correta: false },
+      { letra: "E", texto: "O princípio da universalidade do atendimento é absoluto e não comporta restrições, sendo inconstitucional qualquer norma que limite o acesso de determinados grupos a serviços de previdência social.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">As Duas Dimensões da Universalidade</h4><p><strong class="text-emerald-300">Universalidade da COBERTURA (objetiva):</strong> riscos e contingências cobertas — doença, morte, velhice, desemprego, invalidez, maternidade etc.</p><p><strong class="text-emerald-300">Universalidade do ATENDIMENTO (subjetiva):</strong> pessoas alcançadas — o maior número possível deve ser abrangido pela proteção social.</p><p>A universalidade não significa acesso irrestrito sem condições. A Previdência é universalidade mitigada — ainda exige contribuição.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, I:</strong> "universalidade da cobertura e do atendimento." A doutrina distingue as duas dimensões: <em>cobertura</em> = dimensão objetiva (o quê é protegido); <em>atendimento</em> = dimensão subjetiva (quem é protegido).</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa A)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa A reproduz com precisão a distinção técnica adotada pela doutrina e cobrada em provas. <strong>Cobertura</strong> = amplitude dos riscos protegidos (dimensão objetiva). <strong>Atendimento</strong> = amplitude das pessoas protegidas (dimensão subjetiva). Essa dicotomia é o coração da questão.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"Previdência Social, independentemente de contribuição"</strong>. A universalidade não elimina a exigência contributiva da Previdência. Inclui o maior número de pessoas — mas ainda exige filiação e contribuição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">Confunde universalidade de atendimento com ausência de requisitos contributivos na Previdência. A universalidade plena sem contribuição é da Saúde e da Assistência — não da Previdência.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"de forma ilimitada"</strong> e <strong>"vedado ao legislador restringir"</strong>. A universalidade é objetivo progressivo — não vedação absoluta ao legislador. O princípio da seletividade (inciso III) inclusive autoriza a escolha das contingências cobertas.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"é absoluto e não comporta restrições"</strong>. Nenhum princípio constitucional é absoluto. A própria Previdência exige contribuição — já é uma limitação ao atendimento universal.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE frequentemente diz que a universalidade significa que <strong>a Previdência deve cobrir todos sem contribuição</strong>. Armadilha clássica! A universalidade do atendimento é um <em>objetivo</em> do sistema como um todo — mas a Previdência continua sendo contributiva mesmo diante desse princípio.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "A universalidade da cobertura diz respeito à amplitude subjetiva do sistema." (ERRADO — subjetivo é atendimento; cobertura é objetivo/riscos).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "Em razão do princípio da universalidade, é inconstitucional exigir contribuição para acesso à Previdência Social." (ERRADO — o Art. 201 prevê expressamente o caráter contributivo).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">COBERTURA = O QUÊ cobre? (riscos/contingências) 🎯<br>ATENDIMENTO = QUEM cobre? (pessoas protegidas) 👥<br>"Cobre tudo, atende todos — mas Previdência ainda cobra pedágio!"</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS025",
+    numero: "Questão 25",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Princípio da Seletividade e Distributividade — Art. 194, III",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Seletividade", "Distributividade", "Art. 194", "Princípios"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, inciso III, da Constituição Federal de 1988 prevê, como um dos objetivos da seguridade social, a <em>seletividade e distributividade na prestação dos benefícios e serviços</em>. Acerca desse princípio e de sua aplicação, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "O princípio da seletividade impõe ao legislador o dever de criar todos os benefícios e serviços possíveis para cobrir o maior número de contingências, sendo vedada a exclusão de qualquer risco social do sistema.", correta: false },
+      { letra: "B", texto: "A distributividade e a seletividade são princípios de aplicação independente e autoexcludente, de modo que, onde se aplica a seletividade, fica afastada a distributividade, e vice-versa.", correta: false },
+      { letra: "C", texto: "O princípio da seletividade e distributividade é compatível apenas com a assistência social, sendo inaplicável ao sistema previdenciário, que se rege pelo princípio da contributividade.", correta: false },
+      { letra: "D", texto: "A distributividade determina que os benefícios da seguridade social devem ser distribuídos de forma igualitária entre todos os cidadãos brasileiros, sem qualquer distinção baseada em renda ou condição socioeconômica.", correta: false },
+      { letra: "E", texto: "A seletividade funciona como critério de limitação: o legislador seleciona as contingências que o sistema irá cobrir conforme os recursos disponíveis; já a distributividade determina que os benefícios devem ser direcionados prioritariamente aos mais necessitados, funcionando como instrumento de justiça social.", correta: true }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Seletividade: o Filtro de Entrada</h4><p>A seletividade permite ao legislador <strong>escolher quais contingências e riscos sociais serão protegidos</strong>, levando em conta os recursos financeiros disponíveis. Não é possível cobrir tudo — seleciona-se o mais relevante.</p></div><div class="space-y-2"><h4 class="text-white font-bold">Distributividade: o Critério de Justiça Social</h4><p>Uma vez selecionadas as contingências, a distributividade determina que os recursos devem ser <strong>direcionados prioritariamente a quem mais precisa</strong>. Não é distribuição igualitária — é distribuição equitativa, priorizando os mais vulneráveis.</p></div><div class="space-y-2"><h4 class="text-white font-bold">Seletividade x Universalidade</h4><p>Parecem conflitar mas se complementam: universalidade aponta o ideal (cobrir todos); seletividade é a realidade orçamentária (cobrir o que é possível). Convivem em tensão produtiva.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, III:</strong> "seletividade e distributividade na prestação dos benefícios e serviços." Doutrina: <em>seletividade</em> = escolha das contingências cobertas (limitação objetiva, com base nos recursos); <em>distributividade</em> = direcionamento prioritário aos mais vulneráveis (função redistributiva e de justiça social).</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa E)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa E captura com exatidão a função de cada dimensão do princípio. <strong>Seletividade</strong> = filtro legislativo (o que entra no sistema, com base nos recursos disponíveis). <strong>Distributividade</strong> = critério de direcionamento (quem recebe prioritariamente — os mais necessitados). Os dois trabalham juntos: primeiro seleciona o que cobrir, depois distribui aos que mais precisam.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">Inverteu completamente o conceito. A seletividade <strong>não impõe criar tudo</strong> — ela autoriza o legislador a <em>limitar</em> e <em>selecionar</em> o que será coberto. "Vedada a exclusão de qualquer risco social" é o exato oposto da seletividade.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"autoexcludente"</strong>. Os dois princípios são complementares e aplicados conjuntamente — a CF os coloca no mesmo inciso (III) porque funcionam em par. Seletividade filtra; distributividade direciona o que passou pelo filtro.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"inaplicável ao sistema previdenciário"</strong>. O princípio do Art. 194 se aplica à Seguridade Social como um todo. Na Previdência, a seletividade manifesta-se na definição das espécies de benefícios e seus requisitos.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">Erro em <strong>"de forma igualitária"</strong>. A distributividade não é igualitária — é <em>equitativa</em>. Distribui mais para quem mais precisa, não igual para todos. Distribuir igualmente seria o oposto do princípio, que tem função redistributiva de renda.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora colocar seletividade e universalidade em aparente contradição e perguntar se são incompatíveis. <strong>NÃO SÃO!</strong> Universalidade é o ideal; seletividade é a realidade orçamentária. Eles coexistem em tensão produtiva — o sistema busca a universalidade, mas a seletividade limita com base nos recursos disponíveis.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "O princípio da seletividade autoriza o legislador ordinário a restringir o rol de benefícios previdenciários conforme a disponibilidade de recursos do sistema." (CERTO).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "A distributividade implica que todos os cidadãos devem receber a mesma quantidade de benefícios da seguridade social." (ERRADO — distributividade é equitativa, não igualitária).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">SELETIVIDADE = Porteiro 🚪 (escolhe o que entra no sistema)<br>DISTRIBUTIVIDADE = Fila preferencial 🏆 (os mais vulneráveis primeiro)<br>"Seleciona o que pode; distribui para quem mais precisa!"</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  }
 ];
