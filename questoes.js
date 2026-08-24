@@ -38411,6 +38411,452 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     simulador: null,
     diagramaHtml: null,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS011",
+    numero: "Questão 6",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "informatica-inss",
+    materia: "Noções de Informática / Segurança e Windows 10",
+    materiaCor: "cyan",
+    materiaIcone: "fa-computer",
+    categoria: "INSS",
+    titulo: "Segurança no Windows 10: Microsoft Defender e Criptografia",
+    tags: ["INSS", "Informática", "Windows 10", "Antivírus", "Segurança", "Microsoft Defender"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A segurança da informação é uma das rotinas mais cobradas no sistema operacional Windows 10. Com base nos utilitários de sistema e segurança nativos do Windows 10, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "Para proteger e criptografar arquivos no Windows 10, o usuário deve utilizar exclusivamente o aplicativo Windows Defender Firewall.", correta: false },
+      { letra: "B", texto: "A Segurança do Windows verifica continuamente a existência de malwares e vírus, incluindo, para isso, um programa antivírus nativo chamado Microsoft Defender Antivirus.", correta: true },
+      { letra: "C", texto: "O Microsoft Defender Antivirus precisa ser adquirido e instalado separadamente da loja virtual da Microsoft, pois não integra a instalação padrão do sistema.", correta: false },
+      { letra: "D", texto: "A reorganização de dados fragmentados no disco rígido, para otimização de velocidade, é realizada automaticamente pelo antivírus do sistema.", correta: false },
+      { letra: "E", texto: "O Firewall nativo do Windows tem como função principal a desfragmentação de disco para evitar invasões via rede.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O Microsoft Defender Antivirus</h4>
+          <p>O Windows 10 e 11 já vêm de fábrica com o <strong>Microsoft Defender Antivirus</strong>. Ele faz parte da Central de Segurança do Windows e atua em tempo real (continuamente) na verificação e bloqueio de malwares, vírus e ameaças, sem precisar baixar nada extra.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Firewall vs. Criptografia</h4>
+          <p>O <strong>Firewall</strong> (parede de fogo) serve para controlar o tráfego de entrada e saída da rede (filtrar portas e conexões), evitando invasões remotas. Ele <strong>NÃO</strong> faz criptografia de arquivos. Para criptografar dados no Windows, utilizamos ferramentas como o <strong>BitLocker</strong> (criptografa unidades inteiras) ou o <strong>EFS</strong> (Encrypting File System, para arquivos e pastas isoladas).</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Desfragmentador de Disco</h4>
+          <p>O <strong>Desfragmentador e Otimizador de Unidades</strong> é um utilitário de manutenção do sistema. Quando o disco (HD) está fragmentado, os arquivos ficam "espalhados", deixando a máquina lenta. O desfragmentador reorganiza esses pedaços para melhorar o desempenho. Ele não tem função de antivírus.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Correto! O Windows 10 inclui nativamente o Microsoft Defender Antivirus, que roda de forma silenciosa e contínua verificando ameaças e malwares no computador.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas A e E — Incorretas</strong>
+            <p class="text-slate-300 leading-relaxed">A banca tentou te confundir sobre a função do <strong>Firewall</strong>. Firewall filtra tráfego de rede. Quem criptografa arquivo é o BitLocker/EFS, e quem desfragmenta é o Desfragmentador de Disco.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O Microsoft Defender já vem pré-instalado e ativado nativamente no Windows 10; não precisa ser comprado na loja.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Troca de Nomes:</strong> Na prova, a banca afirmou exatamente que era possível criptografar usando o Firewall (afirmação falsa). Sempre lembre: Firewall = Rede (filtro); BitLocker = Disco (criptografia).</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-shield-virus", titulo: "Microsoft Defender", text: "Antivírus nativo do Windows 10/11 que funciona de forma contínua e sem custo extra." },
+      { icone: "fa-lock", titulo: "BitLocker", text: "Recurso correto usado para a criptografia de unidades e arquivos no Windows." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS012",
+    numero: "Questão 7",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "raciocinio-logico",
+    materia: "Raciocínio Lógico / Porcentagem e Conjuntos",
+    materiaCor: "blue",
+    materiaIcone: "fa-calculator",
+    categoria: "INSS",
+    titulo: "Interseção e Porcentagem de Porcentagem",
+    tags: ["INSS", "RLM", "Porcentagem", "Conjuntos", "Interseção"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Entre os servidores de certa repartição do INSS, sabe-se que 65% gostam de trabalhar com atendimento ao público e, <strong>desses</strong>, 30% gostam também de trabalhos administrativos.
+    <br><br>
+    Com base nessa situação hipotética, assinale a opção <strong>CORRETA</strong> a respeito da proporção de servidores na repartição:`,
+
+    alternativas: [
+      { letra: "A", texto: "Mais de 20% do total de servidores da repartição gostam de ambas as modalidades (atendimento e administrativo).", correta: false },
+      { letra: "B", texto: "Exatamente 19,5% do total de servidores da repartição gostam de ambas as modalidades simultaneamente.", correta: true },
+      { letra: "C", texto: "Exatamente 30% do total de servidores da repartição gostam das duas modalidades.", correta: false },
+      { letra: "D", texto: "Menos da metade da repartição (50%) gostam de trabalhar com atendimento ao público.", correta: false },
+      { letra: "E", texto: "A porcentagem de servidores que gostam de trabalhos administrativos excede o número dos que gostam de atendimento.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> "Porcentagem de Porcentagem"</h4>
+          <p>Quando um enunciado diz que "X% <strong>desses</strong> (ou daquele grupo)" faz alguma coisa, temos que calcular uma porcentagem sobre outra porcentagem. O conectivo "DE" na matemática vira uma multiplicação.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Traduzindo o enunciado</h4>
+          <ul class="list-disc pl-5 space-y-2">
+            <li>Gostam de Atendimento (A): <strong>65% do total</strong>.</li>
+            <li>Gostam de Administrativo E de Atendimento (A ∩ B): <strong>30% de quem gosta de atendimento</strong>.</li>
+          </ul>
+          <p>Logo: \(30\% \times 65\% = 0{,}30 \times 0{,}65 = 0{,}195\) → <strong>19,5% do TOTAL</strong> da repartição.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-blue-950/40 p-4 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Se 30% DE 65% gostam de ambas, fazemos: \(0{,}30 \times 65\% = 19{,}5\%\). Logo, exatamente 19,5% do total gostam simultaneamente das duas áreas.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Como 19,5% é <strong>menor</strong> que 20%, a afirmação "mais de 20%" é FALSA.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O erro comum é achar que 30% do total gosta das duas, ignorando a palavra "DESSES" no enunciado, que restringe o cálculo aos 65%.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">O gatilho "DESSES":</strong> A palavrinha puxa a base de cálculo de 100% para 65%. Dizer "30% gostam" é diferente de "30% DESSES gostam".</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-percent", titulo: "Matemática do 'DE'", text: "A preposição 'de' (como em '30% de 65%') significa multiplicação. O resultado é sempre menor que os dois fatores originais." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS013",
+    numero: "Questão 8",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "raciocinio-logico",
+    materia: "Raciocínio Lógico / Tabela-verdade e Leis de De Morgan",
+    materiaCor: "blue",
+    materiaIcone: "fa-calculator",
+    categoria: "INSS",
+    titulo: "Negação Lógica e Linhas da Tabela-Verdade",
+    tags: ["INSS", "RLM", "Tabela-Verdade", "Negação Lógica", "De Morgan"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Considere a proposição <strong>P</strong>: "Se me mandou mensagem, meu filho lembrou-se de mim e quer ser lembrado por mim".
+    <br><br>
+    Aplicando as leis da lógica proposicional sobre a proposição P, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "A tabela-verdade da proposição P possui 16 linhas, pois ela carrega 4 verbos no enunciado.", correta: false },
+      { letra: "B", texto: "A negação do trecho 'meu filho lembrou-se de mim e quer ser lembrado por mim' é logicamente equivalente a 'meu filho não se lembrou de mim nem quer ser lembrado por mim'.", correta: false },
+      { letra: "C", texto: "A proposição P possui formato 'A ou (B e C)', sendo uma disjunção na estrutura principal.", correta: false },
+      { letra: "D", texto: "A proposição P é composta por três proposições simples, o que resulta em uma tabela-verdade de 8 linhas.", correta: true },
+      { letra: "E", texto: "A negação lógica de uma conjunção (E) resulta em outra conjunção com as proposições negadas.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Contando Proposições e Linhas</h4>
+          <p>Número de linhas = \(2^n\), onde <strong>n</strong> é a quantidade de proposições simples distintas.</p>
+          <p>Analisando: "Se <strong>(A)</strong> me mandou mensagem, <strong>(B)</strong> meu filho lembrou-se de mim E <strong>(C)</strong> quer ser lembrado por mim" → 3 proposições → \(2^3 = 8\) linhas.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Lei de De Morgan — Negação do "E"</h4>
+          <p>A negação de <code>B E C</code> <strong>não é</strong> <code>~B E ~C</code>. É obrigatório trocar o conectivo:</p>
+          <p><code>~(B E C) = ~B OU ~C</code></p>
+          <p>Portanto: "meu filho NÃO se lembrou de mim <strong>OU</strong> NÃO quer ser lembrado". Usar "nem" (que vale "e não") viola a Lei de De Morgan.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-blue-950/40 p-4 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Com \(n = 3\) proposições simples, temos \(2^3 = 8\) linhas na tabela-verdade. Afirmativa perfeita.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Linhas não se contam por "verbos soltos". São 3 proposições simples, portanto 8 linhas, não 16.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas B e E — Incorretas</strong>
+            <p class="text-slate-300 leading-relaxed">A palavra "nem" equivale a "e não", mantendo a conjunção "E", o que viola a Lei de De Morgan. A negação correta exige o "OU".</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">O Perigoso "NEM":</strong> A banca usou "...não lembrou NEM quer ser lembrado". Como "NEM" = "e não", manteve o conectivo "e", violando a regra. A afirmativa estava ERRADA no gabarito oficial.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-list-ol", titulo: "Fórmula de Linhas", text: "2 elevado ao número (n) de proposições simples diferentes: 2³ = 8 linhas." },
+      { icone: "fa-arrows-rotate", titulo: "Leis de De Morgan", text: "~(P E Q) = (~P OU ~Q). Negar uma conjunção troca o 'E' pelo 'OU'." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS014",
+    numero: "Questão 9",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "portugues-inss",
+    materia: "Língua Portuguesa / Interpretação de Texto",
+    materiaCor: "red",
+    materiaIcone: "fa-feather-pointed",
+    categoria: "INSS",
+    titulo: "Interpretação e Crase no Texto 'Um Ano de Menos'",
+    tags: ["INSS", "Português", "Interpretação", "Crase", "Regência Verbal"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Leia o seguinte trecho do texto "Um Ano de Menos", de Rachel de Queiroz:
+    <br><br>
+    <em>"A gente, porém, não pode pensar muito nessas coisas. Tem que pensar em alegrias, sugestionar-se, sugestionar os outros. Vamos dar festas, vamos aguardar o ano novo com esperanças e risadas e beijos congratulatórios. (...) Tudo escondido, esperando. Sem falar nos que vão ficar tuberculosos, nas mulheres que vão fazer cesariana. Os que vão perder o emprego, os que se verão doidos com as dívidas..."</em>
+    <br><br>
+    Sobre a interpretação do texto de Rachel de Queiroz e os aspectos gramaticais atrelados a ele, assinale a <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "No texto, a autora sugere uma postura conformista e triste na passagem de ano, visto que a morte e a tragédia chegam para todos sem aviso.", correta: false },
+      { letra: "B", texto: "O emprego do sinal indicativo de crase em 'ver à porta a cara do mascate' justifica-se pela regência do verbo transitivo indireto 'ver'.", correta: false },
+      { letra: "C", texto: "A autora incentiva ativamente uma postura otimista durante a passagem de ano, apesar de logo depois manifestar uma visão realista e pessimista quanto às dores e infortúnios do porvir.", correta: true },
+      { letra: "D", texto: "A crase na locução 'à porta' é facultativa, já que acompanha uma palavra feminina que não desempenha função de núcleo sintático no trecho.", correta: false },
+      { letra: "E", texto: "O pronome oblíquo em 'que se paga a toda hora' cumpre função restrita de pronome reflexivo, indicando que a prestação paga a si mesma.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">1.</span> Compreensão Global do Texto</h4>
+          <p>O texto constrói um paradoxo humano. Rachel de Queiroz incentiva: "vamos aguardar o ano novo com esperanças e risadas..." (otimismo forçado), mas logo expõe a crua realidade: doenças, dívidas, perdas de emprego. Ela sugere a festa como forma de <em>sugestionar-se</em> — esconder o pessimismo inevitável.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">2.</span> A Crase na Locução Adverbial</h4>
+          <p>O verbo "VER" é transitivo direto (quem vê, vê algo). Ele NÃO pede preposição "a". A crase em "à porta" decorre da regra das <strong>locuções adverbiais femininas</strong> (como "à noite", "às pressas", "à porta"), não da regência verbal.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">3.</span> O "se" apassivador</h4>
+          <p>Em "que se paga a toda hora", o "se" é <strong>partícula apassivadora</strong> (= a prestação é paga), não pronome reflexivo (não é "ela paga a si mesma").</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-red-950/40 p-4 rounded-xl border border-red-500/40 space-y-2">
+          <h4 class="font-bold text-red-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A autora incentiva o otimismo ("Tem que pensar em alegrias... Vamos dar festas"), mas o texto todo é permeado por um pessimismo posterior sobre as mazelas inevitáveis. Esse foi o gabarito oficial da prova.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas B e D — Incorretas (Pegadinha da Crase)</strong>
+            <p class="text-slate-300 leading-relaxed">Ver é transitivo direto, não pede preposição "a". A crase em "à porta" vem de ser locução adverbial feminina — não da regência verbal. Além disso, a crase não é facultativa ali, é obrigatória.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">Em "que se paga", o "se" é partícula apassivadora (a prestação é paga), não pronome reflexivo.</p>
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-book-open", titulo: "Interpretação Literária", text: "Ler o contraste entre a postura que a autora incentiva e a realidade que ela descreve é a essência da questão." },
+      { icone: "fa-font", titulo: "Crase em Locução Adverbial", text: "'À noite', 'às pressas', 'à porta' — ganham crase pela regra das locuções, não pela regência do verbo." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS015",
+    numero: "Questão 10",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "informatica-inss",
+    materia: "Noções de Informática / Planilhas e Outlook",
+    materiaCor: "cyan",
+    materiaIcone: "fa-computer",
+    categoria: "INSS",
+    titulo: "Planilhas do Excel: O Comportamento Exato da Função SOMASE",
+    tags: ["INSS", "Informática", "Excel", "SOMASE", "Planilhas"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Considere uma planilha elaborada no Microsoft Excel 365, com as seguintes colunas e linhas preenchidas:
+    <br><br>
+    <strong>A1: Atendimento | B1: Quantidade</strong><br>
+    A2: seguro-desemprego | B2: 1<br>
+    A3: auxilio | B3: 2<br>
+    A4: licença-maternidade | B4: 3<br>
+    A5: pensão por morte | B5: 1<br>
+    A6: salário-família | B6: 2<br>
+    A7: auxílio-reclusão | B7: 3
+    <br><br>
+    Se o usuário inserir na célula B8 a fórmula <strong>=SOMASE(A2:A7; "auxilio"; B2:B7)</strong>, assinale a alternativa <strong>CORRETA</strong> sobre o funcionamento do aplicativo:`,
+
+    alternativas: [
+      { letra: "A", texto: "A fórmula retornará um erro de sintaxe, pois o critério 'auxilio' deveria estar sem aspas.", correta: false },
+      { letra: "B", texto: "O resultado será 5, pois o Excel identificará as células A3 ('auxilio') e A7 ('auxílio-reclusão') pela correspondência parcial da palavra e somará 2 + 3.", correta: false },
+      { letra: "C", texto: "A fórmula fará a contagem do número de vezes que a palavra aparece, retornando o valor 2.", correta: false },
+      { letra: "D", texto: "O resultado será 2, pois a busca é exata; o Excel somará apenas o valor em B3, ignorando 'auxílio-reclusão'.", correta: true },
+      { letra: "E", texto: "O resultado será 0, uma vez que a palavra 'auxilio' na fórmula está sem acento gráfico, diferentemente de uma grafia culta esperada pelo corretor do Excel.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Sintaxe do SOMASE</h4>
+          <p>A fórmula <code>=SOMASE(intervalo_busca; "critério"; intervalo_soma)</code> funciona assim:</p>
+          <ul class="list-disc pl-5 space-y-1">
+            <li>O Excel olha a coluna A (A2 a A7).</li>
+            <li>Procura exatamente a string <strong>"auxilio"</strong>.</li>
+            <li>Quando encontra, soma o número correspondente na mesma linha da coluna B.</li>
+          </ul>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Regra da Correspondência Exata</h4>
+          <p>Sem caracteres curingas (asterisco <code>*</code>), a fórmula busca correspondência <strong>exata</strong>. A célula A3 tem "auxilio" (match!). A célula A7 tem "auxílio-reclusão" (texto diferente → ignorado). Resultado: apenas B3 = 2.</p>
+          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
+            <strong class="text-cyan-300">Para busca parcial:</strong> Use <code>=SOMASE(A2:A7; "*auxilio*"; B2:B7)</code> — o asterisco funciona como curinga para qualquer texto antes ou depois.
+          </p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A busca é exata: o Excel encontra "auxilio" apenas na linha 3 e soma o valor 2. "Auxílio-reclusão" (linha 7) é um texto diferente — não incluso na soma.
+          </p>
+        </div>
+        <div class="space-y-2">
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta (a mais perigosa)</strong>
+            <p class="text-slate-300 leading-relaxed">Muitos candidatos marcam 5, achando que o Excel encontra "auxílio-reclusão" por conter a palavra auxílio. Isso só ocorreria com o curinga <code>*</code>.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
+            <p class="text-slate-300 leading-relaxed">O Excel não tem "corretor ortográfico" de fórmulas. A busca por "auxilio" (sem acento) encontra exatamente a célula que contém "auxilio" (sem acento). Resultado é 2, não 0.</p>
+          </div>
+        </div>
+
+        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <ul class="space-y-3 text-slate-300 text-xs">
+            <li><strong class="text-amber-300">Curinga Asterisco:</strong> Sem <code>*</code> = busca exata. Com <code>*auxilio*</code> = busca parcial (encontraria "auxílio-reclusão" também). Essa distinção é cobrada diretamente pelo CEBRASPE.</li>
+          </ul>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-table-cells", titulo: "SOMASE", text: "Condiciona a soma a um critério específico. Sem curinga, a busca é exata." },
+      { icone: "fa-asterisk", titulo: "Curinga Asterisco (*)", text: "Use '*auxilio*' para busca parcial. Sem ele, apenas correspondência exata é considerada." }
+    ],
+    galeria: [],
+    simulador: null,
+    diagramaHtml: null,
+    simuladorType: null
   }
 
 ];
