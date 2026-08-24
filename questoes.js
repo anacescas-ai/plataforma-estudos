@@ -37106,1757 +37106,1181 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     <text x="160" y="58" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#312e81">ancora</text>
   </svg>`,
   simuladorType: null
-},
+}
+,
 
   {
-    id: "qINSS001",
-    numero: "Questão INSS 001",
+    id: "q24091",
+    numero: "Questão 91 · ENEM 2024",
     ano: "2024",
-    caderno: "Concurso INSS 2024",
-    area: "juridica",
-    areaNome: "Direito",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Benefícios",
-    materiaCor: "emerald",
-    materiaIcone: "fa-shield-halved",
-    categoria: "INSS",
-    titulo: "Aposentadoria por Incapacidade Permanente: Requisitos e Carência",
-    tags: ["Direito Previdenciário", "INSS", "Aposentadoria por Invalidez", "Carência", "Benefícios"],
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Impulso, Trabalho e Energia em Colisões",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Crumple Zone: Por Que a Deformação do Carro Absorve a Energia da Colisão",
+    tags: ["Física", "Mecânica", "Energia Cinética", "Trabalho", "Colisões", "Segurança Veicular", "ENEM 2024"],
     alternativaCorreta: "B",
     userNotes: "",
     userCustomImage: null,
 
-    enunciado: `João, segurado empregado do RGPS, sofreu um acidente de trânsito não relacionado ao trabalho e ficou incapacitado de forma permanente para qualquer atividade laboral. Ao requerer a aposentadoria por incapacidade permanente (antiga aposentadoria por invalidez), o INSS indeferiu o benefício sob a alegação de que João não havia cumprido o período de carência exigido pela Lei n.º 8.213/1991.
-    <br><br>
-    Nos termos da legislação previdenciária vigente, qual é o período de carência exigido para a concessão da aposentadoria por incapacidade permanente decorrente de doença ou acidente de natureza não profissional?`,
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Muitas pessoas ainda se espantam com o fato de um passageiro sair ileso de um acidente de carro enquanto o veículo onde estava teve perda total. Essas pessoas talvez considerem, equivocadamente, que os carros mais seguros são os que têm as estruturas mais rígidas — ou seja, estruturas que, durante uma colisão, apresentam menor deformação. Na verdade, o que ocorre é o contrário. Por isso, a partir de 1958, passaram a ser produzidos carros com partes que se deformam facilmente.</p>
+      <p class="text-right text-[11px] text-slate-500">DAY, C. <strong>Crumple Zones</strong>. Disponível em: https://pubs.aip.org. Acesso em: 2 jul. 2024 (adaptado).</p>
+      <p>Assim, além dos cintos de segurança e dos airbags, os carros modernos passaram a contar com o dispositivo de segurança conhecido como <em>crumple zone</em> (região deformável, em inglês): uma zona dianteira do veículo projetada para se amassar de forma controlada durante o impacto contra um muro, enquanto o compartimento dos ocupantes permanece rígido e preservado.</p>
+      <p class="text-right text-[11px] text-slate-500"><strong>Momentum and Car safety</strong>. GCSE Physics Revision. Disponível em: www.shalom-education.com. Acesso em: 5 jul. 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Considerando o carro, seus ocupantes e o muro da figura como um sistema isolado, o <em>crumple zone</em> aumenta a segurança dos passageiros porque, durante uma colisão, a deformação da estrutura do carro</p>
+    `,
 
     alternativas: [
-      { letra: "A", texto: "12 contribuições mensais, sem qualquer exceção.", correta: false },
-      { letra: "B", texto: "12 contribuições mensais, sendo dispensada a carência nos casos de acidente de qualquer natureza ou causa.", correta: true },
-      { letra: "C", texto: "24 contribuições mensais, independentemente da causa da incapacidade.", correta: false },
-      { letra: "D", texto: "36 contribuições mensais, salvo nos casos de acidente de trabalho.", correta: false },
-      { letra: "E", texto: "Carência não é exigida em nenhuma hipótese para este benefício.", correta: false }
+      { letra: "A", texto: "aciona os airbags do veículo.", correta: false },
+      { letra: "B", texto: "absorve a energia cinética do sistema.", correta: true },
+      { letra: "C", texto: "consome a quantidade de movimento do sistema.", correta: false },
+      { letra: "D", texto: "cria uma barreira de proteção para seus ocupantes.", correta: false },
+      { letra: "E", texto: "diminui a velocidade do centro de massa do sistema.", correta: false }
     ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela cobre os fundamentos da aposentadoria por incapacidade permanente exigidos no concurso do INSS.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
-          <p>
-            Prevista no art. 42 da Lei n.º 8.213/1991, a aposentadoria por incapacidade permanente é devida ao segurado que for considerado <strong>incapaz e insusceptível de reabilitação para o exercício de atividade que lhe garanta a subsistência</strong>. Renomeada pela Lei n.º 14.331/2022 (antes: aposentadoria por invalidez).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Período de carência</h4>
-          <p>
-            O art. 25, inciso I, da Lei n.º 8.213/1991 estabelece <strong>12 contribuições mensais</strong> como carência para este benefício.
-          </p>
-          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
-            <strong class="text-emerald-300">Regra essencial:</strong> A carência de 12 contribuições é a regra geral. Nos casos de <strong>acidente de qualquer natureza ou causa</strong> e de <strong>doenças especificadas em lista ministerial</strong>, a carência é <strong>dispensada</strong> (art. 26, II).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Hipóteses de dispensa de carência (art. 26)</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-emerald-300 block mb-1">Acidente de qualquer natureza</strong>
-              Inclui acidente do trabalho, de trânsito, doméstico. Carência totalmente dispensada.
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-emerald-300 block mb-1">Doenças da lista ministerial</strong>
-              Tuberculose ativa, hanseníase, neoplasia maligna, cegueira, cardiopatia grave, Parkinson, entre outras (Portaria MPS/MS n.º 2.998/2001).
-            </div>
-          </div>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Valor do benefício</h4>
-          <p>
-            O benefício corresponde a <strong>100% do salário de benefício</strong>. Em caso de grande invalidez (necessidade de assistência permanente), acréscimo de <strong>25%</strong>, mesmo que ultrapasse o teto do RGPS.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">5.</span> Manutenção e cessação</h4>
-          <p>
-            Mantido enquanto durar a incapacidade, com perícias periódicas do INSS. Cessa quando o segurado se recuperar e retornar ao trabalho.
-          </p>
-        </div>
-      </div>
-    `,
 
     resolucaoHtml: `
       <div class="space-y-4 text-xs">
-
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia em 3 passos
-          </h4>
-          <p class="text-slate-300 leading-relaxed">
-            <strong>Passo 1 — Identifique o benefício.</strong> Aposentadoria por incapacidade permanente → art. 42 da Lei n.º 8.213/1991.
-            <br><br>
-            <strong>Passo 2 — Localize a regra de carência.</strong> Art. 25, I: 12 contribuições mensais (regra geral).
-            <br><br>
-            <strong>Passo 3 — Verifique a dispensa.</strong> Art. 26, II: acidente de qualquer natureza → carência dispensada. Acidente de trânsito se enquadra → dispensa aplicável.
-          </p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa B é a Correta?
           </h4>
           <p class="text-slate-200 leading-relaxed">
-            Carência de <strong>12 contribuições mensais</strong> (regra geral, art. 25, I), dispensada nos casos de <strong>acidente de qualquer natureza</strong> (art. 26, II). Enuncia com precisão a regra e sua exceção principal.
+            Numa colisão, a energia cinética que o carro tinha antes do impacto não desaparece — ela se transforma. Se a estrutura fosse perfeitamente rígida, essa energia seria transferida quase instantaneamente para os ocupantes (choque violento e breve). O <em>crumple zone</em> é projetado para se deformar plasticamente: ao amassar de forma controlada, ele converte parte da energia cinética do sistema em energia de deformação (calor, ruptura de material, deformação permanente da lataria) — energia que, assim, deixa de ser transmitida às pessoas dentro do carro. Quanto mais a estrutura se deforma, mais energia cinética é absorvida por ela em vez de pelo corpo dos ocupantes.
           </p>
         </div>
-
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — incompleta</strong>
-            <p class="text-slate-300 leading-relaxed">Menciona corretamente a carência geral (12 contribuições), mas omite a hipótese de dispensa nos acidentes — incorreta diante do caso concreto.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> os airbags são acionados por sensores de desaceleração brusca — é um dispositivo à parte, que funciona independentemente de a estrutura ter ou não uma zona deformável. A pergunta pede o motivo pelo qual a <em>deformação em si</em> aumenta a segurança, não o funcionamento do airbag.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> pega o nome "quantidade de movimento" e o troca por "energia". Num sistema isolado (sem forças externas), a quantidade de movimento total se <em>conserva</em> — ela não é "consumida" por deformação nenhuma. Quem é dissipada na colisão é a energia cinética, não o momento linear.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> "barreira de proteção" é uma descrição vaga que não usa nenhum conceito físico — não explica o mecanismo. O <em>crumple zone</em> não bloqueia o impacto como um escudo: ele se deforma e, com isso, absorve energia.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> a deformação interna da estrutura do carro (uma força interna ao sistema isolado) não altera a velocidade do centro de massa do sistema — quem determina o movimento do centro de massa de um sistema isolado são só forças externas. A deformação muda como a energia é distribuída dentro do carro, não a trajetória do centro de massa do conjunto.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> sempre que a questão falar em "sistema isolado" e colisão, separe mentalmente duas grandezas que se comportam de formas diferentes: a <strong>quantidade de movimento</strong> (sempre se conserva num sistema isolado) e a <strong>energia cinética</strong> (só se conserva em colisões perfeitamente elásticas — numa colisão real, como a de um carro contra um muro, ela é parcialmente dissipada como deformação, calor e som).
           </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — prazo errado</strong>
-            <p class="text-slate-300 leading-relaxed">24 contribuições não corresponde a nenhuma hipótese do art. 25 para este benefício.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — prazo errado</strong>
-            <p class="text-slate-300 leading-relaxed">36 contribuições é prazo de outros benefícios. Não se aplica à aposentadoria por incapacidade permanente.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — afirmação falsa</strong>
-            <p class="text-slate-300 leading-relaxed">A dispensa não é universal. Só se aplica nas hipóteses taxativas do art. 26 (acidente de qualquer natureza e doenças da lista).</p>
-          </div>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
-          <p class="text-slate-300 leading-relaxed">
-            Memorize: <strong>12 contribuições (regra geral) + dispensa em acidente de qualquer natureza ou doença grave da lista</strong>. Questões do INSS testam exatamente essa distinção.
-          </p>
         </div>
       </div>
     `,
 
     conceitos: [
-      { icone: "fa-shield-halved", titulo: "Carência geral", text: "Art. 25, I — 12 contribuições mensais para aposentadoria por incapacidade permanente." },
-      { icone: "fa-ban", titulo: "Dispensa de carência", text: "Art. 26, II — Acidente de qualquer natureza e doenças da lista ministerial dispensam a carência." },
-      { icone: "fa-percent", titulo: "Valor do benefício", text: "100% do salário de benefício. Acréscimo de 25% em caso de grande invalidez." },
-      { icone: "fa-stethoscope", titulo: "Perícia médica", text: "Realizada pelo INSS para conceder e manter o benefício. Cessa se o segurado se recuperar." }
+      { icone: "fa-arrows-left-right", titulo: "Sistema Isolado", text: "Sem forças externas, a quantidade de movimento total do sistema sempre se conserva — mesmo numa colisão." },
+      { icone: "fa-fire", titulo: "Energia Cinética ≠ Momento", text: "Diferente do momento, a energia cinética pode ser dissipada (viraturas calor, som, deformação) numa colisão inelástica." },
+      { icone: "fa-car-burst", titulo: "Colisão Inelástica", text: "Quando os corpos se deformam permanentemente no choque, parte da energia cinética inicial não retorna como movimento." }
     ],
 
-    galeria: [],
-    simulador: null,
+    galeria: [
+      {
+        titulo: "Para onde vai a energia cinética na colisão",
+        legenda: "A energia cinética que o carro tinha antes do choque não some: sem crumple zone, ela vai quase toda para o compartimento dos ocupantes; com o crumple zone, a maior parte é absorvida pela própria deformação da estrutura.",
+        svg: `
+          <svg viewBox="0 0 460 180" class="w-full h-auto">
+            <text x="115" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Estrutura rígida</text>
+            <rect x="30" y="30" width="60" height="120" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="60" y="95" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">quase toda a</text>
+            <text x="60" y="107" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">Ec vai pros</text>
+            <text x="60" y="119" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">ocupantes</text>
+            <rect x="140" y="140" width="60" height="10" fill="#1e293b" stroke="#475569"/>
+            <text x="170" y="165" text-anchor="middle" fill="#94a3b8" font-size="7">deformação ≈ 0</text>
+
+            <text x="345" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Com crumple zone</text>
+            <rect x="290" y="90" width="60" height="60" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="320" y="115" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Ec restante</text>
+            <text x="320" y="127" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">(pequena)</text>
+            <rect x="290" y="30" width="60" height="55" fill="#422006" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="320" y="53" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Ec absorvida</text>
+            <text x="320" y="65" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">pela deformação</text>
+            <rect x="400" y="120" width="40" height="30" fill="#1e293b" stroke="#475569"/>
+            <text x="420" y="160" text-anchor="middle" fill="#94a3b8" font-size="7">deformação grande</text>
+          </svg>`
+      },
+      {
+        titulo: "Impulso e força: mesmo Δp, tempos diferentes",
+        legenda: "A variação da quantidade de movimento (Δp) é praticamente a mesma nos dois casos — o carro para. Mas o crumple zone estica o tempo de colisão (Δt), e como F = Δp / Δt, uma colisão mais longa gera uma força de pico bem menor sobre os ocupantes.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="40" y1="140" x2="440" y2="140" stroke="#475569" stroke-width="2"/>
+            <line x1="40" y1="140" x2="40" y2="20" stroke="#475569" stroke-width="2"/>
+            <text x="20" y="18" fill="#94a3b8" font-size="8">Força</text>
+            <text x="430" y="155" fill="#94a3b8" font-size="8">tempo</text>
+            <path d="M40,140 L70,30 L100,140" fill="none" stroke="#f87171" stroke-width="2.5"/>
+            <text x="70" y="24" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">rígido: pico alto,</text>
+            <text x="70" y="150" text-anchor="middle" fill="#fca5a5" font-size="7">Δt curto</text>
+            <path d="M150,140 L260,95 L370,140" fill="none" stroke="#34d399" stroke-width="2.5"/>
+            <text x="260" y="88" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">crumple zone: pico baixo, Δt longo</text>
+            <text x="260" y="150" text-anchor="middle" fill="#6ee7b7" font-size="7">(mesma área = mesmo Δp)</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Para resolver essa questão sem se confundir, é preciso separar bem duas ideias que o ENEM adora misturar: quantidade de movimento e energia cinética. Elas não se comportam da mesma forma numa colisão.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> Quantidade de movimento: sempre se conserva num sistema isolado</h4>
+          <p>
+            Quantidade de movimento (ou momento linear) é <code>p = m·v</code>. Se não há forças externas agindo sobre o sistema (é isso que significa "sistema isolado"), a quantidade de movimento total do sistema não muda — ela se conserva, ponto final. Isso vale antes, durante e depois de qualquer colisão, elástica ou não. Por isso a alternativa C, que fala em "consumir" a quantidade de movimento, já nasce errada: dentro de um sistema isolado, nada consome p.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Energia cinética: só se conserva em colisões elásticas (e uma batida de carro não é)</h4>
+          <p>
+            Energia cinética é <code>Ec = ½·m·v²</code>. Diferente da quantidade de movimento, ela só se conserva em colisões perfeitamente elásticas (bolinhas de bilhar, por exemplo, aproximadamente). Numa colisão real de carro — chamada de colisão inelástica —, parte da energia cinética inicial é convertida em outras formas: calor, som, e principalmente <strong>energia de deformação</strong> (o trabalho de dobrar, rasgar e amassar a lataria).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> Por que "absorver energia cinética" é bom para o passageiro</h4>
+          <p>
+            Se a estrutura do carro fosse rígida, ela não teria como "gastar" energia se deformando — então quase toda a energia cinética do impacto teria que ser dissipada em outro lugar, e esse lugar seria o corpo dos ocupantes (que sofreriam a desaceleração violenta quase sozinhos). O <em>crumple zone</em> dá à energia cinética um destino menos perigoso: vira trabalho de deformação da estrutura, uma parte do carro projetada exatamente para "se sacrificar" amassando.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> A ligação com o impulso: por que o tempo de colisão importa</h4>
+          <p>
+            Existe ainda uma segunda forma (complementar) de explicar o mesmo benefício: pelo teorema impulso-quantidade de movimento, <code>F·Δt = Δp</code>. Como Δp (a variação de quantidade de movimento do carro, de v até 0) é praticamente a mesma com ou sem crumple zone, esticar o tempo de colisão Δt — o que a deformação controlada faz, ao amassar aos poucos em vez de parar de uma vez — reduz diretamente a força de pico F sentida pelos ocupantes. As duas explicações (absorção de energia e aumento do tempo de colisão) descrevem o mesmo fenômeno físico por ângulos diferentes.
+          </p>
+        </div>
+
+      </div>
+    `,
+
     diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-shield-halved"></i> Carência — Aposentadoria por Incapacidade Permanente</span>
-        <svg viewBox="0 0 460 120" class="w-full h-28 mx-auto">
-          <rect x="10" y="10" width="200" height="50" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
-          <text x="110" y="32" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#6ee7b7" font-weight="bold">REGRA GERAL</text>
-          <text x="110" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#a7f3d0">12 contribuições mensais</text>
-          <rect x="250" y="10" width="200" height="50" rx="8" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
-          <text x="350" y="32" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#7dd3fc" font-weight="bold">DISPENSA (art. 26, II)</text>
-          <text x="350" y="50" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#bae6fd">Acidente de qualquer natureza</text>
-          <text x="230" y="90" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#94a3b8">ou doença grave da lista ministerial</text>
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-car-burst"></i> Balanço de Energia na Colisão</span>
+        <svg viewBox="0 0 460 140" class="w-full h-32 mx-auto">
+          <rect x="20" y="40" width="140" height="60" rx="6" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+          <text x="90" y="65" text-anchor="middle" fill="#fde68a" font-size="9" font-weight="bold">Energia cinética</text>
+          <text x="90" y="80" text-anchor="middle" fill="#fde68a" font-size="9" font-weight="bold">inicial (Ec)</text>
+          <line x1="160" y1="70" x2="200" y2="70" stroke="#64748b" stroke-width="2" marker-end="url(#pq24091)"/>
+          <rect x="204" y="20" width="130" height="45" rx="6" fill="#052e16" stroke="#34d399" stroke-width="2"/>
+          <text x="269" y="40" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Deformação do</text>
+          <text x="269" y="52" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">crumple zone</text>
+          <rect x="204" y="75" width="130" height="45" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="269" y="95" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">Força residual</text>
+          <text x="269" y="107" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">nos ocupantes</text>
+          <line x1="338" y1="42" x2="356" y2="42" stroke="#64748b" stroke-width="2"/>
+          <line x1="338" y1="97" x2="356" y2="97" stroke="#64748b" stroke-width="2"/>
+          <text x="410" y="42" text-anchor="middle" fill="#94a3b8" font-size="8">energia "gasta"</text>
+          <text x="410" y="97" text-anchor="middle" fill="#94a3b8" font-size="8">energia sentida</text>
+          <defs>
+            <marker id="pq24091" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
         </svg>
       </div>
     `,
-    simuladorType: null
-  },
 
-  {
-    id: "qINSS002",
-    numero: "Questão INSS 002",
-    ano: "2024",
-    caderno: "Concurso INSS 2024",
-    area: "juridica",
-    areaNome: "Direito",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Segurados e Dependentes",
-    materiaCor: "emerald",
-    materiaIcone: "fa-shield-halved",
-    categoria: "INSS",
-    titulo: "Segurados Obrigatórios do RGPS: Classificação do Trabalhador Autônomo",
-    tags: ["Direito Previdenciário", "INSS", "Segurado Obrigatório", "Contribuinte Individual", "RGPS"],
-    alternativaCorreta: "C",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Marcos é médico que exerce sua profissão de forma autônoma, prestando serviços a diferentes clínicas sem vínculo empregatício. Ele não é empresário individual nem sócio de empresa. Considerando as disposições da Lei n.º 8.213/1991 e do Regulamento da Previdência Social (Decreto n.º 3.048/1999), Marcos é classificado como segurado do RGPS na categoria de:`,
-
-    alternativas: [
-      { letra: "A", texto: "Segurado empregado, pois presta serviços a empresas de forma habitual.", correta: false },
-      { letra: "B", texto: "Segurado trabalhador avulso, pois não possui vínculo empregatício permanente.", correta: false },
-      { letra: "C", texto: "Segurado contribuinte individual, por exercer atividade remunerada por conta própria sem relação de emprego.", correta: true },
-      { letra: "D", texto: "Segurado especial, pois exerce atividade profissional de forma independente.", correta: false },
-      { letra: "E", texto: "Segurado facultativo, pois pode optar por contribuir ou não para o RGPS.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela cobre as categorias de segurados obrigatórios e facultativos do RGPS cobradas no concurso do INSS.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Segurados obrigatórios — visão geral</h4>
-          <p>
-            O art. 11 da Lei n.º 8.213/1991 lista os segurados obrigatórios do RGPS. São compulsoriamente filiados por exercerem atividade remunerada lícita. Dividem-se em cinco categorias:
-          </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">I — Empregado</strong>
-              Subordinação, pessoalidade, onerosidade e habitualidade. Vínculo celetista ou estatutário.
+    simulador: {
+      titulo: "Laboratório: rigidez da estrutura x força sentida pelos ocupantes",
+      descricao: "Mexa no tempo de colisão (quanto o crumple zone se deforma) e veja como a força de pico transmitida aos ocupantes muda, mesmo com a mesma variação de velocidade.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Massa do carro + ocupantes</span><span class="text-purple-300 font-bold" data-out="massa">1200 kg</span>
+              </label>
+              <input type="range" data-sim="massa" min="800" max="2000" value="1200" step="50" class="w-full accent-purple-500">
             </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">II — Empregado doméstico</strong>
-              Serviços de natureza contínua no âmbito residencial do empregador, sem fins lucrativos.
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Velocidade no instante do impacto</span><span class="text-purple-300 font-bold" data-out="veloc">15 m/s</span>
+              </label>
+              <input type="range" data-sim="veloc" min="5" max="30" value="15" step="1" class="w-full accent-purple-500">
             </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">III — Contribuinte individual</strong>
-              Trabalhador por conta própria, profissional liberal, sem vínculo empregatício.
+            <div class="pt-2 border-t border-slate-800">
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span class="text-violet-300">Tempo de colisão (deformação do crumple zone)</span><span class="text-violet-300 font-bold" data-out="tempo">100 ms</span>
+              </label>
+              <input type="range" data-sim="tempo" min="10" max="250" value="100" step="10" class="w-full accent-violet-500">
+              <p class="text-[10px] text-slate-500 mt-1">Estrutura rígida → tempo curto. Crumple zone deformando bastante → tempo longo.</p>
             </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">IV — Trabalhador avulso</strong>
-              Sem vínculo empregatício, com intermediação obrigatória de sindicato ou OGMO.
+          </div>
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <div class="flex justify-between text-[11px] text-slate-400 mb-1"><span>Variação de quantidade de movimento (Δp)</span><span data-out="deltap" class="font-mono">—</span></div>
+              <div class="h-2 rounded-full bg-slate-800 overflow-hidden"><div data-bar="deltap" class="h-full bg-slate-500" style="width:0%"></div></div>
             </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">V — Segurado especial</strong>
-              Produtor rural em economia familiar, pescador artesanal e seus familiares.
+            <div>
+              <div class="flex justify-between text-[11px] text-slate-400 mb-1"><span>Força de pico sobre os ocupantes (F = Δp/Δt)</span><span data-out="forca" class="font-mono">—</span></div>
+              <div class="h-2 rounded-full bg-slate-800 overflow-hidden"><div data-bar="forca" class="h-full bg-rose-500" style="width:0%"></div></div>
+            </div>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+              Ajuste o tempo de colisão para ver a força mudar.
             </div>
           </div>
         </div>
+      `,
+      init: function (raiz) {
+        var campos = {
+          massa: raiz.querySelector('[data-sim="massa"]'),
+          veloc: raiz.querySelector('[data-sim="veloc"]'),
+          tempo: raiz.querySelector('[data-sim="tempo"]')
+        };
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var barra = function (nome) { return raiz.querySelector('[data-bar="' + nome + '"]'); };
+
+        function calcular() {
+          var m = parseFloat(campos.massa.value);
+          var v = parseFloat(campos.veloc.value);
+          var t = parseFloat(campos.tempo.value) / 1000;
+          var dp = m * v;
+          var F = dp / t;
+          return { m: m, v: v, t: campos.tempo.value, dp: dp, F: F };
+        }
+
+        function atualizar() {
+          var d = calcular();
+          saida('massa').textContent = d.m + ' kg';
+          saida('veloc').textContent = d.v + ' m/s';
+          saida('tempo').textContent = d.t + ' ms';
+          saida('deltap').textContent = Math.round(d.dp).toLocaleString('pt-BR') + ' kg·m/s';
+          saida('forca').textContent = (d.F / 1000).toFixed(1).replace('.', ',') + ' kN';
+
+          barra('deltap').style.width = Math.min(100, d.dp / 60000 * 100) + '%';
+          barra('forca').style.width = Math.min(100, d.F / 250000 * 100) + '%';
+
+          var v = saida('veredito');
+          if (d.F > 120000) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.textContent = 'Tempo de colisão curto → força de pico altíssima sobre os ocupantes. É o que acontece numa estrutura rígida, sem crumple zone.';
+          } else if (d.F > 50000) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.textContent = 'Força intermediária: o crumple zone já está deformando e esticando a colisão, mas ainda dá pra estender mais o tempo.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.textContent = 'Tempo de colisão longo → mesma variação de quantidade de movimento (Δp não muda), mas força de pico bem menor. Isso é o crumple zone absorvendo energia cinética em vez de transmiti-la aos ocupantes.';
+          }
+        }
+
+        campos.massa.addEventListener('input', atualizar);
+        campos.veloc.addEventListener('input', atualizar);
+        campos.tempo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
 
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Contribuinte individual — detalhamento</h4>
-          <ul class="list-disc list-inside space-y-1 text-xs text-slate-300">
-            <li>Pessoa física que exerce, por conta própria, atividade econômica de natureza urbana.</li>
-            <li>Profissional liberal (médico, advogado, engenheiro etc.) que presta serviços de forma autônoma.</li>
-            <li>Empresário individual e sócio-gerente de empresa.</li>
-            <li>Trabalhador que presta serviços a empresas sem vínculo empregatício (RPA).</li>
-          </ul>
-          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
-            <strong class="text-emerald-300">Ponto-chave:</strong> O que define o contribuinte individual é a <strong>ausência de subordinação jurídica e de vínculo empregatício</strong> combinada com atividade remunerada.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Segurado facultativo — distinção importante</h4>
-          <p>
-            O facultativo (art. 13) é a pessoa maior de 16 anos que <strong>não exerce atividade remunerada</strong> que a obrigue a filiar-se. Marcos exerce atividade remunerada — logo é <strong>obrigatoriamente filiado</strong> como contribuinte individual, sem opção de não contribuir.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
-          </h4>
-          <p class="text-slate-300 leading-relaxed">
-            <strong>Passo 1:</strong> Características: médico autônomo, sem vínculo empregatício, sem intermediação sindical, atividade urbana remunerada.
-            <br><br>
-            <strong>Passo 2 — Elimine:</strong> Empregado (exige subordinação) ✗ | Avulso (exige sindicato/OGMO) ✗ | Especial (rural/pesca) ✗ | Facultativo (sem atividade remunerada obrigatória) ✗.
-            <br><br>
-            <strong>Passo 3:</strong> Contribuinte individual = atividade remunerada sem vínculo → art. 11, V ✓
-          </p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Marcos é <strong>contribuinte individual</strong>: exerce medicina por conta própria, sem subordinação e sem vínculo empregatício — art. 11, V, da Lei n.º 8.213/1991.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — empregado</strong>
-            <p class="text-slate-300 leading-relaxed">Empregado exige subordinação jurídica. Marcos não tem vínculo empregatício com as clínicas.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — trabalhador avulso</strong>
-            <p class="text-slate-300 leading-relaxed">Avulso exige intermediação obrigatória de sindicato ou OGMO, típico de portuários. Não se aplica a profissionais liberais.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — segurado especial</strong>
-            <p class="text-slate-300 leading-relaxed">Segurado especial é produtor rural em economia familiar, pescador artesanal. Não abrange profissionais liberais urbanos.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — segurado facultativo</strong>
-            <p class="text-slate-300 leading-relaxed">O facultativo não exerce atividade remunerada obrigatória. Marcos, como autônomo remunerado, é filiado obrigatoriamente — não pode "optar" por não contribuir.</p>
-          </div>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
-          <p class="text-slate-300 leading-relaxed">
-            Fluxo para classificar: subordinação? → empregado. Sindicato/OGMO? → avulso. Rural/pesca? → especial. Sem atividade remunerada? → facultativo. Remunerado sem as anteriores? → <strong>contribuinte individual</strong>.
-          </p>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-user-tie", titulo: "Contribuinte Individual", text: "Art. 11, V — trabalhador por conta própria ou profissional liberal sem vínculo empregatício." },
-      { icone: "fa-id-card", titulo: "Segurado Empregado", text: "Art. 11, I — trabalho subordinado, pessoal e oneroso com vínculo celetista ou estatutário." },
-      { icone: "fa-anchor", titulo: "Trabalhador Avulso", text: "Art. 11, VI — intermediação obrigatória de sindicato ou OGMO, típico de trabalhadores portuários." },
-      { icone: "fa-leaf", titulo: "Segurado Especial", text: "Art. 11, VII — produtor rural em economia familiar, pescador artesanal, indígena rural." }
-    ],
-
-    galeria: [],
-    simulador: null,
-    diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-users"></i> Categorias de Segurados do RGPS</span>
-        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
-          <rect x="5" y="10" width="82" height="45" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
-          <text x="46" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6ee7b7" font-weight="bold">Empregado</text>
-          <text x="46" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#a7f3d0">subordinação</text>
-          <rect x="93" y="10" width="82" height="45" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
-          <text x="134" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7dd3fc" font-weight="bold">Doméstico</text>
-          <text x="134" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#bae6fd">âmbito residencial</text>
-          <rect x="181" y="10" width="98" height="45" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="2"/>
-          <text x="230" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fdba74" font-weight="bold">Contrib. Individual</text>
-          <text x="230" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#fed7aa">conta própria ← aqui!</text>
-          <rect x="285" y="10" width="82" height="45" rx="6" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
-          <text x="326" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a5b4fc" font-weight="bold">Avulso</text>
-          <text x="326" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#c7d2fe">via sindicato/OGMO</text>
-          <rect x="373" y="10" width="82" height="45" rx="6" fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
-          <text x="414" y="30" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#86efac" font-weight="bold">Especial</text>
-          <text x="414" y="47" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#bbf7d0">rural/pesca</text>
-          <rect x="140" y="80" width="180" height="38" rx="6" fill="#3b0764" stroke="#a855f7" stroke-width="1.5"/>
-          <text x="230" y="100" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#d8b4fe" font-weight="bold">Facultativo (art. 13)</text>
-          <text x="230" y="114" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#e9d5ff">sem atividade remunerada obrigatória</text>
-        </svg>
-      </div>
-    `,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS003",
-    numero: "Questão INSS 003",
-    ano: "2024",
-    caderno: "Concurso INSS 2024",
-    area: "juridica",
-    areaNome: "Direito",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Benefícios por Incapacidade",
-    materiaCor: "emerald",
-    materiaIcone: "fa-shield-halved",
-    categoria: "INSS",
-    titulo: "Auxílio por Incapacidade Temporária: Início do Pagamento e Regra dos 15 Dias",
-    tags: ["Direito Previdenciário", "INSS", "Auxílio-Doença", "Incapacidade Temporária", "Carência", "Período de Espera"],
-    alternativaCorreta: "D",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Ana é empregada celetista de uma empresa privada e ficou doente, sendo afastada de suas atividades. Após perícia médica do INSS, foi constatada incapacidade temporária para o trabalho. Considerando a Lei n.º 8.213/1991 e suas alterações, analise as assertivas abaixo sobre o auxílio por incapacidade temporária:
-    <br><br>
-    I. A empresa é obrigada a pagar os primeiros 15 dias de afastamento ao empregado, sendo o INSS responsável a partir do 16.º dia.
-    <br>
-    II. A carência para o auxílio por incapacidade temporária é de 12 contribuições mensais, dispensada em caso de acidente de qualquer natureza.
-    <br>
-    III. O benefício corresponde a 80% do salário de benefício do segurado.
-    <br><br>
-    Estão CORRETAS:`,
-
-    alternativas: [
-      { letra: "A", texto: "Apenas I.", correta: false },
-      { letra: "B", texto: "Apenas II.", correta: false },
-      { letra: "C", texto: "Apenas I e III.", correta: false },
-      { letra: "D", texto: "Apenas I e II.", correta: true },
-      { letra: "E", texto: "I, II e III.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela cobre as regras do auxílio por incapacidade temporária (antigo auxílio-doença), amplamente cobradas no concurso do INSS.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
-          <p>
-            Previsto no art. 59 da Lei n.º 8.213/1991, é devido ao segurado que ficar <strong>incapacitado para o seu trabalho habitual por mais de 15 dias consecutivos</strong>. Antigo auxílio-doença, renomeado pela Lei n.º 14.441/2022.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> A regra dos 15 dias — responsabilidade do empregador</h4>
-          <p>
-            Para o <strong>segurado empregado</strong> (celetista), os primeiros <strong>15 dias consecutivos</strong> são pagos pelo <strong>empregador</strong> (art. 60, §3.º, Lei n.º 8.213/1991 c/c art. 476 CLT). A partir do <strong>16.º dia</strong>, o INSS assume.
-          </p>
-          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
-            <strong class="text-emerald-300">Atenção:</strong> Regra dos 15 dias: só para empregado. Para contribuinte individual e avulso, o INSS paga desde o 1.º dia (cumprida a carência).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Carência</h4>
-          <p>
-            <strong>12 contribuições mensais</strong> (art. 25, I). Dispensada em acidente de qualquer natureza ou doença grave da lista ministerial (art. 26, II).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Valor do benefício</h4>
-          <p>
-            <strong>91% do salário de benefício</strong> (EC n.º 103/2019 e Lei n.º 13.846/2019). A assertiva III erra ao indicar 80% — percentual incorreto para testar o candidato.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Análise assertiva por assertiva
-          </h4>
-          <p class="text-slate-300 leading-relaxed">Questões de múltipla verificação: analise cada assertiva isoladamente antes de marcar a alternativa.</p>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-circle-check"></i> Assertiva I — CORRETA</strong>
-          <p class="text-slate-300 leading-relaxed">Art. 60, §3.º: empregador paga os 15 primeiros dias; INSS paga a partir do 16.º dia.</p>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-circle-check"></i> Assertiva II — CORRETA</strong>
-          <p class="text-slate-300 leading-relaxed">Art. 25, I: carência de 12 contribuições. Art. 26, II: dispensa em acidente de qualquer natureza.</p>
-        </div>
-
-        <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-          <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Assertiva III — INCORRETA</strong>
-          <p class="text-slate-300 leading-relaxed">O benefício corresponde a <strong>91% do salário de benefício</strong> (não 80%). EC n.º 103/2019 e Lei n.º 13.846/2019 fixaram 91%.</p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA (apenas I e II)
-          </h4>
-          <p class="text-slate-200 leading-relaxed">Assertivas I e II corretas. Assertiva III incorreta — percentual real é 91%, não 80%.</p>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
-          <p class="text-slate-300 leading-relaxed">
-            Três pilares: <strong>(1) 15 dias pelo empregador + 16.º dia pelo INSS</strong>; <strong>(2) carência 12 meses (dispensada em acidentes)</strong>; <strong>(3) valor = 91% do salário de benefício</strong>.
-          </p>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-calendar-days", titulo: "Regra dos 15 dias", text: "Empregador paga os 15 primeiros dias; INSS paga a partir do 16.º dia de afastamento." },
-      { icone: "fa-calendar-check", titulo: "Carência", text: "12 contribuições mensais, dispensada em acidente de qualquer natureza ou doença grave da lista." },
-      { icone: "fa-percent", titulo: "Valor do benefício", text: "91% do salário de benefício (regra pós EC 103/2019 e Lei 13.846/2019)." },
-      { icone: "fa-user-doctor", titulo: "Perícia médica", text: "Realizada pelo INSS para reconhecimento, manutenção e cessação do benefício." }
-    ],
-
-    galeria: [],
-    simulador: null,
-    diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-calendar-days"></i> Linha do Tempo — Auxílio por Incapacidade Temporária</span>
-        <svg viewBox="0 0 460 90" class="w-full h-24 mx-auto">
-          <line x1="20" y1="45" x2="440" y2="45" stroke="#334155" stroke-width="2"/>
-          <rect x="20" y="25" width="140" height="40" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
-          <text x="90" y="43" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7dd3fc" font-weight="bold">1.º ao 15.º dia</text>
-          <text x="90" y="57" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#bae6fd">Paga o EMPREGADOR</text>
-          <rect x="175" y="25" width="265" height="40" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
-          <text x="307" y="43" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6ee7b7" font-weight="bold">16.º dia em diante</text>
-          <text x="307" y="57" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a7f3d0">Paga o INSS — 91% do salário de benefício</text>
-        </svg>
-      </div>
-    `,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS004",
-    numero: "Questão INSS 004",
-    ano: "2024",
-    caderno: "Concurso INSS 2024",
-    area: "juridica",
-    areaNome: "Direito",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Salário-Maternidade",
-    materiaCor: "emerald",
-    materiaIcone: "fa-shield-halved",
-    categoria: "INSS",
-    titulo: "Salário-Maternidade: Duração, Carência e Seguradas Abrangidas",
-    tags: ["Direito Previdenciário", "INSS", "Salário-Maternidade", "Carência", "Segurada Especial", "Benefícios"],
-    alternativaCorreta: "A",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Sobre o salário-maternidade previsto na Lei n.º 8.213/1991, assinale a alternativa CORRETA:`,
-
-    alternativas: [
-      { letra: "A", texto: "A duração do salário-maternidade é de 120 dias para a segurada empregada, podendo ser prorrogado por mais 60 dias no Programa Empresa Cidadã.", correta: true },
-      { letra: "B", texto: "A segurada contribuinte individual precisa cumprir carência de 12 contribuições mensais para ter direito ao salário-maternidade.", correta: false },
-      { letra: "C", texto: "A segurada especial não tem direito ao salário-maternidade por não contribuir mensalmente para o RGPS.", correta: false },
-      { letra: "D", texto: "O salário-maternidade da segurada empregada é pago diretamente pelo INSS em todas as hipóteses.", correta: false },
-      { letra: "E", texto: "A adoção de criança com mais de 12 anos não gera direito ao salário-maternidade para a segurada.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela cobre todas as regras do salário-maternidade cobradas no concurso do INSS.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Conceito e base legal</h4>
-          <p>
-            Benefício previdenciário pago às seguradas por ocasião do parto, adoção ou guarda judicial (art. 71 a 73 da Lei n.º 8.213/1991). Também devido ao segurado homem adotante solteiro (art. 71-B).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Duração</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">Empregada / doméstica</strong>
-              120 dias (art. 71). No <strong>Programa Empresa Cidadã</strong> (Lei n.º 11.770/2008): prorrogado por mais 60 dias = <strong>180 dias no total</strong>.
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">Adoção / guarda judicial</strong>
-              120 dias, <strong>independentemente da idade da criança</strong> (Lei n.º 12.873/2013 removeu faixas etárias).
-            </div>
-          </div>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Carência por categoria</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-slate-300 block mb-1">Empregada e avulsa</strong>
-              Sem carência (art. 26, VI) — imediato.
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-slate-300 block mb-1">Contribuinte individual e facultativa</strong>
-              <strong>10 contribuições mensais</strong> (art. 25, III) — não confunda com 12!
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-slate-300 block mb-1">Segurada especial</strong>
-              <strong>10 meses de atividade rural</strong> anteriores ao parto. Tem direito ao benefício.
-            </div>
-          </div>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Quem paga</h4>
-          <p>
-            Para a <strong>empregada celetista</strong>: pago pela <strong>empresa</strong>, que depois compensa nas contribuições ao INSS (art. 72). O INSS paga diretamente para as demais categorias ou quando a empresa encerrou atividades.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
-          </h4>
-          <p class="text-slate-300 leading-relaxed">Questão que testa múltiplas regras. Analise cada alternativa: duração, carência por categoria, quem paga e adoção.</p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            120 dias (art. 71) + prorrogação de 60 dias no Programa Empresa Cidadã (Lei n.º 11.770/2008) = 180 dias. Assertiva correta e completa.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">Carência da contribuinte individual é de <strong>10 contribuições</strong> (art. 25, III), não 12. Pegadinha clássica.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">A segurada especial <strong>tem direito</strong> ao benefício, comprovando 10 meses de atividade rural.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">Para empregada celetista, quem paga é o <strong>empregador</strong>, que depois compensa nas contribuições ao INSS.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">Após a Lei n.º 12.873/2013, o benefício é devido independentemente da idade da criança adotada. Regra com faixas etárias foi abolida.</p>
-          </div>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
-          <p class="text-slate-300 leading-relaxed">
-            Contribuinte individual: <strong>10 meses</strong> (não 12) para salário-maternidade. Segurada especial: <strong>tem</strong> o benefício (10 meses de atividade rural). Adoção: <strong>qualquer idade</strong> da criança.
-          </p>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-baby", titulo: "Duração — empregada", text: "120 dias (art. 71). Prorrogável por 60 dias no Programa Empresa Cidadã = 180 dias." },
-      { icone: "fa-calendar-check", titulo: "Carência — contrib. individual", text: "10 contribuições mensais (art. 25, III) — atenção: não são 12!" },
-      { icone: "fa-leaf", titulo: "Segurada especial", text: "Tem direito ao benefício com 10 meses de atividade rural comprovada." },
-      { icone: "fa-building", titulo: "Quem paga — empregada", text: "A empresa paga e depois compensa nas contribuições ao INSS. INSS paga diretamente nas demais categorias." }
-    ],
-
-    galeria: [],
-    simulador: null,
-    diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-baby"></i> Salário-Maternidade — Carência por Categoria</span>
-        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
-          <rect x="5" y="15" width="130" height="50" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="1.5"/>
-          <text x="70" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#7dd3fc" font-weight="bold">Empregada / Avulsa</text>
-          <text x="70" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#bae6fd">Sem carência</text>
-          <rect x="145" y="15" width="160" height="50" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="1.5"/>
-          <text x="225" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fdba74" font-weight="bold">Contrib. Individual / Facultativa</text>
-          <text x="225" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#fed7aa">10 contribuições mensais</text>
-          <rect x="315" y="15" width="140" height="50" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.5"/>
-          <text x="385" y="35" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#6ee7b7" font-weight="bold">Segurada Especial</text>
-          <text x="385" y="52" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#a7f3d0">10 meses atividade rural</text>
-        </svg>
-      </div>
-    `,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS005",
-    numero: "Questão INSS 005",
-    ano: "2024",
-    caderno: "Concurso INSS 2024",
-    area: "juridica",
-    areaNome: "Direito",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Pensão por Morte",
-    materiaCor: "emerald",
-    materiaIcone: "fa-shield-halved",
-    categoria: "INSS",
-    titulo: "Pensão por Morte: Classes de Dependentes, Habilitação e Valor do Benefício",
-    tags: ["Direito Previdenciário", "INSS", "Pensão por Morte", "Dependentes", "Benefícios", "Reforma da Previdência"],
-    alternativaCorreta: "E",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Carlos, segurado do RGPS, faleceu deixando cônjuge, dois filhos menores de 21 anos e um irmão. Considerando as regras da Lei n.º 8.213/1991 com as alterações promovidas pela Emenda Constitucional n.º 103/2019 e pela Lei n.º 13.135/2015, assinale a alternativa CORRETA sobre a pensão por morte:`,
-
-    alternativas: [
-      { letra: "A", texto: "O irmão de Carlos concorre com o cônjuge e os filhos para o recebimento da pensão por morte.", correta: false },
-      { letra: "B", texto: "O cônjuge de Carlos receberá a pensão por morte vitaliciamente, independentemente do tempo de casamento.", correta: false },
-      { letra: "C", texto: "O valor da pensão por morte corresponde a 100% do salário de benefício que o segurado recebia ou a que teria direito.", correta: false },
-      { letra: "D", texto: "Os filhos de Carlos têm direito à pensão por morte até completarem 25 anos, se forem estudantes.", correta: false },
-      { letra: "E", texto: "O cônjuge e os filhos pertencem à primeira classe de dependentes, e a existência de dependentes de classe anterior exclui o direito dos de classe posterior.", correta: true }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela cobre as regras da pensão por morte após a Reforma da Previdência (EC 103/2019) — tema central no concurso do INSS.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Classes de dependentes (art. 16 da Lei n.º 8.213/1991)</h4>
-          <div class="space-y-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30">
-              <strong class="text-emerald-300 block mb-1">Classe I — Presunção absoluta de dependência</strong>
-              <ul class="list-disc list-inside text-slate-300 space-y-1">
-                <li>Cônjuge ou companheiro(a)</li>
-                <li>Filhos não emancipados, menores de 21 anos, ou inválidos, ou com deficiência intelectual/mental ou grave</li>
-                <li>Equiparados: enteado e menor tutelado (dependência econômica comprovada)</li>
-              </ul>
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-slate-300 block mb-1">Classe II</strong> Pais do segurado (dependência econômica comprovada).
-            </div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800">
-              <strong class="text-slate-300 block mb-1">Classe III</strong> Irmão não emancipado, menor de 21 anos, ou inválido, ou com deficiência (dependência econômica comprovada).
-            </div>
-          </div>
-          <p class="bg-emerald-950/30 border border-emerald-500/30 rounded-lg p-3 text-xs">
-            <strong class="text-emerald-300">Regra fundamental (art. 16, §1.º):</strong> Classe anterior <strong>exclui</strong> classe posterior. O irmão de Carlos (Classe III) não recebe nada enquanto houver cônjuge e filhos (Classe I).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Duração da pensão para o cônjuge — pós EC 103/2019</h4>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">Menos de 22 anos</strong> → 3 anos</div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">22 a 27 anos</strong> → 6 anos</div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">28 a 30 anos</strong> → 10 anos</div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">31 a 41 anos</strong> → 15 anos</div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-slate-800"><strong class="text-slate-300">42 a 44 anos</strong> → 20 anos</div>
-            <div class="p-3 bg-slate-950 rounded-lg border border-emerald-500/30"><strong class="text-emerald-300">45 anos ou mais</strong> → Vitalícia</div>
-          </div>
-          <p class="text-xs text-slate-400">Exige ainda: casamento/união estável com duração mínima de 2 anos na data do óbito.</p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Valor da pensão — pós EC 103/2019</h4>
-          <p>
-            <strong>50% (cota familiar)</strong> + <strong>10% por dependente</strong>, até o máximo de <strong>100%</strong>.
-          </p>
-          <p class="bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs">
-            <strong>Caso de Carlos:</strong> cônjuge + 2 filhos (3 dependentes) → 50% + 10% + 10% + 10% = <strong>80%</strong> do valor da aposentadoria.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Duração para filhos</h4>
-          <p>
-            Até <strong>21 anos</strong> (art. 16, I). Sem extensão até 25 anos para estudantes no RGPS — essa regra existe em alguns RPPS, mas não na Lei n.º 8.213/1991.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de resolução
-          </h4>
-          <p class="text-slate-300 leading-relaxed">Questão testa: (1) classes de dependentes e exclusão; (2) duração da pensão do cônjuge pós-reforma; (3) valor pós-EC 103/2019; (4) duração para filhos.</p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa E — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Cônjuge e filhos são <strong>Classe I</strong> (art. 16, I). A existência de Classe I <strong>exclui</strong> as classes posteriores (art. 16, §1.º). O irmão de Carlos (Classe III) não recebe nada.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">O irmão (Classe III) é excluído pela existência de cônjuge e filhos (Classe I) — art. 16, §1.º.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">Pós-reforma, a pensão do cônjuge <strong>não é mais vitalícia em todos os casos</strong>. Depende da idade na data do óbito (3 a vitalícia) e exige mínimo de 2 anos de casamento.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">Pós EC 103/2019, o valor é <strong>50% + 10% por dependente</strong> (máximo 100%). No caso: 3 dependentes → 80%, não 100%.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — INCORRETA</strong>
-            <p class="text-slate-300 leading-relaxed">No RGPS, filhos têm direito até <strong>21 anos</strong>. Sem prorrogação até 25 anos para estudantes. Pegadinha clássica — confunde com RPPS estaduais.</p>
-          </div>
-        </div>
-
-        <div class="p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30">
-          <strong class="text-emerald-400 block mb-1"><i class="fa-solid fa-key"></i> Dica de prova</strong>
-          <p class="text-slate-300 leading-relaxed">
-            Três pontos essenciais: <strong>(1) exclusão entre classes</strong>; <strong>(2) pensão do cônjuge não é mais vitalícia automaticamente</strong> (depende da idade); <strong>(3) valor = 50% + 10% por dependente, máximo 100%</strong>. Filhos: até 21 anos, sem extensão para estudantes no RGPS.
-          </p>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-users", titulo: "Classes de Dependentes", text: "Classe I: cônjuge + filhos (presunção). Classe II: pais. Classe III: irmãos. Anterior exclui posterior." },
-      { icone: "fa-hourglass-half", titulo: "Duração — cônjuge", text: "De 3 anos (menos de 22 anos) a vitalícia (45 anos ou mais) na data do óbito. Mínimo 2 anos de casamento." },
-      { icone: "fa-percent", titulo: "Valor pós-EC 103/2019", text: "50% (cota familiar) + 10% por dependente, até o máximo de 100% do benefício." },
-      { icone: "fa-child", titulo: "Filhos — duração", text: "Até 21 anos (RGPS). Sem prorrogação até 25 anos para estudantes na Lei 8.213/1991." }
-    ],
-
-    galeria: [],
-    simulador: null,
-    diagramaHtml: `
-      <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 text-center space-y-2">
-        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-users"></i> Pensão por Morte — Cálculo do Valor (pós EC 103/2019)</span>
-        <svg viewBox="0 0 460 100" class="w-full h-24 mx-auto">
-          <rect x="10" y="15" width="130" height="50" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="2"/>
-          <text x="75" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#6ee7b7" font-weight="bold">Cota Familiar</text>
-          <text x="75" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#a7f3d0" font-weight="bold">50%</text>
-          <text x="155" y="45" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#64748b">+</text>
-          <rect x="170" y="15" width="130" height="50" rx="6" fill="#1e3a5f" stroke="#38bdf8" stroke-width="2"/>
-          <text x="235" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#7dd3fc" font-weight="bold">Por Dependente</text>
-          <text x="235" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#bae6fd" font-weight="bold">10% cada</text>
-          <text x="315" y="45" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#64748b">=</text>
-          <rect x="330" y="15" width="120" height="50" rx="6" fill="#451a03" stroke="#fb923c" stroke-width="2"/>
-          <text x="390" y="35" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#fdba74" font-weight="bold">Teto máximo</text>
-          <text x="390" y="53" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#fed7aa" font-weight="bold">100%</text>
-        </svg>
-      </div>
-    `,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS006",
-    numero: "Questão 1",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Segurados do RGPS",
-    materiaCor: "emerald",
-    materiaIcone: "fa-piggy-bank",
-    categoria: "INSS",
-    titulo: "Enquadramento de Segurados: Facultativo, Especial e Servidor Público",
-    tags: ["INSS", "Segurados", "Facultativo", "Especial", "Contribuinte Individual", "Idade Mínima"],
-    alternativaCorreta: "D",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `O correto enquadramento dos segurados do Regime Geral de Previdência Social (RGPS) é um dos pilares para a arrecadação e concessão de benefícios. Analisando as regras de filiação e inscrição no RGPS, assinale a alternativa <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "O pescador artesanal que faz da pesca seu principal meio de vida, utilizando embarcação de pequeno porte, tem a opção de se filiar ao RGPS apenas como segurado facultativo.", correta: false },
-      { letra: "B", texto: "É considerado dependente do segurado o filho não emancipado, de qualquer condição, menor de 24 anos de idade, desde que esteja matriculado em curso de ensino superior ou de escola técnica.", correta: false },
-      { letra: "C", texto: "A pessoa participante de Regime Próprio de Previdência Social (RPPS) pode se filiar livremente ao RGPS na qualidade de segurada facultativa para complementar o valor de sua aposentadoria.", correta: false },
-      { letra: "D", texto: "O servidor público federal vinculado a regime próprio que exercer atividade remunerada como motorista de aplicativo para complementar a renda familiar será considerado segurado obrigatório do RGPS em relação a essa atividade.", correta: true },
-      { letra: "E", texto: "Um estudante de quinze anos de idade que pretenda contribuir para a previdência pode realizar sua inscrição no RGPS na condição de segurado facultativo, a fim de adiantar seu tempo de contribuição.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
-          Leia esta parte antes da resolução. Ela compila as regras essenciais sobre o enquadramento de segurados cobradas nas últimas provas do CEBRASPE.
-        </p>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Segurados Obrigatórios vs. Facultativos</h4>
-          <p>
-            No RGPS, a regra de ouro é: <strong>exerceu atividade remunerada lícita, a filiação é obrigatória.</strong> Não é uma escolha do trabalhador. A filiação é automática pelo mero exercício da atividade (empregado, trabalhador avulso, contribuinte individual, empregado doméstico e segurado especial).
-          </p>
-          <p>
-            Já o <strong>segurado facultativo</strong> é aquele que <em>não exerce</em> atividade remunerada enquadrada como obrigatória, mas decide contribuir por conta própria para ter direito aos benefícios (ex: dona de casa, estudante, desempregado).
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O Segurado Especial</h4>
-          <p>
-            O segurado especial é o produtor rural familiar, o seringueiro, o extrativista vegetal e o <strong>pescador artesanal</strong> que fazem dessas atividades sua principal fonte de subsistência, trabalhando sozinhos ou em regime de economia familiar. Eles são segurados <strong>obrigatórios</strong>, não facultativos.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Atividades Concomitantes e o Servidor Público</h4>
-          <p>
-            O servidor público amparado por Regime Próprio de Previdência Social (RPPS) está, a princípio, excluído do RGPS. <strong>Porém</strong>, se ele exercer, ao mesmo tempo, uma atividade privada remunerada (como dar aulas em faculdade particular, abrir um comércio ou ser motorista de aplicativo), ele será considerado <strong>segurado obrigatório do RGPS (Contribuinte Individual)</strong> em relação a essa atividade extra. Ele contribuirá para os dois regimes.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
-          <h4 class="font-bold text-slate-200 flex items-center gap-2">
-            <i class="fa-solid fa-list-check text-emerald-400"></i> Estratégia de Resolução
-          </h4>
-          <p class="text-slate-300 leading-relaxed">
-            Esta questão agrupa 5 afirmativas da prova do CEBRASPE 2022. Para resolvê-la, precisamos verificar a idade mínima para filiação, os critérios de exclusão do segurado facultativo e as regras do segurado especial.
-          </p>
-        </div>
-
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Mesmo sendo servidor público federal (amparado por RPPS), ao exercer atividade como motorista de aplicativo (atividade remunerada urbana), o indivíduo exerce uma atividade abrangida pelo RGPS. Logo, ele é obrigatoriamente filiado ao RGPS como contribuinte individual em relação a essa segunda atividade.
-          </p>
-        </div>
-
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">
-              O pescador artesanal que faz da pesca sua profissão de subsistência é <strong>segurado especial</strong> (obrigatório), e não facultativo. Ele não tem "opção" de não se filiar, a lei o enquadra automaticamente nesta categoria obrigatória.
-            </p>
-          </div>
-
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">
-              Para o INSS, diferentemente da regra do Imposto de Renda, a dependência do filho cessa aos <strong>21 anos</strong>, e <strong>NÃO HÁ</strong> prorrogação de idade para 24 anos pelo fato de estar cursando ensino superior ou escola técnica. (A única exceção é se for filho inválido ou com deficiência grave, situação em que não há limite de idade).
-            </p>
-          </div>
-
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">
-              A Constituição Federal e a Lei 8.212/91 <strong>vedam</strong> expressamente a filiação ao RGPS, na qualidade de segurado facultativo, de pessoa participante de Regime Próprio de Previdência Social.
-            </p>
-          </div>
-
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">
-              A idade mínima para inscrição como segurado facultativo no RGPS é de <strong>16 anos</strong> (limite etário constitucional para o trabalho). Um jovem de 15 anos não pode se inscrever.
-            </p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li>
-              <strong class="text-amber-300">Pegadinha da Idade (Facultativo vs. Menor Aprendiz):</strong> A banca CEBRASPE adora confundir o limite de 14 e 16 anos. O segurado <strong>Facultativo</strong> só pode se inscrever a partir dos <strong>16 anos</strong>. A única exceção de filiação a partir dos <strong>14 anos</strong> é na condição de <strong>Menor Aprendiz</strong> (que é segurado Empregado).
-            </li>
-            <li>
-              <strong class="text-amber-300">Pegadinha da Universidade:</strong> É muito comum o candidato confundir a regra da pensão alimentícia e do Imposto de Renda (que estende dependência até 24 anos para universitários) com a regra Previdenciária. <strong>Para o INSS, fez 21 anos e não é inválido/deficiente? Acabou a dependência.</strong> Fazer faculdade não prorroga a pensão por morte!
-            </li>
-            <li>
-              <strong class="text-amber-300">O que também pode cair (Afastamento do RPPS):</strong> A banca pode colocar a seguinte exceção: Um servidor do RPPS que pede <em>licença sem vencimentos</em>. Nesse caso específico, se o regime próprio dele NÃO permitir que ele continue pagando, a lei federal permite que ele contribua para o RGPS como <strong>facultativo</strong> durante o afastamento.
-            </li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-user-tie", titulo: "Concomitância", text: "Servidor Público RPPS que exerce atividade privada paralela vira obrigatoriamente Contribuinte Individual do RGPS." },
-      { icone: "fa-ban", titulo: "Vedação do Facultativo", text: "Quem tem RPPS ativo não pode ser Facultativo no RGPS. O sistema não permite 'comprar' uma aposentadoria extra dessa forma." },
-      { icone: "fa-calendar-days", titulo: "Idade Mínima", text: "Facultativo: a partir dos 16 anos. Empregado (Aprendiz): a partir dos 14 anos." },
-      { icone: "fa-graduation-cap", titulo: "Fim da Dependência", text: "O filho perde a qualidade de dependente aos 21 anos (se não for inválido/deficiente), não importando se é universitário." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS007",
-    numero: "Questão 2",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Financiamento da Seguridade",
-    materiaCor: "emerald",
-    materiaIcone: "fa-piggy-bank",
-    categoria: "INSS",
-    titulo: "Financiamento da Seguridade Social: Isenções e Devedores",
-    tags: ["INSS", "Custeio", "Financiamento", "Devedores", "Isenção"],
-    alternativaCorreta: "C",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `O financiamento da seguridade social envolve contribuições de toda a sociedade. A respeito das normas que regulam o custeio e a arrecadação das contribuições previdenciárias, assinale a alternativa <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "A licença-prêmio indenizada integra o salário de contribuição, sofrendo incidência de contribuição previdenciária.", correta: false },
-      { letra: "B", texto: "As igrejas e os templos de qualquer culto possuem isenção absoluta e automática de contribuições para a seguridade social, independentemente de certificação.", correta: false },
-      { letra: "C", texto: "Os devedores da previdência social não podem receber benefícios ou incentivos fiscais ou creditícios do Estado.", correta: true },
-      { letra: "D", texto: "Os valores do salário de contribuição do segurado sempre equivalem ao valor da renda mensal dos benefícios previdenciários que ele virá a receber.", correta: false },
-      { letra: "E", texto: "O contribuinte individual e o facultativo que optam por contribuir com alíquota de 11% mantêm o direito à aposentadoria por tempo de contribuição.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Devedores e o Estado</h4>
-          <p>A Constituição Federal (art. 195, § 3º) é clara: a pessoa jurídica em débito com o sistema da seguridade social, como estabelecido em lei, <strong>não poderá contratar com o Poder Público nem dele receber benefícios ou incentivos fiscais ou creditícios.</strong></p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Parcelas Indenizatórias</h4>
-          <p>Via de regra, parcelas de natureza <strong>indenizatória</strong> (como aviso prévio indenizado, férias indenizadas e licença-prêmio indenizada) <strong>NÃO</strong> integram o salário de contribuição, pois não remuneram o trabalho prestado.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Imunidade vs. Isenção</h4>
-          <p>Templos de qualquer culto possuem <strong>imunidade tributária para IMPOSTOS</strong>. Contribuições para a seguridade social (ex: a cota patronal sobre a folha de pagamento de seus funcionários) são cobradas normalmente, salvo se a entidade cumprir os rigorosos requisitos do CEBAS para ser considerada entidade beneficente de assistência social.</p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Texto expresso da Constituição Federal (Art. 195, §3º). Devedor do INSS sofre sanções como a proibição de fechar contratos públicos ou de pegar empréstimos com juros subsidiados em bancos públicos.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">A licença-prêmio <em>indenizada</em> não é paga como remuneração pelo trabalho, mas como indenização por um direito não usufruído. Logo, NÃO integra o salário de contribuição.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Templos são imunes a impostos (como o IPTU), mas pagam contribuições previdenciárias se tiverem empregados.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O valor do benefício não "equivale" perfeitamente ao salário de contribuição, pois há o cálculo da média dos salários e a aplicação de coeficientes, além de estar limitado ao teto do RGPS.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Quem opta pelo plano simplificado (11%) ou facultativo baixa renda (5%) <strong>renuncia</strong> à Aposentadoria por Tempo de Contribuição, tendo direito apenas à Aposentadoria por Idade.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Imposto vs. Contribuição:</strong> A banca ama testar se o candidato confunde os dois. A imunidade das igrejas é para imposto!</li>
-            <li><strong class="text-amber-300">Indenizado vs. Gozado:</strong> Férias gozadas sofrem desconto de INSS. Férias indenizadas (não gozadas e pagas em rescisão), não! O sufixo "indenizada" costuma livrar a parcela da tributação previdenciária.</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-ban", titulo: "Sanção a Devedores", text: "Empresa que deve ao INSS não pode receber benefício de crédito ou fiscal, nem fechar contrato com o poder público." },
-      { icone: "fa-percent", titulo: "Plano Simplificado (11% e 5%)", text: "Pagou alíquota reduzida = abre mão da aposentadoria por tempo de contribuição." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS008",
-    numero: "Questão 3",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Período de Graça",
-    materiaCor: "emerald",
-    materiaIcone: "fa-piggy-bank",
-    categoria: "INSS",
-    titulo: "Manutenção e Perda da Qualidade de Segurado",
-    tags: ["INSS", "Período de Graça", "Qualidade de Segurado", "Auxílio-acidente"],
-    alternativaCorreta: "B",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `A qualidade de segurado é a condição atribuída ao cidadão filiado ao INSS. O tempo em que ele mantém essa condição, mesmo sem contribuir, é chamado de período de graça. Sobre as regras de manutenção, assinale a opção <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "Aquele que esteja em gozo de benefício, independentemente de qual seja, mantém a qualidade de segurado, sem limite de prazo.", correta: false },
-      { letra: "B", texto: "Durante o período de graça, o segurado conserva todos os direitos perante a previdência social, podendo, inclusive, deixar pensão por morte aos dependentes.", correta: true },
-      { letra: "C", texto: "O segurado facultativo mantém essa qualidade por, no máximo, três meses após a cessação das contribuições.", correta: false },
-      { letra: "D", texto: "O segurado incorporado às Forças Armadas mantém a qualidade de segurado por, no máximo, doze meses após o licenciamento.", correta: false },
-      { letra: "E", texto: "Quem está em gozo de auxílio-acidente mantém a qualidade de segurado sem limite de prazo, estando dispensado de contribuir.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <p>A Lei 8.213/91 (art. 15) define quem mantém a qualidade de segurado sem contribuir (período de graça):</p>
-        <ul class="list-disc pl-5 space-y-2">
-          <li><strong>Sem limite de prazo:</strong> quem está em gozo de benefício (<strong>EXCETO auxílio-acidente</strong>).</li>
-          <li><strong>Até 12 meses:</strong> após cessar as contribuições, para o segurado que deixar de exercer atividade remunerada ou estiver suspenso/licenciado (pode chegar a 24 ou 36 meses).</li>
-          <li><strong>Até 12 meses:</strong> após cessar a segregação (doença de segregação compulsória).</li>
-          <li><strong>Até 12 meses:</strong> após o livramento do segurado retido ou recluso.</li>
-          <li><strong>Até 3 meses:</strong> após o licenciamento para o segurado incorporado às Forças Armadas.</li>
-          <li><strong>Até 6 meses:</strong> após a cessação das contribuições para o <strong>segurado facultativo</strong>.</li>
-        </ul>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">Enquanto o segurado estiver no período de graça, ele tem todos os direitos preservados. Se ele falecer ou ficar doente no último dia desse prazo, terá direito ao benefício correspondente (pensão ou auxílio).</p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas A e E — Incorretas</strong>
-            <p class="text-slate-300 leading-relaxed">Há uma exceção! Quem recebe <strong>auxílio-acidente</strong> (benefício indenizatório) NÃO mantém a qualidade de segurado sem limite de prazo. Precisa voltar a contribuir para não perder a qualidade.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Para o segurado <strong>facultativo</strong>, o período de graça é de <strong>6 meses</strong> (e não 3 meses).</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O prazo para quem sai das Forças Armadas é de <strong>3 meses</strong> (e não 12 meses).</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Pegadinha do Auxílio-acidente:</strong> Essa é clássica. Antigamente, ele mantinha a qualidade. A lei mudou há alguns anos. Receber auxílio-acidente <strong>não</strong> garante a manutenção infinita da qualidade de segurado!</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-user-clock", titulo: "Facultativo (Prazo)", text: "Mantém a qualidade por apenas 6 meses." },
-      { icone: "fa-triangle-exclamation", titulo: "Auxílio-acidente", text: "É o único benefício que não mantém a qualidade de segurado sem limite de prazo por si só." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS009",
-    numero: "Questão 4",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Pensão por Morte",
-    materiaCor: "emerald",
-    materiaIcone: "fa-piggy-bank",
-    categoria: "INSS",
-    titulo: "Pensão por Morte: Regras de Exclusão e Beneficiários",
-    tags: ["INSS", "Pensão por Morte", "Benefícios", "Homicídio", "Dependentes"],
-    alternativaCorreta: "E",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `A pensão por morte é devida aos dependentes do segurado que falecer, aposentado ou não. Sobre as disposições legais e jurisprudenciais desse benefício, assinale a opção <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "O valor da pensão por morte concedida a um dependente cuja renda familiar per capita seja baixa pode ser inferior ao valor de um salário mínimo.", correta: false },
-      { letra: "B", texto: "A pensão por morte será dividida entre a esposa legítima e a pessoa que tenha mantido com o segurado união concubinária (amante) de longo período, dada a equiparação feita pelo STF.", correta: false },
-      { letra: "C", texto: "A contagem de tempo de contribuição fictício é permitida em caráter de exceção para segurados especiais em regime de economia familiar para concessão de pensão.", correta: false },
-      { letra: "D", texto: "É admitida a acumulação integral de uma pensão por morte do RGPS e a pensão deixada por outro cônjuge no RPPS, sem qualquer limite de teto.", correta: false },
-      { letra: "E", texto: "Não faz jus à pensão por morte o pretenso beneficiário condenado criminalmente, por sentença transitada em julgado, como autor de homicídio doloso cometido contra a pessoa do segurado.", correta: true }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <p>A EC 103/2019 (Reforma da Previdência) e as leis previdenciárias trazem regras duras sobre concessão e acúmulo de pensão:</p>
-        <ul class="list-disc pl-5 space-y-2">
-          <li><strong>O "Dependente Assassino":</strong> Perde o direito à pensão o dependente condenado criminalmente por sentença com trânsito em julgado como autor, coautor ou partícipe de homicídio <strong>doloso</strong> contra o segurado.</li>
-          <li><strong>Concubinato:</strong> O STF tem jurisprudência pacificada no sentido de que não se divide pensão por morte entre viúva(o) e concubina(o) em uniões paralelas.</li>
-          <li><strong>Tempo Fictício:</strong> A Constituição Federal proíbe contagem de tempo de contribuição fictício em qualquer hipótese (Art. 201, § 14).</li>
-          <li><strong>Valor Mínimo:</strong> Nenhum benefício que substitua a renda do trabalhador poderá ter valor mensal inferior ao salário mínimo.</li>
-        </ul>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa E — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">É a regra da "Indignidade" (Lei 8.213, art. 74). Se matou o segurado com dolo (intenção), perde a pensão. Atenção: exige condenação com trânsito em julgado.</p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O valor do benefício total não pode ser inferior ao salário mínimo (CF art. 201, §2º).</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O STF tem jurisprudência pacificada no sentido de que não se divide pensão por morte entre viúva(o) e concubina(o).</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">A contagem de tempo de contribuição fictício é expressamente vedada pela Constituição.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O acúmulo de pensões entre RGPS e RPPS está sujeito a limites impostos pela EC 103/2019, não sendo irrestrito.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Pegadinha do Homicídio:</strong> A banca pode trocar "doloso" por "culposo" (sem intenção, como num acidente de trânsito). O homicídio <strong>culposo</strong> NÃO retira o direito à pensão. Tem que ser doloso! E exige trânsito em julgado.</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-gavel", titulo: "Homicídio Doloso", text: "Dependente condenado com trânsito em julgado perde a pensão." },
-      { icone: "fa-heart-crack", titulo: "Concubinato", text: "O STF não reconhece a divisão de pensão com amantes em uniões paralelas." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS010",
-    numero: "Questão 5",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "direito-previdenciario",
-    materia: "Direito Previdenciário / Crimes Previdenciários",
-    materiaCor: "emerald",
-    materiaIcone: "fa-piggy-bank",
-    categoria: "INSS",
-    titulo: "Apropriação Indébita e Sonegação Previdenciária",
-    tags: ["INSS", "Crimes", "Apropriação Indébita", "Sonegação", "Penal"],
-    alternativaCorreta: "A",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `A proteção do custeio da Seguridade Social possui reflexos na esfera criminal. Considerando as tipificações do Código Penal acerca dos crimes contra a Previdência Social, assinale a opção <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "A empresa que desconta a contribuição devida pelos trabalhadores e não a repassa à previdência social comete o crime de apropriação indébita previdenciária.", correta: true },
-      { letra: "B", texto: "A empresa que omite da folha de pagamento dados sobre os segurados para reduzir a contribuição devida pratica apropriação indébita previdenciária.", correta: false },
-      { letra: "C", texto: "A empresa que deixar de recolher a contribuição previdenciária por dificuldades financeiras não comete crime, pois o mero inadimplemento é protegido legalmente sem necessidade de comprovar estado de necessidade.", correta: false },
-      { letra: "D", texto: "O pagamento integral da quantia devida, mesmo após o trânsito em julgado da sentença condenatória, garante a extinção automática da punibilidade.", correta: false },
-      { letra: "E", texto: "A apropriação indébita previdenciária exige que se comprove o enriquecimento ilícito do empregador para caracterizar a infração penal.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <p>A prova do INSS adora confundir dois crimes específicos:</p>
-        <ul class="list-disc pl-5 space-y-2">
-          <li><strong>Apropriação Indébita Previdenciária (Art. 168-A, CP):</strong> O empregador DESCONTA o valor do salário do empregado, mas não o repassa ao INSS. É o "roubo" de algo que não lhe pertence.</li>
-          <li><strong>Sonegação de Contribuição Previdenciária (Art. 337-A, CP):</strong> O empregador SUPRIME ou REDUZ as informações (ex: omite trabalhadores na folha de pagamento, declara salários menores) para pagar menos contribuição.</li>
-        </ul>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
-          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa A — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">Esse é o conceito clássico do artigo 168-A do Código Penal. Descontar do trabalhador e não repassar aos cofres públicos é apropriação indébita previdenciária.</p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Omitir, esconder ou fraudar folhas de pagamento é crime de <strong>Sonegação</strong> Previdenciária (Art. 337-A), e não apropriação indébita.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Dificuldades financeiras não afastam o crime. O STJ já pacificou que a apropriação indébita previdenciária é crime omissivo próprio, independente de dolo específico.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa D — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">A extinção da punibilidade pelo pagamento só ocorre se efetuado <strong>ANTES do início da ação fiscal</strong> ou antes de oferecida a denúncia. Após o trânsito em julgado é tarde demais.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O crime de apropriação indébita previdenciária não exige prova de enriquecimento ilícito. O simples ato de descontar e não repassar já consuma o crime.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha &amp; O que mais pode cair
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Dica infalível:</strong> Falou em "descontou e não repassou" = Apropriação (168-A). Falou em "omitiu, escondeu, fraudou dados" = Sonegação (337-A).</li>
-            <li><strong class="text-amber-300">Perdão Judicial:</strong> O juiz pode deixar de aplicar a pena ou aplicar só multa se o réu é primário, de bons antecedentes E tiver pago a dívida antes da denúncia.</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-mask", titulo: "Apropriação Indébita", text: "Descontar do empregado e não pagar ao governo (Art. 168-A CP)." },
-      { icone: "fa-user-secret", titulo: "Sonegação", text: "Omitir trabalhadores ou reduzir salários na folha para pagar menos (Art. 337-A CP)." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS011",
-    numero: "Questão 6",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "informatica-inss",
-    materia: "Noções de Informática / Segurança e Windows 10",
-    materiaCor: "cyan",
-    materiaIcone: "fa-computer",
-    categoria: "INSS",
-    titulo: "Segurança no Windows 10: Microsoft Defender e Criptografia",
-    tags: ["INSS", "Informática", "Windows 10", "Antivírus", "Segurança", "Microsoft Defender"],
-    alternativaCorreta: "B",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `A segurança da informação é uma das rotinas mais cobradas no sistema operacional Windows 10. Com base nos utilitários de sistema e segurança nativos do Windows 10, assinale a opção <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "Para proteger e criptografar arquivos no Windows 10, o usuário deve utilizar exclusivamente o aplicativo Windows Defender Firewall.", correta: false },
-      { letra: "B", texto: "A Segurança do Windows verifica continuamente a existência de malwares e vírus, incluindo, para isso, um programa antivírus nativo chamado Microsoft Defender Antivirus.", correta: true },
-      { letra: "C", texto: "O Microsoft Defender Antivirus precisa ser adquirido e instalado separadamente da loja virtual da Microsoft, pois não integra a instalação padrão do sistema.", correta: false },
-      { letra: "D", texto: "A reorganização de dados fragmentados no disco rígido, para otimização de velocidade, é realizada automaticamente pelo antivírus do sistema.", correta: false },
-      { letra: "E", texto: "O Firewall nativo do Windows tem como função principal a desfragmentação de disco para evitar invasões via rede.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> O Microsoft Defender Antivirus</h4>
-          <p>O Windows 10 e 11 já vêm de fábrica com o <strong>Microsoft Defender Antivirus</strong>. Ele faz parte da Central de Segurança do Windows e atua em tempo real (continuamente) na verificação e bloqueio de malwares, vírus e ameaças, sem precisar baixar nada extra.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Firewall vs. Criptografia</h4>
-          <p>O <strong>Firewall</strong> (parede de fogo) serve para controlar o tráfego de entrada e saída da rede (filtrar portas e conexões), evitando invasões remotas. Ele <strong>NÃO</strong> faz criptografia de arquivos. Para criptografar dados no Windows, utilizamos ferramentas como o <strong>BitLocker</strong> (criptografa unidades inteiras) ou o <strong>EFS</strong> (Encrypting File System, para arquivos e pastas isoladas).</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Desfragmentador de Disco</h4>
-          <p>O <strong>Desfragmentador e Otimizador de Unidades</strong> é um utilitário de manutenção do sistema. Quando o disco (HD) está fragmentado, os arquivos ficam "espalhados", deixando a máquina lenta. O desfragmentador reorganiza esses pedaços para melhorar o desempenho. Ele não tem função de antivírus.</p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
-          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Correto! O Windows 10 inclui nativamente o Microsoft Defender Antivirus, que roda de forma silenciosa e contínua verificando ameaças e malwares no computador.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas A e E — Incorretas</strong>
-            <p class="text-slate-300 leading-relaxed">A banca tentou te confundir sobre a função do <strong>Firewall</strong>. Firewall filtra tráfego de rede. Quem criptografa arquivo é o BitLocker/EFS, e quem desfragmenta é o Desfragmentador de Disco.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O Microsoft Defender já vem pré-instalado e ativado nativamente no Windows 10; não precisa ser comprado na loja.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Troca de Nomes:</strong> Na prova, a banca afirmou exatamente que era possível criptografar usando o Firewall (afirmação falsa). Sempre lembre: Firewall = Rede (filtro); BitLocker = Disco (criptografia).</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-shield-virus", titulo: "Microsoft Defender", text: "Antivírus nativo do Windows 10/11 que funciona de forma contínua e sem custo extra." },
-      { icone: "fa-lock", titulo: "BitLocker", text: "Recurso correto usado para a criptografia de unidades e arquivos no Windows." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS012",
-    numero: "Questão 7",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "raciocinio-logico",
-    materia: "Raciocínio Lógico / Porcentagem e Conjuntos",
-    materiaCor: "blue",
-    materiaIcone: "fa-calculator",
-    categoria: "INSS",
-    titulo: "Interseção e Porcentagem de Porcentagem",
-    tags: ["INSS", "RLM", "Porcentagem", "Conjuntos", "Interseção"],
-    alternativaCorreta: "B",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Entre os servidores de certa repartição do INSS, sabe-se que 65% gostam de trabalhar com atendimento ao público e, <strong>desses</strong>, 30% gostam também de trabalhos administrativos.
-    <br><br>
-    Com base nessa situação hipotética, assinale a opção <strong>CORRETA</strong> a respeito da proporção de servidores na repartição:`,
-
-    alternativas: [
-      { letra: "A", texto: "Mais de 20% do total de servidores da repartição gostam de ambas as modalidades (atendimento e administrativo).", correta: false },
-      { letra: "B", texto: "Exatamente 19,5% do total de servidores da repartição gostam de ambas as modalidades simultaneamente.", correta: true },
-      { letra: "C", texto: "Exatamente 30% do total de servidores da repartição gostam das duas modalidades.", correta: false },
-      { letra: "D", texto: "Menos da metade da repartição (50%) gostam de trabalhar com atendimento ao público.", correta: false },
-      { letra: "E", texto: "A porcentagem de servidores que gostam de trabalhos administrativos excede o número dos que gostam de atendimento.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> "Porcentagem de Porcentagem"</h4>
-          <p>Quando um enunciado diz que "X% <strong>desses</strong> (ou daquele grupo)" faz alguma coisa, temos que calcular uma porcentagem sobre outra porcentagem. O conectivo "DE" na matemática vira uma multiplicação.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Traduzindo o enunciado</h4>
-          <ul class="list-disc pl-5 space-y-2">
-            <li>Gostam de Atendimento (A): <strong>65% do total</strong>.</li>
-            <li>Gostam de Administrativo E de Atendimento (A ∩ B): <strong>30% de quem gosta de atendimento</strong>.</li>
-          </ul>
-          <p>Logo: \(30\% \times 65\% = 0{,}30 \times 0{,}65 = 0{,}195\) → <strong>19,5% do TOTAL</strong> da repartição.</p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-blue-950/40 p-4 rounded-xl border border-blue-500/40 space-y-2">
-          <h4 class="font-bold text-blue-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa B — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Se 30% DE 65% gostam de ambas, fazemos: \(0{,}30 \times 65\% = 19{,}5\%\). Logo, exatamente 19,5% do total gostam simultaneamente das duas áreas.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Como 19,5% é <strong>menor</strong> que 20%, a afirmação "mais de 20%" é FALSA.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa C — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O erro comum é achar que 30% do total gosta das duas, ignorando a palavra "DESSES" no enunciado, que restringe o cálculo aos 65%.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">O gatilho "DESSES":</strong> A palavrinha puxa a base de cálculo de 100% para 65%. Dizer "30% gostam" é diferente de "30% DESSES gostam".</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-percent", titulo: "Matemática do 'DE'", text: "A preposição 'de' (como em '30% de 65%') significa multiplicação. O resultado é sempre menor que os dois fatores originais." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS013",
-    numero: "Questão 8",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "raciocinio-logico",
-    materia: "Raciocínio Lógico / Tabela-verdade e Leis de De Morgan",
-    materiaCor: "blue",
-    materiaIcone: "fa-calculator",
-    categoria: "INSS",
-    titulo: "Negação Lógica e Linhas da Tabela-Verdade",
-    tags: ["INSS", "RLM", "Tabela-Verdade", "Negação Lógica", "De Morgan"],
-    alternativaCorreta: "D",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Considere a proposição <strong>P</strong>: "Se me mandou mensagem, meu filho lembrou-se de mim e quer ser lembrado por mim".
-    <br><br>
-    Aplicando as leis da lógica proposicional sobre a proposição P, assinale a opção <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "A tabela-verdade da proposição P possui 16 linhas, pois ela carrega 4 verbos no enunciado.", correta: false },
-      { letra: "B", texto: "A negação do trecho 'meu filho lembrou-se de mim e quer ser lembrado por mim' é logicamente equivalente a 'meu filho não se lembrou de mim nem quer ser lembrado por mim'.", correta: false },
-      { letra: "C", texto: "A proposição P possui formato 'A ou (B e C)', sendo uma disjunção na estrutura principal.", correta: false },
-      { letra: "D", texto: "A proposição P é composta por três proposições simples, o que resulta em uma tabela-verdade de 8 linhas.", correta: true },
-      { letra: "E", texto: "A negação lógica de uma conjunção (E) resulta em outra conjunção com as proposições negadas.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">1.</span> Contando Proposições e Linhas</h4>
-          <p>Número de linhas = \(2^n\), onde <strong>n</strong> é a quantidade de proposições simples distintas.</p>
-          <p>Analisando: "Se <strong>(A)</strong> me mandou mensagem, <strong>(B)</strong> meu filho lembrou-se de mim E <strong>(C)</strong> quer ser lembrado por mim" → 3 proposições → \(2^3 = 8\) linhas.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-blue-400">2.</span> Lei de De Morgan — Negação do "E"</h4>
-          <p>A negação de <code>B E C</code> <strong>não é</strong> <code>~B E ~C</code>. É obrigatório trocar o conectivo:</p>
-          <p><code>~(B E C) = ~B OU ~C</code></p>
-          <p>Portanto: "meu filho NÃO se lembrou de mim <strong>OU</strong> NÃO quer ser lembrado". Usar "nem" (que vale "e não") viola a Lei de De Morgan.</p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-blue-950/40 p-4 rounded-xl border border-blue-500/40 space-y-2">
-          <h4 class="font-bold text-blue-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            Com \(n = 3\) proposições simples, temos \(2^3 = 8\) linhas na tabela-verdade. Afirmativa perfeita.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa A — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Linhas não se contam por "verbos soltos". São 3 proposições simples, portanto 8 linhas, não 16.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas B e E — Incorretas</strong>
-            <p class="text-slate-300 leading-relaxed">A palavra "nem" equivale a "e não", mantendo a conjunção "E", o que viola a Lei de De Morgan. A negação correta exige o "OU".</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">O Perigoso "NEM":</strong> A banca usou "...não lembrou NEM quer ser lembrado". Como "NEM" = "e não", manteve o conectivo "e", violando a regra. A afirmativa estava ERRADA no gabarito oficial.</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-list-ol", titulo: "Fórmula de Linhas", text: "2 elevado ao número (n) de proposições simples diferentes: 2³ = 8 linhas." },
-      { icone: "fa-arrows-rotate", titulo: "Leis de De Morgan", text: "~(P E Q) = (~P OU ~Q). Negar uma conjunção troca o 'E' pelo 'OU'." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS014",
-    numero: "Questão 9",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "portugues-inss",
-    materia: "Língua Portuguesa / Interpretação de Texto",
-    materiaCor: "red",
-    materiaIcone: "fa-feather-pointed",
-    categoria: "INSS",
-    titulo: "Interpretação e Crase no Texto 'Um Ano de Menos'",
-    tags: ["INSS", "Português", "Interpretação", "Crase", "Regência Verbal"],
-    alternativaCorreta: "C",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Leia o seguinte trecho do texto "Um Ano de Menos", de Rachel de Queiroz:
-    <br><br>
-    <em>"A gente, porém, não pode pensar muito nessas coisas. Tem que pensar em alegrias, sugestionar-se, sugestionar os outros. Vamos dar festas, vamos aguardar o ano novo com esperanças e risadas e beijos congratulatórios. (...) Tudo escondido, esperando. Sem falar nos que vão ficar tuberculosos, nas mulheres que vão fazer cesariana. Os que vão perder o emprego, os que se verão doidos com as dívidas..."</em>
-    <br><br>
-    Sobre a interpretação do texto de Rachel de Queiroz e os aspectos gramaticais atrelados a ele, assinale a <strong>CORRETA</strong>:`,
-
-    alternativas: [
-      { letra: "A", texto: "No texto, a autora sugere uma postura conformista e triste na passagem de ano, visto que a morte e a tragédia chegam para todos sem aviso.", correta: false },
-      { letra: "B", texto: "O emprego do sinal indicativo de crase em 'ver à porta a cara do mascate' justifica-se pela regência do verbo transitivo indireto 'ver'.", correta: false },
-      { letra: "C", texto: "A autora incentiva ativamente uma postura otimista durante a passagem de ano, apesar de logo depois manifestar uma visão realista e pessimista quanto às dores e infortúnios do porvir.", correta: true },
-      { letra: "D", texto: "A crase na locução 'à porta' é facultativa, já que acompanha uma palavra feminina que não desempenha função de núcleo sintático no trecho.", correta: false },
-      { letra: "E", texto: "O pronome oblíquo em 'que se paga a toda hora' cumpre função restrita de pronome reflexivo, indicando que a prestação paga a si mesma.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">1.</span> Compreensão Global do Texto</h4>
-          <p>O texto constrói um paradoxo humano. Rachel de Queiroz incentiva: "vamos aguardar o ano novo com esperanças e risadas..." (otimismo forçado), mas logo expõe a crua realidade: doenças, dívidas, perdas de emprego. Ela sugere a festa como forma de <em>sugestionar-se</em> — esconder o pessimismo inevitável.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">2.</span> A Crase na Locução Adverbial</h4>
-          <p>O verbo "VER" é transitivo direto (quem vê, vê algo). Ele NÃO pede preposição "a". A crase em "à porta" decorre da regra das <strong>locuções adverbiais femininas</strong> (como "à noite", "às pressas", "à porta"), não da regência verbal.</p>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-red-400">3.</span> O "se" apassivador</h4>
-          <p>Em "que se paga a toda hora", o "se" é <strong>partícula apassivadora</strong> (= a prestação é paga), não pronome reflexivo (não é "ela paga a si mesma").</p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-red-950/40 p-4 rounded-xl border border-red-500/40 space-y-2">
-          <h4 class="font-bold text-red-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa C — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            A autora incentiva o otimismo ("Tem que pensar em alegrias... Vamos dar festas"), mas o texto todo é permeado por um pessimismo posterior sobre as mazelas inevitáveis. Esse foi o gabarito oficial da prova.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativas B e D — Incorretas (Pegadinha da Crase)</strong>
-            <p class="text-slate-300 leading-relaxed">Ver é transitivo direto, não pede preposição "a". A crase em "à porta" vem de ser locução adverbial feminina — não da regência verbal. Além disso, a crase não é facultativa ali, é obrigatória.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">Em "que se paga", o "se" é partícula apassivadora (a prestação é paga), não pronome reflexivo.</p>
-          </div>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-book-open", titulo: "Interpretação Literária", text: "Ler o contraste entre a postura que a autora incentiva e a realidade que ela descreve é a essência da questão." },
-      { icone: "fa-font", titulo: "Crase em Locução Adverbial", text: "'À noite', 'às pressas', 'à porta' — ganham crase pela regra das locuções, não pela regência do verbo." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
-    simuladorType: null
-  },
-
-  {
-    id: "qINSS015",
-    numero: "Questão 10",
-    ano: "2022",
-    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
-    area: "inss",
-    areaNome: "Concurso INSS",
-    materiaId: "informatica-inss",
-    materia: "Noções de Informática / Planilhas e Outlook",
-    materiaCor: "cyan",
-    materiaIcone: "fa-computer",
-    categoria: "INSS",
-    titulo: "Planilhas do Excel: O Comportamento Exato da Função SOMASE",
-    tags: ["INSS", "Informática", "Excel", "SOMASE", "Planilhas"],
-    alternativaCorreta: "D",
-    userNotes: "",
-    userCustomImage: null,
-
-    enunciado: `Considere uma planilha elaborada no Microsoft Excel 365, com as seguintes colunas e linhas preenchidas:
-    <br><br>
-    <strong>A1: Atendimento | B1: Quantidade</strong><br>
-    A2: seguro-desemprego | B2: 1<br>
-    A3: auxilio | B3: 2<br>
-    A4: licença-maternidade | B4: 3<br>
-    A5: pensão por morte | B5: 1<br>
-    A6: salário-família | B6: 2<br>
-    A7: auxílio-reclusão | B7: 3
-    <br><br>
-    Se o usuário inserir na célula B8 a fórmula <strong>=SOMASE(A2:A7; "auxilio"; B2:B7)</strong>, assinale a alternativa <strong>CORRETA</strong> sobre o funcionamento do aplicativo:`,
-
-    alternativas: [
-      { letra: "A", texto: "A fórmula retornará um erro de sintaxe, pois o critério 'auxilio' deveria estar sem aspas.", correta: false },
-      { letra: "B", texto: "O resultado será 5, pois o Excel identificará as células A3 ('auxilio') e A7 ('auxílio-reclusão') pela correspondência parcial da palavra e somará 2 + 3.", correta: false },
-      { letra: "C", texto: "A fórmula fará a contagem do número de vezes que a palavra aparece, retornando o valor 2.", correta: false },
-      { letra: "D", texto: "O resultado será 2, pois a busca é exata; o Excel somará apenas o valor em B3, ignorando 'auxílio-reclusão'.", correta: true },
-      { letra: "E", texto: "O resultado será 0, uma vez que a palavra 'auxilio' na fórmula está sem acento gráfico, diferentemente de uma grafia culta esperada pelo corretor do Excel.", correta: false }
-    ],
-
-    materiaCompleta: `
-      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Sintaxe do SOMASE</h4>
-          <p>A fórmula <code>=SOMASE(intervalo_busca; "critério"; intervalo_soma)</code> funciona assim:</p>
-          <ul class="list-disc pl-5 space-y-1">
-            <li>O Excel olha a coluna A (A2 a A7).</li>
-            <li>Procura exatamente a string <strong>"auxilio"</strong>.</li>
-            <li>Quando encontra, soma o número correspondente na mesma linha da coluna B.</li>
-          </ul>
-        </div>
-        <div class="space-y-2">
-          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Regra da Correspondência Exata</h4>
-          <p>Sem caracteres curingas (asterisco <code>*</code>), a fórmula busca correspondência <strong>exata</strong>. A célula A3 tem "auxilio" (match!). A célula A7 tem "auxílio-reclusão" (texto diferente → ignorado). Resultado: apenas B3 = 2.</p>
-          <p class="bg-cyan-950/30 border border-cyan-500/30 rounded-lg p-3 text-xs">
-            <strong class="text-cyan-300">Para busca parcial:</strong> Use <code>=SOMASE(A2:A7; "*auxilio*"; B2:B7)</code> — o asterisco funciona como curinga para qualquer texto antes ou depois.
-          </p>
-        </div>
-      </div>
-    `,
-
-    resolucaoHtml: `
-      <div class="space-y-4 text-xs">
-        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/40 space-y-2">
-          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
-            <i class="fa-solid fa-circle-check"></i> Alternativa D — CORRETA
-          </h4>
-          <p class="text-slate-200 leading-relaxed">
-            A busca é exata: o Excel encontra "auxilio" apenas na linha 3 e soma o valor 2. "Auxílio-reclusão" (linha 7) é um texto diferente — não incluso na soma.
-          </p>
-        </div>
-        <div class="space-y-2">
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa B — Incorreta (a mais perigosa)</strong>
-            <p class="text-slate-300 leading-relaxed">Muitos candidatos marcam 5, achando que o Excel encontra "auxílio-reclusão" por conter a palavra auxílio. Isso só ocorreria com o curinga <code>*</code>.</p>
-          </div>
-          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
-            <strong class="text-rose-400 block mb-1"><i class="fa-solid fa-xmark"></i> Alternativa E — Incorreta</strong>
-            <p class="text-slate-300 leading-relaxed">O Excel não tem "corretor ortográfico" de fórmulas. A busca por "auxilio" (sem acento) encontra exatamente a célula que contém "auxilio" (sem acento). Resultado é 2, não 0.</p>
-          </div>
-        </div>
-
-        <div class="mt-6 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-3">
-          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
-            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
-          </h4>
-          <ul class="space-y-3 text-slate-300 text-xs">
-            <li><strong class="text-amber-300">Curinga Asterisco:</strong> Sem <code>*</code> = busca exata. Com <code>*auxilio*</code> = busca parcial (encontraria "auxílio-reclusão" também). Essa distinção é cobrada diretamente pelo CEBRASPE.</li>
-          </ul>
-        </div>
-      </div>
-    `,
-
-    conceitos: [
-      { icone: "fa-table-cells", titulo: "SOMASE", text: "Condiciona a soma a um critério específico. Sem curinga, a busca é exata." },
-      { icone: "fa-asterisk", titulo: "Curinga Asterisco (*)", text: "Use '*auxilio*' para busca parcial. Sem ele, apenas correspondência exata é considerada." }
-    ],
-    galeria: [],
-    simulador: null,
-    diagramaHtml: null,
     simuladorType: null
   }
+,
+
+  {
+    id: "q24092",
+    numero: "Questão 92 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Eletroquímica — Células a Combustível Microbianas",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Células a Combustível Microbianas: Balanceando a Reação Global",
+    tags: ["Química", "Eletroquímica", "Oxirredução", "Balanceamento", "Sustentabilidade", "ENEM 2024"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>Células a combustível microbianas (CCM) são capazes de gerar eletricidade a partir de águas residuárias urbanas e agroindustriais. As CCM são compostas de duas câmaras. Numa delas, onde ocorre o tratamento da matéria orgânica, as bactérias eletrogênicas crescem formando um biofilme e se alimentam dos poluentes presentes no efluente. Ao se alimentarem, essas bactérias geram uma corrente elétrica que percorre o material sobre o qual elas formaram o biofilme. Um fio condutor externo possibilita a migração dessa corrente para uma segunda câmara, promovendo uma reação química.</p>
+      <p>A figura esquematiza uma CCM: na câmara do <strong>ânodo</strong>, a matéria orgânica (representada como CH₃COO⁻) é oxidada pelas bactérias, liberando CO₂, H⁺ e elétrons; os elétrons seguem por um fio condutor externo até a câmara do <strong>cátodo</strong>, enquanto os íons H⁺ atravessam uma membrana interna; no cátodo, H⁺, elétrons e O₂ se combinam formando H₂O.</p>
+      <div class="bg-slate-900/40 rounded-lg p-3 font-mono text-[11px] text-cyan-200 space-y-1">
+        <p>CH₃COO⁻ (aq) + 2 H₂O (l) → 2 CO₂ (g) + 7 H⁺ (aq) + 8 e⁻</p>
+        <p>4 H⁺ (aq) + O₂ (g) + 4 e⁻ → 2 H₂O (l)</p>
+      </div>
+      <p class="text-right text-[11px] text-slate-500">QUINTO, A. C. <strong>Biobaterias geram eletricidade a partir de esgoto sanitário e efluentes agroindustriais</strong>. Disponível em: https://jornal.usp.br. Acesso em: 1 dez. 2021 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Qual das equações representa a reação global que ocorre durante o funcionamento dessa CCM?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "CH₃COO⁻ (aq) + O₂ (g) → 2 CO₂ (g) + 3 H⁺ (aq)", correta: false },
+      { letra: "B", texto: "CO₂ (g) + O₂ (g) + H⁺ (aq) → H₂O (l) + CH₃COO⁻ (aq)", correta: false },
+      { letra: "C", texto: "CH₃COO⁻ (aq) + H⁺ (aq) + 2 O₂ (g) → 2 CO₂ (g) + 2 H₂O (l)", correta: true },
+      { letra: "D", texto: "CH₃COO⁻ (aq) + 6 H₂O (l) → 2 CO₂ (g) + 2 O₂ (g) + 15 H⁺ (aq)", correta: false },
+      { letra: "E", texto: "2 CO₂ (g) + 11 H⁺ (aq) + O₂ (g) → CH₃COO⁻ (aq) + 4 H₂O (l)", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa C é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Reação global = semirreação do ânodo + semirreação do cátodo, com os elétrons se cancelando (o que "sai" de um lado tem que ser exatamente o que "entra" do outro). O ânodo libera <strong>8 e⁻</strong>; o cátodo consome <strong>4 e⁻</strong> por "rodada". Para casar os dois, multiplica-se a equação do cátodo por 2, aí sim ela também passa a envolver 8 e⁻:
+          </p>
+          <div class="bg-slate-900/60 rounded-lg p-3 font-mono text-[11px] text-cyan-200 space-y-1">
+            <p>Ânodo: CH₃COO⁻ + 2 H₂O → 2 CO₂ + 7 H⁺ + <strong>8 e⁻</strong></p>
+            <p>Cátodo ×2: 8 H⁺ + 2 O₂ + <strong>8 e⁻</strong> → 4 H₂O</p>
+            <p class="border-t border-slate-700 pt-1">Somando e cancelando os 8 e⁻ dos dois lados:</p>
+            <p>CH₃COO⁻ + 2 H₂O + 8 H⁺ + 2 O₂ → 2 CO₂ + 7 H⁺ + 4 H₂O</p>
+            <p>Simplificando H₂O (4 de um lado com 2 do outro → sobram 2 à direita) e H⁺ (8 à esquerda menos 7 à direita → sobra 1 à esquerda):</p>
+            <p class="font-bold">CH₃COO⁻ (aq) + H⁺ (aq) + 2 O₂ (g) → 2 CO₂ (g) + 2 H₂O (l)</p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> não fecha o balanço de hidrogênio nem de carga — falta contabilizar corretamente os H⁺ que entram pelo cátodo e saem pelo ânodo; a proporção O₂ : CH₃COO⁻ também está errada (aqui é 1:1, mas o balanço de elétrons exige 2 O₂ para cada CH₃COO⁻).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> inverte o sentido da reação (mostra CO₂ e O₂ virando CH₃COO⁻ e H₂O) — é a reação de trás para frente, e numa CCM funcionando é o CH₃COO⁻ que é consumido, não formado.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> mostra O₂ sendo <em>produzido</em>, quando na verdade ele é consumido no cátodo (é o "combustível" do lado do oxigênio); além disso, o número de H⁺ (15) não bate com o balanço de elétrons entre as duas semirreações.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> também inverte o sentido geral (parte de CO₂ para formar CH₃COO⁻) e os coeficientes não fecham a conservação de átomos de O nem de carga.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> pra somar duas semirreações redox e achar a reação global, o primeiro passo é sempre igualar o número de elétrons doados no ânodo com o número de elétrons recebidos no cátodo (multiplicando uma das equações pelo fator necessário) — só depois disso soma-se tudo e cancela-se o que aparece dos dois lados.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-arrow-right-from-bracket", titulo: "Ânodo (Oxidação)", text: "Onde a matéria orgânica perde elétrons — as bactérias eletrogênicas 'colhem' esses elétrons ao se alimentar." },
+      { icone: "fa-arrow-right-to-bracket", titulo: "Cátodo (Redução)", text: "Onde O₂ recebe os elétrons que vieram pelo fio externo, formando água." },
+      { icone: "fa-scale-balanced", titulo: "Balancear por Elétrons", text: "A reação global só existe quando os elétrons perdidos no ânodo são exatamente os recebidos no cátodo." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Esquema da célula a combustível microbiana",
+        legenda: "Bactérias no ânodo oxidam a matéria orgânica, liberando CO₂, H⁺ e elétrons. Os elétrons migram pelo fio externo até o cátodo; os H⁺ atravessam a membrana; no cátodo, H⁺ + elétrons + O₂ formam H₂O.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <rect x="30" y="30" width="140" height="130" fill="#164e63" opacity="0.5" stroke="#22d3ee" stroke-width="2"/>
+            <text x="100" y="20" text-anchor="middle" fill="#67e8f9" font-size="9" font-weight="bold">ÂNODO (oxidação)</text>
+            <text x="100" y="55" text-anchor="middle" fill="#e0f2fe" font-size="8">Matéria orgânica</text>
+            <text x="100" y="67" text-anchor="middle" fill="#e0f2fe" font-size="8">(CH₃COO⁻)</text>
+            <circle cx="70" cy="100" r="14" fill="#0e7490"/>
+            <circle cx="110" cy="110" r="14" fill="#0e7490"/>
+            <circle cx="90" cy="135" r="14" fill="#0e7490"/>
+            <text x="100" y="150" text-anchor="middle" fill="#a5f3fc" font-size="6">biofilme bacteriano</text>
+            <rect x="215" y="30" width="30" height="130" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+            <text x="230" y="100" text-anchor="middle" fill="#94a3b8" font-size="7" transform="rotate(-90 230 100)">MEMBRANA (H⁺)</text>
+            <rect x="290" y="30" width="140" height="130" fill="#78350f" opacity="0.4" stroke="#f59e0b" stroke-width="2"/>
+            <text x="360" y="20" text-anchor="middle" fill="#fcd34d" font-size="9" font-weight="bold">CÁTODO (redução)</text>
+            <text x="360" y="90" text-anchor="middle" fill="#fef3c7" font-size="8">H⁺ + e⁻ + O₂</text>
+            <text x="360" y="105" text-anchor="middle" fill="#fef3c7" font-size="8">→ H₂O</text>
+            <line x1="60" y1="15" x2="60" y2="8" stroke="#facc15" stroke-width="2"/>
+            <path d="M60,8 H400" stroke="#facc15" stroke-width="2" fill="none" marker-end="url(#eq24092)"/>
+            <line x1="400" y1="8" x2="400" y2="28" stroke="#facc15" stroke-width="2"/>
+            <text x="230" y="6" text-anchor="middle" fill="#facc15" font-size="8" font-weight="bold">e⁻ pelo fio condutor externo</text>
+            <defs>
+              <marker id="eq24092" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#facc15"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "Balanceando pelo número de elétrons",
+        legenda: "O truque de qualquer soma de semirreações redox: igualar os elétrons antes de somar. Aqui, multiplicar o cátodo por 2 faz os 8 e⁻ do ânodo cancelarem exatamente com os 8 e⁻ do cátodo.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="190" height="45" rx="6" fill="#164e63" stroke="#22d3ee" stroke-width="1.5"/>
+            <text x="115" y="38" text-anchor="middle" fill="#a5f3fc" font-size="8" font-weight="bold">Ânodo libera</text>
+            <text x="115" y="52" text-anchor="middle" fill="#a5f3fc" font-size="10" font-weight="bold">8 e⁻</text>
+            <rect x="250" y="20" width="190" height="45" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="345" y="38" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Cátodo ×2 consome</text>
+            <text x="345" y="52" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="bold">8 e⁻</text>
+            <text x="230" y="47" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="bold">=</text>
+            <rect x="90" y="95" width="280" height="40" rx="6" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="230" y="113" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Elétrons cancelam →</text>
+            <text x="230" y="126" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">sobra a reação global (alternativa C)</text>
+            <line x1="230" y1="65" x2="230" y2="93" stroke="#64748b" stroke-width="2" marker-end="url(#dq24092)"/>
+            <defs>
+              <marker id="dq24092" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Toda pilha ou célula eletroquímica (bateria comum, célula a combustível ou, como aqui, uma célula microbiana) segue a mesma lógica: uma reação de oxidação num lado libera elétrons, e uma reação de redução no outro lado os consome, com o fio externo fazendo a ponte.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Ânodo e cátodo: quem perde e quem ganha elétrons</h4>
+          <p>
+            No <strong>ânodo</strong>, ocorre <strong>oxidação</strong>: uma espécie perde elétrons (aumenta seu número de oxidação). Aqui, o acetato (CH₃COO⁻) é oxidado a CO₂, liberando elétrons que as bactérias "colhem" durante seu metabolismo. No <strong>cátodo</strong>, ocorre <strong>redução</strong>: uma espécie ganha elétrons. Aqui, o O₂ é reduzido a H₂O, consumindo os elétrons que chegaram pelo fio externo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Por que os elétrons não "vazam" pela solução</h4>
+          <p>
+            Os elétrons livres não atravessam bem soluções aquosas — por isso, para ir do ânodo até o cátodo, eles precisam de um caminho condutor sólido: o fio externo. Enquanto isso, os íons H⁺ (que também precisam se mover para fechar o circuito de cargas) atravessam a membrana interna da célula, indo do compartimento do ânodo para o do cátodo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> O método do balanceamento por elétrons (íon-elétron)</h4>
+          <p>
+            Quando duas semirreações têm números diferentes de elétrons (aqui, 8 no ânodo e 4 no cátodo), a reação global só existe depois de igualar esses números. Multiplica-se cada semirreação pelo menor fator que faça isso acontecer — no caso, basta multiplicar a equação do cátodo por 2 (indo de 4 e⁻ para 8 e⁻). Só depois disso as duas equações podem ser somadas termo a termo, com os elétrons se cancelando dos dois lados (afinal, todo elétron liberado no ânodo é, por definição, consumido no cátodo).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Simplificando o que sobra dos dois lados</h4>
+          <p>
+            Depois de somar, é comum a mesma substância aparecer nos dois lados da equação (aqui, H₂O e H⁺ aparecem tanto entre reagentes quanto entre produtos). O passo final é subtrair as quantidades repetidas, deixando cada substância só do lado em que ela está em excesso — é isso que reduz a soma bruta para a equação global mais enxuta, que é a que aparece como resposta correta.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-bolt"></i> Do Ânodo ao Cátodo: Fechando o Balanço de Elétrons</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <rect x="10" y="45" width="120" height="40" rx="5" fill="#164e63" stroke="#22d3ee" stroke-width="1.5"/>
+          <text x="70" y="62" fill="#a5f3fc" font-size="8" font-weight="bold" text-anchor="middle">CH₃COO⁻ + 2H₂O</text>
+          <text x="70" y="76" fill="#a5f3fc" font-size="8" text-anchor="middle">→ 2CO₂ + 7H⁺ + 8e⁻</text>
+          <line x1="130" y1="65" x2="160" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24092b)"/>
+          <rect x="164" y="45" width="130" height="40" rx="5" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+          <text x="229" y="62" fill="#ddd6fe" font-size="8" font-weight="bold" text-anchor="middle">Igualar elétrons</text>
+          <text x="229" y="76" fill="#ddd6fe" font-size="8" text-anchor="middle">(cátodo × 2)</text>
+          <line x1="294" y1="65" x2="324" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24092b)"/>
+          <rect x="328" y="45" width="122" height="40" rx="5" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+          <text x="389" y="58" fill="#6ee7b7" font-size="8" font-weight="bold" text-anchor="middle">CH₃COO⁻ + H⁺ + 2O₂</text>
+          <text x="389" y="72" fill="#6ee7b7" font-size="8" text-anchor="middle">→ 2CO₂ + 2H₂O</text>
+          <defs>
+            <marker id="pq24092b" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: balanceando a reação redox pelo número de elétrons",
+      descricao: "Escolha por quanto multiplicar a semirreação do cátodo e veja se os elétrons liberados no ânodo batem com os consumidos no cátodo.",
+      html: `
+        <div class="space-y-3">
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+            <p class="text-[11px] text-slate-400">Ânodo (fixo): <span class="text-cyan-300 font-mono">CH₃COO⁻ + 2H₂O → 2CO₂ + 7H⁺ + 8e⁻</span></p>
+            <p class="text-[11px] text-slate-400">Cátodo (base): <span class="text-amber-300 font-mono">4H⁺ + O₂ + 4e⁻ → 2H₂O</span></p>
+          </div>
+          <div class="bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <label class="text-[11px] text-slate-400 flex justify-between">
+              <span>Multiplicar a equação do cátodo por</span><span class="text-violet-300 font-bold" data-out="fator">1×</span>
+            </label>
+            <input type="range" data-sim="fator" min="1" max="4" value="1" step="1" class="w-full accent-violet-500">
+          </div>
+          <div class="grid grid-cols-2 gap-3">
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 text-center">
+              <p class="text-[10px] text-slate-500">e⁻ liberados no ânodo</p>
+              <p class="text-lg font-bold text-cyan-300">8</p>
+            </div>
+            <div class="bg-slate-950 border border-slate-800 rounded-xl p-3 text-center">
+              <p class="text-[10px] text-slate-500">e⁻ consumidos no cátodo</p>
+              <p class="text-lg font-bold text-amber-300" data-out="econsumidos">4</p>
+            </div>
+          </div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            Ajuste o multiplicador até os elétrons baterem.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var campo = raiz.querySelector('[data-sim="fator"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var fator = parseInt(campo.value, 10);
+          var econsumidos = 4 * fator;
+          saida('fator').textContent = fator + '×';
+          saida('econsumidos').textContent = econsumidos;
+
+          var v = saida('veredito');
+          if (econsumidos === 8) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            v.textContent = 'Bateu! 8 e⁻ liberados no ânodo = 8 e⁻ consumidos no cátodo (×2). Agora as duas semirreações podem ser somadas e os elétrons cancelam, sobrando a reação global — alternativa C.';
+          } else if (econsumidos < 8) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            v.textContent = 'Ainda não bateu: o cátodo está consumindo menos elétrons do que o ânodo libera. Sobrariam elétrons "perdidos" se você somasse assim.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200';
+            v.textContent = 'Passou do ponto: agora o cátodo pediria mais elétrons do que o ânodo consegue fornecer.';
+          }
+        }
+
+        campo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24093",
+    numero: "Questão 93 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Fundamentos — Definição de Compostos Orgânicos",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "O Que Define um Composto Orgânico? Do Senso Comum ao Conceito Científico",
+    tags: ["Química", "Química Orgânica", "Conceitos Fundamentais", "História da Química", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>No senso comum, considera-se, ainda hoje, que compostos orgânicos são substâncias presentes nos seres vivos. Na Química, a expressão "compostos orgânicos" tem um uso histórico de mais de 200 anos, adquirindo diferentes conotações ao longo do desenvolvimento dessa ciência. Atualmente, atribui-se a essa expressão outro significado.</p>
+    </div>
+    <p class="mt-2 font-semibold">A concepção científica atual define esses compostos como substâncias</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "benéficas à saúde humana.", correta: false },
+      { letra: "B", texto: "capazes de serem biodegradadas.", correta: false },
+      { letra: "C", texto: "formadas a partir de gás carbônico.", correta: false },
+      { letra: "D", texto: "produzidas sem o uso de agrotóxicos.", correta: false },
+      { letra: "E", texto: "contendo carbono como elemento principal.", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A questão é sobre a definição científica atual, não sobre onde os compostos orgânicos aparecem ou se fazem bem à saúde. Desde o século XIX, quando Friedrich Wöhler sintetizou ureia (um composto até então só encontrado em organismos vivos) a partir de substâncias inorgânicas em laboratório, a antiga ideia de que "orgânico = vem de um ser vivo" caiu por terra. A Química passou a definir composto orgânico pela sua estrutura: uma substância que contém <strong>carbono como elemento principal</strong>, tipicamente formando cadeias ou anéis ligados também a hidrogênio (e frequentemente a oxigênio, nitrogênio e outros elementos).
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> muitos compostos orgânicos são tóxicos ou cancerígenos (como vários solventes e pesticidas orgânicos) — "ser benéfico à saúde" não é parte da definição química, é só senso comum equivocado.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> plásticos são compostos orgânicos (polímeros de carbono) e muitos deles levam séculos para se biodegradar. Biodegradabilidade depende da estrutura específica da molécula, não é uma propriedade universal dos orgânicos.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> inverte a relação de causa e efeito — plantas usam CO₂ (um composto <em>inorgânico</em>) como matéria-prima para produzir compostos orgânicos na fotossíntese, mas isso não significa que "ser formado a partir de CO₂" seja a definição de composto orgânico. A grande maioria dos orgânicos nunca teve CO₂ como precursor direto.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> a própria definição de agrotóxico frequentemente envolve compostos orgânicos (organoclorados, organofosforados) — a presença ou ausência de agrotóxico na produção de um alimento não tem relação nenhuma com a estrutura química do que faz um composto ser orgânico.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> sempre que a questão contrastar "o que o senso comum pensa" com "o que a ciência define", desconfie de respostas emocionais/valorativas (benéfico, saudável, sustentável) — a definição científica costuma ser estrutural/composicional, não uma avaliação de qualidade.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-flask-vial", titulo: "Síntese de Wöhler (1828)", text: "Ao sintetizar ureia em laboratório a partir de reagentes inorgânicos, Wöhler derrubou a teoria da 'força vital'." },
+      { icone: "fa-atom", titulo: "Carbono como Base", text: "A definição atual é estrutural: composto orgânico é aquele que tem o carbono como elemento principal da cadeia." },
+      { icone: "fa-ban", titulo: "Exceções Clássicas", text: "CO₂, carbonatos e cianetos contêm carbono, mas são tratados como inorgânicos por convenção histórica." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Linha do tempo: de 'força vital' a definição estrutural",
+        legenda: "Antes de 1828, acreditava-se que só organismos vivos, dotados de uma 'força vital', poderiam produzir compostos orgânicos. Wöhler quebrou essa barreira ao sintetizar ureia em laboratório — hoje a definição é puramente estrutural.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <line x1="30" y1="65" x2="430" y2="65" stroke="#475569" stroke-width="2"/>
+            <circle cx="60" cy="65" r="6" fill="#f87171"/>
+            <text x="60" y="40" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">Antes de 1828</text>
+            <text x="60" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">"orgânico só vem</text>
+            <text x="60" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">de ser vivo"</text>
+            <circle cx="230" cy="65" r="6" fill="#facc15"/>
+            <text x="230" y="40" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">1828 — Wöhler</text>
+            <text x="230" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">sintetiza ureia</text>
+            <text x="230" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">em laboratório</text>
+            <circle cx="400" cy="65" r="6" fill="#34d399"/>
+            <text x="400" y="40" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Hoje</text>
+            <text x="400" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">definição por</text>
+            <text x="400" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">estrutura (carbono)</text>
+          </svg>`
+      },
+      {
+        titulo: "Nem tudo que tem carbono é 'orgânico'",
+        legenda: "A regra do carbono como elemento principal tem exceções históricas consagradas: CO₂, carbonatos (CaCO₃) e cianetos (CN⁻) contêm carbono, mas a Química os trata como compostos inorgânicos.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="20" width="200" height="90" rx="8" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="120" y="40" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">ORGÂNICOS</text>
+            <text x="120" y="60" text-anchor="middle" fill="#d1fae5" font-size="8">CH₄, C₂H₆O, glicose,</text>
+            <text x="120" y="72" text-anchor="middle" fill="#d1fae5" font-size="8">proteínas, plásticos...</text>
+            <text x="120" y="92" text-anchor="middle" fill="#a7f3d0" font-size="7">cadeias de C-C / C-H</text>
+            <rect x="240" y="20" width="200" height="90" rx="8" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="340" y="40" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">INORGÂNICOS (exceções)</text>
+            <text x="340" y="60" text-anchor="middle" fill="#fee2e2" font-size="8">CO₂, CaCO₃, CN⁻,</text>
+            <text x="340" y="72" text-anchor="middle" fill="#fee2e2" font-size="8">CO, carbetos</text>
+            <text x="340" y="92" text-anchor="middle" fill="#fca5a5" font-size="7">têm C, mas são exceção</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Essa questão testa um clássico "conceito que muda de significado com a história da ciência" — vale entender o antes e o depois pra não cair em nenhuma armadilha parecida.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A teoria da força vital (antes de 1828)</h4>
+          <p>
+            Até o início do século XIX, químicos acreditavam que compostos orgânicos só podiam ser produzidos por organismos vivos, através de uma misteriosa "força vital" (<em>vis vitalis</em>) que nenhum processo de laboratório conseguiria replicar. Compostos inorgânicos, por outro lado, viriam do mundo mineral, sem vida.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> A síntese de Wöhler e a queda da teoria</h4>
+          <p>
+            Em 1828, o químico alemão Friedrich Wöhler aqueceu cianato de amônio (um sal inorgânico) e obteve ureia — uma substância até então conhecida apenas como produto da urina de animais. Isso provou que um composto "orgânico" podia, sim, ser produzido a partir de matéria-prima inorgânica, em laboratório, sem nenhuma "força vital" envolvida. Esse experimento é considerado um marco no nascimento da Química Orgânica moderna como disciplina.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> A definição estrutural moderna</h4>
+          <p>
+            Hoje, a Química define composto orgânico não pela origem (vivo ou não), mas pela <strong>estrutura</strong>: são substâncias que têm o carbono como elemento principal, tipicamente formando cadeias (retas, ramificadas ou em anel) ligadas principalmente a hidrogênio, e com frequência a oxigênio, nitrogênio, enxofre e halogênios. É essa capacidade do carbono de formar quatro ligações covalentes estáveis, inclusive consigo mesmo, que permite a enorme variedade de moléculas orgânicas conhecidas — de metano a proteínas complexas.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> As exceções históricas que "têm carbono mas não são orgânicos"</h4>
+          <p>
+            Por convenção histórica (e não por uma regra estrutural rígida), alguns compostos com carbono continuam classificados como inorgânicos: dióxido de carbono (CO₂), monóxido de carbono (CO), carbonatos (como o CaCO₃ do calcário) e cianetos (CN⁻). Isso mostra que a fronteira orgânico/inorgânico, mesmo sendo hoje baseada em estrutura, ainda carrega resquícios de sua origem histórica.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-atom"></i> Por Que o Carbono é Especial</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <circle cx="230" cy="65" r="22" fill="#164e63" stroke="#22d3ee" stroke-width="2"/>
+          <text x="230" y="70" text-anchor="middle" fill="#a5f3fc" font-size="11" font-weight="bold">C</text>
+          <line x1="230" y1="43" x2="230" y2="15" stroke="#67e8f9" stroke-width="2"/>
+          <line x1="252" y1="65" x2="290" y2="65" stroke="#67e8f9" stroke-width="2"/>
+          <line x1="230" y1="87" x2="230" y2="115" stroke="#67e8f9" stroke-width="2"/>
+          <line x1="208" y1="65" x2="170" y2="65" stroke="#67e8f9" stroke-width="2"/>
+          <text x="230" y="10" text-anchor="middle" fill="#e2e8f0" font-size="8">liga a outro C</text>
+          <text x="330" y="68" text-anchor="middle" fill="#e2e8f0" font-size="8">liga a H</text>
+          <text x="230" y="128" text-anchor="middle" fill="#e2e8f0" font-size="8">liga a O, N...</text>
+          <text x="130" y="68" text-anchor="middle" fill="#e2e8f0" font-size="8">liga a outro C</text>
+          <text x="230" y="65" text-anchor="middle" fill="#a5f3fc" font-size="6" dy="20"></text>
+          <text x="20" y="122" fill="#94a3b8" font-size="7">4 ligações covalentes estáveis → cadeias enormes e variadas</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: orgânico ou inorgânico?",
+      descricao: "Clique em cada substância e veja se ela é classificada como composto orgânico (carbono como elemento principal, cadeias com H) ou inorgânica — incluindo as exceções clássicas.",
+      html: `
+        <div class="space-y-3">
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2" data-q24093-lista>
+            <button data-q24093-item="CH4" data-q24093-tipo="organico" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">CH₄ (metano)</button>
+            <button data-q24093-item="C2H5OH" data-q24093-tipo="organico" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">C₂H₅OH (etanol)</button>
+            <button data-q24093-item="glicose" data-q24093-tipo="organico" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">C₆H₁₂O₆ (glicose)</button>
+            <button data-q24093-item="CO2" data-q24093-tipo="excecao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">CO₂ (gás carbônico)</button>
+            <button data-q24093-item="CaCO3" data-q24093-tipo="excecao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">CaCO₃ (calcário)</button>
+            <button data-q24093-item="NaCl" data-q24093-tipo="inorganico" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">NaCl (sal de cozinha)</button>
+          </div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            Clique numa substância para classificá-la.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var botoes = raiz.querySelectorAll('[data-q24093-item]');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+
+        var textos = {
+          organico: 'É <strong>orgânico</strong>: tem o carbono como elemento principal da cadeia, ligado a hidrogênio (e aqui também a oxigênio).',
+          excecao: 'Tem carbono, mas é uma <strong>exceção histórica</strong>: por convenção, é classificado como inorgânico mesmo contendo o elemento.',
+          inorganico: 'É <strong>inorgânico</strong>: nem sequer tem carbono na fórmula.'
+        };
+        var cores = {
+          organico: 'border-emerald-500/40 bg-emerald-950/30 text-emerald-200',
+          excecao: 'border-amber-500/40 bg-amber-950/30 text-amber-200',
+          inorganico: 'border-slate-700 bg-slate-900/60 text-slate-300'
+        };
+
+        botoes.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            botoes.forEach(function (b) { b.classList.remove('border-cyan-500'); });
+            btn.classList.add('border-cyan-500');
+            var tipo = btn.getAttribute('data-q24093-tipo');
+            saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed ' + cores[tipo];
+            saida.innerHTML = textos[tipo];
+          });
+        });
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24094",
+    numero: "Questão 94 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Ácidos e Bases de Brønsted-Lowry — Fármacos",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Nimesulida e Brønsted-Lowry: Qual Grupo Doa o Próton?",
+    tags: ["Química", "Ácido-Base", "Brønsted-Lowry", "Fármacos", "Química Orgânica", "ENEM 2024"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>A nimesulida é um fármaco pouco solúvel em água, utilizado como anti-inflamatório, analgésico e antitérmico. Essa substância pode ser convertida em uma espécie eletricamente carregada, de maior solubilidade em água, mediante o tratamento com uma base de Brønsted-Lowry, isto é, uma espécie química capaz de capturar um próton (H⁺).</p>
+      <p>Na estrutura química da nimesulida estão presentes os seguintes grupamentos: <strong>metila</strong> (ligada a um enxofre sulfonílico), <strong>sulfonamida</strong> (o grupo –SO₂–NH– ligado a um anel aromático), um grupo <strong>éter</strong> ligando dois anéis aromáticos, um dos anéis sendo um grupo <strong>fenila</strong>, e um grupo <strong>nitro</strong> (–NO₂) ligado ao segundo anel aromático.</p>
+      <p class="text-right text-[11px] text-slate-500">GONÇALVES, A. A. et al. Contextualizando reações ácido-base de acordo com a teoria protônica de Brønsted-Lowry usando comprimidos de propranolol e nimesulida. <strong>Química Nova</strong>, n. 3, 2013 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Na estrutura desse fármaco, o grupamento capaz de reagir com a base de Brønsted-Lowry é o grupo</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "sulfonamida.", correta: true },
+      { letra: "B", texto: "metila.", correta: false },
+      { letra: "C", texto: "fenila.", correta: false },
+      { letra: "D", texto: "nitro.", correta: false },
+      { letra: "E", texto: "éter.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa A é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Uma base de Brønsted-Lowry <strong>captura</strong> um próton (H⁺) — isso significa que a nimesulida, para reagir com ela, precisa ter um hidrogênio capaz de ser <strong>doado</strong> (isto é, agir como ácido de Brønsted-Lowry nessa reação). O grupo sulfonamida (–SO₂–NH–) tem exatamente esse hidrogênio: o N–H ligado a um grupo sulfonila. Esse hidrogênio é incomumente ácido para um N–H comum porque a carga negativa que sobra no nitrogênio depois de perder o H⁺ é estabilizada por ressonância com o grupo sulfonílico (–SO₂–) vizinho e com o anel aromático — o mesmo motivo pelo qual sulfonamidas em geral (uma classe inteira de fármacos) têm essa acidez característica. Ao perder o H⁺, a nimesulida vira um ânion (espécie carregada), o que explica o aumento de solubilidade em água mencionado no enunciado.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> o grupo metila (–CH₃) tem hidrogênios ligados a carbono, que não são ácidos o suficiente para serem removidos por uma base comum — não há grupo vizinho estabilizando a carga negativa que sobraria no carbono.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> os hidrogênios do anel fenila são hidrogênios aromáticos, fortemente presos ao anel — removê-los exigiria condições extremamente drásticas, muito além do que uma base de Brønsted-Lowry comum consegue fazer.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> o grupo nitro (–NO₂) não tem nenhum hidrogênio ligado a ele — sem H para doar, ele simplesmente não pode participar dessa reação ácido-base específica.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> o oxigênio do grupo éter (–O–) já está com seus dois pares de elétrons livres ocupados em ligações estáveis com os anéis aromáticos; ele não tem um hidrogênio ácido disponível para doar a uma base.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> pra identificar o grupo que reage com uma base de Brønsted-Lowry, procure sempre um hidrogênio ligado a um átomo eletronegativo (N, O) cuja carga negativa, depois de sair o H⁺, tenha para onde "se espalhar" (ressonância) — isso é o que torna um H mais ácido que os outros na mesma molécula.
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-right-left", titulo: "Base de Brønsted-Lowry", text: "Espécie que captura (aceita) um próton H⁺ de um ácido." },
+      { icone: "fa-magnet", titulo: "N–H da Sulfonamida", text: "Ácido incomum: a carga negativa que sobra ao perder H⁺ é estabilizada por ressonância com o grupo –SO₂–." },
+      { icone: "fa-droplet", titulo: "Ionização Aumenta Solubilidade", text: "Ao virar um íon (carregado), o fármaco interage melhor com a água — por isso a reação ácido-base aumenta a solubilidade." }
+    ],
+
+    galeria: [
+      {
+        titulo: "A estrutura da nimesulida e seus grupos",
+        legenda: "Cinco grupamentos estão presentes na molécula: metila, sulfonamida, éter, fenila e nitro. Só um deles tem um hidrogênio ácido o bastante para reagir com uma base de Brønsted-Lowry.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="150" y="55" width="90" height="50" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+            <text x="195" y="75" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Sulfonamida</text>
+            <text x="195" y="90" text-anchor="middle" fill="#fde68a" font-size="8">–SO₂–N(H)–</text>
+            <circle cx="195" y="55" r="0"/>
+            <rect x="60" y="10" width="70" height="30" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="95" y="29" text-anchor="middle" fill="#cbd5e1" font-size="8">metila (CH₃)</text>
+            <rect x="270" y="10" width="70" height="30" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="305" y="29" text-anchor="middle" fill="#cbd5e1" font-size="8">éter (–O–)</text>
+            <rect x="60" y="120" width="80" height="30" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="100" y="139" text-anchor="middle" fill="#cbd5e1" font-size="8">fenila (anel)</text>
+            <rect x="270" y="120" width="80" height="30" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="310" y="139" text-anchor="middle" fill="#cbd5e1" font-size="8">nitro (–NO₂)</text>
+            <text x="380" y="80" fill="#fde68a" font-size="16" font-weight="bold">←</text>
+            <text x="380" y="95" fill="#fde68a" font-size="7">único H ácido</text>
+          </svg>`
+      },
+      {
+        titulo: "Antes e depois: a nimesulida perde o H⁺",
+        legenda: "Ao reagir com uma base de Brønsted-Lowry, o hidrogênio ácido da sulfonamida sai como H⁺, deixando a molécula carregada negativamente — mais solúvel em água.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="20" y="35" width="160" height="60" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="100" y="60" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Nimesulida</text>
+            <text x="100" y="76" text-anchor="middle" fill="#94a3b8" font-size="8">–SO₂–N(H)–</text>
+            <text x="100" y="88" text-anchor="middle" fill="#94a3b8" font-size="7">(neutra, pouco solúvel)</text>
+            <text x="215" y="70" fill="#e2e8f0" font-size="14" font-weight="bold">+ base →</text>
+            <rect x="280" y="35" width="160" height="60" rx="8" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="360" y="60" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Ânion nimesulida⁻</text>
+            <text x="360" y="76" text-anchor="middle" fill="#a7f3d0" font-size="8">–SO₂–N⁻–</text>
+            <text x="360" y="88" text-anchor="middle" fill="#a7f3d0" font-size="7">(carregada, + solúvel)</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Essa questão combina dois assuntos: a teoria ácido-base de Brønsted-Lowry e a ideia (bem comum em fármacos reais) de que ionizar uma molécula aumenta sua solubilidade em água.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A teoria de Brønsted-Lowry</h4>
+          <p>
+            Diferente da definição de Arrhenius (que só funciona bem em água), Brønsted-Lowry define ácido como qualquer espécie capaz de <strong>doar</strong> um próton (H⁺), e base como qualquer espécie capaz de <strong>receber</strong> (capturar) um próton. Numa reação ácido-base de Brønsted-Lowry, sempre há um H⁺ migrando de uma molécula (o ácido) para outra (a base).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Nem todo hidrogênio de uma molécula é igualmente ácido</h4>
+          <p>
+            Uma mesma molécula orgânica pode ter vários hidrogênios diferentes, mas eles não são igualmente fáceis de remover. Hidrogênios ligados diretamente a carbono (como na metila) costumam ser pouco ácidos, porque a carga negativa que sobraria no carbono, depois de sair o H⁺, não tem "para onde ir" — fica isolada e instável. Já hidrogênios ligados a átomos eletronegativos como oxigênio ou nitrogênio, especialmente quando vizinhos a grupos que ajudam a espalhar (por ressonância) a carga negativa resultante, são bem mais ácidos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> Por que o N–H da sulfonamida é especial</h4>
+          <p>
+            No grupo sulfonamida (–SO₂–NH–), o hidrogênio está ligado a um nitrogênio que, por sua vez, está ligado a um grupo sulfonila (–SO₂–) fortemente sacador de elétrons. Quando esse H⁺ sai, a carga negativa que sobra no nitrogênio é estabilizada por ressonância com os oxigênios do grupo sulfonila e, dependendo da molécula, com o anel aromático vizinho. Essa estabilização é o que torna o N–H da sulfonamida um ácido bem mais forte do que um N–H "comum" (como o de uma amina simples), a ponto de reagir prontamente com bases relativamente fracas.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Da acidez à solubilidade: por que isso importa na farmácia</h4>
+          <p>
+            Muitos fármacos, incluindo a nimesulida, são pouco solúveis em água na sua forma neutra — o que dificulta sua absorção e formulação. Ao tratar o fármaco com uma base (removendo o H⁺ ácido), ele se transforma num sal (uma espécie carregada), e espécies carregadas interagem muito melhor com a água (que é polar) do que moléculas neutras. É por isso que, na indústria farmacêutica, é comum formular medicamentos como sais (por exemplo, "nimesulida sódica") em vez da forma ácida neutra.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-magnet"></i> Por Que o N–H da Sulfonamida é Ácido</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <rect x="30" y="45" width="110" height="40" rx="5" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+          <text x="85" y="62" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">–SO₂– (sulfonila)</text>
+          <text x="85" y="76" text-anchor="middle" fill="#fde68a" font-size="7">sacador de elétrons</text>
+          <line x1="140" y1="65" x2="170" y2="65" stroke="#64748b" stroke-width="2"/>
+          <rect x="174" y="45" width="90" height="40" rx="5" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+          <text x="219" y="62" text-anchor="middle" fill="#ddd6fe" font-size="8" font-weight="bold">–N(H)–</text>
+          <text x="219" y="76" text-anchor="middle" fill="#ddd6fe" font-size="7">H ácido aqui</text>
+          <line x1="264" y1="65" x2="294" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24094)"/>
+          <rect x="298" y="45" width="140" height="40" rx="5" fill="#052e16" stroke="#34d399" stroke-width="2"/>
+          <text x="368" y="62" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">base captura H⁺</text>
+          <text x="368" y="76" text-anchor="middle" fill="#6ee7b7" font-size="7">carga estabilizada por ressonância</text>
+          <defs>
+            <marker id="pq24094" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: qual grupo tem o hidrogênio ácido?",
+      descricao: "Clique em cada grupo da nimesulida e veja se ele tem um hidrogênio capaz de reagir com uma base de Brønsted-Lowry — e por quê.",
+      html: `
+        <div class="space-y-3">
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2" data-q24094-lista>
+            <button data-q24094-item="sulfonamida" data-q24094-acido="sim" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Sulfonamida</button>
+            <button data-q24094-item="metila" data-q24094-acido="nao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Metila</button>
+            <button data-q24094-item="fenila" data-q24094-acido="nao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Fenila</button>
+            <button data-q24094-item="nitro" data-q24094-acido="nao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Nitro</button>
+            <button data-q24094-item="eter" data-q24094-acido="nao" class="p-2 rounded-lg border border-slate-800 bg-slate-950 text-[11px] text-slate-300 hover:border-cyan-500">Éter</button>
+          </div>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            Clique num grupo para ver se ele reage com a base.
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var botoes = raiz.querySelectorAll('[data-q24094-item]');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+
+        var explicacoes = {
+          sulfonamida: 'Tem um H ligado a N, vizinho ao grupo –SO₂–, que estabiliza por ressonância a carga negativa deixada ao perder o H⁺. <strong>Reage</strong> com a base — é a resposta da questão.',
+          metila: 'Só tem H ligado a carbono comum, sem nenhum grupo vizinho pra estabilizar uma carga negativa. Não é ácido o bastante para reagir com essa base.',
+          fenila: 'Os hidrogênios aromáticos do anel estão fortemente presos — remover um deles exigiria condições muito mais drásticas do que uma base de Brønsted-Lowry comum oferece.',
+          nitro: 'O grupo –NO₂ nem tem hidrogênio ligado a ele. Sem H para doar, não participa dessa reação ácido-base.',
+          eter: 'O oxigênio do éter já está com seus elétrons ocupados em ligações estáveis com dois anéis — não tem H ácido disponível para doar.'
+        };
+
+        botoes.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            botoes.forEach(function (b) { b.classList.remove('border-cyan-500'); });
+            btn.classList.add('border-cyan-500');
+            var acido = btn.getAttribute('data-q24094-acido') === 'sim';
+            saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed ' + (acido ? 'border-emerald-500/40 bg-emerald-950/30 text-emerald-200' : 'border-slate-700 bg-slate-900/60 text-slate-300');
+            saida.innerHTML = explicacoes[btn.getAttribute('data-q24094-item')];
+          });
+        });
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24095",
+    numero: "Questão 95 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Biotecnologia — PCR, RT-PCR e Expressão Gênica",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "RT-PCR: Por Que Essa Técnica Detecta Genes Expressos, Não o Genoma Inteiro",
+    tags: ["Biologia", "Biotecnologia", "PCR", "Expressão Gênica", "Genética Molecular", "ENEM 2024"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p>O desenvolvimento da biotecnologia e da clonagem gênica em procariotos fez com que a produção de proteínas se tornasse mais intensa, rápida e econômica. Para a produção de hormônios, enzimas e proteínas de resistência a drogas, uma variação da técnica de reação em cadeia pela polimerase (PCR, na sigla em inglês) utiliza a enzima transcriptase reversa (RT-PCR), que sintetiza moléculas de DNA complementares a partir de fitas de RNA.</p>
+    </div>
+    <p class="mt-2 font-semibold">Nesse contexto, essa técnica é importante para detectar genes</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "expressos.", correta: true },
+      { letra: "B", texto: "plasmidiais.", correta: false },
+      { letra: "C", texto: "bacterianos.", correta: false },
+      { letra: "D", texto: "dominantes.", correta: false },
+      { letra: "E", texto: "autossômicos.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-lime-950/40 p-4 rounded-xl border border-lime-500/30 space-y-2">
+          <h4 class="font-bold text-lime-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa A é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O ponto-chave do enunciado é: a RT-PCR parte de <strong>RNA</strong>, não de DNA genômico. A transcriptase reversa converte uma fita de RNA em uma fita complementar de DNA (chamada cDNA), que depois é amplificada como numa PCR comum. Só existe RNA mensageiro (mRNA) de um gene se aquele gene estiver sendo <strong>transcrito</strong> naquele momento, naquela célula — ou seja, se o gene estiver <strong>expresso</strong>. Um gene presente no genoma mas silenciado (não transcrito) simplesmente não vai gerar mRNA, e portanto não aparece numa reação de RT-PCR. Por isso a técnica é usada exatamente para saber quais genes estão "ligados" (sendo expressos) numa célula ou tecido, e não apenas quais genes existem no DNA.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> plasmídeos são moléculas de DNA — para detectar genes plasmidiais bastaria uma PCR comum, usando o próprio DNA do plasmídeo como molde. Não faz sentido usar a transcriptase reversa (que converte RNA em DNA) para algo que já é DNA.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> "genes bacterianos" é genérico demais e também se refere a DNA (o genoma bacteriano); de novo, DNA já amplificaria direto por PCR comum, sem precisar da etapa de transcrição reversa.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> dominância é um conceito da genética mendeliana, sobre como alelos se relacionam na determinação de um fenótipo — não tem relação com a técnica descrita, que não distingue genes dominantes de recessivos.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> "autossômico" descreve a localização de um gene (num autossomo, e não num cromossomo sexual) — também não tem relação com o fato de a técnica partir de RNA.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800 md:col-span-2">
+            <strong class="text-emerald-400">Dica ENEM:</strong> sempre que uma questão mencionar uma técnica que parte de <strong>RNA</strong> (RT-PCR, sequenciamento de RNA, microarranjos de expressão), ela está falando sobre <strong>expressão gênica</strong> — ou seja, quais genes estão ativos naquele momento —, não sobre o conteúdo total do genoma (que é fixo e igual em quase todas as células do organismo).
+          </div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-dna", titulo: "Transcriptase Reversa", text: "Enzima que sintetiza DNA complementar (cDNA) a partir de um molde de RNA — o 'inverso' da transcrição normal." },
+      { icone: "fa-toggle-on", titulo: "Genes Expressos x Genoma", text: "O genoma é o mesmo em quase toda célula; quais genes estão sendo transcritos (expressos) varia de célula para célula." },
+      { icone: "fa-vial-circle-check", titulo: "PCR x RT-PCR", text: "PCR comum amplifica DNA já existente; RT-PCR primeiro converte RNA em DNA, depois amplifica — por isso detecta expressão." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Do gene ao mRNA: só quem é expresso aparece",
+        legenda: "O DNA de uma célula contém todos os genes do organismo, mas só os genes ativamente transcritos naquele tecido/momento geram mRNA — e é esse mRNA que a RT-PCR detecta.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <rect x="20" y="20" width="420" height="35" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="230" y="43" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">DNA genômico — Gene A, Gene B, Gene C, Gene D (todos presentes)</text>
+            <line x1="80" y1="55" x2="80" y2="75" stroke="#34d399" stroke-width="2" marker-end="url(#gq24095)"/>
+            <line x1="380" y1="55" x2="380" y2="75" stroke="#34d399" stroke-width="2" marker-end="url(#gq24095)"/>
+            <text x="80" y="90" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Gene A</text>
+            <text x="80" y="102" text-anchor="middle" fill="#6ee7b7" font-size="7">transcrito → mRNA</text>
+            <text x="380" y="90" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Gene D</text>
+            <text x="380" y="102" text-anchor="middle" fill="#6ee7b7" font-size="7">transcrito → mRNA</text>
+            <text x="180" y="90" text-anchor="middle" fill="#64748b" font-size="8">Gene B: silenciado</text>
+            <text x="280" y="90" text-anchor="middle" fill="#64748b" font-size="8">Gene C: silenciado</text>
+            <rect x="40" y="115" width="360" height="25" rx="5" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="220" y="131" text-anchor="middle" fill="#a7f3d0" font-size="8" font-weight="bold">RT-PCR só detecta A e D (os expressos) — não B nem C</text>
+            <defs>
+              <marker id="gq24095" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#34d399"/>
+              </marker>
+            </defs>
+          </svg>`
+      },
+      {
+        titulo: "PCR comum x RT-PCR",
+        legenda: "A diferença essencial: PCR comum começa direto do DNA; RT-PCR precisa primeiro converter RNA em cDNA usando a transcriptase reversa, e só então amplificar.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <text x="115" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">PCR comum</text>
+            <rect x="30" y="30" width="80" height="30" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="70" y="49" text-anchor="middle" fill="#cbd5e1" font-size="8">DNA molde</text>
+            <line x1="70" y1="60" x2="70" y2="80" stroke="#64748b" stroke-width="2" marker-end="url(#pcrq24095)"/>
+            <rect x="30" y="85" width="80" height="30" rx="5" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="70" y="104" text-anchor="middle" fill="#6ee7b7" font-size="8">amplificado</text>
+
+            <text x="345" y="18" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">RT-PCR</text>
+            <rect x="290" y="20" width="110" height="28" rx="5" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="345" y="38" text-anchor="middle" fill="#fde68a" font-size="8">mRNA (só se expresso)</text>
+            <line x1="345" y1="48" x2="345" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pcrq24095)"/>
+            <rect x="290" y="70" width="110" height="26" rx="5" fill="#1e293b" stroke="#a78bfa" stroke-width="1.5"/>
+            <text x="345" y="87" text-anchor="middle" fill="#ddd6fe" font-size="8">cDNA (transcriptase reversa)</text>
+            <line x1="345" y1="96" x2="345" y2="113" stroke="#64748b" stroke-width="2" marker-end="url(#pcrq24095)"/>
+            <rect x="290" y="118" width="110" height="20" rx="5" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="345" y="132" text-anchor="middle" fill="#6ee7b7" font-size="8">amplificado</text>
+            <defs>
+              <marker id="pcrq24095" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+              </marker>
+            </defs>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3">
+          A chave dessa questão é lembrar que DNA e RNA contam histórias diferentes sobre uma célula: o DNA mostra o que ela <em>poderia</em> fazer (todo o genoma), e o RNA mostra o que ela <em>está fazendo agora</em> (os genes expressos).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">1.</span> O dogma central: DNA → RNA → proteína</h4>
+          <p>
+            Toda célula usa o mesmo fluxo básico de informação: o DNA é transcrito em RNA mensageiro (mRNA), e o mRNA é traduzido em proteína. Quase todas as células de um organismo têm o mesmo DNA (o mesmo genoma completo) — mas células diferentes (um neurônio, uma célula do fígado, uma célula muscular) expressam genes diferentes, produzindo mRNAs e proteínas diferentes, o que explica por que elas são tão distintas apesar de terem o mesmo DNA.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">2.</span> PCR: amplificando DNA que já existe</h4>
+          <p>
+            A PCR (reação em cadeia da polimerase) é uma técnica que amplifica (faz cópias de) um trecho específico de DNA, usando ciclos de aquecimento/resfriamento e uma enzima DNA polimerase resistente a calor. Ela detecta se um determinado trecho de DNA <strong>está presente</strong> na amostra — não diz nada sobre se esse gene está sendo usado (expresso) ou não.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">3.</span> RT-PCR: primeiro converter RNA em DNA</h4>
+          <p>
+            A RT-PCR (PCR com transcrição reversa) começa de um jeito diferente: em vez de partir direto do DNA, ela parte do <strong>RNA</strong> extraído da amostra. Como as enzimas de PCR só trabalham com DNA, é preciso primeiro usar a enzima <strong>transcriptase reversa</strong> para copiar o RNA numa fita complementar de DNA, chamada <strong>cDNA</strong> (DNA complementar). Só depois desse passo extra é que o cDNA é amplificado como numa PCR comum.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-lime-400">4.</span> Por que isso detecta expressão, não presença no genoma</h4>
+          <p>
+            Um gene só gera mRNA se estiver sendo transcrito naquele momento — ou seja, se estiver <strong>expresso</strong>. Um gene "desligado" (presente no DNA, mas não transcrito) não produz mRNA algum, então não há nada para a transcriptase reversa converter, e a RT-PCR não vai detectar nada para aquele gene. É exatamente por isso que a técnica é tão usada: para descobrir quais genes uma célula está realmente utilizando, seja para diagnosticar infecções virais de RNA, seja (como no enunciado) para conferir se uma bactéria modificada está de fato produzindo o mRNA da proteína de interesse antes de gastar recursos tentando purificar essa proteína.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-lime-300 block"><i class="fa-solid fa-dna"></i> Do RNA ao cDNA: o Papel da Transcriptase Reversa</span>
+        <svg viewBox="0 0 460 130" class="w-full h-32 mx-auto">
+          <rect x="20" y="45" width="110" height="40" rx="5" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+          <text x="75" y="62" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">mRNA</text>
+          <text x="75" y="76" text-anchor="middle" fill="#fde68a" font-size="7">(só se o gene está ativo)</text>
+          <line x1="130" y1="65" x2="165" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24095)"/>
+          <text x="147" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">transcriptase</text>
+          <text x="147" y="80" text-anchor="middle" fill="#94a3b8" font-size="7">reversa</text>
+          <rect x="169" y="45" width="110" height="40" rx="5" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+          <text x="224" y="62" text-anchor="middle" fill="#ddd6fe" font-size="8" font-weight="bold">cDNA</text>
+          <text x="224" y="76" text-anchor="middle" fill="#ddd6fe" font-size="7">(DNA complementar)</text>
+          <line x1="279" y1="65" x2="314" y2="65" stroke="#64748b" stroke-width="2" marker-end="url(#pq24095)"/>
+          <text x="296" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">PCR</text>
+          <rect x="318" y="45" width="120" height="40" rx="5" fill="#052e16" stroke="#34d399" stroke-width="2"/>
+          <text x="378" y="62" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">DNA amplificado</text>
+          <text x="378" y="76" text-anchor="middle" fill="#a7f3d0" font-size="7">= gene detectado (expresso)</text>
+          <defs>
+            <marker id="pq24095" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#64748b"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: quais genes a RT-PCR detecta nesta célula?",
+      descricao: "Ligue e desligue a expressão de cada gene (transcrição em mRNA) e veja quais deles a RT-PCR consegue detectar — o DNA de todos está sempre presente, mas isso não é o que importa aqui.",
+      html: `
+        <div class="space-y-3">
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2" data-q24095-lista>
+            <button data-q24095-gene="A" data-q24095-ativo="true" class="p-2 rounded-lg border text-[11px] font-bold transition border-emerald-500 bg-emerald-950/30 text-emerald-200">Gene A</button>
+            <button data-q24095-gene="B" data-q24095-ativo="false" class="p-2 rounded-lg border text-[11px] font-bold transition border-slate-800 bg-slate-950 text-slate-500">Gene B</button>
+            <button data-q24095-gene="C" data-q24095-ativo="true" class="p-2 rounded-lg border text-[11px] font-bold transition border-emerald-500 bg-emerald-950/30 text-emerald-200">Gene C</button>
+            <button data-q24095-gene="D" data-q24095-ativo="false" class="p-2 rounded-lg border text-[11px] font-bold transition border-slate-800 bg-slate-950 text-slate-500">Gene D</button>
+          </div>
+          <p class="text-[10px] text-slate-500">Clique num gene para ligar/desligar sua transcrição (expressão). Todos os quatro genes estão sempre presentes no DNA da célula.</p>
+          <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400">
+            —
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var botoes = raiz.querySelectorAll('[data-q24095-gene]');
+        var saida = raiz.querySelector('[data-out="veredito"]');
+
+        function atualizar() {
+          var ativos = [];
+          var inativos = [];
+          botoes.forEach(function (b) {
+            if (b.getAttribute('data-q24095-ativo') === 'true') ativos.push(b.getAttribute('data-q24095-gene'));
+            else inativos.push(b.getAttribute('data-q24095-gene'));
+          });
+          if (ativos.length === 0) {
+            saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200';
+            saida.textContent = 'Nenhum gene expresso agora — sem mRNA, a RT-PCR não detectaria nenhum deles, mesmo com o DNA de todos presente na célula.';
+          } else {
+            saida.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+            saida.innerHTML = 'A RT-PCR detectaria o mRNA (convertido em cDNA) dos genes <strong>' + ativos.join(', ') + '</strong>. Os genes <strong>' + (inativos.join(', ') || 'nenhum outro') + '</strong> continuam no DNA da célula, mas, por não estarem sendo transcritos, não geram mRNA e não aparecem no resultado.';
+          }
+        }
+
+        botoes.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var novoEstado = btn.getAttribute('data-q24095-ativo') !== 'true';
+            btn.setAttribute('data-q24095-ativo', novoEstado ? 'true' : 'false');
+            if (novoEstado) {
+              btn.className = 'p-2 rounded-lg border text-[11px] font-bold transition border-emerald-500 bg-emerald-950/30 text-emerald-200';
+            } else {
+              btn.className = 'p-2 rounded-lg border text-[11px] font-bold transition border-slate-800 bg-slate-950 text-slate-500';
+            }
+            atualizar();
+          });
+        });
+
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+
 
 ];
