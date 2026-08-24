@@ -40450,6 +40450,1102 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     },
 
     simuladorType: null
+  },
+
+{
+    id: "q24106",
+    numero: "Questão 106 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Ondulatória — Raios X e Absorção pela Matéria",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Por Que o Notebook Sai da Mala na Esteira de Raios X",
+    tags: ["Física", "Radiação Eletromagnética", "Raios X", "Absorção", "Segurança Aeroportuária", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Segurança aeroportuária e a inspeção por raios X</p>
+      <p>Em aeroportos, por razões de segurança, os passageiros devem ter suas bagagens de mão examinadas antes do embarque, passando-as em esteiras para sua inspeção por aparelhos de raios X. Nessas inspeções, os passageiros são orientados a retirar seus computadores portáteis (notebooks ou laptops) de malas, mochilas ou bolsas para passá-los isoladamente pela esteira.</p>
+      <p class="text-right text-[11px] text-slate-500">Situação-problema sobre inspeção de bagagens por raios X (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Que explicação física justifica esse procedimento?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Os raios X não interagem com os componentes metálicos do computador, o que impede a formação de imagens.", correta: false },
+      { letra: "B", texto: "Os raios X desmagnetizam o disco rígido do computador, quando refratados pelos componentes metálicos das bagagens de mão.", correta: false },
+      { letra: "C", texto: "Os raios X aquecem os materiais metálicos encontrados em bagagens de mão, quando refletidos pelos componentes do computador.", correta: false },
+      { letra: "D", texto: "Os raios X não atravessam os componentes densos do computador, o que impede a visualização de objetos que estão à frente ou atrás deles.", correta: true },
+      { letra: "E", texto: "Os raios X ionizam os materiais metálicos normalmente encontrados em bagagens de mão, quando difratados pelos componentes do computador.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A imagem formada por um scanner de raios X depende da <strong>absorção diferenciada</strong> da radiação por diferentes materiais: quanto mais denso (e mais alto o número atômico médio) o material, mais ele absorve os raios X, e menos radiação atravessa até o detector do outro lado — isso aparece na imagem como uma região mais escura/opaca. Um notebook é um objeto grande, compacto e cheio de componentes densos (bateria, placas metálicas, disco rígido). Quando ele fica empilhado dentro de uma mochila com outros objetos, sua "sombra" densa na imagem pode <strong>encobrir completamente</strong> outros itens posicionados à frente ou atrás dele no feixe de raios X — inclusive itens perigosos. Por isso, a orientação é isolar o notebook em uma bandeja separada: assim, nada fica "escondido atrás" da sua sombra densa, e o operador consegue examinar cada objeto com clareza.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> os raios X <em>interagem sim</em> com os componentes metálicos — é justamente essa interação (absorção) que forma a imagem. Se não houvesse interação nenhuma, nem seria possível "ver" o formato do computador na tela.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> raios X não têm a propriedade de "desmagnetizar" discos rígidos por refração — esse não é um fenômeno físico real associado a esse procedimento de segurança.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> o aquecimento de materiais metálicos por reflexão de raios X não é significativo nem é o motivo do procedimento — o problema é a formação de sombras/blind spots na imagem, não um efeito térmico.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> embora raios X sejam de fato radiação ionizante, a ionização dos materiais metálicos não é o que explica a orientação de isolar o computador — o problema prático é a visualização (sombra densa bloqueando outros objetos), não a ionização em si, e "difração" não é o fenômeno relevante aqui.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-radiation", titulo: "Raios X", text: "Radiação eletromagnética de alta energia, capaz de atravessar materiais com graus diferentes de facilidade, dependendo da densidade e do número atômico do material." },
+      { icone: "fa-layer-group", titulo: "Absorção e Atenuação", text: "Quanto mais denso o material, mais raios X são absorvidos, formando sombras mais escuras/opacas na imagem transmitida." },
+      { icone: "fa-image", titulo: "Imagem por Transmissão", text: "A imagem de raios X é formada pela diferença de intensidade da radiação que atravessa cada região do objeto — objetos densos sobrepostos podem se ocultar mutuamente." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Sombra densa do notebook ocultando outros objetos",
+        legenda: "Quando o notebook está empilhado com outros itens na mochila, sua sombra densa na imagem de raios X pode encobrir objetos posicionados atrás dele no feixe — daí a necessidade de isolá-lo.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Notebook dentro da mochila</text>
+            <rect x="40" y="35" width="150" height="100" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3 2"/>
+            <rect x="60" y="55" width="90" height="60" rx="4" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="105" y="90" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="bold">notebook</text>
+            <circle cx="105" cy="90" r="8" fill="#f87171" opacity="0.3"/>
+            <text x="105" y="150" text-anchor="middle" fill="#94a3b8" font-size="7">objeto escondido atrás não é visto</text>
+            <text x="345" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Notebook isolado na bandeja</text>
+            <rect x="270" y="35" width="150" height="60" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <text x="345" y="70" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="bold">notebook (visível por inteiro)</text>
+            <rect x="290" y="105" width="60" height="30" rx="4" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="320" y="145" text-anchor="middle" fill="#94a3b8" font-size="7">objeto ao lado também visível</text>
+          </svg>`
+      },
+      {
+        titulo: "Transmissão de raios X x densidade do material",
+        legenda: "Quanto maior a densidade do material atravessado, menor a fração de raios X que consegue passar até o detector — materiais muito densos formam sombras quase opacas.",
+        svg: `
+          <svg viewBox="0 0 400 160" class="w-full h-auto">
+            <line x1="45" y1="130" x2="380" y2="130" stroke="#475569" stroke-width="2"/>
+            <line x1="45" y1="130" x2="45" y2="20" stroke="#475569" stroke-width="2"/>
+            <text x="15" y="30" fill="#94a3b8" font-size="8">% transmitido</text>
+            <text x="340" y="145" fill="#94a3b8" font-size="8">densidade</text>
+            <path d="M55,30 Q150,50 250,95 T370,120" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+            <circle cx="120" cy="45" r="4" fill="#6ee7b7"/>
+            <text x="120" y="35" text-anchor="middle" fill="#6ee7b7" font-size="7">plástico</text>
+            <circle cx="280" cy="105" r="4" fill="#fbbf24"/>
+            <text x="280" y="118" text-anchor="middle" fill="#fde68a" font-size="7">metal/bateria</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Essa questão aplica um conceito central da física das radiações — a absorção de raios X por diferentes materiais — a uma situação do dia a dia que quase todo mundo já viveu num aeroporto.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> O que são raios X</h4>
+          <p>
+            Raios X são uma forma de radiação eletromagnética de alta frequência e alta energia, situada no espectro eletromagnético entre a luz ultravioleta e os raios gama. Por sua alta energia, os raios X conseguem atravessar materiais que bloqueiam a luz visível, como tecidos moles do corpo humano e muitos materiais usados em embalagens e bagagens.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Absorção: por que nem tudo é igualmente "transparente" a raios X</h4>
+          <p>
+            A capacidade de um material absorver raios X depende principalmente de dois fatores: sua densidade e seu número atômico médio. Materiais densos e com átomos "pesados" (como metais) absorvem muito mais raios X do que materiais leves como plástico, tecido ou papel. É por isso que o esqueleto (rico em cálcio) aparece bem definido numa radiografia médica, enquanto os tecidos moles ao redor aparecem em tons de cinza mais claros — e é o mesmo princípio que faz metais dentro de uma bagagem aparecerem como manchas escuras e bem definidas nas imagens de segurança.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> O problema da sobreposição de objetos densos</h4>
+          <p>
+            A imagem de raios X é, essencialmente, uma projeção 2D de um objeto 3D: tudo o que o feixe atravessa contribui para a mesma imagem. Quando um objeto muito denso (como um notebook, cheio de metal e uma bateria compacta) está posicionado no caminho do feixe, ele pode absorver quase toda a radiação que chegaria a um objeto posicionado atrás dele — criando um "ponto cego" na imagem onde outros itens ficam impossíveis de identificar com segurança.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Por isso o procedimento de segurança</h4>
+          <p>
+            Ao pedir que o passageiro retire o notebook e o passe isoladamente em uma bandeja, o operador do scanner garante que a "sombra" densa do computador não sobreponha a de nenhum outro item — cada objeto passa pelo feixe de raios X sem ser encoberto por outro, permitindo uma inspeção visual completa e confiável de toda a bagagem.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-radiation"></i> Objeto Denso Bloqueia o que Está Atrás</span>
+        <svg viewBox="0 0 300 130" class="w-full h-28 mx-auto">
+          <rect x="20" y="25" width="260" height="80" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3 2"/>
+          <rect x="60" y="40" width="70" height="50" rx="4" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="95" y="70" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="bold">notebook</text>
+          <rect x="150" y="50" width="30" height="30" rx="4" fill="#334155" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2 2" opacity="0.4"/>
+          <text x="165" y="105" text-anchor="middle" fill="#64748b" font-size="7">objeto oculto pela sombra</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: densidade do material e transmissão de raios X",
+      descricao: "Ajuste a densidade do material atravessado pelo feixe de raios X e veja como isso afeta a fração de radiação transmitida — e se um objeto atrás dele ainda seria visível.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Densidade do material (g/cm³)</span><span class="text-violet-300 font-bold" data-out="densidade">2,7 (alumínio)</span>
+              </label>
+              <input type="range" data-sim="densidade" min="1" max="11" value="2.7" step="0.1" class="w-full accent-violet-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Raios X transmitidos: <span data-out="transmissao" class="text-slate-200 font-bold text-base">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a densidade para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var densidade = raiz.querySelector('[data-sim="densidade"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function nomeMaterial(d) {
+          if (d < 1.5) return 'água/plástico leve';
+          if (d < 3) return 'alumínio';
+          if (d < 6) return 'vidro/liga leve';
+          if (d < 9) return 'aço';
+          return 'chumbo';
+        }
+
+        function atualizar() {
+          var d = parseFloat(densidade.value);
+          saida('densidade').textContent = d.toFixed(1) + ' (' + nomeMaterial(d) + ')';
+
+          var transmissao = 100 * Math.exp(-0.35 * d);
+          saida('transmissao').textContent = transmissao.toFixed(0) + '%';
+
+          var v = saida('veredito');
+          if (transmissao > 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Material pouco denso: a maior parte dos raios X atravessa, e um objeto posicionado atrás dele ainda seria bem visível na imagem.';
+          } else if (transmissao > 20) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Densidade moderada: parte significativa da radiação é absorvida — um objeto atrás dele já ficaria parcialmente obscurecido.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Material muito denso (como os componentes de um notebook): quase nenhum raio X atravessa — qualquer objeto posicionado atrás dele fica completamente oculto na imagem, daí a necessidade de isolá-lo na bandeja.';
+          }
+        }
+
+        densidade.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  },
+
+  {
+    id: "q24107",
+    numero: "Questão 107 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Química Orgânica — Formação de Compostos Nitrosos",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Por Que o Estômago é Onde Começa a Reação com os Nitritos da Carne",
+    tags: ["Química", "Reações Químicas", "Ácido Nitroso", "Nitrosaminas", "Fisiologia Digestiva", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Nitrito de sódio, ácido nitroso e compostos nitrosos mutagênicos</p>
+      <p>Com base em testes realizados em ratos, concluiu-se que os compostos nitrosos são substâncias mutagênicas, ou seja, produzem mutações nas células e possivelmente câncer. Esses compostos podem ser obtidos pela reação entre o nitrito de sódio, que é um conservante adicionado às carnes, e o ácido clorídrico. O ácido nitroso produzido irá reagir com compostos nitrogenados, como as aminas, dando origem aos compostos nitrosos.</p>
+      <p class="text-right text-[11px] text-slate-500">Situação-problema sobre a formação de nitrosaminas no organismo (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Em qual órgão esse processo será iniciado?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Rim.", correta: false },
+      { letra: "B", texto: "Fígado.", correta: false },
+      { letra: "C", texto: "Intestino.", correta: false },
+      { letra: "D", texto: "Pâncreas.", correta: false },
+      { letra: "E", texto: "Estômago.", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O próprio enunciado dá a pista química: a reação que dá início a todo o processo é entre o <strong>nitrito de sódio (NaNO₂)</strong>, presente na carne processada, e o <strong>ácido clorídrico (HCl)</strong>. Para essa reação acontecer, o corpo precisa fornecer HCl em quantidade — e o único órgão do sistema digestivo que naturalmente contém ácido clorídrico concentrado é o <strong>estômago</strong>, onde o suco gástrico mantém um pH bem ácido (em torno de 1,5 a 3,5), secretado pelas células parietais para ajudar na digestão de proteínas e eliminar micro-organismos. É nesse ambiente ácido que o nitrito reage com o HCl formando <strong>ácido nitroso (HNO₂)</strong>, que por sua vez reage com aminas (provenientes da digestão de proteínas da própria carne) formando os compostos nitrosos mutagênicos.
+          </p>
+          <p class="text-slate-400 text-[10px] font-mono bg-slate-950/60 p-2 rounded">
+            NaNO₂ + HCl → HNO₂ + NaCl<br>
+            HNO₂ + amina → composto nitroso + H₂O
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta — Rim:</strong> o rim filtra o sangue e forma a urina, num ambiente que não é ácido como o do estômago — não é onde essa reação específica se inicia; o rim atuaria depois, na eliminação de substâncias já absorvidas.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta — Fígado:</strong> o fígado metaboliza substâncias já absorvidas pelo intestino (importante na desintoxicação), mas não é o local onde o nitrito encontra o ácido clorídrico necessário para iniciar essa reação.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta — Intestino:</strong> o ambiente intestinal é predominantemente neutro a levemente alcalino (por ação de secreções pancreáticas e biliares), o oposto do meio fortemente ácido necessário para formar o ácido nitroso a partir do nitrito.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta — Pâncreas:</strong> as secreções pancreáticas são alcalinas (para neutralizar o quimo ácido vindo do estômago) — o ambiente oposto ao necessário para a reação nitrito + HCl.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-flask", titulo: "Ácido Nitroso (HNO₂)", text: "Formado pela reação entre nitrito e um ácido forte; reage com aminas formando compostos nitrosos (nitrosaminas), associados a efeitos mutagênicos." },
+      { icone: "fa-stomach", titulo: "Suco Gástrico", text: "Secreção ácida do estômago (rica em HCl, pH ≈ 1,5–3,5), essencial para a digestão de proteínas e primeira linha de defesa contra micro-organismos ingeridos." },
+      { icone: "fa-drumstick-bite", titulo: "Nitrito como Conservante", text: "O nitrito de sódio é usado para preservar carnes processadas (evitar Clostridium botulinum) e manter a cor avermelhada, mas pode originar compostos nitrosos no trato digestivo." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Onde a reação começa: o ambiente ácido do estômago",
+        legenda: "Entre os órgãos do sistema digestivo, apenas o estômago mantém um pH suficientemente ácido (por causa do HCl do suco gástrico) para que o nitrito reaja formando ácido nitroso.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <ellipse cx="140" cy="90" rx="90" ry="60" fill="#083344" stroke="#22d3ee" stroke-width="2.5"/>
+            <text x="140" y="60" text-anchor="middle" fill="#67e8f9" font-size="9" font-weight="bold">Estômago</text>
+            <text x="140" y="78" text-anchor="middle" fill="#a5f3fc" font-size="7">pH ≈ 1,5 – 3,5 (HCl)</text>
+            <circle cx="105" cy="100" r="4" fill="#fbbf24"/>
+            <text x="105" y="118" text-anchor="middle" fill="#fde68a" font-size="6.5">nitrito</text>
+            <circle cx="175" cy="100" r="4" fill="#f87171"/>
+            <text x="175" y="118" text-anchor="middle" fill="#fca5a5" font-size="6.5">HCl</text>
+            <text x="140" y="140" text-anchor="middle" fill="#67e8f9" font-size="7" font-weight="bold">→ ácido nitroso (HNO₂)</text>
+            <g opacity="0.35">
+              <rect x="270" y="30" width="70" height="30" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+              <text x="305" y="49" text-anchor="middle" fill="#94a3b8" font-size="7">fígado</text>
+              <rect x="270" y="70" width="70" height="30" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+              <text x="305" y="89" text-anchor="middle" fill="#94a3b8" font-size="7">pâncreas</text>
+              <rect x="270" y="110" width="70" height="30" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+              <text x="305" y="129" text-anchor="middle" fill="#94a3b8" font-size="7">intestino</text>
+            </g>
+            <text x="380" y="90" fill="#64748b" font-size="7">ambiente não ácido —</text>
+            <text x="380" y="100" fill="#64748b" font-size="7">reação não se inicia aqui</text>
+          </svg>`
+      },
+      {
+        titulo: "A rota da reação: do nitrito ao composto nitroso",
+        legenda: "Duas etapas em sequência: primeiro o nitrito reage com o HCl do estômago formando ácido nitroso; depois, esse ácido nitroso reage com aminas da digestão de proteínas, formando o composto nitroso mutagênico.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="15" y="40" width="110" height="45" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="70" y="60" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">NaNO₂ (nitrito)</text>
+            <text x="70" y="73" text-anchor="middle" fill="#fde68a" font-size="7">+ HCl (estômago)</text>
+            <path d="M130,62 L165,62" stroke="#94a3b8" stroke-width="2" marker-end="url(#a107)"/>
+            <defs><marker id="a107" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+            <rect x="175" y="40" width="110" height="45" rx="6" fill="#083344" stroke="#22d3ee" stroke-width="1.5"/>
+            <text x="230" y="66" text-anchor="middle" fill="#67e8f9" font-size="9" font-weight="bold">HNO₂</text>
+            <path d="M290,62 L325,62" stroke="#94a3b8" stroke-width="2" marker-end="url(#a107)"/>
+            <rect x="335" y="30" width="115" height="65" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="392" y="55" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">+ amina</text>
+            <text x="392" y="70" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">composto nitroso</text>
+            <text x="392" y="83" text-anchor="middle" fill="#fca5a5" font-size="6.5">(mutagênico)</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Essa questão combina química de reações ácido-base/substituição com fisiologia digestiva: para saber onde a reação começa, é preciso lembrar qual órgão tem o "ingrediente" químico necessário — o ácido clorídrico.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> Por que carnes processadas levam nitrito</h4>
+          <p>
+            O nitrito de sódio (NaNO₂) é adicionado a carnes processadas (como presunto, salame, bacon, salsicha) principalmente para inibir o crescimento da bactéria <em>Clostridium botulinum</em>, causadora do botulismo, além de contribuir para a cor rosada característica desses produtos. Apesar de seu papel importante na segurança alimentar, o nitrito pode participar de reações químicas indesejadas dentro do corpo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> A química por trás da formação do ácido nitroso</h4>
+          <p>
+            Em meio ácido, o íon nitrito (NO₂⁻) se protona formando ácido nitroso (HNO₂), uma espécie química instável e reativa. A equação simplificada é: NaNO₂ + HCl → HNO₂ + NaCl. Esse tipo de reação — um sal reagindo com um ácido forte para formar um ácido mais fraco — é típica de reações de deslocamento/dupla troca envolvendo ácidos e sais.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> O papel único do estômago nesse processo</h4>
+          <p>
+            De todos os órgãos do sistema digestivo, o estômago é o único que naturalmente disponibiliza grande quantidade de ácido clorídrico livre — secretado pelas células parietais da mucosa gástrica para auxiliar a digestão de proteínas (ativando a enzima pepsina) e eliminar micro-organismos ingeridos com o alimento. É esse ambiente fortemente ácido (pH tipicamente entre 1,5 e 3,5) que fornece as condições químicas necessárias para o nitrito reagir e formar ácido nitroso.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> De ácido nitroso a composto nitroso mutagênico</h4>
+          <p>
+            Uma vez formado, o ácido nitroso reage com aminas — moléculas nitrogenadas presentes na digestão de proteínas da própria carne — formando compostos N-nitrosos (nitrosaminas). Estudos em animais associam essas substâncias à formação de mutações genéticas e, potencialmente, ao desenvolvimento de câncer, o que justifica recomendações de saúde pública para moderar o consumo de carnes processadas ricas em nitrito.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-flask"></i> O Estômago Fornece o HCl Necessário</span>
+        <svg viewBox="0 0 280 130" class="w-full h-28 mx-auto">
+          <ellipse cx="140" cy="70" rx="75" ry="48" fill="#083344" stroke="#22d3ee" stroke-width="2.5"/>
+          <text x="140" y="55" text-anchor="middle" fill="#67e8f9" font-size="9" font-weight="bold">Estômago</text>
+          <text x="140" y="70" text-anchor="middle" fill="#a5f3fc" font-size="7">HCl (pH ácido)</text>
+          <text x="140" y="88" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">nitrito → HNO₂</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: pH do órgão e formação de ácido nitroso",
+      descricao: "Ajuste o pH do ambiente digestivo simulado e veja em quais condições o nitrito consegue reagir formando ácido nitroso — o primeiro passo para os compostos nitrosos mutagênicos.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>pH do ambiente</span><span class="text-cyan-300 font-bold" data-out="ph">2,0</span>
+              </label>
+              <input type="range" data-sim="ph" min="1" max="9" value="2" step="0.5" class="w-full accent-cyan-500">
+              <p class="text-[10px] text-slate-500 mt-1">Estômago ≈ 1,5–3,5 · Intestino/pâncreas ≈ 7–8,5</p>
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Formação de ácido nitroso: <span data-out="reacao" class="text-slate-200 font-bold text-base">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste o pH para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var ph = raiz.querySelector('[data-sim="ph"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var p = parseFloat(ph.value);
+          saida('ph').textContent = p.toFixed(1);
+
+          var v = saida('veredito');
+          if (p <= 3.5) {
+            saida('reacao').textContent = 'Ocorre rapidamente';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Com pH ' + p.toFixed(1) + ' (faixa gástrica), há HCl suficiente para converter o nitrito em ácido nitroso — exatamente o que acontece no estômago.';
+          } else if (p <= 5.5) {
+            saida('reacao').textContent = 'Ocorre lentamente';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'pH ' + p.toFixed(1) + ': ainda ligeiramente ácido, mas bem mais fraco que o suco gástrico — a formação de ácido nitroso seria bem menos eficiente.';
+          } else {
+            saida('reacao').textContent = 'Praticamente não ocorre';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'pH ' + p.toFixed(1) + ' (neutro/alcalino, como no intestino ou pâncreas): sem HCl livre, o nitrito não é convertido em ácido nitroso — por isso a reação não se inicia nesses órgãos.';
+          }
+        }
+
+        ph.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24108",
+    numero: "Questão 108 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia — Sucessão Ecológica",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Do Pasto Degradado à Floresta: Sistemas Agroflorestais e a Sucessão Ecológica",
+    tags: ["Biologia", "Ecologia", "Sucessão Ecológica", "Sistemas Agroflorestais", "Biodiversidade", "ENEM 2024"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Sistemas agroflorestais (SAFs) e a recuperação de áreas degradadas</p>
+      <p>Os sistemas agroflorestais alinham os interesses econômicos aos ecológicos. Esses sistemas podem ser usados na recuperação ambiental de áreas degradadas que se tornaram pouco produtivas, como as utilizadas por muito tempo para pastagem. Para isso, num primeiro momento, as árvores nativas são plantadas em conjunto com culturas agrícolas anuais, como feijão, mandioca, milho e abóbora, que geram renda para os proprietários da terra e incentivam a manutenção do sistema. Em um segundo momento, são introduzidas outras espécies, como trepadeiras e arbustos, de acordo com um arranjo espacial e temporal preestabelecido.</p>
+      <p>Nesse processo, ocorrerão mudanças graduais na estrutura e composição das comunidades vegetais ao longo do tempo, que culminarão no aumento da diversidade do ambiente.</p>
+      <p class="text-right text-[11px] text-slate-500">Disponível em: www.embrapa.br. Acesso em: 9 dez. 2021 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">O conjunto dessas mudanças graduais é análogo ao processo natural denominado</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "rotação de culturas.", correta: false },
+      { letra: "B", texto: "sucessão ecológica.", correta: true },
+      { letra: "C", texto: "coevolução específica.", correta: false },
+      { letra: "D", texto: "adaptação por seleção.", correta: false },
+      { letra: "E", texto: "convergência adaptativa.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa B é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O enunciado descreve exatamente a definição de <strong>sucessão ecológica</strong>: um processo gradual e ordenado de mudança na estrutura e composição de espécies de uma comunidade ao longo do tempo, tipicamente partindo de espécies pioneiras (que colonizam rápido, como as culturas anuais — feijão, mandioca, milho, abóbora) e progredindo até uma comunidade mais complexa e diversa (com árvores, arbustos e trepadeiras). Como essa área já foi usada como pastagem (um ambiente alterado, não um substrato estéril como uma rocha nua), trata-se de uma <strong>sucessão secundária</strong> — aquela que ocorre em locais onde já havia vida antes, mas que foi perturbada. O resultado final descrito no enunciado — aumento da diversidade do ambiente ao longo do tempo — é justamente o padrão esperado numa sucessão ecológica, que tende a caminhar em direção a uma comunidade clímax mais estável e diversa.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> rotação de culturas é uma prática agrícola de alternar diferentes plantios numa mesma área ao longo das safras (para preservar o solo) — não descreve o aumento progressivo e cumulativo de diversidade e complexidade da comunidade vegetal ao longo do tempo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> coevolução específica descreve mudanças evolutivas recíprocas entre duas espécies que interagem intimamente (como uma planta e seu polinizador específico) — é um processo evolutivo entre pares de espécies, não uma mudança na estrutura de toda a comunidade.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> adaptação por seleção natural ocorre no nível de populações de uma única espécie ao longo de gerações — não descreve a substituição gradual de uma comunidade inteira por outra mais diversa.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> convergência adaptativa é quando espécies não aparentadas desenvolvem características semelhantes por viverem sob pressões ambientais parecidas — não tem relação com o processo de mudança temporal na composição de uma comunidade descrito no enunciado.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-seedling", titulo: "Sucessão Ecológica", text: "Processo natural e gradual de substituição de espécies numa comunidade ao longo do tempo, geralmente aumentando em complexidade e diversidade." },
+      { icone: "fa-clock-rotate-left", titulo: "Sucessão Primária vs. Secundária", text: "A sucessão primária ocorre em substratos sem vida prévia (rocha nua, lava); a secundária ocorre em áreas já habitadas antes, mas perturbadas (como um pasto abandonado)." },
+      { icone: "fa-tree", titulo: "Comunidade Clímax", text: "Estágio final e relativamente estável de uma sucessão ecológica, com maior diversidade e complexidade estrutural." }
+    ],
+
+    galeria: [
+      {
+        titulo: "As etapas da sucessão num sistema agroflorestal",
+        legenda: "A área degradada (pasto) recebe primeiro espécies pioneiras de ciclo curto (culturas anuais), depois arbustos e trepadeiras, evoluindo gradualmente para uma comunidade mais diversa e complexa — o mesmo padrão da sucessão ecológica natural.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <line x1="30" y1="130" x2="440" y2="130" stroke="#475569" stroke-width="2"/>
+            <text x="60" y="150" fill="#94a3b8" font-size="7">pasto degradado</text>
+            <text x="230" y="150" fill="#94a3b8" font-size="7">culturas anuais</text>
+            <text x="400" y="150" fill="#94a3b8" font-size="7">floresta diversa</text>
+            <rect x="45" y="105" width="30" height="20" fill="#78350f" opacity="0.5"/>
+            <rect x="200" y="90" width="14" height="35" fill="#a3e635"/>
+            <rect x="220" y="95" width="14" height="30" fill="#a3e635"/>
+            <rect x="240" y="88" width="14" height="37" fill="#a3e635"/>
+            <circle cx="380" cy="90" r="22" fill="#065f46"/>
+            <rect x="376" y="105" width="8" height="25" fill="#78350f"/>
+            <circle cx="415" cy="75" r="18" fill="#047857"/>
+            <rect x="411" y="90" width="8" height="40" fill="#78350f"/>
+            <circle cx="350" cy="100" r="14" fill="#059669"/>
+            <rect x="347" y="112" width="6" height="18" fill="#78350f"/>
+            <path d="M60,130 Q230,130 420,90" fill="none" stroke="#6ee7b7" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <text x="230" y="35" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">diversidade aumentando com o tempo →</text>
+          </svg>`
+      },
+      {
+        titulo: "Sucessão secundária: recomeçando a partir de um solo já alterado",
+        legenda: "Diferente da sucessão primária (que parte de rocha nua ou lava sem vida), a sucessão secundária parte de um ambiente já alterado por atividade humana — como um pasto — mas que ainda mantém solo e nutrientes.",
+        svg: `
+          <svg viewBox="0 0 400 130" class="w-full h-auto">
+            <rect x="20" y="60" width="160" height="50" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="100" y="82" text-anchor="middle" fill="#cbd5e1" font-size="8" font-weight="bold">Sucessão primária</text>
+            <text x="100" y="98" text-anchor="middle" fill="#94a3b8" font-size="7">rocha nua, sem solo</text>
+            <rect x="220" y="45" width="160" height="65" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <text x="300" y="68" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Sucessão secundária</text>
+            <text x="300" y="84" text-anchor="middle" fill="#a7f3d0" font-size="7">pasto degradado, com solo</text>
+            <text x="300" y="98" text-anchor="middle" fill="#a7f3d0" font-size="7">(caso do SAF descrito)</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão pede que o estudante reconheça um processo ecológico clássico — a sucessão — disfarçado numa aplicação prática e atual: a recuperação de terras degradadas por meio de sistemas agroflorestais.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é sucessão ecológica</h4>
+          <p>
+            Sucessão ecológica é o processo pelo qual a composição de espécies de uma comunidade muda de forma previsível e gradual ao longo do tempo. Ela normalmente começa com espécies pioneiras — organismos de crescimento rápido, pouco exigentes, capazes de colonizar ambientes recém-disponíveis ou perturbados — e avança em direção a comunidades cada vez mais complexas e diversas, num processo que pode levar décadas ou séculos até atingir um estágio relativamente estável, chamado <strong>comunidade clímax</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Sucessão primária x secundária</h4>
+          <p>
+            Na <strong>sucessão primária</strong>, a colonização começa "do zero", num substrato sem solo nem vida prévia (como lava vulcânica resfriada ou rocha exposta por um glacial). Já na <strong>sucessão secundária</strong>, o processo começa a partir de um ambiente que já tinha vida e solo formado, mas que foi perturbado (por incêndio, desmatamento ou, como no caso da questão, uso prolongado como pastagem). A sucessão secundária costuma ser mais rápida, já que o solo já contém nutrientes, sementes e microrganismos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O SAF como sucessão "guiada" pelo ser humano</h4>
+          <p>
+            Um sistema agroflorestal reproduz artificialmente as etapas da sucessão natural: primeiro, plantas de ciclo curto e crescimento rápido (equivalentes às pioneiras — feijão, milho, mandioca, abóbora), que já geram renda enquanto preparam o ambiente (sombra parcial, matéria orgânica, estrutura de solo); depois, espécies de ciclo mais longo (arbustos, trepadeiras, árvores nativas) são introduzidas, aumentando progressivamente a complexidade estrutural e a diversidade — o mesmo padrão temporal de uma sucessão ecológica natural, só que planejado e acelerado pelo manejo humano.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que isso é uma estratégia poderosa de recuperação ambiental</h4>
+          <p>
+            Ao imitar a sucessão natural, os SAFs conseguem recuperar a produtividade ecológica de terras degradadas sem abandonar o uso econômico da terra — os proprietários continuam obtendo renda das culturas de ciclo curto enquanto a diversidade e a complexidade do sistema aumentam ao longo dos anos, culminando (idealmente) num sistema agroflorestal maduro que se aproxima, em estrutura e função, de uma floresta nativa.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-seedling"></i> De Pioneiras a Comunidade Diversa</span>
+        <svg viewBox="0 0 280 120" class="w-full h-28 mx-auto">
+          <line x1="20" y1="95" x2="260" y2="95" stroke="#475569" stroke-width="2"/>
+          <rect x="35" y="80" width="10" height="15" fill="#a3e635"/>
+          <rect x="50" y="75" width="10" height="20" fill="#a3e635"/>
+          <circle cx="150" cy="65" r="16" fill="#059669"/>
+          <rect x="146" y="80" width="6" height="15" fill="#78350f"/>
+          <circle cx="220" cy="50" r="22" fill="#065f46"/>
+          <rect x="216" y="70" width="8" height="25" fill="#78350f"/>
+          <text x="140" y="112" text-anchor="middle" fill="#94a3b8" font-size="7">tempo →</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: sucessão ecológica ao longo do tempo",
+      descricao: "Avance o tempo (em anos) desde o plantio inicial e veja como a diversidade e a estrutura da comunidade vegetal do sistema agroflorestal evoluem.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Anos desde o início do plantio</span><span class="text-emerald-300 font-bold" data-out="anos">0 anos</span>
+              </label>
+              <input type="range" data-sim="anos" min="0" max="20" value="0" step="1" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Estágio dominante: <span data-out="estagio" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Diversidade estimada: <span data-out="diversidade" class="text-slate-200 font-bold text-base">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Avance o tempo para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var anos = raiz.querySelector('[data-sim="anos"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var a = parseFloat(anos.value);
+          saida('anos').textContent = a + ' anos';
+
+          var diversidade = Math.min(100, a * 5.5);
+          saida('diversidade').textContent = diversidade.toFixed(0) + '%';
+
+          var v = saida('veredito');
+          if (a < 2) {
+            saida('estagio').textContent = 'Pasto degradado';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Início: área ainda dominada pela pastagem, com baixíssima diversidade vegetal.';
+          } else if (a < 6) {
+            saida('estagio').textContent = 'Culturas anuais (pioneiras)';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Fase pioneira: feijão, milho, mandioca e abóbora já geram renda e começam a preparar o solo e a sombra para as próximas espécies.';
+          } else if (a < 13) {
+            saida('estagio').textContent = 'Arbustos e trepadeiras se estabelecendo';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Fase intermediária: arbustos e trepadeiras se somam às pioneiras, e a estrutura vertical da vegetação começa a se diversificar.';
+          } else {
+            saida('estagio').textContent = 'Sistema agroflorestal maduro';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Estágio avançado: árvores nativas dominam a estrutura, a diversidade se aproxima de uma comunidade clímax — o mesmo padrão de uma sucessão ecológica natural.';
+          }
+        }
+
+        anos.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24109",
+    numero: "Questão 109 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Fisiologia — Fibras Musculares e Desempenho Atlético",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Fibras Brancas ou Vermelhas: Qual Prova Olímpica Combina com Cada Atleta",
+    tags: ["Biologia", "Fisiologia Muscular", "Fibras Musculares", "Metabolismo Aeróbico", "Desempenho Esportivo", "ENEM 2024"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Fibras musculares lentas e rápidas</p>
+      <p>As fibras musculares esqueléticas não são todas iguais. As fibras lentas, também conhecidas como fibras vermelhas, apresentam muitas mitocôndrias e são bem supridas por vasos sanguíneos. Já as fibras rápidas, ou fibras brancas, apresentam poucas mitocôndrias e recebem menor suprimento sanguíneo. Dessa forma, a distribuição das fibras nos músculos esqueléticos do corpo auxilia de forma diferenciada no desempenho físico de um atleta.</p>
+      <p class="text-right text-[11px] text-slate-500">SADAVA, D. et al. Vida: a ciência da biologia — volume III: plantas e animais. Porto Alegre: Artmed, 2009 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Um atleta que sonha em disputar os Jogos Olímpicos e tem uma maior proporção de fibras brancas que fibras vermelhas teria mais vantagens na realização da prova de:</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Triatlo.", correta: false },
+      { letra: "B", texto: "Salto em altura.", correta: true },
+      { letra: "C", texto: "Marcha atlética.", correta: false },
+      { letra: "D", texto: "Maratona aquática.", correta: false },
+      { letra: "E", texto: "Ciclismo em estrada.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa B é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            As fibras <strong>brancas (rápidas)</strong>, por terem poucas mitocôndrias e menor suprimento sanguíneo, dependem principalmente do <strong>metabolismo anaeróbico</strong> (glicólise, sem uso de oxigênio) para gerar energia. Esse tipo de metabolismo produz energia muito rapidamente, permitindo contrações fortes e explosivas — mas se esgota rapidamente, causando fadiga em poucos segundos. Isso as torna ideais para provas de <strong>altíssima intensidade e curtíssima duração</strong>, como o <strong>salto em altura</strong>: o atleta precisa de um único impulso muscular potente e explosivo das pernas para se lançar por cima do sarrafo — o esforço todo dura apenas alguns segundos, exatamente o cenário em que fibras brancas se destacam.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta — Triatlo:</strong> combina natação, ciclismo e corrida em longas distâncias — um esforço aeróbico prolongado que exige resistência à fadiga, favorecido por fibras vermelhas (muitas mitocôndrias, bom suprimento sanguíneo), não brancas.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta — Marcha atlética:</strong> prova de resistência de longuíssima duração (o esforço se estende por horas), dependente essencialmente de metabolismo aeróbico sustentado — favorecida por fibras vermelhas.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta — Maratona aquática:</strong> prova de natação de longa distância (10 km), também uma prova de resistência aeróbica prolongada — o mesmo perfil fisiológico que favorece fibras vermelhas, não brancas.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta — Ciclismo em estrada:</strong> prova de longa duração e esforço aeróbico sustentado por horas — assim como as demais alternativas erradas, depende mais de resistência à fadiga (fibras vermelhas) do que de potência explosiva pontual.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-bolt", titulo: "Fibras Musculares Brancas (Tipo II)", text: "Poucas mitocôndrias, metabolismo predominantemente anaeróbico, contração rápida e potente, mas com fadiga rápida — ideais para esforços explosivos e breves." },
+      { icone: "fa-heart-pulse", titulo: "Fibras Musculares Vermelhas (Tipo I)", text: "Muitas mitocôndrias, bom suprimento sanguíneo, metabolismo aeróbico, resistentes à fadiga — ideais para esforços prolongados de intensidade moderada." },
+      { icone: "fa-person-running", titulo: "Especificidade do Treinamento Esportivo", text: "O tipo de prova esportiva (explosiva vs. de resistência) se relaciona diretamente com o perfil de fibras musculares mais vantajoso para o atleta." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Fibra branca (rápida) x fibra vermelha (lenta)",
+        legenda: "Fibras brancas têm poucas mitocôndrias e pouco suprimento sanguíneo — força e potência explosiva, mas fadiga rápida. Fibras vermelhas têm muitas mitocôndrias e bom suprimento sanguíneo — resistência prolongada, porém menos potência instantânea.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="30" y="30" width="180" height="100" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" opacity="0.15"/>
+            <rect x="30" y="30" width="180" height="100" rx="10" fill="none" stroke="#94a3b8" stroke-width="2"/>
+            <text x="120" y="20" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Fibra branca (rápida)</text>
+            <circle cx="70" cy="70" r="6" fill="#fbbf24" opacity="0.5"/>
+            <circle cx="150" cy="90" r="6" fill="#fbbf24" opacity="0.5"/>
+            <text x="120" y="115" text-anchor="middle" fill="#94a3b8" font-size="7">poucas mitocôndrias</text>
+            <text x="120" y="125" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">potência explosiva</text>
+            <rect x="250" y="30" width="180" height="100" rx="10" fill="#450a0a" opacity="0.3"/>
+            <rect x="250" y="30" width="180" height="100" rx="10" fill="none" stroke="#f87171" stroke-width="2"/>
+            <text x="340" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Fibra vermelha (lenta)</text>
+            <circle cx="290" cy="60" r="6" fill="#fbbf24"/><circle cx="310" cy="80" r="6" fill="#fbbf24"/>
+            <circle cx="340" cy="65" r="6" fill="#fbbf24"/><circle cx="370" cy="85" r="6" fill="#fbbf24"/>
+            <circle cx="400" cy="70" r="6" fill="#fbbf24"/><circle cx="320" cy="100" r="6" fill="#fbbf24"/>
+            <text x="340" y="120" text-anchor="middle" fill="#fca5a5" font-size="7" font-weight="bold">resistência à fadiga</text>
+          </svg>`
+      },
+      {
+        titulo: "Perfil de fibra x tipo de prova esportiva",
+        legenda: "Provas explosivas e de curtíssima duração (salto em altura) favorecem atletas com mais fibras brancas; provas de resistência prolongada (maratona, ciclismo de estrada, marcha atlética, triatlo) favorecem atletas com mais fibras vermelhas.",
+        svg: `
+          <svg viewBox="0 0 460 140" class="w-full h-auto">
+            <line x1="40" y1="110" x2="430" y2="110" stroke="#475569" stroke-width="2"/>
+            <text x="40" y="128" fill="#fde68a" font-size="7">explosivo (segundos)</text>
+            <text x="360" y="128" fill="#a5f3fc" font-size="7">resistência (horas)</text>
+            <circle cx="70" cy="60" r="10" fill="#fbbf24"/>
+            <text x="70" y="40" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">salto em altura</text>
+            <text x="70" y="90" text-anchor="middle" fill="#94a3b8" font-size="6.5">fibras brancas</text>
+            <circle cx="180" cy="75" r="9" fill="#7dd3fc"/>
+            <text x="180" y="55" text-anchor="middle" fill="#7dd3fc" font-size="7">triatlo</text>
+            <circle cx="270" cy="80" r="9" fill="#7dd3fc"/>
+            <text x="270" y="60" text-anchor="middle" fill="#7dd3fc" font-size="7">ciclismo estrada</text>
+            <circle cx="350" cy="85" r="9" fill="#7dd3fc"/>
+            <text x="350" y="65" text-anchor="middle" fill="#7dd3fc" font-size="7">marcha atlética</text>
+            <circle cx="410" cy="90" r="9" fill="#7dd3fc"/>
+            <text x="405" y="105" text-anchor="middle" fill="#94a3b8" font-size="6.5">fibras vermelhas</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão testa se o estudante consegue conectar um conceito de fisiologia celular (tipos de fibra muscular) a uma aplicação prática do desempenho esportivo — reconhecendo qual tipo de prova exige potência explosiva e qual exige resistência prolongada.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Dois tipos principais de fibra muscular esquelética</h4>
+          <p>
+            O músculo esquelético humano contém uma mistura de fibras do <strong>Tipo I (vermelhas/lentas)</strong> e <strong>Tipo II (brancas/rápidas)</strong>, em proporções que variam entre indivíduos (com componente genético importante) e entre diferentes músculos do corpo. As fibras vermelhas devem sua cor à mioglobina, uma proteína que armazena oxigênio, e contêm muitas mitocôndrias — as "usinas de energia" da célula responsáveis pela respiração aeróbica.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Metabolismo aeróbico x anaeróbico na contração muscular</h4>
+          <p>
+            Fibras vermelhas, ricas em mitocôndrias e bem irrigadas por vasos sanguíneos, produzem ATP principalmente por <strong>respiração aeróbica</strong> — um processo mais lento, mas capaz de sustentar esforço por muito tempo sem se esgotar. Fibras brancas, com poucas mitocôndrias, dependem majoritariamente da <strong>glicólise anaeróbica</strong> — um processo rápido, que gera energia (e força) quase instantaneamente, mas acumula subprodutos (como o lactato) que levam à fadiga muscular em segundos a poucos minutos.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Combinando o perfil de fibra ao tipo de prova esportiva</h4>
+          <p>
+            Provas de potência explosiva e curtíssima duração — como salto em altura, salto em distância, arremesso de peso ou corridas de 100 m — recrutam intensamente fibras brancas, já que exigem o máximo de força num intervalo de tempo muito curto. Já provas de resistência prolongada — maratonas, ciclismo de estrada, marcha atlética, provas de longa distância na natação, triatlo — dependem muito mais de fibras vermelhas, capazes de sustentar contrações repetidas por horas sem fadigar.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que atletas de elite se especializam por tipo de prova</h4>
+          <p>
+            Embora o treinamento possa influenciar até certo ponto as características metabólicas das fibras, a proporção de fibras brancas e vermelhas em cada músculo tem um forte componente genético — o que ajuda a explicar por que velocistas de elite raramente competem (com sucesso) em provas de resistência, e vice-versa: o perfil fisiológico de cada atleta favorece naturalmente um tipo de prova sobre o outro.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-person-running"></i> Fibra Branca Favorece o Esforço Explosivo</span>
+        <svg viewBox="0 0 280 120" class="w-full h-28 mx-auto">
+          <circle cx="90" cy="55" r="30" fill="#1e293b" stroke="#94a3b8" stroke-width="2" opacity="0.6"/>
+          <circle cx="80" cy="50" r="5" fill="#fbbf24" opacity="0.5"/>
+          <circle cx="100" cy="65" r="5" fill="#fbbf24" opacity="0.5"/>
+          <text x="90" y="100" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">fibra branca</text>
+          <path d="M140,55 L175,55" stroke="#94a3b8" stroke-width="2" marker-end="url(#a109)"/>
+          <defs><marker id="a109" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+          <text x="230" y="45" text-anchor="middle" fill="#e2e8f0" font-size="20">🏃</text>
+          <text x="230" y="100" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="bold">salto em altura</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: proporção de fibras e desempenho esportivo",
+      descricao: "Ajuste a proporção de fibras brancas de um atleta hipotético e veja como isso favorece provas explosivas ou provas de resistência.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Proporção de fibras brancas (rápidas)</span><span class="text-emerald-300 font-bold" data-out="brancas">50%</span>
+              </label>
+              <input type="range" data-sim="brancas" min="0" max="100" value="50" step="5" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Potência explosiva estimada: <span data-out="potencia" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Resistência à fadiga estimada: <span data-out="resistencia" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a proporção para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var brancas = raiz.querySelector('[data-sim="brancas"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var b = parseFloat(brancas.value);
+          saida('brancas').textContent = b + '%';
+          saida('potencia').textContent = b + '%';
+          saida('resistencia').textContent = (100 - b) + '%';
+
+          var v = saida('veredito');
+          if (b > 65) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Predominância de fibras brancas: esse atleta se sairia melhor em provas explosivas e curtas, como salto em altura, salto em distância ou corridas de velocidade — mas se fadigaria rápido numa prova de resistência.';
+          } else if (b < 35) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-cyan-500/40 bg-cyan-950/30 text-cyan-200 mt-2';
+            v.textContent = 'Predominância de fibras vermelhas: esse atleta se sairia melhor em provas de resistência prolongada, como triatlo, marcha atlética, maratona aquática ou ciclismo de estrada.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Proporção equilibrada: esse atleta teria um perfil misto, sem vantagem clara nem para provas puramente explosivas nem para provas de resistência muito longa.';
+          }
+        }
+
+        brancas.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24110",
+    numero: "Questão 110 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia — Mimetismo Batesiano",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "A Falsa-coral que se Disfarça de Perigosa para Sobreviver",
+    tags: ["Biologia", "Ecologia", "Mimetismo Batesiano", "Aposematismo", "Interações Antipredação", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Corais-verdadeiras e falsas-corais: um caso de mimetismo</p>
+      <p>O Cerrado e a Amazônia abrigam grande número de serpentes popularmente conhecidas como cobras-corais. Na Amazônia predominam as corais-verdadeiras, que são peçonhentas, enquanto no Cerrado prevalecem as falsas-corais, que não possuem peçonha. Essas espécies apresentam um padrão de coloração muito semelhante — faixas coloridas em vermelho, preto e branco/amarelo, dispostas em anéis ao longo do corpo. Essa similaridade traz uma vantagem tanto para as corais falsas como para as verdadeiras.</p>
+      <p class="text-right text-[11px] text-slate-500">FRANÇA, F. G. R. [...] serpentes corais em ambientes campestres, savânicos e florestais da América do Sul. Brasília: UnB, 2008 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Qual é a vantagem dessa similaridade para as falsas-corais?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Facilita a captura de presas.", correta: false },
+      { letra: "B", texto: "Diminui a competição por recursos.", correta: false },
+      { letra: "C", texto: "Possibilita a geração de indivíduos híbridos.", correta: false },
+      { letra: "D", texto: "Reduz a possibilidade de sofrerem predação.", correta: true },
+      { letra: "E", texto: "Otimiza o encontro de parceiros reprodutivos.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Esse é um exemplo clássico de <strong>mimetismo Batesiano</strong>: uma espécie inofensiva (a falsa-coral, sem peçonha) evoluiu um padrão de coloração muito parecido com o de uma espécie perigosa (a coral-verdadeira, peçonhenta). Predadores que já tiveram uma experiência ruim (ou aprenderam por instinto) a evitar o padrão de cores vermelho-preto-branco/amarelo associado à coral-verdadeira peçonhenta passam a evitar <em>qualquer</em> serpente com esse padrão — inclusive a falsa-coral, que na verdade não representa perigo real algum. Com isso, a falsa-coral se beneficia de uma <strong>redução significativa no risco de ser predada</strong>, sem precisar arcar com o "custo" biológico de produzir veneno.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> a coloração de advertência não tem relação com a captura de presas — cobras-corais (verdadeiras ou falsas) não usam esse padrão para atrair ou capturar presas, mas sim como sinal de alerta para potenciais predadores.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> corais-verdadeiras e falsas-corais ocorrem predominantemente em biomas diferentes (Amazônia e Cerrado, respectivamente) e não haveria uma redução relevante de competição por recursos simplesmente por terem cores parecidas.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> corais-verdadeiras e falsas-corais pertencem a grupos taxonômicos distintos e não há evidência de que a semelhança de cor favoreça hibridização entre elas — a vantagem do mimetismo é ecológica (evitar predação), não reprodutiva entre as duas linhagens.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> o reconhecimento de parceiros reprodutivos ocorre dentro da própria espécie (via feromônios e outros sinais específicos), e não depende de — nem é otimizado por — uma semelhança de coloração com uma espécie diferente.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-triangle-exclamation", titulo: "Aposematismo", text: "Coloração de advertência usada por espécies realmente perigosas (venenosas, tóxicas) para sinalizar risco a predadores." },
+      { icone: "fa-mask", titulo: "Mimetismo Batesiano", text: "Uma espécie inofensiva imita a aparência de uma espécie perigosa, enganando predadores e reduzindo seu próprio risco de predação." },
+      { icone: "fa-shield-halved", titulo: "Interações Antipredação", text: "Estratégias evolutivas (camuflagem, mimetismo, comportamento) que aumentam a chance de sobrevivência de uma presa frente a predadores." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Coral-verdadeira (peçonhenta) e falsa-coral (inofensiva): o mesmo alerta visual",
+        legenda: "As duas espécies compartilham o padrão de faixas vermelho-preto-branco/amarelo. Um predador que aprendeu a evitar esse padrão (por causa da coral-verdadeira) evita também a falsa-coral, mesmo ela sendo inofensiva.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="120" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Coral-verdadeira (peçonhenta)</text>
+            <g transform="translate(30,35)">
+              <rect x="0" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="18" y="30" width="9" height="18" fill="#000"/>
+              <rect x="27" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="36" y="30" width="9" height="18" fill="#000"/>
+              <rect x="45" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="63" y="30" width="9" height="18" fill="#000"/>
+              <rect x="72" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="81" y="30" width="9" height="18" fill="#000"/>
+              <rect x="90" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="108" y="30" width="9" height="18" fill="#000"/>
+              <rect x="117" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="126" y="30" width="9" height="18" fill="#000"/>
+              <rect x="135" y="30" width="18" height="18" fill="#dc2626"/>
+            </g>
+            <text x="345" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Falsa-coral (inofensiva)</text>
+            <g transform="translate(255,35)">
+              <rect x="0" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="18" y="30" width="9" height="18" fill="#000"/>
+              <rect x="27" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="36" y="30" width="9" height="18" fill="#000"/>
+              <rect x="45" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="63" y="30" width="9" height="18" fill="#000"/>
+              <rect x="72" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="81" y="30" width="9" height="18" fill="#000"/>
+              <rect x="90" y="30" width="18" height="18" fill="#dc2626"/>
+              <rect x="108" y="30" width="9" height="18" fill="#000"/>
+              <rect x="117" y="30" width="9" height="18" fill="#fde68a"/>
+              <rect x="126" y="30" width="9" height="18" fill="#000"/>
+              <rect x="135" y="30" width="18" height="18" fill="#dc2626"/>
+            </g>
+            <text x="120" y="105" text-anchor="middle" fill="#94a3b8" font-size="7">produz veneno (custo biológico real)</text>
+            <text x="345" y="105" text-anchor="middle" fill="#94a3b8" font-size="7">"empresta" o alerta visual, sem veneno</text>
+          </svg>`
+      },
+      {
+        titulo: "Como o predador aprende a evitar o padrão",
+        legenda: "O predador que tenta atacar uma coral-verdadeira sofre as consequências (picada peçonhenta) e passa a associar aquele padrão de cores a perigo — evitando, por generalização, qualquer serpente com esse padrão, incluindo a falsa-coral.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="60" cy="65" r="24" fill="#1e293b" stroke="#94a3b8" stroke-width="2"/>
+            <text x="60" y="70" text-anchor="middle" fill="#e2e8f0" font-size="9">predador</text>
+            <path d="M90,65 L150,65" stroke="#f87171" stroke-width="2" marker-end="url(#a110)"/>
+            <defs><marker id="a110" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#f87171"/></marker></defs>
+            <text x="120" y="55" text-anchor="middle" fill="#fca5a5" font-size="7">tenta atacar</text>
+            <rect x="155" y="50" width="60" height="30" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="185" y="68" text-anchor="middle" fill="#fca5a5" font-size="6.5" font-weight="bold">coral-verdadeira</text>
+            <path d="M215,65 L260,65" stroke="#94a3b8" stroke-width="2" marker-end="url(#a110)"/>
+            <text x="240" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">aprende a evitar</text>
+            <rect x="270" y="50" width="180" height="30" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="360" y="68" text-anchor="middle" fill="#6ee7b7" font-size="6.5" font-weight="bold">qualquer serpente com esse padrão (inclui a falsa-coral)</text>
+            <text x="360" y="105" text-anchor="middle" fill="#a7f3d0" font-size="7">falsa-coral é poupada por engano</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão é o exemplo mais citado de mimetismo Batesiano na literatura biológica brasileira: o "jogo de cópia" entre cobras-corais verdadeiras e falsas.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Aposematismo: cor como aviso de perigo real</h4>
+          <p>
+            Muitas espécies realmente perigosas (venenosas, tóxicas, com ferrão ou peçonha) desenvolveram, ao longo da evolução, padrões de coloração chamativos e facilmente reconhecíveis — como as cores vermelho, preto e amarelo/branco em faixas das corais-verdadeiras. Esse fenômeno, chamado <strong>aposematismo</strong>, funciona como um "aviso" honesto: predadores que atacam esses animais sofrem consequências reais (picada, veneno, sabor ruim) e aprendem rapidamente a associar aquele padrão visual a perigo, passando a evitá-lo no futuro.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Mimetismo Batesiano: "pegando carona" no aviso alheio</h4>
+          <p>
+            Quando uma espécie inofensiva evolui uma aparência muito parecida com a de uma espécie perigosa (aposemática), sem ela mesma representar risco real, esse fenômeno é chamado de <strong>mimetismo Batesiano</strong> — em homenagem ao naturalista Henry Walter Bates, que o descreveu pela primeira vez estudando borboletas na Amazônia. É exatamente o caso da falsa-coral: ela "engana" os predadores aproveitando o medo que eles já têm da coral-verdadeira peçonhenta, sem precisar produzir veneno.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> A vantagem evolutiva e seu limite</h4>
+          <p>
+            A grande vantagem do mimetismo Batesiano para a espécie mimética (a falsa-coral) é reduzir sua taxa de predação sem o "custo" metabólico de produzir uma toxina real. No entanto, esse sistema tem um limite: se as falsas-corais (miméticas) se tornarem numericamente muito mais comuns que as corais-verdadeiras (o modelo real, perigoso), os predadores passam a ter mais experiências "seguras" com o padrão de cor do que experiências perigosas, e podem deixar de associá-lo a risco — enfraquecendo a eficácia do mimetismo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Diferença para o mimetismo Mülleriano</h4>
+          <p>
+            Vale distinguir do <strong>mimetismo Mülleriano</strong>, em que <em>duas espécies igualmente perigosas</em> (ambas peçonhentas ou tóxicas) convergem para um padrão de coloração parecido, compartilhando o "custo" de ensinar os predadores a evitá-las. No caso das cobras-corais descrito na questão, apenas uma das espécies (a verdadeira) é realmente perigosa — caracterizando mimetismo Batesiano, não Mülleriano.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-mask"></i> Mesmo Padrão, Riscos Diferentes</span>
+        <svg viewBox="0 0 280 110" class="w-full h-24 mx-auto">
+          <g transform="translate(20,35)">
+            <rect x="0" y="10" width="14" height="16" fill="#dc2626"/>
+            <rect x="14" y="10" width="7" height="16" fill="#000"/>
+            <rect x="21" y="10" width="7" height="16" fill="#fde68a"/>
+            <rect x="28" y="10" width="7" height="16" fill="#000"/>
+            <rect x="35" y="10" width="14" height="16" fill="#dc2626"/>
+            <rect x="49" y="10" width="7" height="16" fill="#000"/>
+            <rect x="56" y="10" width="7" height="16" fill="#fde68a"/>
+            <rect x="63" y="10" width="7" height="16" fill="#000"/>
+            <rect x="70" y="10" width="14" height="16" fill="#dc2626"/>
+          </g>
+          <text x="60" y="80" text-anchor="middle" fill="#fca5a5" font-size="7">verdadeira: perigo real</text>
+          <g transform="translate(180,35)">
+            <rect x="0" y="10" width="14" height="16" fill="#dc2626"/>
+            <rect x="14" y="10" width="7" height="16" fill="#000"/>
+            <rect x="21" y="10" width="7" height="16" fill="#fde68a"/>
+            <rect x="28" y="10" width="7" height="16" fill="#000"/>
+            <rect x="35" y="10" width="14" height="16" fill="#dc2626"/>
+            <rect x="49" y="10" width="7" height="16" fill="#000"/>
+            <rect x="56" y="10" width="7" height="16" fill="#fde68a"/>
+            <rect x="63" y="10" width="7" height="16" fill="#000"/>
+            <rect x="70" y="10" width="14" height="16" fill="#dc2626"/>
+          </g>
+          <text x="220" y="80" text-anchor="middle" fill="#6ee7b7" font-size="7">falsa: bluff que funciona</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: eficácia do mimetismo Batesiano",
+      descricao: "Ajuste a proporção entre falsas-corais (miméticas) e corais-verdadeiras (o modelo perigoso real) na população e veja como isso afeta a eficácia do mimetismo em proteger as falsas-corais.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Proporção de falsas-corais na população</span><span class="text-emerald-300 font-bold" data-out="proporcao">30%</span>
+              </label>
+              <input type="range" data-sim="proporcao" min="0" max="95" value="30" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1">o restante da população é de corais-verdadeiras (modelo peçonhento real)</p>
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Chance do predador encontrar uma serpente perigosa: <span data-out="chance" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a proporção para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var proporcao = raiz.querySelector('[data-sim="proporcao"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var p = parseFloat(proporcao.value);
+          saida('proporcao').textContent = p + '%';
+          var chancePerigo = 100 - p;
+          saida('chance').textContent = chancePerigo + '%';
+
+          var v = saida('veredito');
+          if (chancePerigo > 60) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Corais-verdadeiras ainda são maioria: predadores continuam tendo experiências perigosas frequentes com esse padrão de cor, mantendo o mimetismo eficaz — as falsas-corais seguem protegidas por associação.';
+          } else if (chancePerigo > 30) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'As falsas-corais já são uma fração considerável da população — o mimetismo ainda funciona, mas começa a perder um pouco de força.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Falsas-corais em grande maioria: predadores raramente encontram o "modelo" perigoso real — muitos podem deixar de associar o padrão de cor a perigo, o que enfraquece a proteção que o mimetismo oferece.';
+          }
+        }
+
+        proporcao.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
   }
 
 ];
