@@ -39372,6 +39372,1084 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
 
     simuladorType: null
   }
+,
 
+  {
+    id: "q24101",
+    numero: "Questão 101 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Acústica — Nível Sonoro e Distância",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "A Saúde do Professor: Até Onde a Fala Ainda Vence o Ruído de Fundo",
+    tags: ["Física", "Acústica", "Nível Sonoro", "Decibel", "Educação", "ENEM 2024"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">A saúde do professor: acústica arquitetônica</p>
+      <p>Dentre os parâmetros acústicos que afetam a inteligibilidade dos sons emitidos em ambientes fechados, destacam-se o ruído de fundo do ambiente e o decréscimo do nível sonoro com a distância da fonte emissora. Assim, sentar-se no fundo da sala de aula pode prejudicar a aprendizagem dos estudantes, por impedir que eles distingam, com precisão, os sons emitidos, diminuindo a inteligibilidade da fala de seus professores.</p>
+      <p>Considere a situação exemplificada pelo infográfico: à distância de 1 metro, o nível sonoro da fala de um professor é de <strong>60 dB</strong> e diminui com a distância, seguindo aproximadamente a lei do inverso do quadrado típica de uma fonte sonora pontual (cada vez que a distância dobra, o nível cai cerca de 6 dB). Considere, ainda, que o ruído de fundo nessa sala de aula pode chegar a <strong>45 dB</strong> e que, para ser compreendida, o nível sonoro da fala do professor deve estar <strong>5 dB acima</strong> desse ruído.</p>
+      <p class="text-right text-[11px] text-slate-500">Disponível em: www.ufrj.br. Acesso em: 2 dez. 2021 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Para um valor máximo do ruído de fundo, a maior distância que um estudante pode estar do professor para que ainda consiga compreender sua fala é mais próxima de</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "3,0 m.", correta: true },
+      { letra: "B", texto: "4,5 m.", correta: false },
+      { letra: "C", texto: "6,5 m.", correta: false },
+      { letra: "D", texto: "8,0 m.", correta: false },
+      { letra: "E", texto: "9,5 m.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa A é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Primeiro, o nível mínimo que a fala do professor precisa manter: como o ruído de fundo máximo é 45 dB e a fala precisa estar 5 dB acima dele, o limite é <strong>45 + 5 = 50 dB</strong>. A partir daí, o gráfico (nível sonoro caindo com a distância) mostra a que distância a fala do professor cai para 50 dB — e essa distância marca o limite: além dela, o estudante já não consegue mais distinguir a fala do ruído de fundo com clareza.<br><br>
+            Usando a relação típica de queda do nível sonoro com a distância de uma fonte pontual (nível cai cerca de 20·log₁₀(d) dB a cada vez que a distância d aumenta, a partir de 60 dB em 1 m): em d = 3 m, o nível já caiu para aproximadamente 60 − 20·log₁₀(3) ≈ 60 − 9,5 ≈ <strong>50,5 dB</strong> — essencialmente no limiar de 50 dB. Essa é a maior distância na qual a fala ainda consegue ficar (pelo menos) 5 dB acima do ruído de fundo máximo.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B, C, D e E) Incorretas:</strong> em qualquer uma dessas distâncias maiores, o nível sonoro da fala já caiu abaixo dos 50 dB necessários — a essas distâncias, a diferença entre a fala do professor e o ruído de fundo máximo (45 dB) já é menor que 5 dB, tornando a fala pouco inteligível para quem está sentado ali.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-emerald-400">Dica ENEM:</strong> em questões de nível sonoro que combinam "ruído de fundo" com "sinal desejado", sempre calcule primeiro o <strong>limiar mínimo</strong> (ruído de fundo + margem exigida) e depois localize no gráfico/pela lei de queda a distância em que o sinal (fala) atinge exatamente esse limiar — essa é a distância-limite da resposta.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-volume-high", titulo: "Nível Sonoro (dB)", text: "Escala logarítmica que descreve a intensidade percebida do som; cai com a distância da fonte." },
+      { icone: "fa-ear-listen", titulo: "Inteligibilidade da Fala", text: "Para entender a fala com clareza, o nível sonoro da voz precisa estar suficientemente acima do ruído de fundo." },
+      { icone: "fa-ruler", titulo: "Lei do Inverso do Quadrado", text: "Para uma fonte sonora pontual, o nível cai cerca de 6 dB cada vez que a distância dobra." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O nível sonoro da fala caindo com a distância",
+        legenda: "A curva mostra o nível sonoro da fala do professor caindo de 60 dB (a 1 m) conforme a distância aumenta. A linha tracejada em 50 dB marca o limiar mínimo (45 dB de ruído + 5 dB de margem) — o ponto onde a curva cruza essa linha é a distância-limite.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <line x1="50" y1="160" x2="440" y2="160" stroke="#475569" stroke-width="2"/>
+            <line x1="50" y1="160" x2="50" y2="20" stroke="#475569" stroke-width="2"/>
+            <text x="30" y="30" fill="#94a3b8" font-size="8">dB</text>
+            <text x="430" y="175" fill="#94a3b8" font-size="8">metros</text>
+            <path d="M60,35 Q110,90 150,110 T440,150" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+            <line x1="50" y1="108" x2="440" y2="108" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <text x="380" y="103" fill="#fca5a5" font-size="8" font-weight="bold">limiar: 50 dB</text>
+            <line x1="150" y1="160" x2="150" y2="110" stroke="#34d399" stroke-width="1.5" stroke-dasharray="3 2"/>
+            <circle cx="150" cy="110" r="5" fill="#34d399"/>
+            <text x="150" y="180" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">≈ 3 m</text>
+          </svg>`
+      },
+      {
+        titulo: "Somando o ruído de fundo à margem exigida",
+        legenda: "O limiar mínimo de inteligibilidade não é o ruído de fundo sozinho — é o ruído de fundo mais a margem de 5 dB que a fala precisa manter acima dele.",
+        svg: `
+          <svg viewBox="0 0 460 120" class="w-full h-auto">
+            <rect x="30" y="30" width="140" height="45" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="100" y="50" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Ruído de fundo</text>
+            <text x="100" y="65" text-anchor="middle" fill="#fca5a5" font-size="10" font-weight="bold">45 dB</text>
+            <text x="185" y="58" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="bold">+</text>
+            <rect x="200" y="30" width="100" height="45" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="250" y="50" text-anchor="middle" fill="#fde68a" font-size="9" font-weight="bold">Margem</text>
+            <text x="250" y="65" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="bold">5 dB</text>
+            <text x="325" y="58" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="bold">=</text>
+            <rect x="345" y="30" width="100" height="45" rx="6" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+            <text x="395" y="50" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Limiar</text>
+            <text x="395" y="65" text-anchor="middle" fill="#6ee7b7" font-size="10" font-weight="bold">50 dB</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Essa questão junta dois conceitos de acústica que aparecem juntos com frequência: como o nível sonoro cai com a distância, e o que significa "inteligibilidade" quando existe ruído de fundo competindo com o sinal desejado.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> Nível sonoro e a escala em decibéis</h4>
+          <p>
+            O decibel (dB) é uma unidade logarítmica usada para expressar nível sonoro, porque o ouvido humano percebe intensidades sonoras numa faixa enorme (da ordem de 12 potências de dez). Uma fonte sonora pontual (como a voz de uma pessoa) tem seu nível sonoro reduzido conforme a distância aumenta, porque a mesma energia sonora se espalha por uma área cada vez maior.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Ruído de fundo e a margem de inteligibilidade</h4>
+          <p>
+            Para que um ouvinte compreenda a fala com clareza, não basta o som chegar acima de zero — ele precisa chegar significativamente acima do ruído de fundo do ambiente (conversas, ventilação, trânsito externo etc.). Estudos de acústica arquitetônica mostram que uma margem de cerca de 5 a 10 dB acima do ruído de fundo já é suficiente para boa inteligibilidade; abaixo disso, o cérebro tem dificuldade crescente de separar o sinal (a fala) do ruído.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> Combinando os dois: o limiar de distância</h4>
+          <p>
+            Para resolver esse tipo de questão, o primeiro passo é sempre achar o <strong>nível mínimo aceitável</strong> da fala: ruído de fundo + margem exigida (aqui, 45 + 5 = 50 dB). Depois, usa-se a curva (ou fórmula) de queda do nível sonoro com a distância para descobrir a que distância a fala cai exatamente para esse valor — essa é a distância-limite: além dela, a fala já não atinge mais os 50 dB necessários.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Por que isso importa na prática (acústica de salas de aula)</h4>
+          <p>
+            Esse tipo de análise é usado de verdade em projetos arquitetônicos de salas de aula, auditórios e teatros: arquitetos calculam a que distância máxima um ouvinte ainda consegue compreender a fala sem amplificação, considerando o ruído de fundo típico do ambiente. É por isso que salas de aula muito compridas, ou com ruído externo alto, prejudicam a aprendizagem de quem senta no fundo — não é "falta de atenção", é física acústica.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-volume-high"></i> Onde a Fala Cruza o Limiar de 50 dB</span>
+        <svg viewBox="0 0 460 140" class="w-full h-32 mx-auto">
+          <line x1="40" y1="120" x2="440" y2="120" stroke="#475569" stroke-width="2"/>
+          <line x1="40" y1="120" x2="40" y2="15" stroke="#475569" stroke-width="2"/>
+          <path d="M50,25 Q120,70 180,90 T420,112" fill="none" stroke="#a78bfa" stroke-width="2.5"/>
+          <line x1="40" y1="82" x2="440" y2="82" stroke="#f87171" stroke-width="1.5" stroke-dasharray="4 3"/>
+          <text x="400" y="76" fill="#fca5a5" font-size="8">50 dB</text>
+          <circle cx="180" cy="90" r="5" fill="#34d399"/>
+          <text x="180" y="135" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">≈ 3,0 m</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: até onde a fala ainda vence o ruído?",
+      descricao: "Ajuste o ruído de fundo e a margem exigida e veja como a distância máxima de inteligibilidade muda, usando a lei de queda do nível sonoro com a distância.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Ruído de fundo máximo</span><span class="text-violet-300 font-bold" data-out="ruido">45 dB</span>
+              </label>
+              <input type="range" data-sim="ruido" min="30" max="55" value="45" step="1" class="w-full accent-violet-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Margem exigida para inteligibilidade</span><span class="text-violet-300 font-bold" data-out="margem">5 dB</span>
+              </label>
+              <input type="range" data-sim="margem" min="0" max="15" value="5" step="1" class="w-full accent-violet-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Limiar mínimo de fala: <span data-out="limiar" class="text-slate-200 font-bold">50 dB</span></p>
+            <p class="text-[11px] text-slate-400">Distância máxima estimada: <span data-out="distancia" class="text-slate-200 font-bold text-base">3,0 m</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Usa a fórmula L(d) = 60 − 20·log₁₀(d), com 60 dB a 1 m.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var ruido = raiz.querySelector('[data-sim="ruido"]');
+        var margem = raiz.querySelector('[data-sim="margem"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var r = parseFloat(ruido.value);
+          var m = parseFloat(margem.value);
+          var limiar = r + m;
+          saida('ruido').textContent = r + ' dB';
+          saida('margem').textContent = m + ' dB';
+          saida('limiar').textContent = limiar + ' dB';
+
+          var d = Math.pow(10, (60 - limiar) / 20);
+          saida('distancia').textContent = d.toFixed(1).replace('.', ',') + ' m';
+
+          var v = saida('veredito');
+          v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200';
+          v.textContent = 'Com limiar de ' + limiar + ' dB, a fala (60 dB a 1 m) só se mantém acima desse valor até cerca de ' + d.toFixed(1).replace('.', ',') + ' m — além dessa distância, o ruído de fundo compromete a inteligibilidade.';
+        }
+
+        ruido.addEventListener('input', atualizar);
+        margem.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24102",
+    numero: "Questão 102 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Bioquímica — Desnaturação Enzimática",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "O Milho Ainda Doce: Por Que Escaldar Antes de Esfriar Preserva o Sabor",
+    tags: ["Biologia", "Bioquímica", "Enzimas", "Desnaturação", "Pós-colheita", "ENEM 2024"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Preservando o sabor doce do milho recém-colhido</p>
+      <p>Uma agricultora, com a intenção de comercializar o milho recém-colhido, testou uma forma de preservar o sabor adocicado do seu produto. O melhor resultado foi obtido quando ela imergiu as espigas em água fervente durante alguns minutos e, em seguida, em água gelada, antes de armazená-las sob refrigeração.</p>
+      <p>Isso ocorre porque, após a colheita, os grãos de milho continuam metabolicamente ativos: enzimas presentes nos grãos seguem convertendo os açúcares livres (que dão o sabor doce) em amido, um processo que se acelera com o tempo e com a temperatura ambiente, reduzindo progressivamente a doçura do produto.</p>
+      <p class="text-right text-[11px] text-slate-500">Situação-problema adaptada de contexto agroindustrial (técnica de branqueamento/blanching). Acesso em: 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">A manutenção do sabor adocicado do milho, após o procedimento realizado pela agricultora, deve-se à</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "desnaturação enzimática pela alta temperatura.", correta: true },
+      { letra: "B", texto: "conversão de nutrientes pela redução de temperatura.", correta: false },
+      { letra: "C", texto: "degradação das reservas nutritivas pelo choque térmico.", correta: false },
+      { letra: "D", texto: "impedimento da entrada de oxigênio pela fervura da água.", correta: false },
+      { letra: "E", texto: "desidratação dos grãos por causa da alteração da temperatura.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa A é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O sabor doce do milho recém-colhido vem dos açúcares livres presentes nos grãos. Só que a espiga colhida continua "viva" metabolicamente por um tempo, e enzimas internas seguem convertendo esses açúcares em amido — um processo que rouba a doçura aos poucos. A imersão em água <strong>fervente</strong> por alguns minutos eleva bruscamente a temperatura dos grãos, o suficiente para <strong>desnaturar</strong> essas enzimas: o calor rompe as ligações que mantêm a estrutura tridimensional da proteína enzimática, destruindo seu sítio ativo e, com isso, sua função. Enzima desnaturada não converte mais açúcar em amido. O choque em água <strong>gelada</strong> logo em seguida serve para interromper rapidamente o cozimento (evitando que o grão amoleça demais) e resfriar o produto para a conservação — mas quem "trava" a doçura é o calor da fervura, não o frio.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> não existe "conversão de nutrientes pela redução de temperatura" — o frio da água gelada apenas interrompe o cozimento e resfria o produto; ele não reage quimicamente com os açúcares nem os transforma.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> o processo não é uma degradação generalizada das reservas nutritivas — é bem específico: a inativação das enzimas responsáveis pela conversão açúcar→amido, o que na verdade <em>preserva</em> o valor nutritivo e o sabor, em vez de degradá-lo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> a fervura da água não tem como função nem efeito relevante "impedir a entrada de oxigênio" nos grãos — esse não é o mecanismo em jogo na preservação do sabor.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> o procedimento (poucos minutos em água fervente e depois gelada) não desidrata os grãos — pelo contrário, mantém sua umidade e textura; o objetivo é enzimático, não de perda de água.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-dna", titulo: "Enzimas", text: "Proteínas catalisadoras que aceleram reações bioquímicas específicas, dependendo de uma estrutura tridimensional precisa (o sítio ativo) para funcionar." },
+      { icone: "fa-temperature-high", titulo: "Desnaturação Proteica", text: "Perda da estrutura tridimensional de uma proteína (e, com ela, de sua função) por calor, pH extremo ou outros agentes." },
+      { icone: "fa-seedling", titulo: "Metabolismo Pós-colheita", text: "Frutos e grãos colhidos continuam respirando e com atividade enzimática ativa por um tempo, alterando sua composição química." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Enzima ativa vs. enzima desnaturada pelo calor",
+        legenda: "À esquerda, a enzima com sua forma tridimensional intacta encaixa o açúcar em seu sítio ativo e o converte em amido. À direita, o calor da água fervente desdobra a proteína: o sítio ativo se desfaz e a enzima perde a função.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Enzima ativa (fria)</text>
+            <path d="M60,50 Q80,30 115,35 Q150,30 165,55 Q175,85 145,100 Q110,115 80,95 Q55,80 60,50 Z" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <circle cx="112" cy="65" r="9" fill="#fbbf24"/>
+            <text x="112" y="140" text-anchor="middle" fill="#94a3b8" font-size="8">sítio ativo encaixa o açúcar</text>
+            <text x="345" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Enzima desnaturada (fervura)</text>
+            <path d="M290,50 Q330,20 360,45 Q400,25 410,60 Q430,80 400,95 Q420,120 380,110 Q340,130 320,100 Q280,90 290,50 Z" fill="#450a0a" stroke="#f87171" stroke-width="2" stroke-dasharray="3 2"/>
+            <circle cx="355" cy="75" r="9" fill="#fbbf24" opacity="0.4"/>
+            <text x="355" y="150" text-anchor="middle" fill="#94a3b8" font-size="8">forma desfeita, açúcar não encaixa mais</text>
+          </svg>`
+      },
+      {
+        titulo: "Linha do tempo: doçura do milho após a colheita",
+        legenda: "Sem tratamento, a doçura cai continuamente após a colheita (açúcar virando amido). Ao escaldar o milho logo após colher, esse processo é interrompido e a doçura daquele momento fica preservada.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <line x1="45" y1="130" x2="440" y2="130" stroke="#475569" stroke-width="2"/>
+            <line x1="45" y1="130" x2="45" y2="20" stroke="#475569" stroke-width="2"/>
+            <text x="20" y="30" fill="#94a3b8" font-size="8">doçura</text>
+            <text x="410" y="145" fill="#94a3b8" font-size="8">horas</text>
+            <path d="M55,30 L440,110" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="4 3"/>
+            <text x="420" y="105" fill="#fca5a5" font-size="8">sem escaldar</text>
+            <path d="M55,30 L150,45" fill="none" stroke="#34d399" stroke-width="2.5"/>
+            <line x1="150" y1="45" x2="440" y2="45" stroke="#34d399" stroke-width="2.5"/>
+            <circle cx="150" cy="45" r="5" fill="#fbbf24"/>
+            <text x="150" y="30" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">escalda aqui</text>
+            <text x="330" y="38" fill="#6ee7b7" font-size="8">doçura preservada</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão é um exemplo clássico de bioquímica aplicada à agroindústria: entender o que é uma enzima e o que significa "desnaturar" explica um truque culinário usado no mundo inteiro.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O que é uma enzima e por que a forma importa</h4>
+          <p>
+            Enzimas são proteínas que funcionam como catalisadores biológicos: aceleram reações químicas específicas sem serem consumidas no processo. Cada enzima tem um <strong>sítio ativo</strong> — uma região com formato tridimensional preciso que encaixa exatamente na molécula que ela vai transformar (o substrato), como uma chave e uma fechadura. Se essa forma se desfaz, a enzima perde a capacidade de reconhecer e transformar seu substrato.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Desnaturação: quando o calor desfaz a proteína</h4>
+          <p>
+            Temperaturas altas fornecem energia suficiente para romper as ligações fracas (pontes de hidrogênio, interações hidrofóbicas) que mantêm a proteína dobrada em sua forma funcional. O resultado é a <strong>desnaturação</strong>: a proteína se desdobra, perde sua forma tridimensional e, com ela, sua função — mesmo que a sequência de aminoácidos continue intacta. É o mesmo princípio por trás da clara de ovo ficando opaca e sólida ao cozinhar.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que o milho colhido continua perdendo doçura</h4>
+          <p>
+            Mesmo depois de colhida, a espiga de milho continua metabolicamente ativa por um tempo: suas células respiram e suas enzimas seguem funcionando, inclusive as que convertem açúcares livres (como a sacarose) em amido, uma molécula de reserva. Como o sabor doce do milho vem justamente desses açúcares livres, essa conversão contínua é o que faz o milho "perder o doce" quanto mais tempo passa entre a colheita e o consumo.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Blanching: a técnica por trás da situação-problema</h4>
+          <p>
+            A técnica descrita — ferver rapidamente e depois resfriar em água gelada — é conhecida como <strong>branqueamento (blanching)</strong> e é amplamente usada na indústria de alimentos para vegetais que serão congelados ou armazenados. A fervura rápida desnatura as enzimas (interrompendo reações indesejadas de sabor, cor e textura), e o choque frio evita que o calor continue "cozinhando" o alimento por inércia térmica, preservando a textura crocante.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> Calor Desnatura a Enzima que Rouba o Doce</span>
+        <svg viewBox="0 0 460 130" class="w-full h-28 mx-auto">
+          <path d="M50,40 Q70,20 100,25 Q130,20 145,45 Q155,70 125,85 Q95,98 70,80 Q48,68 50,40 Z" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+          <circle cx="97" cy="55" r="8" fill="#fbbf24"/>
+          <text x="97" y="115" text-anchor="middle" fill="#94a3b8" font-size="8">enzima ativa</text>
+          <path d="M180,60 L220,60" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrow102)"/>
+          <text x="200" y="50" text-anchor="middle" fill="#fbbf24" font-size="8">água fervente</text>
+          <defs><marker id="arrow102" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#f59e0b"/></marker></defs>
+          <path d="M300,45 Q330,20 360,40 Q390,25 400,55 Q415,75 390,88 Q405,105 370,98 Q335,115 320,90 Q290,80 300,45 Z" fill="#450a0a" stroke="#f87171" stroke-width="2" stroke-dasharray="3 2"/>
+          <circle cx="355" cy="65" r="8" fill="#fbbf24" opacity="0.35"/>
+          <text x="355" y="115" text-anchor="middle" fill="#94a3b8" font-size="8">enzima desnaturada — doçura preservada</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: quando escaldar para preservar a doçura?",
+      descricao: "Ajuste o tempo até o escaldamento após a colheita e veja como isso muda a doçura final preservada nos grãos, em comparação a não tratar o milho.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Horas após a colheita até escaldar</span><span class="text-emerald-300 font-bold" data-out="horas">3 h</span>
+              </label>
+              <input type="range" data-sim="horas" min="0" max="12" value="3" step="1" class="w-full accent-emerald-500">
+            </div>
+            <label class="flex items-center gap-2 text-[11px] text-slate-400">
+              <input type="checkbox" data-sim="aplicar" checked class="accent-emerald-500">
+              Aplicar o escaldamento (fervura + choque gelado)
+            </label>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Doçura estimada às 24h sem tratar: <span class="text-slate-200 font-bold">≈ 25%</span></p>
+            <p class="text-[11px] text-slate-400">Doçura estimada às 24h com o tratamento: <span data-out="docura" class="text-slate-200 font-bold text-base">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste os controles para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var horas = raiz.querySelector('[data-sim="horas"]');
+        var aplicar = raiz.querySelector('[data-sim="aplicar"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+        var k = 0.115;
+
+        function atualizar() {
+          var h = parseFloat(horas.value);
+          saida('horas').textContent = h + ' h';
+          var v = saida('veredito');
+
+          if (aplicar.checked) {
+            var docura = 100 * Math.exp(-k * h);
+            saida('docura').textContent = docura.toFixed(0) + '%';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Escaldando ' + h + ' h após a colheita, a conversão de açúcar em amido é interrompida nesse ponto — a doçura fica "travada" em torno de ' + docura.toFixed(0) + '%, bem acima dos ≈25% que restariam sem tratamento às 24h.';
+          } else {
+            saida('docura').textContent = '≈ 25%';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Sem escaldar, as enzimas continuam ativas e a conversão de açúcar em amido segue até o consumo — a doçura cai continuamente, independente de quanto tempo se espera.';
+          }
+        }
+
+        horas.addEventListener('input', atualizar);
+        aplicar.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24103",
+    numero: "Questão 103 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "fisica",
+    materia: "Física / Termologia — Transmissão de Calor",
+    materiaCor: "purple",
+    materiaIcone: "fa-bolt",
+    titulo: "Como a Água Sobe Sozinha no Aquecedor Solar",
+    tags: ["Física", "Termologia", "Convecção", "Termossifão", "Energia Solar", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Aquecedores solares e a circulação natural da água</p>
+      <p>Aquecedores solares são equipamentos utilizados para o aquecimento de água pelo calor do Sol, sendo compostos, basicamente, por um coletor solar (de tubos a vácuo, no esquema) instalado no telhado e por um reservatório de água termicamente isolado (com isolamento de poliuretano), posicionado acima do coletor.</p>
+      <p>No esquema, a água fria desce do reservatório para o coletor, é aquecida pela radiação solar dentro dos tubos, e a água já aquecida — agora menos densa — sobe de volta ao reservatório, sem qualquer bomba ou dispositivo mecânico envolvido nesse deslocamento da água entre o coletor e o reservatório.</p>
+      <p class="text-right text-[11px] text-slate-500">Esquema de aquecedor solar residencial de tubos a vácuo (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">A circulação da água entre o coletor solar e o reservatório térmico, nesse sistema, ocorre predominantemente por</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "difusão.", correta: false },
+      { letra: "B", texto: "absorção.", correta: false },
+      { letra: "C", texto: "condução.", correta: false },
+      { letra: "D", texto: "irradiação.", correta: false },
+      { letra: "E", texto: "convecção.", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-violet-950/40 p-4 rounded-xl border border-violet-500/30 space-y-2">
+          <h4 class="font-bold text-violet-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A pergunta é sobre como a <strong>água se movimenta</strong> entre o coletor (embaixo) e o reservatório (em cima) — sem bomba. A luz do Sol aquece a água dentro dos tubos do coletor; ao esquentar, essa água se expande e fica <strong>menos densa</strong> do que a água fria que ainda está no reservatório. Água menos densa tende a subir, empurrada pela água fria mais densa que desce por gravidade para ocupar o lugar dela no coletor. Esse ciclo contínuo — água quente sobe, água fria desce — é exatamente a definição de <strong>convecção</strong>: transporte de calor por meio do movimento de um fluido (líquido ou gás), causado por diferenças de densidade geradas pela própria diferença de temperatura. É esse mecanismo, chamado de <strong>termossifão</strong> quando ocorre espontaneamente por diferença de densidade, que faz o sistema funcionar sem qualquer bomba.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta — difusão:</strong> descreve o espalhamento de partículas (ou soluto) de uma região de maior para menor concentração; não descreve o deslocamento em massa da água entre coletor e reservatório.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta — absorção:</strong> é o processo pelo qual a água (ou o coletor) captura a energia da radiação solar — explica como a água esquenta dentro do tubo, mas não como ela circula entre coletor e reservatório.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta — condução:</strong> é a transmissão de calor por contato direto entre partículas vizinhas de um material (tipicamente sólidos), sem transporte de matéria — não é como a água se move de um ponto a outro do sistema.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta — irradiação:</strong> é a transmissão de calor por ondas eletromagnéticas, sem necessidade de meio material (como a luz do Sol chegando ao coletor) — não explica o movimento da água já aquecida dentro do sistema.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-water", titulo: "Convecção", text: "Transporte de calor pelo movimento de um fluido, causado por diferenças de densidade geradas pela diferença de temperatura." },
+      { icone: "fa-arrows-up-down", titulo: "Termossifão", text: "Circulação espontânea de um fluido (sem bomba) causada apenas pela diferença de densidade entre suas porções quente e fria." },
+      { icone: "fa-sun", titulo: "As Três Formas de Transmissão de Calor", text: "Condução (contato direto), convecção (movimento de fluido) e irradiação (ondas eletromagnéticas, sem meio material) — três mecanismos distintos que podem coexistir em um mesmo sistema." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O ciclo de convecção no aquecedor solar",
+        legenda: "A água fria (mais densa) desce do reservatório para o coletor; lá, aquecida pelo Sol, fica menos densa e sobe de volta — um ciclo contínuo movido apenas pela diferença de densidade.",
+        svg: `
+          <svg viewBox="0 0 300 320" class="w-full h-auto">
+            <rect x="90" y="20" width="120" height="70" rx="10" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+            <text x="150" y="45" text-anchor="middle" fill="#e2e8f0" font-size="9" font-weight="bold">Reservatório</text>
+            <text x="150" y="60" text-anchor="middle" fill="#94a3b8" font-size="7">isolamento de poliuretano</text>
+            <path d="M110,90 L110,260" fill="none" stroke="#60a5fa" stroke-width="4"/>
+            <path d="M110,260 Q110,280 130,280 L170,280 Q190,280 190,260" fill="none" stroke="#60a5fa" stroke-width="4"/>
+            <path d="M190,260 L190,90" fill="none" stroke="#f87171" stroke-width="4"/>
+            <rect x="80" y="260" width="140" height="40" rx="8" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+            <text x="150" y="284" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Coletor solar (tubos a vácuo)</text>
+            <text x="150" y="315" text-anchor="middle" fill="#94a3b8" font-size="7">radiação solar aquece a água aqui</text>
+            <text x="95" y="180" fill="#93c5fd" font-size="7" font-weight="bold">água fria desce</text>
+            <text x="200" y="180" fill="#fca5a5" font-size="7" font-weight="bold">água quente sobe</text>
+          </svg>`
+      },
+      {
+        titulo: "Densidade e temperatura: por que a água quente sobe",
+        legenda: "Ao esquentar, o mesmo volume de água ocupa mais espaço (expansão térmica), então sua densidade diminui — e, como um fluido menos denso flutua sobre um mais denso, a água quente sobe naturalmente.",
+        svg: `
+          <svg viewBox="0 0 420 140" class="w-full h-auto">
+            <rect x="40" y="30" width="90" height="90" rx="8" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+            <text x="85" y="70" text-anchor="middle" fill="#bfdbfe" font-size="9" font-weight="bold">água fria</text>
+            <text x="85" y="85" text-anchor="middle" fill="#93c5fd" font-size="8">maior densidade</text>
+            <text x="180" y="80" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="bold">→</text>
+            <rect x="230" y="15" width="150" height="120" rx="8" fill="#7f1d1d" stroke="#f87171" stroke-width="2"/>
+            <text x="305" y="65" text-anchor="middle" fill="#fecaca" font-size="9" font-weight="bold">água aquecida</text>
+            <text x="305" y="82" text-anchor="middle" fill="#fca5a5" font-size="8">expandida → menor densidade</text>
+            <text x="305" y="98" text-anchor="middle" fill="#fca5a5" font-size="8">flutua e sobe</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3">
+          Essa questão testa se o estudante distingue com clareza as três formas de transmissão de calor — e reconhece que "como o calor chega até a água" (irradiação) é diferente de "como a água se move dentro do sistema" (convecção).
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> As três formas de transmissão de calor</h4>
+          <p>
+            <strong>Condução</strong> ocorre por contato direto entre partículas vizinhas de um material, sem transporte de matéria (ex.: uma colher de metal esquentando na panela). <strong>Convecção</strong> ocorre em fluidos (líquidos e gases), pelo movimento de porções do próprio fluido, gerado por diferenças de densidade ligadas a diferenças de temperatura. <strong>Irradiação</strong> (ou radiação térmica) é a transmissão de calor por ondas eletromagnéticas, o único mecanismo que dispensa qualquer meio material — é assim que o calor do Sol atravessa o vácuo do espaço até a Terra.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Expansão térmica e densidade: o motor da convecção</h4>
+          <p>
+            Quando um fluido é aquecido, suas moléculas se movimentam mais e se afastam um pouco mais umas das outras, fazendo o mesmo volume de massa ocupar mais espaço — ou seja, a densidade diminui. Um fluido menos denso tende a subir em relação a um mais denso, da mesma forma que óleo flutua sobre água. Esse princípio simples é o que move correntes de convecção em panelas de água fervendo, no ar de uma sala com aquecedor, e — no caso desta questão — dentro do circuito de um aquecedor solar.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">3.</span> O termossifão: convecção "de graça", sem bomba</h4>
+          <p>
+            Aquecedores solares residenciais são projetados de propósito com o reservatório <strong>acima</strong> do coletor. Essa escolha de posicionamento não é estética — ela é o que permite que a convecção natural (o termossifão) faça todo o trabalho de circular a água, sem gastar energia elétrica com uma bomba: água fria desce por gravidade até o coletor, é aquecida pelo Sol, fica menos densa, sobe de volta ao reservatório — e o ciclo se repete continuamente enquanto houver sol e diferença de temperatura.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">4.</span> Cuidado com a "pegadinha": absorção e irradiação também estão presentes</h4>
+          <p>
+            Vale notar que a irradiação solar e a absorção de energia pela água <em>também</em> acontecem nesse sistema — é assim que a água esquenta dentro do coletor. Mas a pergunta específica é sobre a <strong>circulação</strong> da água entre coletor e reservatório, e esse deslocamento em si é obra da convecção (termossifão), não da irradiação em si.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-violet-300 block"><i class="fa-solid fa-arrows-up-down"></i> Termossifão: o Ciclo de Convecção Natural</span>
+        <svg viewBox="0 0 260 150" class="w-full h-32 mx-auto">
+          <rect x="80" y="10" width="100" height="45" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+          <text x="130" y="35" text-anchor="middle" fill="#e2e8f0" font-size="8" font-weight="bold">Reservatório</text>
+          <path d="M95,55 L95,120" fill="none" stroke="#60a5fa" stroke-width="4"/>
+          <path d="M95,120 Q95,135 110,135 L150,135 Q165,135 165,120" fill="none" stroke="#60a5fa" stroke-width="4"/>
+          <path d="M165,120 L165,55" fill="none" stroke="#f87171" stroke-width="4"/>
+          <rect x="75" y="120" width="100" height="25" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+          <text x="125" y="137" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">Coletor solar</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: convecção e o termossifão do aquecedor solar",
+      descricao: "Ajuste a diferença de temperatura entre o coletor e o reservatório e veja como isso afeta a força da circulação por convecção (termossifão).",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Temperatura da água no coletor (aquecida pelo Sol)</span><span class="text-violet-300 font-bold" data-out="tcoletor">55 °C</span>
+              </label>
+              <input type="range" data-sim="tcoletor" min="30" max="80" value="55" step="1" class="w-full accent-violet-500">
+            </div>
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Temperatura da água no reservatório</span><span class="text-violet-300 font-bold" data-out="treservatorio">25 °C</span>
+              </label>
+              <input type="range" data-sim="treservatorio" min="15" max="50" value="25" step="1" class="w-full accent-violet-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Diferença de temperatura: <span data-out="diferenca" class="text-slate-200 font-bold">30 °C</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste os controles para simular a força do termossifão.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var tcoletor = raiz.querySelector('[data-sim="tcoletor"]');
+        var treservatorio = raiz.querySelector('[data-sim="treservatorio"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var tc = parseFloat(tcoletor.value);
+          var tr = parseFloat(treservatorio.value);
+          var dif = tc - tr;
+          saida('tcoletor').textContent = tc + ' °C';
+          saida('treservatorio').textContent = tr + ' °C';
+          saida('diferenca').textContent = dif + ' °C';
+
+          var v = saida('veredito');
+          if (dif <= 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Sem diferença de temperatura favorável, a água do coletor não fica menos densa que a do reservatório — o termossifão praticamente não circula a água.';
+          } else if (dif < 15) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Diferença de ' + dif + ' °C: a água do coletor está só um pouco menos densa — a convecção ocorre, mas de forma lenta.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Diferença de ' + dif + ' °C: a água aquecida no coletor fica bem menos densa que a do reservatório, impulsionando uma circulação por convecção (termossifão) vigorosa — sem qualquer bomba.';
+          }
+        }
+
+        tcoletor.addEventListener('input', atualizar);
+        treservatorio.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24104",
+    numero: "Questão 104 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia — Urbanização e Arboviroses",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Da Falta de Saneamento ao Mosquito: a Cadeia que Leva à Chikungunya",
+    tags: ["Biologia", "Ecologia", "Saneamento", "Arboviroses", "Biodiversidade Aquática", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Urbanização desordenada e o aumento de arboviroses</p>
+      <p>O fluxograma a seguir resume uma cadeia de causas associada ao aumento de casos de arboviroses (como chikungunya e zika, transmitidas pelo mosquito <em>Aedes aegypti</em>) em áreas de urbanização desordenada:</p>
+      <div class="flex flex-wrap items-center justify-center gap-2 text-[11px] font-semibold py-2">
+        <span class="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700">Urbanização desordenada</span>
+        <span class="text-slate-500">→</span>
+        <span class="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700">Ausência de saneamento básico</span>
+        <span class="text-slate-500">→</span>
+        <span class="px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700">Contaminação da água</span>
+        <span class="text-slate-500">→</span>
+        <span class="px-3 py-1.5 rounded-lg bg-emerald-900/50 border border-emerald-600">Redução da biodiversidade aquática</span>
+        <span class="text-slate-500">→</span>
+        <span class="px-3 py-1.5 rounded-lg bg-rose-900/50 border border-rose-600">Riscos para a saúde humana (chikungunya, zika)</span>
+      </div>
+      <p class="text-right text-[11px] text-slate-500">Fluxograma esquemático adaptado, sobre saneamento básico e arboviroses. Acesso em: 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">A etapa "redução da biodiversidade aquática" contribui para o aumento dos riscos à saúde humana descritos porque está</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Disseminando verminoses.", correta: false },
+      { letra: "B", texto: "Causando a eutrofização de lagoas.", correta: false },
+      { letra: "C", texto: "Aumentando a chance de contato com coliformes.", correta: false },
+      { letra: "D", texto: "Diminuindo a população de predadores aquáticos.", correta: true },
+      { letra: "E", texto: "Aproximando as pessoas das áreas de ocorrência de mosquitos.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A questão pede especificamente <strong>por que a etapa "redução da biodiversidade aquática" leva ao aumento dos riscos à saúde</strong> — ou seja, é preciso conectar essa etapa específica do fluxograma à seguinte. A água contaminada por esgoto e resíduos urbanos se torna imprópria para a sobrevivência de diversas espécies aquáticas, incluindo predadores naturais das larvas de mosquito — como certos peixes, larvas de libélula e outros invertebrados aquáticos que normalmente controlam a população de larvas do <em>Aedes aegypti</em> em corpos d'água. Com a biodiversidade reduzida, esses <strong>predadores desaparecem</strong>, e as larvas do mosquito passam a se desenvolver sem controle biológico natural, aumentando diretamente a população de mosquitos adultos e, com ela, a transmissão de arboviroses como chikungunya e zika.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> verminoses (helmintos) são um risco à saúde ligado à falta de saneamento em si (contato com fezes/água contaminada), mas não é o mecanismo pelo qual a <em>redução da biodiversidade aquática especificamente</em> aumenta o risco de arboviroses transmitidas por mosquito.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> a eutrofização (excesso de nutrientes causando proliferação de algas) é uma <em>causa</em> possível da contaminação/redução da biodiversidade, e não uma <em>consequência</em> dela — inverte a ordem de causa e efeito pedida pela questão.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> o contato com coliformes fecais está ligado diretamente à contaminação da água (etapa anterior do fluxograma), não é uma consequência específica da perda de biodiversidade aquática.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> a redução da biodiversidade aquática não aproxima fisicamente as pessoas dos mosquitos — o mecanismo relevante é biológico (perda do controle natural das larvas), não geográfico.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-water", titulo: "Predação como Controle Biológico", text: "Predadores naturais mantêm populações de presas (como larvas de mosquito) sob controle; sua ausência permite que a presa se prolifere sem limites." },
+      { icone: "fa-city", titulo: "Urbanização Desordenada", text: "Crescimento urbano sem planejamento adequado de infraestrutura, frequentemente associado à falta de saneamento básico." },
+      { icone: "fa-mosquito", titulo: "Arboviroses", text: "Doenças causadas por vírus transmitidos por artrópodes (como o Aedes aegypti), incluindo dengue, zika e chikungunya." }
+    ],
+
+    galeria: [
+      {
+        titulo: "A cadeia ecológica: menos predadores, mais larvas de mosquito",
+        legenda: "Em água limpa, peixes e larvas de libélula predam as larvas de mosquito, mantendo sua população baixa. Em água contaminada, esses predadores desaparecem e as larvas se desenvolvem livremente.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Água com biodiversidade</text>
+            <rect x="40" y="30" width="150" height="100" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <ellipse cx="90" cy="70" rx="18" ry="8" fill="#38bdf8"/>
+            <ellipse cx="150" cy="95" rx="14" ry="6" fill="#38bdf8"/>
+            <circle cx="70" cy="105" r="2.5" fill="#fde68a"/>
+            <circle cx="80" cy="110" r="2.5" fill="#fde68a"/>
+            <text x="115" y="150" text-anchor="middle" fill="#94a3b8" font-size="7.5">peixes predam as larvas — poucas sobrevivem</text>
+            <text x="345" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Água contaminada, sem biodiversidade</text>
+            <rect x="270" y="30" width="150" height="100" rx="8" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <circle cx="310" cy="60" r="2.5" fill="#fde68a"/>
+            <circle cx="325" cy="65" r="2.5" fill="#fde68a"/>
+            <circle cx="340" cy="58" r="2.5" fill="#fde68a"/>
+            <circle cx="355" cy="70" r="2.5" fill="#fde68a"/>
+            <circle cx="370" cy="62" r="2.5" fill="#fde68a"/>
+            <circle cx="385" cy="72" r="2.5" fill="#fde68a"/>
+            <circle cx="330" cy="90" r="2.5" fill="#fde68a"/>
+            <circle cx="360" cy="95" r="2.5" fill="#fde68a"/>
+            <text x="345" y="150" text-anchor="middle" fill="#94a3b8" font-size="7.5">sem predadores — larvas se multiplicam livres</text>
+          </svg>`
+      },
+      {
+        titulo: "O fluxograma completo, com o elo destacado",
+        legenda: "A redução da biodiversidade aquática é o elo que conecta a contaminação da água ao aumento de mosquitos — porque é a perda dos predadores naturais das larvas que permite a proliferação do vetor.",
+        svg: `
+          <svg viewBox="0 0 460 200" class="w-full h-auto">
+            <rect x="10" y="15" width="90" height="40" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="55" y="39" text-anchor="middle" fill="#cbd5e1" font-size="7">Urbanização desordenada</text>
+            <rect x="120" y="15" width="90" height="40" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="165" y="32" text-anchor="middle" fill="#cbd5e1" font-size="7">Ausência de</text>
+            <text x="165" y="42" text-anchor="middle" fill="#cbd5e1" font-size="7">saneamento</text>
+            <rect x="230" y="15" width="90" height="40" rx="6" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="275" y="39" text-anchor="middle" fill="#cbd5e1" font-size="7">Contaminação da água</text>
+            <rect x="130" y="90" width="200" height="40" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <text x="230" y="107" text-anchor="middle" fill="#6ee7b7" font-size="7.5" font-weight="bold">Redução da biodiversidade aquática</text>
+            <text x="230" y="120" text-anchor="middle" fill="#a7f3d0" font-size="6.5">(menos predadores das larvas)</text>
+            <rect x="150" y="160" width="160" height="35" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="230" y="180" text-anchor="middle" fill="#fca5a5" font-size="7">Mais chikungunya e zika</text>
+            <path d="M275,55 L230,90" stroke="#64748b" stroke-width="1.5" fill="none" marker-end="url(#a104)"/>
+            <path d="M230,130 L230,160" stroke="#34d399" stroke-width="2" fill="none" marker-end="url(#a104)"/>
+            <defs><marker id="a104" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão é sobre ecologia aplicada à saúde pública: entender como uma cadeia de causas ambientais (urbanização → saneamento → água → biodiversidade) termina afetando diretamente a saúde humana.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Controle biológico natural: predadores mantêm presas sob controle</h4>
+          <p>
+            Em qualquer ecossistema equilibrado, populações de presas (como larvas de insetos) são mantidas em níveis relativamente estáveis pela ação de seus predadores naturais. Em corpos d'água limpos e biodiversos, peixes, larvas de libélula (náiades), alguns crustáceos e outros invertebrados aquáticos se alimentam ativamente de larvas de mosquito, funcionando como um <strong>controle biológico natural</strong> que mantém a população do vetor baixa sem qualquer intervenção humana.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Como a contaminação rompe esse equilíbrio</h4>
+          <p>
+            Esgoto sem tratamento e resíduos urbanos alteram drasticamente a qualidade da água (reduzindo oxigênio dissolvido, alterando o pH, introduzindo substâncias tóxicas). Muitas espécies predadoras são sensíveis a essas mudanças e não sobrevivem em água contaminada — enquanto o próprio <em>Aedes aegypti</em>, ao contrário, é uma espécie bastante resistente e oportunista, capaz de se reproduzir mesmo em pequenas poças de água parada, suja ou limpa.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> O resultado: mais larvas sobrevivendo até a fase adulta</h4>
+          <p>
+            Sem predadores para consumir as larvas, uma proporção muito maior delas sobrevive até se tornarem mosquitos adultos, aumentando diretamente a população de vetores na região — e, com ela, a chance de transmissão de arboviroses como dengue, zika e chikungunya para a população humana local.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que saneamento básico é também uma questão de saúde pública</h4>
+          <p>
+            Esse raciocínio ecológico é uma das razões pelas quais investimentos em saneamento básico (coleta e tratamento de esgoto, abastecimento de água tratada) são considerados uma das intervenções de saúde pública mais custo-efetivas: eles atacam a causa ambiental raiz de uma cadeia inteira de problemas, incluindo o desequilíbrio ecológico que favorece vetores de doença.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-mosquito"></i> Sem Predadores, as Larvas se Multiplicam</span>
+        <svg viewBox="0 0 300 130" class="w-full h-28 mx-auto">
+          <rect x="20" y="15" width="120" height="90" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+          <ellipse cx="70" cy="55" rx="16" ry="7" fill="#38bdf8"/>
+          <circle cx="55" cy="85" r="2" fill="#fde68a"/>
+          <text x="80" y="118" text-anchor="middle" fill="#94a3b8" font-size="7">com predador: poucas larvas</text>
+          <rect x="160" y="15" width="120" height="90" rx="8" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <circle cx="185" cy="40" r="2" fill="#fde68a"/><circle cx="200" cy="50" r="2" fill="#fde68a"/>
+          <circle cx="215" cy="42" r="2" fill="#fde68a"/><circle cx="230" cy="55" r="2" fill="#fde68a"/>
+          <circle cx="245" cy="45" r="2" fill="#fde68a"/><circle cx="260" cy="60" r="2" fill="#fde68a"/>
+          <circle cx="195" cy="75" r="2" fill="#fde68a"/><circle cx="220" cy="80" r="2" fill="#fde68a"/>
+          <circle cx="250" cy="78" r="2" fill="#fde68a"/>
+          <text x="220" y="118" text-anchor="middle" fill="#94a3b8" font-size="7">sem predador: larvas se multiplicam</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: predadores aquáticos e a população de larvas",
+      descricao: "Ajuste o nível de contaminação da água e veja como isso afeta a população de predadores naturais e, por consequência, a de larvas de mosquito sobreviventes.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Nível de contaminação da água</span><span class="text-emerald-300 font-bold" data-out="contaminacao">30%</span>
+              </label>
+              <input type="range" data-sim="contaminacao" min="0" max="100" value="30" step="5" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Predadores naturais sobreviventes: <span data-out="predadores" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Larvas de mosquito sobrevivendo até a fase adulta: <span data-out="larvas" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a contaminação para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var contaminacao = raiz.querySelector('[data-sim="contaminacao"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var c = parseFloat(contaminacao.value);
+          saida('contaminacao').textContent = c + '%';
+
+          var predadores = Math.max(0, 100 - c * 1.1);
+          var larvas = 10 + c * 0.9;
+          saida('predadores').textContent = predadores.toFixed(0) + '%';
+          saida('larvas').textContent = larvas.toFixed(0) + '% sobrevivem';
+
+          var v = saida('veredito');
+          if (c < 30) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Água pouco contaminada: os predadores naturais ainda sobrevivem bem e mantêm a população de larvas sob controle.';
+          } else if (c < 70) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Contaminação moderada: parte dos predadores já não sobrevive, e mais larvas escapam até virar mosquitos adultos.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Água muito contaminada: quase nenhum predador natural sobrevive — as larvas de mosquito se desenvolvem quase sem controle biológico, aumentando o risco de arboviroses.';
+          }
+        }
+
+        contaminacao.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24105",
+    numero: "Questão 105 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Fisiologia — Bioacumulação de Poluentes",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Microplásticos, Pesticidas e o Tecido que Vira Depósito de Veneno",
+    tags: ["Biologia", "Fisiologia", "Bioacumulação", "Microplásticos", "Poluentes Lipofílicos", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Microplásticos como carreadores de poluentes lipossolúveis</p>
+      <p>A ação de fatores abióticos aliada à biodeterioração contribuem para a formação de microplásticos, os quais se aderem a outros poluentes orgânicos apolares persistentes, como os derivados de pesticidas lipossolúveis. Esses microplásticos contaminados podem ser ingeridos por organismos aquáticos e, ao longo da cadeia alimentar, atingir o ser humano através do consumo de alimentos contaminados.</p>
+      <p>Uma vez no organismo, tanto os microplásticos quanto os poluentes lipossolúveis que eles carregam tendem a se acumular preferencialmente em determinados tipos de tecido, de acordo com a afinidade química dessas substâncias.</p>
+      <p class="text-right text-[11px] text-slate-500">Situação-problema sobre bioacumulação de poluentes lipofílicos via microplásticos (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Devido à sua composição química, esses poluentes lipossolúveis tendem a se acumular, no corpo humano, principalmente no tecido</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "ósseo.", correta: false },
+      { letra: "B", texto: "nervoso.", correta: false },
+      { letra: "C", texto: "epitelial.", correta: false },
+      { letra: "D", texto: "adiposo.", correta: true },
+      { letra: "E", texto: "sanguíneo.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A palavra-chave do enunciado é <strong>lipossolúveis</strong> — substâncias que se dissolvem bem em gordura (lipídios) e mal em água. Pelo princípio químico "semelhante dissolve semelhante", uma molécula apolar (como muitos pesticidas persistentes) tem muito mais afinidade por outro ambiente apolar do que pela água, que é polar. O <strong>tecido adiposo</strong> é majoritariamente composto por lipídios (gordura) armazenados nos adipócitos — um ambiente quimicamente apolar, exatamente o tipo de meio em que substâncias lipossolúveis se dissolvem e se acumulam preferencialmente. É por isso que poluentes lipofílicos persistentes (como muitos pesticidas organoclorados e outros compostos orgânicos persistentes) se concentram no tecido adiposo, um fenômeno chamado <strong>bioacumulação</strong> — e podem ficar armazenados ali por longos períodos, sendo liberados de volta à circulação quando o organismo mobiliza suas reservas de gordura.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta — ósseo:</strong> o tecido ósseo é o local preferencial de acúmulo de determinados <em>metais pesados</em> (como o chumbo, que substitui o cálcio na matriz óssea) — um mecanismo químico diferente, não ligado à lipossolubilidade.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta — nervoso:</strong> embora tecidos ricos em lipídios como a bainha de mielina possam reter algumas substâncias lipossolúveis, o principal reservatório do corpo para esse tipo de poluente é o tecido adiposo, muito mais volumoso e especializado no armazenamento de gordura.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta — epitelial:</strong> o tecido epitelial (revestimento de superfícies e cavidades do corpo) não tem composição predominantemente lipídica nem função de reserva de gordura — não é um sítio de acúmulo característico desses poluentes.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta — sanguíneo:</strong> o sangue é majoritariamente aquoso (plasma), um meio <em>polar</em> — justamente o ambiente que substâncias lipossolúveis evitam; o sangue funciona apenas como via de transporte transitória até o tecido adiposo, não como local de acúmulo.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-droplet", titulo: "Lipossolubilidade", text: "Capacidade de uma substância se dissolver em gorduras/lipídios; substâncias apolares tendem a ser lipossolúveis e pouco solúveis em água." },
+      { icone: "fa-layer-group", titulo: "Bioacumulação", text: "Acúmulo progressivo de uma substância nos tecidos de um organismo, quando a taxa de absorção supera a de eliminação." },
+      { icone: "fa-weight-scale", titulo: "Tecido Adiposo", text: "Tecido conjuntivo especializado no armazenamento de gordura (lipídios), funcionando como reserva energética e também como reservatório de substâncias lipossolúveis." }
+    ],
+
+    galeria: [
+      {
+        titulo: "\"Semelhante dissolve semelhante\": por que a gordura é o destino",
+        legenda: "Moléculas apolares de pesticidas lipossolúveis têm baixa afinidade pela água (polar) do sangue e do plasma, mas alta afinidade pelo ambiente apolar dos lipídios armazenados no tecido adiposo — por isso migram e se concentram ali.",
+        svg: `
+          <svg viewBox="0 0 460 160" class="w-full h-auto">
+            <rect x="30" y="40" width="140" height="80" rx="10" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+            <text x="100" y="65" text-anchor="middle" fill="#bae6fd" font-size="9" font-weight="bold">Sangue (polar)</text>
+            <circle cx="70" cy="90" r="4" fill="#fbbf24"/>
+            <text x="130" y="105" text-anchor="middle" fill="#7dd3fc" font-size="7">baixa afinidade — não fica</text>
+            <path d="M175,85 L280,85" stroke="#fbbf24" stroke-width="2.5" fill="none" marker-end="url(#a105a)"/>
+            <defs><marker id="a105a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#fbbf24"/></marker></defs>
+            <rect x="290" y="30" width="150" height="100" rx="10" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+            <text x="365" y="55" text-anchor="middle" fill="#fde68a" font-size="9" font-weight="bold">Tecido adiposo (apolar)</text>
+            <circle cx="330" cy="80" r="14" fill="#fbbf24" opacity="0.85"/>
+            <circle cx="370" cy="95" r="16" fill="#fbbf24" opacity="0.85"/>
+            <circle cx="410" cy="75" r="12" fill="#fbbf24" opacity="0.85"/>
+            <text x="365" y="118" text-anchor="middle" fill="#fef3c7" font-size="7">alta afinidade — se acumula</text>
+          </svg>`
+      },
+      {
+        titulo: "A rota completa: do microplástico ao adipócito",
+        legenda: "Microplástico com pesticida aderido é ingerido por organismo aquático, entra na cadeia alimentar, é consumido pelo ser humano e, no corpo, o poluente lipossolúvel migra para o tecido adiposo.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <circle cx="45" cy="65" r="16" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <circle cx="45" cy="65" r="4" fill="#f59e0b"/>
+            <text x="45" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">microplástico + pesticida</text>
+            <path d="M65,65 L110,65" stroke="#64748b" stroke-width="2" marker-end="url(#a105b)"/>
+            <ellipse cx="150" cy="65" rx="28" ry="16" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="150" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">organismo aquático</text>
+            <path d="M180,65 L225,65" stroke="#64748b" stroke-width="2" marker-end="url(#a105b)"/>
+            <circle cx="260" cy="55" r="18" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="260" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">ser humano (dieta)</text>
+            <path d="M282,60 L330,60" stroke="#64748b" stroke-width="2" marker-end="url(#a105b)"/>
+            <rect x="340" y="30" width="100" height="70" rx="10" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+            <circle cx="370" cy="60" r="10" fill="#fbbf24" opacity="0.85"/>
+            <circle cx="400" cy="70" r="12" fill="#fbbf24" opacity="0.85"/>
+            <text x="390" y="112" text-anchor="middle" fill="#fde68a" font-size="7" font-weight="bold">acúmulo no tec. adiposo</text>
+            <defs><marker id="a105b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#64748b"/></marker></defs>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão usa um tema ambiental atual (microplásticos) como pretexto para testar um conceito clássico de química/bioquímica: por que substâncias apolares se acumulam preferencialmente em gordura.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Polaridade química: "semelhante dissolve semelhante"</h4>
+          <p>
+            Moléculas polares (como a água) interagem bem entre si por meio de pontes de hidrogênio e outras forças eletrostáticas, formando soluções estáveis. Moléculas apolares não têm essas interações favoráveis com a água — por isso substâncias apolares tendem a ser hidrofóbicas ("que evitam a água") e, ao mesmo tempo, lipofílicas ("que têm afinidade por gordura"), já que os lipídios também são majoritariamente apolares.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Microplásticos como "carona" para poluentes</h4>
+          <p>
+            Microplásticos no ambiente têm uma superfície com afinidade química por outras moléculas orgânicas apolares, como muitos pesticidas persistentes. Esses poluentes se adsorvem (aderem) à superfície das partículas plásticas, que funcionam como um "carro-carona" concentrando o poluente e facilitando sua entrada na cadeia alimentar quando organismos aquáticos ingerem essas partículas por engano.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Por que o tecido adiposo é o destino final</h4>
+          <p>
+            Uma vez absorvidos pelo organismo, poluentes lipossolúveis não permanecem no sangue (ambiente aquoso) por muito tempo — eles migram para tecidos ricos em lipídios, sendo o <strong>tecido adiposo</strong> o maior reservatório de gordura do corpo humano. Ali, ficam armazenados dissolvidos na gordura corporal, muitas vezes por anos, sem serem eliminados — esse fenômeno de acúmulo progressivo é chamado de <strong>bioacumulação</strong>.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Implicações: da bioacumulação à biomagnificação</h4>
+          <p>
+            Quando esse fenômeno se repete ao longo de uma cadeia alimentar — cada predador acumulando o que seus vários itens de presa já acumularam — a concentração do poluente pode aumentar drasticamente a cada nível trófico, um processo chamado <strong>biomagnificação</strong>. É por isso que predadores no topo da cadeia alimentar (incluindo o ser humano) costumam apresentar as maiores concentrações desses poluentes em seu tecido adiposo.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-droplet"></i> Poluente Lipossolúvel Migra Para a Gordura</span>
+        <svg viewBox="0 0 300 130" class="w-full h-28 mx-auto">
+          <rect x="20" y="35" width="110" height="65" rx="8" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+          <text x="75" y="60" text-anchor="middle" fill="#bae6fd" font-size="8" font-weight="bold">Sangue</text>
+          <circle cx="60" cy="80" r="3.5" fill="#fbbf24"/>
+          <path d="M135,65 L175,65" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#a105c)"/>
+          <defs><marker id="a105c" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#fbbf24"/></marker></defs>
+          <rect x="185" y="20" width="100" height="90" rx="8" fill="#78350f" stroke="#f59e0b" stroke-width="2"/>
+          <text x="235" y="42" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">Tec. adiposo</text>
+          <circle cx="215" cy="65" r="10" fill="#fbbf24" opacity="0.85"/>
+          <circle cx="250" cy="80" r="12" fill="#fbbf24" opacity="0.85"/>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: lipossolubilidade e o acúmulo em tecido adiposo",
+      descricao: "Ajuste o quanto uma substância é lipossolúvel (apolar) e veja como isso muda sua tendência de se acumular no tecido adiposo em vez de permanecer no sangue.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Lipossolubilidade da substância</span><span class="text-emerald-300 font-bold" data-out="lipo">70%</span>
+              </label>
+              <input type="range" data-sim="lipo" min="0" max="100" value="70" step="5" class="w-full accent-emerald-500">
+              <p class="text-[10px] text-slate-500 mt-1">0% = totalmente polar (hidrossolúvel) · 100% = totalmente apolar (lipossolúvel)</p>
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Fração retida no sangue (eliminada pela urina): <span data-out="sangue" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Fração acumulada no tecido adiposo: <span data-out="adiposo" class="text-slate-200 font-bold text-base">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a lipossolubilidade para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var lipo = raiz.querySelector('[data-sim="lipo"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var l = parseFloat(lipo.value);
+          saida('lipo').textContent = l + '%';
+          saida('sangue').textContent = (100 - l) + '%';
+          saida('adiposo').textContent = l + '%';
+
+          var v = saida('veredito');
+          if (l < 30) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Substância pouco lipossolúvel (mais polar): permanece dissolvida no plasma sanguíneo e é eliminada com relativa facilidade pelos rins.';
+          } else if (l < 70) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Lipossolubilidade intermediária: parte da substância já começa a migrar e se depositar no tecido adiposo.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Substância fortemente lipossolúvel (apolar): tem baixíssima afinidade pelo sangue (meio aquoso) e se acumula predominantemente no tecido adiposo — o cenário típico de pesticidas persistentes carregados por microplásticos.';
+          }
+        }
+
+        lipo.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
 
 ];
