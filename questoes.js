@@ -1,4 +1,4 @@
-/* =========================================================================
+﻿/* =========================================================================
    BANCO DE QUESTÕES — Plataforma de Estudos
    Este arquivo guarda SÓ os dados. A interface fica em index.html.
    Para adicionar uma questão: copie um objeto, cole no fim do array e edite.
@@ -41545,6 +41545,343 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
       }
     },
 
+    simuladorType: null
+  }
+,
+
+  {
+    id: "qINSS016",
+    numero: "Questão 16",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "etica-servico-publico",
+    materia: "Ética no Serviço Público / Decreto 1.171/94",
+    materiaCor: "pink",
+    materiaIcone: "fa-handshake",
+    titulo: "Deveres Fundamentais e Dano Moral no Atendimento",
+    tags: ["INSS", "Ética", "Decreto 1.171", "Deveres", "Dano Moral", "Atendimento"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Jonas, servidor público federal lotado no atendimento ao público de uma repartição federal de recolhimento de tributos, tratou mal, no exercício de suas atribuições, uma contribuinte que buscava informações a respeito de suposto débito tributário. Com base no disposto no Decreto n.º 1.171/1994 (Código de Ética Profissional), assinale a alternativa <strong>CORRETA</strong> sobre a conduta do servidor:`,
+
+    alternativas: [
+      { letra: "A", texto: "O servidor não pode ligar seu nome a empreendimentos de cunho duvidoso, exceto se respeitar rigorosamente todos os seus deveres no ambiente de trabalho.", correta: false },
+      { letra: "B", texto: "A atitude de Jonas configura apenas uma infração disciplinar interna de menor potencial, não caracterizando, sob o ponto de vista ético, dano moral à contribuinte.", correta: false },
+      { letra: "C", texto: "O servidor que trata mal o cidadão no exercício de suas atribuições comete conduta que resulta em dano moral à pessoa atendida.", correta: true },
+      { letra: "D", texto: "Jonas não pode ser penalizado por deixar de participar de estudos de capacitação da sua função, pois isso é uma recomendação, e não um dever fundamental.", correta: false },
+      { letra: "E", texto: "O dano moral no serviço público só se caracteriza eticamente quando a atitude do servidor gera comprovação de prejuízo financeiro direto ao Estado.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-pink-400">1.</span> A base do Código de Ética (Dec. 1.171/94)</h4>
+          <p>O Decreto 1.171/94 não traz apenas proibições morais genéricas; ele tipifica condutas que afetam diretamente o cidadão. O princípio máximo é que a remuneração do servidor é custeada pelos tributos pagos direta ou indiretamente por todos (inclusive pelo próprio servidor). Logo, o cidadão é o "patrão" do servidor público.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-pink-400">2.</span> A figura do Dano Moral no Atendimento</h4>
+          <p>Diferente do Direito Civil (onde o dano moral depende de longa comprovação judicial de sofrimento), o Código de Ética é expresso e objetivo: <strong>deixar de prestar atendimento ou tratar mal qualquer pessoa que pague seus tributos ou precise do serviço causa DANO MORAL.</strong> A infração ética já nasce da má conduta, sem precisar provar que a pessoa chorou ou perdeu dinheiro.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        
+        <!-- Fundamentação -->
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Decreto 1.171/1994, Capítulo I, Seção I, Inciso IV:</strong> "A remuneração do servidor público é custeada pelos tributos pagos direta ou indiretamente por todos... O servidor que deixar de prestar o atendimento ou tratá-lo mal, causa dano moral."
+          </p>
+        </div>
+
+        <!-- Acerto -->
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A alternativa reproduz com exatidão o texto do Código de Ética (Inciso IV). Tratar mal o cidadão no serviço público ultrapassa a mera "falta de educação"; o legislador elevou essa conduta à categoria expressa de dano moral contra o usuário do serviço.
+          </p>
+        </div>
+
+        <!-- Raio-X -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na palavra <strong>"exceto"</strong>. É absolutamente vedado (proibido) ao servidor ligar o seu nome a empreendimentos de cunho duvidoso, independentemente de ele ser um "funcionário exemplar" no horário de expediente (Inciso XV, alínea 'p').</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B e E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em restringir a punição a <strong>"infração interna"</strong> ou <strong>"prejuízo financeiro"</strong>. O decreto prevê claramente a ocorrência do dano moral de forma autônoma e imediata pela má conduta.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em classificar como mera <strong>"recomendação"</strong>. Manter-se atualizado e participar de estudos de capacitação é um <strong>DEVER FUNDAMENTAL</strong> do servidor (Inciso XIV, alínea 'c').</p>
+          </div>
+        </div>
+
+        <!-- Pegadinha -->
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE ama cobrar o conceito de DANO MORAL no Código de Ética, porque no senso comum o candidato acha que dano moral é algo que o juiz decide numa ação cível. Na Ética do Serviço Público, enrolou a fila de propósito ou tratou mal = Dano Moral imediato.</p>
+        </div>
+
+        <!-- Como Cai -->
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra
+          </h4>
+          <p class="text-slate-300 leading-relaxed">A banca frequentemente usa o formato de "historinha". Eles contam que o servidor "João" estava estressado e respondeu rudemente a uma idosa, e perguntam: "Nesse caso, a atitude de João constitui dano moral?" (A resposta é sempre SIM).</p>
+        </div>
+
+        <!-- Gatilho -->
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            MAL TRATOU = DANO MORAL CAUSOU!<br>
+            (O salário vem do tributo. O cidadão é o chefe).
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS017",
+    numero: "Questão 17",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / LOAS e BPC",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "BPC e Auxílio-Inclusão: Requisitos e Acumulação",
+    tags: ["INSS", "Previdenciário", "LOAS", "BPC", "Auxílio-Inclusão", "Renda Per Capita"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A Lei Orgânica da Assistência Social (LOAS) estrutura os benefícios assistenciais pagos a populações em vulnerabilidade, como o Benefício de Prestação Continuada (BPC) e o Auxílio-Inclusão. Com base nas normativas vigentes sobre o tema, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "A assistência social é regida pelo princípio da supremacia das exigências de rentabilidade econômica sobre o atendimento às necessidades sociais.", correta: false },
+      { letra: "B", texto: "O pagamento do auxílio-inclusão pode ser livremente acumulado com o pagamento do benefício de prestação continuada (BPC).", correta: false },
+      { letra: "C", texto: "O BPC é devido à pessoa idosa ou com deficiência cuja renda familiar mensal per capita seja igual ou inferior a um quarto (1/4) do salário mínimo.", correta: true },
+      { letra: "D", texto: "O Instituto Nacional do Seguro Social (INSS) não detém a competência para a operacionalização do benefício de prestação continuada, cabendo essa tarefa exclusivamente aos municípios.", correta: false },
+      { letra: "E", texto: "O auxílio-inclusão é pago de forma vitalícia a qualquer dependente de pessoa idosa que receba o BPC.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O BPC (Benefício de Prestação Continuada)</h4>
+          <p>O BPC garante o pagamento de 1 salário mínimo mensal à pessoa idosa (65 anos ou mais) ou à pessoa com deficiência de qualquer idade que comprovem não possuir meios de prover a própria manutenção nem de tê-la provida por sua família. O critério objetivo de renda é rigoroso: renda familiar mensal per capita <strong>igual ou inferior a 1/4 do salário mínimo</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O Auxílio-Inclusão</h4>
+          <p>Criado para estimular a inserção da pessoa com deficiência no mercado de trabalho. Se a pessoa recebe o BPC e consegue um emprego formal, ela passa a receber o seu salário e ganha um incentivo: o Auxílio-Inclusão (no valor de meio BPC). Contudo, o pagamento integral do BPC original é suspenso. Logo, <strong>não se acumula BPC com Auxílio-Inclusão</strong>.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        
+        <!-- Fundamentação -->
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Lei 8.742/1993 (LOAS), Art. 20, § 3º:</strong> "Considera-se incapaz de prover a manutenção da pessoa com deficiência ou idosa a família cuja renda mensal per capita seja igual ou inferior a 1/4 (um quarto) do salário-mínimo."
+          </p>
+        </div>
+
+        <!-- Acerto -->
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A alternativa traz a exata transcrição da lei, contemplando os requisitos simultâneos do BPC: exigência de idade (idoso) ou condição clínica (deficiência) + miserabilidade comprovada pela renda per capita igual ou inferior a 1/4 do salário mínimo.
+          </p>
+        </div>
+
+        <!-- Raio-X -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">Inverteu o conceito central da Assistência Social. A LOAS (Art. 4º, I) consagra o princípio da supremacia do atendimento às <strong>necessidades sociais</strong> sobre as exigências de rentabilidade econômica.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B e E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na <strong>acumulação</strong>. O Estatuto da Pessoa com Deficiência e a LOAS deixam claro que o auxílio-inclusão substitui temporariamente o BPC para quem entra no mercado de trabalho. É um estímulo (Bônus de 50%), não um pagamento vitalício ou cumulativo com o BPC integral.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na palavra <strong>"não detém"</strong>. Embora a Assistência Social não exija contribuição (diferente da Previdência), a autarquia que operacionaliza, defere e paga o BPC na prática é exatamente o <strong>INSS</strong>.</p>
+          </div>
+        </div>
+
+        <!-- Pegadinha -->
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">Muitos confundem BPC com Aposentadoria. BPC não paga 13º salário e não gera Pensão por Morte, pois é um benefício assistencial. A banca adora colocar na prova que "o idoso falecido deixará pensão aos herdeiros originária de seu BPC". Falso!</p>
+        </div>
+
+        <!-- Gatilho -->
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            BPC = 1/4 do salário = 1/4 da Esperança.<br>
+            Achou emprego? SUSPENDE o BPC e GANHA o Auxílio-Inclusão. Acumular? JAMAIS!
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS018",
+    numero: "Questão 18",
+    ano: "2022",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-administrativo",
+    materia: "Direito Administrativo / Poderes e Controle",
+    materiaCor: "violet",
+    materiaIcone: "fa-building-columns",
+    titulo: "Controle Administrativo, Delegação e Improbidade",
+    tags: ["INSS", "Administrativo", "Poderes", "Controle", "Delegação", "Improbidade"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `A organização da máquina pública envolve o controle dos atos dos servidores, a delegação de competências e a responsabilização dos agentes por atos de improbidade. Acerca do Direito Administrativo e da organização da Administração Pública, assinale a opção <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "A delegação de competência de um órgão ou de um titular para outro depende obrigatoriamente da existência de subordinação hierárquica entre eles.", correta: false },
+      { letra: "B", texto: "O direito de petição, por meio do qual os cidadãos podem formular postulações ou denúncias aos órgãos públicos, funciona como um meio de controle administrativo.", correta: true },
+      { letra: "C", texto: "A voluntariedade simples do agente (sem dolo específico) é suficiente para caracterizar a conduta ilícita como crime de improbidade administrativa, de acordo com o entendimento legal atual.", correta: false },
+      { letra: "D", texto: "A transmissão de uma competência de uma pessoa jurídica de direito público para outra (transferência de titularidade) configura sempre a desconcentração.", correta: false },
+      { letra: "E", texto: "Os atos praticados sob delegação são legalmente considerados como editados pela autoridade delegante (a que emprestou a competência), e não pela delegada (a que recebeu e assinou).", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">1.</span> Delegação e Hierarquia</h4>
+          <p>O instituto da delegação é dinâmico. A Lei de Processo Administrativo Federal (Lei 9.784/99) afirma expressamente que um órgão pode delegar parte de sua competência a outro, "ainda que estes não lhe sejam hierarquicamente subordinados", desde que para conveniência social ou técnica.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-violet-400">2.</span> Improbidade Administrativa exige Dolo</h4>
+          <p>A Lei de Improbidade (Lei 8.429/92) sofreu profundas alterações. Atualmente, <strong>não existe mais ato de improbidade culposo</strong>. A lei passou a exigir o dolo específico: a vontade livre e consciente de alcançar o resultado ilícito. O mero erro, a imperícia ou a voluntariedade simples sem má-fé não configuram mais improbidade.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        
+        <!-- Fundamentação -->
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>Constituição Federal, Art. 5º, XXXIV:</strong> "são a todos assegurados... o direito de petição aos Poderes Públicos em defesa de direitos ou contra ilegalidade ou abuso de poder." Esse direito é um dos mais clássicos mecanismos de Provocação para o Controle Administrativo.
+          </p>
+        </div>
+
+        <!-- Acerto -->
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa B)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O Direito de Petição é uma garantia constitucional que empodera o administrado. Quando um cidadão denuncia um buraco na rua, um abuso de autoridade ou pede a revisão de um ato no INSS, ele está provocando a Administração a revisar seus próprios atos. Logo, é uma ferramenta democrática e genuína de controle.
+          </p>
+        </div>
+
+        <!-- Raio-X -->
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"depende obrigatoriamente"</strong>. A Lei 9.784/99 (Art. 11) autoriza delegação <em>ainda que não haja</em> subordinação hierárquica.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"suficiente"</strong>. Com a Reforma da LIA (Lei 14.230/2021), a mera voluntariedade não basta; exige-se o <strong>DOLO ESPECÍFICO</strong> (vontade consciente de fraudar a lei).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na palavra <strong>"desconcentração"</strong>. Passar competência de uma pessoa jurídica para OUTRA pessoa jurídica (ex: União criando o INSS) é <strong>DESCENTRALIZAÇÃO</strong>. Desconcentração é "dentro de casa", no mesmo órgão.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro é imputar o ato à <strong>autoridade delegante</strong>. A Lei de Processo Administrativo determina que o ato delegado é de responsabilidade e edição da autoridade <strong>DELEGADA</strong> (quem assinou a caneta!).</p>
+          </div>
+        </div>
+
+        <!-- Pegadinha -->
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">Essa é a tríade fatal do CEBRASPE em Administrativo: confundir Delegação x Avocação. Lembre que a <em>Delegação</em> pode ocorrer SEM hierarquia (um colega passando para outro de mesma patente técnica). Já a <em>Avocação</em> (puxar para si o trabalho do subordinado) exige, obrigatoriamente, hierarquia e deve ser temporária.</p>
+        </div>
+
+        <!-- Gatilho -->
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            DES-C-ENTRALIZA: Cria-se uma nova Entidade (Pessoa Jurídica).<br>
+            DES-C-ONCENTRA: Cria-se apenas um Órgão (mesma pessoa jurídica).
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
     simuladorType: null
   }
 
