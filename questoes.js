@@ -41884,5 +41884,355 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     diagramaHtml: null,
     simuladorType: null
   }
+,
+
+  {
+    id: "qINSS019",
+    numero: "Questão 19",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-constitucional",
+    materia: "Direito Constitucional / Direitos e Garantias Fundamentais",
+    materiaCor: "sky",
+    materiaIcone: "fa-landmark",
+    titulo: "Inviolabilidade de Domicílio — Art. 5.º, XI",
+    tags: ["INSS", "Constitucional", "Art. 5º", "Domicílio", "Mandado Judicial", "Flagrante"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Em uma operação policial noturna, uma autoridade pretende cumprir um mandado judicial de busca e apreensão em residência particular. O morador alega que o ato é inconstitucional por ser realizado à noite. Com base no disposto no art. 5.º, XI, da Constituição Federal de 1988, assinale a alternativa <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "O domicílio é inviolável em qualquer hipótese, não sendo possível o ingresso de autoridade policial, mesmo munida de mandado judicial, sem o consentimento expresso do morador.", correta: false },
+      { letra: "B", texto: "A autoridade policial pode ingressar em domicílio a qualquer hora, seja de dia ou de noite, desde que possua mandado judicial devidamente expedido por autoridade judicial competente.", correta: false },
+      { letra: "C", texto: "O ingresso em domicílio mediante determinação judicial somente é permitido durante o dia; situações de flagrante delito, desastre ou necessidade de prestar socorro autorizam o ingresso a qualquer hora.", correta: true },
+      { letra: "D", texto: "O mandado judicial de busca e apreensão pode ser cumprido à noite, desde que a autoridade policial tenha iniciado a diligência antes do pôr do sol e não tenha sido possível concluí-la durante o dia.", correta: false },
+      { letra: "E", texto: "A Constituição Federal permite o ingresso no domicílio durante a noite, com mandado judicial, desde que o magistrado expressamente declare a urgência na decisão que deferiu a medida.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">1.</span> O que diz o Art. 5.º, XI, da CF/88</h4>
+          <p>O texto constitucional é taxativo: <strong>"a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial."</strong></p>
+          <p>A grande divisão que a banca explora é esta: as três primeiras exceções (flagrante, desastre e socorro) <strong>não têm limitação de horário</strong>. Já a quarta exceção (mandado judicial) é restrita ao <strong>período diurno</strong>.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">2.</span> O STF e a tese do "flagrante esperado"</h4>
+          <p>O STF, no julgamento do RE 603.616 (Tema 280), fixou que a entrada forçada em domicílio sem mandado judicial só é lícita quando há <strong>fundadas razões</strong> (justa causa) que indiquem a situação de flagrância. A mera "denúncia anônima" desacompanhada de outros elementos não autoriza a entrada.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>CF/88, Art. 5.º, XI:</strong> "a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, <u>durante o dia</u>, por determinação judicial." A expressão <em>durante o dia</em> vincula exclusivamente o mandado judicial, não as demais exceções.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A alternativa C reproduz com precisão cirúrgica a regra constitucional. O constituinte criou dois regimes distintos: (1) Flagrante / desastre / socorro → sem restrição de horário; (2) Mandado judicial → somente durante o dia. A operação noturna narrada no enunciado, mesmo com mandado, viola a Constituição.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"em qualquer hipótese"</strong>. A inviolabilidade não é absoluta — a própria CF lista quatro exceções expressas.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"a qualquer hora, seja de dia ou de noite"</strong>. O mandado judicial está limitado ao período diurno. Omitir essa restrição torna a alternativa inconstitucional.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">Cria uma exceção inexistente: a teoria da <strong>"continuidade da diligência"</strong> não está prevista na CF/88. A Constituição não autoriza o prolongamento noturno de diligências iniciadas de dia.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"desde que o magistrado expressamente declare a urgência"</strong>. A CF não prevê essa exceção. Não existe mandado judicial noturno para busca e apreensão, não importa o que a decisão diga.</p>
+          </div>
+        </div>
+
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora dizer que o mandado judicial permite entrada <em>"a qualquer hora"</em> ou que a urgência declarada pelo juiz libera a entrada noturna. Lembre: a restrição <strong>"durante o dia"</strong> está no texto constitucional — nem o juiz pode afastá-la por simples decisão. Só uma Emenda Constitucional poderia mudar isso.</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra
+          </h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1:</strong> "Policiais que recebem uma denúncia anônima de tráfico podem invadir a residência imediatamente, pois há indícios de flagrante?" (Falso — exige fundadas razões, conforme STF, RE 603.616).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "O bombeiro pode entrar na casa à noite para prestar socorro sem consentimento do morador?" (Verdadeiro — socorro não tem restrição de horário).</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            FLAGRANTE, DESASTRE, SOCORRO = QUALQUER HORA 🚨<br>
+            MANDADO JUDICIAL = SÓ DE DIA ☀️<br>
+            (Juiz não tem poder de "virar o sol")
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS020",
+    numero: "Questão 20",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-constitucional",
+    materia: "Direito Constitucional / Direitos e Garantias Fundamentais",
+    materiaCor: "sky",
+    materiaIcone: "fa-landmark",
+    titulo: "Mandado de Segurança Coletivo — Art. 5.º, LXX",
+    tags: ["INSS", "Constitucional", "Art. 5º", "Mandado de Segurança", "MS Coletivo", "Legitimidade"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Um sindicato de servidores públicos federais, legalmente constituído e em funcionamento há dois anos, deseja impetrar mandado de segurança coletivo para defender os interesses de seus filiados em face de ato ilegal praticado pela administração pública. Com base no art. 5.º, LXX, da Constituição Federal de 1988, assinale a alternativa <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "O mandado de segurança coletivo somente pode ser impetrado por partido político com representação no Congresso Nacional, sendo vedada sua utilização por entidades sindicais.", correta: false },
+      { letra: "B", texto: "O sindicato, para impetrar o mandado de segurança coletivo, necessita de autorização expressa e individual de cada um de seus filiados, mediante instrumento de mandato.", correta: false },
+      { letra: "C", texto: "O sindicato está legitimado para impetrar o mandado de segurança coletivo em defesa dos interesses de seus membros, independentemente de autorização destes, por atuar como substituto processual.", correta: true },
+      { letra: "D", texto: "O mandado de segurança coletivo pode ser impetrado por qualquer associação civil, independentemente do tempo de constituição e funcionamento, desde que seus estatutos prevejam expressamente a defesa de interesses coletivos.", correta: false },
+      { letra: "E", texto: "O partido político está legitimado a impetrar mandado de segurança coletivo apenas em defesa dos interesses de seus filiados, não podendo defender direitos da coletividade em geral.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">1.</span> Legitimados para o MS Coletivo (Art. 5.º, LXX)</h4>
+          <p>A CF/88 é taxativa quanto aos legitimados: <strong>a) partido político com representação no Congresso Nacional</strong>; <strong>b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano</strong>, em defesa dos interesses de seus membros ou associados.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">2.</span> Substituição Processual — Sem precisar de autorização</h4>
+          <p>O STF (Súmula 629) e a Lei 12.016/2009 consolidaram que as entidades legitimadas atuam como <strong>substitutos processuais</strong>. Isso significa que elas defendem em nome próprio um direito alheio (dos filiados), sem precisar de procuração ou autorização individual de cada membro. É diferente da representação processual comum.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>CF/88, Art. 5.º, LXX:</strong> "o mandado de segurança coletivo pode ser impetrado por: a) partido político com representação no Congresso Nacional; b) organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, em defesa dos interesses de seus membros ou associados." <strong>Súmula STF 629:</strong> "A impetração de mandado de segurança coletivo por entidade de classe em favor dos associados independe da autorização destes."
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O sindicato do enunciado preenche todos os requisitos: (1) é organização sindical, (2) legalmente constituída, (3) em funcionamento há dois anos (superior ao mínimo de 1 ano exigido). Age como substituto processual — fenômeno que dispensa autorização individual — para defender os interesses dos filiados. A alternativa C reproduz exatamente esse entendimento constitucional e sumulado.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"somente"</strong> e <strong>"vedada"</strong>. O rol do Art. 5.º, LXX, inclui expressamente as organizações sindicais como legitimadas — a alternativa elimina ilicitamente uma categoria prevista na Constituição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"autorização expressa e individual"</strong>. A Súmula 629 do STF dispensa expressamente essa autorização. O sindicato age como substituto processual — não como representante.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"independentemente do tempo de constituição e funcionamento"</strong>. A CF exige, expressamente, pelo menos <strong>um ano</strong> de funcionamento. Associação criada há 6 meses não pode impetrar MS coletivo.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na restrição <strong>"apenas em defesa dos interesses de seus filiados"</strong>. O STF decidiu que o partido político, por ter legitimidade ativa ampla (representação política de toda a sociedade), pode defender direitos de grupos mais amplos e até da coletividade em geral.</p>
+          </div>
+        </div>
+
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE frequentemente insere a palavra <strong>"autorização"</strong> na alternativa errada para confundir com as regras da ação popular (onde o cidadão age em nome próprio) ou com a representação processual comum. No MS Coletivo: <strong>NÃO precisa de autorização!</strong> É substituição processual pura.</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra
+          </h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1:</strong> "Uma associação de moradores criada há 8 meses pode impetrar MS coletivo em defesa de seus associados?" (Falso — faltam 4 meses para completar 1 ano).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "Um partido político sem representação no Congresso Nacional pode impetrar MS coletivo?" (Falso — a representação no CN é requisito constitucional expresso).</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            MS COLETIVO = SUBSTITUTO PROCESSUAL = SEM AUTORIZAÇÃO 🔑<br>
+            PARTIDO → Congresso Nacional ✔<br>
+            SINDICATO / ASSOCIAÇÃO → 1 ANO de funcionamento ✔
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS021",
+    numero: "Questão 21",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    materiaId: "direito-constitucional",
+    materia: "Direito Constitucional / Direitos e Garantias Fundamentais",
+    materiaCor: "sky",
+    materiaIcone: "fa-landmark",
+    titulo: "Habeas Data e Remédios Constitucionais — Art. 5.º, LXXII",
+    tags: ["INSS", "Constitucional", "Art. 5º", "Habeas Data", "Remédios Constitucionais", "Mandado de Injunção"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `Um cidadão descobriu que seu nome consta indevidamente em um banco de dados sigiloso mantido por uma entidade de caráter público, contendo informações pessoais falsas que lhe prejudicam profissionalmente. Ele deseja acessar e retificar esses dados. Com base nos remédios constitucionais previstos no art. 5.º da Constituição Federal de 1988, assinale a alternativa <strong>CORRETA</strong>:`,
+
+    alternativas: [
+      { letra: "A", texto: "O instrumento adequado para o cidadão acessar e retificar informações de interesse coletivo constantes de banco de dados de entidade pública é o habeas data, que pode ser utilizado também para obter informações sobre terceiros, desde que comprovado o legítimo interesse.", correta: false },
+      { letra: "B", texto: "O mandado de injunção é o remédio constitucional adequado para a situação descrita, pois se destina a garantir o exercício de direitos constitucionais inviabilizados pela ausência de norma regulamentadora.", correta: false },
+      { letra: "C", texto: "O habeas data é o instrumento adequado para a situação narrada, pois se destina a assegurar o conhecimento e a retificação de informações relativas à própria pessoa do impetrante constantes de registros de entidades governamentais ou de caráter público.", correta: true },
+      { letra: "D", texto: "A ação popular é o remédio constitucional cabível, pois o ato que inseriu dados falsos em banco de dados público é lesivo ao patrimônio moral do cidadão e ao interesse coletivo, podendo ser proposta por qualquer cidadão.", correta: false },
+      { letra: "E", texto: "O mandado de segurança é o instrumento adequado, pois protege direito líquido e certo contra ato ilegal praticado por autoridade pública, sendo subsidiário em relação ao habeas corpus e ao habeas data apenas quando a Constituição expressamente o determinar.", correta: false }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">1.</span> Habeas Data — Art. 5.º, LXXII</h4>
+          <p>O habeas data serve para duas finalidades distintas e específicas: <strong>a) conhecer</strong> informações relativas à própria pessoa constantes de registros ou bancos de dados de entidades governamentais ou de caráter público; <strong>b) retificar</strong> dados incorretos, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo. O objeto é sempre dado pessoal do próprio impetrante — nunca de terceiros.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-sky-400">2.</span> Comparativo rápido dos Remédios Constitucionais</h4>
+          <p><strong>Habeas Corpus:</strong> liberdade de locomoção ameaçada. <strong>Habeas Data:</strong> acesso/retificação de dados pessoais. <strong>Mandado de Segurança:</strong> direito líquido e certo (não protegido por HC nem HD). <strong>Mandado de Injunção:</strong> norma regulamentadora ausente que inviabiliza exercício de direito constitucional. <strong>Ação Popular:</strong> anulação de ato lesivo ao patrimônio público, histórico, cultural ou ambiental — proposta por cidadão.</p>
+        </div>
+      </div>
+    `,
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2">
+            <i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal
+          </h4>
+          <p class="text-slate-300 leading-relaxed">
+            <strong>CF/88, Art. 5.º, LXXII:</strong> "conceder-se-á habeas data: a) para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público; b) para a retificação de dados, quando não se prefira fazê-lo por processo sigiloso, judicial ou administrativo." A Lei 9.507/97 regulamenta o procedimento do habeas data.
+          </p>
+        </div>
+
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            O enunciado traz exatamente o cenário para o qual o habeas data foi criado: (1) informações relativas à <strong>própria pessoa</strong> do impetrante; (2) constantes de banco de dados de entidade de <strong>caráter público</strong>; (3) com pretensão de <strong>acesso e retificação</strong>. Os três elementos estão presentes — o instrumento é o habeas data, sem dúvida.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2">
+            <i class="fa-solid fa-xmark"></i> Raio-X dos Erros
+          </h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro fatal está em <strong>"informações sobre terceiros"</strong>. O habeas data é um remédio estritamente personalíssimo: só serve para obter dados <em>sobre a própria pessoa</em> impetrante. Usar habeas data para espionar dados de outra pessoa é constitucionalmente impossível.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em confundir os institutos. O <strong>mandado de injunção</strong> pressupõe <em>omissão legislativa</em> — a ausência de norma regulamentadora que torna inviável o exercício de um direito constitucional. No caso, não há omissão legislativa: há um banco de dados com informação falsa — cenário típico do habeas data.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"ação popular"</strong>. A ação popular (Art. 5.º, LXXIII) se destina a anular atos lesivos ao <em>patrimônio público</em>, ao meio ambiente, à moralidade administrativa ou ao patrimônio histórico. Dados pessoais incorretos não se enquadram nesse objeto.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na parte final: <strong>"subsidiário apenas quando a CF expressamente o determinar"</strong>. A CF não usa essa expressão — diz que o MS não cabe quando o ato for amparado por habeas corpus ou habeas data. Além disso, no caso concreto o instrumento correto é o habeas data, que é específico para essa situação.</p>
+          </div>
+        </div>
+
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha
+          </h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE frequentemente troca o habeas data pelo mandado de segurança como resposta correta, argumentando que "protege direito líquido e certo". Mas o MS é <strong>subsidiário</strong>: não cabe quando a CF já previu remédio específico (habeas corpus e habeas data). Como os dados são pessoais do próprio cidadão, o habeas data é o instrumento <em>específico e prioritário</em>.</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra
+          </h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1:</strong> "Um jornalista deseja usar o habeas data para obter informações sobre um político constantes do banco de dados da Receita Federal. É cabível?" (Falso — habeas data só serve para dados da própria pessoa).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "A prévia negativa administrativa é dispensável para a impetração de habeas data?" (Falso — a Súmula 2 do STJ exige que haja recusa ou omissão da entidade antes de ir ao Judiciário).</p>
+        </div>
+
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider">
+            <i class="fa-solid fa-brain"></i> Gatilho Mental
+          </h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">
+            HABEAS DATA = "Meus dados, minha luta!" 🗂️<br>
+            Só para DADOS PRÓPRIOS em banco GOVERNAMENTAL ou PÚBLICO.<br>
+            ACESSO + RETIFICAÇÃO = HD. Dados de terceiros? JAMAIS!
+          </p>
+        </div>
+
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  }
 
 ];
