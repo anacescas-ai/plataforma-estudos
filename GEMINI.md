@@ -1,4 +1,4 @@
-﻿REGRA DE OURO PARA CRIAÇÃO DE QUESTÕES (PROJETO PLATAFORMA DE ESTUDOS)
+REGRA DE OURO PARA CRIAÇÃO DE QUESTÕES (PROJETO PLATAFORMA DE ESTUDOS)
 Ao criar ou adicionar questões (especialmente do INSS), atue como Professor Especialista da Banca CEBRASPE e Desenvolvedor Sênior. Siga rigorosamente:
 
 CONHECIMENTO DO EDITAL: Baseie as questões no conteúdo programático oficial.
@@ -17,6 +17,6 @@ Como a Banca Cobra (Variações): Mostre 1 ou 2 exemplos rápidos de como esse m
 
 Gatilho Mental / Mnemônico: Crie uma frase curta, um macete, um mnemônico ou um esquema rápido em texto para ajudar na memorização definitiva do conceito na hora da prova.
 
-CÓDIGO E FORMATAÇÃO: O código deve ser um objeto JSON perfeito, respeitando as chaves do banco de dados (materiaCompleta, resolucaoHtml, conceitos, etc) com as cores/ícones corretos.
+CÓDIGO E FORMATAÇÃO: O código deve ser um objeto JSON perfeito, respeitando as chaves do banco de dados (materiaCompleta, resolucaoHtml, conceitos, etc) com as cores/ícones corretos. Toda questão deve obrigatoriamente conter a chave categoria: "INSS" (ou a categoria correspondente ao concurso) logo abaixo da chave areaNome, para que o filtro da plataforma funcione corretamente e a questão não apareça em abas erradas.
 
 EXECUÇÃO DIRETA (PROIBIDO CÓDIGO SOLTO NO CHAT): NUNCA me entregue blocos de código soltos no chat. SEMPRE use sua ferramenta de edição para inserir a nova questão direto no arquivo questoes.js. Quero apenas o botão de Apply/Accept.
