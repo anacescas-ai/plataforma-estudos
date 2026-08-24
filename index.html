@@ -336,7 +336,7 @@
         <div class="flex items-center gap-1.5 bg-slate-950 px-3 py-1.5 rounded-lg border border-slate-800">
           <i class="fa-solid fa-calendar-days text-slate-400"></i>
           <select id="selectAno" onchange="renderizarLista()" class="bg-transparent text-white font-bold focus:outline-none cursor-pointer">
-            <option value="todos" selected>Todas as edições</option>
+            <option value="todos" class="bg-slate-900 text-slate-100" selected>Todos os anos</option>
           </select>
         </div>
 
@@ -560,10 +560,13 @@
           <i class="fa-solid ${m.icone} ${cor(m.cor).texto}"></i> ${m.nome}
         </button>`).join('');
 
-    const anos = [...new Set(questaoDatabase.map(q => q.ano))].sort().reverse();
+    const questoesDaCategoria = categoriaAtiva === 'todas' ? questaoDatabase : questaoDatabase.filter(q => (q.categoria || 'ENEM') === categoriaAtiva);
+    const anos = [...new Set(questoesDaCategoria.map(q => String(q.ano).trim()))].sort().reverse();
+    const prefixo = categoriaAtiva === 'INSS' ? 'Concurso' : 'Edição';
+
     const select = document.getElementById('selectAno');
-    select.innerHTML = '<option value="todos">Todas as edições</option>' +
-      anos.map(a => `<option value="${a}">Edição ${a}</option>`).join('');
+    select.innerHTML = '<option value="todos" class="bg-slate-900 text-slate-100">Todos os anos</option>' +
+      anos.map(a => `<option value="${a}" class="bg-slate-900 text-slate-100">${prefixo} ${a}</option>`).join('');
 
     pintarFiltros();
   }
