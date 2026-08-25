@@ -42840,5 +42840,1138 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     conceitos: [],
     diagramaHtml: null,
     simuladorType: null
+  },
+
+{
+    id: "q24111",
+    numero: "Questão 111 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Zoologia — Exoesqueleto dos Crustáceos",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "Como o Caranguejo Cresce Dentro de uma Armadura Rígida",
+    tags: ["Biologia", "Zoologia", "Crustáceos", "Ecdise", "Exoesqueleto", "ENEM 2024"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">O exoesqueleto rígido e o desafio do crescimento</p>
+      <p>O exoesqueleto dos crustáceos é formado por quitina e impregnações de sais calcários e, por isso, é mais duro quando comparado com o exoesqueleto de outros artrópodes. Esse revestimento externo confere proteção, mas, por ser duro, limita o crescimento desses animais.</p>
+      <p class="text-right text-[11px] text-slate-500">Situação-problema sobre a estrutura do exoesqueleto dos crustáceos (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Para superar essa limitação, o exoesqueleto deve ser</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "formado somente na fase adulta do animal.", correta: false },
+      { letra: "B", texto: "fragmentado para expansão nas áreas de articulação.", correta: false },
+      { letra: "C", texto: "modelado continuamente para ajuste ao tamanho do corpo.", correta: false },
+      { letra: "D", texto: "substituído por meio de mudas que ocorrem periodicamente.", correta: true },
+      { letra: "E", texto: "impregnado por pequena quantidade de sais para sua distensão.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa D é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Uma vez endurecido pela quitina mineralizada com sais calcários, o exoesqueleto de um crustáceo não consegue mais se esticar ou crescer junto com o corpo do animal — ele é uma estrutura rígida e fixa. A única forma de contornar isso é <strong>descartar periodicamente o exoesqueleto antigo e produzir um novo, maior</strong>, num processo chamado <strong>ecdise (ou muda)</strong>. Antes da muda, o animal produz uma nova cutícula mais macia por baixo da antiga; depois de se livrar do exoesqueleto velho, absorve água (ou ar) para expandir o corpo rapidamente enquanto a nova cutícula ainda está maleável, e só então ela endurece novamente com a deposição de sais calcários — fixando o novo tamanho, maior que o anterior. Esse ciclo se repete várias vezes ao longo da vida do animal, permitindo o crescimento apesar da rigidez do revestimento externo.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> o exoesqueleto está presente desde as fases jovens/larvais do animal, não só na fase adulta — e mesmo que fosse, isso não resolveria o problema de como o corpo cresce apesar da rigidez do revestimento.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> embora as articulações realmente tenham cutícula mais fina e flexível (para permitir movimento), isso não resolve a limitação de crescimento do corpo como um todo — o restante do exoesqueleto continuaria rígido e fixo em tamanho.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> diferente do tecido ósseo (que pode ser remodelado continuamente por células vivas), o exoesqueleto mineralizado é uma estrutura não viva e rígida — uma vez endurecido, não pode ser "remodelado" gradualmente; só pode ser trocado por inteiro.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> reduzir a quantidade de sais deixaria o exoesqueleto mais frágil e menos protetor, mas não resolveria o problema de crescimento — o animal ainda precisaria trocar de revestimento para aumentar de tamanho; essa não é a estratégia real usada pelos crustáceos.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-shield-halved", titulo: "Exoesqueleto de Artrópodes", text: "Revestimento externo rígido, formado por quitina (e, em crustáceos, também sais calcários), que protege mas não acompanha o crescimento do corpo." },
+      { icone: "fa-arrows-rotate", titulo: "Ecdise (Muda)", text: "Processo periódico de descarte do exoesqueleto antigo e formação de um novo, maior, permitindo o crescimento do animal." },
+      { icone: "fa-shrimp", titulo: "Vulnerabilidade Pós-muda", text: "Logo após a muda, antes do novo exoesqueleto endurecer, o animal fica temporariamente mole e mais vulnerável a predadores." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O ciclo da ecdise: descartar para crescer",
+        legenda: "O crustáceo forma uma nova cutícula mole por baixo da antiga, descarta o exoesqueleto velho, expande rapidamente o corpo enquanto a nova cutícula está maleável, e só então ela endurece — fixando um tamanho maior.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <circle cx="70" cy="80" r="30" fill="#064e3b" stroke="#34d399" stroke-width="2.5"/>
+            <text x="70" y="120" text-anchor="middle" fill="#94a3b8" font-size="7">exoesqueleto rígido (tamanho fixo)</text>
+            <path d="M110,80 L155,80" stroke="#94a3b8" stroke-width="2" marker-end="url(#a111)"/>
+            <defs><marker id="a111" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+            <circle cx="225" cy="80" r="30" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 3"/>
+            <circle cx="225" cy="80" r="20" fill="#78350f" opacity="0.5"/>
+            <text x="225" y="120" text-anchor="middle" fill="#94a3b8" font-size="7">descarta e expande (fase mole)</text>
+            <path d="M265,80 L310,80" stroke="#94a3b8" stroke-width="2" marker-end="url(#a111)"/>
+            <circle cx="390" cy="80" r="42" fill="#064e3b" stroke="#34d399" stroke-width="2.5"/>
+            <text x="390" y="130" text-anchor="middle" fill="#6ee7b7" font-size="7" font-weight="bold">novo exoesqueleto endurece (maior)</text>
+          </svg>`
+      },
+      {
+        titulo: "Por que o exoesqueleto não pode ser remodelado continuamente",
+        legenda: "Diferente do osso (tecido vivo, remodelado por células ao longo da vida), a cutícula mineralizada do crustáceo é uma estrutura morta e rígida — uma vez endurecida, só pode ser substituída inteira, não ajustada aos poucos.",
+        svg: `
+          <svg viewBox="0 0 420 120" class="w-full h-auto">
+            <rect x="20" y="30" width="170" height="60" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="105" y="55" text-anchor="middle" fill="#cbd5e1" font-size="8" font-weight="bold">Osso (tecido vivo)</text>
+            <text x="105" y="72" text-anchor="middle" fill="#94a3b8" font-size="7">remodelado aos poucos por células</text>
+            <rect x="230" y="20" width="170" height="80" rx="8" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <text x="315" y="48" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">Exoesqueleto (mineralizado)</text>
+            <text x="315" y="65" text-anchor="middle" fill="#a7f3d0" font-size="7">estrutura rígida e não viva</text>
+            <text x="315" y="80" text-anchor="middle" fill="#a7f3d0" font-size="7">só pode ser trocado por inteiro</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão testa um conceito clássico de zoologia dos invertebrados: como animais com um revestimento externo rígido conseguem crescer ao longo da vida.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Do que é feito o exoesqueleto</h4>
+          <p>
+            O exoesqueleto dos artrópodes é formado principalmente por <strong>quitina</strong>, um polissacarídeo resistente. Em crustáceos (como caranguejos, camarões e lagostas), essa cutícula é ainda reforçada por <strong>impregnação de sais de cálcio</strong> (carbonato de cálcio), o que a torna particularmente rígida e dura em comparação com o exoesqueleto de insetos e aracnídeos, que é apenas quitinoso.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Por que a rigidez é um problema para o crescimento</h4>
+          <p>
+            Uma estrutura rígida e mineralizada não tem como se esticar continuamente à medida que o corpo do animal cresce — ao contrário da pele de um vertebrado, que é elástica. Isso cria um dilema evolutivo: como crescer preso dentro de uma "armadura" que não se expande?
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> A solução: ecdise (muda) periódica</h4>
+          <p>
+            A resposta evolutiva foi a <strong>ecdise</strong>: o animal produz uma nova cutícula, ainda mole, por baixo da antiga; em seguida, rompe e descarta o exoesqueleto velho (o "esqueleto" vazio que às vezes se encontra na praia ou no fundo de aquários é justamente essa casca descartada). Nesse momento, com o novo revestimento ainda maleável, o animal absorve água rapidamente para expandir o corpo — só depois disso a nova cutícula endurece com a deposição de sais calcários, fixando um tamanho maior que o anterior.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> O custo biológico da muda</h4>
+          <p>
+            A ecdise tem um preço: durante o período em que o novo exoesqueleto ainda está mole, o animal fica muito mais vulnerável a predadores e lesões — por isso muitos crustáceos se escondem em tocas ou fendas durante essa fase. Esse é também o motivo pelo qual "caranguejo de casca mole" é considerado uma iguaria: é justamente o animal capturado logo após a muda, antes do novo exoesqueleto endurecer.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-arrows-rotate"></i> Ecdise: Descartar o Antigo para Crescer</span>
+        <svg viewBox="0 0 280 110" class="w-full h-24 mx-auto">
+          <circle cx="60" cy="55" r="24" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+          <path d="M95,55 L135,55" stroke="#94a3b8" stroke-width="2" marker-end="url(#a111b)"/>
+          <defs><marker id="a111b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+          <circle cx="210" cy="55" r="34" fill="#064e3b" stroke="#34d399" stroke-width="2.5"/>
+          <text x="140" y="95" text-anchor="middle" fill="#94a3b8" font-size="7">ecdise (muda)</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: crescimento do corpo x capacidade do exoesqueleto",
+      descricao: "Acompanhe o crescimento acumulado do corpo desde a última muda e veja em que ponto o exoesqueleto atual chega ao limite, exigindo uma nova ecdise para o crescimento continuar.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Crescimento acumulado desde a última muda</span><span class="text-emerald-300 font-bold" data-out="crescimento">40%</span>
+              </label>
+              <input type="range" data-sim="crescimento" min="0" max="150" value="40" step="5" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Capacidade do exoesqueleto atual: <span class="text-slate-200 font-bold">100%</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste o crescimento acumulado para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var crescimento = raiz.querySelector('[data-sim="crescimento"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var c = parseFloat(crescimento.value);
+          saida('crescimento').textContent = c + '%';
+
+          var v = saida('veredito');
+          if (c < 80) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'O exoesqueleto atual ainda comporta esse crescimento — o animal segue se desenvolvendo normalmente dentro do revestimento atual.';
+          } else if (c < 100) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'O corpo está se aproximando do limite do exoesqueleto atual — uma nova ecdise já deve estar sendo preparada (nova cutícula se formando por baixo).';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Limite atingido: o exoesqueleto rígido não comporta mais crescimento. Sem uma ecdise (muda), o animal não consegue aumentar de tamanho.';
+          }
+        }
+
+        crescimento.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  },
+
+  {
+    id: "q24112",
+    numero: "Questão 112 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Genética — Herança Ligada ao Cromossomo X",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "O Heredograma do Bebê: Todas as Possibilidades para o Daltonismo",
+    tags: ["Biologia", "Genética", "Herança Ligada ao X", "Daltonismo", "Heredograma", "ENEM 2024"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Herança recessiva ligada ao cromossomo X: o caso do daltonismo</p>
+      <p>Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres.</p>
+      <p>Um casal formado por um <strong>homem não daltônico</strong> e por uma <strong>mulher gestante também não daltônica, mas portadora do gene recessivo</strong> para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém <strong>todas as possibilidades de genótipo</strong> para esse bebê.</p>
+      <div class="flex flex-wrap items-center gap-4 justify-center py-3 text-[10px] text-slate-300">
+        <span class="flex items-center gap-1.5"><svg width="16" height="16"><rect x="1" y="1" width="14" height="14" fill="none" stroke="#94a3b8" stroke-width="1.5"/></svg> Homem não daltônico</span>
+        <span class="flex items-center gap-1.5"><svg width="16" height="16"><rect x="1" y="1" width="14" height="14" fill="#334155" stroke="#f87171" stroke-width="1.5"/></svg> Homem daltônico</span>
+        <span class="flex items-center gap-1.5"><svg width="16" height="16"><circle cx="8" cy="8" r="7" fill="none" stroke="#94a3b8" stroke-width="1.5"/></svg> Mulher não daltônica</span>
+        <span class="flex items-center gap-1.5"><svg width="16" height="16"><circle cx="8" cy="8" r="7" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="8" cy="8" r="3" fill="#fbbf24"/></svg> Mulher heterozigota portadora</span>
+        <span class="flex items-center gap-1.5"><svg width="16" height="16"><circle cx="8" cy="8" r="7" fill="#334155" stroke="#f87171" stroke-width="1.5"/></svg> Mulher daltônica</span>
+      </div>
+      <p class="text-right text-[11px] text-slate-500">GRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Qual heredograma foi recebido pelo casal?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: `
+        <svg viewBox="0 0 220 90" class="w-full h-auto max-w-[220px]">
+          <rect x="55" y="10" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="150" cy="18" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="150" cy="18" r="3.5" fill="#fbbf24"/>
+          <line x1="71" y1="18" x2="142" y2="18" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="106" y1="18" x2="106" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="185" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <circle cx="35" cy="60" r="8" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <circle cx="90" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="137" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="177" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="35" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="90" y1="38" x2="90" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="145" y1="38" x2="145" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="185" y1="38" x2="185" y2="52" stroke="#64748b" stroke-width="1.5"/>
+        </svg>`, correta: false },
+      { letra: "B", texto: `
+        <svg viewBox="0 0 220 90" class="w-full h-auto max-w-[220px]">
+          <rect x="55" y="10" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="150" cy="18" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="150" cy="18" r="3.5" fill="#fbbf24"/>
+          <line x1="71" y1="18" x2="142" y2="18" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="106" y1="18" x2="106" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="185" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <circle cx="35" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="90" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="90" cy="60" r="3.5" fill="#fbbf24"/>
+          <rect x="137" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="177" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="35" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="90" y1="38" x2="90" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="145" y1="38" x2="145" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="185" y1="38" x2="185" y2="52" stroke="#64748b" stroke-width="1.5"/>
+        </svg>`, correta: true },
+      { letra: "C", texto: `
+        <svg viewBox="0 0 220 90" class="w-full h-auto max-w-[220px]">
+          <rect x="55" y="10" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="150" cy="18" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="150" cy="18" r="3.5" fill="#fbbf24"/>
+          <line x1="71" y1="18" x2="142" y2="18" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="106" y1="18" x2="106" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="55" y1="38" x2="165" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <rect x="47" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="97" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="147" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <rect x="197" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <line x1="55" y1="38" x2="55" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="105" y1="38" x2="105" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="155" y1="38" x2="155" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="205" y1="38" x2="205" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="55" y1="38" x2="205" y2="38" stroke="#64748b" stroke-width="1.5"/>
+        </svg>`, correta: false },
+      { letra: "D", texto: `
+        <svg viewBox="0 0 220 90" class="w-full h-auto max-w-[220px]">
+          <rect x="55" y="10" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="150" cy="18" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="150" cy="18" r="3.5" fill="#fbbf24"/>
+          <line x1="71" y1="18" x2="142" y2="18" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="106" y1="18" x2="106" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="185" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <circle cx="35" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="35" cy="60" r="3.5" fill="#fbbf24"/>
+          <circle cx="90" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="90" cy="60" r="3.5" fill="#fbbf24"/>
+          <rect x="137" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <rect x="177" y="52" width="16" height="16" fill="#334155" stroke="#f87171" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="35" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="90" y1="38" x2="90" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="145" y1="38" x2="145" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="185" y1="38" x2="185" y2="52" stroke="#64748b" stroke-width="1.5"/>
+        </svg>`, correta: false },
+      { letra: "E", texto: `
+        <svg viewBox="0 0 220 90" class="w-full h-auto max-w-[220px]">
+          <rect x="55" y="10" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="150" cy="18" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="150" cy="18" r="3.5" fill="#fbbf24"/>
+          <line x1="71" y1="18" x2="142" y2="18" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="106" y1="18" x2="106" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="35" y1="38" x2="185" y2="38" stroke="#64748b" stroke-width="1.5"/>
+          <rect x="27" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <rect x="72" y="52" width="16" height="16" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="80" cy="48" r="3" fill="#fbbf24"/>
+          <circle cx="145" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+          <circle cx="185" cy="60" r="8" fill="none" stroke="#94a3b8" stroke-width="1.5"/><circle cx="185" cy="60" r="3.5" fill="#fbbf24"/>
+          <line x1="35" y1="38" x2="35" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="80" y1="38" x2="80" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="145" y1="38" x2="145" y2="52" stroke="#64748b" stroke-width="1.5"/>
+          <line x1="185" y1="38" x2="185" y2="52" stroke="#64748b" stroke-width="1.5"/>
+        </svg>`, correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa B é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Representando os genótipos: pai não daltônico é <strong>X<sup>D</sup>Y</strong>; mãe portadora heterozigota é <strong>X<sup>D</sup>X<sup>d</sup></strong>. Como o pai só tem um X (X<sup>D</sup>) para passar às filhas, <strong>toda filha recebe obrigatoriamente esse X<sup>D</sup></strong> — ou seja, nenhuma filha pode nascer daltônica nesse cruzamento. O segundo X de cada filha vem da mãe, que pode doar X<sup>D</sup> ou X<sup>d</sup> com igual chance: por isso, as filhas possíveis são <strong>X<sup>D</sup>X<sup>D</sup> (não daltônica, não portadora)</strong> ou <strong>X<sup>D</sup>X<sup>d</sup> (não daltônica, portadora)</strong>, cada uma com 1/4 de chance no total. Já os filhos recebem o Y do pai e um X da mãe (X<sup>D</sup> ou X<sup>d</sup>), resultando em <strong>X<sup>D</sup>Y (não daltônico)</strong> ou <strong>X<sup>d</sup>Y (daltônico)</strong>, também 1/4 de chance cada. O heredograma B é o único que mostra exatamente essas quatro possibilidades reais — sem incluir nenhuma combinação geneticamente impossível.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> mostra uma filha <em>daltônica</em> entre as possibilidades — geneticamente impossível nesse cruzamento, já que toda filha recebe o X<sup>D</sup> (dominante, não afetado) do pai não daltônico, o que a impede de manifestar o fenótipo recessivo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta:</strong> mostra apenas filhos (homens) entre as possibilidades, omitindo completamente as filhas — mas o casal tem igual chance de ter um menino ou uma menina, e as filhas também são geneticamente possíveis (não daltônica ou portadora).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> mostra as duas filhas como portadoras e os dois filhos como daltônicos, sem incluir a possibilidade (igualmente real, 1/4 de chance cada) de uma filha não portadora ou de um filho não daltônico — a mãe heterozigota tem 50% de chance de passar cada um dos dois alelos, então ambos os desfechos devem aparecer para cada sexo.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> representa um "homem portador" (símbolo de quadrado com marcação de heterozigose) — algo biologicamente impossível para um gene ligado ao X, já que o homem é hemizigoto (possui um só cromossomo X): ele é daltônico ou não, nunca "portador heterozigoto".</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-dna", titulo: "Herança Ligada ao X", text: "Genes localizados no cromossomo X seguem um padrão de herança específico: homens (XY) são hemizigotos e sempre expressam o alelo que possuem; mulheres (XX) podem ser portadoras heterozigotas sem manifestar o fenótipo recessivo." },
+      { icone: "fa-venus-mars", titulo: "Hemizigose Masculina", text: "Por ter apenas um cromossomo X, o homem nunca pode ser 'portador heterozigoto' de um gene ligado ao X — ele expressa diretamente o alelo que recebeu." },
+      { icone: "fa-sitemap", titulo: "Heredograma (Pedigree)", text: "Diagrama que representa relações familiares e a transmissão de características hereditárias entre gerações, usando símbolos padronizados." }
+    ],
+
+    galeria: [
+      {
+        titulo: "O cruzamento em detalhe: gametas e descendência",
+        legenda: "O pai (XᴰY) só pode doar Xᴰ às filhas e Y aos filhos. A mãe (XᴰXᵈ), portadora, doa Xᴰ ou Xᵈ com 50% de chance cada — daí as quatro combinações possíveis para o bebê.",
+        svg: `
+          <svg viewBox="0 0 460 190" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#cbd5e1" font-size="9" font-weight="bold">Pai: XᴰY (não daltônico)</text>
+            <text x="345" y="20" text-anchor="middle" fill="#cbd5e1" font-size="9" font-weight="bold">Mãe: XᴰXᵈ (portadora)</text>
+            <line x1="45" y1="40" x2="45" y2="150" stroke="#475569" stroke-width="1"/>
+            <line x1="45" y1="40" x2="440" y2="40" stroke="#475569" stroke-width="1"/>
+            <text x="20" y="90" fill="#94a3b8" font-size="8">gametas</text>
+            <text x="20" y="130" fill="#94a3b8" font-size="8">do pai</text>
+            <text x="150" y="55" text-anchor="middle" fill="#a5f3fc" font-size="8" font-weight="bold">Xᴰ (da mãe)</text>
+            <text x="330" y="55" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">Xᵈ (da mãe)</text>
+            <text x="55" y="90" fill="#e2e8f0" font-size="8">Xᴰ (pai)</text>
+            <rect x="110" y="70" width="90" height="45" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="155" y="97" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">XᴰXᴰ filha</text>
+            <rect x="290" y="70" width="90" height="45" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="335" y="97" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">XᴰXᵈ filha</text>
+            <text x="55" y="135" fill="#e2e8f0" font-size="8">Y (pai)</text>
+            <rect x="110" y="120" width="90" height="45" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="155" y="147" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">XᴰY filho</text>
+            <rect x="290" y="120" width="90" height="45" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="335" y="147" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">XᵈY filho</text>
+          </svg>`
+      },
+      {
+        titulo: "Por que homens nunca são 'portadores' de genes ligados ao X",
+        legenda: "Mulheres (XX) podem ser heterozigotas — um alelo normal 'mascara' o recessivo. Homens (XY) têm um único X: o alelo que carregam nele é sempre expresso, sem possibilidade de mascaramento.",
+        svg: `
+          <svg viewBox="0 0 420 130" class="w-full h-auto">
+            <text x="105" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Mulher (XX): pode mascarar</text>
+            <circle cx="70" cy="65" r="9" fill="none" stroke="#94a3b8" stroke-width="2"/>
+            <text x="70" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">Xᴰ</text>
+            <circle cx="140" cy="65" r="9" fill="none" stroke="#94a3b8" stroke-width="2"/><circle cx="140" cy="65" r="4" fill="#f87171"/>
+            <text x="140" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">Xᵈ</text>
+            <text x="105" y="110" text-anchor="middle" fill="#a7f3d0" font-size="7">fenótipo: não daltônica (portadora)</text>
+            <text x="335" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Homem (XY): sem como mascarar</text>
+            <rect x="300" y="56" width="18" height="18" fill="#334155" stroke="#f87171" stroke-width="2"/>
+            <text x="309" y="90" text-anchor="middle" fill="#94a3b8" font-size="7">Xᵈ</text>
+            <text x="345" y="65" fill="#e2e8f0" font-size="14" font-weight="bold">Y</text>
+            <text x="335" y="110" text-anchor="middle" fill="#fca5a5" font-size="7">fenótipo: sempre daltônico</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão testa a leitura de heredogramas combinada com o entendimento de herança recessiva ligada ao X — um dos tópicos mais cobrados de genética no ENEM.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> Por que homens são mais afetados por distúrbios ligados ao X</h4>
+          <p>
+            Mulheres têm dois cromossomos X, enquanto homens têm um X e um Y. Para um gene localizado no X, isso significa que as mulheres podem ser <strong>heterozigotas</strong> (um alelo normal e um alterado), caso em que o alelo dominante normal geralmente "mascara" o efeito do recessivo — a mulher é fenotipicamente normal, mas <strong>portadora</strong>. Já os homens, tendo um único X, são <strong>hemizigotos</strong>: o alelo que possuem nesse cromossomo sempre se expressa, sem alelo dominante do outro X para mascará-lo. Por isso, características recessivas ligadas ao X (como esse tipo de daltonismo) aparecem com muito mais frequência em homens.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Montando o cruzamento passo a passo</h4>
+          <p>
+            Pai não daltônico: X<sup>D</sup>Y. Mãe portadora (não daltônica, mas heterozigota): X<sup>D</sup>X<sup>d</sup>. Cruzando os gametas possíveis (X<sup>D</sup> ou Y do pai, com X<sup>D</sup> ou X<sup>d</sup> da mãe), chegamos a quatro combinações igualmente prováveis: X<sup>D</sup>X<sup>D</sup> (filha não portadora), X<sup>D</sup>X<sup>d</sup> (filha portadora), X<sup>D</sup>Y (filho não daltônico) e X<sup>d</sup>Y (filho daltônico) — cada uma com 25% de chance.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> A "pegadinha" clássica: por que nenhuma filha pode ser afetada</h4>
+          <p>
+            Um erro comum é esquecer que, nesse cruzamento específico, <strong>nenhuma filha pode nascer daltônica</strong>. Isso só aconteceria se o pai também fosse daltônico (contribuindo com um X<sup>d</sup>) — o que não é o caso aqui, já que ele é descrito como não daltônico. Questões de heredograma costumam testar justamente esse tipo de armadilha: reconhecer quais combinações são geneticamente possíveis dado o genótipo real dos pais.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Como ler um heredograma corretamente</h4>
+          <p>
+            Um heredograma usa símbolos padronizados (quadrado para homem, círculo para mulher; preenchido para afetado, vazio para não afetado, com marcação especial para portador heterozigoto) conectados por linhas que representam relações de casamento e filiação. Ler corretamente um heredograma exige identificar o genótipo mais provável de cada indivíduo a partir do fenótipo e das relações familiares, e então aplicar as regras de segregação dos alelos para prever — ou, como nesta questão, reconhecer — as possibilidades para a próxima geração.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-dna"></i> As Quatro Possibilidades Reais para o Bebê</span>
+        <svg viewBox="0 0 280 90" class="w-full h-24 mx-auto">
+          <circle cx="40" cy="30" r="9" fill="none" stroke="#94a3b8" stroke-width="2"/>
+          <text x="40" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">filha não portadora</text>
+          <circle cx="110" cy="30" r="9" fill="none" stroke="#94a3b8" stroke-width="2"/><circle cx="110" cy="30" r="4" fill="#fbbf24"/>
+          <text x="110" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">filha portadora</text>
+          <rect x="163" y="21" width="18" height="18" fill="none" stroke="#94a3b8" stroke-width="2"/>
+          <text x="172" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">filho não daltônico</text>
+          <rect x="225" y="21" width="18" height="18" fill="#334155" stroke="#f87171" stroke-width="2"/>
+          <text x="234" y="55" text-anchor="middle" fill="#94a3b8" font-size="7">filho daltônico</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: montando o cruzamento genético",
+      descricao: "Escolha o genótipo da mãe (mantendo o pai fixo como não daltônico) e veja como as probabilidades de cada desfecho para o bebê mudam.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Pai: <span class="text-slate-200 font-semibold">XᴰY (não daltônico)</span> — fixo</p>
+            <div>
+              <label class="text-[11px] text-slate-400 block mb-1">Genótipo da mãe</label>
+              <select data-sim="mae" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-slate-200">
+                <option value="normal">XᴰXᴰ — não daltônica, não portadora</option>
+                <option value="portadora" selected>XᴰXᵈ — não daltônica, portadora</option>
+                <option value="afetada">XᵈXᵈ — daltônica</option>
+              </select>
+            </div>
+          </div>
+          <div class="space-y-1.5 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Filha não portadora: <span data-out="f1" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Filha portadora: <span data-out="f2" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Filha daltônica: <span data-out="f3" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Filho não daltônico: <span data-out="m1" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Filho daltônico: <span data-out="m2" class="text-slate-200 font-bold">—</span></p>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var mae = raiz.querySelector('[data-sim="mae"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var v = mae.value;
+          var f1 = 0, f2 = 0, f3 = 0, m1 = 0, m2 = 0;
+          if (v === 'normal') { f1 = 50; m1 = 50; }
+          else if (v === 'portadora') { f1 = 25; f2 = 25; m1 = 25; m2 = 25; }
+          else { f2 = 50; m2 = 50; }
+
+          saida('f1').textContent = f1 + '%';
+          saida('f2').textContent = f2 + '%';
+          saida('f3').textContent = f3 + '%';
+          saida('m1').textContent = m1 + '%';
+          saida('m2').textContent = m2 + '%';
+        }
+
+        mae.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
   }
+,
+
+  {
+    id: "q24113",
+    numero: "Questão 113 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Ecologia — Ciclos Biogeoquímicos e Nitrificação",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "A Etapa do Ciclo do Nitrogênio que é, na Verdade, uma Reação Redox",
+    tags: ["Biologia", "Ecologia", "Ciclo do Nitrogênio", "Nitrificação", "Reação Redox", "ENEM 2024"],
+    alternativaCorreta: "E",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">Metabolismo de procariontes nos ciclos do nitrogênio e do carbono</p>
+      <p>O esquema representa a ação de organismos no ciclo do nitrogênio e no ciclo do carbono. Os números correspondem a algumas etapas dos dois ciclos distintos:</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] py-2">
+        <div class="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700"><strong class="text-emerald-300">Etapa 1</strong> — Fixação biológica do nitrogênio: bactérias fixadoras convertem N₂ atmosférico em amônia (NH₃).</div>
+        <div class="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700"><strong class="text-emerald-300">Etapa 2</strong> — Fotossíntese: produtores fixam CO₂ atmosférico em compostos orgânicos (glicose).</div>
+        <div class="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700"><strong class="text-emerald-300">Etapa 3</strong> — Respiração celular: organismos liberam CO₂ para a atmosfera ao degradar compostos orgânicos.</div>
+        <div class="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700"><strong class="text-emerald-300">Etapa 4</strong> — Amonificação: decompositores degradam matéria orgânica nitrogenada, liberando amônia (NH₃) no solo.</div>
+        <div class="p-2.5 rounded-lg bg-emerald-900/40 border border-emerald-600 sm:col-span-2"><strong class="text-emerald-300">Etapa 5</strong> — Nitrificação: bactérias nitrificantes oxidam a amônia (NH₃) a nitrito (NO₂⁻) e, em seguida, a nitrato (NO₃⁻).</div>
+      </div>
+      <p class="text-right text-[11px] text-slate-500">Disponível em: https://pt.khanacademy.org. Acesso em: 27 jun. 2024 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Em qual etapa numerada ocorre uma transformação redox como a que ocorre nos procariontes nitrificantes?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "1", correta: false },
+      { letra: "B", texto: "2", correta: false },
+      { letra: "C", texto: "3", correta: false },
+      { letra: "D", texto: "4", correta: false },
+      { letra: "E", texto: "5", correta: true }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa E é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A pergunta pede a etapa em que ocorre uma <strong>transformação redox igual à realizada pelos procariontes nitrificantes</strong> — ou seja, é preciso primeiro identificar qual etapa é a nitrificação (etapa 5) e reconhecer que ela é, ela mesma, uma reação de oxirredução. Na nitrificação, o nitrogênio da amônia (NH₃), com número de oxidação <strong>-3</strong>, é progressivamente <strong>oxidado</strong> pelas bactérias nitrificantes: primeiro a nitrito (NO₂⁻, nitrogênio com NOx <strong>+3</strong>), depois a nitrato (NO₃⁻, NOx <strong>+5</strong>). Em cada uma dessas etapas, o nitrogênio perde elétrons (é oxidado) enquanto o oxigênio é reduzido — caracterizando claramente uma reação redox, na qual as bactérias nitrificantes obtêm energia metabólica a partir dessa oxidação (um processo quimiossintético).
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta (etapa 1 — fixação):</strong> embora a fixação biológica do nitrogênio (N₂ → NH₃) também envolva mudança no número de oxidação do nitrogênio, ela é uma <em>redução</em> (o N vai de 0 para -3) — o oposto do sentido oxidativo da nitrificação citada na pergunta como referência.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta (etapa 2 — fotossíntese):</strong> a fixação do carbono na fotossíntese (CO₂ → glicose) é uma reação de redução do carbono, movida pela energia luminosa — pertence ao ciclo do carbono, não é o tipo de transformação (oxidativa) realizada pelos nitrificantes.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">C) Incorreta (etapa 3 — respiração):</strong> a respiração celular libera CO₂ a partir da oxidação de compostos orgânicos — embora também seja uma reação redox, pertence ao ciclo do carbono, e a pergunta busca especificamente a etapa análoga à nitrificação (dentro do ciclo do nitrogênio).</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta (etapa 4 — amonificação):</strong> a decomposição da matéria orgânica nitrogenada em amônia é principalmente uma reação de degradação (hidrólise/desaminação), sem a oxidação progressiva do nitrogênio característica da nitrificação.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-arrows-rotate", titulo: "Ciclo do Nitrogênio", text: "Conjunto de transformações do nitrogênio entre suas várias formas químicas (N₂, NH₃, NO₂⁻, NO₃⁻), mediadas majoritariamente por micro-organismos." },
+      { icone: "fa-bolt", titulo: "Nitrificação", text: "Oxidação bacteriana da amônia a nitrito e depois a nitrato, realizada por bactérias nitrificantes quimiossintetizantes." },
+      { icone: "fa-right-left", titulo: "Reação Redox (Oxirredução)", text: "Reação química em que um elemento perde elétrons (oxidação) enquanto outro os ganha (redução) — mudando seus números de oxidação." }
+    ],
+
+    galeria: [
+      {
+        titulo: "A rota de oxidação do nitrogênio na nitrificação",
+        legenda: "O nitrogênio da amônia (NOx = -3) é progressivamente oxidado pelas bactérias nitrificantes até nitrito (NOx = +3) e depois nitrato (NOx = +5) — uma oxidação em duas etapas.",
+        svg: `
+          <svg viewBox="0 0 460 130" class="w-full h-auto">
+            <rect x="15" y="40" width="120" height="50" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="75" y="62" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">NH₃</text>
+            <text x="75" y="78" text-anchor="middle" fill="#fca5a5" font-size="7">N: -3</text>
+            <path d="M140,65 L180,65" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#a113)"/>
+            <text x="160" y="55" text-anchor="middle" fill="#fde68a" font-size="7">oxidação</text>
+            <defs><marker id="a113" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#fbbf24"/></marker></defs>
+            <rect x="190" y="40" width="120" height="50" rx="6" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+            <text x="250" y="62" text-anchor="middle" fill="#fde68a" font-size="9" font-weight="bold">NO₂⁻</text>
+            <text x="250" y="78" text-anchor="middle" fill="#fde68a" font-size="7">N: +3</text>
+            <path d="M315,65 L355,65" stroke="#fbbf24" stroke-width="2.5" marker-end="url(#a113)"/>
+            <text x="335" y="55" text-anchor="middle" fill="#fde68a" font-size="7">oxidação</text>
+            <rect x="365" y="40" width="90" height="50" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="410" y="62" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">NO₃⁻</text>
+            <text x="410" y="78" text-anchor="middle" fill="#6ee7b7" font-size="7">N: +5</text>
+          </svg>`
+      },
+      {
+        titulo: "Fixação (redução) x nitrificação (oxidação): sentidos opostos",
+        legenda: "A fixação biológica do nitrogênio (etapa 1) reduz o N₂ (NOx 0) a NH₃ (NOx -3). A nitrificação (etapa 5) faz o oposto: oxida a amônia até nitrato — por isso é a etapa que combina com a pergunta.",
+        svg: `
+          <svg viewBox="0 0 420 130" class="w-full h-auto">
+            <text x="105" y="20" text-anchor="middle" fill="#7dd3fc" font-size="9" font-weight="bold">Fixação (etapa 1): redução</text>
+            <rect x="30" y="35" width="60" height="35" rx="5" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+            <text x="60" y="57" text-anchor="middle" fill="#cbd5e1" font-size="8">N₂ (0)</text>
+            <path d="M95,52 L140,52" stroke="#7dd3fc" stroke-width="2" marker-end="url(#a113b)"/>
+            <defs><marker id="a113b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#7dd3fc"/></marker></defs>
+            <rect x="150" y="35" width="60" height="35" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="180" y="57" text-anchor="middle" fill="#bae6fd" font-size="8">NH₃ (-3)</text>
+            <text x="335" y="20" text-anchor="middle" fill="#fbbf24" font-size="9" font-weight="bold">Nitrificação (etapa 5): oxidação</text>
+            <rect x="250" y="90" width="60" height="35" rx="5" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="280" y="112" text-anchor="middle" fill="#bae6fd" font-size="8">NH₃ (-3)</text>
+            <path d="M315,107 L360,107" stroke="#fbbf24" stroke-width="2" marker-end="url(#a113c)"/>
+            <defs><marker id="a113c" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#fbbf24"/></marker></defs>
+            <rect x="370" y="90" width="45" height="35" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="392" y="112" text-anchor="middle" fill="#6ee7b7" font-size="8">NO₃⁻</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão combina ecologia (ciclos biogeoquímicos) com química (reações de oxirredução), pedindo que o estudante reconheça o mesmo conceito químico se manifestando num contexto biológico.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O ciclo do nitrogênio: uma sequência de transformações microbianas</h4>
+          <p>
+            O nitrogênio circula entre a atmosfera, o solo e os seres vivos por meio de uma série de transformações químicas, quase todas realizadas por micro-organismos especializados: fixação (N₂ → NH₃), nitrificação (NH₃ → NO₂⁻ → NO₃⁻), assimilação pelas plantas, amonificação (decomposição liberando NH₃ novamente) e desnitrificação (retorno do nitrogênio à atmosfera como N₂).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> O que caracteriza uma reação redox</h4>
+          <p>
+            Uma reação de oxirredução (redox) envolve a transferência de elétrons entre espécies químicas: uma substância perde elétrons (é <strong>oxidada</strong>, aumentando seu número de oxidação) enquanto outra os ganha (é <strong>reduzida</strong>, diminuindo seu número de oxidação). Rastrear a mudança no número de oxidação (NOx) de um elemento ao longo de uma transformação é a forma mais direta de identificar se ocorreu uma reação redox.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Nitrificação: bactérias que "respiram" nitrogênio para obter energia</h4>
+          <p>
+            As bactérias nitrificantes são <strong>quimiossintetizantes</strong>: em vez de obter energia da luz (como plantas) ou de moléculas orgânicas (como animais), elas obtêm energia diretamente da oxidação de compostos inorgânicos — nesse caso, oxidando a amônia (NOx -3) a nitrito (NOx +3) e, num segundo grupo de bactérias, o nitrito a nitrato (NOx +5). Essa energia liberada na oxidação é usada pelas bactérias para fixar CO₂ e produzir sua própria matéria orgânica, de forma análoga (mas não idêntica) à fotossíntese.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que as outras etapas não servem de resposta</h4>
+          <p>
+            A fixação biológica (etapa 1) é o processo oposto — uma <em>redução</em> do nitrogênio (de N₂, NOx 0, a NH₃, NOx -3). Fotossíntese (etapa 2) e respiração celular (etapa 3) são reações redox, sim, mas pertencem ao ciclo do <em>carbono</em>, não ao do nitrogênio, e não representam o mesmo tipo específico de transformação realizada pelos nitrificantes. A amonificação (etapa 4) é principalmente uma reação de decomposição/hidrólise da matéria orgânica, sem a oxidação progressiva característica da nitrificação.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-right-left"></i> Nitrificação: Oxidação do Nitrogênio</span>
+        <svg viewBox="0 0 280 90" class="w-full h-24 mx-auto">
+          <rect x="10" y="30" width="70" height="30" rx="5" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+          <text x="45" y="49" text-anchor="middle" fill="#fca5a5" font-size="8" font-weight="bold">NH₃ (-3)</text>
+          <path d="M85,45 L115,45" stroke="#fbbf24" stroke-width="2" marker-end="url(#a113d)"/>
+          <defs><marker id="a113d" markerWidth="6" markerHeight="6" refX="4" refY="2" orient="auto"><path d="M0,0 L4,2 L0,4 Z" fill="#fbbf24"/></marker></defs>
+          <rect x="120" y="30" width="70" height="30" rx="5" fill="#78350f" stroke="#f59e0b" stroke-width="1.5"/>
+          <text x="155" y="49" text-anchor="middle" fill="#fde68a" font-size="8" font-weight="bold">NO₂⁻ (+3)</text>
+          <path d="M195,45 L215,45" stroke="#fbbf24" stroke-width="2" marker-end="url(#a113d)"/>
+          <rect x="220" y="30" width="55" height="30" rx="5" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+          <text x="247" y="49" text-anchor="middle" fill="#6ee7b7" font-size="8" font-weight="bold">NO₃⁻</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: identificando reações redox no ciclo do nitrogênio",
+      descricao: "Escolha uma etapa do ciclo e veja como muda o número de oxidação (NOx) do nitrogênio, identificando se é uma oxidação, uma redução, ou nenhuma das duas.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 block mb-1">Etapa do ciclo</label>
+              <select data-sim="etapa" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-2 py-1.5 text-[11px] text-slate-200">
+                <option value="1">Etapa 1 — Fixação (N₂ → NH₃)</option>
+                <option value="4">Etapa 4 — Amonificação (matéria orgânica → NH₃)</option>
+                <option value="5" selected>Etapa 5 — Nitrificação (NH₃ → NO₂⁻ → NO₃⁻)</option>
+              </select>
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">NOx do nitrogênio: <span data-out="nox" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Selecione uma etapa para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var etapa = raiz.querySelector('[data-sim="etapa"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var e = etapa.value;
+          var v = saida('veredito');
+
+          if (e === '1') {
+            saida('nox').textContent = 'de 0 (N₂) para -3 (NH₃)';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-cyan-500/40 bg-cyan-950/30 text-cyan-200 mt-2';
+            v.textContent = 'É uma reação redox — mas de REDUÇÃO do nitrogênio (o NOx diminui), o sentido oposto ao da nitrificação.';
+          } else if (e === '4') {
+            saida('nox').textContent = 'permanece -3 (compostos orgânicos → NH₃)';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-slate-600/40 bg-slate-800/40 text-slate-300 mt-2';
+            v.textContent = 'Não é uma oxidação do nitrogênio: é principalmente uma reação de decomposição/hidrólise da matéria orgânica nitrogenada.';
+          } else {
+            saida('nox').textContent = 'de -3 (NH₃) para +3 (NO₂⁻) e +5 (NO₃⁻)';
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'É uma reação de OXIDAÇÃO do nitrogênio — exatamente o tipo de transformação redox realizada pelas bactérias nitrificantes.';
+          }
+        }
+
+        etapa.addEventListener('change', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24114",
+    numero: "Questão 114 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "quimica",
+    materia: "Química / Físico-química — Combustão e Poluição Veicular",
+    materiaCor: "cyan",
+    materiaIcone: "fa-vial",
+    titulo: "Excesso de Ar no Motor: Menos CO, Mais CO₂",
+    tags: ["Química", "Combustão", "Razão Ar/Combustível", "Poluição Veicular", "Reações Químicas", "ENEM 2024"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">A química da combustão veicular e a poluição do ar</p>
+      <p>Um dos agentes que mais contribui para a poluição do ar é o automóvel a combustão interna. Em áreas urbanas, isso é demonstrado dramaticamente pela fumaça fotoquímica, resultante da interação entre óxidos de nitrogênio, hidrocarbonetos e luz solar, para formar produtos de oxidação, que causam irritação aos olhos, ao aparelho respiratório e danos às plantas.</p>
+      <p>As condições de operação de motores a combustão, como a <strong>razão da mistura ar/combustível</strong> no cilindro, influenciam na composição dos gases lançados pelo escapamento na atmosfera. Um gráfico ilustra a variação nas composições dos principais gases — dióxido de carbono (CO₂), hidrocarbonetos (HC), monóxido de carbono (CO), monóxido de nitrogênio (NO) e oxigênio molecular (O₂) — emitidos por um motor a gasolina, em diferentes razões ar/combustível, em massa. A razão estequiométrica ideal para a gasolina é de aproximadamente <strong>14,7:1</strong>: abaixo dela, a mistura é "rica" (excesso de combustível); acima dela, a mistura é "pobre" (excesso de ar/oxigênio).</p>
+      <p class="text-right text-[11px] text-slate-500">RANGEL, M. C.; CARVALHO, M. F. A. Impacto dos catalisadores automotivos no controle da qualidade do ar. Química Nova, v. 26, 2003 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Na condição de razão ar/combustível igual a 18, haverá uma emissão</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "baixa de O₂ e alta de NO.", correta: false },
+      { letra: "B", texto: "baixa de NO e alta de HC.", correta: false },
+      { letra: "C", texto: "baixa de CO e alta de CO₂.", correta: true },
+      { letra: "D", texto: "baixa de HC e alta de CO.", correta: false },
+      { letra: "E", texto: "baixa de CO e alta de HC.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-cyan-950/40 p-4 rounded-xl border border-cyan-500/30 space-y-2">
+          <h4 class="font-bold text-cyan-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa C é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            Uma razão ar/combustível de <strong>18</strong> está bem acima da razão estequiométrica (≈14,7), caracterizando uma <strong>mistura pobre</strong>: há mais ar (oxigênio) disponível por unidade de combustível do que o estritamente necessário para a combustão completa. Isso favorece a <strong>oxidação completa do carbono</strong>: em vez de o carbono do combustível formar monóxido de carbono (CO) — produto típico de combustão incompleta, quando falta oxigênio — ele tem oxigênio suficiente para ser totalmente oxidado a dióxido de carbono (CO₂). Por isso, à medida que a razão ar/combustível aumenta além do ponto estequiométrico, a emissão de <strong>CO cai</strong> (menos combustão incompleta) enquanto a emissão de <strong>CO₂ sobe</strong> (mais combustão completa) — exatamente o padrão descrito na alternativa C.
+          </p>
+          <p class="text-slate-400 text-[10px] font-mono bg-slate-950/60 p-2 rounded">
+            Combustão incompleta (falta O₂): 2 C + O₂ → 2 CO<br>
+            Combustão completa (O₂ suficiente): C + O₂ → CO₂
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta:</strong> numa mistura pobre (excesso de ar), o O₂ no escapamento tende a ser <em>maior</em>, não menor, já que sobra oxigênio não totalmente consumido na combustão — o sentido contrário ao afirmado.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta:</strong> não capta a relação central entre razão ar/combustível e a dupla CO/CO₂, que é o par de gases mais diretamente ligado à completude da combustão do carbono.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta:</strong> inverte o comportamento do CO — numa mistura pobre (mais oxigênio disponível), a emissão de CO tende a <em>cair</em> (mais combustão completa), não a subir.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta:</strong> acerta a queda do CO, mas erra ao associá-la a uma alta de HC — com mais oxigênio disponível, a tendência geral (até próximo ao limite de operação do motor) é de queima mais completa também dos hidrocarbonetos, não o aumento deles; o par que realmente acompanha a queda do CO nesse regime é a alta do CO₂.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-gas-pump", titulo: "Razão Ar/Combustível Estequiométrica", text: "Proporção ideal de massa de ar para massa de combustível necessária para a combustão completa (≈14,7:1 para a gasolina)." },
+      { icone: "fa-fire", titulo: "Combustão Completa x Incompleta", text: "Com oxigênio suficiente, o carbono do combustível é oxidado a CO₂ (completa); com falta de oxigênio, forma-se CO (incompleta), um gás tóxico." },
+      { icone: "fa-smog", titulo: "Mistura Pobre (Excesso de Ar)", text: "Razão ar/combustível acima do valor estequiométrico, favorecendo reações de oxidação mais completas do combustível." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Combustão completa x incompleta do carbono",
+        legenda: "Com oxigênio insuficiente (mistura rica), parte do carbono forma CO (combustão incompleta). Com oxigênio em excesso (mistura pobre, como razão 18), praticamente todo o carbono é oxidado até CO₂ (combustão completa).",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Pouco O₂ (mistura rica)</text>
+            <circle cx="60" cy="70" r="16" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="60" y="75" text-anchor="middle" fill="#e2e8f0" font-size="8">C</text>
+            <circle cx="110" cy="70" r="10" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <text x="110" y="74" text-anchor="middle" fill="#bae6fd" font-size="6">O₂</text>
+            <path d="M135,70 L170,70" stroke="#f87171" stroke-width="2" marker-end="url(#a114)"/>
+            <defs><marker id="a114" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#f87171"/></marker></defs>
+            <rect x="180" y="50" width="70" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5"/>
+            <text x="215" y="74" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">CO</text>
+            <text x="215" y="110" text-anchor="middle" fill="#94a3b8" font-size="7">combustão incompleta</text>
+            <text x="345" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Muito O₂ (mistura pobre, razão 18)</text>
+            <circle cx="290" cy="70" r="16" fill="#334155" stroke="#94a3b8" stroke-width="1.5"/>
+            <text x="290" y="75" text-anchor="middle" fill="#e2e8f0" font-size="8">C</text>
+            <circle cx="330" cy="60" r="9" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <circle cx="330" cy="82" r="9" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.5"/>
+            <path d="M348,70 L385,70" stroke="#34d399" stroke-width="2" marker-end="url(#a114b)"/>
+            <defs><marker id="a114b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#34d399"/></marker></defs>
+            <rect x="395" y="50" width="55" height="40" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+            <text x="422" y="74" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">CO₂</text>
+            <text x="422" y="110" text-anchor="middle" fill="#94a3b8" font-size="7">combustão completa</text>
+          </svg>`
+      },
+      {
+        titulo: "CO e CO₂ cruzando conforme a razão ar/combustível aumenta",
+        legenda: "À medida que a razão ar/combustível sobe além do ponto estequiométrico (≈14,7), a curva de CO cai e a de CO₂ sobe — na razão 18, já em zona de mistura pobre, o CO está baixo e o CO₂ está alto.",
+        svg: `
+          <svg viewBox="0 0 460 170" class="w-full h-auto">
+            <line x1="45" y1="140" x2="440" y2="140" stroke="#475569" stroke-width="2"/>
+            <line x1="45" y1="140" x2="45" y2="20" stroke="#475569" stroke-width="2"/>
+            <text x="15" y="30" fill="#94a3b8" font-size="8">%</text>
+            <text x="400" y="155" fill="#94a3b8" font-size="8">razão ar/comb.</text>
+            <line x1="200" y1="140" x2="200" y2="20" stroke="#64748b" stroke-width="1" stroke-dasharray="3 2"/>
+            <text x="200" y="15" text-anchor="middle" fill="#94a3b8" font-size="7">14,7 (estequ.)</text>
+            <line x1="330" y1="140" x2="330" y2="20" stroke="#6ee7b7" stroke-width="1" stroke-dasharray="3 2"/>
+            <text x="330" y="15" text-anchor="middle" fill="#6ee7b7" font-size="7">18</text>
+            <path d="M55,40 Q160,55 200,80 T440,120" fill="none" stroke="#f87171" stroke-width="2.5"/>
+            <text x="410" y="130" fill="#fca5a5" font-size="7" font-weight="bold">CO</text>
+            <path d="M55,120 Q160,100 200,80 T440,40" fill="none" stroke="#34d399" stroke-width="2.5"/>
+            <text x="410" y="50" fill="#6ee7b7" font-size="7" font-weight="bold">CO₂</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-cyan-500 pl-3">
+          Essa questão traz uma aplicação prática e ambiental de estequiometria: entender como a proporção entre ar e combustível dentro do motor determina quais gases saem pelo escapamento.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">1.</span> A razão ar/combustível estequiométrica</h4>
+          <p>
+            Para queimar completamente 1 grama de gasolina, é necessária uma quantidade específica de ar (rica em oxigênio) — para a gasolina comum, essa proporção ideal (estequiométrica) é de aproximadamente <strong>14,7 partes de ar para 1 parte de combustível</strong>, em massa. Misturas com razão abaixo desse valor são chamadas de "ricas" (excesso relativo de combustível); acima desse valor, são chamadas de "pobres" (excesso relativo de ar).
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">2.</span> Combustão completa x incompleta do carbono</h4>
+          <p>
+            O carbono da gasolina, ao reagir com oxigênio suficiente, forma dióxido de carbono (CO₂): C + O₂ → CO₂. Mas se o oxigênio disponível for insuficiente (mistura rica), parte do carbono só consegue reagir parcialmente, formando monóxido de carbono (CO): 2 C + O₂ → 2 CO — um gás tóxico e produto característico de combustão incompleta.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">3.</span> O que acontece numa mistura pobre (razão 18)</h4>
+          <p>
+            Com razão ar/combustível de 18 — bem acima do ponto estequiométrico de 14,7 — há oxigênio de sobra para completar a oxidação do carbono. Isso desloca o equilíbrio das reações de combustão fortemente a favor do CO₂ em detrimento do CO: a emissão de CO cai (menos combustão incompleta) enquanto a de CO₂ sobe (mais combustão completa) — mesmo que o CO₂ também seja, por si só, um gás de efeito estufa relevante.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-cyan-400">4.</span> Por que a indústria automotiva se importa com essa razão</h4>
+          <p>
+            Motores modernos usam sensores de oxigênio (sondas lambda) e sistemas de injeção eletrônica para ajustar a razão ar/combustível o mais próximo possível do ponto estequiométrico, otimizando o funcionamento do catalisador (que precisa de uma mistura equilibrada para converter simultaneamente CO, HC e NOx em substâncias menos nocivas). Entender esse gráfico de emissões é essencial para engenheiros automotivos que projetam motores e sistemas de controle de poluição mais eficientes.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-cyan-300 block"><i class="fa-solid fa-fire"></i> Mistura Pobre: Menos CO, Mais CO₂</span>
+        <svg viewBox="0 0 280 100" class="w-full h-24 mx-auto">
+          <rect x="15" y="30" width="90" height="40" rx="6" fill="#450a0a" stroke="#f87171" stroke-width="1.5" opacity="0.6"/>
+          <text x="60" y="54" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">CO ↓</text>
+          <rect x="175" y="20" width="90" height="55" rx="6" fill="#064e3b" stroke="#34d399" stroke-width="1.5"/>
+          <text x="220" y="52" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">CO₂ ↑</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: razão ar/combustível e a composição do escapamento",
+      descricao: "Ajuste a razão ar/combustível do motor e veja como isso muda a proporção estimada entre CO e CO₂ nos gases emitidos.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Razão ar/combustível</span><span class="text-cyan-300 font-bold" data-out="razao">14,7</span>
+              </label>
+              <input type="range" data-sim="razao" min="10" max="22" value="14.7" step="0.1" class="w-full accent-cyan-500">
+              <p class="text-[10px] text-slate-500 mt-1">estequiométrico ≈ 14,7 · abaixo = mistura rica · acima = mistura pobre</p>
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Emissão relativa de CO: <span data-out="co" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Emissão relativa de CO₂: <span data-out="co2" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a razão para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var razao = raiz.querySelector('[data-sim="razao"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var r = parseFloat(razao.value);
+          saida('razao').textContent = r.toFixed(1);
+
+          var co = Math.max(2, 100 - (r - 10) * 9);
+          var co2 = Math.min(98, 20 + (r - 10) * 6.5);
+          saida('co').textContent = co.toFixed(0) + '%';
+          saida('co2').textContent = co2.toFixed(0) + '%';
+
+          var v = saida('veredito');
+          if (r < 14.2) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Mistura rica (razão ' + r.toFixed(1) + '): falta oxigênio para queimar todo o carbono — combustão incompleta favorece CO.';
+          } else if (r <= 15.2) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Próximo do ponto estequiométrico (≈14,7): mistura equilibrada, condição usada por catalisadores para operar de forma otimizada.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Mistura pobre (razão ' + r.toFixed(1) + '): oxigênio em excesso favorece a combustão completa do carbono — CO cai, CO₂ sobe, como na razão 18 da questão.';
+          }
+        }
+
+        razao.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+,
+
+  {
+    id: "q24115",
+    numero: "Questão 115 · ENEM 2024",
+    ano: "2024",
+    caderno: "Caderno 7 (Azul) · 2024",
+    area: "natureza",
+    areaNome: "Ciências da Natureza",
+    materiaId: "biologia",
+    materia: "Biologia / Citologia — Citoesqueleto e Movimento Celular",
+    materiaCor: "emerald",
+    materiaIcone: "fa-dna",
+    titulo: "A Droga que Trava a Ameba: o Alvo é o Citoesqueleto",
+    tags: ["Biologia", "Citologia", "Citoesqueleto", "Microfilamentos", "Movimento Ameboide", "ENEM 2024"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+
+    enunciado: `
+    <div class="mb-4 p-4 bg-slate-950/60 rounded-xl border border-slate-800 leading-relaxed space-y-3">
+      <p class="font-semibold">O experimento com Amoeba proteus e a citocalasina B</p>
+      <p>O esquema representa um experimento feito com células do protozoário <em>Amoeba proteus</em>. Nele, um grupo de células foi tratado com a droga citocalasina B, enquanto outro grupo não foi tratado, servindo como controle. O formato e o movimento das células tratadas foram comprometidos.</p>
+      <p class="text-right text-[11px] text-slate-500">SADAVA, D. et al. Vida: a ciência da biologia — volume I: célula e hereditariedade. Porto Alegre: Artmed, 2009 (adaptado).</p>
+    </div>
+    <p class="mt-2 font-semibold">Qual componente celular foi afetado pela droga utilizada no experimento?</p>
+    `,
+
+    alternativas: [
+      { letra: "A", texto: "Vacúolos.", correta: false },
+      { letra: "B", texto: "Mitocôndrias.", correta: false },
+      { letra: "C", texto: "Microfilamentos.", correta: true },
+      { letra: "D", texto: "Material genético.", correta: false },
+      { letra: "E", texto: "Membrana plasmática.", correta: false }
+    ],
+
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/30 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2">
+            <i class="fa-solid fa-circle-check"></i> Por que a Alternativa C é a Correta?
+          </h4>
+          <p class="text-slate-200 leading-relaxed">
+            A citocalasina B é uma droga classicamente usada em pesquisa de biologia celular justamente por seu mecanismo bem conhecido: ela se liga à actina e <strong>impede a polimerização dos microfilamentos</strong> (filamentos de actina), um dos componentes do citoesqueleto. Em <em>Amoeba proteus</em>, tanto a <strong>manutenção do formato</strong> da célula quanto o seu <strong>movimento ameboide</strong> (a formação de pseudópodes que se estendem e se retraem para a célula se deslocar) dependem diretamente da dinâmica de montagem e desmontagem dos microfilamentos de actina logo abaixo da membrana plasmática. Ao bloquear essa dinâmica, a citocalasina B compromete simultaneamente o formato da célula (que perde sua capacidade de projetar pseudópodes) e sua capacidade de se locomover — exatamente os dois efeitos descritos no experimento.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-[11px]">
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">A) Incorreta — Vacúolos:</strong> os vacúolos participam de digestão, armazenamento e regulação osmótica na ameba, mas não são o alvo conhecido da citocalasina B, nem sua disfunção explicaria diretamente a perda de formato e movimento descrita.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">B) Incorreta — Mitocôndrias:</strong> mitocôndrias fornecem a energia (ATP) necessária para o movimento, mas a citocalasina B não atua sobre elas — seu alvo é estrutural (o citoesqueleto), não energético; uma célula sem energia pararia de forma diferente (perda geral de atividade), não especificamente perderia o formato como descrito.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">D) Incorreta — Material genético:</strong> alterações no DNA afetariam a expressão gênica e a divisão celular ao longo de gerações, mas não explicam uma mudança imediata no formato e no movimento de uma célula individual já tratada.</div>
+          <div class="p-3 bg-slate-950 rounded border border-slate-800"><strong class="text-rose-400">E) Incorreta — Membrana plasmática:</strong> a membrana plasmática envolve a célula, mas seu formato é, na verdade, sustentado por baixo pelo citoesqueleto (incluindo os microfilamentos) — a citocalasina B não age diretamente sobre os lipídios ou proteínas da membrana, mas sim sobre a "armação" interna que a sustenta.</div>
+        </div>
+      </div>
+    `,
+
+    conceitos: [
+      { icone: "fa-diagram-project", titulo: "Citoesqueleto", text: "Rede de filamentos proteicos internos (microfilamentos, microtúbulos, filamentos intermediários) que dá forma, sustentação e capacidade de movimento à célula." },
+      { icone: "fa-shoe-prints", titulo: "Microfilamentos (Actina)", text: "Filamentos finos de actina, essenciais para a forma celular e para movimentos como a formação de pseudópodes no movimento ameboide." },
+      { icone: "fa-flask-vial", titulo: "Citocalasina B", text: "Droga experimental que bloqueia a polimerização da actina, usada em laboratório para estudar o papel dos microfilamentos na célula." }
+    ],
+
+    galeria: [
+      {
+        titulo: "Ameba controle x ameba tratada com citocalasina B",
+        legenda: "A ameba não tratada projeta pseudópodes graças à polimerização ativa dos microfilamentos de actina. A ameba tratada, com a actina bloqueada, perde a capacidade de formar pseudópodes e assume um formato mais arredondado e imóvel.",
+        svg: `
+          <svg viewBox="0 0 460 150" class="w-full h-auto">
+            <text x="115" y="20" text-anchor="middle" fill="#6ee7b7" font-size="9" font-weight="bold">Controle (sem droga)</text>
+            <path d="M60,80 Q40,50 70,45 Q90,30 105,55 Q140,45 130,80 Q160,90 130,110 Q110,130 85,110 Q50,120 60,80 Z" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+            <text x="115" y="140" text-anchor="middle" fill="#94a3b8" font-size="7">pseudópodes ativos — se movimenta</text>
+            <text x="345" y="20" text-anchor="middle" fill="#fca5a5" font-size="9" font-weight="bold">Tratada com citocalasina B</text>
+            <circle cx="345" cy="80" r="38" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+            <text x="345" y="140" text-anchor="middle" fill="#94a3b8" font-size="7">arredondada — imóvel, sem pseudópodes</text>
+          </svg>`
+      },
+      {
+        titulo: "Onde a citocalasina B age: bloqueio da polimerização da actina",
+        legenda: "Normalmente, monômeros de actina se juntam (polimerizam) formando os microfilamentos que sustentam pseudópodes. A citocalasina B se liga à actina e impede essa polimerização, colapsando a estrutura.",
+        svg: `
+          <svg viewBox="0 0 420 120" class="w-full h-auto">
+            <circle cx="40" cy="60" r="7" fill="#a78bfa"/><circle cx="55" cy="60" r="7" fill="#a78bfa"/>
+            <circle cx="70" cy="60" r="7" fill="#a78bfa"/><circle cx="85" cy="60" r="7" fill="#a78bfa"/>
+            <text x="62" y="90" text-anchor="middle" fill="#c4b5fd" font-size="7">microfilamento (actina polimerizada)</text>
+            <path d="M120,60 L165,60" stroke="#f87171" stroke-width="2" marker-end="url(#a115)"/>
+            <defs><marker id="a115" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#f87171"/></marker></defs>
+            <text x="142" y="50" text-anchor="middle" fill="#fca5a5" font-size="7">citocalasina B</text>
+            <circle cx="230" cy="45" r="7" fill="#a78bfa" opacity="0.5"/>
+            <circle cx="260" cy="70" r="7" fill="#a78bfa" opacity="0.5"/>
+            <circle cx="290" cy="50" r="7" fill="#a78bfa" opacity="0.5"/>
+            <circle cx="320" cy="75" r="7" fill="#a78bfa" opacity="0.5"/>
+            <text x="275" y="100" text-anchor="middle" fill="#94a3b8" font-size="7">monômeros soltos — sem polimerizar</text>
+          </svg>`
+      }
+    ],
+
+    materiaCompleta: `
+      <div class="space-y-5 text-sm text-slate-200 leading-relaxed">
+
+        <p class="text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3">
+          Essa questão testa o conhecimento sobre o citoesqueleto — uma estrutura celular menos "famosa" que o núcleo ou as mitocôndrias, mas essencial para forma e movimento.
+        </p>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">1.</span> O citoesqueleto: a "estrutura interna" da célula</h4>
+          <p>
+            Toda célula eucariótica possui uma rede interna de filamentos proteicos — o citoesqueleto — formada principalmente por três tipos: <strong>microfilamentos</strong> (actina, os mais finos), <strong>filamentos intermediários</strong> (função mais estrutural/mecânica) e <strong>microtúbulos</strong> (os mais grossos, envolvidos no transporte intracelular e na divisão celular). Juntos, esses filamentos dão forma à célula, ancoram organelas e possibilitam diversos tipos de movimento celular.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">2.</span> Microfilamentos e o movimento ameboide</h4>
+          <p>
+            O movimento ameboide — característico de amebas, mas também presente em células humanas como leucócitos migrando pelo corpo — depende da polimerização e despolimerização contínua e localizada dos microfilamentos de actina logo abaixo da membrana plasmática. Essa dinâmica empurra a membrana para formar <strong>pseudópodes</strong> (projeções temporárias do citoplasma), que se ancoram no substrato e permitem à célula "puxar" o restante do corpo celular na mesma direção.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">3.</span> Como a citocalasina B interfere nesse processo</h4>
+          <p>
+            A citocalasina B é uma micotoxina fúngica amplamente usada como ferramenta em laboratórios de biologia celular. Ela se liga à extremidade dos filamentos de actina em crescimento, bloqueando a adição de novos monômeros — ou seja, impede a <strong>polimerização</strong> da actina. Sem microfilamentos funcionais, a célula perde tanto a capacidade de manter sua forma dinâmica quanto de projetar pseudópodes, comprometendo diretamente forma e movimento, exatamente como observado no grupo tratado do experimento.
+          </p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-white font-bold flex items-center gap-2"><span class="text-emerald-400">4.</span> Por que esse tipo de experimento é importante na ciência</h4>
+          <p>
+            Usar drogas que bloqueiam especificamente um componente celular (como a citocalasina B para microfilamentos, ou a colchicina para microtúbulos) é uma estratégia clássica para investigar a função de estruturas celulares: ao "desligar" seletivamente um componente e observar o que deixa de funcionar, os cientistas conseguem inferir seu papel biológico — nesse caso, confirmando que os microfilamentos são essenciais tanto para a forma quanto para o movimento da célula.
+          </p>
+        </div>
+
+      </div>
+    `,
+
+    diagramaHtml: `
+      <div class="bg-slate-950 svg-vitrine p-4 rounded-xl border border-slate-800 text-center space-y-2">
+        <span class="text-[11px] font-bold text-emerald-300 block"><i class="fa-solid fa-shoe-prints"></i> Sem Microfilamentos, Sem Pseudópodes</span>
+        <svg viewBox="0 0 280 100" class="w-full h-24 mx-auto">
+          <path d="M40,55 Q30,35 50,32 Q65,20 75,38 Q95,32 88,55 Q105,62 88,75 Q75,88 58,75 Q35,80 40,55 Z" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+          <text x="60" y="95" text-anchor="middle" fill="#94a3b8" font-size="7">controle</text>
+          <path d="M155,55 L195,55" stroke="#94a3b8" stroke-width="2" marker-end="url(#a115b)"/>
+          <defs><marker id="a115b" markerWidth="7" markerHeight="7" refX="5" refY="2.5" orient="auto"><path d="M0,0 L5,2.5 L0,5 Z" fill="#94a3b8"/></marker></defs>
+          <circle cx="240" cy="55" r="24" fill="#450a0a" stroke="#f87171" stroke-width="2"/>
+          <text x="240" y="95" text-anchor="middle" fill="#94a3b8" font-size="7">tratada</text>
+        </svg>
+      </div>
+    `,
+
+    simulador: {
+      titulo: "Laboratório: concentração de citocalasina B e mobilidade da ameba",
+      descricao: "Ajuste a concentração da droga aplicada às células e veja como isso afeta a formação de pseudópodes e a mobilidade da ameba.",
+      html: `
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div class="space-y-3 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <div>
+              <label class="text-[11px] text-slate-400 flex justify-between">
+                <span>Concentração de citocalasina B</span><span class="text-emerald-300 font-bold" data-out="conc">0%</span>
+              </label>
+              <input type="range" data-sim="conc" min="0" max="100" value="0" step="5" class="w-full accent-emerald-500">
+            </div>
+          </div>
+          <div class="space-y-2 bg-slate-950 border border-slate-800 rounded-xl p-4">
+            <p class="text-[11px] text-slate-400">Formação de pseudópodes: <span data-out="pseudopodes" class="text-slate-200 font-bold">—</span></p>
+            <p class="text-[11px] text-slate-400">Mobilidade da célula: <span data-out="mobilidade" class="text-slate-200 font-bold">—</span></p>
+            <div data-out="veredito" class="p-3 rounded-xl border text-[11px] leading-relaxed border-slate-800 bg-slate-900/60 text-slate-400 mt-2">
+              Ajuste a concentração para simular.
+            </div>
+          </div>
+        </div>
+      `,
+      init: function (raiz) {
+        var conc = raiz.querySelector('[data-sim="conc"]');
+        var saida = function (nome) { return raiz.querySelector('[data-out="' + nome + '"]'); };
+
+        function atualizar() {
+          var c = parseFloat(conc.value);
+          saida('conc').textContent = c + '%';
+
+          var pseudopodes = Math.max(0, 100 - c * 1.1);
+          var mobilidade = Math.max(0, 100 - c * 1.05);
+          saida('pseudopodes').textContent = pseudopodes.toFixed(0) + '%';
+          saida('mobilidade').textContent = mobilidade.toFixed(0) + '%';
+
+          var v = saida('veredito');
+          if (c === 0) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-emerald-500/40 bg-emerald-950/30 text-emerald-200 mt-2';
+            v.textContent = 'Sem droga: os microfilamentos de actina polimerizam normalmente, a ameba forma pseudópodes e se movimenta livremente.';
+          } else if (c < 50) {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-amber-500/40 bg-amber-950/30 text-amber-200 mt-2';
+            v.textContent = 'Concentração moderada: parte da polimerização da actina já está bloqueada — pseudópodes e movimento ficam parcialmente comprometidos.';
+          } else {
+            v.className = 'p-3 rounded-xl border text-[11px] leading-relaxed border-rose-500/40 bg-rose-950/30 text-rose-200 mt-2';
+            v.textContent = 'Alta concentração: a polimerização da actina está fortemente bloqueada — a célula perde a capacidade de formar pseudópodes e fica praticamente imóvel, arredondada.';
+          }
+        }
+
+        conc.addEventListener('input', atualizar);
+        atualizar();
+      }
+    },
+
+    simuladorType: null
+  }
+
 ];
