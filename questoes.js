@@ -9,7 +9,7 @@ const questaoDatabase = [
   {
     id: "q108",
     numero: "Questão 108",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -551,7 +551,7 @@ const questaoDatabase = [
     {
     id: "q095",
     numero: "Questão 95",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -966,7 +966,7 @@ const questaoDatabase = [
   {
     id: "q102",
     numero: "Questão 102",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -1063,7 +1063,7 @@ const questaoDatabase = [
   {
     id: "q145",
     numero: "Questão 145",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "matematica",
     areaNome: "Matemática e suas Tecnologias",
@@ -1154,7 +1154,7 @@ const questaoDatabase = [
   {
     id: "q015",
     numero: "Questão 15",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 1 (Azul)",
     area: "humanas",
     areaNome: "Ciências Humanas e suas Tecnologias",
@@ -1264,7 +1264,7 @@ const questaoDatabase = [
   {
     id: "q032",
     numero: "Questão 32",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 1 (Azul)",
     area: "humanas",
     areaNome: "Ciências Humanas e suas Tecnologias",
@@ -1362,7 +1362,7 @@ const questaoDatabase = [
   {
     id: "q091",
     numero: "Questão 91",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -1921,7 +1921,7 @@ const questaoDatabase = [
   {
     id: "q092",
     numero: "Questão 92",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -2339,7 +2339,7 @@ const questaoDatabase = [
   {
     id: "q093",
     numero: "Questão 93",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -2758,7 +2758,7 @@ const questaoDatabase = [
   {
     id: "q094",
     numero: "Questão 94",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -3213,7 +3213,7 @@ const questaoDatabase = [
   {
     id: "q096",
     numero: "Questão 96",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -3595,7 +3595,7 @@ const questaoDatabase = [
   {
     id: "q097",
     numero: "Questão 97",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -3988,7 +3988,7 @@ const questaoDatabase = [
   {
     id: "q098",
     numero: "Questão 98",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -4367,7 +4367,7 @@ const questaoDatabase = [
   {
     id: "q099",
     numero: "Questão 99",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -4747,7 +4747,7 @@ const questaoDatabase = [
   {
     id: "q100",
     numero: "Questão 100",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -5115,7 +5115,7 @@ const questaoDatabase = [
   {
     id: "q101",
     numero: "Questão 101",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -5475,7 +5475,7 @@ const questaoDatabase = [
   {
     id: "q103",
     numero: "Questão 103",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -5769,7 +5769,7 @@ const questaoDatabase = [
   {
     id: "q104",
     numero: "Questão 104",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -6150,7 +6150,7 @@ const questaoDatabase = [
   {
     id: "q105",
     numero: "Questão 105",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -6507,7 +6507,7 @@ const questaoDatabase = [
   {
     id: "q106",
     numero: "Questão 106",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -6878,7 +6878,7 @@ const questaoDatabase = [
   {
     id: "q107",
     numero: "Questão 107",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -7341,7 +7341,7 @@ const questaoDatabase = [
   {
     id: "q109",
     numero: "Questão 109",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -7723,7 +7723,7 @@ const questaoDatabase = [
   {
     id: "q110",
     numero: "Questão 110",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -8070,7 +8070,7 @@ const questaoDatabase = [
   {
     id: "q111",
     numero: "Questão 111",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -8448,7 +8448,7 @@ const questaoDatabase = [
   {
     id: "q112",
     numero: "Questão 112",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -8775,7 +8775,7 @@ const questaoDatabase = [
   {
     id: "q113",
     numero: "Questão 113",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -9107,7 +9107,7 @@ const questaoDatabase = [
   {
     id: "q114",
     numero: "Questão 114",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -9446,7 +9446,7 @@ const questaoDatabase = [
   {
     id: "q115",
     numero: "Questão 115",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -9795,7 +9795,7 @@ const questaoDatabase = [
   {
     id: "q116",
     numero: "Questão 116",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -10103,7 +10103,7 @@ const questaoDatabase = [
   {
     id: "q117",
     numero: "Questão 117",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -10380,7 +10380,7 @@ const questaoDatabase = [
   {
     id: "q118",
     numero: "Questão 118",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -10656,7 +10656,7 @@ const questaoDatabase = [
   {
     id: "q119",
     numero: "Questão 119",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -10992,7 +10992,7 @@ const questaoDatabase = [
   {
     id: "q120",
     numero: "Questão 120",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -11367,7 +11367,7 @@ const questaoDatabase = [
   {
     id: "q121",
     numero: "Questão 121",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -11682,7 +11682,7 @@ const questaoDatabase = [
   {
     id: "q122",
     numero: "Questão 122",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -11986,7 +11986,7 @@ const questaoDatabase = [
   {
     id: "q123",
     numero: "Questão 123",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -12293,7 +12293,7 @@ const questaoDatabase = [
   {
     id: "q124",
     numero: "Questão 124",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -12600,7 +12600,7 @@ const questaoDatabase = [
   {
     id: "q125",
     numero: "Questão 125",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -12896,7 +12896,7 @@ const questaoDatabase = [
   {
     id: "q126",
     numero: "Questão 126",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -13232,7 +13232,7 @@ const questaoDatabase = [
   {
     id: "q127",
     numero: "Questão 127",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -13497,7 +13497,7 @@ const questaoDatabase = [
   {
     id: "q128",
     numero: "Questão 128",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -13805,7 +13805,7 @@ const questaoDatabase = [
   {
     id: "q129",
     numero: "Questão 129",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -14088,7 +14088,7 @@ const questaoDatabase = [
   {
     id: "q130",
     numero: "Questão 130",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -14349,7 +14349,7 @@ const questaoDatabase = [
   {
     id: "q131",
     numero: "Questão 131",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -14638,7 +14638,7 @@ const questaoDatabase = [
   {
     id: "q132",
     numero: "Questão 132",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -14904,7 +14904,7 @@ const questaoDatabase = [
   {
     id: "q133",
     numero: "Questão 133",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -15197,7 +15197,7 @@ const questaoDatabase = [
   {
     id: "q134",
     numero: "Questão 134",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -15498,7 +15498,7 @@ const questaoDatabase = [
   {
     id: "q135",
     numero: "Questão 135",
-    ano: "2025",
+    ano: "inusitadas",
     caderno: "Caderno 7 (Azul)",
     area: "natureza",
     areaNome: "Ciências da Natureza",
@@ -41677,7 +41677,7 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
   {
     id: "qINSS016",
     numero: "Questão 16",
-    ano: "2022",
+    ano: "inusitadas",
     caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
     area: "inss",
     areaNome: "Concurso INSS",
