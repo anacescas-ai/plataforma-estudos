@@ -42540,5 +42540,155 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     conceitos: [],
     diagramaHtml: null,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS026",
+    numero: "Questão 26",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Uniformidade e Equivalência — Art. 194, II",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Uniformidade", "Equivalência", "Urbano", "Rural", "Art. 194"],
+    alternativaCorreta: "C",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, II, da Constituição Federal de 1988 estabelece como objetivo da seguridade social a <em>uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais</em>. Com base nesse princípio, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "Em razão do princípio da uniformidade, os trabalhadores rurais recebem benefícios em valores nominais idênticos aos dos trabalhadores urbanos, independentemente da diferença entre as contribuições recolhidas por cada categoria.", correta: false },
+      { letra: "B", texto: "O princípio da equivalência permite que a lei crie benefícios exclusivos para trabalhadores urbanos, desde que, em contrapartida, institua benefícios de valor superior para os trabalhadores rurais, a fim de compensar a histórica desigualdade entre os grupos.", correta: false },
+      { letra: "C", texto: "O princípio da uniformidade determina que os mesmos tipos de prestações (benefícios e serviços) devem ser assegurados tanto às populações urbanas quanto às rurais, enquanto a equivalência garante que o valor ou nível das prestações seja proporcional e equitativo entre os dois grupos.", correta: true },
+      { letra: "D", texto: "A uniformidade e equivalência é princípio que se aplica exclusivamente à previdência social, sendo inaplicável à saúde e à assistência social, as quais se regem pela universalidade do atendimento.", correta: false },
+      { letra: "E", texto: "O princípio da equivalência garante que trabalhadores rurais e urbanos terão sempre o mesmo valor de salário de contribuição como base de cálculo dos seus benefícios, independentemente das diferenças salariais de cada setor.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Uniformidade vs. Equivalência</h4><p><strong class="text-emerald-300">UNIFORMIDADE (qualitativa):</strong> os mesmos <em>tipos</em> de benefícios e serviços devem existir para trabalhadores urbanos e rurais. Ex: ambos têm direito à aposentadoria por idade, auxílio-doença, pensão por morte etc.</p><p><strong class="text-emerald-300">EQUIVALÊNCIA (quantitativa):</strong> o <em>valor</em> das prestações deve ser proporcional e equitativo entre os dois grupos — não necessariamente idêntico em reais, mas equivalente em termos de justiça social.</p></div><div class="space-y-2"><h4 class="text-white font-bold">Aplicação prática</h4><p>Antes da CF/88, o trabalhador rural tinha proteção muito inferior ao urbano. O princípio veio para corrigir essa assimetria histórica, garantindo que campo e cidade tenham acesso às mesmas espécies de proteção social.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, II:</strong> "uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais." A uniformidade é a dimensão <em>qualitativa</em> (mesmos tipos de prestações); a equivalência é a dimensão <em>quantitativa</em> (valor proporcional e equitativo entre os grupos).</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa C)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa C distingue corretamente os dois planos do princípio: uniformidade = mesmos <em>tipos</em> de prestações (plano qualitativo); equivalência = <em>valor</em> proporcional e equitativo (plano quantitativo). Não exige valores idênticos — exige tratamento justo e equivalente para ambas as populações.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"valores nominais idênticos"</strong>. Uniformidade não exige valores iguais em reais — exige os mesmos tipos de benefícios. O valor do benefício depende das contribuições de cada segurado.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"benefícios exclusivos para trabalhadores urbanos"</strong>. O princípio proíbe exatamente isso — as mesmas espécies de prestações devem existir para ambos os grupos.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"aplica-se exclusivamente à previdência social"</strong>. O princípio está no Art. 194 (Seguridade Social como um todo) e se aplica às três áreas — saúde, previdência e assistência social.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"mesmo valor de salário de contribuição"</strong>. Equivalência não uniformiza salários de contribuição — refere-se ao nível equitativo das prestações, não ao nivelamento artificial das bases de cálculo.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora dizer que <strong>"uniformidade garante valores iguais"</strong> para urbanos e rurais. ERRADO! Uniformidade = mesmos <em>tipos</em> de benefício. Equivalência = proporcionalidade de <em>valor</em>. São dimensões diferentes do mesmo princípio. Um rural e um urbano podem ter aposentadorias com valores distintos, desde que calculadas de forma justa para cada um.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "O princípio da uniformidade assegura que os trabalhadores rurais e urbanos receberão benefícios previdenciários de mesmo valor nominal." (ERRADO — uniformidade é sobre tipos, não valores idênticos).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "A CF/88 permite a criação de benefícios exclusivos para trabalhadores urbanos, desde que compensados por valores maiores para rurais." (ERRADO — o princípio veda a exclusividade de benefícios por localização).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">UNIFORMIDADE = Cardápio igual 🍽️ (mesmos tipos de benefício para todos)<br>EQUIVALÊNCIA = Porção justa ⚖️ (valor proporcional a cada um)<br>Campo e cidade: mesmo menu, porções justas!</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
+  },
+
+  {
+    id: "qINSS027",
+    numero: "Questão 27",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Irredutibilidade do Valor dos Benefícios — Art. 194, IV",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Irredutibilidade", "Valor Nominal", "Valor Real", "Art. 194"],
+    alternativaCorreta: "B",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, IV, da Constituição Federal de 1988 prevê a <em>irredutibilidade do valor dos benefícios</em> como objetivo da seguridade social. Acerca desse princípio e de seus desdobramentos, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "O princípio da irredutibilidade do valor dos benefícios garante, de forma absoluta e para toda a seguridade social, tanto a preservação do valor nominal quanto a manutenção do poder de compra (valor real) dos benefícios pagos.", correta: false },
+      { letra: "B", texto: "Segundo o entendimento majoritário, o princípio da irredutibilidade previsto no art. 194 garante apenas a preservação do valor nominal dos benefícios; a proteção ao valor real (poder aquisitivo) é garantia específica dos benefícios previdenciários, prevista no art. 201, § 4.º, da CF.", correta: true },
+      { letra: "C", texto: "A irredutibilidade do valor dos benefícios impede o legislador de alterar o índice de reajuste dos benefícios previdenciários, sendo inconstitucional qualquer lei que mude a periodicidade ou o critério de correção dos benefícios do RGPS.", correta: false },
+      { letra: "D", texto: "O princípio da irredutibilidade é aplicável exclusivamente aos benefícios pagos em pecúnia (dinheiro), não alcançando os serviços prestados no âmbito da saúde e da assistência social.", correta: false },
+      { letra: "E", texto: "A irredutibilidade do valor dos benefícios e a garantia de reajuste para manutenção do valor real são princípios sinônimos na CF/88 e possuem o mesmo alcance jurídico, aplicando-se indistintamente a toda a seguridade social.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Valor Nominal vs. Valor Real</h4><p><strong class="text-emerald-300">VALOR NOMINAL:</strong> o número em reais impresso no contracheque. A irredutibilidade do Art. 194, IV, protege esse número — ele não pode ser reduzido.</p><p><strong class="text-emerald-300">VALOR REAL (poder de compra):</strong> o que o benefício consegue comprar. A proteção ao valor real é específica da Previdência Social, prevista no Art. 201, §4º: "É assegurado o reajustamento dos benefícios para preservar-lhes, em caráter permanente, o valor real."</p></div><div class="space-y-2"><h4 class="text-white font-bold">Por que a distinção importa?</h4><p>A Assistência Social (BPC, por exemplo) está protegida pela irredutibilidade nominal, mas a garantia de reajuste para preservar valor real não decorre do Art. 194 — decorre de legislação específica (LOAS). Já os benefícios da Previdência têm a dupla proteção: nominal (Art. 194) + real (Art. 201, §4º).</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, IV:</strong> "irredutibilidade do valor dos benefícios" — protege o valor <em>nominal</em>. <strong>Art. 201, § 4.º:</strong> "É assegurado o reajustamento dos benefícios para preservar-lhes, em caráter permanente, o valor real, conforme critérios definidos em lei." — protege o valor <em>real</em>, mas somente para a Previdência Social (RGPS).</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa B)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa B reproduz com precisão cirúrgica o entendimento doutrinário e jurisprudencial dominante: o Art. 194, IV, protege o valor <strong>nominal</strong> (para toda a seguridade); o Art. 201, §4º, é garantia adicional do valor <strong>real</strong>, aplicável especificamente aos benefícios previdenciários. São dispositivos distintos com âmbitos de proteção distintos.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"de forma absoluta... tanto o valor nominal quanto o valor real"</strong>. O Art. 194, IV, garante apenas o valor nominal para toda a seguridade. A proteção ao valor real é garantia adicional, restrita à Previdência (Art. 201, §4º).</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"impede o legislador de alterar o índice de reajuste"</strong>. A irredutibilidade proíbe a <em>redução</em> do valor nominal — não congela o critério de reajuste. O legislador pode alterar o índice (por lei), desde que não reduza o valor já pago.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"exclusivamente aos benefícios pagos em pecúnia"</strong>. O Art. 194, IV, fala em "valor dos benefícios" de forma ampla — a doutrina aplica o princípio também aos serviços, vedando sua supressão ou redução qualitativa.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"sinônimos... mesmo alcance jurídico... aplicando-se indistintamente"</strong>. São princípios distintos, com dispositivos diferentes (Art. 194, IV vs. Art. 201, §4º) e âmbitos distintos: um vale para toda a seguridade (nominal), o outro só para a previdência (real).</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">A pegadinha mais frequente: o CEBRASPE afirma que a <strong>irredutibilidade garante o valor real (poder de compra)</strong> para toda a seguridade social. FALSO! A irredutibilidade do Art. 194, IV, garante apenas o valor <em>nominal</em>. O valor real é garantia do Art. 201, §4º — exclusiva da Previdência.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "O princípio da irredutibilidade do valor dos benefícios da seguridade social protege, além do valor nominal, o poder de compra dos beneficiários." (ERRADO — proteção ao poder de compra é Art. 201, §4º, só para previdência).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "A irredutibilidade prevista no Art. 194 impede qualquer alteração legislativa nos critérios de reajuste dos benefícios previdenciários." (ERRADO — proíbe redução, não congela o critério de reajuste).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">Art. 194, IV = PISO NOMINAL 🏗️ (não pode baixar o número)<br>Art. 201, §4º = PRESERVAR PODER DE COMPRA 💶 (só Previdência!)<br>"Seguridade protege o número; Previdência protege o bolso!"</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
   }
 ];
