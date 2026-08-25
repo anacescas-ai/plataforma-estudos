@@ -43973,5 +43973,5671 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
 
     simuladorType: null
   }
+,
 
+  {
+  "id": "q181",
+  "numero": "Questão 1",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Princípios constitucionais da Seguridade Social",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Objetivos constitucionais da Seguridade Social (art. 194, CF/1988): seletividade e distributividade",
+  "tags": [
+    "seguridade social",
+    "princípios constitucionais",
+    "art. 194 CF",
+    "seletividade e distributividade",
+    "gestão quadripartite"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O art. 194 da Constituição Federal de 1988 define a seguridade social como o conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social, e estabelece, em seu parágrafo único, os objetivos que devem orientar essa organização.<br><br>Considere a seguinte situação: o benefício assistencial de prestação continuada (BPC/LOAS) não é pago a toda a população idosa ou com deficiência, mas apenas às pessoas que comprovem não possuir meios de prover a própria manutenção, nem de tê-la provida por sua família, mediante critério de renda familiar per capita.<br><br>Essa forma de concessão, restrita a quem efetivamente comprova necessidade, ilustra de maneira mais direta qual dos objetivos elencados no parágrafo único do art. 194 da CF/1988?",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Universalidade da cobertura e do atendimento, pois o benefício está, em tese, disponível a toda a população idosa e com deficiência do país.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Seletividade e distributividade na prestação dos benefícios e serviços.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Diversidade da base de financiamento.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Caráter democrático e descentralizado da administração, mediante gestão quadripartite.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Os objetivos do art. 194, parágrafo único, da CF/1988 são um dos pontos mais recorrentes em provas de Técnico do Seguro Social, porque a banca adora trocar um princípio pelo outro em afirmações quase idênticas — exatamente o tipo de armadilha explorada na questão acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Seguridade social: conceito do caput</h4><p>O <strong>art. 194, caput, da CF/1988</strong> define a seguridade social como o conjunto integrado de ações de iniciativa dos <strong>Poderes Públicos e da sociedade</strong>, destinado a assegurar os direitos relativos à <strong>saúde, à previdência e à assistência social</strong>. É o gênero do qual esses três subsistemas são espécies, cada um com lógica própria de custeio e de acesso, mas unidos sob os mesmos objetivos constitucionais.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Os sete objetivos do parágrafo único</h4><p>O parágrafo único do art. 194 elenca sete objetivos: <strong>I</strong> universalidade da cobertura e do atendimento; <strong>II</strong> uniformidade e equivalência dos benefícios e serviços às populações urbanas e rurais; <strong>III</strong> seletividade e distributividade na prestação dos benefícios e serviços; <strong>IV</strong> irredutibilidade do valor dos benefícios; <strong>V</strong> equidade na forma de participação no custeio; <strong>VI</strong> diversidade da base de financiamento; <strong>VII</strong> caráter democrático e descentralizado da administração, mediante <strong>gestão quadripartite</strong>, com participação de trabalhadores, empregadores, aposentados e Governo nos órgãos colegiados.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma citar corretamente o texto de um inciso, mas atribuí-lo a outro objetivo (por exemplo, chamar de \"universalidade\" o que é, na verdade, \"seletividade e distributividade\"), ou trocar \"quadripartite\" por \"tripartite\".</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Universalidade x seletividade e distributividade</h4><p>A <strong>universalidade da cobertura e do atendimento</strong> significa que a seguridade social deve alcançar, em tese, toda a população e todos os eventos que gerem necessidade de proteção social (idade, doença, invalidez, morte, maternidade, desemprego involuntário). Já a <strong>seletividade e distributividade</strong> atua em outro plano: ela reconhece que os recursos são limitados e determina que a concessão de benefícios e serviços seja <strong>seletiva</strong> (escolhendo situações e públicos prioritários, conforme critérios legais de necessidade) e <strong>distributiva</strong> (funcionando como instrumento de redistribuição de renda em favor dos mais vulneráveis). É esse segundo objetivo que justifica exigências como o critério de renda per capita do BPC.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Gestão quadripartite</h4><p>O objetivo do inciso VII trata da <strong>forma de administração</strong> da seguridade social, não da concessão de benefícios: a gestão é democrática e descentralizada, com participação de <strong>quatro</strong> segmentos nos órgãos colegiados (trabalhadores, empregadores, aposentados e Governo). Não se confunde com regras de elegibilidade a benefícios, tema recorrente de confusão em prova.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar a palavra-chave do enunciado: \"restrita a quem efetivamente comprova necessidade\" indica critério de escolha/prioridade, não de alcance universal. 2) Associar isso ao par <strong>seletividade (escolha de quem recebe) e distributividade (redistribuição de renda)</strong>. 3) Descartar universalidade, que trata de alcançar todos os riscos e toda a população, não de restringir por renda. 4) Descartar os demais objetivos, que tratam de custeio, financiamento e administração, e não de critério de concessão.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O critério de renda per capita para o BPC é a materialização da <strong>seletividade e distributividade na prestação dos benefícios e serviços</strong> (art. 194, parágrafo único, III, CF/1988): a Constituição autoriza que a lei escolha situações prioritárias de proteção e distribua renda para quem comprovadamente necessita, em vez de pagar o benefício a toda a população indistintamente.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — universalidade da cobertura e do atendimento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra que a seguridade social \"deveria\" alcançar todos e associa isso ao caso do BPC.<br><strong>Onde quebra:</strong> a universalidade trata do alcance amplo da proteção a todos os riscos sociais e a toda a população potencialmente coberta; o traço central do caso é exatamente o oposto — a restrição do pagamento a quem comprova necessidade, que é seletividade/distributividade.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — uniformidade e equivalência urbano/rural</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a expressão \"equivalência\" soa relacionada a tratamento igualitário entre beneficiários.<br><strong>Onde quebra:</strong> esse objetivo trata especificamente de não haver diferença de tratamento entre populações urbanas e rurais, tema estranho ao critério de renda descrito no enunciado.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — diversidade da base de financiamento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa qualquer regra sobre dinheiro/renda ao financiamento da seguridade social.<br><strong>Onde quebra:</strong> diversidade da base de financiamento trata das fontes de custeio (folha de salários, receita, lucro, concursos de prognósticos etc.), não do critério de concessão de um benefício.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — gestão quadripartite</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> \"gestão\" e \"administração\" soam como termos amplos que poderiam abranger a concessão de benefícios.<br><strong>Onde quebra:</strong> a gestão quadripartite trata da composição democrática dos órgãos colegiados de administração (trabalhadores, empregadores, aposentados e Governo), não de regras de elegibilidade do BPC.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão falar em <strong>restringir benefício a quem comprova necessidade</strong> (renda, vulnerabilidade), pense em <strong>seletividade e distributividade</strong>; quando falar em <strong>alcançar todos os riscos/toda a população</strong>, pense em <strong>universalidade</strong>. São objetivos que a banca adora inverter.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Universalidade da cobertura e do atendimento",
+      "text": "A seguridade social deve, em tese, alcançar todos os riscos sociais relevantes e toda a população."
+    },
+    {
+      "icone": "fa-hand-holding-heart",
+      "titulo": "Seletividade e distributividade",
+      "text": "A concessão de benefícios e serviços é seletiva quanto ao público e distributiva de renda, priorizando quem mais necessita."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Gestão quadripartite",
+      "text": "Administração democrática e descentralizada, com participação de trabalhadores, empregadores, aposentados e Governo."
+    },
+    {
+      "icone": "fa-coins",
+      "titulo": "Diversidade da base de financiamento",
+      "text": "O custeio da seguridade social provém de múltiplas fontes, não apenas da folha de salários."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Equidade na forma de participação no custeio",
+      "text": "Cada contribuinte participa do financiamento conforme sua capacidade econômica, evitando tratamento desigual entre iguais."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Art. 194, CF/1988",
+      "text": "Dispositivo constitucional que define a seguridade social e lista os sete objetivos que orientam sua organização."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q182",
+  "numero": "Questão 2",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Previdência Social x Assistência Social x Saúde",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Distinções entre Previdência Social, Assistência Social e Saúde dentro da Seguridade Social",
+  "tags": [
+    "seguridade social",
+    "previdência social",
+    "assistência social",
+    "SUS",
+    "contributividade",
+    "BPC/LOAS"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A seguridade social brasileira é composta por três subsistemas que, embora integrados sob o mesmo título constitucional, possuem lógicas de custeio e de acesso profundamente distintas: a Previdência Social, a Assistência Social e a Saúde.<br><br>A respeito das distinções entre esses três subsistemas, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A Previdência Social tem caráter contributivo e filiação obrigatória para quem exerce atividade remunerada enquadrada no RGPS, exigindo, em regra, carência e qualidade de segurado; a Assistência Social independe de contribuição, sendo devida a quem dela necessitar, na forma da lei (a exemplo do BPC/LOAS); e a Saúde é direito de todos e dever do Estado, de acesso universal e igualitário por meio do SUS, sem exigência de contribuição direta.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "As três áreas exigem contribuição direta do beneficiário, sendo o SUS custeado exclusivamente pelas contribuições vertidas pelos empregados sobre seus salários de contribuição.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A concessão do benefício assistencial de prestação continuada (BPC) exige o cumprimento de carência mínima de 12 contribuições mensais, tal como ocorre com os benefícios previdenciários por incapacidade.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O acesso aos serviços de saúde pelo SUS é restrito aos segurados do RGPS e seus dependentes, sendo vedado o atendimento a pessoas que não contribuam para a Previdência Social.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O BPC é devido a qualquer pessoa em situação de pobreza, independentemente de idade ou de deficiência, bastando a comprovação de renda familiar per capita inferior a um quarto do salário mínimo.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Confundir Previdência, Assistência e Saúde é um dos erros mais comuns de quem está começando a estudar Direito Previdenciário — e é justamente por isso que a banca cobra, com frequência, questões que testam se o candidato sabe separar contributividade de universalidade, como na questão acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Previdência Social: contributiva e obrigatória</h4><p>A <strong>Previdência Social</strong>, disciplinada principalmente pela <strong>Lei 8.213/1991</strong> e pela <strong>Lei 8.212/1991</strong>, é regime de caráter <strong>contributivo e de filiação obrigatória</strong> para quem exerce atividade remunerada enquadrada como segurado do RGPS. Para ter direito aos benefícios, em regra, é preciso ostentar <strong>qualidade de segurado</strong> e cumprir eventual <strong>período de carência</strong> exigido para cada benefício. É um seguro social: protege quem contribuiu (ou de quem se presume a contribuição, como no segurado especial) contra riscos como incapacidade, idade avançada, morte e maternidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Assistência Social: não contributiva e seletiva</h4><p>A <strong>Assistência Social</strong>, regida pela <strong>Lei 8.742/1993 (LOAS)</strong>, é prestada a <strong>quem dela necessitar</strong>, <strong>independentemente de contribuição</strong> à seguridade social (art. 203, CF/1988). Seu principal benefício em pecúnia é o <strong>Benefício de Prestação Continuada (BPC)</strong>, pago a idosos com 65 anos ou mais e a pessoas com deficiência que comprovem não possuir meios de prover a própria manutenção, nem de tê-la provida pela família, com renda familiar per capita inferior a 1/4 do salário mínimo. O BPC <strong>não gera 13º salário nem pensão por morte</strong> aos dependentes.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma exigir carência do BPC ou tratá-lo como benefício previdenciário — o BPC é assistencial, não exige contribuição nem carência, apenas os requisitos de renda, idade/deficiência.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Saúde: universal e gratuita</h4><p>A <strong>Saúde</strong> é direito de todos e dever do Estado (art. 196, CF/1988), garantida mediante políticas sociais e econômicas, com <strong>acesso universal e igualitário</strong> às ações e serviços do <strong>SUS (Sistema Único de Saúde)</strong>, custeado por receitas gerais e contribuições sociais, e não por contribuição individual do usuário. Não há exigência de filiação, carência ou pagamento direto para o atendimento básico do SUS.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Quadro-resumo das diferenças</h4><p>Em síntese: a Previdência é <strong>contributiva</strong> (só quem contribui/é segurado tem direito); a Assistência é <strong>não contributiva e seletiva</strong> (só quem comprova necessidade); a Saúde é <strong>não contributiva e universal</strong> (todos têm direito, independentemente de renda ou contribuição). Essa tríade de lógicas diferentes, dentro de um mesmo título constitucional (seguridade social), é a base para diferenciar corretamente cada subsistema em prova.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Fixar o tripé: Previdência = contributiva; Assistência = não contributiva e seletiva (renda/idade/deficiência); Saúde = não contributiva e universal. 2) Eliminar qualquer alternativa que exija contribuição ou carência para BPC ou SUS. 3) Eliminar qualquer alternativa que restrinja o SUS a contribuintes do RGPS. 4) Conferir os requisitos exatos do BPC (idoso 65+ ou pessoa com deficiência, renda per capita &lt; 1/4 do salário mínimo).</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Resume corretamente a tríade: Previdência contributiva e com carência/qualidade de segurado (Lei 8.213/91); Assistência não contributiva e voltada a quem necessitar, como o BPC (Lei 8.742/93); e Saúde universal e igualitária pelo SUS, sem exigência de contribuição direta (art. 196, CF/1988).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — SUS custeado só por contribuição de empregados</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato generaliza a lógica contributiva da Previdência para toda a seguridade social.<br><strong>Onde quebra:</strong> a saúde é financiada por receitas orçamentárias gerais e contribuições sociais diversas, e seu acesso não depende de contribuição individual do usuário; não é \"exclusivamente\" custeada por contribuições de empregados.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — BPC com carência de 12 contribuições</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> 12 contribuições é a carência comum de vários benefícios previdenciários, e o candidato estende essa regra ao BPC por associação.<br><strong>Onde quebra:</strong> o BPC é benefício assistencial, não previdenciário; não exige contribuição nem carência, apenas os requisitos de idade/deficiência e renda familiar per capita.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — SUS restrito a segurados do RGPS</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde-se a saúde com a previdência, como se ambas exigissem filiação prévia.<br><strong>Onde quebra:</strong> o art. 196 da CF/1988 garante acesso universal e igualitário à saúde a todos, contribuintes ou não do RGPS.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — BPC sem exigência de idade/deficiência</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o critério de renda per capita é citado corretamente, dando aparência de completude à alternativa.<br><strong>Onde quebra:</strong> além da renda, a Lei 8.742/93 exige que o requerente seja idoso com 65 anos ou mais OU pessoa com deficiência; simples pobreza, sem esses requisitos, não gera direito ao BPC.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize o mnemônico <strong>\"PAS\"</strong>: <strong>P</strong>revidência = paga quem contribuiu; <strong>A</strong>ssistência = ajuda quem precisa (sem contribuir); <strong>S</strong>aúde = serve a todos, sempre. Qualquer alternativa que misture essas lógicas está errada.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Previdência Social",
+      "text": "Regime contributivo e de filiação obrigatória (RGPS), que exige qualidade de segurado e, em regra, carência."
+    },
+    {
+      "icone": "fa-hand-holding-heart",
+      "titulo": "Assistência Social",
+      "text": "Prestada a quem dela necessitar, independentemente de contribuição; principal benefício em pecúnia é o BPC."
+    },
+    {
+      "icone": "fa-hospital",
+      "titulo": "Saúde (SUS)",
+      "text": "Direito de todos e dever do Estado, de acesso universal e igualitário, sem exigência de contribuição direta."
+    },
+    {
+      "icone": "fa-id-card",
+      "titulo": "BPC/LOAS",
+      "text": "Um salário mínimo mensal a idosos (65+) ou pessoas com deficiência com renda familiar per capita inferior a 1/4 do salário mínimo."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Contributividade",
+      "text": "Característica que diferencia a Previdência (contributiva) das demais áreas da seguridade social (não contributivas)."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q183",
+  "numero": "Questão 3",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Segurados obrigatórios do RGPS",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Classificação dos segurados obrigatórios do RGPS: o trabalhador avulso",
+  "tags": [
+    "RGPS",
+    "segurados obrigatórios",
+    "trabalhador avulso",
+    "OGMO",
+    "art. 11 Lei 8.213/91"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Pedro presta serviços de carga, descarga e movimentação de mercadorias em um porto organizado. Ele não mantém vínculo empregatício permanente com nenhuma empresa específica: é escalado, conforme a demanda diária, para diferentes operadores portuários, sempre por intermédio do órgão gestor de mão de obra (OGMO), que administra o rodízio entre os trabalhadores cadastrados.<br><br>Considerando a classificação dos segurados obrigatórios do Regime Geral de Previdência Social (RGPS) prevista no art. 11 da Lei nº 8.213/1991, Pedro deve ser enquadrado, nessa atividade, como segurado...",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Empregado, uma vez que presta serviço subordinado a tomadores de serviço, ainda que de forma intermitente.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Contribuinte individual, categoria residual que abrange todo trabalhador sem vínculo empregatício fixo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Trabalhador avulso, por prestar serviço de natureza urbana a diversas empresas, sem vínculo empregatício, com intermediação obrigatória do órgão gestor de mão de obra.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Segurado especial, em razão do regime de rodízio e da ausência de vínculo fixo com um único tomador de serviço.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Segurado facultativo, já que a filiação depende de sua livre escolha de se cadastrar no órgão gestor de mão de obra.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Classificar corretamente o tipo de segurado a partir de uma situação concreta é um dos padrões de questão mais cobrados sobre o RGPS — a banca descreve a rotina de trabalho e espera que o candidato reconheça, pelos elementos fáticos, qual categoria do art. 11 da Lei 8.213/91 se aplica, como no caso de Pedro.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> As cinco categorias de segurados obrigatórios</h4><p>O <strong>art. 11 da Lei 8.213/1991</strong> lista cinco categorias de <strong>segurados obrigatórios</strong> do RGPS: <strong>empregado</strong>, <strong>empregado doméstico</strong>, <strong>contribuinte individual</strong>, <strong>trabalhador avulso</strong> e <strong>segurado especial</strong>. Todo aquele que exerce atividade remunerada enquadrada em alguma dessas categorias é filiado ao RGPS de forma automática e obrigatória, independentemente de inscrição prévia — a filiação decorre do exercício da atividade, e a inscrição é apenas o ato formal de cadastro.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Empregado e contribuinte individual</h4><p>O <strong>empregado</strong> presta serviço de natureza <strong>não eventual</strong> a um empregador, sob <strong>subordinação</strong> e mediante <strong>salário</strong>, normalmente em vínculo único e contínuo com o mesmo tomador. Já o <strong>contribuinte individual</strong> é categoria residual que abrange, entre outros, o autônomo, o empresário e quem presta serviço eventual, sem subordinação, a uma ou mais empresas, por conta própria. Nenhum desses dois se encaixa em quem trabalha por escala, sem vínculo fixo, com intermediação de um órgão gestor.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Trabalhador avulso</h4><p>O <strong>trabalhador avulso</strong> é aquele que presta serviço de natureza urbana ou rural, <strong>sem vínculo empregatício</strong>, a diversas empresas, com a <strong>intermediação obrigatória</strong> do sindicato da categoria ou, no caso portuário, do <strong>órgão gestor de mão de obra (OGMO)</strong>. Exemplos clássicos: estivador, conferente e consertador de carga e descarga, amarrador de embarcação, ensacador de café, cacau e sal, trabalhador em alvarenga (embarcação para carga e descarga). A marca distintiva é justamente a <strong>rotatividade de tomadores</strong> aliada à <strong>intermediação institucional</strong> obrigatória.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca troca \"trabalhador avulso\" por \"contribuinte individual\" para descrever essa mesma situação — a diferença está exatamente na intermediação obrigatória por sindicato/OGMO e na rotatividade entre tomadores, ausentes no contribuinte individual comum.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Segurado especial e segurado facultativo</h4><p>O <strong>segurado especial</strong> é o produtor rural, pescador artesanal ou assemelhado que exerce atividade em <strong>regime de economia familiar</strong>, sem empregados permanentes, com finalidade de subsistência — situação distinta da de Pedro, cuja atividade é urbana e portuária. Já o <strong>segurado facultativo</strong> é quem <strong>não exerce atividade que o enquadre como obrigatório</strong> e opta por contribuir voluntariamente (dona de casa, estudante, desempregado); Pedro, ao exercer atividade remunerada de natureza urbana com habitualidade, é segurado <strong>obrigatório</strong>, não facultativo.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Buscar no enunciado os elementos-chave: ausência de vínculo fixo + rotatividade entre tomadores + intermediação obrigatória por OGMO. 2) Comparar com a definição legal de cada categoria do art. 11 da Lei 8.213/91. 3) Eliminar empregado (falta vínculo único e contínuo) e contribuinte individual (falta a intermediação obrigatória). 4) Eliminar segurado especial (atividade urbana, não rural em economia familiar) e facultativo (a atividade é remunerada e habitual, gerando filiação obrigatória).</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Pedro presta serviço de natureza urbana a diversas empresas, sem vínculo empregatício fixo, sempre por intermédio do OGMO — é exatamente a definição legal de <strong>trabalhador avulso</strong> (art. 11, VI, Lei 8.213/91), categoria típica de trabalhadores portuários.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — empregado</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> há elementos de subordinação na execução do serviço, o que lembra a relação de emprego.<br><strong>Onde quebra:</strong> falta o elemento essencial do empregado — vínculo empregatício contínuo com um único empregador; Pedro é escalado para tomadores diferentes, sem vínculo fixo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — contribuinte individual</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o contribuinte individual é mesmo a categoria residual para quem não tem vínculo fixo com um único tomador.<br><strong>Onde quebra:</strong> a lei reservou categoria específica, o trabalhador avulso, para quem atua sob intermediação obrigatória de sindicato/OGMO; havendo essa intermediação, a categoria correta é a avulsa, não a residual.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — segurado especial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de \"rodízio\" pode remeter à informalidade típica do meio rural.<br><strong>Onde quebra:</strong> o segurado especial pressupõe atividade rural (agricultura, pesca artesanal, extrativismo) em regime de economia familiar; a atividade portuária de Pedro é urbana e não tem relação com esse regime.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — segurado facultativo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o cadastro no OGMO pode parecer um ato voluntário de filiação.<br><strong>Onde quebra:</strong> o exercício de atividade remunerada e habitual gera filiação <strong>obrigatória</strong> ao RGPS; o facultativo é reservado a quem não exerce nenhuma atividade enquadrável como obrigatória.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão mencionar <strong>sindicato ou OGMO intermediando</strong> a prestação de serviço a <strong>diversos tomadores</strong>, sem vínculo fixo, pense de imediato em <strong>trabalhador avulso</strong> — é o traço distintivo que a banca mais explora nesse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-people-group",
+      "titulo": "Segurados obrigatórios (art. 11, Lei 8.213/91)",
+      "text": "Empregado, empregado doméstico, contribuinte individual, trabalhador avulso e segurado especial."
+    },
+    {
+      "icone": "fa-anchor",
+      "titulo": "Trabalhador avulso",
+      "text": "Presta serviço a diversas empresas, sem vínculo empregatício, com intermediação obrigatória de sindicato ou OGMO."
+    },
+    {
+      "icone": "fa-briefcase",
+      "titulo": "Empregado",
+      "text": "Serviço não eventual, subordinado e remunerado, prestado a um único empregador em vínculo contínuo."
+    },
+    {
+      "icone": "fa-user-tie",
+      "titulo": "Contribuinte individual",
+      "text": "Categoria residual: autônomos, empresários e demais trabalhadores sem vínculo empregatício e sem intermediação obrigatória."
+    },
+    {
+      "icone": "fa-tractor",
+      "titulo": "Segurado especial",
+      "text": "Produtor rural, pescador artesanal ou assemelhado que trabalha em regime de economia familiar, sem empregados permanentes."
+    },
+    {
+      "icone": "fa-id-card",
+      "titulo": "Filiação automática",
+      "text": "O segurado obrigatório se filia ao RGPS pelo simples exercício da atividade, independentemente de inscrição prévia."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q184",
+  "numero": "Questão 4",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Segurado facultativo",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Segurado facultativo do RGPS: quem pode se filiar e idade mínima",
+  "tags": [
+    "RGPS",
+    "segurado facultativo",
+    "idade mínima de filiação",
+    "dona de casa",
+    "inscrição facultativa"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Carla, com 15 anos de idade, não exerce nenhuma atividade remunerada e não se enquadra em qualquer categoria de segurado obrigatório do RGPS. Orientada por um familiar, ela procura uma agência do INSS para se inscrever como segurada facultativa, com o objetivo de começar, desde já, a contar tempo de contribuição.<br><br>Com base nas regras aplicáveis ao segurado facultativo do Regime Geral de Previdência Social, é correto afirmar que...",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Carla pode se filiar imediatamente, pois não há idade mínima exigida para a inscrição facultativa, bastando o interesse pessoal em contribuir.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Carla somente poderá se filiar como segurada facultativa ao completar 16 anos de idade, desde que não exerça atividade remunerada que a enquadre como segurada obrigatória.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Carla somente poderá se filiar ao completar 18 anos, idade mínima exigida para qualquer forma de filiação à Previdência Social.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A inscrição de Carla é vedada em qualquer idade, pois o segurado facultativo deve necessariamente comprovar renda própria oriunda de atividade remunerada.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Carla pode se filiar a partir dos 14 anos, mesma idade mínima constitucional prevista para o trabalho na condição de aprendiz.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>O segurado facultativo é tema clássico de prova de Técnico do Seguro Social porque mistura uma regra de fácil memorização (quem pode se filiar) com um detalhe que a banca adora cobrar isoladamente: a idade mínima, diferente da idade mínima trabalhista.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Quem pode ser segurado facultativo</h4><p>É <strong>segurado facultativo</strong> a pessoa física que <strong>não exerce atividade remunerada</strong> que a enquadre como segurada obrigatória do RGPS, mas que opta por contribuir voluntariamente para ter direito à cobertura previdenciária (art. 14 da Lei 8.213/1991 e art. 11 do Decreto 3.048/1999). São exemplos típicos: dona/dono de casa sem renda própria, estudante, desempregado que deixou de manter qualidade de segurado, síndico de condomínio não remunerado e brasileiro residente no exterior sem enquadramento obrigatório. A filiação, aqui, <strong>depende de vontade e de inscrição formal</strong>, ao contrário do segurado obrigatório, que se filia automaticamente pelo exercício da atividade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Idade mínima de filiação</h4><p>A filiação como segurado facultativo exige <strong>idade mínima de 16 anos completos</strong>, mesmo limite etário geral para o exercício de atividade remunerada no Brasil (ressalvada a hipótese de aprendiz, a partir de 14 anos, que gera filiação obrigatória como empregado, e não facultativa). Não existe idade mínima de 18 anos para essa filiação, tampouco inscrição facultativa é permitida sem limite mínimo de idade.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma trocar a idade mínima do facultativo (16 anos) pela idade mínima trabalhista geral (18 anos) ou pela idade do aprendiz (14 anos, que é hipótese de segurado obrigatório empregado, não de facultativo).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Ausência de renda não impede a filiação</h4><p>Diferentemente do que se poderia supor, o segurado facultativo <strong>não precisa comprovar renda própria</strong> oriunda de atividade remunerada — pelo contrário, a própria razão de ser dessa categoria é acolher quem <strong>não tem</strong> atividade remunerada enquadrável como obrigatória (donas de casa, estudantes sem emprego, desempregados). A contribuição é calculada sobre valor declarado pelo próprio segurado, dentro dos limites mínimo e máximo do salário de contribuição, e não sobre uma renda de atividade que ele não exerce.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Filiação condicionada à ausência de enquadramento obrigatório</h4><p>A filiação facultativa só é possível enquanto a pessoa <strong>não se enquadrar como segurada obrigatória</strong>. Caso passe a exercer atividade remunerada que a enquadre em alguma das categorias do art. 11 da Lei 8.213/91 (empregado, contribuinte individual etc.), a filiação obrigatória prevalece e a facultativa deixa de ter cabimento para aquele período, já que ninguém pode ser, ao mesmo tempo, segurado obrigatório e facultativo pela mesma ausência/presença de atividade.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se a pessoa exerce atividade obrigatória (não é o caso de Carla). 2) Aplicar a regra de idade mínima específica do segurado facultativo: 16 anos completos. 3) Lembrar que ausência de renda própria não impede a filiação facultativa — é justamente a hipótese típica. 4) Descartar alternativas que citem 18 anos (regra trabalhista geral) ou 14 anos (regra do aprendiz, que é segurado obrigatório).</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A legislação previdenciária exige <strong>16 anos completos</strong> para a filiação como segurado facultativo, e essa filiação só é possível enquanto a pessoa não exercer atividade remunerada que a enquadre como segurada obrigatória — exatamente a situação de Carla, que, aos 15 anos, ainda não completou a idade mínima.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — sem idade mínima</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> como o facultativo depende de vontade própria, o candidato imagina que basta o interesse em contribuir, sem limite de idade.<br><strong>Onde quebra:</strong> existe idade mínima expressa de 16 anos para a filiação facultativa; menores de 16 anos não podem se inscrever nessa condição.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — 18 anos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> 18 anos é a maioridade civil e a idade mínima geral para diversos atos da vida civil, o que induz o candidato a aplicá-la também à filiação previdenciária.<br><strong>Onde quebra:</strong> a idade mínima específica para o segurado facultativo é 16 anos, e não 18.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — exigência de renda própria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> associa-se, erroneamente, \"contribuição\" a \"precisar ter renda de trabalho\".<br><strong>Onde quebra:</strong> o segurado facultativo é justamente a pessoa sem atividade remunerada obrigatória; a contribuição incide sobre valor declarado por ele, não sobre renda de atividade que não exerce.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — 14 anos, idade do aprendiz</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra corretamente que 14 anos é idade mínima constitucional para o trabalho como aprendiz e estende essa regra ao facultativo.<br><strong>Onde quebra:</strong> o aprendiz de 14 anos que trabalha é segurado <strong>obrigatório empregado</strong>, categoria distinta do facultativo, que exige 16 anos completos.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe o número <strong>16</strong> para a idade mínima do segurado facultativo e não deixe a banca confundir com <strong>14</strong> (aprendiz, que é obrigatório) ou <strong>18</strong> (maioridade civil, que não tem relação direta com essa regra).</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-house-chimney",
+      "titulo": "Segurado facultativo",
+      "text": "Pessoa que não exerce atividade remunerada enquadrável como obrigatória, mas opta por contribuir voluntariamente ao RGPS."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Idade mínima de 16 anos",
+      "text": "Requisito etário específico para a inscrição como segurado facultativo, distinto da idade do aprendiz e da maioridade civil."
+    },
+    {
+      "icone": "fa-child",
+      "titulo": "Aprendiz (14 anos)",
+      "text": "Hipótese de segurado obrigatório empregado, e não de segurado facultativo, prevista como exceção constitucional à idade mínima geral para o trabalho."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Inscrição formal",
+      "text": "Ao contrário do segurado obrigatório, o facultativo depende de ato voluntário de inscrição junto ao INSS."
+    },
+    {
+      "icone": "fa-coins",
+      "titulo": "Salário de contribuição declarado",
+      "text": "O facultativo contribui sobre valor por ele declarado, dentro dos limites mínimo e máximo, e não sobre renda de atividade remunerada."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q185",
+  "numero": "Questão 5",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Filiação múltipla e concomitante ao RGPS",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Filiação múltipla e concomitante: empregado que também é contribuinte individual",
+  "tags": [
+    "RGPS",
+    "filiação múltipla",
+    "segurado obrigatório",
+    "empregado",
+    "contribuinte individual"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Ricardo trabalha como empregado registrado, em regime CLT, em uma empresa de logística. Fora do horário de expediente, presta serviços de consultoria em transporte para outras empresas, por conta própria e sem vínculo empregatício, recebendo por essa atividade honorários mensais variáveis.<br><br>Quanto à sua filiação ao Regime Geral de Previdência Social (RGPS) em razão dessas duas atividades exercidas simultaneamente, é correto afirmar que Ricardo...",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "É segurado obrigatório apenas na condição de empregado, por ser essa sua atividade principal, ficando a atividade de consultoria dispensada de contribuição previdenciária.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Deve optar formalmente, junto ao INSS, por uma única categoria de segurado, sob pena de perda da qualidade de segurado na atividade não escolhida.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "É segurado obrigatório simultaneamente como empregado e como contribuinte individual, devendo contribuir em cada uma dessas categorias, respeitado o limite máximo do salário de contribuição.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Não se filia obrigatoriamente pela atividade de consultoria, por ser esta exercida de forma eventual e complementar à sua ocupação principal.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Somente será considerado contribuinte individual se os honorários da consultoria ultrapassarem, em valor, a remuneração que recebe como empregado.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>A filiação múltipla e concomitante é um tema que a banca gosta de testar através de estudos de caso, justamente porque muitos candidatos acham, intuitivamente, que só se pode ter uma categoria de segurado por vez — e essa é a pegadinha central da questão sobre Ricardo.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Regra geral da filiação múltipla</h4><p>Quando a pessoa exerce, <strong>simultaneamente</strong>, mais de uma atividade remunerada, cada uma enquadrada em categoria distinta de segurado do RGPS, ela é <strong>segurado obrigatório em relação a cada uma dessas atividades</strong>, devendo contribuir por todas elas. É o que a doutrina chama de <strong>filiação múltipla ou concomitante</strong>: não há escolha de uma única categoria — a filiação decorre automaticamente do exercício de cada atividade, nos termos do art. 11 da Lei 8.213/1991 e do art. 9º, § 3º, do Decreto 3.048/1999.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Exemplo típico: empregado e contribuinte individual</h4><p>O exemplo mais cobrado em prova é o do <strong>empregado CLT</strong> que também exerce atividade autônoma fora do expediente (consultoria, aulas particulares, serviços eventuais). Nessa hipótese, ele é <strong>empregado</strong> em relação ao vínculo CLT (com desconto de contribuição pela empresa, na folha) e, ao mesmo tempo, <strong>contribuinte individual</strong> em relação à atividade autônoma (devendo recolher, ele próprio, a contribuição correspondente a essa renda). As duas filiações coexistem, sem que uma exclua a outra.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca sugere que o segurado deveria \"optar\" por uma categoria ou que a atividade secundária, por ser complementar, estaria dispensada de contribuição — ambas as ideias são falsas: cada atividade gera obrigação própria de recolhimento.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Limite máximo do salário de contribuição</h4><p>Ainda que o segurado contribua por mais de uma categoria, a soma das remunerações e rendimentos sujeitos à contribuição está sujeita ao <strong>teto do salário de contribuição do RGPS</strong>. Isto é, a contribuição não incide, em conjunto, sobre valor superior a esse limite máximo — mas isso não significa que a segunda atividade seja dispensada de contribuir; significa apenas que, uma vez atingido o teto, não há incidência sobre o excedente.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Não há necessidade de opção formal</h4><p>Diferentemente de regimes previdenciários próprios de servidores públicos, em que certas acumulações são vedadas, no <strong>RGPS não existe exigência de opção formal</strong> por uma única categoria quando as atividades concomitantes são compatíveis com a legislação trabalhista e previdenciária. A filiação múltipla é a regra, não a exceção, sempre que houver exercício simultâneo de atividades enquadráveis em categorias distintas (ou até na mesma categoria, para mais de um vínculo empregatício, por exemplo).</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar que Ricardo exerce duas atividades remuneradas distintas e simultâneas: empregado (CLT) e autônomo (consultoria). 2) Lembrar que cada atividade enquadrável em categoria distinta gera filiação obrigatória própria — não há escolha de uma única categoria. 3) Lembrar do limite: a soma das contribuições respeita o teto do salário de contribuição, sem dispensar nenhuma das atividades de recolher. 4) Eliminar alternativas que dispensem a contribuição da atividade secundária ou exijam opção formal por uma categoria.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Ricardo é segurado obrigatório em ambas as categorias — empregado, pelo vínculo CLT, e contribuinte individual, pela consultoria autônoma —, devendo contribuir por cada uma delas, respeitado o teto do salário de contribuição do RGPS quando somadas as bases de cálculo. É a aplicação direta da regra de filiação múltipla e concomitante.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — só a atividade principal gera filiação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a atividade CLT parece \"prevalecer\" sobre a atividade eventual de consultoria, por ser a fonte principal de renda.<br><strong>Onde quebra:</strong> a legislação não hierarquiza atividades para fins de filiação; cada atividade enquadrável em categoria distinta gera obrigação de contribuição própria, independentemente de qual seja a \"principal\".</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — opção formal obrigatória</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de \"escolher uma categoria\" remete, por analogia equivocada, a regras de acumulação de cargos públicos.<br><strong>Onde quebra:</strong> no RGPS não há exigência de opção formal entre categorias compatíveis; a filiação múltipla decorre automaticamente do exercício simultâneo das atividades.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — atividade eventual dispensada de filiação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa \"complementar\"/\"nas horas vagas\" a \"não obrigatório\".<br><strong>Onde quebra:</strong> a habitualidade de recebimento de honorários mensais, ainda que fora do expediente, enquadra Ricardo como contribuinte individual em relação a essa renda, gerando filiação obrigatória para essa atividade também.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — depende de comparação de valores</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável que a categoria \"mais relevante\" financeiramente prevaleça.<br><strong>Onde quebra:</strong> a classificação como contribuinte individual decorre da natureza da atividade (autônoma, sem vínculo empregatício), não do valor recebido em comparação com outra fonte de renda.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave: no RGPS, <strong>quem exerce mais de uma atividade enquadrável contribui por cada uma delas</strong>, até o teto do salário de contribuição — não existe \"escolha\" de categoria nem dispensa da atividade secundária.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-people-group",
+      "titulo": "Filiação múltipla/concomitante",
+      "text": "Quando a pessoa exerce mais de uma atividade enquadrável, é segurado obrigatório em cada uma delas simultaneamente."
+    },
+    {
+      "icone": "fa-briefcase",
+      "titulo": "Empregado (CLT)",
+      "text": "Categoria de segurado obrigatório referente ao vínculo empregatício, com contribuição descontada na folha pela empresa."
+    },
+    {
+      "icone": "fa-user-tie",
+      "titulo": "Contribuinte individual",
+      "text": "Categoria de segurado obrigatório referente à atividade autônoma, sem vínculo empregatício, com recolhimento pelo próprio segurado."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Teto do salário de contribuição",
+      "text": "Limite máximo sobre o qual incide a contribuição previdenciária, aplicável mesmo quando há mais de uma fonte de renda."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Art. 11, Lei 8.213/91",
+      "text": "Base legal das categorias de segurado obrigatório, aplicável a cada atividade exercida de forma independente."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q186",
+  "numero": "Questão 6",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Filiação e Inscrição do Segurado",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Filiação e Inscrição do Segurado no RGPS",
+  "tags": [
+    "filiação",
+    "inscrição",
+    "segurado obrigatório",
+    "segurado facultativo",
+    "RGPS",
+    "Decreto 3.048/1999"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Considere as seguintes situações hipotéticas, ocorridas em 2022:<br><br>Carlos começou a trabalhar como empregado em uma empresa no dia 03/01, mas o empregador só formalizou o registro em sua Carteira de Trabalho no dia 10/01.<br><br>Beatriz, contribuinte individual, passou a prestar serviço autônomo remunerado a partir de 01/03, e só compareceu a uma agência do INSS para se cadastrar em 15/03.<br><br>Diego decidiu se tornar segurado facultativo do RGPS: compareceu ao INSS e se inscreveu em 01/04, mas somente efetuou o pagamento da primeira contribuição, referente à competência abril, em 20/06, fora do prazo legal de recolhimento.<br><br>Considerando os institutos da filiação e da inscrição previstos na legislação previdenciária, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Carlos somente estará filiado ao RGPS a partir do registro formal em sua Carteira de Trabalho, em 10/01, ainda que já estivesse exercendo a atividade remunerada desde 03/01.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A filiação de Carlos ao RGPS, na condição de segurado empregado, ocorreu a partir do início do exercício da atividade remunerada, em 03/01, independentemente da data em que o empregador formalizou o registro em Carteira de Trabalho.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Beatriz, como contribuinte individual, somente se filiou ao RGPS a partir do ato formal de inscrição perante o INSS, em 15/03, sendo a inscrição pressuposto necessário e cronologicamente anterior à filiação de todo segurado obrigatório.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Diego, como segurado facultativo, filiou-se ao RGPS já em 01/04, data de sua inscrição, sendo irrelevante, para fins de filiação, a data em que efetuou o pagamento da primeira contribuição.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A inscrição constitui, para todas as categorias de segurados do RGPS, ato necessariamente concomitante à filiação, não havendo hipótese em que uma preceda a outra.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Filiação e inscrição parecem sinônimos na linguagem comum, mas a prova adora explorar exatamente a diferença técnica entre os dois institutos — e o momento em que cada um se aperfeiçoa para cada categoria de segurado, como no caso de Carlos, Beatriz e Diego acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Conceito de filiação</h4><p>A <strong>filiação</strong> é o vínculo jurídico que se estabelece entre a pessoa física e o Regime Geral de Previdência Social (RGPS), do qual decorrem direitos e obrigações recíprocos. É a filiação que faz nascer, para o indivíduo, a condição de <strong>segurado</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Conceito de inscrição</h4><p>A <strong>inscrição</strong>, por sua vez, é o <strong>ato formal</strong> pelo qual o segurado (ou, no caso do dependente, o próprio dependente) fornece ao INSS os dados necessários à sua identificação e cadastramento no sistema previdenciário, tornando possível a comprovação da condição de segurado e o exercício dos direitos correspondentes.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma tratar filiação e inscrição como se fossem a mesma coisa, ou como se a inscrição fosse sempre pré-requisito da filiação — isso só é verdade para o segurado facultativo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Filiação do segurado obrigatório</h4><p>Para os <strong>segurados obrigatórios</strong> (empregado, empregado doméstico, contribuinte individual, trabalhador avulso e segurado especial), a filiação decorre <strong>automaticamente</strong> do simples <strong>exercício de atividade remunerada</strong> abrangida pelo RGPS, independentemente de qualquer formalidade, de registro em Carteira de Trabalho ou de inscrição prévia perante o INSS. A inscrição, nesses casos, é apenas o ato de cadastramento formal, que pode ocorrer no mesmo momento ou em momento posterior ao início da filiação, sem afetar a existência desta.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Filiação do segurado facultativo</h4><p>Já para o <strong>segurado facultativo</strong> — que não exerce atividade remunerada de filiação obrigatória, mas deseja contribuir voluntariamente — a lógica é diferente: a filiação <strong>só se aperfeiçoa com a inscrição seguida do efetivo recolhimento da primeira contribuição sem atraso</strong>, dentro do prazo legal. Se o facultativo se inscreve, mas paga a primeira contribuição fora do prazo, a filiação (e, consequentemente, a contagem de carência) só se considera iniciada a partir da competência em que o recolhimento tempestivo efetivamente ocorrer.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a data da inscrição do facultativo é frequentemente apresentada como se já fosse, por si só, a data da filiação — mas sem o pagamento tempestivo da primeira contribuição, a filiação não se completa naquela competência.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar segurados obrigatórios (filiação automática pelo exercício da atividade) do segurado facultativo (filiação só com inscrição + primeira contribuição em dia). 2) Aplicar essa distinção a Carlos (empregado), Beatriz (contribuinte individual) e Diego (facultativo). 3) Eliminar alternativas que condicionem a filiação do segurado obrigatório a formalidades (registro em CTPS, inscrição prévia) ou que ignorem a exigência de pagamento tempestivo para o facultativo.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Carlos, como empregado (segurado obrigatório), filiou-se ao RGPS automaticamente a partir do início do exercício da atividade remunerada (03/01), independentemente de quando o empregador tenha formalizado o registro em CTPS — a filiação do segurado obrigatório não depende de formalidade.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — filiação condicionada ao registro em CTPS</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa a filiação previdenciária ao registro trabalhista, como se fossem a mesma formalidade.<br><strong>Onde quebra:</strong> a filiação do empregado ao RGPS é automática e decorre do exercício da atividade, sendo irrelevante, para esse fim, a data do registro formal em Carteira de Trabalho.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — inscrição como pré-requisito da filiação do contribuinte individual</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o enunciado dá a entender que Beatriz só passou a integrar o sistema quando compareceu ao INSS.<br><strong>Onde quebra:</strong> para segurado obrigatório, inclusive o contribuinte individual, a filiação decorre do exercício da atividade remunerada (desde 01/03), e não do ato formal de inscrição, que é posterior e meramente cadastral.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — filiação do facultativo na data da inscrição, ignorando o pagamento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que a inscrição, por si só, já filia o facultativo ao regime.<br><strong>Onde quebra:</strong> para o segurado facultativo, a filiação exige inscrição SEGUIDA do pagamento da primeira contribuição sem atraso; como Diego pagou fora do prazo, a filiação não se aperfeiçoou na competência abril nos moldes pretendidos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — inscrição sempre concomitante à filiação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza uma regra que só vale, em parte, para o segurado facultativo.<br><strong>Onde quebra:</strong> para os segurados obrigatórios a inscrição costuma ser posterior (ou simultânea) ao início da filiação, que já ocorreu com o exercício da atividade; não há concomitância necessária em todas as categorias.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o par regra geral: <strong>obrigatório = filiação automática pela atividade</strong>; <strong>facultativo = filiação só com inscrição + 1ª contribuição em dia</strong>. Sempre que a questão citar atraso no pagamento do facultativo, desconfie de pegadinha sobre o momento da filiação.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-link",
+      "titulo": "Filiação",
+      "text": "Vínculo jurídico entre a pessoa física e o RGPS, do qual decorrem direitos e obrigações recíprocos."
+    },
+    {
+      "icone": "fa-file-signature",
+      "titulo": "Inscrição",
+      "text": "Ato formal de cadastramento do segurado (ou dependente) perante o INSS, com fornecimento de dados de identificação."
+    },
+    {
+      "icone": "fa-briefcase",
+      "titulo": "Filiação do segurado obrigatório",
+      "text": "Decorre automaticamente do exercício de atividade remunerada abrangida pelo RGPS, independentemente de formalidade."
+    },
+    {
+      "icone": "fa-hand-holding-dollar",
+      "titulo": "Filiação do segurado facultativo",
+      "text": "Só se aperfeiçoa com a inscrição seguida do pagamento da primeira contribuição sem atraso."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Categorias de segurado obrigatório",
+      "text": "Empregado, empregado doméstico, contribuinte individual, trabalhador avulso e segurado especial."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q187",
+  "numero": "Questão 7",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Empresa e Empregador Doméstico",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Conceito Previdenciário de Empresa e de Empregador Doméstico",
+  "tags": [
+    "empresa",
+    "empregador doméstico",
+    "equiparação a empresa",
+    "Lei 8.212/1991",
+    "LC 150/2015"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O condomínio edilício Alfa mantém, em seus quadros, um zelador registrado como empregado, sob subordinação e mediante remuneração mensal fixa, para prestar serviços de forma contínua e por mais de dois dias na semana. Já a família Bragança admite, em sua residência, uma cuidadora de idosos, que trabalha de forma contínua, três dias por semana, mediante remuneração, sem qualquer finalidade lucrativa para a família.<br><br>Considerando os conceitos previdenciários de empresa e de empregador doméstico, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O condomínio edilício Alfa, ao contratar o zelador, atua como empregador doméstico, pois não exerce atividade econômica com fins lucrativos, aplicando-se a essa relação as regras da Lei Complementar nº 150/2015.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Somente pessoas jurídicas com fins lucrativos podem ser equiparadas a empresa para fins previdenciários, excluindo-se desse conceito condomínios, órgãos públicos e demais entidades sem fins lucrativos.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A relação entre a família Bragança e a cuidadora de idosos configura vínculo com empresa, e não com empregador doméstico, em razão da natureza da atividade de cuidado prestada.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Para fins previdenciários, o condomínio edilício Alfa equipara-se a empresa em relação ao zelador que emprega, ainda que não exerça atividade econômica com fins lucrativos, ao passo que a família Bragança configura empregador doméstico em relação à cuidadora, por se tratar de pessoa ou família que admite trabalhador a seu serviço, sem finalidade lucrativa, de forma contínua e por mais de dois dias na semana.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "O conceito previdenciário de empregador doméstico exige que o trabalhador preste serviços por, no mínimo, cinco dias por semana, de forma ininterrupta, à mesma família.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Empresa e empregador doméstico são figuras que se distinguem sobretudo pela finalidade da atividade e pelo tipo de pessoa que contrata — e a prova gosta de armar casos concretos, como o do condomínio Alfa e da família Bragança, para testar se o candidato sabe separar quem é equiparado a empresa de quem é, de fato, empregador doméstico.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Conceito previdenciário de empresa</h4><p>Nos termos da legislação de custeio (Lei 8.212/1991), considera-se <strong>empresa</strong>, para fins previdenciários, a firma individual ou sociedade que assume o risco de atividade econômica urbana ou rural, com fins lucrativos ou não, bem como os <strong>órgãos e entidades da administração pública</strong> direta, indireta e fundacional. O conceito é, portanto, muito mais amplo do que o de empresa no sentido empresarial comum, abrangendo entidades sem fins lucrativos e a própria Administração Pública.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Equiparação a empresa</h4><p>A lei equipara a empresa, entre outros: o <strong>contribuinte individual</strong> em relação a segurado que lhe presta serviço; a <strong>cooperativa</strong>, a <strong>associação</strong> ou entidade de qualquer natureza ou finalidade; a <strong>missão diplomática</strong> e repartição consular de carreira estrangeiras; e o <strong>condomínio edilício</strong>, quando contrata empregados para prestar serviços de forma contínua (como zelador, porteiro, faxineiro registrados). Nessas hipóteses, embora não haja finalidade lucrativa, a entidade assume, perante o INSS, as mesmas obrigações de uma empresa comum (recolhimento de contribuições, retenções, obrigações acessórias).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca insinua que só pode ser equiparado a empresa quem tem fins lucrativos — o conceito de empresa e as equiparações abrangem expressamente entidades sem fins lucrativos, como condomínios, associações e órgãos públicos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Conceito de empregador doméstico</h4><p>A Lei Complementar nº 150/2015 define <strong>empregador doméstico</strong> como a <strong>pessoa ou família</strong> que admite trabalhador doméstico a seu serviço, mediante remuneração, <strong>sem finalidade lucrativa</strong>, em atividade sem fins lucrativos, prestada de forma <strong>contínua e por mais de dois dias por semana</strong>, no âmbito residencial das pessoas ou famílias, em atividades sem fins lucrativos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Requisito da continuidade e da frequência semanal</h4><p>O requisito de prestação de serviço <strong>por mais de dois dias na semana</strong> é o que distingue o empregado doméstico do trabalhador que presta serviço eventual ou de forma esporádica (como a diarista que trabalha um ou dois dias por semana), o qual é enquadrado, em regra, como <strong>contribuinte individual</strong>, e não como empregado doméstico.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> não confundir o requisito legal de \"mais de dois dias por semana\" com outros números (como cinco dias) — esse detalhe numérico é um clássico ponto de troca em prova.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Consequências previdenciárias das duas figuras</h4><p>Tanto a empresa (e equiparados) quanto o empregador doméstico são responsáveis por <strong>reter e recolher</strong> a contribuição previdenciária do segurado a seu serviço, além de cumprir obrigações acessórias (hoje centralizadas, no caso doméstico, no eSocial doméstico). A diferença de regime está principalmente na <strong>ausência de finalidade econômica lucrativa</strong> típica do empregador doméstico, que contrata para atender necessidades do âmbito residencial e familiar, e não para explorar atividade econômica.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se quem contrata é pessoa/família, no âmbito residencial e sem fins lucrativos (empregador doméstico) ou entidade equiparada a empresa (condomínio, associação, cooperativa etc.). 2) Lembrar que o condomínio edilício é equiparado a empresa em relação a seus empregados, mesmo sem fins lucrativos. 3) Conferir o requisito de mais de dois dias por semana para caracterizar o vínculo doméstico. 4) Eliminar alternativas que troquem os papéis das duas figuras ou que exijam frequência semanal incorreta.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reproduz corretamente os dois conceitos: o condomínio edilício equipara-se a empresa em relação ao zelador que emprega (mesmo sem fins lucrativos), e a família Bragança é empregadora doméstica da cuidadora, por preencher os requisitos da LC 150/2015 (pessoa/família, sem fins lucrativos, atividade contínua, mais de dois dias por semana).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — condomínio como empregador doméstico</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa \"sem fins lucrativos\" diretamente a \"empregador doméstico\".<br><strong>Onde quebra:</strong> o condomínio edilício não é pessoa física nem família, e a legislação o equipara expressamente a empresa em relação aos empregados que contrata, ainda que sem finalidade lucrativa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — exigência de fins lucrativos para equiparação a empresa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável, já que \"empresa\" remete à ideia de atividade econômica lucrativa.<br><strong>Onde quebra:</strong> o conceito previdenciário de empresa e as equiparações abrangem expressamente entidades sem fins lucrativos, condomínios e órgãos públicos, dispensando finalidade lucrativa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — cuidadora vinculada a empresa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode achar que o cuidado de idosos é uma \"atividade profissional\" incompatível com o conceito doméstico.<br><strong>Onde quebra:</strong> a cuidadora presta serviço no âmbito residencial da família Bragança, sem fins lucrativos e por mais de dois dias por semana, preenchendo exatamente os requisitos de empregado doméstico.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — exigência de cinco dias semanais</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta substituir o número correto por outro plausível.<br><strong>Onde quebra:</strong> a LC 150/2015 exige prestação de serviço por mais de dois dias por semana, e não cinco, para caracterizar o vínculo de emprego doméstico.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe o número <strong>\"mais de 2 dias por semana\"</strong> para o empregado doméstico, e lembre que condomínio, associação, cooperativa e órgão público são <strong>equiparados a empresa</strong> mesmo sem fins lucrativos — são dois dos erros mais reciclados nesse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-building",
+      "titulo": "Empresa (conceito previdenciário)",
+      "text": "Firma individual ou sociedade que assume risco de atividade econômica, com ou sem fins lucrativos, além de órgãos e entidades da administração pública."
+    },
+    {
+      "icone": "fa-house-chimney",
+      "titulo": "Empregador doméstico",
+      "text": "Pessoa ou família que admite trabalhador doméstico a seu serviço, sem finalidade lucrativa, de forma contínua e por mais de dois dias por semana."
+    },
+    {
+      "icone": "fa-people-roof",
+      "titulo": "Equiparação a empresa",
+      "text": "Condomínio edilício, cooperativa, associação e missão diplomática, entre outros, equiparam-se a empresa mesmo sem fins lucrativos."
+    },
+    {
+      "icone": "fa-calendar-week",
+      "titulo": "Mais de dois dias por semana",
+      "text": "Requisito de continuidade que distingue o empregado doméstico do trabalhador eventual (diarista), este enquadrado como contribuinte individual."
+    },
+    {
+      "icone": "fa-file-invoice-dollar",
+      "titulo": "Obrigações de retenção e recolhimento",
+      "text": "Empresa e empregador doméstico devem reter e recolher a contribuição do segurado a seu serviço e cumprir obrigações acessórias."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q188",
+  "numero": "Questão 8",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Manutenção da Qualidade de Segurado — Período de Graça",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Prazos do Período de Graça (Art. 15 da Lei 8.213/1991)",
+  "tags": [
+    "período de graça",
+    "manutenção da qualidade de segurado",
+    "desemprego",
+    "art. 15 Lei 8.213/91",
+    "prorrogação"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marcelo, segurado empregado do RGPS, foi demitido sem justa causa em 10/01/2023 e deixou de recolher contribuições previdenciárias a partir dessa data. Sem conseguir recolocação no mercado de trabalho, Marcelo providenciou, ainda em 2023, o registro de sua situação de desemprego no órgão próprio do Ministério do Trabalho e Previdência, comprovando documentalmente essa condição perante o INSS.<br><br>Considerando as regras de manutenção da qualidade de segurado (período de graça) previstas no art. 15 da Lei nº 8.213/1991, assinale a alternativa correta quanto ao prazo aplicável a Marcelo.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Marcelo manterá a qualidade de segurado por até 24 meses após a cessação das contribuições, uma vez que comprovou a situação de desemprego mediante registro no órgão próprio do Ministério do Trabalho e Previdência, o que prorroga por mais 12 meses o prazo regular de 12 meses.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "Marcelo manterá a qualidade de segurado por até 12 meses após a cessação das contribuições, prazo que não admite qualquer prorrogação, ainda que comprove a situação de desemprego perante o órgão competente.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Marcelo manterá a qualidade de segurado por até 36 meses após a cessação das contribuições, prazo máximo aplicável automaticamente a qualquer segurado empregado que fique desempregado, independentemente de comprovação perante o órgão competente.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Marcelo perderá imediatamente a qualidade de segurado no mês seguinte à cessação das contribuições, uma vez que o período de graça somente se aplica a segurados facultativos.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Marcelo manterá a qualidade de segurado por até 6 meses após a cessação das contribuições, prazo aplicável aos segurados empregados que não comprovem situação de desemprego perante o órgão competente.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>O período de graça é um dos temas mais recorrentes em prova de INSS, justamente porque envolve vários prazos diferentes (12, 24 e 36 meses) conforme a situação do segurado — exatamente o tipo de detalhe que a banca explora em casos concretos como o de Marcelo.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Conceito de período de graça</h4><p>O <strong>período de graça</strong> é o intervalo de tempo durante o qual o indivíduo, mesmo sem recolher contribuições, <strong>mantém a qualidade de segurado</strong> do RGPS e, consequentemente, continua tendo direito à cobertura previdenciária (benefícios), desde que preenchidos os demais requisitos legais de cada prestação.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Hipóteses do art. 15 da Lei 8.213/1991</h4><p>O art. 15 prevê, entre outras, as seguintes hipóteses de manutenção da qualidade de segurado: <strong>sem limite de prazo</strong>, quem está em gozo de benefício; <strong>até 12 meses</strong> após cessar as contribuições, quem deixa de exercer atividade remunerada; <strong>até 12 meses</strong> após cessar a segregação, o segurado acometido de doença de segregação compulsória; <strong>até 12 meses</strong> após o livramento, o segurado detido ou recluso; <strong>até 3 meses</strong> após o licenciamento, o segurado incorporado às Forças Armadas; e <strong>até 6 meses</strong> após a cessação das contribuições, o segurado facultativo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Prazo regular do empregado que deixa de contribuir</h4><p>A regra geral para quem deixa de exercer atividade remunerada abrangida pelo RGPS (como o empregado demitido) é a manutenção da qualidade de segurado por até <strong>12 meses</strong> a partir da cessação das contribuições.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> é comum a banca tentar fazer o candidato aplicar diretamente o prazo máximo de 36 meses a qualquer desempregado, ignorando que essa extensão depende de comprovação formal da situação de desemprego.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Prorrogação para 24 meses</h4><p>Esse prazo de 12 meses é <strong>prorrogado para até 24 meses</strong> quando o segurado comprova a situação de desemprego mediante <strong>registro no órgão próprio do Ministério do Trabalho e Previdência</strong> (por exemplo, cadastro de desempregado ou habilitação ao seguro-desemprego).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Prorrogação adicional para até 36 meses</h4><p>Esse prazo de 24 meses pode ainda ser <strong>acrescido de mais 12 meses</strong> (totalizando até 36 meses) para o segurado que comprove a persistência da situação de desemprego perante o órgão próprio do Ministério do Trabalho e Previdência, sendo esse o prazo máximo previsto para essa hipótese de manutenção da qualidade de segurado.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar que Marcelo é empregado que deixou de contribuir após demissão — hipótese do art. 15, II. 2) Lembrar que o prazo regular é de 12 meses. 3) Verificar se há comprovação de desemprego no órgão próprio do Ministério do Trabalho e Previdência — Marcelo comprovou, então o prazo é prorrogado para 24 meses. 4) Eliminar alternativas que apliquem 36 meses automaticamente, que neguem qualquer prorrogação, ou que apliquem prazos de outras hipóteses (facultativo, recluso etc.).</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A comprovação da situação de desemprego mediante registro no órgão próprio do Ministério do Trabalho e Previdência prorroga o prazo regular de 12 meses para até 24 meses, nos termos do §1º do art. 15 da Lei 8.213/1991 — exatamente a situação de Marcelo.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — prazo de 12 meses sem prorrogação possível</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato memoriza apenas o prazo regular do inciso II, sem lembrar do parágrafo que trata da prorrogação.<br><strong>Onde quebra:</strong> o §1º do art. 15 prevê expressamente a prorrogação do prazo de 12 para até 24 meses quando comprovada a situação de desemprego perante o órgão competente.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — 36 meses automáticos, sem comprovação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra que existe um prazo máximo de 36 meses e o aplica de forma automática a qualquer desempregado.<br><strong>Onde quebra:</strong> o prazo de 36 meses depende de sucessivas comprovações da situação de desemprego perante o órgão próprio do Ministério do Trabalho e Previdência, não sendo concedido de forma automática apenas pela demissão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — período de graça exclusivo do facultativo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> associa erroneamente o instituto apenas à categoria de segurado facultativo.<br><strong>Onde quebra:</strong> o período de graça se aplica a todas as categorias de segurados, inclusive ao empregado, sendo o facultativo apenas uma das hipóteses do art. 15, com prazo próprio de 6 meses.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — 6 meses por falta de comprovação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde o prazo do empregado com o prazo específico do segurado facultativo (6 meses).<br><strong>Onde quebra:</strong> o prazo de 6 meses do art. 15 é o aplicável ao segurado facultativo, e não ao segurado empregado que deixa de exercer atividade remunerada, cujo prazo regular é de 12 meses.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize a escada do período de graça do empregado: <strong>12 meses (regra geral) → 24 meses (comprova desemprego no MTP) → 36 meses (comprova novamente a persistência do desemprego)</strong>. Sem comprovação formal, o prazo nunca ultrapassa 12 meses.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Período de graça",
+      "text": "Intervalo em que o segurado mantém sua qualidade e o direito à cobertura previdenciária mesmo sem recolher contribuições."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prazo regular de 12 meses",
+      "text": "Aplicável a quem deixa de exercer atividade remunerada abrangida pelo RGPS, contado da cessação das contribuições."
+    },
+    {
+      "icone": "fa-calendar-plus",
+      "titulo": "Prorrogação para 24 meses",
+      "text": "Ocorre quando o segurado comprova situação de desemprego mediante registro no órgão próprio do Ministério do Trabalho e Previdência."
+    },
+    {
+      "icone": "fa-calendar-days",
+      "titulo": "Prorrogação adicional até 36 meses",
+      "text": "Prazo máximo, alcançado com nova comprovação da persistência da situação de desemprego perante o órgão competente."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Segurado facultativo",
+      "text": "Tem prazo próprio de manutenção da qualidade de segurado de até 6 meses após a cessação das contribuições."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q189",
+  "numero": "Questão 9",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Perda da Qualidade de Segurado",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Momento Exato da Perda da Qualidade de Segurado",
+  "tags": [
+    "perda da qualidade de segurado",
+    "dia 16",
+    "período de graça",
+    "direito ao benefício",
+    "art. 15 Lei 8.213/91"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O prazo do período de graça de Roberto, calculado nos termos do art. 15 da Lei nº 8.213/1991, teve seu termo final ao fim do mês de fevereiro de 2023, sem que Roberto tivesse voltado a contribuir para o RGPS. Em 10/04/2023, Roberto sofreu acidente que o incapacitou temporariamente para o trabalho, tendo requerido ao INSS o benefício por incapacidade correspondente.<br><br>Considerando o entendimento consolidado sobre o momento exato em que se opera a perda da qualidade de segurado, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Roberto já havia perdido a qualidade de segurado antes do acidente, pois a perda ocorre no primeiro dia do mês seguinte ao término do prazo do período de graça, ou seja, em 1º/03/2023.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A perda da qualidade de segurado é imediata ao término do período de graça, sem qualquer dilação adicional, razão pela qual Roberto não teria direito ao benefício requerido.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A perda da qualidade de segurado somente se opera no dia 16 do segundo mês seguinte ao do término do prazo do período de graça; assim, tendo esse prazo terminado em fevereiro de 2023, a perda ocorreria em 16/04/2023, de modo que, na data do acidente (10/04/2023), Roberto ainda mantinha a qualidade de segurado, fazendo jus ao benefício, observados os demais requisitos legais.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "A perda da qualidade de segurado ocorre no dia 15 do mês seguinte ao término do período de graça, data que coincide com o vencimento da guia de recolhimento, de forma que Roberto já teria perdido a qualidade de segurado em 15/03/2023.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Por se tratar de acidente, e não de doença, a data da perda da qualidade de segurado é irrelevante para a análise do direito ao benefício de Roberto.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Saber exatamente QUANDO a qualidade de segurado se perde — e não apenas quantos meses dura o período de graça — é o que separa quem só decorou o art. 15 de quem entende como esse prazo se conecta ao calendário de recolhimento de contribuições, tema central no caso de Roberto.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Consequência da perda da qualidade de segurado</h4><p>Enquanto mantém a <strong>qualidade de segurado</strong> — seja contribuindo, seja dentro do período de graça —, o indivíduo preserva o direito à cobertura do RGPS. A <strong>perda</strong> dessa qualidade, quando ocorre antes do fato gerador do benefício (como um acidente ou o início de uma incapacidade), em regra afasta o direito à prestação, ressalvadas hipóteses excepcionais previstas em lei.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Por que a perda não é imediata ao fim do período de graça</h4><p>Os prazos do art. 15 da Lei 8.213/1991 (12, 24 ou 36 meses, conforme o caso) definem <strong>até quando</strong> o segurado é considerado mantido nessa qualidade sem contribuir. Entretanto, a perda efetiva não se opera no exato dia em que esse prazo se esgota: a regulamentação leva em conta que as contribuições de uma competência vencem apenas no <strong>dia 15 do mês seguinte</strong>, o que projeta a análise para um pouco mais adiante no calendário.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Momento exato: dia 16 do segundo mês seguinte</h4><p>Segundo o entendimento consolidado (refletido na regulamentação do RGPS), a <strong>perda da qualidade de segurado</strong> ocorre no <strong>dia 16 do segundo mês seguinte</strong> ao do término do prazo fixado no art. 15 da Lei 8.213/1991 para a manutenção dessa qualidade. Ou seja, ao prazo teórico do período de graça soma-se, na prática, mais um intervalo que vai até o dia 16 do segundo mês subsequente, e não apenas até o último dia do próprio mês de término.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma testar datas \"redondas\" (1º dia do mês seguinte, dia 15 do mês seguinte) para simular a regra correta — o detalhe que distingue a resposta certa é exatamente o \"dia 16 do SEGUNDO mês seguinte\".</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Relevância prática do detalhe</h4><p>Esse intervalo adicional é relevante porque eventos ocorridos <strong>após</strong> o término \"teórico\" do período de graça, mas <strong>antes</strong> do dia 16 do segundo mês seguinte, ainda geram direito a benefício, já que a qualidade de segurado, tecnicamente, ainda não se extinguiu. É exatamente esse o raciocínio aplicável ao caso de Roberto, cujo acidente ocorreu antes de 16/04/2023.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar o término do prazo do período de graça de Roberto (fevereiro de 2023). 2) Aplicar a regra de que a perda da qualidade de segurado só ocorre no dia 16 do segundo mês seguinte a esse término, ou seja, 16/04/2023. 3) Comparar essa data com a data do acidente (10/04/2023) — como o acidente é anterior a 16/04/2023, Roberto ainda era segurado. 4) Eliminar alternativas com outras datas (1º dia do mês seguinte, dia 15 do mês seguinte, perda imediata) ou que descartem a relevância da data.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A perda da qualidade de segurado somente se opera no dia 16 do segundo mês seguinte ao término do prazo do período de graça. Encerrado esse prazo em fevereiro de 2023, a perda ocorreria em 16/04/2023; como o acidente se deu em 10/04/2023, Roberto ainda mantinha a qualidade de segurado nessa data.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — perda no 1º dia do mês seguinte</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que, encerrado o prazo do período de graça, a perda é praticamente automática no início do mês seguinte.<br><strong>Onde quebra:</strong> a regra consolidada projeta a perda para o dia 16 do SEGUNDO mês seguinte, e não para o primeiro dia do mês imediatamente posterior.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — perda imediata, sem dilação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece a leitura mais \"direta\" do art. 15, ignorando a regulamentação sobre o momento exato da perda.<br><strong>Onde quebra:</strong> a perda da qualidade de segurado não é imediata ao término do prazo do art. 15; há um intervalo adicional que se estende até o dia 16 do segundo mês seguinte.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — perda no dia 15 do mês seguinte</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde a data de vencimento da guia de recolhimento de uma competência (dia 15 do mês seguinte) com a data da perda da qualidade de segurado.<br><strong>Onde quebra:</strong> o vencimento da guia é apenas uma referência para o cálculo; a perda efetiva da qualidade de segurado ocorre um pouco depois, no dia 16 do SEGUNDO mês seguinte ao término do prazo do art. 15.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — irrelevância da data por se tratar de acidente</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta afastar a discussão temporal alegando se tratar de acidente, e não de doença.<br><strong>Onde quebra:</strong> a manutenção da qualidade de segurado na data do evento incapacitante é requisito comum a benefícios por incapacidade, decorrentes de doença ou de acidente, sendo a data, portanto, plenamente relevante.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize a fórmula \"<strong>dia 16 do segundo mês seguinte</strong>\" ao término do período de graça como o marco exato da perda da qualidade de segurado — é um dos detalhes numéricos mais cobrados nesse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-user-slash",
+      "titulo": "Perda da qualidade de segurado",
+      "text": "Extinção do vínculo de proteção do RGPS, que afasta, em regra, o direito a benefícios cujo fato gerador ocorra após essa perda."
+    },
+    {
+      "icone": "fa-calendar-xmark",
+      "titulo": "Momento exato da perda",
+      "text": "Ocorre no dia 16 do segundo mês seguinte ao término do prazo do período de graça fixado no art. 15 da Lei 8.213/1991."
+    },
+    {
+      "icone": "fa-file-invoice",
+      "titulo": "Vencimento da guia de recolhimento",
+      "text": "As contribuições de uma competência vencem no dia 15 do mês seguinte, referência usada no cálculo do prazo de perda."
+    },
+    {
+      "icone": "fa-shield-heart",
+      "titulo": "Relevância para benefícios por incapacidade",
+      "text": "O evento incapacitante deve ocorrer enquanto o segurado ainda mantém essa qualidade para gerar direito ao benefício."
+    },
+    {
+      "icone": "fa-hourglass-end",
+      "titulo": "Período de graça",
+      "text": "Prazo durante o qual o segurado mantém sua qualidade mesmo sem contribuir, cujo término não coincide com a data da perda efetiva."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q190",
+  "numero": "Questão 10",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Restabelecimento da Qualidade de Segurado e Nova Carência",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Restabelecimento da Qualidade de Segurado e Carência Exigida na Nova Filiação",
+  "tags": [
+    "restabelecimento da qualidade de segurado",
+    "nova filiação",
+    "carência",
+    "art. 24 Lei 8.213/91",
+    "art. 27-A Lei 8.213/91"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Ana perdeu a qualidade de segurada do RGPS em razão do decurso do período de graça sem que voltasse a contribuir. Meses depois, retornou ao mercado de trabalho e se filiou novamente ao RGPS, na condição de segurada empregada. Pretende requerer auxílio por incapacidade temporária, benefício cuja carência regular é de 12 contribuições mensais.<br><br>Considerando as regras sobre restabelecimento da qualidade de segurado após nova filiação, assinale a alternativa correta quanto à carência que Ana deverá cumprir, a partir da nova filiação, para que as contribuições anteriores à perda sejam aproveitadas na carência desse benefício.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Ana deverá cumprir, a partir da nova filiação, no mínimo 1/3 do número de contribuições exigidas para a carência do benefício (4 contribuições), regra geral aplicável a qualquer benefício após a perda da qualidade de segurado, inclusive ao auxílio por incapacidade temporária.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Ana perderá definitivamente o direito de computar as contribuições anteriores à perda da qualidade de segurado, devendo cumprir integralmente nova carência de 12 contribuições, sem qualquer aproveitamento das contribuições antigas.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Ana poderá computar imediatamente as contribuições anteriores à perda da qualidade de segurado tão logo efetue a primeira contribuição após a nova filiação, independentemente de qualquer carência adicional.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A regra de carência reduzida após perda da qualidade de segurado aplica-se exclusivamente à aposentadoria por idade, não sendo extensível ao auxílio por incapacidade temporária.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Ana deverá cumprir, a partir da nova filiação, metade da carência exigida para o benefício, ou seja, 6 contribuições mensais, regra específica prevista para o auxílio por incapacidade temporária e para a aposentadoria por incapacidade permanente em caso de perda da qualidade de segurado.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>O restabelecimento da qualidade de segurado após uma nova filiação é um tema que costuma confundir quem só decorou a regra geral de carência do art. 24 e esquece que existe uma regra ESPECÍFICA, mais rigorosa, para os benefícios por incapacidade — exatamente a pegadinha por trás do caso de Ana.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Conceito de restabelecimento da qualidade de segurado</h4><p>Quando alguém <strong>perde a qualidade de segurado</strong> e depois volta a exercer atividade remunerada (ou se inscreve novamente como facultativo, pagando em dia), ocorre uma <strong>nova filiação</strong> ao RGPS, que restabelece a qualidade de segurado a partir desse novo vínculo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Regra geral: aproveitamento das contribuições antigas (1/3 da carência)</h4><p>A regra geral, prevista no art. 24, parágrafo único, da Lei 8.213/1991, estabelece que, havendo perda da qualidade de segurado, as <strong>contribuições anteriores</strong> a essa perda só voltam a ser <strong>computadas para fins de carência</strong> depois que o segurado contar, a partir da nova filiação, com, no mínimo, <strong>1/3 (um terço)</strong> do número de contribuições exigidas para a carência do benefício pretendido.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> essa fração de 1/3 é a regra GERAL, aplicável à maioria dos benefícios — mas não é a que vale para os benefícios por incapacidade, que têm regra própria e mais exigente.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Regra específica dos benefícios por incapacidade: metade da carência</h4><p>Para o <strong>auxílio por incapacidade temporária</strong> (antigo auxílio-doença) e para a <strong>aposentadoria por incapacidade permanente</strong> (antiga aposentadoria por invalidez), a lei prevê regra própria, mais restritiva: em caso de perda da qualidade de segurado, o segurado deve contar, a partir da nova filiação, com <strong>metade da carência</strong> exigida para a concessão do benefício pretendido, e não apenas 1/3.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Aplicação numérica ao caso de Ana</h4><p>Como a carência regular do auxílio por incapacidade temporária é de <strong>12 contribuições</strong>, a regra específica aplicável a Ana exige <strong>metade</strong> desse número, isto é, <strong>6 contribuições mensais</strong> a partir da nova filiação, para que as contribuições anteriores à perda da qualidade de segurado voltem a ser aproveitadas na contagem da carência (a regra geral de 1/3, que resultaria em 4 contribuições, não se aplica a esse benefício).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Racionalidade da regra mais rigorosa</h4><p>A exigência de metade da carência para os benefícios por incapacidade, em vez do simples 1/3 da regra geral, busca evitar que alguém volte a se filiar ao RGPS já perto de sofrer, ou já sabendo de, um evento incapacitante, apenas para se valer rapidamente das contribuições antigas — reforçando a exigência de um vínculo mínimo renovado e mais consistente com o sistema antes de ter direito a esses benefícios específicos.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar que Ana perdeu a qualidade de segurada e teve nova filiação. 2) Identificar o benefício pretendido: auxílio por incapacidade temporária, que tem regra ESPECÍFICA de carência após perda da qualidade (metade, e não 1/3). 3) Calcular metade da carência regular (12 ÷ 2 = 6). 4) Eliminar alternativas que apliquem a regra geral de 1/3, que neguem qualquer aproveitamento, que dispensem toda carência adicional, ou que restrinjam a regra específica a outro benefício.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Para o auxílio por incapacidade temporária, a lei prevê regra específica: em caso de perda da qualidade de segurado, exige-se, a partir da nova filiação, metade da carência do benefício (6 contribuições, já que a carência regular é de 12), e não a fração geral de 1/3.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — aplicação da regra geral de 1/3 (4 contribuições)</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra corretamente da regra geral do art. 24, parágrafo único, mas a aplica indevidamente a um benefício que tem regra própria.<br><strong>Onde quebra:</strong> o auxílio por incapacidade temporária e a aposentadoria por incapacidade permanente têm regra específica de metade da carência após perda da qualidade de segurado, afastando a fração geral de 1/3 nesses casos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — perda definitiva do aproveitamento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece uma leitura punitiva plausível para quem perdeu a qualidade de segurado.<br><strong>Onde quebra:</strong> a lei não exclui definitivamente o aproveitamento das contribuições antigas; apenas condiciona esse aproveitamento ao cumprimento de uma nova carência mínima após a nova filiação.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — aproveitamento imediato, sem qualquer carência adicional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que basta retomar a contribuição para reaproveitar tudo de imediato.<br><strong>Onde quebra:</strong> há exigência de um número mínimo de novas contribuições (metade da carência, nesse benefício) antes que as contribuições anteriores à perda voltem a ser computadas.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — regra restrita à aposentadoria por idade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta limitar a regra especial a um benefício que não é o de incapacidade.<br><strong>Onde quebra:</strong> a regra de metade da carência após perda da qualidade de segurado é voltada justamente aos benefícios por incapacidade (auxílio por incapacidade temporária e aposentadoria por incapacidade permanente), e não à aposentadoria por idade.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão envolver perda da qualidade de segurado e NOVA filiação, pergunte primeiro qual é o benefício pretendido: se for benefício por incapacidade, a carência exigida é a <strong>metade</strong> (não 1/3); para os demais benefícios, vale a regra geral de <strong>1/3</strong>.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-rotate",
+      "titulo": "Restabelecimento da qualidade de segurado",
+      "text": "Ocorre quando, após a perda dessa qualidade, o indivíduo volta a se filiar ao RGPS por nova atividade ou nova inscrição facultativa."
+    },
+    {
+      "icone": "fa-divide",
+      "titulo": "Regra geral (1/3 da carência)",
+      "text": "Art. 24, parágrafo único, da Lei 8.213/91: exige 1/3 das contribuições da carência do benefício, a partir da nova filiação, para reaproveitar contribuições antigas."
+    },
+    {
+      "icone": "fa-heart-pulse",
+      "titulo": "Regra específica dos benefícios por incapacidade",
+      "text": "Exige metade da carência do benefício, a partir da nova filiação, para auxílio por incapacidade temporária e aposentadoria por incapacidade permanente."
+    },
+    {
+      "icone": "fa-calculator",
+      "titulo": "Aplicação numérica",
+      "text": "Para carência regular de 12 contribuições, a regra específica exige 6 novas contribuições (metade), e não 4 (1/3) da regra geral."
+    },
+    {
+      "icone": "fa-shield-halved",
+      "titulo": "Finalidade da regra mais rigorosa",
+      "text": "Evitar o reingresso oportunista ao sistema apenas para acesso imediato a benefícios por incapacidade com contribuições antigas."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q191",
+  "numero": "Questão 11",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Decadência do Direito de Revisão x Prescrição das Parcelas",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Decadência do direito de revisão x prescrição das parcelas vencidas",
+  "tags": [
+    "decadência",
+    "prescrição",
+    "revisão do benefício",
+    "art. 103 Lei 8.213/91",
+    "prazo previdenciário"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marcos teve sua aposentadoria por tempo de contribuição concedida em 10/3/2010, com pagamento da primeira prestação em 5/4/2010. Em agosto de 2022, ao reunir seus antigos contracheques, Marcos percebeu que o cálculo da renda mensal inicial de seu benefício continha um erro em seu desfavor e decidiu requerer ao INSS a revisão do ato de concessão.<br><br>Considerando a disciplina legal da decadência do direito à revisão e da prescrição das parcelas vencidas em matéria previdenciária, assinale a opção correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O prazo decadencial de dez anos para a revisão do ato de concessão iniciou-se em 10/3/2010, data da própria concessão do benefício, de modo que o direito de Marcos já havia decaído em 10/3/2020, antes mesmo de se cogitar da prescrição das parcelas.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Tratando-se de matéria previdenciária, o direito de requerer a revisão do ato de concessão é imprescritível e não se sujeita a prazo decadencial, podendo Marcos pleiteá-la a qualquer tempo, com pagamento de todas as diferenças desde a concessão.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O direito de Marcos de requerer a revisão do ato de concessão decaiu em maio de 2020, pois o prazo decadencial de dez anos previsto no art. 103 da Lei nº 8.213/1991 tem início no primeiro dia do mês seguinte ao do recebimento da primeira prestação; extinto o direito à revisão, sequer se chega a discutir a prescrição de parcelas, que pressupõe direito ainda existente.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "O prazo aplicável ao caso é o prescricional de cinco anos, contado do recebimento da primeira prestação, razão pela qual Marcos poderia obter apenas as diferenças relativas aos últimos cinco anos, sem que se cogite da decadência do direito à revisão.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Por decorrer de erro da própria Administração, o prazo decadencial não corre em desfavor do segurado, podendo Marcos requerer a revisão a qualquer tempo, sujeitando-se apenas à prescrição quinquenal das parcelas vencidas.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          Diferenciar decadência e prescrição é um dos temas mais cobrados em provas de Técnico do Seguro\n          Social, pois a banca adora inverter o marco inicial de cada prazo ou confundir os efeitos de um\n          instituto com os do outro — exatamente o que a questão abaixo testa.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Decadência do direito de revisão</h4>\n          <p>\n            O art. 103, caput, da <strong>Lei nº 8.213/1991</strong> estabelece prazo <strong>decadencial de\n            dez anos</strong> para que o segurado ou seus dependentes exerçam o direito de <strong>revisar o\n            ato de concessão</strong> de benefício. A decadência atinge o próprio direito material de\n            questionar o ato administrativo que fixou a renda mensal inicial — não é possível reabrir a\n            discussão sobre o cálculo do benefício depois de escoado esse prazo, ainda que exista erro\n            objetivo em desfavor do segurado.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca costuma trocar o marco inicial\n            da decadência, sugerindo que ela conta da data da concessão (DER) ou da data do requerimento, em\n            vez do primeiro dia do mês seguinte ao do recebimento da primeira prestação.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Prescrição das parcelas vencidas</h4>\n          <p>\n            Já o parágrafo único do art. 103 (e o art. 104, ambos da Lei nº 8.213/1991) trata da\n            <strong>prescrição quinquenal</strong>: prescreve em <strong>cinco anos</strong> o direito de\n            reclamar as prestações vencidas e não pagas ou não reclamadas na época própria. A prescrição não\n            atinge o direito ao benefício em si (que é imprescritível), mas apenas as parcelas mais antigas\n            do que cinco anos, contados retroativamente da data do requerimento administrativo ou do\n            ajuizamento da ação.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Marco inicial e contagem dos prazos</h4>\n          <p>\n            O marco inicial da decadência é o <strong>primeiro dia do mês seguinte ao do recebimento da\n            primeira prestação</strong> do benefício ou, quando for o caso, o dia em que o segurado tomou\n            ciência da decisão administrativa definitiva que indeferiu o pedido de revisão. Já a prescrição\n            das parcelas conta-se de forma contínua: a cada mês que passa sem que o segurado reclame a\n            diferença, prescreve o direito à parcela vencida há mais de cinco anos, o que só é relevante\n            enquanto o direito de revisão ainda não tiver decaído.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Relação entre os dois institutos</h4>\n          <p>\n            Decadência e prescrição operam em <strong>planos diferentes</strong>: a decadência extingue o\n            <strong>direito de revisar</strong> o ato de concessão; a prescrição limita apenas o\n            <strong>alcance financeiro</strong> da revisão (quantas parcelas atrasadas podem ser cobradas),\n            pressupondo que o direito à revisão ainda exista. Por isso, se a decadência já se consumou, não\n            há mais o que discutir quanto à prescrição das parcelas — o direito de fundo já desapareceu.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> questões costumam pedir para o\n            candidato \"escolher\" entre aplicar decadência ou prescrição, quando na verdade, uma vez decaído\n            o direito de revisão, a prescrição das parcelas se torna irrelevante.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">5.</span> Situações que afastam os prazos</h4>\n          <p>\n            O <strong>direito ao benefício em si</strong> (isto é, o status de segurado fazer jus a alguma\n            prestação previdenciária) é <strong>imprescritível</strong>. Além disso, não corre prazo\n            prescricional <strong>contra menores, incapazes e ausentes</strong>, na forma do parágrafo único\n            do art. 103 da Lei nº 8.213/1991, em harmonia com as regras gerais de prescrição do Código Civil\n            aplicáveis subsidiariamente.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Calcule o marco inicial correto da decadência: 1º dia do mês seguinte ao do recebimento da\n            primeira prestação (aqui, 1º/5/2010). 2) Some dez anos e compare com a data em que Marcos\n            pretende agir (2022). 3) Se a decadência já se consumou, a prescrição das parcelas deixa de ter\n            relevância, pois o direito de fundo já não existe mais.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa C — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            O marco inicial da decadência é o primeiro dia do mês seguinte ao do recebimento da primeira\n            prestação (1º/5/2010); somados os dez anos do art. 103, caput, da Lei nº 8.213/1991, o prazo\n            decadencial encerrou-se em 1º/5/2020. Como Marcos só agiu em 2022, seu direito de revisão já\n            havia decaído, tornando irrelevante discutir a prescrição das parcelas atrasadas.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — decadência contada da data da concessão</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> a data da concessão (10/3/2010) é a informação mais\n              \"óbvia\" do enunciado, levando o candidato a usá-la como marco inicial.\n              <br>\n              <strong>Onde quebra:</strong> a lei fixa o marco inicial no recebimento da primeira prestação\n              (e não na data do ato de concessão), o que altera o resultado final, embora nesse caso a\n              conclusão sobre a decadência já ter ocorrido continue correta por outro fundamento — a\n              alternativa erra no marco legal usado.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — imprescritibilidade e ausência de decadência</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato confunde a imprescritibilidade do\n              <strong>direito ao benefício</strong> com o direito de <strong>revisar</strong> o ato de\n              concessão, que tem prazo próprio.\n              <br>\n              <strong>Onde quebra:</strong> o art. 103, caput, da Lei nº 8.213/1991 sujeita expressamente o\n              direito de revisão a prazo decadencial de dez anos, matéria pacificada pelo STF (Tema 313).\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — aplica só a prescrição quinquenal</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> mistura os dois institutos, tratando a hipótese apenas\n              como limitação de parcelas, sem reconhecer que o próprio direito de revisão já se extinguiu.\n              <br>\n              <strong>Onde quebra:</strong> a prescrição das parcelas só seria discutida se o direito de\n              revisão ainda estivesse vigente; como já decaiu, não há mais base para cobrar diferença alguma.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — decadência não corre contra erro da Administração</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> parece justo que o segurado não seja prejudicado por\n              erro que não cometeu.\n              <br>\n              <strong>Onde quebra:</strong> a decadência do art. 103, caput, corre independentemente de quem\n              deu causa ao erro no cálculo, protegendo a segurança jurídica e a estabilidade das relações\n              previdenciárias após o decurso do prazo legal.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Fixe o \"1-5-10\": <strong>1º dia do mês seguinte</strong> ao recebimento da 1ª prestação é o marco;\n            <strong>5 anos</strong> é prescrição de parcelas; <strong>10 anos</strong> é decadência do direito\n            de revisão. E lembre: sem direito de revisão vivo, não existe prescrição de parcelas a discutir.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Decadência",
+      "text": "Extingue o próprio direito de revisar o ato de concessão; prazo de 10 anos (art. 103, caput, Lei 8.213/91)."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prescrição",
+      "text": "Atinge apenas o direito de cobrar parcelas vencidas; prazo de 5 anos (art. 103, parágrafo único)."
+    },
+    {
+      "icone": "fa-flag-checkered",
+      "titulo": "Marco inicial da decadência",
+      "text": "1º dia do mês seguinte ao do recebimento da primeira prestação (ou da ciência da decisão indeferitória definitiva)."
+    },
+    {
+      "icone": "fa-infinity",
+      "titulo": "Direito ao benefício",
+      "text": "O direito em si ao benefício previdenciário é imprescritível; o que prescreve são as parcelas não reclamadas em 5 anos."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Exceção: menores/incapazes/ausentes",
+      "text": "Não corre prescrição contra esses segurados, nos termos do parágrafo único do art. 103."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q192",
+  "numero": "Questão 12",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Crimes contra a Seguridade Social",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Apropriação indébita previdenciária e estelionato contra a Previdência Social",
+  "tags": [
+    "crimes previdenciários",
+    "apropriação indébita previdenciária",
+    "estelionato previdenciário",
+    "art. 168-A CP",
+    "prescrição penal"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A respeito dos crimes contra a seguridade social previstos na legislação penal brasileira, notadamente a apropriação indébita previdenciária e o estelionato praticado em prejuízo do Regime Geral de Previdência Social (RGPS), assinale a opção correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O crime de apropriação indébita previdenciária configura-se quando o próprio segurado contribuinte individual deixa de recolher, no prazo legal, sua contribuição mensal facultativa ao RGPS, hipótese em que ele responde por apropriação indébita das contribuições que deveria verter.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Segundo entendimento consolidado, quando o próprio beneficiário pratica a fraude para obter e continuar recebendo o benefício, o estelionato previdenciário é crime permanente, e a prescrição só começa a correr a partir da cessação do recebimento das parcelas; quando a fraude é praticada por terceiro, sem o conhecimento do beneficiário, o crime é considerado instantâneo de efeitos permanentes, contando-se a prescrição a partir do recebimento da primeira prestação indevida.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "O estelionato praticado contra a Previdência Social é sempre crime instantâneo, ainda quando praticado pelo próprio beneficiário que mantém a fraude ao longo do tempo, de modo que a prescrição, em qualquer hipótese, conta-se exclusivamente da data do recebimento da primeira parcela do benefício indevido.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O mero parcelamento administrativo do débito de contribuições retidas e não repassadas à Previdência Social extingue automaticamente a punibilidade do crime de apropriação indébita previdenciária, independentemente do efetivo pagamento das parcelas ajustadas.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Os crimes contra a seguridade social, por serem, em qualquer hipótese, de menor potencial ofensivo, submetem-se obrigatoriamente ao rito do Juizado Especial Criminal, sendo vedada a persecução penal desses delitos perante a Justiça Federal comum.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          As fraudes contra a Previdência Social movimentam bilhões de reais por ano, e a legislação penal\n          reserva tipos específicos para essas condutas. A banca gosta de testar se o candidato sabe\n          diferenciar quem retém contribuição de terceiro (apropriação indébita) de quem frauda para\n          receber benefício indevido (estelionato), e as consequências práticas de cada um.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Apropriação indébita previdenciária (art. 168-A do CP)</h4>\n          <p>\n            O tipo penal do art. 168-A do Código Penal pune quem <strong>deixa de repassar à Previdência\n            Social, no prazo e forma legais, as contribuições recolhidas dos contribuintes</strong>, no\n            prazo legal — é o caso clássico do empregador que <strong>desconta</strong> a contribuição do\n            empregado na folha de pagamento, mas não a repassa ao INSS. A pena é de reclusão, de dois a\n            cinco anos, e multa. Também se equipara à conduta deixar de recolher contribuições que tenham\n            integrado despesas contábeis ou custos relativos a serviços prestados por segurados.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> apropriação indébita previdenciária\n            pressupõe a <strong>retenção de valores de terceiros</strong> (empregados) — não se confunde com\n            o simples inadimplemento da própria contribuição individual/facultativa pelo segurado, que gera\n            apenas consequências administrativas e cíveis, não penais.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Estelionato previdenciário</h4>\n          <p>\n            Não há tipo penal autônomo batizado \"estelionato previdenciário\": trata-se do <strong>estelionato\n            comum (art. 171 do CP)</strong> praticado em prejuízo do INSS, mediante fraude para obter ou\n            manter, para si ou para outrem, benefício previdenciário indevido (uso de documentos falsos,\n            simulação de incapacidade, omissão de óbito para continuar recebendo aposentadoria de terceiro,\n            entre outras condutas).\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Crime permanente x instantâneo de efeitos permanentes</h4>\n          <p>\n            A jurisprudência do STJ distingue duas situações para fins de prescrição: quando o <strong>próprio\n            beneficiário</strong> frauda o sistema e continua recebendo as parcelas, o estelionato é\n            <strong>crime permanente</strong> — a consumação se renova a cada mês em que ele mantém o INSS em\n            erro, de modo que a prescrição só começa a fluir quando cessa o recebimento. Já quando um\n            <strong>terceiro</strong> comete a fraude (por exemplo, falsifica documentos para receber em nome\n            de outra pessoa que desconhece o esquema), o crime é <strong>instantâneo de efeitos\n            permanentes</strong>: consuma-se no momento do primeiro recebimento indevido, e é dali que corre\n            a prescrição, ainda que os pagamentos se prolonguem no tempo.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca costuma inverter as duas\n            regras (dizendo que a fraude do próprio beneficiário é instantânea, ou que a fraude de terceiro é\n            permanente) — o critério distintivo é sempre \"quem manteve o erro em curso\".\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Extinção da punibilidade e parcelamento</h4>\n          <p>\n            No crime de apropriação indébita previdenciária, o art. 168-A, §2º, do CP prevê que a\n            punibilidade é <strong>extinta</strong> se o agente, espontaneamente, declara, confessa e\n            <strong>efetua o pagamento</strong> das contribuições, antes do início da ação fiscal. O mero\n            <strong>parcelamento</strong> do débito, por sua vez, apenas <strong>suspende</strong> a\n            pretensão punitiva enquanto adimplido, não extinguindo automaticamente o crime — a extinção só\n            ocorre com o pagamento integral.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">5.</span> Competência</h4>\n          <p>\n            Por atingirem o INSS, autarquia federal, os crimes contra a seguridade social do RGPS são, em\n            regra, de <strong>competência da Justiça Federal</strong>, nos termos do art. 109, IV, da\n            Constituição Federal, e sua classificação como infração de menor potencial ofensivo (sujeita ao\n            Juizado Especial) depende da pena máxima cominada a cada tipo penal, não sendo uma regra\n            universal para \"qualquer\" crime previdenciário.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Separe os dois tipos penais pela conduta: reter contribuição de terceiro (apropriação\n            indébita) x fraudar para obter/manter benefício (estelionato). 2) No estelionato, identifique\n            quem manteve a fraude em curso para definir se é crime permanente ou instantâneo de efeitos\n            permanentes. 3) Elimine afirmações absolutas (\"sempre\", \"em qualquer hipótese\") sobre extinção\n            de punibilidade ou competência.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa B — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Reproduz corretamente a distinção consolidada pelo STJ: fraude mantida pelo próprio beneficiário\n            é crime permanente (prescrição só corre após a cessação do recebimento); fraude praticada por\n            terceiro, sem ciência do beneficiário, é crime instantâneo de efeitos permanentes (prescrição\n            conta do recebimento da primeira parcela indevida).\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — apropriação indébita da própria contribuição facultativa</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato associa \"deixar de contribuir\" a\n              \"apropriação indébita\" apenas pelo nome do tipo penal.\n              <br>\n              <strong>Onde quebra:</strong> o art. 168-A do CP exige a retenção de contribuição\n              <strong>descontada de terceiro</strong> (empregado) e não repassada; o inadimplemento da\n              própria contribuição facultativa do contribuinte individual não configura esse crime.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — estelionato sempre instantâneo</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> generaliza a regra do crime instantâneo de efeitos\n              permanentes para toda e qualquer situação, ignorando a distinção jurisprudencial.\n              <br>\n              <strong>Onde quebra:</strong> quando o próprio beneficiário mantém a fraude em curso, o STJ\n              reconhece crime permanente, com prescrição contada apenas após cessar o recebimento das\n              parcelas.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — parcelamento extingue automaticamente a punibilidade</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde o efeito do parcelamento (suspensão da\n              pretensão punitiva) com o efeito do pagamento integral (extinção da punibilidade).\n              <br>\n              <strong>Onde quebra:</strong> o art. 168-A, §2º, do CP exige o efetivo pagamento das\n              contribuições, e não apenas a adesão a parcelamento, para extinguir a punibilidade.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — sempre menor potencial ofensivo e vedação à Justiça Federal</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> soa razoável imaginar tratamento uniforme e mais brando\n              para crimes patrimoniais contra o Estado.\n              <br>\n              <strong>Onde quebra:</strong> a classificação como infração de menor potencial ofensivo depende\n              da pena máxima de cada tipo penal, e a competência para julgar crimes contra o INSS é, em\n              regra, da Justiça Federal, e não vedada a ela.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Memorize: \"quem mantém a fraude, mantém o crime rodando\" — beneficiário fraudador = crime\n            permanente (prescrição só após cessar o pagamento); terceiro fraudador = crime instantâneo de\n            efeitos permanentes (prescrição já corre da primeira parcela recebida).\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-gavel",
+      "titulo": "Apropriação indébita previdenciária",
+      "text": "Art. 168-A do CP: deixar de repassar à Previdência Social, no prazo legal, contribuições recolhidas de terceiros (empregados)."
+    },
+    {
+      "icone": "fa-user-secret",
+      "titulo": "Estelionato previdenciário",
+      "text": "Obter ou manter benefício mediante fraude, induzindo ou mantendo o INSS em erro (art. 171 do CP)."
+    },
+    {
+      "icone": "fa-hourglass-end",
+      "titulo": "Crime permanente",
+      "text": "Sua consumação se prolonga no tempo; a prescrição só começa após cessar a conduta."
+    },
+    {
+      "icone": "fa-clock",
+      "titulo": "Crime instantâneo de efeitos permanentes",
+      "text": "Consuma-se em momento certo, ainda que seus efeitos persistam; a prescrição conta desse momento."
+    },
+    {
+      "icone": "fa-file-invoice-dollar",
+      "titulo": "Extinção da punibilidade",
+      "text": "No art. 168-A, o pagamento integral antes do início da ação fiscal extingue a punibilidade."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Competência",
+      "text": "Crimes contra o RGPS, autarquia federal (INSS), são, em regra, julgados pela Justiça Federal."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q193",
+  "numero": "Questão 13",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Recurso das Decisões Administrativas do INSS",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Recurso das decisões administrativas do INSS e o Conselho de Recursos do Seguro Social",
+  "tags": [
+    "recurso administrativo",
+    "CRSS",
+    "Junta de Recursos",
+    "Câmara de Julgamento",
+    "prazo de 30 dias"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Um servidor do INSS indeferiu, em decisão de primeira instância, o pedido de aposentadoria por invalidez formulado por determinado segurado. Inconformado, o segurado deseja recorrer administrativamente dessa decisão.<br><br>A respeito do processo de recurso das decisões do INSS no âmbito do Regime Geral de Previdência Social, assinale a opção correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O recurso da decisão do INSS deve ser interposto no prazo de quinze dias contados da ciência, diretamente perante a Câmara de Julgamento do CRSS, não sendo cabível reconsideração pela própria unidade que proferiu a decisão.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "As decisões proferidas pelo INSS em matéria de benefícios são irrecorríveis na via administrativa, cabendo ao segurado inconformado ingressar diretamente com ação judicial perante a Justiça Federal.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O Conselho de Recursos do Seguro Social é órgão interno da própria autarquia previdenciária, composto exclusivamente por servidores do INSS, sem qualquer participação de representantes dos trabalhadores ou dos empregadores.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O segurado poderá interpor recurso, no prazo de trinta dias contados da ciência da decisão, para a Junta de Recursos do Conselho de Recursos do Seguro Social (CRSS), órgão colegiado paritário vinculado ao Ministério responsável pela Previdência Social, cabendo, da decisão da Junta, recurso à Câmara de Julgamento do CRSS.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "O prazo de trinta dias para a interposição do recurso administrativo é peremptório também para fins judiciais, de modo que o seu não exercício na via administrativa implica renúncia definitiva ao direito de discutir a mesma questão perante o Poder Judiciário.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          O processo administrativo previdenciário é rotina no dia a dia de quem trabalha no INSS, e a banca\n          exige do Técnico do Seguro Social o domínio das instâncias recursais, dos prazos e do papel do\n          Conselho de Recursos do Seguro Social nesse fluxo.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Instâncias administrativas de julgamento</h4>\n          <p>\n            As decisões sobre requerimentos de benefícios são inicialmente proferidas por servidores ou\n            unidades do próprio <strong>INSS</strong> (primeira instância administrativa). Havendo\n            inconformismo do interessado, a lei assegura o direito de <strong>recorrer</strong> a um órgão\n            colegiado específico, o <strong>Conselho de Recursos do Seguro Social (CRSS)</strong>, garantindo\n            o duplo grau na via administrativa antes de eventual discussão judicial.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> O Conselho de Recursos do Seguro Social (CRSS)</h4>\n          <p>\n            O CRSS é órgão colegiado de composição <strong>paritária</strong> — com representantes do\n            governo, dos trabalhadores e dos empregadores —, vinculado ao Ministério responsável pela\n            Previdência Social, e não à estrutura interna do INSS. Ele se organiza em <strong>Juntas de\n            Recursos</strong>, que funcionam como <strong>primeira instância recursal</strong>, julgando os\n            recursos das decisões proferidas pelas unidades do INSS, e em <strong>Câmaras de\n            Julgamento</strong>, que funcionam como <strong>segunda instância recursal</strong>, julgando\n            recursos das decisões das Juntas.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca costuma afirmar que o CRSS é\n            \"órgão interno do INSS\" ou que julga apenas com servidores da autarquia — na verdade, é órgão\n            colegiado paritário, vinculado ao Ministério, e não subordinado hierarquicamente ao INSS.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Prazo e forma do recurso</h4>\n          <p>\n            O prazo geral para a interposição do recurso administrativo contra decisão do INSS é de\n            <strong>trinta dias</strong>, contados da ciência da decisão pelo interessado. O recurso é\n            dirigido à unidade do INSS que proferiu a decisão, a qual pode reconsiderá-la ou encaminhá-lo,\n            devidamente instruído, à Junta de Recursos competente para julgamento.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Relação com a via judicial</h4>\n          <p>\n            Em razão do princípio da <strong>inafastabilidade da jurisdição</strong> (art. 5º, XXXV, da\n            Constituição Federal), o esgotamento da via administrativa <strong>não é, em regra, condição\n            obrigatória</strong> para o acesso ao Poder Judiciário: o segurado pode buscar a Justiça mesmo sem\n            recorrer ao CRSS, ou mesmo após decisão administrativa desfavorável, sem que o decurso do prazo\n            recursal administrativo lhe retire o direito de ação judicial (observado o prazo prescricional\n            próprio).\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">5.</span> Pedido de revisão em instância extraordinária</h4>\n          <p>\n            Em casos específicos, definidos em regimento interno (como divergência entre Câmaras de\n            Julgamento ou matéria de relevante interesse), é possível o <strong>pedido de revisão de caráter\n            extraordinário</strong> perante o Conselho Pleno do CRSS, medida excepcional que não se confunde\n            com o recurso ordinário cabível de toda decisão de primeira instância.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Identifique as duas instâncias recursais do CRSS: Junta de Recursos (1ª) e Câmara de\n            Julgamento (2ª). 2) Confirme o prazo de trinta dias e a natureza paritária/vinculada ao\n            Ministério do CRSS. 3) Elimine alternativas que neguem a via recursal administrativa ou que\n            condicionem indevidamente o acesso ao Judiciário ao esgotamento dessa via.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa D — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Descreve corretamente o fluxo recursal: prazo de trinta dias, recurso inicial à Junta de Recursos\n            do CRSS (órgão colegiado paritário vinculado ao Ministério da Previdência Social, e não ao\n            INSS), com possibilidade de novo recurso à Câmara de Julgamento contra a decisão da Junta.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — prazo de 15 dias direto à Câmara</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato pode confundir o prazo com outros prazos\n              processuais mais curtos, comuns em outras searas do direito administrativo.\n              <br>\n              <strong>Onde quebra:</strong> o prazo recursal é de trinta dias, e o recurso é dirigido\n              primeiro à Junta de Recursos, e não diretamente à Câmara de Julgamento, que é instância\n              superior dentro do próprio CRSS.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — decisões irrecorríveis administrativamente</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> tenta simplificar o processo, sugerindo que só resta a\n              via judicial.\n              <br>\n              <strong>Onde quebra:</strong> existe via recursal administrativa organizada e estruturada por\n              meio do CRSS, garantindo ao segurado o duplo grau administrativo antes de, se quiser, buscar o\n              Judiciário.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — CRSS como órgão interno do INSS</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> como o CRSS julga recursos de decisões do INSS, parece\n              natural supor que integre a própria estrutura da autarquia.\n              <br>\n              <strong>Onde quebra:</strong> o CRSS é colegiado paritário, com representantes de trabalhadores\n              e empregadores, vinculado ao Ministério responsável pela Previdência Social, e não subordinado\n              ao INSS.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — perda do direito de ação judicial</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde o prazo recursal administrativo com prazo\n              decadencial/prescricional oponível ao próprio direito de ação.\n              <br>\n              <strong>Onde quebra:</strong> o princípio da inafastabilidade da jurisdição (CF, art. 5º, XXXV)\n              garante o acesso ao Judiciário independentemente do esgotamento ou do sucesso na via\n              administrativa, observado o prazo prescricional próprio de cada pretensão.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Grave a sequência \"INSS → Junta de Recursos → Câmara de Julgamento\", sempre no prazo de trinta\n            dias, e lembre que o CRSS é colegiado paritário vinculado ao Ministério — não ao INSS.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Junta de Recursos",
+      "text": "1ª instância recursal do CRSS; julga recursos das decisões de unidades do INSS."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "Câmara de Julgamento",
+      "text": "2ª instância recursal do CRSS; julga recursos das decisões das Juntas de Recursos."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Composição paritária",
+      "text": "CRSS é colegiado com representantes do governo, dos trabalhadores e dos empregadores."
+    },
+    {
+      "icone": "fa-calendar-days",
+      "titulo": "Prazo recursal",
+      "text": "30 dias contados da ciência da decisão para interpor recurso administrativo."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Inafastabilidade da jurisdição",
+      "text": "CF, art. 5º, XXXV: não esgotar a via administrativa não impede, em regra, o acesso ao Judiciário."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q194",
+  "numero": "Questão 14",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Carência",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Carência no RGPS: benefícios que a exigem e benefícios que dela independem",
+  "tags": [
+    "carência",
+    "art. 26 Lei 8.213/91",
+    "doenças graves",
+    "benefícios por incapacidade",
+    "RGPS"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Adriana filiou-se ao RGPS como contribuinte individual em janeiro de 2022. Em julho do mesmo ano, foi diagnosticada com neoplasia maligna, doença constante da lista elaborada pelos Ministérios da Saúde e da Previdência Social, e ficou incapacitada para o trabalho.<br><br>Sobre a exigência de carência para os benefícios por incapacidade nessa hipótese e sobre a sistemática da carência no RGPS em geral, assinale a opção correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Por se tratar de doença grave constante da lista elaborada pelos Ministérios da Saúde e da Previdência Social, manifestada após a filiação de Adriana ao RGPS, o benefício por incapacidade a que ela fizer jus independe do cumprimento de carência, nos termos do art. 26 da Lei nº 8.213/1991.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "O benefício por incapacidade decorrente de doença grave listada exige o cumprimento de carência de doze contribuições mensais, tal qual ocorre nas hipóteses de incapacidade decorrente de doença comum não listada.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A dispensa de carência prevista para as doenças e lesões graves listadas somente se aplica caso a moléstia já acometesse o segurado antes de sua filiação ao RGPS, como forma de proteção ao hipossuficiente.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O salário-família e o auxílio-reclusão, assim como o auxílio-doença comum, submetem-se, no RGPS, à carência mínima de doze contribuições mensais.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Carência, no âmbito do RGPS, corresponde ao número mínimo de anos completos de exercício de atividade remunerada do segurado, e não ao número de contribuições mensais por ele vertidas.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          Carência é tema de base do Direito Previdenciário e cai em praticamente toda prova de Técnico do\n          Seguro Social — a banca gosta de misturar o conceito correto com listas de benefícios que exigem\n          ou dispensam esse requisito, especialmente no caso das doenças graves.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Conceito de carência</h4>\n          <p>\n            Carência é o <strong>número mínimo de contribuições mensais</strong> indispensáveis para que o\n            segurado faça jus ao benefício, contadas a partir do <strong>primeiro pagamento sem atraso</strong>\n            (art. 24 da Lei nº 8.213/1991). Não se trata de tempo de filiação em anos, nem de tempo de\n            contribuição para fins de aposentadoria por tempo de contribuição — é um requisito específico,\n            medido em número de contribuições mensais recolhidas dentro do prazo legal.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Benefícios que exigem carência</h4>\n          <p>\n            Exigem carência, entre outros: <strong>aposentadoria por idade e aposentadoria por tempo de\n            contribuição</strong> (180 contribuições), a <strong>aposentadoria da pessoa com deficiência</strong>,\n            o <strong>auxílio por incapacidade temporária e a aposentadoria por incapacidade permanente</strong>\n            decorrentes de doença comum (regra geral de 12 contribuições) e o <strong>salário-maternidade</strong>\n            para a contribuinte individual, facultativa e segurada especial (10 meses de contribuição).\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Benefícios que independem de carência</h4>\n          <p>\n            O art. 26 da Lei nº 8.213/1991 dispensa carência, entre outros, para: <strong>pensão por\n            morte</strong>, <strong>auxílio-reclusão</strong>, <strong>salário-família</strong>,\n            <strong>auxílio-acidente</strong>, serviço social e reabilitação profissional, além dos\n            benefícios por incapacidade decorrentes de <strong>acidente de qualquer natureza</strong> ou de\n            <strong>doença profissional ou do trabalho</strong>, e do salário-maternidade da empregada e da\n            trabalhadora avulsa.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca costuma exigir \"12\n            contribuições\" para benefícios que na verdade dispensam carência (salário-família,\n            auxílio-reclusão, pensão por morte) — decore a lista do art. 26 como exceção.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Doenças e lesões graves listadas</h4>\n          <p>\n            Também independe de carência o benefício por incapacidade decorrente de <strong>doença ou lesão\n            grave especificada em lista elaborada pelos Ministérios da Saúde e da Previdência Social</strong>\n            (a exemplo de tuberculose ativa, neoplasia maligna, cegueira, entre outras), <strong>desde que a\n            doença tenha se manifestado após a filiação do segurado ao RGPS</strong>. Se a doença já existia\n            antes da filiação, em regra, o segurado não faz jus ao benefício por incapacidade dela decorrente\n            (ressalvada a hipótese de comprovado agravamento da doença ou lesão preexistente).\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">5.</span> Perda da qualidade de segurado e nova carência</h4>\n          <p>\n            Se o segurado perde a qualidade de segurado e depois se refilia ao RGPS, a lei pode exigir o\n            cumprimento de <strong>nova carência</strong>, contada a partir da nova filiação, para os\n            benefícios que dependem desse requisito, ressalvadas as regras específicas de cômputo de\n            contribuições anteriores à perda da qualidade de segurado previstas em lei.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Identifique que a doença de Adriana está na lista de doenças graves e surgiu após a filiação.\n            2) Aplique diretamente a regra do art. 26 da Lei nº 8.213/1991: dispensa de carência nesses\n            casos. 3) Elimine alternativas que exijam carência padrão, que invertam a regra da preexistência,\n            ou que distorçam o próprio conceito de carência.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa A — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Aplica corretamente o art. 26 da Lei nº 8.213/1991: como a neoplasia maligna consta da lista de\n            doenças graves e se manifestou depois da filiação de Adriana ao RGPS, o benefício por\n            incapacidade correspondente independe de cumprimento de carência.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — carência de 12 contribuições mesmo com doença listada</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> aplica a regra geral (12 contribuições) sem considerar a\n              exceção legal para doenças graves listadas.\n              <br>\n              <strong>Onde quebra:</strong> exatamente a lista de doenças graves existe para afastar a\n              carência padrão nessas hipóteses, diferenciando-as das doenças comuns não listadas.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — dispensa só se a doença for preexistente</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> tenta soar como proteção reforçada a quem já ingressa\n              doente no sistema.\n              <br>\n              <strong>Onde quebra:</strong> a lógica é inversa — a dispensa de carência para doenças graves\n              listadas pressupõe que a doença surgiu <strong>após</strong> a filiação; doença preexistente à\n              filiação, em regra, nem gera direito ao benefício por incapacidade dela decorrente.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — salário-família e auxílio-reclusão exigem 12 contribuições</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> generaliza a carência do auxílio-doença comum para\n              outros benefícios que soam \"parecidos\".\n              <br>\n              <strong>Onde quebra:</strong> salário-família e auxílio-reclusão estão expressamente listados no\n              art. 26 como benefícios que independem de carência.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — carência medida em anos de atividade</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde carência com tempo de contribuição, medido em\n              anos, usado para outros fins (como aposentadoria por tempo de contribuição).\n              <br>\n              <strong>Onde quebra:</strong> carência é, por definição legal, o número mínimo de\n              <strong>contribuições mensais</strong>, não de anos de atividade.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Fixe o combo \"doença grave listada + surgida após a filiação = sem carência\". E lembre da lista\n            clássica de dispensa: pensão por morte, auxílio-reclusão, salário-família, auxílio-acidente e\n            benefícios por acidente de qualquer natureza ou doença do trabalho.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-list-ol",
+      "titulo": "Carência",
+      "text": "Número mínimo de contribuições mensais indispensáveis para o direito ao benefício (art. 24, Lei 8.213/91)."
+    },
+    {
+      "icone": "fa-house-medical",
+      "titulo": "Doenças graves listadas",
+      "text": "Ex.: tuberculose ativa, neoplasia maligna, cegueira, entre outras; dispensam carência quando surgidas após a filiação."
+    },
+    {
+      "icone": "fa-shield-heart",
+      "titulo": "Pensão por morte e auxílio-reclusão",
+      "text": "Independem de carência (art. 26, I, da Lei 8.213/91)."
+    },
+    {
+      "icone": "fa-baby",
+      "titulo": "Salário-maternidade",
+      "text": "Independe de carência para empregada e trabalhadora avulsa; exige 10 contribuições para as demais seguradas."
+    },
+    {
+      "icone": "fa-user-injured",
+      "titulo": "Acidente de qualquer natureza",
+      "text": "Benefícios por incapacidade decorrentes de acidente também independem de carência."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q195",
+  "numero": "Questão 15",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Salário de Benefício e Renda Mensal do Benefício (RMB)",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Cálculo do salário de benefício e da renda mensal após a EC 103/2019",
+  "tags": [
+    "salário de benefício",
+    "renda mensal do benefício",
+    "EC 103/2019",
+    "coeficiente de cálculo",
+    "irredutibilidade do valor real"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Após a entrada em vigor da Emenda Constitucional nº 103/2019, a forma de cálculo do salário de benefício e da renda mensal dos benefícios programáveis do Regime Geral de Previdência Social (RGPS) foi alterada em relação à sistemática anterior à reforma.<br><br>A respeito dessa nova sistemática de cálculo e do reajustamento dos benefícios previdenciários, assinale a opção correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A regra geral pós-EC 103/2019 manteve a metodologia anterior à reforma, considerando-se apenas os 80% maiores salários de contribuição de todo o período contributivo, com descarte dos 20% menores valores.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O coeficiente inicial aplicável ao cálculo da renda mensal do benefício, na regra geral pós-reforma, é de 70% da média dos salários de contribuição, com acréscimo de 1 ponto percentual por ano adicional de contribuição.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O acréscimo de 2 pontos percentuais por ano de contribuição que exceder o tempo mínimo aplica-se somente às seguradas mulheres, não havendo previsão de acréscimo equivalente para os segurados homens.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Os benefícios do RGPS, embora reajustados periodicamente, não possuem garantia constitucional de preservação do valor real, podendo seu poder de compra ser reduzido conforme a política econômica adotada pelo governo em cada exercício.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Como regra geral, o salário de benefício corresponde à média aritmética simples de todos os salários de contribuição apurados desde julho de 1994 (ou desde o início do período contributivo, se posterior), aplicando-se coeficiente de 60% dessa média, acrescido de 2 pontos percentuais para cada ano de contribuição que exceder quinze anos, se mulher, ou vinte anos, se homem; além disso, a Constituição assegura o reajustamento dos benefícios de modo a preservar-lhes o valor real, sendo vedada a redução de seu valor nominal.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          A EC 103/2019 (Reforma da Previdência) mudou profundamente a forma de calcular o valor dos\n          benefícios do RGPS, e esse é um dos temas mais atuais e mais cobrados em provas de Técnico do\n          Seguro Social — a banca gosta de testar se o candidato ainda está preso à regra antiga dos 80%\n          maiores salários.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Salário de benefício: regra geral pós-EC 103/2019</h4>\n          <p>\n            Antes da reforma, o salário de benefício considerava apenas os <strong>80% maiores salários de\n            contribuição</strong> de todo o período contributivo (descartando os 20% menores). Após a EC\n            103/2019, a <strong>regra geral</strong> passou a ser a <strong>média aritmética simples de\n            TODOS os salários de contribuição</strong> do segurado, apurados desde <strong>julho de 1994</strong>\n            (ou desde o início do período contributivo, se posterior a essa data), sem qualquer descarte dos\n            menores valores.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca reproduz a regra antiga (80%\n            maiores salários) como se ainda vigorasse — desde a EC 103/2019, a regra geral é a média de\n            TODOS os salários de contribuição, sem descarte.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Coeficiente de cálculo da renda mensal do benefício (RMB)</h4>\n          <p>\n            Para as aposentadorias por idade e por tempo de contribuição, na regra geral pós-reforma, aplica-se\n            sobre o salário de benefício um <strong>coeficiente inicial de 60%</strong>, acrescido de\n            <strong>2 pontos percentuais para cada ano de contribuição que exceder</strong> o tempo mínimo de\n            <strong>15 anos, se mulher</strong>, ou <strong>20 anos, se homem</strong>. Assim, quanto mais\n            tempo de contribuição além do mínimo, maior o percentual aplicado sobre a média para chegar à\n            renda mensal do benefício.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Diferença em relação à sistemática anterior</h4>\n          <p>\n            Antes da reforma, o fator previdenciário incidia sobre a média dos 80% maiores salários, com\n            metodologia distinta e coeficientes próprios. A EC 103/2019 extinguiu o fator previdenciário para\n            fins de cálculo na regra geral, substituindo-o pela lógica direta de <strong>média de todos os\n            salários x coeficiente crescente com o tempo de contribuição excedente</strong>, tornando o\n            cálculo mais simples, porém, em geral, menos vantajoso do que a regra dos 80% maiores salários\n            para quem tinha um histórico contributivo irregular.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Reajustamento dos benefícios e irredutibilidade do valor real</h4>\n          <p>\n            A Constituição Federal (art. 201, §4º) assegura o <strong>reajustamento dos benefícios</strong>\n            do RGPS de modo a <strong>preservar-lhes, em caráter permanente, o valor real</strong>, conforme\n            critérios definidos em lei — atualmente, o principal índice utilizado é o <strong>INPC</strong>.\n            Além disso, o art. 194, IV, da CF/1988 consagra a <strong>irredutibilidade do valor dos\n            benefícios</strong> como um dos objetivos da Seguridade Social, vedando a redução do valor\n            nominal já concedido.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">5.</span> Piso do benefício e regras de transição</h4>\n          <p>\n            Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado\n            pode ter valor mensal <strong>inferior a um salário-mínimo</strong>. Além disso, a própria EC\n            103/2019 previu diversas <strong>regras de transição</strong> (pontos, pedágio de 50%, pedágio de\n            100%, idade mínima progressiva) para segurados já filiados ao RGPS antes da reforma, cada uma com\n            metodologia de cálculo própria, distinta da regra geral aplicável a quem se filiou depois da\n            EC 103/2019.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Lembre que a EC 103/2019 acabou com o descarte dos 20% menores salários: hoje é média de\n            todos. 2) Confira o coeficiente inicial (60%) e o acréscimo (2% ao ano, acima de 15/20 anos,\n            mulher/homem). 3) Confirme a garantia constitucional de preservação do valor real dos benefícios,\n            eliminando alternativas que neguem esse direito.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa E — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Reúne corretamente os dois pilares do tema: o salário de benefício como média de todos os\n            salários de contribuição desde julho de 1994, com coeficiente de 60% acrescido de 2% ao ano\n            acima de 15 (mulher) ou 20 (homem) anos de contribuição, e a garantia constitucional de\n            preservação do valor real dos benefícios, vedada a redução nominal.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — mantida a regra dos 80% maiores salários</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> reproduz a regra que vigorou por muitos anos antes da\n              reforma e que ainda é lembrada por quem não atualizou o conteúdo.\n              <br>\n              <strong>Onde quebra:</strong> a EC 103/2019 extinguiu, na regra geral, o descarte dos 20%\n              menores salários — hoje se considera a média de todos os salários de contribuição.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — coeficiente inicial de 70%, acréscimo de 1%</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> troca os números-chave da regra (percentuais) por\n              valores próximos, mas incorretos.\n              <br>\n              <strong>Onde quebra:</strong> o coeficiente inicial correto é de 60%, com acréscimo de 2 pontos\n              percentuais por ano de contribuição excedente, e não 70%/1%.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — acréscimo de 2% só para mulheres</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> explora a existência de tempos mínimos diferenciados\n              (15 anos mulher/20 anos homem) para sugerir que o acréscimo também seria exclusivo de um sexo.\n              <br>\n              <strong>Onde quebra:</strong> o acréscimo de 2 pontos percentuais por ano de contribuição\n              excedente aplica-se a ambos os sexos, apenas com referenciais de tempo mínimo distintos.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — sem garantia de preservação do valor real</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> soa plausível em cenário de instabilidade econômica,\n              associando reajuste a mera liberalidade governamental.\n              <br>\n              <strong>Onde quebra:</strong> o art. 201, §4º, da CF/1988 assegura expressamente o reajustamento\n              dos benefícios para preservar-lhes o valor real, sendo esse um direito constitucional dos\n              beneficiários do RGPS.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Grave o \"60 + 2 x (tempo excedente)\": 60% de coeficiente inicial, mais 2% por ano acima de 15\n            (mulher) ou 20 (homem) anos, sobre a média de TODOS os salários de contribuição desde jul/1994 —\n            e nunca esqueça a garantia constitucional de preservação do valor real dos benefícios.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-calculator",
+      "titulo": "Salário de benefício",
+      "text": "Média aritmética simples de todos os salários de contribuição desde jul/1994, regra geral pós-EC 103/2019."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Coeficiente de 60%",
+      "text": "Percentual-base aplicado sobre a média, com acréscimo de 2% por ano que exceder o tempo mínimo (15 anos mulher / 20 anos homem)."
+    },
+    {
+      "icone": "fa-venus-mars",
+      "titulo": "Tempo mínimo diferenciado",
+      "text": "15 anos de contribuição para mulher e 20 anos para homem, como referência do acréscimo de 2% ao ano."
+    },
+    {
+      "icone": "fa-arrow-trend-up",
+      "titulo": "Preservação do valor real",
+      "text": "CF, art. 201, §4º: benefícios reajustados para preservar o valor real, conforme critérios definidos em lei."
+    },
+    {
+      "icone": "fa-sack-dollar",
+      "titulo": "Piso do benefício",
+      "text": "Nenhum benefício substitutivo do salário de contribuição pode ser inferior a um salário-mínimo."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q196",
+  "numero": "Questão 16",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Aposentadoria por Idade x Aposentadoria por Incapacidade Permanente",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Diferenças entre Aposentadoria por Idade e Aposentadoria por Incapacidade Permanente — Acréscimo de 25% (Grande Invalidez)",
+  "tags": [
+    "aposentadoria por idade",
+    "aposentadoria por incapacidade permanente",
+    "carência",
+    "grande invalidez",
+    "acréscimo de 25%"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Dois segurados do RGPS buscam orientação sobre benefícios de aposentadoria. O primeiro, com 66 anos de idade e 16 anos de tempo de contribuição, pretende requerer aposentadoria por idade. O segundo, submetido a perícia médica do INSS, foi considerado incapaz total e permanentemente para o trabalho, necessitando de assistência permanente de outra pessoa para os atos da vida diária, e já possui a carência exigida para o benefício por incapacidade.<br><br>Com base nas regras do Regime Geral de Previdência Social (RGPS) aplicáveis à aposentadoria por idade e à aposentadoria por incapacidade permanente, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A aposentadoria por idade também pode ser concedida a segurado considerado incapaz para o trabalho, dispensando-se a perícia médica quando o requerente já tiver completado a idade mínima exigida.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A carência de 12 contribuições mensais exigida, em regra, para a aposentadoria por incapacidade permanente é absoluta, não comportando qualquer dispensa, ainda que a incapacidade decorra de acidente de qualquer natureza ou de doença grave especificada em lei.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O acréscimo de 25% relativo à grande invalidez é devido apenas na aposentadoria por incapacidade permanente, quando comprovada a necessidade de assistência permanente de outra pessoa; pode elevar a renda mensal do benefício acima do teto do RGPS; e, segundo entendimento consolidado nos tribunais superiores, deve ser mantido ainda que o benefício venha a ser posteriormente convertido em outra espécie de aposentadoria.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "O acréscimo de 25% por grande invalidez também é aplicável à aposentadoria por idade, desde que o segurado comprove, por perícia médica, necessitar de assistência permanente de terceiros.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O valor do acréscimo de 25% está limitado ao teto do salário de benefício do RGPS, não podendo a soma da renda mensal do benefício com o adicional ultrapassar esse limite.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Aposentadoria por idade e aposentadoria por incapacidade permanente costumam ser cobradas em conjunto justamente para testar se o candidato confunde os dois requisitos de acesso (idade x incapacidade) — e o acréscimo de 25% da grande invalidez, específico da incapacidade permanente, é um dos detalhes mais explorados pela banca.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Aposentadoria por idade</h4><p>A <strong>aposentadoria por idade</strong> (urbana) é devida ao segurado que completa <strong>65 anos de idade, se homem, ou 62 anos, se mulher</strong>, e comprova o cumprimento da carência mínima exigida em lei (para quem já era filiado ao RGPS antes da Emenda Constitucional nº 103/2019, a carência regular é de <strong>180 contribuições mensais</strong>, ou seja, 15 anos). Trata-se de benefício concedido em razão exclusivamente da <strong>idade e do tempo de contribuição</strong>, sem qualquer exigência de exame médico-pericial.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca tenta misturar os requisitos das duas aposentadorias, sugerindo que a idade dispensaria a perícia da incapacidade ou que a incapacidade dispensaria a idade — são benefícios com fatos geradores totalmente distintos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Aposentadoria por incapacidade permanente</h4><p>A <strong>aposentadoria por incapacidade permanente</strong> (antiga aposentadoria por invalidez) é devida ao segurado que, submetido a perícia médica do INSS, é considerado <strong>incapaz total e permanentemente</strong> para o exercício de atividade que lhe garanta a subsistência, e insuscetível de reabilitação para outra atividade. A <strong>carência regular é de 12 contribuições mensais</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Dispensa de carência</h4><p>A carência de 12 contribuições é <strong>dispensada</strong> quando a incapacidade decorrer de <strong>acidente de qualquer natureza ou causa</strong> (de trabalho ou não) e nos casos de segurado acometido de <strong>doença profissional, doença do trabalho ou de determinadas doenças ou afecções graves</strong> especificadas em lista elaborada pelos Ministérios competentes (como neoplasia maligna, cegueira, cardiopatia grave, hanseníase, tuberculose ativa, entre outras), ainda que o segurado não tenha completado as 12 contribuições.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Cálculo da renda mensal</h4><p>A renda mensal da aposentadoria por incapacidade permanente corresponde, em regra, a <strong>60% da média dos salários de contribuição</strong>, acrescida de <strong>2% para cada ano que exceder 20 anos de contribuição</strong> (homem) ou 15 anos (mulher). Quando a incapacidade decorrer de <strong>acidente de trabalho, doença profissional ou doença do trabalho</strong>, a renda mensal corresponde a <strong>100% da média dos salários de contribuição</strong>, independentemente do tempo de contribuição.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Grande invalidez e acréscimo de 25%</h4><p>Quando o aposentado por incapacidade permanente necessita da <strong>assistência permanente de outra pessoa</strong> para os atos da vida diária (hipótese chamada de <strong>grande invalidez</strong>, verificada mediante perícia médica, em situações como cegueira total, paralisia dos membros ou alienação mental grave, por exemplo), a lei prevê um <strong>acréscimo de 25%</strong> sobre o valor da aposentadoria. Esse acréscimo é <strong>exclusivo da aposentadoria por incapacidade permanente</strong> (não se estende à aposentadoria por idade nem a outras espécies), <strong>pode ultrapassar o teto</strong> do salário de benefício do RGPS, e a jurisprudência consolidada dos tribunais superiores entende que ele deve ser <strong>preservado mesmo se o benefício for posteriormente convertido</strong> em outra espécie de aposentadoria, já que remunera uma necessidade que persiste independentemente da mudança de nomenclatura do benefício.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a prova costuma tentar limitar o acréscimo de 25% ao teto do RGPS, ou estendê-lo a outros benefícios (como a aposentadoria por idade) — nenhuma das duas coisas é correta.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar os requisitos de cada benefício: aposentadoria por idade exige idade mínima + carência, sem perícia de incapacidade; aposentadoria por incapacidade permanente exige perícia de incapacidade total e permanente, sem idade mínima. 2) Isolar as regras específicas da grande invalidez (25%): benefício exclusivo, sem limite de teto, mantido em caso de conversão. 3) Eliminar alternativas que misturem os requisitos das duas aposentadorias ou que limitem indevidamente o acréscimo de 25%.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O acréscimo de 25% por grande invalidez é regra exclusiva da aposentadoria por incapacidade permanente, aplicável quando comprovada a necessidade de assistência permanente de terceiros; pode fazer a renda mensal ultrapassar o teto do RGPS; e, por entendimento consolidado dos tribunais superiores, permanece devido ainda que o benefício seja convertido em outra espécie de aposentadoria, pois a necessidade de assistência que o justifica não desaparece com a conversão.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — aposentadoria por idade dispensando perícia por incapacidade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato mistura os dois benefícios, como se a idade mínima também servisse para reconhecer incapacidade.<br><strong>Onde quebra:</strong> a aposentadoria por idade não exige, em nenhuma hipótese, exame de incapacidade; são benefícios com fatos geradores autônomos (idade x incapacidade).</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — carência de 12 contribuições sem qualquer exceção</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece a leitura mais direta da regra geral de carência.<br><strong>Onde quebra:</strong> a carência é dispensada quando a incapacidade decorre de acidente de qualquer natureza ou de doença/afecção grave especificada em lei, hipóteses expressamente previstas na legislação.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — acréscimo de 25% estendido à aposentadoria por idade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que bastaria comprovar a necessidade de assistência de terceiros, independentemente do tipo de aposentadoria.<br><strong>Onde quebra:</strong> o acréscimo de 25% é regra específica da aposentadoria por incapacidade permanente, não havendo previsão legal de sua extensão à aposentadoria por idade.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — acréscimo de 25% limitado ao teto do RGPS</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável supor que nenhum benefício previdenciário pode ultrapassar o teto.<br><strong>Onde quebra:</strong> o acréscimo de 25% é uma das exceções expressas ao teto: incide integralmente sobre a renda mensal, ainda que a soma ultrapasse o limite máximo do salário de benefício.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o trio de características do acréscimo de 25%: <strong>só na incapacidade permanente</strong>, <strong>pode passar do teto</strong> e <strong>sobrevive à conversão</strong> em outra aposentadoria — são os três pontos mais reciclados em prova sobre grande invalidez.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Aposentadoria por idade",
+      "text": "Devida aos 65 anos (homem) ou 62 anos (mulher), com carência mínima de 180 contribuições, sem exigência de perícia de incapacidade."
+    },
+    {
+      "icone": "fa-user-doctor",
+      "titulo": "Aposentadoria por incapacidade permanente",
+      "text": "Devida ao segurado considerado incapaz total e permanentemente para o trabalho, mediante perícia médica do INSS, com carência regular de 12 contribuições."
+    },
+    {
+      "icone": "fa-hand-holding-heart",
+      "titulo": "Dispensa de carência",
+      "text": "Não se exige carência quando a incapacidade decorre de acidente de qualquer natureza ou de doença grave especificada em lei."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Acréscimo de 25% (grande invalidez)",
+      "text": "Adicional devido quando o aposentado por incapacidade permanente necessita de assistência permanente de outra pessoa."
+    },
+    {
+      "icone": "fa-arrow-up-right-dots",
+      "titulo": "Acréscimo acima do teto",
+      "text": "O adicional de 25% pode fazer a renda mensal ultrapassar o teto do salário de benefício do RGPS."
+    },
+    {
+      "icone": "fa-arrows-rotate",
+      "titulo": "Manutenção em caso de conversão",
+      "text": "Entendimento consolidado nos tribunais superiores mantém o acréscimo mesmo se o benefício for convertido em outra espécie de aposentadoria."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q197",
+  "numero": "Questão 17",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Aposentadoria Especial após a EC 103/2019",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Aposentadoria Especial: Idade Mínima Combinada ao Tempo de Efetiva Exposição a Agente Nocivo",
+  "tags": [
+    "aposentadoria especial",
+    "EC 103/2019",
+    "agente nocivo",
+    "idade mínima",
+    "PPP"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marcos é segurado empregado e trabalha, desde o início de sua vida contributiva, exposto de forma habitual e permanente a agente químico nocivo à saúde, em condições que se enquadram no grupo cujo tempo mínimo de efetiva exposição, para fins de aposentadoria especial, é de 25 anos. Em determinado mês, Marcos completa exatamente 25 anos de tempo de efetiva exposição, devidamente comprovados por Perfil Profissiográfico Previdenciário (PPP), e conta, nessa data, com 55 anos de idade.<br><br>Considerando as regras da aposentadoria especial vigentes após a Emenda Constitucional nº 103/2019, assinale a alternativa correta quanto à situação de Marcos.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Marcos já tem direito à aposentadoria especial, pois, após a EC 103/2019, a concessão do benefício continua a exigir apenas o tempo mínimo de efetiva exposição ao agente nocivo, sem qualquer requisito de idade mínima.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Marcos ainda não tem direito à aposentadoria especial, pois a EC 103/2019 passou a exigir, cumulativamente ao tempo de efetiva exposição, idade mínima de 55, 58 ou 60 anos, conforme o tempo de exposição exigido seja de 15, 20 ou 25 anos, respectivamente; assim, para o grupo de 25 anos de exposição em que Marcos se enquadra, a idade mínima exigida é de 60 anos.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Marcos já tem direito à aposentadoria especial, pois a idade mínima de 55 anos, fixada pela EC 103/2019 para qualquer tempo de efetiva exposição a agente nocivo, foi atingida.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Marcos não tem direito à aposentadoria especial porque, após a EC 103/2019, esse benefício foi extinto e substituído integralmente pela conversão do tempo especial em tempo comum, com aplicação exclusiva do fator previdenciário.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Marcos tem direito à aposentadoria especial desde que comprove o pagamento de pedágio de 50% sobre o tempo de exposição, por ser essa a única regra de transição aplicável à aposentadoria especial após a reforma.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>A aposentadoria especial é um dos temas em que a EC 103/2019 mais mudou a lógica anterior: antes bastava o tempo de exposição ao agente nocivo, e a reforma passou a exigir também idade mínima — mudança que a banca adora testar com casos concretos como o de Marcos.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Conceito e agentes nocivos</h4><p>A <strong>aposentadoria especial</strong> é devida ao segurado que trabalha sujeito a condições especiais que prejudicam a saúde ou a integridade física, em razão da <strong>exposição habitual e permanente</strong> a agentes nocivos <strong>físicos, químicos ou biológicos</strong> (ou associação de agentes), acima dos limites de tolerância legalmente previstos. A exposição é comprovada por meio do <strong>Perfil Profissiográfico Previdenciário (PPP)</strong>, elaborado com base no Laudo Técnico das Condições Ambientais do Trabalho (LTCAT).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Regra antes da EC 103/2019</h4><p>Antes da reforma, a aposentadoria especial exigia <strong>apenas o tempo mínimo de efetiva exposição</strong> ao agente nocivo — 15, 20 ou 25 anos, conforme o grau de risco da atividade —, <strong>sem qualquer exigência de idade mínima</strong>. Era possível, portanto, se aposentar por essa via em idade relativamente jovem, desde que comprovado o tempo de exposição.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> muitos candidatos aplicam essa regra antiga como se ainda estivesse vigente para todos os casos — desde a EC 103/2019, ela só permanece intacta para quem já havia preenchido os requisitos antes da reforma (direito adquirido).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Regra após a EC 103/2019: idade mínima cumulativa</h4><p>A partir da EC 103/2019, para quem não tinha, até a data de vigência da emenda, tempo suficiente para o direito adquirido, a aposentadoria especial passou a exigir, <strong>cumulativamente</strong> ao tempo de efetiva exposição, o cumprimento de <strong>idade mínima</strong>: <strong>55 anos</strong>, para quem se enquadra no grupo de <strong>15 anos</strong> de exposição; <strong>58 anos</strong>, para o grupo de <strong>20 anos</strong>; e <strong>60 anos</strong>, para o grupo de <strong>25 anos</strong> de exposição. Exige-se, ainda, carência mínima de 180 contribuições mensais.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Regras de transição específicas</h4><p>Para o segurado que já exercia atividade especial antes de 13/11/2019, a EC 103/2019 previu também regras de transição próprias da aposentadoria especial, entre elas uma <strong>regra por pontos</strong> (soma da idade com o tempo de efetiva exposição, em patamar que se eleva progressivamente ano a ano), distinta das regras de pedágio de 50% e 100% aplicáveis à aposentadoria por tempo de contribuição em geral.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Cálculo da renda mensal</h4><p>O valor da aposentadoria especial segue a mesma fórmula geral pós-reforma: <strong>60% da média dos salários de contribuição, acrescidos de 2% para cada ano que exceder 20 anos de contribuição</strong> (para homem) ou 15 anos (para mulher), ressalvadas as regras de transição que prevejam cálculo diverso.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar o grupo de exposição de Marcos (25 anos) e localizar a idade mínima correspondente na tabela pós-EC 103/2019 (55/58/60 para 15/20/25 anos). 2) Comparar a idade de Marcos (55 anos) com a idade mínima exigida para o grupo de 25 anos (60 anos) — Marcos ainda não a atingiu. 3) Eliminar alternativas que neguem qualquer idade mínima, que apliquem idade de outro grupo, que declarem extinta a aposentadoria especial, ou que apontem regra de transição incompatível com o caso.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Após a EC 103/2019, a aposentadoria especial passou a exigir, além do tempo de efetiva exposição, idade mínima cumulativa de 55, 58 ou 60 anos, conforme o grupo seja de 15, 20 ou 25 anos de exposição. Como Marcos se enquadra no grupo de 25 anos, a idade mínima exigida é de 60 anos, e ele ainda tem apenas 55, não fazendo jus ao benefício nesse momento.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — ausência de idade mínima após a reforma</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> reproduz a regra antiga (só tempo de exposição), como se a EC 103/2019 não tivesse alterado nada.<br><strong>Onde quebra:</strong> a EC 103/2019 passou a exigir, cumulativamente ao tempo de exposição, idade mínima de 55, 58 ou 60 anos, conforme o grupo de risco, para quem não tinha direito adquirido antes da reforma.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — idade mínima única de 55 anos para qualquer grupo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta generalizar a idade mínima mais baixa (do grupo de 15 anos) para todos os casos.<br><strong>Onde quebra:</strong> a idade mínima varia conforme o grupo de exposição: 55 anos para 15 anos de exposição, 58 anos para 20 anos, e 60 anos para 25 anos — Marcos está no grupo de 25 anos, que exige 60 anos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — extinção da aposentadoria especial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> supõe, erroneamente, que a reforma aboliu o benefício.<br><strong>Onde quebra:</strong> a aposentadoria especial continua prevista no ordenamento após a EC 103/2019, apenas com o acréscimo do requisito de idade mínima cumulativa ao tempo de exposição.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — pedágio de 50% como única regra de transição da aposentadoria especial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde as regras de transição gerais da aposentadoria por tempo de contribuição com as regras próprias da aposentadoria especial.<br><strong>Onde quebra:</strong> a aposentadoria especial tem regra de transição própria (por pontos, somando idade e tempo de exposição), distinta do pedágio de 50%, que é regra de transição da aposentadoria por tempo de contribuição em geral.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize a tabela <strong>15/20/25 anos de exposição → 55/58/60 anos de idade</strong> — é a mudança mais cobrada sobre aposentadoria especial desde a EC 103/2019, e a banca gosta de trocar os pares dessa tabela.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-triangle-exclamation",
+      "titulo": "Agente nocivo",
+      "text": "Agente físico, químico ou biológico a que o segurado se expõe de forma habitual e permanente, prejudicial à saúde ou à integridade física."
+    },
+    {
+      "icone": "fa-file-lines",
+      "titulo": "PPP e LTCAT",
+      "text": "Perfil Profissiográfico Previdenciário, elaborado com base no Laudo Técnico das Condições Ambientais do Trabalho, comprova a efetiva exposição."
+    },
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Tempo de exposição",
+      "text": "15, 20 ou 25 anos de efetiva exposição ao agente nocivo, conforme o grau de risco da atividade."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Idade mínima pós-EC 103/2019",
+      "text": "55, 58 ou 60 anos, respectivamente, exigida cumulativamente ao tempo de exposição de 15, 20 ou 25 anos."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Regra de transição por pontos",
+      "text": "Aplicável a quem já exercia atividade especial antes de 13/11/2019, soma progressiva de idade e tempo de exposição."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q198",
+  "numero": "Questão 18",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Regras de Transição da EC 103/2019",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Regras de Transição da Reforma da Previdência: Pontos, Pedágio de 50%, Pedágio de 100% e Idade Mínima Progressiva",
+  "tags": [
+    "regras de transição",
+    "EC 103/2019",
+    "sistema de pontos",
+    "pedágio 50%",
+    "pedágio 100%"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A Emenda Constitucional nº 103/2019 (Reforma da Previdência) instituiu, para os segurados que já eram filiados ao RGPS antes de sua entrada em vigor e não haviam preenchido os requisitos para a aposentadoria até então, diferentes regras de transição, cada qual com requisitos próprios de idade, tempo de contribuição e forma de cálculo da renda mensal.<br><br>Assinale a alternativa que descreve corretamente uma dessas regras de transição.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Na regra de transição por sistema de pontos, o segurado deve comprovar o tempo mínimo de contribuição (35 anos, se homem, ou 30 anos, se mulher) somado à idade, atingindo uma pontuação que era de 96 pontos para o homem e 86 para a mulher em 2019, pontuação essa que permanece fixa nesses valores em todos os anos seguintes.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Na regra de transição do pedágio de 50%, aplicável a quem, em 13/11/2019, estivesse a menos de 2 anos de completar o tempo de contribuição exigido pela regra anterior, exige-se também o cumprimento de idade mínima de 60 anos para homens e 57 anos para mulheres, além do pagamento do próprio pedágio.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Na regra de transição por idade mínima progressiva, exige-se, além do tempo mínimo de contribuição (35 anos, se homem, ou 30 anos, se mulher), uma idade que, a partir de um patamar inicial em 2019, se eleva progressivamente à razão de um ano completo a cada ano civil, até atingir 65 anos para homens e 62 anos para mulheres.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Na regra de transição do pedágio de 100%, aplicável a quem, em 13/11/2019, estivesse a até 2 anos de completar o tempo de contribuição exigido pela regra anterior, exige-se, além de idade mínima de 60 anos (homem) ou 57 anos (mulher), o cumprimento de tempo de contribuição adicional equivalente ao dobro do período que faltava naquela data; em compensação, a renda mensal corresponde a 100% da média aritmética dos salários de contribuição, sem incidência do redutor de 60% acrescido de 2% por ano excedente.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "Na regra de transição por pontos, dispensam-se a idade mínima e o tempo mínimo de contribuição, bastando ao segurado comprovar exclusivamente a pontuação exigida, ainda que o tempo de contribuição mínimo não tenha sido atingido.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>As regras de transição da EC 103/2019 existem para proteger quem já estava filiado ao RGPS antes da reforma, evitando que perdesse totalmente as expectativas construídas sob as regras antigas — mas são quatro regras diferentes, cada uma com sua própria combinação de idade, tempo e pedágio, e é exatamente essa combinação que a prova testa.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Por que existem regras de transição</h4><p>A EC 103/2019 alterou substancialmente os requisitos das aposentadorias do RGPS (fim da aposentadoria por tempo de contribuição pura, criação de idade mínima para a aposentadoria especial etc.). Para não atingir de forma abrupta quem já era <strong>filiado ao RGPS antes de 13/11/2019</strong> e ainda não havia completado os requisitos da regra antiga, a reforma criou <strong>regras de transição</strong> opcionais, cabendo ao segurado, no momento do requerimento, optar pela mais vantajosa entre as aplicáveis ao seu caso.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Regra de transição por pontos</h4><p>Exige o cumprimento do <strong>tempo mínimo de contribuição da regra antiga</strong> (35 anos para homem, 30 anos para mulher) <strong>somado</strong> a uma <strong>pontuação</strong> (idade + tempo de contribuição) que, em 2019, era de <strong>96 pontos</strong> para o homem e <strong>86 pontos</strong> para a mulher, e que <strong>se eleva 1 ponto a cada ano</strong>, até atingir o limite de 105 pontos (homem) e 100 pontos (mulher).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Regra de transição por idade mínima progressiva</h4><p>Exige o mesmo tempo mínimo de contribuição da regra antiga (35 anos homem / 30 anos mulher), somado a uma <strong>idade mínima</strong> que partiu de 61 anos (homem) e 56 anos (mulher) em 2019, elevando-se à razão de <strong>6 meses a cada ano civil</strong>, até alcançar 65 anos (homem) e 62 anos (mulher).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> é comum a prova trocar o incremento correto (6 meses por ano) por \"1 ano por ano\", inflando artificialmente a velocidade de elevação da idade mínima dessa regra.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Regra de transição do pedágio de 50%</h4><p>Aplicável a quem, em 13/11/2019, estava a <strong>menos de 2 anos</strong> de completar o tempo de contribuição da regra antiga (35 anos homem / 30 anos mulher). Exige o cumprimento desse tempo <strong>acrescido de um pedágio de 50%</strong> sobre o período que faltava naquela data, <strong>sem exigência de idade mínima</strong>. A renda mensal segue a fórmula geral (60% + 2% por ano excedente a 20/15 anos).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>5.</span> Regra de transição do pedágio de 100%</h4><p>Aplicável a quem, em 13/11/2019, estava a <strong>até 2 anos</strong> de completar o tempo de contribuição da regra antiga. Exige, cumulativamente, <strong>idade mínima de 60 anos (homem) ou 57 anos (mulher)</strong> e o cumprimento de tempo de contribuição adicional equivalente ao <strong>dobro (100%)</strong> do período que faltava em 13/11/2019. Em compensação por essa exigência mais rigorosa, a <strong>renda mensal corresponde a 100% da média</strong> dos salários de contribuição, sem incidência do redutor de 60%+2% aplicável às demais regras.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Para cada alternativa, identificar de qual regra de transição ela trata (pontos, idade progressiva, pedágio 50% ou pedágio 100%). 2) Conferir separadamente os três elementos de cada regra: exigência (ou não) de idade mínima, forma do incremento (pontos, meses de idade ou pedágio) e forma de cálculo da renda mensal. 3) Descartar alternativas que troquem elementos de uma regra pelos de outra (como atribuir idade mínima ao pedágio de 50%, ou incremento de 1 ano à idade progressiva).</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A regra de transição do pedágio de 100% combina corretamente os três elementos que a caracterizam: aplicação a quem estava a até 2 anos de completar o tempo da regra antiga em 13/11/2019, exigência cumulativa de idade mínima (60 anos homem / 57 mulher) e pedágio de 100% sobre o tempo faltante, com a contrapartida de a renda mensal corresponder a 100% da média, sem o redutor de 60%+2%.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — pontuação fixa em 96/86 pontos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato memoriza corretamente a pontuação inicial de 2019, mas ignora que ela se eleva com o passar dos anos.<br><strong>Onde quebra:</strong> a pontuação da regra de transição por pontos aumenta 1 ponto a cada ano civil, partindo de 96 (homem) e 86 (mulher) em 2019, até o limite de 105 e 100 pontos, respectivamente — não permanece fixa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — pedágio de 50% com exigência de idade mínima</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> mistura a exigência de idade mínima (própria do pedágio de 100%) com a regra do pedágio de 50%.<br><strong>Onde quebra:</strong> a regra do pedágio de 50% não exige idade mínima; basta o cumprimento do tempo de contribuição da regra antiga acrescido do pedágio de 50% sobre o tempo que faltava em 13/11/2019.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — incremento de 1 ano por ano na idade progressiva</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> supõe uma progressão mais rápida do que a efetivamente prevista.<br><strong>Onde quebra:</strong> a idade mínima da regra de transição progressiva aumenta à razão de 6 meses por ano civil, e não de 1 ano completo por ano, partindo de 61/56 anos em 2019 até 65/62 anos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — regra por pontos sem tempo mínimo de contribuição</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que bastaria a pontuação, independentemente do tempo de contribuição já cumprido.<br><strong>Onde quebra:</strong> a regra por pontos exige cumulativamente o tempo mínimo de contribuição da regra antiga (35 anos homem / 30 mulher) E a pontuação mínima correspondente ao ano do requerimento, não sendo suficiente apenas um dos dois requisitos.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe cada regra a UMA característica-âncora: <strong>pontos</strong> = pontuação crescente; <strong>idade progressiva</strong> = +6 meses/ano; <strong>pedágio 50%</strong> = sem idade mínima; <strong>pedágio 100%</strong> = idade mínima + RMI de 100% da média. Confundir essas âncoras é o erro mais comum nesse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Regras de transição",
+      "text": "Conjunto de regras opcionais da EC 103/2019 para quem já era filiado ao RGPS antes da reforma e ainda não tinha direito adquirido."
+    },
+    {
+      "icone": "fa-star-half-stroke",
+      "titulo": "Sistema de pontos",
+      "text": "Soma de idade e tempo de contribuição; pontuação inicial de 96 (homem) e 86 (mulher) em 2019, crescente 1 ponto por ano."
+    },
+    {
+      "icone": "fa-arrow-up-right-dots",
+      "titulo": "Idade mínima progressiva",
+      "text": "Idade que parte de 61/56 anos em 2019 e sobe 6 meses por ano civil até 65/62 anos, somada ao tempo mínimo de contribuição."
+    },
+    {
+      "icone": "fa-road",
+      "titulo": "Pedágio de 50%",
+      "text": "Exige o tempo de contribuição da regra antiga acrescido de 50% do tempo que faltava em 13/11/2019, sem idade mínima."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Pedágio de 100%",
+      "text": "Exige idade mínima (60/57 anos) e o dobro do tempo faltante em 13/11/2019; em troca, a renda mensal é de 100% da média."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q199",
+  "numero": "Questão 19",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Pensão por Morte: Dependentes, Cota Familiar e Duração Variável",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Pensão por Morte: Classes de Dependentes, Cota Familiar e Duração conforme a Idade do Cônjuge ou Companheiro",
+  "tags": [
+    "pensão por morte",
+    "dependentes",
+    "cota familiar",
+    "duração da pensão",
+    "cônjuge"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Cláudio, segurado empregado do RGPS, mantinha a qualidade de segurado e já contava com mais de 18 contribuições mensais quando faleceu, em decorrência de causa não relacionada a acidente. Ele era casado havia 10 anos com Renata, que permaneceu como sua única dependente habilitada perante o INSS. Na data do óbito, Renata tinha 46 anos de idade.<br><br>Com base nas regras vigentes da pensão por morte do RGPS, assinale a alternativa correta quanto ao valor da cota e à duração do benefício de Renata.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A renda mensal da pensão corresponde a 50% do valor de referência, acrescido de uma cota de 10% por dependente habilitado — no caso, 60%, já que Renata é dependente única —, e, como Renata tinha 44 anos ou mais na data do óbito e estavam satisfeitos os requisitos de carência e de duração do casamento, o benefício será pago de forma vitalícia.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "A renda mensal da pensão corresponde a 100% do valor de referência, por se tratar de dependente única, e será paga pelo prazo de 15 anos, faixa etária aplicável a dependentes entre 41 e 43 anos na data do óbito.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Como o óbito não decorreu de acidente, e considerando que a duração do casamento é inferior a 24 meses, a pensão de Renata ficará limitada a 4 meses de duração.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Por ser Renata a única dependente habilitada, os pais de Cláudio, ainda que economicamente dependentes dele, poderão concorrer em conjunto com ela na condição de dependentes de primeira classe.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A duração da pensão de Renata será de 20 anos, prazo aplicável a dependentes com 44 anos ou mais na data do óbito, encerrando-se automaticamente ao final desse período, independentemente da idade alcançada pela beneficiária.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>A pensão por morte reúne, em um único benefício, três armadilhas clássicas de prova: a ordem e exclusão entre classes de dependentes, o cálculo da cota (que mudou com a reforma) e a tabela de duração conforme a idade do cônjuge/companheiro na data do óbito — exatamente os pontos testados no caso de Renata.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Classes de dependentes</h4><p>Os dependentes do segurado dividem-se em três classes: <strong>classe I</strong> — cônjuge, companheiro(a) e filho não emancipado menor de 21 anos ou inválido ou com deficiência intelectual, mental ou grave; <strong>classe II</strong> — pais; e <strong>classe III</strong> — irmão não emancipado menor de 21 anos ou inválido ou com deficiência. A existência de dependente de uma classe <strong>exclui</strong> o direito das classes seguintes, e a dependência econômica dos dependentes da classe I é <strong>presumida</strong>, enquanto a dos dependentes das classes II e III deve ser <strong>comprovada</strong>.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca gosta de fazer parentes de classes diferentes \"concorrerem juntos\" no enunciado — mas a existência de dependente da classe I sempre exclui as classes II e III, que não recebem cota nenhuma nesse caso.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Requisitos do cônjuge/companheiro e a regra dos 4 meses</h4><p>Para o cônjuge ou companheiro fazer jus à pensão, exige-se, em regra, que o segurado tivesse <strong>pelo menos 18 contribuições mensais</strong> e que o casamento ou união estável tivesse <strong>pelo menos 2 anos</strong> de duração até o óbito. Se esses requisitos não estiverem preenchidos, a pensão do cônjuge/companheiro fica <strong>limitada a 4 meses</strong>, salvo se o óbito decorrer de <strong>acidente</strong> de qualquer natureza, ou se o segurado, após o casamento/início da união, tiver sido acometido de <strong>doença preexistente desconhecida</strong> à época, hipóteses em que essas restrições não se aplicam.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Cota familiar</h4><p>A renda mensal da pensão por morte corresponde a <strong>50% do valor de referência</strong> (a aposentadoria que o segurado recebia ou teria direito a receber), <strong>acrescida de uma cota de 10% por dependente habilitado</strong>, até o limite de 100% (alcançado com 5 ou mais dependentes). Assim, um único dependente habilitado recebe <strong>60%</strong> (50% + 10%), e não mais 100% como ocorria na sistemática anterior às alterações legislativas mais recentes.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> é frequente o candidato aplicar a regra antiga, de 100% para dependente único — hoje a cota do dependente único é de apenas 60%, salvo previsão específica em sentido diverso.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Duração variável conforme a idade</h4><p>Para o cônjuge/companheiro, a <strong>duração</strong> da pensão varia conforme a <strong>idade na data do óbito</strong>: menos de 21 anos, <strong>3 anos</strong> de pensão; de 21 a 26 anos, <strong>6 anos</strong>; de 27 a 29 anos, <strong>10 anos</strong>; de 30 a 40 anos, <strong>15 anos</strong>; de 41 a 43 anos, <strong>20 anos</strong>; e <strong>44 anos ou mais</strong>, pensão <strong>vitalícia</strong>. Essa tabela de duração <strong>não se aplica</strong> aos dependentes filhos/equiparados (cujo direito cessa, em regra, aos 21 anos, salvo invalidez ou deficiência) nem ao cônjuge/companheiro <strong>inválido ou com deficiência</strong>, que recebe pensão vitalícia independentemente da idade.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se os requisitos de carência (18 contribuições) e duração do casamento (2 anos) estão satisfeitos — Cláudio e Renata os preenchem, afastando a limitação a 4 meses. 2) Calcular a cota: dependente única = 50% + 10% = 60%. 3) Enquadrar a idade de Renata (46 anos) na tabela de duração: 44 anos ou mais = vitalícia. 4) Eliminar alternativas que apliquem cota de 100%, prazo fixo de anos para quem tem 44+ anos, a limitação de 4 meses, ou que permitam concorrência entre classes de dependentes.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Sendo Renata dependente única, a cota da pensão é de 50% + 10% = 60% do valor de referência. Como o casamento durava mais de 2 anos e Cláudio já contava com mais de 18 contribuições, não incide a limitação a 4 meses; e, tendo Renata 46 anos na data do óbito (44 anos ou mais), a pensão é devida de forma vitalícia.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — cota de 100% para dependente único e prazo de 15 anos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> reproduz a regra de cota da sistemática anterior à mudança legislativa e aplica uma faixa etária diferente da de Renata.<br><strong>Onde quebra:</strong> hoje a cota do dependente único é de 60% (50%+10%), e não 100%; além disso, 15 anos é o prazo da faixa de 30 a 40 anos, incompatível com os 46 anos de Renata.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — limitação a 4 meses por casamento recente</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> aplicaria corretamente a regra dos 4 meses se o casamento fosse recente e não houvesse a carência mínima.<br><strong>Onde quebra:</strong> o casamento de Cláudio e Renata durava 10 anos (mais de 2 anos) e Cláudio já tinha mais de 18 contribuições, de modo que os requisitos que afastam a limitação a 4 meses estão preenchidos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — pais concorrendo com o cônjuge</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que a dependência econômica dos pais, se comprovada, bastaria para concorrer com a viúva.<br><strong>Onde quebra:</strong> a existência de dependente da classe I (o cônjuge) exclui totalmente o direito dos dependentes das classes II (pais) e III (irmãos), que não concorrem em conjunto com a classe I.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — duração fixa de 20 anos mesmo com 44 anos ou mais</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde a faixa etária de 41 a 43 anos (20 anos de pensão) com a faixa de 44 anos ou mais.<br><strong>Onde quebra:</strong> a partir de 44 anos de idade na data do óbito, a pensão do cônjuge/companheiro é vitalícia, e não limitada a 20 anos, faixa aplicável apenas a quem tinha entre 41 e 43 anos.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Decore a cota atual — <strong>50% + 10% por dependente, até 100%</strong> — e a âncora da tabela de duração: <strong>44 anos ou mais = vitalícia</strong>. É a combinação mais cobrada em questões de pensão por morte no formato situação-problema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-people-group",
+      "titulo": "Classes de dependentes",
+      "text": "Classe I (cônjuge/companheiro e filhos), classe II (pais) e classe III (irmãos); a existência de dependente de uma classe exclui as seguintes."
+    },
+    {
+      "icone": "fa-ring",
+      "titulo": "Requisitos do cônjuge/companheiro",
+      "text": "Em regra, exige-se 18 contribuições do segurado e 2 anos de casamento/união estável para afastar a limitação a 4 meses."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Cota familiar",
+      "text": "50% do valor de referência acrescido de 10% por dependente habilitado, até o limite de 100% com 5 ou mais dependentes."
+    },
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Duração variável",
+      "text": "Prazo de 3 a 20 anos conforme a idade do cônjuge/companheiro na data do óbito, tornando-se vitalícia a partir de 44 anos."
+    },
+    {
+      "icone": "fa-infinity",
+      "titulo": "Pensão vitalícia",
+      "text": "Devida ao cônjuge/companheiro com 44 anos ou mais na data do óbito, e também ao dependente inválido ou com deficiência, independentemente da idade."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q200",
+  "numero": "Questão 20",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Salário-Família, Salário-Maternidade e Auxílio-Reclusão",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Diferenças entre Salário-Família, Salário-Maternidade e Auxílio-Reclusão: Baixa Renda, Carência e Beneficiários",
+  "tags": [
+    "salário-família",
+    "salário-maternidade",
+    "auxílio-reclusão",
+    "baixa renda",
+    "carência"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Considerando as regras do RGPS aplicáveis ao salário-família, ao salário-maternidade e ao auxílio-reclusão, assinale a alternativa correta quanto aos requisitos de carência, de baixa renda e quanto a quem tem direito a cada um desses benefícios.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O salário-família é devido a qualquer segurado do RGPS, inclusive contribuinte individual e segurado facultativo, desde que comprovada baixa renda e a existência de filho ou equiparado de até 14 anos de idade, ou inválido, exigindo-se carência de 12 contribuições mensais.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O salário-maternidade exige, para todas as categorias de seguradas, o cumprimento de carência de 10 contribuições mensais, sem qualquer distinção entre segurada empregada, contribuinte individual e segurada especial.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O auxílio-reclusão é pago diretamente ao próprio segurado recolhido à prisão, como substituto de sua remuneração, dispensada qualquer exigência de baixa renda, bastando a comprovação do recolhimento à prisão em regime fechado.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O salário-maternidade e o auxílio-reclusão dispensam totalmente qualquer exigência de carência, bastando, respectivamente, a qualidade de segurada gestante e o recolhimento à prisão em regime fechado de segurado de baixa renda.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O salário-família exige comprovação de baixa renda do segurado empregado ou trabalhador avulso, sem exigência de carência; o salário-maternidade dispensa carência para a segurada empregada, a trabalhadora avulsa e a empregada doméstica, mas exige carência de 10 contribuições mensais para a contribuinte individual, a facultativa e a segurada especial; e o auxílio-reclusão, devido aos dependentes do segurado (e não ao próprio preso), exige baixa renda do segurado no momento da reclusão em regime fechado, além de carência de 24 contribuições mensais.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Salário-família, salário-maternidade e auxílio-reclusão são três benefícios que a banca adora comparar lado a lado, justamente porque cada um tem uma combinação diferente de exigência de baixa renda, carência e categoria de beneficiário — e é fácil trocar as regras de um pelas do outro.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Salário-família</h4><p>O <strong>salário-família</strong> é benefício devido ao <strong>segurado empregado (inclusive doméstico) e ao trabalhador avulso de baixa renda</strong>, na proporção do número de filhos ou equiparados de até <strong>14 anos de idade</strong>, ou <strong>inválidos</strong>, sem limite de idade nesse caso. Não é devido ao contribuinte individual nem ao segurado facultativo. <strong>Não há exigência de carência</strong>: basta a comprovação da condição de segurado de baixa renda e da existência do dependente.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a prova tenta estender o salário-família ao contribuinte individual ou exigir carência — nenhuma das duas coisas é correta: o benefício é restrito a empregado/avulso de baixa renda e não exige carência.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Salário-maternidade</h4><p>O <strong>salário-maternidade</strong> é devido a <strong>todas as seguradas</strong> do RGPS (empregada, empregada doméstica, trabalhadora avulsa, contribuinte individual, facultativa e segurada especial) por ocasião do parto, adoção ou guarda judicial para fins de adoção. A <strong>carência varia por categoria</strong>: é <strong>dispensada</strong> para a empregada, a trabalhadora avulsa e a empregada doméstica (basta a qualidade de segurada); já para a <strong>contribuinte individual, a facultativa e a segurada especial</strong>, exige-se carência de <strong>10 contribuições mensais</strong> (reduzida proporcionalmente em caso de parto antecipado).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Auxílio-reclusão</h4><p>O <strong>auxílio-reclusão</strong> é pago <strong>aos dependentes</strong> do segurado — e não ao próprio segurado — <strong>recolhido à prisão em regime fechado</strong>, desde que o segurado seja considerado de <strong>baixa renda</strong> no momento do recolhimento à prisão. Exige-se carência de <strong>24 contribuições mensais</strong>. É essencial reter que a baixa renda avaliada é a do <strong>segurado</strong> (recluso), e não a de seus dependentes, e que o benefício é devido aos dependentes exatamente como ocorreria em uma pensão por morte, caso o segurado viesse a falecer.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma inverter o beneficiário (dizendo que o benefício é pago ao próprio preso) ou dispensar a carência/baixa renda — nos três casos, a alternativa estaria errada.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Quadro-síntese comparativo</h4><p>Em resumo: o <strong>salário-família</strong> não exige carência e é restrito a empregado/avulso de baixa renda; o <strong>salário-maternidade</strong> tem carência que varia conforme a categoria da segurada (dispensada para empregada/avulsa/doméstica, 10 contribuições para as demais); e o <strong>auxílio-reclusão</strong> exige carência de 24 contribuições, baixa renda do segurado recluso, regime fechado e é pago aos dependentes, não ao preso.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Para cada benefício, isolar três variáveis: quem recebe, se há exigência de baixa renda e qual é a carência. 2) Salário-família: empregado/avulso de baixa renda, sem carência. 3) Salário-maternidade: todas as seguradas, carência dispensada para empregada/avulsa/doméstica e de 10 contribuições para as demais categorias. 4) Auxílio-reclusão: pago aos dependentes, exige baixa renda do segurado recluso em regime fechado e carência de 24 contribuições. 5) Eliminar alternativas que troquem essas três variáveis entre os benefícios.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A alternativa reproduz corretamente as três variáveis de cada benefício: salário-família (baixa renda do empregado/avulso, sem carência), salário-maternidade (carência dispensada para empregada/avulsa/doméstica, 10 contribuições para contribuinte individual, facultativa e segurada especial) e auxílio-reclusão (pago aos dependentes, baixa renda do segurado recluso em regime fechado, carência de 24 contribuições).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — salário-família estendido a contribuinte individual, com carência de 12 contribuições</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta uniformizar o salário-família com outros benefícios que têm carência e abrangência mais amplas.<br><strong>Onde quebra:</strong> o salário-família é restrito ao segurado empregado (inclusive doméstico) e ao trabalhador avulso de baixa renda, não sendo devido a contribuinte individual nem a facultativo, e não exige qualquer carência.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — salário-maternidade com carência uniforme de 10 contribuições para todas as categorias</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza a carência exigida das seguradas sem vínculo empregatício para todas as demais categorias.<br><strong>Onde quebra:</strong> a carência de 10 contribuições aplica-se apenas à contribuinte individual, à facultativa e à segurada especial; para a empregada, a trabalhadora avulsa e a empregada doméstica, a carência é dispensada.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — auxílio-reclusão pago ao próprio preso, sem exigência de baixa renda</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde o beneficiário do auxílio-reclusão com o do próprio segurado, como se fosse substituição de renda ao recluso.<br><strong>Onde quebra:</strong> o auxílio-reclusão é pago aos dependentes do segurado recluso, e não a ele próprio, e exige comprovação de que o segurado era de baixa renda no momento do recolhimento à prisão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — dispensa total de carência para salário-maternidade e auxílio-reclusão</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que, tal como o salário-família, os outros dois benefícios também dispensariam qualquer carência.<br><strong>Onde quebra:</strong> o salário-maternidade exige carência de 10 contribuições para contribuinte individual, facultativa e segurada especial, e o auxílio-reclusão exige carência de 24 contribuições, não havendo dispensa total em nenhum dos dois casos.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave a associação <strong>\"quem recebe\"</strong>: salário-família e salário-maternidade vão para o próprio segurado(a); o auxílio-reclusão vai para os <strong>dependentes</strong>, nunca para o preso — esse é o erro mais comum de prova nesse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-baby",
+      "titulo": "Salário-família",
+      "text": "Devido ao empregado e ao avulso de baixa renda, por filho/equiparado de até 14 anos ou inválido, sem exigência de carência."
+    },
+    {
+      "icone": "fa-person-pregnant",
+      "titulo": "Salário-maternidade",
+      "text": "Devido a todas as seguradas; carência dispensada para empregada/avulsa/doméstica e de 10 contribuições para as demais categorias."
+    },
+    {
+      "icone": "fa-handcuffs",
+      "titulo": "Auxílio-reclusão",
+      "text": "Pago aos dependentes do segurado de baixa renda recolhido à prisão em regime fechado, com carência de 24 contribuições."
+    },
+    {
+      "icone": "fa-sack-dollar",
+      "titulo": "Baixa renda",
+      "text": "Requisito avaliado em relação à renda do segurado (não dos dependentes) para salário-família e auxílio-reclusão."
+    },
+    {
+      "icone": "fa-list-check",
+      "titulo": "Carência variável",
+      "text": "Cada benefício tem regra própria de carência, que pode inclusive variar conforme a categoria do segurado, como no salário-maternidade."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q201",
+  "numero": "Questão 21",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Serviço Social e Reabilitação Profissional",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Serviço Social Previdenciário e Habilitação e Reabilitação Profissional",
+  "tags": [
+    "serviço social",
+    "reabilitação profissional",
+    "RGPS",
+    "Lei 8.213/91",
+    "obrigatoriedade",
+    "gratuidade"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "José, segurado empregado do RGPS, sofreu acidente de trabalho e ficou com sequelas que reduziram sua capacidade laboral. Após a alta da perícia médica, o INSS determinou seu encaminhamento a programa de habilitação e reabilitação profissional, com vistas à sua reinserção no mercado de trabalho.<br><br>Considerando a disciplina legal do serviço social e da habilitação e reabilitação profissional no âmbito do Regime Geral de Previdência Social (RGPS), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O programa de habilitação e reabilitação profissional tem caráter facultativo, podendo o segurado recusar-se a ele sem qualquer consequência para os demais benefícios que já receba.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A prestação de habilitação e reabilitação profissional é devida em qualquer circunstância, independentemente do cumprimento de carência, sendo gratuita e obrigatória para o beneficiário.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "O serviço social previdenciário tem por finalidade exclusiva o pagamento de auxílio financeiro complementar aos segurados que se encontrem em situação de vulnerabilidade econômica.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A habilitação e a reabilitação profissional constituem benefício previdenciário em pecúnia, sujeito a período de carência de 12 contribuições mensais.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O serviço social e a habilitação e reabilitação profissional destinam-se exclusivamente aos segurados, não se estendendo aos seus dependentes.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Serviço social e reabilitação profissional são prestações do RGPS pouco estudadas, mas recorrentes nas provas do INSS justamente por misturarem conceitos de direito social com regras específicas de gratuidade, obrigatoriedade e dispensa de carência — exatamente o que a questão acima cobra.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Serviço Social Previdenciário</h4><p>O <strong>serviço social</strong> é disciplinado pelos arts. 88 e 89 da Lei 8.213/1991 e tem por objetivo <strong>esclarecer os beneficiários</strong> sobre seus direitos sociais e os meios de exercê-los, bem como estabelecer, em conjunto com eles, o <strong>processo de solução dos problemas</strong> que emergem da relação entre o beneficiário e a Previdência Social, tanto no âmbito interno da instituição quanto na comunidade. Não se trata de auxílio financeiro nem de benefício em pecúnia, mas de uma atividade técnica de orientação e articulação social, prestada por assistentes sociais do INSS.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca costuma confundir o serviço social com benefícios assistenciais em dinheiro (como o BPC) ou com auxílios financeiros pontuais — o serviço social não paga nada em pecúnia, é orientação e articulação de solução de problemas.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Habilitação e Reabilitação Profissional</h4><p>Prevista nos arts. 89 a 93 da Lei 8.213/1991, a habilitação e reabilitação profissional visa a proporcionar aos <strong>beneficiários incapacitados</strong> parcial ou totalmente para o trabalho, e às <strong>pessoas com deficiência</strong>, os meios para (re)educação e (re)adaptação profissional, a fim de que voltem a exercer atividade que lhes garanta a subsistência e a de seus dependentes. O processo inclui fornecimento de aparelhos de prótese, órtese e instrumentos de auxílio para locomoção, quando necessários, bem como acompanhamento técnico.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Gratuidade, obrigatoriedade e dispensa de carência</h4><p>O art. 89, parágrafo único, da Lei 8.213/1991 é expresso: a prestação de habilitação e reabilitação profissional é <strong>devida em qualquer circunstância</strong>, independentemente do cumprimento de carência, e é <strong>gratuita</strong> para o beneficiário. Além disso, é <strong>obrigatória</strong>: o segurado em gozo de auxílio-doença ou de aposentadoria por invalidez está sujeito, sob pena de suspensão do benefício, a submeter-se ao processo de reabilitação profissional prescrito pela perícia médica do INSS (art. 101 da mesma lei), sendo facultativos apenas o tratamento cirúrgico e a transfusão de sangue.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> não confundir a obrigatoriedade de exame médico e reabilitação (cuja recusa gera suspensão do benefício) com a facultatividade do tratamento cirúrgico e da transfusão de sangue, que o segurado pode recusar sem prejuízo do benefício.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Abrangência subjetiva</h4><p>Tanto o serviço social quanto a habilitação e reabilitação profissional se destinam aos <strong>segurados e também aos seus dependentes</strong>, sempre que a situação de ambos justificar a prestação. A lei não restringe essas prestações apenas à figura do segurado titular.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que habilitação/reabilitação e serviço social são <strong>serviços</strong>, não benefícios em pecúnia, e por isso dispensam carência. 2) Lembrar que são <strong>gratuitos e obrigatórios</strong> para o beneficiário (art. 89, parágrafo único, Lei 8.213/91). 3) Lembrar que se estendem a segurados e dependentes. 4) Eliminar alternativas que tratem esses institutos como pagamento em dinheiro ou como facultativos.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reproduz fielmente a regra do art. 89, parágrafo único, da Lei 8.213/1991: a prestação de habilitação e reabilitação profissional é devida em qualquer circunstância, independentemente de carência, e é gratuita e obrigatória para o beneficiário.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — reabilitação seria facultativa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa a reabilitação a um direito que o segurado poderia simplesmente dispensar, como faz com o tratamento cirúrgico.<br><strong>Onde quebra:</strong> a reabilitação profissional é obrigatória; a recusa injustificada em submeter-se a ela pode acarretar a suspensão do benefício por incapacidade, nos termos do art. 101 da Lei 8.213/91.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — serviço social como auxílio financeiro</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a expressão \"serviço social\" remete, na linguagem comum, a assistência financeira.<br><strong>Onde quebra:</strong> o serviço social previdenciário (art. 88 da Lei 8.213/91) é atividade de orientação e articulação de soluções, não pagamento em dinheiro.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — reabilitação como benefício com carência</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato generaliza a regra de carência de 12 contribuições, comum a diversos benefícios do RGPS.<br><strong>Onde quebra:</strong> reabilitação não é benefício em pecúnia e é expressamente dispensada de carência pelo art. 89, parágrafo único.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — restrição apenas ao segurado</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o enunciado só menciona José, segurado, levando a crer que a prestação seria exclusiva dele.<br><strong>Onde quebra:</strong> a lei estende expressamente essas prestações também aos dependentes do segurado.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o trio <strong>gratuita + obrigatória + independe de carência</strong> para habilitação e reabilitação profissional — é o padrão de cobrança mais comum da banca sobre esse tema.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-hands-helping",
+      "titulo": "Serviço Social Previdenciário",
+      "text": "Atividade que esclarece segurados e dependentes sobre seus direitos e constrói, junto com eles, a solução de problemas na relação com a Previdência Social."
+    },
+    {
+      "icone": "fa-wheelchair",
+      "titulo": "Habilitação e Reabilitação Profissional",
+      "text": "Conjunto de meios para reeducar e readaptar profissionalmente o beneficiário incapacitado e a pessoa com deficiência, visando ao retorno à atividade laboral."
+    },
+    {
+      "icone": "fa-gift",
+      "titulo": "Gratuidade",
+      "text": "A prestação de habilitação/reabilitação e do serviço social não gera qualquer custo direto para o segurado ou dependente."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Obrigatoriedade",
+      "text": "O processo de reabilitação é obrigatório para quem recebe benefício por incapacidade, sob pena de suspensão em caso de recusa injustificada."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Abrangência subjetiva",
+      "text": "O serviço social e a reabilitação profissional atendem tanto aos segurados quanto aos seus dependentes."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Dispensa de carência",
+      "text": "Por serem serviços, e não benefícios em pecúnia, são devidos independentemente do cumprimento de carência."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q202",
+  "numero": "Questão 22",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Benefícios de Legislações Especiais",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Pensão Especial da Síndrome da Talidomida e Pensão Especial dos Seringueiros da Amazônia",
+  "tags": [
+    "pensão especial",
+    "talidomida",
+    "seringueiros da Amazônia",
+    "Lei 7.070/1982",
+    "Lei 7.986/1989",
+    "legislação especial"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Maria nasceu com deformidades físicas nos membros, decorrentes do uso do medicamento talidomida por sua mãe durante a gestação. Antônio, por sua vez, foi recrutado durante a Segunda Guerra Mundial para trabalhar na extração de látex na Amazônia, como seringueiro, em cumprimento aos chamados Acordos de Washington.<br><br>Considerando os benefícios de legislações especiais administrados pelo INSS, aplicáveis a essas duas situações, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A pensão especial devida a Maria é fixada em valor único correspondente a um salário mínimo, independentemente do grau de comprometimento físico, enquanto a pensão devida a Antônio varia conforme tabela de pontos.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A pensão especial devida a Maria é calculada de acordo com tabela de pontos que reflete o grau de dependência decorrente da ação da talidomida sobre seu organismo, ao passo que a pensão especial devida a Antônio, como seringueiro da Amazônia, corresponde a um salário mínimo mensal.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Ambas as pensões especiais somente podem ser requeridas por dependentes do titular já falecido, não sendo devidas em vida ao próprio portador da deficiência ou ao próprio seringueiro.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Somente a pensão especial devida a Maria exige comprovação de dependência econômica em relação a terceiro instituidor do benefício.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Ambos os benefícios estão condicionados ao cumprimento de carência mínima de 12 contribuições mensais vertidas ao RGPS.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Os benefícios de legislações especiais aparecem quase todo ano nas provas do INSS porque fogem do rol comum de benefícios do RGPS e testam se o candidato conhece leis específicas administradas pelo INSS como mero agente pagador — exatamente o caso da talidomida e dos seringueiros da Amazônia.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> O que são os benefícios de legislações especiais</h4><p>São prestações <strong>instituídas por leis próprias</strong>, fora do rol do art. 18 da Lei 8.213/1991, destinadas a grupos específicos de pessoas atingidas por eventos históricos ou situações excepcionais (medicamentos, acidentes, guerra, perseguição política, entre outros). O INSS geralmente atua como <strong>órgão pagador/operador</strong>, mas os recursos, em regra, vêm do <strong>Tesouro Nacional</strong> (orçamento fiscal da União), e não do orçamento da Seguridade Social ou de contribuições dos próprios beneficiários.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca insinua que esses benefícios exigem carência ou contribuição prévia, como um benefício comum do RGPS — nenhum deles exige isso, pois têm natureza indenizatória/reparatória.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Pensão especial da Síndrome da Talidomida (Lei 7.070/1982)</h4><p>Instituída em favor das pessoas que nasceram com deformidades físicas decorrentes do uso, por suas mães, do medicamento à base de talidomida durante a gestação. É uma pensão <strong>mensal, vitalícia e reajustável</strong>, cujo <strong>valor varia conforme uma tabela de pontos</strong>, que mede o grau de dependência e o comprometimento funcional causado pela síndrome — quanto maior o comprometimento, maior a pontuação e, consequentemente, o valor da pensão.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Pensão especial dos Seringueiros da Amazônia (Lei 7.986/1989)</h4><p>Destinada aos <strong>seringueiros recrutados</strong> nos termos dos Acordos de Washington, durante a Segunda Guerra Mundial, para a produção de borracha na Amazônia (os chamados \"soldados da borracha\"), bem como, em caso de morte, aos seus dependentes. Diferentemente da pensão da talidomida, o valor dessa pensão especial corresponde a <strong>um salário mínimo mensal</strong>, sem variação por tabela de pontos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Traços comuns entre os benefícios especiais</h4><p>Em regra, esses benefícios: (i) independem de carência ou de contribuição prévia do beneficiário; (ii) têm natureza <strong>indenizatória</strong>, reparando um dano histórico específico; (iii) são pagos pelo INSS como operador, com recursos do Tesouro Nacional; (iv) costumam prever regra de <strong>opção pelo benefício mais vantajoso</strong> quando o titular já tem direito a outro benefício previdenciário ou assistencial.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar as duas leis: talidomida (Lei 7.070/1982) usa tabela de pontos conforme o grau de comprometimento; seringueiros da Amazônia (Lei 7.986/1989) recebem valor fixo de um salário mínimo. 2) Lembrar que ambos são benefícios não contributivos, sem exigência de carência. 3) Eliminar alternativas que invertam os critérios de cálculo ou que exijam requisitos típicos de benefícios comuns do RGPS.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Descreve corretamente o critério de cada lei: a pensão da talidomida (Lei 7.070/1982) é calculada por tabela de pontos conforme o grau de dependência/comprometimento, e a pensão dos seringueiros da Amazônia (Lei 7.986/1989) corresponde a um salário mínimo mensal.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — critérios invertidos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato memoriza que existe \"tabela de pontos\" e \"salário mínimo\", mas troca qual lei usa cada critério.<br><strong>Onde quebra:</strong> é a talidomida que usa tabela de pontos; o seringueiro recebe valor fixo de um salário mínimo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — só devida após a morte</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o termo \"pensão\" remete, na linguagem comum, a benefício por morte.<br><strong>Onde quebra:</strong> ambas as pensões especiais são devidas em vida ao próprio titular (portador da síndrome ou seringueiro), estendendo-se aos dependentes apenas em caso de falecimento do titular, conforme a lei de cada benefício.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — dependência econômica de terceiro</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> lembra a lógica da pensão por morte comum, que exige qualidade de dependente.<br><strong>Onde quebra:</strong> a pensão da talidomida é devida à própria pessoa atingida pela síndrome, e não a um dependente de terceiro.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — carência de 12 contribuições</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza a regra de carência de benefícios comuns do RGPS para qualquer prestação previdenciária.<br><strong>Onde quebra:</strong> benefícios de legislação especial são de natureza indenizatória e não exigem carência nem contribuição prévia.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe \"talidomida = tabela de pontos (varia)\" e \"seringueiro = salário mínimo (fixo)\" — essa dupla de valores é o detalhe mais cobrado sobre essas duas leis.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Benefícios de legislação especial",
+      "text": "Prestações instituídas por leis próprias, fora do rol comum do RGPS, custeadas pelo Tesouro Nacional e operadas pelo INSS."
+    },
+    {
+      "icone": "fa-baby",
+      "titulo": "Pensão da Síndrome da Talidomida",
+      "text": "Pensão mensal e vitalícia (Lei 7.070/1982), com valor calculado por tabela de pontos conforme o grau de comprometimento causado pela talidomida."
+    },
+    {
+      "icone": "fa-tree",
+      "titulo": "Pensão dos Seringueiros da Amazônia",
+      "text": "Pensão mensal (Lei 7.986/1989) devida aos recrutados para extração de borracha na Amazônia durante a Segunda Guerra Mundial, no valor de um salário mínimo."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Dispensa de carência",
+      "text": "Por sua natureza indenizatória, esses benefícios independem de contribuição prévia ou carência."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Opção pelo mais vantajoso",
+      "text": "Quando o titular tem direito a outro benefício previdenciário ou assistencial, em regra pode optar pelo mais vantajoso, sem acumulação simultânea plena."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q203",
+  "numero": "Questão 23",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Benefícios de Legislações Especiais",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Pensão Especial do Ex-Combatente e Pensão Especial das Vítimas do Césio-137",
+  "tags": [
+    "ex-combatente",
+    "Césio-137",
+    "Lei 8.059/1990",
+    "Lei 9.425/1996",
+    "pensão especial",
+    "Tesouro Nacional"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O senhor Joaquim integrou a Força Expedicionária Brasileira e participou efetivamente de operações bélicas na Segunda Guerra Mundial, requerendo, décadas depois, a pensão especial de ex-combatente. Já a senhora Cleide foi diretamente atingida pela radiação do acidente radioativo ocorrido em Goiânia, envolvendo uma fonte de Césio-137, e requereu a pensão especial correspondente.<br><br>Sobre os benefícios de legislação especial pagos pelo INSS a ex-combatentes da Segunda Guerra Mundial (Lei 8.059/1990) e a vítimas do acidente radioativo com Césio-137 (Lei 9.425/1996), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Esses benefícios são custeados pelas contribuições previdenciárias vertidas ao RGPS, sujeitando-se, portanto, às mesmas fontes de custeio dos benefícios comuns pagos pelo INSS.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A pensão especial do ex-combatente e a pensão especial das vítimas do Césio-137 são pagas pelo INSS, na condição de agente operador, com recursos do Tesouro Nacional, independentemente de filiação ou de contribuição ao RGPS por parte dos beneficiários.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Ambos os benefícios exigem o cumprimento de carência de 180 contribuições mensais, por se tratar de pensões de caráter vitalício.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A pensão especial de ex-combatente somente pode ser concedida cumulativamente com proventos de aposentadoria, sendo vedada qualquer outra forma de percepção do benefício.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A pensão especial das vítimas do Césio-137 tem natureza temporária, extinguindo-se automaticamente cinco anos após a sua concessão administrativa.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Ex-combatente e vítimas do Césio-137 são dois exemplos clássicos de benefícios de legislação especial ligados a eventos históricos brasileiros (a Segunda Guerra Mundial e o acidente radioativo de Goiânia de 1987), e a prova gosta de testar se o candidato sabe de onde vem o dinheiro que paga esses benefícios.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Pensão especial do ex-combatente (Lei 8.059/1990)</h4><p>É devida, em caráter <strong>pessoal e intransferível</strong> quanto ao seu fundamento (com reflexos aos dependentes em caso de morte, conforme a lei), aos que comprovadamente participaram de <strong>operações bélicas</strong> como integrantes das Forças Armadas brasileiras durante a Segunda Guerra Mundial. Trata-se de reconhecimento e reparação pelo serviço prestado ao país em contexto de guerra, sendo o INSS o órgão responsável por processar e pagar o benefício, ainda que o ex-combatente nunca tenha sido filiado ao RGPS como segurado comum.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca tenta fazer o candidato acreditar que esse benefício segue as regras comuns de acumulação de benefícios do RGPS — na verdade, a lei específica traz regras próprias de acumulação/dedução, distintas da regra geral.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Pensão especial das vítimas do Césio-137 (Lei 9.425/1996)</h4><p>Instituída em favor das pessoas diretamente atingidas pela radiação decorrente do acidente radioativo ocorrido em Goiânia, envolvendo uma fonte de Césio-137, em 1987. É pensão <strong>mensal, vitalícia</strong>, com valor fixado conforme o grau de contaminação/comprometimento de saúde de cada vítima, sendo estendida aos dependentes em caso de morte do titular, nos termos da lei específica.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Fonte de custeio: Tesouro Nacional</h4><p>Assim como os demais benefícios de legislação especial, tanto a pensão do ex-combatente quanto a pensão das vítimas do Césio-137 são pagas com recursos do <strong>Tesouro Nacional</strong> (orçamento fiscal da União), e não com recursos do orçamento da Seguridade Social nem de contribuições previdenciárias dos próprios beneficiários. O INSS atua nesses casos como <strong>agente operador</strong>, processando e pagando o benefício por delegação legal, sem que isso desnature sua origem fiscal.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Independência de carência e de filiação ao RGPS</h4><p>Por não serem benefícios comuns do RGPS, esses dois benefícios independem de <strong>carência</strong> e independem de o beneficiário ter sido, em algum momento, segurado filiado e contribuinte do RGPS. O que se exige é o preenchimento dos requisitos próprios de cada lei especial (comprovação de participação em operações bélicas, no caso do ex-combatente; comprovação de contaminação, no caso do Césio-137).</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que benefícios de legislação especial são pagos com recursos do Tesouro Nacional, não do RGPS. 2) Lembrar que o INSS atua apenas como agente operador/pagador nesses casos. 3) Eliminar alternativas que exijam carência, contribuição ou filiação prévia ao RGPS, típicas de benefícios comuns.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Ambos os benefícios (Lei 8.059/1990 e Lei 9.425/1996) são pagos pelo INSS como agente operador, com recursos do Tesouro Nacional, e não dependem de filiação ou contribuição ao RGPS por parte do beneficiário.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — custeio pelo RGPS</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa qualquer benefício pago pelo INSS ao custeio comum do RGPS.<br><strong>Onde quebra:</strong> esses benefícios especiais são custeados pelo Tesouro Nacional, e não pelas contribuições previdenciárias do RGPS.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — carência de 180 contribuições</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> 180 contribuições é a carência de benefícios comuns como a aposentadoria por idade, e o candidato generaliza essa regra para qualquer pensão vitalícia.<br><strong>Onde quebra:</strong> benefícios de legislação especial não exigem carência, pois têm natureza indenizatória, não contributiva.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — só cumulativo com aposentadoria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa como uma regra específica plausível de acumulação.<br><strong>Onde quebra:</strong> a afirmação inverte e distorce as regras próprias de acumulação da Lei 8.059/1990, que não restringem o benefício apenas a essa hipótese.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — extinção automática em 5 anos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato imagina um prazo de revisão médica periódica, comum em benefícios por incapacidade.<br><strong>Onde quebra:</strong> a pensão das vítimas do Césio-137 é vitalícia, sem prazo de extinção automática.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Toda vez que a questão falar em benefício de \"legislação especial\" pago pelo INSS, pense automaticamente em \"Tesouro Nacional + sem carência + INSS como mero operador\" — esse é o padrão que se repete em quase todas as leis desse grupo.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-medal",
+      "titulo": "Pensão especial do ex-combatente",
+      "text": "Benefício da Lei 8.059/1990 devido a quem comprovadamente participou de operações bélicas na Segunda Guerra Mundial."
+    },
+    {
+      "icone": "fa-radiation",
+      "titulo": "Pensão especial das vítimas do Césio-137",
+      "text": "Benefício da Lei 9.425/1996 devido às pessoas atingidas pela radiação do acidente com Césio-137 em Goiânia, em 1987."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Custeio pelo Tesouro Nacional",
+      "text": "Benefícios de legislação especial são pagos com recursos do orçamento fiscal da União, e não do orçamento da Seguridade Social."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "INSS como agente operador",
+      "text": "Nesses benefícios, o INSS processa e paga o benefício por delegação legal, sem que isso o torne benefício comum do RGPS."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Dispensa de carência e de filiação",
+      "text": "Não se exige carência nem filiação prévia ao RGPS para a concessão desses benefícios especiais."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q204",
+  "numero": "Questão 24",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Benefícios de Legislações Especiais",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Reparação Econômica ao Anistiado Político e Pensão Especial da Hanseníase",
+  "tags": [
+    "anistiado político",
+    "hanseníase",
+    "Lei 10.559/2002",
+    "Lei 11.520/2007",
+    "pensão especial",
+    "isolamento compulsório"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Pedro, reconhecido pela Comissão de Anistia do Ministério da Justiça como anistiado político em razão de perseguição sofrida durante regime de exceção, obteve reparação econômica em prestação mensal, permanente e continuada. Rita, por sua vez, foi diagnosticada com hanseníase ainda jovem e submetida a isolamento e internação compulsórios em hospital-colônia até 1986, requerendo posteriormente a pensão especial destinada a essas vítimas.<br><br>Comparando a reparação econômica por anistia política (Lei 10.559/2002) com a pensão especial destinada aos portadores de hanseníase submetidos a isolamento e internação compulsórios (Lei 11.520/2007), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Ambos os benefícios geram, automaticamente e sem qualquer restrição, pensão por morte aos dependentes do titular, caso este venha a falecer.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A pensão especial da hanseníase é mensal, vitalícia e intransferível, não gerando direito à pensão por morte aos dependentes, e pode ser acumulada com outros benefícios previdenciários ou assistenciais.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "A reparação econômica do anistiado político é sempre paga em parcela única, sendo vedada por lei sua conversão em prestação mensal, permanente e continuada.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A pensão especial da hanseníase exige, nos moldes do Benefício de Prestação Continuada, a comprovação de renda familiar per capita inferior a um quarto do salário mínimo.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Ambos os benefícios são concedidos exclusivamente pelo INSS, mediante comprovação de tempo mínimo de contribuição de 15 anos ao RGPS.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>Anistiado político e pensão especial da hanseníase são dois benefícios de reparação histórica que costumam ser cobrados em conjunto porque exigem do candidato saber quem concede cada um, se geram pensão por morte e se podem ser acumulados com outros benefícios.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Reparação econômica ao anistiado político (Lei 10.559/2002)</h4><p>Regulamenta o art. 8º do Ato das Disposições Constitucionais Transitórias e disciplina o <strong>Regime do Anistiado Político</strong>, reconhecendo o direito à reparação econômica de caráter indenizatório a quem, por motivação exclusivamente política, foi atingido por atos de exceção. A reparação pode ser paga em <strong>prestação única</strong> ou em <strong>prestação mensal, permanente e continuada</strong> (assemelhada a uma pensão), a critério do Ministro de Estado da Justiça, com base em parecer da <strong>Comissão de Anistia</strong>. Não é o INSS quem reconhece a condição de anistiado, embora o pagamento da prestação mensal costume ser operacionalizado com apoio de folha de pagamento previdenciária.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca afirma que a reparação é sempre em parcela única — na verdade, a lei prevê expressamente as duas modalidades, sendo a prestação mensal, permanente e continuada bastante comum.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Pensão especial da hanseníase (Lei 11.520/2007)</h4><p>Institui pensão especial, <strong>mensal, vitalícia e intransferível</strong>, no valor de um salário mínimo, devida à pessoa atingida pela hanseníase que foi submetida a <strong>isolamento e internação compulsórios</strong> em hospitais-colônia até 31 de dezembro de 1986. Por ser <strong>intransferível</strong>, essa pensão se extingue com a morte do titular, não gerando pensão por morte aos seus dependentes. O requerimento é apresentado ao INSS, mas o fundamento e a finalidade são de reparação histórica a uma política sanitária de segregação compulsória.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Cumulação com outros benefícios</h4><p>A pensão especial da hanseníase pode ser <strong>acumulada</strong> com qualquer outro benefício previdenciário ou assistencial, inclusive de outro regime, já que tem natureza indenizatória e não substitui a renda do trabalho. Não se exige, portanto, renda familiar per capita nem ausência de outros benefícios para sua concessão, distinguindo-a claramente do BPC/LOAS.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Quem concede cada benefício</h4><p>A condição de <strong>anistiado político</strong> é reconhecida pelo <strong>Ministério da Justiça</strong>, por meio da Comissão de Anistia, e não pelo INSS. Já a pensão especial da hanseníase é <strong>requerida e concedida pelo INSS</strong>, mediante comprovação do isolamento/internação compulsórios no período legal.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que a pensão da hanseníase é intransferível (não gera pensão por morte) e cumulável com outros benefícios. 2) Lembrar que a reparação do anistiado político pode ser em parcela única OU em prestação mensal, permanente e continuada. 3) Lembrar que quem reconhece a anistia política é o Ministério da Justiça, não o INSS, e que nenhum dos dois benefícios exige tempo de contribuição.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A pensão especial da hanseníase (Lei 11.520/2007) é mensal, vitalícia e intransferível — não gera pensão por morte aos dependentes — e pode ser acumulada com outros benefícios previdenciários ou assistenciais, exatamente como descrito na alternativa.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — pensão por morte automática</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a palavra \"pensão\" remete à ideia de transmissão automática aos dependentes, como na pensão por morte comum do RGPS.<br><strong>Onde quebra:</strong> a pensão da hanseníase é intransferível por expressa disposição legal, extinguindo-se com a morte do titular.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — reparação sempre em parcela única</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o termo \"reparação\" soa como algo pago de uma só vez, como uma indenização civil comum.<br><strong>Onde quebra:</strong> a Lei 10.559/2002 prevê expressamente a possibilidade de prestação mensal, permanente e continuada, além da parcela única.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — exigência de renda per capita</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde a pensão especial da hanseníase com o BPC/LOAS, que de fato exige renda per capita inferior a 1/4 do salário mínimo.<br><strong>Onde quebra:</strong> a pensão da hanseníase não exige comprovação de renda, sendo devida a qualquer pessoa que comprove o isolamento/internação compulsórios.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — concessão exclusiva pelo INSS com 15 anos de contribuição</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta transformar os dois benefícios em aposentadorias comuns do RGPS.<br><strong>Onde quebra:</strong> a condição de anistiado político é reconhecida pelo Ministério da Justiça, não pelo INSS, e nenhum dos dois benefícios exige tempo de contribuição.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe a palavra-chave <strong>\"intransferível\"</strong> para a pensão da hanseníase — ela é o detalhe que a banca mais explora para tentar fazer o candidato marcar pensão por morte automática.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Reparação econômica do anistiado político",
+      "text": "Prevista na Lei 10.559/2002, pode ser paga em parcela única ou em prestação mensal, permanente e continuada, reconhecida pelo Ministério da Justiça."
+    },
+    {
+      "icone": "fa-hand-holding-medical",
+      "titulo": "Pensão especial da hanseníase",
+      "text": "Benefício mensal, vitalício e intransferível da Lei 11.520/2007, devido a quem foi isolado/internado compulsoriamente até 1986."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Intransferibilidade",
+      "text": "A pensão especial da hanseníase não gera pensão por morte aos dependentes, extinguindo-se com o falecimento do titular."
+    },
+    {
+      "icone": "fa-layer-group",
+      "titulo": "Cumulação permitida",
+      "text": "A pensão da hanseníase pode ser acumulada com outros benefícios previdenciários ou assistenciais, sem exigência de renda familiar."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "Órgão concedente",
+      "text": "A anistia política é reconhecida pela Comissão de Anistia do Ministério da Justiça, enquanto a pensão da hanseníase é requerida e concedida pelo INSS."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q205",
+  "numero": "Questão 25",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Benefícios de Legislações Especiais",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Pensão Especial da Síndrome Congênita do Zika Vírus e Seguro-Defeso do Pescador Artesanal",
+  "tags": [
+    "síndrome congênita do zika",
+    "seguro-defeso",
+    "Lei 13.985/2020",
+    "Lei 10.779/2003",
+    "pescador artesanal",
+    "pensão especial"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Luana nasceu em 2016 com microcefalia associada a infecção congênita pelo vírus Zika contraída por sua mãe durante a gestação, fazendo jus à pensão especial mensal e vitalícia instituída em seu favor. Já Manoel, pescador artesanal que exerce a pesca de forma individual e ininterrupta como sua única fonte de renda, requereu o seguro-defeso durante o período em que a pesca de determinada espécie fica proibida para preservação ambiental.<br><br>Sobre a pensão especial destinada às pessoas com síndrome congênita do vírus Zika (Lei 13.985/2020) e o seguro-defeso do pescador artesanal (Lei 10.779/2003), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O seguro-defeso é devido ao pescador artesanal que comprovadamente exerça a pesca de forma ininterrupta, artesanal e individual, sendo vedado seu recebimento cumulado com o exercício de outra atividade remunerada durante o período de defeso.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "A pensão especial da síndrome congênita do vírus Zika é devida exclusivamente aos genitores da criança acometida, como compensação pela redução de sua capacidade laboral em razão dos cuidados especiais exigidos pelo filho.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O seguro-defeso constitui benefício vitalício, pago mensalmente ao pescador artesanal enquanto perdurar sua filiação ao RGPS, independentemente da existência de período de defeso vigente.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A pensão especial da síndrome congênita do vírus Zika pode ser acumulada, sem necessidade de opção, com o Benefício de Prestação Continuada devido à mesma criança pela mesma deficiência.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Tanto o seguro-defeso quanto a pensão especial da síndrome congênita do vírus Zika são custeados exclusivamente pelas contribuições previdenciárias recolhidas pelo próprio beneficiário.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3'>A pensão da síndrome congênita do Zika é a mais recente das leis especiais estudadas para o INSS, e o seguro-defeso é um dos poucos benefícios especiais pagos com regularidade a um grupo profissional específico (o pescador artesanal) — ambos exploram detalhes de quem tem direito e em que condições o benefício se mantém.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>1.</span> Pensão especial da síndrome congênita do vírus Zika (Lei 13.985/2020)</h4><p>Institui pensão especial <strong>mensal e vitalícia</strong>, no valor de um salário mínimo, destinada à <strong>própria criança</strong> nascida com síndrome congênita decorrente da infecção pelo vírus Zika contraída por sua mãe durante a gestação, no período epidêmico. O benefício é devido ao titular acometido, e não aos seus genitores ou cuidadores, embora estes atuem como representantes legais no requerimento e recebimento. A concessão está sujeita a avaliação médica e social que confirme o diagnóstico e o comprometimento decorrente da síndrome.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-emerald-300'>Pegadinha de prova:</strong> a banca tenta transformar o benefício em uma compensação aos pais/cuidadores — na verdade, o titular do direito é a própria criança atingida pela síndrome.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>2.</span> Cumulação com o BPC/LOAS</h4><p>Quando a criança também preenche os requisitos do Benefício de Prestação Continuada (BPC/LOAS), a regra geral de benefícios especiais se aplica: o titular deve <strong>optar pelo benefício mais vantajoso</strong>, não havendo acumulação simultânea e irrestrita de ambos com base no mesmo fundamento de deficiência/incapacidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>3.</span> Seguro-defeso do pescador artesanal (Lei 10.779/2003)</h4><p>Consiste em benefício, equivalente a um salário mínimo mensal, devido ao <strong>pescador profissional artesanal</strong> que exerça a pesca de forma <strong>ininterrupta, individual e artesanal</strong>, como sua principal fonte de renda, durante o período de proibição da pesca (\"defeso\") fixado para preservar espécies em reprodução. É pago apenas durante a duração de cada período de defeso, renovando-se a cada nova temporada, e não constitui benefício vitalício.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-emerald-400'>4.</span> Vedações do seguro-defeso</h4><p>É <strong>vedado</strong> o recebimento do seguro-defeso cumulado com o exercício de qualquer outra atividade remunerada durante o período de defeso, bem como com outro benefício previdenciário, exceto pensão por morte e auxílio-acidente. O pescador também não pode estar em gozo de seguro-desemprego nem possuir embarcação com capacidade de pesca incompatível com a pesca artesanal.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-emerald-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que o seguro-defeso exige pesca artesanal, individual e ininterrupta, sendo vedada outra atividade remunerada no período. 2) Lembrar que a pensão do Zika é devida à própria criança, não aos pais. 3) Lembrar que o seguro-defeso é temporário (renovado a cada defeso), não vitalício. 4) Eliminar a ideia de acumulação irrestrita com o BPC e a ideia de custeio exclusivamente contributivo.</p></div><div class='bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2'><h4 class='font-bold text-emerald-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reproduz corretamente os requisitos do seguro-defeso (Lei 10.779/2003): pesca artesanal, individual e ininterrupta, com vedação de acumulação com outra atividade remunerada durante o período de defeso.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — pensão devida aos genitores</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa razoável compensar os pais pelo esforço extra de cuidado.<br><strong>Onde quebra:</strong> o titular da pensão especial do Zika é a própria criança atingida pela síndrome, e não seus genitores.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — seguro-defeso vitalício</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde o seguro-defeso com um benefício previdenciário permanente.<br><strong>Onde quebra:</strong> o seguro-defeso só é pago durante a vigência de cada período de defeso, renovando-se a cada nova temporada, e não enquanto durar a filiação ao RGPS.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — acumulação irrestrita com o BPC</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que benefícios de fundamentos diferentes sempre se acumulam livremente.<br><strong>Onde quebra:</strong> havendo direito a ambos com base na mesma deficiência, a regra geral impõe a opção pelo benefício mais vantajoso, e não a acumulação automática.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — custeio exclusivamente contributivo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza a lógica contributiva típica dos benefícios comuns do RGPS.<br><strong>Onde quebra:</strong> tanto o seguro-defeso quanto a pensão especial do Zika têm componente de custeio fiscal/orçamentário, não dependendo de contribuições diretas do próprio beneficiário para sua concessão.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Para o seguro-defeso, memorize o trio <strong>artesanal + individual + ininterrupta</strong>, e lembre que ele acompanha o calendário do defeso — não é benefício permanente como as demais pensões especiais estudadas.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-baby",
+      "titulo": "Pensão da síndrome congênita do Zika",
+      "text": "Pensão mensal e vitalícia (Lei 13.985/2020) devida à própria criança com síndrome congênita decorrente do vírus Zika."
+    },
+    {
+      "icone": "fa-fish",
+      "titulo": "Seguro-defeso",
+      "text": "Benefício mensal (Lei 10.779/2003) devido ao pescador artesanal durante o período de proibição da pesca de determinada espécie."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Natureza temporária do defeso",
+      "text": "O seguro-defeso é pago apenas durante a vigência de cada período de defeso, renovando-se a cada temporada."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Vedação de acumulação",
+      "text": "É vedado receber o seguro-defeso cumulado com outra atividade remunerada durante o período de defeso."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Opção pelo mais vantajoso",
+      "text": "Quando cabível mais de um benefício pelo mesmo fundamento, o titular deve optar pelo mais vantajoso, sem acumulação irrestrita."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q206",
+  "numero": "Questão 26",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Benefício de Prestação Continuada (BPC/LOAS)",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "BPC/LOAS: requisitos de idade, renda e natureza não contributiva",
+  "tags": [
+    "BPC",
+    "LOAS",
+    "assistência social",
+    "renda per capita",
+    "idoso",
+    "pessoa com deficiência"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marta, 66 anos de idade, nunca exerceu atividade remunerada nem verteu qualquer contribuição à Previdência Social. Reside sozinha, sem qualquer fonte de renda, e comprova, mediante inscrição no CadÚnico, renda familiar per capita inferior a 1/4 (um quarto) do salário-mínimo. Marta requer ao INSS um benefício mensal no valor de um salário-mínimo.<br><br>Com base na Lei nº 8.742/1993 (LOAS), assinale a alternativa que descreve corretamente o benefício cabível e suas características.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Trata-se de aposentadoria por idade rural, exigindo-se comprovação de 15 anos de contribuição na condição de segurada especial, dispensada a carência apenas para maiores de 70 anos.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Trata-se do BPC/LOAS, mas sua concessão depende do recolhimento de, no mínimo, 12 contribuições mensais ao RGPS, já que se trata de benefício previdenciário e não assistencial.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Trata-se do BPC/LOAS, benefício de natureza assistencial e não contributiva, no valor de um salário-mínimo, condicionado à comprovação de renda familiar per capita inferior a 1/4 do salário-mínimo, não sendo devido 13º salário nem gerando pensão por morte aos dependentes.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Trata-se do BPC/LOAS, benefício de natureza assistencial, pago mensalmente no valor de um salário-mínimo e acrescido de 13º salário proporcional, tal como ocorre com os benefícios previdenciários do RGPS.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Trata-se do BPC/LOAS, que pode ser concedido a partir dos 60 anos de idade, independentemente da renda familiar, bastando a comprovação da idade mínima perante o INSS.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          O Benefício de Prestação Continuada (BPC/LOAS) é um dos temas mais cobrados em provas de Técnico\n          do Seguro Social justamente por misturar Direito Previdenciário com Assistência Social — a banca\n          adora testar se o candidato confunde os dois regimes, já que o BPC é operacionalizado pelo INSS,\n          mas não é um benefício previdenciário.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Natureza jurídica</h4>\n          <p>\n            O BPC está previsto no art. 20 da <strong>Lei nº 8.742/1993 (LOAS)</strong>, que regulamenta o\n            art. 203, V, da Constituição Federal. É um benefício de <strong>assistência social</strong>,\n            não contributivo, integrante da Seguridade Social ao lado da Previdência e da Saúde, mas fora\n            do Regime Geral de Previdência Social (RGPS). Por isso, <strong>não exige carência nem\n            contribuição prévia</strong> — o direito nasce da comprovação de hipossuficiência, e não de\n            filiação ao regime previdenciário.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca costuma inserir exigência de\n            \"carência de 12 contribuições\" ou \"15 anos de contribuição\" no enunciado do BPC para confundir\n            com aposentadoria por idade. Não existe exigência de contribuição para o BPC.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Beneficiários e requisitos</h4>\n          <p>\n            O BPC é devido a duas categorias: (i) o <strong>idoso com 65 anos ou mais</strong> de idade\n            (art. 20, caput, c/c o Estatuto do Idoso) e (ii) a <strong>pessoa com deficiência</strong> de\n            longo prazo (impedimentos de natureza física, mental, intelectual ou sensorial que, em interação\n            com barreiras diversas, obstruam sua participação plena e efetiva na sociedade em igualdade de\n            condições, por prazo mínimo de dois anos). Em ambos os casos, exige-se a comprovação de que a\n            pessoa não possui meios de prover a própria manutenção nem de tê-la provida pela família.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Critério de miserabilidade (renda)</h4>\n          <p>\n            O critério legal objetivo é a <strong>renda familiar mensal per capita inferior a 1/4 (um\n            quarto) do salário-mínimo</strong>, apurada considerando o grupo familiar definido na LOAS\n            (cônjuge/companheiro, pais, filhos e irmãos não emancipados menores de 21 anos ou inválidos,\n            que vivam sob o mesmo teto). Esse critério legal é considerado pelo STF e pela jurisprudência\n            como <strong>não exaustivo</strong>: mesmo com renda per capita superior a 1/4 do salário-mínimo,\n            é possível comprovar a miserabilidade por outros meios de prova (estudo social, laudo,\n            despesas com medicamentos e tratamentos etc.), conforme entendimento consolidado do STF e\n            aplicado administrativamente pelo INSS.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Características do benefício</h4>\n          <p>\n            O BPC corresponde a <strong>um salário-mínimo mensal</strong>, é <strong>intransferível</strong>\n            (não gera pensão por morte aos dependentes) e <strong>não gera 13º salário</strong>, ao\n            contrário dos benefícios previdenciários do RGPS. É <strong>incessível e impenhorável</strong>\n            e deve ser <strong>revisto a cada 2 anos</strong> para verificar a continuidade das condições\n            que lhe deram origem. Também não pode ser acumulado com outro benefício da Seguridade Social\n            (previdenciário ou assistencial) da própria pessoa ou de outro membro da família, ressalvados\n            os casos expressamente previstos em lei (ex.: assistência médica, pensão especial de natureza\n            indenizatória e, mais recentemente, o auxílio-inclusão).\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> \"BPC com 13º salário\" é a troca\n            clássica — memorize que só benefício previdenciário do RGPS tem 13º (gratificação natalina).\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Identifique o benefício pelo perfil do enunciado: idoso, sem contribuição, renda baixíssima\n            → é BPC/LOAS, não aposentadoria. 2) Confira os requisitos objetivos citados (idade e renda per\n            capita) contra a regra legal. 3) Elimine alternativas que atribuam natureza contributiva,\n            carência ou 13º salário ao BPC — nenhuma dessas características existe nesse benefício.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa C — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Descreve com precisão o BPC/LOAS: benefício assistencial, não contributivo, de um\n            salário-mínimo, condicionado à renda familiar per capita inferior a 1/4 do salário-mínimo,\n            sem 13º salário e sem geração de pensão por morte — exatamente o regime do art. 20 da Lei\n            nº 8.742/1993.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — aposentadoria por idade rural com 15 anos de contribuição</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> mistura idade avançada com benefício previdenciário\n              real (aposentadoria por idade rural), levando o candidato a associar \"idade + baixa renda\"\n              a esse benefício.\n              <br>\n              <strong>Onde quebra:</strong> o enunciado deixa claro que Marta nunca contribuiu, o que\n              inviabiliza qualquer aposentadoria (que exige carência). O caso é de benefício assistencial,\n              não previdenciário.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — exige 12 contribuições mensais</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> \"12 contribuições\" é a carência clássica de vários\n              benefícios do RGPS, e o candidato pode transportar essa regra por associação automática.\n              <br>\n              <strong>Onde quebra:</strong> o BPC é assistencial, não previdenciário — não há carência\n              nem exigência de contribuição, sob pena de desvirtuar sua finalidade de proteção ao\n              hipossuficiente que nunca teve condições de contribuir.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — BPC com 13º salário</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato generaliza a regra do 13º, que existe para\n              a maioria dos benefícios previdenciários do RGPS, para todo e qualquer benefício mensal.\n              <br>\n              <strong>Onde quebra:</strong> a LOAS expressamente não prevê gratificação natalina para o\n              BPC, por não se tratar de benefício previdenciário custeado por contribuições.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — 60 anos, sem exigir renda</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde a idade mínima do BPC com a idade da\n              aposentadoria por idade urbana (65/62) ou com regras genéricas de \"idoso\" do Estatuto do\n              Idoso para outros fins (meia-passagem, prioridade etc.).\n              <br>\n              <strong>Onde quebra:</strong> para o BPC, a idade mínima é 65 anos, e o critério de renda\n              per capita inferior a 1/4 do salário-mínimo é requisito cumulativo e essencial, não dispensável.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Grave o \"tripé\" do BPC: <strong>65 anos (idoso) OU deficiência de longo prazo</strong> +\n            <strong>renda per capita &lt; 1/4 do salário-mínimo</strong> + <strong>sem 13º, sem pensão por\n            morte, revisão a cada 2 anos</strong>. Qualquer alternativa que fale em carência, contribuição\n            ou 13º salário associado ao BPC está errada.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "BPC/LOAS",
+      "text": "Benefício assistencial de um salário-mínimo, não contributivo, para idoso 65+ ou pessoa com deficiência em situação de miserabilidade."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Critério de renda",
+      "text": "Renda familiar per capita inferior a 1/4 do salário-mínimo, critério legal não exaustivo segundo o STF."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Grupo familiar",
+      "text": "Cônjuge/companheiro, pais, filhos e irmãos não emancipados menores de 21 anos ou inválidos, sob o mesmo teto."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Revisão bienal",
+      "text": "O BPC deve ser revisto a cada 2 anos para confirmar a continuidade das condições que autorizaram sua concessão."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Sem 13º e sem pensão",
+      "text": "O BPC não gera direito a gratificação natalina nem se transmite como pensão por morte aos dependentes."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q207",
+  "numero": "Questão 27",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Auxílio-Inclusão da Pessoa com Deficiência",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Auxílio-inclusão: efeito da inserção no mercado de trabalho sobre o BPC",
+  "tags": [
+    "auxílio-inclusão",
+    "Lei 14.176/2021",
+    "BPC",
+    "pessoa com deficiência",
+    "trabalho formal"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "João, pessoa com deficiência moderada, é beneficiário do BPC/LOAS há três anos. Ele é contratado por uma empresa mediante carteira assinada, passando a exercer atividade remunerada e a contribuir como segurado obrigatório do RGPS.<br><br>À luz da Lei nº 8.742/1993, com a redação dada pela Lei nº 14.176/2021 (que instituiu o auxílio-inclusão), assinale a alternativa correta sobre a situação de João.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O BPC de João é automaticamente cancelado e não poderá ser restabelecido no futuro, ainda que ele venha a ser demitido, devendo, nesse caso, requerer o benefício novamente do zero, com nova avaliação da deficiência.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O BPC de João fica suspenso, e não cancelado, enquanto ele exercer a atividade remunerada, passando a ser devido o auxílio-inclusão, no valor correspondente a 50% do BPC que recebia, cumulável com a remuneração do trabalho.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "João passará a receber, cumulativamente, o BPC integral e o auxílio-inclusão, ambos no valor de um salário-mínimo, totalizando dois salários-mínimos mensais enquanto durar o vínculo empregatício.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O auxílio-inclusão é benefício previdenciário contributivo, sujeito a carência de 12 contribuições mensais, não guardando qualquer relação com o histórico de recebimento do BPC.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O auxílio-inclusão somente é cabível para pessoas com deficiência classificada como grave, não se aplicando a João, cuja deficiência é classificada como moderada.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          O auxílio-inclusão é novidade legislativa recente (Lei nº 14.176/2021) e resolve um problema\n          histórico do BPC: o \"medo de trabalhar\" da pessoa com deficiência, que perdia o benefício\n          assistencial ao ser contratada. É tema certo em provas atualizadas de Técnico do Seguro Social.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Problema que o auxílio-inclusão resolve</h4>\n          <p>\n            Antes da Lei nº 14.176/2021, a pessoa com deficiência beneficiária do BPC que passasse a\n            trabalhar formalmente perdia o BPC por ultrapassar o critério de renda per capita, o que\n            desestimulava a inclusão no mercado de trabalho. A lei criou um mecanismo de transição: em vez\n            de cancelamento, o BPC é <strong>suspenso</strong>, e a pessoa passa a receber um novo benefício,\n            o <strong>auxílio-inclusão</strong>, cumulável com a remuneração do trabalho.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Requisitos e valor</h4>\n          <p>\n            O auxílio-inclusão é devido à pessoa com deficiência <strong>moderada ou grave</strong> que era\n            beneficiária do BPC e que passa a exercer atividade remunerada, inclusive na condição de\n            microempreendedor individual, mantendo a qualidade de beneficiária. O valor corresponde a\n            <strong>50% do valor do BPC</strong> que a pessoa recebia (ou seja, cerca de meio\n            salário-mínimo), sendo <strong>cumulável com a remuneração da atividade laboral</strong>.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca troca \"suspenso\" por\n            \"cancelado\" e \"50%\" por \"100%\" — atenção redobrada a esses dois pontos, que são o coração da\n            pegadinha nesse tema.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Retorno ao BPC</h4>\n          <p>\n            Justamente por ser hipótese de <strong>suspensão</strong> (e não extinção) do BPC, se a pessoa\n            deixar o vínculo empregatício, o benefício assistencial pode ser <strong>reativado</strong>,\n            sem necessidade de nova submissão a todo o processo de habilitação inicial, respeitadas as\n            condições legais e regulamentares vigentes à época do retorno.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Natureza jurídica</h4>\n          <p>\n            Assim como o BPC, o auxílio-inclusão é benefício de <strong>assistência social</strong>, e não\n            benefício previdenciário contributivo — não se confunde com auxílio por incapacidade temporária\n            nem exige carência de contribuições. Ele decorre diretamente da condição pregressa de\n            beneficiário do BPC.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Verifique o efeito do trabalho sobre o BPC: suspensão, não cancelamento. 2) Confira o\n            percentual do novo benefício (50%, não 100%). 3) Elimine alternativas que exijam carência\n            contributiva ou que restrinjam o benefício apenas à deficiência grave — a lei abrange moderada\n            e grave.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa B — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            É exatamente o regime da Lei nº 14.176/2021: o BPC fica suspenso (preservando o vínculo com o\n            benefício assistencial), e passa a ser devido o auxílio-inclusão, de 50% do valor do BPC,\n            cumulável com a remuneração do trabalho de João.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — cancelamento definitivo do BPC</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> reproduz a lógica antiga (pré-2021), em que trabalhar\n              formalmente de fato levava à perda definitiva do BPC por superação da renda.\n              <br>\n              <strong>Onde quebra:</strong> a Lei nº 14.176/2021 alterou exatamente esse ponto — hoje é\n              suspensão, com possibilidade de retorno ao BPC caso o vínculo empregatício termine.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — acumulação de BPC integral + auxílio-inclusão</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato pode supor que \"manter parte do BPC\"\n              significa manter os dois benefícios cheios simultaneamente.\n              <br>\n              <strong>Onde quebra:</strong> o BPC fica suspenso (não é pago) enquanto durar a atividade\n              remunerada; o que é pago é apenas o auxílio-inclusão, de 50% do valor do BPC.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — benefício contributivo com carência</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> tenta associar o auxílio-inclusão aos benefícios\n              comuns do RGPS, que exigem carência.\n              <br>\n              <strong>Onde quebra:</strong> o auxílio-inclusão é benefício assistencial, decorrente\n              diretamente da condição de ex-beneficiário do BPC, sem exigência de carência contributiva\n              própria.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — só para deficiência grave</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> a banca explora a ideia de que só o grau mais severo\n              de deficiência gera direitos assistenciais reforçados.\n              <br>\n              <strong>Onde quebra:</strong> a lei abrange expressamente a pessoa com deficiência\n              <strong>moderada ou grave</strong>, de modo que João, com deficiência moderada, tem direito\n              ao auxílio-inclusão.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Fixe o mnemônico \"SUSPENDE e reduz pela METADE\": trabalho formal → BPC suspenso (não cancelado)\n            → auxílio-inclusão de 50% → cumulável com o salário. Isso resolve praticamente qualquer questão\n            sobre o tema.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-briefcase",
+      "titulo": "Auxílio-inclusão",
+      "text": "Benefício assistencial de 50% do BPC, devido à pessoa com deficiência moderada/grave que passa a trabalhar formalmente."
+    },
+    {
+      "icone": "fa-pause",
+      "titulo": "Suspensão, não cancelamento",
+      "text": "O BPC é suspenso enquanto dura a atividade remunerada, podendo ser reativado se o vínculo empregatício cessar."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Cumulação com salário",
+      "text": "O auxílio-inclusão é cumulável com a remuneração do trabalho, diferentemente do BPC integral."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Grau de deficiência",
+      "text": "Aplica-se à deficiência moderada ou grave, apurada por avaliação biopsicossocial."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 14.176/2021",
+      "text": "Diploma que alterou a Lei 8.742/1993 (LOAS) para instituir o auxílio-inclusão."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q208",
+  "numero": "Questão 28",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / RGPS, RPPS e Contagem Recíproca de Tempo de Contribuição",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Contagem recíproca de tempo de contribuição entre RGPS e RPPS",
+  "tags": [
+    "RGPS",
+    "RPPS",
+    "CTC",
+    "contagem recíproca",
+    "compensação previdenciária"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Pedro trabalhou 10 anos na iniciativa privada, filiado ao Regime Geral de Previdência Social (RGPS) como empregado, e, em seguida, tomou posse em cargo público efetivo, passando a ser vinculado ao Regime Próprio de Previdência Social (RPPS) do respectivo ente federativo. Ao se aproximar da aposentadoria pelo RPPS, Pedro deseja que o tempo de contribuição anteriormente vertido ao RGPS seja aproveitado no cômputo de sua aposentadoria no serviço público.<br><br>Acerca do instituto aplicável a essa situação, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O aproveitamento é automático e informal, bastando a declaração do próprio segurado sobre o tempo trabalhado na iniciativa privada, sem necessidade de qualquer documento expedido pelo INSS.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "É vedada constitucionalmente qualquer forma de aproveitamento de tempo de contribuição entre o RGPS e RPPS, por se tratar de regimes previdenciários totalmente incomunicáveis entre si.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Pedro poderá utilizar o mesmo período de contribuição ao RGPS tanto para fins de eventual benefício por incapacidade concedido pelo INSS quanto para a aposentadoria pelo RPPS, de forma concomitante, sem qualquer óbice legal.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Trata-se de hipótese de contagem recíproca de tempo de contribuição, prevista na Constituição Federal, mediante a expedição, pelo INSS, de Certidão de Tempo de Contribuição (CTC) relativa ao período no RGPS, vedada a contagem em dobro ou de tempo concomitante.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "A contagem recíproca somente é admitida quando o RPPS de destino for o da União, não se aplicando a regimes próprios instituídos por estados, Distrito Federal ou municípios.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          Trânsito entre iniciativa privada e serviço público é extremamente comum na vida real, e o tema\n          \"RGPS x RPPS + contagem recíproca\" é recorrente em provas de Técnico do Seguro Social porque\n          exige que o candidato entenda a arquitetura constitucional da Previdência brasileira, não apenas\n          a lei do INSS isoladamente.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> RGPS x RPPS: dois regimes distintos</h4>\n          <p>\n            O <strong>RGPS</strong> (Regime Geral de Previdência Social) é administrado pelo INSS e abrange,\n            em regra, trabalhadores da iniciativa privada, autônomos, contribuintes individuais e servidores\n            públicos que não tenham regime próprio. Já o <strong>RPPS</strong> (Regime Próprio de Previdência\n            Social) é instituído pela União, Estados, Distrito Federal ou Municípios para seus servidores\n            titulares de cargo efetivo, com regras e órgão gestor próprios (institutos de previdência), nos\n            termos do art. 40 da Constituição Federal. São regimes distintos, com fontes de custeio e\n            regras de benefício próprias.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Contagem recíproca de tempo de contribuição</h4>\n          <p>\n            A própria Constituição Federal (art. 201, §9º) assegura a <strong>contagem recíproca</strong>\n            do tempo de contribuição entre o RGPS e os RPPS, e entre estes entre si, para fins de\n            aposentadoria, compensando-se financeiramente os regimes entre si, conforme critérios\n            estabelecidos em lei. É a garantia de que o trabalhador não \"perde\" o tempo contribuído em um\n            regime ao migrar para outro.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a contagem recíproca serve apenas\n            para fins de <strong>tempo de contribuição</strong> visando aposentadoria — não serve para\n            \"somar carência\" de benefícios por incapacidade ou outros benefícios que exigem qualidade de\n            segurado no regime de origem.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Certidão de Tempo de Contribuição (CTC)</h4>\n          <p>\n            O instrumento formal que viabiliza a contagem recíproca é a <strong>Certidão de Tempo de\n            Contribuição (CTC)</strong>, documento expedido pelo regime de origem (no caso, o INSS, para\n            períodos de RGPS) que certifica o tempo de contribuição do segurado, para que o regime de\n            destino (o RPPS) possa averbá-lo e utilizá-lo no cálculo da aposentadoria. Não há\n            aproveitamento automático sem esse documento.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Vedações</h4>\n          <p>\n            É <strong>vedada a contagem de tempo de contribuição fictício</strong> e a <strong>contagem em\n            dobro ou concomitante</strong> de um mesmo período (ou seja, o mesmo intervalo de tempo não\n            pode ser usado simultaneamente para gerar direitos em dois regimes ao mesmo tempo). Também é\n            vedado o cômputo do tempo em que o segurado esteve simultaneamente vinculado a mais de um\n            regime, para fins de contagem em dobro.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Reconheça a situação como trânsito entre regimes (RGPS → RPPS), gatilho clássico da\n            contagem recíproca. 2) Lembre do documento formal exigido: a CTC. 3) Elimine alternativas\n            que neguem o instituto, que dispensem formalidade, ou que permitam uso duplicado/concomitante\n            do mesmo período.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa D — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Descreve corretamente o instituto: contagem recíproca prevista na CF (art. 201, §9º),\n            formalizada por CTC expedida pelo INSS para o período de RGPS, com vedação expressa à contagem\n            em dobro ou de tempo concomitante.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — aproveitamento automático por mera declaração</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o candidato pode supor que, como o próprio INSS tem\n              o histórico contributivo (CNIS), bastaria uma simples declaração para o novo regime.\n              <br>\n              <strong>Onde quebra:</strong> a formalização exige documento próprio — a CTC —, expedido pelo\n              regime de origem, para segurança jurídica de ambos os regimes envolvidos.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — vedação absoluta entre RGPS e RPPS</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> por serem regimes distintos, com fontes de custeio\n              próprias, pode parecer intuitivo que sejam incomunicáveis.\n              <br>\n              <strong>Onde quebra:</strong> a própria Constituição Federal assegura expressamente a\n              contagem recíproca entre RGPS e RPPS, com compensação financeira entre os regimes — é o\n              oposto de uma vedação absoluta.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — uso concomitante do mesmo período em dois benefícios</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> tenta generalizar a ideia de \"aproveitamento de tempo\"\n              para qualquer finalidade, inclusive benefícios por incapacidade.\n              <br>\n              <strong>Onde quebra:</strong> a contagem recíproca destina-se a tempo de contribuição para\n              aposentadoria, sendo vedada a contagem em dobro/concomitante do mesmo período para gerar\n              dois benefícios distintos ao mesmo tempo.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — só se aplica ao RPPS da União</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> tenta restringir o alcance do instituto a um único\n              ente federativo, testando se o candidato sabe que existem RPPS estaduais e municipais.\n              <br>\n              <strong>Onde quebra:</strong> a contagem recíproca aplica-se a qualquer RPPS validamente\n              instituído por União, Estados, Distrito Federal ou Municípios, não havendo essa restrição.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Associe sempre: contagem recíproca = <strong>CTC</strong> + <strong>compensação financeira\n            entre regimes</strong> + <strong>proibição de dobra/concomitância</strong>. Se a alternativa\n            quebrar qualquer um desses três pilares, está errada.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-building-columns",
+      "titulo": "RGPS",
+      "text": "Regime Geral de Previdência Social, administrado pelo INSS, para trabalhadores da iniciativa privada e demais segurados sem regime próprio."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "RPPS",
+      "text": "Regime Próprio de Previdência Social, instituído por ente federativo para seus servidores titulares de cargo efetivo (art. 40 da CF)."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "CTC",
+      "text": "Certidão de Tempo de Contribuição, documento que formaliza o tempo contribuído em um regime para uso em outro."
+    },
+    {
+      "icone": "fa-arrows-turn-to-dots",
+      "titulo": "Contagem recíproca",
+      "text": "Instituto constitucional (art. 201, §9º da CF) que permite o aproveitamento de tempo de contribuição entre RGPS e RPPS."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Vedação à contagem em dobro",
+      "text": "É proibido usar o mesmo período de tempo de forma concomitante para gerar benefícios em dois regimes distintos."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q209",
+  "numero": "Questão 29",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Compensação Financeira entre Regimes Previdenciários",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Compensação financeira entre regimes previdenciários (Lei 9.796/1999 e Decreto 10.188/2019)",
+  "tags": [
+    "compensação previdenciária",
+    "Lei 9.796/1999",
+    "Decreto 10.188/2019",
+    "regime instituidor",
+    "regime de origem"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Carla contribuiu 8 anos para o RPPS de um município, na condição de servidora efetiva, e, após exonerar-se do cargo, filiou-se ao RGPS como empregada da iniciativa privada, onde completou os demais anos necessários para se aposentar. Sua aposentadoria foi concedida pelo INSS, computando-se, mediante CTC, o tempo anteriormente contribuído ao RPPS municipal.<br><br>Com base na sistemática da compensação financeira entre regimes previdenciários (Lei nº 9.796/1999 e Decreto nº 10.188/2019), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O INSS, na condição de regime instituidor (que concede e paga o benefício), tem direito a receber do RPPS municipal, regime de origem, a compensação financeira proporcional ao tempo de contribuição ali cumprido por Carla, sem qualquer ônus adicional a ela.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "O RPPS municipal deve pagar diretamente a Carla, todo mês, a parcela do benefício correspondente ao tempo contribuído naquele regime, cabendo ao INSS pagar apenas a parte restante.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A compensação financeira entre regimes somente ocorre do RPPS para o RGPS, nunca no sentido inverso, já que apenas os regimes próprios possuem excedente financeiro a repassar ao regime geral.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A compensação financeira é automática e dispensa a expedição de Certidão de Tempo de Contribuição, bastando o simples reconhecimento verbal do vínculo pelo ente municipal.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Cabe a Carla, e não aos entes previdenciários envolvidos, reclamar e receber diretamente do RPPS municipal os valores da compensação financeira devidos ao regime que lhe concedeu a aposentadoria.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          Enquanto a contagem recíproca resolve o problema do segurado (aproveitar o tempo), a compensação\n          previdenciária resolve o problema entre os regimes (quem paga a conta desse aproveitamento). São\n          institutos complementares e a banca gosta de testar se o candidato entende que essa relação\n          financeira é entre os regimes, e não do regime diretamente com o segurado.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Fundamento e finalidade</h4>\n          <p>\n            A <strong>compensação financeira entre regimes previdenciários</strong> é disciplinada pela\n            <strong>Lei nº 9.796/1999</strong> e, atualmente, regulamentada pelo <strong>Decreto nº\n            10.188/2019</strong>. Sua finalidade é reequilibrar financeiramente os regimes quando o\n            segurado utiliza, mediante contagem recíproca, tempo de contribuição vertido a um regime para\n            se aposentar em outro: o regime que efetivamente paga o benefício é ressarcido, pelo regime em\n            que o tempo foi originalmente contribuído, na proporção correspondente.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Regime instituidor x regime de origem</h4>\n          <p>\n            Chama-se <strong>regime instituidor</strong> (ou concessor) aquele que <strong>concede e paga\n            integralmente</strong> o benefício ao segurado. Chama-se <strong>regime de origem (ou\n            instituidor do tempo)</strong> aquele em que o segurado contribuiu anteriormente e cujo tempo\n            foi aproveitado, via CTC, no regime instituidor. O regime de origem deve <strong>repassar ao\n            regime instituidor</strong> os valores proporcionais ao tempo de contribuição ali cumprido,\n            calculados segundo metodologia definida em regulamento.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a compensação é sempre entre os\n            <strong>regimes</strong> (RGPS ↔ RPPS, ou entre RPPS diferentes) — o segurado nunca é parte\n            dessa relação financeira, que não lhe gera ônus nem lhe é paga diretamente.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Direção da compensação</h4>\n          <p>\n            A compensação pode ocorrer em <strong>qualquer direção</strong>: do RPPS para o RGPS (como no\n            caso de Carla), do RGPS para o RPPS (quando um servidor aposentado pelo RPPS aproveitou tempo\n            de contribuição anterior no RGPS) ou entre dois RPPS distintos. O que define quem paga e quem\n            recebe é, respectivamente, o papel de regime de origem e regime instituidor em cada caso\n            concreto, não a natureza do regime em si.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Base documental</h4>\n          <p>\n            A compensação pressupõe, necessariamente, a existência da <strong>CTC</strong> que originou o\n            aproveitamento do tempo de contribuição, servindo essa certidão de base para o cálculo e o\n            controle dos valores devidos entre os regimes envolvidos, em procedimento próprio regulado pelo\n            Decreto nº 10.188/2019.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Identifique quem paga o benefício ao segurado (regime instituidor) e quem \"deve\" tempo a\n            esse regime (regime de origem). 2) Lembre que a relação financeira é sempre entre os regimes,\n            nunca diretamente com o segurado. 3) Elimine alternativas que invertam os papéis, que tornem a\n            compensação unidirecional ou que dispensem a CTC.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa A — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Retrata corretamente a lógica da compensação: o INSS (RGPS), como regime instituidor que\n            concede e paga o benefício, tem direito a ser ressarcido pelo RPPS municipal (regime de\n            origem) na proporção do tempo ali contribuído, sem qualquer repercussão financeira para Carla.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — RPPS paga parcela diretamente a Carla</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> parece lógico \"dividir\" o pagamento proporcionalmente\n              entre os regimes em que a pessoa contribuiu.\n              <br>\n              <strong>Onde quebra:</strong> quem paga o benefício integralmente ao segurado é sempre o\n              regime instituidor (aqui, o INSS); a compensação é um acerto de contas exclusivamente entre\n              os regimes, não um pagamento fracionado ao beneficiário.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — compensação só de RPPS para RGPS</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> o exemplo do enunciado é justamente nesse sentido,\n              levando à generalização indevida.\n              <br>\n              <strong>Onde quebra:</strong> a compensação é bidirecional: pode correr do RGPS para o RPPS,\n              ou entre RPPS diferentes, dependendo de qual regime concedeu o benefício e qual é a origem\n              do tempo aproveitado.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — dispensa de CTC</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> passa a impressão de que, sendo entes públicos, um\n              \"reconhecimento verbal\" ou administrativo simplificado bastaria.\n              <br>\n              <strong>Onde quebra:</strong> a CTC é a base documental indispensável tanto para a contagem\n              recíproca quanto para o cálculo dos valores da compensação financeira entre os regimes.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa E — segurada cobra diretamente o RPPS</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde o direito ao benefício (que é de Carla) com o\n              direito ao ressarcimento financeiro entre regimes (que não é dela).\n              <br>\n              <strong>Onde quebra:</strong> a compensação é relação exclusivamente entre os entes\n              previdenciários (INSS e RPPS municipal); Carla não tem legitimidade nem interesse direto\n              nessa cobrança, já recebendo seu benefício integralmente do regime instituidor.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Decore o par: <strong>regime instituidor paga o segurado</strong>; <strong>regime de origem\n            reembolsa o regime instituidor</strong>. O segurado nunca aparece como parte na relação de\n            compensação — ele só recebe o benefício, normalmente, do regime que o concedeu.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Compensação previdenciária",
+      "text": "Mecanismo de ressarcimento financeiro entre regimes de previdência quando há aproveitamento de tempo de contribuição via contagem recíproca."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 9.796/1999",
+      "text": "Lei que disciplina a compensação financeira entre o RGPS e os regimes próprios de previdência social."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Decreto 10.188/2019",
+      "text": "Decreto que regulamenta atualmente o procedimento e os cálculos da compensação financeira entre regimes."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Regime instituidor",
+      "text": "Regime que concede e paga integralmente o benefício ao segurado, tendo direito ao ressarcimento."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "Regime de origem",
+      "text": "Regime em que o tempo de contribuição foi originalmente cumprido e que deve repassar valores ao regime instituidor."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q210",
+  "numero": "Questão 30",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Previdenciário",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-previdenciario",
+  "materia": "Direito Previdenciário / Aposentadoria da Pessoa com Deficiência (LC 142/2013)",
+  "materiaCor": "emerald",
+  "materiaIcone": "fa-piggy-bank",
+  "titulo": "Aposentadoria por tempo de contribuição da pessoa com deficiência: critérios por grau",
+  "tags": [
+    "LC 142/2013",
+    "aposentadoria da pessoa com deficiência",
+    "grau de deficiência",
+    "avaliação biopsicossocial"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Rogério, segurado do RGPS, é pessoa com deficiência classificada, mediante avaliação médica e funcional (biopsicossocial), como de <strong>grau grave</strong> durante praticamente todo o período contributivo. Ele completou 25 anos de tempo de contribuição e deseja requerer aposentadoria com base na Lei Complementar nº 142/2013.<br><br>Assinale a alternativa correta a respeito da aposentadoria por tempo de contribuição da pessoa com deficiência.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Rogério não tem direito a regra diferenciada, pois a LC 142/2013 somente disciplina a aposentadoria por idade da pessoa com deficiência, não havendo modalidade de aposentadoria por tempo de contribuição para esse público.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Como se trata de benefício de natureza assistencial, Rogério não precisa comprovar tempo de contribuição algum, bastando a comprovação da deficiência grave perante o INSS.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Para deficiência grave, a LC 142/2013 exige 33 anos de contribuição para homens e 28 anos para mulheres, de modo que Rogério, com 25 anos, ainda não completou o tempo mínimo exigido.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O grau de deficiência, uma vez fixado na primeira avaliação biopsicossocial realizada pelo INSS, é definitivo e vitalício, não podendo ser objeto de nova avaliação em momento posterior, ainda que haja variação da condição do segurado.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Para deficiência grave, a LC 142/2013 exige 25 anos de contribuição para homens e 20 anos para mulheres, de modo que Rogério, com 25 anos de contribuição e deficiência grave durante praticamente todo o período, preenche o requisito temporal para a aposentadoria.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "\n      <div class=\"space-y-5 text-sm text-slate-200 leading-relaxed\">\n\n        <p class=\"text-slate-400 text-xs italic border-l-2 border-emerald-500 pl-3\">\n          A aposentadoria da pessoa com deficiência é um dos benefícios previdenciários (contributivos)\n          mais confundidos com o BPC (assistencial) nas provas de Técnico do Seguro Social. É essencial\n          entender que a LC 142/2013 trata de um benefício do RGPS, exigindo tempo de contribuição, e não\n          de assistência social.\n        </p>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">1.</span> Natureza e base legal</h4>\n          <p>\n            A <strong>Lei Complementar nº 142/2013</strong> regulamenta o §1º do art. 201 da Constituição\n            Federal, criando regras diferenciadas de aposentadoria por idade e por tempo de contribuição\n            para o segurado do RGPS que seja <strong>pessoa com deficiência</strong>. Trata-se de benefício\n            <strong>previdenciário contributivo</strong>, distinto do BPC/LOAS — exige filiação, carência e\n            tempo de contribuição, apenas com critérios mais brandos que a regra geral, em razão das\n            dificuldades adicionais enfrentadas pela pessoa com deficiência ao longo da vida laboral.\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs\">\n            <strong class=\"text-emerald-300\">Pegadinha de prova:</strong> a banca insere a ideia de \"natureza\n            assistencial, sem exigência de contribuição\" para essa aposentadoria — ela é previdenciária e\n            contributiva, tal como as demais aposentadorias do RGPS.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">2.</span> Avaliação do grau de deficiência</h4>\n          <p>\n            O grau de deficiência (<strong>leve, moderada ou grave</strong>) é apurado mediante avaliação\n            médica e funcional, de natureza <strong>biopsicossocial</strong>, realizada por equipe\n            multiprofissional (perícia médica e serviço social do INSS). Essa avaliação <strong>não é\n            definitiva e vitalícia</strong> de forma absoluta: pode ser objeto de nova avaliação ao longo do\n            tempo, especialmente quando há variação da condição do segurado, sendo o tempo de contribuição\n            em cada grau considerado para fins de eventual conversão de tempo entre graus distintos.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">3.</span> Tempo de contribuição exigido, por grau</h4>\n          <p>\n            A aposentadoria por tempo de contribuição da pessoa com deficiência exige, conforme o grau:\n          </p>\n          <p class=\"bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs space-y-1\">\n            <strong class=\"text-emerald-300\">Deficiência grave:</strong> 25 anos (homem) / 20 anos (mulher).<br>\n            <strong class=\"text-emerald-300\">Deficiência moderada:</strong> 29 anos (homem) / 24 anos (mulher).<br>\n            <strong class=\"text-emerald-300\">Deficiência leve:</strong> 33 anos (homem) / 28 anos (mulher).\n          </p>\n          <p>\n            Quanto mais grave a deficiência, menor o tempo de contribuição exigido, em razão do maior\n            impacto sobre a capacidade laboral e a expectativa de permanência no mercado de trabalho.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <h4 class=\"text-white font-bold flex items-center gap-2\"><span class=\"text-emerald-400\">4.</span> Aposentadoria por idade da pessoa com deficiência</h4>\n          <p>\n            Alternativamente, a LC 142/2013 também prevê a <strong>aposentadoria por idade</strong> da\n            pessoa com deficiência, com idade mínima reduzida de <strong>60 anos para homens e 55 anos para\n            mulheres</strong>, independentemente do grau de deficiência, desde que comprovados, no mínimo,\n            15 anos de contribuição na condição de pessoa com deficiência.\n          </p>\n        </div>\n\n      </div>\n    ",
+  "resolucaoHtml": "\n      <div class=\"space-y-4 text-xs\">\n\n        <div class=\"bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2\">\n          <h4 class=\"font-bold text-slate-200 flex items-center gap-2\">\n            <i class=\"fa-solid fa-list-check text-emerald-400\"></i> Estratégia\n          </h4>\n          <p class=\"text-slate-300 leading-relaxed\">\n            1) Confirme que existe, sim, aposentadoria por tempo de contribuição na LC 142/2013. 2)\n            Relacione corretamente grau de deficiência com tempo exigido (quanto mais grave, menor o\n            tempo). 3) Elimine alternativas que tratem o benefício como assistencial ou que fixem o grau\n            de deficiência como imutável.\n          </p>\n        </div>\n\n        <div class=\"bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2\">\n          <h4 class=\"font-bold text-emerald-300 flex items-center gap-2\">\n            <i class=\"fa-solid fa-circle-check\"></i> Alternativa E — CORRETA\n          </h4>\n          <p class=\"text-slate-200 leading-relaxed\">\n            Os números estão corretos: para deficiência grave, a LC 142/2013 exige 25 anos de contribuição\n            para homens e 20 anos para mulheres. Rogério, com 25 anos de contribuição e deficiência grave\n            durante praticamente todo o período, preenche o requisito temporal.\n          </p>\n        </div>\n\n        <div class=\"space-y-2\">\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa A — só existe aposentadoria por idade</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> testa se o candidato conhece as duas modalidades\n              previstas na LC 142/2013.\n              <br>\n              <strong>Onde quebra:</strong> a lei prevê expressamente tanto a aposentadoria por idade quanto\n              a aposentadoria por tempo de contribuição da pessoa com deficiência.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa B — natureza assistencial, sem exigir tempo</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> confunde a aposentadoria da LC 142/2013 com o BPC,\n              já que ambos envolvem pessoa com deficiência.\n              <br>\n              <strong>Onde quebra:</strong> essa aposentadoria é benefício previdenciário contributivo do\n              RGPS, exigindo tempo mínimo de contribuição conforme o grau de deficiência.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa C — troca dos números por grau</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> os números 33/28 realmente existem na LC 142/2013,\n              mas correspondem à deficiência <strong>leve</strong>, não à grave.\n              <br>\n              <strong>Onde quebra:</strong> quanto mais grave a deficiência, menor o tempo exigido — para\n              deficiência grave, os números corretos são 25 (homem) e 20 (mulher), não 33/28.\n            </p>\n          </div>\n          <div class=\"p-3 bg-slate-950 rounded-xl border border-rose-500/30\">\n            <strong class=\"text-rose-400 block mb-1\"><i class=\"fa-solid fa-xmark\"></i> Alternativa D — grau de deficiência definitivo e vitalício</strong>\n            <p class=\"text-slate-300 leading-relaxed\">\n              <strong>Por que parece certa:</strong> passa a ideia de que, uma vez avaliado, o grau nunca\n              mais mudaria, simplificando (erroneamente) o instituto.\n              <br>\n              <strong>Onde quebra:</strong> o grau de deficiência pode ser reavaliado ao longo do tempo,\n              existindo, inclusive, regras de conversão do tempo contribuído em cada grau para fins do\n              cálculo do benefício.\n            </p>\n          </div>\n        </div>\n\n        <div class=\"p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30\">\n          <strong class=\"text-emerald-400 block mb-1\"><i class=\"fa-solid fa-key\"></i> Dica</strong>\n          <p class=\"text-slate-300 leading-relaxed\">\n            Memorize em ordem decrescente de gravidade = ordem crescente de tempo: <strong>grave 25/20 →\n            moderada 29/24 → leve 33/28</strong> (homem/mulher). E nunca esqueça: é benefício previdenciário\n            contributivo do RGPS, não assistencial.\n          </p>\n        </div>\n      </div>\n    ",
+  "conceitos": [
+    {
+      "icone": "fa-file-contract",
+      "titulo": "LC 142/2013",
+      "text": "Lei Complementar que regulamenta a aposentadoria por idade e por tempo de contribuição da pessoa com deficiência no RGPS."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Avaliação biopsicossocial",
+      "text": "Avaliação médica e funcional que classifica o grau de deficiência em leve, moderada ou grave."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Tempo por grau (grave)",
+      "text": "25 anos de contribuição para homens e 20 anos para mulheres com deficiência grave."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Tempo por grau (leve)",
+      "text": "33 anos de contribuição para homens e 28 anos para mulheres com deficiência leve."
+    },
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Aposentadoria por idade PCD",
+      "text": "60 anos (homem) e 55 anos (mulher), independentemente do grau, com ao menos 15 anos de contribuição."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Distinção do BPC",
+      "text": "Benefício previdenciário contributivo do RGPS, diferente do BPC/LOAS, que é assistencial e não contributivo."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q211",
+  "numero": "Questão 1",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Fontes do Direito e Hierarquia das Normas",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Fontes do Direito Previdenciário e Hierarquia Normativa",
+  "tags": [
+    "fontes do direito",
+    "hierarquia das normas",
+    "decreto regulamentar",
+    "Lei 8.213/1991",
+    "poder regulamentar"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Um servidor do INSS, ao instruir um processo de concessão de benefício, identifica que determinado dispositivo do Decreto n.º 3.048/1999 (Regulamento da Previdência Social) impõe ao segurado uma exigência documental mais restritiva do que a prevista na Lei n.º 8.213/1991 para a comprovação do mesmo requisito, sem que exista qualquer autorização legal expressa para tanto.<br><br>Considerando a teoria das fontes do Direito Previdenciário e a hierarquia das normas jurídicas aplicável à espécie, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O decreto regulamentar, por ser norma mais recente e de aplicação cotidiana pela autarquia, prevalece sobre a lei ordinária que regulamenta, em razão do princípio da especialidade.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Por se tratar de matéria eminentemente técnica e operacional, o decreto regulamentar possui a mesma hierarquia da lei ordinária, cabendo ao intérprete escolher a norma mais favorável ao segurado, independentemente de qual delas restrinja mais o direito.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O decreto regulamentar não pode inovar ou restringir direitos além do que dispõe a lei que regulamenta; havendo conflito, prevalece a Lei n.º 8.213/1991, por ser o decreto ato normativo secundário, hierarquicamente subordinado à lei.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "A hierarquia das normas previdenciárias é irrelevante, pois a Constituição Federal delega ao INSS competência para editar, por instrução normativa ou decreto, exigências adicionais às previstas em lei sempre que necessário ao equilíbrio financeiro e atuarial do sistema.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O conflito deve ser resolvido pelo critério cronológico, aplicando-se a norma mais recente entre a lei e o decreto, ainda que este seja hierarquicamente inferior àquela.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>A distinção entre fontes formais e a compreensão da hierarquia normativa é cobrada com frequência em provas de Legislação Previdenciária, normalmente por meio de situações em que um decreto, uma instrução normativa ou uma portaria aparenta contrariar ou extrapolar a lei que deveria apenas regulamentar.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Fontes formais do Direito Previdenciário</h4><p>As <strong>fontes formais</strong> são os instrumentos pelos quais as normas previdenciárias se exteriorizam e adquirem validade jurídica. No topo está a <strong>Constituição Federal de 1988</strong>, que dedica o Título VIII, Capítulo II, Seção III (arts. 201 e 202, além do art. 195) à Previdência Social, fixando princípios e regras estruturantes do sistema. Em seguida vêm as <strong>leis complementares</strong> (exigidas para matérias específicas, como a LC 142/2013, que trata da aposentadoria da pessoa com deficiência) e as <strong>leis ordinárias</strong>, categoria em que se enquadram as duas leis-base do regime geral: a <strong>Lei 8.212/1991</strong> (Plano de Custeio) e a <strong>Lei 8.213/1991</strong> (Plano de Benefícios). Abaixo das leis situam-se os <strong>decretos regulamentares</strong>, com destaque para o <strong>Decreto 3.048/1999</strong>, e, na base da pirâmide, os atos administrativos normativos internos, como instruções normativas, portarias e ordens de serviço do INSS.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> A banca costuma apresentar um decreto, uma IN ou uma portaria criando uma exigência, um prazo ou uma restrição que não consta da lei regulamentada, testando se o candidato sabe que o ato secundário não pode inovar na ordem jurídica além do que a lei permite.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Hierarquia das normas e poder regulamentar</h4><p>O <strong>poder regulamentar</strong>, previsto no art. 84, IV, da CF/1988, autoriza o Chefe do Poder Executivo a editar decretos para a <strong>fiel execução das leis</strong>. Isso significa que o decreto regulamentar tem função eminentemente <strong>explicativa e organizacional</strong>: detalha procedimentos, prazos operacionais e rotinas administrativas, mas <strong>não pode criar, extinguir, ampliar ou restringir direitos e obrigações</strong> que não estejam previamente estabelecidos em lei. Trata-se de decorrência direta do <strong>princípio da legalidade</strong> (art. 5º, II, e art. 37, caput, da CF/1988). Em caso de antinomia entre lei e decreto, prevalece a lei, por ser fonte primária; o decreto que extrapola os limites da lei regulamentada é considerado <strong>ilegal</strong>, podendo ser afastado administrativa ou judicialmente.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> Cuidado com alternativas que invertem a lógica hierárquica alegando 'especialidade' ou 'atualidade' do decreto: hierarquia normativa não se resolve pelo critério cronológico ou de especialidade quando a norma inferior extrapola a superior — resolve-se pelo critério hierárquico puro e simples.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Fontes materiais e outras fontes formais secundárias</h4><p>As <strong>fontes materiais</strong> (ou reais) são os fatores sociais, econômicos e políticos que impulsionam a criação da norma previdenciária — por exemplo, o envelhecimento populacional que motivou a Emenda Constitucional 103/2019. Já entre as fontes formais secundárias, destacam-se a <strong>jurisprudência</strong> (sobretudo súmulas do STJ, do STF e da TNU), a <strong>doutrina</strong> e os <strong>costumes administrativos</strong>, que auxiliam na interpretação, mas não têm força para contrariar lei ou Constituição.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Identifique a natureza do decreto (ato normativo secundário) e verifique se ele criou obrigação não prevista em lei. Lembre-se de que o poder regulamentar (art. 84, IV, CF/1988) serve apenas à fiel execução da lei, sem poder de inovação restritiva. Aplique o critério hierárquico: lei sobrepõe-se a decreto.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O Decreto 3.048/1999 é ato normativo secundário, editado no exercício do poder regulamentar (art. 84, IV, CF/1988), cuja função é apenas dar fiel execução à lei, sem poder de criar exigência mais restritiva que a Lei 8.213/1991 não contemple. Havendo conflito, prevalece a lei, por ser hierarquicamente superior.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — decreto prevaleceria por 'especialidade' e atualidade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode pensar que a norma mais recente e mais detalhada sempre prevalece na prática administrativa do dia a dia.<br><strong>Onde quebra:</strong> hierarquia normativa não se resolve por especialidade ou cronologia quando a norma inferior extrapola a superior; o decreto está subordinado à lei que regulamenta.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — decreto e lei teriam a mesma hierarquia, cabendo escolha da mais favorável</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável aplicar o princípio geral de proteção ao segurado (in dubio pro misero) para qualquer conflito normativo.<br><strong>Onde quebra:</strong> esse princípio interpretativo não se aplica a conflito de hierarquia normativa; decreto e lei não estão no mesmo patamar, e o decreto mais restritivo do que a lei é simplesmente ilegal, e não uma 'opção' interpretativa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — INSS teria competência para criar exigências por decreto ou IN sempre que necessário ao equilíbrio atuarial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o argumento do equilíbrio financeiro e atuarial (art. 201, CF) é real e frequentemente citado em provas, soando como justificativa técnica válida.<br><strong>Onde quebra:</strong> o equilíbrio atuarial não autoriza o Executivo a criar exigência ou restrição sem lei; isso violaria o princípio da legalidade estrita em matéria de direitos previdenciários.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — o critério cronológico resolveria o conflito, prevalecendo a norma mais recente</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o critério cronológico ('lei posterior revoga a anterior') é regra real de resolução de antinomias entre normas de mesma hierarquia.<br><strong>Onde quebra:</strong> esse critério só se aplica entre normas do mesmo nível hierárquico; entre lei e decreto o critério determinante é o hierárquico, não o cronológico.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão descrever um decreto, uma IN ou uma portaria 'criando', 'exigindo' ou 'restringindo' algo que a lei não previu, a resposta quase sempre aponta para a ilegalidade do ato secundário — decreto regulamenta, não inova.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Hierarquia das normas",
+      "text": "CF > leis complementares/ordinárias > decretos regulamentares > atos administrativos internos (IN, portarias)."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Poder regulamentar",
+      "text": "Art. 84, IV, CF/1988: decreto serve à fiel execução da lei, sem poder de inovar restringindo direitos."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Princípio da legalidade",
+      "text": "Ninguém é obrigado a fazer ou deixar de fazer algo senão em virtude de lei (art. 5º, II, CF/1988)."
+    },
+    {
+      "icone": "fa-book",
+      "titulo": "Fontes materiais x formais",
+      "text": "Materiais: fatores sociais/econômicos que motivam a norma. Formais: instrumentos pelos quais a norma se exterioriza (lei, decreto etc.)."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Jurisprudência como fonte secundária",
+      "text": "Súmulas do STJ, STF e TNU orientam a interpretação, mas não substituem nem contrariam a lei."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q212",
+  "numero": "Questão 2",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Vigência e Aplicação das Normas no Tempo",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Vigência no Tempo das Normas de Custeio: a Anterioridade Nonagesimal",
+  "tags": [
+    "vigência da lei",
+    "noventena",
+    "anterioridade nonagesimal",
+    "art. 195 §6º CF",
+    "contribuição previdenciária"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Em 05 de dezembro de determinado ano, foi publicada lei ordinária federal majorando a alíquota da contribuição previdenciária patronal incidente sobre a folha de salários, sem que a norma tenha fixado data de vigência diversa.<br><br>À luz das regras constitucionais sobre vigência e aplicação das normas previdenciárias de custeio no tempo, assinale a alternativa correta quanto ao momento a partir do qual a majoração pode efetivamente ser exigida dos contribuintes.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A exigência da contribuição com a alíquota majorada somente poderá ocorrer 90 dias após a publicação da lei, em razão do princípio da anterioridade nonagesimal específico das contribuições sociais (art. 195, § 6º, da CF/1988), sendo dispensada a espera até o exercício financeiro seguinte.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "A majoração somente produzirá efeitos a partir de 1º de janeiro do exercício financeiro seguinte, em aplicação do princípio geral da anterioridade tributária anual (art. 150, III, 'b', da CF/1988), que se aplica integralmente às contribuições da seguridade social.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A majoração exige simultaneamente a espera de 90 dias e a virada do exercício financeiro seguinte, cumulativamente, por se tratar de tributo destinado ao financiamento da seguridade social.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Por se tratar de contribuição já existente, apenas majorada (e não instituída), a nova alíquota é de aplicação imediata a partir da publicação da lei, sem qualquer prazo de espera constitucional.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A vigência da majoração depende de regulamentação por decreto presidencial; enquanto este não for editado, a contribuição continua sendo exigida pela alíquota anterior, independentemente de prazo.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>A vigência das normas previdenciárias no tempo é tema recorrente em prova, especialmente quando a banca cruza custeio da seguridade social com direito constitucional tributário — o candidato precisa saber diferenciar a regra geral de anterioridade tributária da regra especial aplicável às contribuições sociais.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Vigência: regra geral (LINDB) e regras especiais previdenciárias</h4><p>Como regra geral, o art. 1º da <strong>LINDB</strong> (Decreto-Lei 4.657/1942) dispõe que, salvo disposição em contrário, a lei começa a vigorar em todo o país <strong>45 dias</strong> depois de oficialmente publicada. No entanto, as leis previdenciárias costumeiramente trazem <strong>cláusula de vigência própria</strong> ('esta lei entra em vigor na data de sua publicação'), e, quando tratam de <strong>instituição ou majoração de contribuição social</strong>, sujeitam-se a uma regra <strong>constitucional especial</strong>, que prevalece sobre a regra geral da LINDB.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> O princípio da anterioridade nonagesimal (art. 195, § 6º, CF/1988)</h4><p>O art. 195, § 6º, da CF/1988 estabelece que as contribuições sociais destinadas ao financiamento da seguridade social <strong>só poderão ser exigidas após decorridos 90 (noventa) dias da data da publicação da lei</strong> que as houver instituído ou modificado, <strong>não se lhes aplicando o art. 150, III, 'b'</strong> — ou seja, <strong>não se exige a espera até o exercício financeiro seguinte</strong>, ao contrário do que ocorre com a generalidade dos tributos. Essa é a chamada <strong>'noventena' ou 'anterioridade mitigada/nonagesimal'</strong> das contribuições da seguridade social: basta o decurso de 90 dias corridos da publicação, ainda que isso ocorra dentro do mesmo exercício financeiro.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> A pegadinha clássica é a banca afirmar que se aplica a anterioridade <em>anual</em> (esperar o 1º de janeiro seguinte) às contribuições previdenciárias — isso está ERRADO. A CF dispensa expressamente a anterioridade anual para essas contribuições, exigindo apenas os 90 dias.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Situações que dispensam até a noventena</h4><p>Determinadas alterações <strong>não</strong> se sujeitam nem mesmo à noventena, por não representarem instituição ou majoração de carga tributária em sentido estrito — por exemplo, a <strong>redução ou extinção de contribuição</strong>, atos de <strong>mera atualização monetária</strong> da base de cálculo, ou a fixação do prazo de recolhimento (que, segundo entendimento consolidado do STF, não se submete à anterioridade, por não se tratar de instituição ou majoração de tributo).</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Reconheça que se trata de majoração de contribuição destinada à seguridade social. Localize a regra específica do art. 195, § 6º, da CF/1988, que afasta expressamente a anterioridade anual (art. 150, III, 'b') e exige apenas o decurso de 90 dias da publicação.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O art. 195, § 6º, da CF/1988 determina que as contribuições da seguridade social só podem ser exigidas 90 dias após a publicação da lei que as instituir ou modificar, dispensando expressamente a espera pelo exercício financeiro seguinte prevista no art. 150, III, 'b', da CF/1988.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — aplicaria a anterioridade anual comum (exercício financeiro seguinte)</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> essa é a regra geral tributária, conhecida da maioria dos candidatos, e soa como resposta 'segura'.<br><strong>Onde quebra:</strong> o próprio art. 195, § 6º, da CF/1988 exclui expressamente a aplicação do art. 150, III, 'b' às contribuições da seguridade social; a regra é apenas a noventena.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — exigiria cumulativamente os 90 dias e o exercício financeiro seguinte</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece uma posição 'intermediária' cautelosa entre as duas regras de anterioridade.<br><strong>Onde quebra:</strong> não existe cumulação: a CF substitui, para as contribuições sociais, a anterioridade anual pela nonagesimal, e não soma as duas.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — aplicação imediata por já existir a contribuição, sendo apenas majorada</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode confundir 'majoração' com 'mera atualização', que de fato tem aplicação imediata.<br><strong>Onde quebra:</strong> majoração de alíquota é, sim, hipótese sujeita à noventena; só a atualização monetária da base de cálculo e hipóteses similares dispensam o prazo, não a majoração de alíquota.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — dependeria de regulamentação por decreto para produzir efeitos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode associar 'vigência' a 'regulamentação administrativa', como ocorre em outras searas.<br><strong>Onde quebra:</strong> a vigência de norma de custeio decorre diretamente da Constituição e da própria lei; não há exigência de decreto regulamentador para que a majoração produza efeitos após os 90 dias.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o mnemônico: contribuição da seguridade social = só 90 dias (noventena), NUNCA espera o exercício financeiro seguinte. É a inversão exata da regra geral dos demais tributos, e é justamente essa inversão que a banca cobra.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Anterioridade nonagesimal",
+      "text": "Art. 195, §6º, CF/1988: contribuição da seguridade social só é exigida 90 dias após a publicação da lei."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Não incidência da anterioridade anual",
+      "text": "O art. 150, III, 'b', CF/1988 (esperar o exercício financeiro seguinte) não se aplica às contribuições sociais."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Majoração de alíquota",
+      "text": "Aumento de alíquota de contribuição é hipótese sujeita à noventena, contada da publicação da lei."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Vigência x eficácia",
+      "text": "A lei pode estar em vigor desde a publicação, mas produzir efeitos (eficácia) apenas após os 90 dias."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Exceções à noventena",
+      "text": "Redução/extinção de contribuição e fixação de prazo de recolhimento não se submetem à noventena."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q213",
+  "numero": "Questão 3",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Interpretação e Integração das Normas Previdenciárias",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Integração de Lacunas e o Limite da Analogia na Criação de Benefícios",
+  "tags": [
+    "interpretação",
+    "integração normativa",
+    "analogia",
+    "LINDB",
+    "preexistência de custeio"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Determinado segurado do Regime Geral de Previdência Social requer administrativamente a concessão de um benefício não previsto em nenhuma lei previdenciária, sustentando que sua situação é substancialmente semelhante à de outro benefício legalmente existente e que, à falta de previsão legal expressa para o seu caso, o INSS deveria empregar a <strong>analogia</strong> — técnica de integração normativa prevista no art. 4º da Lei de Introdução às Normas do Direito Brasileiro (LINDB) — para lhe conceder a prestação pretendida.<br><br>Sobre a possibilidade de integração da norma previdenciária por analogia nesse caso, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A analogia é vedada em qualquer hipótese no âmbito do Direito Previdenciário, inclusive para preencher lacunas em normas procedimentais ou processuais administrativas, por se tratar de ramo do direito público.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A analogia deve ser aplicada obrigatoriamente pelo INSS sempre que houver benefício semelhante já disciplinado em lei, em atenção ao princípio da vedação ao retrocesso social.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A LINDB não é aplicável ao Direito Previdenciário, que possui sistema de integração de lacunas totalmente autônomo e desvinculado da teoria geral do direito.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A analogia somente pode ser utilizada pelo Poder Judiciário, e nunca pela própria autarquia previdenciária em sede de processo administrativo, ainda que para questões meramente procedimentais.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Embora a LINDB admita a analogia como técnica geral de integração de lacunas, a criação de benefício previdenciário não previsto em lei não pode ocorrer por analogia, pois o art. 195, § 5º, da CF/1988 exige fonte de custeio total prévia para a criação, majoração ou extensão de qualquer benefício ou serviço da seguridade social.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Questões sobre interpretação e integração normativa costumam testar se o candidato confunde as técnicas gerais de hermenêutica (analogia, costumes, princípios gerais do direito, equidade) com os limites específicos que o Direito Previdenciário impõe a essas técnicas quando o resultado seria a criação de um novo benefício.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Interpretação e integração: conceitos gerais</h4><p><strong>Interpretar</strong> é buscar o sentido e o alcance de uma norma já existente. <strong>Integrar</strong> é preencher uma <strong>lacuna</strong> — a ausência de norma específica para determinado caso concreto. O art. 4º da <strong>LINDB</strong> estabelece que, quando a lei for omissa, o juiz (e, por extensão, o aplicador do direito em geral, inclusive a Administração) decidirá o caso de acordo com a <strong>analogia</strong>, os <strong>costumes</strong> e os <strong>princípios gerais de direito</strong>, nessa ordem preferencial. Essas técnicas de integração são plenamente aplicáveis ao Direito Previdenciário, como a qualquer outro ramo do direito, <strong>desde que respeitados os limites próprios da matéria</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> O limite específico: a preexistência de custeio total (art. 195, § 5º, CF/1988)</h4><p>O <strong>princípio da preexistência do custeio total</strong> (também chamado de princípio da contrapartida), previsto no art. 195, § 5º, da CF/1988, dispõe que <strong>'nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total'</strong>. Esse dispositivo impede que, por via de <strong>analogia</strong> (ou qualquer outra técnica interpretativa/integrativa), seja reconhecido a um segurado um benefício não previsto em lei, ainda que a situação seja parecida com a de outro benefício legalmente disciplinado: isso equivaleria a criar, pela via interpretativa, uma prestação sem previsão orçamentária, comprometendo o equilíbrio financeiro e atuarial do sistema (art. 201, caput, CF/1988).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> A banca gosta de descrever uma situação em que a 'lógica' e a 'justiça' aparente do caso sugerem que a analogia deveria resolver o problema — mas a resposta correta quase sempre é que, em matéria de CRIAÇÃO de benefício, a analogia esbarra na exigência constitucional de fonte de custeio prévia. A analogia continua sendo válida para outras finalidades (ex.: preencher lacuna em regra procedimental, prazo, ou aspecto que não crie novo benefício).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Outras técnicas e o papel da jurisprudência consolidada</h4><p>Além da analogia, a <strong>equidade</strong> também tem aplicação restrita em matéria previdenciária (o art. 108 da Lei 8.213/1991 veda seu uso para criação de benefícios não previstos em lei). Já a jurisprudência consolidada dos tribunais superiores — sobretudo em <strong>súmulas vinculantes, temas de repercussão geral do STF e recursos repetitivos do STJ</strong> — funciona como importante instrumento de uniformização interpretativa e deve ser observada pelo INSS em sua atuação administrativa, mas não se confunde com a criação de benefício por analogia.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Separe dois planos: (1) a LINDB admite analogia como técnica geral de integração; (2) o Direito Previdenciário impõe um limite constitucional específico quando o resultado da integração seria a criação de um benefício não previsto em lei — aí entra o art. 195, § 5º, CF/1988. A alternativa correta precisa contemplar os dois planos corretamente, sem negar a analogia em geral nem admiti-la para criar benefício novo.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A LINDB (art. 4º) de fato admite a analogia como técnica de integração de lacunas, mas o art. 195, § 5º, da CF/1988 exige fonte de custeio total prévia para a criação, majoração ou extensão de qualquer benefício ou serviço da seguridade social, o que impede a concessão de benefício não previsto em lei por simples analogia com outro benefício existente.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — analogia seria vedada em qualquer hipótese, até em normas procedimentais</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato memoriza 'analogia não cria benefício' e generaliza para toda e qualquer situação do Direito Previdenciário.<br><strong>Onde quebra:</strong> a vedação constitucional é específica para a criação, majoração ou extensão de BENEFÍCIO OU SERVIÇO; nada impede o uso de analogia para integrar lacunas em regras meramente procedimentais ou processuais.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — analogia seria de aplicação obrigatória por vedação ao retrocesso social</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o princípio da vedação ao retrocesso social é real e citado com frequência, soando como fundamento aplicável a qualquer ampliação de direitos.<br><strong>Onde quebra:</strong> esse princípio protege direitos já consolidados contra supressão, mas não serve para obrigar a criação, por via interpretativa, de benefício novo sem fonte de custeio, o que contrariaria o art. 195, § 5º, da CF/1988.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — a LINDB não seria aplicável ao Direito Previdenciário</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode achar que um ramo tão específico do direito público teria sistema hermenêutico totalmente próprio.<br><strong>Onde quebra:</strong> a LINDB é norma de sobredireito aplicável a todo o ordenamento jurídico brasileiro, inclusive ao Direito Previdenciário, que a ela se submete nos limites da compatibilidade com suas normas especiais.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — analogia só poderia ser usada pelo Judiciário, nunca pela autarquia</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável associar a criação/interpretação de normas a uma reserva de jurisdição do Poder Judiciário.<br><strong>Onde quebra:</strong> a Administração Pública também aplica técnicas de integração normativa em sua atuação cotidiana (inclusive em processo administrativo), desde que respeitados os limites constitucionais e legais da matéria.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Toda vez que a questão falar em analogia + criação/concessão de benefício não previsto em lei, pense imediatamente no art. 195, § 5º, CF/1988 (preexistência de custeio total) como o dispositivo que barra a pretensão, mesmo que a LINDB, em tese, autorizasse a analogia.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-book",
+      "titulo": "LINDB, art. 4º",
+      "text": "Diante de lacuna, o aplicador decide por analogia, costumes e princípios gerais de direito, nessa ordem."
+    },
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Preexistência de custeio total",
+      "text": "Art. 195, §5º, CF/1988: nenhum benefício ou serviço pode ser criado, majorado ou estendido sem fonte de custeio total correspondente."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Analogia x criação de benefício",
+      "text": "Analogia é técnica válida de integração, mas não pode ser usada para criar benefício previdenciário sem previsão legal."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Equidade (art. 108, Lei 8.213/1991)",
+      "text": "A equidade também não pode ser invocada para conceder benefício não previsto em lei."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Jurisprudência uniformizadora",
+      "text": "Súmulas e temas de repercussão geral orientam a interpretação, sem se confundir com criação de benefício por analogia."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q214",
+  "numero": "Questão 4",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Orçamento da Seguridade Social",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Orçamento da Seguridade Social e o Princípio da Diversidade da Base de Financiamento",
+  "tags": [
+    "orçamento da seguridade social",
+    "diversidade da base de financiamento",
+    "art. 195 CF",
+    "custeio",
+    "solidariedade"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A Constituição Federal de 1988 estrutura o financiamento da seguridade social a partir de um conjunto diversificado de fontes, previstas de forma direta ou indireta no art. 195, e prevê a existência de um orçamento próprio para a seguridade social, distinto do orçamento fiscal.<br><br>A respeito do orçamento da seguridade social e do princípio da diversidade da base de financiamento, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O orçamento da seguridade social se confunde com o orçamento fiscal da União, não havendo, no ordenamento constitucional brasileiro, previsão de peças orçamentárias distintas para cada finalidade.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O princípio da diversidade da base de financiamento busca assegurar a solidez financeira do sistema por meio da pluralidade de fontes de custeio (empregadores, trabalhadores, receitas de concursos de prognósticos e importadores, entre outras), evitando a dependência excessiva de uma única fonte de receita.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "A diversidade da base de financiamento significa que cada benefício da seguridade social deve ter uma única fonte de custeio exclusiva e individualizada, vedada a utilização de receitas comuns para o pagamento de diferentes prestações.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O orçamento da seguridade social é financiado exclusivamente por contribuições incidentes sobre a folha de salários dos empregadores, não sendo admitida a utilização de recursos do orçamento fiscal da União para sua composição.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A Constituição Federal veda expressamente qualquer participação de Estados, Distrito Federal e Municípios no financiamento da seguridade social, que é matéria de competência exclusiva da União.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>O orçamento da seguridade social e os princípios constitucionais de custeio (art. 195, CF/1988) são a base para entender de onde vem o dinheiro que sustenta os benefícios previdenciários, assistenciais e de saúde — tema certo em qualquer prova de Legislação Previdenciária.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> O orçamento da seguridade social como peça autônoma</h4><p>O art. 165, § 5º, III, da CF/1988 determina que a lei orçamentária anual compreenderá o <strong>orçamento da seguridade social</strong>, abrangendo todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo Poder Público. Trata-se de peça <strong>distinta do orçamento fiscal</strong> e do orçamento de investimento das estatais, refletindo a autonomia financeira que a Constituição buscou conferir à seguridade social (que abrange <strong>saúde, previdência e assistência social</strong>, conforme art. 194, caput, CF/1988).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Princípio da diversidade da base de financiamento</h4><p>Previsto no art. 194, parágrafo único, VI, da CF/1988, o <strong>princípio da diversidade da base de financiamento</strong> determina que o custeio da seguridade social não deve depender de uma única fonte de recursos, mas de uma <strong>pluralidade de fontes</strong>, o que confere maior <strong>solidez e segurança financeira</strong> ao sistema: se uma fonte específica sofrer redução (por exemplo, em razão de crise em determinado setor econômico), as demais fontes seguem sustentando o sistema. Esse princípio se concretiza no art. 195, caput e incisos, que elenca múltiplas fontes: recursos do orçamento da União, dos Estados, do DF e dos Municípios, além de contribuições sociais diversas incidentes sobre distintas bases econômicas (folha de salários, receita/faturamento, lucro, receita de concursos de prognósticos e importação).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> Não confunda 'diversidade da base de financiamento' (pluralidade de FONTES de custeio do sistema como um todo) com a ideia equivocada de que cada benefício teria de ter custeio individualizado e exclusivo — o que a Constituição exige (art. 195, § 5º) é fonte de custeio total para o SISTEMA suportar novos benefícios, não uma fonte 'dedicada' a cada prestação isoladamente.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Participação de entes federativos e da sociedade</h4><p>O caput do art. 195 é expresso ao afirmar que a seguridade social será financiada por <strong>toda a sociedade</strong>, de forma direta e indireta, <strong>nos termos da lei, mediante recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios</strong>, e das contribuições sociais elencadas nos incisos I a IV. Não há, portanto, exclusividade da União no financiamento, tampouco vedação à participação dos demais entes federativos.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Relembre que a seguridade social tem orçamento próprio, distinto do fiscal (art. 165, § 5º, III, CF/1988), e que a diversidade da base de financiamento (art. 194, parágrafo único, VI) significa pluralidade de FONTES de custeio do sistema como um todo, não exclusividade de fonte por benefício nem exclusividade da União.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O princípio da diversidade da base de financiamento (art. 194, parágrafo único, VI, CF/1988) visa garantir a solidez financeira da seguridade social por meio de múltiplas fontes de custeio — empregadores, trabalhadores, receitas de concursos de prognósticos, importadores, entre outras (art. 195, CF/1988) —, evitando a dependência de uma única fonte de receita.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — orçamento da seguridade social se confundiria com o orçamento fiscal</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> para quem não domina a estrutura orçamentária, pode parecer que existe apenas 'o orçamento' da União, sem divisões internas.<br><strong>Onde quebra:</strong> o art. 165, § 5º, CF/1988 exige expressamente peças orçamentárias distintas: orçamento fiscal, orçamento de investimento das estatais e orçamento da seguridade social.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — cada benefício teria fonte de custeio exclusiva e individualizada</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode confundir a exigência de fonte de custeio total do sistema (art. 195, §5º) com uma suposta exigência de custeio individualizado por benefício.<br><strong>Onde quebra:</strong> a exigência constitucional é de custeio TOTAL do sistema para suportar a criação/majoração de benefícios, e não de uma fonte exclusiva e segregada para cada prestação isoladamente.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — financiamento seria exclusivo de contribuições sobre folha de salários</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a contribuição sobre folha é historicamente a mais conhecida e citada, podendo parecer a única fonte relevante.<br><strong>Onde quebra:</strong> o art. 195, CF/1988 prevê expressamente outras bases (receita/faturamento, lucro, concursos de prognósticos, importação) e recursos dos orçamentos da União, Estados, DF e Municípios — é exatamente essa pluralidade que caracteriza a diversidade da base de financiamento.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — haveria vedação à participação de Estados, DF e Municípios</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> por ser a Previdência Social administrada por autarquia federal (INSS), o candidato pode supor competência exclusiva da União para todo o financiamento.<br><strong>Onde quebra:</strong> o próprio caput do art. 195 menciona expressamente recursos dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios como fontes de financiamento da seguridade social.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe 'diversidade da base de financiamento' a 'não colocar todos os ovos na mesma cesta': múltiplas fontes protegem o sistema de oscilações setoriais da economia. É princípio, não regra de custeio individualizado por benefício.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Orçamento da seguridade social",
+      "text": "Peça orçamentária distinta do orçamento fiscal, prevista no art. 165, §5º, III, CF/1988."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Diversidade da base de financiamento",
+      "text": "Art. 194, parágrafo único, VI, CF/1988: pluralidade de fontes de custeio para dar solidez ao sistema."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Art. 195, caput, CF/1988",
+      "text": "Financiamento por toda a sociedade, com recursos dos orçamentos da União, Estados, DF, Municípios e contribuições sociais."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Solidariedade financeira",
+      "text": "Base filosófica do custeio: todos contribuem para sustentar o sistema, não apenas os beneficiários diretos."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Distinção de custeio total x individualizado",
+      "text": "Fonte de custeio total (art. 195, §5º) refere-se ao sistema como um todo, não a cada benefício isoladamente."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q215",
+  "numero": "Questão 5",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Fontes de Receita da Seguridade Social",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Panorama das Contribuições Sociais do Art. 195 da CF/1988",
+  "tags": [
+    "fontes de receita",
+    "art. 195 CF",
+    "contribuições sociais",
+    "importador",
+    "concursos de prognósticos"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Analise os seguintes grupos de receitas apontados por um servidor como integrantes do financiamento da seguridade social, nos termos do art. 195 da Constituição Federal de 1988:<br><br>I. Recursos provenientes dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios.<br>II. Contribuições do empregador, da empresa e da entidade a ela equiparada, incidentes sobre a folha de salários, a receita ou o faturamento e o lucro.<br>III. Contribuições do trabalhador e dos demais segurados da Previdência Social.<br>IV. Receita de concursos de prognósticos.<br>V. Contribuição do importador de bens ou serviços do exterior, ou de quem a lei a ele equiparar.<br><br>Assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Apenas os itens II e III estão corretos, pois a seguridade social é financiada exclusivamente por contribuições incidentes sobre a folha de salários e sobre a remuneração dos trabalhadores.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Apenas os itens I, II e III estão corretos, uma vez que a receita de concursos de prognósticos e a contribuição do importador não integram o financiamento constitucional da seguridade social.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Apenas os itens II, III e IV estão corretos, pois recursos orçamentários da União, dos Estados, do Distrito Federal e dos Municípios não podem, por vedação constitucional, ser destinados à seguridade social.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Todos os itens estão corretos, pois compõem, em conjunto, o quadro de fontes de financiamento da seguridade social expressamente previsto no art. 195 da CF/1988, em consonância com o princípio da diversidade da base de financiamento.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "Apenas os itens I, IV e V estão corretos, pois as contribuições do empregador e do trabalhador foram substituídas, a partir da Emenda Constitucional 103/2019, unicamente pela contribuição sobre a receita de concursos de prognósticos e pela contribuição do importador.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Questões de 'panorama geral' listam várias fontes de receita e pedem que o candidato reconheça quais compõem, de fato, o financiamento constitucional da seguridade social — é o tipo de questão que premia quem decorou bem o rol do art. 195, caput e incisos, da CF/1988.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Estrutura geral do art. 195, CF/1988</h4><p>O art. 195, caput, da CF/1988 estabelece que a seguridade social será financiada por <strong>toda a sociedade</strong>, de forma direta e indireta, nos termos da lei, mediante recursos provenientes <strong>dos orçamentos da União, dos Estados, do Distrito Federal e dos Municípios</strong>, e das contribuições sociais elencadas nos incisos I a IV. Trata-se de rol que reflete diretamente o <strong>princípio da diversidade da base de financiamento</strong>, combinando recursos orçamentários públicos de todos os entes federativos com contribuições sociais específicas incidentes sobre diferentes agentes econômicos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> As contribuições do inciso I: empregador, empresa e equiparados</h4><p>O inciso I do art. 195 prevê a contribuição do <strong>empregador, da empresa e da entidade a ela equiparada na forma da lei</strong>, incidente sobre: a) a <strong>folha de salários</strong> e demais rendimentos do trabalho pagos ou creditados a pessoa física que lhe preste serviço; b) a <strong>receita ou o faturamento</strong>; e c) o <strong>lucro</strong>. É a base do financiamento patronal do sistema.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> As contribuições dos incisos II a IV</h4><p>O inciso II prevê a contribuição do <strong>trabalhador e dos demais segurados da Previdência Social</strong>, não incidindo sobre aposentadoria e pensão concedidas pelo RGPS (ressalvado o teto do RPPS, conforme regra do §18 do art. 195). O inciso III prevê a contribuição incidente sobre a <strong>receita de concursos de prognósticos</strong> (loterias em geral). Já o inciso IV, incluído pela EC 42/2003, prevê a contribuição do <strong>importador de bens ou serviços do exterior</strong>, ou de quem a lei a ele equiparar.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> A banca gosta de restringir o rol para apenas 'folha de salários e trabalhador', omitindo concursos de prognósticos e importador — ou, no sentido inverso, afirmar que a EC 103/2019 'substituiu' fontes tradicionais por essas duas, o que é falso: todas as fontes coexistem, reforçando a diversidade da base de financiamento.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Orçamentos públicos como fonte adicional</h4><p>Além das contribuições específicas, os <strong>recursos orçamentários da União, dos Estados, do Distrito Federal e dos Municípios</strong> também compõem o financiamento da seguridade social, conforme expressamente previsto no caput do art. 195 — não havendo qualquer vedação constitucional à destinação de recursos orçamentários gerais a essa finalidade.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Confronte cada item com o rol do art. 195, caput e incisos I a IV, da CF/1988: orçamentos dos entes federativos (caput), empregador/empresa (inciso I), trabalhador/segurados (inciso II), concursos de prognósticos (inciso III) e importador (inciso IV, EC 42/2003). Todos os cinco itens correspondem a fontes reais e vigentes.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Os itens I a V correspondem, respectivamente, ao caput e aos incisos I, II, III e IV do art. 195 da CF/1988, compondo em conjunto o quadro constitucional de fontes de financiamento da seguridade social, em harmonia com o princípio da diversidade da base de financiamento (art. 194, parágrafo único, VI, CF/1988).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — apenas folha de salários e contribuição do trabalhador seriam fontes válidas</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> são de fato as fontes mais conhecidas e mais lembradas pelo candidato menos atento ao rol completo do art. 195.<br><strong>Onde quebra:</strong> o rol constitucional é mais amplo, incluindo receita/faturamento, lucro, concursos de prognósticos, importador e recursos orçamentários dos entes federativos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — concursos de prognósticos e contribuição do importador não integrariam o rol</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> essas duas fontes são menos lembradas por parecerem 'menores' em volume de arrecadação frente às contribuições sobre folha.<br><strong>Onde quebra:</strong> ambas constam expressamente do art. 195: concursos de prognósticos no inciso III (redação original) e contribuição do importador no inciso IV, incluído pela EC 42/2003.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — recursos orçamentários dos entes federativos seriam vedados</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode supor que, por a Previdência ser gerida por autarquia federal, apenas a União poderia contribuir com recursos orçamentários.<br><strong>Onde quebra:</strong> o caput do art. 195 inclui expressamente os orçamentos da União, dos Estados, do Distrito Federal e dos Municípios como fontes de financiamento, sem qualquer vedação.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — a EC 103/2019 teria substituído as contribuições do empregador e do trabalhador</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a EC 103/2019 de fato trouxe mudanças relevantes em regras de benefícios e alíquotas, o que pode induzir à ideia de substituição de fontes.<br><strong>Onde quebra:</strong> a EC 103/2019 alterou regras de benefícios e algumas alíquotas/parâmetros de custeio, mas não extinguiu nem substituiu as contribuições do empregador/empresa e do trabalhador previstas nos incisos I e II do art. 195, que continuam em vigor.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Decore o rol do art. 195 associando cada inciso a um 'personagem': caput = entes federativos; inciso I = empregador/empresa (folha, receita/faturamento, lucro); inciso II = trabalhador/segurado; inciso III = concursos de prognósticos; inciso IV = importador. Questões de 'quais itens estão corretos' costumam testar exatamente esse rol completo.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Art. 195, caput, CF/1988",
+      "text": "Financiamento por toda a sociedade, com recursos dos orçamentos da União, Estados, DF e Municípios."
+    },
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Inciso I — empregador/empresa",
+      "text": "Contribuição sobre folha de salários, receita/faturamento e lucro."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Inciso II — trabalhador e segurados",
+      "text": "Contribuição do trabalhador e demais segurados da Previdência Social."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Inciso III — concursos de prognósticos",
+      "text": "Receita das loterias em geral destinada à seguridade social."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Inciso IV — importador (EC 42/2003)",
+      "text": "Contribuição do importador de bens ou serviços do exterior, ou de quem a lei a ele equiparar."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q216",
+  "numero": "Questão 6",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Contribuição do segurado empregado, do trabalhador avulso e do contribuinte individual",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Contribuição do empregado e do trabalhador avulso (tabela progressiva) x contribuinte individual",
+  "tags": [
+    "contribuição do segurado",
+    "tabela progressiva",
+    "desconto em folha",
+    "contribuinte individual",
+    "plano simplificado"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Maria é empregada registrada de uma empresa privada e recebe salário mensal de R$ 3.500,00. João é contribuinte individual (profissional liberal) que presta serviços exclusivamente a pessoas físicas, sem vínculo de emprego, e também aufere renda mensal de R$ 3.500,00 pelo exercício de sua atividade.<br><br>A respeito da apuração e do recolhimento da contribuição previdenciária devida por Maria e por João ao Regime Geral de Previdência Social (RGPS), assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "correta": true,
+      "texto": "A contribuição de Maria é calculada de forma progressiva, aplicando-se a cada faixa do seu salário de contribuição a alíquota correspondente prevista em lei (variando, atualmente, entre 7,5% e 14%), sendo descontada pela empresa no pagamento da remuneração e recolhida por esta ao INSS; João, por sua vez, deve recolher por conta própria, em regra, à alíquota de 20% sobre o valor por ele declarado como salário de contribuição, respeitados os limites mínimo e máximo, podendo optar pelo Plano Simplificado (alíquota reduzida de 11% sobre o salário mínimo), hipótese em que renuncia, em princípio, ao direito à aposentadoria por tempo de contribuição."
+    },
+    {
+      "letra": "B",
+      "correta": false,
+      "texto": "A contribuição de Maria e a de João seguem a mesma tabela progressiva de alíquotas (7,5% a 14%), sendo que, em ambos os casos, cabe à fonte pagadora descontar e recolher o valor devido, dispensado o próprio segurado de qualquer obrigação acessória."
+    },
+    {
+      "letra": "C",
+      "correta": false,
+      "texto": "Maria recolhe à alíquota fixa de 11% sobre seu salário de contribuição, enquanto João, por ser contribuinte individual, está sujeito à tabela progressiva de 7,5% a 14%, cabendo a este último o recolhimento por meio de desconto obrigatório efetuado pelas pessoas físicas tomadoras de seus serviços."
+    },
+    {
+      "letra": "D",
+      "correta": false,
+      "texto": "Ambos podem optar pelo Plano Simplificado de Previdência Social, recolhendo 11% sobre o salário mínimo, desde que renunciem ao direito de se aposentar por tempo de contribuição, sendo essa faculdade extensiva tanto ao segurado empregado quanto ao contribuinte individual."
+    },
+    {
+      "letra": "E",
+      "correta": false,
+      "texto": "A contribuição de João, por não haver relação de emprego, é de responsabilidade exclusiva das pessoas físicas tomadoras dos seus serviços, que devem reter 20% do valor pago e repassar ao INSS, dispensando o contribuinte individual de qualquer recolhimento direto; já Maria deve recolher diretamente sua contribuição, uma vez que a empresa apenas informa os valores em folha, sem efetuar o desconto."
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>A forma de custeio muda radicalmente conforme a categoria do segurado, e a banca adora trocar a tabela progressiva do empregado pela alíquota fixa do contribuinte individual (ou vice-versa) para testar se o candidato realmente entendeu o mecanismo, não apenas decorou números soltos.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Segurado empregado e trabalhador avulso: tabela progressiva</h4><p>A contribuição do <strong>segurado empregado</strong>, do <strong>empregado doméstico</strong> e do <strong>trabalhador avulso</strong> incide sobre o <strong>salário de contribuição</strong> mensal (a remuneração efetivamente paga ou creditada, respeitado o teto do RGPS) e é apurada por meio de uma <strong>tabela progressiva de alíquotas</strong>, definida em lei e reajustada anualmente. O cálculo funciona de forma semelhante ao do imposto de renda: cada faixa de remuneração é tributada pela alíquota correspondente àquela faixa, e não pela alíquota máxima aplicada sobre o valor total. Atualmente as alíquotas variam, por faixa, de <strong>7,5% a 14%</strong>.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que a alíquota máxima da faixa incide sobre <em>todo</em> o salário do segurado, quando na verdade cada faixa é tributada separadamente, exatamente como ocorre no cálculo do IRPF.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Responsabilidade pelo desconto e recolhimento</h4><p>No caso do empregado e do trabalhador avulso, a <strong>lei atribui à empresa (ou ao sindicato/órgão gestor de mão de obra, no caso do avulso)</strong> a obrigação de descontar a contribuição diretamente da remuneração, no momento do pagamento, e de recolhê-la ao INSS dentro do prazo legal. O segurado, portanto, não precisa tomar nenhuma providência: a responsabilidade pela apuração e pelo repasse é da fonte pagadora, que responde inclusive penalmente pela apropriação indébita do valor descontado e não recolhido.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Contribuinte individual: alíquota geral de 20%</h4><p>O <strong>contribuinte individual</strong> (autônomo, profissional liberal, empresário individual etc.) contribui, em regra, à alíquota de <strong>20% sobre o salário de contribuição por ele próprio declarado</strong>, observados os limites mínimo (salário mínimo) e máximo (teto do RGPS). Quando presta serviço a <strong>empresa</strong>, é esta que fica responsável por <strong>reter e recolher</strong> a contribuição devida, descontando-a do valor pago; quando presta serviço apenas a <strong>pessoas físicas</strong> (como no caso de João) ou trabalha por conta própria, o próprio contribuinte individual deve apurar e recolher sua contribuição, sem retenção por terceiros.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Plano Simplificado da Previdência Social</h4><p>Como alternativa à alíquota geral de 20%, o contribuinte individual que trabalha por conta própria e o segurado facultativo podem optar pelo <strong>Plano Simplificado</strong>, recolhendo <strong>11% sobre o salário mínimo</strong>. Em contrapartida à alíquota reduzida, o tempo contribuído nessa modalidade não é, em regra, computado para fins de <strong>aposentadoria por tempo de contribuição</strong>, salvo se o segurado complementar, a qualquer tempo, a diferença entre o percentual recolhido e os 20% da alíquota geral, acrescida de juros. Essa opção não existe para o segurado empregado, cuja contribuição é compulsória sobre a remuneração efetivamente paga pela empresa.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar os dois regimes: empregado (tabela progressiva + desconto obrigatório pela empresa) e contribuinte individual (alíquota geral de 20% + recolhimento por conta própria quando não presta serviço a empresa). 2) Verificar se a alternativa inverte quem desconta e quem recolhe. 3) Verificar se a alternativa estende indevidamente o Plano Simplificado ao segurado empregado, o que não é permitido. 4) Eliminar alternativas que atribuam retenção a pessoas físicas tomadoras de serviço, pois essa obrigação só existe para empresas.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Descreve corretamente os dois regimes: Maria, como empregada, sujeita-se à tabela progressiva (7,5% a 14%) com desconto e recolhimento pela empresa; João, como contribuinte individual que não presta serviço a empresa, recolhe por conta própria, em regra a 20%, com a possibilidade de optar pelo Plano Simplificado (11% sobre o salário mínimo), abrindo mão, em princípio, da aposentadoria por tempo de contribuição.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — mesma tabela progressiva para os dois, com desconto pela fonte pagadora em ambos os casos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato generaliza a tabela progressiva do empregado para todo tipo de segurado.<br><strong>Onde quebra:</strong> a tabela progressiva de 7,5% a 14% é exclusiva de empregado, doméstico e avulso; o contribuinte individual usa alíquota geral de 20% (ou 11% no Plano Simplificado), e João não tem fonte pagadora obrigada a descontar, pois presta serviço a pessoas físicas.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — inverte as alíquotas de Maria e João</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato troca os regimes, associando 11% ao empregado e a tabela progressiva ao contribuinte individual.<br><strong>Onde quebra:</strong> é exatamente o oposto do que prevê a lei; além disso, pessoas físicas que tomam serviço de contribuinte individual não têm obrigação legal de reter sua contribuição.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — Plano Simplificado estendido ao segurado empregado</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que qualquer segurado pode optar por alíquota reduzida.<br><strong>Onde quebra:</strong> o Plano Simplificado é reservado ao contribuinte individual que trabalha por conta própria e ao segurado facultativo; a contribuição do empregado é compulsória sobre a remuneração efetivamente paga, sem opção de alíquota.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — inverte as responsabilidades pelo recolhimento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde a regra de retenção aplicável quando o contribuinte individual presta serviço a empresa com a situação de João, que presta serviço a pessoas físicas.<br><strong>Onde quebra:</strong> pessoas físicas não são responsáveis por reter contribuição de contribuinte individual; e é a empresa, não o próprio empregado, quem desconta e recolhe a contribuição de Maria.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o par: <strong>empregado/avulso = tabela progressiva + desconto pela fonte pagadora</strong>; <strong>contribuinte individual = alíquota geral de 20% (ou 11% no Plano Simplificado) + recolhimento por conta própria, salvo quando presta serviço a empresa</strong>, hipótese em que a retenção passa a ser obrigação da empresa tomadora.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-percent",
+      "titulo": "Tabela progressiva do segurado empregado",
+      "text": "Alíquotas de 7,5% a 14% aplicadas por faixas do salário de contribuição, como no IR, e não sobre a totalidade do salário."
+    },
+    {
+      "icone": "fa-building",
+      "titulo": "Responsabilidade da empresa pelo desconto",
+      "text": "Cabe à empresa descontar a contribuição do empregado na fonte e recolhê-la ao INSS, sob pena de responsabilidade."
+    },
+    {
+      "icone": "fa-user-tie",
+      "titulo": "Contribuinte individual — alíquota geral",
+      "text": "Regra geral de 20% sobre o salário de contribuição declarado, respeitados os limites mínimo e máximo do RGPS."
+    },
+    {
+      "icone": "fa-hand-holding-dollar",
+      "titulo": "Retenção pela empresa tomadora",
+      "text": "Quando o contribuinte individual presta serviço a empresa, esta é responsável por reter e recolher a contribuição devida."
+    },
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Plano Simplificado da Previdência Social",
+      "text": "Alíquota reduzida (11% sobre o salário mínimo) para contribuinte individual e facultativo, sem direito, em regra, à aposentadoria por tempo de contribuição."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 8.212/1991",
+      "text": "Lei de custeio da Seguridade Social, que disciplina as alíquotas e a forma de recolhimento das contribuições dos segurados."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q217",
+  "numero": "Questão 7",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Contribuição do segurado facultativo e do segurado especial",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Contribuição do segurado facultativo (Plano Simplificado) e do segurado especial (regime substitutivo)",
+  "tags": [
+    "segurado facultativo",
+    "plano simplificado",
+    "segurado especial",
+    "regime substitutivo",
+    "comercialização da produção rural"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Cristina, dona de casa, não exerce atividade remunerada e deseja se filiar voluntariamente ao RGPS na condição de segurada facultativa. Antônio é agricultor que exerce atividade em regime de economia familiar, sem empregados permanentes, e vive exclusivamente da comercialização da produção obtida em sua pequena propriedade rural, enquadrando-se como segurado especial.<br><br>A respeito da forma de custeio aplicável a cada um desses segurados perante o RGPS, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "correta": false,
+      "texto": "Cristina, como segurada facultativa, deve necessariamente recolher 20% sobre o salário mínimo, não lhe sendo facultada nenhuma alíquota reduzida; Antônio, como segurado especial, recolhe sua contribuição com base no mesmo salário de contribuição mensal utilizado pelo contribuinte individual."
+    },
+    {
+      "letra": "B",
+      "correta": true,
+      "texto": "Cristina, como segurada facultativa, pode optar pela contribuição geral de 20% sobre o salário de contribuição por ela declarado ou pelo Plano Simplificado, recolhendo alíquota reduzida sobre o salário mínimo; Antônio, como segurado especial, contribui, em regra, mediante a aplicação de alíquota sobre a receita bruta da comercialização de sua produção rural, em substituição à contribuição incidente sobre folha de salários ou sobre salário de contribuição mensal, caracterizando o chamado regime de substituição tributária."
+    },
+    {
+      "letra": "C",
+      "correta": false,
+      "texto": "Tanto Cristina quanto Antônio estão dispensados de contribuir diretamente, pois a contribuição de ambos é sub-rogada obrigatoriamente na pessoa jurídica adquirente da produção ou dos serviços que eventualmente prestem."
+    },
+    {
+      "letra": "D",
+      "correta": false,
+      "texto": "Antônio, por se enquadrar como segurado especial, está impedido de contribuir sobre o salário de contribuição mensal, sendo essa a única forma de contribuição admitida pela legislação para esse segurado, ao passo que Cristina, como facultativa, somente pode contribuir pelo valor do teto do RGPS."
+    },
+    {
+      "letra": "E",
+      "correta": false,
+      "texto": "A contribuição de Cristina incide sobre a receita bruta obtida com a venda de bens de sua titularidade, nos mesmos moldes do segurado especial, e a de Antônio incide sobre o salário mínimo vigente, com alíquota fixa de 11%, sem possibilidade de opção por outra alíquota."
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>O segurado facultativo e o segurado especial são frequentemente colocados lado a lado nas provas justamente porque seus regimes de custeio são estruturalmente diferentes: um contribui sobre salário de contribuição declarado, o outro sobre a comercialização da própria produção.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Segurado facultativo: quem é e a partir de quando pode se filiar</h4><p>É <strong>segurado facultativo</strong> quem, maior de 16 anos, não exerce atividade remunerada que o enquadre obrigatoriamente no RGPS, mas deseja se filiar voluntariamente ao sistema (dona de casa, estudante, desempregado, síndico não remunerado, entre outros exemplos clássicos de prova). A filiação é um ato volitivo, formalizado mediante inscrição e primeiro recolhimento.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Alíquotas do facultativo: geral, Plano Simplificado e baixa renda</h4><p>O facultativo pode recolher pela <strong>alíquota geral de 20%</strong> sobre o salário de contribuição que declarar, entre o mínimo e o teto, com direito a todos os benefícios, inclusive aposentadoria por tempo de contribuição. Alternativamente, pode optar pelo <strong>Plano Simplificado</strong> (11% sobre o salário mínimo), abrindo mão, em regra, da aposentadoria por tempo de contribuição, salvo complementação futura. Há ainda alíquota reduzida de <strong>5% sobre o salário mínimo</strong> para o facultativo de baixa renda (dona ou dono de casa de família de baixa renda, inscrito no CadÚnico), também sem direito, em regra, a essa modalidade de aposentadoria.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que o facultativo só pode contribuir por uma única alíquota fixa, ignorando a existência das três modalidades (geral, simplificado e baixa renda).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Segurado especial: regime de economia familiar</h4><p>É <strong>segurado especial</strong> a pessoa física que exerce atividade em regime de <strong>economia familiar</strong> (sem empregados permanentes) como produtor rural, pescador artesanal ou assemelhado, explorando a terra ou a atividade pesqueira individualmente ou em regime de mútua colaboração com o grupo familiar, indispensável à própria subsistência.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Regime de substituição: contribuição sobre a comercialização da produção</h4><p>Diferentemente de todos os demais segurados, o segurado especial <strong>não contribui, em regra, sobre um salário de contribuição mensal</strong>. Seu regime é <strong>substitutivo</strong>: contribui mediante alíquota incidente sobre a <strong>receita bruta da comercialização de sua produção rural</strong>, em substituição à contribuição que, para os demais segurados, incide sobre remuneração ou salário de contribuição. Esse recolhimento costuma ocorrer por <strong>sub-rogação</strong>, quando a empresa adquirente da produção fica responsável por reter e recolher o valor no momento da compra. Nada impede, porém, que o segurado especial opte por contribuir facultativamente também como contribuinte individual, sobre salário de contribuição, para ter acesso a benefícios calculados pela média de contribuições (como a aposentadoria por tempo de contribuição), em complemento ao regime substitutivo obrigatório.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que o facultativo tem mais de uma opção de alíquota (20% geral, 11% simplificado e 5% baixa renda). 2) Lembrar que o segurado especial não usa salário de contribuição mensal como regra, e sim alíquota sobre a receita da comercialização da produção (regime substitutivo). 3) Eliminar alternativas que igualam os dois regimes ou que dispensam totalmente a contribuição de qualquer um deles. 4) Confirmar que a sub-rogação é mecanismo de arrecadação, não de dispensa da obrigação.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Descreve corretamente as duas opções de Cristina (alíquota geral de 20% ou Plano Simplificado de 11% sobre o salário mínimo) e o regime substitutivo de Antônio, que contribui sobre a receita bruta da comercialização de sua produção rural, e não sobre um salário de contribuição mensal.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — nega opções de alíquota a Cristina e iguala Antônio ao contribuinte individual</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que só existe uma alíquota para facultativo.<br><strong>Onde quebra:</strong> Cristina pode optar pelo Plano Simplificado (11%) ou até pela alíquota de baixa renda (5%), conforme o caso; e Antônio, como especial, não usa salário de contribuição mensal como regra, e sim a receita da comercialização.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — dispensa total de contribuição por sub-rogação universal</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato conhece a sub-rogação do segurado especial e generaliza o mecanismo para Cristina também.<br><strong>Onde quebra:</strong> a sub-rogação transfere apenas a responsabilidade pelo recolhimento (à empresa adquirente da produção do especial), não dispensa a obrigação contributiva em si; e não existe qualquer sub-rogação aplicável à facultativa Cristina, que recolhe diretamente.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — veda contribuição complementar ao especial e limita facultativo ao teto</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa razoável que o regime substitutivo seja a única via possível para o segurado especial.<br><strong>Onde quebra:</strong> o especial pode complementar, facultativamente, contribuição como contribuinte individual sobre salário de contribuição; e Cristina pode contribuir sobre qualquer valor entre o mínimo e o teto, não apenas pelo teto.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — inverte completamente os dois regimes</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> troca as bases de cálculo dos dois segurados.<br><strong>Onde quebra:</strong> é o segurado especial, não o facultativo, que contribui sobre receita bruta da comercialização; e Antônio não está restrito a uma alíquota fixa de 11% sobre o salário mínimo como único caminho.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe: <strong>facultativo = salário de contribuição declarado (20%, 11% ou 5%, conforme a modalidade)</strong>; <strong>segurado especial = regime substitutivo sobre a receita da comercialização da produção</strong>, com possibilidade de contribuição complementar facultativa para ampliar direitos.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-house",
+      "titulo": "Segurado facultativo",
+      "text": "Quem não exerce atividade remunerada obrigatória, mas se filia voluntariamente ao RGPS a partir dos 16 anos."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Plano Simplificado e baixa renda",
+      "text": "Alíquotas reduzidas (11% e 5% sobre o salário mínimo) sem direito, em regra, à aposentadoria por tempo de contribuição."
+    },
+    {
+      "icone": "fa-seedling",
+      "titulo": "Segurado especial",
+      "text": "Quem exerce atividade rural ou pesqueira em regime de economia familiar, sem empregados permanentes."
+    },
+    {
+      "icone": "fa-hand-holding-dollar",
+      "titulo": "Regime de substituição tributária",
+      "text": "Contribuição sobre a receita bruta da comercialização da produção, em vez de sobre salário de contribuição mensal."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Sub-rogação",
+      "text": "A empresa adquirente da produção rural do segurado especial fica responsável por reter e recolher a contribuição devida."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 8.212/1991, art. 25",
+      "text": "Dispositivo que disciplina a contribuição do segurado especial incidente sobre a comercialização da produção."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q218",
+  "numero": "Questão 8",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Contribuição patronal da empresa e RAT (Riscos Ambientais do Trabalho)",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Contribuição patronal básica sobre a folha e o adicional RAT/SAT ajustado pelo FAP",
+  "tags": [
+    "contribuição patronal",
+    "folha de salários",
+    "RAT",
+    "SAT",
+    "FAP",
+    "grau de risco"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A empresa Alfa Ltda. tem como atividade econômica preponderante uma atividade classificada em grau de risco médio para fins de acidente do trabalho, e pretende calcular corretamente o total de suas contribuições previdenciárias patronais incidentes sobre a remuneração paga a seus empregados.<br><br>A respeito da contribuição patronal básica e do financiamento dos riscos ambientais do trabalho, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "correta": false,
+      "texto": "A empresa deve recolher 11% sobre o total das remunerações pagas a empregados e trabalhadores avulsos, acrescidos de alíquota adicional fixa de 1%, independentemente do grau de risco de sua atividade preponderante."
+    },
+    {
+      "letra": "B",
+      "correta": false,
+      "texto": "A empresa deve recolher 20% sobre o total das remunerações pagas exclusivamente a contribuintes individuais a seu serviço, somados a um adicional de até 3% destinado ao custeio da aposentadoria especial, aplicável apenas quando a empresa contrata trabalhadores expostos a agentes nocivos."
+    },
+    {
+      "letra": "C",
+      "correta": true,
+      "texto": "A empresa deve recolher, sobre o total das remunerações pagas a empregados e trabalhadores avulsos, a contribuição patronal básica de 20%, acrescida do adicional RAT de 1%, 2% ou 3%, conforme o grau de risco leve, médio ou grave da atividade preponderante, alíquota essa que pode ser reduzida em até 50% ou aumentada em até 100% pela aplicação do Fator Acidentário de Prevenção (FAP), calculado individualmente conforme o desempenho da empresa quanto à frequência, à gravidade e ao custo dos acidentes de trabalho."
+    },
+    {
+      "letra": "D",
+      "correta": false,
+      "texto": "O FAP é um valor fixo estabelecido por lei para cada grau de risco (leve, médio ou grave), aplicável de forma idêntica a todas as empresas do mesmo ramo de atividade, não havendo qualquer distinção conforme o desempenho individual de cada empresa em matéria de acidentes de trabalho."
+    },
+    {
+      "letra": "E",
+      "correta": false,
+      "texto": "A alíquota RAT de 1%, 2% ou 3% incide sobre a remuneração paga a todos os segurados que prestam serviço à empresa, inclusive contribuintes individuais e segurados facultativos que a ela prestem serviço eventual, e não pode ser reduzida ou aumentada por nenhum mecanismo legal."
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>A contribuição patronal básica e o adicional RAT/SAT são um dos temas mais numéricos da prova, e a banca gosta de testar se o candidato sabe separar o percentual fixo (20%) do percentual variável (1%, 2% ou 3%, ajustado pelo FAP), além de saber sobre quem cada um incide.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Contribuição patronal básica (20%)</h4><p>A empresa é obrigada a recolher, como contribuição patronal básica, o percentual de <strong>20% sobre o total das remunerações pagas, devidas ou creditadas</strong>, a qualquer título, no decorrer do mês, aos segurados empregados e trabalhadores avulsos que lhe prestam serviços, ainda que como retribuição de trabalho não sujeito a horário fixo. É a principal fonte de custeio previdenciário suportada pelo empregador, incidindo sobre a folha de pagamento propriamente dita.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> RAT/SAT: alíquota conforme o grau de risco</h4><p>Além da contribuição básica, a empresa recolhe um <strong>adicional destinado ao financiamento dos benefícios decorrentes de incapacidade por acidente do trabalho</strong> (hoje chamado de RAT — Riscos Ambientais do Trabalho, antigo SAT — Seguro de Acidente do Trabalho). Esse adicional incide também sobre a remuneração de empregados e trabalhadores avulsos, com alíquota de <strong>1% (risco leve), 2% (risco médio) ou 3% (risco grave)</strong>, definida a partir da atividade econômica preponderante da empresa (a que ocupa o maior número de empregados no estabelecimento).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca troca os graus de risco (dizer que risco médio corresponde a 3%, por exemplo) ou afirma que o RAT incide sobre contribuinte individual, quando na verdade incide apenas sobre empregados e avulsos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> FAP: ajuste individualizado por empresa</h4><p>A alíquota RAT (1%, 2% ou 3%) não é definitiva: ela é multiplicada pelo <strong>Fator Acidentário de Prevenção (FAP)</strong>, um índice individualizado, calculado por CNPJ, que varia de <strong>0,5000 a 2,0000</strong>. Empresas com histórico melhor que a média do seu subsetor econômico (menos frequência, gravidade e custo de acidentes e doenças ocupacionais) têm FAP menor que 1, reduzindo a alíquota RAT em até 50%; empresas com desempenho pior têm FAP maior que 1, podendo dobrar a alíquota. É, portanto, um mecanismo de bonus-malus que premia a prevenção de acidentes.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Adicional específico da aposentadoria especial</h4><p>Distinto do RAT (que é geral e obrigatório para toda empresa), existe também um <strong>adicional específico</strong>, cumulativo com a alíquota RAT/FAP, devido apenas em relação aos segurados <strong>expostos a agentes nocivos</strong> que assegurem direito à aposentadoria especial, variando conforme o tempo de exposição exigido para essa aposentadoria. Não deve ser confundido com o adicional RAT, que independe de exposição a agentes nocivos e decorre apenas do grau de risco da atividade preponderante.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Confirmar o percentual da contribuição patronal básica (20%, não 11%). 2) Confirmar a tríade do RAT (1%/2%/3% conforme risco leve/médio/grave). 3) Lembrar que o FAP é individualizado por empresa, não fixo por ramo. 4) Lembrar que o RAT incide sobre empregados e avulsos, não sobre contribuinte individual nem facultativo.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reúne corretamente os três elementos: 20% de contribuição patronal básica, adicional RAT de 1%, 2% ou 3% conforme o grau de risco da atividade preponderante, e o ajuste dessa alíquota pelo FAP (redução de até 50% ou aumento de até 100%), calculado conforme o desempenho individual da empresa.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — confunde percentual patronal com 11% e RAT fixo em 1%</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde a alíquota patronal de 20% com percentuais de retenção usados em outros contextos (como a retenção de 11% sobre nota fiscal de prestação de serviços mediante cessão de mão de obra).<br><strong>Onde quebra:</strong> a contribuição patronal básica é de 20%, e o RAT não é fixo em 1%, variando conforme o grau de risco da atividade.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — restringe a base de cálculo a contribuintes individuais e confunde o adicional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> mistura corretamente o número 20%, mas erra a base de incidência e o adicional aplicável.<br><strong>Onde quebra:</strong> a contribuição patronal básica de 20% incide sobre a folha de empregados e avulsos (não exclusivamente sobre contribuintes individuais); o adicional de aposentadoria especial é distinto do RAT e só se aplica aos segurados efetivamente expostos a agentes nocivos, sendo cumulativo, e não alternativo, ao RAT.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — trata o FAP como valor fixo por ramo de atividade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde o FAP com a própria alíquota RAT (essa sim fixada por grau de risco).<br><strong>Onde quebra:</strong> o FAP é individualizado por empresa (CNPJ), calculado com base no histórico de acidentalidade daquele estabelecimento específico, e não um valor uniforme para todas as empresas do mesmo subsetor.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — estende o RAT a contribuinte individual e facultativo, e nega o FAP</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato generaliza a base de incidência para todo tipo de prestador de serviço.<br><strong>Onde quebra:</strong> o RAT incide apenas sobre a remuneração de empregados e trabalhadores avulsos, e a alíquota pode sim ser reduzida ou aumentada pelo FAP.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize a fórmula: <strong>20% (patronal básica) + [1%, 2% ou 3% x FAP] (RAT ajustado) + adicional específico, se houver exposição a agentes nocivos</strong>. O FAP nunca é fixo — é sempre calculado empresa a empresa.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-building",
+      "titulo": "Contribuição patronal básica (20%)",
+      "text": "Incide sobre o total das remunerações pagas a empregados e trabalhadores avulsos."
+    },
+    {
+      "icone": "fa-triangle-exclamation",
+      "titulo": "RAT/SAT",
+      "text": "Alíquota adicional de 1%, 2% ou 3% conforme o grau de risco leve, médio ou grave da atividade preponderante da empresa."
+    },
+    {
+      "icone": "fa-chart-line",
+      "titulo": "FAP (Fator Acidentário de Prevenção)",
+      "text": "Multiplicador individualizado por empresa, entre 0,5 e 2,0, que reduz ou aumenta a alíquota RAT conforme o histórico de acidentalidade."
+    },
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Adicional para aposentadoria especial",
+      "text": "Contribuição adicional cumulativa, devida quando há segurados expostos a agentes nocivos que garantam aposentadoria especial."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 8.212/1991, art. 22",
+      "text": "Dispositivo que disciplina as contribuições patronais da empresa sobre a folha de pagamento."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q219",
+  "numero": "Questão 9",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Regimes substitutivos: produtor rural, agroindústria e clube de futebol profissional",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Regimes substitutivos de custeio: produtor rural pessoa física, agroindústria e clube de futebol profissional",
+  "tags": [
+    "regime substitutivo",
+    "produtor rural pessoa física",
+    "agroindústria",
+    "clube de futebol profissional",
+    "receita bruta"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Três situações são apresentadas a um analista do INSS: (I) uma pessoa física que explora atividade agropecuária em imóvel rural, na condição de empregadora rural; (II) uma agroindústria que processa e comercializa produtos derivados de produção rural própria; e (III) um clube de futebol profissional que mantém equipe de atletas contratados sob o regime da Lei Pelé.<br><br>Quanto à forma pela qual essas entidades custeiam a Seguridade Social em relação à contribuição patronal, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "correta": false,
+      "texto": "As três entidades recolhem exclusivamente a contribuição patronal básica de 20% sobre a folha de salários de seus empregados, acrescida do adicional RAT, não havendo, para nenhuma delas, regime de substituição tributária previsto em lei."
+    },
+    {
+      "letra": "B",
+      "correta": false,
+      "texto": "Apenas o clube de futebol profissional está sujeito a regime de substituição tributária, recolhendo contribuição sobre sua receita de bilheteria; o produtor rural pessoa física e a agroindústria recolhem normalmente sobre a folha de pagamento, nos mesmos moldes de qualquer empresa urbana."
+    },
+    {
+      "letra": "C",
+      "correta": false,
+      "texto": "O produtor rural pessoa física e a agroindústria estão dispensados de qualquer contribuição patronal, uma vez que a integralidade do custeio da Seguridade Social relativo a esses segmentos é suportada pela contribuição do segurado especial; já o clube de futebol recolhe normalmente sobre a folha de salários de seus atletas."
+    },
+    {
+      "letra": "D",
+      "correta": true,
+      "texto": "O produtor rural pessoa física e a agroindústria contribuem, em substituição às contribuições incidentes sobre a folha de salários (contribuição patronal básica e RAT), mediante a aplicação de alíquota sobre a receita bruta proveniente da comercialização de sua produção; o clube de futebol profissional, por sua vez, contribui, em substituição à contribuição patronal incidente sobre a remuneração de seus atletas, à alíquota de 5% sobre a receita bruta decorrente dos espetáculos desportivos de que participa em todo o território nacional e de contratos de patrocínio, licenciamento de uso de marcas e símbolos, publicidade e transmissão de espetáculos."
+    },
+    {
+      "letra": "E",
+      "correta": false,
+      "texto": "O regime de substituição tributária aplicável ao produtor rural pessoa física, à agroindústria e ao clube de futebol profissional é sempre opcional, podendo cada uma dessas entidades escolher, a qualquer tempo, entre recolher sobre a receita bruta ou sobre a folha de salários, conforme lhe for mais vantajoso."
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Além do segurado especial, a lei prevê regimes substitutivos próprios para determinados empregadores e entidades — como o produtor rural pessoa física, a agroindústria e o clube de futebol profissional —, cuja contribuição patronal incide sobre a receita, e não sobre a folha de salários. É um ponto frequentemente cobrado em prova por reunir vários regimes especiais em um só bloco.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Produtor rural pessoa física (empregador rural)</h4><p>O <strong>produtor rural pessoa física</strong> que explora atividade agropecuária como empregador (contratando empregados, ainda que eventualmente) não recolhe a contribuição patronal básica de 20% sobre a folha nem o RAT nos moldes da empresa urbana comum. Em vez disso, contribui em <strong>regime de substituição</strong>, mediante alíquota incidente sobre a <strong>receita bruta proveniente da comercialização de sua produção rural</strong>, que substitui as contribuições que, para as demais empresas, incidiriam sobre a folha de pagamento e sobre o RAT. Esse regime não se confunde com o do segurado especial (que não tem empregados permanentes e trabalha em economia familiar): o produtor rural pessoa física aqui tratado é <strong>empregador</strong> rural.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Agroindústria</h4><p>A <strong>agroindústria</strong> (pessoa jurídica que industrializa produção rural própria ou de terceiros) também está sujeita a regime de substituição semelhante: contribui com alíquota sobre a <strong>receita bruta proveniente da comercialização da produção</strong>, em substituição às contribuições que incidiriam sobre a folha de salários relativas aos segurados vinculados à atividade rural. Trata-se de regime distinto do aplicável à empresa urbana comum, ainda que a agroindústria seja pessoa jurídica.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que apenas pessoas físicas (produtor rural) têm regime substitutivo, ignorando que a agroindústria, pessoa jurídica, também está sujeita a regime semelhante em relação à sua produção rural.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Clube de futebol profissional</h4><p>O <strong>clube de futebol profissional</strong> também possui regime de substituição específico quanto à contribuição patronal relativa aos seus atletas: em vez de recolher 20% sobre a folha de pagamento dos atletas profissionais mais o RAT, contribui à alíquota de <strong>5% sobre a receita bruta</strong> decorrente dos espetáculos desportivos de que participa em todo o território nacional, em qualquer modalidade desportiva, e de contratos de <strong>patrocínio, licenciamento de uso de marcas e símbolos, publicidade e transmissão de espetáculos</strong>. É um regime pensado para uma atividade cuja receita não decorre diretamente de venda de produto, mas de eventos e direitos de imagem/transmissão.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Traço comum: substituição compulsória, não facultativa</h4><p>Em todos esses regimes, a substituição da contribuição sobre folha por contribuição sobre receita/comercialização é <strong>compulsória</strong>, prevista em lei para o respectivo segmento, e não uma escolha do contribuinte entre um regime e outro. O objetivo do legislador foi simplificar a arrecadação em setores onde a apuração da folha de salários é mais difícil de fiscalizar (produção rural pulverizada) ou onde a receita não guarda relação direta e constante com a folha (espetáculos desportivos).</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Reconhecer que os três casos (produtor rural pessoa física, agroindústria e clube de futebol) têm regime substitutivo próprio, sobre receita/comercialização, não sobre folha. 2) Lembrar do percentual específico do clube de futebol (5% sobre a receita bruta de espetáculos e contratos correlatos). 3) Eliminar alternativas que neguem o regime substitutivo a qualquer um dos três ou que o tratem como facultativo/opcional.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Descreve corretamente os três regimes substitutivos: produtor rural pessoa física e agroindústria contribuindo sobre a receita bruta da comercialização da produção, e clube de futebol profissional contribuindo a 5% sobre a receita bruta de espetáculos desportivos e contratos de patrocínio, publicidade e transmissão, todos em substituição à contribuição patronal sobre a folha.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — nega qualquer regime substitutivo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza a regra da empresa urbana comum para todos os casos.<br><strong>Onde quebra:</strong> os três segmentos citados possuem regime de substituição tributária expressamente previsto em lei, distinto da regra geral de contribuição sobre folha.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — restringe a substituição ao clube de futebol</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o clube de futebol é o caso mais lembrado, levando o candidato a esquecer os demais.<br><strong>Onde quebra:</strong> o produtor rural pessoa física e a agroindústria também têm regime substitutivo sobre a receita da comercialização da produção; além disso, a base do clube de futebol não é a bilheteria isoladamente, mas a receita bruta de espetáculos e contratos correlatos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — confunde produtor rural empregador com segurado especial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> associa qualquer atividade rural ao regime do segurado especial.<br><strong>Onde quebra:</strong> o produtor rural pessoa física empregador é contribuinte obrigatório em nome próprio, distinto do segurado especial (que não tem empregados permanentes); e o clube de futebol não recolhe normalmente sobre a folha, tendo regime próprio de 5% sobre a receita.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — trata a substituição como opcional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato assume que todo regime especial de custeio é uma faculdade do contribuinte.<br><strong>Onde quebra:</strong> os regimes substitutivos aqui tratados são compulsórios, definidos em lei para os respectivos segmentos, não uma opção que o contribuinte possa exercer livremente a cada período.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão citar <strong>produtor rural, agroindústria ou clube de futebol profissional</strong> como empregadores, pense em <strong>regime substitutivo compulsório sobre receita/comercialização</strong>, e fixe o número específico do futebol: <strong>5% sobre a receita bruta de espetáculos e contratos correlatos</strong>.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-tractor",
+      "titulo": "Produtor rural pessoa física (empregador rural)",
+      "text": "Contribui em substituição à folha, mediante alíquota sobre a receita bruta da comercialização da produção rural."
+    },
+    {
+      "icone": "fa-industry",
+      "titulo": "Agroindústria",
+      "text": "Também sujeita a regime substitutivo sobre a receita bruta, distinto do regime da empresa urbana comum."
+    },
+    {
+      "icone": "fa-futbol",
+      "titulo": "Clube de futebol profissional",
+      "text": "Regime substitutivo específico: 5% sobre a receita bruta dos espetáculos desportivos e de contratos correlatos (patrocínio, publicidade, transmissão)."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Regime de substituição tributária",
+      "text": "Mecanismo compulsório em que a contribuição sobre a folha é substituída por alíquota sobre a receita ou a comercialização."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 8.212/1991",
+      "text": "Legislação que disciplina os regimes substitutivos de custeio da Seguridade Social para esses segmentos."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q220",
+  "numero": "Questão 10",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Contribuições para terceiros (Sistema S) e contribuição sobre concursos de prognósticos",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Contribuições para terceiros (Sistema S) x contribuição sobre a receita de concursos de prognósticos",
+  "tags": [
+    "contribuições para terceiros",
+    "Sistema S",
+    "concursos de prognósticos",
+    "art. 195 CF",
+    "fontes de custeio"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "No âmbito do financiamento da Seguridade Social, duas rubricas frequentemente geram confusão entre candidatos: as chamadas contribuições para terceiros (destinadas a entidades como SESI, SENAI, SESC, SENAC e SEBRAE, entre outras) e a contribuição incidente sobre a receita de concursos de prognósticos.<br><br>A respeito da natureza dessas duas rubricas, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "correta": false,
+      "texto": "Ambas constituem fontes de custeio da Seguridade Social expressamente previstas no art. 195 da Constituição Federal de 1988, distinguindo-se apenas quanto à base de cálculo: a folha de salários, no caso das contribuições para terceiros, e a receita bruta, no caso dos concursos de prognósticos."
+    },
+    {
+      "letra": "B",
+      "correta": false,
+      "texto": "As contribuições para terceiros substituem, para as empresas que as recolhem, a obrigação de pagar a contribuição patronal básica de 20% sobre a folha de salários, ao passo que a contribuição sobre concursos de prognósticos é repassada diretamente aos Estados e Municípios, sem vinculação à Seguridade Social."
+    },
+    {
+      "letra": "C",
+      "correta": false,
+      "texto": "A contribuição sobre a receita de concursos de prognósticos não é considerada fonte de custeio da Seguridade Social, servindo apenas para o financiamento das entidades do Sistema S, ao passo que as contribuições para terceiros compõem o orçamento da Seguridade Social nos termos do art. 195 da CF/1988."
+    },
+    {
+      "letra": "D",
+      "correta": false,
+      "texto": "As contribuições para terceiros e a contribuição sobre concursos de prognósticos possuem idêntica destinação, sendo ambas repartidas, em partes iguais, entre a Previdência Social e as entidades do Sistema S, por força de disposição constitucional expressa."
+    },
+    {
+      "letra": "E",
+      "correta": true,
+      "texto": "A contribuição sobre a receita de concursos de prognósticos constitui, nos termos do art. 195, III, da CF/1988, uma das fontes diretas de financiamento da Seguridade Social; já as contribuições para terceiros (destinadas a entidades como SESI, SENAI, SESC, SENAC e SEBRAE) são contribuições de interesse de categorias profissionais ou econômicas, calculadas sobre a folha de salários e arrecadadas conjuntamente com as contribuições previdenciárias, mas cuja receita não integra o orçamento da Seguridade Social, sendo repassada às respectivas entidades."
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Candidatos costumam misturar tudo o que é recolhido junto com o INSS na mesma guia como se fosse contribuição da Seguridade Social. A prova gosta de separar o que realmente financia a Previdência/Seguridade do que é apenas arrecadado em conjunto por praticidade administrativa, mas destinado a outras finalidades.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Fontes de custeio da Seguridade Social (art. 195, CF/1988)</h4><p>O <strong>art. 195 da CF/1988</strong> lista as fontes que efetivamente financiam a Seguridade Social: contribuições do <strong>empregador, da empresa e da entidade a ela equiparada</strong> (sobre folha, receita/faturamento e lucro), do <strong>trabalhador e demais segurados</strong>, sobre a <strong>receita de concursos de prognósticos</strong> e do <strong>importador de bens ou serviços do exterior</strong>. Esse rol constitui o núcleo do financiamento direto de saúde, previdência e assistência social.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Concursos de prognósticos: fonte constitucional direta</h4><p>A <strong>receita de concursos de prognósticos</strong> (loterias, sorteios e apostas similares) é, portanto, uma <strong>fonte de custeio direta da Seguridade Social</strong>, expressamente prevista no inciso III do art. 195. Não se trata de um tributo de interesse de categoria profissional, mas de receita que ingressa no orçamento da Seguridade Social como as demais contribuições sociais típicas.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que os concursos de prognósticos financiam apenas o Sistema S ou que não têm relação com a Seguridade Social, invertendo exatamente essa fonte constitucional.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Contribuições para terceiros (Sistema S): natureza distinta</h4><p>As chamadas <strong>contribuições para terceiros</strong> (ou contribuições parafiscais) são devidas a entidades de <strong>formação profissional e serviço social</strong> ligadas a categorias econômicas, como <strong>SESI, SENAI, SESC, SENAC, SEBRAE</strong>, além de destinações como <strong>INCRA</strong> e <strong>salário-educação</strong>. Sua base de cálculo também é a <strong>folha de salários</strong>, com alíquotas que variam conforme o enquadramento sindical/setorial da empresa (indústria, comércio, transporte etc.). Apesar de serem arrecadadas <strong>em conjunto</strong> com as contribuições previdenciárias (mesma guia, mesmo prazo, mesma fiscalização), essas contribuições <strong>não compõem o orçamento da Seguridade Social</strong>: são repassadas integralmente às respectivas entidades beneficiárias.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Por que a arrecadação conjunta gera confusão</h4><p>Por razões de simplificação administrativa, o mesmo instrumento usado pela empresa para declarar e recolher a contribuição previdenciária também é utilizado para apurar e recolher as contribuições para terceiros. Essa arrecadação unificada leva muitos candidatos a presumirem que ambas têm a mesma natureza jurídica e a mesma destinação orçamentária, o que é incorreto: a unificação é meramente operacional, não jurídica.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar que concursos de prognósticos estão expressamente no art. 195, III, CF/1988 como fonte da Seguridade Social. 2) Lembrar que contribuições para terceiros (Sistema S) financiam entidades de formação profissional/serviço social, e não a Seguridade Social diretamente. 3) Eliminar alternativas que igualam a natureza jurídica das duas rubricas só porque são arrecadadas juntas. 4) Eliminar alternativas que inventam repartição para Estados e Municípios ou partilha igualitária não prevista em lei.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Distingue corretamente as duas rubricas: a receita de concursos de prognósticos é fonte constitucional direta da Seguridade Social (art. 195, III, CF/1988), enquanto as contribuições para terceiros, apesar de arrecadadas junto com as contribuições previdenciárias sobre a folha, destinam-se a entidades de formação profissional e serviço social, sem integrar o orçamento da Seguridade Social.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — trata as contribuições para terceiros como fonte do art. 195</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> ambas incidem sobre bases usuais de contribuição social (folha e receita), levando à falsa impressão de que as duas estão no mesmo rol constitucional.<br><strong>Onde quebra:</strong> apenas a contribuição sobre concursos de prognósticos está listada no art. 195, III, CF/1988; as contribuições para terceiros têm fundamento distinto, vinculado ao interesse de categorias profissionais/econômicas, não à Seguridade Social.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — inventa substituição da patronal e repasse a Estados/Municípios</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa plausível que uma contribuição \"para terceiros\" substitua outra contribuição patronal.<br><strong>Onde quebra:</strong> as contribuições para terceiros são cumulativas à contribuição patronal básica de 20%, não a substituem; e a receita de concursos de prognósticos é destinada à Seguridade Social, não a Estados e Municípios.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — inverte exatamente as duas naturezas</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> é uma armadilha clássica de espelhamento, atribuindo a cada rubrica a natureza da outra.<br><strong>Onde quebra:</strong> é a contribuição sobre concursos de prognósticos que é fonte da Seguridade Social (não o Sistema S), e são as contribuições para terceiros que não compõem o orçamento da Seguridade Social.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — cria partilha igualitária inexistente</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece uma solução conciliadora e simétrica entre as duas rubricas.<br><strong>Onde quebra:</strong> não existe previsão constitucional de partilha igualitária entre Previdência Social e Sistema S para essas duas rubricas; cada uma tem destinação própria e distinta, sem rateio automático entre elas.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Arrecadação conjunta não é igual a mesma natureza jurídica: <strong>concursos de prognósticos = fonte constitucional direta da Seguridade Social (art. 195, III)</strong>; <strong>contribuições para terceiros/Sistema S = contribuição de interesse de categoria profissional/econômica, apenas arrecadada junto</strong>.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-ticket",
+      "titulo": "Concursos de prognósticos",
+      "text": "Fonte de custeio da Seguridade Social prevista no art. 195, III, CF/1988, incidente sobre a receita de loterias e sorteios."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Sistema S",
+      "text": "Conjunto de entidades de formação profissional e serviço social (SESI, SENAI, SESC, SENAC, SEBRAE etc.) financiadas por contribuições parafiscais."
+    },
+    {
+      "icone": "fa-money-check-dollar",
+      "titulo": "Contribuições para terceiros",
+      "text": "Incidem sobre a folha de salários, são arrecadadas junto com as contribuições previdenciárias, mas não financiam diretamente a Seguridade Social."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Art. 195, CF/1988",
+      "text": "Dispositivo constitucional que elenca as fontes de custeio da Seguridade Social: empregador/empresa, trabalhador, receita de concursos de prognósticos e importador."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Natureza parafiscal",
+      "text": "Contribuições cuja arrecadação é destinada a entidades diversas do ente que as institui, seguindo regime jurídico de contribuição especial."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q221",
+  "numero": "Questão 11",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Salário-de-contribuição: conceito e parcelas integrantes",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Conceito de salário-de-contribuição e parcelas que o integram (art. 28, Lei 8.212/1991)",
+  "tags": [
+    "salário de contribuição",
+    "art. 28 lei 8212",
+    "gorjetas",
+    "habitualidade",
+    "diária de viagem"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marcos é empregado de uma indústria e, no mês de competência, recebeu: I) salário-base contratual; II) horas extras habituais; III) adicional noturno; IV) gorjetas repassadas pelo empregador, recebidas de clientes; V) uma diária para viagem correspondente a 30% de sua remuneração mensal, paga para custear despesas em evento realizado em outro estado.<br><br>Com base no conceito de salário-de-contribuição previsto no art. 28 da Lei 8.212/1991, assinale a alternativa que indica corretamente quais dessas parcelas integram o salário-de-contribuição de Marcos no mês.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "As parcelas I, II, III e IV integram o salário-de-contribuição, por retribuírem o trabalho, ainda que sob a forma de ganho habitual, como no caso das gorjetas; a parcela V não integra, pois diária para viagem que não excede 50% da remuneração mensal do empregado é expressamente excluída da base de cálculo.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "Apenas a parcela I (salário-base) integra o salário-de-contribuição; as demais parcelas têm natureza indenizatória e, portanto, estão excluídas da base de cálculo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Todas as cinco parcelas, sem exceção, integram o salário-de-contribuição, pois qualquer valor pago a um empregado durante a vigência do contrato de trabalho tem natureza remuneratória para fins previdenciários.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "As parcelas I, II e III integram o salário-de-contribuição; as gorjetas (IV) não integram, por serem pagas por terceiros e não constituírem contraprestação direta do empregador; a diária de viagem (V) integra normalmente a base de cálculo.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Nenhuma das parcelas integra o salário-de-contribuição do mês, pois horas extras, adicional noturno e gorjetas compõem apenas a base de cálculo do FGTS, e não da contribuição previdenciária.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>O conceito de salário-de-contribuição é a base de todo o Direito Previdenciário de custeio: é sobre ele que incidem as alíquotas de contribuição do segurado e, em boa parte, da empresa. A banca adora testar se o candidato sabe separar o que é remuneração habitual (integra) do que é indenização ou benefício eventual (não integra) — exatamente o que a questão acima exige.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Conceito legal (art. 28, Lei 8.212/1991)</h4><p>Para o <strong>empregado e o trabalhador avulso</strong>, salário-de-contribuição é a <strong>remuneração auferida em uma ou mais empresas</strong>, assim entendida a totalidade dos rendimentos pagos, devidos ou creditados a qualquer título durante o mês, destinados a retribuir o trabalho, qualquer que seja a sua forma, inclusive as <strong>gorjetas</strong>, os ganhos habituais sob forma de utilidades e os adiantamentos decorrentes de reajuste salarial, quer pelos serviços efetivamente prestados, quer pelo tempo à disposição do empregador ou tomador de serviços, nos termos da lei, do contrato, de convenção ou acordo coletivo ou de sentença normativa. Para o <strong>empregado doméstico</strong>, é a remuneração registrada em sua carteira de trabalho. Para o <strong>contribuinte individual</strong>, é a remuneração auferida em uma ou mais empresas ou pelo exercício de atividade por conta própria. Para o <strong>segurado facultativo</strong>, é o valor por ele próprio declarado.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que gorjeta não integra a base por ser paga por terceiro (cliente) e não pelo empregador. Isso está errado: a gorjeta, mesmo espontânea, integra o salário-de-contribuição, pois é ganho habitual decorrente do trabalho.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Habitualidade como critério central</h4><p>O elemento que define se uma parcela variável (horas extras, comissões, adicionais, prêmios) integra o salário-de-contribuição é a sua natureza remuneratória e a habitualidade do pagamento. Verbas pagas de forma eventual, a título de mera liberalidade sem caráter contraprestativo, tendem a ser tratadas de forma distinta das que retribuem o trabalho de modo contínuo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Diárias para viagem: a regra dos 50%</h4><p>As diárias para viagem, incluídas as despesas de deslocamento e estada, <strong>não integram</strong> o salário-de-contribuição, desde que o valor total pago no mês <strong>não exceda 50% da remuneração mensal</strong> do empregado. Quando esse limite é ultrapassado, a <strong>totalidade</strong> da diária passa a integrar a base de cálculo, e não apenas o excedente — outro ponto clássico de pegadinha.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> se a diária ultrapassa 50% da remuneração, integra o salário-de-contribuição <strong>por inteiro</strong>, não apenas a parte que excede o limite.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Momento de apuração</h4><p>O salário-de-contribuição é apurado mensalmente, considerando a totalidade dos rendimentos pagos, devidos ou creditados no mês de competência, ainda que provenientes de mais de uma fonte pagadora (empresa), o que é especialmente relevante para o respeito ao teto do RGPS quando há mais de um vínculo.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Classifique cada parcela como habitual/remuneratória ou eventual/indenizatória. 2) Lembre que gorjeta sempre integra, por expressa previsão legal. 3) Aplique a regra dos 50% às diárias de viagem: abaixo do limite, não integram; acima, integram por inteiro. 4) Descarte alternativas que tratem todas ou nenhuma parcela da mesma forma, pois misturam institutos distintos.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Salário-base, horas extras habituais, adicional noturno e gorjetas retribuem o trabalho e integram a base de cálculo. A diária de 30% da remuneração mensal está dentro do limite de 50%, logo não integra o salário-de-contribuição, nos termos do art. 28, § 9º, alínea 'h', da Lei 8.212/1991.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — só o salário-base integraria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa cauteloso tratar tudo que não é 'salário fixo' como indenizatório.<br><strong>Onde quebra:</strong> horas extras habituais, adicional noturno e gorjetas têm natureza remuneratória e habitual, integrando normalmente a base de cálculo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — todas as parcelas integrariam</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> generaliza que 'tudo que a empresa paga durante o contrato' é remuneração.<br><strong>Onde quebra:</strong> ignora a regra específica que exclui diárias de viagem até 50% da remuneração mensal, prevista expressamente na lei.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — gorjeta não integraria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> explora a ideia de que a gorjeta vem de terceiro, não do empregador.<br><strong>Onde quebra:</strong> a lei inclui expressamente as gorjetas na base de cálculo, independentemente de quem as paga; além disso, erra ao incluir a diária dentro do limite de 50%.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — nenhuma parcela integraria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> confunde a base de cálculo do FGTS com a do salário-de-contribuição previdenciário, que têm origens e regras distintas, mas coincidem em boa parte das parcelas.<br><strong>Onde quebra:</strong> horas extras, adicional noturno e gorjetas integram tanto o FGTS quanto o salário-de-contribuição previdenciário.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave a regra da diária como um interruptor: até 50% da remuneração mensal, não integra nada; passou de 50%, integra o valor inteiro, não só o excedente. E gorjeta é 'pegadinha clássica' — sempre integra.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Salário-de-contribuição",
+      "text": "Base de cálculo das contribuições previdenciárias, definida de forma distinta para empregado, doméstico, contribuinte individual e facultativo (art. 28, Lei 8.212/1991)."
+    },
+    {
+      "icone": "fa-hand-holding-dollar",
+      "titulo": "Gorjeta",
+      "text": "Integra o salário-de-contribuição por expressa previsão legal, ainda que paga por clientes e apenas repassada pelo empregador."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Habitualidade",
+      "text": "Critério que define se uma verba variável (horas extras, comissões, adicionais) tem natureza remuneratória e, portanto, integra a base de cálculo."
+    },
+    {
+      "icone": "fa-plane",
+      "titulo": "Diária para viagem",
+      "text": "Não integra o salário-de-contribuição se o total pago no mês não exceder 50% da remuneração mensal do segurado; se exceder, integra por inteiro."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Natureza remuneratória x indenizatória",
+      "text": "Distinção central para saber se uma parcela compõe (remuneratória) ou não (indenizatória) o salário-de-contribuição."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q222",
+  "numero": "Questão 12",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Parcelas não integrantes do salário-de-contribuição",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Verbas excluídas do salário-de-contribuição: indenizações, PLR e vale-transporte (§ 9º, art. 28, Lei 8.212/1991)",
+  "tags": [
+    "verbas indenizatórias",
+    "PLR",
+    "vale-transporte",
+    "13º salário",
+    "art. 28 § 9º"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Uma empresa efetuou, no mesmo mês de competência, os seguintes pagamentos a um empregado dispensado sem justa causa: I) férias indenizadas acrescidas do respectivo terço constitucional; II) aviso prévio indenizado; III) participação nos lucros ou resultados (PLR), paga em conformidade com a Lei 10.101/2000, com base em acordo firmado entre a empresa e os trabalhadores; IV) décimo terceiro salário proporcional; V) vale-transporte pago em pecúnia, referente ao mês efetivamente trabalhado.<br><br>De acordo com o § 9º do art. 28 da Lei 8.212/1991, assinale a alternativa correta quanto à incidência de contribuição previdenciária sobre essas parcelas.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Todas as parcelas listadas têm natureza indenizatória e, portanto, nenhuma delas integra o salário-de-contribuição do empregado.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Apenas o décimo terceiro salário (IV) está excluído da base de cálculo, por ser pago uma única vez ao ano; as demais parcelas integram normalmente o salário-de-contribuição mensal.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "As parcelas I, II, III e V não integram o salário-de-contribuição, por estarem expressamente excluídas pelo § 9º do art. 28 da Lei 8.212/1991; já o décimo terceiro salário (IV) integra a base de cálculo, ainda que sujeito a apuração em separado da remuneração mensal.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "A PLR (III) integra o salário-de-contribuição sempre que decorrer de acordo formal entre empresa e empregados; as demais parcelas listadas são indenizatórias e não integram a base.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O vale-transporte pago em pecúnia (V) e as férias indenizadas (I) integram o salário-de-contribuição, pois perdem a natureza de utilidade ao serem convertidos em dinheiro; as demais parcelas estão excluídas.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Saber o que NÃO integra o salário-de-contribuição é tão cobrado quanto saber o que integra, porque a Cebraspe adora montar listas mistas de verbas e pedir para o candidato separar o joio do trigo — como no caso concreto da questão acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> O rol do § 9º do art. 28</h4><p>O § 9º do art. 28 da Lei 8.212/1991 traz um rol de parcelas que, embora pagas pela empresa ao trabalhador, <strong>não integram</strong> o salário-de-contribuição, por não terem natureza retributiva do trabalho habitual, sendo em regra indenizatórias, compensatórias ou de natureza previdenciária/assistencial. Entre elas destacam-se: benefícios da previdência social (exceto o salário-maternidade, que integra); férias indenizadas e o respectivo terço constitucional; indenizações por tempo de serviço e por dispensa, inclusive o valor do FGTS de 40% e o aviso prévio indenizado; a participação nos lucros ou resultados (PLR), quando paga em conformidade com lei específica; o vale-transporte, mesmo pago em pecúnia; o abono do PIS/PASEP; e a ajuda de custo em razão de mudança de local de trabalho.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca troca 'indenizado' por 'trabalhado' ou vice-versa. Férias <em>gozadas</em> (trabalhadas) integram o salário-de-contribuição; férias <em>indenizadas</em> (não gozadas, pagas na rescisão) não integram.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Participação nos Lucros ou Resultados (PLR)</h4><p>A PLR não integra o salário-de-contribuição <strong>desde que</strong> paga ou creditada em conformidade com a Lei 10.101/2000, que exige, entre outros requisitos, negociação entre empresa e empregados (comissão paritária ou acordo coletivo) e periodicidade mínima de pagamento. Se não observados esses requisitos, a verba paga sob o rótulo de 'PLR' pode ser descaracterizada e passar a integrar a base de cálculo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Vale-transporte</h4><p>O vale-transporte não integra o salário-de-contribuição <strong>mesmo quando pago em pecúnia</strong> (dinheiro), diferentemente de outras utilidades que, ao serem convertidas em dinheiro, podem passar a integrar a base. Essa é uma exceção expressa da lei, frequentemente invertida pela banca.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Décimo terceiro salário: regra especial, não exclusão</h4><p>O décimo terceiro salário <strong>integra</strong> o salário-de-contribuição, mas não se soma à remuneração mensal para fins de cálculo: ele é apurado e tributado <strong>em separado</strong>, com aplicação da alíquota correspondente ao seu próprio valor e respeito ao teto do RGPS de forma isolada. Não confundir 'tributação em separado' com 'não incidência'.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separe verbas rescisórias/indenizatórias (férias indenizadas, aviso prévio indenizado) das verbas habituais (13º). 2) Lembre que PLR só é excluída se seguir a Lei 10.101/2000. 3) Vale-transporte é exceção: não integra mesmo em pecúnia. 4) 13º integra, mas com apuração separada — não é 'exclusão'.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Férias indenizadas + terço, aviso prévio indenizado, PLR regular e vale-transporte em pecúnia estão todos no rol de exclusões do § 9º do art. 28. O décimo terceiro salário, diferentemente, integra a base de cálculo, sendo apenas tributado em separado da remuneração mensal.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — nada integraria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece coerente com o tom 'indenizatório' da rescisão.<br><strong>Onde quebra:</strong> o 13º salário não é indenização, é remuneração diferida, e integra normalmente a base de cálculo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — só o 13º estaria excluído</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> inverte a lógica, supondo que pagamento anual = exclusão.<br><strong>Onde quebra:</strong> é exatamente o oposto: o 13º integra, enquanto férias indenizadas, aviso prévio indenizado, PLR regular e vale-transporte são as parcelas excluídas.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — PLR sempre integraria com acordo formal</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere que 'ter acordo formal' já é suficiente para tributar a PLR.<br><strong>Onde quebra:</strong> é o contrário — PLR paga conforme a Lei 10.101/2000 (que exige acordo/negociação) é justamente a hipótese de <strong>exclusão</strong> da base de cálculo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — vale-transporte em pecúnia integraria</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> explora a regra geral de que utilidade convertida em dinheiro passa a integrar a base.<br><strong>Onde quebra:</strong> o vale-transporte é exceção expressa: não integra o salário-de-contribuição mesmo pago em pecúnia.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Monte um mnemônico pessoal com as exclusões mais cobradas: férias indenizadas, aviso prévio indenizado, PLR (Lei 10.101/2000), vale-transporte (mesmo em dinheiro) e abono PIS/PASEP. Tudo que sobrar, em regra, integra.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Art. 28, § 9º, Lei 8.212/1991",
+      "text": "Rol legal das parcelas que não integram o salário-de-contribuição, por natureza indenizatória, compensatória ou de exceção expressa."
+    },
+    {
+      "icone": "fa-plane-departure",
+      "titulo": "Férias indenizadas x gozadas",
+      "text": "Férias indenizadas (não gozadas, pagas na rescisão) não integram a base; férias gozadas (trabalhadas) integram normalmente."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "PLR (Lei 10.101/2000)",
+      "text": "Não integra o salário-de-contribuição apenas quando paga em conformidade com a lei específica, que exige negociação entre empresa e trabalhadores."
+    },
+    {
+      "icone": "fa-bus",
+      "titulo": "Vale-transporte",
+      "text": "Excluído do salário-de-contribuição mesmo quando pago em pecúnia, ao contrário da regra geral aplicável a outras utilidades convertidas em dinheiro."
+    },
+    {
+      "icone": "fa-calendar-days",
+      "titulo": "Décimo terceiro salário",
+      "text": "Integra o salário-de-contribuição, mas é apurado e tributado em separado da remuneração mensal, respeitando o teto de forma isolada."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q223",
+  "numero": "Questão 13",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Limites mínimo e máximo do salário-de-contribuição",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Piso e teto do salário-de-contribuição e a proporcionalidade em admissões/dispensas no curso do mês",
+  "tags": [
+    "limite mínimo",
+    "teto do RGPS",
+    "piso salarial",
+    "proporcionalidade",
+    "reajuste do teto"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Sobre os limites do salário-de-contribuição previstos na Lei 8.212/1991, considere as seguintes afirmações.<br><br>I) O limite mínimo do salário-de-contribuição corresponde ao piso salarial legal ou normativo da categoria profissional ou, na ausência deste, ao salário mínimo, tomado no seu valor mensal, diário ou horário, conforme o caso.<br><br>II) O limite máximo do salário-de-contribuição (teto do RGPS) é reajustado na mesma época e com os mesmos índices aplicados ao reajuste dos benefícios de prestação continuada da Previdência Social.<br><br>III) Quando a admissão, a dispensa ou o afastamento do empregado ocorrer no curso do mês, o salário-de-contribuição corresponde sempre a um mês integral, sendo vedado o cálculo proporcional aos dias efetivamente trabalhados.<br><br>Assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Apenas a afirmação I está correta.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Apenas a afirmação II está correta.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "As afirmações I e III estão corretas.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "As afirmações II e III estão corretas.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "As afirmações I e II estão corretas; a afirmação III está incorreta, pois, nesses casos, o salário-de-contribuição é proporcional ao número de dias de trabalho efetivo no mês.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Os limites mínimo e máximo do salário-de-contribuição aparecem em quase toda prova de Legislação Previdenciária, geralmente misturados com a regra de proporcionalidade em admissões e dispensas no meio do mês — o combo exato cobrado na questão acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Limite mínimo (piso)</h4><p>O salário-de-contribuição não pode ser inferior ao <strong>piso salarial legal ou normativo da categoria profissional</strong> — quando existir, fixado por lei, convenção ou acordo coletivo — ou, na ausência de piso específico, ao <strong>salário mínimo</strong> nacional, considerado em seu valor mensal, diário ou horário, conforme o tipo de contratação e a jornada praticada.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma afirmar que o limite mínimo é sempre o salário mínimo, ignorando que o piso da categoria, quando existente e mais vantajoso, prevalece sobre o salário mínimo nacional.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Limite máximo (teto do RGPS)</h4><p>O salário-de-contribuição também não pode ultrapassar o <strong>limite máximo do RGPS</strong> (o chamado 'teto'). Esse teto é reajustado periodicamente, <strong>na mesma época e pelos mesmos índices</strong> utilizados para reajustar os benefícios previdenciários de prestação continuada, de modo que ambos caminham sempre alinhados.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Proporcionalidade em admissão, dispensa ou afastamento no curso do mês</h4><p>Quando a admissão, a dispensa ou o afastamento do empregado ocorrer no meio do mês de competência, o salário-de-contribuição <strong>não</strong> corresponde a um mês cheio: ele é calculado de forma <strong>proporcional ao número de dias de trabalho efetivo</strong> naquele mês, respeitando ainda assim os limites mínimo e máximo aplicáveis de forma proporcional.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca inverte a regra, afirmando que o salário-de-contribuição é sempre integral independentemente da data de admissão/dispensa — o correto é exatamente o oposto: há proporcionalidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Por que os limites existem</h4><p>O piso garante que a contribuição do segurado empregado não fique aquém de um patamar mínimo de proteção social (refletindo-se em benefícios futuros), enquanto o teto delimita o valor máximo de contribuição e, correspondentemente, o valor máximo dos benefícios do RGPS, distinguindo o regime geral dos regimes sem teto (como certos regimes próprios).</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Julgue cada afirmação isoladamente antes de combinar. 2) Lembre que o piso é 'piso da categoria OU salário mínimo', nunca só o segundo isoladamente. 3) Lembre que o teto acompanha o reajuste dos benefícios. 4) Desconfie de afirmações que usem 'sempre' ou 'vedado' quando o tema envolve exceções — aqui, a proporcionalidade é a regra, não a exceção.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>As afirmações I e II descrevem corretamente o piso (categoria ou salário mínimo) e o teto (reajustado junto com os benefícios). A afirmação III está incorreta porque, em admissões, dispensas ou afastamentos no curso do mês, o salário-de-contribuição é proporcional aos dias efetivamente trabalhados, e não integral.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — só I estaria correta</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> foca só no piso e descarta o teto por cautela.<br><strong>Onde quebra:</strong> a afirmação II também está correta — o teto realmente acompanha o índice de reajuste dos benefícios.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — só II estaria correta</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> descarta a I por achar que o piso é sempre o salário mínimo, ignorando o piso de categoria.<br><strong>Onde quebra:</strong> a afirmação I está corretamente formulada, incluindo a hipótese do piso normativo/legal da categoria.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — I e III estariam corretas</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> aceita a afirmação III por parecer uma regra de simplificação administrativa.<br><strong>Onde quebra:</strong> a III inverte a regra real, que é justamente a proporcionalidade em admissões/dispensas no meio do mês.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — II e III estariam corretas</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> combina o teto (correto) com a afirmação sobre integralidade (incorreta).<br><strong>Onde quebra:</strong> repete o erro da III, contrariando a regra de proporcionalidade prevista para o cálculo nesses casos.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe o trio: piso = categoria OU mínimo; teto = acompanha reajuste dos benefícios; admissão/dispensa no meio do mês = proporcionalidade, nunca mês cheio.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-arrow-down",
+      "titulo": "Limite mínimo (piso)",
+      "text": "Piso salarial legal ou normativo da categoria ou, na sua ausência, o salário mínimo, considerado em valor mensal, diário ou horário."
+    },
+    {
+      "icone": "fa-arrow-up",
+      "titulo": "Limite máximo (teto do RGPS)",
+      "text": "Valor máximo do salário-de-contribuição, reajustado na mesma época e pelos mesmos índices dos benefícios de prestação continuada."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Proporcionalidade",
+      "text": "Em admissão, dispensa ou afastamento no curso do mês, o salário-de-contribuição é calculado proporcionalmente aos dias de trabalho efetivo."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Reajuste do teto",
+      "text": "Acompanha, em época e índice, o reajuste dos benefícios previdenciários de prestação continuada."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Função dos limites",
+      "text": "O piso protege um patamar mínimo de contribuição/benefício; o teto delimita o valor máximo de contribuição e de benefício no RGPS."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q224",
+  "numero": "Questão 14",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Competência da RFB e do INSS; obrigações acessórias da empresa",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Divisão de competências entre a Receita Federal do Brasil e o INSS após a Lei 11.457/2007",
+  "tags": [
+    "RFB",
+    "INSS",
+    "arrecadação e fiscalização",
+    "concessão de benefícios",
+    "obrigações acessórias"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Após as alterações promovidas pela Lei 11.457/2007, houve uma redefinição das competências entre os órgãos federais responsáveis pela gestão do Regime Geral de Previdência Social (RGPS).<br><br>Considerando essa distribuição de atribuições e a manutenção de obrigações acessórias pelas empresas perante o sistema previdenciário, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Compete ao INSS arrecadar, fiscalizar, lançar e cobrar as contribuições previdenciárias, cabendo à Secretaria Especial da Receita Federal do Brasil (RFB) exclusivamente conceder e manter os benefícios previdenciários.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Compete à Secretaria Especial da Receita Federal do Brasil (RFB) arrecadar, fiscalizar, lançar e cobrar as contribuições previdenciárias, permanecendo com o INSS a competência para conceder e manter os benefícios previdenciários do RGPS.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Tanto a arrecadação quanto a concessão de benefícios permanecem, desde 2007, sob competência exclusiva do INSS, sem qualquer atribuição da RFB sobre contribuições previdenciárias.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A RFB e o INSS exercem competência concorrente e indistinta sobre arrecadação e concessão de benefícios, cabendo a cada empresa optar livremente a qual dos dois órgãos prestará as informações mensais.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A partir de 2007, a competência para arrecadar as contribuições previdenciárias das empresas passou a ser dos Estados e Municípios, permanecendo a concessão de benefícios exclusivamente com o INSS.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Entender quem faz o quê — RFB ou INSS — é básico para o Técnico do Seguro Social, já que o próprio cargo atua na ponta da concessão e manutenção de benefícios, e não na arrecadação. A prova adora inverter essas competências, como testado na questão acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> A criação da 'Super Receita' (Lei 11.457/2007)</h4><p>Até 2007, o próprio INSS (por meio de seu órgão arrecadador) era responsável tanto pela arrecadação das contribuições previdenciárias quanto pela concessão dos benefícios. Com a Lei 11.457/2007, foi criada a <strong>Secretaria Especial da Receita Federal do Brasil (RFB)</strong>, unificando a administração tributária federal, inclusive das contribuições previdenciárias, que antes eram geridas separadamente. A partir de então, compete à RFB <strong>arrecadar, fiscalizar, lançar e cobrar</strong> as contribuições previdenciárias e as contribuições instituídas a título de substituição.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca troca RFB por INSS (ou vice-versa) nas competências de arrecadação/fiscalização e de concessão/manutenção de benefícios — é a troca de sujeito mais clássica do tema.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> O que permanece com o INSS</h4><p>Ao INSS continua cabendo o núcleo de sua missão institucional: <strong>reconhecer direitos</strong>, <strong>conceder e manter</strong> os benefícios e serviços do RGPS (aposentadorias, pensões, auxílios, entre outros), incluindo toda a análise administrativa dos requerimentos, perícias médicas e demais atos necessários à concessão e manutenção. O INSS não arrecada nem fiscaliza o recolhimento das contribuições — essa competência é da RFB.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Obrigações acessórias da empresa</h4><p>Independentemente dessa divisão, a empresa contribuinte mantém obrigações acessórias perante o sistema, tais como: <strong>manter escrituração contábil</strong> com discriminação das operações que constituam fato gerador de contribuição; <strong>arquivar</strong> documentos comprobatórios do cumprimento das obrigações pelo prazo legal; e <strong>declarar</strong> mensalmente, por meio dos sistemas informatizados vigentes (como o eSocial), os dados relativos a fatos geradores, base de cálculo e valores das contribuições, informações essas que hoje alimentam tanto a RFB (para fins de arrecadação/fiscalização) quanto o INSS (para fins de concessão/manutenção de benefícios, por meio do CNIS).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Por que essa separação importa para a prova</h4><p>Compreender essa divisão evita erros básicos: um requerimento de benefício é analisado pelo INSS; uma autuação por falta de recolhimento de contribuição é lavrada pela RFB (auditor-fiscal da Receita Federal do Brasil), não por servidor do INSS.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Associe 'arrecadar, fiscalizar, lançar, cobrar' à RFB. 2) Associe 'conceder e manter benefícios' ao INSS. 3) Descarte alternativas que invertam os sujeitos ou que atribuam a competência a terceiros (Estados/Municípios) ou que a tornem concorrente/opcional.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Desde a Lei 11.457/2007, a RFB arrecada, fiscaliza, lança e cobra as contribuições previdenciárias, enquanto o INSS permanece responsável por conceder e manter os benefícios do RGPS — exatamente a divisão de competências vigente.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — inverte os papéis</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> lembra do modelo antigo, anterior a 2007, quando o próprio órgão previdenciário arrecadava.<br><strong>Onde quebra:</strong> desde a Lei 11.457/2007 é a RFB que arrecada/fiscaliza, e o INSS que concede/mantém benefícios — o texto inverte exatamente essa divisão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — tudo seria do INSS</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> explora a associação intuitiva 'INSS = Previdência = tudo'.<br><strong>Onde quebra:</strong> ignora justamente a mudança trazida pela Lei 11.457/2007, que retirou do INSS a competência de arrecadação e fiscalização.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — competência concorrente e opcional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece flexibilizar a burocracia em favor da empresa.<br><strong>Onde quebra:</strong> não existe opção de escolha; a divisão de competências é legal e vinculante, não discricionária para o contribuinte.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — competência de Estados e Municípios</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta confundir com temas de federalismo fiscal.<br><strong>Onde quebra:</strong> a arrecadação das contribuições previdenciárias das empresas é atribuição federal (RFB), não estadual ou municipal.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Mnemônico simples: 'RFB cobra, INSS concede'. Sempre que a questão trocar essa ordem, é pegadinha.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-landmark",
+      "titulo": "Lei 11.457/2007",
+      "text": "Criou a Secretaria Especial da Receita Federal do Brasil, unificando a arrecadação e fiscalização de tributos federais, inclusive contribuições previdenciárias."
+    },
+    {
+      "icone": "fa-money-check-dollar",
+      "titulo": "Competência da RFB",
+      "text": "Arrecadar, fiscalizar, lançar e cobrar as contribuições previdenciárias e as instituídas a título de substituição."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Competência do INSS",
+      "text": "Reconhecer direitos e conceder e manter os benefícios e serviços do Regime Geral de Previdência Social."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Obrigações acessórias da empresa",
+      "text": "Escrituração contábil, arquivamento de documentos comprobatórios e declaração mensal de dados (ex.: eSocial) relativos às contribuições."
+    },
+    {
+      "icone": "fa-database",
+      "titulo": "CNIS",
+      "text": "Cadastro Nacional de Informações Sociais, base de dados alimentada pelas informações declaradas pela empresa, usada pelo INSS para fins de concessão e manutenção de benefícios."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q225",
+  "numero": "Questão 15",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Legislação Previdenciária",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "legislacao-previdenciaria",
+  "materia": "Legislação Previdenciária / Prazos de recolhimento e encargos moratórios",
+  "materiaCor": "lime",
+  "materiaIcone": "fa-file-contract",
+  "titulo": "Prazo de recolhimento das contribuições pela empresa e consequências do recolhimento em atraso",
+  "tags": [
+    "prazo de recolhimento",
+    "dia 20",
+    "juros de mora",
+    "multa de mora",
+    "Lei 8.212/1991"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Uma empresa deixou de recolher, na data de vencimento, as contribuições previdenciárias a seu cargo e as descontadas de seus empregados relativas a determinada competência, efetuando o pagamento apenas 15 dias após o vencimento, de forma espontânea, sem que houvesse ação fiscal prévia.<br><br>Considerando as regras gerais da Lei 8.212/1991 sobre prazo de recolhimento e encargos moratórios, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O prazo geral de recolhimento da contribuição da empresa e da parte descontada dos empregados vence no dia 30 do mês seguinte ao da competência, e o recolhimento fora do prazo, mesmo espontâneo, sujeita a empresa exclusivamente à multa de ofício de 75%.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Não havendo ação fiscal prévia, o recolhimento em atraso está isento de juros e multa, bastando o pagamento do valor principal atualizado monetariamente.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O prazo de recolhimento pela empresa vence no dia 10 do mês seguinte ao da competência, e o atraso gera apenas correção monetária, sem incidência de juros ou multa.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O prazo geral de recolhimento pela empresa vence até o dia 20 do mês seguinte ao da competência, antecipando-se para o dia útil imediatamente anterior quando não houver expediente bancário; o recolhimento fora do prazo, mesmo espontâneo, sujeita a empresa a juros de mora e a multa de mora, incidentes desde o vencimento até o efetivo pagamento.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "O prazo de recolhimento é livremente estabelecido por cada empresa em seu regimento interno, e os encargos moratórios somente incidem quando comprovado dolo de sonegação fiscal.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-lime-500 pl-3'>Prazo de recolhimento e encargos moratórios são um clássico de Legislação Previdenciária: a banca gosta de trocar o dia do vencimento e de sugerir que o pagamento espontâneo em atraso 'escapa' de juros e multa — o que nunca é verdade, como cobrado no caso concreto acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>1.</span> Prazo geral de recolhimento pela empresa</h4><p>A regra geral prevista na Lei 8.212/1991 estabelece que a empresa deve recolher a contribuição a seu cargo, bem como a contribuição dos segurados empregados e trabalhadores avulsos a seu serviço (que é descontada na folha), <strong>até o dia 20 do mês seguinte</strong> ao da competência a que se referem. Quando não houver expediente bancário nessa data, o vencimento é <strong>antecipado</strong> para o dia útil imediatamente anterior.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-lime-300'>Pegadinha de prova:</strong> a banca costuma dizer que, sem expediente bancário, o prazo é 'prorrogado' para o próximo dia útil. A regra correta é a <strong>antecipação</strong> para o dia útil anterior, não a prorrogação.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>2.</span> Consequências do atraso: juros e multa de mora</h4><p>O recolhimento fora do prazo, <strong>mesmo quando espontâneo</strong> (sem que tenha havido ação fiscal), não afasta a incidência de encargos: incidem <strong>juros de mora</strong> (calculados com base na taxa SELIC acumulada, ou equivalente, a partir do mês seguinte ao vencimento até o mês anterior ao pagamento, mais 1% no mês de pagamento) e <strong>multa de mora</strong>, ambos contados a partir do dia seguinte ao do vencimento até a data do efetivo pagamento. A espontaneidade do pagamento pode, em regra, afastar apenas a multa de ofício (aplicável em lançamento por auditoria fiscal), mas não os encargos moratórios devidos pelo simples atraso.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>3.</span> Diferença entre multa de mora e multa de ofício</h4><p>A <strong>multa de mora</strong> é devida no recolhimento espontâneo em atraso, sem ação fiscal, e costuma ser proporcional ao tempo de atraso. Já a <strong>multa de ofício</strong>, tipicamente mais gravosa, é aplicada quando a Receita Federal do Brasil constata, mediante fiscalização, o não recolhimento ou recolhimento a menor, lançando de ofício o crédito tributário. Confundir as duas é erro comum induzido pela banca.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-lime-400'>4.</span> Outros prazos frequentemente cobrados</h4><p>Além do prazo geral da empresa (dia 20), a legislação prevê prazos específicos para outros sujeitos, como o empregador doméstico e o contribuinte individual/facultativo, também com vencimento antecipado quando não houver expediente bancário na data-limite. O ponto central de prova, contudo, é sempre o mesmo: atraso gera juros e multa, independentemente de haver ou não fiscalização prévia.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-lime-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Fixe o dia 20 como vencimento geral da empresa. 2) Lembre que a antecipação (não prorrogação) se aplica quando não há expediente bancário. 3) Recolhimento espontâneo em atraso ainda gera juros e multa de mora — só afasta a multa de ofício, que é de outra natureza. 4) Descarte alternativas que isentem totalmente de encargos ou que tratem o prazo como discricionário da empresa.</p></div><div class='bg-lime-950/40 p-4 rounded-xl border border-lime-500/40 space-y-2'><h4 class='font-bold text-lime-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O vencimento geral é até o dia 20 do mês seguinte à competência, antecipado quando não há expediente bancário; o atraso, mesmo em recolhimento espontâneo, gera juros e multa de mora contados do vencimento até o efetivo pagamento.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — dia 30 e só multa de ofício</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> dia 30 soa como 'fim do mês', prazo intuitivo.<br><strong>Onde quebra:</strong> o vencimento geral é dia 20, não dia 30; além disso, recolhimento espontâneo sem ação fiscal não gera multa de ofício, e sim multa de mora.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — isenção total de encargos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> sugere um 'prêmio' por não ter havido fiscalização.<br><strong>Onde quebra:</strong> o simples atraso, com ou sem fiscalização, já gera juros e multa de mora; a ausência de ação fiscal apenas afasta a multa de ofício, não todos os encargos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — dia 10 e só correção monetária</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> troca o dia do vencimento e reduz os encargos a apenas correção monetária.<br><strong>Onde quebra:</strong> o vencimento geral da empresa é dia 20, e o atraso gera juros e multa de mora, além de eventual atualização, não apenas correção monetária isolada.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — prazo discricionário da empresa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta emular autonomia contratual/administrativa da empresa.<br><strong>Onde quebra:</strong> o prazo de recolhimento é fixado em lei, não pela empresa, e os encargos moratórios independem de dolo, decorrendo do simples atraso no pagamento.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave: 'dia 20, antecipa se não tem banco aberto, e atraso sempre custa juros + multa de mora' — espontaneidade só livra da multa de ofício, nunca dos encargos pelo simples atraso.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prazo geral de recolhimento",
+      "text": "Até o dia 20 do mês seguinte ao da competência, para a contribuição da empresa e a parte descontada dos empregados/avulsos."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Antecipação do vencimento",
+      "text": "Quando não há expediente bancário no dia do vencimento, a data é antecipada para o dia útil imediatamente anterior, não prorrogada."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Juros de mora",
+      "text": "Incidem sobre o valor em atraso desde o mês seguinte ao vencimento até o efetivo pagamento, independentemente de ação fiscal."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Multa de mora x multa de ofício",
+      "text": "Multa de mora incide no recolhimento espontâneo em atraso; multa de ofício é aplicada em lançamento decorrente de fiscalização."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 8.212/1991",
+      "text": "Diploma legal que disciplina o custeio da Seguridade Social, incluindo prazos de recolhimento e encargos moratórios das contribuições previdenciárias."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q226",
+  "numero": "Questão 1",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Estado, Governo e Administração Pública; princípios do art. 37, caput, CF/1988",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Estado, Governo e Administração Pública: distinção conceitual e os princípios expressos do art. 37, caput, CF/1988 (LIMPE)",
+  "tags": [
+    "Estado",
+    "Governo",
+    "Administração Pública",
+    "art. 37 caput CF",
+    "impessoalidade",
+    "LIMPE"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Wanderson, servidor efetivo lotado em uma Agência da Previdência Social, deixou de observar a ordem cronológica de protocolo dos requerimentos de benefício para atender, com prioridade e sem qualquer amparo em lei ou em ato normativo do INSS, ao pedido de um amigo pessoal.<br><br>Com base na situação descrita e na distinção doutrinária entre Estado, Governo e Administração Pública, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A conduta de Wanderson viola o princípio da eficiência, uma vez que a Administração Pública, em sentido amplo, confunde-se com o Governo, ambos representando a atuação política do Estado na definição de diretrizes previdenciárias.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A conduta de Wanderson viola o princípio da impessoalidade, expresso no art. 37, caput, da CF/1988, pois a Administração Pública deve tratar de forma isonômica os administrados; em sentido subjetivo, a Administração Pública é o conjunto de órgãos e agentes que executam a função administrativa, distinta do Governo, que dirige politicamente o Estado, e do Estado, pessoa jurídica que engloba os três Poderes.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "A conduta de Wanderson viola exclusivamente o princípio da legalidade, pois somente atos contrários a texto expresso de lei configuram violação a princípio constitucional, sendo o tratamento diferenciado entre administrados mera questão de mérito administrativo, insuscetível de controle.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A conduta de Wanderson viola o princípio da moralidade administrativa, e não há distinção relevante entre Estado, Governo e Administração Pública, expressões que a doutrina majoritária considera sinônimas para fins de aplicação do art. 37, caput, da CF/1988.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A conduta de Wanderson viola o princípio da publicidade, pois a alteração da ordem de atendimento sem publicação prévia em diário oficial descumpre o dever de transparência; a Administração Pública corresponde ao Poder Executivo, enquanto o Estado abrange os três Poderes e o Governo se limita ao Poder Legislativo.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A distinção entre Estado, Governo e Administração Pública, somada aos princípios expressos do art. 37, caput, da CF/1988, é a porta de entrada de praticamente toda prova de Técnico do Seguro Social — a banca gosta de descrever uma conduta concreta e perguntar qual princípio ela viola, exatamente como no caso de Wanderson.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Estado, Governo e Administração Pública</h4><p>O <strong>Estado</strong> é a pessoa jurídica de direito público que reúne povo, território e soberania, englobando os três Poderes (Executivo, Legislativo e Judiciário). O <strong>Governo</strong> é o conjunto de agentes políticos (Presidente, Ministros, Governadores, Secretários) que exercem a <strong>condução política</strong> do Estado, fixando diretrizes e opções de atuação, com maior grau de liberdade e discricionariedade. Já a <strong>Administração Pública</strong>, em sentido subjetivo (orgânico), é o conjunto de órgãos, entidades e agentes que <strong>executam</strong> a função administrativa, concretizando de forma instrumental e infralegal as decisões políticas do Governo. Em sentido objetivo (material), Administração Pública designa a própria atividade administrativa exercida (fiscalizar, fomentar, prestar serviços, poder de polícia).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> tratar Estado, Governo e Administração Pública como sinônimos, ou inverter os papéis (dizer que a Administração formula diretrizes políticas, função que é do Governo).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> O art. 37, caput, da CF/1988 e o mnemônico LIMPE</h4><p>O art. 37, caput, da CF/1988 determina que a Administração Pública direta e indireta de qualquer dos Poderes obedecerá aos princípios de <strong>legalidade, impessoalidade, moralidade, publicidade e eficiência</strong> (LIMPE). São os princípios <strong>expressos</strong> — distintos dos princípios <strong>implícitos</strong>, como supremacia do interesse público, autotutela e continuidade do serviço público, decorrentes do sistema constitucional mas não redigidos literalmente no caput.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Legalidade e impessoalidade</h4><p>A <strong>legalidade</strong> significa que o administrador só pode agir quando e como a lei autoriza (diferente do particular, que pode fazer tudo o que a lei não proíbe). A <strong>impessoalidade</strong> tem dois sentidos centrais: (i) a Administração deve tratar todos os administrados de forma isonômica, sem perseguições ou favoritismos pessoais; e (ii) os atos praticados pelo agente público são imputados ao <strong>órgão ou entidade</strong>, e não à pessoa física do agente (teoria do órgão/imputação volitiva). Favorecer um amigo em detrimento da ordem cronológica de atendimento é o exemplo clássico de violação à impessoalidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Moralidade, publicidade e eficiência</h4><p>A <strong>moralidade</strong> exige atuação ética, proba e de boa-fé, para além da mera legalidade formal. A <strong>publicidade</strong> impõe transparência e divulgação dos atos administrativos, sendo pressuposto de eficácia dos atos gerais e condição de controle social. A <strong>eficiência</strong>, incluída pela EC 19/1998, exige qualidade, presteza e rendimento funcional na prestação dos serviços públicos, e não se confunde com favoritismo pessoal, que é uma quebra de impessoalidade, não de eficiência.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar o núcleo do fato: favorecimento pessoal sem base legal aponta diretamente para impessoalidade. 2) Lembrar a definição de Administração Pública em sentido subjetivo (órgãos/entidades que executam) versus Governo (condução política) versus Estado (pessoa jurídica com os três Poderes). 3) Eliminar alternativas que igualam esses três conceitos ou que atribuem a violação a outro princípio do LIMPE sem relação direta com o fato.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O favorecimento de um amigo pessoal, sem previsão legal, é a violação clássica do princípio da <strong>impessoalidade</strong> (art. 37, caput, CF/1988), que exige tratamento isonômico dos administrados. A alternativa ainda traz corretamente a distinção subjetiva entre Administração Pública (execução), Governo (condução política) e Estado (pessoa jurídica que engloba os três Poderes).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> menciona um princípio real do LIMPE (eficiência) e usa vocabulário técnico.<br><strong>Onde quebra:</strong> favoritismo pessoal fere impessoalidade, não eficiência; e Administração Pública não se confunde com Governo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> legalidade é de fato o princípio mais lembrado por candidatos.<br><strong>Onde quebra:</strong> a conduta também viola impessoalidade, que é o princípio mais diretamente atingido pelo favoritismo pessoal; além disso, tratamento discriminatório entre administrados é sim controlável, não é mero mérito administrativo.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> moralidade e impessoalidade são princípios próximos e às vezes ambos incidem sobre o mesmo fato.<br><strong>Onde quebra:</strong> a alternativa erra ao afirmar que não há distinção relevante entre Estado, Governo e Administração Pública, o que é doutrinariamente incorreto.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> publicidade também é um princípio expresso do art. 37, caput.<br><strong>Onde quebra:</strong> o problema central do caso não é falta de divulgação, é o tratamento desigual; e a definição de Administração Pública, Estado e Governo apresentada está incorreta (Administração não é só o Executivo isolado; Governo não se limita ao Legislativo).</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Toda vez que a banca descrever <strong>favorecimento pessoal, perseguição ou tratamento diferenciado sem base legal</strong>, pense primeiro em impessoalidade — só migre para moralidade se o enunciado destacar desonestidade, má-fé ou desvio de finalidade explícito.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Estado",
+      "text": "Pessoa jurídica de direito público que reúne povo, território e soberania, englobando os três Poderes."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "Governo",
+      "text": "Conjunto de agentes políticos que exercem a condução política e a definição de diretrizes do Estado."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Administração Pública (sentido subjetivo)",
+      "text": "Conjunto de órgãos, entidades e agentes que executam, de forma instrumental, a função administrativa."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Impessoalidade",
+      "text": "Tratamento isonômico dos administrados e imputação dos atos ao órgão, não à pessoa do agente."
+    },
+    {
+      "icone": "fa-eye",
+      "titulo": "Publicidade",
+      "text": "Dever de transparência e divulgação dos atos administrativos como regra geral."
+    },
+    {
+      "icone": "fa-bolt",
+      "titulo": "Eficiência",
+      "text": "Exigência de qualidade, presteza e rendimento na prestação dos serviços públicos, incluída pela EC 19/1998."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q227",
+  "numero": "Questão 2",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Fontes do Direito Administrativo e princípios implícitos (supremacia do interesse público, autotutela, continuidade)",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Princípios implícitos do Direito Administrativo: autotutela, supremacia do interesse público e continuidade do serviço público",
+  "tags": [
+    "fontes do Direito Administrativo",
+    "autotutela",
+    "Súmula 473 STF",
+    "supremacia do interesse público",
+    "continuidade do serviço público"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O INSS constatou, em procedimento interno de revisão, que um benefício previdenciário havia sido concedido com base em documentação fraudulenta, sem que houvesse, até então, qualquer decisão judicial a respeito. A autarquia, então, instaurou processo administrativo e anulou o ato de concessão, assegurando ao interessado o contraditório e a ampla defesa antes da decisão final.<br><br>Assinale a alternativa correta quanto às fontes e aos princípios implícitos do Direito Administrativo aplicáveis ao caso.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A anulação somente poderia ocorrer por decisão judicial, pois o princípio da autotutela não autoriza a Administração Pública a rever de ofício seus próprios atos, ainda que eivados de ilegalidade.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O caso ilustra o princípio da continuidade do serviço público, segundo o qual a Administração está impedida de revisar, em qualquer hipótese, atos que já produziram efeitos favoráveis ao administrado, sob pena de violação à segurança jurídica.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A situação ilustra o princípio da supremacia do interesse público sobre o particular, o qual autoriza a Administração a anular seus atos ilegais independentemente de contraditório prévio, por se tratar de prerrogativa unilateral e autoexecutória.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A conduta do INSS é respaldada pelo princípio implícito da autotutela administrativa, decorrente da supremacia do interesse público, segundo o qual a Administração pode anular seus próprios atos quando eivados de vício de legalidade, observados o contraditório e a ampla defesa, nos termos da Súmula 473 do STF e da Lei 9.784/1999.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "Trata-se de aplicação do princípio da legalidade estrita, única fonte do Direito Administrativo, o que dispensa a Administração de fundamentar a anulação em qualquer princípio implícito, dado o caráter meramente subsidiário destes.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Fontes e princípios implícitos costumam aparecer em provas de INSS embutidos numa situação prática de revisão de benefício — exatamente como no caso de fraude documental julgado internamente pela autarquia.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Fontes do Direito Administrativo</h4><p>O Direito Administrativo brasileiro não é codificado; suas fontes são a <strong>lei</strong> (em sentido amplo: Constituição, leis, decretos regulamentares, resoluções, instruções normativas), a <strong>doutrina</strong>, a <strong>jurisprudência</strong> (inclusive súmulas vinculantes e não vinculantes), os <strong>costumes administrativos</strong> (práticas reiteradas com convicção de obrigatoriedade) e os <strong>princípios gerais de direito</strong>. A lei é a fonte primária, mas os princípios — mesmo quando implícitos — têm força normativa e servem de base direta para decisões da Administração.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Princípios expressos x implícitos</h4><p>Os princípios <strong>expressos</strong> estão redigidos no art. 37, caput, CF/1988 (LIMPE). Os <strong>implícitos</strong> decorrem do sistema constitucional e da lógica do regime jurídico-administrativo, sem estarem escritos literalmente ali — por exemplo, <strong>supremacia do interesse público</strong>, <strong>autotutela</strong>, <strong>continuidade do serviço público</strong>, <strong>indisponibilidade do interesse público</strong>, <strong>especialidade</strong> e <strong>presunção de legitimidade</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Supremacia do interesse público</h4><p>É a <strong>pedra de toque</strong> do regime jurídico-administrativo: o interesse público prevalece sobre o interesse privado individual, justificando prerrogativas como poder de polícia, requisição, desapropriação e cláusulas exorbitantes em contratos administrativos. Não significa, porém, dispensa de devido processo legal — a supremacia legitima o conteúdo da decisão, mas não afasta o direito ao contraditório e à ampla defesa.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> afirmar que supremacia do interesse público dispensa contraditório — é o contrário: mesmo atos vinculados a essa prerrogativa exigem processo administrativo regular.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Autotutela</h4><p>Pela <strong>autotutela</strong>, a Administração pode rever, de ofício ou por provocação, seus próprios atos, <strong>anulando</strong> os ilegais e <strong>revogando</strong> os inconvenientes ou inoportunos, independentemente de recorrer ao Judiciário. É a síntese da <strong>Súmula 473 do STF</strong>. A Lei 9.784/1999 (art. 53 e seguintes) positiva esse poder-dever no âmbito federal e fixa o prazo <strong>decadencial de 5 anos</strong> (art. 54) para anular atos favoráveis ao administrado, salvo comprovada má-fé, além de exigir contraditório e ampla defesa quando o ato anulado repercutir sobre a esfera de interesses do beneficiário.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>5.</span> Continuidade do serviço público</h4><p>Determina que os serviços públicos, uma vez implantados, não podem sofrer interrupção arbitrária, devendo ser prestados de forma contínua (o que fundamenta, por exemplo, restrições ao direito de greve de servidores públicos e a impossibilidade de exceção de contrato não cumprido irrestrita em contratos administrativos). Não se relaciona com a possibilidade de a Administração rever atos eivados de ilegalidade, tema que pertence à autotutela.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Reconhecer que o INSS revisou de ofício, sem decisão judicial prévia, um ato próprio: isso é autotutela. 2) Confirmar que o enunciado menciona contraditório e ampla defesa, compatível com a exigência da Lei 9.784/1999. 3) Descartar alternativas que neguem a autotutela, que dispensem contraditório, ou que confundam autotutela com continuidade do serviço público.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A anulação, de ofício, de ato eivado de vício de legalidade, com observância de contraditório e ampla defesa, é exatamente a autotutela administrativa consagrada na Súmula 473 do STF e disciplinada pela Lei 9.784/1999.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> soa prudente exigir sempre decisão judicial para desfazer um ato que gerou benefício a alguém.<br><strong>Onde quebra:</strong> a autotutela dispensa expressamente a via judicial para a Administração rever seus próprios atos ilegais — é justamente essa a sua função.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> continuidade do serviço público é um princípio implícito real, e o candidato tenta encaixá-lo por associação com \"benefício em curso\".<br><strong>Onde quebra:</strong> continuidade trata da não interrupção da prestação do serviço, não da possibilidade de revisão de atos ilegais; além disso, a autotutela permite sim a revisão, ainda que produzindo efeitos anteriores.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> supremacia do interesse público é de fato o fundamento remoto da autotutela.<br><strong>Onde quebra:</strong> a alternativa erra ao dizer que dispensa contraditório prévio — a autoexecutoriedade não afasta o devido processo legal quando há repercussão sobre a esfera jurídica do administrado.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> legalidade é sempre um princípio seguro de se citar.<br><strong>Onde quebra:</strong> a lei não é a única fonte do Direito Administrativo, e os princípios implícitos têm aplicação direta, não meramente subsidiária.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que o enunciado descrever a Administração revendo seu próprio ato <strong>sem intervenção do Judiciário</strong>, pense em <strong>autotutela</strong> (Súmula 473 STF); associe \"revogar por conveniência\" e \"anular por ilegalidade\" à mesma família de poder-dever.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-gavel",
+      "titulo": "Autotutela",
+      "text": "Poder-dever de a Administração anular atos ilegais e revogar atos inconvenientes, de ofício, sem depender do Judiciário (Súmula 473 STF)."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Supremacia do interesse público",
+      "text": "Princípio implícito que fundamenta as prerrogativas do regime jurídico-administrativo sobre o interesse privado individual."
+    },
+    {
+      "icone": "fa-book",
+      "titulo": "Fontes do Direito Administrativo",
+      "text": "Lei, doutrina, jurisprudência, costumes administrativos e princípios gerais de direito, sem codificação única."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prazo decadencial (Lei 9.784/1999)",
+      "text": "5 anos para a Administração Federal anular atos favoráveis ao administrado, salvo comprovada má-fé."
+    },
+    {
+      "icone": "fa-people-group",
+      "titulo": "Continuidade do serviço público",
+      "text": "Os serviços públicos não podem sofrer interrupção arbitrária uma vez implantados."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q228",
+  "numero": "Questão 3",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Administração direta e indireta: natureza jurídica de órgãos e de entidades",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Administração direta x indireta: personalidade jurídica de órgãos e entidades e o vínculo de tutela",
+  "tags": [
+    "Administração direta",
+    "Administração indireta",
+    "autarquia",
+    "personalidade jurídica",
+    "teoria do órgão"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O Ministério da Previdência Social integra a estrutura da Administração Direta da União, ao passo que o INSS — Instituto Nacional do Seguro Social — é uma autarquia federal a ele vinculada, criada por lei específica para executar a política previdenciária.<br><br>Com base na organização administrativa brasileira, assinale a alternativa correta quanto à distinção entre órgãos públicos e entidades da Administração Indireta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Órgãos públicos, como o Ministério da Previdência Social, não possuem personalidade jurídica própria, sendo centros de competência despersonalizados integrantes da estrutura da pessoa jurídica que os contém (a União); já as entidades da Administração Indireta, como o INSS, possuem personalidade jurídica própria, distinta da pessoa política que as criou ou autorizou.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "Tanto os órgãos da Administração Direta quanto as entidades da Administração Indireta possuem personalidade jurídica própria, distinguindo-se apenas quanto ao regime de pessoal aplicável, celetista ou estatutário.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O INSS, por integrar a Administração Indireta, não possui personalidade jurídica própria, respondendo judicialmente sempre em nome da União, sua entidade instituidora.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A criação de órgãos públicos, assim como a de autarquias, depende de autorização em lei específica, sendo ambos dotados de patrimônio próprio e de capacidade de contrair obrigações em nome próprio.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A vinculação do INSS ao Ministério da Previdência Social caracteriza relação de subordinação hierárquica idêntica à existente entre um órgão subalterno e seu órgão superior dentro da Administração Direta, dado que a autarquia integra a estrutura hierárquica ministerial.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Confundir órgão com entidade, ou hierarquia com vinculação, é um dos erros mais comuns de quem estuda organização administrativa às pressas — e é justamente aí que a banca aposta suas pegadinhas, como no caso do INSS vinculado ao Ministério.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Administração Direta</h4><p>A <strong>Administração Direta</strong> é formada pelos <strong>órgãos públicos</strong> integrantes da estrutura da própria pessoa jurídica política (União, Estados, Distrito Federal e Municípios): Presidência da República, Ministérios, Secretarias, Agências da Previdência Social enquanto unidades executivas descentralizadas territorialmente, entre outros. Os órgãos são <strong>despersonalizados</strong> — não têm existência jurídica própria, sendo meros centros de competência criados por desconcentração administrativa dentro da mesma pessoa jurídica.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Administração Indireta</h4><p>A <strong>Administração Indireta</strong> (art. 37, XIX, CF/1988) é formada por <strong>entidades</strong> com personalidade jurídica própria, criadas ou autorizadas por lei específica para executar, de forma descentralizada, atividades administrativas: <strong>autarquias</strong> (ex.: INSS, INSS-corregedoria, autarquias em geral), <strong>fundações públicas</strong>, <strong>empresas públicas</strong> e <strong>sociedades de economia mista</strong>. Diferente do órgão, a entidade é sujeito de direitos e obrigações em nome próprio, podendo demandar e ser demandada judicialmente sem necessidade de citar a União.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Teoria do órgão e imputação</h4><p>A relação entre o agente público, o órgão e a pessoa jurídica é explicada pela <strong>teoria do órgão</strong> (Otto Gierke): a vontade do agente, quando manifestada nos limites de sua competência, é <strong>imputada</strong> diretamente à pessoa jurídica a que pertence o órgão, sem necessidade de outorga de mandato ou representação. Por isso, quando um servidor do Ministério pratica um ato em nome do órgão, quem responde juridicamente é a própria União.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> afirmar que órgãos possuem patrimônio próprio ou podem, por si, contrair obrigações e ser parte em juízo — quem tem essa capacidade é a pessoa jurídica (União) ou a entidade (autarquia), não o órgão isoladamente.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Hierarquia x vinculação (tutela/controle finalístico)</h4><p>Dentro da Administração Direta, entre órgãos superiores e subalternos, há <strong>relação hierárquica</strong>, com poder de comando, revisão e correição. Já entre o Ministério supervisor e uma entidade da Administração Indireta (como o INSS), <strong>não há hierarquia</strong>: existe apenas <strong>vinculação</strong> (também chamada de tutela administrativa ou controle finalístico/supervisão ministerial), que se limita a verificar se a entidade está cumprindo suas finalidades legais, sem o poder de rever ou avocar atos que a hierarquia interna permitiria.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar o conceito de órgão (despersonalizado, parte da própria União) do de entidade (personalidade jurídica própria). 2) Lembrar que o INSS pode ser autor e réu em processos em nome próprio, o que só é possível porque tem personalidade jurídica. 3) Diferenciar hierarquia (dentro da Direta) de vinculação/tutela (entre Ministério e entidade da Indireta).</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Órgãos, como Ministérios, são centros de competência sem personalidade jurídica própria, integrados à pessoa jurídica que os abriga; entidades da Administração Indireta, como o INSS, têm personalidade jurídica própria e distinta, podendo titularizar direitos e obrigações em nome próprio.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> menciona corretamente que há diferença de regime de pessoal.<br><strong>Onde quebra:</strong> erra a premissa central — órgãos não possuem personalidade jurídica própria, diferente das entidades.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra vagamente que a União \"está por trás\" do INSS.<br><strong>Onde quebra:</strong> é exatamente o contrário — a autarquia tem personalidade jurídica própria e responde em nome próprio, não da União.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> é verdade que a autarquia é criada por lei específica.<br><strong>Onde quebra:</strong> órgãos não têm patrimônio próprio nem capacidade de contrair obrigações em nome próprio — isso é exclusivo de pessoas jurídicas, como a autarquia.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a palavra \"vinculação\" soa como uma forma de subordinação.<br><strong>Onde quebra:</strong> vinculação é controle finalístico (tutela/supervisão ministerial), sem o poder de revisão e comando típico da hierarquia interna da Administração Direta.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Pergunte sempre: \"essa unidade pode ser autora ou ré em juízo, em nome próprio?\" Se sim, é entidade (Indireta); se não, é órgão (Direta). E lembre: hierarquia é dentro da Direta; vinculação/tutela é entre Direta e Indireta.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-sitemap",
+      "titulo": "Administração Direta",
+      "text": "Órgãos públicos integrantes da própria pessoa jurídica política (União, Estados, DF, Municípios), sem personalidade jurídica própria."
+    },
+    {
+      "icone": "fa-building",
+      "titulo": "Administração Indireta",
+      "text": "Entidades com personalidade jurídica própria: autarquias, fundações públicas, empresas públicas e sociedades de economia mista."
+    },
+    {
+      "icone": "fa-id-card",
+      "titulo": "Personalidade jurídica",
+      "text": "Aptidão para titularizar direitos e obrigações em nome próprio, presente nas entidades, ausente nos órgãos."
+    },
+    {
+      "icone": "fa-link",
+      "titulo": "Vinculação (tutela)",
+      "text": "Controle finalístico do Ministério supervisor sobre a entidade da Indireta, sem relação de hierarquia."
+    },
+    {
+      "icone": "fa-people-roof",
+      "titulo": "Teoria do órgão",
+      "text": "A vontade do agente, dentro de sua competência, é imputada diretamente à pessoa jurídica a que pertence o órgão."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q229",
+  "numero": "Questão 4",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Autarquias: características e privilégios (imunidade tributária, prescrição, impenhorabilidade)",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Autarquias federais e o regime de prerrogativas do INSS: imunidade tributária, impenhorabilidade e prescrição quinquenal",
+  "tags": [
+    "autarquia",
+    "INSS",
+    "imunidade tributária recíproca",
+    "impenhorabilidade",
+    "precatório",
+    "prescrição quinquenal"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O INSS, autarquia federal responsável pela concessão e manutenção de benefícios previdenciários, foi condenado judicialmente ao pagamento de valores atrasados a um segurado. O advogado do exequente requereu ao juízo a penhora direta de valores em conta bancária da autarquia para satisfação imediata do crédito.<br><br>Assinale a alternativa correta acerca das características e das prerrogativas das autarquias, à luz do regime jurídico do INSS.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O pedido deve ser deferido, pois as autarquias, por não gozarem de impenhorabilidade de bens, submetem-se ao regime comum de execução por quantia certa aplicável às pessoas jurídicas de direito privado.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O INSS, por se tratar de autarquia, não goza de imunidade tributária recíproca prevista no art. 150, VI, \"a\", da CF/1988, estando sujeito ao pagamento de impostos sobre seu patrimônio, renda e serviços, tal como as empresas estatais exploradoras de atividade econômica.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O prazo prescricional para ações contra a Fazenda Pública, aplicável também às autarquias como o INSS, é de 10 (dez) anos, contados da data do ato ou fato do qual se originarem, nos termos do Decreto 20.910/1932.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "As autarquias possuem autonomia política, podendo editar atos normativos com força de lei ordinária, distinguindo-se dos entes federativos apenas quanto à ausência de competência tributária própria.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O pedido deve ser indeferido, pois os bens do INSS são impenhoráveis, submetendo-se a execução contra a autarquia ao regime de precatórios (ou de requisição de pequeno valor), nos termos do art. 100 da CF/1988, sendo também aplicável a prescrição quinquenal das dívidas passivas, prevista no Decreto 20.910/1932.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Como o próprio INSS é uma autarquia federal, o edital do certame explora com frequência as prerrogativas típicas dessa espécie de entidade — imunidade tributária, impenhorabilidade e prazos diferenciados — sempre em situações de cobrança judicial de valores.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Conceito e criação das autarquias</h4><p>A <strong>autarquia</strong> é pessoa jurídica de <strong>direito público</strong>, criada diretamente por <strong>lei específica</strong> (art. 37, XIX, CF/1988 — para autarquia, a própria lei já cria a entidade; para as demais entidades da Indireta, a lei apenas autoriza a criação), com patrimônio e receita próprios, para executar atividades típicas de Estado de forma descentralizada, sob controle finalístico (tutela) do ente que a criou. O INSS é o exemplo mais citado em prova para o próprio cargo de Técnico do Seguro Social.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Imunidade tributária recíproca</h4><p>Por serem pessoas de direito público que executam função estatal, as autarquias gozam da <strong>imunidade tributária recíproca</strong> do art. 150, VI, \"a\", combinado com o §2º do mesmo artigo da CF/1988: ficam livres de impostos sobre patrimônio, renda e serviços, desde que vinculados às suas finalidades essenciais ou delas decorrentes. Diferente das empresas públicas e sociedades de economia mista exploradoras de atividade econômica, que, em regra, não gozam dessa imunidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Impenhorabilidade de bens e regime de precatórios</h4><p>Os bens das autarquias são, em regra, <strong>impenhoráveis</strong>, por integrarem, junto com os da Fazenda Pública, um regime especial de execução: os débitos judiciais são pagos mediante <strong>precatório</strong> (art. 100, CF/1988) ou, para valores de pequeno montante fixados em lei, mediante <strong>Requisição de Pequeno Valor (RPV)</strong>. Não cabe penhora direta de conta bancária ou de bens de autarquia para satisfazer crédito comum.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> tratar autarquia como se fosse pessoa jurídica de direito privado sujeita à execução comum (penhora online, por exemplo) — as prerrogativas de Fazenda Pública se estendem às autarquias.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Prescrição quinquenal e demais privilégios processuais</h4><p>O <strong>Decreto 20.910/1932</strong> fixa em <strong>5 (cinco) anos</strong> o prazo prescricional para ações contra a Fazenda Pública e as autarquias, contado do ato ou fato que originou o direito. Além disso, as autarquias gozam de outros privilégios processuais típicos de Fazenda Pública, como prazos dilatados e reexame necessário em determinadas hipóteses. Não possuem, porém, <strong>autonomia política</strong> — não legislam, não têm capacidade de autogoverno como os entes federativos, apenas autonomia administrativa e financeira dentro dos limites da lei que as criou.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Lembrar que autarquia segue o regime de Fazenda Pública quanto a execução: sem penhora direta, com pagamento por precatório/RPV. 2) Confirmar o prazo prescricional correto: 5 anos, não 10. 3) Confirmar que autarquias têm imunidade tributária recíproca, e não autonomia política.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Os bens do INSS são impenhoráveis; a execução contra a autarquia segue o regime de precatórios/RPV do art. 100 da CF/1988, e o prazo prescricional aplicável é o quinquenal do Decreto 20.910/1932.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece razoável tratar todas as pessoas jurídicas do mesmo jeito para fins de execução.<br><strong>Onde quebra:</strong> autarquias seguem o regime especial de Fazenda Pública, com impenhorabilidade de bens e pagamento por precatório, e não o regime comum de execução privada.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde autarquia com estatal exploradora de atividade econômica, que de fato não goza dessa imunidade.<br><strong>Onde quebra:</strong> autarquias são pessoas de direito público e gozam sim da imunidade tributária recíproca do art. 150, VI, \"a\" e §2º, CF/1988.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> 10 anos é o prazo prescricional geral do Código Civil, facilmente confundido pelo candidato.<br><strong>Onde quebra:</strong> para ações contra a Fazenda Pública e autarquias, o Decreto 20.910/1932 fixa prazo específico de 5 anos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa \"autarquia\" a algum grau de autogoverno por causa do nome.<br><strong>Onde quebra:</strong> autarquias têm apenas autonomia administrativa e financeira, sem autonomia política ou capacidade de legislar; a etimologia do nome não corresponde ao conceito técnico.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o trio de prerrogativas da autarquia: <strong>imunidade tributária recíproca + impenhorabilidade/precatório + prescrição quinquenal</strong>. Sempre que a banca tentar equiparar o INSS a uma empresa privada nesses três pontos, a alternativa está errada.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Autarquia",
+      "text": "Pessoa jurídica de direito público criada diretamente por lei específica para executar atividade típica de Estado de forma descentralizada."
+    },
+    {
+      "icone": "fa-percent",
+      "titulo": "Imunidade tributária recíproca",
+      "text": "Vedação a impostos sobre patrimônio, renda e serviços vinculados às finalidades essenciais da autarquia (art. 150, VI, \"a\" e §2º, CF)."
+    },
+    {
+      "icone": "fa-piggy-bank",
+      "titulo": "Impenhorabilidade e precatório",
+      "text": "Bens de autarquias são impenhoráveis; execuções judiciais seguem o regime de precatórios ou RPV do art. 100 da CF/1988."
+    },
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prescrição quinquenal",
+      "text": "Prazo de 5 anos para ações contra a Fazenda Pública e autarquias, nos termos do Decreto 20.910/1932."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Criação por lei específica",
+      "text": "A autarquia nasce diretamente da lei, sem necessidade de registro em órgão próprio, diferente das demais entidades da Indireta."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q230",
+  "numero": "Questão 5",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Empresa pública e sociedade de economia mista: capital, forma societária e foro processual",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Empresa pública x sociedade de economia mista: composição do capital, forma societária e foro competente",
+  "tags": [
+    "empresa pública",
+    "sociedade de economia mista",
+    "Lei 13.303/2016",
+    "Súmula 517 STF",
+    "foro processual"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A Caixa Econômica Federal e o Banco do Brasil S.A. são frequentemente citados como exemplos, respectivamente, de empresa pública e de sociedade de economia mista integrantes da Administração Indireta federal.<br><br>Com base nas distinções entre essas duas espécies de entidades da Administração Indireta, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Ambas as entidades podem adotar qualquer forma societária admitida em direito, sendo a sociedade anônima obrigatória apenas para as empresas públicas, e não para as sociedades de economia mista.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O capital da sociedade de economia mista é integralmente público, admitindo-se a participação de particulares apenas na empresa pública, desde que não ultrapasse 49% das ações com direito a voto.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A empresa pública tem capital exclusivamente público e pode adotar qualquer forma societária; as causas em que a União for interessada como acionista de sociedade de economia mista federal são, em regra, processadas na Justiça Estadual, ao passo que as causas envolvendo empresa pública federal são processadas na Justiça Federal, nos termos do art. 109 da CF/1988 e da Súmula 517 do STF.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Tanto a empresa pública quanto a sociedade de economia mista, quando federais, têm suas causas processadas obrigatoriamente perante a Justiça Federal, por força da mera presença de capital da União em ambas as espécies.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A sociedade de economia mista, ainda que constituída sob a forma de sociedade anônima, não se submete à Lei das Sociedades por Ações (Lei 6.404/1976), por prevalecer o regime de direito público em todas as suas relações jurídicas.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Empresa pública e sociedade de economia mista são as duas entidades estatais de direito privado mais cobradas em prova, e a banca adora trocar os critérios de capital, forma societária e foro processual entre uma e outra.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Traços comuns</h4><p>Empresa pública e sociedade de economia mista são pessoas jurídicas de <strong>direito privado</strong>, integrantes da Administração Indireta, cuja criação é <strong>autorizada por lei específica</strong> (o registro dos atos constitutivos no órgão competente é que efetivamente as cria, diferente da autarquia). Podem explorar atividade econômica ou prestar serviço público, sujeitando-se, no que couber, ao regime da <strong>Lei 13.303/2016</strong> (estatuto jurídico das estatais).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Empresa pública</h4><p>Tem capital <strong>exclusivamente público</strong>, podendo haver mais de um ente ou entidade da própria Administração Pública como sócio, mas nunca participação de capital privado. Pode adotar <strong>qualquer forma societária admitida em direito</strong> (S.A., sociedade limitada etc.), inclusive formas unipessoais. Exemplo: Caixa Econômica Federal, Empresa Brasileira de Correios e Telégrafos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Sociedade de economia mista</h4><p>Tem capital <strong>misto</strong> (público e privado), com a maioria das ações com direito a voto pertencente obrigatoriamente ao Poder Público. Deve ser constituída, obrigatoriamente, sob a forma de <strong>sociedade anônima</strong> (S.A.), sujeitando-se à Lei 6.404/1976 (Lei das S.A.) no que não contrariar seu estatuto próprio. Exemplo: Banco do Brasil S.A., Petrobras.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> inverter os critérios — dizer que é a empresa pública que precisa ser S.A., ou que é a sociedade de economia mista que tem capital exclusivamente público.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Foro processual</h4><p>Pelo art. 109, I, da CF/1988, compete à <strong>Justiça Federal</strong> processar e julgar causas em que a <strong>empresa pública federal</strong> seja interessada, na condição de autora, ré, assistente ou opoente. Já as <strong>sociedades de economia mista federais</strong>, segundo a <strong>Súmula 517 do STF</strong>, têm suas causas processadas, em regra, na <strong>Justiça Estadual</strong> — a Justiça Federal só é competente se a própria União intervier como assistente ou opoente.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Fixar os dois critérios de capital: empresa pública = 100% público; sociedade de economia mista = capital misto, maioria de voto pública. 2) Fixar a forma societária: só a sociedade de economia mista é obrigatoriamente S.A. 3) Lembrar o foro: empresa pública federal vai para a Justiça Federal; sociedade de economia mista federal, em regra, para a Justiça Estadual (Súmula 517 STF).</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reúne corretamente os três critérios: capital exclusivamente público e forma societária livre para a empresa pública; e a regra de foro da Súmula 517 do STF, que manda a causa da sociedade de economia mista federal para a Justiça Estadual, ao contrário da empresa pública federal, que vai para a Justiça Federal (art. 109, I, CF/1988).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> menciona corretamente que há uma regra sobre forma societária obrigatória.<br><strong>Onde quebra:</strong> inverte o critério — é a sociedade de economia mista que precisa obrigatoriamente ser S.A., não a empresa pública.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> cita um número (49%) que soa técnico e familiar de outras questões de direito societário.<br><strong>Onde quebra:</strong> inverte os conceitos — é a sociedade de economia mista que tem capital misto, e é a empresa pública que tem capital exclusivamente público, sem participação privada alguma.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> parece lógico que \"capital da União\" leve sempre à Justiça Federal.<br><strong>Onde quebra:</strong> a Súmula 517 do STF exclui a sociedade de economia mista federal dessa regra, mandando suas causas para a Justiça Estadual, salvo intervenção da própria União.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> lembra que a sociedade de economia mista tem traços de direito público em seu regime.<br><strong>Onde quebra:</strong> como pessoa jurídica de direito privado constituída sob a forma de S.A., ela se submete sim à Lei 6.404/1976 no que não contrariar sua lei instituidora e a Lei 13.303/2016.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Mnemônico rápido: <strong>\"Sociedade de economia mista é sempre S.A. e vai para a Estadual\"</strong> — as duas palavras que começam com \"S\" (Sociedade, S.A., Estadual) andam juntas; empresa pública é o \"resto\": capital 100% público, forma livre, Justiça Federal.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-coins",
+      "titulo": "Capital: exclusivo x misto",
+      "text": "Empresa pública tem capital exclusivamente público; sociedade de economia mista tem capital misto, com maioria de voto pública."
+    },
+    {
+      "icone": "fa-building",
+      "titulo": "Forma societária",
+      "text": "Sociedade de economia mista deve ser S.A.; empresa pública pode adotar qualquer forma societária admitida em direito."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Foro processual",
+      "text": "Empresa pública federal litiga na Justiça Federal (art. 109, I, CF); sociedade de economia mista federal, em regra, na Justiça Estadual (Súmula 517 STF)."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 13.303/2016",
+      "text": "Estatuto jurídico das empresas públicas e sociedades de economia mista, com regras de governança e licitação."
+    },
+    {
+      "icone": "fa-landmark",
+      "titulo": "Criação por lei",
+      "text": "Lei específica autoriza a criação; a personalidade jurídica nasce com o registro dos atos constitutivos."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q231",
+  "numero": "Questão 6",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Cargo, Emprego e Função Pública",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Distinção entre Cargo Público, Emprego Público e Função Pública",
+  "tags": [
+    "cargo público",
+    "emprego público",
+    "função pública",
+    "regime estatutário",
+    "Lei 8.112/1990"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Considere a seguinte situação hipotética:<br><br>João foi aprovado em concurso público e nomeado para o cargo efetivo de Técnico do Seguro Social do INSS, autarquia federal sujeita ao regime jurídico único da Lei nº 8.112/1990. Maria trabalha em uma empresa pública federal, regida pela Consolidação das Leis do Trabalho (CLT), ocupando posto de trabalho criado por lei, com denominação própria e retribuição pecuniária. Pedro, servidor efetivo de outro órgão da administração direta, foi designado para exercer atribuições de chefia de uma seção, sem que essa designação correspondesse à criação de um cargo novo ou à alteração de seu vínculo estatutário original.<br><br>Com base na distinção doutrinária e legal entre cargo público, emprego público e função pública, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "As situações de João e de Maria são idênticas quanto ao regime jurídico, pois ambos ocupam cargos públicos, submetidos ao estatuto próprio do respectivo ente federativo.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "João ocupa cargo público, submetido a regime estatutário; Maria ocupa emprego público, regido pela CLT; e Pedro exerce função pública, atribuída sem correspondência a cargo específico, consistindo em um plexo de atribuições cometido a servidor já ocupante de cargo efetivo.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Cargo público e emprego público são conceitos sinônimos, distinguindo-se apenas quanto à nomenclatura adotada pelo ente federativo, sendo a função pública reservada exclusivamente aos ocupantes de cargo em comissão.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A atribuição exercida por Pedro configura cargo em comissão, uma vez que toda função de chefia pressupõe necessariamente a criação de um cargo público específico para essa finalidade.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Cargo público, emprego público e função pública submetem-se todos ao mesmo regime jurídico estatutário, variando apenas quanto à forma de provimento, se efetivo, comissionado ou transitório.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A distinção entre cargo, emprego e função pública é a base de todo o regime de agentes públicos, e a banca adora montar cenários com três personagens diferentes — como João, Maria e Pedro acima — para verificar se o candidato realmente sabe separar os três institutos, e não apenas decorou os nomes.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Cargo público</h4><p><strong>Cargo público</strong> é o conjunto de atribuições e responsabilidades cometido a um servidor público, criado por lei, em número certo, com denominação própria e retribuição pecuniária padronizada, integrante da estrutura da administração direta, autárquica e fundacional. O ocupante de cargo público, no âmbito federal, submete-se ao <strong>regime jurídico único estatutário</strong> disciplinado pela Lei nº 8.112/1990 — é exatamente essa a posição de João, nomeado para cargo efetivo de Técnico do Seguro Social do INSS.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca costuma testar se o candidato sabe que o cargo é criado por LEI (e não por simples ato administrativo), sendo essa reserva legal um dos elementos que o distinguem do emprego público em entes privados equiparados.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Emprego público</h4><p><strong>Emprego público</strong> também corresponde a um posto de trabalho criado por lei, com denominação própria, mas o vínculo do seu ocupante com a administração é <strong>contratual, regido pela CLT</strong>, e não estatutário. É a modalidade típica de vinculação de pessoal das <strong>empresas públicas e sociedades de economia mista</strong>, que exploram atividade econômica ou prestam serviço público em regime concorrencial, como no caso de Maria.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Função pública</h4><p><strong>Função pública</strong>, em sentido estrito, é o conjunto de atribuições sem correspondência a um cargo específico, atribuído a um servidor que já ocupa cargo efetivo. Divide-se principalmente em <strong>função de confiança</strong> (destinada exclusivamente a servidores ocupantes de cargo efetivo, para o exercício de atribuições de direção, chefia e assessoramento) e <strong>cargo em comissão</strong> (que, apesar do nome, é uma modalidade de cargo, de livre nomeação e exoneração, cujo percentual mínimo deve ser preenchido por servidores de carreira, nos casos e condições previstos em lei).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> função de confiança e cargo em comissão não são a mesma coisa: a função de confiança pressupõe servidor efetivo e NÃO cria um cargo novo, enquanto o cargo em comissão é ele próprio um cargo, criado por lei, que pode ser ocupado por qualquer pessoa (respeitado o percentual mínimo para servidores de carreira).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Consequências práticas da distinção</h4><p>A distinção não é meramente terminológica: cargo público (regime estatutário) e função de confiança seguem a disciplina da Lei 8.112/1990, com estabilidade após estágio probatório para os cargos efetivos, enquanto o emprego público segue a CLT, com regras próprias de despedida e FGTS. Reconhecer corretamente qual instituto está em jogo em cada situação concreta é o que a prova mais cobra sobre esse tema.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar o regime de cada personagem: João foi nomeado para cargo efetivo em autarquia federal (regime estatutário); Maria trabalha em empresa pública (regime celetista); Pedro foi apenas designado para atribuições de chefia, sem criação de cargo novo (função pública). 2) Aplicar os conceitos de cargo, emprego e função pública a cada um. 3) Eliminar alternativas que igualem os três institutos ou que confundam função de confiança com cargo em comissão.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Reproduz corretamente a tríade: João ocupa cargo público (regime estatutário, Lei 8.112/1990); Maria ocupa emprego público (regime celetista, típico de empresa pública); e Pedro exerce função pública, na modalidade função de confiança, que pressupõe servidor já efetivo e não corresponde à criação de cargo novo.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — cargo público para os dois</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode achar que, por ambos exercerem atividade remunerada permanente para o poder público, estariam no mesmo regime.<br><strong>Onde quebra:</strong> Maria vincula-se por emprego público, regido pela CLT, típico de empresa pública, e não por cargo público de regime estatutário como João.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — cargo e emprego como sinônimos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a semelhança prática (ambos são postos de trabalho permanentes, criados por lei) pode induzir à confusão.<br><strong>Onde quebra:</strong> cargo público e emprego público têm regimes jurídicos distintos — estatutário e celetista, respectivamente —, não sendo meros sinônimos com nomenclaturas diferentes; e a função pública não se resume ao cargo em comissão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — chefia como cargo em comissão obrigatório</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> faz sentido associar toda chefia a um cargo específico de confiança.<br><strong>Onde quebra:</strong> a designação de Pedro configura função de confiança, que pode ser exercida por servidor efetivo sem que se crie um cargo em comissão novo; nem toda chefia pressupõe cargo específico.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — regime estatutário único para os três institutos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta uniformizar tudo sob o mesmo regime, variando só a forma de provimento.<br><strong>Onde quebra:</strong> o emprego público de Maria não é regido pelo estatuto da Lei 8.112/1990, mas pela CLT — os regimes jurídicos aplicáveis a cargo e a emprego público são distintos, e não meras variações de forma de provimento dentro de um único regime.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o trio: <strong>cargo público → regime estatutário</strong>; <strong>emprego público → regime celetista (CLT), típico de empresa pública/sociedade de economia mista</strong>; <strong>função pública → sem cargo próprio, função de confiança exige servidor efetivo</strong>. Sempre confira o regime do ENTE envolvido no enunciado antes de responder.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-id-badge",
+      "titulo": "Cargo público",
+      "text": "Conjunto de atribuições criado por lei, com denominação própria e retribuição pecuniária, submetido a regime estatutário."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Emprego público",
+      "text": "Posto de trabalho criado por lei, mas regido pela CLT, típico de empresas públicas e sociedades de economia mista."
+    },
+    {
+      "icone": "fa-people-arrows",
+      "titulo": "Função pública",
+      "text": "Conjunto de atribuições sem correspondência a cargo específico, atribuído a servidor já efetivo."
+    },
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Função de confiança",
+      "text": "Modalidade de função pública exercida exclusivamente por servidor ocupante de cargo efetivo, sem criação de cargo novo."
+    },
+    {
+      "icone": "fa-user-tie",
+      "titulo": "Cargo em comissão",
+      "text": "Cargo de livre nomeação e exoneração, cujo percentual mínimo deve ser preenchido por servidores de carreira, nos termos da lei."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q232",
+  "numero": "Questão 7",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Concurso Público — Validade e Direito à Nomeação",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Prazo de Validade do Concurso e Direito Subjetivo à Nomeação dentro do Número de Vagas",
+  "tags": [
+    "concurso público",
+    "prazo de validade",
+    "prorrogação",
+    "direito subjetivo à nomeação",
+    "art. 37, III e IV, CF"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O edital do concurso público para o cargo de Técnico do Seguro Social do INSS previu 40 vagas e prazo de validade de 2 anos, admitida uma única prorrogação por igual período. Marcos foi aprovado em 25º lugar, dentro do número de vagas previsto no edital. Decorrido 1 ano da homologação do resultado final, o INSS ainda não havia nomeado todos os candidatos aprovados dentro das vagas, tampouco publicara ato de prorrogação do concurso ou qualquer manifestação motivada acerca da não nomeação.<br><br>Com base na disciplina constitucional do concurso público e no entendimento consolidado do Supremo Tribunal Federal sobre o tema, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O prazo de validade do concurso é de, no máximo, 4 anos, computado o período de prorrogação, podendo esta ocorrer quantas vezes a administração entender necessário, respeitado esse limite total.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Ainda que aprovado dentro do número de vagas previsto no edital, o candidato possui mera expectativa de direito à nomeação, cabendo exclusivamente à administração decidir, por critério de conveniência e oportunidade, se e quando os aprovados serão nomeados.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A prorrogação do prazo de validade do concurso, quando ocorrer, constitui ato vinculado da administração, devendo ser necessariamente deferida a pedido dos candidatos aprovados ainda não nomeados.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O candidato aprovado dentro do número de vagas previsto em edital tem direito subjetivo à nomeação dentro do prazo de validade do concurso, ressalvadas situações excepcionais, supervenientes e devidamente motivadas pela administração, como grave crise financeira.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "O direito subjetivo à nomeação dentro do número de vagas somente se configura após o transcurso integral do prazo de validade do concurso, momento em que se presume, de forma absoluta, a preterição do candidato pela administração.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A validade do concurso público e o direito à nomeação dos aprovados dentro das vagas são temas de prova recorrentes justamente porque envolvem tanto a letra fria da Constituição quanto uma mudança de entendimento do STF que reforçou a proteção do candidato — exatamente o pano de fundo do caso de Marcos.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Prazo de validade do concurso público</h4><p>Nos termos do art. 37, III, da Constituição Federal, o prazo de validade do concurso público é de <strong>até 2 anos</strong>, prorrogável <strong>uma única vez, por igual período</strong>. Isso significa que o prazo total de vigência de um concurso, somada a prorrogação, jamais pode ultrapassar <strong>4 anos</strong>, e a prorrogação não pode se repetir mais de uma vez.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca costuma testar se o candidato sabe que a prorrogação é única — não é possível prorrogar o concurso duas ou mais vezes, ainda que dentro de um suposto limite total de 4 anos.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Natureza discricionária da prorrogação</h4><p>A <strong>prorrogação</strong> do prazo de validade é ato de competência exclusiva da administração, de natureza <strong>discricionária</strong>: ela decide, segundo seu juízo de conveniência e oportunidade, se prorroga ou não o concurso, não havendo direito subjetivo do candidato aprovado a exigir a prorrogação, tampouco obrigação de deferi-la a pedido dos interessados.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Direito subjetivo à nomeação dentro do número de vagas</h4><p>O STF, em julgamento com repercussão geral (Tema 161, RE 598.099), consolidou o entendimento de que o candidato aprovado <strong>dentro do número de vagas</strong> previsto no edital possui <strong>direito subjetivo à nomeação</strong> dentro do prazo de validade do certame, superando a antiga tese de que a aprovação gerava apenas mera expectativa de direito.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Exceções ao direito subjetivo à nomeação</h4><p>Esse direito subjetivo não é absoluto: admite-se o afastamento da obrigação de nomear em hipóteses <strong>excepcionais e supervenientes</strong> à publicação do edital, como situação de grave crise econômico-financeira do ente público, desde que a decisão de não nomear seja <strong>motivada de forma real, cabal e adequada</strong>, sujeita a controle de legalidade e legitimidade pelo Poder Judiciário.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> é comum a banca tentar fazer o candidato tratar o direito subjetivo à nomeação dentro das vagas como absoluto, sem exceções, ou, no sentido oposto, negá-lo por completo tratando a aprovação sempre como mera expectativa de direito.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>5.</span> Preterição do candidato aprovado dentro das vagas</h4><p>Também configura violação a esse direito a <strong>preterição</strong> do candidato aprovado dentro do número de vagas, como quando a administração contrata pessoal de forma precária (terceirizado, comissionado ou temporário) para exercer as mesmas atribuições do cargo, durante o prazo de validade do concurso ainda vigente, quando existem candidatos aprovados aguardando nomeação.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se Marcos foi aprovado dentro do número de vagas do edital (foi, 25º de 40). 2) Aplicar a tese consolidada do STF de que essa aprovação gera direito subjetivo à nomeação dentro do prazo de validade do concurso. 3) Lembrar que esse direito não é absoluto, comportando exceção motivada em situação excepcional e superveniente. 4) Eliminar alternativas que tratem a aprovação como mera expectativa, que tornem a prorrogação um ato vinculado, ou que distorçam o prazo máximo e o número de prorrogações permitidas.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>O STF consolidou o entendimento de que o candidato aprovado dentro do número de vagas previstas no edital tem direito subjetivo à nomeação dentro do prazo de validade do concurso, ressalvadas situações excepcionais, supervenientes e devidamente motivadas pela administração — exatamente a regra aplicável ao caso de Marcos, que aguarda nomeação sem qualquer motivação da administração para a demora.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — prorrogação múltipla dentro do limite de 4 anos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato memoriza corretamente o limite total de 4 anos, mas erra ao permitir mais de uma prorrogação.<br><strong>Onde quebra:</strong> a Constituição admite apenas UMA prorrogação, por igual período; não é permitido prorrogar o concurso repetidas vezes, ainda que a soma não ultrapasse 4 anos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — mera expectativa de direito mesmo dentro das vagas</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> reproduz a tese ANTIGA do STF, superada pela decisão do RE 598.099, ainda bastante lembrada por quem não atualizou o entendimento.<br><strong>Onde quebra:</strong> desde a repercussão geral no RE 598.099, o candidato aprovado dentro do número de vagas do edital tem direito SUBJETIVO à nomeação, e não mera expectativa, dentro do prazo de validade do concurso.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — prorrogação como ato vinculado a pedido dos candidatos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta transformar a prorrogação em direito do candidato, por analogia com o direito à nomeação.<br><strong>Onde quebra:</strong> a prorrogação do prazo de validade é ato discricionário da administração, não sendo cabível exigir seu deferimento a pedido dos candidatos aprovados.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — presunção absoluta de preterição só após o fim do prazo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta deslocar a análise do direito subjetivo apenas para o término do concurso.<br><strong>Onde quebra:</strong> o direito subjetivo à nomeação (e sua eventual violação) pode ser reconhecido durante toda a vigência do prazo de validade, não havendo presunção absoluta reservada apenas ao seu termo final, tampouco caráter absoluto na presunção de preterição.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe o combo: <strong>validade de até 2 anos + 1 prorrogação por igual período (máximo 4 anos)</strong>; e <strong>aprovado dentro das vagas = direito subjetivo à nomeação</strong>, ressalvada exceção motivada e superveniente (crise financeira grave). Sem essas duas âncoras, é fácil cair em pegadinha de prazo ou de natureza do direito.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-calendar-check",
+      "titulo": "Prazo de validade do concurso",
+      "text": "Até 2 anos, prorrogável uma única vez, por igual período, conforme art. 37, III, da CF/1988."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Natureza da prorrogação",
+      "text": "Ato discricionário da administração, sem direito subjetivo do candidato a exigi-la."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Direito subjetivo à nomeação",
+      "text": "Reconhecido pelo STF (RE 598.099) ao candidato aprovado dentro do número de vagas do edital, dentro do prazo de validade do concurso."
+    },
+    {
+      "icone": "fa-circle-exclamation",
+      "titulo": "Exceções ao direito subjetivo",
+      "text": "Situações excepcionais, supervenientes e motivadas, como grave crise financeira, podem afastar a obrigação de nomear."
+    },
+    {
+      "icone": "fa-user-slash",
+      "titulo": "Preterição",
+      "text": "Ocorre quando a administração contrata pessoal precário para as mesmas funções, preterindo aprovados dentro das vagas durante a validade do concurso."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q233",
+  "numero": "Questão 8",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Provimento de Cargo Público — Formas Derivadas",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Classificação de Caso Concreto entre as Formas de Provimento Derivado",
+  "tags": [
+    "provimento originário",
+    "provimento derivado",
+    "recondução",
+    "reintegração",
+    "art. 8º e 29 Lei 8.112/1990"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Ana, servidora estável no cargo de Técnico do Seguro Social do INSS, havia sido exonerada de ofício em razão do retorno ao serviço de outro servidor, anteriormente demitido, que obteve, por decisão judicial transitada em julgado, a invalidação de sua demissão e a consequente reintegração ao cargo de origem, com ressarcimento de todas as vantagens do afastamento. Em decorrência disso, Ana foi reinvestida, no mesmo órgão, no cargo que havia anteriormente ocupado, sem interrupção de sua condição de servidora efetiva.<br><br>Considerando as formas de provimento derivado previstas na Lei nº 8.112/1990, assinale a alternativa que classifica corretamente a situação de Ana.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Trata-se de reversão, forma de provimento derivado que consiste no retorno à atividade do servidor aposentado por invalidez, quando junta médica oficial declara insubsistentes os motivos que ensejaram a aposentadoria.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Trata-se de reintegração, forma de provimento derivado que consiste na reinvestidura do servidor estável no cargo anteriormente ocupado, em decorrência da invalidação de sua demissão por decisão administrativa ou judicial, com ressarcimento de todas as vantagens.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "Trata-se de recondução, forma de provimento derivado que consiste no retorno do servidor estável ao cargo anteriormente ocupado, decorrente de inabilitação em estágio probatório relativo a outro cargo ou da reintegração do anterior ocupante.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "Trata-se de aproveitamento, forma de provimento derivado que consiste no retorno à atividade do servidor em disponibilidade, mediante investidura em cargo de atribuições e vencimentos compatíveis com o anteriormente ocupado.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Trata-se de readaptação, forma de provimento derivado que consiste na investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a limitação sofrida em sua capacidade física ou mental, verificada em inspeção médica.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A prova adora montar um caso concreto, como o de Ana, e pedir que o candidato identifique exatamente qual forma de provimento derivado está descrita — e a melhor forma de acertar é dominar a definição precisa de cada uma dessas figuras, não apenas decorar seus nomes soltos.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Provimento originário x provimento derivado</h4><p>O <strong>provimento</strong> é o ato administrativo pelo qual se preenche um cargo público. Ele é <strong>originário</strong> quando não pressupõe vínculo funcional anterior do agente com a administração — a única forma de provimento originário é a <strong>nomeação</strong>. É <strong>derivado</strong> quando decorre de vínculo funcional já existente, seja no mesmo cargo, seja em outro.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Formas de provimento derivado da Lei 8.112/1990</h4><p>A Lei 8.112/1990 prevê como formas de provimento derivado: <strong>promoção</strong> (passagem para cargo de maior complexidade dentro da mesma carreira); <strong>readaptação</strong> (investidura em cargo de atribuições compatíveis com limitação física ou mental superveniente, apurada em inspeção médica); <strong>reversão</strong> (retorno à atividade do aposentado por invalidez, quando cessados os motivos da aposentadoria, ou reversão de interesse da administração); <strong>aproveitamento</strong> (retorno à atividade do servidor em disponibilidade, em cargo compatível); <strong>reintegração</strong> (reinvestidura do estável no cargo anteriormente ocupado, em razão da invalidação de sua demissão); e <strong>recondução</strong> (retorno do estável ao cargo anteriormente ocupado).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> reintegração e recondução são frequentemente confundidas: a reintegração é sempre consequência da invalidação da PRÓPRIA demissão do servidor; a recondução ocorre quando o servidor é DESLOCADO do cargo novo por causa de outro evento — inabilitação em estágio probatório de outro cargo, ou reintegração do OCUPANTE ANTERIOR ao cargo que ele próprio ocupava.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Recondução: as duas hipóteses legais</h4><p>A <strong>recondução</strong>, prevista no art. 29 da Lei 8.112/1990, é o retorno do servidor estável ao cargo anteriormente ocupado, e ocorre em apenas duas hipóteses: (i) inabilitação do servidor em <strong>estágio probatório</strong> relativo a outro cargo para o qual havia sido nomeado; ou (ii) <strong>reintegração do anterior ocupante</strong> do cargo, isto é, quando outro servidor, que havia sido demitido daquele mesmo cargo, obtém a invalidação de sua demissão e é reintegrado, deslocando quem o havia sucedido.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Aplicação ao caso de Ana</h4><p>No caso de Ana, quem obteve a invalidação da própria demissão e retornou ao cargo foi o <strong>outro servidor</strong> (este sim em situação de reintegração); Ana, por sua vez, foi apenas <strong>deslocada</strong> do cargo que ocupava, retornando ao cargo que havia anteriormente ocupado — encaixando-se exatamente na segunda hipótese de recondução prevista no art. 29.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar quem, no enunciado, teve sua PRÓPRIA demissão invalidada (o outro servidor) — essa é a reintegração. 2) Perceber que Ana não foi demitida; ela apenas precisou desocupar o cargo por causa do retorno do reintegrado. 3) Lembrar que a Lei 8.112/1990 prevê exatamente essa hipótese (reintegração do anterior ocupante) como uma das duas causas de recondução. 4) Eliminar as alternativas que descrevem corretamente outros institutos (reversão, reintegração, aproveitamento, readaptação), mas que não correspondem à situação de Ana.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A situação de Ana corresponde exatamente à recondução prevista no art. 29 da Lei 8.112/1990: o retorno do servidor estável ao cargo anteriormente ocupado, na hipótese de reintegração do antigo ocupante — foi o outro servidor, e não Ana, quem teve a demissão invalidada e foi reintegrado, deslocando Ana de volta ao cargo que ela já havia ocupado antes.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — reversão</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a alternativa define corretamente o instituto da reversão, o que pode levar o candidato a marcá-la por associação incorreta a 'retorno ao serviço'.<br><strong>Onde quebra:</strong> reversão pressupõe aposentadoria por invalidez seguida de cessação dos motivos que a ensejaram; no caso de Ana não há aposentadoria envolvida, apenas deslocamento entre cargos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — reintegração</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a definição de reintegração está tecnicamente correta, e o enunciado até menciona esse instituto ao descrever a situação do outro servidor, o que pode confundir o candidato.<br><strong>Onde quebra:</strong> quem foi reintegrado, no caso, foi o OUTRO servidor (que teve sua própria demissão invalidada); a situação de Ana, que apenas retornou ao cargo anterior em decorrência dessa reintegração alheia, é classificada como recondução, e não como reintegração.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — aproveitamento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a alternativa apresenta corretamente o conceito de aproveitamento, ligado à ideia genérica de 'retorno à atividade'.<br><strong>Onde quebra:</strong> aproveitamento pressupõe situação de disponibilidade (por extinção de cargo ou declaração de desnecessidade), hipótese distinta da narrada, que não envolve extinção de cargo nem disponibilidade de Ana.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — readaptação</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a definição de readaptação está correta, mas nada no enunciado indica limitação física ou mental de Ana.<br><strong>Onde quebra:</strong> readaptação decorre de limitação da capacidade física ou mental do servidor, verificada em inspeção médica, elemento inexistente no caso de Ana, cuja movimentação decorreu da reintegração de terceiro.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Sempre que a questão envolver um servidor 'deslocado de volta' ao cargo anterior por causa de OUTRA pessoa ter sido reintegrada (ou por reprovação em estágio probatório de outro cargo), pense logo em <strong>recondução</strong> — e não em reintegração, que é sempre sobre a invalidação da demissão do PRÓPRIO servidor.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-file-signature",
+      "titulo": "Provimento originário",
+      "text": "Nomeação — única forma de provimento que não pressupõe vínculo funcional anterior do agente com a administração."
+    },
+    {
+      "icone": "fa-arrows-rotate",
+      "titulo": "Provimento derivado",
+      "text": "Decorre de vínculo funcional já existente: promoção, readaptação, reversão, aproveitamento, reintegração e recondução."
+    },
+    {
+      "icone": "fa-rotate-left",
+      "titulo": "Recondução",
+      "text": "Retorno do servidor estável ao cargo anteriormente ocupado, por inabilitação em estágio probatório de outro cargo ou por reintegração do anterior ocupante."
+    },
+    {
+      "icone": "fa-user-check",
+      "titulo": "Reintegração",
+      "text": "Reinvestidura do servidor estável no cargo, em razão da invalidação de sua própria demissão, com ressarcimento de vantagens."
+    },
+    {
+      "icone": "fa-hourglass",
+      "titulo": "Aproveitamento",
+      "text": "Retorno à atividade do servidor em disponibilidade, em cargo de atribuições e vencimentos compatíveis."
+    },
+    {
+      "icone": "fa-heart-pulse",
+      "titulo": "Readaptação",
+      "text": "Investidura em cargo de atribuições compatíveis com limitação física ou mental superveniente, apurada em inspeção médica."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q234",
+  "numero": "Questão 9",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Estágio Probatório e Vacância",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Diferença Fundamental entre Exoneração e Demissão como Hipóteses de Vacância",
+  "tags": [
+    "estágio probatório",
+    "vacância",
+    "exoneração",
+    "demissão",
+    "art. 33 e 34 Lei 8.112/1990"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Durante o estágio probatório, o servidor Rafael foi avaliado por comissão específica quanto aos fatores legais de desempenho e considerado inapto ao exercício do cargo, tendo sido editado ato de vacância em decorrência dessa reprovação. Em situação distinta, a servidora Beatriz, já estável, foi apurada em regular processo administrativo disciplinar, com garantia de contraditório e ampla defesa, por ter praticado, de forma comprovada, infração funcional de natureza grave, tendo sido editado ato de vacância em consequência dessa apuração.<br><br>Considerando as formas de vacância previstas na Lei nº 8.112/1990, assinale a alternativa correta quanto à distinção fundamental entre as duas situações descritas.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A vacância decorrente da situação de Rafael configura exoneração, ato de natureza não punitiva resultante da reprovação em estágio probatório; a vacância decorrente da situação de Beatriz configura demissão, penalidade disciplinar aplicada em razão de infração funcional apurada em processo administrativo disciplinar, com contraditório e ampla defesa.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "Ambas as situações configuram exoneração, uma vez que esse instituto abrange tanto a reprovação em estágio probatório quanto a apuração de infrações disciplinares graves, distinguindo-se apenas quanto ao rito processual adotado.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A vacância decorrente da situação de Rafael configura demissão, visto que toda reprovação em estágio probatório tem natureza punitiva; a vacância decorrente da situação de Beatriz configura exoneração, em razão de sua condição de servidora estável.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Ambas as situações configuram demissão, penalidade máxima prevista na Lei nº 8.112/1990, aplicável tanto a servidores em estágio probatório quanto a servidores estáveis, sempre mediante prévio processo administrativo disciplinar.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A vacância decorrente da situação de Rafael configura exoneração de ofício por interesse da administração, hipótese aplicável exclusivamente a ocupantes de cargo em comissão; a vacância decorrente da situação de Beatriz configura demissão, cabível apenas após condenação judicial transitada em julgado.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Exoneração e demissão são, de longe, as duas hipóteses de vacância mais cobradas em prova, e o ponto central que a banca testa — como no confronto entre Rafael e Beatriz — é a natureza jurídica de cada uma: uma não é penalidade, a outra sempre é.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Vacância e suas formas</h4><p><strong>Vacância</strong> é a situação jurídica do cargo público que deixa de ter titular, seja porque o servidor foi dele afastado definitivamente, seja por outro motivo legal. A Lei 8.112/1990 prevê como formas de vacância, entre outras: exoneração, demissão, promoção, readaptação, aposentadoria, posse em outro cargo inacumulável e falecimento.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Exoneração: ato não punitivo</h4><p>A <strong>exoneração</strong> é forma de vacância <strong>sem caráter punitivo</strong>. Pode ocorrer a pedido do próprio servidor, ou de ofício, nas hipóteses legais — entre elas, quando <strong>não satisfeitas as condições do estágio probatório</strong>, isto é, quando o servidor nomeado para cargo de provimento efetivo é avaliado e considerado inapto ao exercício do cargo dentro do período de estágio. Também é exoneração, de ofício, a dispensa de ocupante de cargo em comissão, que pode ocorrer a critério da autoridade competente (exoneração ad nutum).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca gosta de sugerir que a reprovação no estágio probatório tem natureza de penalidade — não tem; é exoneração, ainda que pressuponha um processo específico de avaliação, com garantia de ampla defesa quanto à própria avaliação de desempenho, mas sem se converter em sanção disciplinar.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Demissão: penalidade disciplinar</h4><p>A <strong>demissão</strong>, ao contrário, é sempre uma <strong>penalidade disciplinar</strong>, a mais grave prevista na Lei 8.112/1990, aplicada ao servidor <strong>estável ou não estável</strong> que pratica infração funcional grave (entre outras hipóteses, crime contra a administração pública, abandono de cargo, inassiduidade habitual, improbidade administrativa, corrupção, lesão aos cofres públicos), sempre precedida de <strong>processo administrativo disciplinar</strong>, assegurados o contraditório e a ampla defesa.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Efeitos diferenciados das duas hipóteses</h4><p>Por ser penalidade, a demissão pode gerar efeitos adicionais, como a vedação ao retorno ao serviço público federal por determinado prazo (ou em caráter definitivo, em hipóteses específicas, como improbidade administrativa). A exoneração, por não ser penalidade, não gera esse tipo de restrição — o ex-servidor exonerado, inclusive por reprovação em estágio probatório, pode voltar a prestar concurso público e ser nomeado normalmente.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Identificar a causa da vacância de Rafael: reprovação em estágio probatório, apurada por comissão de avaliação — hipótese de exoneração, sem natureza punitiva. 2) Identificar a causa da vacância de Beatriz: infração funcional grave apurada em processo administrativo disciplinar, com contraditório e ampla defesa — hipótese de demissão, penalidade disciplinar. 3) Eliminar alternativas que tratem as duas situações como idênticas, que invertam os institutos, ou que imponham condições incorretas (como condenação judicial para a demissão).</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A situação de Rafael configura exoneração — ato de natureza não punitiva decorrente da reprovação em estágio probatório —, enquanto a de Beatriz configura demissão — penalidade disciplinar máxima, aplicada após apuração de infração funcional grave em regular processo administrativo disciplinar, com contraditório e ampla defesa.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — as duas situações como exoneração</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> pode parecer que ambas são apenas formas de 'desligamento' do servidor do cargo, sem maior distinção.<br><strong>Onde quebra:</strong> somente a situação de Rafael configura exoneração; a de Beatriz, por decorrer de infração funcional apurada em PAD, configura demissão, penalidade disciplinar, e não mera exoneração.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — institutos invertidos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta associar estágio probatório a algo mais grave (demissão) e estabilidade a algo mais brando (exoneração), de forma contraintuitiva mas plausível para quem decorou mal os conceitos.<br><strong>Onde quebra:</strong> é exatamente o oposto: a reprovação em estágio probatório gera exoneração (não punitiva), e a infração funcional grave apurada em PAD contra servidor estável gera demissão (penalidade); a estabilidade não converte a penalidade em exoneração.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — ambas como demissão</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> pressupõe, erroneamente, que toda saída do serviço público por decisão da administração é, em si, uma penalidade.<br><strong>Onde quebra:</strong> a reprovação em estágio probatório não tem natureza de penalidade disciplinar; a demissão pressupõe infração funcional apurada em processo administrativo disciplinar, elemento ausente na situação de Rafael.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — condições incorretas para os dois institutos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> tenta parecer tecnicamente precisa ao vincular cada instituto a uma condição específica.<br><strong>Onde quebra:</strong> a exoneração por reprovação em estágio probatório não se confunde com a exoneração ad nutum de cargo em comissão, e a demissão não exige condenação judicial transitada em julgado, bastando a apuração regular em processo administrativo disciplinar.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe a regra de ouro: <strong>exoneração NUNCA é penalidade</strong> (inclusive quando decorre de reprovação em estágio probatório); <strong>demissão é SEMPRE penalidade disciplinar</strong>, exigindo infração funcional apurada em processo administrativo disciplinar com contraditório e ampla defesa.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-door-open",
+      "titulo": "Vacância",
+      "text": "Situação do cargo público que deixa de ter titular, por exoneração, demissão, promoção, aposentadoria, entre outras hipóteses legais."
+    },
+    {
+      "icone": "fa-user-clock",
+      "titulo": "Estágio probatório",
+      "text": "Período de avaliação do servidor nomeado para cargo efetivo quanto aos fatores legais de desempenho, antes da estabilidade."
+    },
+    {
+      "icone": "fa-right-from-bracket",
+      "titulo": "Exoneração",
+      "text": "Forma de vacância sem caráter punitivo, cabível, entre outras hipóteses, na reprovação em estágio probatório e na dispensa de cargo em comissão."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Demissão",
+      "text": "Penalidade disciplinar mais grave da Lei 8.112/1990, aplicada por infração funcional grave, sempre mediante processo administrativo disciplinar."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Contraditório e ampla defesa",
+      "text": "Garantias asseguradas ao servidor no processo administrativo disciplinar que pode culminar em demissão."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q235",
+  "numero": "Questão 10",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Remoção, Redistribuição e Substituição",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Distinção Conceitual entre Remoção, Redistribuição e Substituição",
+  "tags": [
+    "remoção",
+    "redistribuição",
+    "substituição",
+    "art. 36, 37 e 38 Lei 8.112/1990",
+    "movimentação de pessoal"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Considere as seguintes situações hipotéticas, envolvendo servidores públicos federais regidos pela Lei nº 8.112/1990:<br><br>I. Um Técnico do Seguro Social, lotado em uma agência do INSS no Distrito Federal, foi deslocado, de ofício, no interesse da administração, para outra agência do INSS localizada em outro estado, permanecendo vinculado ao mesmo quadro de pessoal e ao mesmo cargo que já ocupava.<br><br>II. O cargo de Técnico do Seguro Social, então vago, foi deslocado do quadro de pessoal do INSS para o quadro de pessoal de outra autarquia federal integrante do mesmo Poder Executivo, em razão de reorganização administrativa, respeitadas a equivalência de vencimentos e a compatibilidade entre as atribuições do cargo e as finalidades institucionais do órgão de destino.<br><br>III. Durante o afastamento legal do chefe de uma seção do INSS, outro servidor foi designado para responder cumulativamente pelas atribuições da chefia enquanto durasse o impedimento, sem que isso importasse qualquer alteração em sua lotação de origem.<br><br>Assinale a alternativa que classifica corretamente, e na ordem apresentada, as situações I, II e III.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "I – redistribuição; II – remoção; III – substituição.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "I – substituição; II – redistribuição; III – remoção.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "I – remoção; II – substituição; III – redistribuição.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "I – redistribuição; II – substituição; III – remoção.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "I – remoção; II – redistribuição; III – substituição.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Remoção, redistribuição e substituição são três formas de movimentação de pessoal que a prova adora confundir de propósito, porque têm nomes parecidos e finalidades relacionadas — a chave para não errar é sempre perguntar 'o que exatamente está se deslocando: o servidor, o cargo, ou apenas as atribuições temporariamente?', como nas situações I, II e III acima.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Remoção: desloca-se o servidor</h4><p>A <strong>remoção</strong>, prevista no art. 36 da Lei 8.112/1990, é o deslocamento do <strong>servidor</strong>, a pedido ou de ofício, no âmbito do mesmo quadro de pessoal, com ou sem mudança de sede. Pode ocorrer de ofício, no interesse da administração; a pedido, a critério da administração; ou a pedido, independentemente do interesse da administração, em hipóteses específicas (como para acompanhar cônjuge ou companheiro, ou por motivo de saúde do próprio servidor, cônjuge, companheiro ou dependente). Em todos os casos, o servidor continua vinculado ao <strong>mesmo cargo e ao mesmo quadro</strong> — muda apenas sua unidade de lotação ou sede de exercício.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a remoção NÃO altera o cargo do servidor nem o transfere para outro órgão ou quadro; ele continua no mesmo quadro de pessoal, apenas em outra unidade ou localidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Redistribuição: desloca-se o cargo</h4><p>A <strong>redistribuição</strong>, disciplinada no art. 37 da Lei 8.112/1990, é o deslocamento de <strong>cargo de provimento efetivo</strong>, ocupado ou vago, no âmbito do quadro geral de pessoal, para outro órgão ou entidade do <strong>mesmo Poder</strong>, com prévia apreciação do órgão central do sistema de pessoal civil, observados o interesse da administração, a equivalência de vencimentos, a manutenção da essência das atribuições e a compatibilidade entre as atribuições do cargo e as finalidades institucionais do órgão ou entidade de destino.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> é o CARGO que se desloca na redistribuição (podendo, inclusive, estar vago), diferentemente da remoção, em que é o SERVIDOR que se desloca, mantendo o mesmo cargo e o mesmo quadro de origem.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Substituição: suprimento temporário de função</h4><p>A <strong>substituição</strong>, prevista no art. 38 da Lei 8.112/1990, ocorre quando servidores investidos em função de direção, chefia ou assessoramento são substituídos, em seus afastamentos, impedimentos legais ou regulamentares, e nos casos de vacância do cargo, por servidor designado nos termos previstos em regulamento. Trata-se de mecanismo para <strong>suprir temporariamente</strong> a ausência do titular da função, sem qualquer alteração da lotação definitiva do servidor substituto, que continua vinculado à sua unidade de origem.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Como não confundir os três institutos</h4><p>Um bom critério de prova: se o enunciado fala em servidor mudando de unidade dentro do mesmo quadro, é <strong>remoção</strong>; se fala em cargo (ocupado ou vago) migrando entre órgãos ou entidades diferentes do mesmo Poder, é <strong>redistribuição</strong>; se fala em alguém assumindo temporariamente as atribuições de chefia por afastamento ou vacância do titular, sem mudar de lotação, é <strong>substituição</strong>.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Na situação I, quem se desloca é o servidor (mesmo cargo, mesmo quadro, outra sede) — remoção. 2) Na situação II, quem se desloca é o próprio cargo (vago) entre entidades diferentes do mesmo Poder — redistribuição. 3) Na situação III, há apenas suprimento temporário das atribuições de chefia por afastamento do titular, sem mudança de lotação — substituição. 4) Conferir a ordem I-II-III em cada alternativa e eliminar as que trocam os institutos.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A situação I é remoção (desloca-se o servidor, de ofício, dentro do mesmo quadro de pessoal, com mudança de sede). A situação II é redistribuição (desloca-se o cargo vago entre autarquias federais do mesmo Poder, com equivalência de vencimentos e compatibilidade de atribuições). A situação III é substituição (suprimento temporário da função de chefia durante afastamento do titular, sem alteração de lotação).</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — I–redistribuição; II–remoção; III–substituição</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> inverte remoção e redistribuição, associação comum para quem confunde os dois institutos mais parecidos.<br><strong>Onde quebra:</strong> na situação I é o SERVIDOR que muda de sede dentro do mesmo quadro (remoção), e na situação II é o CARGO vago que migra entre entidades diferentes (redistribuição) — a ordem correta é o inverso do proposto nessa alternativa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — I–substituição; II–redistribuição; III–remoção</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> acerta a situação II, mas erra I e III ao trocar remoção por substituição e vice-versa.<br><strong>Onde quebra:</strong> a situação I não envolve suprimento temporário de função de chefia (isso é substituição, situação III); é o próprio servidor sendo deslocado definitivamente de sede, caracterizando remoção.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — I–remoção; II–substituição; III–redistribuição</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> acerta a situação I, mas troca redistribuição por substituição nas demais.<br><strong>Onde quebra:</strong> a situação II envolve deslocamento do CARGO entre entidades (redistribuição), e a situação III envolve suprimento temporário de chefia sem mudança de lotação (substituição), e não o inverso.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — I–redistribuição; II–substituição; III–remoção</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> erra as três classificações simultaneamente, distribuindo os institutos de forma cruzada.<br><strong>Onde quebra:</strong> nenhuma das três correspondências está correta: I é remoção (servidor, mesmo quadro), II é redistribuição (cargo, entre entidades) e III é substituição (suprimento temporário de chefia).</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Use o mnemônico: <strong>remoção → o SERVIDOR anda</strong>; <strong>redistribuição → o CARGO anda</strong> (entre órgãos/entidades do mesmo Poder); <strong>substituição → ninguém muda de lugar, alguém só assume a função por um tempo</strong>. Aplicando esse filtro a cada situação do enunciado, a classificação sai quase automática.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-person-walking-arrow-right",
+      "titulo": "Remoção",
+      "text": "Deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro de pessoal, com ou sem mudança de sede."
+    },
+    {
+      "icone": "fa-building-shield",
+      "titulo": "Redistribuição",
+      "text": "Deslocamento de cargo de provimento efetivo, ocupado ou vago, entre órgãos ou entidades do mesmo Poder."
+    },
+    {
+      "icone": "fa-user-clock",
+      "titulo": "Substituição",
+      "text": "Suprimento temporário de função de direção, chefia ou assessoramento durante afastamento, impedimento ou vacância do titular."
+    },
+    {
+      "icone": "fa-sitemap",
+      "titulo": "Quadro de pessoal",
+      "text": "Estrutura de cargos de um órgão ou entidade, referência que distingue remoção (mesmo quadro) de redistribuição (entre quadros)."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Equivalência de vencimentos",
+      "text": "Requisito da redistribuição, junto com a compatibilidade de atribuições e finalidades institucionais do órgão de destino."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q236",
+  "numero": "Questão 11",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Deveres, Proibições e Regime Disciplinar",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Proibição do art. 117 da Lei 8.112/1990 e Penalidade de Demissão",
+  "tags": [
+    "Lei 8.112/1990",
+    "deveres do servidor",
+    "proibições",
+    "penalidades disciplinares",
+    "demissão"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Marcos, técnico do seguro social lotado em uma Agência da Previdência Social, passou a intermediar, extraoficialmente, a contratação de despachantes previdenciários particulares para segurados atendidos na agência, recebendo comissão financeira por cada indicação — atividade sem qualquer relação com as atribuições do cargo. Instaurado processo administrativo disciplinar, restou comprovado que Marcos se valeu de sua posição funcional e do acesso privilegiado aos segurados para obter vantagem econômica pessoal.<br><br>Considerando a disciplina da Lei nº 8.112/1990 acerca dos deveres, das proibições e do regime de penalidades dos servidores públicos federais, assinale a alternativa correta quanto à penalidade cabível ao caso.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Advertência, por se tratar de violação do dever funcional de urbanidade, penalidade prevista para infrações leves e sem dolo comprovado.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "Demissão, pois valer-se do cargo para lograr proveito pessoal em detrimento da dignidade da função pública configura proibição do art. 117 da Lei nº 8.112/1990, expressamente capitulada pelo art. 132 como causa de demissão.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "Suspensão por até 90 dias, penalidade aplicável sempre que a proibição praticada não envolver diretamente valores públicos, ainda que se enquadre no art. 117.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Cassação de aposentadoria, penalidade cabível a qualquer servidor que pratique ato de improbidade administrativa, esteja ele em atividade ou já aposentado.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Destituição de função comissionada, penalidade exclusiva para servidores efetivos investidos em cargo em comissão, ainda que não ocupem função de confiança.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Deveres e proibições funcionais aparecem em quase toda prova de Técnico do Seguro Social como situação-problema: a banca narra uma conduta e cobra a classificação correta — dever descumprido, proibição praticada e, sobretudo, a penalidade proporcional. É exatamente esse raciocínio que a questão abaixo exige.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Deveres do servidor (art. 116)</h4><p>O art. 116 da Lei nº 8.112/1990 lista os <strong>deveres</strong> do servidor: exercer com zelo e dedicação as atribuições do cargo; ser leal às instituições; observar as normas legais e regulamentares; cumprir ordens superiores (exceto as manifestamente ilegais); atender com presteza o público; guardar sigilo sobre assunto da repartição; manter conduta compatível com a moralidade administrativa; representar contra ilegalidade, entre outros. O descumprimento de um dever, em regra, é apenado com <strong>advertência</strong>, salvo se a lei cominar penalidade mais grave.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Proibições do servidor (art. 117)</h4><p>O art. 117 traz um rol de condutas <strong>vedadas</strong>: ausentar-se sem autorização, recusar fé a documentos públicos, opor resistência injustificada ao andamento de processo, coagir subordinado por motivo político, valer-se do cargo para lograr proveito pessoal ou de outrem em detrimento da dignidade da função (inciso IX), participar de gerência de sociedade privada, atuar como procurador de terceiros perante repartição pública, receber propina, praticar usura, proceder de forma desidiosa, utilizar pessoal ou recursos públicos em serviço particular, cometer a pessoa estranha à repartição atribuição funcional, entre outras.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> A banca costuma trocar a consequência das proibições: nem toda proibição do art. 117 leva à demissão — apenas a transgressão dos <strong>incisos IX a XVI</strong> é causa de demissão (art. 132, XI); as demais (incisos I a VIII e XVII a XIX) são, em regra, punidas com <strong>suspensão</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Regime de penalidades e gradação</h4><p>O art. 127 elenca as penalidades: advertência, suspensão, demissão, cassação de aposentadoria ou disponibilidade, destituição de cargo em comissão e destituição de função comissionada. A <strong>advertência</strong> (art. 129) pune violação de proibição leve ou inobservância de dever funcional, quando não justificar penalidade mais grave. A <strong>suspensão</strong> (art. 130), de até 90 dias, aplica-se em caso de reincidência de falta punida com advertência e nas demais proibições do art. 117 não capituladas como causa de demissão. A <strong>demissão</strong> (art. 132) é reservada às condutas mais graves: crime contra a administração pública, abandono de cargo, inassiduidade habitual, improbidade administrativa, incontinência pública e conduta escandalosa, insubordinação grave em serviço, ofensa física, aplicação irregular de dinheiros públicos, lesão aos cofres públicos, corrupção, acumulação ilegal de cargos e transgressão dos incisos IX a XVI do art. 117.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Cassação de aposentadoria e destituição de função/cargo em comissão</h4><p>A <strong>cassação de aposentadoria ou disponibilidade</strong> só se aplica a quem já está inativo, quando se apura, após a inatividade, falta praticada na atividade que seria punida com demissão. A <strong>destituição de cargo em comissão</strong> recai sobre quem não é servidor efetivo e ocupa apenas cargo comissionado; a <strong>destituição de função comissionada</strong> recai sobre o servidor efetivo investido em função de confiança. Ambas pressupõem falta que, em tese, ensejaria demissão caso o agente fosse efetivo no cargo.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Identifique a conduta narrada (valer-se do cargo para proveito pessoal), enquadre-a no inciso do art. 117 correspondente e verifique se esse inciso está entre os que o art. 132 capitula como causa de demissão (incisos IX a XVI). Descarte penalidades reservadas a situações fáticas distintas (inatividade, cargo em comissão).</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Valer-se do cargo para lograr proveito pessoal ou de outrem, em detrimento da dignidade da função pública (art. 117, IX), está entre as proibições cuja transgressão o art. 132, XI, capitula expressamente como causa de <strong>demissão</strong>. Não se trata de infração leve nem de mera desídia: há uso indevido da função para benefício econômico próprio, o que a lei trata com a penalidade mais grave.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — advertência por violação de dever funcional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a narrativa envolve atendimento ao público e poderia sugerir, à primeira vista, mera falha de urbanidade.<br><strong>Onde quebra:</strong> a conduta não é falha de urbanidade (dever, art. 116), mas proibição expressa do art. 117, IX, com consequência própria e mais grave prevista em lei — a advertência é insuficiente.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — suspensão por até 90 dias</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> suspensão é de fato a penalidade padrão para proibições do art. 117 quando estas não estão entre os incisos IX a XVI.<br><strong>Onde quebra:</strong> o inciso IX está expressamente entre aqueles cuja transgressão o art. 132, XI, capitula como causa de demissão, afastando a suspensão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — cassação de aposentadoria a qualquer servidor</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato pode confundir cassação de aposentadoria com qualquer penalidade grave por improbidade.<br><strong>Onde quebra:</strong> a cassação de aposentadoria ou disponibilidade pressupõe que o servidor já esteja inativo quando a falta é apurada; Marcos está em atividade, logo a penalidade cabível é a demissão.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — destituição de função comissionada</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o termo técnico soa como penalidade grave equivalente à demissão, podendo parecer aplicável a qualquer servidor.<br><strong>Onde quebra:</strong> essa penalidade pressupõe que o servidor esteja investido em função comissionada (efetivo) ou cargo em comissão (não efetivo); nada na situação indica isso — o enquadramento correto é demissão.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Monte um quadro mental: dever descumprido → advertência; proibição comum (art. 117, I a VIII e XVII a XIX) → suspensão; proibição grave (art. 117, IX a XVI) → demissão. Perguntar \"em qual inciso do art. 117 a conduta se encaixa?\" resolve a maioria das questões de dosimetria da Cebraspe.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Deveres funcionais (art. 116)",
+      "text": "Condutas positivas exigidas do servidor; seu descumprimento simples gera, em regra, advertência."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Proibições (art. 117)",
+      "text": "Rol de condutas vedadas; a gravidade da penalidade depende do inciso transgredido."
+    },
+    {
+      "icone": "fa-list-ol",
+      "titulo": "Gradação de penalidades",
+      "text": "Advertência, suspensão e demissão seguem critério de gravidade crescente definido em lei, não por juízo discricionário da chefia."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Demissão (art. 132)",
+      "text": "Penalidade máxima ao servidor ativo; inclui transgressão dos incisos IX a XVI do art. 117."
+    },
+    {
+      "icone": "fa-hand-holding-dollar",
+      "titulo": "Proveito pessoal do cargo",
+      "text": "Usar a função pública para vantagem própria fere a moralidade administrativa e é causa de demissão."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Princípio da proporcionalidade",
+      "text": "A penalidade deve ser compatível com a gravidade da infração, mas dentro dos limites que a própria lei já fixou."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q237",
+  "numero": "Questão 12",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Processo Administrativo Disciplinar e Sindicância",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Sindicância e PAD: Diferenças e a Garantia da Ampla Defesa",
+  "tags": [
+    "Lei 8.112/1990",
+    "processo administrativo disciplinar",
+    "sindicância",
+    "contraditório",
+    "ampla defesa"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A chefia de uma unidade do INSS recebeu denúncia de que um técnico do seguro social estaria fraudando a concessão de benefícios em favor de terceiros mediante pagamento. Foi instaurada sindicância para apurar o fato. Ao final, a comissão sindicante concluiu que a gravidade da conduta apurada indicava a necessidade de aplicação de pena de demissão e, com base apenas nesse relatório, a autoridade competente demitiu o servidor diretamente, sem instauração de processo administrativo disciplinar (PAD) e sem conceder nova oportunidade de manifestação do servidor sobre as conclusões finais da apuração.<br><br>À luz da Lei nº 8.112/1990, essa atuação da Administração está",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "correta, pois a sindicância, quando conduzida por comissão de três servidores estáveis, substitui integralmente o PAD para a aplicação de qualquer penalidade, inclusive a demissão.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "correta, pois o contraditório e a ampla defesa são garantias exigidas apenas em processo judicial, não se aplicando a procedimentos administrativos internos da Administração Pública.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "incorreta, pois a sindicância é incompatível com a aplicação de qualquer penalidade, servindo unicamente para arquivamento do feito ou conversão em advertência verbal ao servidor.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "incorreta, pois, quando a sindicância indicar a possibilidade de penalidade de suspensão superior a 30 dias, demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão, deve ser instaurado processo administrativo disciplinar, assegurados o contraditório e a ampla defesa.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "incorreta, pois a sindicância somente pode ser convertida em processo administrativo disciplinar por determinação judicial, não bastando a conclusão da própria comissão sindicante.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Distinguir sindicância de PAD — e saber quando uma obriga a instauração do outro — é um dos pontos mais cobrados sobre regime disciplinar, porque testa diretamente se o candidato entende o alcance do contraditório e da ampla defesa no processo administrativo.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Sindicância: natureza e alcance</h4><p>A <strong>sindicância</strong> é procedimento investigativo, em regra sumário, usado para apurar irregularidades funcionais de menor gravidade ou para, num primeiro momento, esclarecer fatos ainda incertos. Do relatório da sindicância podem resultar três desfechos, conforme o art. 145 da Lei nº 8.112/1990: <strong>arquivamento</strong> do processo; aplicação de <strong>penalidade de advertência ou suspensão de até 30 dias</strong>; ou instauração de <strong>processo administrativo disciplinar</strong>, quando o fato configurar infração mais grave.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> A sindicância pode, sim, resultar em penalidade — advertência ou suspensão de até 30 dias — desde que assegurado o direito de defesa do sindicado. O erro comum é achar que sindicância \"nunca pune\" ou que ela \"pune qualquer coisa\", inclusive demissão.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Processo Administrativo Disciplinar (PAD)</h4><p>O <strong>PAD</strong> é o processo contraditório por excelência, obrigatório sempre que a infração apurada, ainda que inicialmente investigada por sindicância, possa resultar em <strong>suspensão superior a 30 dias, demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão</strong> (art. 146). Desenvolve-se em três fases: instauração (publicação do ato que constitui a comissão), inquérito administrativo (instrução, defesa e relatório) e julgamento pela autoridade competente.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Contraditório e ampla defesa</h4><p>O art. 5º, LV, da Constituição Federal assegura contraditório e ampla defesa a litigantes em processo judicial ou administrativo. No PAD, isso se traduz em: citação do servidor para acompanhar o processo, indicação de defensor dativo se ele não constituir advogado, direito de produzir provas e de se manifestar sobre o relatório final antes do julgamento. A <strong>ausência ou insuficiência de defesa causa nulidade insanável</strong> do processo.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> Súmula Vinculante nº 5 do STF: a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição — mas isso não dispensa o direito de defesa em si, apenas afasta a exigência de advogado.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Verifique qual penalidade a apuração sinalizava (demissão) e compare com o rol do art. 146: penalidades graves exigem PAD, não bastando o relatório de sindicância. Confirme, ainda, se houve oportunidade de defesa compatível com a gravidade da pena aplicada.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Como a sindicância apontou para possível <strong>demissão</strong>, a autoridade estava obrigada a instaurar processo administrativo disciplinar, com comissão específica, citação do servidor, instrução contraditória e oportunidade de manifestação sobre o relatório final — nada disso pode ser suprimido pelo simples relatório da sindicância, sob pena de nulidade por violação ao art. 5º, LV, da CF/1988.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — sindicância substitui o PAD para qualquer penalidade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a existência de uma comissão formal e a gravidade dos fatos podem sugerir que o procedimento já seria suficiente para qualquer desfecho.<br><strong>Onde quebra:</strong> a Lei nº 8.112/1990 limita o alcance direto da sindicância a advertência ou suspensão de até 30 dias; penalidades mais graves exigem PAD específico (art. 146).</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — contraditório só vale no processo judicial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o servidor pode confundir a exigência processual mais rígida do Judiciário com a inexistência de garantias no âmbito administrativo.<br><strong>Onde quebra:</strong> o art. 5º, LV, da CF/1988 estende expressamente contraditório e ampla defesa a processos administrativos, e a Lei nº 8.112/1990 disciplina esse direito de forma minuciosa no PAD.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — sindicância nunca pune, apenas arquiva ou converte em advertência verbal</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> por ser procedimento sumário, pode parecer que a sindicância não tem força punitiva própria.<br><strong>Onde quebra:</strong> a sindicância pode, sim, resultar em advertência ou suspensão de até 30 dias (art. 145, II), desde que respeitado o direito de defesa — não existe, aliás, \"advertência verbal\" na Lei nº 8.112/1990.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — só juiz pode converter sindicância em PAD</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de controle externo para atos graves da Administração é intuitiva.<br><strong>Onde quebra:</strong> a conversão em PAD é decisão da própria autoridade administrativa competente, a partir da conclusão da sindicância ou de denúncia, sem necessidade de determinação judicial.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave a régua de penalidades da sindicância: até <strong>suspensão de 30 dias</strong>, ela resolve sozinha; acima disso (suspensão >30 dias, demissão, cassação, destituição de cargo em comissão), só o PAD serve — e sempre com contraditório e ampla defesa plenos.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-magnifying-glass",
+      "titulo": "Sindicância",
+      "text": "Procedimento investigativo sumário; pode resultar em arquivamento, advertência, suspensão de até 30 dias ou instauração de PAD."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Processo Administrativo Disciplinar",
+      "text": "Processo contraditório obrigatório para penalidades mais graves: suspensão >30 dias, demissão, cassação e destituição de cargo em comissão."
+    },
+    {
+      "icone": "fa-people-arrows",
+      "titulo": "Contraditório",
+      "text": "Direito de conhecer e se manifestar sobre todos os elementos do processo que possam prejudicar o servidor."
+    },
+    {
+      "icone": "fa-shield-halved",
+      "titulo": "Ampla defesa",
+      "text": "Direito de produzir provas, indicar testemunhas e ser assistido por defensor, dativo se necessário."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Nulidade processual",
+      "text": "Vício insanável decorrente da supressão do direito de defesa compatível com a gravidade da penalidade aplicada."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q238",
+  "numero": "Questão 13",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Independência das Instâncias",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Independência das Instâncias e suas Exceções de Comunicabilidade",
+  "tags": [
+    "independência das instâncias",
+    "esfera penal",
+    "esfera administrativa",
+    "absolvição penal",
+    "PAD"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Um técnico do seguro social respondeu a processo criminal pela suposta prática de peculato relacionado a valores de benefícios previdenciários. Na esfera penal, foi absolvido por <strong>insuficiência de provas</strong> quanto à autoria do fato. Paralelamente, tramitou processo administrativo disciplinar pelos mesmos fatos, ao final do qual a comissão processante concluiu, com fundamentação própria e independente da instrução penal, pela aplicação da pena de demissão.<br><br>Considerando o princípio da independência das instâncias civil, penal e administrativa, e suas exceções de comunicabilidade, é correto afirmar que",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "a absolvição penal por insuficiência ou ausência de provas não repercute automaticamente na esfera administrativa, de modo que a Administração pode, com base em elementos próprios do PAD, concluir de forma diversa e aplicar a penalidade cabível.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "a absolvição penal, seja qual for o fundamento, sempre vincula a instância administrativa, impondo o arquivamento automático do processo disciplinar em curso.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "somente a sentença penal condenatória repercute na esfera administrativa; a absolvição penal, ainda que reconheça categoricamente a inexistência do fato, jamais produz qualquer efeito sobre o PAD.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "a independência das instâncias impede que a Administração leve em conta qualquer decisão criminal ao instruir o processo disciplinar, ainda que a sentença penal tenha reconhecido a inexistência do fato ou a negativa de autoria.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "a comunicabilidade entre as instâncias somente ocorre quando a sentença penal é condenatória por crime doloso contra a administração pública, sendo irrelevante o reconhecimento de inexistência do fato ou de negativa de autoria.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A independência das instâncias é tema clássico de prova por combinar teoria (autonomia das esferas de responsabilização) com uma pegadinha recorrente: as exceções em que a decisão penal vincula a administrativa. Errar essas exceções é o erro mais comum do candidato apressado.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> O princípio da independência das instâncias</h4><p>Uma mesma conduta do servidor pode gerar responsabilização simultânea e <strong>autônoma</strong> nas esferas civil, penal e administrativa (art. 125 da Lei nº 8.112/1990). Cada instância tem objeto, standard probatório e finalidade próprios: a penal busca punir crime, com presunção de inocência e exigência de prova além da dúvida razoável; a administrativa apura infração funcional, com regras probatórias próprias do processo administrativo. Por isso, em regra, a absolvição em uma esfera não impede a condenação nas demais, e vice-versa.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> As exceções de comunicabilidade</h4><p>A independência não é absoluta. O art. 126 da Lei nº 8.112/1990 estabelece que a <strong>responsabilidade administrativa do servidor será afastada</strong> no caso de absolvição criminal que negue a <strong>existência do fato</strong> ou sua <strong>autoria</strong>. Fora dessas duas hipóteses específicas — inexistência do fato e negativa de autoria — a decisão penal absolutória não vincula a Administração.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> Absolvição por <strong>insuficiência de provas</strong>, por <strong>atipicidade penal</strong> (o fato não configura crime, mas pode configurar infração administrativa) ou por <strong>excludente de ilicitude penal específica</strong> NÃO vincula a esfera administrativa. Só vincula a negativa categórica do fato ou da autoria pelo juízo penal.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Efeitos da sentença penal condenatória</h4><p>Já a <strong>condenação penal</strong> transitada em julgado tem eficácia mais ampla: nos termos do art. 935 do Código Civil e da jurisprudência, ela repercute na esfera cível (obrigação de indenizar) e serve de base segura para a Administração concluir pela existência do fato e da autoria também no âmbito disciplinar, embora a dosimetria da penalidade administrativa continue sendo decisão autônoma da autoridade competente.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Identifique o fundamento da absolvição penal narrada (insuficiência de provas) e verifique se ele se encaixa nas duas exceções taxativas do art. 126 da Lei nº 8.112/1990 (inexistência do fato ou negativa de autoria). Se não se encaixar, a independência das instâncias permanece intacta.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A absolvição penal por <strong>insuficiência de provas</strong> não se enquadra nas hipóteses do art. 126 da Lei nº 8.112/1990 (inexistência do fato ou negativa de autoria) — trata-se apenas de dúvida sobre a prova produzida no processo penal, sob o rigor da presunção de inocência. Por isso, a esfera administrativa permanece livre para, com prova própria produzida no PAD, concluir de forma diversa e aplicar a penalidade cabível, inclusive a demissão.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — absolvição penal sempre vincula a esfera administrativa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de coerência entre decisões estatais sugere que uma absolvição deveria \"valer para tudo\".<br><strong>Onde quebra:</strong> a lei restringe a vinculação a apenas duas hipóteses específicas (inexistência do fato e negativa de autoria); fora delas, a independência das instâncias prevalece.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — só condenação repercute; absolvição nunca produz efeito, nem por inexistência do fato</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> reforça corretamente que condenação repercute, mas erra ao negar toda e qualquer exceção do lado da absolvição.<br><strong>Onde quebra:</strong> o próprio art. 126 prevê expressamente que a absolvição por inexistência do fato ou negativa de autoria afasta a responsabilidade administrativa — a afirmação de que \"jamais\" produz efeito é falsa.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — a Administração nunca pode considerar decisão criminal alguma</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> pode parecer que independência das instâncias significa isolamento total entre elas.<br><strong>Onde quebra:</strong> quando a sentença penal reconhece inexistência do fato ou nega a autoria, a Administração está vinculada a essa conclusão, sob pena de contradição inadmissível entre decisões estatais.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — comunicabilidade só existe para condenação por crime doloso contra a administração</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> restringe corretamente demais a regra a uma hipótese de condenação, mas ignora as exceções do lado da absolvição.<br><strong>Onde quebra:</strong> as exceções de comunicabilidade do art. 126 tratam justamente de hipóteses de absolvição (inexistência do fato e negativa de autoria), não de condenação por tipo penal específico.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Memorize as duas únicas travas da independência das instâncias: absolvição penal por <strong>inexistência do fato</strong> ou por <strong>negativa de autoria</strong> vincula a Administração. Qualquer outro motivo de absolvição (insuficiência de provas, prescrição, atipicidade) NÃO vincula.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Independência das instâncias",
+      "text": "Civil, penal e administrativa apuram e punem de forma autônoma a mesma conduta, com regras e finalidades próprias."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Exceções de comunicabilidade",
+      "text": "Absolvição penal por inexistência do fato ou negativa de autoria afasta a responsabilidade administrativa (art. 126, Lei 8.112/1990)."
+    },
+    {
+      "icone": "fa-magnifying-glass",
+      "titulo": "Insuficiência de provas",
+      "text": "Fundamento de absolvição penal que NÃO vincula a esfera administrativa, por não negar fato nem autoria."
+    },
+    {
+      "icone": "fa-file-signature",
+      "titulo": "Condenação penal transitada em julgado",
+      "text": "Repercute na esfera cível e serve de base para a existência do fato e da autoria também na esfera administrativa."
+    },
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Presunção de inocência",
+      "text": "Padrão probatório mais rigoroso da esfera penal, que explica por que suas absolvições nem sempre se estendem à administrativa."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q239",
+  "numero": "Questão 14",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Poder Hierárquico e Poder Disciplinar",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Poder Hierárquico e Poder Disciplinar: Distinção e Limites",
+  "tags": [
+    "poder hierárquico",
+    "poder disciplinar",
+    "delegação",
+    "avocação",
+    "dosimetria da pena"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Em uma Superintendência Regional do INSS, o superintendente decidiu: (I) avocar temporariamente para si a atribuição de determinar rotinas de atendimento em uma agência subordinada, atribuição que normalmente cabia ao chefe daquela unidade; e (II) aplicar, após regular processo administrativo disciplinar, pena de suspensão a um servidor que descumpriu dever funcional.<br><br>Sobre o poder hierárquico e o poder disciplinar exercidos pela Administração nessas duas situações, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "Ambas as situações decorrem do poder disciplinar, já que este abrange tanto a organização interna do órgão quanto a apuração e a punição de infrações funcionais.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A situação I decorre do poder disciplinar, pois envolve redistribuição de competências entre unidades administrativas, ao passo que a situação II decorre do poder hierárquico, por envolver relação de subordinação entre chefia e servidor.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "O poder disciplinar somente pode ser exercido mediante delegação expressa do poder hierárquico, não possuindo, portanto, fundamento autônomo em relação a este.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A avocação e a delegação de competências são manifestações do poder disciplinar, que também fundamenta, de forma direta e automática, a aplicação de penalidades, sem necessidade de apuração prévia.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A situação I é manifestação do poder hierárquico, que permite distribuir, delegar, avocar e fiscalizar atribuições entre órgãos e agentes; a situação II é manifestação do poder disciplinar, que impõe a apuração de infrações funcionais e a aplicação de penas aos sujeitos à disciplina interna da Administração, em regra mediante processo prévio com garantia de ampla defesa.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Poder hierárquico e poder disciplinar aparecem juntos com frequência porque nascem do mesmo vínculo de subordinação, mas têm objeto e consequências diferentes — a banca adora testar se o candidato realmente separa \"organizar\" de \"punir\".</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Poder hierárquico: conceito e instrumentos</h4><p>O <strong>poder hierárquico</strong> é a prerrogativa da Administração de <strong>escalonar</strong> e <strong>coordenar</strong> as funções de seus órgãos e agentes, estabelecendo relação de subordinação entre eles. Dele decorrem os poderes de <strong>dar ordens</strong>, <strong>fiscalizar</strong> o cumprimento das atribuições, <strong>rever</strong> atos dos subordinados, <strong>delegar</strong> competências (transferir temporariamente atribuições a outro órgão ou agente) e <strong>avocar</strong> competências (chamar para si, temporariamente, atribuição originalmente afeta a órgão subordinado).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> Delegação e avocação são instrumentos do poder hierárquico, não do poder disciplinar — questões trocam essa atribuição com frequência.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Poder disciplinar: conceito e alcance</h4><p>O <strong>poder disciplinar</strong> é a prerrogativa de <strong>apurar infrações</strong> e <strong>aplicar penalidades</strong> a quem esteja sujeito à disciplina interna da Administração — servidores estatutários, mas também, em certos casos, particulares vinculados por contrato (ex.: sanções contratuais a licitantes/contratados, que seguem regime próprio distinto do disciplinar funcional). Diferentemente do poder hierárquico, o exercício do poder disciplinar sobre servidores é <strong>vinculado quanto à apuração</strong>: a autoridade que toma ciência de irregularidade tem o <strong>dever</strong> de apurá-la (não é faculdade), sob pena de responsabilidade por condescendência criminosa.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Diferenças práticas entre os dois poderes</h4><p>O poder hierárquico opera no plano da <strong>organização e do funcionamento</strong> do órgão — quem manda em quem, quem responde por quê — e é mais discricionário quanto à forma. O poder disciplinar opera no plano da <strong>responsabilização</strong> do agente por infração concreta, exige, em regra, <strong>processo prévio</strong> (sindicância ou PAD, conforme a gravidade) com contraditório e ampla defesa, e a penalidade aplicável segue a <strong>gradação legal</strong> vista nas questões anteriores — não é ato de mera vontade da chefia.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Separe as duas situações pelo verbo-núcleo: \"avocar atribuição de rotina de atendimento\" é organização interna (hierárquico); \"aplicar penalidade após PAD por infração funcional\" é apuração e punição (disciplinar). Depois, confira se a alternativa preserva os instrumentos corretos de cada poder.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A avocação de atribuição administrativa (situação I) é instrumento típico do <strong>poder hierárquico</strong>, que organiza e distribui competências entre órgãos e agentes subordinados. Já a aplicação de suspensão após regular PAD (situação II) é exercício do <strong>poder disciplinar</strong>, que pressupõe apuração formal da infração e respeito à ampla defesa antes da punição — os dois poderes derivam da hierarquia, mas não se confundem quanto ao objeto e ao procedimento.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — ambas decorrem do poder disciplinar</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> os dois atos partem da mesma autoridade hierárquica superior, sugerindo fundamento único.<br><strong>Onde quebra:</strong> avocar rotina de atendimento nada tem de apuração de infração ou aplicação de pena; é organização interna, própria do poder hierárquico, não do disciplinar.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — inverte os poderes: I seria disciplinar e II seria hierárquico</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a troca de termos é sutil e explora a semelhança dos dois institutos.<br><strong>Onde quebra:</strong> é exatamente o oposto: avocação é hierárquico e aplicação de pena após apuração é disciplinar — a alternativa inverte as duas classificações.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — poder disciplinar depende de delegação do hierárquico</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> como ambos nascem da subordinação, pode parecer que um é subespécie do outro.<br><strong>Onde quebra:</strong> poder disciplinar tem fundamento próprio (o dever legal de apurar infrações), não decorre de delegação do poder hierárquico — são poderes distintos, ainda que correlatos.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — avocação e delegação seriam do poder disciplinar, com punição automática</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de que a chefia \"pune direto\" simplifica indevidamente o processo disciplinar.<br><strong>Onde quebra:</strong> avocação e delegação são instrumentos do poder hierárquico; e o poder disciplinar não dispensa apuração prévia — a aplicação de pena sem processo violaria contraditório e ampla defesa.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe por instrumento: <strong>delegar/avocar/fiscalizar rotina</strong> = hierárquico; <strong>apurar infração e aplicar pena após processo</strong> = disciplinar. Se a questão menciona PAD, sindicância ou dosimetria de penalidade, é poder disciplinar; se menciona reorganização de competências, é hierárquico.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-sitemap",
+      "titulo": "Poder hierárquico",
+      "text": "Organiza e escalona órgãos e agentes; permite ordenar, fiscalizar, delegar, avocar e rever atos de subordinados."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Poder disciplinar",
+      "text": "Apura infrações funcionais e aplica penalidades a quem está sujeito à disciplina interna da Administração."
+    },
+    {
+      "icone": "fa-right-left",
+      "titulo": "Delegação e avocação",
+      "text": "Instrumentos do poder hierárquico para transferir (delegar) ou reassumir (avocar) atribuições, sempre de forma temporária."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Apuração vinculada",
+      "text": "Ao tomar ciência de irregularidade, a autoridade tem o dever, não a faculdade, de apurá-la."
+    },
+    {
+      "icone": "fa-shield-halved",
+      "titulo": "Ampla defesa no poder disciplinar",
+      "text": "A punição de servidor exige, em regra, processo prévio com contraditório, diferente da liberdade organizativa do poder hierárquico."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q240",
+  "numero": "Questão 15",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Poder de Polícia",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Poder de Polícia: Atributos e Abuso de Poder (Excesso x Desvio de Finalidade)",
+  "tags": [
+    "poder de polícia",
+    "autoexecutoriedade",
+    "coercibilidade",
+    "discricionariedade",
+    "abuso de poder",
+    "desvio de finalidade"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Um servidor com competência legal para fiscalização administrativa, ao constatar em vistoria que determinado estabelecimento descumpria norma regulamentar, determinou sua interdição imediata, independentemente de prévia autorização judicial, com base em atribuição que a lei conferia a seu cargo. Semanas depois, em outra fiscalização, o mesmo servidor interditou estabelecimento concorrente do de seu cunhado, alegando a mesma norma regulamentar, embora esse segundo estabelecimento estivesse integralmente em conformidade com todas as exigências legais — a real motivação do agente foi prejudicar a concorrência em benefício do parente.<br><br>Assinale a alternativa que identifica corretamente os atributos do poder de polícia envolvidos na primeira fiscalização e a natureza do vício que compromete a segunda.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A autoexecutoriedade permite que a Administração execute suas decisões sem intervenção prévia do Judiciário; no segundo caso, houve excesso de poder, pois o servidor exorbitou os limites de sua competência funcional para fiscalizar estabelecimentos.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A coercibilidade autoriza a Administração a impor unilateralmente suas decisões, inclusive mediante uso de força; no segundo caso, configurou-se excesso de poder, pois a interdição extrapolou o prazo regulamentar previsto para medidas dessa natureza.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A autoexecutoriedade e a coercibilidade permitiram a atuação do servidor na primeira fiscalização, dispensando prévia manifestação judicial; na segunda hipótese, configurou-se abuso de poder na modalidade desvio de finalidade, pois o ato, embora praticado dentro da competência do agente, teve motivação alheia ao interesse público.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "A discricionariedade afasta qualquer controle de legalidade sobre atos de poder de polícia, de modo que a segunda interdição, ainda que motivada por interesse pessoal do agente, não pode ser anulada pela própria Administração nem revista pelo Poder Judiciário.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Em ambas as hipóteses houve exercício regular do poder de polícia, uma vez que a autoexecutoriedade dispensa a Administração de observar a finalidade pública do ato, bastando a existência de competência legal para sua prática.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Poder de polícia é tema certo em prova de Direito Administrativo: a banca gosta de narrar uma fiscalização legítima e, na sequência, um ato do mesmo agente movido por interesse escuso, testando se o candidato distingue os atributos regulares do poder de polícia do abuso de poder em suas duas modalidades.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Conceito e atributos do poder de polícia</h4><p><strong>Poder de polícia</strong> é a prerrogativa da Administração de condicionar e restringir o exercício de direitos e atividades individuais em favor do interesse público (segurança, saúde, ordem, meio ambiente etc.). Seus três atributos clássicos são: <strong>discricionariedade</strong> — margem de escolha do agente quanto ao momento e ao meio de agir, dentro dos limites legais; <strong>autoexecutoriedade</strong> — possibilidade de a Administração executar e até fazer cumprir suas próprias decisões, sem depender de prévia autorização judicial; e <strong>coercibilidade</strong> — imperatividade da decisão administrativa, que se impõe ao particular independentemente de sua concordância, admitindo, se necessário, o uso de força proporcional.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> Discricionariedade não é sinônimo de ausência de controle: mesmo atos discricionários do poder de polícia estão sujeitos a controle de legalidade e de finalidade pelo Judiciário.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Uso regular x abuso de poder</h4><p>O <strong>uso regular</strong> do poder de polícia pressupõe competência do agente, observância da forma legal, motivo compatível com os fatos e <strong>finalidade pública</strong>. Quando o agente atua fora desses limites, configura-se <strong>abuso de poder</strong>, gênero que se desdobra em duas espécies clássicas.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Excesso de poder</h4><p>O <strong>excesso de poder</strong> ocorre quando o agente <strong>extrapola os limites de sua competência</strong> — pratica ato que a lei não autoriza para aquele cargo/função, ou vai além do que a norma permite (ex.: aplica penalidade não prevista em lei, ou atua em matéria alheia à sua atribuição).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Desvio de finalidade (ou de poder)</h4><p>O <strong>desvio de finalidade</strong> ocorre quando o agente é <strong>competente</strong> para praticar o ato — formalmente dentro de sua atribuição — mas o faz <strong>por motivo diverso do interesse público</strong>, perseguindo interesse pessoal, político ou de terceiros. É o vício mais sutil, porque o ato pode ter aparência de legalidade e ainda assim ser nulo, por comprometer o elemento finalidade.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> Truque clássico da banca: trocar \"desvio de finalidade\" por \"excesso de poder\" quando o agente tinha competência, mas agiu por motivo pessoal. Pergunte sempre: o agente tinha competência? Se sim e o motivo era espúrio, é desvio de finalidade — não excesso.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>Na primeira fiscalização, identifique os atributos que dispensam intervenção judicial prévia (autoexecutoriedade) e permitem imposição unilateral (coercibilidade). Na segunda, verifique se o agente tinha competência para o ato (tinha) e qual foi o motivo real (interesse pessoal) — isso aponta para desvio de finalidade, não para excesso de poder.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>Na primeira fiscalização, a interdição imediata, sem necessidade de ordem judicial prévia, exemplifica a <strong>autoexecutoriedade</strong>, e sua imposição unilateral ao particular exemplifica a <strong>coercibilidade</strong> — ambos atributos do poder de polícia regularmente exercido. Já na segunda fiscalização, o servidor tinha competência para fiscalizar (não a extrapolou), mas usou o ato para prejudicar concorrente do cunhado, motivo estranho ao interesse público: configura-se <strong>abuso de poder na modalidade desvio de finalidade</strong>, vício que macula o elemento finalidade do ato administrativo e o torna nulo, independentemente da aparência formal de legalidade.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — excesso de poder por exorbitar a competência funcional</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> abuso de poder é o gênero mais lembrado, e o candidato tende a rotular qualquer desvio como \"excesso\".<br><strong>Onde quebra:</strong> o servidor não extrapolou sua competência — ele tinha, sim, atribuição para fiscalizar aquele tipo de estabelecimento; o vício está no motivo (interesse pessoal), não na competência, o que caracteriza desvio de finalidade.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — excesso de poder por descumprir prazo regulamentar</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> acrescentar um detalhe técnico (prazo) dá aparência de fundamentação específica ao erro.<br><strong>Onde quebra:</strong> a situação não menciona qualquer prazo regulamentar descumprido; o problema é a motivação pessoal por trás de um ato formalmente dentro da competência do agente — desvio de finalidade, não excesso.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — discricionariedade afasta controle de legalidade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a discricionariedade é, de fato, atributo do poder de polícia, o que pode induzir à ideia de que blindaria o ato contra revisão.<br><strong>Onde quebra:</strong> discricionariedade não significa imunidade a controle: atos praticados com desvio de finalidade são ilegais e podem ser anulados tanto pela própria Administração (autotutela) quanto pelo Judiciário.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — exercício regular em ambas as hipóteses</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a autoexecutoriedade genuinamente dispensa autorização judicial prévia, o que pode levar a crer que \"tudo\" está dispensado, inclusive a finalidade.<br><strong>Onde quebra:</strong> a autoexecutoriedade dispensa apenas a prévia intervenção judicial para executar o ato, jamais dispensa a finalidade pública, elemento sempre vinculado de todo ato administrativo, discricionário ou não.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Diferencie com uma pergunta só: o agente <strong>podia</strong> praticar aquele tipo de ato (competência)? Se sim, mas o motivo real era espúrio, é <strong>desvio de finalidade</strong>. Se ele sequer tinha competência para tanto, é <strong>excesso de poder</strong>. Autoexecutoriedade e coercibilidade nunca dispensam a finalidade pública do ato.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-shield-halved",
+      "titulo": "Poder de polícia",
+      "text": "Prerrogativa de condicionar e restringir direitos individuais em favor do interesse público."
+    },
+    {
+      "icone": "fa-bolt",
+      "titulo": "Autoexecutoriedade",
+      "text": "Permite à Administração executar suas decisões sem depender de prévia autorização judicial."
+    },
+    {
+      "icone": "fa-hand-fist",
+      "titulo": "Coercibilidade",
+      "text": "Imperatividade da decisão administrativa, imposta ao particular independentemente de concordância."
+    },
+    {
+      "icone": "fa-triangle-exclamation",
+      "titulo": "Excesso de poder",
+      "text": "Vício que ocorre quando o agente extrapola os limites de sua competência legal."
+    },
+    {
+      "icone": "fa-user-secret",
+      "titulo": "Desvio de finalidade",
+      "text": "Vício que ocorre quando o agente competente pratica o ato por motivo alheio ao interesse público."
+    },
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Controle de legalidade",
+      "text": "Mesmo atos discricionários do poder de polícia permanecem sujeitos a controle pela Administração e pelo Judiciário."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q241",
+  "numero": "Questão 16",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Elementos e atributos do ato administrativo",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Elementos (competência, finalidade, forma, motivo, objeto) e atributos do ato administrativo",
+  "tags": [
+    "ato administrativo",
+    "elementos do ato",
+    "competência e finalidade",
+    "autoexecutoriedade",
+    "presunção de legitimidade"
+  ],
+  "alternativaCorreta": "C",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Todo ato administrativo, seja ele vinculado ou discricionário, é formado por elementos (ou requisitos) essenciais — competência, finalidade, forma, motivo e objeto — e se reveste de atributos próprios que o distinguem dos atos praticados por particulares, como a presunção de legitimidade e a autoexecutoriedade.<br><br>Considerando a teoria geral do ato administrativo, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O motivo é sempre elemento discricionário do ato administrativo, nunca podendo ser vinculado por descrição legal precisa da situação de fato que autoriza a atuação estatal.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A presunção de legitimidade dos atos administrativos autoriza o Poder Judiciário a dispensar o exame da legalidade do ato quando provocado, uma vez que a presunção é absoluta.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A autoexecutoriedade permite que a Administração execute diretamente suas decisões, inclusive com uso de força quando necessário, independentemente de prévia manifestação do Poder Judiciário, nos casos previstos em lei ou em situações de urgência.",
+      "correta": true
+    },
+    {
+      "letra": "D",
+      "texto": "A finalidade do ato administrativo é o elemento discricionário por excelência, podendo o administrador escolher, conforme a conveniência, entre atender ao interesse público ou a interesses privados.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "O objeto do ato administrativo corresponde exatamente ao seu motivo, ambos representando a situação fática que antecede e enseja a prática do ato pela Administração.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Elementos e atributos do ato administrativo são a base de praticamente todo o resto de Direito Administrativo em prova: quem entende os cinco elementos entende também vício, anulação e revogação — exatamente o que a questão abaixo cobra.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Os cinco elementos (requisitos) do ato administrativo</h4><p>A doutrina clássica (base da Lei 4.717/1965, Lei da Ação Popular) reconhece <strong>cinco elementos</strong> de todo ato administrativo: <strong>competência</strong> (o sujeito tem de ter poder legal para praticar o ato — elemento sempre <strong>vinculado</strong>, irrenunciável e improrrogável, salvo delegação/avocação legalmente admitidas); <strong>finalidade</strong> (o resultado que a lei pretende alcançar — sempre o <strong>interesse público</strong>, também elemento vinculado, jamais discricionário); <strong>forma</strong> (o revestimento exterior do ato, em regra escrita, sob pena de nulidade); <strong>motivo</strong> (o pressuposto de fato e de direito que autoriza a prática do ato — pode ser vinculado, quando a lei descreve exatamente a situação que obriga o agir, ou discricionário, quando a lei deixa margem de valoração); e <strong>objeto</strong> (o efeito jurídico imediato produzido pelo ato, ou seja, o que o ato efetivamente dispõe/determina).</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca costuma confundir <em>motivo</em> (a causa/situação fática-jurídica) com <em>objeto</em> (o conteúdo/efeito do ato). Ex.: no ato que demite um servidor por infração grave, o <strong>motivo</strong> é a infração comprovada; o <strong>objeto</strong> é a própria demissão.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Competência e finalidade: sempre vinculados</h4><p>Mesmo em atos predominantemente discricionários (como a escolha do momento e do conteúdo de uma sanção dentro de uma faixa legal), <strong>competência</strong> e <strong>finalidade</strong> permanecem sempre vinculados: a lei sempre define quem pode praticar o ato e sempre exige que ele vise ao interesse público. Desvirtuar a finalidade — perseguir interesse pessoal, político-partidário ou de terceiros sob aparência de legalidade — configura <strong>desvio de finalidade (desvio de poder)</strong>, vício que torna o ato nulo.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Atributos do ato administrativo</h4><p>Além dos elementos, os atos administrativos possuem <strong>atributos</strong> que os distinguem dos atos de direito privado: <strong>presunção de legitimidade (e de veracidade)</strong> — presume-se, até prova em contrário, que o ato foi praticado em conformidade com a lei, o que inverte o ônus da prova em favor da Administração, mas não impede o controle judicial de legalidade; <strong>imperatividade (coercibilidade)</strong> — o ato se impõe a terceiros independentemente de sua concordância; <strong>autoexecutoriedade</strong> — permite à Administração executar diretamente suas próprias decisões, com meios próprios, inclusive uso de força quando necessário, sem precisar de prévia autorização judicial, nos casos expressamente previstos em lei ou em situações de urgência que exijam proteção imediata do interesse público; e <strong>tipicidade</strong> — o ato deve corresponder a figura previamente definida em lei como apta a produzir determinado efeito.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> autoexecutoriedade <strong>não é regra absoluta</strong> — nem todo ato administrativo a possui; ela depende de previsão legal expressa ou de situação de urgência (ex.: interdição de estabelecimento em risco sanitário), diferente da presunção de legitimidade, que é atributo de <strong>todo</strong> ato administrativo.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Isolar o que cada alternativa afirma sobre um elemento ou atributo específico. 2) Lembrar que competência e finalidade são sempre vinculados, nunca discricionários. 3) Não confundir motivo (situação fática/jurídica) com objeto (efeito/conteúdo do ato). 4) Reconhecer que autoexecutoriedade dispensa prévia manifestação judicial nos casos legais ou de urgência, sem, contudo, afastar a presunção de legitimidade nem o controle judicial posterior.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa C — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A autoexecutoriedade é o atributo pelo qual a Administração executa diretamente suas decisões, com meios próprios e, se necessário, com uso de força, independentemente de prévia manifestação do Poder Judiciário, nos casos previstos em lei (ex.: demolição de obra irregular) ou em situações de urgência que exijam proteção imediata do interesse público (ex.: interdição sanitária). Trata-se de característica corretamente descrita, sem excesso nem restrição indevida.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — motivo é sempre elemento discricionário</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa 'motivo' a 'escolha do administrador', já que muitas questões de motivo aparecem em contexto de discricionariedade.<br><strong>Onde quebra:</strong> o motivo pode ser vinculado (quando a lei descreve exatamente a situação de fato que obriga a prática do ato, sem margem de escolha) ou discricionário (quando a lei deixa valoração ao administrador); afirmar que é 'sempre' discricionário está errado.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — presunção de legitimidade dispensaria controle judicial</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a ideia de 'presunção' remete à noção de algo que não precisa mais ser verificado.<br><strong>Onde quebra:</strong> a presunção de legitimidade é relativa (juris tantum): inverte o ônus da prova em favor da Administração, mas não impede que o Judiciário, provocado, examine a legalidade do ato.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — finalidade seria o elemento discricionário por excelência</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra que há elementos discricionários no ato administrativo e erra ao rotular a finalidade como um deles.<br><strong>Onde quebra:</strong> finalidade é sempre elemento vinculado: todo ato administrativo, discricionário ou não, deve visar ao interesse público; jamais há escolha legítima entre interesse público e privado.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — motivo e objeto seriam a mesma coisa</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> ambos os elementos estão ligados à 'razão de ser' do ato, o que gera confusão terminológica.<br><strong>Onde quebra:</strong> motivo é o pressuposto fático e jurídico que antecede e justifica o ato; objeto é o efeito jurídico imediato que o ato produz — são elementos distintos e ambos exigidos pela lei.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Grave o mnemônico <strong>COFIMOB</strong> (COmpetência, FInalidade, MOtivo, oBjeto + forma) e memorize que <strong>competência e finalidade nunca são discricionários</strong>. Para atributos, associe autoexecutoriedade a 'agir sem precisar de juiz antes', mas sempre sujeita a controle judicial posterior.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Competência",
+      "text": "Poder legal, sempre vinculado, atribuído a um agente para a prática de determinado ato administrativo."
+    },
+    {
+      "icone": "fa-bullseye",
+      "titulo": "Finalidade",
+      "text": "Elemento sempre vinculado: todo ato deve visar ao interesse público, sob pena de desvio de finalidade."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Motivo",
+      "text": "Pressuposto de fato e de direito que autoriza a prática do ato; pode ser vinculado ou discricionário."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Objeto",
+      "text": "Efeito jurídico imediato produzido pelo ato administrativo — o que ele efetivamente determina."
+    },
+    {
+      "icone": "fa-hand-fist",
+      "titulo": "Autoexecutoriedade",
+      "text": "Possibilidade de a Administração executar suas decisões sem prévia intervenção do Judiciário, nos casos legais ou de urgência."
+    },
+    {
+      "icone": "fa-circle-check",
+      "titulo": "Presunção de legitimidade",
+      "text": "Presunção relativa de que o ato foi praticado conforme a lei, invertendo o ônus da prova em favor da Administração."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q242",
+  "numero": "Questão 17",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Anulação e revogação do ato administrativo",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Anulação x revogação: fundamento, efeitos (ex tunc/ex nunc) e legitimados",
+  "tags": [
+    "anulação",
+    "revogação",
+    "autotutela administrativa",
+    "Súmula 473 STF",
+    "efeitos ex tunc e ex nunc"
+  ],
+  "alternativaCorreta": "A",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A Administração Pública, no exercício da autotutela, pode retirar seus próprios atos do mundo jurídico por duas vias distintas: a anulação, fundada em vício de legalidade, e a revogação, fundada em juízo de conveniência e oportunidade.<br><br>A respeito dessas duas formas de extinção do ato administrativo, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A anulação decorre de vício de legalidade do ato administrativo e produz efeitos retroativos (ex tunc), podendo ser promovida pela própria Administração, no exercício da autotutela, ou pelo Poder Judiciário, mediante provocação.",
+      "correta": true
+    },
+    {
+      "letra": "B",
+      "texto": "A revogação pode ser realizada tanto pela Administração quanto pelo Poder Judiciário, sempre que verificado defeito de legalidade no ato administrativo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A anulação opera efeitos ex nunc, preservando os efeitos já produzidos pelo ato viciado até a data de sua invalidação.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A revogação atinge atos ilegais, retirando-os do mundo jurídico com efeitos retroativos à data de sua edição.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "Tanto a revogação quanto a anulação estão sujeitas exatamente aos mesmos limites, não podendo, em nenhuma hipótese, incidir sobre atos que já geraram vantagens ao administrado de boa-fé.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Anulação e revogação são os dois modos de retirada do ato administrativo mais cobrados em prova, justamente porque compartilham o gênero 'invalidação/extinção' mas seguem lógicas, efeitos e legitimados completamente diferentes — a fonte clássica de pegadinha explorada na questão a seguir.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Autotutela administrativa</h4><p>A <strong>autotutela</strong> é o poder-dever de a Administração rever seus próprios atos, consagrado na <strong>Súmula 473 do STF</strong>: 'a Administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial'. Essa súmula resume, em uma frase, toda a distinção entre anulação e revogação.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Anulação (invalidação)</h4><p>A <strong>anulação</strong> decorre de <strong>vício de legalidade</strong> — o ato nasceu contrariando a lei (defeito em algum de seus elementos: competência, finalidade, forma, motivo ou objeto). Por isso, seus efeitos são <strong>retroativos (ex tunc)</strong>: desfazem-se, em regra, também os efeitos já produzidos, como se o ato nunca tivesse existido, ressalvados direitos de terceiros de boa-fé. A anulação pode ser promovida pela própria <strong>Administração</strong>, de ofício ou por provocação, no exercício da autotutela, ou pelo <strong>Poder Judiciário</strong>, sempre mediante provocação do interessado, nunca de ofício. A Lei 9.784/1999 (art. 54) fixa prazo decadencial de <strong>5 anos</strong> para a Administração anular atos favoráveis ao administrado, quando de boa-fé, contados da data em que foram praticados, salvo comprovada má-fé.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca costuma afirmar que a revogação pode ser feita pelo Judiciário, ou que a anulação produz efeitos ex nunc — ambas as afirmações são erradas.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Revogação</h4><p>A <strong>revogação</strong> atinge ato <strong>válido e legal</strong>, mas que se tornou <strong>inconveniente ou inoportuno</strong> ao interesse público. Por isso, seus efeitos são <strong>prospectivos (ex nunc)</strong>: o ato deixa de produzir efeitos a partir da revogação, preservando-se tudo o que já ocorreu sob sua vigência. A revogação é ato <strong>privativo da Administração</strong> — o Judiciário não revoga atos administrativos, pois isso envolveria juízo de mérito (conveniência e oportunidade), vedado ao controle judicial em regra. A revogação encontra limites: não pode atingir atos que já <strong>exauriram seus efeitos</strong>, atos vinculados, atos que geraram <strong>direitos adquiridos</strong>, nem os chamados atos irrevogáveis por natureza (ex.: atos declaratórios de direito já incorporado ao patrimônio do administrado).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Convalidação como alternativa à anulação</h4><p>Nem todo vício exige anulação: vícios <strong>sanáveis</strong> relativos à competência (quando não exclusiva) ou à forma (quando não essencial) admitem <strong>convalidação</strong>, corrigindo o defeito com efeitos retroativos, desde que não haja prejuízo a terceiros nem ao interesse público. Vícios de finalidade, motivo ou objeto, em regra, não se convalidam.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se a situação narrada envolve vício de legalidade (anulação) ou juízo de conveniência (revogação). 2) Lembrar que só a anulação retroage (ex tunc); a revogação vale só para frente (ex nunc). 3) Fixar que revogação é sempre ato da própria Administração, nunca do Judiciário. 4) Considerar os limites (direitos adquiridos, prescrição de 5 anos para atos favoráveis de boa-fé) antes de generalizar qualquer alternativa.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa A — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A anulação decorre de vício de legalidade e produz efeitos retroativos (ex tunc), desfazendo, em regra, também os efeitos já produzidos pelo ato. Pode ser promovida pela própria Administração, no exercício do poder de autotutela (Súmula 473/STF), de ofício ou por provocação, ou pelo Poder Judiciário, sempre mediante provocação do interessado — nunca de ofício pelo juiz.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — revogação poderia ser feita pelo Judiciário em caso de ilegalidade</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato mistura os dois institutos, associando 'revogação' a qualquer forma de retirada de ato do mundo jurídico, inclusive por vício.<br><strong>Onde quebra:</strong> revogação pressupõe ato legal, mas inconveniente, e é privativa da Administração; o Judiciário não revoga atos administrativos, pois isso invadiria o mérito administrativo (conveniência e oportunidade).</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — anulação teria efeitos ex nunc</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato inverte os efeitos, talvez lembrando que a revogação é que preserva o passado.<br><strong>Onde quebra:</strong> é exatamente o oposto: a anulação retroage (ex tunc), justamente porque o ato nasceu viciado; quem produz efeitos ex nunc é a revogação.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — revogação atingiria atos ilegais com efeitos retroativos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a frase mistura corretamente 'retirada retroativa', mas atribui isso à revogação em vez da anulação.<br><strong>Onde quebra:</strong> revogação pressupõe ato válido; atos ilegais, retirados com efeitos retroativos, são hipótese de anulação, não de revogação.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — revogação e anulação teriam os mesmos limites quanto a direitos adquiridos</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> a Súmula 473/STF de fato menciona 'respeitados os direitos adquiridos' para a revogação, levando à generalização indevida para a anulação.<br><strong>Onde quebra:</strong> a limitação de direito adquirido, tal como enunciada na súmula, é específica da revogação; a anulação pode, sim, atingir atos que geraram vantagens ao administrado, respeitado apenas o prazo decadencial de 5 anos para atos favoráveis praticados de boa-fé (art. 54, Lei 9.784/1999), e não uma vedação absoluta e equivalente à da revogação.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Associe: <strong>Anulação = ilegalidade = ex Tunc (retroage)</strong>; <strong>Revogação = inconveniência = ex Nunc (não retroage)</strong> e só a Administração revoga. Repare no 'N' de anulação com 'retroage' e no 'N' de 'ex Nunc' com revogação para não trocar na hora da prova.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Autotutela",
+      "text": "Poder-dever da Administração de rever seus próprios atos, anulando os ilegais e podendo revogar os inconvenientes (Súmula 473/STF)."
+    },
+    {
+      "icone": "fa-rotate-left",
+      "titulo": "Anulação",
+      "text": "Retirada do ato por vício de legalidade, com efeitos ex tunc (retroativos), podendo ser feita pela Administração ou pelo Judiciário."
+    },
+    {
+      "icone": "fa-ban",
+      "titulo": "Revogação",
+      "text": "Retirada de ato válido, mas inconveniente ou inoportuno, com efeitos ex nunc, ato privativo da Administração."
+    },
+    {
+      "icone": "fa-hourglass-half",
+      "titulo": "Decadência do art. 54 da Lei 9.784/1999",
+      "text": "Prazo de 5 anos para a Administração anular atos favoráveis ao administrado de boa-fé, contados da prática do ato."
+    },
+    {
+      "icone": "fa-file-pen",
+      "titulo": "Convalidação",
+      "text": "Correção de vício sanável (competência não exclusiva, forma não essencial), com efeitos retroativos, como alternativa à anulação."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q243",
+  "numero": "Questão 18",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Concessão, permissão e autorização de serviço público",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Formas de descentralização do serviço público: concessão, permissão e autorização",
+  "tags": [
+    "concessão de serviço público",
+    "permissão de serviço público",
+    "autorização de serviço público",
+    "licitação",
+    "art. 175 CF/1988"
+  ],
+  "alternativaCorreta": "E",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "O art. 175 da Constituição Federal de 1988 prevê que o Poder Público pode prestar serviços públicos diretamente ou sob regime de concessão ou permissão, sempre através de licitação. Ao lado desses dois institutos, a doutrina e a legislação específica também admitem, para determinadas situações, a autorização de serviço público.<br><br>A respeito das diferenças entre concessão, permissão e autorização de serviço público, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A autorização de serviço público é modalidade contratual, precedida de licitação obrigatória, destinada à prestação de serviços de interesse coletivo por prazo determinado.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A concessão de serviço público pode ser outorgada a pessoa física, mediante ato informal, dispensada a formalização por contrato administrativo.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "A permissão de serviço público, uma vez outorgada mediante contrato de adesão, gera direito subjetivo à sua manutenção, não podendo ser revogada unilateralmente pelo poder concedente antes do termo final ajustado.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "Tanto a concessão quanto a permissão dispensam licitação prévia, distinguindo-se apenas quanto à pessoa do outorgado: pessoa jurídica ou consórcio na primeira, pessoa física ou jurídica na segunda.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A autorização de serviço público é ato administrativo unilateral, discricionário e precário, utilizado para serviços de menor relevância social ou situações emergenciais e transitórias, dispensando licitação, ao contrário da concessão e da permissão, que exigem prévio procedimento licitatório.",
+      "correta": true
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>Concessão, permissão e autorização de serviço público aparecem juntas em quase toda prova de Direito Administrativo porque a Lei 8.987/1995 e o art. 175 da CF/1988 tratam as três formas de descentralização de maneira muito próxima na letra da lei, mas com regimes jurídicos bem diferentes na prática.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Descentralização por colaboração</h4><p>O <strong>art. 175 da CF/1988</strong> estabelece que incumbe ao Poder Público, na forma da lei, prestar serviços públicos diretamente ou <strong>sob regime de concessão ou permissão</strong>, sempre <strong>através de licitação</strong>. A <strong>autorização</strong> de serviço público não está prevista nesse artigo como regra geral, mas é admitida pela doutrina e por leis específicas para situações pontuais, sem submissão ao mesmo regime.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Concessão de serviço público</h4><p>A <strong>concessão</strong>, regulada pela <strong>Lei 8.987/1995</strong>, é contrato administrativo pelo qual o Poder Público delega a prestação de serviço público a <strong>pessoa jurídica ou consórcio de empresas</strong> que demonstre capacidade para seu desempenho, por sua conta e risco, por prazo determinado. Exige <strong>licitação obrigatória</strong>, na modalidade <strong>concorrência</strong> (ou leilão, no caso de concessão de uso de bem, e diálogo competitivo, conforme a Lei 14.133/2021, quando aplicável). É ato formalizado por <strong>contrato</strong>, com prazo determinado e maior estabilidade para o concessionário.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Permissão de serviço público</h4><p>A <strong>permissão</strong>, também prevista no art. 175 da CF/1988 e disciplinada pela Lei 8.987/1995, é formalizada mediante <strong>contrato de adesão</strong>, também <strong>precedida de licitação</strong>, podendo ser outorgada a pessoa física ou jurídica. Conserva, porém, a marca histórica de <strong>ato precário</strong>: admite revogação unilateral pelo poder concedente a qualquer tempo, por razões de interesse público, em regra sem dever de indenizar (ressalvados investimentos não amortizados, conforme o caso concreto).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Autorização de serviço público</h4><p>A <strong>autorização</strong> de serviço público é <strong>ato administrativo unilateral</strong>, <strong>discricionário</strong> e <strong>precário</strong>, utilizado para serviços de menor relevância coletiva, de baixa complexidade, ou para situações <strong>emergenciais e transitórias</strong> (ex.: serviço de táxi, despachante, transporte escolar em pequenos municípios). Por não se sujeitar ao regime do art. 175 da CF/1988, <strong>dispensa licitação</strong> e pode ser outorgada e desfeita de forma mais simples e rápida, exatamente pela natureza do interesse envolvido.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca gosta de trocar 'exige licitação' entre os três institutos, ou afirmar que a permissão gera direito subjetivo à manutenção do vínculo — ambas as afirmações contrariam a precariedade que marca esse instituto.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Separar o critério 'exige licitação' (concessão e permissão exigem; autorização dispensa). 2) Separar o critério 'forma' (concessão e permissão são formalizadas por contrato; autorização é ato unilateral). 3) Lembrar que só a concessão exige, como regra, pessoa jurídica ou consórcio; permissão admite pessoa física. 4) Fixar que os três institutos são marcados por precariedade em algum grau, mas a autorização é o mais precário e o único que dispensa licitação.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa E — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A autorização de serviço público é ato administrativo unilateral, discricionário e precário, empregado para serviços de menor relevância social ou situações emergenciais e transitórias, dispensando licitação — diferentemente da concessão e da permissão, que, por força do art. 175 da CF/1988 e da Lei 8.987/1995, exigem sempre prévio procedimento licitatório.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — autorização seria contrato precedido de licitação obrigatória</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato aplica à autorização o regime que, na verdade, pertence à concessão e à permissão.<br><strong>Onde quebra:</strong> a autorização é ato unilateral (não contrato) e dispensa licitação, justamente por não estar submetida ao art. 175 da CF/1988.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — concessão poderia ser outorgada a pessoa física, informalmente</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde concessão com autorização, que de fato pode ter outorga mais simples.<br><strong>Onde quebra:</strong> a concessão exige, por lei, pessoa jurídica ou consórcio de empresas, formalização por contrato administrativo e prévia licitação na modalidade concorrência — não há outorga informal a pessoa física.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — permissão geraria direito subjetivo à manutenção até o termo final</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa a existência de contrato de adesão a uma estabilidade equivalente à da concessão.<br><strong>Onde quebra:</strong> a permissão preserva a marca da precariedade: pode ser revogada unilateralmente pelo poder concedente a qualquer tempo, por razão de interesse público, sem que isso configure, em regra, quebra contratual indenizável.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — concessão e permissão dispensariam licitação, distinguindo-se apenas pelo outorgado</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato acerta a diferença quanto à pessoa do outorgado, mas erra ao dispensar a licitação para ambas.<br><strong>Onde quebra:</strong> tanto a concessão quanto a permissão exigem licitação prévia por força do art. 175 da CF/1988 e da Lei 8.987/1995; a diferença não está na exigência de licitação (ambas exigem), mas na modalidade e na forma de outorga (contrato de concessão x contrato de adesão).</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Decore o trio pela letra inicial: <strong>C</strong>oncessão = <strong>C</strong>ontrato + <strong>C</strong>oncorrência (sempre licitação); <strong>P</strong>ermissão = <strong>P</strong>recário, mas ainda com licitação; <strong>A</strong>utorização = <strong>A</strong>to unilateral, sem licitação.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-file-signature",
+      "titulo": "Concessão de serviço público",
+      "text": "Contrato administrativo, precedido de licitação (concorrência), outorgado a pessoa jurídica ou consórcio, por prazo determinado (Lei 8.987/1995)."
+    },
+    {
+      "icone": "fa-handshake",
+      "titulo": "Permissão de serviço público",
+      "text": "Contrato de adesão, precedido de licitação, marcado pela precariedade e pela possibilidade de revogação unilateral."
+    },
+    {
+      "icone": "fa-stamp",
+      "titulo": "Autorização de serviço público",
+      "text": "Ato unilateral, discricionário e precário, que dispensa licitação, usado para serviços de menor relevância ou emergenciais."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Art. 175 da CF/1988",
+      "text": "Fundamento constitucional da prestação de serviços públicos diretamente pelo Estado ou sob regime de concessão ou permissão, sempre via licitação."
+    },
+    {
+      "icone": "fa-scale-unbalanced",
+      "titulo": "Precariedade",
+      "text": "Possibilidade de extinção unilateral do vínculo pelo poder concedente por razões de interesse público, típica de permissão e autorização."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q244",
+  "numero": "Questão 19",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Responsabilidade civil objetiva do Estado",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Responsabilidade civil objetiva do Estado (art. 37, §6º, CF/1988): requisitos e excludentes",
+  "tags": [
+    "responsabilidade civil do Estado",
+    "art. 37 §6º CF/1988",
+    "teoria do risco administrativo",
+    "excludentes de responsabilidade",
+    "ação de regresso"
+  ],
+  "alternativaCorreta": "B",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "Um segurado sofreu dano patrimonial em razão de conduta de servidor de uma agência do INSS no exercício de suas funções. Ao buscar reparação junto à autarquia, o segurado é informado de que não precisará comprovar dolo ou culpa do servidor para ter direito à indenização, mas que a autarquia poderá, em sua defesa, alegar determinadas circunstâncias capazes de afastar ou reduzir sua responsabilidade.<br><br>A respeito da responsabilidade civil do Estado prevista no art. 37, §6º, da Constituição Federal de 1988, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "A responsabilidade civil objetiva do Estado exige a comprovação de dolo ou culpa do agente público causador do dano, cabendo à vítima produzir tal prova para obter a reparação.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "A teoria do risco administrativo, adotada pelo art. 37, §6º, da Constituição Federal, dispensa a prova de culpa do agente público, bastando a demonstração do dano, da conduta estatal e do nexo de causalidade entre ambos, admitindo-se, todavia, que o Poder Público demonstre causa excludente, como culpa exclusiva da vítima, caso fortuito ou força maior, para afastar ou atenuar o dever de indenizar.",
+      "correta": true
+    },
+    {
+      "letra": "C",
+      "texto": "A responsabilidade objetiva do Estado alcança exclusivamente as pessoas jurídicas de direito público, não se aplicando às pessoas jurídicas de direito privado prestadoras de serviços públicos.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "O direito de regresso contra o agente público causador do dano independe da comprovação de dolo ou culpa, tratando-se também de responsabilidade objetiva na relação entre o Estado e seu agente.",
+      "correta": false
+    },
+    {
+      "letra": "E",
+      "texto": "A omissão do Estado gera, em qualquer hipótese, responsabilidade objetiva idêntica à decorrente de conduta comissiva, sendo prescindível a demonstração de que o Poder Público tinha o dever legal de agir e não agiu.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A responsabilidade civil do Estado é tema certo em prova de Técnico do Seguro Social porque toca diretamente a atuação de servidores públicos — inclusive do próprio INSS — e porque a banca adora testar os requisitos e as excludentes da teoria do risco administrativo.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> Fundamento constitucional: art. 37, §6º, CF/1988</h4><p>O <strong>art. 37, §6º, da Constituição Federal</strong> estabelece que as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos <strong>responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros</strong>, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. Esse dispositivo adota, para o Estado, a <strong>responsabilidade civil objetiva</strong>, na modalidade <strong>teoria do risco administrativo</strong>.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> Teoria do risco administrativo: requisitos</h4><p>Pela teoria do risco administrativo, a responsabilização do Estado <strong>dispensa a prova de dolo ou culpa</strong> do agente público. Bastam três elementos: <strong>conduta</strong> (ação ou omissão estatal), <strong>dano</strong> (patrimonial ou moral, certo e determinado) e <strong>nexo de causalidade</strong> entre a conduta e o dano. Não se exige que a vítima demonstre que o agente agiu com negligência, imprudência ou imperícia — é justamente essa dispensa que caracteriza a objetividade da responsabilidade.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Excludentes e atenuantes de responsabilidade</h4><p>Por ser <strong>risco administrativo</strong> (e não risco integral), a responsabilidade objetiva do Estado admite excludentes ou atenuantes: <strong>culpa exclusiva da vítima</strong> (afasta totalmente o dever de indenizar), <strong>culpa concorrente</strong> (reduz proporcionalmente a indenização), <strong>caso fortuito e força maior</strong> (afastam o nexo causal quando o evento é estranho à atuação estatal) e <strong>fato de terceiro</strong>, a depender das circunstâncias. Essas hipóteses rompem o nexo de causalidade e, por isso, afastam ou atenuam a responsabilidade.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> a banca gosta de afirmar que a responsabilidade objetiva 'dispensa qualquer excludente' — falso: a teoria do risco administrativo (não a do risco integral) admite excludentes.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Abrangência subjetiva e ação de regresso</h4><p>O art. 37, §6º, CF/1988 abrange <strong>pessoas jurídicas de direito público</strong> (União, Estados, DF, Municípios, autarquias e fundações públicas de direito público, como o próprio INSS) e <strong>pessoas jurídicas de direito privado prestadoras de serviços públicos</strong> (empresas públicas e sociedades de economia mista prestadoras de serviço público, concessionárias e permissionárias), inclusive quanto a <strong>usuários e não usuários</strong> do serviço, conforme entendimento do STF (RE 591.874, com repercussão geral). Já a <strong>ação de regresso</strong> do Estado contra o agente causador do dano é de <strong>responsabilidade subjetiva</strong>: exige prova de dolo ou culpa do agente, não bastando o nexo entre a conduta e o dano.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Confirmar que a responsabilidade do Estado perante a vítima dispensa dolo/culpa do agente (objetiva). 2) Lembrar que 'objetiva' não é sinônimo de 'sem excludentes' — culpa exclusiva da vítima, caso fortuito e força maior podem afastar o dever de indenizar. 3) Separar a relação Estado-vítima (objetiva) da relação Estado-agente na ação de regresso (subjetiva, exige dolo ou culpa). 4) Lembrar que a regra também alcança pessoas jurídicas de direito privado prestadoras de serviço público.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa B — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A teoria do risco administrativo, adotada pelo art. 37, §6º, da Constituição Federal, dispensa a prova de culpa do agente público, bastando a demonstração do dano, da conduta estatal e do nexo de causalidade entre ambos. Por não se tratar de risco integral, admite-se, todavia, que o Poder Público demonstre causa excludente, como culpa exclusiva da vítima, caso fortuito ou força maior, para afastar ou atenuar o dever de indenizar.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — responsabilidade objetiva exigiria prova de dolo ou culpa do agente pela vítima</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato confunde a responsabilidade do Estado perante a vítima com a ação de regresso do Estado contra o agente.<br><strong>Onde quebra:</strong> na relação entre o Estado e a vítima, a responsabilidade é objetiva e dispensa justamente a prova de dolo ou culpa do agente; essa prova só é exigida na ação de regresso do Estado contra o próprio agente.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — responsabilidade objetiva não alcançaria pessoas jurídicas de direito privado prestadoras de serviço público</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa 'responsabilidade do Estado' apenas à Administração direta e autarquias.<br><strong>Onde quebra:</strong> o próprio art. 37, §6º, CF/1988 estende a responsabilidade objetiva às pessoas jurídicas de direito privado prestadoras de serviços públicos, alcançando, conforme o STF (RE 591.874), tanto usuários quanto não usuários do serviço.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa D — o direito de regresso seria também de responsabilidade objetiva</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato estende a lógica da objetividade, presente na relação Estado-vítima, para a relação interna Estado-agente.<br><strong>Onde quebra:</strong> o próprio art. 37, §6º, CF/1988 condiciona o direito de regresso à existência de dolo ou culpa do agente, tratando-se, nessa relação específica, de responsabilidade subjetiva.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — a omissão estatal geraria sempre responsabilidade objetiva idêntica à da conduta comissiva</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato generaliza a regra do risco administrativo para toda e qualquer omissão estatal.<br><strong>Onde quebra:</strong> a doutrina majoritária e a jurisprudência, em regra, tratam a omissão do Estado sob a ótica da responsabilidade subjetiva (culpa anônima do serviço), exigindo a demonstração de que havia dever legal específico de agir e que a inércia estatal contribuiu para o dano, não bastando o mero nexo naturalístico.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Fixe a fórmula: <strong>conduta + dano + nexo = responsabilidade objetiva do Estado</strong>, sem dolo/culpa; mas <strong>culpa exclusiva da vítima, caso fortuito e força maior quebram o nexo</strong> e afastam o dever de indenizar. Para a ação de regresso contra o agente, lembre sempre: precisa de <strong>dolo ou culpa</strong>.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-scale-balanced",
+      "titulo": "Responsabilidade objetiva",
+      "text": "Dispensa a prova de dolo ou culpa do agente; exige apenas conduta, dano e nexo de causalidade."
+    },
+    {
+      "icone": "fa-triangle-exclamation",
+      "titulo": "Teoria do risco administrativo",
+      "text": "Fundamento adotado pelo art. 37, §6º, CF/1988, que admite excludentes (não é risco integral)."
+    },
+    {
+      "icone": "fa-user-shield",
+      "titulo": "Excludentes de responsabilidade",
+      "text": "Culpa exclusiva da vítima, caso fortuito e força maior rompem o nexo causal e afastam o dever de indenizar."
+    },
+    {
+      "icone": "fa-rotate-right",
+      "titulo": "Ação de regresso",
+      "text": "Ação do Estado contra o agente causador do dano, de natureza subjetiva, exigindo prova de dolo ou culpa."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Art. 37, §6º, CF/1988",
+      "text": "Fundamento constitucional da responsabilidade civil objetiva de pessoas jurídicas de direito público e de direito privado prestadoras de serviço público."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+},
+
+  {
+  "id": "q245",
+  "numero": "Questão 20",
+  "ano": "2022",
+  "caderno": "Técnico do Seguro Social — Direito Administrativo",
+  "area": "inss",
+  "areaNome": "Concurso INSS",
+  "categoria": "INSS",
+  "materiaId": "direito-administrativo",
+  "materia": "Direito Administrativo / Lei de Improbidade Administrativa (Lei 8.429/1992)",
+  "materiaCor": "violet",
+  "materiaIcone": "fa-building-columns",
+  "titulo": "Lei de Improbidade Administrativa: categorias de atos, elemento subjetivo e sanções",
+  "tags": [
+    "improbidade administrativa",
+    "Lei 8.429/1992",
+    "Lei 14.230/2021",
+    "enriquecimento ilícito",
+    "prejuízo ao erário"
+  ],
+  "alternativaCorreta": "D",
+  "userNotes": "",
+  "userCustomImage": null,
+  "enunciado": "A Lei 8.429/1992 (Lei de Improbidade Administrativa) classifica os atos ímprobos em três categorias — enriquecimento ilícito (art. 9º), prejuízo ao erário (art. 10) e atentado aos princípios da administração pública (art. 11) — e foi substancialmente alterada pela Lei 14.230/2021, especialmente quanto ao elemento subjetivo exigido para a configuração do ato de improbidade.<br><br>A respeito desse tema, assinale a alternativa correta.",
+  "alternativas": [
+    {
+      "letra": "A",
+      "texto": "O ato de improbidade administrativa que causa prejuízo ao erário, previsto no art. 10 da Lei 8.429/1992, pode ser praticado tanto a título de dolo quanto de culpa, dispensando-se a comprovação do elemento subjetivo doloso do agente.",
+      "correta": false
+    },
+    {
+      "letra": "B",
+      "texto": "O enriquecimento ilícito, modalidade mais grave de improbidade administrativa, prescinde da demonstração de dolo do agente público, bastando a existência de vantagem patrimonial indevida auferida em razão do exercício de cargo, mandato, função, emprego ou atividade nas entidades mencionadas na lei.",
+      "correta": false
+    },
+    {
+      "letra": "C",
+      "texto": "As sanções previstas na Lei 8.429/1992 incluem exclusivamente a perda da função pública e a suspensão dos direitos políticos, não se admitindo a cumulação com sanções de natureza pecuniária, como multa civil e ressarcimento ao erário.",
+      "correta": false
+    },
+    {
+      "letra": "D",
+      "texto": "A Lei 8.429/1992, com as alterações promovidas pela Lei 14.230/2021, passou a exigir a comprovação de dolo para a configuração de qualquer ato de improbidade administrativa, inclusive nas hipóteses de dano ao erário, não mais admitindo a modalidade culposa anteriormente prevista no art. 10.",
+      "correta": true
+    },
+    {
+      "letra": "E",
+      "texto": "O ato de improbidade que atenta contra os princípios da administração pública, previsto no art. 11 da Lei 8.429/1992, dispensa a ocorrência de dano ao erário ou de enriquecimento ilícito, bastando a mera irregularidade formal do ato administrativo praticado pelo agente público, independentemente de dolo.",
+      "correta": false
+    }
+  ],
+  "materiaCompleta": "<div class='space-y-5 text-sm text-slate-200 leading-relaxed'><p class='text-slate-400 text-xs italic border-l-2 border-violet-500 pl-3'>A Lei de Improbidade Administrativa (Lei 8.429/1992) é cobrada com frequência crescente desde a reforma promovida pela Lei 14.230/2021, que endureceu o requisito subjetivo dos atos ímprobos — mudança que costuma ser o centro das pegadinhas de prova sobre o tema.</p><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>1.</span> As três categorias de atos de improbidade administrativa</h4><p>A Lei 8.429/1992 organiza os atos de improbidade administrativa em três categorias, definidas por critérios distintos: <strong>art. 9º — enriquecimento ilícito</strong> (o agente aufere vantagem patrimonial indevida em razão do exercício de cargo, mandato, função, emprego ou atividade); <strong>art. 10 — prejuízo ao erário</strong> (a conduta causa perda patrimonial, desvio, apropriação ou dilapidação de bens ou haveres públicos); e <strong>art. 11 — atentado aos princípios da administração pública</strong> (a conduta viola deveres de honestidade, imparcialidade, legalidade e lealdade às instituições, sem necessariamente causar dano ao erário ou gerar enriquecimento).</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>2.</span> A reforma da Lei 14.230/2021: exigência de dolo</h4><p>Antes de 2021, o art. 10 (dano ao erário) admitia a modalidade <strong>culposa</strong>, bastando negligência, imprudência ou imperícia do agente. A <strong>Lei 14.230/2021</strong> alterou profundamente esse regime: passou a exigir a comprovação de <strong>dolo</strong> para a configuração de <strong>qualquer</strong> ato de improbidade administrativa, inclusive nas hipóteses de dano ao erário, <strong>extinguindo a modalidade culposa</strong> do art. 10. Além disso, para os atos do art. 11 (princípios), a reforma passou a exigir <strong>dolo específico</strong> — a vontade deliberada de praticar conduta que viole os deveres funcionais, e não mera irregularidade ou erro de interpretação de norma.</p><p class='bg-slate-950 border border-slate-800 rounded-lg p-3 text-xs'><strong class='text-violet-300'>Pegadinha de prova:</strong> muitas questões ainda cobram a redação antiga da lei (dano ao erário por culpa) para testar se o candidato está atualizado com a reforma de 2021 — atenção redobrada a esse ponto.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>3.</span> Sanções aplicáveis</h4><p>As sanções da Lei 8.429/1992 variam conforme a categoria e a gravidade do ato, podendo ser aplicadas de forma <strong>cumulativa</strong> (dentro dos limites e critérios da própria lei): perda dos bens ou valores acrescidos ilicitamente ao patrimônio; ressarcimento integral do dano, quando houver; perda da função pública; suspensão dos direitos políticos (em prazos diferenciados por categoria de ato); pagamento de multa civil; e proibição de contratar com o Poder Público ou receber benefícios ou incentivos fiscais ou creditícios, por prazo determinado.</p></div><div class='space-y-2'><h4 class='text-white font-bold flex items-center gap-2'><span class='text-violet-400'>4.</span> Legitimidade e competência</h4><p>A ação por improbidade é de natureza <strong>civil</strong>, proposta pelo <strong>Ministério Público</strong> ou pela <strong>pessoa jurídica interessada</strong>, perante o juízo competente. Após a Lei 14.230/2021, extinguiu-se a legitimidade concorrente de qualquer outro legitimado que não esses dois, e o rito processual passou a seguir, subsidiariamente, o procedimento comum do Código de Processo Civil.</p></div></div>",
+  "resolucaoHtml": "<div class='space-y-4 text-xs'><div class='bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2'><h4 class='font-bold text-slate-200 flex items-center gap-2'><i class='fa-solid fa-list-check text-violet-400'></i> Estratégia</h4><p class='text-slate-300 leading-relaxed'>1) Verificar se a alternativa trata da lei antes ou depois da reforma de 2021 quanto ao elemento subjetivo. 2) Lembrar que, após a Lei 14.230/2021, todo ato de improbidade exige dolo, inclusive dano ao erário (art. 10), que antes admitia culpa. 3) Não confundir as sanções, que podem ser cumulativas e vão além de perda de função e suspensão de direitos políticos. 4) Lembrar que o art. 11 exige dolo específico, não bastando mera irregularidade formal.</p></div><div class='bg-violet-950/40 p-4 rounded-xl border border-violet-500/40 space-y-2'><h4 class='font-bold text-violet-300 flex items-center gap-2'><i class='fa-solid fa-circle-check'></i> Alternativa D — CORRETA</h4><p class='text-slate-200 leading-relaxed'>A Lei 8.429/1992, com as alterações promovidas pela Lei 14.230/2021, passou a exigir a comprovação de dolo para a configuração de qualquer ato de improbidade administrativa, inclusive nas hipóteses de dano ao erário (art. 10), não mais admitindo a modalidade culposa que anteriormente constava desse dispositivo.</p></div><div class='space-y-2'><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa A — prejuízo ao erário admitiria dolo ou culpa, dispensando dolo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato aplica a redação antiga da lei, vigente antes de 2021, quando o art. 10 realmente admitia a modalidade culposa.<br><strong>Onde quebra:</strong> desde a Lei 14.230/2021, o art. 10 exige dolo do agente; a modalidade culposa foi expressamente extinta pela reforma, não podendo mais fundamentar condenação por improbidade.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa B — enriquecimento ilícito prescindiria de dolo</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato foca apenas no resultado (vantagem patrimonial indevida) e esquece do elemento subjetivo exigido pela lei.<br><strong>Onde quebra:</strong> o enriquecimento ilícito, categoria mais grave do art. 9º, sempre exigiu — e continua exigindo — a comprovação de dolo do agente, não bastando a existência objetiva de vantagem patrimonial.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa C — as sanções se limitariam a perda de função e suspensão de direitos políticos, sem cumulação com multa e ressarcimento</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato lembra apenas as sanções mais 'famosas' e esquece as demais previstas na lei.<br><strong>Onde quebra:</strong> a Lei 8.429/1992 prevê também perda de bens acrescidos ilicitamente, ressarcimento integral do dano, multa civil e proibição de contratar com o Poder Público, sanções que podem ser aplicadas cumulativamente, conforme a gravidade do ato.</p></div><div class='p-3 bg-slate-950 rounded-xl border border-rose-500/30'><strong class='text-rose-400 block mb-1'><i class='fa-solid fa-xmark'></i> Alternativa E — atos contra os princípios dispensariam dolo, bastando irregularidade formal</strong><p class='text-slate-300 leading-relaxed'><strong>Por que parece certa:</strong> o candidato associa 'atentado a princípios' a qualquer falha procedimental do agente público.<br><strong>Onde quebra:</strong> após a Lei 14.230/2021, o art. 11 exige dolo específico — a vontade deliberada de violar os deveres funcionais —, não bastando mera irregularidade formal, erro escusável ou divergência de interpretação de norma para configurar improbidade.</p></div></div><div class='p-3 bg-emerald-950/30 rounded-xl border border-emerald-500/30'><strong class='text-emerald-400 block mb-1'><i class='fa-solid fa-key'></i> Dica</strong><p class='text-slate-300 leading-relaxed'>Depois da Lei 14.230/2021, fixe uma regra única: <strong>'sem dolo não há improbidade'</strong> — inclusive no art. 10, que antes admitia culpa. Sempre que uma alternativa falar em 'culpa' como suficiente para configurar improbidade, desconfie: é pegadinha da redação antiga da lei.</p></div></div>",
+  "conceitos": [
+    {
+      "icone": "fa-sack-dollar",
+      "titulo": "Enriquecimento ilícito (art. 9º)",
+      "text": "Vantagem patrimonial indevida auferida pelo agente em razão do exercício de cargo, mandato, função ou emprego público — exige dolo."
+    },
+    {
+      "icone": "fa-building-columns",
+      "titulo": "Prejuízo ao erário (art. 10)",
+      "text": "Perda patrimonial ou desvio de bens públicos; após a Lei 14.230/2021, exige dolo, extinta a modalidade culposa."
+    },
+    {
+      "icone": "fa-gavel",
+      "titulo": "Atentado aos princípios (art. 11)",
+      "text": "Violação dolosa e específica dos deveres de honestidade, imparcialidade e legalidade, sem exigir dano ao erário."
+    },
+    {
+      "icone": "fa-file-contract",
+      "titulo": "Lei 14.230/2021",
+      "text": "Reforma que unificou a exigência de dolo para todos os atos de improbidade e extinguiu a modalidade culposa do art. 10."
+    },
+    {
+      "icone": "fa-user-slash",
+      "titulo": "Sanções da Lei 8.429/1992",
+      "text": "Perda de bens, ressarcimento, perda da função pública, suspensão de direitos políticos, multa civil e proibição de contratar, aplicáveis cumulativamente."
+    }
+  ],
+  "galeria": null,
+  "diagramaHtml": null,
+  "simulador": null,
+  "simuladorType": null
+}
 ];
