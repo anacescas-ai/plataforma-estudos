@@ -42690,5 +42690,80 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     conceitos: [],
     diagramaHtml: null,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS028",
+    numero: "Questão 28",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Equidade na Forma de Participação no Custeio — Art. 194, V",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Equidade", "Custeio", "Capacidade Contributiva", "Art. 194"],
+    alternativaCorreta: "D",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, V, da Constituição Federal de 1988 prevê a <em>equidade na forma de participação no custeio</em> como objetivo da seguridade social. Com base nesse princípio e em sua relação com o sistema tributário, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "O princípio da equidade na participação no custeio determina que todos os contribuintes da seguridade social — empregados, empregadores e autônomos — devem recolher as contribuições sociais em alíquotas idênticas, como expressão da isonomia tributária.", correta: false },
+      { letra: "B", texto: "Em razão do princípio da equidade, é vedado ao legislador ordinário criar alíquotas diferenciadas de contribuição previdenciária para empresas de diferentes ramos de atividade econômica, pois isso violaria a isonomia entre os contribuintes.", correta: false },
+      { letra: "C", texto: "A equidade na participação no custeio aplica-se exclusivamente às contribuições dos empregados, determinando que segurados de menor renda recolham alíquotas menores do que os de maior renda, sem qualquer limitação constitucional expressa.", correta: false },
+      { letra: "D", texto: "O princípio da equidade na participação no custeio é uma manifestação da capacidade contributiva aplicada à seguridade social, admitindo que contribuintes em situações distintas sejam tratados de forma diferenciada, de modo que contribua mais quem tem maior capacidade econômica.", correta: true },
+      { letra: "E", texto: "A equidade na forma de participação no custeio impõe que empregados e empregadores contribuam sempre com o mesmo percentual sobre o salário de contribuição, como forma de garantir a isonomia entre as partes da relação de trabalho.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Equidade ≠ Igualdade</h4><p><strong class="text-emerald-300">IGUALDADE (isonomia formal):</strong> todos pagam o mesmo percentual, independentemente de suas condições. "Tratar igualmente os iguais."</p><p><strong class="text-emerald-300">EQUIDADE (isonomia material):</strong> quem pode mais, contribui mais; quem pode menos, contribui menos. "Tratar desigualmente os desiguais, na medida de sua desigualdade." É a capacidade contributiva aplicada à seguridade.</p></div><div class="space-y-2"><h4 class="text-white font-bold">Manifestações Práticas</h4><p>Justifica: alíquotas progressivas de contribuição do empregado (7,5% a 14%); alíquotas diferenciadas para empresas com atividade mais gravosa; contribuição patronal diferenciada por ramo de atividade (ex: SAT/RAT).</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, V:</strong> "equidade na forma de participação no custeio." Combinado com o Art. 145, §1º (princípio da capacidade contributiva): "sempre que possível, os impostos terão caráter pessoal e serão graduados segundo a capacidade econômica do contribuinte." A equidade no custeio da seguridade é uma expressão desse princípio aplicado às contribuições sociais.</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa D)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa D identifica corretamente que equidade é capacidade contributiva aplicada à seguridade. Ela <em>não exige igualdade</em> — exige proporcionalidade e justiça distributiva no custeio. Quem tem maior capacidade econômica suporta carga maior; quem tem menor capacidade, carga menor. Isso justifica, por exemplo, as alíquotas progressivas da contribuição previdenciária dos empregados.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa A</strong>
+            <p class="text-slate-300 leading-relaxed">O erro fatal está em <strong>"alíquotas idênticas"</strong>. Alíquotas iguais para todos seria isonomia formal (igualdade), não equidade. A equidade admite — e exige — diferenciação conforme a capacidade de cada contribuinte.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"é vedado... criar alíquotas diferenciadas para empresas de diferentes ramos"</strong>. Exatamente o contrário: o princípio da equidade <em>autoriza</em> essa diferenciação. O SAT/RAT (Seguro de Acidente do Trabalho) é exemplo clássico de alíquotas diferenciadas por grau de risco.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"aplica-se exclusivamente às contribuições dos empregados"</strong>. A equidade se aplica a todos os contribuintes do sistema — empregados, empregadores, autônomos etc. Não há restrição subjetiva no texto constitucional.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"mesmo percentual"</strong>. Empregados e empregadores já contribuem com percentuais distintos na prática (o empregado contribui sobre o salário; o empregador, sobre a folha, com 20% + RAT + terceiros). A equidade justifica exatamente essas diferenças.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">O CEBRASPE adora confundir <strong>equidade com igualdade</strong>. Se a questão disser que equidade significa "todos pagam a mesma alíquota" ou "tratamento idêntico" — é ERRADO. Equidade é tratar <em>desigualmente os desiguais</em>. Quem ganha mais, paga mais. Quem representa maior risco, paga mais. Isso é equidade, não igualdade.</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "O princípio da equidade no custeio da seguridade veda a criação de alíquotas progressivas de contribuição previdenciária para empregados de diferentes faixas salariais." (ERRADO — a equidade justifica exatamente a progressividade).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "O SAT/RAT (Seguro de Acidente do Trabalho) com alíquotas diferenciadas por grau de risco da atividade é manifestação do princípio da equidade na participação no custeio." (CERTO).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">EQUIDADE = "Cada um contribui conforme o que tem!" ⚖️<br>≠ IGUALDADE ("todos pagam igual")<br>Maior capacidade → Maior contribuição. É justiça, não uniformidade!</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
   }
 ];
