@@ -42765,5 +42765,80 @@ Há cerca de oito anos, Pequena adoeceu e ficou entre a vida e a morte. Nesse mo
     conceitos: [],
     diagramaHtml: null,
     simuladorType: null
+  },
+
+  {
+    id: "qINSS029",
+    numero: "Questão 29",
+    ano: "2024",
+    caderno: "Prova Técnico do Seguro Social (CEBRASPE)",
+    area: "inss",
+    areaNome: "Concurso INSS",
+    categoria: "INSS",
+    materiaId: "direito-previdenciario",
+    materia: "Direito Previdenciário / Seguridade Social",
+    materiaCor: "emerald",
+    materiaIcone: "fa-piggy-bank",
+    titulo: "Diversidade da Base de Financiamento e Gestão Quadripartite — Art. 194, VI e VII",
+    tags: ["INSS", "Previdenciário", "Seguridade Social", "Diversidade", "Financiamento", "Gestão", "Quadripartite", "Art. 194"],
+    alternativaCorreta: "A",
+    userNotes: "",
+    userCustomImage: null,
+    enunciado: `O art. 194, parágrafo único, incisos VI e VII, da Constituição Federal de 1988 prevê, como objetivos da seguridade social, a <em>diversidade da base de financiamento</em> e o <em>caráter democrático e descentralizado da administração</em>. Com base nesses princípios, assinale a alternativa <strong>CORRETA</strong>:`,
+    alternativas: [
+      { letra: "A", texto: "O caráter democrático e descentralizado da administração da seguridade social é implementado por meio de gestão quadripartite, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados.", correta: true },
+      { letra: "B", texto: "O caráter democrático e descentralizado da administração da seguridade social previsto na CF/88 é implementado por meio de gestão tripartite, com participação paritária de trabalhadores, empregadores e Governo nos órgãos colegiados.", correta: false },
+      { letra: "C", texto: "O princípio da diversidade da base de financiamento determina que a seguridade social deve ser financiada exclusivamente pelas contribuições sociais dos empregados e empregadores, vedada qualquer outra fonte de custeio.", correta: false },
+      { letra: "D", texto: "Em razão do princípio da diversidade da base de financiamento, é vedada a utilização de receitas de concursos de prognósticos (loterias) para o custeio da seguridade social, por se tratar de fonte incompatível com a natureza previdenciária do sistema.", correta: false },
+      { letra: "E", texto: "O princípio da diversidade da base de financiamento exige que cada área da seguridade social — saúde, previdência e assistência — seja financiada por fontes completamente distintas e independentes, sem possibilidade de qualquer comunicação entre os recursos arrecadados.", correta: false }
+    ],
+    materiaCompleta: `<div class="space-y-5 text-sm text-slate-200 leading-relaxed"><div class="space-y-2"><h4 class="text-white font-bold">Diversidade da Base de Financiamento (Art. 194, VI)</h4><p>A seguridade não pode depender de uma única fonte. O Art. 195 lista as fontes: <strong>1)</strong> folha de salários e rendimentos do trabalho (empregador); <strong>2)</strong> receita ou faturamento (PIS/COFINS); <strong>3)</strong> lucro (CSLL); <strong>4)</strong> receita de concursos de prognósticos (loterias); <strong>5)</strong> importador de bens e serviços. A diversidade protege o sistema contra a dependência de uma única fonte e eventuais crises setoriais.</p></div><div class="space-y-2"><h4 class="text-white font-bold">Gestão QUADRIPARTITE (Art. 194, VII)</h4><p>A administração da seguridade social é democrática e descentralizada, com gestão de <strong>4 atores</strong>: <strong>Trabalhadores + Empregadores + Aposentados + Governo</strong>. O CEBRASPE adora omitir os aposentados e dizer que é tripartite. A EC 103/2019 reforçou a identidade quadripartite.</p></div></div>`,
+    resolucaoHtml: `
+      <div class="space-y-4 text-xs">
+        <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 space-y-2">
+          <h4 class="font-bold text-slate-200 flex items-center gap-2"><i class="fa-solid fa-scale-balanced text-slate-400"></i> Fundamentação Legal</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>CF/88, Art. 194, parágrafo único, VI:</strong> "diversidade da base de financiamento, identificando-se, em rubricas contábeis específicas para cada área, as receitas e as despesas vinculadas a ações de saúde, previdência social e assistência social." <strong>Art. 194, parágrafo único, VII:</strong> "caráter democrático e descentralizado da administração, mediante gestão <u>quadripartite</u>, com participação dos trabalhadores, dos empregadores, dos aposentados e do Governo nos órgãos colegiados." (Redação da EC 20/1998).</p>
+        </div>
+        <div class="bg-emerald-950/40 p-4 rounded-xl border border-emerald-500/40 space-y-2">
+          <h4 class="font-bold text-emerald-300 flex items-center gap-2"><i class="fa-solid fa-circle-check"></i> O porquê do acerto (Alternativa A)</h4>
+          <p class="text-slate-200 leading-relaxed">A alternativa A reproduz literalmente o texto do Art. 194, VII, com a redação dada pela EC 20/1998. Os quatro atores da gestão são: <strong>trabalhadores + empregadores + aposentados + Governo</strong>. A presença dos aposentados como grupo autônomo (4º elemento) é o detalhe que diferencia a gestão quadripartite da tripartite, e é exatamente o ponto que o CEBRASPE mais explora.</p>
+        </div>
+        <div class="space-y-2">
+          <h4 class="font-bold text-rose-300 flex items-center gap-2 mt-4 mb-2"><i class="fa-solid fa-xmark"></i> Raio-X dos Erros</h4>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa B</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está na palavra <strong>"tripartite"</strong>. A CF/88 é expressa: a gestão é <em>quadripartite</em> — quatro partes, não três. A alternativa omite os <strong>aposentados</strong>, que são o 4º grupo previsto no texto constitucional.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa C</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"exclusivamente pelas contribuições sociais dos empregados e empregadores"</strong>. O Art. 195 prevê múltiplas fontes: folha de salários, receita/faturamento, lucro, loterias e importação. A diversidade é exatamente a antítese da exclusividade.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa D</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"é vedada a utilização de receitas de loterias"</strong>. O Art. 195, III, expressamente lista "receita de concursos de prognósticos" como fonte legítima de custeio da seguridade social. É fonte expressamente prevista na Constituição.</p>
+          </div>
+          <div class="p-3 bg-slate-950 rounded-xl border border-rose-500/30">
+            <strong class="text-rose-400 block mb-1">Alternativa E</strong>
+            <p class="text-slate-300 leading-relaxed">O erro está em <strong>"fontes completamente distintas e independentes, sem possibilidade de comunicação"</strong>. A diversidade da base exige que as receitas e despesas de cada área sejam identificadas em rubricas contábeis específicas — não que as fontes sejam completamente incomunicáveis entre si.</p>
+          </div>
+        </div>
+        <div class="mt-4 p-4 bg-amber-950/30 rounded-xl border border-amber-500/40 space-y-2">
+          <h4 class="font-bold text-amber-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-triangle-exclamation"></i> Olho na Pegadinha</h4>
+          <p class="text-slate-300 leading-relaxed">A pegadinha favorita do CEBRASPE neste tema: afirmar que a gestão da seguridade é <strong>tripartite</strong> (trabalhadores, empregadores e Governo). ERRADO! A CF/88 é clara: gestão <strong>QUADRIPARTITE</strong> — os aposentados são o 4º grupo, listados expressamente no Art. 194, VII. Nunca esqueça do grupo dos aposentados!</p>
+        </div>
+        <div class="mt-4 p-4 bg-blue-950/30 rounded-xl border border-blue-500/40 space-y-2">
+          <h4 class="font-bold text-blue-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-clipboard-question"></i> Como a Banca Cobra</h4>
+          <p class="text-slate-300 leading-relaxed"><strong>Variação 1 (Certo/Errado):</strong> "A gestão da seguridade social, nos termos da CF/88, ocorre de forma tripartite, com a participação de trabalhadores, empregadores e Governo." (ERRADO — são quatro grupos: inclui os aposentados).</p>
+          <p class="text-slate-300 leading-relaxed mt-2"><strong>Variação 2:</strong> "A receita oriunda de concursos de prognósticos é fonte constitucionalmente vedada para o custeio da seguridade social." (ERRADO — está expressamente prevista no Art. 195, III).</p>
+        </div>
+        <div class="mt-4 p-4 bg-purple-950/30 rounded-xl border border-purple-500/40 space-y-2">
+          <h4 class="font-bold text-purple-400 flex items-center gap-2 text-sm uppercase tracking-wider"><i class="fa-solid fa-brain"></i> Gatilho Mental</h4>
+          <p class="text-slate-200 leading-relaxed font-mono font-bold text-center text-sm">GESTÃO = QUAD-RI-PARTITE 🏛️ (4 partes!)<br>Trabalhadores + Empregadores + APOSENTADOS + Governo<br>"TRI? Faltou o aposentado!" ← Erro clássico do CEBRASPE</p>
+        </div>
+      </div>
+    `,
+    conceitos: [],
+    diagramaHtml: null,
+    simuladorType: null
   }
 ];
